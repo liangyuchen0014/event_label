@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "baste.01",
+        "roleset_name": "moisten periodically with liquid while cooking",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, chef"
+            },
+            {
+                "n": "1",
+                "descr": "thing being moistened"
+            },
+            {
+                "n": "2",
+                "descr": "liquid"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "baste.02",
+        "roleset_name": "strike violently and repeatedly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, person doing the hitting"
+            },
+            {
+                "n": "1",
+                "descr": "patient, person being hit"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "baste.03",
+        "roleset_name": "stitch together loosely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, stitcher"
+            },
+            {
+                "n": "1",
+                "descr": "patient 1 (or all patients), thing(s) being stitched"
+            },
+            {
+                "n": "2",
+                "descr": "patient 2, thing being stitched to"
+            }
+        ]
+    }
+]

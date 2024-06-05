@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "term.01",
+        "roleset_name": "assign a label",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "item being labelled"
+            },
+            {
+                "n": "3",
+                "descr": "attribute"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "come_to_terms.02",
+        "roleset_name": "arrive at an agreement",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first party (or all parties)"
+            },
+            {
+                "n": "1",
+                "descr": "subject matter of the dispute"
+            },
+            {
+                "n": "2",
+                "descr": "second party"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "come_to_terms.03",
+        "roleset_name": "arrive at a sense of okay-ness regarding a problem",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity coming to terms with a problem"
+            },
+            {
+                "n": "1",
+                "descr": "the problem"
+            }
+        ]
+    }
+]

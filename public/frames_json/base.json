@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "base.01",
+        "roleset_name": "be located in",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent basing something somewhere"
+            },
+            {
+                "n": "1",
+                "descr": "institution"
+            },
+            {
+                "n": "m",
+                "descr": "M-LOC location, where arg1 is based"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "base.02",
+        "roleset_name": "justified by, made up of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "justifier, agent (rarely seen)"
+            },
+            {
+                "n": "1",
+                "descr": "decision, whole"
+            },
+            {
+                "n": "2",
+                "descr": "justification, parts/ arg1 is made up of what?"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "baseline.04",
+        "roleset_name": "the starting-point or control state of an entity, which is used for comparison",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity with a baseline"
+            },
+            {
+                "n": "2",
+                "descr": "instrument; thing that establishes baseline value"
+            },
+            {
+                "n": "3",
+                "descr": "baseline value/condition"
+            }
+        ]
+    }
+]

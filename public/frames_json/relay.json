@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "relay.01",
+        "roleset_name": "send along, transmit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing sent"
+            },
+            {
+                "n": "2",
+                "descr": "sent to"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "relay.02",
+        "roleset_name": "relay race",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "baton carrier, current racer"
+            },
+            {
+                "n": "1",
+                "descr": "opponent"
+            },
+            {
+                "n": "2",
+                "descr": "baton; item passed off"
+            },
+            {
+                "n": "3",
+                "descr": "domain, type of race"
+            }
+        ]
+    }
+]

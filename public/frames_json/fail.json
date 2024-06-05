@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "fail.01",
+        "roleset_name": "not succeed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "assessor of not failing"
+            },
+            {
+                "n": "1",
+                "descr": "thing failing"
+            },
+            {
+                "n": "2",
+                "descr": "task"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "fail.02",
+        "roleset_name": "give failing grade",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "teacher"
+            },
+            {
+                "n": "1",
+                "descr": "student"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "logarithmic.01",
+        "roleset_name": "growth rate inverse to exponentiation (b to the y power equals x, with y being the log of x, logarithmic to x)",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "logarithmic thing (includes the log, which is the number of times arg2 is multiplied against itself, or y in the above equation)"
+            },
+            {
+                "n": "2",
+                "descr": "the base (number multiplied by itself arg1 times, b in the above equation)"
+            },
+            {
+                "n": "3",
+                "descr": "the antilogarithm (result when arg3 is multiplied by itself arg2 times, number the log is 'of', x in the above equation)"
+            }
+        ]
+    }
+]

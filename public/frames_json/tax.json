@@ -1,0 +1,67 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tax.01",
+        "roleset_name": "government charging money, tax, duty",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "taxer"
+            },
+            {
+                "n": "1",
+                "descr": "amount of tax"
+            },
+            {
+                "n": "2",
+                "descr": "taxpayer"
+            },
+            {
+                "n": "3",
+                "descr": "commodity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tax.03",
+        "roleset_name": "resultative construction",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "taxer"
+            },
+            {
+                "n": "1",
+                "descr": "thing changing state"
+            },
+            {
+                "n": "2",
+                "descr": "new state caused by taxing"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tax_away.02",
+        "roleset_name": "government charging money",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "taxer"
+            },
+            {
+                "n": "1",
+                "descr": "amount of tax"
+            },
+            {
+                "n": "2",
+                "descr": "taxpayer"
+            },
+            {
+                "n": "3",
+                "descr": "commodity"
+            }
+        ]
+    }
+]

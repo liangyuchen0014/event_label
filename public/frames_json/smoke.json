@@ -1,0 +1,47 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "smoke.01",
+        "roleset_name": "emit smoke, inhaling, event where smoking occurs",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of smoke emission"
+            },
+            {
+                "n": "1",
+                "descr": "substance smoking"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "smoke.02",
+        "roleset_name": "smoke cigarettes",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "smoker"
+            },
+            {
+                "n": "1",
+                "descr": "cigarettes (etc)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "smoke.03",
+        "roleset_name": "imbue smoky flavor",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "smoker"
+            },
+            {
+                "n": "1",
+                "descr": "thing acquiring smoky flavor"
+            }
+        ]
+    }
+]

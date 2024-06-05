@@ -1,0 +1,526 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "run.01",
+        "roleset_name": "operate, proceed, operate or proceed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "operator"
+            },
+            {
+                "n": "1",
+                "descr": "machine, operation, procedure"
+            },
+            {
+                "n": "2",
+                "descr": "employer"
+            },
+            {
+                "n": "3",
+                "descr": "coworker"
+            },
+            {
+                "n": "4",
+                "descr": "instrumental"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "run.02",
+        "roleset_name": "walk quickly, a course or contest, run/jog, run for office",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "runner"
+            },
+            {
+                "n": "1",
+                "descr": "course, race, distance"
+            },
+            {
+                "n": "2",
+                "descr": "opponent"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "run.03",
+        "roleset_name": "cost",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "commodity"
+            },
+            {
+                "n": "2",
+                "descr": "price"
+            },
+            {
+                "n": "3",
+                "descr": "buyer"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "run.04",
+        "roleset_name": "range, extend",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent (rare)"
+            },
+            {
+                "n": "1",
+                "descr": "logical subject, thing ranging"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, distance run"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "run.07",
+        "roleset_name": "run into: encounter",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "encounterer"
+            },
+            {
+                "n": "1",
+                "descr": "thing encountered"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "run.08",
+        "roleset_name": "caused motion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            },
+            {
+                "n": "3",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "run.09",
+        "roleset_name": "cause to appear in media, broadcasting",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "advertiser"
+            },
+            {
+                "n": "1",
+                "descr": "advertisement, series, etc"
+            },
+            {
+                "n": "2",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "run.10",
+        "roleset_name": "various idioms/multi-word expressions, various idioms, multi-word expressions",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "runner, agent"
+            },
+            {
+                "n": "1",
+                "descr": "idiom; deficit, risk, etc."
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg 1"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "run.13",
+        "roleset_name": "progression over a specific (maybe time) span",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "instigator/ agent/ causer of run"
+            },
+            {
+                "n": "1",
+                "descr": "thing progressing"
+            },
+            {
+                "n": "2",
+                "descr": "time span"
+            },
+            {
+                "n": "3",
+                "descr": "secondary theme"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "run.14",
+        "roleset_name": "earn points (on exam/competition)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "athlete, scorer"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "run.15",
+        "roleset_name": "defect: hole or snag",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "damaged item or location of the run"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "run.16",
+        "roleset_name": "nomlike-run-away",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity escaping"
+            },
+            {
+                "n": "1",
+                "descr": "place or thing escaped"
+            },
+            {
+                "n": "2",
+                "descr": "running from"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "run.17",
+        "roleset_name": "mass mad dash to take money out of the banks",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "scared bank customers"
+            },
+            {
+                "n": "1",
+                "descr": "bank"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "run.23",
+        "roleset_name": "check information against a database",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "information checked"
+            },
+            {
+                "n": "2",
+                "descr": "database run against"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "run_out.05",
+        "roleset_name": "run out: exhaust, exhausting, running out",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "commodity"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "run_up.06",
+        "roleset_name": "run up: accumulate, accumulating",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity accumulating something"
+            },
+            {
+                "n": "1",
+                "descr": "thing/stuff accumulated"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "run_up.19",
+        "roleset_name": "progression (maybe time span) leading up to a deadline",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of running-up"
+            },
+            {
+                "n": "1",
+                "descr": "thing progressing"
+            },
+            {
+                "n": "2",
+                "descr": "deadline"
+            }
+        ]
+    },
+    {
+        "uid": 18,
+        "roleset_id": "run_down.11",
+        "roleset_name": "run_down: wear out, tire",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause of tiredness"
+            },
+            {
+                "n": "1",
+                "descr": "entity becoming tired"
+            }
+        ]
+    },
+    {
+        "uid": 19,
+        "roleset_id": "run_down.21",
+        "roleset_name": "explain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "explainer"
+            },
+            {
+                "n": "1",
+                "descr": "thing explained"
+            },
+            {
+                "n": "2",
+                "descr": "explained to"
+            }
+        ]
+    },
+    {
+        "uid": 20,
+        "roleset_id": "run_over.12",
+        "roleset_name": "drive over somebody/something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, driver"
+            },
+            {
+                "n": "1",
+                "descr": "victim, smashed thing"
+            },
+            {
+                "n": "2",
+                "descr": "vehicle"
+            }
+        ]
+    },
+    {
+        "uid": 21,
+        "roleset_id": "run_off.18",
+        "roleset_name": "final round of voting between remaining candidates",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "voters"
+            },
+            {
+                "n": "1",
+                "descr": "candidates"
+            },
+            {
+                "n": "2",
+                "descr": "position candidate will be elected to, subject matter of election"
+            }
+        ]
+    },
+    {
+        "uid": 22,
+        "roleset_id": "run_off.24",
+        "roleset_name": "run away, abscond",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "runaway"
+            },
+            {
+                "n": "1",
+                "descr": "thing taken"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            },
+            {
+                "n": "3",
+                "descr": "entity accompanied"
+            }
+        ]
+    },
+    {
+        "uid": 23,
+        "roleset_id": "run_in.20",
+        "roleset_name": "encounter",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the encountering"
+            },
+            {
+                "n": "1",
+                "descr": "subject-matter of the encounter"
+            },
+            {
+                "n": "2",
+                "descr": "entity encountered"
+            }
+        ]
+    },
+    {
+        "uid": 24,
+        "roleset_id": "runaround.22",
+        "roleset_name": "evasive or avoiding behavior",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer"
+            },
+            {
+                "n": "1",
+                "descr": "delayed or deceived entity"
+            },
+            {
+                "n": "2",
+                "descr": "topic, decieved about/delayed in"
+            }
+        ]
+    },
+    {
+        "uid": 25,
+        "roleset_id": "run_aground.25",
+        "roleset_name": "to touch ground below the water, become stuck because of it",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "captain"
+            },
+            {
+                "n": "1",
+                "descr": "ship, thing ran aground"
+            },
+            {
+                "n": "2",
+                "descr": "ground or shoal touched"
+            }
+        ]
+    },
+    {
+        "uid": 26,
+        "roleset_id": "run_afoul.26",
+        "roleset_name": "offend a person, break a set or rules or norms",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person running afoul; person offending"
+            },
+            {
+                "n": "1",
+                "descr": "thing or group offended"
+            },
+            {
+                "n": "2",
+                "descr": "action that ran afoul of norms"
+            }
+        ]
+    },
+    {
+        "uid": 27,
+        "roleset_id": "cut_and_run.27",
+        "roleset_name": "to hurry off promptly, escape, flee danger",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person fleeing, cutter and runner"
+            },
+            {
+                "n": "1",
+                "descr": "who or where they are leaving"
+            },
+            {
+                "n": "2",
+                "descr": "danger; in the face of what"
+            }
+        ]
+    },
+    {
+        "uid": 28,
+        "roleset_id": "have_good_run.28",
+        "roleset_name": "to conclude an activity after many accomplishments",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ground that had some success"
+            },
+            {
+                "n": "1",
+                "descr": "activity that one had some success at"
+            }
+        ]
+    }
+]

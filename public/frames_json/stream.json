@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stream.01",
+        "roleset_name": "release liquids",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "leaking container"
+            },
+            {
+                "n": "1",
+                "descr": "substance leaked"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stream.02",
+        "roleset_name": "move like water down a path",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "substance (ie, water)"
+            },
+            {
+                "n": "2",
+                "descr": "path"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "stream.03",
+        "roleset_name": "send data in real time over the internet",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "data"
+            },
+            {
+                "n": "2",
+                "descr": "source of data"
+            },
+            {
+                "n": "3",
+                "descr": "end point of data"
+            }
+        ]
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "close.01",
+        "roleset_name": "shut, closure of an entity, not open",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person doing the closing"
+            },
+            {
+                "n": "1",
+                "descr": "thing closing"
+            },
+            {
+                "n": "2",
+                "descr": "anti-beneficiary"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "close.02",
+        "roleset_name": "terminate",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing closing"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "close.03",
+        "roleset_name": "come about, come to completion (as of deals)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making the deal"
+            },
+            {
+                "n": "1",
+                "descr": "the deal"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "close.06",
+        "roleset_name": "become nearer",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "target"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "close.10",
+        "roleset_name": "spatially close, of concrete or abstract things",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity located near something, close thing"
+            },
+            {
+                "n": "2",
+                "descr": "location, close to what?"
+            },
+            {
+                "n": "3",
+                "descr": "scale"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "close.11",
+        "roleset_name": "similar, a near approximation,",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "copy, thing that is similar"
+            },
+            {
+                "n": "2",
+                "descr": "original, what arg1 is similar-to"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "close.12",
+        "roleset_name": "evenly matched, difficult to decide",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "case, vote, decision"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "close.13",
+        "roleset_name": "affectionate",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "affectionate entity/ies"
+            },
+            {
+                "n": "2",
+                "descr": "affectionate with whom?"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "close.14",
+        "roleset_name": "scrutiny, careful attention",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "observation/attention event (may require concatenation to include observer)"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "close_down.04",
+        "roleset_name": "close down: terminate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person doing the closing"
+            },
+            {
+                "n": "1",
+                "descr": "thing closing"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "close_off.05",
+        "roleset_name": "close off: shut",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person doing the closing"
+            },
+            {
+                "n": "1",
+                "descr": "thing closing"
+            },
+            {
+                "n": "2",
+                "descr": "anti-beneficiary"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "close_in.07",
+        "roleset_name": "close in: become nearer",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "target"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "close_over.08",
+        "roleset_name": "seal from the top",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing becoming sealed"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "close_up.09",
+        "roleset_name": "close_up: shut completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "closer"
+            },
+            {
+                "n": "1",
+                "descr": "place/thing being closed up"
+            }
+        ]
+    }
+]

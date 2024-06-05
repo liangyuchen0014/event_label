@@ -1,4 +1,4 @@
-# evnet_label
+# event_label
 
 ## Project setup
 ```

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "thunder.01",
+        "roleset_name": "make loud noises, speak loudly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thunderer"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "listener"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "thunder.02",
+        "roleset_name": "effect a change by speaking loudly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "thing affected"
+            },
+            {
+                "n": "2",
+                "descr": "effect, attribute of arg1"
+            }
+        ]
+    }
+]

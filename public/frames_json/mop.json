@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "mop.01",
+        "roleset_name": "clean a surface of liquid, with a mop or mopping implement",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mopper"
+            },
+            {
+                "n": "1",
+                "descr": "surface (ie, floor)"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (defaults to 'mop')"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mop_up.02",
+        "roleset_name": "clean up with a mop",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mopper"
+            },
+            {
+                "n": "1",
+                "descr": "surface (ie, floor)"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (defaults to 'mop')"
+            },
+            {
+                "n": "3",
+                "descr": "mess-maker"
+            }
+        ]
+    }
+]

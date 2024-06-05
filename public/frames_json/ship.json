@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ship.01",
+        "roleset_name": "send a package",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "package"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            },
+            {
+                "n": "3",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ship_out.02",
+        "roleset_name": "depart, as a soldier",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "soldier"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    }
+]

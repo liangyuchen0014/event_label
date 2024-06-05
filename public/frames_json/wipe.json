@@ -1,0 +1,82 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wipe.01",
+        "roleset_name": "move with wiping action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing moved"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wipe_out.02",
+        "roleset_name": "wipe out: exhaust, use up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "user, exhauster, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing becoming exhausted"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wipe_off.03",
+        "roleset_name": "wipe off: remove impurities from a surface",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "wiper"
+            },
+            {
+                "n": "1",
+                "descr": "surface"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "wipe_up.04",
+        "roleset_name": "wipe up: remove via wiping action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "wiper, remover"
+            },
+            {
+                "n": "1",
+                "descr": "impurity"
+            },
+            {
+                "n": "2",
+                "descr": "dirty surface"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    }
+]

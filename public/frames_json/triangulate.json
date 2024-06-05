@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "triangulate.01",
+        "roleset_name": "pinpoint a location using known points and/or distances",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "triangulator"
+            },
+            {
+                "n": "1",
+                "descr": "location searched for"
+            },
+            {
+                "n": "2",
+                "descr": "based on, known info"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "triangulate.02",
+        "roleset_name": "surveying technique: dividing a region into equilateral triangles",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "triangulator"
+            },
+            {
+                "n": "1",
+                "descr": "region divided into triangles"
+            },
+            {
+                "n": "2",
+                "descr": "triangle side length measurement"
+            },
+            {
+                "n": "3",
+                "descr": "number of nodes"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wait.01",
+        "roleset_name": "wait, delay movement or action",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "wait-er (not waiter, that's the other sense)"
+            },
+            {
+                "n": "2",
+                "descr": "thing waited for"
+            },
+            {
+                "n": "m",
+                "descr": "period of time waited through"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wait.02",
+        "roleset_name": "serve tables",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "waiter"
+            },
+            {
+                "n": "1",
+                "descr": "table"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wait_out.03",
+        "roleset_name": "wait out: endure, outlast, enduring, lasting",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing lasting longer"
+            },
+            {
+                "n": "1",
+                "descr": "thing lasting shorter"
+            }
+        ]
+    }
+]

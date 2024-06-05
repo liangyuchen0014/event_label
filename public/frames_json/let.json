@@ -1,0 +1,139 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "let.01",
+        "roleset_name": "allow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "action allowed"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "let.05",
+        "roleset_name": "to rent or lease",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "landlord"
+            },
+            {
+                "n": "1",
+                "descr": "thing rented (rooms, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "renter, recipient of rented thing"
+            },
+            {
+                "n": "3",
+                "descr": "amount of rent charged, rate"
+            },
+            {
+                "n": "4",
+                "descr": "term of lease, time period"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "let_on.02",
+        "roleset_name": "give an indication",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "getter"
+            },
+            {
+                "n": "2",
+                "descr": "indication"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "let_up.03",
+        "roleset_name": "not be so harsh anymore",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "let uper"
+            },
+            {
+                "n": "1",
+                "descr": "with respect to what?"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "let_down.04",
+        "roleset_name": "disappoint",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, cause of disappointment"
+            },
+            {
+                "n": "1",
+                "descr": "disappointed entity"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "let_out.06",
+        "roleset_name": "rent or lease",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "landlord"
+            },
+            {
+                "n": "1",
+                "descr": "thing rented (rooms, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "renter, recipient of rented thing"
+            },
+            {
+                "n": "3",
+                "descr": "amount of rent charged, rate"
+            },
+            {
+                "n": "4",
+                "descr": "term of lease, time period"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "let_off.07",
+        "roleset_name": "(cause to) emit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer"
+            },
+            {
+                "n": "1",
+                "descr": "emitter"
+            },
+            {
+                "n": "2",
+                "descr": "emitted"
+            }
+        ]
+    }
+]

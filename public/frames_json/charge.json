@@ -1,0 +1,146 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "charge.01",
+        "roleset_name": "asking price",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seller"
+            },
+            {
+                "n": "1",
+                "descr": "asking price"
+            },
+            {
+                "n": "2",
+                "descr": "buyer"
+            },
+            {
+                "n": "3",
+                "descr": "commodity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "charge.02",
+        "roleset_name": "walk quickly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "1",
+                "descr": "path"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "charge.03",
+        "roleset_name": "supply, as with electricity",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "supplier"
+            },
+            {
+                "n": "1",
+                "descr": "battery, usually"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (defaults to electricity)"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "charge.04",
+        "roleset_name": "buy on credit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "buyer"
+            },
+            {
+                "n": "1",
+                "descr": "thing charged (amount, item)"
+            },
+            {
+                "n": "2",
+                "descr": "credit"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "charge.05",
+        "roleset_name": "make an allegation or criminal charge against someone",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "assigner"
+            },
+            {
+                "n": "1",
+                "descr": "assigned"
+            },
+            {
+                "n": "2",
+                "descr": "role or crime"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "charge.06",
+        "roleset_name": "allege (an utterance or complement clause)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "charge.08",
+        "roleset_name": "to be in charge of something, have a responsibility or role",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Person assigning responsibility (rare)"
+            },
+            {
+                "n": "1",
+                "descr": "Person that the responsibility is assigned to"
+            },
+            {
+                "n": "2",
+                "descr": "responsibility itself, role"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "charge_off.07",
+        "roleset_name": "charge off: emit hastily(?)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "thing sent"
+            }
+        ]
+    }
+]

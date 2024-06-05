@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "seat.01",
+        "roleset_name": "to place in a seat, provide seats",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "placer, provider of seat"
+            },
+            {
+                "n": "1",
+                "descr": "entity seated"
+            },
+            {
+                "n": "2",
+                "descr": "location"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "seat.02",
+        "roleset_name": "to place in a position of authority",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity seated"
+            }
+        ]
+    }
+]

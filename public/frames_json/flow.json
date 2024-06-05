@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "flow.01",
+        "roleset_name": "move like water",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "substance (ie, water)"
+            },
+            {
+                "n": "m",
+                "descr": "direction"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "flow.02",
+        "roleset_name": "natural disaster: debris flow, pyroclastic flow",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "substance, 'pyroclastic' or 'debris'. If 'mud', use 'mudflow' roleset"
+            },
+            {
+                "n": "2",
+                "descr": "volume, weight"
+            },
+            {
+                "n": "3",
+                "descr": "casualties/injuries"
+            },
+            {
+                "n": "4",
+                "descr": "damages/cost"
+            }
+        ]
+    }
+]

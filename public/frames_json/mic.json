@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "mic.01",
+        "roleset_name": "set up microphones",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, setter up"
+            },
+            {
+                "n": "1",
+                "descr": "entity wired"
+            },
+            {
+                "n": "2",
+                "descr": "other entity or end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mic_up.02",
+        "roleset_name": "attach a mic",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of attachment"
+            },
+            {
+                "n": "1",
+                "descr": "entity wired"
+            }
+        ]
+    }
+]

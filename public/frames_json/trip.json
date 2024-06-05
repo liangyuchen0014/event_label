@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "trip.01",
+        "roleset_name": "what circuit breakers do",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of trip, overload"
+            },
+            {
+                "n": "1",
+                "descr": "thing tripped (circuit breaker)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "trip.02",
+        "roleset_name": "behave as if under the influence of drugs",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity tripping"
+            },
+            {
+                "n": "1",
+                "descr": "mention of 'balls' or other intensifying object"
+            },
+            {
+                "n": "2",
+                "descr": "drug or subject matter stimulus"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "trip.03",
+        "roleset_name": "travel",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "traveller"
+            },
+            {
+                "n": "1",
+                "descr": "destination"
+            },
+            {
+                "n": "2",
+                "descr": "source or from where"
+            },
+            {
+                "n": "3",
+                "descr": "path"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "trip.04",
+        "roleset_name": "fall",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity stumbling"
+            },
+            {
+                "n": "1",
+                "descr": "tripped over"
+            }
+        ]
+    }
+]

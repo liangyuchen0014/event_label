@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pipe.01",
+        "roleset_name": "transport in a pipe",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "thing in motion"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            },
+            {
+                "n": "3",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pipe_up.02",
+        "roleset_name": "begin speaking",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pipe_down.03",
+        "roleset_name": "stop speaking",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "(non-) speaker"
+            }
+        ]
+    }
+]

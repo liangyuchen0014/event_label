@@ -1,0 +1,97 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bid.01",
+        "roleset_name": "auction",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bidder"
+            },
+            {
+                "n": "1",
+                "descr": "the target, goods"
+            },
+            {
+                "n": "2",
+                "descr": "how much you're bidding, buying price"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bid.02",
+        "roleset_name": "some weird causative usage, not unlike \"call\"",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bidder"
+            },
+            {
+                "n": "1",
+                "descr": "the target"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            },
+            {
+                "n": "3",
+                "descr": "secondary predication on Arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "bid.03",
+        "roleset_name": "say, wish, convey, say, wish, convey, tell someone to do something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "listener"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "bid.06",
+        "roleset_name": "declaration of playing a suit in bridge",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "player"
+            },
+            {
+                "n": "1",
+                "descr": "suit"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "bidding.04",
+        "roleset_name": "obey, follow the rules",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker, bidder"
+            },
+            {
+                "n": "1",
+                "descr": "utterance, bidding"
+            },
+            {
+                "n": "2",
+                "descr": "listener, recipient of bid"
+            }
+        ]
+    }
+]

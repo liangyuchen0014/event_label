@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "recognize.01",
+        "roleset_name": "applaud/give accolades to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applauder"
+            },
+            {
+                "n": "1",
+                "descr": "entity applauded"
+            },
+            {
+                "n": "2",
+                "descr": "recognized for/ because of"
+            },
+            {
+                "n": "3",
+                "descr": "recognized as"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "recognize.02",
+        "roleset_name": "acknowledge as true/familiar",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "recognizer"
+            },
+            {
+                "n": "1",
+                "descr": "thing recognized"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predication on arg1."
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "recognizable.03",
+        "roleset_name": "able to be identified",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "recognizer"
+            },
+            {
+                "n": "1",
+                "descr": "thing recognized"
+            },
+            {
+                "n": "2",
+                "descr": "recognized as"
+            }
+        ]
+    }
+]

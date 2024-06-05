@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "vertical.01",
+        "roleset_name": "orientation of an entity: straight up and down",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "vertical entity"
+            },
+            {
+                "n": "2",
+                "descr": "anchor"
+            },
+            {
+                "n": "3",
+                "descr": "axis"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "vertical.02",
+        "roleset_name": "relationship between the locations of 2 entities: a line between one entity and another entity is vertical",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity located along a vertical line"
+            },
+            {
+                "n": "2",
+                "descr": "other entity located along the vertical line"
+            },
+            {
+                "n": "3",
+                "descr": "anchor"
+            },
+            {
+                "n": "4",
+                "descr": "axis (vertical line)"
+            }
+        ]
+    }
+]

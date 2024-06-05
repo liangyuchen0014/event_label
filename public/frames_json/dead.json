@@ -1,0 +1,66 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "dead.01",
+        "roleset_name": "no longer alive, active, in play",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "dead entity"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "dead.02",
+        "roleset_name": "'you are dead to me': sworn off, no longer acknowledged",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity no longer acknowledged"
+            },
+            {
+                "n": "2",
+                "descr": "perciever, entity who has sworn off arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "dead.03",
+        "roleset_name": "numb, unresponsive to a stimulus",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stimulus to which arg1 doesn't respond"
+            },
+            {
+                "n": "1",
+                "descr": "numb, unresponsive entity"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "deadly.04",
+        "roleset_name": "deathly, toxic",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of death"
+            },
+            {
+                "n": "1",
+                "descr": "entity it is toxic for"
+            }
+        ]
+    }
+]

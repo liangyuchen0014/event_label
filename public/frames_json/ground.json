@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ground.01",
+        "roleset_name": "restrict to the ground",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity enforcing grounding"
+            },
+            {
+                "n": "1",
+                "descr": "thing grounded"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ground.02",
+        "roleset_name": "provide a basis for",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing having a basis"
+            },
+            {
+                "n": "2",
+                "descr": "the grounds"
+            }
+        ]
+    }
+]

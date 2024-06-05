@@ -1,0 +1,98 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "trade.01",
+        "roleset_name": "exchange",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity trading"
+            },
+            {
+                "n": "1",
+                "descr": "thing being traded (away)"
+            },
+            {
+                "n": "2",
+                "descr": "other exchanger"
+            },
+            {
+                "n": "3",
+                "descr": "other item in exchange, price, or premium, traded for or at"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "out_trade.02",
+        "roleset_name": "to surpass another in trading",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first trader"
+            },
+            {
+                "n": "1",
+                "descr": "entity out-traded"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "trade_off.03",
+        "roleset_name": "trade off, exchange",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing being traded off"
+            },
+            {
+                "n": "2",
+                "descr": "other exchanger"
+            },
+            {
+                "n": "3",
+                "descr": "other item in exchange, price"
+            },
+            {
+                "n": "4",
+                "descr": "beneficiary"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "trade_in.04",
+        "roleset_name": "trade in (probably to an entity like a dealer)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "trader"
+            },
+            {
+                "n": "1",
+                "descr": "traded"
+            },
+            {
+                "n": "2",
+                "descr": "other exchanger, traded to"
+            },
+            {
+                "n": "3",
+                "descr": "other item in exchange, money"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "place.01",
+        "roleset_name": "put in a location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "putter"
+            },
+            {
+                "n": "1",
+                "descr": "thing put"
+            },
+            {
+                "n": "2",
+                "descr": "where put"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "in_place.02",
+        "roleset_name": "set, enacted, established; ready",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "established, set, enacted thing"
+            },
+            {
+                "n": "2",
+                "descr": "attribute on arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "take_place.03",
+        "roleset_name": "occur",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing occuring"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "place_down.04",
+        "roleset_name": "put down in a location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity placed"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    }
+]

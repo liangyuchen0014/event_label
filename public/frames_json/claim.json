@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "claim.01",
+        "roleset_name": "assert",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "claimer, asserter"
+            },
+            {
+                "n": "1",
+                "descr": "thing claimed, asserted"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "claim.02",
+        "roleset_name": "seize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "claim staker"
+            },
+            {
+                "n": "1",
+                "descr": "property"
+            },
+            {
+                "n": "2",
+                "descr": "beneficiary"
+            }
+        ]
+    }
+]

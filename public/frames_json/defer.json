@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "defer.01",
+        "roleset_name": "put off until a later time",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer of delay"
+            },
+            {
+                "n": "1",
+                "descr": "event delayed"
+            },
+            {
+                "n": "2",
+                "descr": "delay itself, EXT, or new time"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "defer.02",
+        "roleset_name": "acknowledge as superior",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "inferior thing"
+            },
+            {
+                "n": "1",
+                "descr": "superior thing"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "defer.03",
+        "roleset_name": "pass to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, passer"
+            },
+            {
+                "n": "1",
+                "descr": "thing passed off"
+            },
+            {
+                "n": "2",
+                "descr": "passed to, beneficiary"
+            }
+        ]
+    }
+]

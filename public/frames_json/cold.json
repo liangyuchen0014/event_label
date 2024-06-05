@@ -1,0 +1,47 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cold.01",
+        "roleset_name": "relatively low temperature",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing with few degrees (temperature-wise)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cold.02",
+        "roleset_name": "unfriendly, unenthusiastic, emotionless, frigid",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of cold behavior"
+            },
+            {
+                "n": "1",
+                "descr": "cold behavior/actions"
+            },
+            {
+                "n": "2",
+                "descr": "target of cold behavior"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "cold.03",
+        "roleset_name": "trail having lost freshness over time",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "perceiver, bloodhound, search party"
+            },
+            {
+                "n": "1",
+                "descr": "trail"
+            }
+        ]
+    }
+]

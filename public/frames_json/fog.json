@@ -1,0 +1,43 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "fog.01",
+        "roleset_name": "cause to be covered with fog",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of fog"
+            },
+            {
+                "n": "1",
+                "descr": "thing covered with fog"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "foggy.02",
+        "roleset_name": "weather condition",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "explicit location that is foggy (copular subject, not empty 'it')"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "foggy.03",
+        "roleset_name": "poor mental clarity, understanding",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity with poor mental clarity/understanding"
+            },
+            {
+                "n": "2",
+                "descr": "thing poorly understood/remembered"
+            }
+        ]
+    }
+]

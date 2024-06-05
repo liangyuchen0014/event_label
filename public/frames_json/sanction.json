@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sanction.01",
+        "roleset_name": "approve",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "approver, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity approved"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sanction.02",
+        "roleset_name": "punish by applying legal sanctions",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity enforcing sanctions"
+            },
+            {
+                "n": "1",
+                "descr": "entity being punished"
+            },
+            {
+                "n": "2",
+                "descr": "sanctions, manner of punishment"
+            }
+        ]
+    }
+]

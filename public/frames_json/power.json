@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "power.01",
+        "roleset_name": "to supply with power",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "source of power"
+            },
+            {
+                "n": "1",
+                "descr": "entity supplied with power"
+            },
+            {
+                "n": "2",
+                "descr": "entity powered with"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "powerful.02",
+        "roleset_name": "having great power, influence",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "powerful entity/action (may require concatenation"
+            },
+            {
+                "n": "2",
+                "descr": "what the power is used for-- secondary action"
+            }
+        ]
+    }
+]

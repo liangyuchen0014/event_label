@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bolt.01",
+        "roleset_name": "run away",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "runner"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bolt.02",
+        "roleset_name": "attach with a bolt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "attacher, agent causing attachment"
+            },
+            {
+                "n": "1",
+                "descr": "first thing being clamped"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, clamped to what"
+            }
+        ]
+    }
+]

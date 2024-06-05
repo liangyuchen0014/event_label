@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "climb.01",
+        "roleset_name": "intentional climber",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "climber"
+            },
+            {
+                "n": "1",
+                "descr": "thing climbed (clomb?)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "climb.02",
+        "roleset_name": "non-intentional climber; cf rise",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "climber"
+            },
+            {
+                "n": "2",
+                "descr": "ext, amount risen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "5",
+                "descr": "attribute, when attribute of item is climbing rather than the whole"
+            }
+        ]
+    }
+]

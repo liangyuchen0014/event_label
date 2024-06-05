@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "suspect.01",
+        "roleset_name": "potential belief, expectation, often of something negative",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "suspecter"
+            },
+            {
+                "n": "1",
+                "descr": "suspicion: what arg0 thinks"
+            },
+            {
+                "n": "2",
+                "descr": "attributive: entity arg1 suspects something of"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "suspicious.02",
+        "roleset_name": "being prone to distrust, paranoia",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "suspecter"
+            },
+            {
+                "n": "1",
+                "descr": "entity viewed suspiciously"
+            },
+            {
+                "n": "2",
+                "descr": "act by which arg0 expresses suspicion, e.g. a glance"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "suspicious.03",
+        "roleset_name": "questionable; exhibiting shady, sketchy characteristics",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing or event acting in ways that evoke suspicion"
+            }
+        ]
+    }
+]

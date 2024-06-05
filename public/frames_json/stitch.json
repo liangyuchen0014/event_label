@@ -1,0 +1,48 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stitch.01",
+        "roleset_name": "connect with thread, tie",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity doing the tying"
+            },
+            {
+                "n": "1",
+                "descr": "thing being tied"
+            },
+            {
+                "n": "2",
+                "descr": "tied to what"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, string"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stitch.02",
+        "roleset_name": "build by sewing",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    }
+]

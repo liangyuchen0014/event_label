@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "peg.01",
+        "roleset_name": "stabilize (a price)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of stabilization, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity pegged"
+            },
+            {
+                "n": "2",
+                "descr": "pegged to/at"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "peg.02",
+        "roleset_name": "peg it: to die",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity dying"
+            },
+            {
+                "n": "1",
+                "descr": "fixed: \"it\""
+            }
+        ]
+    }
+]

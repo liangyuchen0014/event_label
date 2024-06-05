@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tide.01",
+        "roleset_name": "periodic rise and fall",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing rising and falling"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tide_over.02",
+        "roleset_name": "sustain for a limited period of time",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent giving support"
+            },
+            {
+                "n": "1",
+                "descr": "entity receiving support"
+            },
+            {
+                "n": "2",
+                "descr": "with what, if in addition to arg0"
+            }
+        ]
+    }
+]

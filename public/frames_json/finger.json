@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "finger.01",
+        "roleset_name": "to touch",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "toucher, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity fingered"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "finger.02",
+        "roleset_name": "to locate, find",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity fingered"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "finger.03",
+        "roleset_name": "to blame",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "assigner of blame, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity fingered"
+            },
+            {
+                "n": "2",
+                "descr": "action fingered for"
+            }
+        ]
+    }
+]

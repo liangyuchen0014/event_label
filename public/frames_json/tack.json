@@ -1,0 +1,78 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tack.01",
+        "roleset_name": "attach with a tack",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity doing the tacking"
+            },
+            {
+                "n": "1",
+                "descr": "first thing being tacked"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, tacked to what"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, string, tack"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tack.02",
+        "roleset_name": "turn a boat",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sailor"
+            },
+            {
+                "n": "1",
+                "descr": "boat"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tack_down.04",
+        "roleset_name": "attach to a surface with tacks",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of attachment, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing tacked down"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "tack_on.03",
+        "roleset_name": "rise",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing rising"
+            },
+            {
+                "n": "2",
+                "descr": "thing tacked on (might read as EXT)"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            }
+        ]
+    }
+]

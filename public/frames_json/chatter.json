@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "chatter.01",
+        "roleset_name": "make rapid talking noises",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "emitter of noise, speaker"
+            },
+            {
+                "n": "1",
+                "descr": "topic, if arg0 is speaker"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "chatter_away.02",
+        "roleset_name": "talk rapidly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "chatterer"
+            },
+            {
+                "n": "1",
+                "descr": "subject matter"
+            }
+        ]
+    }
+]

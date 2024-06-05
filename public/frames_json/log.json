@@ -1,0 +1,92 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "log.01",
+        "roleset_name": "to record or to navigate somewhere online",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "recorder, logger, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing recorded, internet/software"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "log.03",
+        "roleset_name": "do the job of cutting trees into logs",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "logger"
+            },
+            {
+                "n": "1",
+                "descr": "location, thing logged"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "log_on.02",
+        "roleset_name": "to enter into a computer the information required to begin a session",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "user, agent"
+            },
+            {
+                "n": "1",
+                "descr": "computer"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "log_off.04",
+        "roleset_name": "Exit a computer system",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "user"
+            },
+            {
+                "n": "1",
+                "descr": "system exited, computer"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "log_in.05",
+        "roleset_name": "enter a secured computer system",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, user"
+            },
+            {
+                "n": "1",
+                "descr": "system, computer, program"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "log_out.06",
+        "roleset_name": "Exit a computer system",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, user"
+            },
+            {
+                "n": "1",
+                "descr": "system exited, computer"
+            }
+        ]
+    }
+]

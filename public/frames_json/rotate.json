@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "rotate.01",
+        "roleset_name": "(make) go around, causing to go or going around",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of rotation"
+            },
+            {
+                "n": "1",
+                "descr": "thing rotating"
+            },
+            {
+                "n": "2",
+                "descr": "axis or centerpoint or rotation"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "rotate.02",
+        "roleset_name": "shift from one thing to another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of shift"
+            },
+            {
+                "n": "1",
+                "descr": "thing being changed"
+            },
+            {
+                "n": "2",
+                "descr": "old thing"
+            },
+            {
+                "n": "3",
+                "descr": "new thing"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "milk.01",
+        "roleset_name": "extract milk from a cow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "farmer"
+            },
+            {
+                "n": "1",
+                "descr": "milk"
+            },
+            {
+                "n": "2",
+                "descr": "cow"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "milk.02",
+        "roleset_name": "milk for variant: exploit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "milker, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing milked"
+            },
+            {
+                "n": "2",
+                "descr": "for all it's worth"
+            }
+        ]
+    }
+]

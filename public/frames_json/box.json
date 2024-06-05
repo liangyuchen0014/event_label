@@ -1,0 +1,93 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "box.01",
+        "roleset_name": "to store in a box, put in a box to store",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "storer"
+            },
+            {
+                "n": "1",
+                "descr": "thing stored"
+            },
+            {
+                "n": "2",
+                "descr": "box"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "box.02",
+        "roleset_name": "enclosing (/being enclosed), forming an enclosure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "entity forming a box"
+            },
+            {
+                "n": "2",
+                "descr": "enclosed area"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "box.03",
+        "roleset_name": "fight, boxing style",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "First fighter"
+            },
+            {
+                "n": "1",
+                "descr": "Second fighter"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "box_in.04",
+        "roleset_name": "trap, enclose",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause of entrapment"
+            },
+            {
+                "n": "1",
+                "descr": "the walls, trap (if separate from arg1)"
+            },
+            {
+                "n": "2",
+                "descr": "entity trapped, enclosed"
+            },
+            {
+                "n": "3",
+                "descr": "in regards to what"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "kickbox.05",
+        "roleset_name": "Fight primarily with one's feet, often as a form of exercise.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "kickboxer, agent, first fighter"
+            },
+            {
+                "n": "1",
+                "descr": "second fighter"
+            }
+        ]
+    }
+]

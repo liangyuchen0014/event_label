@@ -1,0 +1,78 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tool.01",
+        "roleset_name": "travel leisurely in (or as) an automobile",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, driver"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "direction/path/location"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tool.02",
+        "roleset_name": "furnish a location with tools",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity stocking the tools"
+            },
+            {
+                "n": "1",
+                "descr": "tools"
+            },
+            {
+                "n": "2",
+                "descr": "place stocked with tools"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tool.03",
+        "roleset_name": "work material with a tool",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, artisan"
+            },
+            {
+                "n": "1",
+                "descr": "material, surface tooled"
+            },
+            {
+                "n": "2",
+                "descr": "design/end product"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "tool_up.04",
+        "roleset_name": "make better by equipping with \"tools\"",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing made better/given \"tools\""
+            }
+        ]
+    }
+]

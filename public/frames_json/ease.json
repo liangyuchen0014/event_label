@@ -1,0 +1,108 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ease.01",
+        "roleset_name": "decline",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing declining"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount declined by"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ease.02",
+        "roleset_name": "help, aid, ameliorate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing helping"
+            },
+            {
+                "n": "1",
+                "descr": "thing being helped"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "ease.03",
+        "roleset_name": "slide, move easily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "ease.06",
+        "roleset_name": "banks purchasing longer term assets to keep inflation up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, monetary authority responsible for QE"
+            },
+            {
+                "n": "1",
+                "descr": "monetary amount"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "ease_up.04",
+        "roleset_name": "become easier",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing helping"
+            },
+            {
+                "n": "1",
+                "descr": "thing being helped"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "easy.05",
+        "roleset_name": "not difficult",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is easy (may require concatenation)"
+            }
+        ]
+    }
+]

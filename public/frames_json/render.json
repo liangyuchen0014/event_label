@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "render.01",
+        "roleset_name": "to cause to become",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity rendered"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predicate on arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "render.02",
+        "roleset_name": "to give, provide, giving",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "entity rendered"
+            },
+            {
+                "n": "2",
+                "descr": "entity receiving"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "render.03",
+        "roleset_name": "to translate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "translator, artist"
+            },
+            {
+                "n": "1",
+                "descr": "entity rendered"
+            },
+            {
+                "n": "2",
+                "descr": "rendered into (end state)"
+            }
+        ]
+    }
+]

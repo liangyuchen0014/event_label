@@ -1,0 +1,70 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "dope.01",
+        "roleset_name": "add a substance to alter performance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, person doing the doping"
+            },
+            {
+                "n": "1",
+                "descr": "patient/destination, what/who the dope is being put into"
+            },
+            {
+                "n": "2",
+                "descr": "the dope, substance that is being added"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "dope.02",
+        "roleset_name": "smear with a liquid substance (as a lubricant or glue)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, smearer"
+            },
+            {
+                "n": "1",
+                "descr": "destination, thing being slathered with liquid substance"
+            },
+            {
+                "n": "2",
+                "descr": "liquid substance"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "dope.04",
+        "roleset_name": "fly, hip, rad",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "dope thing (may require concatenation)"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "dope_up.03",
+        "roleset_name": "dope_up: dose with narcotics",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, administerer of dope"
+            },
+            {
+                "n": "1",
+                "descr": "patient/destination, thing/person the dope is being put into"
+            },
+            {
+                "n": "2",
+                "descr": "the dope"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "detect.01",
+        "roleset_name": "find, notice",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "detector"
+            },
+            {
+                "n": "1",
+                "descr": "detected"
+            },
+            {
+                "n": "2",
+                "descr": "instrument(al process), if separate from arg0"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "detectible.02",
+        "roleset_name": "able to be detected",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing detected"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    }
+]

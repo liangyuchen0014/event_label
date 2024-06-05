@@ -1,0 +1,496 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "break.01",
+        "roleset_name": "break, cause to not be whole",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "breaker"
+            },
+            {
+                "n": "1",
+                "descr": "thing broken"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            },
+            {
+                "n": "3",
+                "descr": "pieces"
+            },
+            {
+                "n": "4",
+                "descr": "arg1 broken away from what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "break.02",
+        "roleset_name": "break_in: gain entry",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "enterer"
+            },
+            {
+                "n": "1",
+                "descr": "place/domain broken into"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "break.13",
+        "roleset_name": "happen, come to light, onset, beginning",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causal agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing coming to light"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "break.16",
+        "roleset_name": "separate one entity from another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "1",
+                "descr": "movement away from what"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predication on arg0 (free, loose, etc)"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "break.18",
+        "roleset_name": "violate (the law, an oath, trust, etc)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "scofflaw, violator"
+            },
+            {
+                "n": "1",
+                "descr": "law, oath, trust, thing violated"
+            },
+            {
+                "n": "2",
+                "descr": "violation committed"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "break.19",
+        "roleset_name": "to suspend an action, take a break from something, pause, musical interlude",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Person taking/causing break/pause"
+            },
+            {
+                "n": "1",
+                "descr": "activity interrupted"
+            },
+            {
+                "n": "2",
+                "descr": "purpose of pause, interrupted for or with what"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "break.20",
+        "roleset_name": "Break into motion, for a goal or from a source location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "place left, broke from"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "break.21",
+        "roleset_name": "notable occurance; point at which one's luck turns (bad break, lucky break, etc)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity achieving/experiencing break(through)"
+            },
+            {
+                "n": "1",
+                "descr": "domain of the achievment/experience"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "break_away.14",
+        "roleset_name": "separate, withdraw, secede",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "breaker"
+            },
+            {
+                "n": "1",
+                "descr": "break from"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "break_down.11",
+        "roleset_name": "break down: start to cry; reach the mental breaking point and suffer the effects",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "crier, entity suffering mental collapse"
+            },
+            {
+                "n": "1",
+                "descr": "theme, type of breakdown (ie mental, nervous)"
+            },
+            {
+                "n": "2",
+                "descr": "resulting state; tears"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "break_down.12",
+        "roleset_name": "break down: become damaged, cease to operate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of breaking"
+            },
+            {
+                "n": "1",
+                "descr": "thing broken down"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "break_down.27",
+        "roleset_name": "separate into manageable sections for analysis/explanation",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing being analyzed, separated into manageable sections"
+            },
+            {
+                "n": "2",
+                "descr": "groups"
+            },
+            {
+                "n": "3",
+                "descr": "audience"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "break_in.05",
+        "roleset_name": "cause to be not-new (as shoes)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causative agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing getting broken in"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "break_in.17",
+        "roleset_name": "utterance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "break_off.03",
+        "roleset_name": "cause to cease",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing stopping"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "break_off.04",
+        "roleset_name": "snap off pieces",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "breaker"
+            },
+            {
+                "n": "1",
+                "descr": "piece(s)"
+            },
+            {
+                "n": "2",
+                "descr": "whole"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "break_out.06",
+        "roleset_name": "introduce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "introducer"
+            },
+            {
+                "n": "1",
+                "descr": "thing introduced"
+            }
+        ]
+    },
+    {
+        "uid": 18,
+        "roleset_id": "break_out.07",
+        "roleset_name": "develop acne",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "teenager"
+            }
+        ]
+    },
+    {
+        "uid": 19,
+        "roleset_id": "break_out.10",
+        "roleset_name": "escape",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "escapee"
+            },
+            {
+                "n": "1",
+                "descr": "prison, etc"
+            }
+        ]
+    },
+    {
+        "uid": 20,
+        "roleset_id": "break_out.30",
+        "roleset_name": "onset, arise",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing arising"
+            }
+        ]
+    },
+    {
+        "uid": 21,
+        "roleset_id": "break_up.08",
+        "roleset_name": "cause not to be together",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "external agent, not part of the broken group"
+            },
+            {
+                "n": "1",
+                "descr": "first (or all) party(ies) broken up"
+            },
+            {
+                "n": "2",
+                "descr": "pieces"
+            },
+            {
+                "n": "3",
+                "descr": "second party broken up"
+            }
+        ]
+    },
+    {
+        "uid": 22,
+        "roleset_id": "break_even.09",
+        "roleset_name": "not win, not lose",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "patient"
+            }
+        ]
+    },
+    {
+        "uid": 23,
+        "roleset_id": "break_through.22",
+        "roleset_name": "break through a barrier, physical or abstract",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, entity making breakthrough"
+            },
+            {
+                "n": "1",
+                "descr": "barrier broken through"
+            }
+        ]
+    },
+    {
+        "uid": 24,
+        "roleset_id": "break_through.26",
+        "roleset_name": "Eureka! Make great strides in some domain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, entity making breakthrough"
+            },
+            {
+                "n": "1",
+                "descr": "domain of breakthrough"
+            }
+        ]
+    },
+    {
+        "uid": 25,
+        "roleset_id": "broke.23",
+        "roleset_name": "out of money",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity without money"
+            },
+            {
+                "n": "2",
+                "descr": "the money arg1 doesn't have"
+            }
+        ]
+    },
+    {
+        "uid": 26,
+        "roleset_id": "broke_ass.24",
+        "roleset_name": "broken, with 'ass' intensifier",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "broke-ass (broken) thing"
+            }
+        ]
+    },
+    {
+        "uid": 27,
+        "roleset_id": "broke_ass.25",
+        "roleset_name": "not having any money, with 'ass' intensifier",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "broke-ass (poor) entity"
+            }
+        ]
+    },
+    {
+        "uid": 28,
+        "roleset_id": "break_ground.28",
+        "roleset_name": "begin the construction phase of a project",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agents responsible for construction/project"
+            },
+            {
+                "n": "1",
+                "descr": "project"
+            }
+        ]
+    },
+    {
+        "uid": 29,
+        "roleset_id": "outbreak.29",
+        "roleset_name": "natural disaster: rampant spread of disease",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "disease"
+            },
+            {
+                "n": "2",
+                "descr": "victims, sick entities"
+            },
+            {
+                "n": "3",
+                "descr": "casualties/injury toll"
+            },
+            {
+                "n": "4",
+                "descr": "damages/cost"
+            }
+        ]
+    },
+    {
+        "uid": 30,
+        "roleset_id": "break_heart.31",
+        "roleset_name": "cause to have overwhelming sorrow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause/stimulus of heartbreak"
+            },
+            {
+                "n": "1",
+                "descr": "entity with a broken heart"
+            },
+            {
+                "n": "2",
+                "descr": "reason for heartbreak"
+            }
+        ]
+    }
+]

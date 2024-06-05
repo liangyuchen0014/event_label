@@ -1,0 +1,43 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "seize.01",
+        "roleset_name": "acquire (forcefully or stealthily)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity acquiring something"
+            },
+            {
+                "n": "1",
+                "descr": "thing acquired"
+            },
+            {
+                "n": "2",
+                "descr": "acquired-from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "seize.03",
+        "roleset_name": "have a seizure",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity experiencing a seizure"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "seize_up.02",
+        "roleset_name": "become immobile",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing becoming immobile"
+            }
+        ]
+    }
+]

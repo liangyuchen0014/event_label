@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "yield.01",
+        "roleset_name": "result in, produce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing yielding"
+            },
+            {
+                "n": "1",
+                "descr": "thing yielded"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "yield.02",
+        "roleset_name": "give way, give in to another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Thing giving way"
+            },
+            {
+                "n": "1",
+                "descr": "what's lost"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "yield.03",
+        "roleset_name": "give a dividend",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing providing a dividend"
+            },
+            {
+                "n": "1",
+                "descr": "dividend, earnings"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "yield_up.04",
+        "roleset_name": "same as yield.02 with aspectual particle",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Giver"
+            },
+            {
+                "n": "1",
+                "descr": "Thing given away, lost"
+            },
+            {
+                "n": "2",
+                "descr": "Recipient"
+            }
+        ]
+    }
+]

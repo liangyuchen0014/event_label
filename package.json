@@ -1,5 +1,5 @@
 {
-  "name": "evnet_label",
+  "name": "event_label",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,11 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "vue": "^2.6.14",
-    "vue-router": "^2.8.1"
+    "vue-router": "^2.8.1",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

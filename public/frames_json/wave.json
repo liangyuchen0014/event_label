@@ -1,0 +1,86 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wave.01",
+        "roleset_name": "to signal (a person) or move back and forth, cause  waving movement",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer"
+            },
+            {
+                "n": "1",
+                "descr": "entity moving"
+            },
+            {
+                "n": "2",
+                "descr": "person waved at"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wave.02",
+        "roleset_name": "give directions via waving",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "waver, giver of directions"
+            },
+            {
+                "n": "1",
+                "descr": "receiver of directions"
+            },
+            {
+                "n": "2",
+                "descr": "directions"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wave.03",
+        "roleset_name": "natural disaster: tidal wave",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "water surging (might be the name of the ocean, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "period length of the wave (usually ft or m)"
+            },
+            {
+                "n": "3",
+                "descr": "death/injury toll"
+            },
+            {
+                "n": "4",
+                "descr": "damages/cost"
+            },
+            {
+                "n": "5",
+                "descr": "run-up (height above sea level reached by the water)"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "wave.04",
+        "roleset_name": "movement (literally or as in an increase of a specific phenomenon)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of movement"
+            },
+            {
+                "n": "1",
+                "descr": "theme"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg 1/ secondary theme"
+            }
+        ]
+    }
+]

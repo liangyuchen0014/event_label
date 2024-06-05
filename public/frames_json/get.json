@@ -1,0 +1,480 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "get.01",
+        "roleset_name": "transfer of goods, acquire",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "receiver"
+            },
+            {
+                "n": "1",
+                "descr": "thing gotten"
+            },
+            {
+                "n": "2",
+                "descr": "giver"
+            },
+            {
+                "n": "3",
+                "descr": "price paid, in-exchange-for"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "get.02",
+        "roleset_name": "have-got: already possess",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "haver, possessor"
+            },
+            {
+                "n": "1",
+                "descr": "thing had, possessed"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "get.03",
+        "roleset_name": "become",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1 (not a VP node)"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "get.04",
+        "roleset_name": "cause to do or be something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "instigator"
+            },
+            {
+                "n": "1",
+                "descr": "a clause -- action done or descriptive small clause"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "get.05",
+        "roleset_name": "move",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "thing in motion"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "get.06",
+        "roleset_name": "must",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Subject"
+            },
+            {
+                "n": "1",
+                "descr": "Complement"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "get.22",
+        "roleset_name": "have the pleasure of doing something, \"i gettuh...\"",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Benefactive, partaker in desired action"
+            },
+            {
+                "n": "1",
+                "descr": "Action done, S-node or clause"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "get.24",
+        "roleset_name": "auxiliary usage (rel followed by a vp)",
+        "roles": []
+    },
+    {
+        "uid": 9,
+        "roleset_id": "get.28",
+        "roleset_name": "get to: aggravate, annoy",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "aggravator"
+            },
+            {
+                "n": "1",
+                "descr": "aggravated"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "get.30",
+        "roleset_name": "understand, grasp conceptually",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "understander"
+            },
+            {
+                "n": "1",
+                "descr": "thing understood"
+            },
+            {
+                "n": "2",
+                "descr": "source of understood thing, perhaps another communicator"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "get_out.07",
+        "roleset_name": "produce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "creator"
+            },
+            {
+                "n": "1",
+                "descr": "creation"
+            },
+            {
+                "n": "2",
+                "descr": "created-from, thing changed"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "get_away.08",
+        "roleset_name": "manage to accomplish without repercussions",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity attempting some deed"
+            },
+            {
+                "n": "1",
+                "descr": "the deed"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "get_back.09",
+        "roleset_name": "recover",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "recoverer"
+            },
+            {
+                "n": "1",
+                "descr": "thing regained"
+            },
+            {
+                "n": "2",
+                "descr": "who had it before"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "get_back.10",
+        "roleset_name": "return",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing"
+            },
+            {
+                "n": "2",
+                "descr": "original state"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "get_back.19",
+        "roleset_name": "get even: revenge",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "revenger"
+            },
+            {
+                "n": "1",
+                "descr": "committer of prior offense"
+            },
+            {
+                "n": "2",
+                "descr": "prior offense"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "get_back.25",
+        "roleset_name": "respond to an inquiry/correspondence",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity responding to correspondence"
+            },
+            {
+                "n": "1",
+                "descr": "entity responded to, original caller"
+            },
+            {
+                "n": "2",
+                "descr": "subject matter"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "get_off.11",
+        "roleset_name": "begin",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing beginning"
+            },
+            {
+                "n": "2",
+                "descr": "manner?"
+            }
+        ]
+    },
+    {
+        "uid": 18,
+        "roleset_id": "get_off.23",
+        "roleset_name": "get away with something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Outside causal agent, usually lawyer"
+            },
+            {
+                "n": "1",
+                "descr": "Person getting away with something"
+            },
+            {
+                "n": "2",
+                "descr": "Deed gotten away with"
+            }
+        ]
+    },
+    {
+        "uid": 19,
+        "roleset_id": "get_off.29",
+        "roleset_name": "reach a state of euphoria, climax (via drugs, sex, or random happy things)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity experiencing euphoria"
+            },
+            {
+                "n": "2",
+                "descr": "pleasure-giving stimulus"
+            }
+        ]
+    },
+    {
+        "uid": 20,
+        "roleset_id": "get_through.12",
+        "roleset_name": "reach, connect with",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity trying to get through"
+            },
+            {
+                "n": "1",
+                "descr": "entity trying to be contacted"
+            }
+        ]
+    },
+    {
+        "uid": 21,
+        "roleset_id": "get_through.13",
+        "roleset_name": "persevere",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "perseverer"
+            },
+            {
+                "n": "1",
+                "descr": "troubles"
+            }
+        ]
+    },
+    {
+        "uid": 22,
+        "roleset_id": "get_along.18",
+        "roleset_name": "have good relations",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity 1"
+            },
+            {
+                "n": "2",
+                "descr": "with entity 2"
+            }
+        ]
+    },
+    {
+        "uid": 23,
+        "roleset_id": "get_by.17",
+        "roleset_name": "cope, manage",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "what getting by with or without"
+            }
+        ]
+    },
+    {
+        "uid": 24,
+        "roleset_id": "get_down.15",
+        "roleset_name": "begin",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "beginner"
+            },
+            {
+                "n": "2",
+                "descr": "thing begun, task"
+            }
+        ]
+    },
+    {
+        "uid": 25,
+        "roleset_id": "get_down.27",
+        "roleset_name": "boogie, get in the groove with, possibly dance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity jamming out, getting down, boogying"
+            },
+            {
+                "n": "1",
+                "descr": "to/with what-- inspiration, mood setter, music, stimulus"
+            }
+        ]
+    },
+    {
+        "uid": 26,
+        "roleset_id": "get_together.14",
+        "roleset_name": "meet",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "one party"
+            },
+            {
+                "n": "1",
+                "descr": "the other"
+            }
+        ]
+    },
+    {
+        "uid": 27,
+        "roleset_id": "get_on.20",
+        "roleset_name": "have good relations",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity 1"
+            },
+            {
+                "n": "2",
+                "descr": "with entity 2 (if specified)"
+            }
+        ]
+    },
+    {
+        "uid": 28,
+        "roleset_id": "get_on.21",
+        "roleset_name": "continue on with something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of continuation"
+            },
+            {
+                "n": "1",
+                "descr": "thing continuing"
+            }
+        ]
+    },
+    {
+        "uid": 29,
+        "roleset_id": "get_up.26",
+        "roleset_name": "arise from slumber",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, alarm clock"
+            },
+            {
+                "n": "1",
+                "descr": "entity waking up"
+            },
+            {
+                "n": "2",
+                "descr": "time of waking/arising"
+            }
+        ]
+    }
+]

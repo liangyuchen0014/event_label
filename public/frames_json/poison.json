@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "poison.01",
+        "roleset_name": "kill via poison, kill or make sick via poison",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "killer"
+            },
+            {
+                "n": "1",
+                "descr": "corpse"
+            },
+            {
+                "n": "2",
+                "descr": "poison"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "poison.02",
+        "roleset_name": "put poison on/in something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier"
+            },
+            {
+                "n": "1",
+                "descr": "poisoned substance"
+            },
+            {
+                "n": "2",
+                "descr": "poison"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "poisonous.03",
+        "roleset_name": "venomous, toxic",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity susceptible to poison"
+            },
+            {
+                "n": "2",
+                "descr": "poison"
+            }
+        ]
+    }
+]

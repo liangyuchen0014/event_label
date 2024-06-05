@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "copy.01",
+        "roleset_name": "duplicate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "copyist, agent"
+            },
+            {
+                "n": "1",
+                "descr": "original"
+            },
+            {
+                "n": "2",
+                "descr": "destination of artifact (copied into)"
+            },
+            {
+                "n": "3",
+                "descr": "the copy itself (artifact)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "copy.03",
+        "roleset_name": "send a copy to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "thing sent"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "copy_out.02",
+        "roleset_name": "make a copy",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "copyist, agent"
+            },
+            {
+                "n": "1",
+                "descr": "original"
+            }
+        ]
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "finish.01",
+        "roleset_name": "cause to stop, stopped, completed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "Thing finishing"
+            },
+            {
+                "n": "2",
+                "descr": "Explicit instrument, thing finished with"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "finish.02",
+        "roleset_name": "terminate, conclude or terminate",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing closing"
+            },
+            {
+                "n": "m",
+                "descr": "EXT end point"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "finish.03",
+        "roleset_name": "apply a finish, as to wood",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "painter, agent"
+            },
+            {
+                "n": "1",
+                "descr": "surface"
+            },
+            {
+                "n": "2",
+                "descr": "finish itself, stain or varnish"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "finish.07",
+        "roleset_name": "completing a contest of some sort (often a race)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "finisher"
+            },
+            {
+                "n": "1",
+                "descr": "contest completed"
+            },
+            {
+                "n": "2",
+                "descr": "rank upon finish"
+            },
+            {
+                "n": "3",
+                "descr": "other competitors"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "finish_up.04",
+        "roleset_name": "to bring (a project) to completion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing finishing"
+            },
+            {
+                "n": "2",
+                "descr": "explicit instrument"
+            },
+            {
+                "n": "3",
+                "descr": "point at which thing finishes"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "finish_off.05",
+        "roleset_name": "finish completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause of finishing"
+            },
+            {
+                "n": "1",
+                "descr": "theme, entity coming to completion"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "finish_out.06",
+        "roleset_name": "finish completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "finisher, agent of finishing"
+            },
+            {
+                "n": "1",
+                "descr": "thing finished"
+            },
+            {
+                "n": "2",
+                "descr": "Instrument, thing finished out with"
+            },
+            {
+                "n": "3",
+                "descr": "point at which arg1 ends"
+            }
+        ]
+    }
+]

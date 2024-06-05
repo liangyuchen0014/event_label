@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "screech.01",
+        "roleset_name": "(cause to) emit noise",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer"
+            },
+            {
+                "n": "1",
+                "descr": "thing screeching"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "screech.02",
+        "roleset_name": "stop",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing stopping"
+            },
+            {
+                "n": "2",
+                "descr": "explicit mention of stop"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "screech.03",
+        "roleset_name": "say, yell in a screeching manner",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "screechy speaker"
+            },
+            {
+                "n": "1",
+                "descr": "Utterance"
+            },
+            {
+                "n": "2",
+                "descr": "Hearer"
+            }
+        ]
+    }
+]

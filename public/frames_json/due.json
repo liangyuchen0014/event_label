@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "due.01",
+        "roleset_name": "owed, required",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ower"
+            },
+            {
+                "n": "1",
+                "descr": "recipient, entity owed/expecting arg2"
+            },
+            {
+                "n": "2",
+                "descr": "thing expected, owed"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "due.02",
+        "roleset_name": "caused by, attributable to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause, stimulus"
+            },
+            {
+                "n": "1",
+                "descr": "thing caused, experiencer"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "due.03",
+        "roleset_name": "be scheduled for, planned for a time",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is scheduled"
+            },
+            {
+                "n": "2",
+                "descr": "what arg1 is scheduled to do"
+            }
+        ]
+    }
+]

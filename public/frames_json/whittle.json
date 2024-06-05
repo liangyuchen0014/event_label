@@ -1,0 +1,52 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "whittle.01",
+        "roleset_name": "create by remove wood",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "whittle_down.02",
+        "roleset_name": "make smaller gradually",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of making smaller"
+            },
+            {
+                "n": "1",
+                "descr": "thing getting smaller"
+            },
+            {
+                "n": "2",
+                "descr": "EXT"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            }
+        ]
+    }
+]

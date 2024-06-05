@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "boil.01",
+        "roleset_name": "apply heat to water",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier of heat"
+            },
+            {
+                "n": "1",
+                "descr": "water"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "boil_over.02",
+        "roleset_name": "too much heat",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing boiling over (pot, etc)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "boil_down.03",
+        "roleset_name": "summerize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing summarized"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive, summarized for"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "calibrate.01",
+        "roleset_name": "fine-tune",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "calibrator, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing calibrated"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "intercalibrate.02",
+        "roleset_name": "calibrate within a set; calibrate between",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "intercalibrator, agent"
+            },
+            {
+                "n": "1",
+                "descr": "first thing (or things) intercalibrated"
+            },
+            {
+                "n": "2",
+                "descr": "second thing intercalibrated, compared with"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "grade.01",
+        "roleset_name": "assign a grade",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "grader"
+            },
+            {
+                "n": "1",
+                "descr": "thing graded"
+            },
+            {
+                "n": "2",
+                "descr": "secondary attribute"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "grade.02",
+        "roleset_name": "(cause to) have gradation",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing gradation"
+            },
+            {
+                "n": "1",
+                "descr": "thing becoming gradiant"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "net.02",
+        "roleset_name": "give, cause to have (as profit)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "source, giver"
+            },
+            {
+                "n": "1",
+                "descr": "gift"
+            },
+            {
+                "n": "2",
+                "descr": "destination, benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "net.03",
+        "roleset_name": "get",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "getter"
+            },
+            {
+                "n": "1",
+                "descr": "gotten"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "net_out.01",
+        "roleset_name": "net out: total",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing being counted"
+            },
+            {
+                "n": "2",
+                "descr": "count"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            }
+        ]
+    }
+]

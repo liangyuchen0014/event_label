@@ -1,0 +1,86 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "burst.01",
+        "roleset_name": "appear suddenly, become",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing appearing, topic"
+            },
+            {
+                "n": "2",
+                "descr": "further description of end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "burst.02",
+        "roleset_name": "minor explosion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of explosion"
+            },
+            {
+                "n": "1",
+                "descr": "barricade exploding"
+            },
+            {
+                "n": "2",
+                "descr": "entity/substance no longer contained"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "burst.03",
+        "roleset_name": "rapid movement, sudden increase",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent (only in transitive instances)"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "barricade breached"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "5",
+                "descr": "direction"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "burst_out.04",
+        "roleset_name": "blurt out",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "explosive talker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    }
+]

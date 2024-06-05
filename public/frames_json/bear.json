@@ -1,0 +1,172 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bear.01",
+        "roleset_name": "hold, support, endure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "holder"
+            },
+            {
+                "n": "1",
+                "descr": "thing held"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            },
+            {
+                "n": "3",
+                "descr": "secondary attribute of thing held"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bear.02",
+        "roleset_name": "bear children",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mother"
+            },
+            {
+                "n": "1",
+                "descr": "child"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "bear.03",
+        "roleset_name": "move",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "bear.06",
+        "roleset_name": "has relation to",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "topic"
+            },
+            {
+                "n": "2",
+                "descr": "related topic"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "bear_up.04",
+        "roleset_name": "survive, exist",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity existing"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "bear_out.05",
+        "roleset_name": "bear out: confirm?  support again?",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "confirmer, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing confirmed, patient"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "bear_down.09",
+        "roleset_name": "intensify effort, exert pressure on",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity bearing down"
+            },
+            {
+                "n": "1",
+                "descr": "pressure exerted on"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "bear_down.10",
+        "roleset_name": "approach in a determined manner (possibly from windward)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity approaching"
+            },
+            {
+                "n": "1",
+                "descr": "target"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "bore.07",
+        "roleset_name": "create a hole",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "creator of hole, agent"
+            },
+            {
+                "n": "1",
+                "descr": "hole"
+            },
+            {
+                "n": "2",
+                "descr": "location of hole"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "bore.08",
+        "roleset_name": "be dull, experiencing boredom",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "boring entity"
+            },
+            {
+                "n": "1",
+                "descr": "experiencer of boredom"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            },
+            {
+                "n": "3",
+                "descr": "intensifier (the heck, etc)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "nudge.01",
+        "roleset_name": "move slightly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, causer"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing moving"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount moved"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            },
+            {
+                "n": "5",
+                "descr": "direction--REQUIRED"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "nudge.02",
+        "roleset_name": "touch lightly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causal agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing touched"
+            },
+            {
+                "n": "2",
+                "descr": "touched with, if separate from agent"
+            }
+        ]
+    }
+]

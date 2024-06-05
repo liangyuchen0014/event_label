@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bomb.01",
+        "roleset_name": "to attack or damage, attacking with bombs",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "attacker, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity bombed"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bomb.02",
+        "roleset_name": "to fail",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity failing"
+            },
+            {
+                "n": "2",
+                "descr": "task, test"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "beep.01",
+        "roleset_name": "(cause to) emit a beeping sound",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing beeping"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "beep.02",
+        "roleset_name": "notify someone via beeper",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "notifier, agent"
+            },
+            {
+                "n": "1",
+                "descr": "notified person"
+            }
+        ]
+    }
+]

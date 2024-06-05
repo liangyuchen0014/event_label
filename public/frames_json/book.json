@@ -1,0 +1,71 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "book.01",
+        "roleset_name": "record charges, fees or records",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "officer, agent doing booking"
+            },
+            {
+                "n": "1",
+                "descr": "criminal, person or value being booked"
+            },
+            {
+                "n": "2",
+                "descr": "crime, what you are booked for or as"
+            },
+            {
+                "n": "3",
+                "descr": "prison, place booked into"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "book.03",
+        "roleset_name": "schedule (perhaps fully); purchase a ticker or appointment",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person buying/scheduling the activity/appointment"
+            },
+            {
+                "n": "1",
+                "descr": "activity/room booked; tickets"
+            },
+            {
+                "n": "2",
+                "descr": "schedule owner"
+            },
+            {
+                "n": "3",
+                "descr": "the schedule itself"
+            },
+            {
+                "n": "4",
+                "descr": "booking agent, if different from arg0"
+            },
+            {
+                "n": "5",
+                "descr": "itinerary, time of activity"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "book_up.02",
+        "roleset_name": "book completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "booker, entity making reservation, etc"
+            },
+            {
+                "n": "1",
+                "descr": "booked, hotel, etc."
+            }
+        ]
+    }
+]

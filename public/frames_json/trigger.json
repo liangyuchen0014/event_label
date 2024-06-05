@@ -1,0 +1,48 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "trigger.01",
+        "roleset_name": "begin, cause to begin",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent"
+            },
+            {
+                "n": "1",
+                "descr": "Theme(-Creation)"
+            },
+            {
+                "n": "2",
+                "descr": "Instrument"
+            },
+            {
+                "n": "3",
+                "descr": "secondary predication"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "trigger_off.02",
+        "roleset_name": "start off",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent starting/triggering something"
+            },
+            {
+                "n": "1",
+                "descr": "thing beginning, triggered off"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            },
+            {
+                "n": "3",
+                "descr": "attribute of arg1"
+            }
+        ]
+    }
+]

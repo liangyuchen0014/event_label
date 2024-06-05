@@ -1,0 +1,127 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pay.01",
+        "roleset_name": "cf buy and sell, pay for, pay for again",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "payer or buyer"
+            },
+            {
+                "n": "1",
+                "descr": "money or attention"
+            },
+            {
+                "n": "2",
+                "descr": "person being paid, destination of attention"
+            },
+            {
+                "n": "3",
+                "descr": "commodity, paid for what"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pay.04",
+        "roleset_name": "succeed, work out",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing succeeding or working out"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pay_off.02",
+        "roleset_name": "pay off",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "payer"
+            },
+            {
+                "n": "1",
+                "descr": "debt"
+            },
+            {
+                "n": "2",
+                "descr": "owed to whom, person paid"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "pay_off.05",
+        "roleset_name": "succeed, work out (phrasal)",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing succeeding, working out"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "pay_out.03",
+        "roleset_name": "pay out",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "payer or buyer"
+            },
+            {
+                "n": "1",
+                "descr": "money or attention"
+            },
+            {
+                "n": "2",
+                "descr": "person being paid, destination of attention"
+            },
+            {
+                "n": "3",
+                "descr": "commodity, paid for what"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "pay_down.06",
+        "roleset_name": "reduce indebtedness",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "payer"
+            },
+            {
+                "n": "1",
+                "descr": "debt"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "pay_up.07",
+        "roleset_name": "same as pay.01 but sounds tougher",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, payer"
+            },
+            {
+                "n": "1",
+                "descr": "money paid"
+            },
+            {
+                "n": "2",
+                "descr": "person being paid, given the money"
+            },
+            {
+                "n": "3",
+                "descr": "commodity, money paid for what?"
+            }
+        ]
+    }
+]

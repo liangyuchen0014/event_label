@@ -1,0 +1,124 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "lose.01",
+        "roleset_name": "decrease, fall",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "lose.02",
+        "roleset_name": "lose, no longer have",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity losing something"
+            },
+            {
+                "n": "1",
+                "descr": "thing lost"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, entity gaining thing lost"
+            },
+            {
+                "n": "3",
+                "descr": "source of loss"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "lose.03",
+        "roleset_name": "battle",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "loser"
+            },
+            {
+                "n": "1",
+                "descr": "battle"
+            },
+            {
+                "n": "2",
+                "descr": "winner"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "lose.04",
+        "roleset_name": "lose touch",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "loser"
+            },
+            {
+                "n": "1",
+                "descr": "touch"
+            },
+            {
+                "n": "2",
+                "descr": "with ..."
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "lose.07",
+        "roleset_name": "be unaware",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "what you're not aware of"
+            },
+            {
+                "n": "2",
+                "descr": "unaware entity"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "lose_out.06",
+        "roleset_name": "lose, come to not have",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity losing something"
+            },
+            {
+                "n": "1",
+                "descr": "thing lost"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, entity gaining thing lost"
+            }
+        ]
+    }
+]

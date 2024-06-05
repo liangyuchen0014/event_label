@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "overnight.01",
+        "roleset_name": "spend a night",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "alive entity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "overnight.02",
+        "roleset_name": "send by overnight mail",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mailer"
+            },
+            {
+                "n": "1",
+                "descr": "letter"
+            },
+            {
+                "n": "2",
+                "descr": "mailed-to"
+            }
+        ]
+    }
+]

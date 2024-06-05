@@ -1,0 +1,62 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "boot.01",
+        "roleset_name": "kick",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "booting entity, agent"
+            },
+            {
+                "n": "1",
+                "descr": "booted entity, patient"
+            },
+            {
+                "n": "2",
+                "descr": "booted from (if relevant)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "boot.02",
+        "roleset_name": "also; in addition to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "unmentioned agent"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "boot.04",
+        "roleset_name": "computer's boot up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, person booting something up"
+            },
+            {
+                "n": "1",
+                "descr": "computer, thing booted up"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "boot_up.03",
+        "roleset_name": "boot up, start a computer",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causing boot up (computer kind!)"
+            },
+            {
+                "n": "1",
+                "descr": "computer"
+            }
+        ]
+    }
+]

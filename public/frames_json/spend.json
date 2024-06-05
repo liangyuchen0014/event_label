@@ -1,0 +1,82 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "spend.01",
+        "roleset_name": "use money",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "spender, buyer"
+            },
+            {
+                "n": "1",
+                "descr": "thing bought, commodity"
+            },
+            {
+                "n": "2",
+                "descr": "seller"
+            },
+            {
+                "n": "3",
+                "descr": "price paid, money"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "spend.02",
+        "roleset_name": "bide time",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bider, waiter"
+            },
+            {
+                "n": "1",
+                "descr": "unit of time"
+            },
+            {
+                "n": "2",
+                "descr": "activity"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "spend.04",
+        "roleset_name": "be used up",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing used up"
+            },
+            {
+                "n": "2",
+                "descr": "cause"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "spend_down.03",
+        "roleset_name": "spend money so that one is eligible for medicaid, services for poor",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "spender"
+            },
+            {
+                "n": "1",
+                "descr": "money spent down"
+            },
+            {
+                "n": "2",
+                "descr": "limit spent down to"
+            }
+        ]
+    }
+]

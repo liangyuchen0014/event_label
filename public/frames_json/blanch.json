@@ -1,0 +1,43 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "blanch.01",
+        "roleset_name": "turn pale",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "fainter"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "blanch.02",
+        "roleset_name": "blanch,parboil",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cook"
+            },
+            {
+                "n": "1",
+                "descr": "food"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "blanchable.03",
+        "roleset_name": "able to be made pale",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of paleness"
+            },
+            {
+                "n": "1",
+                "descr": "thing becoming pale"
+            }
+        ]
+    }
+]

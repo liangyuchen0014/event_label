@@ -1,0 +1,110 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "zoom.01",
+        "roleset_name": "move quickly",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity moved"
+            },
+            {
+                "n": "2",
+                "descr": "EXT"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "zoom.02",
+        "roleset_name": "change the detail with which an image is viewed, for the larger or the smaller; non-VPC",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity making arg1 larger or smaller"
+            },
+            {
+                "n": "1",
+                "descr": "thing zoomed in or out- screen, display, device"
+            },
+            {
+                "n": "2",
+                "descr": "zoomed in on or from what- image enlarged or shrunk"
+            },
+            {
+                "n": "3",
+                "descr": "start resolution/size"
+            },
+            {
+                "n": "4",
+                "descr": "end resolution/size"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "zoom_in.03",
+        "roleset_name": "look at a small section in larger detail",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity making arg1 larger"
+            },
+            {
+                "n": "1",
+                "descr": "thing zoomed in- screen, display, device"
+            },
+            {
+                "n": "2",
+                "descr": "zoomed in on what- image enlarged"
+            },
+            {
+                "n": "3",
+                "descr": "start resolution/size"
+            },
+            {
+                "n": "4",
+                "descr": "end resolution/size"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "zoom_out.04",
+        "roleset_name": "look at a larger section with less detail",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity making arg1 larger"
+            },
+            {
+                "n": "1",
+                "descr": "thing zoomed in- screen, dispaly, device"
+            },
+            {
+                "n": "2",
+                "descr": "zoomed out from what- image shrunk"
+            },
+            {
+                "n": "3",
+                "descr": "start resolution/size"
+            },
+            {
+                "n": "4",
+                "descr": "end resolution/size"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "gas.01",
+        "roleset_name": "provide with fuel",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "provider"
+            },
+            {
+                "n": "1",
+                "descr": "fuel"
+            },
+            {
+                "n": "2",
+                "descr": "entity provided for (destination)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "gas.03",
+        "roleset_name": "be killed with gas fumes",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "killer"
+            },
+            {
+                "n": "1",
+                "descr": "victim"
+            },
+            {
+                "n": "2",
+                "descr": "explicit mention of type of gas"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "gas_up.02",
+        "roleset_name": "fill to full",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "provider"
+            },
+            {
+                "n": "1",
+                "descr": "fuel"
+            },
+            {
+                "n": "2",
+                "descr": "entity provided for (destination)"
+            }
+        ]
+    }
+]

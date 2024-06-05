@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "expense.01",
+        "roleset_name": "charge/write off as an expense",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of writing off"
+            },
+            {
+                "n": "1",
+                "descr": "the charge being written off"
+            },
+            {
+                "n": "2",
+                "descr": "entity or account being charged"
+            },
+            {
+                "n": "3",
+                "descr": "secondary predication on arg1-- expense as what"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "expensive.02",
+        "roleset_name": "high in price",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "costly thing, commodity"
+            },
+            {
+                "n": "2",
+                "descr": "price"
+            },
+            {
+                "n": "3",
+                "descr": "buyer, whom it is expensive to"
+            }
+        ]
+    }
+]

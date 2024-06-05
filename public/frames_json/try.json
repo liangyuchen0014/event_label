@@ -1,0 +1,112 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "try.01",
+        "roleset_name": "attempt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent/Entity Trying"
+            },
+            {
+                "n": "1",
+                "descr": "thing tried"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "try.02",
+        "roleset_name": "lawsuit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "litigant"
+            },
+            {
+                "n": "1",
+                "descr": "entity tried (defendant/case)"
+            },
+            {
+                "n": "2",
+                "descr": "adjudicator"
+            },
+            {
+                "n": "3",
+                "descr": "tried for: crime/accusation"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "try.04",
+        "roleset_name": "various idtioms: try one's hand at,   try one's patience, etc.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "tryer"
+            },
+            {
+                "n": "1",
+                "descr": "thing tried (hand, patience)"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of Arg 1"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "try_out.03",
+        "roleset_name": "audition",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "auditionee"
+            },
+            {
+                "n": "1",
+                "descr": "role"
+            },
+            {
+                "n": "2",
+                "descr": "casting agency"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "try_out.05",
+        "roleset_name": "test the potential of something, taste/wear for the first time",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "tester"
+            },
+            {
+                "n": "1",
+                "descr": "thing being tested"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "trial.06",
+        "roleset_name": "medical trial, consumer trial, or similar",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor"
+            },
+            {
+                "n": "1",
+                "descr": "patient, consumer"
+            },
+            {
+                "n": "2",
+                "descr": "medication/ treatment, thing tested"
+            }
+        ]
+    }
+]

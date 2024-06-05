@@ -1,0 +1,112 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wash.01",
+        "roleset_name": "remove/cleanse of by flushing with liquid",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of washing"
+            },
+            {
+                "n": "1",
+                "descr": "thing being washed"
+            },
+            {
+                "n": "2",
+                "descr": "washing liquid"
+            },
+            {
+                "n": "3",
+                "descr": "source (if in addition to arg1)"
+            },
+            {
+                "n": "4",
+                "descr": "end state of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wash.02",
+        "roleset_name": "cut it, be adequate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "inadequate thing"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wash_up.03",
+        "roleset_name": "arrive on unknown shore, reach land from water",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Thing arriving on land from water"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "wash_up.06",
+        "roleset_name": "make become clean, completive",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "washer"
+            },
+            {
+                "n": "1",
+                "descr": "thing becoming clean"
+            },
+            {
+                "n": "2",
+                "descr": "washing liquid"
+            },
+            {
+                "n": "3",
+                "descr": "dirt removed"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "wash_down.04",
+        "roleset_name": "using liquid to swallow something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent of swallowing"
+            },
+            {
+                "n": "1",
+                "descr": "Thing being swallowed"
+            },
+            {
+                "n": "2",
+                "descr": "Liquid enabling swallowing"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "wash_down.05",
+        "roleset_name": "kinda like 'hose down'",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "washer"
+            },
+            {
+                "n": "1",
+                "descr": "formerly dirty thing"
+            },
+            {
+                "n": "2",
+                "descr": "soap/water"
+            }
+        ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "slip.01",
+        "roleset_name": "decrease",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            },
+            {
+                "n": "5",
+                "descr": "specific aspect of arg1 slipping"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "slip.02",
+        "roleset_name": "change location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "moved"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "slip.03",
+        "roleset_name": "give",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "sent"
+            },
+            {
+                "n": "2",
+                "descr": "sent-to"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "slip_in.04",
+        "roleset_name": "slip in: include stealthily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stealthy includer"
+            },
+            {
+                "n": "1",
+                "descr": "stealthy inclusion"
+            }
+        ]
+    }
+]

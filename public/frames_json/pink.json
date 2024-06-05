@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pink.01",
+        "roleset_name": "make a light tapping noise",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making the pinking noise"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pink.02",
+        "roleset_name": "cut in a zigzag pattern using pinking shears",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, person holding the shears"
+            },
+            {
+                "n": "1",
+                "descr": "patient, fabric being cut"
+            },
+            {
+                "n": "2",
+                "descr": "pinking shears"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pink.03",
+        "roleset_name": "puncture with small holes",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, one making the holes"
+            },
+            {
+                "n": "1",
+                "descr": "entity being punctured"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, sharp object"
+            },
+            {
+                "n": "4",
+                "descr": "holes"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "pink.04",
+        "roleset_name": "pink color",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of pinkness"
+            },
+            {
+                "n": "1",
+                "descr": "pink thing"
+            },
+            {
+                "n": "2",
+                "descr": "specific aspect of arg1 that is pink"
+            }
+        ]
+    }
+]

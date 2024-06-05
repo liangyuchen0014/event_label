@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "assemble.01",
+        "roleset_name": "build, creation",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "assemble.02",
+        "roleset_name": "group, grouping together",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing some grouping"
+            },
+            {
+                "n": "1",
+                "descr": "theme, thing being included in some group"
+            },
+            {
+                "n": "2",
+                "descr": "group"
+            }
+        ]
+    }
+]

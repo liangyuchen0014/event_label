@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "salt.01",
+        "roleset_name": "apply salt to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier"
+            },
+            {
+                "n": "1",
+                "descr": "thing getting saltier"
+            },
+            {
+                "n": "2",
+                "descr": "explicit mention of salt itself"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "salt_away.02",
+        "roleset_name": "store",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "storer"
+            },
+            {
+                "n": "1",
+                "descr": "thing stored"
+            }
+        ]
+    }
+]

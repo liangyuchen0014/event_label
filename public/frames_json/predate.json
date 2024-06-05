@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "predate.01",
+        "roleset_name": "come before, temporally",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing coming before"
+            },
+            {
+                "n": "2",
+                "descr": "thing coming after"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "predate.02",
+        "roleset_name": "be a predator of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "predator"
+            },
+            {
+                "n": "1",
+                "descr": "prey"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "predate.03",
+        "roleset_name": "mark with a previous date",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent-- entity assigning a date"
+            },
+            {
+                "n": "1",
+                "descr": "thing assigned a date"
+            },
+            {
+                "n": "2",
+                "descr": "date assigned, value or extent"
+            }
+        ]
+    }
+]

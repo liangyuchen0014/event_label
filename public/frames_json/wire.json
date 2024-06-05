@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wire.01",
+        "roleset_name": "send electronically",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "sent, message"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wire.02",
+        "roleset_name": "attach with wires",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of attachment"
+            },
+            {
+                "n": "1",
+                "descr": "entity wired"
+            },
+            {
+                "n": "2",
+                "descr": "other entity or end state"
+            }
+        ]
+    }
+]

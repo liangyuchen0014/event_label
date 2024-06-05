@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "extract.01",
+        "roleset_name": "to remove or obtain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "remover, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing extracted"
+            },
+            {
+                "n": "2",
+                "descr": "entity extracted from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "extraction.02",
+        "roleset_name": "lineage, ancestory",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity having ancestors"
+            },
+            {
+                "n": "2",
+                "descr": "the ancestory, lineage (may require concatenation)"
+            }
+        ]
+    }
+]

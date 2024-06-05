@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "coagulate.01",
+        "roleset_name": "(cause to) convert liquid to solid, convert liquid to solid via an electric current",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of coagulation"
+            },
+            {
+                "n": "1",
+                "descr": "entity coagulated"
+            },
+            {
+                "n": "2",
+                "descr": "instrument or manner, if separate from arg 0"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "apc.02",
+        "roleset_name": "argon plasma coagulation \u2013 endoscopic\u00a0procedure to control bleeding from GI lesions",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent (endoscopist)"
+            },
+            {
+                "n": "1",
+                "descr": "coagulated (abnormality being treated)"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive (person undergoing procedure) "
+            }
+        ]
+    }
+]

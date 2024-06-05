@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "hotspot.01",
+        "roleset_name": "turn into a wifi hotspot",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "location becoming a hotspot"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "hotspot.02",
+        "roleset_name": "create a web link in a certain location (the location being the hotspot)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "web designer"
+            },
+            {
+                "n": "1",
+                "descr": "location/word turned into a link"
+            },
+            {
+                "n": "2",
+                "descr": "what the link directs to"
+            }
+        ]
+    }
+]

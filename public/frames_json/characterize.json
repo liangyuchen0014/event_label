@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "characterize.01",
+        "roleset_name": "assign a label or attribute, describing something as having a label or attribute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "describer"
+            },
+            {
+                "n": "1",
+                "descr": "thing described"
+            },
+            {
+                "n": "2",
+                "descr": "secondary attribute, described-as"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "characteristic.02",
+        "roleset_name": "characteristic",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "possessor of quality, characteristic of whom (should come SECOND)"
+            },
+            {
+                "n": "2",
+                "descr": "quality, characteristic itself (should come FIRST)"
+            }
+        ]
+    }
+]

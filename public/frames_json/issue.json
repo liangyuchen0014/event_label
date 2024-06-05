@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "issue.01",
+        "roleset_name": "emit, emit/provide",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "issuer"
+            },
+            {
+                "n": "1",
+                "descr": "thing issued"
+            },
+            {
+                "n": "2",
+                "descr": "issued to"
+            },
+            {
+                "n": "3",
+                "descr": "attribute, issued as or at"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "issue.02",
+        "roleset_name": "problematic state",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stimulus of problematic state -- thing that is a problem"
+            },
+            {
+                "n": "1",
+                "descr": "experiencer of problematic state -- who has a problem with 0?"
+            }
+        ]
+    }
+]

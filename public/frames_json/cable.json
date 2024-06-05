@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cable.01",
+        "roleset_name": "fax, commucate using cable",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender, agent"
+            },
+            {
+                "n": "1",
+                "descr": "message"
+            },
+            {
+                "n": "2",
+                "descr": "sent to, recipient"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cable.02",
+        "roleset_name": "link, using a cable",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, linker"
+            },
+            {
+                "n": "1",
+                "descr": "thing cabled"
+            },
+            {
+                "n": "2",
+                "descr": "thing cabled to"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    }
+]

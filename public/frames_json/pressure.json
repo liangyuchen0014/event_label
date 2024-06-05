@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pressure.01",
+        "roleset_name": "apply pressure, pressure someone to do something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "presser"
+            },
+            {
+                "n": "1",
+                "descr": "pressed (on)"
+            },
+            {
+                "n": "2",
+                "descr": "goal, pressed-for"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pressure.02",
+        "roleset_name": "move, cause motion by pressure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "moved"
+            },
+            {
+                "n": "m",
+                "descr": "ahead, usually"
+            }
+        ]
+    }
+]

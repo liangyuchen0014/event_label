@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "suggest.01",
+        "roleset_name": "say, giving of advice",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Sayer"
+            },
+            {
+                "n": "1",
+                "descr": "Utterance (suggestion)"
+            },
+            {
+                "n": "2",
+                "descr": "Hearer"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "suggest.02",
+        "roleset_name": "sexually suggestive",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sexually suggestive entity"
+            },
+            {
+                "n": "1",
+                "descr": "explicit mention of sexual suggestion"
+            },
+            {
+                "n": "2",
+                "descr": "suggested to; observer"
+            }
+        ]
+    }
+]

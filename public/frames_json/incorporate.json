@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "incorporate.01",
+        "roleset_name": "(cause) a corporate entity to have a certain tax status",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of tax status"
+            },
+            {
+                "n": "1",
+                "descr": "corporation"
+            },
+            {
+                "n": "m",
+                "descr": "location"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "incorporate.02",
+        "roleset_name": "blend, mix, consolidate into one",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mixer, integrater"
+            },
+            {
+                "n": "1",
+                "descr": "figure"
+            },
+            {
+                "n": "2",
+                "descr": "ground"
+            }
+        ]
+    }
+]

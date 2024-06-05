@@ -1,0 +1,96 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "negative.01",
+        "roleset_name": "absence of a feature; disconfirmed",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "test or patient, thing evaluated"
+            },
+            {
+                "n": "2",
+                "descr": "thing disconfirmed; thing that is absent"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "negative.02",
+        "roleset_name": "not desirable, unwanted, bad",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of badness; undesirable thing"
+            },
+            {
+                "n": "1",
+                "descr": "malefactive; person hurt by negative events or situation"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "negative.03",
+        "roleset_name": "express unfavorable sentiment about",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity expressing negative sentiment"
+            },
+            {
+                "n": "1",
+                "descr": "target of negative sentiment/feedback"
+            },
+            {
+                "n": "2",
+                "descr": "cause of negative feedback, complaint"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "negative.05",
+        "roleset_name": "be less than zero; go in a direction opposite of positive",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "quantity, value or rate which is less than zero"
+            },
+            {
+                "n": "2",
+                "descr": "domain or property quantified"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "negative.06",
+        "roleset_name": "electronegativity; have a surplus of electrons",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing with a negative charge"
+            },
+            {
+                "n": "2",
+                "descr": "charge itself, extent of negativity"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "negate.04",
+        "roleset_name": "make invalid, counteract",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of invalidity"
+            },
+            {
+                "n": "1",
+                "descr": "thing negated, proposition"
+            }
+        ]
+    }
+]

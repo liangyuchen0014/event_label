@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "brick.01",
+        "roleset_name": "face, pave with brick",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "construction worker, bricklayer"
+            },
+            {
+                "n": "1",
+                "descr": "entity, location faced/covered with brick"
+            },
+            {
+                "n": "2",
+                "descr": "brick itself, type of brick"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "brick_over.02",
+        "roleset_name": "to face, cover with brick",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bricklayer"
+            },
+            {
+                "n": "1",
+                "descr": "location, entity being covered in brick"
+            },
+            {
+                "n": "2",
+                "descr": "brick itself"
+            }
+        ]
+    }
+]

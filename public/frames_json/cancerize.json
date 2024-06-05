@@ -1,0 +1,47 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cancerize.01",
+        "roleset_name": "becoming cancerous",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity becoming cancerous"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cancerous.02",
+        "roleset_name": "having cancer",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "cancerous entity"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "cancer.03",
+        "roleset_name": "group of diseases involving abnormal cell growth",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "primary organ"
+            },
+            {
+                "n": "3",
+                "descr": "specific part of organ, if in addition to ARG2"
+            },
+            {
+                "n": "4",
+                "descr": "cell location/field (e.g., squamous cell; urothelium)"
+            }
+        ]
+    }
+]

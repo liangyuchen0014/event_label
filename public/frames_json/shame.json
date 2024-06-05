@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shame.01",
+        "roleset_name": "impel through shame, assign shame as punishment",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity assigning shame/impelling through shame"
+            },
+            {
+                "n": "1",
+                "descr": "shamed/impelled agent"
+            },
+            {
+                "n": "2",
+                "descr": "action impelled through shame"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shame.02",
+        "roleset_name": "bring shame to another by acting shamefully oneself, causing shame",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shameful actor/actions bringing shame to arg1"
+            },
+            {
+                "n": "1",
+                "descr": "entity feeling shame for arg0"
+            },
+            {
+                "n": "2",
+                "descr": "shameful behavior/thing, if separate from arg0"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "shame.03",
+        "roleset_name": "unfortunate situation",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "unfortunate thing"
+            },
+            {
+                "n": "2",
+                "descr": "beneficiary of bad fortune"
+            }
+        ]
+    }
+]

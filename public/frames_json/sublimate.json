@@ -1,0 +1,52 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sublimate.01",
+        "roleset_name": "to have a purifying, ennobling effect; to change from solid to gas or vice versa",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause of sublimation"
+            },
+            {
+                "n": "1",
+                "descr": "entity undergoing change, sublimation"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            },
+            {
+                "n": "3",
+                "descr": "starting state of arg 1"
+            },
+            {
+                "n": "4",
+                "descr": "final state of arg 1, result after sublimation"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sublimation.02",
+        "roleset_name": "Transition directly from a solid state to a gas state.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "substance transitioning"
+            },
+            {
+                "n": "2",
+                "descr": "start state"
+            },
+            {
+                "n": "3",
+                "descr": "end state"
+            }
+        ]
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cross.01",
+        "roleset_name": "(cause) two things to intersect",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "crosser"
+            },
+            {
+                "n": "1",
+                "descr": "first entity crossing (or all entities)"
+            },
+            {
+                "n": "2",
+                "descr": "second entity, crossed by arg1"
+            },
+            {
+                "n": "3",
+                "descr": "arg1's crossing axis"
+            },
+            {
+                "n": "4",
+                "descr": "arg2's crossing axis"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cross.02",
+        "roleset_name": "move perpendicularly to some barrier",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "1",
+                "descr": "barrier"
+            },
+            {
+                "n": "2",
+                "descr": "axis, trajectory of motion"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "cross.04",
+        "roleset_name": "eliminate from a list",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "crosser"
+            },
+            {
+                "n": "1",
+                "descr": "item"
+            },
+            {
+                "n": "2",
+                "descr": "list"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "cross.05",
+        "roleset_name": "make angry",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "maker"
+            },
+            {
+                "n": "1",
+                "descr": "angry entity"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "cross_out.03",
+        "roleset_name": "eliminate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "eliminator"
+            },
+            {
+                "n": "1",
+                "descr": "eliminated"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "cross_over.06",
+        "roleset_name": "cause one entity to span a gap",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "spanning entity"
+            },
+            {
+                "n": "2",
+                "descr": "spanned entity"
+            },
+            {
+                "n": "3",
+                "descr": "start location"
+            },
+            {
+                "n": "4",
+                "descr": "destination"
+            },
+            {
+                "n": "5",
+                "descr": "spanning axis of arg1"
+            },
+            {
+                "n": "6",
+                "descr": "spanned axis of arg1"
+            }
+        ]
+    }
+]

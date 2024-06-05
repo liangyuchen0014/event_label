@@ -1,0 +1,98 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "build.01",
+        "roleset_name": "construct",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "build.02",
+        "roleset_name": "grow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing growing, building"
+            },
+            {
+                "n": "1",
+                "descr": "place grown, substrate, material"
+            },
+            {
+                "n": "2",
+                "descr": "amount increased by, EXT or MNR"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "build.03",
+        "roleset_name": "include",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing some grouping"
+            },
+            {
+                "n": "1",
+                "descr": "theme, thing being included in some group"
+            },
+            {
+                "n": "2",
+                "descr": "group"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "build_up.05",
+        "roleset_name": "build up: cause to be bigger",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction, bigger thing"
+            },
+            {
+                "n": "2",
+                "descr": "amount of change, EXT"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            }
+        ]
+    }
+]

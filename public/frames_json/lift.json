@@ -1,0 +1,52 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "lift.01",
+        "roleset_name": "cause increase in elevation",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "elevator, Agent"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing rising"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount risen"
+            },
+            {
+                "n": "3",
+                "descr": "Start point"
+            },
+            {
+                "n": "4",
+                "descr": "End point"
+            },
+            {
+                "n": "m",
+                "descr": "Medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "lift.02",
+        "roleset_name": "acquire stealthily, remove",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity acquiring/removing something"
+            },
+            {
+                "n": "1",
+                "descr": "thing acquired/removed"
+            },
+            {
+                "n": "2",
+                "descr": "acquired/removed-from"
+            }
+        ]
+    }
+]

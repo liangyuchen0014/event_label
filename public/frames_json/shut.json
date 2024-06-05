@@ -1,0 +1,108 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shut.01",
+        "roleset_name": "close",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person doing the closing"
+            },
+            {
+                "n": "1",
+                "descr": "thing closing"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shut_out.02",
+        "roleset_name": "exclude, except",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, excluder"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing excluded"
+            },
+            {
+                "n": "2",
+                "descr": "excluded-from"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "shut_off.03",
+        "roleset_name": "exclude, except",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, excluder"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing excluded"
+            },
+            {
+                "n": "2",
+                "descr": "excluded-from"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "shut_off.04",
+        "roleset_name": "turn off, as a light",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "flipper of the switch, agent"
+            },
+            {
+                "n": "1",
+                "descr": "light"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "shut_down.05",
+        "roleset_name": "cause to end, cause to come to a stop",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "Thing ending"
+            },
+            {
+                "n": "2",
+                "descr": "Explicit instrument, thing ended with"
+            },
+            {
+                "n": "m",
+                "descr": "point at which something ends"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "shut_up.06",
+        "roleset_name": "stop talking",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer"
+            },
+            {
+                "n": "1",
+                "descr": "person becoming quiet"
+            }
+        ]
+    }
+]

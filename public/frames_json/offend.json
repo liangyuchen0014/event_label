@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "offend.01",
+        "roleset_name": "give offense, bother, take aback, insulted and in a huff",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "offender"
+            },
+            {
+                "n": "1",
+                "descr": "offended"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, if separate from arg0"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "offend.03",
+        "roleset_name": "Commit an illegal act",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "criminal"
+            },
+            {
+                "n": "1",
+                "descr": "crime"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "offense.02",
+        "roleset_name": "making an attack",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "the offense (attackers)"
+            },
+            {
+                "n": "1",
+                "descr": "the defense (victims/targets)"
+            }
+        ]
+    }
+]

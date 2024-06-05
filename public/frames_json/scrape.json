@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "scrape.01",
+        "roleset_name": "remove by scraping",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, scraper"
+            },
+            {
+                "n": "1",
+                "descr": "thing removed"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "scrape.02",
+        "roleset_name": "collect with difficulty",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "collector"
+            },
+            {
+                "n": "1",
+                "descr": "thing collected"
+            },
+            {
+                "n": "2",
+                "descr": "quasi-phrasal attribute of arg1"
+            },
+            {
+                "n": "3",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "scrape.03",
+        "roleset_name": "just get by",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity just getting by"
+            },
+            {
+                "n": "1",
+                "descr": "path, thing just barely accomplished"
+            }
+        ]
+    }
+]

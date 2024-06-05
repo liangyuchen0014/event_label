@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "recall.01",
+        "roleset_name": "manufactured defect",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity recalling, manufacturer"
+            },
+            {
+                "n": "1",
+                "descr": "thing being recalled, defective thing"
+            },
+            {
+                "n": "2",
+                "descr": "recalled from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "recall.02",
+        "roleset_name": "remember",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "rememberer"
+            },
+            {
+                "n": "1",
+                "descr": "memory"
+            },
+            {
+                "n": "2",
+                "descr": "secondary attribute"
+            },
+            {
+                "n": "3",
+                "descr": "hearer"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "recall.03",
+        "roleset_name": "ask or order to go/come back",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "recaller"
+            },
+            {
+                "n": "1",
+                "descr": "entity recalled"
+            },
+            {
+                "n": "2",
+                "descr": "recalled to where"
+            }
+        ]
+    }
+]

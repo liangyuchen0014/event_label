@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "surface.01",
+        "roleset_name": "appear, as from underwater",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing appearing"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "surface.02",
+        "roleset_name": "put atop, apply a surface to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier, agent"
+            },
+            {
+                "n": "1",
+                "descr": "substrate, medium"
+            },
+            {
+                "n": "2",
+                "descr": "stuff on top"
+            }
+        ]
+    }
+]

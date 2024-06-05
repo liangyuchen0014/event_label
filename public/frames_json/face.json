@@ -1,0 +1,132 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "face.01",
+        "roleset_name": "look across at",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "looker, facer"
+            },
+            {
+                "n": "1",
+                "descr": "looked at, faced"
+            },
+            {
+                "n": "2",
+                "descr": "the 'face' of arg1; the part aimed at arg2 (if in addition to arg0)"
+            },
+            {
+                "n": "3",
+                "descr": "anchor; which framework is used to designate the 'face'"
+            },
+            {
+                "n": "4",
+                "descr": "the 'face' of the thing being faced"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "face_off.02",
+        "roleset_name": "face off: oppose, fight",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first opponent"
+            },
+            {
+                "n": "1",
+                "descr": "second opponent"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "aboutface.03",
+        "roleset_name": "about-face, change your mind/stance completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Person changing mind"
+            },
+            {
+                "n": "1",
+                "descr": "Regarding what issue, in what domain"
+            },
+            {
+                "n": "2",
+                "descr": "original orientation"
+            },
+            {
+                "n": "3",
+                "descr": "end orientation"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "lose_face.04",
+        "roleset_name": "lose social status, be humiliated",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stimulus of humiliation, event causing a loss of face"
+            },
+            {
+                "n": "1",
+                "descr": "humiliated entity"
+            },
+            {
+                "n": "2",
+                "descr": "social group whose respect is lost"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "save_face.05",
+        "roleset_name": "prevent a humiation or loss of status",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "way of preventing the loss of face"
+            },
+            {
+                "n": "1",
+                "descr": "entity whose dignity is on the line"
+            },
+            {
+                "n": "2",
+                "descr": "social group whose respect is not lost"
+            },
+            {
+                "n": "3",
+                "descr": "event of losing face that was prevented"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "face-down.06",
+        "roleset_name": "be oriented with the face pointing down in some framework",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "face-down thing"
+            },
+            {
+                "n": "2",
+                "descr": "axis"
+            },
+            {
+                "n": "3",
+                "descr": "face-anchor (which framework's 'front' is being referenced as pointing down)"
+            },
+            {
+                "n": "4",
+                "descr": "down-anchor (which framework's 'down' is being referenced)"
+            }
+        ]
+    }
+]

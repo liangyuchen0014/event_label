@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "punt.01",
+        "roleset_name": "kick a ball",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "kicker"
+            },
+            {
+                "n": "1",
+                "descr": "the ball"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "punt.02",
+        "roleset_name": "propel (a boat) using a pole",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Gondolier (person propelling the boat)"
+            },
+            {
+                "n": "1",
+                "descr": "the boat"
+            },
+            {
+                "n": "2",
+                "descr": "destination/location of the boat."
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "punt.03",
+        "roleset_name": "place a bet on (or against",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "gambler"
+            },
+            {
+                "n": "1",
+                "descr": "monetary (or other) bet"
+            },
+            {
+                "n": "2",
+                "descr": "the thing being bet on"
+            }
+        ]
+    }
+]

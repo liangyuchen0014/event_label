@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "harm.01",
+        "roleset_name": "cause damage",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, Stimulus"
+            },
+            {
+                "n": "1",
+                "descr": "entity damaged"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "harmful.02",
+        "roleset_name": "tending to cause damage",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of damage, stimulus"
+            },
+            {
+                "n": "1",
+                "descr": "entity damaged"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stress.01",
+        "roleset_name": "emphasize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stresser, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing stressed"
+            },
+            {
+                "n": "2",
+                "descr": "attribute"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stress.02",
+        "roleset_name": "(cause to) experience stress, anxiety inducing, experiencing stress",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause of stress"
+            },
+            {
+                "n": "1",
+                "descr": "entity experiencing stress"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (if separate from arg0)"
+            },
+            {
+                "n": "3",
+                "descr": "subject matter of stress (stressed about/over __)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "stress.04",
+        "roleset_name": "physical strain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of strain"
+            },
+            {
+                "n": "1",
+                "descr": "thing strained"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "stress_out.03",
+        "roleset_name": "(cause to) experience stress (phrasal)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause of stress"
+            },
+            {
+                "n": "1",
+                "descr": "entity experiencing stress"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (if separate from arg0)"
+            },
+            {
+                "n": "3",
+                "descr": "subject matter of stress (stressed out about/over __)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "abandon.01",
+        "roleset_name": "leave behind",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "abandoner"
+            },
+            {
+                "n": "1",
+                "descr": "entity left behind"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "abandon.02",
+        "roleset_name": "exchange",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "abandoner"
+            },
+            {
+                "n": "1",
+                "descr": "thing abandoned, left behind"
+            },
+            {
+                "n": "2",
+                "descr": "preferred item"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "abandon.03",
+        "roleset_name": "surrender, give_over",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity abandoning something"
+            },
+            {
+                "n": "1",
+                "descr": "thing abandoned"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, abandoned-to"
+            }
+        ]
+    }
+]

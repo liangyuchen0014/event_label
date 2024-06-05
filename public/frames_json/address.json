@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "address.01",
+        "roleset_name": "put an address on, or speak to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "addresser"
+            },
+            {
+                "n": "1",
+                "descr": "item being addressed (letter, speech, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "hearer/recipient"
+            },
+            {
+                "n": "3",
+                "descr": "address as"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "address.02",
+        "roleset_name": "deal with",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "dealing with what"
+            },
+            {
+                "n": "2",
+                "descr": "answer, dealing how"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "address.03",
+        "roleset_name": "answer, pay attention to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "talker"
+            },
+            {
+                "n": "1",
+                "descr": "subject"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    }
+]

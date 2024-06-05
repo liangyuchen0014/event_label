@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shell.01",
+        "roleset_name": "remove shells from",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sheller"
+            },
+            {
+                "n": "1",
+                "descr": "thing that used to have a shell"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shell.02",
+        "roleset_name": "bomb",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sheller"
+            },
+            {
+                "n": "1",
+                "descr": "target"
+            },
+            {
+                "n": "2",
+                "descr": "explicit mention of bombs, shells"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "shell_out.03",
+        "roleset_name": "pay",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "payer or buyer"
+            },
+            {
+                "n": "1",
+                "descr": "money"
+            },
+            {
+                "n": "2",
+                "descr": "seller or person being paid"
+            },
+            {
+                "n": "3",
+                "descr": "thing bought or paid for"
+            }
+        ]
+    }
+]

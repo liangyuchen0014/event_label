@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "press.01",
+        "roleset_name": "apply pressure, possibly to do something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "presser"
+            },
+            {
+                "n": "1",
+                "descr": "pressed (on)"
+            },
+            {
+                "n": "2",
+                "descr": "goal, pressed-for, arg1 is pressed to do what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "press.02",
+        "roleset_name": "move",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "moved"
+            },
+            {
+                "n": "m",
+                "descr": "ahead, usually"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "press.03",
+        "roleset_name": "make and produce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "producer"
+            },
+            {
+                "n": "1",
+                "descr": "record, music, disk"
+            }
+        ]
+    }
+]

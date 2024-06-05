@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "normalize.01",
+        "roleset_name": "to make normal, standard, or consistent",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer"
+            },
+            {
+                "n": "1",
+                "descr": "entity normalized"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "normal.02",
+        "roleset_name": "average, to be expected",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "normal thing (may NOT be filled by a test; only the entity tested)"
+            },
+            {
+                "n": "2",
+                "descr": "specific aspect of arg1 that is normal"
+            },
+            {
+                "n": "3",
+                "descr": "specific measurement, numerical reading of normalcy"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "default.01",
+        "roleset_name": "fail, fail to be able to pay",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "group/entity unable to pay"
+            },
+            {
+                "n": "2",
+                "descr": "what they can't pay for"
+            },
+            {
+                "n": "3",
+                "descr": "loaner of money"
+            },
+            {
+                "n": "4",
+                "descr": "amount of money"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "default.02",
+        "roleset_name": "automatic selection of an option in absense of intervention",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing activating default selection"
+            },
+            {
+                "n": "2",
+                "descr": "the selection that is that default"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "leaf.01",
+        "roleset_name": "flip through pages",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, person flipping through the pages"
+            },
+            {
+                "n": "1",
+                "descr": "location, the pages"
+            },
+            {
+                "n": "2",
+                "descr": "thing being searched for in the pages"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "leaf.02",
+        "roleset_name": "grow leaves",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing producing leaves"
+            },
+            {
+                "n": "1",
+                "descr": "final state of the thing once it has leaves, 'into __'"
+            }
+        ]
+    }
+]

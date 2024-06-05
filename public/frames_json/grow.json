@@ -1,0 +1,89 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "grow.01",
+        "roleset_name": "increase,",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "[causer of growth - should be possible]"
+            },
+            {
+                "n": "1",
+                "descr": "thing grown"
+            },
+            {
+                "n": "2",
+                "descr": "amount increased by, EXT or MNR"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "grow.02",
+        "roleset_name": "become",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing becoming"
+            },
+            {
+                "n": "2",
+                "descr": "thing become = end state of arg1"
+            },
+            {
+                "n": "3",
+                "descr": "source, start point"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "grow.03",
+        "roleset_name": "agriculture, cultivating",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "grower"
+            },
+            {
+                "n": "1",
+                "descr": "crop"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "grow_up.04",
+        "roleset_name": "go from child to adult",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "person aging"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "grown.05",
+        "roleset_name": "having reached adulthood",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "person aged"
+            }
+        ]
+    }
+]

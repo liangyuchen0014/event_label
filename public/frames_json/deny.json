@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "deny.01",
+        "roleset_name": "turn down, reject",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "denier"
+            },
+            {
+                "n": "1",
+                "descr": "thing denied"
+            },
+            {
+                "n": "2",
+                "descr": "anti-benefactive: entity being denied arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "deniable.02",
+        "roleset_name": "able to be denied",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "denier"
+            },
+            {
+                "n": "1",
+                "descr": "thing denied"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    }
+]

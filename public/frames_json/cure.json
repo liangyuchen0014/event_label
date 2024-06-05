@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cure.01",
+        "roleset_name": "treat an illness completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor (etc)"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "illness or injury"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, treatment"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cure.02",
+        "roleset_name": "preserve (as in meat or hide)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "curable.03",
+        "roleset_name": "able to be cured",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor (etc)"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "illness or injury"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, treatment"
+            }
+        ]
+    }
+]

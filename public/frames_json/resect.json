@@ -1,0 +1,78 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "resect.01",
+        "roleset_name": "to remove surgically, surgically excising part of a tissue",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "Entity removed"
+            },
+            {
+                "n": "2",
+                "descr": "Removed from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "resectable.02",
+        "roleset_name": "able to be removed surgically",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "thing removed"
+            },
+            {
+                "n": "2",
+                "descr": "source, removed from"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "apr.03",
+        "roleset_name": "abdominoperineal resection: a procedure in which the rectum, anus, some of the colon, and other tissue are removed via entry through the abdomen and the perineum",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "entity removed"
+            },
+            {
+                "n": "2",
+                "descr": "source, removed from"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "lar.04",
+        "roleset_name": "a procedure in which all or part of the rectum is removed via entry through the abdomen",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "entity removed"
+            },
+            {
+                "n": "2",
+                "descr": "source, removed from"
+            }
+        ]
+    }
+]

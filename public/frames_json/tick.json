@@ -1,0 +1,81 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tick.01",
+        "roleset_name": "make sounds like a clock",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ticker"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tick.04",
+        "roleset_name": "move position on a scale",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of scale change"
+            },
+            {
+                "n": "1",
+                "descr": "thing changing position"
+            },
+            {
+                "n": "2",
+                "descr": "start state"
+            },
+            {
+                "n": "3",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tick.05",
+        "roleset_name": "mark (with a tick mark)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing marked (destination)"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "tick_off.02",
+        "roleset_name": "make angry",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of anger"
+            },
+            {
+                "n": "1",
+                "descr": "angry entity"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "tick_off.03",
+        "roleset_name": "enumerate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "counter, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing(s) counted"
+            }
+        ]
+    }
+]

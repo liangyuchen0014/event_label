@@ -1,0 +1,123 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "step.01",
+        "roleset_name": "move incrementally, incremental movement",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "destination or metaphorical goal"
+            },
+            {
+                "n": "3",
+                "descr": "source"
+            },
+            {
+                "n": "4",
+                "descr": "step itself, action taken to achieve goal"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "step_in.02",
+        "roleset_name": "intervene",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity intervening"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "step_up.03",
+        "roleset_name": "increase incrementally",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of increase"
+            },
+            {
+                "n": "1",
+                "descr": "thing increasing"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "step_down.04",
+        "roleset_name": "resign",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "resigner"
+            },
+            {
+                "n": "1",
+                "descr": "position resigned"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "step_aside.05",
+        "roleset_name": "resign",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "resigner"
+            },
+            {
+                "n": "1",
+                "descr": "job/position"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "in_step.06",
+        "roleset_name": "be in sync with",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause, agent"
+            },
+            {
+                "n": "1",
+                "descr": "first synchronized entity"
+            },
+            {
+                "n": "2",
+                "descr": "in synch with"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "step_back.07",
+        "roleset_name": "pause an activity, perhaps to look at the big picture",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "viewer"
+            },
+            {
+                "n": "1",
+                "descr": "thing stepped back from; activity one is halting"
+            },
+            {
+                "n": "2",
+                "descr": "new activity, bigger picture viewed"
+            }
+        ]
+    }
+]

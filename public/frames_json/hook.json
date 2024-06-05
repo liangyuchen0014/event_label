@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "hook.01",
+        "roleset_name": "attach (as with a hook)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of attachment"
+            },
+            {
+                "n": "1",
+                "descr": "thing now attached, first or all things hooked"
+            },
+            {
+                "n": "2",
+                "descr": "hook, thing arg1 is attached to"
+            },
+            {
+                "n": "3",
+                "descr": "attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "hook.03",
+        "roleset_name": "(cause to) exist in a hook shape",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer of hook shape"
+            },
+            {
+                "n": "1",
+                "descr": "thing in hook shape"
+            },
+            {
+                "n": "2",
+                "descr": "hooked around what"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "hook_up.02",
+        "roleset_name": "attach, phrasal variant",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of attachment"
+            },
+            {
+                "n": "1",
+                "descr": "thing now attached"
+            },
+            {
+                "n": "2",
+                "descr": "hook"
+            }
+        ]
+    }
+]

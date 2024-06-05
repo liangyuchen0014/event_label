@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "precaution.01",
+        "roleset_name": "issue warning",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Entity giving warning"
+            },
+            {
+                "n": "1",
+                "descr": "the warning"
+            },
+            {
+                "n": "2",
+                "descr": "warned entity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "precaution.02",
+        "roleset_name": "act preventatively, cautionarily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Entity taking precautions"
+            },
+            {
+                "n": "1",
+                "descr": "precautionary actions themselves"
+            },
+            {
+                "n": "2",
+                "descr": "purpose of precautionary actions"
+            },
+            {
+                "n": "3",
+                "descr": "precautionary against; potential bad outcome"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "time.01",
+        "roleset_name": "measure the time it takes to do an action, measuring time it takes",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "measurer"
+            },
+            {
+                "n": "1",
+                "descr": "action"
+            },
+            {
+                "n": "2",
+                "descr": "time required"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "time.02",
+        "roleset_name": "synchronize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "first thing synchronized"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, if separate"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "timely.03",
+        "roleset_name": "synchronize",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "first thing synchronized"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, if separate"
+            }
+        ]
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "paramutate.01",
+        "roleset_name": "one allele transfering a heritable change onto a counterpart allele.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "paramutagenic allele (causer of mutation)"
+            },
+            {
+                "n": "1",
+                "descr": "paramutable allele (entity changed, also includes mentions of the entire locus/gene)"
+            },
+            {
+                "n": "2",
+                "descr": "the larger organism"
+            },
+            {
+                "n": "3",
+                "descr": "iteration"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "paramutagenic.02",
+        "roleset_name": "capable of trasfering a paramutation to another allele",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "paramutagenic allele (causer of mutation)"
+            },
+            {
+                "n": "1",
+                "descr": "paramutable allele (entity changed, also includes mentions of the entire locus/gene or organism)"
+            },
+            {
+                "n": "2",
+                "descr": "the larger organism"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "paramutable.03",
+        "roleset_name": "in a position to be paramutated by another allele",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "paramutagenic allele (causer of mutation)"
+            },
+            {
+                "n": "1",
+                "descr": "paramutable allele (entity changed, also includes mentions of the entire locus/gene or organism)"
+            },
+            {
+                "n": "2",
+                "descr": "the larger organism"
+            }
+        ]
+    }
+]

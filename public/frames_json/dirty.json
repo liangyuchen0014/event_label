@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "dirty.01",
+        "roleset_name": "(cause to) become dirty",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause"
+            },
+            {
+                "n": "1",
+                "descr": "thing dirtied"
+            },
+            {
+                "n": "2",
+                "descr": "dirt"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "dirty.02",
+        "roleset_name": "unclean, infused with dirt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause of dirtiness"
+            },
+            {
+                "n": "1",
+                "descr": "dirty thing"
+            },
+            {
+                "n": "2",
+                "descr": "dirt itself, with which arg1 becomes dirty"
+            }
+        ]
+    }
+]

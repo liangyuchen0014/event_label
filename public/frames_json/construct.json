@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "construct.01",
+        "roleset_name": "build, building of some structure (not the structure itself)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "constructive.02",
+        "roleset_name": "affirming, building up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "affirming entity/act"
+            },
+            {
+                "n": "1",
+                "descr": "entity built up, affirmed"
+            }
+        ]
+    }
+]

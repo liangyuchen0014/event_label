@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "clock.01",
+        "roleset_name": "measure the speed of something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "measurer"
+            },
+            {
+                "n": "1",
+                "descr": "thing measured"
+            },
+            {
+                "n": "2",
+                "descr": "yardstick, standard of measurement (clock)"
+            },
+            {
+                "n": "3",
+                "descr": "measurement"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "clock.02",
+        "roleset_name": "hit (on the head?)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, hitter - animate only!"
+            },
+            {
+                "n": "1",
+                "descr": "thing hit"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, thing hit by or with"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pathologic.01",
+        "roleset_name": "caused by/indicating disease/pathology",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "pathologic entity"
+            },
+            {
+                "n": "2",
+                "descr": "disease/pathology indicated"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pathologize.02",
+        "roleset_name": "categorize something as a pathology",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent doing the categorizing"
+            },
+            {
+                "n": "1",
+                "descr": "pathological behavior"
+            },
+            {
+                "n": "2",
+                "descr": "specific characterization"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pathology.03",
+        "roleset_name": "laboratory examination of tissue",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "examiner"
+            },
+            {
+                "n": "1",
+                "descr": "examined (pt or tissue) "
+            }
+        ]
+    }
+]

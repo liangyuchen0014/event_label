@@ -1,0 +1,89 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "grind.01",
+        "roleset_name": "make smaller, crush",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "grinder"
+            },
+            {
+                "n": "1",
+                "descr": "thing crushed"
+            },
+            {
+                "n": "2",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "grind.03",
+        "roleset_name": "emit grinding sound",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing making sound"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "grind.04",
+        "roleset_name": "idiomatic: grind to a [stop|halt]",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of stopping"
+            },
+            {
+                "n": "1",
+                "descr": "thing stopping"
+            },
+            {
+                "n": "2",
+                "descr": "stop, halt, etc"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "grind.05",
+        "roleset_name": "move with difficulty",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "moved"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "grind_up.02",
+        "roleset_name": "make smaller, crush",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing crushed"
+            },
+            {
+                "n": "2",
+                "descr": "end state"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "authenticate.01",
+        "roleset_name": "provide proof that a document is authentic",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "verifier"
+            },
+            {
+                "n": "1",
+                "descr": "entity authenticated"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "authentic.02",
+        "roleset_name": "the real deal, genuine",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "real entity (concatenation may be required)"
+            }
+        ]
+    }
+]

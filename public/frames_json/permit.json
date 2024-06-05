@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "permit.01",
+        "roleset_name": "permit, let, allow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "action allowed"
+            },
+            {
+                "n": "2",
+                "descr": "extracted allowed-agent"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "permissive.02",
+        "roleset_name": "allowing, accepting",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "action, thing allowed"
+            },
+            {
+                "n": "2",
+                "descr": "extracted allowed-agent"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "permissible.03",
+        "roleset_name": "allowable",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "action, thing allowed"
+            },
+            {
+                "n": "2",
+                "descr": "extracted allowed-agent"
+            }
+        ]
+    }
+]

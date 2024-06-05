@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pour.01",
+        "roleset_name": "move liquids",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, pourer"
+            },
+            {
+                "n": "1",
+                "descr": "liquid"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pour.02",
+        "roleset_name": "rain very hard",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "rain"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pour_out.03",
+        "roleset_name": "gush, as liquid, emotion, etc.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, pourer"
+            },
+            {
+                "n": "1",
+                "descr": "thing flowing out"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "destination, recipient"
+            }
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "hammer.01",
+        "roleset_name": "put a nail into wood (eg)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "hammerer"
+            },
+            {
+                "n": "1",
+                "descr": "nail"
+            },
+            {
+                "n": "2",
+                "descr": "wood"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "hammer.02",
+        "roleset_name": "hit with a hammer",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, hitter - animate only!"
+            },
+            {
+                "n": "1",
+                "descr": "thing hit"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, hammer"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "hammer.03",
+        "roleset_name": "use a hammer to put   something into a particular shape",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "hammer_out.04",
+        "roleset_name": "arrange",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "arranger"
+            },
+            {
+                "n": "1",
+                "descr": "scheme"
+            },
+            {
+                "n": "2",
+                "descr": "collaborator"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "hammer_away.05",
+        "roleset_name": "hammer continuously, usually metaphorical",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "hammerer"
+            },
+            {
+                "n": "1",
+                "descr": "Usually prepositional complement, hammer away at what?"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "hammered.06",
+        "roleset_name": "drunk",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "drinker"
+            },
+            {
+                "n": "2",
+                "descr": "drink"
+            }
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "lessen.01",
+        "roleset_name": "make less",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause, agent"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "Start point"
+            },
+            {
+                "n": "4",
+                "descr": "End point, end state of arg1"
+            },
+            {
+                "n": "m",
+                "descr": "Medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "less.02",
+        "roleset_name": "not as much as",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is less"
+            },
+            {
+                "n": "2",
+                "descr": "thing that is more"
+            },
+            {
+                "n": "3",
+                "descr": "less of what"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "less.03",
+        "roleset_name": "akin to \"not\": i'm less than impressed!",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Topic"
+            },
+            {
+                "n": "2",
+                "descr": "Comment that is NOT quite true of Arg1"
+            }
+        ]
+    }
+]

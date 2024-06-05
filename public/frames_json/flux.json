@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "flux.01",
+        "roleset_name": "to move, flow like a stream",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Mover, entity flowing"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "flux.02",
+        "roleset_name": "become liquid when heated",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, cause of melting"
+            },
+            {
+                "n": "1",
+                "descr": "Entity becoming liquid"
+            },
+            {
+                "n": "2",
+                "descr": "Resulting liquid"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "flux.03",
+        "roleset_name": "blend two ingredients together",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause of mixing"
+            },
+            {
+                "n": "1",
+                "descr": "First or all (if together in single constituent) ingredients mixed"
+            },
+            {
+                "n": "2",
+                "descr": "Second ingredient when separate mention"
+            },
+            {
+                "n": "3",
+                "descr": "End product"
+            }
+        ]
+    }
+]

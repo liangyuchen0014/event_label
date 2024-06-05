@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "cough.01",
+        "roleset_name": "cough, hack, quickly pushing air from the lungs",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cougher"
+            },
+            {
+                "n": "1",
+                "descr": "the cough itself"
+            },
+            {
+                "n": "2",
+                "descr": "sputum or other entity expelled from/through respiratory tract"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "cough.02",
+        "roleset_name": "say in a coughing manner",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "cough_up.03",
+        "roleset_name": "give under duress",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given"
+            }
+        ]
+    }
+]

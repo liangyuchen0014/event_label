@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "deal.01",
+        "roleset_name": "handle, deal with, transaction",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "dealer (or all dealers)"
+            },
+            {
+                "n": "1",
+                "descr": "co-dealer"
+            },
+            {
+                "n": "2",
+                "descr": "subject/type of transaction"
+            },
+            {
+                "n": "3",
+                "descr": "value of transaction"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "deal.02",
+        "roleset_name": "play cards, distribute something, distribution",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "dealer, distributor"
+            },
+            {
+                "n": "1",
+                "descr": "cards, thing distributed"
+            },
+            {
+                "n": "2",
+                "descr": "other player(s), distributed-to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "deal.03",
+        "roleset_name": "situation, occurance, event",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "the situation, occurance, or event"
+            }
+        ]
+    }
+]

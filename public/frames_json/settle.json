@@ -1,0 +1,101 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "settle.01",
+        "roleset_name": "decide",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "decider"
+            },
+            {
+                "n": "1",
+                "descr": "decision"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "settle.02",
+        "roleset_name": "resolve, resolution of dispute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making resolution"
+            },
+            {
+                "n": "1",
+                "descr": "thing being resolved"
+            },
+            {
+                "n": "2",
+                "descr": "comitative, resolved with"
+            },
+            {
+                "n": "3",
+                "descr": "what the settlement is (value or decision)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "settle.03",
+        "roleset_name": "come to rest, or approach a steady state",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity causing something/someone to settle"
+            },
+            {
+                "n": "1",
+                "descr": "entity settling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount declined by"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "settle_down.04",
+        "roleset_name": "and be quiet!",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "one who should be quiet"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "settle_down.05",
+        "roleset_name": "put down roots, plan to reside somewhere for the long run",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "resident"
+            },
+            {
+                "n": "1",
+                "descr": "location"
+            }
+        ]
+    }
+]

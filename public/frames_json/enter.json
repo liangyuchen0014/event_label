@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "enter.01",
+        "roleset_name": "enter, go in",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity entering"
+            },
+            {
+                "n": "1",
+                "descr": "place or thing entered"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "enter.02",
+        "roleset_name": "submit something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "submitter"
+            },
+            {
+                "n": "1",
+                "descr": "thing submitted"
+            },
+            {
+                "n": "2",
+                "descr": "submitted to"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "entrance.03",
+        "roleset_name": "put into a trance-like state",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of trance, agent"
+            },
+            {
+                "n": "1",
+                "descr": "victim"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, when separate from arg 0"
+            }
+        ]
+    }
+]

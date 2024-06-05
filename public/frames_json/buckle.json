@@ -1,0 +1,58 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "buckle.01",
+        "roleset_name": "use a buckle to fasten",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing two objects to be attached"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing(s) being tied"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, buckle"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "buckle.04",
+        "roleset_name": "collapse",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing collapsing"
+            },
+            {
+                "n": "2",
+                "descr": "pressure, weight, etc"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "buckle_up.02",
+        "roleset_name": "buckle up: prepare for the worst",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "preparer"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "buckle_down.03",
+        "roleset_name": "buckle down: get busy",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity getting busy"
+            }
+        ]
+    }
+]

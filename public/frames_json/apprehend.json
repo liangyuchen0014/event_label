@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "apprehend.01",
+        "roleset_name": "seize, take into custody",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, apprehendor"
+            },
+            {
+                "n": "1",
+                "descr": "criminal,entity seized"
+            },
+            {
+                "n": "2",
+                "descr": "crime, or attribute of arg 1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "apprehend.03",
+        "roleset_name": "understand",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "understander"
+            },
+            {
+                "n": "1",
+                "descr": "thing understood"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "apprehension.02",
+        "roleset_name": "fear, anxiety",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "fearful entity"
+            },
+            {
+                "n": "1",
+                "descr": "fearful of or about; misgiving; cause"
+            }
+        ]
+    }
+]

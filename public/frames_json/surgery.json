@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "surgery.01",
+        "roleset_name": "performing, undergoing a surgical procedure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "type of surgery"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "surgical.02",
+        "roleset_name": "precise, like surgery",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "surgical entity or action"
+            }
+        ]
+    }
+]

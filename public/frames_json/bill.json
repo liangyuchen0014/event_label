@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bill.01",
+        "roleset_name": "charge a fee",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seller, biller"
+            },
+            {
+                "n": "1",
+                "descr": "asking price, amount of bill"
+            },
+            {
+                "n": "2",
+                "descr": "buyer, billed"
+            },
+            {
+                "n": "3",
+                "descr": "commodity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bill.02",
+        "roleset_name": "describe",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "describer"
+            },
+            {
+                "n": "1",
+                "descr": "thing described"
+            },
+            {
+                "n": "2",
+                "descr": "secondary attribute, described-as"
+            }
+        ]
+    }
+]

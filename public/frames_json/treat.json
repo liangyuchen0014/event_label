@@ -1,0 +1,120 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "treat.01",
+        "roleset_name": "act towards an entity in a certain manner, assume that something has a particular attribute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "assumer of attribute"
+            },
+            {
+                "n": "1",
+                "descr": "entity treated"
+            },
+            {
+                "n": "2",
+                "descr": "attribute"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "treat.02",
+        "roleset_name": "buy for someone",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "buyer, treater"
+            },
+            {
+                "n": "1",
+                "descr": "treat"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "treat.03",
+        "roleset_name": "medical treatment",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor (etc)"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "illness or injury"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "treat.04",
+        "roleset_name": "affect a change in something by applying a substance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of change, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing changing"
+            },
+            {
+                "n": "2",
+                "descr": "substance, treatment"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "treat.05",
+        "roleset_name": "handle (esp scholarly)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "author"
+            },
+            {
+                "n": "1",
+                "descr": "topic, subject"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "treatable.06",
+        "roleset_name": "able to be treated, medically",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "illness or injury"
+            },
+            {
+                "n": "3",
+                "descr": "instrument (treatment)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "deform.01",
+        "roleset_name": "take on a new (usually bad) form",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of bad form, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing being deformed, patient"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "deformable.02",
+        "roleset_name": "able to be reshaped",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, reshaper"
+            },
+            {
+                "n": "1",
+                "descr": "thing being deformed"
+            },
+            {
+                "n": "2",
+                "descr": "end state"
+            }
+        ]
+    }
+]

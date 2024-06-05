@@ -1,0 +1,132 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "be.01",
+        "roleset_name": "copula",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "topic"
+            },
+            {
+                "n": "2",
+                "descr": "comment"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "be.02",
+        "roleset_name": "existential, existing",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "be.03",
+        "roleset_name": "auxiliary",
+        "roles": []
+    },
+    {
+        "uid": 4,
+        "roleset_id": "be_like.04",
+        "roleset_name": "be_like: multiword expression akin to \"say\"",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "be_all.05",
+        "roleset_name": "say",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "attributive, comment on utterance, topic of utterance"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "be_it.06",
+        "roleset_name": "evoke frustration or giving up; exceed one's tolerance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause or stimulus of frustration"
+            },
+            {
+                "n": "1",
+                "descr": "person frustrated, if explicit"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "be_it.07",
+        "roleset_name": "be the correct answer to a need or a question under discussion ",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "realization"
+            },
+            {
+                "n": "2",
+                "descr": "question, topic of utterance"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "be_it.08",
+        "roleset_name": "be minimal, less than expected, be finished",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing at the lower end of expectation (often 'that')"
+            },
+            {
+                "n": "2",
+                "descr": "domain or larger set"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive/malefactive; entity needing more arg1"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "be_it.09",
+        "roleset_name": "be a selected party, as in a game of tag.",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "person who is now designated as it"
+            },
+            {
+                "n": "2",
+                "descr": "game or task selected"
+            }
+        ]
+    }
+]

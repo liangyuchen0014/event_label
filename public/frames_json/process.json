@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "process.01",
+        "roleset_name": "do something to, putting through the steps of a procedure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "processor"
+            },
+            {
+                "n": "1",
+                "descr": "thing processed"
+            },
+            {
+                "n": "2",
+                "descr": "end state"
+            },
+            {
+                "n": "3",
+                "descr": "start state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "process.02",
+        "roleset_name": "logistics of doing something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "(purpose of) the process"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "nail.01",
+        "roleset_name": "pin down",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "nailer"
+            },
+            {
+                "n": "1",
+                "descr": "entity/entities nailed (each gets its own arg1)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "nail_down.02",
+        "roleset_name": "to narrow down, finalize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "finalizer"
+            },
+            {
+                "n": "1",
+                "descr": "entity nailed down"
+            }
+        ]
+    }
+]

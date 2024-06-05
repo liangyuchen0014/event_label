@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "correlate.01",
+        "roleset_name": "to be mutually related",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of relation"
+            },
+            {
+                "n": "1",
+                "descr": "topic, first entity in relation"
+            },
+            {
+                "n": "2",
+                "descr": "with what? second entity in relation"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "autocorrelate.02",
+        "roleset_name": "cross-correlation of something (a signal?) with itself",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/causer of correlation"
+            },
+            {
+                "n": "1",
+                "descr": "first (or all) instances correlated"
+            },
+            {
+                "n": "2",
+                "descr": "second instance correlated"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "crosscorrelate.03",
+        "roleset_name": "compare one set of data against another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/causer of correlation"
+            },
+            {
+                "n": "1",
+                "descr": "first (or all) set correlated"
+            },
+            {
+                "n": "2",
+                "descr": "second set"
+            }
+        ]
+    }
+]

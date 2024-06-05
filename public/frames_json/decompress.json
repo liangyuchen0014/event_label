@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "decompress.01",
+        "roleset_name": "return data to and uncompressed state",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Entity (person, computer or program) doing the decompressing"
+            },
+            {
+                "n": "1",
+                "descr": "file being decompressed"
+            },
+            {
+                "n": "2",
+                "descr": "tool used in decompression"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "decompress.02",
+        "roleset_name": "reduce the physical pressure in",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent or cause of decompression"
+            },
+            {
+                "n": "1",
+                "descr": "entity in which the pressure is being reduced"
+            },
+            {
+                "n": "2",
+                "descr": "tool used to aid in decompression"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "decompress.03",
+        "roleset_name": "relax/recover from an affliction",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity recovering from an affliction"
+            },
+            {
+                "n": "2",
+                "descr": "the affliction"
+            }
+        ]
+    }
+]

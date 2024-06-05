@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "nebulize.01",
+        "roleset_name": "treat a patient with medicine using a nebulizer",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent administering treatment"
+            },
+            {
+                "n": "1",
+                "descr": "Patient being treated"
+            },
+            {
+                "n": "2",
+                "descr": "Nebulized drug being treated with"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "nebulize.02",
+        "roleset_name": "convert liquid into aerosol spray; atomize",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, Cause of dispersing"
+            },
+            {
+                "n": "1",
+                "descr": "Thing dispersing"
+            },
+            {
+                "n": "2",
+                "descr": "Instrument"
+            }
+        ]
+    }
+]

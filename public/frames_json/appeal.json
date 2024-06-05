@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "appeal.01",
+        "roleset_name": "legal transaction",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "appealer"
+            },
+            {
+                "n": "1",
+                "descr": "decision disagreed with"
+            },
+            {
+                "n": "2",
+                "descr": "appealed to"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "appeal.02",
+        "roleset_name": "beg",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "begger, appealer"
+            },
+            {
+                "n": "1",
+                "descr": "appealed to, begged from"
+            },
+            {
+                "n": "2",
+                "descr": "begged/appealed for"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "appeal.03",
+        "roleset_name": "be attractive",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "appealing thing"
+            },
+            {
+                "n": "1",
+                "descr": "entity attracted"
+            }
+        ]
+    }
+]

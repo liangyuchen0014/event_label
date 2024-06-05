@@ -1,0 +1,66 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "madden.01",
+        "roleset_name": "(cause to) become angry/crazed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of anger"
+            },
+            {
+                "n": "1",
+                "descr": "experiencer"
+            },
+            {
+                "n": "2",
+                "descr": "Instrument or Manner if separate from arg 0"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mad.02",
+        "roleset_name": "crazy",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "crazy entity/action (may require concatenation)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "mad.03",
+        "roleset_name": "mad about: really really like",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "liker"
+            },
+            {
+                "n": "1",
+                "descr": "liked"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "mad.04",
+        "roleset_name": "angry",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of anger"
+            },
+            {
+                "n": "1",
+                "descr": "angry entity"
+            },
+            {
+                "n": "2",
+                "descr": "angry at arg0 for what (if separate from arg0)"
+            }
+        ]
+    }
+]

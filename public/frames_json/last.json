@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "last.01",
+        "roleset_name": "extend for some period of time; duration",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that lasts"
+            },
+            {
+                "n": "2",
+                "descr": "period of time"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "last.02",
+        "roleset_name": "later than/behind all other entities",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "last one (may require concatenation)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "last.03",
+        "roleset_name": "of supplies or resources: be sufficient for a period of time",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "supplies, resources"
+            },
+            {
+                "n": "2",
+                "descr": "how long the supplies/resources will last"
+            },
+            {
+                "n": "3",
+                "descr": "consumers of supplies/resources"
+            },
+            {
+                "n": "4",
+                "descr": "consumption rate"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "last.04",
+        "roleset_name": "of products or people: function, survive for a period of time",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "product, person"
+            },
+            {
+                "n": "2",
+                "descr": "how long the product/person will function/survive"
+            },
+            {
+                "n": "3",
+                "descr": "attribute of product/person that has a duration"
+            },
+            {
+                "n": "4",
+                "descr": "beneficiary"
+            }
+        ]
+    }
+]

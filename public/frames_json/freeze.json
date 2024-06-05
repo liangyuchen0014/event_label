@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "freeze.01",
+        "roleset_name": "cause to be frozen, very cold weather condition",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of freezing"
+            },
+            {
+                "n": "1",
+                "descr": "thing freezing"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predication on arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "freeze.02",
+        "roleset_name": "block",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "blocker, Agent"
+            },
+            {
+                "n": "1",
+                "descr": "Theme (action or object being stopped)"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1"
+            },
+            {
+                "n": "3",
+                "descr": "Instrument"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "freeze_over.03",
+        "roleset_name": "freeze completely",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing freezing over"
+            }
+        ]
+    }
+]

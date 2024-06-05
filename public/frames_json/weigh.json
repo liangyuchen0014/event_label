@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "weigh.01",
+        "roleset_name": "determine the weight",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "measurer"
+            },
+            {
+                "n": "1",
+                "descr": "thing measured"
+            },
+            {
+                "n": "2",
+                "descr": "yardstick, standard of measurement"
+            },
+            {
+                "n": "3",
+                "descr": "measurement"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "weigh.02",
+        "roleset_name": "press heavily upon",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "presser"
+            },
+            {
+                "n": "1",
+                "descr": "pressed (on)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "weigh.04",
+        "roleset_name": "compare x and y, consider carefully",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, comparer, considerer"
+            },
+            {
+                "n": "1",
+                "descr": "X, thing considered"
+            },
+            {
+                "n": "2",
+                "descr": "Y, in comparison to"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "weigh_in.03",
+        "roleset_name": "enter, contribute to discussion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "contributor, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entry, thing contributed"
+            }
+        ]
+    }
+]

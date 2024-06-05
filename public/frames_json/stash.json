@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stash.01",
+        "roleset_name": "hide",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, stasher"
+            },
+            {
+                "n": "1",
+                "descr": "thing stashed"
+            },
+            {
+                "n": "2",
+                "descr": "location or position, or attribute"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stash_away.02",
+        "roleset_name": "hide without location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "hider"
+            },
+            {
+                "n": "1",
+                "descr": "thing hidden"
+            }
+        ]
+    }
+]

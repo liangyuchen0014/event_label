@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "express.01",
+        "roleset_name": "say",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "express.02",
+        "roleset_name": "send very quickly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "thing sent"
+            },
+            {
+                "n": "2",
+                "descr": "sent-to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "express.03",
+        "roleset_name": "biological expression (usually of a gene)",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "gene, expressor"
+            },
+            {
+                "n": "2",
+                "descr": "protein, expressed material"
+            },
+            {
+                "n": "3",
+                "descr": "cell, organ, location"
+            }
+        ]
+    }
+]

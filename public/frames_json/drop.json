@@ -1,0 +1,154 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "drop.01",
+        "roleset_name": "go down, cause to fall",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the dropping"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            },
+            {
+                "n": "m",
+                "descr": "attribute of arg1 actually falling, if separate from arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "drop.05",
+        "roleset_name": "remove, end",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "remover"
+            },
+            {
+                "n": "1",
+                "descr": "removed"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "drop.06",
+        "roleset_name": "give, esp. names, mention in an offhand way",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sycophant, giver"
+            },
+            {
+                "n": "1",
+                "descr": "names, thing given"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "drop.07",
+        "roleset_name": "spend money",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "big spender"
+            },
+            {
+                "n": "1",
+                "descr": "amount of money"
+            },
+            {
+                "n": "2",
+                "descr": "commodity"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "drop_by.02",
+        "roleset_name": "coming for a short visit",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "visitor"
+            },
+            {
+                "n": "3",
+                "descr": "visiting from"
+            },
+            {
+                "n": "4",
+                "descr": "place visited"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "drop_off.03",
+        "roleset_name": "leave behind?",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the dropping"
+            },
+            {
+                "n": "1",
+                "descr": "entity being dropped off"
+            },
+            {
+                "n": "2",
+                "descr": "destination, end state"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "drop_out.04",
+        "roleset_name": "quit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "quitter"
+            },
+            {
+                "n": "1",
+                "descr": "thing quit (usually of-phrase)"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "drop_in.08",
+        "roleset_name": "stop by",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "visitor"
+            },
+            {
+                "n": "1",
+                "descr": "visited"
+            }
+        ]
+    }
+]

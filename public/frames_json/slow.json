@@ -1,0 +1,93 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "slow.01",
+        "roleset_name": "(cause to) move more slowly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of deceleration"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "slow.02",
+        "roleset_name": "fall, decline",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing declining"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "slow.04",
+        "roleset_name": "unskilled/not very smart",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "not very smart one"
+            },
+            {
+                "n": "2",
+                "descr": "domain in which arg1 is slow/unskilled"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "slow.05",
+        "roleset_name": "not fast, slow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause of slowness"
+            },
+            {
+                "n": "1",
+                "descr": "entity in slow motion (may require concatenation)"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "slow_down.03",
+        "roleset_name": "(cause to) move more slowly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of deceleration"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "3",
+                "descr": "starting pace of arg 1"
+            },
+            {
+                "n": "4",
+                "descr": "ending pace, final state of arg 1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ink.01",
+        "roleset_name": "mark with ink",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity applying the ink"
+            },
+            {
+                "n": "1",
+                "descr": "theme, the ink itself or what is being depicted in ink"
+            },
+            {
+                "n": "2",
+                "descr": "destination, what the ink is being applied to"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ink.02",
+        "roleset_name": "fill with ink",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity filling the reservoir with ink"
+            },
+            {
+                "n": "1",
+                "descr": "the ink"
+            },
+            {
+                "n": "2",
+                "descr": "destination, thing being filled with ink"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "ink.03",
+        "roleset_name": "squirt ink (like an octopus or squid)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ink-bearing sea creature"
+            },
+            {
+                "n": "1",
+                "descr": "the ink (rarely seen)"
+            },
+            {
+                "n": "2",
+                "descr": "where the ink is being squirted"
+            }
+        ]
+    }
+]

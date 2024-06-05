@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "suspend.01",
+        "roleset_name": "put a stop to, temporarily, temporarily halt a process",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "action or object being stopped"
+            },
+            {
+                "n": "2",
+                "descr": "attribute/function of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "suspend.02",
+        "roleset_name": "hang",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing something to be suspended"
+            },
+            {
+                "n": "1",
+                "descr": "thing suspended"
+            },
+            {
+                "n": "2",
+                "descr": "suspended from"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "suspension.03",
+        "roleset_name": "receive a punitive suspension",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/authority capable of administering suspension"
+            },
+            {
+                "n": "1",
+                "descr": "entity getting suspended (might be a person, or their license, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "position/place/activity suspended from"
+            },
+            {
+                "n": "3",
+                "descr": "crime"
+            }
+        ]
+    }
+]

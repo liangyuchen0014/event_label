@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "reassert.01",
+        "roleset_name": "stand up for again",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "asserter"
+            },
+            {
+                "n": "1",
+                "descr": "thing asserted"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "reassert.02",
+        "roleset_name": "say forcefully again (actual utterance sense)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Sayer"
+            },
+            {
+                "n": "1",
+                "descr": "Utterance"
+            },
+            {
+                "n": "2",
+                "descr": "Hearer"
+            },
+            {
+                "n": "3",
+                "descr": "Attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "reassert.03",
+        "roleset_name": "claim again",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "claimer, asserter"
+            },
+            {
+                "n": "1",
+                "descr": "thing claimed, asserted"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, claimed/asserted for"
+            },
+            {
+                "n": "3",
+                "descr": "attribute of arg1"
+            }
+        ]
+    }
+]

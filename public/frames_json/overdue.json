@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "overdue.01",
+        "roleset_name": "still needed, but never actually scheduled",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "recipient"
+            },
+            {
+                "n": "2",
+                "descr": "what is needed"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "overdue.02",
+        "roleset_name": "past the scheduled time for",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity that was scheduled"
+            },
+            {
+                "n": "2",
+                "descr": "what arg1 was scheduled to do/undergo/occur"
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "conclude.01",
+        "roleset_name": "come to/point to a decision based on evidence",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "decider"
+            },
+            {
+                "n": "1",
+                "descr": "decision made"
+            },
+            {
+                "n": "2",
+                "descr": "question answered"
+            },
+            {
+                "n": "3",
+                "descr": "evidence"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "conclude.02",
+        "roleset_name": "bring to an end",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "Thing ending"
+            },
+            {
+                "n": "2",
+                "descr": "Explicit instrument, thing ended with"
+            },
+            {
+                "n": "m",
+                "descr": "point at which something ends"
+            }
+        ]
+    }
+]

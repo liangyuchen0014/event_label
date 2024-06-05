@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tug.01",
+        "roleset_name": "carry by tugging",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "dragger"
+            },
+            {
+                "n": "1",
+                "descr": "thing dragged"
+            },
+            {
+                "n": "2",
+                "descr": "direction, destination"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tug.02",
+        "roleset_name": "pull (on)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "puller"
+            },
+            {
+                "n": "1",
+                "descr": "thing pulled"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tug.03",
+        "roleset_name": "pull with end result",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "puller, tugger"
+            },
+            {
+                "n": "1",
+                "descr": "thing tugged"
+            },
+            {
+                "n": "2",
+                "descr": "other thing tugged or secondary attribute, result of arg1"
+            }
+        ]
+    }
+]

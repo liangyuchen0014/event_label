@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "flush.01",
+        "roleset_name": "remove, removing using water",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "flusher"
+            },
+            {
+                "n": "1",
+                "descr": "removed material"
+            },
+            {
+                "n": "2",
+                "descr": "container, source"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "flush.03",
+        "roleset_name": "turn red",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of color change"
+            },
+            {
+                "n": "1",
+                "descr": "entity turning red"
+            },
+            {
+                "n": "2",
+                "descr": "eventual color"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "flush_out.02",
+        "roleset_name": "cause to become visible, find",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "flusher"
+            },
+            {
+                "n": "1",
+                "descr": "thing found"
+            }
+        ]
+    }
+]

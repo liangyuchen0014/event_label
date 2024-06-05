@@ -1,0 +1,108 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tie.01",
+        "roleset_name": "attach",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity doing the tying"
+            },
+            {
+                "n": "1",
+                "descr": "first thing being tied"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, tied to what"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, string"
+            },
+            {
+                "n": "4",
+                "descr": "attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tie.03",
+        "roleset_name": "score the same",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of equal score"
+            },
+            {
+                "n": "1",
+                "descr": "in comparison to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "tie_in.02",
+        "roleset_name": "attach",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity doing the tying"
+            },
+            {
+                "n": "1",
+                "descr": "first thing tied in"
+            },
+            {
+                "n": "2",
+                "descr": "second thing, tied in with/to what"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "tie_up.04",
+        "roleset_name": "bind with rope (eg)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "tie-er"
+            },
+            {
+                "n": "1",
+                "descr": "tied"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "tie_up.05",
+        "roleset_name": "be involved in",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing involved"
+            },
+            {
+                "n": "2",
+                "descr": "thing involved in/with"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "tie_down.06",
+        "roleset_name": "be stuck",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "stuck entity"
+            },
+            {
+                "n": "2",
+                "descr": "cause of stuckness"
+            }
+        ]
+    }
+]

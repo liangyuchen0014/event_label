@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "quadrangulate.01",
+        "roleset_name": "pinpoint the location of using 4 points (as opposed to 3 in triangulation)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "quadrangulator"
+            },
+            {
+                "n": "1",
+                "descr": "location searched for"
+            },
+            {
+                "n": "2",
+                "descr": "based on, known info"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "quadrangulate.02",
+        "roleset_name": "divide into quadrangles",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "quadrangulator"
+            },
+            {
+                "n": "1",
+                "descr": "region divided into quadrangles"
+            },
+            {
+                "n": "2",
+                "descr": "quadrangle side length measurement"
+            },
+            {
+                "n": "3",
+                "descr": "number of nodes"
+            }
+        ]
+    }
+]

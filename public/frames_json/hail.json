@@ -1,0 +1,77 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "hail.01",
+        "roleset_name": "weather phenomenon",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "the hail itself"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "hail.02",
+        "roleset_name": "recognize and honor",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity giving recognition"
+            },
+            {
+                "n": "1",
+                "descr": "entity being recognized"
+            },
+            {
+                "n": "2",
+                "descr": "hailed as"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "hail.04",
+        "roleset_name": "come from",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person in question"
+            },
+            {
+                "n": "1",
+                "descr": "source, home"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "hail.05",
+        "roleset_name": "summon",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "summoner"
+            },
+            {
+                "n": "1",
+                "descr": "entity being summoned"
+            },
+            {
+                "n": "2",
+                "descr": "hailed to do what (proposition not destination)"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "hail_down.03",
+        "roleset_name": "hard things coming down",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "hard things"
+            }
+        ]
+    }
+]

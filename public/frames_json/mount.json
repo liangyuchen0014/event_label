@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "mount.01",
+        "roleset_name": "intentional climber",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "climber"
+            },
+            {
+                "n": "1",
+                "descr": "thing climbed (clomb?)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mount.02",
+        "roleset_name": "non-intentional climber; cf rise",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "climber"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount risen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "mount.03",
+        "roleset_name": "erect, construct",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "erector"
+            },
+            {
+                "n": "1",
+                "descr": "thing erected"
+            }
+        ]
+    }
+]

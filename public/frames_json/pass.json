@@ -1,0 +1,349 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pass.01",
+        "roleset_name": "bill becomes law",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "legislative body"
+            },
+            {
+                "n": "1",
+                "descr": "bill, state prior to passing"
+            },
+            {
+                "n": "2",
+                "descr": "law, state after passing"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pass.02",
+        "roleset_name": "overtake",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity moving ahead"
+            },
+            {
+                "n": "1",
+                "descr": "entity falling behind"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pass.03",
+        "roleset_name": "go by",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing passing"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "pass.04",
+        "roleset_name": "allow to go by",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "thing let go by"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "pass.05",
+        "roleset_name": "give",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing changing hands"
+            },
+            {
+                "n": "2",
+                "descr": "getter"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "pass.06",
+        "roleset_name": "suffice, get away (with)",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing passing"
+            },
+            {
+                "n": "2",
+                "descr": "attributive"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "pass.07",
+        "roleset_name": "pass a class, pass a test",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "student"
+            },
+            {
+                "n": "2",
+                "descr": "test"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "pass.08",
+        "roleset_name": "push through a passage (like a clot)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "passer"
+            },
+            {
+                "n": "1",
+                "descr": "thing passed (clot, gas, kidney stone, etc)"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "pass.20",
+        "roleset_name": "die",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity dying"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "pass.22",
+        "roleset_name": "make a pass at, attempt something (esp flirtation)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity attempting something"
+            },
+            {
+                "n": "1",
+                "descr": "thing attempted (often \"at\" phrase)"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "pass_by.17",
+        "roleset_name": "overtake, go past",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity moving ahead; passing entity"
+            },
+            {
+                "n": "1",
+                "descr": "entity falling behind; thing passed"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "pass_off.18",
+        "roleset_name": "offer for acceptance under false pretext",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "faker"
+            },
+            {
+                "n": "1",
+                "descr": "thing offered"
+            },
+            {
+                "n": "2",
+                "descr": "(possibly) duped judge"
+            },
+            {
+                "n": "3",
+                "descr": "fake attribute of Arg1"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "pass_on.09",
+        "roleset_name": "give, pass_on: give",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing changing hands"
+            },
+            {
+                "n": "2",
+                "descr": "getter"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "pass_on.14",
+        "roleset_name": "act as a middle man in the giving process",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "transmitter"
+            },
+            {
+                "n": "1",
+                "descr": "thing transmitted"
+            },
+            {
+                "n": "2",
+                "descr": "transmitted to"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "pass_on.19",
+        "roleset_name": "to move on from a place to another place",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "thing moved, package"
+            },
+            {
+                "n": "2",
+                "descr": "moved from"
+            },
+            {
+                "n": "3",
+                "descr": "moved to"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "pass_out.10",
+        "roleset_name": "distribute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "distributor"
+            },
+            {
+                "n": "1",
+                "descr": "thing distributed"
+            },
+            {
+                "n": "2",
+                "descr": "distributed to"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "pass_out.11",
+        "roleset_name": "faint",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "fainter"
+            }
+        ]
+    },
+    {
+        "uid": 18,
+        "roleset_id": "pass_over.12",
+        "roleset_name": "ignore, leave behind",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ignorer"
+            },
+            {
+                "n": "1",
+                "descr": "thing ignored"
+            }
+        ]
+    },
+    {
+        "uid": 19,
+        "roleset_id": "pass_up.13",
+        "roleset_name": "relinquish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity relinquishing one item"
+            },
+            {
+                "n": "1",
+                "descr": "item relinquished"
+            },
+            {
+                "n": "2",
+                "descr": "in favor of another"
+            }
+        ]
+    },
+    {
+        "uid": 20,
+        "roleset_id": "come_to_pass.23",
+        "roleset_name": "occur, perhaps as foretold",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "event"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 21,
+        "roleset_id": "give_pass.24",
+        "roleset_name": "ignore or forgive an offense",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver of pass; forgiver"
+            },
+            {
+                "n": "1",
+                "descr": "entity forgiven, given a pass"
+            },
+            {
+                "n": "2",
+                "descr": "offense ignored"
+            }
+        ]
+    }
+]

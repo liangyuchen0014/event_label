@@ -1,0 +1,78 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "fix.01",
+        "roleset_name": "prepare, make",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "maker, preparer"
+            },
+            {
+                "n": "1",
+                "descr": "thing made"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "fix.02",
+        "roleset_name": "repair",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "repairer"
+            },
+            {
+                "n": "1",
+                "descr": "thing repaired"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "fix.03",
+        "roleset_name": "establish, set, set location",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing set"
+            },
+            {
+                "n": "2",
+                "descr": "location, position, attribute"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "fix_up.04",
+        "roleset_name": "set somebody up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "person fixed up"
+            },
+            {
+                "n": "2",
+                "descr": "fixed up with"
+            }
+        ]
+    }
+]

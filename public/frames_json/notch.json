@@ -1,0 +1,52 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "notch.01",
+        "roleset_name": "make a notch, mark",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity marking"
+            },
+            {
+                "n": "1",
+                "descr": "thing being commemorated"
+            },
+            {
+                "n": "2",
+                "descr": "thing gaining the notch (ie, belt)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "notch.02",
+        "roleset_name": "move incrementally",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity moving something"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing moving"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount moved"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "direction--REQUIRED"
+            }
+        ]
+    }
+]

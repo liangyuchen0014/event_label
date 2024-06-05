@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "devolve.01",
+        "roleset_name": "pass on to a successor",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing given"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "devolve.02",
+        "roleset_name": "grow worse",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer of devolution"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing growing worse"
+            },
+            {
+                "n": "2",
+                "descr": "start state"
+            },
+            {
+                "n": "3",
+                "descr": "end state"
+            }
+        ]
+    }
+]

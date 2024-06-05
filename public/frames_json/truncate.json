@@ -1,0 +1,29 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "truncate.01",
+        "roleset_name": "shorten/remove part of a word, mathematical figure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause of truncation"
+            },
+            {
+                "n": "1",
+                "descr": "word, number being shortened"
+            },
+            {
+                "n": "2",
+                "descr": "extent of truncation, how much was removed?"
+            },
+            {
+                "n": "3",
+                "descr": "original length, size"
+            },
+            {
+                "n": "4",
+                "descr": "end state, final length, size after truncation"
+            }
+        ]
+    }
+]

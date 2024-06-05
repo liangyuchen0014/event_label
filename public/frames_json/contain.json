@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "contain.01",
+        "roleset_name": "hold inside",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "container"
+            },
+            {
+                "n": "1",
+                "descr": "contents"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "contain.02",
+        "roleset_name": "restrain, halt the spread of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity restraining arg1"
+            },
+            {
+                "n": "1",
+                "descr": "thing being restrained, halted"
+            }
+        ]
+    }
+]

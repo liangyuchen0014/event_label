@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "decline.01",
+        "roleset_name": "fall, ",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing declining"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount declined by"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            },
+            {
+                "n": "5",
+                "descr": "specific aspect of arg1 in decline"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "decline.02",
+        "roleset_name": "demure, turn down",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity turning down"
+            },
+            {
+                "n": "1",
+                "descr": "thing turned down"
+            }
+        ]
+    }
+]

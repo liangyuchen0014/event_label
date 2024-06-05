@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "mow.01",
+        "roleset_name": "to cut grass or grain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mower, agent"
+            },
+            {
+                "n": "1",
+                "descr": "grass"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mow_down.02",
+        "roleset_name": "take out everything in ones path, like with a car or weapon",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity taken out"
+            },
+            {
+                "n": "2",
+                "descr": "instrument of destruction"
+            }
+        ]
+    }
+]

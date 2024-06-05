@@ -1,0 +1,185 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "do.01",
+        "roleset_name": "auxiliary",
+        "roles": []
+    },
+    {
+        "uid": 2,
+        "roleset_id": "do.02",
+        "roleset_name": "act",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, doer"
+            },
+            {
+                "n": "1",
+                "descr": "thing done"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, done for or about"
+            },
+            {
+                "n": "3",
+                "descr": "instrumental"
+            },
+            {
+                "n": "4",
+                "descr": "comitative, companion while doing"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "do.11",
+        "roleset_name": "serve time (usually a sentence but could be an appointment)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity serving time"
+            },
+            {
+                "n": "1",
+                "descr": "time, appointment, sentence"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "do.12",
+        "roleset_name": "suffice",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that suffices"
+            },
+            {
+                "n": "2",
+                "descr": "for/as what role/purpose"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "do_in.03",
+        "roleset_name": "kill",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "killer"
+            },
+            {
+                "n": "1",
+                "descr": "corpse"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "do_away.05",
+        "roleset_name": "get rid of, eliminate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "eliminator"
+            },
+            {
+                "n": "1",
+                "descr": "eliminated"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "doing.07",
+        "roleset_name": "nominal version of light verb",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "maker, subject of the light-verbish noun"
+            },
+            {
+                "n": "1",
+                "descr": "true noun predicate"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "done.08",
+        "roleset_name": "be completed; bring to completion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "person that brought arg1 to completion (mere agents of arg1 should just be within arg1)"
+            },
+            {
+                "n": "1",
+                "descr": "activity completed, event that has stopped"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "done_for.06",
+        "roleset_name": "set phrase: done for, doomed",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "doomed entity"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "doable.10",
+        "roleset_name": "able to be done/accomplished",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doer"
+            },
+            {
+                "n": "1",
+                "descr": "done"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "make_do.25",
+        "roleset_name": "make do: cause to be sufficient",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making do"
+            },
+            {
+                "n": "1",
+                "descr": "thing that must be sufficient"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "have_to_do_with.04",
+        "roleset_name": "have some association with",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doer, usually  *PRO*"
+            },
+            {
+                "n": "1",
+                "descr": "thing with which something has to do, \"with...\" phrase"
+            },
+            {
+                "n": "2",
+                "descr": "thing done, usually \"nothing\" \"something\" quantitative phrase"
+            }
+        ]
+    }
+]

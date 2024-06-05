@@ -1,0 +1,257 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shoot.01",
+        "roleset_name": "propel projectile",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shooter"
+            },
+            {
+                "n": "1",
+                "descr": "projectile"
+            },
+            {
+                "n": "2",
+                "descr": "target"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shoot.02",
+        "roleset_name": "kill with gun;  Event where weapons are fired; firing a gun",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shooter"
+            },
+            {
+                "n": "1",
+                "descr": "corpse"
+            },
+            {
+                "n": "2",
+                "descr": "gun"
+            },
+            {
+                "n": "3",
+                "descr": "specific location of wound"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "shoot.03",
+        "roleset_name": "record on film; Event where photographers shoot pictures",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "videographer"
+            },
+            {
+                "n": "1",
+                "descr": "subject filmed/photographed"
+            },
+            {
+                "n": "2",
+                "descr": "medium: photo, video, hi-def, color, etc"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "shoot.06",
+        "roleset_name": "move very rapidly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "EXT"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "5",
+                "descr": "direction"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "shoot_off.04",
+        "roleset_name": "loose wildly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shooter"
+            },
+            {
+                "n": "1",
+                "descr": "cannon, mouth, whatever"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "shoot_down.05",
+        "roleset_name": "cause to not fly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shooter"
+            },
+            {
+                "n": "1",
+                "descr": "planes, birds, ideas"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "shoot_back.07",
+        "roleset_name": "answer",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "hearer"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "shoot_up.08",
+        "roleset_name": "inject a drug into a vein",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Entity injecting the drug (usually the drug user)"
+            },
+            {
+                "n": "1",
+                "descr": "the drug"
+            },
+            {
+                "n": "2",
+                "descr": "entity being given the drug, if separate from arg0"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "shoot_up.09",
+        "roleset_name": "shoot 'em up, with guns",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shooter"
+            },
+            {
+                "n": "1",
+                "descr": "target"
+            },
+            {
+                "n": "2",
+                "descr": "gun"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "shootout.10",
+        "roleset_name": "gunfight",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first shooter"
+            },
+            {
+                "n": "1",
+                "descr": "opponent"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "shot.11",
+        "roleset_name": "exhausted, worn out",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of exhaustion, being worn out"
+            },
+            {
+                "n": "1",
+                "descr": "worn out entity"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "shot.12",
+        "roleset_name": "drink a small glass of liquid in a single backwards motion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "drinker"
+            },
+            {
+                "n": "1",
+                "descr": "drink being shot"
+            },
+            {
+                "n": "2",
+                "descr": "event, cause of celebration"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "shot.13",
+        "roleset_name": "inject with a substance for clinical purposes",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "injector"
+            },
+            {
+                "n": "1",
+                "descr": "recipient of shot"
+            },
+            {
+                "n": "2",
+                "descr": "substance injected"
+            },
+            {
+                "n": "3",
+                "descr": "injected for what purpose (the condition being prevented or treated)"
+            }
+        ]
+    }
+]

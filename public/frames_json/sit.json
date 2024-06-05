@@ -1,0 +1,118 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sit.01",
+        "roleset_name": "be in a position",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing sitting"
+            },
+            {
+                "n": "2",
+                "descr": "location or position"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sit.07",
+        "roleset_name": "take an examination",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "test-taker"
+            },
+            {
+                "n": "1",
+                "descr": "the test"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "sit.08",
+        "roleset_name": "sit_on: keep secret, have access to info but not do anything about it",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "secret-keeper"
+            },
+            {
+                "n": "1",
+                "descr": "secret"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "sit_down.02",
+        "roleset_name": "assume a seated position",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "sitter"
+            },
+            {
+                "n": "2",
+                "descr": "second sitter if separate from arg 1"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "sit_up.03",
+        "roleset_name": "assume an upright seated position",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "sitter"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "sit_out.04",
+        "roleset_name": "decline to participate",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "non-participant"
+            },
+            {
+                "n": "2",
+                "descr": "event"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "sit_in.05",
+        "roleset_name": "act as substitute for during someone's temporary absence",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "substitute"
+            },
+            {
+                "n": "2",
+                "descr": "thing being temporarily replaced"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "sit_in.06",
+        "roleset_name": "sit_in: visit in an unofficial capacity",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "visitor"
+            },
+            {
+                "n": "1",
+                "descr": "sitting in on what (e.g. meeting, class, etc)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "hobnob.01",
+        "roleset_name": "talk, mingle",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "First (or all if in one constituent) talker"
+            },
+            {
+                "n": "1",
+                "descr": "Other hobnobber (when separate constituent)"
+            },
+            {
+                "n": "2",
+                "descr": "Topic, hobnobbed-about"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "hobnob_around.02",
+        "roleset_name": "talk, mingle aimlessly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first talker"
+            },
+            {
+                "n": "1",
+                "descr": "talked with, when separate mention"
+            },
+            {
+                "n": "2",
+                "descr": "topic of discussion"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pace.01",
+        "roleset_name": "move at same speed, keep, set pace",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent"
+            },
+            {
+                "n": "1",
+                "descr": "first entity keeping/set at pace"
+            },
+            {
+                "n": "2",
+                "descr": "arg 1 is keeping pace with what?"
+            },
+            {
+                "n": "3",
+                "descr": "mention of the pace itself"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pace.02",
+        "roleset_name": "walk back and forth nervously",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "pacer"
+            },
+            {
+                "n": "1",
+                "descr": "path"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pacing.03",
+        "roleset_name": "set the speed of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing having a speed/pace"
+            },
+            {
+                "n": "2",
+                "descr": "the pace"
+            }
+        ]
+    }
+]

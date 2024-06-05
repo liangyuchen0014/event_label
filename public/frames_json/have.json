@@ -1,0 +1,161 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "have.01",
+        "roleset_name": "auxiliary",
+        "roles": []
+    },
+    {
+        "uid": 2,
+        "roleset_id": "have.02",
+        "roleset_name": "modal",
+        "roles": []
+    },
+    {
+        "uid": 3,
+        "roleset_id": "have.03",
+        "roleset_name": "own, possess",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "owner"
+            },
+            {
+                "n": "1",
+                "descr": "possession"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "have.04",
+        "roleset_name": "caused action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer"
+            },
+            {
+                "n": "1",
+                "descr": "action"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "have.05",
+        "roleset_name": "birthing sense",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity giving birth to something"
+            },
+            {
+                "n": "1",
+                "descr": "entity birthed"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "have.06",
+        "roleset_name": "light verb-- FOR AMR USE ONLY",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "true subject"
+            },
+            {
+                "n": "1",
+                "descr": "true predicate"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "have.11",
+        "roleset_name": "have yet to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "subject, entity having not yet done arg2"
+            },
+            {
+                "n": "1",
+                "descr": "fixed: 'yet'"
+            },
+            {
+                "n": "2",
+                "descr": "have yet to what (infinitival S-node complement)"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "have.07",
+        "roleset_name": "semi-modal: had better/best",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity that should"
+            },
+            {
+                "n": "1",
+                "descr": "fixed: better/best"
+            },
+            {
+                "n": "2",
+                "descr": "what arg0 had better/best do (main verb clause)"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "have.08",
+        "roleset_name": "have at you! (tackle)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, tackler"
+            },
+            {
+                "n": "1",
+                "descr": "thing tackled ('at' what)"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "have.09",
+        "roleset_name": "have_one's_way_with: have sex with, possibly rape-ily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, agressor"
+            },
+            {
+                "n": "1",
+                "descr": "fixed: (arg0's) way"
+            },
+            {
+                "n": "2",
+                "descr": "victim/patient"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "have.10",
+        "roleset_name": "have a go at; attempt, try out",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "action attempted. \"a go at __\""
+            }
+        ]
+    }
+]

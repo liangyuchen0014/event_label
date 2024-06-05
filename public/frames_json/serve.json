@@ -1,0 +1,116 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "serve.01",
+        "roleset_name": "act, work, performance of a service",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "worker, entity performing a service/acting in some capacity"
+            },
+            {
+                "n": "1",
+                "descr": "job, project, service performed"
+            },
+            {
+                "n": "2",
+                "descr": "employer/recipient/beneficiary of service"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "serve.02",
+        "roleset_name": "cater (to someone or something), delivery of something concrete",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "server"
+            },
+            {
+                "n": "1",
+                "descr": "thing served/delivered"
+            },
+            {
+                "n": "2",
+                "descr": "served/delivered to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "serve.04",
+        "roleset_name": "serve a sentence",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing time"
+            },
+            {
+                "n": "1",
+                "descr": "sentence served (maybe given as a period of time)"
+            },
+            {
+                "n": "2",
+                "descr": "crime, reason for sentence"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "serve_up.03",
+        "roleset_name": "provide, offer",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "server"
+            },
+            {
+                "n": "1",
+                "descr": "served"
+            },
+            {
+                "n": "2",
+                "descr": "served to"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "service.05",
+        "roleset_name": "do things to, like maintenance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doer"
+            },
+            {
+                "n": "1",
+                "descr": "thing worked on"
+            },
+            {
+                "n": "2",
+                "descr": "kind of service (thing done to arg1)"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "service.06",
+        "roleset_name": "religious service or ceremony",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "honorer/attendees"
+            },
+            {
+                "n": "1",
+                "descr": "type of service"
+            },
+            {
+                "n": "2",
+                "descr": "explicit mention of entity honored at the service"
+            }
+        ]
+    }
+]

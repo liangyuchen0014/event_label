@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "radiate.01",
+        "roleset_name": "emit or project",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity emitting"
+            },
+            {
+                "n": "1",
+                "descr": "thing emitted"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "radiate.02",
+        "roleset_name": "hit with radiation; irradiate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/causer"
+            },
+            {
+                "n": "1",
+                "descr": "entity hit with radiation"
+            },
+            {
+                "n": "2",
+                "descr": "the radiation"
+            },
+            {
+                "n": "3",
+                "descr": "more specific destination, if in addition to arg1"
+            }
+        ]
+    }
+]

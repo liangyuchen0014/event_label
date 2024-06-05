@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "inbreed.01",
+        "roleset_name": "breed together with genetic kin",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent, breeder"
+            },
+            {
+                "n": "1",
+                "descr": "first entity mated"
+            },
+            {
+                "n": "2",
+                "descr": "second entity mated"
+            },
+            {
+                "n": "3",
+                "descr": "offspring"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "inbreed.02",
+        "roleset_name": "generate within, instill",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/cause"
+            },
+            {
+                "n": "1",
+                "descr": "what is instilled"
+            },
+            {
+                "n": "2",
+                "descr": "entity in whom something is instilled"
+            }
+        ]
+    }
+]

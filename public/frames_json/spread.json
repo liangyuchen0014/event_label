@@ -1,0 +1,74 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "spread.01",
+        "roleset_name": "smear, apply, physical smearing of a substance on a surface",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier, intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "substance"
+            },
+            {
+                "n": "2",
+                "descr": "surface"
+            },
+            {
+                "n": "3",
+                "descr": "instrument, brush"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "spread.02",
+        "roleset_name": "extend, ranging",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "substance"
+            },
+            {
+                "n": "m",
+                "descr": "diretion or location (for location use loc)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "spread.03",
+        "roleset_name": "cause to be widely located or distributed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "distributor, agent"
+            },
+            {
+                "n": "1",
+                "descr": "things distributed"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "spread_out.04",
+        "roleset_name": "spread_out",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing spread out"
+            },
+            {
+                "n": "2",
+                "descr": "location, spread amongst"
+            }
+        ]
+    }
+]

@@ -1,0 +1,300 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "set.01",
+        "roleset_name": "put, place",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing set"
+            },
+            {
+                "n": "2",
+                "descr": "destination or position"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "set.02",
+        "roleset_name": "establish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing set"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "set.08",
+        "roleset_name": "make ready, assign a task to, ready for action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause, agent"
+            },
+            {
+                "n": "1",
+                "descr": "prepared entity"
+            },
+            {
+                "n": "2",
+                "descr": "ready for what, proposition"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "set.11",
+        "roleset_name": "go down",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "sun"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "set.14",
+        "roleset_name": "make ready, prepare",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, preparer"
+            },
+            {
+                "n": "1",
+                "descr": "Thing set, prepared"
+            },
+            {
+                "n": "2",
+                "descr": "Beneficiary, set for who/what?"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "set.16",
+        "roleset_name": "fixed, fixated, decided on",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity fixed on something"
+            },
+            {
+                "n": "2",
+                "descr": "what arg1 is decided/fixed on"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "set_off.04",
+        "roleset_name": "set off: begin travel",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "traveller"
+            },
+            {
+                "n": "1",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "set_off.05",
+        "roleset_name": "set off a bomb, start a chain reaction",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bomber, cause"
+            },
+            {
+                "n": "1",
+                "descr": "bomb, reaction"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "set_off.13",
+        "roleset_name": "set off: complement, balance (like 'offset')",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing complementing"
+            },
+            {
+                "n": "1",
+                "descr": "thing complemented"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "set_about.12",
+        "roleset_name": "start to do",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, starter"
+            },
+            {
+                "n": "1",
+                "descr": "thing started"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "set_out.06",
+        "roleset_name": "set out: establish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing set"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "set_out.07",
+        "roleset_name": "set out: begin",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "traveller"
+            },
+            {
+                "n": "1",
+                "descr": "destination, goal"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "set_up.03",
+        "roleset_name": "set up: establish, establish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing set"
+            },
+            {
+                "n": "2",
+                "descr": "attribute"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "set_up.15",
+        "roleset_name": "trap, ensnare, trick",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "trickster"
+            },
+            {
+                "n": "1",
+                "descr": "entity tricked"
+            },
+            {
+                "n": "2",
+                "descr": "the trick that follows"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "set_down.09",
+        "roleset_name": "put into position",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing set down"
+            },
+            {
+                "n": "2",
+                "descr": "destination or position"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "set_upon.10",
+        "roleset_name": "(cause to) be attacked",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, attacker"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing attacked"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "set_forth.17",
+        "roleset_name": "establish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "setter"
+            },
+            {
+                "n": "1",
+                "descr": "thing established"
+            }
+        ]
+    },
+    {
+        "uid": 18,
+        "roleset_id": "onset.18",
+        "roleset_name": "begin, start",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "experiencer"
+            },
+            {
+                "n": "1",
+                "descr": "thing beginning"
+            },
+            {
+                "n": "2",
+                "descr": "when it begins"
+            }
+        ]
+    }
+]

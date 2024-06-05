@@ -1,0 +1,71 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "operate.01",
+        "roleset_name": "cf work, working (of something)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, operator"
+            },
+            {
+                "n": "1",
+                "descr": "thing operated"
+            },
+            {
+                "n": "2",
+                "descr": "explicit patient (thing operated on)"
+            },
+            {
+                "n": "3",
+                "descr": "explicit role"
+            },
+            {
+                "n": "4",
+                "descr": "explicit instrument (with or on, ususally)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "operate.02",
+        "roleset_name": "perform surgery",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Surgeon/Person performing precise work"
+            },
+            {
+                "n": "1",
+                "descr": "Patient/Body Part being operated on"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "operable.03",
+        "roleset_name": "able to (be) operate(d)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "operator"
+            },
+            {
+                "n": "1",
+                "descr": "thing operat(ed/ing)"
+            },
+            {
+                "n": "2",
+                "descr": "explicit patient (operated on)"
+            },
+            {
+                "n": "3",
+                "descr": "explicit role (operating as)"
+            },
+            {
+                "n": "4",
+                "descr": "explicit instrument (with or as, usually)"
+            }
+        ]
+    }
+]

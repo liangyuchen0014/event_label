@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "mangle.01",
+        "roleset_name": "flatten fabric using a mangle",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent/mangler"
+            },
+            {
+                "n": "1",
+                "descr": "thing flattened"
+            },
+            {
+                "n": "2",
+                "descr": "the mangle"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "mangle.02",
+        "roleset_name": "destroy, making unrecognizable",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer of mangling"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing destroyed"
+            }
+        ]
+    }
+]

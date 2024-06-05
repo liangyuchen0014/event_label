@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "resorb.01",
+        "roleset_name": "dissolve/assimilate bone tissue, destruction of bone",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of bone loss (pathology or osteoclasts)"
+            },
+            {
+                "n": "1",
+                "descr": "entity undergoing resorption"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "resorb.02",
+        "roleset_name": "absorb again",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "resorber, cause or agent"
+            },
+            {
+                "n": "1",
+                "descr": "resorbed thing/substance"
+            },
+            {
+                "n": "2",
+                "descr": "resorbed into what, destination"
+            },
+            {
+                "n": "3",
+                "descr": "resorbed from what, source"
+            }
+        ]
+    }
+]

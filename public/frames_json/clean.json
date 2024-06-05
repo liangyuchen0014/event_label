@@ -1,0 +1,85 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "clean.01",
+        "roleset_name": "to free from dirt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cleaner, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing cleaned"
+            },
+            {
+                "n": "2",
+                "descr": "beneficiary, cost:  clean for"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "clean.04",
+        "roleset_name": "free from impurities, contraband, deviations",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "location clean"
+            },
+            {
+                "n": "3",
+                "descr": "impurities/contraband/deviations not present"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "clean_up.02",
+        "roleset_name": "to make clean or orderly, clean_up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cleaner, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing cleaned up"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "clean_out.03",
+        "roleset_name": "to empty from",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "emptier, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity cleaned out"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "clean_clock.05",
+        "roleset_name": "beat up, defeat soundly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "defeater"
+            },
+            {
+                "n": "1",
+                "descr": "entity defeated (whose clock it is)"
+            },
+            {
+                "n": "2",
+                "descr": "domain, competition"
+            }
+        ]
+    }
+]

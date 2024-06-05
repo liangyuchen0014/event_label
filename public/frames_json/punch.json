@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "punch.01",
+        "roleset_name": "to hit or press (a key or a button)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity punched"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "punch_out.02",
+        "roleset_name": "remove",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity removed"
+            },
+            {
+                "n": "2",
+                "descr": "removed from what"
+            }
+        ]
+    }
+]

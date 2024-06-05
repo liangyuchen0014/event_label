@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "resupply.01",
+        "roleset_name": "provide again",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "provider"
+            },
+            {
+                "n": "1",
+                "descr": "thing provided"
+            },
+            {
+                "n": "2",
+                "descr": "entity provided for (benefactive)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "resupply.02",
+        "roleset_name": "replenish with supplies",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent"
+            },
+            {
+                "n": "1",
+                "descr": "container"
+            },
+            {
+                "n": "2",
+                "descr": "substance"
+            }
+        ]
+    }
+]

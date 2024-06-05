@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "compare.01",
+        "roleset_name": "compare",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making comparison"
+            },
+            {
+                "n": "1",
+                "descr": "first item in comparison"
+            },
+            {
+                "n": "2",
+                "descr": "second item in comparison, usually prepositional"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "comparable.02",
+        "roleset_name": "able to be compared",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity doing the comparing"
+            },
+            {
+                "n": "1",
+                "descr": "first item (or all) in comparison"
+            },
+            {
+                "n": "2",
+                "descr": "second item"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "comparable.03",
+        "roleset_name": "similar",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "first item (or all) that are similar"
+            },
+            {
+                "n": "2",
+                "descr": "second item"
+            }
+        ]
+    }
+]

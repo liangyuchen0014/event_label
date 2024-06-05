@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "dish.01",
+        "roleset_name": "put onto a dish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "disher"
+            },
+            {
+                "n": "1",
+                "descr": "food"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "dish_out.02",
+        "roleset_name": "distribute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "distributor"
+            },
+            {
+                "n": "1",
+                "descr": "thing distributed"
+            },
+            {
+                "n": "2",
+                "descr": "distributed to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "dish_up.03",
+        "roleset_name": "serve",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "server"
+            },
+            {
+                "n": "1",
+                "descr": "thing served"
+            },
+            {
+                "n": "2",
+                "descr": "served to"
+            }
+        ]
+    }
+]

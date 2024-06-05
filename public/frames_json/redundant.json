@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "redundant.01",
+        "roleset_name": "superfluous; extra; unnecessary",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "superfluous thing"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "make_redundant.02",
+        "roleset_name": "fire, lay off",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "firing entity"
+            },
+            {
+                "n": "1",
+                "descr": "entity fired"
+            },
+            {
+                "n": "2",
+                "descr": "fired from where, employer (if separate from Arg0, in a 'from' phrase or similar)"
+            }
+        ]
+    }
+]

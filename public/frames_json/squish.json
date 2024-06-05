@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "squish.01",
+        "roleset_name": "squish",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, squisher"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing being squished"
+            },
+            {
+                "n": "2",
+                "descr": "instrument used"
+            },
+            {
+                "n": "3",
+                "descr": "resulting state of arg1, often prepositional"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "squish.02",
+        "roleset_name": "create by squishing",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "squisher"
+            },
+            {
+                "n": "1",
+                "descr": "thing squished"
+            },
+            {
+                "n": "2",
+                "descr": "squished into (entity created)"
+            }
+        ]
+    }
+]

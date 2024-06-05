@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shed.01",
+        "roleset_name": "get rid of, remove",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity removing"
+            },
+            {
+                "n": "1",
+                "descr": "thing being removed (defaults to 'hair')"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shed.02",
+        "roleset_name": "decrease",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    }
+]

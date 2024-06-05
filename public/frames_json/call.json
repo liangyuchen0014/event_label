@@ -1,0 +1,317 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "call.01",
+        "roleset_name": "label",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "item being labelled"
+            },
+            {
+                "n": "2",
+                "descr": "name itself, attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "call.02",
+        "roleset_name": "summon, perhaps to or by phone",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "entity summoned"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "call.03",
+        "roleset_name": "demand",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "demander"
+            },
+            {
+                "n": "1",
+                "descr": "thing being demanded"
+            },
+            {
+                "n": "2",
+                "descr": "demandee, of whom is arg1 being demanded?"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "call.07",
+        "roleset_name": "say across a distance",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "speaker"
+            },
+            {
+                "n": "1",
+                "descr": "utterance"
+            },
+            {
+                "n": "2",
+                "descr": "distant listener"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "call.09",
+        "roleset_name": "call into question, doubt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doubter"
+            },
+            {
+                "n": "1",
+                "descr": "thing doubted"
+            },
+            {
+                "n": "2",
+                "descr": "fixed: 'into question'"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "call.10",
+        "roleset_name": "prediction, decision",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "predictor/decider"
+            },
+            {
+                "n": "1",
+                "descr": "domain, topic of the prediction/decision"
+            },
+            {
+                "n": "2",
+                "descr": "the actual prediction/decision itself"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "call.11",
+        "roleset_name": "call (the shots); decide, dictate, officiate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity in charge, official decision maker"
+            },
+            {
+                "n": "1",
+                "descr": "'the shots' (or related)"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "call.13",
+        "roleset_name": "call someone out on something (non-VPC version)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "accusation, thing called out (bluff, foul, bullshit, etc)"
+            },
+            {
+                "n": "2",
+                "descr": "entity called out (accusee)"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "call.14",
+        "roleset_name": "claim (like dibs)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "claimer"
+            },
+            {
+                "n": "1",
+                "descr": "thing claimed (e.g. dibs, shotgun)"
+            },
+            {
+                "n": "2",
+                "descr": "opponent/competitor"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "call.16",
+        "roleset_name": "visit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "visitor"
+            },
+            {
+                "n": "1",
+                "descr": "recipient of visit"
+            },
+            {
+                "n": "2",
+                "descr": "location visited"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "call_up.08",
+        "roleset_name": "summon",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "thing being summoned"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "call_in.04",
+        "roleset_name": "summon",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "thing being summoned"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "call_in.17",
+        "roleset_name": "report - seperate from call_in.04 because this does not get anything in return",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "reporter"
+            },
+            {
+                "n": "1",
+                "descr": "thing reported"
+            },
+            {
+                "n": "2",
+                "descr": "reported to"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "call_on.05",
+        "roleset_name": "visit, make use of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "thing being visited, used"
+            },
+            {
+                "n": "2",
+                "descr": "purpose, attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "call_off.06",
+        "roleset_name": "terminate before hand",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "the Terminator"
+            },
+            {
+                "n": "1",
+                "descr": "the Terminated"
+            }
+        ]
+    },
+    {
+        "uid": 16,
+        "roleset_id": "call_upon.12",
+        "roleset_name": "visit, make use of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller"
+            },
+            {
+                "n": "1",
+                "descr": "entity called upon"
+            },
+            {
+                "n": "2",
+                "descr": "purpose of arg1, called upon to do what?"
+            }
+        ]
+    },
+    {
+        "uid": 17,
+        "roleset_id": "call_out.15",
+        "roleset_name": "call someone out on something (VPC version)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "caller, accuser"
+            },
+            {
+                "n": "1",
+                "descr": "accusation, what arg2 is called out on"
+            },
+            {
+                "n": "2",
+                "descr": "entity called out; accusee"
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sign.01",
+        "roleset_name": "affix a signature",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signer"
+            },
+            {
+                "n": "1",
+                "descr": "document"
+            },
+            {
+                "n": "2",
+                "descr": "signature"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sign.02",
+        "roleset_name": "enter into an agreement",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signer, agreer"
+            },
+            {
+                "n": "1",
+                "descr": "agreement"
+            },
+            {
+                "n": "2",
+                "descr": "co-signer"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "sign_up.03",
+        "roleset_name": "sign up: enroll, enter",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signer, enroller"
+            },
+            {
+                "n": "1",
+                "descr": "patient enrolled"
+            },
+            {
+                "n": "2",
+                "descr": "co-signer"
+            },
+            {
+                "n": "3",
+                "descr": "signed up for"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "sign_on.04",
+        "roleset_name": "sign on: become associated with",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signer"
+            },
+            {
+                "n": "1",
+                "descr": "entity associated with"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "sign_off.05",
+        "roleset_name": "sign_off: give stamp of approval",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signer"
+            },
+            {
+                "n": "1",
+                "descr": "entity being given stamp of approval"
+            },
+            {
+                "n": "2",
+                "descr": "for what, second part of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "sign_in.06",
+        "roleset_name": "check in",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, causer of check in"
+            },
+            {
+                "n": "1",
+                "descr": "entity being checked in"
+            },
+            {
+                "n": "2",
+                "descr": "checked in to"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "signal.07",
+        "roleset_name": "show, cause to see, communicate by signaling, message",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shower"
+            },
+            {
+                "n": "1",
+                "descr": "thing seen/shown"
+            },
+            {
+                "n": "2",
+                "descr": "seer"
+            },
+            {
+                "n": "3",
+                "descr": "subject-matter of the signals (what they relate to)"
+            }
+        ]
+    }
+]

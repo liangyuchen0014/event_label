@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "divorce.01",
+        "roleset_name": "to obtain a divorce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "initiator of end of marriage, agent"
+            },
+            {
+                "n": "1",
+                "descr": "ex-spouse"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "divorce.02",
+        "roleset_name": "to separate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of separation, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity separated"
+            },
+            {
+                "n": "2",
+                "descr": "entity separated from"
+            }
+        ]
+    }
+]

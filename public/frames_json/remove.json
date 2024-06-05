@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "remove.01",
+        "roleset_name": "remove",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity removing"
+            },
+            {
+                "n": "1",
+                "descr": "thing being removed"
+            },
+            {
+                "n": "2",
+                "descr": "removed from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "removable.02",
+        "roleset_name": "able to be taken away",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of removal"
+            },
+            {
+                "n": "1",
+                "descr": "thing removed"
+            },
+            {
+                "n": "2",
+                "descr": "source, removed from"
+            }
+        ]
+    }
+]

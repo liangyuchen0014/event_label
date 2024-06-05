@@ -1,0 +1,147 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "return.01",
+        "roleset_name": "come back",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "(extent -- rare)"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "return.02",
+        "roleset_name": "give back",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given"
+            },
+            {
+                "n": "2",
+                "descr": "entity given to"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "return.03",
+        "roleset_name": "bring back",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity bring something back"
+            },
+            {
+                "n": "1",
+                "descr": "thing brought back"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1, state arg1 is brought back to"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "return.04",
+        "roleset_name": "send back",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "thing sent"
+            },
+            {
+                "n": "2",
+                "descr": "sent-to"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "return.05",
+        "roleset_name": "exchange, trade",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity trading"
+            },
+            {
+                "n": "1",
+                "descr": "theme"
+            },
+            {
+                "n": "2",
+                "descr": "other exchanger"
+            },
+            {
+                "n": "3",
+                "descr": "secondary theme"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "return.06",
+        "roleset_name": "give a dividend",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing providing a dividend"
+            },
+            {
+                "n": "1",
+                "descr": "dividend, earnings"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "returnable.07",
+        "roleset_name": "eligible/able to be given back",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given back"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            }
+        ]
+    }
+]

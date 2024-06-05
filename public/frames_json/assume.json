@@ -1,0 +1,48 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "assume.01",
+        "roleset_name": "acquire",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity acquiring something"
+            },
+            {
+                "n": "1",
+                "descr": "thing being acquired"
+            },
+            {
+                "n": "2",
+                "descr": "acquired-from"
+            },
+            {
+                "n": "3",
+                "descr": "price paid"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "assume.02",
+        "roleset_name": "believe",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Thinker"
+            },
+            {
+                "n": "1",
+                "descr": "Thought"
+            },
+            {
+                "n": "2",
+                "descr": "Attributive (entity arg1 is assumed of/about)"
+            }
+        ]
+    }
+]

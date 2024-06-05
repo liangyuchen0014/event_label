@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "remit.01",
+        "roleset_name": "make payment, give (perhaps for consideration)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, payer"
+            },
+            {
+                "n": "1",
+                "descr": "theme, thing given/paid"
+            },
+            {
+                "n": "2",
+                "descr": "recipient, person receiving payment"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "remission.02",
+        "roleset_name": "abate in intensity",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of remission"
+            },
+            {
+                "n": "1",
+                "descr": "thing abating"
+            },
+            {
+                "n": "2",
+                "descr": "abating for whom; entity experiencing abatement of ARG1"
+            }
+        ]
+    }
+]

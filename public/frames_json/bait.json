@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bait.01",
+        "roleset_name": "tease, rag on",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "teaser"
+            },
+            {
+                "n": "1",
+                "descr": "person being teased"
+            },
+            {
+                "n": "2",
+                "descr": "teased about what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bait.02",
+        "roleset_name": "lure, entice, entrap with bait",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, volitional entity enticing"
+            },
+            {
+                "n": "1",
+                "descr": "patient, entity lured, enticed, entrapped"
+            },
+            {
+                "n": "2",
+                "descr": "Trap, entity, action arg1 is lured towards or into"
+            },
+            {
+                "n": "3",
+                "descr": "bait itself, instrument"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "bait.03",
+        "roleset_name": "put bait on a trap, hook, etc.",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity putting bait on trap, hook"
+            },
+            {
+                "n": "1",
+                "descr": "entity baited, trap or hook itself"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, bait itself"
+            }
+        ]
+    }
+]

@@ -1,0 +1,255 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "blow.01",
+        "roleset_name": "cause motion by air current",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "wind"
+            },
+            {
+                "n": "1",
+                "descr": "thing being moved"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "blow.02",
+        "roleset_name": "create, shape by blowing air",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shaper"
+            },
+            {
+                "n": "1",
+                "descr": "thing worked on"
+            },
+            {
+                "n": "2",
+                "descr": "end state, if different from arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "blow.03",
+        "roleset_name": "oral sex",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "getter"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "blow.04",
+        "roleset_name": "like the wind",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "wind"
+            },
+            {
+                "n": "m",
+                "descr": "direction or location"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "blow.08",
+        "roleset_name": "explode",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of explosion"
+            },
+            {
+                "n": "1",
+                "descr": "thing exploding"
+            },
+            {
+                "n": "2",
+                "descr": "entity damaged, damage caused by explosion"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "blow.09",
+        "roleset_name": "sound, like a trumpet",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "player"
+            },
+            {
+                "n": "1",
+                "descr": "trumpet"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "blow.10",
+        "roleset_name": "make an error",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "errer"
+            },
+            {
+                "n": "1",
+                "descr": "error"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "blow.11",
+        "roleset_name": "waste, consume, use",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, one wasting stuff"
+            },
+            {
+                "n": "1",
+                "descr": "theme, stuff wasted"
+            },
+            {
+                "n": "2",
+                "descr": "recipient, what stuff was wasted on"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "blow.13",
+        "roleset_name": "suck, be bad",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is crappy"
+            }
+        ]
+    },
+    {
+        "uid": 10,
+        "roleset_id": "blow.14",
+        "roleset_name": "strike",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, hitter"
+            },
+            {
+                "n": "1",
+                "descr": "thing hit"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, thing hit by or with"
+            }
+        ]
+    },
+    {
+        "uid": 11,
+        "roleset_id": "blow_up.05",
+        "roleset_name": "inflate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "inflater, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing grown"
+            },
+            {
+                "n": "2",
+                "descr": "amount increased by, EXT or MNR"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 12,
+        "roleset_id": "blow_up.06",
+        "roleset_name": "explode",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causal agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing exploding"
+            },
+            {
+                "n": "2",
+                "descr": "instrument (bomb)"
+            }
+        ]
+    },
+    {
+        "uid": 13,
+        "roleset_id": "blow_out.07",
+        "roleset_name": "explosive air motion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "air"
+            },
+            {
+                "n": "1",
+                "descr": "thing being moved"
+            }
+        ]
+    },
+    {
+        "uid": 14,
+        "roleset_id": "blow_over.12",
+        "roleset_name": "pass",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is passing, ending"
+            }
+        ]
+    },
+    {
+        "uid": 15,
+        "roleset_id": "come_to_blows.15",
+        "roleset_name": "fight",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first fighter"
+            },
+            {
+                "n": "1",
+                "descr": "second fighter, if separate"
+            },
+            {
+                "n": "2",
+                "descr": "spoils, over what, explicit mention of the battle"
+            }
+        ]
+    }
+]

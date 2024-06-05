@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stake.01",
+        "roleset_name": "make a wager",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "better"
+            },
+            {
+                "n": "1",
+                "descr": "amount of bet"
+            },
+            {
+                "n": "2",
+                "descr": "basis, proposition, bet-on"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stake_out.02",
+        "roleset_name": "claim (as territory)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "claimer, asserter"
+            },
+            {
+                "n": "1",
+                "descr": "thing claimed, asserted"
+            },
+            {
+                "n": "2",
+                "descr": "benefactive, claimed/asserted for"
+            },
+            {
+                "n": "3",
+                "descr": "secondary predication"
+            }
+        ]
+    }
+]

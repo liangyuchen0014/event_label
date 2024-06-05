@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "loan.01",
+        "roleset_name": "give temporarily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given"
+            },
+            {
+                "n": "2",
+                "descr": "entity given to"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "loan_out.02",
+        "roleset_name": "like loan.01 but without stated recipient",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given"
+            }
+        ]
+    }
+]

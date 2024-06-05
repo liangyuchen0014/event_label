@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "drink.01",
+        "roleset_name": "ingest liquids",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "drinker"
+            },
+            {
+                "n": "1",
+                "descr": "liquid"
+            },
+            {
+                "n": "2",
+                "descr": "source of liquid"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "drink.02",
+        "roleset_name": "salute",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "drinker"
+            },
+            {
+                "n": "1",
+                "descr": "thing saluted"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "drink_up.03",
+        "roleset_name": "drink up: drink completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "drinker"
+            },
+            {
+                "n": "1",
+                "descr": "drink"
+            }
+        ]
+    }
+]

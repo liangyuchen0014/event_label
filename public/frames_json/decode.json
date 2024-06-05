@@ -1,0 +1,25 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "decode.01",
+        "roleset_name": "translate a coded message into readable message",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of transformation, decoder"
+            },
+            {
+                "n": "1",
+                "descr": "message decoded"
+            },
+            {
+                "n": "2",
+                "descr": "end state, translation when separate mention from arg 1"
+            },
+            {
+                "n": "3",
+                "descr": "start state, code"
+            }
+        ]
+    }
+]

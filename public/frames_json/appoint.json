@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "appoint.01",
+        "roleset_name": "name to a position, hire",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "appointer, employer"
+            },
+            {
+                "n": "1",
+                "descr": "appointee, employee"
+            },
+            {
+                "n": "2",
+                "descr": "job, position"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "appointment.02",
+        "roleset_name": "time to meet",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first person meeting"
+            },
+            {
+                "n": "1",
+                "descr": "second person meeting, who arg0 has appt. with"
+            }
+        ]
+    }
+]

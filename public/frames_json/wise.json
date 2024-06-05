@@ -1,0 +1,47 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wise.01",
+        "roleset_name": "characterized by wisdom",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "that characterized as wise (may require concatenation)"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wise.02",
+        "roleset_name": "knowing about (\"wise to\")",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "knower"
+            },
+            {
+                "n": "1",
+                "descr": "known"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wise_up.03",
+        "roleset_name": "become wise (to something)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "outside agent or causer"
+            },
+            {
+                "n": "1",
+                "descr": "entity becoming wise"
+            },
+            {
+                "n": "2",
+                "descr": "thing learned"
+            }
+        ]
+    }
+]

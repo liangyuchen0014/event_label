@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "angle.01",
+        "roleset_name": "move on an angled trajectory",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "1",
+                "descr": "description of path"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "angle.02",
+        "roleset_name": "cause to be/move in an angular fashion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, cause"
+            },
+            {
+                "n": "1",
+                "descr": "entity angled"
+            },
+            {
+                "n": "2",
+                "descr": "path, axis"
+            },
+            {
+                "n": "3",
+                "descr": "compared to what entity"
+            },
+            {
+                "n": "4",
+                "descr": "angle measurement"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "reproduce.01",
+        "roleset_name": "copy",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "copier, agent"
+            },
+            {
+                "n": "1",
+                "descr": "original"
+            },
+            {
+                "n": "2",
+                "descr": "copy"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "reproducible.02",
+        "roleset_name": "able to be copied",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of reproduction"
+            },
+            {
+                "n": "1",
+                "descr": "entity reproduced"
+            }
+        ]
+    }
+]

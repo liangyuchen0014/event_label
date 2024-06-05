@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "exclude.01",
+        "roleset_name": "exclude, except",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, excluder"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing excluded"
+            },
+            {
+                "n": "2",
+                "descr": "excluded-from"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "exclusive.02",
+        "roleset_name": "snobbish, reserved for a select elite group",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "exclusive entity/location/organization"
+            },
+            {
+                "n": "1",
+                "descr": "elite group reserved for"
+            },
+            {
+                "n": "2",
+                "descr": "group excluded"
+            }
+        ]
+    }
+]

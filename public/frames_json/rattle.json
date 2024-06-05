@@ -1,0 +1,58 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "rattle.01",
+        "roleset_name": "cause to shake",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "shaker"
+            },
+            {
+                "n": "1",
+                "descr": "thing shaking"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "rattle.02",
+        "roleset_name": "emit rattling sounds",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "rattler"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "rattle_on.03",
+        "roleset_name": "talk continuously",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "talker, rattler"
+            },
+            {
+                "n": "1",
+                "descr": "topic"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "rattle_off.04",
+        "roleset_name": "say/list things quickly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "talker, rattler"
+            },
+            {
+                "n": "1",
+                "descr": "topic"
+            }
+        ]
+    }
+]

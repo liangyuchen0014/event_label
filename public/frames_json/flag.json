@@ -1,0 +1,48 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "flag.01",
+        "roleset_name": "go down, esp of financial usage",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the dropping"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, end state of arg1"
+            },
+            {
+                "n": "m",
+                "descr": "medium"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "flag.02",
+        "roleset_name": "signal",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "signaler"
+            },
+            {
+                "n": "1",
+                "descr": "signaled"
+            }
+        ]
+    }
+]

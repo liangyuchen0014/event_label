@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "deposit.01",
+        "roleset_name": "put something somewhere",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "depositor, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing deposited"
+            },
+            {
+                "n": "2",
+                "descr": "where"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "deposition.02",
+        "roleset_name": "law domain: give testimony under oath",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "deposer, legal professional taking deposition"
+            },
+            {
+                "n": "1",
+                "descr": "deposed, person giving testimony"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "depose.03",
+        "roleset_name": "to dethrone, remove from an office or position",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Causer of removal"
+            },
+            {
+                "n": "1",
+                "descr": "Thing being removed"
+            },
+            {
+                "n": "2",
+                "descr": "Source: Arg1 is removed from where?"
+            }
+        ]
+    }
+]

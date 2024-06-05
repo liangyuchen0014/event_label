@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "prohibit.01",
+        "roleset_name": "prevent an action, forbidding",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent"
+            },
+            {
+                "n": "1",
+                "descr": "Theme (action or object being prevented)"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predication or action"
+            },
+            {
+                "n": "3",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "prohibitive.02",
+        "roleset_name": "excessively high or likely so as to discourage another action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Discouraging, prohibitive thing"
+            },
+            {
+                "n": "1",
+                "descr": "Theme (action or object being discouraged)"
+            },
+            {
+                "n": "2",
+                "descr": "Attribute of Arg0 that discourages, when separate"
+            }
+        ]
+    }
+]

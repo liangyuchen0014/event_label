@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "scent.01",
+        "roleset_name": "fill with the odor of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer"
+            },
+            {
+                "n": "1",
+                "descr": "thing scented"
+            },
+            {
+                "n": "2",
+                "descr": "substance, scent"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "scent.02",
+        "roleset_name": "catch the scent of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the smelling"
+            },
+            {
+                "n": "1",
+                "descr": "the scent"
+            },
+            {
+                "n": "2",
+                "descr": "air or environment carrying the scent"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "scent_out.03",
+        "roleset_name": "find by following the scent of",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity doing the smelling"
+            },
+            {
+                "n": "1",
+                "descr": "thing found by its scent"
+            },
+            {
+                "n": "2",
+                "descr": "source leading to the discovery of Arg 1"
+            }
+        ]
+    }
+]

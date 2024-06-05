@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "terminate.01",
+        "roleset_name": "end, stop",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Intentional agent"
+            },
+            {
+                "n": "1",
+                "descr": "Thing ending"
+            },
+            {
+                "n": "m",
+                "descr": "point at which something ends"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "terminate.02",
+        "roleset_name": "cause to cease employment, firing",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "employer"
+            },
+            {
+                "n": "1",
+                "descr": "ex-employee"
+            },
+            {
+                "n": "2",
+                "descr": "job"
+            }
+        ]
+    }
+]

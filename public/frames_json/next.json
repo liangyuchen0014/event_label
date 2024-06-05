@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "next.01",
+        "roleset_name": "immediately follow in time",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing coming after"
+            },
+            {
+                "n": "2",
+                "descr": "thing coming before"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "next.03",
+        "roleset_name": "succeed",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity being promoted"
+            },
+            {
+                "n": "2",
+                "descr": "promoted to, next in line for what"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "next_to.02",
+        "roleset_name": "spatially adjacent (generally on a lateral axis)",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "first entity"
+            },
+            {
+                "n": "2",
+                "descr": "neighbor(s)"
+            },
+            {
+                "n": "3",
+                "descr": "anchor"
+            },
+            {
+                "n": "4",
+                "descr": "axis"
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stall.01",
+        "roleset_name": "(cause to) cease/slow forward motion, ",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "staller"
+            },
+            {
+                "n": "1",
+                "descr": "thing stalled"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stall_out.02",
+        "roleset_name": "(cause to) cease forward motion completely",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "staller"
+            },
+            {
+                "n": "1",
+                "descr": "thing stalled"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "stall_off.03",
+        "roleset_name": "stall off: delay, intensive of stall.01",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of delay"
+            },
+            {
+                "n": "1",
+                "descr": "thing delayed, stalled"
+            }
+        ]
+    }
+]

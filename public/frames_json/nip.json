@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "nip.01",
+        "roleset_name": "motion",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity nipping"
+            },
+            {
+                "n": "2",
+                "descr": "start point"
+            },
+            {
+                "n": "3",
+                "descr": "end point"
+            },
+            {
+                "n": "4",
+                "descr": "path"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "nip.02",
+        "roleset_name": "pinch, snip, bite (possibly off)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "biter"
+            },
+            {
+                "n": "1",
+                "descr": "thing bitten"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "nip.03",
+        "roleset_name": "nip_in_the_bud: fixed. = prevent, cause to end",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "preventative nipper"
+            },
+            {
+                "n": "1",
+                "descr": "thing nipped, prevented"
+            },
+            {
+                "n": "2",
+                "descr": "fixed: \"in the bud\""
+            }
+        ]
+    }
+]

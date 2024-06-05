@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "except.01",
+        "roleset_name": "to leave out, exclude",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Entity causing/making exception"
+            },
+            {
+                "n": "1",
+                "descr": "Entity excepted, excluded"
+            },
+            {
+                "n": "2",
+                "descr": "Excluded/excepted from what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "except.02",
+        "roleset_name": "to object, legal domain",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Lawyer, entity objecting"
+            },
+            {
+                "n": "1",
+                "descr": "Thing objected-to"
+            }
+        ]
+    }
+]

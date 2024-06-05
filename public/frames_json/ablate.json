@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ablate.01",
+        "roleset_name": "surgical removal of a body part; controlled surgical removal",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, surgeon"
+            },
+            {
+                "n": "1",
+                "descr": "Material/Part of body ablated"
+            },
+            {
+                "n": "2",
+                "descr": "Object/Patient undergoing ablation, removed from"
+            },
+            {
+                "n": "3",
+                "descr": "Instrument, incl. chemical substance"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ablate.02",
+        "roleset_name": "erode",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of erosion"
+            },
+            {
+                "n": "1",
+                "descr": "entity removed, eroded away"
+            },
+            {
+                "n": "2",
+                "descr": "eroded from, source a piece is removed from"
+            }
+        ]
+    }
+]

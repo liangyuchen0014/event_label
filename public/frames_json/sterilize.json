@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sterilize.01",
+        "roleset_name": "to make free from live bacteria, to make inoffensive, unable to reproduce, inoffensive",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sterilizer"
+            },
+            {
+                "n": "1",
+                "descr": "entity sterilized"
+            },
+            {
+                "n": "2",
+                "descr": "germs removed"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sterile.02",
+        "roleset_name": "inhospitible to the growth of life",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "sterile location/entity"
+            },
+            {
+                "n": "2",
+                "descr": "new life"
+            }
+        ]
+    }
+]

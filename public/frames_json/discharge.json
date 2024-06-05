@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "discharge.01",
+        "roleset_name": "remove supply, as with electricity",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "supplier"
+            },
+            {
+                "n": "1",
+                "descr": "supply"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "discharge.101",
+        "roleset_name": "to release, release from a location (not stuff being released itself)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "releaser"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "place released from (often implied)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "crowbar.01",
+        "roleset_name": "force a thing into a destination",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, wielder of crowbar"
+            },
+            {
+                "n": "1",
+                "descr": "entity allowed in (theme)"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            },
+            {
+                "n": "3",
+                "descr": "the crowbar"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "crowbar.02",
+        "roleset_name": "attack/ pry at with a crowbar, potentially with resulting state",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, wielder of crowbar"
+            },
+            {
+                "n": "1",
+                "descr": "thing attacked/pried/damaged with a crowbar (patient)"
+            },
+            {
+                "n": "2",
+                "descr": "resulting state of arg1"
+            }
+        ]
+    }
+]

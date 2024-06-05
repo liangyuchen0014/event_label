@@ -1,0 +1,59 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "wharf.01",
+        "roleset_name": "shore up a river bank",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity building or deciding to build a wharf"
+            },
+            {
+                "n": "1",
+                "descr": "the shore/bank"
+            },
+            {
+                "n": "2",
+                "descr": "wharf structure or materials"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "wharf.02",
+        "roleset_name": "leave at a wharf",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity dropping off the goods"
+            },
+            {
+                "n": "1",
+                "descr": "the goods"
+            },
+            {
+                "n": "2",
+                "descr": "the wharf itself"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "wharf.03",
+        "roleset_name": "dock at a wharf",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "The crew"
+            },
+            {
+                "n": "1",
+                "descr": "the ship"
+            },
+            {
+                "n": "2",
+                "descr": "location"
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "smear.01",
+        "roleset_name": "apply pasty entity to surface",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "applier"
+            },
+            {
+                "n": "1",
+                "descr": "paste, thing applied"
+            },
+            {
+                "n": "2",
+                "descr": "surface, arg1 is smeared on what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "smear.02",
+        "roleset_name": "besmirch, cause damage to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Insulter, agent causing damage"
+            },
+            {
+                "n": "1",
+                "descr": "Person, entity insulted, damaged"
+            }
+        ]
+    }
+]

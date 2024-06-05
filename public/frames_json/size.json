@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "size.01",
+        "roleset_name": "(cause to) have some size",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, sizer"
+            },
+            {
+                "n": "1",
+                "descr": "thing whose size is important"
+            },
+            {
+                "n": "2",
+                "descr": "size itself, attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "size_up.02",
+        "roleset_name": "evaluate",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "evaluator"
+            },
+            {
+                "n": "1",
+                "descr": "evaluated"
+            }
+        ]
+    }
+]

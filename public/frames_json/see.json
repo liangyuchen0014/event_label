@@ -1,0 +1,157 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "see.01",
+        "roleset_name": "view",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "viewer"
+            },
+            {
+                "n": "1",
+                "descr": "thing viewed"
+            },
+            {
+                "n": "2",
+                "descr": "attribute of arg1, further description"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "see.02",
+        "roleset_name": "verb of motion: accompany",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "accompanier"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "see.03",
+        "roleset_name": "discourse function",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "you"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "see.04",
+        "roleset_name": "ensure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "ensurer"
+            },
+            {
+                "n": "1",
+                "descr": "fixed: 'to it'"
+            },
+            {
+                "n": "2",
+                "descr": "proposition, event"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "see.05",
+        "roleset_name": "date casually",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "first entity"
+            },
+            {
+                "n": "1",
+                "descr": "second entity, or 'each other' (or variant)"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "see.09",
+        "roleset_name": "visit/consultation by medical professional",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "purpose"
+            }
+        ]
+    },
+    {
+        "uid": 7,
+        "roleset_id": "saw.06",
+        "roleset_name": "cut with a saw",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cutter"
+            },
+            {
+                "n": "1",
+                "descr": "thing cut"
+            },
+            {
+                "n": "2",
+                "descr": "Cut from what? source"
+            }
+        ]
+    },
+    {
+        "uid": 8,
+        "roleset_id": "saw_up.07",
+        "roleset_name": "render into pieces",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sawer"
+            },
+            {
+                "n": "1",
+                "descr": "sawed"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 9,
+        "roleset_id": "remain_to_be_seen.08",
+        "roleset_name": "not yet be determined or known",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seen by whom"
+            },
+            {
+                "n": "1",
+                "descr": "thing that is not yet determined"
+            }
+        ]
+    }
+]

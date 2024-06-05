@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "tender.01",
+        "roleset_name": "light verb with 'offer' or 'bid', giving, offer, payment",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "giver"
+            },
+            {
+                "n": "1",
+                "descr": "thing given/offered/paid"
+            },
+            {
+                "n": "2",
+                "descr": "recipient"
+            },
+            {
+                "n": "3",
+                "descr": "what the payment is for, might be total price or commodity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "tender.02",
+        "roleset_name": "inclined toward feeling pain easily",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause of pain"
+            },
+            {
+                "n": "1",
+                "descr": "entity feeling pain"
+            },
+            {
+                "n": "2",
+                "descr": "more specific body part, if in addition to arg1"
+            }
+        ]
+    }
+]

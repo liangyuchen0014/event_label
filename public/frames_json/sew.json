@@ -1,0 +1,63 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "sew.01",
+        "roleset_name": "attach with thread",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, entity causing two objects to be attached"
+            },
+            {
+                "n": "1",
+                "descr": "patient, thing being sewn"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, thread"
+            },
+            {
+                "n": "3",
+                "descr": "attribute of arg1, end state"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "sew.02",
+        "roleset_name": "create clothes by sewing",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "sew_up.03",
+        "roleset_name": "make secure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity making something secure"
+            },
+            {
+                "n": "1",
+                "descr": "thing made secure"
+            }
+        ]
+    }
+]

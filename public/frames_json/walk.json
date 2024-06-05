@@ -1,0 +1,85 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "walk.01",
+        "roleset_name": "walk, be a pedestrian, forward motion, one foot in front of the other",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "walker, thing in motion"
+            },
+            {
+                "n": "1",
+                "descr": "entity being walked, where there is outside Agent"
+            },
+            {
+                "n": "2",
+                "descr": "path/ underspecified location walked"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "walk.02",
+        "roleset_name": "baseball, walk the batter in baseball",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "pitcher"
+            },
+            {
+                "n": "1",
+                "descr": "batter"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "walk.03",
+        "roleset_name": "achieve a result through walking",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "walker"
+            },
+            {
+                "n": "1",
+                "descr": "thing affected"
+            },
+            {
+                "n": "2",
+                "descr": "desired result"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "walk_in.04",
+        "roleset_name": "in a free, non-appointment-having manner",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity characterized as 'walk-in'"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "walk_in.05",
+        "roleset_name": "walk_in on someone; interrupt",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "interrupter"
+            },
+            {
+                "n": "1",
+                "descr": "entity interrupted"
+            },
+            {
+                "n": "2",
+                "descr": "while arg1 is doing what"
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "price.01",
+        "roleset_name": "assign/identify the price of, cf cost",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seller, pricer"
+            },
+            {
+                "n": "1",
+                "descr": "commodity"
+            },
+            {
+                "n": "2",
+                "descr": "price"
+            },
+            {
+                "n": "3",
+                "descr": "potential buyer"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "price_out.02",
+        "roleset_name": "price_out: assign/identify prices for",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, pricer"
+            },
+            {
+                "n": "1",
+                "descr": "commodity"
+            },
+            {
+                "n": "2",
+                "descr": "price"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "succeed.01",
+        "roleset_name": "win, accomplish some task, successful, accomplished",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity succeeding"
+            },
+            {
+                "n": "1",
+                "descr": "task, goal met"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "succeed.02",
+        "roleset_name": "take over for",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "successor"
+            },
+            {
+                "n": "1",
+                "descr": "entity being replaced"
+            },
+            {
+                "n": "2",
+                "descr": "attributive, role, function"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "succeed.03",
+        "roleset_name": "be subsequent to",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing coming after"
+            },
+            {
+                "n": "2",
+                "descr": "thing going before"
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "lease.01",
+        "roleset_name": "be a renter",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "renter"
+            },
+            {
+                "n": "1",
+                "descr": "thing rented (eg, apartment)"
+            },
+            {
+                "n": "2",
+                "descr": "landlord"
+            },
+            {
+                "n": "3",
+                "descr": "rent"
+            },
+            {
+                "n": "4",
+                "descr": "term"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "lease.02",
+        "roleset_name": "be a landlord",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "landlord"
+            },
+            {
+                "n": "1",
+                "descr": "thing rented (eg, apartment)"
+            },
+            {
+                "n": "2",
+                "descr": "renter"
+            },
+            {
+                "n": "3",
+                "descr": "rent"
+            },
+            {
+                "n": "4",
+                "descr": "term"
+            }
+        ]
+    }
+]

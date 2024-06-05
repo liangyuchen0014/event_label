@@ -1,0 +1,32 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "expire.01",
+        "roleset_name": "get to end of valid time period",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "commodity, thing expiring"
+            },
+            {
+                "n": "m",
+                "descr": "expiration date"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "expire.02",
+        "roleset_name": "exhalation",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Exhaler"
+            },
+            {
+                "n": "1",
+                "descr": "Air exhaled"
+            }
+        ]
+    }
+]

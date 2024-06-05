@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "define.01",
+        "roleset_name": "assign a label or attribute; specify features or boundaries",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "describer"
+            },
+            {
+                "n": "1",
+                "descr": "thing defined"
+            },
+            {
+                "n": "2",
+                "descr": "secondary attribute, described-as, definition"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "definition.02",
+        "roleset_name": "highlighting, emphasizing",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "highlighter"
+            },
+            {
+                "n": "1",
+                "descr": "thing highlighted/emphasized"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "definitive.03",
+        "roleset_name": "final, resolving; the option after which there are not expected to be more options",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "definitive thing"
+            },
+            {
+                "n": "2",
+                "descr": "superset of options out of which ARG1 is final"
+            }
+        ]
+    }
+]

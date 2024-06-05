@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "trace.01",
+        "roleset_name": "make a physical copy on an over-laid transparent surface",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "copier, agent"
+            },
+            {
+                "n": "1",
+                "descr": "thing traced"
+            },
+            {
+                "n": "2",
+                "descr": "transparent surface"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "trace.02",
+        "roleset_name": "follow to the source",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "follower"
+            },
+            {
+                "n": "1",
+                "descr": "thing followed"
+            },
+            {
+                "n": "2",
+                "descr": "the thing's source  (actually destination)"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "trace.03",
+        "roleset_name": "tiny, barely discernable",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "tiny thing"
+            }
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "send.01",
+        "roleset_name": "give",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "sent"
+            },
+            {
+                "n": "2",
+                "descr": "sent-to"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "send.02",
+        "roleset_name": "cause to action",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "sender"
+            },
+            {
+                "n": "1",
+                "descr": "sent, impelled agent"
+            },
+            {
+                "n": "2",
+                "descr": "project, impelled action, attribute of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "send.03",
+        "roleset_name": "cause motion",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "EXT"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point, attribute of arg1"
+            },
+            {
+                "n": "5",
+                "descr": "direction"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "send_out.04",
+        "roleset_name": "summon, order for delivery",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "orderer, agent"
+            },
+            {
+                "n": "1",
+                "descr": "theme, thing ordered"
+            }
+        ]
+    }
+]

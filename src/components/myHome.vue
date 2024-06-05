@@ -2,7 +2,7 @@
   <el-container>
 
     <el-aside width="30%" style="background-color: white; border: 10px  solid #eee">
-      <el-upload action :limit="1" :on-change="uploadChange" accpet=".json" :file-list="fileList">
+      <el-upload action :limit="1" :on-change="uploadJSON" accpet=".json" :file-list="fileList">
         <el-button size="small" type="primary">点击上传JSON</el-button>
       </el-upload>
       <el-button type="primary" @click="downloadJSON">导出JSON</el-button>
@@ -17,7 +17,7 @@
     </el-aside>
     <el-container>
       <el-header>
-        <el-select v-model="event_value" placeholder="请选择事件">
+        <el-select v-model="event_value" placeholder="请选择释义" @change="updateParaphrase">
           <el-option v-for="item in event_options" :key="item.value" :label="item.label" :value="item.value">
           </el-option>
         </el-select>
@@ -29,7 +29,8 @@
             </el-table-column>
             <el-table-column prop="value" label="值" width="280">
             </el-table-column>
-
+            <el-table-column prop="meaning" label="含义" width="70">
+            </el-table-column>
           </el-table>
         </el-col>
         <el-col :span="12">
@@ -51,11 +52,13 @@ export default {
       event_value: '',
       fileList: [],
       originalJson: [],
-      revisingEvent: []
+      revisingEvent: [],
+      paraphraseList: [],
+      newJson: []
     }
   },
   methods: {
-    uploadChange(file, fileList) {
+    uploadJSON(file, fileList) {
       this.fileList = fileList;
       var reader = new FileReader();
       reader.readAsText(file.raw);
@@ -66,7 +69,10 @@ export default {
         });
       }
     },
+
     async eventRevise(row) {
+      this.revisingEvent = [];
+      this.event_value = row['event'];
       [
         'arg0_ins',
         'arg1_ins',
@@ -76,16 +82,79 @@ export default {
         'argM-LOC',
         'argM-EXT',
       ].forEach(argID => {
+        let meaning = '';
+        switch (argID.slice(3, 8)) {
+          case '0_ins':
+            meaning = '主体';
+            break;
+          case '1_ins':
+            meaning = '客体';
+            break;
+          case '2_ins':
+            meaning = '工具';
+            break;
+          case '3_ins':
+            meaning = '目标/结果';
+            break;
+          case '4_ins':
+            meaning = '来源';
+            break;
+          case 'M-LOC':
+            meaning = '位置';
+            break;
+          case 'M-EXT':
+            meaning = '程度';
+            break;
+          default:
+            break;
+        }
         const value = argID.includes('ins') ? row['instance'][argID] : row[argID]; // 检查是否属于 instance
         if (value != null && value != undefined) {
-          this.revisingEvent.push({ 'argID': argID, 'value': value });
+          this.revisingEvent.push({ 'argID': argID, 'value': value, 'meaning': meaning });
         }
       });
-      console.log(this.revisingEvent);
+      this.updateEventOption(this.event_value);
     },
-    downloadJSON() { }
-  }
+    downloadJSON() { },
+
+    /**
+     * 更新词汇释义索引。Updates the event option with the specified value.
+     *
+     * @param {any} motion - 动词。The value to update the event option with.
+     */
+    updateEventOption(motion) {
+      fetch(`${process.env.BASE_URL}frames_json/${motion}.json`)
+        .then(response => {
+          if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
+          else return response.json();
+        })
+        .then(data => {
+          this.paraphraseList = data
+          this.event_options = this.paraphraseList.map(item => {
+            return {
+              value: item["uid"],
+              label: item["roleset_id"] + ': ' + item["roleset_name"]
+            }
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching and parsing JSON file:', error);
+        });
+    },
+    updateParaphrase(uid_value) {
+      this.paraphraseList.forEach(item => {
+        if (item["uid"] == uid_value) {
+          console.log('true');
+          item["roles"].forEach(role => {
+            this.newJson.push({ 'argID': role["n"], 'value': '', 'descr': role["descr"] });
+          });
+        }
+      });
+      console.log(this.newJson);
+    }
+  },
 }
+
 </script>
 
 <style></style>

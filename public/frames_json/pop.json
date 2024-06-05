@@ -1,0 +1,108 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "pop.01",
+        "roleset_name": "make a popping sound",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "maker of sounds"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "pop.02",
+        "roleset_name": "pop, burst",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of popping"
+            },
+            {
+                "n": "1",
+                "descr": "thing popping, bubble"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "pop.04",
+        "roleset_name": "move suddenly",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of motion"
+            },
+            {
+                "n": "1",
+                "descr": "entity in motion"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, distance moved"
+            },
+            {
+                "n": "3",
+                "descr": "start point"
+            },
+            {
+                "n": "4",
+                "descr": "end point"
+            },
+            {
+                "n": "5",
+                "descr": "direction"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "pop.05",
+        "roleset_name": "hit",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "hitter"
+            },
+            {
+                "n": "1",
+                "descr": "person, thing hit"
+            },
+            {
+                "n": "2",
+                "descr": "mention of punch, hit itself if present"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "pop_up.03",
+        "roleset_name": "pop up: appear",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, causer of appearance"
+            },
+            {
+                "n": "1",
+                "descr": "thing appearing"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "pop_off.06",
+        "roleset_name": "do drugs (might be particular to heroin?)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "junkie"
+            },
+            {
+                "n": "1",
+                "descr": "drug"
+            }
+        ]
+    }
+]

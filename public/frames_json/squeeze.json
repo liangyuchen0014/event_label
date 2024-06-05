@@ -1,0 +1,86 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "squeeze.01",
+        "roleset_name": "apply pressure to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "squeezer"
+            },
+            {
+                "n": "1",
+                "descr": "squozen"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "squeeze.02",
+        "roleset_name": "apply pressure with the intent of extracting something",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "squeezer"
+            },
+            {
+                "n": "1",
+                "descr": "extracted material"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            },
+            {
+                "n": "3",
+                "descr": "destination, arg1 squeezed into what?"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "squeeze.03",
+        "roleset_name": "reduce",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent"
+            },
+            {
+                "n": "1",
+                "descr": "Logical subject, patient, thing falling"
+            },
+            {
+                "n": "2",
+                "descr": "EXT, amount fallen"
+            },
+            {
+                "n": "3",
+                "descr": "Start point"
+            },
+            {
+                "n": "4",
+                "descr": "End point, end state of arg1"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "squeeze_out.04",
+        "roleset_name": "extract or erradicate by means of pressure",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "squeezer"
+            },
+            {
+                "n": "1",
+                "descr": "extracted material"
+            },
+            {
+                "n": "2",
+                "descr": "source"
+            }
+        ]
+    }
+]

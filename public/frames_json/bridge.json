@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "bridge.01",
+        "roleset_name": "to connect",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "connector, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity connected"
+            },
+            {
+                "n": "2",
+                "descr": "entity connected with"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "bridge.02",
+        "roleset_name": "to temporarily substitute one medicine with another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor; entity ending something"
+            },
+            {
+                "n": "1",
+                "descr": "patient"
+            },
+            {
+                "n": "2",
+                "descr": "long-term medicine"
+            },
+            {
+                "n": "3",
+                "descr": "short-term medicine to bridge a gap in treatment with long-term medicine (e.g. due to surgery)"
+            }
+        ]
+    }
+]

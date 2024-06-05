@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "ticket.01",
+        "roleset_name": "to designate for a specified use",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "designator, agent"
+            },
+            {
+                "n": "1",
+                "descr": "entity ticketed"
+            },
+            {
+                "n": "2",
+                "descr": "use"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "ticket.02",
+        "roleset_name": "give a ticket to someone",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, ticketer"
+            },
+            {
+                "n": "1",
+                "descr": "Entity ticketed, given ticket"
+            },
+            {
+                "n": "2",
+                "descr": "Mention of ticket itself (probably rare), ticketed with what?"
+            }
+        ]
+    }
+]

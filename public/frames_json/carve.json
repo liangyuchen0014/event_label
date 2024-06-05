@@ -1,0 +1,67 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "carve.01",
+        "roleset_name": "cut carefully",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "carver"
+            },
+            {
+                "n": "1",
+                "descr": "thing carved"
+            },
+            {
+                "n": "2",
+                "descr": "instrument"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "carve.02",
+        "roleset_name": "create by carving",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "carve_out.03",
+        "roleset_name": "create variant",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "builder"
+            },
+            {
+                "n": "1",
+                "descr": "construction"
+            },
+            {
+                "n": "2",
+                "descr": "material, start state"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive"
+            },
+            {
+                "n": "4",
+                "descr": "end state"
+            }
+        ]
+    }
+]

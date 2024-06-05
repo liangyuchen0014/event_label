@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "number.01",
+        "roleset_name": "have a certain quantity",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing being counted"
+            },
+            {
+                "n": "2",
+                "descr": "count, number, quantity"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "number.02",
+        "roleset_name": "give numbers to",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "numberer"
+            },
+            {
+                "n": "1",
+                "descr": "thing being counted; entity numbered"
+            },
+            {
+                "n": "2",
+                "descr": "numbers themselves"
+            }
+        ]
+    }
+]

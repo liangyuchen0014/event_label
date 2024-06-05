@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "shuttle.01",
+        "roleset_name": "move something back and forth",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "mover"
+            },
+            {
+                "n": "1",
+                "descr": "thing moved"
+            },
+            {
+                "n": "2",
+                "descr": "one (or both) location(s), start point"
+            },
+            {
+                "n": "3",
+                "descr": "other location, destination"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "shuttle_off.02",
+        "roleset_name": "move (away) with little fanfare",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent of motion"
+            },
+            {
+                "n": "1",
+                "descr": "thing moved"
+            },
+            {
+                "n": "2",
+                "descr": "destination"
+            }
+        ]
+    }
+]

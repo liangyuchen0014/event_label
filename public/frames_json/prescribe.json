@@ -1,0 +1,36 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "prescribe.01",
+        "roleset_name": "to establish rules",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "establisher of rules, agent"
+            },
+            {
+                "n": "1",
+                "descr": "rule"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "prescribe.02",
+        "roleset_name": "to order a medicine or other treatment",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "doctor"
+            },
+            {
+                "n": "1",
+                "descr": "medicine"
+            },
+            {
+                "n": "2",
+                "descr": "prescribed for"
+            }
+        ]
+    }
+]

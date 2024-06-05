@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "halt.01",
+        "roleset_name": "stop",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "causer of stopping"
+            },
+            {
+                "n": "1",
+                "descr": "Theme (action or object being stopped)"
+            },
+            {
+                "n": "2",
+                "descr": "Instrument, if separate from arg0"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "halt.02",
+        "roleset_name": "halt from",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "primary agent, preventer"
+            },
+            {
+                "n": "1",
+                "descr": "secondary agent, entity coming to to a halt"
+            },
+            {
+                "n": "2",
+                "descr": "action secondary agent is kept from"
+            }
+        ]
+    }
+]

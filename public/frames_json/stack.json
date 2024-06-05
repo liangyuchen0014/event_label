@@ -1,0 +1,51 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "stack.01",
+        "roleset_name": "set one thing atop another",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stacker"
+            },
+            {
+                "n": "1",
+                "descr": "one thing"
+            },
+            {
+                "n": "2",
+                "descr": "the other thing arg1 istacked onto, destination"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "stack_up.02",
+        "roleset_name": "compare, measure up",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing being assessed"
+            },
+            {
+                "n": "2",
+                "descr": "compared against"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "stack_up.03",
+        "roleset_name": "make into a stack",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "stacker"
+            },
+            {
+                "n": "1",
+                "descr": "thing(s) being stacked"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "believe.01",
+        "roleset_name": "believe",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "believer"
+            },
+            {
+                "n": "1",
+                "descr": "believed"
+            },
+            {
+                "n": "2",
+                "descr": "attribute, arg1 is believed to be what?"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "believable.02",
+        "roleset_name": "able to be believed",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "believer"
+            },
+            {
+                "n": "1",
+                "descr": "belief"
+            },
+            {
+                "n": "2",
+                "descr": "secondary predication on arg1"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "make_believe.03",
+        "roleset_name": "pretend",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "pretender"
+            },
+            {
+                "n": "1",
+                "descr": "thing pretended"
+            }
+        ]
+    }
+]

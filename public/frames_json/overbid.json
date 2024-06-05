@@ -1,0 +1,28 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "overbid.01",
+        "roleset_name": "bid too much",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "bidder"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "overbid.02",
+        "roleset_name": "bid more than someone else",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "higher bidder"
+            },
+            {
+                "n": "1",
+                "descr": "lower bidder"
+            }
+        ]
+    }
+]

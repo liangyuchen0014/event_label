@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "value.01",
+        "roleset_name": "evaluate for cost; assess",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity establishing value"
+            },
+            {
+                "n": "1",
+                "descr": "commodity being valued"
+            },
+            {
+                "n": "2",
+                "descr": "value"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "value.02",
+        "roleset_name": "hold dear",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity holding arg1 dear"
+            },
+            {
+                "n": "1",
+                "descr": "entity held dear/valued by arg0"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "valuable.03",
+        "roleset_name": "able to be assigned a cost",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity establishing value"
+            },
+            {
+                "n": "1",
+                "descr": "commodity being valued"
+            },
+            {
+                "n": "2",
+                "descr": "value"
+            }
+        ]
+    }
+]

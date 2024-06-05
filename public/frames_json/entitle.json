@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "entitle.01",
+        "roleset_name": "allow",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "allower"
+            },
+            {
+                "n": "1",
+                "descr": "action allowed"
+            },
+            {
+                "n": "2",
+                "descr": "explicit allowed-agent"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "entitle.02",
+        "roleset_name": "assign a name",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "namer"
+            },
+            {
+                "n": "1",
+                "descr": "named"
+            },
+            {
+                "n": "2",
+                "descr": "name"
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "undersell.01",
+        "roleset_name": "sell some commodity at a   lower price than the competition",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seller"
+            },
+            {
+                "n": "1",
+                "descr": "competition"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "undersell.02",
+        "roleset_name": "sell less of something, withold sales of a good",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "seller witholding a good"
+            },
+            {
+                "n": "1",
+                "descr": "good, thing being sold"
+            },
+            {
+                "n": "2",
+                "descr": "buyer, arg 1 sold to whom"
+            },
+            {
+                "n": "3",
+                "descr": "price paid"
+            },
+            {
+                "n": "4",
+                "descr": "benefactive"
+            }
+        ]
+    }
+]

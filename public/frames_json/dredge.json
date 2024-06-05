@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "dredge.01",
+        "roleset_name": "dig up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, dredger"
+            },
+            {
+                "n": "1",
+                "descr": "location dredged"
+            },
+            {
+                "n": "2",
+                "descr": "entity dredged up"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "dredge_up.02",
+        "roleset_name": "dig up",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "Agent, dredger"
+            },
+            {
+                "n": "1",
+                "descr": "Location dredged, dug"
+            },
+            {
+                "n": "2",
+                "descr": "Entity dredged up from ground (arg1)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "question.01",
+        "roleset_name": "ask a question (of a listener)",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "asker"
+            },
+            {
+                "n": "1",
+                "descr": "question"
+            },
+            {
+                "n": "2",
+                "descr": "entity asked, hearer"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "question.02",
+        "roleset_name": "out-of-the-question",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "thing that is out of the question"
+            },
+            {
+                "n": "2",
+                "descr": "for whom/what"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "question.03",
+        "roleset_name": "have doubts, be dubious",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "entity having doubts"
+            },
+            {
+                "n": "1",
+                "descr": "thing whose truth value is in question"
+            },
+            {
+                "n": "2",
+                "descr": "more general entity in regard to which Arg1's truth value is questioned"
+            }
+        ]
+    }
+]

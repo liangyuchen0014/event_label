@@ -1,0 +1,96 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "affect.01",
+        "roleset_name": "have an effect on, have an effect on",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "thing affecting"
+            },
+            {
+                "n": "1",
+                "descr": "thing affected"
+            },
+            {
+                "n": "2",
+                "descr": "instrument, effect had"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "affect.02",
+        "roleset_name": "assume, take on",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, assumer"
+            },
+            {
+                "n": "1",
+                "descr": "characteristic"
+            }
+        ]
+    },
+    {
+        "uid": 3,
+        "roleset_id": "effect.03",
+        "roleset_name": "bring into existence, bring about, enact",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "effect, usually a change"
+            }
+        ]
+    },
+    {
+        "uid": 4,
+        "roleset_id": "effective.04",
+        "roleset_name": "cause an effect, successful in creating a desired effect",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "domain in which arg0 is effective; outcome effected"
+            }
+        ]
+    },
+    {
+        "uid": 5,
+        "roleset_id": "take_effect.05",
+        "roleset_name": "begin being in effect",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "effect, usually a change"
+            }
+        ]
+    },
+    {
+        "uid": 6,
+        "roleset_id": "in_effect.06",
+        "roleset_name": "in an active state, a state where a certain effect holds",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "cause"
+            },
+            {
+                "n": "1",
+                "descr": "active thing"
+            }
+        ]
+    }
+]

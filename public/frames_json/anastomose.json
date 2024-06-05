@@ -1,0 +1,44 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "anastomose.01",
+        "roleset_name": "cause interconnection/flow between 2 branching networks, having branched systems that connect, allowing flow between them",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "agent, surgeon, drug"
+            },
+            {
+                "n": "1",
+                "descr": "first entity connected"
+            },
+            {
+                "n": "2",
+                "descr": "entity arg1 is being connected to"
+            },
+            {
+                "n": "3",
+                "descr": "benefactive, person undergoing anastomosis procedure"
+            },
+            {
+                "n": "4",
+                "descr": "result: the opening itself"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "anastomotic.02",
+        "roleset_name": "located at an anastomosis",
+        "roles": [
+            {
+                "n": "1",
+                "descr": "entity located at the anastomosis"
+            },
+            {
+                "n": "2",
+                "descr": "the anastomosis"
+            }
+        ]
+    }
+]

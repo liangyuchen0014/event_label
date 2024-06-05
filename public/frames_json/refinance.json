@@ -1,0 +1,40 @@
+[
+    {
+        "uid": 1,
+        "roleset_id": "refinance.01",
+        "roleset_name": "provide money for, get money for",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "financ(i)er"
+            },
+            {
+                "n": "1",
+                "descr": "thing financed"
+            },
+            {
+                "n": "2",
+                "descr": "money"
+            }
+        ]
+    },
+    {
+        "uid": 2,
+        "roleset_id": "refinance.02",
+        "roleset_name": "buy using someone else's money",
+        "roles": [
+            {
+                "n": "0",
+                "descr": "buyer"
+            },
+            {
+                "n": "1",
+                "descr": "thing bought"
+            },
+            {
+                "n": "2",
+                "descr": "money or provider of money"
+            }
+        ]
+    }
+]
