@@ -49,7 +49,7 @@
           </el-card>
         </el-row>
         <el-row>
-          <el-col :span="10">
+          <el-col :span="9">
             <el-card shadow="always" style="margin: 10px;">
               <div slot="header">
                 <span style="font-size: 20px;">原标注</span>
@@ -62,16 +62,11 @@
                   </el-table-column>
                   <el-table-column prop="meaning" label="含义" width="100" align="center">
                   </el-table-column>
-                  <el-table-column label="操作" width="80" align="center">
-                    <template slot-scope="scope">
-                      <el-button @click="addArg(scope.row)" type="text" size="small">直接添加</el-button>
-                    </template>
-                  </el-table-column>
                 </el-table>
               </div>
             </el-card>
           </el-col>
-          <el-col :span="14">
+          <el-col :span="15">
             <el-card shadow="always" style="margin: 10px;">
               <div slot="header">
                 <span style="font-size: 20px;">新标注</span>
@@ -87,7 +82,8 @@
                   <el-table-column label="值">
                     <template slot-scope="scope">
                       <el-select allow-create clearable filterable placeholder="选择标注值(可自行输入)" v-model="scope.row.value">
-                        <el-option v-for="item in revisingEventArgumentValue" :key="item" :label="item" :value="item">
+                        <el-option v-for="item in revisingEvent" :key="item['argID'] + '：' + item['value']"
+                          :label="item['argID'] + '：' + item['value']" :value="item['argID'] + '：' + item['value']">
                         </el-option>
                       </el-select>
                     </template>
@@ -117,7 +113,9 @@ export default {
       paraphraseList: [],
       newEvent: [],
       revisingEventID: 0,
-      boolUpdate: false
+      boolUpdate: false,
+      revisedEvents: [],
+      newVideoLabel: []
     }
   },
   methods: {
@@ -130,6 +128,7 @@ export default {
         this.originalVideoLabel['clip'].forEach(i => {
           i['isRevised'] = '否';
         });
+        this.revisedEvents = [];
       }
     },
 
@@ -146,22 +145,32 @@ export default {
         'arg4_ins',
         'argM-LOC',
         'argM-EXT',
+        'argM-AGT',
+        'argM-PAT',
+        'argM-INS',
+        'argM-STP',
+        'argM-EDP'
       ].forEach(argID => {
         let meaning = '';
         switch (argID.slice(3, 8)) {
           case '0_ins':
+          case 'M-AGT':
             meaning = '主体';
             break;
           case '1_ins':
+          case 'M-PAT':
             meaning = '客体';
             break;
           case '2_ins':
+          case 'M-INS':
             meaning = '工具/属性/受益者';
             break;
           case '3_ins':
+          case 'M-STP':
             meaning = '起点/属性/受益者';
             break;
           case '4_ins':
+          case 'M-EDP':
             meaning = '终点';
             break;
           case 'M-LOC':
@@ -175,10 +184,13 @@ export default {
         }
         const value = argID.includes('ins') ? row['instance'][argID] : row[argID]; // 检查是否属于 instance
         if (value != null && value != undefined) {
-          this.revisingEvent.push({ 'argID': argID, 'value': value, 'meaning': meaning });
+          this.revisingEvent.push({ 'argID': argID, 'value': value, 'meaning': meaning, 'isAdded': false });
+
           this.revisingEventArgumentValue.push(value);
         }
       });
+      console.log("revisingEvent");
+      console.log(this.revisingEvent);
       this.updateEventOption(row['event']);
     },
 
@@ -208,7 +220,7 @@ export default {
         if (item["uid"] == uid_value) {
           console.log('true');
           item["roles"].forEach(role => {
-            this.newEvent.push({ 'argID': "arg" + role["n"], 'value': '', 'descr': role["descr"], 'descr_trans': role["descr_trans"] });
+            this.newEvent.push({ 'argID': "arg" + role["n"] + '_ins', 'value': '', 'descr': role["descr"], 'descr_trans': role["descr_trans"] });
           });
         }
       });
@@ -216,39 +228,33 @@ export default {
       console.log(this.newEvent);
     },
 
-    addArg(row) {
-      let newArgID = '';
-      switch (row['argID'].slice(3, 8)) {
-        case '0_ins':
-          newArgID = 'ARGM-AGT';
-          break;
-        case '1_ins':
-          newArgID = 'ARGM-PAT';
-          break;
-        case '2_ins':
-          newArgID = 'ARGM-INS';
-          break;
-        case '3_ins':
-          newArgID = 'ARGM-STP';
-          break;
-        case '4_ins':
-          newArgID = 'ARGM-EDP';
-          break;
-        case 'M-LOC':
-          newArgID = 'ARGM-LOC';
-          break;
-        case 'M-EXT':
-          newArgID = 'ARGM-EXT';
-          break;
-        default:
-          break;
-      }
-      this.newEvent.push({ 'argID': newArgID, 'value': row['value'] })
-      console.log("newEvent");
-      console.log(this.newEvent);
-    },
     downloadJSON() {
-      const json = JSON.stringify(this.originalVideoLabel);
+      // update this.originalVideoLabel with this.newEvent
+      this.newVideoLabel = this.originalVideoLabel;
+      for (let key in this.revisedEvents) {
+        this.newVideoLabel['clip'].forEach(clip => {
+          if (clip['clipID'] == key) {
+            delete clip["argM-LOC"];
+            delete clip["argM-EXT"];
+            // set all objects in clip['instance'] to null
+            for (let key in clip['instance']) {
+              clip['instance'][key] = null;
+            }
+            this.revisedEvents[key].forEach(arg => {
+              if (arg['argID'].includes('ArgM')) {
+                clip[arg['argID']] = arg['value'];
+              } else if (arg['value'] != '' && arg['value'] != null && arg['value'] != undefined) {
+                clip['instance'][arg['argID']] = arg['value'];
+              }
+            });
+
+            console.log(this.newVideoLabel);
+          }
+        });
+      }
+
+
+      const json = JSON.stringify(this.newVideoLabel);
       const blob = new Blob([json], { type: 'application/json' });
       const href = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -258,38 +264,74 @@ export default {
       URL.revokeObjectURL(href);
     },
     saveReviseChange() {
-      // save this.newEvent to the correspoding clip in this.newJson
-      //1. remove 'argm' in original clip
-      //2. add argM in this.newEvent to  original clip
-      //3. add arg0 ~ arg4  in this.newEvent to 'instance' original clip
-      //4. change isRevised to '是'
-      console.log("revisingEventID");
-      console.log(this.revisingEventID);
-      this.originalVideoLabel['clip'].forEach(clip => {
-        if (clip['clipID'] == this.revisingEventID) {
-          delete clip["argM-LOC"];
-          delete clip["argM-EXT"];
-          // set all objects in clip['instance'] to null
-          for (let key in clip['instance']) {
-            clip['instance'][key] = null;
+      if (this.revisingEventID == 0) {
+        this.$message({
+          message: '请先选择事件片段',
+          type: 'warning'
+        });
+        return;
+      }
+
+      //this.revisedEvents[this.revisingEventID] = this.newEvent;
+      // 1. for each arg in this.revisingEvent,update 'isAdded' according to each object's 'value' in this.newEvent
+      // 2. for each arg in this.revisingEvent, if 'isAdded' is false, add it to this.newEvent
+      // 3. for each object's 'value' in this.newEvent, split it and remove the former part
+      // 4. add this.newEvent to this.revisedEvents
+      this.revisingEvent.forEach(arg => {
+        this.newEvent.forEach(newArg => {
+          if (arg['argID'] == newArg['value'].split('：')[0]) {
+            arg['isAdded'] = true;
           }
-          this.newEvent.forEach(arg => {
-            if (arg['argID'].includes('ARGM')) {
-              clip[arg['argID']] = arg['value'];
-            } else if (arg['value'] != '' && arg['value'] != null && arg['value'] != undefined) {
-              clip['instance'][arg['argID'] + '_ins'] = arg['value'];
-            }
-          });
-          // clip['isRevised'] = '是';
-          Vue.set(clip, 'isRevised', '是');
-          console.log("originalVideoLabel");
-          console.log(this.originalVideoLabel);
-          this.boolUpdate = !this.boolUpdate;
-          this.$nextTick(() => {
-            this.$refs.EventsRef.doLayout();
-          })
+        });
+        if (!arg['isAdded']) {
+          let newArgID = '';
+          switch (arg['argID'].slice(3, 8)) {
+            case '0_ins':
+              newArgID = 'ArgM-AGT';
+              break;
+            case '1_ins':
+              newArgID = 'ArgM-PAT';
+              break;
+            case '2_ins':
+              newArgID = 'ArgM-INS';
+              break;
+            case '3_ins':
+              newArgID = 'ArgM-STP';
+              break;
+            case '4_ins':
+              newArgID = 'ArgM-EDP';
+              break;
+            case 'M-LOC':
+              newArgID = 'ArgM-LOC';
+              break;
+            case 'M-EXT':
+              newArgID = 'ArgM-EXT';
+              break;
+            default:
+              break;
+          }
+          this.newEvent.push({ 'argID': newArgID, 'value': arg['argID'] + '：' + arg['value'] })
+          arg['isAdded'] = true;
         }
       });
+      this.newEvent.forEach(arg => {
+        arg['value'] = arg['value'].split('：')[1];
+      });
+      this.revisedEvents[this.revisingEventID] = this.newEvent;
+      Vue.set(this.originalVideoLabel['clip'][this.revisingEventID - 1], 'isRevised', '是');
+      this.boolUpdate = !this.boolUpdate;
+      console.log("revisingEventID");
+      console.log(this.revisingEventID);
+      console.log("revisedEvents");
+      console.log(this.revisedEvents);
+      console.log("newEvent");
+      console.log(this.newEvent);
+      console.log("revisingEvent");
+      console.log(this.revisingEvent);
+      //原标注 this.revisingEvent
+      //新标注 this.newEvent
+      //更新后的暂存 this.revisedEvents
+
     }
   },
 }
