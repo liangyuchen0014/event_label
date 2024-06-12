@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defect.01",
-        "roleset_name": "to abandon a position or association",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "double agent, defector"
-            },
-            {
-                "n": "1",
-                "descr": "entity defected from"
-            },
-            {
-                "n": "2",
-                "descr": "entity defected to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defect.01",
+    "roleset_name": "to abandon a position or association",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "double agent, defector",
+        "descr_trans": "双重间谍、叛逃者"
+      },
+      {
+        "n": "1",
+        "descr": "entity defected from",
+        "descr_trans": "实体叛逃"
+      },
+      {
+        "n": "2",
+        "descr": "entity defected to",
+        "descr_trans": "实体叛逃到"
+      }
+    ],
+    "roleset_name_trans": "放弃职位或协会"
+  }
 ]

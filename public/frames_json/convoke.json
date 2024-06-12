@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "convoke.01",
-        "roleset_name": "summon, convene a meeting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity calling the meeting"
-            },
-            {
-                "n": "1",
-                "descr": "theme, meeting or those summoned to be part of the meeting"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "convoke.01",
+    "roleset_name": "summon, convene a meeting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity calling the meeting",
+        "descr_trans": "代理人、召集会议的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, meeting or those summoned to be part of the meeting",
+        "descr_trans": "主题、会议或被召集参加会议的人员"
+      }
+    ],
+    "roleset_name_trans": "召集，召开会议"
+  }
 ]

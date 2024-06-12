@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "provincial.01",
-        "roleset_name": "relating to a province",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "provincial entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "provincial.02",
-        "roleset_name": "unsophisticated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unsoffisticated entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "provincial.01",
+    "roleset_name": "relating to a province",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "provincial entity",
+        "descr_trans": "省级单位"
+      }
+    ],
+    "roleset_name_trans": "与一个省有关"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "provincial.02",
+    "roleset_name": "unsophisticated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unsoffisticated entity",
+        "descr_trans": "非实体实体"
+      }
+    ],
+    "roleset_name_trans": "不成熟的"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "key.01",
-        "roleset_name": "to adjust, adapt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity establishing comparison, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity adjusted"
-            },
-            {
-                "n": "2",
-                "descr": "entity adjusted to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "key.02",
-        "roleset_name": "important, be 'the key' to something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the key"
-            },
-            {
-                "n": "2",
-                "descr": "to what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "key_in.03",
-        "roleset_name": "enter on a keyboard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing entered, code"
-            },
-            {
-                "n": "2",
-                "descr": "destination, where code is entered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "key.01",
+    "roleset_name": "to adjust, adapt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity establishing comparison, agent",
+        "descr_trans": "建立比较的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity adjusted",
+        "descr_trans": "实体调整"
+      },
+      {
+        "n": "2",
+        "descr": "entity adjusted to",
+        "descr_trans": "实体调整为"
+      }
+    ],
+    "roleset_name_trans": "调整，适应"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "key.02",
+    "roleset_name": "important, be 'the key' to something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the key",
+        "descr_trans": "钥匙"
+      },
+      {
+        "n": "2",
+        "descr": "to what",
+        "descr_trans": "到什么"
+      }
+    ],
+    "roleset_name_trans": "重要，成为某事的“关键”"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "key_in.03",
+    "roleset_name": "enter on a keyboard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing entered, code",
+        "descr_trans": "输入的东西，代码"
+      },
+      {
+        "n": "2",
+        "descr": "destination, where code is entered",
+        "descr_trans": "目的地，输入代码的地方"
+      }
+    ],
+    "roleset_name_trans": "在键盘上输入"
+  }
 ]

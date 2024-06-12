@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wager.01",
-        "roleset_name": "wager",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wagerer"
-            },
-            {
-                "n": "1",
-                "descr": "amount of money wagered"
-            },
-            {
-                "n": "2",
-                "descr": "basis, proposition, bet on"
-            },
-            {
-                "n": "3",
-                "descr": "wagered to, hearer of wager"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wager.01",
+    "roleset_name": "wager",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wagerer",
+        "descr_trans": "赌徒"
+      },
+      {
+        "n": "1",
+        "descr": "amount of money wagered",
+        "descr_trans": "下注金额"
+      },
+      {
+        "n": "2",
+        "descr": "basis, proposition, bet on",
+        "descr_trans": "依据、主张、赌注"
+      },
+      {
+        "n": "3",
+        "descr": "wagered to, hearer of wager",
+        "descr_trans": "打赌给, 打赌的听者"
+      }
+    ],
+    "roleset_name_trans": "赌注"
+  }
 ]

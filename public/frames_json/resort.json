@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resort.01",
-        "roleset_name": "last chance, last action/opportunity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity needing a last chance"
-            },
-            {
-                "n": "1",
-                "descr": "last chance, resorted to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resort.01",
+    "roleset_name": "last chance, last action/opportunity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity needing a last chance",
+        "descr_trans": "实体需要最后一次机会"
+      },
+      {
+        "n": "1",
+        "descr": "last chance, resorted to",
+        "descr_trans": "最后一次机会，诉诸"
+      }
+    ],
+    "roleset_name_trans": "最后的机会，最后的行动/机会"
+  }
 ]

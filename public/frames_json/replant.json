@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "replant.01",
-        "roleset_name": "plant again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gardener, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity planted"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "replant.01",
+    "roleset_name": "plant again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gardener, agent",
+        "descr_trans": "园丁、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity planted",
+        "descr_trans": "实体种植"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "再次种植"
+  }
 ]

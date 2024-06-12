@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harshen.01",
-        "roleset_name": "to make or become harsh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of harshening"
-            },
-            {
-                "n": "1",
-                "descr": "thing harshened"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "harsh.02",
-        "roleset_name": "rough, cruel, not gentle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "harsh entity"
-            },
-            {
-                "n": "2",
-                "descr": "target of harshness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harshen.01",
+    "roleset_name": "to make or become harsh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of harshening",
+        "descr_trans": "代理，硬化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing harshened",
+        "descr_trans": "事情变得严厉"
+      }
+    ],
+    "roleset_name_trans": "使或变得严厉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "harsh.02",
+    "roleset_name": "rough, cruel, not gentle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "harsh entity",
+        "descr_trans": "严酷的实体"
+      },
+      {
+        "n": "2",
+        "descr": "target of harshness",
+        "descr_trans": "严厉的目标"
+      }
+    ],
+    "roleset_name_trans": "粗鲁、残忍、不温柔"
+  }
 ]

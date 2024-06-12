@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "darken.01",
-        "roleset_name": "(cause to) become dark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of darkening"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming dark"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dark.02",
-        "roleset_name": "not reflecting much, if any, light",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that doesn't reflect light"
-            },
-            {
-                "n": "2",
-                "descr": "specific part of arg1, if also mentioned"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dark.03",
-        "roleset_name": "morbid, depressive, evil, macabre",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "macabre thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is macabre"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "darken.01",
+    "roleset_name": "(cause to) become dark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of darkening",
+        "descr_trans": "变黑的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming dark",
+        "descr_trans": "事物变暗"
+      }
+    ],
+    "roleset_name_trans": "（导致）变黑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dark.02",
+    "roleset_name": "not reflecting much, if any, light",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that doesn't reflect light",
+        "descr_trans": "不反射光的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific part of arg1, if also mentioned",
+        "descr_trans": "arg1 的特定部分（如果还提到的话）"
+      }
+    ],
+    "roleset_name_trans": "不反射太多光（如果有的话）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dark.03",
+    "roleset_name": "morbid, depressive, evil, macabre",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "macabre thing",
+        "descr_trans": "可怕的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is macabre",
+        "descr_trans": "arg1 令人毛骨悚然的特定方面"
+      }
+    ],
+    "roleset_name_trans": "病态的、抑郁的、邪恶的、令人毛骨悚然的"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "patient.01",
-        "roleset_name": "patient",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "patient entity"
-            },
-            {
-                "n": "2",
-                "descr": "patient with/about what/whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "patient.01",
+    "roleset_name": "patient",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "patient entity",
+        "descr_trans": "患者实体"
+      },
+      {
+        "n": "2",
+        "descr": "patient with/about what/whom?",
+        "descr_trans": "对什么/谁有耐心？"
+      }
+    ],
+    "roleset_name_trans": "病人"
+  }
 ]

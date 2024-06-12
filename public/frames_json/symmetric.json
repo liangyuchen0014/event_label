@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "symmetric.01",
-        "roleset_name": "matching in size, shape, or some other measurement",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first item having symmetry"
-            },
-            {
-                "n": "2",
-                "descr": "second item, symmety with/to what"
-            },
-            {
-                "n": "3",
-                "descr": "domain of symmetry"
-            },
-            {
-                "n": "4",
-                "descr": "axis/point of symmetry"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "symmetric.01",
+    "roleset_name": "matching in size, shape, or some other measurement",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first item having symmetry",
+        "descr_trans": "第一项具有对称性"
+      },
+      {
+        "n": "2",
+        "descr": "second item, symmety with/to what",
+        "descr_trans": "第二项，与什么对称"
+      },
+      {
+        "n": "3",
+        "descr": "domain of symmetry",
+        "descr_trans": "对称域"
+      },
+      {
+        "n": "4",
+        "descr": "axis/point of symmetry",
+        "descr_trans": "轴/对称点"
+      }
+    ],
+    "roleset_name_trans": "尺寸、形状或其他测量值的匹配"
+  }
 ]

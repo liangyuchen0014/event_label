@@ -1,138 +1,166 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "follow.01",
-        "roleset_name": "be subsequent, temporally or spatially",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing following, coming after"
-            },
-            {
-                "n": "2",
-                "descr": "thing followed, coming before"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "follow.02",
-        "roleset_name": "adhere to, accept, understand, pursue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acceptor, pursuer"
-            },
-            {
-                "n": "1",
-                "descr": "thing followed"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "follow.04",
-        "roleset_name": "list function",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "described"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "follow.05",
-        "roleset_name": "logical conclusion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "conclusion"
-            },
-            {
-                "n": "2",
-                "descr": "thesis"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "follow_suit.06",
-        "roleset_name": "do the same thing, imitate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "imitator"
-            },
-            {
-                "n": "1",
-                "descr": "thing imitated (rarely explicit)"
-            },
-            {
-                "n": "2",
-                "descr": "action of following suit"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "follow_through.07",
-        "roleset_name": "fulfill, complete",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fulfiller"
-            },
-            {
-                "n": "1",
-                "descr": "promise, plans, etc"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "follow_through.08",
-        "roleset_name": "xray of the upper stomach involving barium",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "radiologist, x-rayer"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "follow_up.03",
-        "roleset_name": "be subsequent, pursue, do follow-up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first agent, entity initiating the followup, syntactically primary animate entity (subj, possr); default to dr. if there are no cues for which entity is more primary"
-            },
-            {
-                "n": "1",
-                "descr": "co-agent, animate entity followed up with; syntactically secondary animate entity; default to medical patient if there are no cues for which entity is more secondary"
-            },
-            {
-                "n": "2",
-                "descr": "follow up on, subject-matter of the followup"
-            },
-            {
-                "n": "3",
-                "descr": " instrument, action in response"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "follow.01",
+    "roleset_name": "be subsequent, temporally or spatially",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing following, coming after",
+        "descr_trans": "紧随其后的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing followed, coming before",
+        "descr_trans": "事情接着发生，发生在之前"
+      }
+    ],
+    "roleset_name_trans": "是连续的、时间上的或空间上的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "follow.02",
+    "roleset_name": "adhere to, accept, understand, pursue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acceptor, pursuer",
+        "descr_trans": "接受者、追求者"
+      },
+      {
+        "n": "1",
+        "descr": "thing followed",
+        "descr_trans": "事情随之而来"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "坚持、接受、理解、追求"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "follow.04",
+    "roleset_name": "list function",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "described",
+        "descr_trans": "描述"
+      }
+    ],
+    "roleset_name_trans": "列表功能"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "follow.05",
+    "roleset_name": "logical conclusion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "conclusion",
+        "descr_trans": "结论"
+      },
+      {
+        "n": "2",
+        "descr": "thesis",
+        "descr_trans": "论文"
+      }
+    ],
+    "roleset_name_trans": "逻辑结论"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "follow_suit.06",
+    "roleset_name": "do the same thing, imitate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "imitator",
+        "descr_trans": "模仿者"
+      },
+      {
+        "n": "1",
+        "descr": "thing imitated (rarely explicit)",
+        "descr_trans": "模仿的东西（很少明确）"
+      },
+      {
+        "n": "2",
+        "descr": "action of following suit",
+        "descr_trans": "跟风行动"
+      }
+    ],
+    "roleset_name_trans": "做同样的事，模仿"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "follow_through.07",
+    "roleset_name": "fulfill, complete",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fulfiller",
+        "descr_trans": "履行者"
+      },
+      {
+        "n": "1",
+        "descr": "promise, plans, etc",
+        "descr_trans": "承诺、计划等"
+      }
+    ],
+    "roleset_name_trans": "履行，完成"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "follow_through.08",
+    "roleset_name": "xray of the upper stomach involving barium",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "radiologist, x-rayer",
+        "descr_trans": "放射科医生，X光机"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "上胃 X 线检查涉及钡剂"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "follow_up.03",
+    "roleset_name": "be subsequent, pursue, do follow-up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first agent, entity initiating the followup, syntactically primary animate entity (subj, possr); default to dr. if there are no cues for which entity is more primary",
+        "descr_trans": "第一个代理，发起后续的实体，语法上的主要动画实体（subj，possr）；默认为博士。如果没有线索表明哪个实体更主要"
+      },
+      {
+        "n": "1",
+        "descr": "co-agent, animate entity followed up with; syntactically secondary animate entity; default to medical patient if there are no cues for which entity is more secondary",
+        "descr_trans": "共同代理人，跟进的有生命实体；句法上的次要有生命实体；如果没有提示哪个实体更次要，则默认为医疗患者"
+      },
+      {
+        "n": "2",
+        "descr": "follow up on, subject-matter of the followup",
+        "descr_trans": "跟进，跟进的主题"
+      },
+      {
+        "n": "3",
+        "descr": " instrument, action in response",
+        "descr_trans": "工具、响应行动"
+      }
+    ],
+    "roleset_name_trans": "后续, 追随, 跟进"
+  }
 ]

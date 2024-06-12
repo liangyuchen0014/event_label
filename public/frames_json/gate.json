@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gate.01",
-        "roleset_name": "(cause to) be enclosed by a gate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing or area being enclosed by a gate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gate.01",
+    "roleset_name": "(cause to) be enclosed by a gate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing or area being enclosed by a gate",
+        "descr_trans": "被门包围的物体或区域"
+      }
+    ],
+    "roleset_name_trans": "（导致）被门包围"
+  }
 ]

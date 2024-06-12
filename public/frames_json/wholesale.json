@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wholesale.01",
-        "roleset_name": "sell at wholesale, sell in large bulk or quantity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller"
-            },
-            {
-                "n": "1",
-                "descr": "Thing Sold"
-            },
-            {
-                "n": "2",
-                "descr": "Buyer"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wholesale.01",
+    "roleset_name": "sell at wholesale, sell in large bulk or quantity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "Thing Sold",
+        "descr_trans": "出售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "批发销售，大批量或大量销售"
+  }
 ]

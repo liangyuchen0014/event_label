@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curious.01",
-        "roleset_name": "curious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus-- what intrigues arg1"
-            },
-            {
-                "n": "1",
-                "descr": "curious/intrigued entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "curious.02",
-        "roleset_name": "strange; 'curiouser and curiouser'",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is strange (may require concatenation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curious.01",
+    "roleset_name": "curious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus-- what intrigues arg1",
+        "descr_trans": "刺激——什么让 arg1 着迷"
+      },
+      {
+        "n": "1",
+        "descr": "curious/intrigued entity",
+        "descr_trans": "好奇/感兴趣的实体"
+      }
+    ],
+    "roleset_name_trans": "好奇的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "curious.02",
+    "roleset_name": "strange; 'curiouser and curiouser'",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is strange (may require concatenation",
+        "descr_trans": "奇怪的事情（可能需要串联"
+      }
+    ],
+    "roleset_name_trans": "奇怪的; “越来越好奇”"
+  }
 ]

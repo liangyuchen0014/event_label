@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "purpose.01",
-        "roleset_name": "purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, speaker, purposer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, quotation, topic"
-            },
-            {
-                "n": "2",
-                "descr": "addressee(s), recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "purpose.01",
+    "roleset_name": "purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, speaker, purposer",
+        "descr_trans": "代理人、演讲者、目的者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, quotation, topic",
+        "descr_trans": "话语、引文、主题"
+      },
+      {
+        "n": "2",
+        "descr": "addressee(s), recipient",
+        "descr_trans": "收件人、收件人"
+      }
+    ],
+    "roleset_name_trans": "目的"
+  }
 ]

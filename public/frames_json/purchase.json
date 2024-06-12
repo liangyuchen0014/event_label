@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "purchase.01",
-        "roleset_name": "buy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "purchaser"
-            },
-            {
-                "n": "1",
-                "descr": "thing purchased"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "purchase.01",
+    "roleset_name": "buy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "purchaser",
+        "descr_trans": "购买者"
+      },
+      {
+        "n": "1",
+        "descr": "thing purchased",
+        "descr_trans": "购买的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "买"
+  }
 ]

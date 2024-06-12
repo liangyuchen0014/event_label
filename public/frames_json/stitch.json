@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stitch.01",
-        "roleset_name": "connect with thread, tie",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "thing being tied"
-            },
-            {
-                "n": "2",
-                "descr": "tied to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stitch.02",
-        "roleset_name": "build by sewing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stitch.01",
+    "roleset_name": "connect with thread, tie",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being tied",
+        "descr_trans": "被捆绑的东西"
+      },
+      {
+        "n": "2",
+        "descr": "tied to what",
+        "descr_trans": "与什么相关"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      }
+    ],
+    "roleset_name_trans": "用线、领带连接"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stitch.02",
+    "roleset_name": "build by sewing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过缝纫建造"
+  }
 ]

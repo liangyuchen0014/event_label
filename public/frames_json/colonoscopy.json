@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "colonoscopy.01",
-        "roleset_name": "performing endoscopic examination of the colon and the distal part of the small bowel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity colonoscopied"
-            },
-            {
-                "n": "2",
-                "descr": "Indication/purpose/cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "colonoscopy.01",
+    "roleset_name": "performing endoscopic examination of the colon and the distal part of the small bowel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity colonoscopied",
+        "descr_trans": "实体结肠镜检查"
+      },
+      {
+        "n": "2",
+        "descr": "Indication/purpose/cause",
+        "descr_trans": "指示/目的/原因"
+      }
+    ],
+    "roleset_name_trans": "对结肠和小肠远端进行内窥镜检查"
+  }
 ]

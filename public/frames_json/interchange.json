@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interchange.01",
-        "roleset_name": "replace one with another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Exchanger"
-            },
-            {
-                "n": "1",
-                "descr": "Thing exchanged"
-            },
-            {
-                "n": "2",
-                "descr": "Exchanged for, put in place of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interchange.01",
+    "roleset_name": "replace one with another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Exchanger",
+        "descr_trans": "交换器"
+      },
+      {
+        "n": "1",
+        "descr": "Thing exchanged",
+        "descr_trans": "交换的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Exchanged for, put in place of",
+        "descr_trans": "交换，代替"
+      }
+    ],
+    "roleset_name_trans": "将一个替换为另一个"
+  }
 ]

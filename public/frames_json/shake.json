@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shake.01",
-        "roleset_name": "tremble, moving vigorously back and forth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of trembling motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing trembling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shake_off.02",
-        "roleset_name": "lose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity losing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing lost"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, entity gaining thing lost"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shake_up.03",
-        "roleset_name": "tremble very badly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of shaking"
-            },
-            {
-                "n": "1",
-                "descr": "thing trembling"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shake.01",
+    "roleset_name": "tremble, moving vigorously back and forth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of trembling motion",
+        "descr_trans": "颤抖运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing trembling",
+        "descr_trans": "东西在颤抖"
+      }
+    ],
+    "roleset_name_trans": "颤抖，剧烈地前后移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shake_off.02",
+    "roleset_name": "lose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity losing something",
+        "descr_trans": "实体失去某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing lost",
+        "descr_trans": "东西丢失了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, entity gaining thing lost",
+        "descr_trans": "有益的，得到失去的东西的实体"
+      }
+    ],
+    "roleset_name_trans": "失去"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shake_up.03",
+    "roleset_name": "tremble very badly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of shaking",
+        "descr_trans": "晃动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing trembling",
+        "descr_trans": "东西在颤抖"
+      }
+    ],
+    "roleset_name_trans": "颤抖得很厉害"
+  }
 ]

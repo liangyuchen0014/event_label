@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonobstruct.01",
-        "roleset_name": "not block",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity not causing a block"
-            },
-            {
-                "n": "1",
-                "descr": "thing not obstructed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonobstruct.01",
+    "roleset_name": "not block",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity not causing a block",
+        "descr_trans": "实体不会造成阻塞"
+      },
+      {
+        "n": "1",
+        "descr": "thing not obstructed",
+        "descr_trans": "事物不被阻碍"
+      }
+    ],
+    "roleset_name_trans": "不阻止"
+  }
 ]

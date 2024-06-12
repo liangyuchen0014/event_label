@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "segue.01",
-        "roleset_name": "transition smoothly to the next subject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, transitioner"
-            },
-            {
-                "n": "1",
-                "descr": "start subject/condition"
-            },
-            {
-                "n": "2",
-                "descr": "end subject/condition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "segue.01",
+    "roleset_name": "transition smoothly to the next subject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, transitioner",
+        "descr_trans": "代理人、过渡者"
+      },
+      {
+        "n": "1",
+        "descr": "start subject/condition",
+        "descr_trans": "开始主题/条件"
+      },
+      {
+        "n": "2",
+        "descr": "end subject/condition",
+        "descr_trans": "结束主题/条件"
+      }
+    ],
+    "roleset_name_trans": "顺利过渡到下一个主题"
+  }
 ]

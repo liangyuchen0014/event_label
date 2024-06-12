@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "motivate.01",
-        "roleset_name": "impelled action, giving inspiration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "motivation"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "motivate.02",
-        "roleset_name": "justify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "justifier"
-            },
-            {
-                "n": "1",
-                "descr": "decision or attitude being shown to be right"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication on arg1"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive, justified to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "motivate.01",
+    "roleset_name": "impelled action, giving inspiration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "motivation",
+        "descr_trans": "动机"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动，给予灵感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "motivate.02",
+    "roleset_name": "justify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "justifier",
+        "descr_trans": "证明合法"
+      },
+      {
+        "n": "1",
+        "descr": "decision or attitude being shown to be right",
+        "descr_trans": "决定或态度被证明是正确的"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive, justified to",
+        "descr_trans": "有益的，有道理的"
+      }
+    ],
+    "roleset_name_trans": "证明合法"
+  }
 ]

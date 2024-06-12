@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outline.01",
-        "roleset_name": "describe roughly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being described"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "outline.02",
-        "roleset_name": "add material to the boundaries of a shape/form",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "shape outlined"
-            },
-            {
-                "n": "2",
-                "descr": "the outline: instrument or material used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outline.01",
+    "roleset_name": "describe roughly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing being described",
+        "descr_trans": "所描述的事物"
+      }
+    ],
+    "roleset_name_trans": "大致描述"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "outline.02",
+    "roleset_name": "add material to the boundaries of a shape/form",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "shape outlined",
+        "descr_trans": "轮廓形状"
+      },
+      {
+        "n": "2",
+        "descr": "the outline: instrument or material used",
+        "descr_trans": "概要：使用的仪器或材料"
+      }
+    ],
+    "roleset_name_trans": "将材料添加到形状/形式的边界"
+  }
 ]

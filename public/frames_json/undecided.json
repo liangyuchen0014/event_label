@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undecided.01",
-        "roleset_name": "not resolved",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of decision"
-            },
-            {
-                "n": "1",
-                "descr": "thing not decided"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undecided.01",
+    "roleset_name": "not resolved",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of decision",
+        "descr_trans": "代理人/决策原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing not decided",
+        "descr_trans": "事情没有决定"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "未解决"
+  }
 ]

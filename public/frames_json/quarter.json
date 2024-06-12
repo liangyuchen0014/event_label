@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quarter.01",
-        "roleset_name": "provide house for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity or organization providing housing"
-            },
-            {
-                "n": "1",
-                "descr": "entity being housed"
-            },
-            {
-                "n": "2",
-                "descr": "location/housing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "quarter.02",
-        "roleset_name": "execute by tying to 4 horses and pulling apart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "horses or responsible party"
-            },
-            {
-                "n": "1",
-                "descr": "person being quartered"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "quarter.03",
-        "roleset_name": "divide into quarters",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being divided up into 4 pieces"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or theme"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quarter.01",
+    "roleset_name": "provide house for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity or organization providing housing",
+        "descr_trans": "提供住房的实体或组织"
+      },
+      {
+        "n": "1",
+        "descr": "entity being housed",
+        "descr_trans": "被安置的实体"
+      },
+      {
+        "n": "2",
+        "descr": "location/housing",
+        "descr_trans": "地点/住房"
+      }
+    ],
+    "roleset_name_trans": "提供房屋"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "quarter.02",
+    "roleset_name": "execute by tying to 4 horses and pulling apart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "horses or responsible party",
+        "descr_trans": "马匹或责任方"
+      },
+      {
+        "n": "1",
+        "descr": "person being quartered",
+        "descr_trans": "被分拆的人"
+      }
+    ],
+    "roleset_name_trans": "绑上四匹马然后拉开执行"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "quarter.03",
+    "roleset_name": "divide into quarters",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being divided up into 4 pieces",
+        "descr_trans": "东西被分成4块"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or theme",
+        "descr_trans": "乐器或主题"
+      }
+    ],
+    "roleset_name_trans": "分成四等分"
+  }
 ]

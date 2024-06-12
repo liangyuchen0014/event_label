@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scope.101",
-        "roleset_name": "to examine using some kind of scoping tool",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Examiner"
-            },
-            {
-                "n": "1",
-                "descr": "Examined"
-            },
-            {
-                "n": "2",
-                "descr": "Thing examined for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scope_out.02",
-        "roleset_name": "scout, investigate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scout"
-            },
-            {
-                "n": "1",
-                "descr": "thing/place investigated"
-            },
-            {
-                "n": "2",
-                "descr": "in search of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scope.101",
+    "roleset_name": "to examine using some kind of scoping tool",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "Examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "Thing examined for",
+        "descr_trans": "检查的东西"
+      }
+    ],
+    "roleset_name_trans": "使用某种范围界定工具进行检查"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scope_out.02",
+    "roleset_name": "scout, investigate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scout",
+        "descr_trans": "侦察"
+      },
+      {
+        "n": "1",
+        "descr": "thing/place investigated",
+        "descr_trans": "调查的事物/地点"
+      },
+      {
+        "n": "2",
+        "descr": "in search of",
+        "descr_trans": "寻找"
+      }
+    ],
+    "roleset_name_trans": "侦察，调查"
+  }
 ]

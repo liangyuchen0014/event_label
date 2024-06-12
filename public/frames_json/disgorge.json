@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disgorge.01",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disgorger"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disgorge.01",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disgorger",
+        "descr_trans": "除渣器"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

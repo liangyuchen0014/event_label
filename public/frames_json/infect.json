@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "infect.01",
-        "roleset_name": "cause something to have an infection, causing to become infected, have an infection",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of infection, but not germ"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming infected"
-            },
-            {
-                "n": "2",
-                "descr": "infectant, germ"
-            },
-            {
-                "n": "3",
-                "descr": "more specific body part becoming infected, if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "infect.01",
+    "roleset_name": "cause something to have an infection, causing to become infected, have an infection",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of infection, but not germ",
+        "descr_trans": "感染的原因，但不是细菌"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming infected",
+        "descr_trans": "事物被感染"
+      },
+      {
+        "n": "2",
+        "descr": "infectant, germ",
+        "descr_trans": "感染、病菌"
+      },
+      {
+        "n": "3",
+        "descr": "more specific body part becoming infected, if in addition to ARG1",
+        "descr_trans": "如果除了 ARG1 之外，更具体的身体部位也会被感染"
+      }
+    ],
+    "roleset_name_trans": "导致某物感染，导致被感染，感染"
+  }
 ]

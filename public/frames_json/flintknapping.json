@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flintknapping.01",
-        "roleset_name": "Shape flint by chipping away at it",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "knapper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "stone"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, knife"
-            },
-            {
-                "n": "3",
-                "descr": "end state, product, if seperate from arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flintknapping.01",
+    "roleset_name": "Shape flint by chipping away at it",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "knapper, agent",
+        "descr_trans": "按钮、代理"
+      },
+      {
+        "n": "1",
+        "descr": "stone",
+        "descr_trans": "石头"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, knife",
+        "descr_trans": "仪器、刀"
+      },
+      {
+        "n": "3",
+        "descr": "end state, product, if seperate from arg1",
+        "descr_trans": "最终状态，产品，如果与 arg1 分开"
+      }
+    ],
+    "roleset_name_trans": "通过敲击来塑造燧石的形状"
+  }
 ]

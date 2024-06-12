@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bite.01",
-        "roleset_name": "to cut or tear with or as if with the teeth, nom/partitive-quant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "biter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bitten"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bite_dust.02",
-        "roleset_name": "die, fall out of competition",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity dying, failing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bite_bullet.03",
-        "roleset_name": "decide to do something difficult to get it over with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer"
-            },
-            {
-                "n": "1",
-                "descr": "difficult, dreaded thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bite.01",
+    "roleset_name": "to cut or tear with or as if with the teeth, nom/partitive-quant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "biter, agent",
+        "descr_trans": "咬人者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity bitten",
+        "descr_trans": "实体被咬"
+      }
+    ],
+    "roleset_name_trans": "用或好像用牙齿切割或撕裂，名义/部分定量"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bite_dust.02",
+    "roleset_name": "die, fall out of competition",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity dying, failing",
+        "descr_trans": "实体死亡、失败"
+      }
+    ],
+    "roleset_name_trans": "死亡，退出竞争"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bite_bullet.03",
+    "roleset_name": "decide to do something difficult to get it over with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer",
+        "descr_trans": "实干家"
+      },
+      {
+        "n": "1",
+        "descr": "difficult, dreaded thing",
+        "descr_trans": "困难的、可怕的事情"
+      }
+    ],
+    "roleset_name_trans": "决定做一些困难的事情来完成它"
+  }
 ]

@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yield.01",
-        "roleset_name": "result in, produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing yielding"
-            },
-            {
-                "n": "1",
-                "descr": "thing yielded"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "yield.02",
-        "roleset_name": "give way, give in to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thing giving way"
-            },
-            {
-                "n": "1",
-                "descr": "what's lost"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "yield.03",
-        "roleset_name": "give a dividend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing providing a dividend"
-            },
-            {
-                "n": "1",
-                "descr": "dividend, earnings"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "yield_up.04",
-        "roleset_name": "same as yield.02 with aspectual particle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Giver"
-            },
-            {
-                "n": "1",
-                "descr": "Thing given away, lost"
-            },
-            {
-                "n": "2",
-                "descr": "Recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yield.01",
+    "roleset_name": "result in, produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing yielding",
+        "descr_trans": "事物屈服"
+      },
+      {
+        "n": "1",
+        "descr": "thing yielded",
+        "descr_trans": "事情产生了"
+      }
+    ],
+    "roleset_name_trans": "结果，产生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "yield.02",
+    "roleset_name": "give way, give in to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thing giving way",
+        "descr_trans": "事物让路"
+      },
+      {
+        "n": "1",
+        "descr": "what's lost",
+        "descr_trans": "失去了什么"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "让步，让步给另一个人"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "yield.03",
+    "roleset_name": "give a dividend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing providing a dividend",
+        "descr_trans": "提供股息的事物"
+      },
+      {
+        "n": "1",
+        "descr": "dividend, earnings",
+        "descr_trans": "股息、收益"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "给予股息"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "yield_up.04",
+    "roleset_name": "same as yield.02 with aspectual particle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "Thing given away, lost",
+        "descr_trans": "东西被放弃、丢失"
+      },
+      {
+        "n": "2",
+        "descr": "Recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "与 yield.02 相同，带有方面粒子"
+  }
 ]

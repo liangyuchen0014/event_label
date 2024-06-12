@@ -1,86 +1,104 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pimp.01",
-        "roleset_name": "act as a pimp, selling the sexual service of prostitutes (or metaphorical extension)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pimp"
-            },
-            {
-                "n": "1",
-                "descr": "prostitute"
-            },
-            {
-                "n": "2",
-                "descr": "price paid"
-            },
-            {
-                "n": "3",
-                "descr": "sex buyer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pimp.02",
-        "roleset_name": "embellish with amazing, outrageous and stylish features/decorations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing decorated"
-            },
-            {
-                "n": "2",
-                "descr": "embellishments"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pimp_out.03",
-        "roleset_name": "act as a pimp, selling the sexual services of prostitutes (or metaphorical extension)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pimp"
-            },
-            {
-                "n": "1",
-                "descr": "prostitute"
-            },
-            {
-                "n": "2",
-                "descr": "price paid"
-            },
-            {
-                "n": "3",
-                "descr": "buyer of services"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pimp_out.04",
-        "roleset_name": "embellish with outrageous and amazing decorations/features",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing decorated"
-            },
-            {
-                "n": "2",
-                "descr": "embellishments"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pimp.01",
+    "roleset_name": "act as a pimp, selling the sexual service of prostitutes (or metaphorical extension)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pimp",
+        "descr_trans": "拉皮条"
+      },
+      {
+        "n": "1",
+        "descr": "prostitute",
+        "descr_trans": "妓女"
+      },
+      {
+        "n": "2",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "3",
+        "descr": "sex buyer",
+        "descr_trans": "性买家"
+      }
+    ],
+    "roleset_name_trans": "充当皮条客，出售妓女的性服务（或隐喻延伸）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pimp.02",
+    "roleset_name": "embellish with amazing, outrageous and stylish features/decorations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, agent",
+        "descr_trans": "装修师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing decorated",
+        "descr_trans": "装饰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "embellishments",
+        "descr_trans": "装饰品"
+      }
+    ],
+    "roleset_name_trans": "用令人惊叹的、令人震惊的和时尚的功能/装饰品来点缀"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pimp_out.03",
+    "roleset_name": "act as a pimp, selling the sexual services of prostitutes (or metaphorical extension)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pimp",
+        "descr_trans": "拉皮条"
+      },
+      {
+        "n": "1",
+        "descr": "prostitute",
+        "descr_trans": "妓女"
+      },
+      {
+        "n": "2",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "3",
+        "descr": "buyer of services",
+        "descr_trans": "服务购买者"
+      }
+    ],
+    "roleset_name_trans": "充当皮条客，出售妓女的性服务（或隐喻延伸）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pimp_out.04",
+    "roleset_name": "embellish with outrageous and amazing decorations/features",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, agent",
+        "descr_trans": "装修师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing decorated",
+        "descr_trans": "装饰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "embellishments",
+        "descr_trans": "装饰品"
+      }
+    ],
+    "roleset_name_trans": "用令人震惊和令人惊叹的装饰/功能来点缀"
+  }
 ]

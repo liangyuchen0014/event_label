@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "languish.01",
-        "roleset_name": "rest",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity languishing"
-            },
-            {
-                "n": "2",
-                "descr": "location or state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "languish.02",
-        "roleset_name": "crave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "craver"
-            },
-            {
-                "n": "1",
-                "descr": "thing craved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "languish.01",
+    "roleset_name": "rest",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity languishing",
+        "descr_trans": "实体日渐衰弱"
+      },
+      {
+        "n": "2",
+        "descr": "location or state",
+        "descr_trans": "位置或状态"
+      }
+    ],
+    "roleset_name_trans": "休息"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "languish.02",
+    "roleset_name": "crave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "craver",
+        "descr_trans": "渴望者"
+      },
+      {
+        "n": "1",
+        "descr": "thing craved",
+        "descr_trans": "渴望的东西"
+      }
+    ],
+    "roleset_name_trans": "渴望"
+  }
 ]

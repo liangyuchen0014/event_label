@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reach.01",
-        "roleset_name": "arrive at an end state, outcome or destination, get to, attain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing striving"
-            },
-            {
-                "n": "1",
-                "descr": "goal, destination, end state, thing attained"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reach.02",
-        "roleset_name": "get in contact with (often over the phone)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reacher"
-            },
-            {
-                "n": "1",
-                "descr": "reached"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "reach.03",
-        "roleset_name": "stretch, grasp, move (as if a limb) outwards toward a goal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reacher"
-            },
-            {
-                "n": "1",
-                "descr": "body part"
-            },
-            {
-                "n": "2",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "reach.04",
-        "roleset_name": "span (static)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing spanning"
-            },
-            {
-                "n": "2",
-                "descr": "one end of the span (from where)"
-            },
-            {
-                "n": "3",
-                "descr": "the other end of the span (to where)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reach.01",
+    "roleset_name": "arrive at an end state, outcome or destination, get to, attain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing striving",
+        "descr_trans": "事物奋斗"
+      },
+      {
+        "n": "1",
+        "descr": "goal, destination, end state, thing attained",
+        "descr_trans": "目标、目的地、最终状态、达到的目标"
+      }
+    ],
+    "roleset_name_trans": "到达最终状态、结果或目的地，达到、达到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reach.02",
+    "roleset_name": "get in contact with (often over the phone)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reacher",
+        "descr_trans": "到达者"
+      },
+      {
+        "n": "1",
+        "descr": "reached",
+        "descr_trans": "到达"
+      }
+    ],
+    "roleset_name_trans": "取得联系（通常通过电话）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "reach.03",
+    "roleset_name": "stretch, grasp, move (as if a limb) outwards toward a goal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reacher",
+        "descr_trans": "到达者"
+      },
+      {
+        "n": "1",
+        "descr": "body part",
+        "descr_trans": "身体的一部分"
+      },
+      {
+        "n": "2",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "朝着目标向外伸展、抓住、移动（就像肢体一样）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "reach.04",
+    "roleset_name": "span (static)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing spanning",
+        "descr_trans": "事物跨越"
+      },
+      {
+        "n": "2",
+        "descr": "one end of the span (from where)",
+        "descr_trans": "跨度的一端（从哪里开始）"
+      },
+      {
+        "n": "3",
+        "descr": "the other end of the span (to where)",
+        "descr_trans": "跨度的另一端（到哪里）"
+      }
+    ],
+    "roleset_name_trans": "跨度（静态）"
+  }
 ]

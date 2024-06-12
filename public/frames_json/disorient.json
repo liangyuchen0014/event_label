@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disorient.01",
-        "roleset_name": "cause to lose bearings, causing to lose bearings or get lost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity disoriented"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disorient.01",
+    "roleset_name": "cause to lose bearings, causing to lose bearings or get lost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity disoriented",
+        "descr_trans": "实体迷失方向"
+      }
+    ],
+    "roleset_name_trans": "导致失去轴承，导致失去轴承或迷路"
+  }
 ]

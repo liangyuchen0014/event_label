@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strain.01",
-        "roleset_name": "injure, put stress on, violent exertion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing damage"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity experiencing hurt/damage"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "strain.02",
-        "roleset_name": "separate solids from liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "separator, filter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "solids, thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "liquid, source, removed-from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "strain.03",
-        "roleset_name": "try hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent/Entity Trying"
-            },
-            {
-                "n": "1",
-                "descr": "thing tried"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "strain.04",
-        "roleset_name": "adjectival: hurting",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing hurting"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strain.01",
+    "roleset_name": "injure, put stress on, violent exertion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing damage",
+        "descr_trans": "造成损害的代理人、实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity experiencing hurt/damage",
+        "descr_trans": "患者、遭受伤害/损害的实体"
+      }
+    ],
+    "roleset_name_trans": "伤害、施加压力、剧烈用力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "strain.02",
+    "roleset_name": "separate solids from liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "separator, filter, agent",
+        "descr_trans": "分离器、过滤器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "solids, thing removed",
+        "descr_trans": "固体，去除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid, source, removed-from",
+        "descr_trans": "液体、来源、移除"
+      }
+    ],
+    "roleset_name_trans": "将固体与液体分离"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "strain.03",
+    "roleset_name": "try hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent/Entity Trying",
+        "descr_trans": "代理/实体尝试"
+      },
+      {
+        "n": "1",
+        "descr": "thing tried",
+        "descr_trans": "尝试过的事情"
+      }
+    ],
+    "roleset_name_trans": "努力"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "strain.04",
+    "roleset_name": "adjectival: hurting",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing hurting",
+        "descr_trans": "伤害的东西"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "形容词：伤害"
+  }
 ]

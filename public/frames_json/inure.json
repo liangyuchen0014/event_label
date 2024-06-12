@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inure.01",
-        "roleset_name": "make used to something unpleasant, habituate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rare causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity that becomes habituated to something unpleasant"
-            },
-            {
-                "n": "2",
-                "descr": "unpleasantness that arg1 has to get used to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inure.01",
+    "roleset_name": "make used to something unpleasant, habituate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rare causal agent",
+        "descr_trans": "罕见的致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity that becomes habituated to something unpleasant",
+        "descr_trans": "习惯于某种不愉快的事物的实体"
+      },
+      {
+        "n": "2",
+        "descr": "unpleasantness that arg1 has to get used to",
+        "descr_trans": "arg1 必须习惯的不愉快"
+      }
+    ],
+    "roleset_name_trans": "习惯于不愉快的事情，习惯"
+  }
 ]

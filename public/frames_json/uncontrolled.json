@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncontrolled.01",
-        "roleset_name": "not controlled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "controller"
-            },
-            {
-                "n": "1",
-                "descr": "controlled"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncontrolled.01",
+    "roleset_name": "not controlled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "controller",
+        "descr_trans": "控制器"
+      },
+      {
+        "n": "1",
+        "descr": "controlled",
+        "descr_trans": "受控"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "不受控制"
+  }
 ]

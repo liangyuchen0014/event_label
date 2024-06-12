@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skip.01",
-        "roleset_name": "to miss, omit or avoid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "omiter, skipper"
-            },
-            {
-                "n": "1",
-                "descr": "thing skipped"
-            },
-            {
-                "n": "2",
-                "descr": "goal, destination, first subsequent entity not skipped"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "skip.02",
-        "roleset_name": "to move lighly, to jump",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one in motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "skip_off.03",
-        "roleset_name": "to leave quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skip.01",
+    "roleset_name": "to miss, omit or avoid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "omiter, skipper",
+        "descr_trans": "船长，船长"
+      },
+      {
+        "n": "1",
+        "descr": "thing skipped",
+        "descr_trans": "事情被跳过"
+      },
+      {
+        "n": "2",
+        "descr": "goal, destination, first subsequent entity not skipped",
+        "descr_trans": "目标、目的地、不跳过的第一个后续实体"
+      }
+    ],
+    "roleset_name_trans": "错过、省略或避免"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "skip.02",
+    "roleset_name": "to move lighly, to jump",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one in motion",
+        "descr_trans": "一个在运动中"
+      }
+    ],
+    "roleset_name_trans": "轻轻地移动、跳跃"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "skip_off.03",
+    "roleset_name": "to leave quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one in motion",
+        "descr_trans": "一个在运动中"
+      }
+    ],
+    "roleset_name_trans": "快速离开"
+  }
 ]

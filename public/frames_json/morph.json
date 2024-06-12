@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "morph.01",
-        "roleset_name": "(cause to) change shape or transform",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "morph.01",
+    "roleset_name": "(cause to) change shape or transform",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "（导致）改变形状或转变"
+  }
 ]

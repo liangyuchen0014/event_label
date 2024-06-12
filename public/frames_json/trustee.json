@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trustee.01",
-        "roleset_name": "act as a trustee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trustee"
-            },
-            {
-                "n": "1",
-                "descr": "corporation, entity entrusted to arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trustee.01",
+    "roleset_name": "act as a trustee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trustee",
+        "descr_trans": "受托人"
+      },
+      {
+        "n": "1",
+        "descr": "corporation, entity entrusted to arg0",
+        "descr_trans": "公司，委托给 arg0 的实体"
+      }
+    ],
+    "roleset_name_trans": "担任受托人"
+  }
 ]

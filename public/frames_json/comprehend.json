@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "comprehend.01",
-        "roleset_name": "understand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "UNDERSTANDER"
-            },
-            {
-                "n": "1",
-                "descr": "UNDERSTOOD"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "comprehend.01",
+    "roleset_name": "understand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "UNDERSTANDER",
+        "descr_trans": "理解者"
+      },
+      {
+        "n": "1",
+        "descr": "UNDERSTOOD",
+        "descr_trans": "理解"
+      }
+    ],
+    "roleset_name_trans": "理解"
+  }
 ]

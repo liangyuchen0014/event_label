@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noncircled.01",
-        "roleset_name": "not form a circle; not be enclosed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity within a circle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noncircled.01",
+    "roleset_name": "not form a circle; not be enclosed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity within a circle",
+        "descr_trans": "圆圈内的实体"
+      }
+    ],
+    "roleset_name_trans": "不形成一个圆圈；不被封闭"
+  }
 ]

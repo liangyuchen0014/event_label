@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tail.01",
-        "roleset_name": "follow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "follower, tailer"
-            },
-            {
-                "n": "1",
-                "descr": "followed, tailed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tail.01",
+    "roleset_name": "follow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "follower, tailer",
+        "descr_trans": "追随者、尾随者"
+      },
+      {
+        "n": "1",
+        "descr": "followed, tailed",
+        "descr_trans": "跟随，尾随"
+      }
+    ],
+    "roleset_name_trans": "跟随"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exempt.01",
-        "roleset_name": "to free from an obligation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity exempted"
-            },
-            {
-                "n": "2",
-                "descr": "entity exempted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exempt.01",
+    "roleset_name": "to free from an obligation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser, agent",
+        "descr_trans": "释放者, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity exempted",
+        "descr_trans": "豁免实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity exempted from",
+        "descr_trans": "豁免实体"
+      }
+    ],
+    "roleset_name_trans": "摆脱义务"
+  }
 ]

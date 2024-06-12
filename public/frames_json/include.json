@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "include.01",
-        "roleset_name": "include",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some grouping"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "include.01",
+    "roleset_name": "include",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some grouping",
+        "descr_trans": "代理，导致某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being included in some group",
+        "descr_trans": "主题，包含在某个组中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "group",
+        "descr_trans": "团体"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncertain.01",
-        "roleset_name": "not guaranteed, sure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unconfident believer"
-            },
-            {
-                "n": "1",
-                "descr": "proposition not guaranteed (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncertain.01",
+    "roleset_name": "not guaranteed, sure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unconfident believer",
+        "descr_trans": "不自信的信徒"
+      },
+      {
+        "n": "1",
+        "descr": "proposition not guaranteed (may require concatenation)",
+        "descr_trans": "命题无法保证（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "不保证，当然"
+  }
 ]

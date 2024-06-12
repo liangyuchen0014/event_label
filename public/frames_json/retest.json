@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retest.01",
-        "roleset_name": "check (for), examine (again), check for or examine, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            },
-            {
-                "n": "2",
-                "descr": "in search of, for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retest.01",
+    "roleset_name": "check (for), examine (again), check for or examine, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "in search of, for what",
+        "descr_trans": "寻找，为了什么"
+      }
+    ],
+    "roleset_name_trans": "检查（为），检查（再次），检查或检查，再次"
+  }
 ]

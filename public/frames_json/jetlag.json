@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jetlag.01",
-        "roleset_name": "fatigue from changing time zones quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of jet lag (often a trip)"
-            },
-            {
-                "n": "1",
-                "descr": "sufferer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jetlag.01",
+    "roleset_name": "fatigue from changing time zones quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of jet lag (often a trip)",
+        "descr_trans": "时差反应的原因（通常是旅行）"
+      },
+      {
+        "n": "1",
+        "descr": "sufferer",
+        "descr_trans": "患者"
+      }
+    ],
+    "roleset_name_trans": "快速改变时区导致的疲劳"
+  }
 ]

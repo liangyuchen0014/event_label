@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upload.01",
-        "roleset_name": "to transfer data",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, uploader"
-            },
-            {
-                "n": "1",
-                "descr": "data, thing uploaded"
-            },
-            {
-                "n": "2",
-                "descr": "patient, uploaded to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upload.01",
+    "roleset_name": "to transfer data",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, uploader",
+        "descr_trans": "代理、上传者"
+      },
+      {
+        "n": "1",
+        "descr": "data, thing uploaded",
+        "descr_trans": "数据、上传的东西"
+      },
+      {
+        "n": "2",
+        "descr": "patient, uploaded to what",
+        "descr_trans": "病人，上传到什么"
+      }
+    ],
+    "roleset_name_trans": "传输数据"
+  }
 ]

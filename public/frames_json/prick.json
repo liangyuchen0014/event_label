@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prick.01",
-        "roleset_name": "poke with a pin, pop or burst",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prick(er)"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prick_up.02",
-        "roleset_name": "cause to stand up straight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity standing up straight"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prick.01",
+    "roleset_name": "poke with a pin, pop or burst",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prick(er)",
+        "descr_trans": "刺"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "用别针戳、弹出或爆裂"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prick_up.02",
+    "roleset_name": "cause to stand up straight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity standing up straight",
+        "descr_trans": "实体直立"
+      }
+    ],
+    "roleset_name_trans": "导致站直"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "angulate.01",
-        "roleset_name": "hold or distort something so as to form angles, formation of angles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person distorting arg1"
-            },
-            {
-                "n": "1",
-                "descr": "entity being angulated"
-            },
-            {
-                "n": "2",
-                "descr": "angle, degrees if explicit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "angulate.01",
+    "roleset_name": "hold or distort something so as to form angles, formation of angles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person distorting arg1",
+        "descr_trans": "特工，扭曲 arg1 的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being angulated",
+        "descr_trans": "实体被成角度"
+      },
+      {
+        "n": "2",
+        "descr": "angle, degrees if explicit",
+        "descr_trans": "角度，如果明确则为度数"
+      }
+    ],
+    "roleset_name_trans": "握住或扭曲某物以形成角度，形成角度"
+  }
 ]

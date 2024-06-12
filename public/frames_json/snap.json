@@ -1,154 +1,186 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snap.01",
-        "roleset_name": "bite at viciously, perhaps as an utterance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, snapper"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer, entity being snapped at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snap.03",
-        "roleset_name": "snap the fingers",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snapper"
-            },
-            {
-                "n": "1",
-                "descr": "fingers"
-            },
-            {
-                "n": "2",
-                "descr": "at whom/what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "snap.04",
-        "roleset_name": "make snapping noises",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker of sounds"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "snap.05",
-        "roleset_name": "break into pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing broken"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "pieces"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "snap.07",
-        "roleset_name": "move quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "snap.09",
-        "roleset_name": "take pictures with snapping noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Photographer"
-            },
-            {
-                "n": "1",
-                "descr": "Shots/ pictures"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "snap_off.06",
-        "roleset_name": "break into pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breaker"
-            },
-            {
-                "n": "1",
-                "descr": "piece(s)"
-            },
-            {
-                "n": "2",
-                "descr": "whole"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "snap_up.08",
-        "roleset_name": "acquire quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snap.01",
+    "roleset_name": "bite at viciously, perhaps as an utterance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, snapper",
+        "descr_trans": "扬声器、鲷鱼"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer, entity being snapped at",
+        "descr_trans": "听者，被猛击的实体"
+      }
+    ],
+    "roleset_name_trans": "恶毒地咬，也许作为一种话语"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snap.03",
+    "roleset_name": "snap the fingers",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snapper",
+        "descr_trans": "鲷鱼"
+      },
+      {
+        "n": "1",
+        "descr": "fingers",
+        "descr_trans": "手指"
+      },
+      {
+        "n": "2",
+        "descr": "at whom/what",
+        "descr_trans": "对谁/什么"
+      }
+    ],
+    "roleset_name_trans": "打响指"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "snap.04",
+    "roleset_name": "make snapping noises",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker of sounds",
+        "descr_trans": "声音的制造者"
+      }
+    ],
+    "roleset_name_trans": "发出噼啪声"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "snap.05",
+    "roleset_name": "break into pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breaker",
+        "descr_trans": "断路器"
+      },
+      {
+        "n": "1",
+        "descr": "thing broken",
+        "descr_trans": "东西坏了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "pieces",
+        "descr_trans": "件"
+      }
+    ],
+    "roleset_name_trans": "碎"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "snap.07",
+    "roleset_name": "move quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "动作快点"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "snap.09",
+    "roleset_name": "take pictures with snapping noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Photographer",
+        "descr_trans": "摄影师"
+      },
+      {
+        "n": "1",
+        "descr": "Shots/ pictures",
+        "descr_trans": "镜头/图片"
+      }
+    ],
+    "roleset_name_trans": "拍摄有噼啪声的照片"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "snap_off.06",
+    "roleset_name": "break into pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breaker",
+        "descr_trans": "断路器"
+      },
+      {
+        "n": "1",
+        "descr": "piece(s)",
+        "descr_trans": "件）"
+      },
+      {
+        "n": "2",
+        "descr": "whole",
+        "descr_trans": "所有的"
+      }
+    ],
+    "roleset_name_trans": "碎"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "snap_up.08",
+    "roleset_name": "acquire quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "快速获得"
+  }
 ]

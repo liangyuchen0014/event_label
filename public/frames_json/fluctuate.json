@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fluctuate.01",
-        "roleset_name": "move randomly across some scale, fluctuating",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fluctuate.01",
+    "roleset_name": "move randomly across some scale, fluctuating",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or MNR",
+        "descr_trans": "外部或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "在一定范围内随机移动、波动"
+  }
 ]

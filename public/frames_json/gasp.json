@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gasp.01",
-        "roleset_name": "breathe hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breather"
-            },
-            {
-                "n": "1",
-                "descr": "air, hopefully"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gasp.02",
-        "roleset_name": "say breathily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gasp.01",
+    "roleset_name": "breathe hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breather",
+        "descr_trans": "喘息"
+      },
+      {
+        "n": "1",
+        "descr": "air, hopefully",
+        "descr_trans": "空气，希望"
+      }
+    ],
+    "roleset_name_trans": "呼吸困难"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gasp.02",
+    "roleset_name": "say breathily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "气喘吁吁地说"
+  }
 ]

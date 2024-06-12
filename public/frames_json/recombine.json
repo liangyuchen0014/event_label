@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recombine.01",
-        "roleset_name": "combine, mix again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, mixer"
-            },
-            {
-                "n": "1",
-                "descr": "ingredient one"
-            },
-            {
-                "n": "2",
-                "descr": "ingredient two"
-            },
-            {
-                "n": "3",
-                "descr": "end product"
-            },
-            {
-                "n": "4",
-                "descr": "domain of recombination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recombine.01",
+    "roleset_name": "combine, mix again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, mixer",
+        "descr_trans": "代理、搅拌机"
+      },
+      {
+        "n": "1",
+        "descr": "ingredient one",
+        "descr_trans": "成分一"
+      },
+      {
+        "n": "2",
+        "descr": "ingredient two",
+        "descr_trans": "成分二"
+      },
+      {
+        "n": "3",
+        "descr": "end product",
+        "descr_trans": "成品"
+      },
+      {
+        "n": "4",
+        "descr": "domain of recombination",
+        "descr_trans": "重组域"
+      }
+    ],
+    "roleset_name_trans": "合并，再次混合"
+  }
 ]

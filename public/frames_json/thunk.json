@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thunk.01",
-        "roleset_name": "thunk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thunker, agent (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting noise, theme, (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of thunking"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thunk.01",
+    "roleset_name": "thunk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thunker, agent (transitive subject)",
+        "descr_trans": "thunker，代理人（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting noise, theme, (intransitive subject, transitive object)",
+        "descr_trans": "发出噪音的事物、主题（不及物主语、及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of thunking",
+        "descr_trans": "重击的位置"
+      }
+    ],
+    "roleset_name_trans": "重击"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transpose.01",
-        "roleset_name": "move or switch (written) elements, moving or switching",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transposer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) transposed"
-            },
-            {
-                "n": "2",
-                "descr": "source, initial state/place"
-            },
-            {
-                "n": "3",
-                "descr": "destination, final state/place"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transpose.01",
+    "roleset_name": "move or switch (written) elements, moving or switching",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transposer, agent",
+        "descr_trans": "转置、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) transposed",
+        "descr_trans": "事物调换"
+      },
+      {
+        "n": "2",
+        "descr": "source, initial state/place",
+        "descr_trans": "来源、初始状态/地点"
+      },
+      {
+        "n": "3",
+        "descr": "destination, final state/place",
+        "descr_trans": "目的地、最终状态/地点"
+      }
+    ],
+    "roleset_name_trans": "移动或切换（书面）元素，移动或切换"
+  }
 ]

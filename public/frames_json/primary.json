@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "primary.01",
-        "roleset_name": "first, main",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "primary entity"
-            },
-            {
-                "n": "2",
-                "descr": "primary to what (secondary thing)"
-            },
-            {
-                "n": "3",
-                "descr": "domain"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "primary.01",
+    "roleset_name": "first, main",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "primary entity",
+        "descr_trans": "主要实体"
+      },
+      {
+        "n": "2",
+        "descr": "primary to what (secondary thing)",
+        "descr_trans": "主要到什么（次要的事情）"
+      },
+      {
+        "n": "3",
+        "descr": "domain",
+        "descr_trans": "领域"
+      }
+    ],
+    "roleset_name_trans": "第一、主要"
+  }
 ]

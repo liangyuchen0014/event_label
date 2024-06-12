@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "partition.01",
-        "roleset_name": "to divide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity dividing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity divided, patient"
-            },
-            {
-                "n": "2",
-                "descr": "divided into what, end state, oblique"
-            },
-            {
-                "n": "3",
-                "descr": "divided from what, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "partition.01",
+    "roleset_name": "to divide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity dividing, agent",
+        "descr_trans": "实体分割、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity divided, patient",
+        "descr_trans": "实体分裂，病人"
+      },
+      {
+        "n": "2",
+        "descr": "divided into what, end state, oblique",
+        "descr_trans": "分为什么、结束状态、斜"
+      },
+      {
+        "n": "3",
+        "descr": "divided from what, source",
+        "descr_trans": "从什么、来源划分"
+      }
+    ],
+    "roleset_name_trans": "划分"
+  }
 ]

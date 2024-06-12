@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "labor.01",
-        "roleset_name": "suffer and work, work",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "theme, 'laborer' sorta but not really"
-            },
-            {
-                "n": "1",
-                "descr": "work, project"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "labor.02",
-        "roleset_name": "give birth, the act of giving birth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Mother"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "labor.03",
-        "roleset_name": "to belabor, make more difficult",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "belaborer, causer of difficulty"
-            },
-            {
-                "n": "1",
-                "descr": "point, entity belabored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "labor.01",
+    "roleset_name": "suffer and work, work",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "theme, 'laborer' sorta but not really",
+        "descr_trans": "主题，“劳动者”有点，但不是真的"
+      },
+      {
+        "n": "1",
+        "descr": "work, project",
+        "descr_trans": "工作、项目"
+      }
+    ],
+    "roleset_name_trans": "受苦、工作、工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "labor.02",
+    "roleset_name": "give birth, the act of giving birth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Mother",
+        "descr_trans": "母亲"
+      }
+    ],
+    "roleset_name_trans": "分娩，分娩的行为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "labor.03",
+    "roleset_name": "to belabor, make more difficult",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "belaborer, causer of difficulty",
+        "descr_trans": "劳苦者，制造困难的人"
+      },
+      {
+        "n": "1",
+        "descr": "point, entity belabored",
+        "descr_trans": "点，实体阐述"
+      }
+    ],
+    "roleset_name_trans": "使更加困难，使更加困难"
+  }
 ]

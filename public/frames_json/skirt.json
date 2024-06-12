@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skirt.01",
-        "roleset_name": "to surround, border",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity surrounding"
-            },
-            {
-                "n": "2",
-                "descr": "entity surrounded"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "skirt.02",
-        "roleset_name": "to evade, put off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "evader"
-            },
-            {
-                "n": "1",
-                "descr": "entity skirted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skirt.01",
+    "roleset_name": "to surround, border",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity surrounding",
+        "descr_trans": "实体周围"
+      },
+      {
+        "n": "2",
+        "descr": "entity surrounded",
+        "descr_trans": "实体被包围"
+      }
+    ],
+    "roleset_name_trans": "包围，边界"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "skirt.02",
+    "roleset_name": "to evade, put off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "evader",
+        "descr_trans": "逃避者"
+      },
+      {
+        "n": "1",
+        "descr": "entity skirted",
+        "descr_trans": "实体被围住"
+      }
+    ],
+    "roleset_name_trans": "逃避，推迟"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mend.01",
-        "roleset_name": "fix",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mender"
-            },
-            {
-                "n": "1",
-                "descr": "mended"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mend.01",
+    "roleset_name": "fix",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mender",
+        "descr_trans": "修补者"
+      },
+      {
+        "n": "1",
+        "descr": "mended",
+        "descr_trans": "修补的"
+      }
+    ],
+    "roleset_name_trans": "使固定"
+  }
 ]

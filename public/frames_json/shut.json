@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shut.01",
-        "roleset_name": "close",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the closing"
-            },
-            {
-                "n": "1",
-                "descr": "thing closing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shut_out.02",
-        "roleset_name": "exclude, except",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, excluder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing excluded"
-            },
-            {
-                "n": "2",
-                "descr": "excluded-from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shut_off.03",
-        "roleset_name": "exclude, except",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, excluder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing excluded"
-            },
-            {
-                "n": "2",
-                "descr": "excluded-from"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "shut_off.04",
-        "roleset_name": "turn off, as a light",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "flipper of the switch, agent"
-            },
-            {
-                "n": "1",
-                "descr": "light"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "shut_down.05",
-        "roleset_name": "cause to end, cause to come to a stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing ending"
-            },
-            {
-                "n": "2",
-                "descr": "Explicit instrument, thing ended with"
-            },
-            {
-                "n": "m",
-                "descr": "point at which something ends"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "shut_up.06",
-        "roleset_name": "stop talking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "person becoming quiet"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shut.01",
+    "roleset_name": "close",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the closing",
+        "descr_trans": "负责结账的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      }
+    ],
+    "roleset_name_trans": "关闭"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shut_out.02",
+    "roleset_name": "exclude, except",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, excluder",
+        "descr_trans": "代理、排除者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing excluded",
+        "descr_trans": "病人，排除的事情"
+      },
+      {
+        "n": "2",
+        "descr": "excluded-from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "排除，除了"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shut_off.03",
+    "roleset_name": "exclude, except",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, excluder",
+        "descr_trans": "代理、排除者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing excluded",
+        "descr_trans": "病人，排除的事情"
+      },
+      {
+        "n": "2",
+        "descr": "excluded-from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "排除，除了"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "shut_off.04",
+    "roleset_name": "turn off, as a light",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "flipper of the switch, agent",
+        "descr_trans": "开关的翻转器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "light",
+        "descr_trans": "光"
+      }
+    ],
+    "roleset_name_trans": "关掉，就像一盏灯一样"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "shut_down.05",
+    "roleset_name": "cause to end, cause to come to a stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing ending",
+        "descr_trans": "事情的结局"
+      },
+      {
+        "n": "2",
+        "descr": "Explicit instrument, thing ended with",
+        "descr_trans": "显式工具，事情结束于"
+      },
+      {
+        "n": "m",
+        "descr": "point at which something ends",
+        "descr_trans": "某事结束的点"
+      }
+    ],
+    "roleset_name_trans": "导致结束，导致停止"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "shut_up.06",
+    "roleset_name": "stop talking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "person becoming quiet",
+        "descr_trans": "人变得安静"
+      }
+    ],
+    "roleset_name_trans": "停止说话"
+  }
 ]

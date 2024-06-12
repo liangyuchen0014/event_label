@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cloud.01",
-        "roleset_name": "(cause to) be cloudy, becoming cloudy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing be(com)ing cloudy"
-            },
-            {
-                "n": "2",
-                "descr": "cloud, instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cloudy.02",
-        "roleset_name": "occluded (with clouds or cloudiness)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "cloudy thing"
-            },
-            {
-                "n": "2",
-                "descr": "cloud, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cloud.01",
+    "roleset_name": "(cause to) be cloudy, becoming cloudy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing be(com)ing cloudy",
+        "descr_trans": "天气多云"
+      },
+      {
+        "n": "2",
+        "descr": "cloud, instrument",
+        "descr_trans": "云、仪器"
+      }
+    ],
+    "roleset_name_trans": "（导致）多云，变得多云"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cloudy.02",
+    "roleset_name": "occluded (with clouds or cloudiness)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "cloudy thing",
+        "descr_trans": "多云的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cloud, instrument",
+        "descr_trans": "云、仪器"
+      }
+    ],
+    "roleset_name_trans": "遮挡（有云或有云）"
+  }
 ]

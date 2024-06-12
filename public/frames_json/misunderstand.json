@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misunderstand.01",
-        "roleset_name": "to understand incorrectly, misinterpretation, misconception",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "thing misunderstood"
-            },
-            {
-                "n": "2",
-                "descr": "as what, attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect/domain of arg1 that is being misunderstood"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misunderstand.01",
+    "roleset_name": "to understand incorrectly, misinterpretation, misconception",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "thing misunderstood",
+        "descr_trans": "被误解的事情"
+      },
+      {
+        "n": "2",
+        "descr": "as what, attribute of arg1",
+        "descr_trans": "arg1 的属性是什么"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect/domain of arg1 that is being misunderstood",
+        "descr_trans": "被误解的 arg1 的特定方面/域"
+      }
+    ],
+    "roleset_name_trans": "不正确地理解、曲解、误解"
+  }
 ]

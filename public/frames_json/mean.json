@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mean.01",
-        "roleset_name": "signal, convey",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "element containing meaning"
-            },
-            {
-                "n": "2",
-                "descr": "meaning"
-            },
-            {
-                "n": "3",
-                "descr": "perceiver, beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mean.02",
-        "roleset_name": "intend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing intended"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary, meant for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "mean.03",
-        "roleset_name": "stingy, meager",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "miser"
-            },
-            {
-                "n": "1",
-                "descr": "meager thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "mean.04",
-        "roleset_name": "mean, unkind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of misery, mean entity"
-            },
-            {
-                "n": "1",
-                "descr": "target of meanness"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "meaningful.05",
-        "roleset_name": "intend, explain, is equivalent to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, element containing or conveying meaning"
-            },
-            {
-                "n": "1",
-                "descr": "thing meant, explanation"
-            },
-            {
-                "n": "2",
-                "descr": "meant for/to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mean.01",
+    "roleset_name": "signal, convey",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "element containing meaning",
+        "descr_trans": "包含意义的元素"
+      },
+      {
+        "n": "2",
+        "descr": "meaning",
+        "descr_trans": "意义"
+      },
+      {
+        "n": "3",
+        "descr": "perceiver, beneficiary",
+        "descr_trans": "感知者、受益者"
+      }
+    ],
+    "roleset_name_trans": "信号，传达"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mean.02",
+    "roleset_name": "intend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing intended",
+        "descr_trans": "有意的事情"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary, meant for",
+        "descr_trans": "受益人，旨在"
+      }
+    ],
+    "roleset_name_trans": "打算"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "mean.03",
+    "roleset_name": "stingy, meager",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "miser",
+        "descr_trans": "吝啬鬼"
+      },
+      {
+        "n": "1",
+        "descr": "meager thing",
+        "descr_trans": "微不足道的东西"
+      }
+    ],
+    "roleset_name_trans": "吝啬的, 微薄的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "mean.04",
+    "roleset_name": "mean, unkind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of misery, mean entity",
+        "descr_trans": "痛苦的给予者，卑鄙的实体"
+      },
+      {
+        "n": "1",
+        "descr": "target of meanness",
+        "descr_trans": "卑鄙的目标"
+      }
+    ],
+    "roleset_name_trans": "刻薄、不友善"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "meaningful.05",
+    "roleset_name": "intend, explain, is equivalent to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, element containing or conveying meaning",
+        "descr_trans": "代理、包含或传达意义的元素"
+      },
+      {
+        "n": "1",
+        "descr": "thing meant, explanation",
+        "descr_trans": "事情的意思，解释"
+      },
+      {
+        "n": "2",
+        "descr": "meant for/to",
+        "descr_trans": "意味着/为了"
+      }
+    ],
+    "roleset_name_trans": "打算，解释，相当于"
+  }
 ]

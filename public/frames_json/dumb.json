@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dumb.01",
-        "roleset_name": "not smart or wise",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing described as dumb (may require concatenation- see exs)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dumb.02",
-        "roleset_name": "unable to speak",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity unable to speak"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dumb.01",
+    "roleset_name": "not smart or wise",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing described as dumb (may require concatenation- see exs)",
+        "descr_trans": "被描述为愚蠢的事物（可能需要串联 - 请参阅 exs）"
+      }
+    ],
+    "roleset_name_trans": "不聪明或不明智"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dumb.02",
+    "roleset_name": "unable to speak",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity unable to speak",
+        "descr_trans": "无法说话的实体"
+      }
+    ],
+    "roleset_name_trans": "无法说话"
+  }
 ]

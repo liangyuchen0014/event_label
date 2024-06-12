@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recreate.01",
-        "roleset_name": "create again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing recreated"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "attribute, secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recreation.02",
-        "roleset_name": "occupy with a diversion, pleasurable activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fun-haver"
-            },
-            {
-                "n": "1",
-                "descr": "fun activity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recreate.01",
+    "roleset_name": "create again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing recreated",
+        "descr_trans": "重新创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "attribute, secondary predication",
+        "descr_trans": "属性，辅助预测"
+      }
+    ],
+    "roleset_name_trans": "再次创建"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recreation.02",
+    "roleset_name": "occupy with a diversion, pleasurable activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fun-haver",
+        "descr_trans": "玩乐者"
+      },
+      {
+        "n": "1",
+        "descr": "fun activity",
+        "descr_trans": "有趣的活动"
+      }
+    ],
+    "roleset_name_trans": "从事消遣、愉快的活动"
+  }
 ]

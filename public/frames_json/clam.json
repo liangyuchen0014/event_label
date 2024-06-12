@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clam.01",
-        "roleset_name": "to gather clams",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity gathered"
-            },
-            {
-                "n": "2",
-                "descr": "gathered into"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clam.01",
+    "roleset_name": "to gather clams",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or causer",
+        "descr_trans": "代理人或起因"
+      },
+      {
+        "n": "1",
+        "descr": "entity gathered",
+        "descr_trans": "实体聚集"
+      },
+      {
+        "n": "2",
+        "descr": "gathered into",
+        "descr_trans": "聚集成"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "采集蛤蜊"
+  }
 ]

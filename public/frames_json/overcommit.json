@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overcommit.01",
-        "roleset_name": "to bind or obligate beyond capacity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity committing too much"
-            },
-            {
-                "n": "1",
-                "descr": "entity committed"
-            },
-            {
-                "n": "2",
-                "descr": "committed-to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overcommit.01",
+    "roleset_name": "to bind or obligate beyond capacity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity committing too much",
+        "descr_trans": "实体承诺过多"
+      },
+      {
+        "n": "1",
+        "descr": "entity committed",
+        "descr_trans": "实体承诺"
+      },
+      {
+        "n": "2",
+        "descr": "committed-to, recipient",
+        "descr_trans": "承诺，接受者"
+      }
+    ],
+    "roleset_name_trans": "超出能力范围的约束或义务"
+  }
 ]

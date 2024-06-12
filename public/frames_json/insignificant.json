@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insignificant.01",
-        "roleset_name": "not indicative of anything",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "non-signifier"
-            },
-            {
-                "n": "2",
-                "descr": "non-signified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "insignificant.02",
-        "roleset_name": "not notable in size or importance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is not notable"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insignificant.01",
+    "roleset_name": "not indicative of anything",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "non-signifier",
+        "descr_trans": "非能指"
+      },
+      {
+        "n": "2",
+        "descr": "non-signified",
+        "descr_trans": "无意义的"
+      }
+    ],
+    "roleset_name_trans": "不代表任何事情"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "insignificant.02",
+    "roleset_name": "not notable in size or importance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is not notable",
+        "descr_trans": "不值得注意的事情"
+      }
+    ],
+    "roleset_name_trans": "规模或重要性不显着"
+  }
 ]

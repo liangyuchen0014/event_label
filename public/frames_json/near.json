@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "near.01",
-        "roleset_name": "to approach",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "near.02",
-        "roleset_name": "spatially close",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "nearby entity"
-            },
-            {
-                "n": "2",
-                "descr": "in relation to, near to what"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "near.01",
+    "roleset_name": "to approach",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "接近"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "near.02",
+    "roleset_name": "spatially close",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "nearby entity",
+        "descr_trans": "附近的实体"
+      },
+      {
+        "n": "2",
+        "descr": "in relation to, near to what",
+        "descr_trans": "与什么有关，接近于什么"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "空间上接近"
+  }
 ]

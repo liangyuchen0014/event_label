@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deputize.01",
-        "roleset_name": "empower, as with an appointment as deputy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (sheriff?)"
-            },
-            {
-                "n": "1",
-                "descr": "deputy"
-            },
-            {
-                "n": "2",
-                "descr": "role/title appointed"
-            },
-            {
-                "n": "3",
-                "descr": "task in need of doing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deputize.01",
+    "roleset_name": "empower, as with an appointment as deputy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (sheriff?)",
+        "descr_trans": "特工（警长？）"
+      },
+      {
+        "n": "1",
+        "descr": "deputy",
+        "descr_trans": "副"
+      },
+      {
+        "n": "2",
+        "descr": "role/title appointed",
+        "descr_trans": "任命的角色/头衔"
+      },
+      {
+        "n": "3",
+        "descr": "task in need of doing",
+        "descr_trans": "需要做的任务"
+      }
+    ],
+    "roleset_name_trans": "授权，如任命为副手"
+  }
 ]

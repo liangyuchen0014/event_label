@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misstate.01",
-        "roleset_name": "to state wrongly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity misstated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misstate.01",
+    "roleset_name": "to state wrongly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, agent",
+        "descr_trans": "发言人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity misstated",
+        "descr_trans": "实体表述错误"
+      }
+    ],
+    "roleset_name_trans": "错误地陈述"
+  }
 ]

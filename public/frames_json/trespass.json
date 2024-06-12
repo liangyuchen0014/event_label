@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trespass.01",
-        "roleset_name": "to intrude,  take advantage, overstep, enter without permission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trespasser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity trespassed on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trespass.01",
+    "roleset_name": "to intrude,  take advantage, overstep, enter without permission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trespasser, agent",
+        "descr_trans": "侵入者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity trespassed on",
+        "descr_trans": "实体侵入"
+      }
+    ],
+    "roleset_name_trans": "侵入、利用、超越、未经许可进入"
+  }
 ]

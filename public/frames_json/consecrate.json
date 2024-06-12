@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consecrate.01",
-        "roleset_name": "to appoint, ordain to a clerical post",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, appointer"
-            },
-            {
-                "n": "1",
-                "descr": "Person being ordained, appointed"
-            },
-            {
-                "n": "2",
-                "descr": "Position, clerical post appointed to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "consecrate.02",
-        "roleset_name": "give, devote to a cause",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sacrificer, person giving to a cause"
-            },
-            {
-                "n": "1",
-                "descr": "Thing given, often reflexive"
-            },
-            {
-                "n": "2",
-                "descr": "Recipient, religion or cause"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "consecrate.03",
-        "roleset_name": "dedicate to a deity, render holy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity dedicating the object"
-            },
-            {
-                "n": "1",
-                "descr": "object dedicated, made holy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consecrate.01",
+    "roleset_name": "to appoint, ordain to a clerical post",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, appointer",
+        "descr_trans": "代理人、指定人"
+      },
+      {
+        "n": "1",
+        "descr": "Person being ordained, appointed",
+        "descr_trans": "被按立、任命的人"
+      },
+      {
+        "n": "2",
+        "descr": "Position, clerical post appointed to",
+        "descr_trans": "职务、文职职务任命为"
+      }
+    ],
+    "roleset_name_trans": "任命，指定担任文书职务"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "consecrate.02",
+    "roleset_name": "give, devote to a cause",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sacrificer, person giving to a cause",
+        "descr_trans": "牺牲者，为某种事业做出贡献的人"
+      },
+      {
+        "n": "1",
+        "descr": "Thing given, often reflexive",
+        "descr_trans": "给予的事物，通常是反射性的"
+      },
+      {
+        "n": "2",
+        "descr": "Recipient, religion or cause",
+        "descr_trans": "收件人、宗教或事业"
+      }
+    ],
+    "roleset_name_trans": "给予，致力于某项事业"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "consecrate.03",
+    "roleset_name": "dedicate to a deity, render holy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity dedicating the object",
+        "descr_trans": "奉献该对象的实体"
+      },
+      {
+        "n": "1",
+        "descr": "object dedicated, made holy",
+        "descr_trans": "奉献的对象，成为神圣的"
+      }
+    ],
+    "roleset_name_trans": "供奉神灵，使之神圣"
+  }
 ]

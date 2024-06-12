@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "internalize.01",
-        "roleset_name": "accept or adopt as one's own",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acceptor"
-            },
-            {
-                "n": "1",
-                "descr": "thing accepted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "internal.02",
-        "roleset_name": "on the inside",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "internal thing"
-            },
-            {
-                "n": "2",
-                "descr": "thing arg1 is on the inside of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "internalize.01",
+    "roleset_name": "accept or adopt as one's own",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acceptor",
+        "descr_trans": "受体"
+      },
+      {
+        "n": "1",
+        "descr": "thing accepted",
+        "descr_trans": "事情被接受"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "接受或采用为自己的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "internal.02",
+    "roleset_name": "on the inside",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "internal thing",
+        "descr_trans": "内在的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing arg1 is on the inside of",
+        "descr_trans": "东西 arg1 在里面"
+      }
+    ],
+    "roleset_name_trans": "在里面"
+  }
 ]

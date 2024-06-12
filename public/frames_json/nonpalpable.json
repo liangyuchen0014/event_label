@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonpalpable.01",
-        "roleset_name": "unable to examine by feel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "thing/patient/area not felt"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonpalpable.01",
+    "roleset_name": "unable to examine by feel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "thing/patient/area not felt",
+        "descr_trans": "未感觉到的事物/患者/区域"
+      }
+    ],
+    "roleset_name_trans": "无法凭感觉检验"
+  }
 ]

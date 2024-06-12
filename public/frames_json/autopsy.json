@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "autopsy.01",
-        "roleset_name": "perform a post-mortem dissection in search of cause of death",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity performing or responsible for autopsy"
-            },
-            {
-                "n": "1",
-                "descr": "the body"
-            },
-            {
-                "n": "2",
-                "descr": "in search of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "autopsy.01",
+    "roleset_name": "perform a post-mortem dissection in search of cause of death",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity performing or responsible for autopsy",
+        "descr_trans": "执行或负责尸检的代理人、实体"
+      },
+      {
+        "n": "1",
+        "descr": "the body",
+        "descr_trans": "身体"
+      },
+      {
+        "n": "2",
+        "descr": "in search of",
+        "descr_trans": "寻找"
+      }
+    ],
+    "roleset_name_trans": "进行尸检以寻找死因"
+  }
 ]

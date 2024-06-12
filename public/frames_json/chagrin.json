@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chagrin.01",
-        "roleset_name": "cause embarrassment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of embarrassment"
-            },
-            {
-                "n": "1",
-                "descr": "chagrined entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chagrin.01",
+    "roleset_name": "cause embarrassment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of embarrassment",
+        "descr_trans": "造成尴尬的人"
+      },
+      {
+        "n": "1",
+        "descr": "chagrined entity",
+        "descr_trans": "懊恼的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "造成尴尬"
+  }
 ]

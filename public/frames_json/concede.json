@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "concede.01",
-        "roleset_name": "admit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity admitting/giving something"
-            },
-            {
-                "n": "1",
-                "descr": "thing admitted or given"
-            },
-            {
-                "n": "2",
-                "descr": "recipient or listener, admitted or given to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "concede.02",
-        "roleset_name": "acknowledge loss of a contest before it's official",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Loser"
-            },
-            {
-                "n": "1",
-                "descr": "Contest lost"
-            },
-            {
-                "n": "2",
-                "descr": "Winner, conceded to whom?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "concede.03",
-        "roleset_name": "to grant as right or privilege.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Giver"
-            },
-            {
-                "n": "1",
-                "descr": "Thing given"
-            },
-            {
-                "n": "2",
-                "descr": "Given to whom? Recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "concede.01",
+    "roleset_name": "admit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity admitting/giving something",
+        "descr_trans": "实体承认/给予某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing admitted or given",
+        "descr_trans": "承认或给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient or listener, admitted or given to",
+        "descr_trans": "接受者或听众，承认或给予"
+      }
+    ],
+    "roleset_name_trans": "承认"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "concede.02",
+    "roleset_name": "acknowledge loss of a contest before it's official",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "1",
+        "descr": "Contest lost",
+        "descr_trans": "比赛失败"
+      },
+      {
+        "n": "2",
+        "descr": "Winner, conceded to whom?",
+        "descr_trans": "胜利者，让给了谁？"
+      }
+    ],
+    "roleset_name_trans": "在正式比赛之前承认输掉比赛"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "concede.03",
+    "roleset_name": "to grant as right or privilege.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "Thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Given to whom? Recipient",
+        "descr_trans": "给谁？接受者"
+      }
+    ],
+    "roleset_name_trans": "授予权利或特权。"
+  }
 ]

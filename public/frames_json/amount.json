@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "amount.01",
-        "roleset_name": "sums to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing(s) being counted"
-            },
-            {
-                "n": "2",
-                "descr": "count, total"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "amount.02",
-        "roleset_name": "is equivalent to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "focus"
-            },
-            {
-                "n": "2",
-                "descr": "ground, introduced by 'to'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "amount.01",
+    "roleset_name": "sums to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing(s) being counted",
+        "descr_trans": "正在计算的事物"
+      },
+      {
+        "n": "2",
+        "descr": "count, total",
+        "descr_trans": "计数、总计"
+      }
+    ],
+    "roleset_name_trans": "总和为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "amount.02",
+    "roleset_name": "is equivalent to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "focus",
+        "descr_trans": "重点"
+      },
+      {
+        "n": "2",
+        "descr": "ground, introduced by 'to'",
+        "descr_trans": "地面，由“to”引入"
+      }
+    ],
+    "roleset_name_trans": "相当于"
+  }
 ]

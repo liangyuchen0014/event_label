@@ -1,84 +1,100 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flatten.01",
-        "roleset_name": "(cause to) become flat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of flatness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "flat thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flatten_out.02",
-        "roleset_name": "flatten completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of flatness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "flat thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "flat.03",
-        "roleset_name": "lacking fizz",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "fizzless substance"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "flat.04",
-        "roleset_name": "not shiny (as a surface)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dull surface"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "flat.05",
-        "roleset_name": "lowered slightly in pitch",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "note that is slightly low"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "flat.06",
-        "roleset_name": "even, uniform, extending mainly in two dimensions (often horizontal)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "flat thing"
-            },
-            {
-                "n": "2",
-                "descr": "flat against what surface/plane"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flatten.01",
+    "roleset_name": "(cause to) become flat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of flatness, agent",
+        "descr_trans": "平坦的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "flat thing",
+        "descr_trans": "扁平的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）变平"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flatten_out.02",
+    "roleset_name": "flatten completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of flatness, agent",
+        "descr_trans": "平坦的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "flat thing",
+        "descr_trans": "扁平的东西"
+      }
+    ],
+    "roleset_name_trans": "完全压平"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "flat.03",
+    "roleset_name": "lacking fizz",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "fizzless substance",
+        "descr_trans": "无嘶嘶声的物质"
+      }
+    ],
+    "roleset_name_trans": "缺乏嘶嘶声"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "flat.04",
+    "roleset_name": "not shiny (as a surface)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dull surface",
+        "descr_trans": "暗淡的表面"
+      }
+    ],
+    "roleset_name_trans": "不闪亮（作为表面）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "flat.05",
+    "roleset_name": "lowered slightly in pitch",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "note that is slightly low",
+        "descr_trans": "请注意，略低"
+      }
+    ],
+    "roleset_name_trans": "音调稍微降低"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "flat.06",
+    "roleset_name": "even, uniform, extending mainly in two dimensions (often horizontal)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "flat thing",
+        "descr_trans": "扁平的东西"
+      },
+      {
+        "n": "2",
+        "descr": "flat against what surface/plane",
+        "descr_trans": "平放在什么表面/平面上"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "均匀，均匀，主要在二维上延伸（通常是水平的）"
+  }
 ]

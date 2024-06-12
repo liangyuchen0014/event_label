@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quieten.01",
-        "roleset_name": "to cause to become quiet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause,agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming quiet"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "quieten_down.02",
-        "roleset_name": "to cause to become quiet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming quiet"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "quiet.03",
-        "roleset_name": "to cause to become quiet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause,agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming quiet"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "quiet.04",
-        "roleset_name": "quiet",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "quiet entity"
-            },
-            {
-                "n": "2",
-                "descr": "quiet about what?"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "quiet_down.05",
-        "roleset_name": "to cause to become quiet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming quiet"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quieten.01",
+    "roleset_name": "to cause to become quiet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause,agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming quiet",
+        "descr_trans": "实体变得安静"
+      }
+    ],
+    "roleset_name_trans": "使变得安静"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "quieten_down.02",
+    "roleset_name": "to cause to become quiet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming quiet",
+        "descr_trans": "实体变得安静"
+      }
+    ],
+    "roleset_name_trans": "使变得安静"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "quiet.03",
+    "roleset_name": "to cause to become quiet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause,agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming quiet",
+        "descr_trans": "实体变得安静"
+      }
+    ],
+    "roleset_name_trans": "使变得安静"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "quiet.04",
+    "roleset_name": "quiet",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "quiet entity",
+        "descr_trans": "安静的实体"
+      },
+      {
+        "n": "2",
+        "descr": "quiet about what?",
+        "descr_trans": "安静什么？"
+      }
+    ],
+    "roleset_name_trans": "安静的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "quiet_down.05",
+    "roleset_name": "to cause to become quiet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming quiet",
+        "descr_trans": "实体变得安静"
+      }
+    ],
+    "roleset_name_trans": "使变得安静"
+  }
 ]

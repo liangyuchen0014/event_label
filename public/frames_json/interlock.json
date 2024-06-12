@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interlock.01",
-        "roleset_name": "link 2 or more things together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first entity linked"
-            },
-            {
-                "n": "2",
-                "descr": "second entity linked"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (string)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interlock.01",
+    "roleset_name": "link 2 or more things together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first entity linked",
+        "descr_trans": "链接的第一个实体"
+      },
+      {
+        "n": "2",
+        "descr": "second entity linked",
+        "descr_trans": "链接的第二个实体"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (string)",
+        "descr_trans": "乐器（弦乐器）"
+      }
+    ],
+    "roleset_name_trans": "将 2 个或更多事物链接在一起"
+  }
 ]

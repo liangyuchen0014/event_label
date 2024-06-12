@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trickle.01",
-        "roleset_name": "to move or proceed slowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity trickling"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trickle.01",
+    "roleset_name": "to move or proceed slowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity trickling",
+        "descr_trans": "实体滴流"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "缓慢地移动或进行"
+  }
 ]

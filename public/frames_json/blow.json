@@ -1,255 +1,307 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blow.01",
-        "roleset_name": "cause motion by air current",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wind"
-            },
-            {
-                "n": "1",
-                "descr": "thing being moved"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blow.02",
-        "roleset_name": "create, shape by blowing air",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shaper"
-            },
-            {
-                "n": "1",
-                "descr": "thing worked on"
-            },
-            {
-                "n": "2",
-                "descr": "end state, if different from arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "blow.03",
-        "roleset_name": "oral sex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "getter"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "blow.04",
-        "roleset_name": "like the wind",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "wind"
-            },
-            {
-                "n": "m",
-                "descr": "direction or location"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "blow.08",
-        "roleset_name": "explode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of explosion"
-            },
-            {
-                "n": "1",
-                "descr": "thing exploding"
-            },
-            {
-                "n": "2",
-                "descr": "entity damaged, damage caused by explosion"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "blow.09",
-        "roleset_name": "sound, like a trumpet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player"
-            },
-            {
-                "n": "1",
-                "descr": "trumpet"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "blow.10",
-        "roleset_name": "make an error",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "errer"
-            },
-            {
-                "n": "1",
-                "descr": "error"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "blow.11",
-        "roleset_name": "waste, consume, use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one wasting stuff"
-            },
-            {
-                "n": "1",
-                "descr": "theme, stuff wasted"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, what stuff was wasted on"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "blow.13",
-        "roleset_name": "suck, be bad",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is crappy"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "blow.14",
-        "roleset_name": "strike",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "blow_up.05",
-        "roleset_name": "inflate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inflater, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing grown"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "blow_up.06",
-        "roleset_name": "explode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing exploding"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (bomb)"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "blow_out.07",
-        "roleset_name": "explosive air motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "air"
-            },
-            {
-                "n": "1",
-                "descr": "thing being moved"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "blow_over.12",
-        "roleset_name": "pass",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is passing, ending"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "come_to_blows.15",
-        "roleset_name": "fight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first fighter"
-            },
-            {
-                "n": "1",
-                "descr": "second fighter, if separate"
-            },
-            {
-                "n": "2",
-                "descr": "spoils, over what, explicit mention of the battle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blow.01",
+    "roleset_name": "cause motion by air current",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wind",
+        "descr_trans": "风"
+      },
+      {
+        "n": "1",
+        "descr": "thing being moved",
+        "descr_trans": "被移动的东西"
+      }
+    ],
+    "roleset_name_trans": "通过气流引起运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blow.02",
+    "roleset_name": "create, shape by blowing air",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shaper",
+        "descr_trans": "塑造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing worked on",
+        "descr_trans": "事情进展顺利"
+      },
+      {
+        "n": "2",
+        "descr": "end state, if different from arg1",
+        "descr_trans": "结束状态，如果与 arg1 不同"
+      }
+    ],
+    "roleset_name_trans": "通过吹空气来创造、塑造"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "blow.03",
+    "roleset_name": "oral sex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      }
+    ],
+    "roleset_name_trans": "口交"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "blow.04",
+    "roleset_name": "like the wind",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "wind",
+        "descr_trans": "风"
+      },
+      {
+        "n": "m",
+        "descr": "direction or location",
+        "descr_trans": "方向或位置"
+      }
+    ],
+    "roleset_name_trans": "像风一样"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "blow.08",
+    "roleset_name": "explode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of explosion",
+        "descr_trans": "爆炸原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing exploding",
+        "descr_trans": "东西爆炸"
+      },
+      {
+        "n": "2",
+        "descr": "entity damaged, damage caused by explosion",
+        "descr_trans": "实体损坏、爆炸造成的损坏"
+      }
+    ],
+    "roleset_name_trans": "爆炸"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "blow.09",
+    "roleset_name": "sound, like a trumpet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "trumpet",
+        "descr_trans": "喇叭"
+      }
+    ],
+    "roleset_name_trans": "声音，像喇叭一样"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "blow.10",
+    "roleset_name": "make an error",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "errer",
+        "descr_trans": "漫步"
+      },
+      {
+        "n": "1",
+        "descr": "error",
+        "descr_trans": "错误"
+      }
+    ],
+    "roleset_name_trans": "犯错误"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "blow.11",
+    "roleset_name": "waste, consume, use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one wasting stuff",
+        "descr_trans": "代理，一件浪费的事"
+      },
+      {
+        "n": "1",
+        "descr": "theme, stuff wasted",
+        "descr_trans": "主题，浪费的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, what stuff was wasted on",
+        "descr_trans": "收件人，哪些东西被浪费了"
+      }
+    ],
+    "roleset_name_trans": "浪费、消耗、使用"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "blow.13",
+    "roleset_name": "suck, be bad",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is crappy",
+        "descr_trans": "蹩脚的东西"
+      }
+    ],
+    "roleset_name_trans": "糟透了，变坏了"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "blow.14",
+    "roleset_name": "strike",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "罢工"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "blow_up.05",
+    "roleset_name": "inflate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inflater, agent",
+        "descr_trans": "充气机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing grown",
+        "descr_trans": "东西长大了"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "膨胀"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "blow_up.06",
+    "roleset_name": "explode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing exploding",
+        "descr_trans": "东西爆炸"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (bomb)",
+        "descr_trans": "仪器（炸弹）"
+      }
+    ],
+    "roleset_name_trans": "爆炸"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "blow_out.07",
+    "roleset_name": "explosive air motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "air",
+        "descr_trans": "空气"
+      },
+      {
+        "n": "1",
+        "descr": "thing being moved",
+        "descr_trans": "被移动的东西"
+      }
+    ],
+    "roleset_name_trans": "爆炸性空气运动"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "blow_over.12",
+    "roleset_name": "pass",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is passing, ending",
+        "descr_trans": "正在过去、结束的事情"
+      }
+    ],
+    "roleset_name_trans": "经过"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "come_to_blows.15",
+    "roleset_name": "fight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first fighter",
+        "descr_trans": "第一战斗机"
+      },
+      {
+        "n": "1",
+        "descr": "second fighter, if separate",
+        "descr_trans": "第二名战斗机，如果分开的话"
+      },
+      {
+        "n": "2",
+        "descr": "spoils, over what, explicit mention of the battle",
+        "descr_trans": "战利品，关于什么，明确提及战斗"
+      }
+    ],
+    "roleset_name_trans": "斗争"
+  }
 ]

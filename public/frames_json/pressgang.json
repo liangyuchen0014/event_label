@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pressgang.01",
-        "roleset_name": "force/coerce (often into military/naval service)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, forcer"
-            },
-            {
-                "n": "1",
-                "descr": "entity forced"
-            },
-            {
-                "n": "2",
-                "descr": "forced into/to do what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pressgang.01",
+    "roleset_name": "force/coerce (often into military/naval service)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, forcer",
+        "descr_trans": "代理人、力量"
+      },
+      {
+        "n": "1",
+        "descr": "entity forced",
+        "descr_trans": "实体被迫"
+      },
+      {
+        "n": "2",
+        "descr": "forced into/to do what",
+        "descr_trans": "被迫/做某事"
+      }
+    ],
+    "roleset_name_trans": "武力/胁迫（通常进入军事/海军服役）"
+  }
 ]

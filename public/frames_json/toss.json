@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "toss.01",
-        "roleset_name": "throw randomly or toss dough, glances, throw randomly, throwing, perhaps underhand or casually",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tosser(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing tossed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "toss_out.02",
-        "roleset_name": "get rid of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing eliminated"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "toss_in.03",
-        "roleset_name": "include",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "includer"
-            },
-            {
-                "n": "1",
-                "descr": "included"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "toss_up.04",
-        "roleset_name": "be a wash, a tie, equivalent as options",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chooser"
-            },
-            {
-                "n": "1",
-                "descr": "decision that is a toss up (often 'it')"
-            },
-            {
-                "n": "2",
-                "descr": "mention of the first option (or both if together)"
-            },
-            {
-                "n": "3",
-                "descr": "mention of the second option"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "toss.01",
+    "roleset_name": "throw randomly or toss dough, glances, throw randomly, throwing, perhaps underhand or casually",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tosser(s)",
+        "descr_trans": "疯狂"
+      },
+      {
+        "n": "1",
+        "descr": "thing tossed",
+        "descr_trans": "东西扔了"
+      }
+    ],
+    "roleset_name_trans": "随意扔或扔面团，扫视，随意扔，扔，也许是低手或随意"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "toss_out.02",
+    "roleset_name": "get rid of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator, agent",
+        "descr_trans": "消除者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing eliminated",
+        "descr_trans": "消除的东西"
+      }
+    ],
+    "roleset_name_trans": "摆脱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "toss_in.03",
+    "roleset_name": "include",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "includer",
+        "descr_trans": "包含者"
+      },
+      {
+        "n": "1",
+        "descr": "included",
+        "descr_trans": "包括"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "toss_up.04",
+    "roleset_name": "be a wash, a tie, equivalent as options",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chooser",
+        "descr_trans": "选择器"
+      },
+      {
+        "n": "1",
+        "descr": "decision that is a toss up (often 'it')",
+        "descr_trans": "难以抉择的决定（通常是“it”）"
+      },
+      {
+        "n": "2",
+        "descr": "mention of the first option (or both if together)",
+        "descr_trans": "提及第一个选项（或两者，如果一起）"
+      },
+      {
+        "n": "3",
+        "descr": "mention of the second option",
+        "descr_trans": "提到第二个选项"
+      }
+    ],
+    "roleset_name_trans": "是水洗，领带，等同于选项"
+  }
 ]

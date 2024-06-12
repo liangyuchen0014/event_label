@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thin.01",
-        "roleset_name": "(cause to) become narrow or sparse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting thin"
-            },
-            {
-                "n": "2",
-                "descr": "component parts of arg1 that aren't close together"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thin.03",
-        "roleset_name": "have a low density, narrow width",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thin entity"
-            },
-            {
-                "n": "2",
-                "descr": "component parts of arg1 that aren't close together"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "thin_out.02",
-        "roleset_name": "thin_out: to make or become sparse or sparser",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting thin"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thin.01",
+    "roleset_name": "(cause to) become narrow or sparse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting thin",
+        "descr_trans": "实体变薄"
+      },
+      {
+        "n": "2",
+        "descr": "component parts of arg1 that aren't close together",
+        "descr_trans": "arg1 的组成部分不靠近"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得狭窄或稀疏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thin.03",
+    "roleset_name": "have a low density, narrow width",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thin entity",
+        "descr_trans": "薄实体"
+      },
+      {
+        "n": "2",
+        "descr": "component parts of arg1 that aren't close together",
+        "descr_trans": "arg1 的组成部分不靠近"
+      }
+    ],
+    "roleset_name_trans": "密度低、宽度窄"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "thin_out.02",
+    "roleset_name": "thin_out: to make or become sparse or sparser",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting thin",
+        "descr_trans": "实体变薄"
+      }
+    ],
+    "roleset_name_trans": "Thin_out：使稀疏或变得稀疏"
+  }
 ]

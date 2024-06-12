@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrombose.01",
-        "roleset_name": "to affect with or be affected by thrombosis",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of thrombosing (not sure this is possible)"
-            },
-            {
-                "n": "1",
-                "descr": "Entity affected by thrombosis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrombose.01",
+    "roleset_name": "to affect with or be affected by thrombosis",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of thrombosing (not sure this is possible)",
+        "descr_trans": "血栓形成的原因（不确定这是否可能）"
+      },
+      {
+        "n": "1",
+        "descr": "Entity affected by thrombosis",
+        "descr_trans": "受血栓影响的实体"
+      }
+    ],
+    "roleset_name_trans": "影响或受血栓影响"
+  }
 ]

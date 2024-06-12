@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remortgage.01",
-        "roleset_name": "mortgage again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mortgager, initiator of mortgage"
-            },
-            {
-                "n": "1",
-                "descr": "possession(s), thing mortgaged"
-            },
-            {
-                "n": "2",
-                "descr": "provider of money"
-            },
-            {
-                "n": "3",
-                "descr": "money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remortgage.01",
+    "roleset_name": "mortgage again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mortgager, initiator of mortgage",
+        "descr_trans": "抵押人，抵押贷款的发起人"
+      },
+      {
+        "n": "1",
+        "descr": "possession(s), thing mortgaged",
+        "descr_trans": "财产、抵押物"
+      },
+      {
+        "n": "2",
+        "descr": "provider of money",
+        "descr_trans": "金钱提供者"
+      },
+      {
+        "n": "3",
+        "descr": "money",
+        "descr_trans": "钱"
+      }
+    ],
+    "roleset_name_trans": "再次抵押"
+  }
 ]

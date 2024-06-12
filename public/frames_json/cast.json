@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cast.01",
-        "roleset_name": "throw outward, throw (dice, fishing lines, shadows)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thrower"
-            },
-            {
-                "n": "1",
-                "descr": "thing thrown"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cast.02",
-        "roleset_name": "name, assign a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer, assigner of a role"
-            },
-            {
-                "n": "1",
-                "descr": "entity playing the role"
-            },
-            {
-                "n": "2",
-                "descr": "role"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cast.03",
-        "roleset_name": "make 3d reproductions from a mold",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "foundry worker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "final product"
-            },
-            {
-                "n": "2",
-                "descr": "material used"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "cast.04",
-        "roleset_name": "bandage in plaster",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient, bone set"
-            },
-            {
-                "n": "2",
-                "descr": "material used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cast.01",
+    "roleset_name": "throw outward, throw (dice, fishing lines, shadows)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thrower",
+        "descr_trans": "投掷者"
+      },
+      {
+        "n": "1",
+        "descr": "thing thrown",
+        "descr_trans": "扔东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "向外扔，扔（骰子、钓鱼线、阴影）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cast.02",
+    "roleset_name": "name, assign a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer, assigner of a role",
+        "descr_trans": "命名者，角色分配者"
+      },
+      {
+        "n": "1",
+        "descr": "entity playing the role",
+        "descr_trans": "扮演角色的实体"
+      },
+      {
+        "n": "2",
+        "descr": "role",
+        "descr_trans": "角色"
+      }
+    ],
+    "roleset_name_trans": "名称、分配角色"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cast.03",
+    "roleset_name": "make 3d reproductions from a mold",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "foundry worker, agent",
+        "descr_trans": "铸造工人、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "final product",
+        "descr_trans": "完成品"
+      },
+      {
+        "n": "2",
+        "descr": "material used",
+        "descr_trans": "使用的材料"
+      }
+    ],
+    "roleset_name_trans": "用模具制作 3D 复制品"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "cast.04",
+    "roleset_name": "bandage in plaster",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, bone set",
+        "descr_trans": "病人, 骨组"
+      },
+      {
+        "n": "2",
+        "descr": "material used",
+        "descr_trans": "使用的材料"
+      }
+    ],
+    "roleset_name_trans": "石膏绷带"
+  }
 ]

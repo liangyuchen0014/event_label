@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "manipulate.01",
-        "roleset_name": "handle, manually handling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "handler"
-            },
-            {
-                "n": "1",
-                "descr": "thing handled"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "manipulate.02",
-        "roleset_name": "force, influencing or tampering with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "manipulate.01",
+    "roleset_name": "handle, manually handling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "handler",
+        "descr_trans": "处理程序"
+      },
+      {
+        "n": "1",
+        "descr": "thing handled",
+        "descr_trans": "处理的事情"
+      }
+    ],
+    "roleset_name_trans": "手柄，手动处理"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "manipulate.02",
+    "roleset_name": "force, influencing or tampering with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "强制、影响或篡改"
+  }
 ]

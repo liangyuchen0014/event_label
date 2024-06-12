@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swipe.01",
-        "roleset_name": "strike with a swinging motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "striker"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swipe.02",
-        "roleset_name": "steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief"
-            },
-            {
-                "n": "1",
-                "descr": "goods"
-            },
-            {
-                "n": "2",
-                "descr": "source, swiped from whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swipe.01",
+    "roleset_name": "strike with a swinging motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "striker",
+        "descr_trans": "前锋"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "以摆动动作击打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swipe.02",
+    "roleset_name": "steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief",
+        "descr_trans": "贼"
+      },
+      {
+        "n": "1",
+        "descr": "goods",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "source, swiped from whom?",
+        "descr_trans": "来源，从谁那里盗取的？"
+      }
+    ],
+    "roleset_name_trans": "偷"
+  }
 ]

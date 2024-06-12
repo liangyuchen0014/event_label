@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "localize.01",
-        "roleset_name": "make local, assigning to a specific place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "local thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "local.02",
-        "roleset_name": "belonging to a particular area",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity belonging to a particular area"
-            },
-            {
-                "n": "2",
-                "descr": "the particular area"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "localize.01",
+    "roleset_name": "make local, assigning to a specific place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "local thing",
+        "descr_trans": "当地的事情"
+      }
+    ],
+    "roleset_name_trans": "make local，分配到特定位置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "local.02",
+    "roleset_name": "belonging to a particular area",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity belonging to a particular area",
+        "descr_trans": "属于特定区域的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the particular area",
+        "descr_trans": "特定区域"
+      }
+    ],
+    "roleset_name_trans": "属于特定区域"
+  }
 ]

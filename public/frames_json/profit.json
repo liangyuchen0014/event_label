@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "profit.01",
-        "roleset_name": "make money from, wages",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making money"
-            },
-            {
-                "n": "1",
-                "descr": "source"
-            },
-            {
-                "n": "2",
-                "descr": "the profit itself, amount"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "profitable.02",
-        "roleset_name": "producing a profit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making money"
-            },
-            {
-                "n": "1",
-                "descr": "source"
-            },
-            {
-                "n": "2",
-                "descr": "the profit itself, amount"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "profit.01",
+    "roleset_name": "make money from, wages",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making money",
+        "descr_trans": "赚钱的实体"
+      },
+      {
+        "n": "1",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "2",
+        "descr": "the profit itself, amount",
+        "descr_trans": "利润本身，金额"
+      }
+    ],
+    "roleset_name_trans": "靠工资赚钱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "profitable.02",
+    "roleset_name": "producing a profit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making money",
+        "descr_trans": "赚钱的实体"
+      },
+      {
+        "n": "1",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "2",
+        "descr": "the profit itself, amount",
+        "descr_trans": "利润本身，金额"
+      }
+    ],
+    "roleset_name_trans": "产生利润"
+  }
 ]

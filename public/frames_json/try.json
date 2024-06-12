@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "try.01",
-        "roleset_name": "attempt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent/Entity Trying"
-            },
-            {
-                "n": "1",
-                "descr": "thing tried"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "try.02",
-        "roleset_name": "lawsuit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "litigant"
-            },
-            {
-                "n": "1",
-                "descr": "entity tried (defendant/case)"
-            },
-            {
-                "n": "2",
-                "descr": "adjudicator"
-            },
-            {
-                "n": "3",
-                "descr": "tried for: crime/accusation"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "try.04",
-        "roleset_name": "various idtioms: try one's hand at,   try one's patience, etc.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tryer"
-            },
-            {
-                "n": "1",
-                "descr": "thing tried (hand, patience)"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of Arg 1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "try_out.03",
-        "roleset_name": "audition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "auditionee"
-            },
-            {
-                "n": "1",
-                "descr": "role"
-            },
-            {
-                "n": "2",
-                "descr": "casting agency"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "try_out.05",
-        "roleset_name": "test the potential of something, taste/wear for the first time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tester"
-            },
-            {
-                "n": "1",
-                "descr": "thing being tested"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "trial.06",
-        "roleset_name": "medical trial, consumer trial, or similar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient, consumer"
-            },
-            {
-                "n": "2",
-                "descr": "medication/ treatment, thing tested"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "try.01",
+    "roleset_name": "attempt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent/Entity Trying",
+        "descr_trans": "代理/实体尝试"
+      },
+      {
+        "n": "1",
+        "descr": "thing tried",
+        "descr_trans": "尝试过的事情"
+      }
+    ],
+    "roleset_name_trans": "试图"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "try.02",
+    "roleset_name": "lawsuit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "litigant",
+        "descr_trans": "当事人"
+      },
+      {
+        "n": "1",
+        "descr": "entity tried (defendant/case)",
+        "descr_trans": "受审实体（被告/案件）"
+      },
+      {
+        "n": "2",
+        "descr": "adjudicator",
+        "descr_trans": "裁决者"
+      },
+      {
+        "n": "3",
+        "descr": "tried for: crime/accusation",
+        "descr_trans": "受审原因：犯罪/指控"
+      }
+    ],
+    "roleset_name_trans": "诉讼"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "try.04",
+    "roleset_name": "various idtioms: try one's hand at,   try one's patience, etc.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tryer",
+        "descr_trans": "尝试者"
+      },
+      {
+        "n": "1",
+        "descr": "thing tried (hand, patience)",
+        "descr_trans": "尝试过的事情（手，耐心）"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of Arg 1",
+        "descr_trans": "Arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "各种习语：尝试一下，尝试一下耐心等。"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "try_out.03",
+    "roleset_name": "audition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "auditionee",
+        "descr_trans": "试镜者"
+      },
+      {
+        "n": "1",
+        "descr": "role",
+        "descr_trans": "角色"
+      },
+      {
+        "n": "2",
+        "descr": "casting agency",
+        "descr_trans": "选角机构"
+      }
+    ],
+    "roleset_name_trans": "试镜"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "try_out.05",
+    "roleset_name": "test the potential of something, taste/wear for the first time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tester",
+        "descr_trans": "测试员"
+      },
+      {
+        "n": "1",
+        "descr": "thing being tested",
+        "descr_trans": "正在测试的东西"
+      }
+    ],
+    "roleset_name_trans": "第一次测试某物的潜力、品味/穿着"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "trial.06",
+    "roleset_name": "medical trial, consumer trial, or similar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, consumer",
+        "descr_trans": "病人、消费者"
+      },
+      {
+        "n": "2",
+        "descr": "medication/ treatment, thing tested",
+        "descr_trans": "药物/治疗，测试的东西"
+      }
+    ],
+    "roleset_name_trans": "医学试验、消费者试验或类似的"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overtax.01",
-        "roleset_name": "charge too much tax",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taxer"
-            },
-            {
-                "n": "1",
-                "descr": "amount of tax"
-            },
-            {
-                "n": "2",
-                "descr": "taxpayer"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overtax.01",
+    "roleset_name": "charge too much tax",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taxer",
+        "descr_trans": "税"
+      },
+      {
+        "n": "1",
+        "descr": "amount of tax",
+        "descr_trans": "税额"
+      },
+      {
+        "n": "2",
+        "descr": "taxpayer",
+        "descr_trans": "纳税人"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "征收过多税款"
+  }
 ]

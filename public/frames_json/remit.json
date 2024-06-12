@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remit.01",
-        "roleset_name": "make payment, give (perhaps for consideration)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, payer"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing given/paid"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, person receiving payment"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "remission.02",
-        "roleset_name": "abate in intensity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of remission"
-            },
-            {
-                "n": "1",
-                "descr": "thing abating"
-            },
-            {
-                "n": "2",
-                "descr": "abating for whom; entity experiencing abatement of ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remit.01",
+    "roleset_name": "make payment, give (perhaps for consideration)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, payer",
+        "descr_trans": "代理人、付款人"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing given/paid",
+        "descr_trans": "主题、给予/付费的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, person receiving payment",
+        "descr_trans": "收款人, 接收付款的人"
+      }
+    ],
+    "roleset_name_trans": "付款，给予（也许是为了考虑）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "remission.02",
+    "roleset_name": "abate in intensity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of remission",
+        "descr_trans": "缓解原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing abating",
+        "descr_trans": "事情减弱"
+      },
+      {
+        "n": "2",
+        "descr": "abating for whom; entity experiencing abatement of ARG1",
+        "descr_trans": "为谁减弱；经历 ARG1 减弱的实体"
+      }
+    ],
+    "roleset_name_trans": "强度减弱"
+  }
 ]

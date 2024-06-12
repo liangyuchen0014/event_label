@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rebound.01",
-        "roleset_name": "recover from, bounce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing rebounding"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point, rebounded from"
-            },
-            {
-                "n": "4",
-                "descr": "end point, attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rebound.01",
+    "roleset_name": "recover from, bounce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent",
+        "descr_trans": "致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing rebounding",
+        "descr_trans": "东西反弹"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or MNR",
+        "descr_trans": "外部或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point, rebounded from",
+        "descr_trans": "起点，反弹自"
+      },
+      {
+        "n": "4",
+        "descr": "end point, attribute of arg1",
+        "descr_trans": "终点，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "恢复, 反弹"
+  }
 ]

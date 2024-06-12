@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discrete.01",
-        "roleset_name": "separate; distinct; individuated, not connected",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first discrete thing"
-            },
-            {
-                "n": "2",
-                "descr": "second discrete thing, if distinguished from Arg1"
-            },
-            {
-                "n": "3",
-                "descr": "domain in which the entities are discrete"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discrete.01",
+    "roleset_name": "separate; distinct; individuated, not connected",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first discrete thing",
+        "descr_trans": "第一个离散事物"
+      },
+      {
+        "n": "2",
+        "descr": "second discrete thing, if distinguished from Arg1",
+        "descr_trans": "第二个离散事物，如果与 Arg1 区分开"
+      },
+      {
+        "n": "3",
+        "descr": "domain in which the entities are discrete",
+        "descr_trans": "实体是离散的域"
+      }
+    ],
+    "roleset_name_trans": "分离;清楚的;个体化，不相连"
+  }
 ]

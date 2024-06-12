@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clatter.01",
-        "roleset_name": "make rattling noises",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "noisy thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clatter.02",
-        "roleset_name": "move while clattering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clatter.01",
+    "roleset_name": "make rattling noises",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "noisy thing",
+        "descr_trans": "吵闹的东西"
+      }
+    ],
+    "roleset_name_trans": "发出嘎嘎声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clatter.02",
+    "roleset_name": "move while clattering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "一边移动一边发出咔哒声"
+  }
 ]

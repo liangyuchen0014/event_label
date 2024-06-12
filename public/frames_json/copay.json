@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "copay.01",
-        "roleset_name": "pay a pre-determined portion of a bill that is otherwise covered by insurance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "patient paying a copay"
-            },
-            {
-                "n": "1",
-                "descr": "amount co-payed"
-            },
-            {
-                "n": "2",
-                "descr": "payee"
-            },
-            {
-                "n": "3",
-                "descr": "services paid for"
-            },
-            {
-                "n": "4",
-                "descr": "insurance company paying the other portion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "copay.01",
+    "roleset_name": "pay a pre-determined portion of a bill that is otherwise covered by insurance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "patient paying a copay",
+        "descr_trans": "患者支付自付费用"
+      },
+      {
+        "n": "1",
+        "descr": "amount co-payed",
+        "descr_trans": "共付金额"
+      },
+      {
+        "n": "2",
+        "descr": "payee",
+        "descr_trans": "收款人"
+      },
+      {
+        "n": "3",
+        "descr": "services paid for",
+        "descr_trans": "付费服务"
+      },
+      {
+        "n": "4",
+        "descr": "insurance company paying the other portion",
+        "descr_trans": "保险公司支付另一部分"
+      }
+    ],
+    "roleset_name_trans": "支付保险所涵盖的账单的预定部分"
+  }
 ]

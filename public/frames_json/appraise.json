@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appraise.01",
-        "roleset_name": "set a price, value",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appraise.02",
-        "roleset_name": "come to understand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understanding entity"
-            },
-            {
-                "n": "1",
-                "descr": "knowledge, topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appraise.01",
+    "roleset_name": "set a price, value",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "设定价格、价值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appraise.02",
+    "roleset_name": "come to understand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understanding entity",
+        "descr_trans": "理解实体"
+      },
+      {
+        "n": "1",
+        "descr": "knowledge, topic",
+        "descr_trans": "知识、话题"
+      }
+    ],
+    "roleset_name_trans": "明白"
+  }
 ]

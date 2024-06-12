@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slurp.01",
-        "roleset_name": "drink noisily with sucking sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "theme, entity slurped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slurp.01",
+    "roleset_name": "drink noisily with sucking sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "theme, entity slurped",
+        "descr_trans": "主题，实体被吞食"
+      }
+    ],
+    "roleset_name_trans": "喝水时发出吸吮声"
+  }
 ]

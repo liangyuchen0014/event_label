@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commit.01",
-        "roleset_name": "pledge, designate to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity committed"
-            },
-            {
-                "n": "2",
-                "descr": "committed to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "commit.02",
-        "roleset_name": "commit a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "criminal"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commit.01",
+    "roleset_name": "pledge, designate to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity committed",
+        "descr_trans": "实体承诺"
+      },
+      {
+        "n": "2",
+        "descr": "committed to",
+        "descr_trans": "承诺"
+      }
+    ],
+    "roleset_name_trans": "承诺，指定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "commit.02",
+    "roleset_name": "commit a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "犯罪"
+  }
 ]

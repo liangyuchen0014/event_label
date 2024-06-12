@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "probable.01",
-        "roleset_name": "likely (implies high probability)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "likely thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "probability.02",
-        "roleset_name": "statistical measurment of chance, could be high or low",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with a measurable chance of occurance"
-            },
-            {
-                "n": "2",
-                "descr": "the actual statistic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "probable.01",
+    "roleset_name": "likely (implies high probability)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "likely thing",
+        "descr_trans": "可能的事情"
+      }
+    ],
+    "roleset_name_trans": "可能（意味着高概率）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "probability.02",
+    "roleset_name": "statistical measurment of chance, could be high or low",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with a measurable chance of occurance",
+        "descr_trans": "发生可能性可测量的事物"
+      },
+      {
+        "n": "2",
+        "descr": "the actual statistic",
+        "descr_trans": "实际统计"
+      }
+    ],
+    "roleset_name_trans": "概率的统计测量，可能高也可能低"
+  }
 ]

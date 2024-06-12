@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "canvass.01",
-        "roleset_name": "to survey widely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surveyor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity canvassed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "canvass.01",
+    "roleset_name": "to survey widely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surveyor, agent",
+        "descr_trans": "测量员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity canvassed",
+        "descr_trans": "实体被调查"
+      }
+    ],
+    "roleset_name_trans": "广泛调查"
+  }
 ]

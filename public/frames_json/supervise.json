@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supervise.01",
-        "roleset_name": "supervise, overseeing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supervisor"
-            },
-            {
-                "n": "1",
-                "descr": "thing supervised"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supervise.01",
+    "roleset_name": "supervise, overseeing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supervisor",
+        "descr_trans": "导师"
+      },
+      {
+        "n": "1",
+        "descr": "thing supervised",
+        "descr_trans": "受监督的事物"
+      }
+    ],
+    "roleset_name_trans": "监督，监督"
+  }
 ]

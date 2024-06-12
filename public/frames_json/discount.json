@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discount.01",
-        "roleset_name": "reduce in price",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discounter"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount of reduction"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "discount.02",
-        "roleset_name": "identify as unimportant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "identifier"
-            },
-            {
-                "n": "1",
-                "descr": "unimportant thing"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discount.01",
+    "roleset_name": "reduce in price",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discounter",
+        "descr_trans": "折扣店"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount of reduction",
+        "descr_trans": "EXT、减少量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "降价"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "discount.02",
+    "roleset_name": "identify as unimportant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "identifier",
+        "descr_trans": "标识符"
+      },
+      {
+        "n": "1",
+        "descr": "unimportant thing",
+        "descr_trans": "不重要的事情"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "认为不重要"
+  }
 ]

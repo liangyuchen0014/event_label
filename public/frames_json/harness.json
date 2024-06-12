@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harness.01",
-        "roleset_name": "control",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "controller"
-            },
-            {
-                "n": "1",
-                "descr": "controlled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harness.01",
+    "roleset_name": "control",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "controller",
+        "descr_trans": "控制器"
+      },
+      {
+        "n": "1",
+        "descr": "controlled",
+        "descr_trans": "受控"
+      }
+    ],
+    "roleset_name_trans": "控制"
+  }
 ]

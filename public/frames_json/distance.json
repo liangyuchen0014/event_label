@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "distance.01",
-        "roleset_name": "cause distance between two things",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of distance"
-            },
-            {
-                "n": "1",
-                "descr": "first thing"
-            },
-            {
-                "n": "2",
-                "descr": "second thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "distant.02",
-        "roleset_name": "be far from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of distance"
-            },
-            {
-                "n": "1",
-                "descr": "first distant thing"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, distant from what"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "distance.01",
+    "roleset_name": "cause distance between two things",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of distance",
+        "descr_trans": "距离的原因"
+      },
+      {
+        "n": "1",
+        "descr": "first thing",
+        "descr_trans": "第一件事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing",
+        "descr_trans": "第二件事"
+      }
+    ],
+    "roleset_name_trans": "造成两事物之间的距离"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "distant.02",
+    "roleset_name": "be far from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of distance",
+        "descr_trans": "距离的原因"
+      },
+      {
+        "n": "1",
+        "descr": "first distant thing",
+        "descr_trans": "第一件遥远的事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, distant from what",
+        "descr_trans": "第二件事，远离什么"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "远离"
+  }
 ]

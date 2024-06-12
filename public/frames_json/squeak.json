@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squeak.01",
-        "roleset_name": "to make a screeching noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity squeaking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "squeak.02",
-        "roleset_name": "struggle to reach an end/goal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity struggling"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squeak.01",
+    "roleset_name": "to make a screeching noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity squeaking",
+        "descr_trans": "实体吱吱声"
+      }
+    ],
+    "roleset_name_trans": "发出刺耳的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "squeak.02",
+    "roleset_name": "struggle to reach an end/goal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity struggling",
+        "descr_trans": "实体挣扎"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "努力达到目的/目标"
+  }
 ]

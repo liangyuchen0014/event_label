@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crank_up.01",
-        "roleset_name": "increase intensity of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cranker"
-            },
-            {
-                "n": "1",
-                "descr": "what's gotten more intense"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crank_out.02",
-        "roleset_name": "produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "producer, creator"
-            },
-            {
-                "n": "1",
-                "descr": "product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crank_up.01",
+    "roleset_name": "increase intensity of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cranker",
+        "descr_trans": "曲柄"
+      },
+      {
+        "n": "1",
+        "descr": "what's gotten more intense",
+        "descr_trans": "什么变得更加激烈"
+      }
+    ],
+    "roleset_name_trans": "增加强度"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crank_out.02",
+    "roleset_name": "produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "producer, creator",
+        "descr_trans": "制作人、创作者"
+      },
+      {
+        "n": "1",
+        "descr": "product",
+        "descr_trans": "产品"
+      }
+    ],
+    "roleset_name_trans": "生产"
+  }
 ]

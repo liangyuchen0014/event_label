@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aspire.01",
-        "roleset_name": "hope to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hoper"
-            },
-            {
-                "n": "1",
-                "descr": "action hoped to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "aspirate.101",
-        "roleset_name": "to suck fluid from some kind of pocket/joint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor"
-            },
-            {
-                "n": "1",
-                "descr": "Substance"
-            },
-            {
-                "n": "2",
-                "descr": "Source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "aspirate.102",
-        "roleset_name": "suck fluid or object into lungs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent inhaling"
-            },
-            {
-                "n": "1",
-                "descr": "Substance or object"
-            },
-            {
-                "n": "2",
-                "descr": "Destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aspire.01",
+    "roleset_name": "hope to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hoper",
+        "descr_trans": "堆"
+      },
+      {
+        "n": "1",
+        "descr": "action hoped to",
+        "descr_trans": "希望采取行动"
+      }
+    ],
+    "roleset_name_trans": "希望"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "aspirate.101",
+    "roleset_name": "to suck fluid from some kind of pocket/joint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "Substance",
+        "descr_trans": "物质"
+      },
+      {
+        "n": "2",
+        "descr": "Source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "从某种口袋/关节中吸取液体"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "aspirate.102",
+    "roleset_name": "suck fluid or object into lungs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent inhaling",
+        "descr_trans": "药剂吸入"
+      },
+      {
+        "n": "1",
+        "descr": "Substance or object",
+        "descr_trans": "物质或物体"
+      },
+      {
+        "n": "2",
+        "descr": "Destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "将液体或物体吸入肺部"
+  }
 ]

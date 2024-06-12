@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "replace.01",
-        "roleset_name": "substitute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "replacer"
-            },
-            {
-                "n": "1",
-                "descr": "old thing"
-            },
-            {
-                "n": "2",
-                "descr": "new thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "replace.01",
+    "roleset_name": "substitute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "replacer",
+        "descr_trans": "替代者"
+      },
+      {
+        "n": "1",
+        "descr": "old thing",
+        "descr_trans": "老东西"
+      },
+      {
+        "n": "2",
+        "descr": "new thing",
+        "descr_trans": "新事物"
+      }
+    ],
+    "roleset_name_trans": "代替"
+  }
 ]

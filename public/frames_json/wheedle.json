@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wheedle.01",
-        "roleset_name": "coax",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coaxer"
-            },
-            {
-                "n": "1",
-                "descr": "request"
-            },
-            {
-                "n": "2",
-                "descr": "source of requested object/action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wheedle.01",
+    "roleset_name": "coax",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coaxer",
+        "descr_trans": "哄骗者"
+      },
+      {
+        "n": "1",
+        "descr": "request",
+        "descr_trans": "要求"
+      },
+      {
+        "n": "2",
+        "descr": "source of requested object/action",
+        "descr_trans": "请求对象/动作的来源"
+      }
+    ],
+    "roleset_name_trans": "哄"
+  }
 ]

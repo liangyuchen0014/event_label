@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "doublewrap.01",
-        "roleset_name": "enclose twice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of wrapping"
-            },
-            {
-                "n": "1",
-                "descr": "thing wrapped (ie, gift)"
-            },
-            {
-                "n": "2",
-                "descr": "wrapper (ie, paper)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "doublewrap.01",
+    "roleset_name": "enclose twice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of wrapping",
+        "descr_trans": "缠绕原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing wrapped (ie, gift)",
+        "descr_trans": "包装好的东西（即礼物）"
+      },
+      {
+        "n": "2",
+        "descr": "wrapper (ie, paper)",
+        "descr_trans": "包装纸（即纸）"
+      }
+    ],
+    "roleset_name_trans": "包围两次"
+  }
 ]

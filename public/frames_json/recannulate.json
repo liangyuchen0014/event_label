@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recannulate.01",
-        "roleset_name": "use a cannula agin, or re-insert a tube",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity tube or cannula is reinserted into"
-            },
-            {
-                "n": "2",
-                "descr": "the cannula"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recannulate.01",
+    "roleset_name": "use a cannula agin, or re-insert a tube",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity tube or cannula is reinserted into",
+        "descr_trans": "将实体管或插管重新插入"
+      },
+      {
+        "n": "2",
+        "descr": "the cannula",
+        "descr_trans": "插管"
+      }
+    ],
+    "roleset_name_trans": "再次使用插管，或重新插入管子"
+  }
 ]

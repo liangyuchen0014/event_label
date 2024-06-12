@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skirmish.01",
-        "roleset_name": "fight sporadically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first or all combatants"
-            },
-            {
-                "n": "1",
-                "descr": "additional combatants, if separate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skirmish.01",
+    "roleset_name": "fight sporadically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first or all combatants",
+        "descr_trans": "第一个或所有战斗人员"
+      },
+      {
+        "n": "1",
+        "descr": "additional combatants, if separate",
+        "descr_trans": "额外的战斗人员（如果分开的话）"
+      }
+    ],
+    "roleset_name_trans": "零星打架"
+  }
 ]

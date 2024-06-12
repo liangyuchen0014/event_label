@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "freak.01",
-        "roleset_name": "be freaky",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "freaked entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "freak_out.02",
-        "roleset_name": "cause to be freaky",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "freaked entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "freak.01",
+    "roleset_name": "be freaky",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "freaked entity",
+        "descr_trans": "受惊的实体"
+      }
+    ],
+    "roleset_name_trans": "变得怪异"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "freak_out.02",
+    "roleset_name": "cause to be freaky",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "freaked entity",
+        "descr_trans": "受惊的实体"
+      }
+    ],
+    "roleset_name_trans": "导致变得怪异"
+  }
 ]

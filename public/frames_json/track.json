@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "track.01",
-        "roleset_name": "follow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing following"
-            },
-            {
-                "n": "1",
-                "descr": "thing followed"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "track.03",
-        "roleset_name": "be on track in relation to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing on track"
-            },
-            {
-                "n": "2",
-                "descr": "track itself (loosely speaking)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "track.04",
-        "roleset_name": "leave a trail of particulates/debris from one's feet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity bringing in debris"
-            },
-            {
-                "n": "1",
-                "descr": "debris tracked in"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "track_down.02",
-        "roleset_name": "find",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, found for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "track.01",
+    "roleset_name": "follow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing following",
+        "descr_trans": "接下来的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing followed",
+        "descr_trans": "事情随之而来"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "跟随"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "track.03",
+    "roleset_name": "be on track in relation to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing on track",
+        "descr_trans": "事情步入正轨"
+      },
+      {
+        "n": "2",
+        "descr": "track itself (loosely speaking)",
+        "descr_trans": "跟踪自身（宽松地说）"
+      }
+    ],
+    "roleset_name_trans": "步入正轨"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "track.04",
+    "roleset_name": "leave a trail of particulates/debris from one's feet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity bringing in debris",
+        "descr_trans": "携带碎片的实体"
+      },
+      {
+        "n": "1",
+        "descr": "debris tracked in",
+        "descr_trans": "追踪到的碎片"
+      }
+    ],
+    "roleset_name_trans": "脚上留下颗粒/碎片的痕迹"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "track_down.02",
+    "roleset_name": "find",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, found for",
+        "descr_trans": "有益的，发现的"
+      }
+    ],
+    "roleset_name_trans": "寻找"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "experience.01",
-        "roleset_name": "have a sensation or experience",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "experienced"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "experience.02",
-        "roleset_name": "accumulated instances of participation, and the knowledge derived",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with a history of participation"
-            },
-            {
-                "n": "1",
-                "descr": "skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "experience.01",
+    "roleset_name": "have a sensation or experience",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "experienced",
+        "descr_trans": "有经验的"
+      }
+    ],
+    "roleset_name_trans": "有感觉或经历"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "experience.02",
+    "roleset_name": "accumulated instances of participation, and the knowledge derived",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with a history of participation",
+        "descr_trans": "有参与历史的实体"
+      },
+      {
+        "n": "1",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "累积的参与实例以及衍生的知识"
+  }
 ]

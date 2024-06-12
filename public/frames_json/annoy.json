@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "annoy.01",
-        "roleset_name": "annoy, causing bother, bothered by something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "annoyer"
-            },
-            {
-                "n": "1",
-                "descr": "annoyed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "annoy.01",
+    "roleset_name": "annoy, causing bother, bothered by something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "annoyer",
+        "descr_trans": "烦人的"
+      },
+      {
+        "n": "1",
+        "descr": "annoyed",
+        "descr_trans": "生气"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "惹恼, 引起麻烦, 被某事困扰"
+  }
 ]

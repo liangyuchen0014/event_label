@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "camp_out.01",
-        "roleset_name": "to live in or as if in a camp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "camper, agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "camp.02",
-        "roleset_name": "camp (non-phrasal), lving temporarily in a tent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "camper"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "camp_out.01",
+    "roleset_name": "to live in or as if in a camp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "camper, agent",
+        "descr_trans": "露营者、经纪人"
+      }
+    ],
+    "roleset_name_trans": "住在或好像住在营地里"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "camp.02",
+    "roleset_name": "camp (non-phrasal), lving temporarily in a tent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "camper",
+        "descr_trans": "露营者"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "露营（非短语），暂时住在帐篷里"
+  }
 ]

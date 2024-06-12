@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prevail.01",
-        "roleset_name": "win",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "competition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prevail.02",
-        "roleset_name": "exist, continue on",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that exists"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prevail.01",
+    "roleset_name": "win",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "competition",
+        "descr_trans": "竞赛"
+      }
+    ],
+    "roleset_name_trans": "赢"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prevail.02",
+    "roleset_name": "exist, continue on",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that exists",
+        "descr_trans": "存在的东西"
+      }
+    ],
+    "roleset_name_trans": "存在，继续"
+  }
 ]

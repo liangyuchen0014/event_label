@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scintillate.01",
-        "roleset_name": "scintillate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of scintillation, agent (transitive clauses only)"
-            },
-            {
-                "n": "1",
-                "descr": "thing scintillating, theme (intranstiive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of scintillation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scintillate.01",
+    "roleset_name": "scintillate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of scintillation, agent (transitive clauses only)",
+        "descr_trans": "闪烁的原因、媒介（仅限及物从句）"
+      },
+      {
+        "n": "1",
+        "descr": "thing scintillating, theme (intranstiive subject, transitive object)",
+        "descr_trans": "闪烁的事物，主题（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of scintillation",
+        "descr_trans": "闪烁位置"
+      }
+    ],
+    "roleset_name_trans": "闪烁"
+  }
 ]

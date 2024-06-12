@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swoop.01",
-        "roleset_name": "to make a sudden sweeping movement, as a bird descending upon its prey.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swooper"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swoop_up.02",
-        "roleset_name": "to grab with a swooping motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grabber"
-            },
-            {
-                "n": "1",
-                "descr": "grabbed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swoop.01",
+    "roleset_name": "to make a sudden sweeping movement, as a bird descending upon its prey.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swooper",
+        "descr_trans": "俯冲者"
+      }
+    ],
+    "roleset_name_trans": "突然做出猛烈的扫动，就像鸟儿扑向猎物一样。"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swoop_up.02",
+    "roleset_name": "to grab with a swooping motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grabber",
+        "descr_trans": "抓取器"
+      },
+      {
+        "n": "1",
+        "descr": "grabbed",
+        "descr_trans": "抓住了"
+      }
+    ],
+    "roleset_name_trans": "以俯冲动作抓住"
+  }
 ]

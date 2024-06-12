@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swerve.01",
-        "roleset_name": "move to avoid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "description of path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swerve.01",
+    "roleset_name": "move to avoid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "description of path",
+        "descr_trans": "路径描述"
+      }
+    ],
+    "roleset_name_trans": "移动以避免"
+  }
 ]

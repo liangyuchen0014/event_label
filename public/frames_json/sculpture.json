@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sculpture.01",
-        "roleset_name": "sculpture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sculptor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "sculpted into what, product"
-            },
-            {
-                "n": "2",
-                "descr": "sculpted with what, material"
-            },
-            {
-                "n": "3",
-                "descr": "sculpted for whom, beneficiary"
-            },
-            {
-                "n": "4",
-                "descr": "price paid for sculpture, asset (e.g., for $100)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sculpture.01",
+    "roleset_name": "sculpture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sculptor, agent",
+        "descr_trans": "雕塑家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "sculpted into what, product",
+        "descr_trans": "雕刻成什么，产品"
+      },
+      {
+        "n": "2",
+        "descr": "sculpted with what, material",
+        "descr_trans": "用什么材料雕刻的"
+      },
+      {
+        "n": "3",
+        "descr": "sculpted for whom, beneficiary",
+        "descr_trans": "为谁、受益人雕刻"
+      },
+      {
+        "n": "4",
+        "descr": "price paid for sculpture, asset (e.g., for $100)",
+        "descr_trans": "雕塑、资产的支付价格（例如，100 美元）"
+      }
+    ],
+    "roleset_name_trans": "雕塑"
+  }
 ]

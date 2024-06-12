@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "welcome.01",
-        "roleset_name": "greet, accept, happily permitted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "welcomer"
-            },
-            {
-                "n": "1",
-                "descr": "thing welcomed"
-            },
-            {
-                "n": "2",
-                "descr": "welcomed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "welcome.01",
+    "roleset_name": "greet, accept, happily permitted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "welcomer",
+        "descr_trans": "欢迎者"
+      },
+      {
+        "n": "1",
+        "descr": "thing welcomed",
+        "descr_trans": "欢迎的事情"
+      },
+      {
+        "n": "2",
+        "descr": "welcomed to",
+        "descr_trans": "欢迎来到"
+      }
+    ],
+    "roleset_name_trans": "问候，接受，愉快地允许"
+  }
 ]

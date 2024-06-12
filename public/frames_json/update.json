@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "update.01",
-        "roleset_name": "make more modern, bring up to date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "updater"
-            },
-            {
-                "n": "1",
-                "descr": "thing being modernized or updated"
-            },
-            {
-                "n": "2",
-                "descr": "most recent (updated) version"
-            },
-            {
-                "n": "3",
-                "descr": "prior (outdated) versions"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "update.02",
-        "roleset_name": "tell someone news as it comes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "teller"
-            },
-            {
-                "n": "1",
-                "descr": "hearer"
-            },
-            {
-                "n": "2",
-                "descr": "news"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "update.01",
+    "roleset_name": "make more modern, bring up to date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "updater",
+        "descr_trans": "更新程序"
+      },
+      {
+        "n": "1",
+        "descr": "thing being modernized or updated",
+        "descr_trans": "事物正在现代化或更新"
+      },
+      {
+        "n": "2",
+        "descr": "most recent (updated) version",
+        "descr_trans": "最新（更新）版本"
+      },
+      {
+        "n": "3",
+        "descr": "prior (outdated) versions",
+        "descr_trans": "之前（过时）的版本"
+      }
+    ],
+    "roleset_name_trans": "使更现代，更新"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "update.02",
+    "roleset_name": "tell someone news as it comes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "teller",
+        "descr_trans": "出纳员"
+      },
+      {
+        "n": "1",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "2",
+        "descr": "news",
+        "descr_trans": "消息"
+      }
+    ],
+    "roleset_name_trans": "告诉某人有消息"
+  }
 ]

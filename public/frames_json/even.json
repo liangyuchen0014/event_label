@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "even.02",
-        "roleset_name": "equalize, make uniform, equal, without variation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first equal/unvaried thing"
-            },
-            {
-                "n": "2",
-                "descr": "second equal thing, even in comparison to what"
-            },
-            {
-                "n": "3",
-                "descr": "domain of evenness"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "even.03",
-        "roleset_name": "divisible by 2",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "number divisible by 2"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "even_out.01",
-        "roleset_name": "to make or become even",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of evenness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity evened"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "get_even.16",
-        "roleset_name": "enact revenge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revenger"
-            },
-            {
-                "n": "1",
-                "descr": "committer of prior offense"
-            },
-            {
-                "n": "2",
-                "descr": "prior offense"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "even.02",
+    "roleset_name": "equalize, make uniform, equal, without variation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first equal/unvaried thing",
+        "descr_trans": "第一个相同/不变的事物"
+      },
+      {
+        "n": "2",
+        "descr": "second equal thing, even in comparison to what",
+        "descr_trans": "第二个同样的事情，即使与什么相比"
+      },
+      {
+        "n": "3",
+        "descr": "domain of evenness",
+        "descr_trans": "均匀度域"
+      }
+    ],
+    "roleset_name_trans": "使均等，使一致，平等，没有变化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "even.03",
+    "roleset_name": "divisible by 2",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "number divisible by 2",
+        "descr_trans": "能被 2 整除的数"
+      }
+    ],
+    "roleset_name_trans": "能被2整除"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "even_out.01",
+    "roleset_name": "to make or become even",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of evenness, agent",
+        "descr_trans": "均匀的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity evened",
+        "descr_trans": "实体均匀"
+      }
+    ],
+    "roleset_name_trans": "使或变得均匀"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "get_even.16",
+    "roleset_name": "enact revenge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revenger",
+        "descr_trans": "复仇者"
+      },
+      {
+        "n": "1",
+        "descr": "committer of prior offense",
+        "descr_trans": "犯罪前科者"
+      },
+      {
+        "n": "2",
+        "descr": "prior offense",
+        "descr_trans": "先前的犯罪行为"
+      }
+    ],
+    "roleset_name_trans": "实施报复"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subtitle.01",
-        "roleset_name": "provide translation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "translator (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "movie, etc"
-            },
-            {
-                "n": "2",
-                "descr": "target language"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "subtitle.02",
-        "roleset_name": "give a secondary title",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "author (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "magnum opus"
-            },
-            {
-                "n": "2",
-                "descr": "secondary title"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subtitle.01",
+    "roleset_name": "provide translation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "translator (rare)",
+        "descr_trans": "翻译（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "movie, etc",
+        "descr_trans": "电影等"
+      },
+      {
+        "n": "2",
+        "descr": "target language",
+        "descr_trans": "目标语言"
+      }
+    ],
+    "roleset_name_trans": "提供翻译"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "subtitle.02",
+    "roleset_name": "give a secondary title",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "author (rare)",
+        "descr_trans": "作者（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "magnum opus",
+        "descr_trans": "做得好"
+      },
+      {
+        "n": "2",
+        "descr": "secondary title",
+        "descr_trans": "次要头衔"
+      }
+    ],
+    "roleset_name_trans": "给予次要标题"
+  }
 ]

@@ -1,222 +1,268 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hang.01",
-        "roleset_name": "suspend, suspending (spatial, non-lehal sense)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing something to be suspended"
-            },
-            {
-                "n": "1",
-                "descr": "thing suspended"
-            },
-            {
-                "n": "2",
-                "descr": "suspended from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hang.02",
-        "roleset_name": "exist, be (cool)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in the position"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hang.07",
-        "roleset_name": "by the neck, execution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, jury, executioner"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            },
-            {
-                "n": "2",
-                "descr": "gallows"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            },
-            {
-                "n": "4",
-                "descr": "rope"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hang.11",
-        "roleset_name": "the hang of: proficiency, knack; hold one's own",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "proficient entity"
-            },
-            {
-                "n": "1",
-                "descr": "in what activity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hang.12",
-        "roleset_name": "turn while following a path",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "direction, axis, trajectory"
-            },
-            {
-                "n": "2",
-                "descr": "location, landmark where the turn takes place"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "hang_on.04",
-        "roleset_name": "wait",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person waiting"
-            },
-            {
-                "n": "2",
-                "descr": "what arg 1 is waiting for"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "hang_on.05",
-        "roleset_name": "maintain possession of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing holding on to"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "hang_up.03",
-        "roleset_name": "hang up: terminate a phone call, hanging_up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "call terminator"
-            },
-            {
-                "n": "1",
-                "descr": "phone"
-            },
-            {
-                "n": "2",
-                "descr": "other conversant"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "hang_up.08",
-        "roleset_name": "stuck on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause (agentive only!)"
-            },
-            {
-                "n": "1",
-                "descr": "captive"
-            },
-            {
-                "n": "2",
-                "descr": "situation or location arg1 is not free of"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "hang_out.06",
-        "roleset_name": "spend time socially",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Focus person kickin' it, or all persons in one mention"
-            },
-            {
-                "n": "2",
-                "descr": "Other person that arg 1 is kickin' it with, when separate mention"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "overhang.01",
-        "roleset_name": "project over the edge of something, in a cantilevering manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing hanging, thing over"
-            },
-            {
-                "n": "1",
-                "descr": "supporting entity overhung"
-            },
-            {
-                "n": "2",
-                "descr": "the part of Arg0 hanging over the edge of Arg1"
-            },
-            {
-                "n": "3",
-                "descr": "the edge of Arg1 that Arg0 overhangs"
-            },
-            {
-                "n": "4",
-                "descr": "non-supporting thing directy under arg0"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "hang_ten.10",
-        "roleset_name": "surf move",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surfer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hang.01",
+    "roleset_name": "suspend, suspending (spatial, non-lehal sense)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing something to be suspended",
+        "descr_trans": "代理，导致某些事情被暂停的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing suspended",
+        "descr_trans": "事情被暂停"
+      },
+      {
+        "n": "2",
+        "descr": "suspended from",
+        "descr_trans": "暂停于"
+      }
+    ],
+    "roleset_name_trans": "暂停，暂停（空间，非法律意义）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hang.02",
+    "roleset_name": "exist, be (cool)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in the position",
+        "descr_trans": "处于该位置的实体"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "存在，成为（酷）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hang.07",
+    "roleset_name": "by the neck, execution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, jury, executioner",
+        "descr_trans": "法官，陪审团，刽子手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "gallows",
+        "descr_trans": "绞刑架"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "4",
+        "descr": "rope",
+        "descr_trans": "绳索"
+      }
+    ],
+    "roleset_name_trans": "掐颈处决"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hang.11",
+    "roleset_name": "the hang of: proficiency, knack; hold one's own",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "proficient entity",
+        "descr_trans": "精通实体"
+      },
+      {
+        "n": "1",
+        "descr": "in what activity",
+        "descr_trans": "在什么活动中"
+      }
+    ],
+    "roleset_name_trans": "诀窍：熟练，诀窍；坚持自己的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hang.12",
+    "roleset_name": "turn while following a path",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "direction, axis, trajectory",
+        "descr_trans": "方向、轴、轨迹"
+      },
+      {
+        "n": "2",
+        "descr": "location, landmark where the turn takes place",
+        "descr_trans": "位置、发生转弯的地标"
+      }
+    ],
+    "roleset_name_trans": "沿着路径转弯"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "hang_on.04",
+    "roleset_name": "wait",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person waiting",
+        "descr_trans": "等待的人"
+      },
+      {
+        "n": "2",
+        "descr": "what arg 1 is waiting for",
+        "descr_trans": "arg 1 正在等待什么"
+      }
+    ],
+    "roleset_name_trans": "等待"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "hang_on.05",
+    "roleset_name": "maintain possession of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing holding on to",
+        "descr_trans": "坚持的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "维持占有"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "hang_up.03",
+    "roleset_name": "hang up: terminate a phone call, hanging_up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "call terminator",
+        "descr_trans": "呼叫终止符"
+      },
+      {
+        "n": "1",
+        "descr": "phone",
+        "descr_trans": "电话"
+      },
+      {
+        "n": "2",
+        "descr": "other conversant",
+        "descr_trans": "其他熟悉的人"
+      }
+    ],
+    "roleset_name_trans": "挂断：终止电话呼叫，hanging_up"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "hang_up.08",
+    "roleset_name": "stuck on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause (agentive only!)",
+        "descr_trans": "原因（仅限主动！）"
+      },
+      {
+        "n": "1",
+        "descr": "captive",
+        "descr_trans": "俘虏"
+      },
+      {
+        "n": "2",
+        "descr": "situation or location arg1 is not free of",
+        "descr_trans": "情况或位置 arg1 并非没有"
+      }
+    ],
+    "roleset_name_trans": "卡在"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "hang_out.06",
+    "roleset_name": "spend time socially",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Focus person kickin' it, or all persons in one mention",
+        "descr_trans": "焦点人物踢它，或所有人物都在一次提及"
+      },
+      {
+        "n": "2",
+        "descr": "Other person that arg 1 is kickin' it with, when separate mention",
+        "descr_trans": "当单独提及时，arg 1 与之一起踢球的其他人"
+      }
+    ],
+    "roleset_name_trans": "花时间社交"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "overhang.01",
+    "roleset_name": "project over the edge of something, in a cantilevering manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing hanging, thing over",
+        "descr_trans": "事情悬而未决，事情结束"
+      },
+      {
+        "n": "1",
+        "descr": "supporting entity overhung",
+        "descr_trans": "支持实体悬垂"
+      },
+      {
+        "n": "2",
+        "descr": "the part of Arg0 hanging over the edge of Arg1",
+        "descr_trans": "Arg0 的部分悬挂在 Arg1 的边缘上"
+      },
+      {
+        "n": "3",
+        "descr": "the edge of Arg1 that Arg0 overhangs",
+        "descr_trans": "Arg0 伸出的 Arg1 的边缘"
+      },
+      {
+        "n": "4",
+        "descr": "non-supporting thing directy under arg0",
+        "descr_trans": "arg0 下不支持的东西"
+      }
+    ],
+    "roleset_name_trans": "以悬臂方式伸出某物的边缘"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "hang_ten.10",
+    "roleset_name": "surf move",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surfer",
+        "descr_trans": "冲浪者"
+      }
+    ],
+    "roleset_name_trans": "冲浪运动"
+  }
 ]

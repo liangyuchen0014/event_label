@@ -1,86 +1,104 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squeeze.01",
-        "roleset_name": "apply pressure to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "squeezer"
-            },
-            {
-                "n": "1",
-                "descr": "squozen"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "squeeze.02",
-        "roleset_name": "apply pressure with the intent of extracting something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "squeezer"
-            },
-            {
-                "n": "1",
-                "descr": "extracted material"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "destination, arg1 squeezed into what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "squeeze.03",
-        "roleset_name": "reduce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point, end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "squeeze_out.04",
-        "roleset_name": "extract or erradicate by means of pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "squeezer"
-            },
-            {
-                "n": "1",
-                "descr": "extracted material"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squeeze.01",
+    "roleset_name": "apply pressure to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "squeezer",
+        "descr_trans": "挤压器"
+      },
+      {
+        "n": "1",
+        "descr": "squozen",
+        "descr_trans": "挤压"
+      }
+    ],
+    "roleset_name_trans": "施加压力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "squeeze.02",
+    "roleset_name": "apply pressure with the intent of extracting something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "squeezer",
+        "descr_trans": "挤压器"
+      },
+      {
+        "n": "1",
+        "descr": "extracted material",
+        "descr_trans": "提取的物质"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination, arg1 squeezed into what?",
+        "descr_trans": "目的地，arg1 挤进了什么？"
+      }
+    ],
+    "roleset_name_trans": "施加压力以提取某物"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "squeeze.03",
+    "roleset_name": "reduce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "squeeze_out.04",
+    "roleset_name": "extract or erradicate by means of pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "squeezer",
+        "descr_trans": "挤压器"
+      },
+      {
+        "n": "1",
+        "descr": "extracted material",
+        "descr_trans": "提取的物质"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "通过压力提取或消除"
+  }
 ]

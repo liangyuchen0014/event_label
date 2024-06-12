@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "electrodesiccate.01",
-        "roleset_name": "(cause to) become dried out via an electric current",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "entity dried"
-            },
-            {
-                "n": "2",
-                "descr": "instrument if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "electrodesiccate.01",
+    "roleset_name": "(cause to) become dried out via an electric current",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity dried",
+        "descr_trans": "实体干燥"
+      },
+      {
+        "n": "2",
+        "descr": "instrument if separate from arg 0",
+        "descr_trans": "仪器（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（导致）通过电流变得干燥"
+  }
 ]

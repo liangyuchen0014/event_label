@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supply.01",
-        "roleset_name": "provide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "thing provided"
-            },
-            {
-                "n": "2",
-                "descr": "entity provided for (benefactive)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supply.01",
+    "roleset_name": "provide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "thing provided",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity provided for (benefactive)",
+        "descr_trans": "提供的实体（受益人）"
+      }
+    ],
+    "roleset_name_trans": "提供"
+  }
 ]

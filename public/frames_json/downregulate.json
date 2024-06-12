@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "downregulate.01",
-        "roleset_name": "reduce a cellular response to a molecular stimulus",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of downregulation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing downregulated (e.g. protein or another molecule)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. enzyme)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "downregulate.01",
+    "roleset_name": "reduce a cellular response to a molecular stimulus",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of downregulation (e.g. scientist)",
+        "descr_trans": "有意下调的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing downregulated (e.g. protein or another molecule)",
+        "descr_trans": "下调的事物（例如蛋白质或其他分子）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. enzyme)",
+        "descr_trans": "仪器（例如酶）"
+      }
+    ],
+    "roleset_name_trans": "减少细胞对分子刺激的反应"
+  }
 ]

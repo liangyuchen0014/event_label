@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ureteroureterostomy.01",
-        "roleset_name": "surgery that connects two parts of the same ureter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "product/result"
-            },
-            {
-                "n": "3",
-                "descr": "which ureter(s)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ureteroureterostomy.01",
+    "roleset_name": "surgery that connects two parts of the same ureter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "product/result",
+        "descr_trans": "产品/结果"
+      },
+      {
+        "n": "3",
+        "descr": "which ureter(s)",
+        "descr_trans": "哪个输尿管"
+      }
+    ],
+    "roleset_name_trans": "连接同一输尿管两个部分的手术"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "term.01",
-        "roleset_name": "assign a label",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "item being labelled"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "come_to_terms.02",
-        "roleset_name": "arrive at an agreement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first party (or all parties)"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter of the dispute"
-            },
-            {
-                "n": "2",
-                "descr": "second party"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "come_to_terms.03",
-        "roleset_name": "arrive at a sense of okay-ness regarding a problem",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity coming to terms with a problem"
-            },
-            {
-                "n": "1",
-                "descr": "the problem"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "term.01",
+    "roleset_name": "assign a label",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "item being labelled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "分配标签"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "come_to_terms.02",
+    "roleset_name": "arrive at an agreement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first party (or all parties)",
+        "descr_trans": "第一方（或所有各方）"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter of the dispute",
+        "descr_trans": "争议标的"
+      },
+      {
+        "n": "2",
+        "descr": "second party",
+        "descr_trans": "第二方"
+      }
+    ],
+    "roleset_name_trans": "达成协议"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "come_to_terms.03",
+    "roleset_name": "arrive at a sense of okay-ness regarding a problem",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity coming to terms with a problem",
+        "descr_trans": "实体接受问题"
+      },
+      {
+        "n": "1",
+        "descr": "the problem",
+        "descr_trans": "问题"
+      }
+    ],
+    "roleset_name_trans": "对问题达成一种安然无恙的感觉"
+  }
 ]

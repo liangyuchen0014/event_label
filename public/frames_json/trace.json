@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trace.01",
-        "roleset_name": "make a physical copy on an over-laid transparent surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing traced"
-            },
-            {
-                "n": "2",
-                "descr": "transparent surface"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trace.02",
-        "roleset_name": "follow to the source",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "follower"
-            },
-            {
-                "n": "1",
-                "descr": "thing followed"
-            },
-            {
-                "n": "2",
-                "descr": "the thing's source  (actually destination)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trace.03",
-        "roleset_name": "tiny, barely discernable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tiny thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trace.01",
+    "roleset_name": "make a physical copy on an over-laid transparent surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier, agent",
+        "descr_trans": "复制代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing traced",
+        "descr_trans": "追踪到的东西"
+      },
+      {
+        "n": "2",
+        "descr": "transparent surface",
+        "descr_trans": "透明表面"
+      }
+    ],
+    "roleset_name_trans": "在覆盖的透明表面上制作物理副本"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trace.02",
+    "roleset_name": "follow to the source",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "follower",
+        "descr_trans": "追随者"
+      },
+      {
+        "n": "1",
+        "descr": "thing followed",
+        "descr_trans": "事情随之而来"
+      },
+      {
+        "n": "2",
+        "descr": "the thing's source  (actually destination)",
+        "descr_trans": "事物的来源（实际上是目的地）"
+      }
+    ],
+    "roleset_name_trans": "追根溯源"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trace.03",
+    "roleset_name": "tiny, barely discernable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tiny thing",
+        "descr_trans": "小事"
+      }
+    ],
+    "roleset_name_trans": "很小，几乎无法辨认"
+  }
 ]

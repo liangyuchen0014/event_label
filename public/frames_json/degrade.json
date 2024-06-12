@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "degrade.01",
-        "roleset_name": "to lower in quality or character, break down a compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of degradation"
-            },
-            {
-                "n": "1",
-                "descr": "entity degraded"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "degrade.01",
+    "roleset_name": "to lower in quality or character, break down a compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of degradation",
+        "descr_trans": "退化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity degraded",
+        "descr_trans": "实体降级"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg 0",
+        "descr_trans": "仪器，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "为了降低质量或特性，分解化合物"
+  }
 ]

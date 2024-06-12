@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "turnover.01",
-        "roleset_name": "upset, knock over, turn turtle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing upset"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "turnover.02",
-        "roleset_name": "give to someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "turnover.01",
+    "roleset_name": "upset, knock over, turn turtle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing upset",
+        "descr_trans": "事情不高兴"
+      }
+    ],
+    "roleset_name_trans": "心烦意乱、撞翻、翻乌龟"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "turnover.02",
+    "roleset_name": "give to someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "给某人"
+  }
 ]

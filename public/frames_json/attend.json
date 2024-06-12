@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "attend.01",
-        "roleset_name": "go to, belong to/at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing attending"
-            },
-            {
-                "n": "1",
-                "descr": "thing attended"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "attend.02",
-        "roleset_name": "pay close attention to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity paying attention"
-            },
-            {
-                "n": "1",
-                "descr": "to what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "draw_attention.03",
-        "roleset_name": "act in a manner that causes others to pay attention",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attention-getter, entity or stimulus directing the attention of the crowd"
-            },
-            {
-                "n": "1",
-                "descr": "entity who\u2019s attention is draw"
-            },
-            {
-                "n": "2",
-                "descr": "drawn or attracted to, point of interest"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "attend.01",
+    "roleset_name": "go to, belong to/at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing attending",
+        "descr_trans": "参加的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing attended",
+        "descr_trans": "事情出席"
+      }
+    ],
+    "roleset_name_trans": "去，属于/在"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "attend.02",
+    "roleset_name": "pay close attention to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity paying attention",
+        "descr_trans": "实体关注"
+      },
+      {
+        "n": "1",
+        "descr": "to what",
+        "descr_trans": "到什么"
+      }
+    ],
+    "roleset_name_trans": "密切关注"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "draw_attention.03",
+    "roleset_name": "act in a manner that causes others to pay attention",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attention-getter, entity or stimulus directing the attention of the crowd",
+        "descr_trans": "吸引人群注意力的实体或刺激物"
+      },
+      {
+        "n": "1",
+        "descr": "entity who’s attention is draw",
+        "descr_trans": "引起注意的实体"
+      },
+      {
+        "n": "2",
+        "descr": "drawn or attracted to, point of interest",
+        "descr_trans": "被兴趣点吸引或吸引"
+      }
+    ],
+    "roleset_name_trans": "以引起他人注意的方式行事"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dispatch.01",
-        "roleset_name": "to send",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity dispatched"
-            },
-            {
-                "n": "2",
-                "descr": "dispatched to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dispatch.01",
+    "roleset_name": "to send",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dispatched",
+        "descr_trans": "派遣实体"
+      },
+      {
+        "n": "2",
+        "descr": "dispatched to",
+        "descr_trans": "派往"
+      }
+    ],
+    "roleset_name_trans": "发送"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overlook.01",
-        "roleset_name": "fail to notice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-noticer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing overlooked"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "overlook.02",
-        "roleset_name": "be oriented in a certain direction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "place"
-            },
-            {
-                "n": "1",
-                "descr": "direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overlook.01",
+    "roleset_name": "fail to notice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-noticer, agent",
+        "descr_trans": "不注意者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing overlooked",
+        "descr_trans": "被忽视的事情"
+      }
+    ],
+    "roleset_name_trans": "没有注意到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "overlook.02",
+    "roleset_name": "be oriented in a certain direction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "place",
+        "descr_trans": "地方"
+      },
+      {
+        "n": "1",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "朝向某个方向"
+  }
 ]

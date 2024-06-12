@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "surrender.01",
-        "roleset_name": "give up (eg, a fight)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one surrendering"
-            },
-            {
-                "n": "1",
-                "descr": "fight"
-            },
-            {
-                "n": "2",
-                "descr": "victor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "surrender.01",
+    "roleset_name": "give up (eg, a fight)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one surrendering",
+        "descr_trans": "一个投降"
+      },
+      {
+        "n": "1",
+        "descr": "fight",
+        "descr_trans": "斗争"
+      },
+      {
+        "n": "2",
+        "descr": "victor",
+        "descr_trans": "胜利者"
+      }
+    ],
+    "roleset_name_trans": "放弃（例如，一场战斗）"
+  }
 ]

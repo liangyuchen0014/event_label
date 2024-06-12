@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unworkable.01",
-        "roleset_name": "unable to be made to function",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that doesn't function"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unworkable.02",
-        "roleset_name": "unable to be manipulated (physically, usually)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that can't be manipulated"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unworkable.01",
+    "roleset_name": "unable to be made to function",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that doesn't function",
+        "descr_trans": "不起作用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "无法发挥作用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unworkable.02",
+    "roleset_name": "unable to be manipulated (physically, usually)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that can't be manipulated",
+        "descr_trans": "无法操纵的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "无法被操纵（通常是身体上的）"
+  }
 ]

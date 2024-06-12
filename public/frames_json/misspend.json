@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misspend.01",
-        "roleset_name": "spend inappropriately, waste",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misspender"
-            },
-            {
-                "n": "1",
-                "descr": "thing wasted"
-            },
-            {
-                "n": "2",
-                "descr": "misspent how, on what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misspend.01",
+    "roleset_name": "spend inappropriately, waste",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misspender",
+        "descr_trans": "乱花钱的"
+      },
+      {
+        "n": "1",
+        "descr": "thing wasted",
+        "descr_trans": "浪费的东西"
+      },
+      {
+        "n": "2",
+        "descr": "misspent how, on what",
+        "descr_trans": "如何、在什么上浪费钱"
+      }
+    ],
+    "roleset_name_trans": "花费不当、浪费"
+  }
 ]

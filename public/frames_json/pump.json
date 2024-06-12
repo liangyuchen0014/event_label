@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pump.01",
-        "roleset_name": "fill, filling/emptying with/of liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pumper"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pump.04",
-        "roleset_name": "move up and down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of movement"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving up and down"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pump_up.02",
-        "roleset_name": "inflate, pumping_up: inflating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pumper"
-            },
-            {
-                "n": "1",
-                "descr": "thing inflated"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pump_out.03",
-        "roleset_name": "drain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pumper"
-            },
-            {
-                "n": "1",
-                "descr": "thing drained"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pump.01",
+    "roleset_name": "fill, filling/emptying with/of liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pumper",
+        "descr_trans": "抽水机"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "填充、填充/清空液体"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pump.04",
+    "roleset_name": "move up and down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of movement",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving up and down",
+        "descr_trans": "东西上下移动"
+      }
+    ],
+    "roleset_name_trans": "上下移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pump_up.02",
+    "roleset_name": "inflate, pumping_up: inflating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pumper",
+        "descr_trans": "抽水机"
+      },
+      {
+        "n": "1",
+        "descr": "thing inflated",
+        "descr_trans": "东西膨胀了"
+      }
+    ],
+    "roleset_name_trans": "充气，pumping_up：充气"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pump_out.03",
+    "roleset_name": "drain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pumper",
+        "descr_trans": "抽水机"
+      },
+      {
+        "n": "1",
+        "descr": "thing drained",
+        "descr_trans": "东西耗尽了"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "流走"
+  }
 ]

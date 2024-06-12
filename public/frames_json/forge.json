@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forge.01",
-        "roleset_name": "create a counterfeit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counterfeiter"
-            },
-            {
-                "n": "1",
-                "descr": "copied"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "forge.02",
-        "roleset_name": "make, create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forge.01",
+    "roleset_name": "create a counterfeit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counterfeiter",
+        "descr_trans": "造假者"
+      },
+      {
+        "n": "1",
+        "descr": "copied",
+        "descr_trans": "复制的"
+      }
+    ],
+    "roleset_name_trans": "制造一个赝品"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "forge.02",
+    "roleset_name": "make, create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "制造，创造"
+  }
 ]

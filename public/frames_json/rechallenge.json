@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rechallenge.01",
-        "roleset_name": "challenge again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Challenger"
-            },
-            {
-                "n": "1",
-                "descr": "Challenged (previous champion)"
-            },
-            {
-                "n": "2",
-                "descr": "Challenged-to, heroic task"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rechallenge.01",
+    "roleset_name": "challenge again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Challenger",
+        "descr_trans": "挑战者"
+      },
+      {
+        "n": "1",
+        "descr": "Challenged (previous champion)",
+        "descr_trans": "挑战（前冠军）"
+      },
+      {
+        "n": "2",
+        "descr": "Challenged-to, heroic task",
+        "descr_trans": "接受挑战的英雄任务"
+      }
+    ],
+    "roleset_name_trans": "再次挑战"
+  }
 ]

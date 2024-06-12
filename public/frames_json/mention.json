@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mention.01",
-        "roleset_name": "say in passing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, entity being mentioned"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mention.01",
+    "roleset_name": "say in passing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, entity being mentioned",
+        "descr_trans": "话语，被提及的实体"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "顺便说一下"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counterprogram.01",
-        "roleset_name": "to schedule programming to compete with another show",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, programmer"
-            },
-            {
-                "n": "1",
-                "descr": "competing program, counterprogrammed show"
-            },
-            {
-                "n": "2",
-                "descr": "programming used to counterprogram, counterprogrammed with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counterprogram.01",
+    "roleset_name": "to schedule programming to compete with another show",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, programmer",
+        "descr_trans": "代理人、程序员"
+      },
+      {
+        "n": "1",
+        "descr": "competing program, counterprogrammed show",
+        "descr_trans": "竞争节目, 反节目表演"
+      },
+      {
+        "n": "2",
+        "descr": "programming used to counterprogram, counterprogrammed with",
+        "descr_trans": "用于反编程的编程，用反编程"
+      }
+    ],
+    "roleset_name_trans": "安排节目与另一个节目竞争"
+  }
 ]

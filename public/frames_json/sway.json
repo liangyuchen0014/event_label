@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sway.01",
-        "roleset_name": "move",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing swaying"
-            },
-            {
-                "n": "2",
-                "descr": "degree of motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sway.02",
-        "roleset_name": "persuade (per-sway-d?)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "persuader"
-            },
-            {
-                "n": "1",
-                "descr": "persuaded"
-            },
-            {
-                "n": "2",
-                "descr": "persuaded to do what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sway.01",
+    "roleset_name": "move",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing swaying",
+        "descr_trans": "东西摇摆"
+      },
+      {
+        "n": "2",
+        "descr": "degree of motion",
+        "descr_trans": "运动程度"
+      }
+    ],
+    "roleset_name_trans": "移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sway.02",
+    "roleset_name": "persuade (per-sway-d?)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "persuader",
+        "descr_trans": "说服"
+      },
+      {
+        "n": "1",
+        "descr": "persuaded",
+        "descr_trans": "说服了"
+      },
+      {
+        "n": "2",
+        "descr": "persuaded to do what?",
+        "descr_trans": "被说服做什么？"
+      }
+    ],
+    "roleset_name_trans": "说服（per-sway-d？）"
+  }
 ]

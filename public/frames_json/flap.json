@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flap.01",
-        "roleset_name": "move back and forth randomly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing flapping"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flap.01",
+    "roleset_name": "move back and forth randomly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing flapping",
+        "descr_trans": "东西拍打"
+      }
+    ],
+    "roleset_name_trans": "随机地来回移动"
+  }
 ]

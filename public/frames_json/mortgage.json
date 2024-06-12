@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mortgage.01",
-        "roleset_name": "get money by giving up your possessions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mortgager"
-            },
-            {
-                "n": "1",
-                "descr": "possession(s)"
-            },
-            {
-                "n": "2",
-                "descr": "provider of money"
-            },
-            {
-                "n": "3",
-                "descr": "money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mortgage.01",
+    "roleset_name": "get money by giving up your possessions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mortgager",
+        "descr_trans": "抵押人"
+      },
+      {
+        "n": "1",
+        "descr": "possession(s)",
+        "descr_trans": "占有"
+      },
+      {
+        "n": "2",
+        "descr": "provider of money",
+        "descr_trans": "金钱提供者"
+      },
+      {
+        "n": "3",
+        "descr": "money",
+        "descr_trans": "钱"
+      }
+    ],
+    "roleset_name_trans": "通过放弃财产来获得金钱"
+  }
 ]

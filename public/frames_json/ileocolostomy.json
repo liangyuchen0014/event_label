@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ileocolostomy.01",
-        "roleset_name": "surgery that creates a connection between the ileum and the colon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "product/result"
-            },
-            {
-                "n": "3",
-                "descr": "which part(s) of the organs are used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ileocolostomy.01",
+    "roleset_name": "surgery that creates a connection between the ileum and the colon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "product/result",
+        "descr_trans": "产品/结果"
+      },
+      {
+        "n": "3",
+        "descr": "which part(s) of the organs are used",
+        "descr_trans": "使用器官的哪些部分"
+      }
+    ],
+    "roleset_name_trans": "在回肠和结肠之间建立连接的手术"
+  }
 ]

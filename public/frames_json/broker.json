@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "broker.01",
-        "roleset_name": "to arrange or manage as a broker",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arranger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity brokered"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "broker.01",
+    "roleset_name": "to arrange or manage as a broker",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arranger, agent",
+        "descr_trans": "安排人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity brokered",
+        "descr_trans": "实体经纪"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "作为经纪人安排或管理"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "damage.01",
-        "roleset_name": "to harm or spoil, damaging, destructive, causing harm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity damaged"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "damage.01",
+    "roleset_name": "to harm or spoil, damaging, destructive, causing harm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity damaged",
+        "descr_trans": "实体受损"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "伤害或损坏、破坏、破坏、造成伤害"
+  }
 ]

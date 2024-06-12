@@ -1,191 +1,230 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "play.01",
-        "roleset_name": "play a game",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player"
-            },
-            {
-                "n": "1",
-                "descr": "game"
-            },
-            {
-                "n": "2",
-                "descr": "instrument/equipment used to play game"
-            },
-            {
-                "n": "3",
-                "descr": "opponent, play against whom"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "play.02",
-        "roleset_name": "play a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "actor"
-            },
-            {
-                "n": "1",
-                "descr": "role"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "play.08",
-        "roleset_name": "play into: be a factor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing factoring in, subject in active clauses"
-            },
-            {
-                "n": "1",
-                "descr": "thing being factored into"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "play.10",
-        "roleset_name": "play a trick on someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Trickster"
-            },
-            {
-                "n": "1",
-                "descr": "mention of trick"
-            },
-            {
-                "n": "2",
-                "descr": "tricked, who trick was played on"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "play.11",
-        "roleset_name": "play/perform music",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer, player"
-            },
-            {
-                "n": "1",
-                "descr": "thing performed (song, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "musical instrument/style"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "play_out.03",
-        "roleset_name": "play out: come to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing something to complete"
-            },
-            {
-                "n": "1",
-                "descr": "thing coming to completion"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "play_up.04",
-        "roleset_name": "play up: emphasize, make sound better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emphasizer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "topic of discussion"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "play_down.07",
-        "roleset_name": "play down: deemphasize, make sound less important",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deemphasizer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "topic of discussion"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "play_off.05",
-        "roleset_name": "play off: manipulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manipulator"
-            },
-            {
-                "n": "1",
-                "descr": "one victim"
-            },
-            {
-                "n": "2",
-                "descr": "the other victim"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "play_to.06",
-        "roleset_name": "play to: butter up to, try to please",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of pleasing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being pleased"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "play_on.09",
-        "roleset_name": "play on: manipulate, take advantage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manipulator"
-            },
-            {
-                "n": "1",
-                "descr": "one victim"
-            },
-            {
-                "n": "2",
-                "descr": "the other victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "play.01",
+    "roleset_name": "play a game",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "game",
+        "descr_trans": "游戏"
+      },
+      {
+        "n": "2",
+        "descr": "instrument/equipment used to play game",
+        "descr_trans": "用于玩游戏的仪器/设备"
+      },
+      {
+        "n": "3",
+        "descr": "opponent, play against whom",
+        "descr_trans": "对手，与谁比赛"
+      }
+    ],
+    "roleset_name_trans": "玩个游戏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "play.02",
+    "roleset_name": "play a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "actor",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "role",
+        "descr_trans": "角色"
+      }
+    ],
+    "roleset_name_trans": "扮演一个角色"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "play.08",
+    "roleset_name": "play into: be a factor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing factoring in, subject in active clauses",
+        "descr_trans": "主动从句中的主语"
+      },
+      {
+        "n": "1",
+        "descr": "thing being factored into",
+        "descr_trans": "被考虑进去的事物"
+      }
+    ],
+    "roleset_name_trans": "发挥作用：成为一个因素"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "play.10",
+    "roleset_name": "play a trick on someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Trickster",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "mention of trick",
+        "descr_trans": "提到技巧"
+      },
+      {
+        "n": "2",
+        "descr": "tricked, who trick was played on",
+        "descr_trans": "被骗了，谁被骗了"
+      }
+    ],
+    "roleset_name_trans": "捉弄某人"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "play.11",
+    "roleset_name": "play/perform music",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer, player",
+        "descr_trans": "表演者、演奏家"
+      },
+      {
+        "n": "1",
+        "descr": "thing performed (song, etc)",
+        "descr_trans": "表演的事情（歌曲等）"
+      },
+      {
+        "n": "2",
+        "descr": "musical instrument/style",
+        "descr_trans": "乐器/风格"
+      }
+    ],
+    "roleset_name_trans": "播放/表演音乐"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "play_out.03",
+    "roleset_name": "play out: come to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing something to complete",
+        "descr_trans": "代理，导致某事完成的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing coming to completion",
+        "descr_trans": "事情即将完成"
+      }
+    ],
+    "roleset_name_trans": "发挥出来：完成"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "play_up.04",
+    "roleset_name": "play up: emphasize, make sound better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emphasizer, agent",
+        "descr_trans": "强调者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "topic of discussion",
+        "descr_trans": "讨论话题"
+      }
+    ],
+    "roleset_name_trans": "play up：强调，使声音更好"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "play_down.07",
+    "roleset_name": "play down: deemphasize, make sound less important",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deemphasizer, agent",
+        "descr_trans": "去加重剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "topic of discussion",
+        "descr_trans": "讨论话题"
+      }
+    ],
+    "roleset_name_trans": "淡化：减弱，使声音不那么重要"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "play_off.05",
+    "roleset_name": "play off: manipulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manipulator",
+        "descr_trans": "机械手"
+      },
+      {
+        "n": "1",
+        "descr": "one victim",
+        "descr_trans": "一名受害者"
+      },
+      {
+        "n": "2",
+        "descr": "the other victim",
+        "descr_trans": "另一个受害者"
+      }
+    ],
+    "roleset_name_trans": "发挥：操纵"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "play_to.06",
+    "roleset_name": "play to: butter up to, try to please",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of pleasing, agent",
+        "descr_trans": "令人愉悦的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being pleased",
+        "descr_trans": "实体感到高兴"
+      }
+    ],
+    "roleset_name_trans": "玩：讨好，尽力取悦"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "play_on.09",
+    "roleset_name": "play on: manipulate, take advantage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manipulator",
+        "descr_trans": "机械手"
+      },
+      {
+        "n": "1",
+        "descr": "one victim",
+        "descr_trans": "一名受害者"
+      },
+      {
+        "n": "2",
+        "descr": "the other victim",
+        "descr_trans": "另一个受害者"
+      }
+    ],
+    "roleset_name_trans": "play on：操纵、利用"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interbreed.01",
-        "roleset_name": "breed together with another species",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent, breeder"
-            },
-            {
-                "n": "1",
-                "descr": "first entity mated"
-            },
-            {
-                "n": "2",
-                "descr": "second entity mated"
-            },
-            {
-                "n": "3",
-                "descr": "offspring"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interbreed.01",
+    "roleset_name": "breed together with another species",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent, breeder",
+        "descr_trans": "外部代理人、饲养员"
+      },
+      {
+        "n": "1",
+        "descr": "first entity mated",
+        "descr_trans": "第一个实体交配"
+      },
+      {
+        "n": "2",
+        "descr": "second entity mated",
+        "descr_trans": "第二个实体交配"
+      },
+      {
+        "n": "3",
+        "descr": "offspring",
+        "descr_trans": "后代"
+      }
+    ],
+    "roleset_name_trans": "与其他物种一起繁殖"
+  }
 ]

@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hail.01",
-        "roleset_name": "weather phenomenon",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the hail itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hail.02",
-        "roleset_name": "recognize and honor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving recognition"
-            },
-            {
-                "n": "1",
-                "descr": "entity being recognized"
-            },
-            {
-                "n": "2",
-                "descr": "hailed as"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hail.04",
-        "roleset_name": "come from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person in question"
-            },
-            {
-                "n": "1",
-                "descr": "source, home"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hail.05",
-        "roleset_name": "summon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "summoner"
-            },
-            {
-                "n": "1",
-                "descr": "entity being summoned"
-            },
-            {
-                "n": "2",
-                "descr": "hailed to do what (proposition not destination)"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hail_down.03",
-        "roleset_name": "hard things coming down",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "hard things"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hail.01",
+    "roleset_name": "weather phenomenon",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the hail itself",
+        "descr_trans": "冰雹本身"
+      }
+    ],
+    "roleset_name_trans": "天气现象"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hail.02",
+    "roleset_name": "recognize and honor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving recognition",
+        "descr_trans": "给予认可的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being recognized",
+        "descr_trans": "被认可的实体"
+      },
+      {
+        "n": "2",
+        "descr": "hailed as",
+        "descr_trans": "被誉为"
+      }
+    ],
+    "roleset_name_trans": "认可和荣誉"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hail.04",
+    "roleset_name": "come from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person in question",
+        "descr_trans": "有问题的人"
+      },
+      {
+        "n": "1",
+        "descr": "source, home",
+        "descr_trans": "来源、主页"
+      }
+    ],
+    "roleset_name_trans": "来自"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hail.05",
+    "roleset_name": "summon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "summoner",
+        "descr_trans": "召唤师"
+      },
+      {
+        "n": "1",
+        "descr": "entity being summoned",
+        "descr_trans": "被召唤的实体"
+      },
+      {
+        "n": "2",
+        "descr": "hailed to do what (proposition not destination)",
+        "descr_trans": "欢呼做什么（提议而不是目的地）"
+      }
+    ],
+    "roleset_name_trans": "召唤"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hail_down.03",
+    "roleset_name": "hard things coming down",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "hard things",
+        "descr_trans": "困难的事情"
+      }
+    ],
+    "roleset_name_trans": "困难的事情即将来临"
+  }
 ]

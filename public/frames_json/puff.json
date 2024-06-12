@@ -1,54 +1,64 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "puff.01",
-        "roleset_name": "smoke tobacco",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "candidate for lung cancer"
-            },
-            {
-                "n": "1",
-                "descr": "cigarette, etc"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "puff.02",
-        "roleset_name": "inflate slightly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "puffy thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "puff_up.03",
-        "roleset_name": "increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "puff_up.04",
-        "roleset_name": "appear in puffs",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "puff.01",
+    "roleset_name": "smoke tobacco",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "candidate for lung cancer",
+        "descr_trans": "肺癌候选者"
+      },
+      {
+        "n": "1",
+        "descr": "cigarette, etc",
+        "descr_trans": "香烟等"
+      }
+    ],
+    "roleset_name_trans": "吸烟烟草"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "puff.02",
+    "roleset_name": "inflate slightly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "puffy thing",
+        "descr_trans": "浮肿的东西"
+      }
+    ],
+    "roleset_name_trans": "稍微充气"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "puff_up.03",
+    "roleset_name": "increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      }
+    ],
+    "roleset_name_trans": "增加"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "puff_up.04",
+    "roleset_name": "appear in puffs",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "出现在泡芙中"
+  }
 ]

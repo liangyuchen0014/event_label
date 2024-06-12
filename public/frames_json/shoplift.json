@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shoplift.01",
-        "roleset_name": "to steal merchandise from a store",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen"
-            },
-            {
-                "n": "2",
-                "descr": "stolen from"
-            },
-            {
-                "n": "3",
-                "descr": "stolen for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shoplift.01",
+    "roleset_name": "to steal merchandise from a store",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, agent",
+        "descr_trans": "小偷、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen",
+        "descr_trans": "东西被偷了"
+      },
+      {
+        "n": "2",
+        "descr": "stolen from",
+        "descr_trans": "被盗自"
+      },
+      {
+        "n": "3",
+        "descr": "stolen for",
+        "descr_trans": "椅子"
+      }
+    ],
+    "roleset_name_trans": "从商店偷窃商品"
+  }
 ]

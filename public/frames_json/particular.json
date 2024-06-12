@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "particular.01",
-        "roleset_name": "unique (to an entity/locale)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unique thing"
-            },
-            {
-                "n": "2",
-                "descr": "unique to whom/what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "particular.02",
-        "roleset_name": "choosy, picky, expressing with great detail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "AGENTIVE picky entity"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter arg0 is picky about"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "particular.01",
+    "roleset_name": "unique (to an entity/locale)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unique thing",
+        "descr_trans": "独特的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unique to whom/what",
+        "descr_trans": "对谁/什么来说是独一无二的"
+      }
+    ],
+    "roleset_name_trans": "唯一（对于实体/区域设置）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "particular.02",
+    "roleset_name": "choosy, picky, expressing with great detail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "AGENTIVE picky entity",
+        "descr_trans": "AGENTIVE 挑剔的实体"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter arg0 is picky about",
+        "descr_trans": "主题 arg0 很挑剔"
+      }
+    ],
+    "roleset_name_trans": "挑剔的，挑剔的，非常详细地表达"
+  }
 ]

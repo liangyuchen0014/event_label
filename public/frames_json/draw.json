@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "draw.01",
-        "roleset_name": "art, the action of illustrating/making pictures with a writing implement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "art"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "draw.02",
-        "roleset_name": "pull, extract, withdraw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "draw.05",
-        "roleset_name": "brandish a weapon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "armed one"
-            },
-            {
-                "n": "1",
-                "descr": "weapon"
-            },
-            {
-                "n": "2",
-                "descr": "adversary"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "draw_up.03",
-        "roleset_name": "art: compose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "thing drawn"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "draw_up.04",
-        "roleset_name": "move",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "draw.01",
+    "roleset_name": "art, the action of illustrating/making pictures with a writing implement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "art",
+        "descr_trans": "艺术"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "艺术，用书写工具描绘/制作图画的动作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "draw.02",
+    "roleset_name": "pull, extract, withdraw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller",
+        "descr_trans": "拉拔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled",
+        "descr_trans": "东西拉"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "拉出、抽出、取出"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "draw.05",
+    "roleset_name": "brandish a weapon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "armed one",
+        "descr_trans": "武装一号"
+      },
+      {
+        "n": "1",
+        "descr": "weapon",
+        "descr_trans": "武器"
+      },
+      {
+        "n": "2",
+        "descr": "adversary",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "挥舞武器"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "draw_up.03",
+    "roleset_name": "art: compose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "thing drawn",
+        "descr_trans": "画的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "艺术：作曲"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "draw_up.04",
+    "roleset_name": "move",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "移动"
+  }
 ]

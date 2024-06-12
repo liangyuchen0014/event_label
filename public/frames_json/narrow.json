@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "narrow.01",
-        "roleset_name": "make narrower",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming narrower"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount narrowed by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "narrow.02",
-        "roleset_name": "be narrow",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is narrow"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "narrow_down.03",
-        "roleset_name": "eliminate possibilities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity eliminating options"
-            },
-            {
-                "n": "1",
-                "descr": "selection, thing narrowed down"
-            },
-            {
-                "n": "2",
-                "descr": "original range of options, start state"
-            },
-            {
-                "n": "3",
-                "descr": "options left over, end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "narrow.01",
+    "roleset_name": "make narrower",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming narrower",
+        "descr_trans": "事物变得更窄"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount narrowed by",
+        "descr_trans": "EXT，金额缩小"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "使更窄"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "narrow.02",
+    "roleset_name": "be narrow",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is narrow",
+        "descr_trans": "狭窄的东西"
+      }
+    ],
+    "roleset_name_trans": "狭窄"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "narrow_down.03",
+    "roleset_name": "eliminate possibilities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity eliminating options",
+        "descr_trans": "实体消除选项"
+      },
+      {
+        "n": "1",
+        "descr": "selection, thing narrowed down",
+        "descr_trans": "选择，缩小范围"
+      },
+      {
+        "n": "2",
+        "descr": "original range of options, start state",
+        "descr_trans": "原始选项范围，开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "options left over, end state",
+        "descr_trans": "剩下的选项，结束状态"
+      }
+    ],
+    "roleset_name_trans": "消除可能性"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crosscontaminate.01",
-        "roleset_name": "contaminate the source and the destination simultaneously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of contamination"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming contaminated"
-            },
-            {
-                "n": "2",
-                "descr": "contaminant"
-            },
-            {
-                "n": "3",
-                "descr": "other thing becoming contaminated at the same time"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crosscontaminate.01",
+    "roleset_name": "contaminate the source and the destination simultaneously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of contamination",
+        "descr_trans": "造成污染的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming contaminated",
+        "descr_trans": "事物被污染"
+      },
+      {
+        "n": "2",
+        "descr": "contaminant",
+        "descr_trans": "污染物"
+      },
+      {
+        "n": "3",
+        "descr": "other thing becoming contaminated at the same time",
+        "descr_trans": "其他东西同时被污染"
+      }
+    ],
+    "roleset_name_trans": "同时污染源头和目的地"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "barter.01",
-        "roleset_name": "trade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity trading"
-            },
-            {
-                "n": "1",
-                "descr": "thing being traded (away)"
-            },
-            {
-                "n": "2",
-                "descr": "other exchanger"
-            },
-            {
-                "n": "3",
-                "descr": "other item in exchange, price, or premium, traded for or at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "barter.01",
+    "roleset_name": "trade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity trading",
+        "descr_trans": "代理、实体贸易"
+      },
+      {
+        "n": "1",
+        "descr": "thing being traded (away)",
+        "descr_trans": "被交易的东西（离开）"
+      },
+      {
+        "n": "2",
+        "descr": "other exchanger",
+        "descr_trans": "其他交换器"
+      },
+      {
+        "n": "3",
+        "descr": "other item in exchange, price, or premium, traded for or at",
+        "descr_trans": "其他以交换、价格或溢价进行交易的物品"
+      }
+    ],
+    "roleset_name_trans": "贸易"
+  }
 ]

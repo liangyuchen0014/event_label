@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reappoint.01",
-        "roleset_name": "appoint again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "appointer"
-            },
-            {
-                "n": "1",
-                "descr": "appointed"
-            },
-            {
-                "n": "2",
-                "descr": "position/office"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reappoint.01",
+    "roleset_name": "appoint again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "appointer",
+        "descr_trans": "任命者"
+      },
+      {
+        "n": "1",
+        "descr": "appointed",
+        "descr_trans": "任命"
+      },
+      {
+        "n": "2",
+        "descr": "position/office",
+        "descr_trans": "职位/办公室"
+      }
+    ],
+    "roleset_name_trans": "再次指定"
+  }
 ]

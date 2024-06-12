@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compact.01",
-        "roleset_name": "make compact, compress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of compaction"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting compacted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compact.01",
+    "roleset_name": "make compact, compress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of compaction",
+        "descr_trans": "压实的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting compacted",
+        "descr_trans": "东西被压实"
+      }
+    ],
+    "roleset_name_trans": "使紧凑，压缩"
+  }
 ]

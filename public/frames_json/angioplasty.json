@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "angioplasty.01",
-        "roleset_name": "surgical procedure that mechanically widens a narrowed or obstructed blood vessel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "angioplastied entity (blood vessel, lesion, stenosis, etc.)"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (undergoer of procedure)"
-            },
-            {
-                "n": "3",
-                "descr": "location (heart, extremities, e.g.), if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "angioplasty.01",
+    "roleset_name": "surgical procedure that mechanically widens a narrowed or obstructed blood vessel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "angioplastied entity (blood vessel, lesion, stenosis, etc.)",
+        "descr_trans": "血管成形实体（血管、病变、狭窄等）"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (undergoer of procedure)",
+        "descr_trans": "受益人（程序的执行者）"
+      },
+      {
+        "n": "3",
+        "descr": "location (heart, extremities, e.g.), if in addition to ARG1",
+        "descr_trans": "位置（心脏、四肢等），如果除了 ARG1 之外"
+      }
+    ],
+    "roleset_name_trans": "以机械方式扩张狭窄或阻塞血管的外科手术"
+  }
 ]

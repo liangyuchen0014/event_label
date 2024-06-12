@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squirt.01",
-        "roleset_name": "apply thin liquid to surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "liquid, substance"
-            },
-            {
-                "n": "2",
-                "descr": "surface"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squirt.01",
+    "roleset_name": "apply thin liquid to surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "liquid, substance",
+        "descr_trans": "液体、物质"
+      },
+      {
+        "n": "2",
+        "descr": "surface",
+        "descr_trans": "表面"
+      }
+    ],
+    "roleset_name_trans": "将稀薄液体涂抹在表面"
+  }
 ]

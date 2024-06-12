@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tow.01",
-        "roleset_name": "(try to) cause motion, cause motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled"
-            },
-            {
-                "n": "2",
-                "descr": "DIR, GOL or attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "EXT, distance moved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tow.01",
+    "roleset_name": "(try to) cause motion, cause motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller",
+        "descr_trans": "拉拔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled",
+        "descr_trans": "东西拉"
+      },
+      {
+        "n": "2",
+        "descr": "DIR, GOL or attribute of arg1",
+        "descr_trans": "DIR、GOL 或 arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "EXT, distance moved",
+        "descr_trans": "EXT，移动距离"
+      }
+    ],
+    "roleset_name_trans": "（尝试）引起运动，引起运动"
+  }
 ]

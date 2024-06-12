@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scale.01",
-        "roleset_name": "change size",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing change in size"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing size"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount changed by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "direction, up or back"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scale.02",
-        "roleset_name": "remove scales from a fish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "fish"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scale.03",
-        "roleset_name": "climb, as a cliff, climbing the face of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "climber"
-            },
-            {
-                "n": "1",
-                "descr": "cliff"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "scale.04",
-        "roleset_name": "develop dry, scaly skin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of skin change"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming scaly"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scale.01",
+    "roleset_name": "change size",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing change in size",
+        "descr_trans": "代理，导致尺寸变化的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing size",
+        "descr_trans": "东西改变大小"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount changed by",
+        "descr_trans": "EXT，更改金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "direction, up or back",
+        "descr_trans": "方向，向上或向后"
+      }
+    ],
+    "roleset_name_trans": "改变尺寸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scale.02",
+    "roleset_name": "remove scales from a fish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "fish",
+        "descr_trans": "鱼"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "去除鱼的鳞"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scale.03",
+    "roleset_name": "climb, as a cliff, climbing the face of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "climber",
+        "descr_trans": "登山者"
+      },
+      {
+        "n": "1",
+        "descr": "cliff",
+        "descr_trans": "悬崖"
+      }
+    ],
+    "roleset_name_trans": "攀爬，如悬崖，攀爬表面"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "scale.04",
+    "roleset_name": "develop dry, scaly skin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of skin change",
+        "descr_trans": "皮肤变化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming scaly",
+        "descr_trans": "东西变得有鳞状"
+      }
+    ],
+    "roleset_name_trans": "皮肤干燥、鳞状"
+  }
 ]

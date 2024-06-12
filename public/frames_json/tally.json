@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tally.01",
-        "roleset_name": "count, enumerate, come to a total",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing counted, summed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tally_up.02",
-        "roleset_name": "tally completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing counted, summed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tally.01",
+    "roleset_name": "count, enumerate, come to a total",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter, agent",
+        "descr_trans": "专柜代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing counted, summed",
+        "descr_trans": "计算过的事物，总结过的事物"
+      }
+    ],
+    "roleset_name_trans": "计算，列举，总计"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tally_up.02",
+    "roleset_name": "tally completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter, agent",
+        "descr_trans": "专柜代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing counted, summed",
+        "descr_trans": "计算过的事物，总结过的事物"
+      }
+    ],
+    "roleset_name_trans": "完全相符"
+  }
 ]

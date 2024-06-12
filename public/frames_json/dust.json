@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dust.01",
-        "roleset_name": "sprinkle lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sprinkler"
-            },
-            {
-                "n": "1",
-                "descr": "dustlike substance"
-            },
-            {
-                "n": "2",
-                "descr": "sprinkled-upon"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dust.02",
-        "roleset_name": "remove dust from surfaces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover of dust, agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dust_off.03",
-        "roleset_name": "remove dust, metaphorical/phrasal variant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dust.01",
+    "roleset_name": "sprinkle lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sprinkler",
+        "descr_trans": "药剂、洒水器"
+      },
+      {
+        "n": "1",
+        "descr": "dustlike substance",
+        "descr_trans": "尘埃状物质"
+      },
+      {
+        "n": "2",
+        "descr": "sprinkled-upon",
+        "descr_trans": "洒在"
+      }
+    ],
+    "roleset_name_trans": "轻轻洒"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dust.02",
+    "roleset_name": "remove dust from surfaces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover of dust, agent",
+        "descr_trans": "除尘剂、除尘剂"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      }
+    ],
+    "roleset_name_trans": "去除表面灰尘"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dust_off.03",
+    "roleset_name": "remove dust, metaphorical/phrasal variant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      }
+    ],
+    "roleset_name_trans": "去除灰尘，隐喻/短语变体"
+  }
 ]

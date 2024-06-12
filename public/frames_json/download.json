@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "download.01",
-        "roleset_name": "transfer data from one computer to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "downloader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "file or program downloaded"
-            },
-            {
-                "n": "2",
-                "descr": "storage device, downloaded to where?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "download.01",
+    "roleset_name": "transfer data from one computer to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "downloader, agent",
+        "descr_trans": "下载器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "file or program downloaded",
+        "descr_trans": "下载的文件或程序"
+      },
+      {
+        "n": "2",
+        "descr": "storage device, downloaded to where?",
+        "descr_trans": "存储设备，下载到哪里？"
+      }
+    ],
+    "roleset_name_trans": "将数据从一台计算机传输到另一台计算机"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "irk.01",
-        "roleset_name": "annoy slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of annoyance"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting annoyed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "irk.01",
+    "roleset_name": "annoy slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of annoyance",
+        "descr_trans": "造成烦恼的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting annoyed",
+        "descr_trans": "实体生气"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "稍微惹恼"
+  }
 ]

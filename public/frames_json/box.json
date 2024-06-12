@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "box.01",
-        "roleset_name": "to store in a box, put in a box to store",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storer"
-            },
-            {
-                "n": "1",
-                "descr": "thing stored"
-            },
-            {
-                "n": "2",
-                "descr": "box"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "box.02",
-        "roleset_name": "enclosing (/being enclosed), forming an enclosure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity forming a box"
-            },
-            {
-                "n": "2",
-                "descr": "enclosed area"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "box.03",
-        "roleset_name": "fight, boxing style",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "First fighter"
-            },
-            {
-                "n": "1",
-                "descr": "Second fighter"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "box_in.04",
-        "roleset_name": "trap, enclose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of entrapment"
-            },
-            {
-                "n": "1",
-                "descr": "the walls, trap (if separate from arg1)"
-            },
-            {
-                "n": "2",
-                "descr": "entity trapped, enclosed"
-            },
-            {
-                "n": "3",
-                "descr": "in regards to what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "kickbox.05",
-        "roleset_name": "Fight primarily with one's feet, often as a form of exercise.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "kickboxer, agent, first fighter"
-            },
-            {
-                "n": "1",
-                "descr": "second fighter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "box.01",
+    "roleset_name": "to store in a box, put in a box to store",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storer",
+        "descr_trans": "更大"
+      },
+      {
+        "n": "1",
+        "descr": "thing stored",
+        "descr_trans": "存储的东西"
+      },
+      {
+        "n": "2",
+        "descr": "box",
+        "descr_trans": "盒子"
+      }
+    ],
+    "roleset_name_trans": "to store in a box 放入盒子中存放"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "box.02",
+    "roleset_name": "enclosing (/being enclosed), forming an enclosure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity forming a box",
+        "descr_trans": "形成盒子的实体"
+      },
+      {
+        "n": "2",
+        "descr": "enclosed area",
+        "descr_trans": "封闭区域"
+      }
+    ],
+    "roleset_name_trans": "包围（/被包围），形成包围"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "box.03",
+    "roleset_name": "fight, boxing style",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "First fighter",
+        "descr_trans": "第一战斗机"
+      },
+      {
+        "n": "1",
+        "descr": "Second fighter",
+        "descr_trans": "第二战斗机"
+      }
+    ],
+    "roleset_name_trans": "战斗，拳击风格"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "box_in.04",
+    "roleset_name": "trap, enclose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of entrapment",
+        "descr_trans": "被困的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "the walls, trap (if separate from arg1)",
+        "descr_trans": "墙壁、陷阱（如果与 arg1 分开）"
+      },
+      {
+        "n": "2",
+        "descr": "entity trapped, enclosed",
+        "descr_trans": "实体被困、封闭"
+      },
+      {
+        "n": "3",
+        "descr": "in regards to what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "陷阱，包围"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "kickbox.05",
+    "roleset_name": "Fight primarily with one's feet, often as a form of exercise.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "kickboxer, agent, first fighter",
+        "descr_trans": "跆拳道运动员、特工、第一拳手"
+      },
+      {
+        "n": "1",
+        "descr": "second fighter",
+        "descr_trans": "第二战斗机"
+      }
+    ],
+    "roleset_name_trans": "主要用脚进行战斗，通常作为一种锻炼形式。"
+  }
 ]

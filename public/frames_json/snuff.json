@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snuff.01",
-        "roleset_name": "snuff, sniffle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snuffer"
-            },
-            {
-                "n": "1",
-                "descr": "thing snuffed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snuff_out.02",
-        "roleset_name": "extinguish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of extinguishing"
-            },
-            {
-                "n": "1",
-                "descr": "thing extinguished"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snuff.01",
+    "roleset_name": "snuff, sniffle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snuffer",
+        "descr_trans": "扼杀者"
+      },
+      {
+        "n": "1",
+        "descr": "thing snuffed",
+        "descr_trans": "东西被掐灭了"
+      }
+    ],
+    "roleset_name_trans": "吸鼻烟，吸鼻烟"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snuff_out.02",
+    "roleset_name": "extinguish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of extinguishing",
+        "descr_trans": "灭火剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing extinguished",
+        "descr_trans": "东西熄灭了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "扑灭"
+  }
 ]

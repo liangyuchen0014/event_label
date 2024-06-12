@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dehull.01",
-        "roleset_name": "remove covering of a seed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "seed"
-            },
-            {
-                "n": "2",
-                "descr": "husk, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dehull.01",
+    "roleset_name": "remove covering of a seed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "seed",
+        "descr_trans": "种子"
+      },
+      {
+        "n": "2",
+        "descr": "husk, thing removed",
+        "descr_trans": "外壳，去除的东西"
+      }
+    ],
+    "roleset_name_trans": "除去种子的覆盖物"
+  }
 ]

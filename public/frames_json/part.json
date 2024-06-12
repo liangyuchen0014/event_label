@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "part.01",
-        "roleset_name": "to separate, break up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity/entities parted"
-            },
-            {
-                "n": "2",
-                "descr": "second entity parted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "partake.02",
-        "roleset_name": "to take or have a part in; participate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity participating"
-            },
-            {
-                "n": "1",
-                "descr": "take a part in what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "partake.03",
-        "roleset_name": "take a portion, perhaps as of a meal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "partaker"
-            },
-            {
-                "n": "1",
-                "descr": "meal, etc."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "part.01",
+    "roleset_name": "to separate, break up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity/entities parted",
+        "descr_trans": "实体/实体分离"
+      },
+      {
+        "n": "2",
+        "descr": "second entity parted",
+        "descr_trans": "第二个实体分开"
+      }
+    ],
+    "roleset_name_trans": "分开，分手"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "partake.02",
+    "roleset_name": "to take or have a part in; participate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity participating",
+        "descr_trans": "代理人、参与实体"
+      },
+      {
+        "n": "1",
+        "descr": "take a part in what?",
+        "descr_trans": "参加什么？"
+      }
+    ],
+    "roleset_name_trans": "参加或参与；参加"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "partake.03",
+    "roleset_name": "take a portion, perhaps as of a meal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "partaker",
+        "descr_trans": "伙伴"
+      },
+      {
+        "n": "1",
+        "descr": "meal, etc.",
+        "descr_trans": "膳食等"
+      }
+    ],
+    "roleset_name_trans": "服用一部分，也许作为一顿饭"
+  }
 ]

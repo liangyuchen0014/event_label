@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "capitalize.01",
-        "roleset_name": "provide with cash value",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner"
-            },
-            {
-                "n": "1",
-                "descr": "assigned to"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "capitalize.02",
-        "roleset_name": "take advantage of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exploiter"
-            },
-            {
-                "n": "1",
-                "descr": "thing exploited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "capitalize.01",
+    "roleset_name": "provide with cash value",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner",
+        "descr_trans": "分配"
+      },
+      {
+        "n": "1",
+        "descr": "assigned to",
+        "descr_trans": "分配给"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "提供现金价值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "capitalize.02",
+    "roleset_name": "take advantage of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exploiter",
+        "descr_trans": "开发"
+      },
+      {
+        "n": "1",
+        "descr": "thing exploited",
+        "descr_trans": "被剥削的东西"
+      }
+    ],
+    "roleset_name_trans": "利用"
+  }
 ]

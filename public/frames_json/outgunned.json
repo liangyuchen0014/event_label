@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outgunned.01",
-        "roleset_name": "overwhelm with (military) force",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "weapon, instrument if in addition to arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outgunned.01",
+    "roleset_name": "overwhelm with (military) force",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "weapon, instrument if in addition to arg0",
+        "descr_trans": "武器、仪器（如​​果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "以（军事）力量压倒"
+  }
 ]

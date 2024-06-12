@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "putz.01",
-        "roleset_name": "fiddle with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the fiddling"
-            },
-            {
-                "n": "1",
-                "descr": "thing fiddled with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "putz_around.02",
-        "roleset_name": "fiddle around with (phrasal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the fiddling around"
-            },
-            {
-                "n": "1",
-                "descr": "thing fiddled around with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "putz.01",
+    "roleset_name": "fiddle with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the fiddling",
+        "descr_trans": "摆弄的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing fiddled with",
+        "descr_trans": "摆弄的东西"
+      }
+    ],
+    "roleset_name_trans": "摆弄"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "putz_around.02",
+    "roleset_name": "fiddle around with (phrasal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the fiddling around",
+        "descr_trans": "摆弄的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing fiddled around with",
+        "descr_trans": "摆弄的东西"
+      }
+    ],
+    "roleset_name_trans": "摆弄（短语）"
+  }
 ]

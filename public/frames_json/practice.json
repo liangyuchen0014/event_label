@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "practice.01",
-        "roleset_name": "practice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "practicer"
-            },
-            {
-                "n": "1",
-                "descr": "skill"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "practical.02",
-        "roleset_name": "in practice rather than theory",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in practice"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "practical.03",
-        "roleset_name": "realistic, reasonable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "practical entity"
-            },
-            {
-                "n": "2",
-                "descr": "practical to/for whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "practice.01",
+    "roleset_name": "practice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "practicer",
+        "descr_trans": "练习者"
+      },
+      {
+        "n": "1",
+        "descr": "skill",
+        "descr_trans": "技能"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "实践"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "practical.02",
+    "roleset_name": "in practice rather than theory",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in practice",
+        "descr_trans": "实践中的事情"
+      }
+    ],
+    "roleset_name_trans": "实践而不是理论"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "practical.03",
+    "roleset_name": "realistic, reasonable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "practical entity",
+        "descr_trans": "实际实体"
+      },
+      {
+        "n": "2",
+        "descr": "practical to/for whom?",
+        "descr_trans": "对谁实用？"
+      }
+    ],
+    "roleset_name_trans": "现实、合理"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "steer.01",
-        "roleset_name": "provide direction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "steerer"
-            },
-            {
-                "n": "1",
-                "descr": "thing steered"
-            },
-            {
-                "n": "2",
-                "descr": "direction, steered towards"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "steer_clear.02",
-        "roleset_name": "avoid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "avoider"
-            },
-            {
-                "n": "1",
-                "descr": "avoided"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "steer.01",
+    "roleset_name": "provide direction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "steerer",
+        "descr_trans": "舵手"
+      },
+      {
+        "n": "1",
+        "descr": "thing steered",
+        "descr_trans": "东西引导"
+      },
+      {
+        "n": "2",
+        "descr": "direction, steered towards",
+        "descr_trans": "方向，转向"
+      }
+    ],
+    "roleset_name_trans": "提供方向"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "steer_clear.02",
+    "roleset_name": "avoid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "avoider",
+        "descr_trans": "回避者"
+      },
+      {
+        "n": "1",
+        "descr": "avoided",
+        "descr_trans": "避免的"
+      }
+    ],
+    "roleset_name_trans": "避免"
+  }
 ]

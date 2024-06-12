@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foreclose.01",
-        "roleset_name": "when good mortgages go bad",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bank"
-            },
-            {
-                "n": "1",
-                "descr": "property"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foreclose.01",
+    "roleset_name": "when good mortgages go bad",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bank",
+        "descr_trans": "银行"
+      },
+      {
+        "n": "1",
+        "descr": "property",
+        "descr_trans": "财产"
+      }
+    ],
+    "roleset_name_trans": "当好的抵押贷款变坏时"
+  }
 ]

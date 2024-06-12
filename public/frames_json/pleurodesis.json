@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pleurodesis.01",
-        "roleset_name": "surgery that fuses the layers of pleura to each other",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "which lung"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (undergoer of procedure)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pleurodesis.01",
+    "roleset_name": "surgery that fuses the layers of pleura to each other",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "which lung",
+        "descr_trans": "哪个肺"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (undergoer of procedure)",
+        "descr_trans": "受益人（程序的执行者）"
+      }
+    ],
+    "roleset_name_trans": "将胸膜层彼此融合的手术"
+  }
 ]

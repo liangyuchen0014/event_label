@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sore.01",
-        "roleset_name": "tender",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of soreness"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing soreness"
-            },
-            {
-                "n": "2",
-                "descr": "more specific body part"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sore.01",
+    "roleset_name": "tender",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of soreness",
+        "descr_trans": "引起酸痛的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing soreness",
+        "descr_trans": "实体经历酸痛"
+      },
+      {
+        "n": "2",
+        "descr": "more specific body part",
+        "descr_trans": "更具体的身体部位"
+      }
+    ],
+    "roleset_name_trans": "投标"
+  }
 ]

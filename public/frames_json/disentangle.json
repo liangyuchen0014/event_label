@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disentangle.01",
-        "roleset_name": "end entanglement, cause to be separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of separation"
-            },
-            {
-                "n": "1",
-                "descr": "First (or all when one constituent) thing disentangled"
-            },
-            {
-                "n": "2",
-                "descr": "Second thing arg1 is disentangled from (when separate constituent)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disentangle.01",
+    "roleset_name": "end entanglement, cause to be separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of separation",
+        "descr_trans": "造成分离的原因"
+      },
+      {
+        "n": "1",
+        "descr": "First (or all when one constituent) thing disentangled",
+        "descr_trans": "第一个（或当一个组成部分时的所有）事物解开"
+      },
+      {
+        "n": "2",
+        "descr": "Second thing arg1 is disentangled from (when separate constituent)",
+        "descr_trans": "第二件事 arg1 被解开（当单独的成分时）"
+      }
+    ],
+    "roleset_name_trans": "结束纠缠，导致分离"
+  }
 ]

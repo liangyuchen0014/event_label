@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "violent.01",
-        "roleset_name": "behaving violently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of violent behavior"
-            },
-            {
-                "n": "1",
-                "descr": "non-agentive thing/action characterized by violence"
-            },
-            {
-                "n": "2",
-                "descr": "target of violent behavior; victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "violent.01",
+    "roleset_name": "behaving violently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of violent behavior",
+        "descr_trans": "暴力行为的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "non-agentive thing/action characterized by violence",
+        "descr_trans": "以暴力为特征的非主动事物/行为"
+      },
+      {
+        "n": "2",
+        "descr": "target of violent behavior; victim",
+        "descr_trans": "暴力行为的目标；受害者"
+      }
+    ],
+    "roleset_name_trans": "行为暴力"
+  }
 ]

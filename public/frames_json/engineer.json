@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "engineer.01",
-        "roleset_name": "make, devise, with some difficulty, planning technically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "engineer"
-            },
-            {
-                "n": "1",
-                "descr": "engineered"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 being engineered, if in addition to arg1"
-            },
-            {
-                "n": "3",
-                "descr": "source material, if in addition to arg1"
-            },
-            {
-                "n": "4",
-                "descr": "attribute/purpose of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "engineer.01",
+    "roleset_name": "make, devise, with some difficulty, planning technically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "engineer",
+        "descr_trans": "工程师"
+      },
+      {
+        "n": "1",
+        "descr": "engineered",
+        "descr_trans": "工程化的"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 being engineered, if in addition to arg1",
+        "descr_trans": "正在设计的 arg1 的特定方面（如果除了 arg1 之外）"
+      },
+      {
+        "n": "3",
+        "descr": "source material, if in addition to arg1",
+        "descr_trans": "源材料，如果除了 arg1"
+      },
+      {
+        "n": "4",
+        "descr": "attribute/purpose of arg1",
+        "descr_trans": "arg1 的属性/用途"
+      }
+    ],
+    "roleset_name_trans": "有一定困难地进行、设计、技术上的规划"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thud.01",
-        "roleset_name": "hit, make a thudding sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing thudding"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit (NOT Location)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thud.01",
+    "roleset_name": "hit, make a thudding sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing thudding",
+        "descr_trans": "东西重击"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit (NOT Location)",
+        "descr_trans": "东西被击中（不是位置）"
+      }
+    ],
+    "roleset_name_trans": "击打，发出重击的声音"
+  }
 ]

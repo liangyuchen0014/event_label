@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slice.01",
-        "roleset_name": "to cut into slices or from a larger piece",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity sliced"
-            },
-            {
-                "n": "2",
-                "descr": "larger piece"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slice_up.02",
-        "roleset_name": "to cut into slices",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity sliced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slice.01",
+    "roleset_name": "to cut into slices or from a larger piece",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter, agent",
+        "descr_trans": "刀具、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity sliced",
+        "descr_trans": "实体切片"
+      },
+      {
+        "n": "2",
+        "descr": "larger piece",
+        "descr_trans": "较大的一块"
+      }
+    ],
+    "roleset_name_trans": "切成片或从大块上切下来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slice_up.02",
+    "roleset_name": "to cut into slices",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter, agent",
+        "descr_trans": "刀具、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity sliced",
+        "descr_trans": "实体切片"
+      }
+    ],
+    "roleset_name_trans": "切成片"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "utilize.01",
-        "roleset_name": "to put to use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity utilized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "utilitarian.02",
-        "roleset_name": "designed for use",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "utilitarian entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "utilize.01",
+    "roleset_name": "to put to use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user, agent",
+        "descr_trans": "用户代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity utilized",
+        "descr_trans": "使用的实体"
+      }
+    ],
+    "roleset_name_trans": "投入使用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "utilitarian.02",
+    "roleset_name": "designed for use",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "utilitarian entity",
+        "descr_trans": "功利实体"
+      }
+    ],
+    "roleset_name_trans": "设计用于使用"
+  }
 ]

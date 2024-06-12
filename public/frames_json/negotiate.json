@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "negotiate.01",
-        "roleset_name": "work out terms of agreement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "negotiator"
-            },
-            {
-                "n": "1",
-                "descr": "explicit other party"
-            },
-            {
-                "n": "2",
-                "descr": "agreement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "negotiate.01",
+    "roleset_name": "work out terms of agreement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "negotiator",
+        "descr_trans": "谈判者"
+      },
+      {
+        "n": "1",
+        "descr": "explicit other party",
+        "descr_trans": "明确的另一方"
+      },
+      {
+        "n": "2",
+        "descr": "agreement",
+        "descr_trans": "协议"
+      }
+    ],
+    "roleset_name_trans": "制定协议条款"
+  }
 ]

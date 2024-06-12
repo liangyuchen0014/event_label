@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lane.01",
-        "roleset_name": "make lanes out of a certain area or space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, constructor of lanes"
-            },
-            {
-                "n": "1",
-                "descr": "area made into/made to be surrounded by lanes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lane.01",
+    "roleset_name": "make lanes out of a certain area or space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, constructor of lanes",
+        "descr_trans": "代理人、车道建设者"
+      },
+      {
+        "n": "1",
+        "descr": "area made into/made to be surrounded by lanes",
+        "descr_trans": "被车道包围的区域"
+      }
+    ],
+    "roleset_name_trans": "在特定区域或空间外划出车道"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "eat.01",
-        "roleset_name": "consume, comsuming",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consumer, eater"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "eat_up.02",
-        "roleset_name": "consume fully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consumer, eater"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "eat_away.03",
-        "roleset_name": "consume partially",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consumer, eater"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "eat.01",
+    "roleset_name": "consume, comsuming",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consumer, eater",
+        "descr_trans": "消费者，食客"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "消费，消费"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "eat_up.02",
+    "roleset_name": "consume fully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consumer, eater",
+        "descr_trans": "消费者，食客"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "充分消耗"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "eat_away.03",
+    "roleset_name": "consume partially",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consumer, eater",
+        "descr_trans": "消费者，食客"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "部分消耗"
+  }
 ]

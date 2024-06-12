@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impede.01",
-        "roleset_name": "hinder, try to stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity attempting to stop something"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being prevented)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication or action"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impede.01",
+    "roleset_name": "hinder, try to stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity attempting to stop something",
+        "descr_trans": "试图阻止某事的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being prevented)",
+        "descr_trans": "主题（被阻止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication or action",
+        "descr_trans": "次要预测或动作"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻碍，试图阻止"
+  }
 ]

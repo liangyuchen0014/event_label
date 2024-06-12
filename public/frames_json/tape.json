@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tape.01",
-        "roleset_name": "to secure of fasten with a tape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity taped"
-            },
-            {
-                "n": "2",
-                "descr": "entity taped to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tape.02",
-        "roleset_name": "to record on magnetic tape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recorder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity taped"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tape_up.03",
-        "roleset_name": "affix with tape, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of taping"
-            },
-            {
-                "n": "1",
-                "descr": "thing taped up"
-            },
-            {
-                "n": "2",
-                "descr": "the tape"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tape.01",
+    "roleset_name": "to secure of fasten with a tape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taper, agent",
+        "descr_trans": "锥度剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity taped",
+        "descr_trans": "实体录音"
+      },
+      {
+        "n": "2",
+        "descr": "entity taped to",
+        "descr_trans": "实体粘贴到"
+      }
+    ],
+    "roleset_name_trans": "用胶带固定或固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tape.02",
+    "roleset_name": "to record on magnetic tape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recorder, agent",
+        "descr_trans": "记录员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity taped",
+        "descr_trans": "实体录音"
+      }
+    ],
+    "roleset_name_trans": "记录在磁带上"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tape_up.03",
+    "roleset_name": "affix with tape, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of taping",
+        "descr_trans": "胶带代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing taped up",
+        "descr_trans": "被胶带粘住的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the tape",
+        "descr_trans": "录影带"
+      }
+    ],
+    "roleset_name_trans": "用胶带固定，完成"
+  }
 ]

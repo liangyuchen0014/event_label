@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bedeck.01",
-        "roleset_name": "to decorate, adorn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bedecked"
-            },
-            {
-                "n": "2",
-                "descr": "decoration"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bedeck.01",
+    "roleset_name": "to decorate, adorn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, agent",
+        "descr_trans": "装修师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity bedecked",
+        "descr_trans": "实体装饰"
+      },
+      {
+        "n": "2",
+        "descr": "decoration",
+        "descr_trans": "装饰"
+      }
+    ],
+    "roleset_name_trans": "装饰，装饰"
+  }
 ]

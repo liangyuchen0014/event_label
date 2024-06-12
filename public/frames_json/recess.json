@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recess.01",
-        "roleset_name": "put into a lower position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing in lower position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recess.02",
-        "roleset_name": "take a break",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recessing entity"
-            },
-            {
-                "n": "1",
-                "descr": "break from what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recess.01",
+    "roleset_name": "put into a lower position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, putter, agent",
+        "descr_trans": "放置者, 推杆, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing in lower position",
+        "descr_trans": "处于较低位置的东西"
+      }
+    ],
+    "roleset_name_trans": "置于较低位置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recess.02",
+    "roleset_name": "take a break",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recessing entity",
+        "descr_trans": "凹进实体"
+      },
+      {
+        "n": "1",
+        "descr": "break from what?",
+        "descr_trans": "脱离什么？"
+      }
+    ],
+    "roleset_name_trans": "休息一下"
+  }
 ]

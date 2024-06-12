@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "peddle.01",
-        "roleset_name": "to sell or offer for sale",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "thing peddled"
-            },
-            {
-                "n": "2",
-                "descr": "peddled to"
-            },
-            {
-                "n": "3",
-                "descr": "price"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "peddle.01",
+    "roleset_name": "to sell or offer for sale",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "thing peddled",
+        "descr_trans": "兜售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "peddled to",
+        "descr_trans": "兜售给"
+      },
+      {
+        "n": "3",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "出售或要约出售"
+  }
 ]

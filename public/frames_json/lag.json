@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lag.01",
-        "roleset_name": "move more slowly, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving slower"
-            },
-            {
-                "n": "1",
-                "descr": "entity moving faster"
-            },
-            {
-                "n": "2",
-                "descr": "margin"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lag.01",
+    "roleset_name": "move more slowly, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving slower",
+        "descr_trans": "实体移动速度变慢"
+      },
+      {
+        "n": "1",
+        "descr": "entity moving faster",
+        "descr_trans": "实体移动得更快"
+      },
+      {
+        "n": "2",
+        "descr": "margin",
+        "descr_trans": "利润"
+      }
+    ],
+    "roleset_name_trans": "移动得更慢，"
+  }
 ]

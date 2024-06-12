@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undersell.01",
-        "roleset_name": "sell some commodity at a   lower price than the competition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "competition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "undersell.02",
-        "roleset_name": "sell less of something, withold sales of a good",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller witholding a good"
-            },
-            {
-                "n": "1",
-                "descr": "good, thing being sold"
-            },
-            {
-                "n": "2",
-                "descr": "buyer, arg 1 sold to whom"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undersell.01",
+    "roleset_name": "sell some commodity at a   lower price than the competition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "competition",
+        "descr_trans": "竞赛"
+      }
+    ],
+    "roleset_name_trans": "以低于竞争对手的价格出售某些商品"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "undersell.02",
+    "roleset_name": "sell less of something, withold sales of a good",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller witholding a good",
+        "descr_trans": "卖家扣货"
+      },
+      {
+        "n": "1",
+        "descr": "good, thing being sold",
+        "descr_trans": "不错，东西正在卖"
+      },
+      {
+        "n": "2",
+        "descr": "buyer, arg 1 sold to whom",
+        "descr_trans": "买家，arg 1 卖给谁"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "少卖某样东西，不卖某样东西"
+  }
 ]

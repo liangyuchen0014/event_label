@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "position.01",
-        "roleset_name": "put in a particular location, or describe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing positioned, often REC"
-            },
-            {
-                "n": "2",
-                "descr": "location or position, or attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "position.02",
-        "roleset_name": "stance, view, or perspective",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "viewer, entity taking a stance"
-            },
-            {
-                "n": "1",
-                "descr": "topic, thing opined on"
-            },
-            {
-                "n": "2",
-                "descr": "stance, opinion, attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "position.01",
+    "roleset_name": "put in a particular location, or describe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, putter",
+        "descr_trans": "代理、推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing positioned, often REC",
+        "descr_trans": "物体定位，通常是 REC"
+      },
+      {
+        "n": "2",
+        "descr": "location or position, or attribute of arg1",
+        "descr_trans": "arg1 的位置或位置或属性"
+      }
+    ],
+    "roleset_name_trans": "放置在特定位置，或描述"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "position.02",
+    "roleset_name": "stance, view, or perspective",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "viewer, entity taking a stance",
+        "descr_trans": "观看者，采取立场的实体"
+      },
+      {
+        "n": "1",
+        "descr": "topic, thing opined on",
+        "descr_trans": "主题，所发表的意见"
+      },
+      {
+        "n": "2",
+        "descr": "stance, opinion, attribute",
+        "descr_trans": "立场、观点、属性"
+      }
+    ],
+    "roleset_name_trans": "立场、观点或观点"
+  }
 ]

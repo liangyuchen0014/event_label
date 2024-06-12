@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gray.01",
-        "roleset_name": "(cause to) become gray",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming gray"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gray.02",
-        "roleset_name": "be gray in color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of grayness"
-            },
-            {
-                "n": "1",
-                "descr": "gray thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gray.01",
+    "roleset_name": "(cause to) become gray",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming gray",
+        "descr_trans": "东西变成灰色"
+      }
+    ],
+    "roleset_name_trans": "（导致）变灰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gray.02",
+    "roleset_name": "be gray in color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of grayness",
+        "descr_trans": "造成灰色的原因"
+      },
+      {
+        "n": "1",
+        "descr": "gray thing",
+        "descr_trans": "灰色的东西"
+      }
+    ],
+    "roleset_name_trans": "颜色为灰色"
+  }
 ]

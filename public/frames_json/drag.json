@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drag.01",
-        "roleset_name": "(try to) cause motion, pulling on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dragger"
-            },
-            {
-                "n": "1",
-                "descr": "thing dragged"
-            },
-            {
-                "n": "2",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drag_on.02",
-        "roleset_name": "drag continuously over a span of time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dragger"
-            },
-            {
-                "n": "1",
-                "descr": "thing dragged"
-            },
-            {
-                "n": "2",
-                "descr": "direction or path"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "drag_feet.03",
-        "roleset_name": "procrastinate, be very slow in doing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "procrastinator"
-            },
-            {
-                "n": "1",
-                "descr": "task/event put off"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drag.01",
+    "roleset_name": "(try to) cause motion, pulling on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dragger",
+        "descr_trans": "拖拉机"
+      },
+      {
+        "n": "1",
+        "descr": "thing dragged",
+        "descr_trans": "拖着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "（尝试）引起运动，拉动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drag_on.02",
+    "roleset_name": "drag continuously over a span of time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dragger",
+        "descr_trans": "拖拉机"
+      },
+      {
+        "n": "1",
+        "descr": "thing dragged",
+        "descr_trans": "拖着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "direction or path",
+        "descr_trans": "方向或路径"
+      }
+    ],
+    "roleset_name_trans": "在一段时间内连续拖动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "drag_feet.03",
+    "roleset_name": "procrastinate, be very slow in doing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "procrastinator",
+        "descr_trans": "拖延者"
+      },
+      {
+        "n": "1",
+        "descr": "task/event put off",
+        "descr_trans": "任务/事件推迟"
+      }
+    ],
+    "roleset_name_trans": "拖延，做事非常缓慢"
+  }
 ]

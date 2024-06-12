@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transmogrify.01",
-        "roleset_name": "change, transform",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transmogrify.01",
+    "roleset_name": "change, transform",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of change, agent",
+        "descr_trans": "变更原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "改变、转变"
+  }
 ]

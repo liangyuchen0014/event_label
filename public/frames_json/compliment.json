@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compliment.01",
-        "roleset_name": "give a compliment to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of compliment"
-            },
-            {
-                "n": "1",
-                "descr": "recipient"
-            },
-            {
-                "n": "2",
-                "descr": "reason"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compliment.01",
+    "roleset_name": "give a compliment to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of compliment",
+        "descr_trans": "赞美者"
+      },
+      {
+        "n": "1",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "2",
+        "descr": "reason",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "称赞"
+  }
 ]

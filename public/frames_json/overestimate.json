@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overestimate.01",
-        "roleset_name": "guess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "estimator"
-            },
-            {
-                "n": "1",
-                "descr": "thing overestimated"
-            },
-            {
-                "n": "2",
-                "descr": "estimated-to-be, attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overestimate.01",
+    "roleset_name": "guess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "estimator",
+        "descr_trans": "估计器"
+      },
+      {
+        "n": "1",
+        "descr": "thing overestimated",
+        "descr_trans": "事情被高估了"
+      },
+      {
+        "n": "2",
+        "descr": "estimated-to-be, attribute of arg1",
+        "descr_trans": "估计的，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "猜测"
+  }
 ]

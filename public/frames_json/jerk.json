@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jerk.01",
-        "roleset_name": "pull with sudden force",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jerker"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled (on)"
-            },
-            {
-                "n": "2",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jerk.02",
-        "roleset_name": "non-phrasal, masturbate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "masturbator"
-            },
-            {
-                "n": "1",
-                "descr": "body part affected"
-            },
-            {
-                "n": "2",
-                "descr": "stimulus referenced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jerk.01",
+    "roleset_name": "pull with sudden force",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jerker",
+        "descr_trans": "混蛋"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled (on)",
+        "descr_trans": "东西拉（上）"
+      },
+      {
+        "n": "2",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "突然用力拉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jerk.02",
+    "roleset_name": "non-phrasal, masturbate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "masturbator",
+        "descr_trans": "手淫者"
+      },
+      {
+        "n": "1",
+        "descr": "body part affected",
+        "descr_trans": "受影响的身体部位"
+      },
+      {
+        "n": "2",
+        "descr": "stimulus referenced",
+        "descr_trans": "刺激参考"
+      }
+    ],
+    "roleset_name_trans": "非言语、手淫"
+  }
 ]

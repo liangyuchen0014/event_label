@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tend.01",
-        "roleset_name": "care for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tender"
-            },
-            {
-                "n": "1",
-                "descr": "thing tended (to)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tend.02",
-        "roleset_name": "have a tendency, drift",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "theme"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tend.01",
+    "roleset_name": "care for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tender",
+        "descr_trans": "投标"
+      },
+      {
+        "n": "1",
+        "descr": "thing tended (to)",
+        "descr_trans": "事物趋于（到）"
+      }
+    ],
+    "roleset_name_trans": "关心"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tend.02",
+    "roleset_name": "have a tendency, drift",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "theme",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "有倾向、漂移"
+  }
 ]

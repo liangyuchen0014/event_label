@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ban.01",
-        "roleset_name": "prohibit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lawgiver, usually"
-            },
-            {
-                "n": "1",
-                "descr": "activity/place/item not allowed; banned from"
-            },
-            {
-                "n": "2",
-                "descr": "secondary agent; entity banned from engaging in/entering arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ban.01",
+    "roleset_name": "prohibit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lawgiver, usually",
+        "descr_trans": "立法者，通常"
+      },
+      {
+        "n": "1",
+        "descr": "activity/place/item not allowed; banned from",
+        "descr_trans": "不允许的活动/地点/物品；禁止"
+      },
+      {
+        "n": "2",
+        "descr": "secondary agent; entity banned from engaging in/entering arg1",
+        "descr_trans": "二级代理；实体被禁止参与/进入 arg1"
+      }
+    ],
+    "roleset_name_trans": "禁止"
+  }
 ]

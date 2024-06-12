@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "microblog.01",
-        "roleset_name": "post to an online journal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "entry, topic written on or thing (ie photo) posted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, audience"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "microblog.01",
+    "roleset_name": "post to an online journal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "entry, topic written on or thing (ie photo) posted",
+        "descr_trans": "条目、所写主题或张贴的事物（即照片）"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, audience",
+        "descr_trans": "有益的观众"
+      }
+    ],
+    "roleset_name_trans": "发布到在线日记"
+  }
 ]

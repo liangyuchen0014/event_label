@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perform.01",
-        "roleset_name": "entertain, put on a show",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "performance, thing performed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "perform.02",
-        "roleset_name": "carry out a task or action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing task"
-            },
-            {
-                "n": "1",
-                "descr": "action/tasks performed, kind of tasks done"
-            },
-            {
-                "n": "2",
-                "descr": "assessment of performance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perform.01",
+    "roleset_name": "entertain, put on a show",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "performance, thing performed",
+        "descr_trans": "表现，执行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "娱乐，表演"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "perform.02",
+    "roleset_name": "carry out a task or action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing task",
+        "descr_trans": "代理，执行任务的实体"
+      },
+      {
+        "n": "1",
+        "descr": "action/tasks performed, kind of tasks done",
+        "descr_trans": "执行的操作/任务，完成的任务类型"
+      },
+      {
+        "n": "2",
+        "descr": "assessment of performance",
+        "descr_trans": "绩效评估"
+      }
+    ],
+    "roleset_name_trans": "执行任务或行动"
+  }
 ]

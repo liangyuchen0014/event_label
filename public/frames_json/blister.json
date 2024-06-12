@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blister.01",
-        "roleset_name": "(Cause) formation of blisters",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of blisters"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming blistered"
-            },
-            {
-                "n": "2",
-                "descr": "the blister itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blister.02",
-        "roleset_name": "Scald, verbally or in writting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Scalder"
-            },
-            {
-                "n": "1",
-                "descr": "Recipient of scalding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blister.01",
+    "roleset_name": "(Cause) formation of blisters",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of blisters",
+        "descr_trans": "水泡的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming blistered",
+        "descr_trans": "东西起泡"
+      },
+      {
+        "n": "2",
+        "descr": "the blister itself",
+        "descr_trans": "水泡本身"
+      }
+    ],
+    "roleset_name_trans": "（原因）水泡的形成"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blister.02",
+    "roleset_name": "Scald, verbally or in writting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Scalder",
+        "descr_trans": "斯卡尔德"
+      },
+      {
+        "n": "1",
+        "descr": "Recipient of scalding",
+        "descr_trans": "被烫伤者"
+      }
+    ],
+    "roleset_name_trans": "口头或书面的烫伤"
+  }
 ]

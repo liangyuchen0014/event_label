@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "concur.01",
-        "roleset_name": "to agree or cooperate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agreer(s), agent(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing concurred (with)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "concurrent.02",
-        "roleset_name": "coincide with, co-occur",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first entity"
-            },
-            {
-                "n": "2",
-                "descr": "co-occuring with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "concur.01",
+    "roleset_name": "to agree or cooperate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agreer(s), agent(s)",
+        "descr_trans": "同意者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing concurred (with)",
+        "descr_trans": "同意的事情"
+      }
+    ],
+    "roleset_name_trans": "同意或合作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "concurrent.02",
+    "roleset_name": "coincide with, co-occur",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "co-occuring with",
+        "descr_trans": "与同时发生"
+      }
+    ],
+    "roleset_name_trans": "与，同时发生"
+  }
 ]

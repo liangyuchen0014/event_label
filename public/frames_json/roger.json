@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roger.01",
-        "roleset_name": "communicate receipt of message",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity saying 'roger', in response to receiving message"
-            },
-            {
-                "n": "1",
-                "descr": "message received"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roger.01",
+    "roleset_name": "communicate receipt of message",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity saying 'roger', in response to receiving message",
+        "descr_trans": "实体在收到消息时说“roger”"
+      },
+      {
+        "n": "1",
+        "descr": "message received",
+        "descr_trans": "收到消息"
+      }
+    ],
+    "roleset_name_trans": "传达消息的接收"
+  }
 ]

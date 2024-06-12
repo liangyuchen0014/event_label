@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pot.01",
-        "roleset_name": "place in a pot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, potter"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing potted"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pot.01",
+    "roleset_name": "place in a pot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, potter",
+        "descr_trans": "经纪人、陶工"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing potted",
+        "descr_trans": "主题, 盆栽的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "放入锅中"
+  }
 ]

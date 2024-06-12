@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inquire.01",
-        "roleset_name": "to ask about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inquirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing wondered about/investigated"
-            },
-            {
-                "n": "2",
-                "descr": "entity being asked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inquire.01",
+    "roleset_name": "to ask about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inquirer",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "thing wondered about/investigated",
+        "descr_trans": "想知道/调查的事情"
+      },
+      {
+        "n": "2",
+        "descr": "entity being asked",
+        "descr_trans": "被询问的实体"
+      }
+    ],
+    "roleset_name_trans": "询问"
+  }
 ]

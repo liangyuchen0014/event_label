@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clad.01",
-        "roleset_name": "robe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person putting on clothes"
-            },
-            {
-                "n": "1",
-                "descr": "person wearing clothes, when separate from agent"
-            },
-            {
-                "n": "2",
-                "descr": "clothes themselves"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clad.01",
+    "roleset_name": "robe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person putting on clothes",
+        "descr_trans": "穿衣服的人"
+      },
+      {
+        "n": "1",
+        "descr": "person wearing clothes, when separate from agent",
+        "descr_trans": "与特工分开时穿着衣服的人"
+      },
+      {
+        "n": "2",
+        "descr": "clothes themselves",
+        "descr_trans": "衣服本身"
+      }
+    ],
+    "roleset_name_trans": "长袍"
+  }
 ]

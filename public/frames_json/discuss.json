@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discuss.01",
-        "roleset_name": "talk about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discussant"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "conversation partner, if explicit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discuss.01",
+    "roleset_name": "talk about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discussant",
+        "descr_trans": "讨论者"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "conversation partner, if explicit",
+        "descr_trans": "对话伙伴，如果明确的话"
+      }
+    ],
+    "roleset_name_trans": "谈论"
+  }
 ]

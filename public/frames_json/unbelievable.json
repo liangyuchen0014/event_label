@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unbelievable.01",
-        "roleset_name": "not to be believed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "nonbeliever"
-            },
-            {
-                "n": "1",
-                "descr": "thing not able to be believed"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unbelievable.02",
-        "roleset_name": "over the top, perhaps with skill",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "over the top/skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "area of expertise"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unbelievable.01",
+    "roleset_name": "not to be believed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "nonbeliever",
+        "descr_trans": "非信徒"
+      },
+      {
+        "n": "1",
+        "descr": "thing not able to be believed",
+        "descr_trans": "无法相信的事情"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "不可信"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unbelievable.02",
+    "roleset_name": "over the top, perhaps with skill",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "over the top/skilled entity",
+        "descr_trans": "顶级/技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "area of expertise",
+        "descr_trans": "专业领域"
+      }
+    ],
+    "roleset_name_trans": "超越顶部，也许有技巧"
+  }
 ]

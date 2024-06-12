@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depressurize.01",
-        "roleset_name": "to cause to lose pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of depressurization, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity losing pressure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depressurize.01",
+    "roleset_name": "to cause to lose pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of depressurization, agent",
+        "descr_trans": "减压的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "entity losing pressure",
+        "descr_trans": "实体失去压力"
+      }
+    ],
+    "roleset_name_trans": "导致失去压力"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immunodetect.01",
-        "roleset_name": "detect the presence of a specific antigen by the use of antibodies",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of immunodetection (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "target of immunodetection, antigens/proteins checked for"
-            },
-            {
-                "n": "2",
-                "descr": "source tissue being immunodetected from"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, antibody, stain"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immunodetect.01",
+    "roleset_name": "detect the presence of a specific antigen by the use of antibodies",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of immunodetection (e.g. scientist)",
+        "descr_trans": "免疫检测的有意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "target of immunodetection, antigens/proteins checked for",
+        "descr_trans": "免疫检测目标，检查抗原/蛋白质"
+      },
+      {
+        "n": "2",
+        "descr": "source tissue being immunodetected from",
+        "descr_trans": "来源组织进行免疫检测"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, antibody, stain",
+        "descr_trans": "仪器、抗体、染色剂"
+      }
+    ],
+    "roleset_name_trans": "使用抗体检测特定抗原的存在"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprobate.01",
-        "roleset_name": "condemn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "condemner"
-            },
-            {
-                "n": "1",
-                "descr": "condemned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprobate.01",
+    "roleset_name": "condemn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "condemner",
+        "descr_trans": "谴责者"
+      },
+      {
+        "n": "1",
+        "descr": "condemned",
+        "descr_trans": "谴责"
+      }
+    ],
+    "roleset_name_trans": "谴责"
+  }
 ]

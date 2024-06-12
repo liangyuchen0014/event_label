@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ground.01",
-        "roleset_name": "restrict to the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity enforcing grounding"
-            },
-            {
-                "n": "1",
-                "descr": "thing grounded"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ground.02",
-        "roleset_name": "provide a basis for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing having a basis"
-            },
-            {
-                "n": "2",
-                "descr": "the grounds"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ground.01",
+    "roleset_name": "restrict to the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity enforcing grounding",
+        "descr_trans": "实体强制接地"
+      },
+      {
+        "n": "1",
+        "descr": "thing grounded",
+        "descr_trans": "接地的东西"
+      }
+    ],
+    "roleset_name_trans": "限制在地面上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ground.02",
+    "roleset_name": "provide a basis for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing having a basis",
+        "descr_trans": "有根据的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the grounds",
+        "descr_trans": "理由"
+      }
+    ],
+    "roleset_name_trans": "提供基础"
+  }
 ]

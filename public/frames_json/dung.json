@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dung.01",
-        "roleset_name": "apply dung (fertilizer) to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "farmer"
-            },
-            {
-                "n": "1",
-                "descr": "destination of fertilizer (location dunged)"
-            },
-            {
-                "n": "2",
-                "descr": "the fertilizer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dung.01",
+    "roleset_name": "apply dung (fertilizer) to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "farmer",
+        "descr_trans": "农民"
+      },
+      {
+        "n": "1",
+        "descr": "destination of fertilizer (location dunged)",
+        "descr_trans": "肥料的目的地（施肥地点）"
+      },
+      {
+        "n": "2",
+        "descr": "the fertilizer",
+        "descr_trans": "肥料"
+      }
+    ],
+    "roleset_name_trans": "施粪便（肥料）"
+  }
 ]

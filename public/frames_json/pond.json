@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pond.01",
-        "roleset_name": "collect into large puddle (pond)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing collecting (ie water)"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            },
-            {
-                "n": "4",
-                "descr": "end point, location of new pond"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pond.01",
+    "roleset_name": "collect into large puddle (pond)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing collecting (ie water)",
+        "descr_trans": "收集的东西（即水）"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "4",
+        "descr": "end point, location of new pond",
+        "descr_trans": "终点，新池塘的位置"
+      }
+    ],
+    "roleset_name_trans": "收集到大水坑（池塘）中"
+  }
 ]

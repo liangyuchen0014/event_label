@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inch.01",
-        "roleset_name": "move very slowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inch.01",
+    "roleset_name": "move very slowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "移动得很慢"
+  }
 ]

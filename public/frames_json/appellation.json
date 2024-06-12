@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appellation.01",
-        "roleset_name": "to name, call by a certain name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being named"
-            },
-            {
-                "n": "2",
-                "descr": "name itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appellation.01",
+    "roleset_name": "to name, call by a certain name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer, agent",
+        "descr_trans": "命名者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being named",
+        "descr_trans": "被命名的事物"
+      },
+      {
+        "n": "2",
+        "descr": "name itself",
+        "descr_trans": "自己命名"
+      }
+    ],
+    "roleset_name_trans": "命名，用某个名字称呼"
+  }
 ]

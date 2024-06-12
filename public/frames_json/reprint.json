@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprint.01",
-        "roleset_name": "to make a new copy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "printer, copier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing copied"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprint.01",
+    "roleset_name": "to make a new copy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "printer, copier, agent",
+        "descr_trans": "打印机、复印机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing copied",
+        "descr_trans": "复制的东西"
+      }
+    ],
+    "roleset_name_trans": "制作新副本"
+  }
 ]

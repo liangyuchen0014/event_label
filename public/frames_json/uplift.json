@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uplift.01",
-        "roleset_name": "cause increase in elevation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "elevator, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "uplift.02",
-        "roleset_name": "lift spirits",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mood enhancer"
-            },
-            {
-                "n": "1",
-                "descr": "entity cheered up"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uplift.01",
+    "roleset_name": "cause increase in elevation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "elevator, Agent",
+        "descr_trans": "电梯、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      }
+    ],
+    "roleset_name_trans": "导致海拔升高"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "uplift.02",
+    "roleset_name": "lift spirits",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mood enhancer",
+        "descr_trans": "情绪增强剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity cheered up",
+        "descr_trans": "实体欢呼雀跃"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "振奋精神"
+  }
 ]

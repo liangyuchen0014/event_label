@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "void.01",
-        "roleset_name": "to invalidate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voider, invalidator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made void"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "void.101",
-        "roleset_name": "(cause to) become empty, often of waste products",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent/ Person eliminating"
-            },
-            {
-                "n": "1",
-                "descr": "Container being emptied"
-            },
-            {
-                "n": "2",
-                "descr": "Substance emptied of"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "void.02",
-        "roleset_name": "to be invalid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voider, invalidator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made void"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "void.03",
-        "roleset_name": "be empty, often of waste products",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent/ Person eliminating"
-            },
-            {
-                "n": "1",
-                "descr": "Container being emptied"
-            },
-            {
-                "n": "2",
-                "descr": "Substance emptied of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "void.01",
+    "roleset_name": "to invalidate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voider, invalidator, agent",
+        "descr_trans": "voider, 无效者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity made void",
+        "descr_trans": "实体无效"
+      }
+    ],
+    "roleset_name_trans": "使无效"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "void.101",
+    "roleset_name": "(cause to) become empty, often of waste products",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent/ Person eliminating",
+        "descr_trans": "因果因素/消除者"
+      },
+      {
+        "n": "1",
+        "descr": "Container being emptied",
+        "descr_trans": "集装箱被清空"
+      },
+      {
+        "n": "2",
+        "descr": "Substance emptied of",
+        "descr_trans": "物质被清空"
+      }
+    ],
+    "roleset_name_trans": "（导致）变空，通常是废物"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "void.02",
+    "roleset_name": "to be invalid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voider, invalidator, agent",
+        "descr_trans": "voider, 无效者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity made void",
+        "descr_trans": "实体无效"
+      }
+    ],
+    "roleset_name_trans": "无效"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "void.03",
+    "roleset_name": "be empty, often of waste products",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent/ Person eliminating",
+        "descr_trans": "因果因素/消除者"
+      },
+      {
+        "n": "1",
+        "descr": "Container being emptied",
+        "descr_trans": "集装箱被清空"
+      },
+      {
+        "n": "2",
+        "descr": "Substance emptied of",
+        "descr_trans": "物质被清空"
+      }
+    ],
+    "roleset_name_trans": "是空的，通常是废物"
+  }
 ]

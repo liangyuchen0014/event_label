@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gnash.01",
-        "roleset_name": "grind together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of grinding"
-            },
-            {
-                "n": "1",
-                "descr": "thing being ground"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gnash.02",
-        "roleset_name": "remove through grinding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of removal"
-            },
-            {
-                "n": "1",
-                "descr": "thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "source of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gnash.01",
+    "roleset_name": "grind together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of grinding",
+        "descr_trans": "磨削的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being ground",
+        "descr_trans": "被磨碎的东西"
+      }
+    ],
+    "roleset_name_trans": "一起磨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gnash.02",
+    "roleset_name": "remove through grinding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of removal",
+        "descr_trans": "导致移除的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being removed",
+        "descr_trans": "被移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source of arg1",
+        "descr_trans": "arg1 的来源"
+      }
+    ],
+    "roleset_name_trans": "通过研磨去除"
+  }
 ]

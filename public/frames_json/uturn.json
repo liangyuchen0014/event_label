@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uturn.01",
-        "roleset_name": "turn in a U-shaped trajectory such that the orientation at the end is 180 degrees from the start.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "vehicle mention"
-            },
-            {
-                "n": "2",
-                "descr": "U-shaped path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uturn.01",
+    "roleset_name": "turn in a U-shaped trajectory such that the orientation at the end is 180 degrees from the start.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "vehicle mention",
+        "descr_trans": "车辆提及"
+      },
+      {
+        "n": "2",
+        "descr": "U-shaped path",
+        "descr_trans": "U型路径"
+      }
+    ],
+    "roleset_name_trans": "沿 U 形轨迹转弯，使得末端的方向与起点成 180 度。"
+  }
 ]

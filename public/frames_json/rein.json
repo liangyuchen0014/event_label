@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rein_in.01",
-        "roleset_name": "to stop, slow up or control",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "slower, stopper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity reined "
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rein_in.01",
+    "roleset_name": "to stop, slow up or control",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "slower, stopper, agent",
+        "descr_trans": "慢速者、停止者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity reined ",
+        "descr_trans": "实体被控制"
+      }
+    ],
+    "roleset_name_trans": "停止、减速或控制"
+  }
 ]

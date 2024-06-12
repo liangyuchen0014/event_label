@@ -1,118 +1,141 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "worsen.01",
-        "roleset_name": "(cause to) become worse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of badness, worsening"
-            },
-            {
-                "n": "1",
-                "descr": "generally negative, displeasing entity"
-            },
-            {
-                "n": "2",
-                "descr": "entity for whom arg1 is getting worse"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bad.02",
-        "roleset_name": "unskilled at, ineffective",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled, inffective entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bad.03",
-        "roleset_name": "expired, curdled, rancid, gone bad, etc.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "expired thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bad.04",
-        "roleset_name": "harmful for",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "harmful thing"
-            },
-            {
-                "n": "2",
-                "descr": "anti-beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bad.05",
-        "roleset_name": "extensive, intense",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "extensive thing"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "bad.07",
-        "roleset_name": "generally negative, morally bad, displeasing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of badness, worsening"
-            },
-            {
-                "n": "1",
-                "descr": "generally negative, displeasing entity"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "bad.08",
-        "roleset_name": "my bad: accident, mistake; apoogetic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who made a mistake"
-            },
-            {
-                "n": "1",
-                "descr": "the mistake"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "bad_off.06",
-        "roleset_name": "in unfortunate circumstances/condition",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in unfortunate circumstances"
-            },
-            {
-                "n": "2",
-                "descr": "the unfortunate circumstances"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "worsen.01",
+    "roleset_name": "(cause to) become worse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of badness, worsening",
+        "descr_trans": "造成不良状况、恶化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "generally negative, displeasing entity",
+        "descr_trans": "通常是负面的、令人不快的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity for whom arg1 is getting worse",
+        "descr_trans": "arg1 变得更糟的实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更糟"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bad.02",
+    "roleset_name": "unskilled at, ineffective",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled, inffective entity",
+        "descr_trans": "不熟练的、有影响力的实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "不熟练，无效"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bad.03",
+    "roleset_name": "expired, curdled, rancid, gone bad, etc.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "expired thing",
+        "descr_trans": "过期的东西"
+      }
+    ],
+    "roleset_name_trans": "过期、凝结、腐臭、变质等。"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bad.04",
+    "roleset_name": "harmful for",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "harmful thing",
+        "descr_trans": "有害的东西"
+      },
+      {
+        "n": "2",
+        "descr": "anti-beneficiary",
+        "descr_trans": "反受益人"
+      }
+    ],
+    "roleset_name_trans": "有害于"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bad.05",
+    "roleset_name": "extensive, intense",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "extensive thing",
+        "descr_trans": "广泛的东西"
+      }
+    ],
+    "roleset_name_trans": "广泛的、强烈的"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "bad.07",
+    "roleset_name": "generally negative, morally bad, displeasing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of badness, worsening",
+        "descr_trans": "造成不良状况、恶化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "generally negative, displeasing entity",
+        "descr_trans": "通常是负面的、令人不快的实体"
+      }
+    ],
+    "roleset_name_trans": "普遍消极、道德败坏、令人不快"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "bad.08",
+    "roleset_name": "my bad: accident, mistake; apoogetic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who made a mistake",
+        "descr_trans": "犯错误的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the mistake",
+        "descr_trans": "这个错误"
+      }
+    ],
+    "roleset_name_trans": "我的坏事：意外、错误；道歉的"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "bad_off.06",
+    "roleset_name": "in unfortunate circumstances/condition",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in unfortunate circumstances",
+        "descr_trans": "实体处于不幸的情况"
+      },
+      {
+        "n": "2",
+        "descr": "the unfortunate circumstances",
+        "descr_trans": "不幸的情况"
+      }
+    ],
+    "roleset_name_trans": "在不幸的情况/条件下"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extort.01",
-        "roleset_name": "extract money from, under pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, extorter"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extort.01",
+    "roleset_name": "extract money from, under pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, extorter",
+        "descr_trans": "代理人，勒索者"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "在压力下从中榨取金钱"
+  }
 ]

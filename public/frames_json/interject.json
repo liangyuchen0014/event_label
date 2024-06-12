@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interject.01",
-        "roleset_name": "insert into a conversation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interjector, speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "context"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interject.01",
+    "roleset_name": "insert into a conversation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interjector, speaker",
+        "descr_trans": "插话器, 扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "context",
+        "descr_trans": "语境"
+      }
+    ],
+    "roleset_name_trans": "插入对话"
+  }
 ]

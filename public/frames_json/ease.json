@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ease.01",
-        "roleset_name": "decline",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing declining"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount declined by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ease.02",
-        "roleset_name": "help, aid, ameliorate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing helping"
-            },
-            {
-                "n": "1",
-                "descr": "thing being helped"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "ease.03",
-        "roleset_name": "slide, move easily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "ease.06",
-        "roleset_name": "banks purchasing longer term assets to keep inflation up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, monetary authority responsible for QE"
-            },
-            {
-                "n": "1",
-                "descr": "monetary amount"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "ease_up.04",
-        "roleset_name": "become easier",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing helping"
-            },
-            {
-                "n": "1",
-                "descr": "thing being helped"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "easy.05",
-        "roleset_name": "not difficult",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is easy (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ease.01",
+    "roleset_name": "decline",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing declining",
+        "descr_trans": "逻辑主体、耐心、事物衰退"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount declined by",
+        "descr_trans": "EXT，金额下降"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state",
+        "descr_trans": "终点，结束状态"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "衰退"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ease.02",
+    "roleset_name": "help, aid, ameliorate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing helping",
+        "descr_trans": "有帮助的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing being helped",
+        "descr_trans": "被帮助的事物"
+      }
+    ],
+    "roleset_name_trans": "帮助，援助，改善"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "ease.03",
+    "roleset_name": "slide, move easily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion, agent",
+        "descr_trans": "动因、动因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "滑动，轻松移动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "ease.06",
+    "roleset_name": "banks purchasing longer term assets to keep inflation up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, monetary authority responsible for QE",
+        "descr_trans": "代理人，负责量化宽松的货币当局"
+      },
+      {
+        "n": "1",
+        "descr": "monetary amount",
+        "descr_trans": "金额"
+      }
+    ],
+    "roleset_name_trans": "银行购买长期资产以保持通胀上升"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "ease_up.04",
+    "roleset_name": "become easier",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing helping",
+        "descr_trans": "有帮助的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing being helped",
+        "descr_trans": "被帮助的事物"
+      }
+    ],
+    "roleset_name_trans": "变得更容易"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "easy.05",
+    "roleset_name": "not difficult",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is easy (may require concatenation)",
+        "descr_trans": "很容易的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "不难"
+  }
 ]

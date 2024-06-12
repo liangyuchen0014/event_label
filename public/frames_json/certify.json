@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "certify.01",
-        "roleset_name": "to confirm or declare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "confirmer, declarer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity certified"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "certify.01",
+    "roleset_name": "to confirm or declare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "confirmer, declarer, agent",
+        "descr_trans": "确认、声明、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity certified",
+        "descr_trans": "实体认证"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predicate",
+        "descr_trans": "次谓词"
+      }
+    ],
+    "roleset_name_trans": "确认或声明"
+  }
 ]

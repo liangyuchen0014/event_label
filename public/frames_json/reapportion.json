@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reapportion.01",
-        "roleset_name": "distribute again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing apportioned, distributed"
-            },
-            {
-                "n": "2",
-                "descr": "to/among"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reapportion.01",
+    "roleset_name": "distribute again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor, agent",
+        "descr_trans": "经销商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "thing apportioned, distributed",
+        "descr_trans": "分配的东西，分配的东西"
+      },
+      {
+        "n": "2",
+        "descr": "to/among",
+        "descr_trans": "到/之间"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "再次分发"
+  }
 ]

@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bleed.01",
-        "roleset_name": "to emit or lose blood, to be wounded",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bloodshed, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bleeding"
-            },
-            {
-                "n": "2",
-                "descr": "more specific body part bleeding, if in addition to ARG1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bleed.02",
-        "roleset_name": "to take money from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bleeding, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity losing money"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bleed.03",
-        "roleset_name": "to feel sympathetic grief",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "thing bleeding for"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bleed_off.04",
-        "roleset_name": "to remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decreaser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "stuff being removed"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bleed_out.05",
-        "roleset_name": "bleed to death",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "one who is bleeding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bleed.01",
+    "roleset_name": "to emit or lose blood, to be wounded",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bloodshed, agent",
+        "descr_trans": "流血事件的肇事者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity bleeding",
+        "descr_trans": "实体出血"
+      },
+      {
+        "n": "2",
+        "descr": "more specific body part bleeding, if in addition to ARG1",
+        "descr_trans": "更具体的身体部位出血，如果除了 ARG1 之外"
+      }
+    ],
+    "roleset_name_trans": "放血或失血、受伤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bleed.02",
+    "roleset_name": "to take money from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bleeding, agent",
+        "descr_trans": "出血的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "entity losing money",
+        "descr_trans": "实体亏损"
+      }
+    ],
+    "roleset_name_trans": "从中拿钱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bleed.03",
+    "roleset_name": "to feel sympathetic grief",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "thing bleeding for",
+        "descr_trans": "为之流血的东西"
+      }
+    ],
+    "roleset_name_trans": "感到同情悲伤"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bleed_off.04",
+    "roleset_name": "to remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decreaser, agent",
+        "descr_trans": "减速剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "stuff being removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "去除"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bleed_out.05",
+    "roleset_name": "bleed to death",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "one who is bleeding",
+        "descr_trans": "一个正在流血的人"
+      }
+    ],
+    "roleset_name_trans": "失血过多而死"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "instrumentate.01",
-        "roleset_name": "write musical score for instruments",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "composer"
-            },
-            {
-                "n": "1",
-                "descr": "music written or had instruments added to"
-            },
-            {
-                "n": "2",
-                "descr": "the instruments"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "instrumental.02",
-        "roleset_name": "serving as an aid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thing that is aiding, helping"
-            },
-            {
-                "n": "1",
-                "descr": "Project, endeavour aided"
-            },
-            {
-                "n": "2",
-                "descr": "Benefactor, instrumental to whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "instrumentate.01",
+    "roleset_name": "write musical score for instruments",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "composer",
+        "descr_trans": "作曲家"
+      },
+      {
+        "n": "1",
+        "descr": "music written or had instruments added to",
+        "descr_trans": "创作或添加乐器的音乐"
+      },
+      {
+        "n": "2",
+        "descr": "the instruments",
+        "descr_trans": "仪器"
+      }
+    ],
+    "roleset_name_trans": "为乐器写乐谱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "instrumental.02",
+    "roleset_name": "serving as an aid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thing that is aiding, helping",
+        "descr_trans": "帮助的事情，帮助的事情"
+      },
+      {
+        "n": "1",
+        "descr": "Project, endeavour aided",
+        "descr_trans": "项目、努力援助"
+      },
+      {
+        "n": "2",
+        "descr": "Benefactor, instrumental to whom?",
+        "descr_trans": "恩人，对谁有帮助？"
+      }
+    ],
+    "roleset_name_trans": "起到辅助作用"
+  }
 ]

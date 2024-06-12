@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regress.01",
-        "roleset_name": "(cause to) return to a previous state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of regression (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "thing returning to a previous state"
-            },
-            {
-                "n": "3",
-                "descr": "initial state of arg1"
-            },
-            {
-                "n": "4",
-                "descr": "end state of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regress.01",
+    "roleset_name": "(cause to) return to a previous state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of regression (rare)",
+        "descr_trans": "代理，退化的原因（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "thing returning to a previous state",
+        "descr_trans": "事物返回到以前的状态"
+      },
+      {
+        "n": "3",
+        "descr": "initial state of arg1",
+        "descr_trans": "arg1 的初始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "（导致）返回到先前的状态"
+  }
 ]

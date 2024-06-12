@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drool.01",
-        "roleset_name": "emit saliva",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drooler"
-            },
-            {
-                "n": "1",
-                "descr": "drool (cognate object)"
-            },
-            {
-                "n": "2",
-                "descr": "destination of drool"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drool.02",
-        "roleset_name": "lust after heartily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drooler"
-            },
-            {
-                "n": "1",
-                "descr": "thing lusted after"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drool.01",
+    "roleset_name": "emit saliva",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drooler",
+        "descr_trans": "流口水"
+      },
+      {
+        "n": "1",
+        "descr": "drool (cognate object)",
+        "descr_trans": "流口水（同源对象）"
+      },
+      {
+        "n": "2",
+        "descr": "destination of drool",
+        "descr_trans": "流口水的目的地"
+      }
+    ],
+    "roleset_name_trans": "流口水"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drool.02",
+    "roleset_name": "lust after heartily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drooler",
+        "descr_trans": "流口水"
+      },
+      {
+        "n": "1",
+        "descr": "thing lusted after",
+        "descr_trans": "所渴望的东西"
+      }
+    ],
+    "roleset_name_trans": "衷心地追求"
+  }
 ]

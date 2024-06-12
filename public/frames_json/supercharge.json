@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supercharge.01",
-        "roleset_name": "increase the power of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity given more power"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used (the supercharger)"
-            },
-            {
-                "n": "3",
-                "descr": "explicit mention of the power itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supercharge.01",
+    "roleset_name": "increase the power of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity given more power",
+        "descr_trans": "实体被赋予更多权力"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used (the supercharger)",
+        "descr_trans": "使用仪器（增压器）"
+      },
+      {
+        "n": "3",
+        "descr": "explicit mention of the power itself",
+        "descr_trans": "明确提及权力本身"
+      }
+    ],
+    "roleset_name_trans": "增加力量"
+  }
 ]

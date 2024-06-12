@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fine.01",
-        "roleset_name": "extract money because of misdeed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finer, receiver of money"
-            },
-            {
-                "n": "1",
-                "descr": "fine, money"
-            },
-            {
-                "n": "2",
-                "descr": "fined, giver of money"
-            },
-            {
-                "n": "3",
-                "descr": "cause, misdeed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fine.02",
-        "roleset_name": "small in terms of particle size, diameter",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "small thing"
-            },
-            {
-                "n": "2",
-                "descr": "measurment, extent"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fine.03",
-        "roleset_name": "elegant, high quality, attractive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "elegant thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fine.04",
-        "roleset_name": "alright, ok",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is alright"
-            },
-            {
-                "n": "2",
-                "descr": "perceiver, entity deeming something alright."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fine.01",
+    "roleset_name": "extract money because of misdeed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finer, receiver of money",
+        "descr_trans": "更好的，金钱的接受者"
+      },
+      {
+        "n": "1",
+        "descr": "fine, money",
+        "descr_trans": "很好，钱"
+      },
+      {
+        "n": "2",
+        "descr": "fined, giver of money",
+        "descr_trans": "被罚款，给钱"
+      },
+      {
+        "n": "3",
+        "descr": "cause, misdeed",
+        "descr_trans": "原因、不当行为"
+      }
+    ],
+    "roleset_name_trans": "因不当行为而勒索钱财"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fine.02",
+    "roleset_name": "small in terms of particle size, diameter",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "small thing",
+        "descr_trans": "小事"
+      },
+      {
+        "n": "2",
+        "descr": "measurment, extent",
+        "descr_trans": "测量，范围"
+      }
+    ],
+    "roleset_name_trans": "颗粒尺寸、直径小"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fine.03",
+    "roleset_name": "elegant, high quality, attractive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "elegant thing",
+        "descr_trans": "优雅的东西"
+      }
+    ],
+    "roleset_name_trans": "优雅、高品质、有吸引力"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fine.04",
+    "roleset_name": "alright, ok",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is alright",
+        "descr_trans": "没关系的事"
+      },
+      {
+        "n": "2",
+        "descr": "perceiver, entity deeming something alright.",
+        "descr_trans": "感知者，认为某事正常的实体。"
+      }
+    ],
+    "roleset_name_trans": "好吧，好吧"
+  }
 ]

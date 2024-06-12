@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "horrible.01",
-        "roleset_name": "generally very bad, displeasing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally bad entity (may require concatenation"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of badness, entity it is directed toward"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "horrible.02",
-        "roleset_name": "really really unskilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "lacked skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "horrible.03",
-        "roleset_name": "extremely unhealthy, unbeneficial",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unbeneficial thing"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "horrible.01",
+    "roleset_name": "generally very bad, displeasing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally bad entity (may require concatenation",
+        "descr_trans": "通常是坏实体（可能需要串联"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of badness, entity it is directed toward",
+        "descr_trans": "坏事的接受者，它所针对的实体"
+      }
+    ],
+    "roleset_name_trans": "总体来说非常糟糕，令人不快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "horrible.02",
+    "roleset_name": "really really unskilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "lacked skill",
+        "descr_trans": "缺乏技巧"
+      }
+    ],
+    "roleset_name_trans": "真的真的不熟练"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "horrible.03",
+    "roleset_name": "extremely unhealthy, unbeneficial",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unbeneficial thing",
+        "descr_trans": "无益的事"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "极其不健康、无益"
+  }
 ]

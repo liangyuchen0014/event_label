@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "process.01",
-        "roleset_name": "do something to, putting through the steps of a procedure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "processor"
-            },
-            {
-                "n": "1",
-                "descr": "thing processed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "process.02",
-        "roleset_name": "logistics of doing something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "(purpose of) the process"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "process.01",
+    "roleset_name": "do something to, putting through the steps of a procedure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "processor",
+        "descr_trans": "处理器"
+      },
+      {
+        "n": "1",
+        "descr": "thing processed",
+        "descr_trans": "处理过的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "做某事，完成程序的步骤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "process.02",
+    "roleset_name": "logistics of doing something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "(purpose of) the process",
+        "descr_trans": "过程（的目的）"
+      }
+    ],
+    "roleset_name_trans": "做某事的后勤"
+  }
 ]

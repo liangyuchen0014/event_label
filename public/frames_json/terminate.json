@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "terminate.01",
-        "roleset_name": "end, stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing ending"
-            },
-            {
-                "n": "m",
-                "descr": "point at which something ends"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "terminate.02",
-        "roleset_name": "cause to cease employment, firing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "ex-employee"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "terminate.01",
+    "roleset_name": "end, stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing ending",
+        "descr_trans": "事情的结局"
+      },
+      {
+        "n": "m",
+        "descr": "point at which something ends",
+        "descr_trans": "某事结束的点"
+      }
+    ],
+    "roleset_name_trans": "结束，停止"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "terminate.02",
+    "roleset_name": "cause to cease employment, firing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "ex-employee",
+        "descr_trans": "前雇员"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "导致终止雇佣、解雇"
+  }
 ]

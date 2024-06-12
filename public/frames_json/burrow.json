@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "burrow.01",
-        "roleset_name": "make, dig a burrow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, burrower"
-            },
-            {
-                "n": "1",
-                "descr": "ground burrowed into, hole"
-            },
-            {
-                "n": "2",
-                "descr": "Goal of burrowing, thing burrrowed for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "burrow.01",
+    "roleset_name": "make, dig a burrow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, burrower",
+        "descr_trans": "代理人、挖洞者"
+      },
+      {
+        "n": "1",
+        "descr": "ground burrowed into, hole",
+        "descr_trans": "地面钻入，洞"
+      },
+      {
+        "n": "2",
+        "descr": "Goal of burrowing, thing burrrowed for",
+        "descr_trans": "挖洞的目标，挖洞的目的"
+      }
+    ],
+    "roleset_name_trans": "挖一个洞，挖一个洞"
+  }
 ]

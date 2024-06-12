@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "landlock.01",
-        "roleset_name": "surround with land",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing surrounded with land"
-            },
-            {
-                "n": "2",
-                "descr": "the land, what is surrounding arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "landlock.01",
+    "roleset_name": "surround with land",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "thing surrounded with land",
+        "descr_trans": "被土地包围的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the land, what is surrounding arg1",
+        "descr_trans": "土地，arg1 周围是什么"
+      }
+    ],
+    "roleset_name_trans": "被土地包围"
+  }
 ]

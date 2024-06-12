@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reemploy.01",
-        "roleset_name": "give a job to one who has been furloughed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "employee"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reemploy.01",
+    "roleset_name": "give a job to one who has been furloughed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "employee",
+        "descr_trans": "员工"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "给休假的人一份工作"
+  }
 ]

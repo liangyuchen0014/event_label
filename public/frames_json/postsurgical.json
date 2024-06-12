@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "postsurgical.01",
-        "roleset_name": "in the stage just following surgery",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in the stage following surgery"
-            },
-            {
-                "n": "2",
-                "descr": "the surgery"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "postsurgical.01",
+    "roleset_name": "in the stage just following surgery",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in the stage following surgery",
+        "descr_trans": "手术后阶段的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the surgery",
+        "descr_trans": "手术"
+      }
+    ],
+    "roleset_name_trans": "在手术后的阶段"
+  }
 ]

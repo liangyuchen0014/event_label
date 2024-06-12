@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "designate.01",
-        "roleset_name": "assign to a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "designator"
-            },
-            {
-                "n": "1",
-                "descr": "designated"
-            },
-            {
-                "n": "2",
-                "descr": "role of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "designate.01",
+    "roleset_name": "assign to a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "designator",
+        "descr_trans": "指示符"
+      },
+      {
+        "n": "1",
+        "descr": "designated",
+        "descr_trans": "指定的"
+      },
+      {
+        "n": "2",
+        "descr": "role of arg1",
+        "descr_trans": "arg1的作用"
+      }
+    ],
+    "roleset_name_trans": "分配给角色"
+  }
 ]

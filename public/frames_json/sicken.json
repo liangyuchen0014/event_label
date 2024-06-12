@@ -1,69 +1,82 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sicken.01",
-        "roleset_name": "make feel disgust, ill, disgusted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "illness, stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, entity feeling sick"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sick.02",
-        "roleset_name": "macabre, gruesome, disgusting",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "gruesome thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sick.03",
-        "roleset_name": "really amazingly cool. dude.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cool thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sick.04",
-        "roleset_name": "sick and tired of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus arg1 is tired of"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of sick and tiredness"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sick.05",
-        "roleset_name": "ill, disgusted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "illness, affliction"
-            },
-            {
-                "n": "1",
-                "descr": "patient (haha)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sicken.01",
+    "roleset_name": "make feel disgust, ill, disgusted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "illness, stimulus",
+        "descr_trans": "疾病、刺激"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, entity feeling sick",
+        "descr_trans": "体验者，感到不适的实体"
+      }
+    ],
+    "roleset_name_trans": "使人感到厌恶、恶心、厌恶"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sick.02",
+    "roleset_name": "macabre, gruesome, disgusting",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "gruesome thing",
+        "descr_trans": "可怕的事情"
+      }
+    ],
+    "roleset_name_trans": "令人毛骨悚然的, 令人毛骨悚然的, 令人厌恶的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sick.03",
+    "roleset_name": "really amazingly cool. dude.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cool thing",
+        "descr_trans": "很酷的事情"
+      }
+    ],
+    "roleset_name_trans": "真的非常酷。老兄。"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sick.04",
+    "roleset_name": "sick and tired of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus arg1 is tired of",
+        "descr_trans": "刺激 arg1 厌倦了"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of sick and tiredness",
+        "descr_trans": "生病和疲劳的经历者"
+      }
+    ],
+    "roleset_name_trans": "厌倦了"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sick.05",
+    "roleset_name": "ill, disgusted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "illness, affliction",
+        "descr_trans": "疾病、苦难"
+      },
+      {
+        "n": "1",
+        "descr": "patient (haha)",
+        "descr_trans": "病人（哈哈）"
+      }
+    ],
+    "roleset_name_trans": "生病、厌恶"
+  }
 ]

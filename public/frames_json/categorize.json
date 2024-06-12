@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "categorize.01",
-        "roleset_name": "assign into a category",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner"
-            },
-            {
-                "n": "1",
-                "descr": "thing assigned"
-            },
-            {
-                "n": "2",
-                "descr": "category"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "categorize.01",
+    "roleset_name": "assign into a category",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner",
+        "descr_trans": "分配"
+      },
+      {
+        "n": "1",
+        "descr": "thing assigned",
+        "descr_trans": "分配的事情"
+      },
+      {
+        "n": "2",
+        "descr": "category",
+        "descr_trans": "类别"
+      }
+    ],
+    "roleset_name_trans": "分配到一个类别"
+  }
 ]

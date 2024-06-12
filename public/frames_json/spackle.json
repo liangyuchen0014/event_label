@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spackle.01",
-        "roleset_name": "to fill or repair with plastic paste",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "repair person applying spackle"
-            },
-            {
-                "n": "1",
-                "descr": "thing repaired, spackled (destination of paste)"
-            },
-            {
-                "n": "2",
-                "descr": "mention of spackle itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spackle.01",
+    "roleset_name": "to fill or repair with plastic paste",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "repair person applying spackle",
+        "descr_trans": "修理人员涂抹腻子"
+      },
+      {
+        "n": "1",
+        "descr": "thing repaired, spackled (destination of paste)",
+        "descr_trans": "修复后的东西，有斑点（粘贴的目的地）"
+      },
+      {
+        "n": "2",
+        "descr": "mention of spackle itself",
+        "descr_trans": "提及斑点本身"
+      }
+    ],
+    "roleset_name_trans": "用塑料糊填充或修复"
+  }
 ]

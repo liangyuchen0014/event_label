@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swag.01",
-        "roleset_name": "droop or sag from lack of tautness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of sagging"
-            },
-            {
-                "n": "1",
-                "descr": "thing sagging."
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swag.02",
-        "roleset_name": "sway unsteadily or stagger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent or cause of an entity's swaying"
-            },
-            {
-                "n": "1",
-                "descr": "entity set in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swag.01",
+    "roleset_name": "droop or sag from lack of tautness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of sagging",
+        "descr_trans": "下垂的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing sagging.",
+        "descr_trans": "东西下垂。"
+      }
+    ],
+    "roleset_name_trans": "由于缺乏绷紧而下垂或下垂"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swag.02",
+    "roleset_name": "sway unsteadily or stagger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent or cause of an entity's swaying",
+        "descr_trans": "实体摇摆的动因或原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity set in motion",
+        "descr_trans": "实体开始运动"
+      }
+    ],
+    "roleset_name_trans": "摇摇晃晃或摇摇欲坠"
+  }
 ]

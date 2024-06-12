@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snow.01",
-        "roleset_name": "weather phenomenon, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of snow (no empty weather 'it's)"
-            },
-            {
-                "n": "1",
-                "descr": "the snow itself"
-            },
-            {
-                "n": "2",
-                "descr": "entity, location snowed on; snowy place"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snowy.02",
-        "roleset_name": "having snow around, maybe in the air",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of snowiness"
-            },
-            {
-                "n": "1",
-                "descr": "the 'snow' itself (no empty weather 'it's)"
-            },
-            {
-                "n": "2",
-                "descr": "snowy location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snow.01",
+    "roleset_name": "weather phenomenon, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of snow (no empty weather 'it's)",
+        "descr_trans": "下雪的原因（没有空的天气）"
+      },
+      {
+        "n": "1",
+        "descr": "the snow itself",
+        "descr_trans": "雪本身"
+      },
+      {
+        "n": "2",
+        "descr": "entity, location snowed on; snowy place",
+        "descr_trans": "实体、地点被雪覆盖；有雪的地方"
+      }
+    ],
+    "roleset_name_trans": "天气现象，"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snowy.02",
+    "roleset_name": "having snow around, maybe in the air",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of snowiness",
+        "descr_trans": "降雪的原因"
+      },
+      {
+        "n": "1",
+        "descr": "the 'snow' itself (no empty weather 'it's)",
+        "descr_trans": "“雪”本身（没有空的天气“它”）"
+      },
+      {
+        "n": "2",
+        "descr": "snowy location",
+        "descr_trans": "有雪的地方"
+      }
+    ],
+    "roleset_name_trans": "周围有雪，也许在空气中"
+  }
 ]

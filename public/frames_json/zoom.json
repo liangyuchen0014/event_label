@@ -1,110 +1,134 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zoom.01",
-        "roleset_name": "move quickly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity moved"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "zoom.02",
-        "roleset_name": "change the detail with which an image is viewed, for the larger or the smaller; non-VPC",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making arg1 larger or smaller"
-            },
-            {
-                "n": "1",
-                "descr": "thing zoomed in or out- screen, display, device"
-            },
-            {
-                "n": "2",
-                "descr": "zoomed in on or from what- image enlarged or shrunk"
-            },
-            {
-                "n": "3",
-                "descr": "start resolution/size"
-            },
-            {
-                "n": "4",
-                "descr": "end resolution/size"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "zoom_in.03",
-        "roleset_name": "look at a small section in larger detail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making arg1 larger"
-            },
-            {
-                "n": "1",
-                "descr": "thing zoomed in- screen, display, device"
-            },
-            {
-                "n": "2",
-                "descr": "zoomed in on what- image enlarged"
-            },
-            {
-                "n": "3",
-                "descr": "start resolution/size"
-            },
-            {
-                "n": "4",
-                "descr": "end resolution/size"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "zoom_out.04",
-        "roleset_name": "look at a larger section with less detail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making arg1 larger"
-            },
-            {
-                "n": "1",
-                "descr": "thing zoomed in- screen, dispaly, device"
-            },
-            {
-                "n": "2",
-                "descr": "zoomed out from what- image shrunk"
-            },
-            {
-                "n": "3",
-                "descr": "start resolution/size"
-            },
-            {
-                "n": "4",
-                "descr": "end resolution/size"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zoom.01",
+    "roleset_name": "move quickly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity moved",
+        "descr_trans": "实体已移动"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "动作快点"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "zoom.02",
+    "roleset_name": "change the detail with which an image is viewed, for the larger or the smaller; non-VPC",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making arg1 larger or smaller",
+        "descr_trans": "代理，使 arg1 更大或更小的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing zoomed in or out- screen, display, device",
+        "descr_trans": "放大或缩小的事物 - 屏幕、显示器、设备"
+      },
+      {
+        "n": "2",
+        "descr": "zoomed in on or from what- image enlarged or shrunk",
+        "descr_trans": "放大或缩小图像 - 图像放大或缩小"
+      },
+      {
+        "n": "3",
+        "descr": "start resolution/size",
+        "descr_trans": "起始分辨率/尺寸"
+      },
+      {
+        "n": "4",
+        "descr": "end resolution/size",
+        "descr_trans": "最终分辨率/尺寸"
+      }
+    ],
+    "roleset_name_trans": "更改查看图像的细节，放大或缩小；非VPC"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "zoom_in.03",
+    "roleset_name": "look at a small section in larger detail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making arg1 larger",
+        "descr_trans": "代理，使 arg1 变大的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing zoomed in- screen, display, device",
+        "descr_trans": "放大的东西——屏幕、显示器、设备"
+      },
+      {
+        "n": "2",
+        "descr": "zoomed in on what- image enlarged",
+        "descr_trans": "放大了什么-图像放大"
+      },
+      {
+        "n": "3",
+        "descr": "start resolution/size",
+        "descr_trans": "起始分辨率/尺寸"
+      },
+      {
+        "n": "4",
+        "descr": "end resolution/size",
+        "descr_trans": "最终分辨率/尺寸"
+      }
+    ],
+    "roleset_name_trans": "查看一小部分的更大细节"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "zoom_out.04",
+    "roleset_name": "look at a larger section with less detail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making arg1 larger",
+        "descr_trans": "代理，使 arg1 变大的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing zoomed in- screen, dispaly, device",
+        "descr_trans": "事物放大 - 屏幕、显示、设备"
+      },
+      {
+        "n": "2",
+        "descr": "zoomed out from what- image shrunk",
+        "descr_trans": "缩小了——图像缩小了"
+      },
+      {
+        "n": "3",
+        "descr": "start resolution/size",
+        "descr_trans": "起始分辨率/尺寸"
+      },
+      {
+        "n": "4",
+        "descr": "end resolution/size",
+        "descr_trans": "最终分辨率/尺寸"
+      }
+    ],
+    "roleset_name_trans": "查看较少细节的较大部分"
+  }
 ]

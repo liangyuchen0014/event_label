@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disturb.01",
-        "roleset_name": "bother",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disturber"
-            },
-            {
-                "n": "1",
-                "descr": "disturbed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disturb.01",
+    "roleset_name": "bother",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disturber",
+        "descr_trans": "扰乱者"
+      },
+      {
+        "n": "1",
+        "descr": "disturbed",
+        "descr_trans": "不安"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "打扰"
+  }
 ]

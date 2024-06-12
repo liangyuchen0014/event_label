@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interface.01",
-        "roleset_name": "interface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first participant"
-            },
-            {
-                "n": "1",
-                "descr": "other participants, when seperate from arg0"
-            },
-            {
-                "n": "2",
-                "descr": "domain; topic of interaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interface.01",
+    "roleset_name": "interface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first participant",
+        "descr_trans": "第一个参与者"
+      },
+      {
+        "n": "1",
+        "descr": "other participants, when seperate from arg0",
+        "descr_trans": "其他参与者，当与 arg0 分开时"
+      },
+      {
+        "n": "2",
+        "descr": "domain; topic of interaction",
+        "descr_trans": "领域;互动话题"
+      }
+    ],
+    "roleset_name_trans": "界面"
+  }
 ]

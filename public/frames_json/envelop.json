@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "envelop.01",
-        "roleset_name": "cover on all sides",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of covering"
-            },
-            {
-                "n": "1",
-                "descr": "entity being covered"
-            },
-            {
-                "n": "2",
-                "descr": "actual cover"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "envelop.01",
+    "roleset_name": "cover on all sides",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of covering",
+        "descr_trans": "覆盖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity being covered",
+        "descr_trans": "被覆盖的实体"
+      },
+      {
+        "n": "2",
+        "descr": "actual cover",
+        "descr_trans": "实际封面"
+      }
+    ],
+    "roleset_name_trans": "覆盖所有侧面"
+  }
 ]

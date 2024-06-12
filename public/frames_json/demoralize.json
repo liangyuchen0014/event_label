@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demoralize.01",
-        "roleset_name": "corrupt or dismay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity demoralized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument if separate from ARG 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demoralize.01",
+    "roleset_name": "corrupt or dismay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity demoralized",
+        "descr_trans": "实体士气低落"
+      },
+      {
+        "n": "2",
+        "descr": "instrument if separate from ARG 0",
+        "descr_trans": "仪器（如果与 ARG 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "腐败或沮丧"
+  }
 ]

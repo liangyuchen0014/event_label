@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prosecute.01",
-        "roleset_name": "try a case, offensively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prosecutor"
-            },
-            {
-                "n": "1",
-                "descr": "entity being prosecuted (defendant or case)"
-            },
-            {
-                "n": "2",
-                "descr": "for what crime"
-            },
-            {
-                "n": "3",
-                "descr": "law against the crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prosecute.01",
+    "roleset_name": "try a case, offensively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prosecutor",
+        "descr_trans": "检察官"
+      },
+      {
+        "n": "1",
+        "descr": "entity being prosecuted (defendant or case)",
+        "descr_trans": "被起诉的实体（被告或案件）"
+      },
+      {
+        "n": "2",
+        "descr": "for what crime",
+        "descr_trans": "犯了什么罪"
+      },
+      {
+        "n": "3",
+        "descr": "law against the crime",
+        "descr_trans": "打击犯罪的法律"
+      }
+    ],
+    "roleset_name_trans": "尝试一个案例，进攻性的"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chemotherapy.01",
-        "roleset_name": "administration of chemotherapy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (physician, therapist)"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "type"
-            },
-            {
-                "n": "3",
-                "descr": "for what (illness)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chemotherapy.01",
+    "roleset_name": "administration of chemotherapy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (physician, therapist)",
+        "descr_trans": "代理人（医生、治疗师）"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "type",
+        "descr_trans": "类型"
+      },
+      {
+        "n": "3",
+        "descr": "for what (illness)",
+        "descr_trans": "为了什么（疾病）"
+      }
+    ],
+    "roleset_name_trans": "化疗的施用"
+  }
 ]

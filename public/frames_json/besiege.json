@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "besiege.01",
-        "roleset_name": "to surround or harass (as with questions or requests)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity besieged"
-            },
-            {
-                "n": "2",
-                "descr": "entity besieged with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "besiege.01",
+    "roleset_name": "to surround or harass (as with questions or requests)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity besieged",
+        "descr_trans": "实体被围困"
+      },
+      {
+        "n": "2",
+        "descr": "entity besieged with",
+        "descr_trans": "实体被围困"
+      }
+    ],
+    "roleset_name_trans": "包围或骚扰（如提出问题或请求）"
+  }
 ]

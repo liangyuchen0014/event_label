@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "awkward.01",
-        "roleset_name": "generally clumsy, cumbersome, uncomfortable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "awkward duck"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "awkward.02",
-        "roleset_name": "skill level (requires both args)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "awkwardly unskilled one"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "awkward.01",
+    "roleset_name": "generally clumsy, cumbersome, uncomfortable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "awkward duck",
+        "descr_trans": "尴尬的鸭子"
+      }
+    ],
+    "roleset_name_trans": "通常笨拙、麻烦、不舒服"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "awkward.02",
+    "roleset_name": "skill level (requires both args)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "awkwardly unskilled one",
+        "descr_trans": "笨拙地不熟练的人"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "技能水平（需要两个参数）"
+  }
 ]

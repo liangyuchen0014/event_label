@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stymie.01",
-        "roleset_name": "block someone's actions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "stymied entity/action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stymie.01",
+    "roleset_name": "block someone's actions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker, agent",
+        "descr_trans": "阻断剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "stymied entity/action",
+        "descr_trans": "受阻的实体/行动"
+      }
+    ],
+    "roleset_name_trans": "阻止某人的行为"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sober.01",
-        "roleset_name": "(cause to become) free of intoxication",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer/stimulus of sobriety"
-            },
-            {
-                "n": "1",
-                "descr": "sober entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "intoxicant removed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sober.03",
-        "roleset_name": " clear-headed; not intoxicated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "clear-headed entity"
-            },
-            {
-                "n": "3",
-                "descr": "drug, intoxicant that arg1 is free of"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sober_up.02",
-        "roleset_name": "become sober, undrunk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sobering"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting sober"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sober.01",
+    "roleset_name": "(cause to become) free of intoxication",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer/stimulus of sobriety",
+        "descr_trans": "清醒的原因/刺激"
+      },
+      {
+        "n": "1",
+        "descr": "sober entity",
+        "descr_trans": "清醒的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "intoxicant removed",
+        "descr_trans": "麻醉剂已去除"
+      }
+    ],
+    "roleset_name_trans": "（使）免于中毒"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sober.03",
+    "roleset_name": " clear-headed; not intoxicated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "clear-headed entity",
+        "descr_trans": "头脑清醒的实体"
+      },
+      {
+        "n": "3",
+        "descr": "drug, intoxicant that arg1 is free of",
+        "descr_trans": "arg1 不含的药物、麻醉剂"
+      }
+    ],
+    "roleset_name_trans": "清醒;没有醉"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sober_up.02",
+    "roleset_name": "become sober, undrunk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sobering",
+        "descr_trans": "令人清醒的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting sober",
+        "descr_trans": "事情变得清醒"
+      }
+    ],
+    "roleset_name_trans": "变得清醒、不醉"
+  }
 ]

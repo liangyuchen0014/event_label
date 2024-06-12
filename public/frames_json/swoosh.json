@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swoosh.01",
-        "roleset_name": "swoosh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of swooshing, agent (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "swooshing thing, theme (transitive object, intransitive subject)"
-            },
-            {
-                "n": "2",
-                "descr": "location, path of swooshing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swoosh.01",
+    "roleset_name": "swoosh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of swooshing, agent (transitive subject)",
+        "descr_trans": "嗖嗖作响的原因、代理人（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "swooshing thing, theme (transitive object, intransitive subject)",
+        "descr_trans": "嗖嗖的东西，主题（及物宾语，不及物主语）"
+      },
+      {
+        "n": "2",
+        "descr": "location, path of swooshing",
+        "descr_trans": "位置，嗖嗖的路径"
+      }
+    ],
+    "roleset_name_trans": "旋风"
+  }
 ]

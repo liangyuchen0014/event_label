@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coax.01",
-        "roleset_name": "try to induce action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coaxer"
-            },
-            {
-                "n": "1",
-                "descr": "induced agent"
-            },
-            {
-                "n": "2",
-                "descr": "induced action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coax.01",
+    "roleset_name": "try to induce action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coaxer",
+        "descr_trans": "哄骗者"
+      },
+      {
+        "n": "1",
+        "descr": "induced agent",
+        "descr_trans": "诱导剂"
+      },
+      {
+        "n": "2",
+        "descr": "induced action",
+        "descr_trans": "诱导作用"
+      }
+    ],
+    "roleset_name_trans": "尝试诱导行动"
+  }
 ]

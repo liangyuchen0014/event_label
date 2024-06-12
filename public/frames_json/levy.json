@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "levy.01",
-        "roleset_name": "to impose or collect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "imposer, collector, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity levied, usually taxes"
-            },
-            {
-                "n": "2",
-                "descr": "levied on what? entity being taxed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "levy.01",
+    "roleset_name": "to impose or collect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "imposer, collector, agent",
+        "descr_trans": "强加, 收集者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity levied, usually taxes",
+        "descr_trans": "征收实体，通常是税"
+      },
+      {
+        "n": "2",
+        "descr": "levied on what? entity being taxed",
+        "descr_trans": "征收什么？被征税实体"
+      }
+    ],
+    "roleset_name_trans": "强加或征收"
+  }
 ]

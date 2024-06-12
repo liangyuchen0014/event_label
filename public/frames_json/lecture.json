@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lecture.01",
-        "roleset_name": "to deliver a lecture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lecturer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "audience"
-            },
-            {
-                "n": "2",
-                "descr": "topic or utterance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lecture.01",
+    "roleset_name": "to deliver a lecture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lecturer, agent",
+        "descr_trans": "讲师、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "audience",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "2",
+        "descr": "topic or utterance",
+        "descr_trans": "主题或话语"
+      }
+    ],
+    "roleset_name_trans": "发表演讲"
+  }
 ]

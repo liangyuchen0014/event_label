@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "occluded.01",
-        "roleset_name": "blocked",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "theme (action or object blocked)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication, arg1 stopped from what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "occluded.01",
+    "roleset_name": "blocked",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker, agent",
+        "descr_trans": "阻断剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "theme (action or object blocked)",
+        "descr_trans": "主题（被阻止的动作或对象）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication, arg1 stopped from what",
+        "descr_trans": "次要预测，arg1 从什么停止"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "被阻止"
+  }
 ]

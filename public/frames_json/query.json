@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "query.01",
-        "roleset_name": "ask",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker, querier"
-            },
-            {
-                "n": "1",
-                "descr": "oracle, answerer"
-            },
-            {
-                "n": "2",
-                "descr": "question"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "query.01",
+    "roleset_name": "ask",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker, querier",
+        "descr_trans": "提问者，询问者"
+      },
+      {
+        "n": "1",
+        "descr": "oracle, answerer",
+        "descr_trans": "甲骨文，应答者"
+      },
+      {
+        "n": "2",
+        "descr": "question",
+        "descr_trans": "问题"
+      }
+    ],
+    "roleset_name_trans": "问"
+  }
 ]

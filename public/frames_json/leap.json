@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leap.01",
-        "roleset_name": "rise incrementally, quickly and a lot",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing jumping"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount jumped by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "attribute, specific aspect of arg1 that is leaping"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "leap.02",
-        "roleset_name": "be excited for an opportunity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper"
-            },
-            {
-                "n": "1",
-                "descr": "opportunity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "leap.03",
-        "roleset_name": "physically leap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper"
-            },
-            {
-                "n": "1",
-                "descr": "obstacle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leap.01",
+    "roleset_name": "rise incrementally, quickly and a lot",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing jumping",
+        "descr_trans": "东西跳跃"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount jumped by",
+        "descr_trans": "EXT，金额猛增"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "attribute, specific aspect of arg1 that is leaping",
+        "descr_trans": "属性，arg1 跳跃的特定方面"
+      }
+    ],
+    "roleset_name_trans": "逐渐地、快速地、大量地上升"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "leap.02",
+    "roleset_name": "be excited for an opportunity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper",
+        "descr_trans": "毛衣"
+      },
+      {
+        "n": "1",
+        "descr": "opportunity",
+        "descr_trans": "机会"
+      }
+    ],
+    "roleset_name_trans": "对机会感到兴奋"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "leap.03",
+    "roleset_name": "physically leap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper",
+        "descr_trans": "毛衣"
+      },
+      {
+        "n": "1",
+        "descr": "obstacle",
+        "descr_trans": "障碍"
+      }
+    ],
+    "roleset_name_trans": "身体跳跃"
+  }
 ]

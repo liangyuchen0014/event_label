@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expend.01",
-        "roleset_name": "to spend, consume",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity expended"
-            },
-            {
-                "n": "2",
-                "descr": "entity expended on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expend.01",
+    "roleset_name": "to spend, consume",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender, agent",
+        "descr_trans": "花钱者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity expended",
+        "descr_trans": "实体支出"
+      },
+      {
+        "n": "2",
+        "descr": "entity expended on",
+        "descr_trans": "实体花费在"
+      }
+    ],
+    "roleset_name_trans": "花费，消费"
+  }
 ]

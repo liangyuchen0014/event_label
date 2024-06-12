@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crate.01",
-        "roleset_name": "to pack in a crate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer"
-            },
-            {
-                "n": "1",
-                "descr": "thing packed"
-            },
-            {
-                "n": "2",
-                "descr": "crate, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crate.01",
+    "roleset_name": "to pack in a crate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer",
+        "descr_trans": "包装工"
+      },
+      {
+        "n": "1",
+        "descr": "thing packed",
+        "descr_trans": "东西包装好"
+      },
+      {
+        "n": "2",
+        "descr": "crate, location",
+        "descr_trans": "板条箱, 位置"
+      }
+    ],
+    "roleset_name_trans": "装进板条箱"
+  }
 ]

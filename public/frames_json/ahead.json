@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ahead.01",
-        "roleset_name": "proceding faster than designated schedule",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity/accomplishment ahead of schedule"
-            },
-            {
-                "n": "2",
-                "descr": "by how much"
-            },
-            {
-                "n": "3",
-                "descr": "schedule, goal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ahead.03",
-        "roleset_name": "be winning",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity winning"
-            },
-            {
-                "n": "2",
-                "descr": "entity losing"
-            },
-            {
-                "n": "3",
-                "descr": "by how much"
-            },
-            {
-                "n": "4",
-                "descr": "competition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ahead.01",
+    "roleset_name": "proceding faster than designated schedule",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity/accomplishment ahead of schedule",
+        "descr_trans": "实体/成绩提前"
+      },
+      {
+        "n": "2",
+        "descr": "by how much",
+        "descr_trans": "多少"
+      },
+      {
+        "n": "3",
+        "descr": "schedule, goal",
+        "descr_trans": "日程、目标"
+      }
+    ],
+    "roleset_name_trans": "比指定的时间表进行得更快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ahead.03",
+    "roleset_name": "be winning",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity winning",
+        "descr_trans": "实体获胜"
+      },
+      {
+        "n": "2",
+        "descr": "entity losing",
+        "descr_trans": "实体损失"
+      },
+      {
+        "n": "3",
+        "descr": "by how much",
+        "descr_trans": "多少"
+      },
+      {
+        "n": "4",
+        "descr": "competition",
+        "descr_trans": "竞赛"
+      }
+    ],
+    "roleset_name_trans": "获胜"
+  }
 ]

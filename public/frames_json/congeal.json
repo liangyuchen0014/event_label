@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "congeal.01",
-        "roleset_name": "to solidify or thicken",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of solidification"
-            },
-            {
-                "n": "1",
-                "descr": "entity congealed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of congealing when separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "start material, when separate mention from arg 1 (unlikely to occur)"
-            },
-            {
-                "n": "4",
-                "descr": "end state, congealed into what? when separate mention from arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "congeal.01",
+    "roleset_name": "to solidify or thicken",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of solidification",
+        "descr_trans": "凝固原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity congealed",
+        "descr_trans": "实体凝结"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of congealing when separate from arg 0",
+        "descr_trans": "与 arg 0 分离时的凝结工具"
+      },
+      {
+        "n": "3",
+        "descr": "start material, when separate mention from arg 1 (unlikely to occur)",
+        "descr_trans": "起始材料，当与 arg 1 分开提及时（不太可能发生）"
+      },
+      {
+        "n": "4",
+        "descr": "end state, congealed into what? when separate mention from arg 1",
+        "descr_trans": "最终状态，凝结成什么？当与 arg 1 分开提及时"
+      }
+    ],
+    "roleset_name_trans": "凝固或变稠"
+  }
 ]

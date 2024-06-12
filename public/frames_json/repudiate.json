@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repudiate.01",
-        "roleset_name": "reject, refuse to acknowledge or pay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rejector, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing rejected or refused as untrue"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repudiate.01",
+    "roleset_name": "reject, refuse to acknowledge or pay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rejector, agent",
+        "descr_trans": "拒绝者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing rejected or refused as untrue",
+        "descr_trans": "事物被拒绝或因不真实而被拒绝"
+      }
+    ],
+    "roleset_name_trans": "拒绝、拒绝承认或付款"
+  }
 ]

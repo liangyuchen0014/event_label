@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immortalize.01",
-        "roleset_name": "cause to actually live forever",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of immortality"
-            },
-            {
-                "n": "1",
-                "descr": "entity living forever"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "immortalize.02",
-        "roleset_name": "cause to be eternally remembered, perhaps with veneration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of eternal remembrance"
-            },
-            {
-                "n": "1",
-                "descr": "entity forevermore remembered"
-            },
-            {
-                "n": "2",
-                "descr": "reason for veneration"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "immortalize.03",
-        "roleset_name": "mutation of cells resulting in a cell line that can keep undergoing division indefinitely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer/agent of cell mutation"
-            },
-            {
-                "n": "1",
-                "descr": "mutated cells"
-            },
-            {
-                "n": "2",
-                "descr": "catalyst of mutation"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "immortal.04",
-        "roleset_name": "having eternal life",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "immortal entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immortalize.01",
+    "roleset_name": "cause to actually live forever",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of immortality",
+        "descr_trans": "不朽的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity living forever",
+        "descr_trans": "实体永存"
+      }
+    ],
+    "roleset_name_trans": "导致真正永生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "immortalize.02",
+    "roleset_name": "cause to be eternally remembered, perhaps with veneration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of eternal remembrance",
+        "descr_trans": "引起永恒纪念的"
+      },
+      {
+        "n": "1",
+        "descr": "entity forevermore remembered",
+        "descr_trans": "永远被铭记的实体"
+      },
+      {
+        "n": "2",
+        "descr": "reason for veneration",
+        "descr_trans": "崇拜的理由"
+      }
+    ],
+    "roleset_name_trans": "会被永远铭记，也许带着崇敬"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "immortalize.03",
+    "roleset_name": "mutation of cells resulting in a cell line that can keep undergoing division indefinitely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer/agent of cell mutation",
+        "descr_trans": "细胞突变的原因/媒介"
+      },
+      {
+        "n": "1",
+        "descr": "mutated cells",
+        "descr_trans": "突变细胞"
+      },
+      {
+        "n": "2",
+        "descr": "catalyst of mutation",
+        "descr_trans": "突变催化剂"
+      }
+    ],
+    "roleset_name_trans": "细胞突变导致细胞系可以无限期地分裂"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "immortal.04",
+    "roleset_name": "having eternal life",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "immortal entity",
+        "descr_trans": "不朽的实体"
+      }
+    ],
+    "roleset_name_trans": "拥有永生"
+  }
 ]

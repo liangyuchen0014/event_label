@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tweet.01",
-        "roleset_name": "make the noise 'tweet', make tweety sounds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bird"
-            },
-            {
-                "n": "1",
-                "descr": "message conveyed"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, tweeted-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tweet.02",
-        "roleset_name": "post a short message on twitter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tweet-er, composer of message"
-            },
-            {
-                "n": "1",
-                "descr": "message"
-            },
-            {
-                "n": "2",
-                "descr": "tweeted to; followers or blog"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tweet.01",
+    "roleset_name": "make the noise 'tweet', make tweety sounds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bird",
+        "descr_trans": "鸟"
+      },
+      {
+        "n": "1",
+        "descr": "message conveyed",
+        "descr_trans": "传达的信息"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, tweeted-to",
+        "descr_trans": "收件人，推文发送至"
+      }
+    ],
+    "roleset_name_trans": "使噪音“鸣叫”，发出鸣叫声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tweet.02",
+    "roleset_name": "post a short message on twitter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tweet-er, composer of message",
+        "descr_trans": "tweet-er，消息的撰写者"
+      },
+      {
+        "n": "1",
+        "descr": "message",
+        "descr_trans": "信息"
+      },
+      {
+        "n": "2",
+        "descr": "tweeted to; followers or blog",
+        "descr_trans": "发推文至；关注者或博客"
+      }
+    ],
+    "roleset_name_trans": "在 Twitter 上发布短信"
+  }
 ]

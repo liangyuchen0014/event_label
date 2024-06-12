@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hyperextend.01",
-        "roleset_name": "to extend beyond normal range",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, hyperextender"
-            },
-            {
-                "n": "1",
-                "descr": "Entity being extended too far in its joint"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, by how much or until when"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hyperextend.01",
+    "roleset_name": "to extend beyond normal range",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, hyperextender",
+        "descr_trans": "代理、超伸展者"
+      },
+      {
+        "n": "1",
+        "descr": "Entity being extended too far in its joint",
+        "descr_trans": "实体在其关节处延伸得太远"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, by how much or until when",
+        "descr_trans": "EXT，增加多少或直到何时"
+      }
+    ],
+    "roleset_name_trans": "超出正常范围"
+  }
 ]

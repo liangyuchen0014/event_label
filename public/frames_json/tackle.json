@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tackle.01",
-        "roleset_name": "to deal with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tackler, entity dealing with something, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing tackled"
-            },
-            {
-                "n": "2",
-                "descr": "means, strategy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tackle.01",
+    "roleset_name": "to deal with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tackler, entity dealing with something, agent",
+        "descr_trans": "拦截者，处理某事的实体，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing tackled",
+        "descr_trans": "事情解决了"
+      },
+      {
+        "n": "2",
+        "descr": "means, strategy",
+        "descr_trans": "手段、策略"
+      }
+    ],
+    "roleset_name_trans": "处理"
+  }
 ]

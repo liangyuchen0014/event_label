@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "burr.01",
-        "roleset_name": "speak with a burr or make a whirring sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Speaker, or thing making whirring sound"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "burr.02",
-        "roleset_name": "produce a prickly seed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plant"
-            },
-            {
-                "n": "1",
-                "descr": "seed, item produced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "burr.01",
+    "roleset_name": "speak with a burr or make a whirring sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Speaker, or thing making whirring sound",
+        "descr_trans": "扬声器或发出呼呼声的东西"
+      }
+    ],
+    "roleset_name_trans": "用毛刺说话或发出呼呼的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "burr.02",
+    "roleset_name": "produce a prickly seed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plant",
+        "descr_trans": "植物"
+      },
+      {
+        "n": "1",
+        "descr": "seed, item produced",
+        "descr_trans": "种子，生产的物品"
+      }
+    ],
+    "roleset_name_trans": "产生带刺的种子"
+  }
 ]

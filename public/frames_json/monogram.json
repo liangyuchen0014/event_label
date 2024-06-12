@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "monogram.01",
-        "roleset_name": "tag",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher of label, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity tagged"
-            },
-            {
-                "n": "2",
-                "descr": "label"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "monogram.01",
+    "roleset_name": "tag",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher of label, agent",
+        "descr_trans": "标签粘贴者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity tagged",
+        "descr_trans": "实体标记"
+      },
+      {
+        "n": "2",
+        "descr": "label",
+        "descr_trans": "标签"
+      }
+    ],
+    "roleset_name_trans": "标签"
+  }
 ]

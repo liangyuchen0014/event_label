@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unjust.01",
-        "roleset_name": "unfair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of unjust actions"
-            },
-            {
-                "n": "1",
-                "descr": "action/thing that is unfair"
-            },
-            {
-                "n": "2",
-                "descr": "target of unjust actions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unjust.01",
+    "roleset_name": "unfair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of unjust actions",
+        "descr_trans": "不公正行为的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "action/thing that is unfair",
+        "descr_trans": "不公平的行为/事情"
+      },
+      {
+        "n": "2",
+        "descr": "target of unjust actions",
+        "descr_trans": "不公正行为的目标"
+      }
+    ],
+    "roleset_name_trans": "不公平"
+  }
 ]

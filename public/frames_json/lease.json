@@ -1,56 +1,68 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lease.01",
-        "roleset_name": "be a renter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "renter"
-            },
-            {
-                "n": "1",
-                "descr": "thing rented (eg, apartment)"
-            },
-            {
-                "n": "2",
-                "descr": "landlord"
-            },
-            {
-                "n": "3",
-                "descr": "rent"
-            },
-            {
-                "n": "4",
-                "descr": "term"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lease.02",
-        "roleset_name": "be a landlord",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "landlord"
-            },
-            {
-                "n": "1",
-                "descr": "thing rented (eg, apartment)"
-            },
-            {
-                "n": "2",
-                "descr": "renter"
-            },
-            {
-                "n": "3",
-                "descr": "rent"
-            },
-            {
-                "n": "4",
-                "descr": "term"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lease.01",
+    "roleset_name": "be a renter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "renter",
+        "descr_trans": "承租人"
+      },
+      {
+        "n": "1",
+        "descr": "thing rented (eg, apartment)",
+        "descr_trans": "租用的东西（例如公寓）"
+      },
+      {
+        "n": "2",
+        "descr": "landlord",
+        "descr_trans": "房东"
+      },
+      {
+        "n": "3",
+        "descr": "rent",
+        "descr_trans": "租"
+      },
+      {
+        "n": "4",
+        "descr": "term",
+        "descr_trans": "学期"
+      }
+    ],
+    "roleset_name_trans": "成为租客"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lease.02",
+    "roleset_name": "be a landlord",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "landlord",
+        "descr_trans": "房东"
+      },
+      {
+        "n": "1",
+        "descr": "thing rented (eg, apartment)",
+        "descr_trans": "租用的东西（例如公寓）"
+      },
+      {
+        "n": "2",
+        "descr": "renter",
+        "descr_trans": "承租人"
+      },
+      {
+        "n": "3",
+        "descr": "rent",
+        "descr_trans": "租"
+      },
+      {
+        "n": "4",
+        "descr": "term",
+        "descr_trans": "学期"
+      }
+    ],
+    "roleset_name_trans": "做房东"
+  }
 ]

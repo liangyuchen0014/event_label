@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abrogate.01",
-        "roleset_name": "block a biological process or function",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of abrogation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing abrogated, blocked"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abrogate.01",
+    "roleset_name": "block a biological process or function",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of abrogation (e.g. scientist)",
+        "descr_trans": "故意废除的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing abrogated, blocked",
+        "descr_trans": "事情被废除，被阻止"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻断生物过程或功能"
+  }
 ]

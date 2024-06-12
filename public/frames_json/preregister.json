@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preregister.01",
-        "roleset_name": "register officially in advance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity registering something"
-            },
-            {
-                "n": "1",
-                "descr": "thing registered"
-            },
-            {
-                "n": "2",
-                "descr": "registered with"
-            },
-            {
-                "n": "3",
-                "descr": "register for/as, predication on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preregister.01",
+    "roleset_name": "register officially in advance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity registering something",
+        "descr_trans": "实体注册某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing registered",
+        "descr_trans": "注册的东西"
+      },
+      {
+        "n": "2",
+        "descr": "registered with",
+        "descr_trans": "注册于"
+      },
+      {
+        "n": "3",
+        "descr": "register for/as, predication on arg1",
+        "descr_trans": "注册/as，对 arg1 进行预测"
+      }
+    ],
+    "roleset_name_trans": "提前正式注册"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "paddle.01",
-        "roleset_name": "propel with a paddle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the paddling"
-            },
-            {
-                "n": "1",
-                "descr": "thing being paddled"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "destination/location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "paddle.01",
+    "roleset_name": "propel with a paddle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the paddling",
+        "descr_trans": "划桨的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being paddled",
+        "descr_trans": "被划动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination/location",
+        "descr_trans": "目的地/地点"
+      }
+    ],
+    "roleset_name_trans": "用桨推进"
+  }
 ]

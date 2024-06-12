@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "concus.01",
-        "roleset_name": "temporarily injuring the brain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity causing injury"
-            },
-            {
-                "n": "1",
-                "descr": "Patient concussed"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "concus.01",
+    "roleset_name": "temporarily injuring the brain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity causing injury",
+        "descr_trans": "代理人、造成伤害的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Patient concussed",
+        "descr_trans": "病人脑震荡"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "暂时伤害大脑"
+  }
 ]

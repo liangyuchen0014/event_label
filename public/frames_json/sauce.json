@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sauce.01",
-        "roleset_name": "add zest to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Chef"
-            },
-            {
-                "n": "1",
-                "descr": "Base food"
-            },
-            {
-                "n": "2",
-                "descr": "Sauce or topping"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sauce.02",
-        "roleset_name": "be saucy! (sassy)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Impudent one"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of impudence"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sauce.01",
+    "roleset_name": "add zest to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Chef",
+        "descr_trans": "厨师"
+      },
+      {
+        "n": "1",
+        "descr": "Base food",
+        "descr_trans": "基础食物"
+      },
+      {
+        "n": "2",
+        "descr": "Sauce or topping",
+        "descr_trans": "酱汁或配料"
+      }
+    ],
+    "roleset_name_trans": "添加热情"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sauce.02",
+    "roleset_name": "be saucy! (sassy)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Impudent one",
+        "descr_trans": "无礼的一个"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of impudence",
+        "descr_trans": "无礼的接受者"
+      }
+    ],
+    "roleset_name_trans": "俏皮一点！ （时髦）"
+  }
 ]

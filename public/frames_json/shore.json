@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shore_up.01",
-        "roleset_name": "support, prop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, supporter"
-            },
-            {
-                "n": "1",
-                "descr": "thing supported"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shore.02",
-        "roleset_name": "to bring to shore or other metaphorical support",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Boat captain, cause of shoring"
-            },
-            {
-                "n": "1",
-                "descr": "Boat, thing now supported or at shore"
-            },
-            {
-                "n": "2",
-                "descr": "Shore/support where arg1 is brought"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shore_up.01",
+    "roleset_name": "support, prop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, supporter",
+        "descr_trans": "代理人、支持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing supported",
+        "descr_trans": "支持的东西"
+      }
+    ],
+    "roleset_name_trans": "支持，支柱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shore.02",
+    "roleset_name": "to bring to shore or other metaphorical support",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Boat captain, cause of shoring",
+        "descr_trans": "船长、靠岸原因"
+      },
+      {
+        "n": "1",
+        "descr": "Boat, thing now supported or at shore",
+        "descr_trans": "船，现在有支撑或在岸上的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Shore/support where arg1 is brought",
+        "descr_trans": "arg1 被带到的岸边/支撑处"
+      }
+    ],
+    "roleset_name_trans": "带来岸上或其他隐喻的支持"
+  }
 ]

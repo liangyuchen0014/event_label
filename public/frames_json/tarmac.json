@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tarmac.01",
-        "roleset_name": "to cover with tarmac",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, Tarmac layer"
-            },
-            {
-                "n": "1",
-                "descr": "Road/lot, location covered"
-            },
-            {
-                "n": "2",
-                "descr": "Tarmac itself, what kind of Tarmac"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tarmac.01",
+    "roleset_name": "to cover with tarmac",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, Tarmac layer",
+        "descr_trans": "代理，停机坪层"
+      },
+      {
+        "n": "1",
+        "descr": "Road/lot, location covered",
+        "descr_trans": "道路/地段、覆盖位置"
+      },
+      {
+        "n": "2",
+        "descr": "Tarmac itself, what kind of Tarmac",
+        "descr_trans": "停机坪本身，是什么样的停机坪"
+      }
+    ],
+    "roleset_name_trans": "用停机坪覆盖"
+  }
 ]

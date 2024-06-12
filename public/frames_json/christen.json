@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "christen.01",
-        "roleset_name": "to name, naming, ceremonially",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of name, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing named"
-            },
-            {
-                "n": "2",
-                "descr": "name"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "christen.01",
+    "roleset_name": "to name, naming, ceremonially",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of name, agent",
+        "descr_trans": "姓名转让人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing named",
+        "descr_trans": "命名的东西"
+      },
+      {
+        "n": "2",
+        "descr": "name",
+        "descr_trans": "姓名"
+      }
+    ],
+    "roleset_name_trans": "命名，命名，仪式"
+  }
 ]

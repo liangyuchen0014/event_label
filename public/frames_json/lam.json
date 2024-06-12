@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lam.01",
-        "roleset_name": "go on the lam",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity going on the lam"
-            },
-            {
-                "n": "1",
-                "descr": "it"
-            },
-            {
-                "n": "2",
-                "descr": "the law"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lam_out.02",
-        "roleset_name": "lam out: go on the lam",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity going on the lam"
-            },
-            {
-                "n": "1",
-                "descr": "it"
-            },
-            {
-                "n": "2",
-                "descr": "the law"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lam.01",
+    "roleset_name": "go on the lam",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity going on the lam",
+        "descr_trans": "实体正在潜逃"
+      },
+      {
+        "n": "1",
+        "descr": "it",
+        "descr_trans": "它"
+      },
+      {
+        "n": "2",
+        "descr": "the law",
+        "descr_trans": "法律"
+      }
+    ],
+    "roleset_name_trans": "逃亡"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lam_out.02",
+    "roleset_name": "lam out: go on the lam",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity going on the lam",
+        "descr_trans": "实体正在潜逃"
+      },
+      {
+        "n": "1",
+        "descr": "it",
+        "descr_trans": "它"
+      },
+      {
+        "n": "2",
+        "descr": "the law",
+        "descr_trans": "法律"
+      }
+    ],
+    "roleset_name_trans": "lam out: 继续 lam"
+  }
 ]

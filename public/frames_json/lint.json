@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lint.01",
-        "roleset_name": "remove or produce lint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent doing the removing/producing of lint"
-            },
-            {
-                "n": "1",
-                "descr": "entity lint is removed/produced from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lint.01",
+    "roleset_name": "remove or produce lint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent doing the removing/producing of lint",
+        "descr_trans": "去除/产生棉绒的代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity lint is removed/produced from",
+        "descr_trans": "实体 lint 被删除/产生"
+      }
+    ],
+    "roleset_name_trans": "去除或产生绒毛"
+  }
 ]

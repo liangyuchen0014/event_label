@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perforate.01",
-        "roleset_name": "perforate, puncturing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, perforator(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being perforated, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of perforation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perforate.01",
+    "roleset_name": "perforate, puncturing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, perforator(s)",
+        "descr_trans": "代理、穿孔者"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being perforated, patient",
+        "descr_trans": "东西被穿孔，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of perforation",
+        "descr_trans": "穿孔器械"
+      }
+    ],
+    "roleset_name_trans": "穿孔，刺穿"
+  }
 ]

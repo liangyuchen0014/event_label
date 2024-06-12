@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "examine.01",
-        "roleset_name": "look at closely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "thing examined"
-            },
-            {
-                "n": "2",
-                "descr": "in search of what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "examination.02",
-        "roleset_name": "test",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            },
-            {
-                "n": "2",
-                "descr": "subject, type of test"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "examine.01",
+    "roleset_name": "look at closely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "thing examined",
+        "descr_trans": "检查的东西"
+      },
+      {
+        "n": "2",
+        "descr": "in search of what",
+        "descr_trans": "寻找什么"
+      }
+    ],
+    "roleset_name_trans": "仔细看看"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "examination.02",
+    "roleset_name": "test",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "subject, type of test",
+        "descr_trans": "科目、测试类型"
+      }
+    ],
+    "roleset_name_trans": "测试"
+  }
 ]

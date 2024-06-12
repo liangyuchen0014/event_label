@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "visit.01",
-        "roleset_name": "visit, meet with, see, travel to see",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor"
-            },
-            {
-                "n": "1",
-                "descr": "visited"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "visit.02",
-        "roleset_name": "chat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first talker"
-            },
-            {
-                "n": "1",
-                "descr": "second talker"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "visit.01",
+    "roleset_name": "visit, meet with, see, travel to see",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "visited",
+        "descr_trans": "访问过"
+      }
+    ],
+    "roleset_name_trans": "拜访、会面、观看、旅行去看"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "visit.02",
+    "roleset_name": "chat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first talker",
+        "descr_trans": "第一个说话者"
+      },
+      {
+        "n": "1",
+        "descr": "second talker",
+        "descr_trans": "第二个说话者"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "聊天"
+  }
 ]

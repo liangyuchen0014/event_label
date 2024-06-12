@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indent.01",
-        "roleset_name": "to make an indentation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, indenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing indented, dented"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "indent.02",
-        "roleset_name": "indenture as servent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causing of indenturing"
-            },
-            {
-                "n": "1",
-                "descr": "entity made servant"
-            },
-            {
-                "n": "2",
-                "descr": "master, entity indentured to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indent.01",
+    "roleset_name": "to make an indentation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, indenter",
+        "descr_trans": "试剂、压头"
+      },
+      {
+        "n": "1",
+        "descr": "thing indented, dented",
+        "descr_trans": "东西缩进，凹陷"
+      }
+    ],
+    "roleset_name_trans": "进行缩进"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "indent.02",
+    "roleset_name": "indenture as servent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causing of indenturing",
+        "descr_trans": "契约的产生"
+      },
+      {
+        "n": "1",
+        "descr": "entity made servant",
+        "descr_trans": "实体成为仆人"
+      },
+      {
+        "n": "2",
+        "descr": "master, entity indentured to",
+        "descr_trans": "主人，契约实体"
+      }
+    ],
+    "roleset_name_trans": "作为仆人的契约"
+  }
 ]

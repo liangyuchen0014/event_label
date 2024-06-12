@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "screen.01",
-        "roleset_name": "to test, examine, sort, testing, examining for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tester, examiner"
-            },
-            {
-                "n": "1",
-                "descr": "entity screened"
-            },
-            {
-                "n": "2",
-                "descr": "screened for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "screen.03",
-        "roleset_name": "show a movie",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "movie"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "screen_out.02",
-        "roleset_name": "filter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "filterer"
-            },
-            {
-                "n": "1",
-                "descr": "entity screened"
-            },
-            {
-                "n": "2",
-                "descr": "screened for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "screen.01",
+    "roleset_name": "to test, examine, sort, testing, examining for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tester, examiner",
+        "descr_trans": "测试，检查"
+      },
+      {
+        "n": "1",
+        "descr": "entity screened",
+        "descr_trans": "实体筛选"
+      },
+      {
+        "n": "2",
+        "descr": "screened for",
+        "descr_trans": "筛选的"
+      }
+    ],
+    "roleset_name_trans": "测试、检查、分类、测试、检查"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "screen.03",
+    "roleset_name": "show a movie",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "movie",
+        "descr_trans": "电影"
+      }
+    ],
+    "roleset_name_trans": "放映电影"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "screen_out.02",
+    "roleset_name": "filter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "filterer",
+        "descr_trans": "过滤器"
+      },
+      {
+        "n": "1",
+        "descr": "entity screened",
+        "descr_trans": "实体筛选"
+      },
+      {
+        "n": "2",
+        "descr": "screened for",
+        "descr_trans": "筛选的"
+      }
+    ],
+    "roleset_name_trans": "筛选"
+  }
 ]

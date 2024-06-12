@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reanastomosis.01",
-        "roleset_name": "surgically reconnect two fluid-carrying anatomical structures",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, surgeon, drug"
-            },
-            {
-                "n": "1",
-                "descr": "first entity connected"
-            },
-            {
-                "n": "2",
-                "descr": "entity arg1 is being connected to"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive, person undergoing reanastomosis procedure"
-            },
-            {
-                "n": "4",
-                "descr": "result; the opening itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reanastomosis.01",
+    "roleset_name": "surgically reconnect two fluid-carrying anatomical structures",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, surgeon, drug",
+        "descr_trans": "代理人、外科医生、药物"
+      },
+      {
+        "n": "1",
+        "descr": "first entity connected",
+        "descr_trans": "连接的第一个实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity arg1 is being connected to",
+        "descr_trans": "实体 arg1 正在连接到"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive, person undergoing reanastomosis procedure",
+        "descr_trans": "受益人，接受再吻合手术的人"
+      },
+      {
+        "n": "4",
+        "descr": "result; the opening itself",
+        "descr_trans": "结果;开口本身"
+      }
+    ],
+    "roleset_name_trans": "通过手术重新连接两个携带液体的解剖结构"
+  }
 ]

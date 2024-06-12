@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dismantle.01",
-        "roleset_name": "to take apart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker apart, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity dismantled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dismantle.01",
+    "roleset_name": "to take apart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker apart, agent",
+        "descr_trans": "拆散者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dismantled",
+        "descr_trans": "实体被拆除"
+      }
+    ],
+    "roleset_name_trans": "拆开"
+  }
 ]

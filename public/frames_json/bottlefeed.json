@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bottlefeed.01",
-        "roleset_name": "feed with a bottle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Feeder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Milk, food fed"
-            },
-            {
-                "n": "2",
-                "descr": "Baby, recipient of food"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bottlefeed.01",
+    "roleset_name": "feed with a bottle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Feeder, agent",
+        "descr_trans": "供料器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Milk, food fed",
+        "descr_trans": "牛奶、食物喂养"
+      },
+      {
+        "n": "2",
+        "descr": "Baby, recipient of food",
+        "descr_trans": "婴儿，食物的接受者"
+      }
+    ],
+    "roleset_name_trans": "用奶瓶喂食"
+  }
 ]

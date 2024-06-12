@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stump.01",
-        "roleset_name": "(cause to) be confounded",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity stumped"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stump.02",
-        "roleset_name": "campaign (for)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stumper"
-            },
-            {
-                "n": "1",
-                "descr": "stumped for (cause/candidate)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stump.01",
+    "roleset_name": "(cause to) be confounded",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity stumped",
+        "descr_trans": "实体难住了"
+      }
+    ],
+    "roleset_name_trans": "（导致）困惑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stump.02",
+    "roleset_name": "campaign (for)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stumper",
+        "descr_trans": "树桩"
+      },
+      {
+        "n": "1",
+        "descr": "stumped for (cause/candidate)",
+        "descr_trans": "为（原因/候选人）难倒"
+      }
+    ],
+    "roleset_name_trans": "活动（针对）"
+  }
 ]

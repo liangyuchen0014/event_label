@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deduct.01",
-        "roleset_name": "subtract, take away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subtracter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being subtracted"
-            },
-            {
-                "n": "2",
-                "descr": "thing being subtracted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deduct.01",
+    "roleset_name": "subtract, take away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subtracter",
+        "descr_trans": "减法器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being subtracted",
+        "descr_trans": "被减去的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing being subtracted from",
+        "descr_trans": "被减去的东西"
+      }
+    ],
+    "roleset_name_trans": "减去，去掉"
+  }
 ]

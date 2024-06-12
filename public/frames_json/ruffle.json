@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ruffle.01",
-        "roleset_name": "cause consternation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of consternation"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ruffle.02",
-        "roleset_name": "cause to be not smooth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unsmoother"
-            },
-            {
-                "n": "1",
-                "descr": "unsmooth thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ruffle.01",
+    "roleset_name": "cause consternation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of consternation",
+        "descr_trans": "引起惊愕"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "引起恐慌"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ruffle.02",
+    "roleset_name": "cause to be not smooth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unsmoother",
+        "descr_trans": "不顺畅"
+      },
+      {
+        "n": "1",
+        "descr": "unsmooth thing",
+        "descr_trans": "不顺利的事情"
+      }
+    ],
+    "roleset_name_trans": "导致不顺利"
+  }
 ]

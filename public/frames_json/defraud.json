@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defraud.01",
-        "roleset_name": "to take something from by fraud",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, fraud, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity defrauded"
-            },
-            {
-                "n": "2",
-                "descr": "contract"
-            },
-            {
-                "n": "3",
-                "descr": "amount"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defraud.01",
+    "roleset_name": "to take something from by fraud",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, fraud, agent",
+        "descr_trans": "小偷、诈骗、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity defrauded",
+        "descr_trans": "实体被诈骗"
+      },
+      {
+        "n": "2",
+        "descr": "contract",
+        "descr_trans": "合同"
+      },
+      {
+        "n": "3",
+        "descr": "amount",
+        "descr_trans": "数量"
+      }
+    ],
+    "roleset_name_trans": "通过欺诈手段获取某物"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dysregulate.01",
-        "roleset_name": "impair a physiological regulatory mechanism",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of dysregulation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing dysregulated (e.g. signaling)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. protein, drug)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dysregulate.01",
+    "roleset_name": "impair a physiological regulatory mechanism",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of dysregulation (e.g. scientist)",
+        "descr_trans": "失调的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing dysregulated (e.g. signaling)",
+        "descr_trans": "事物失调（例如信号传导）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. protein, drug)",
+        "descr_trans": "仪器（例如蛋白质、药物）"
+      }
+    ],
+    "roleset_name_trans": "损害生理调节机制"
+  }
 ]

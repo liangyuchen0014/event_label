@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sprinkle.01",
-        "roleset_name": "sprinkle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sprinkler"
-            },
-            {
-                "n": "1",
-                "descr": "liquid"
-            },
-            {
-                "n": "2",
-                "descr": "sprinkled-upon"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sprinkle.02",
-        "roleset_name": "weather phenomenon",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Cognate object, mention of what is sprinkled, raindrops"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sprinkle.01",
+    "roleset_name": "sprinkle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sprinkler",
+        "descr_trans": "药剂、洒水器"
+      },
+      {
+        "n": "1",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      },
+      {
+        "n": "2",
+        "descr": "sprinkled-upon",
+        "descr_trans": "洒在"
+      }
+    ],
+    "roleset_name_trans": "撒"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sprinkle.02",
+    "roleset_name": "weather phenomenon",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Cognate object, mention of what is sprinkled, raindrops",
+        "descr_trans": "同源对象，提及洒下的东西，雨滴"
+      }
+    ],
+    "roleset_name_trans": "天气现象"
+  }
 ]

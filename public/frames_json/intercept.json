@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intercept.01",
-        "roleset_name": "to stop, seize, or wiretap, stealing in the middle of transmission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interceptor"
-            },
-            {
-                "n": "1",
-                "descr": "entity intercepted"
-            },
-            {
-                "n": "2",
-                "descr": "intended goal/recipient/proposition"
-            },
-            {
-                "n": "3",
-                "descr": "source intercepted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intercept.01",
+    "roleset_name": "to stop, seize, or wiretap, stealing in the middle of transmission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interceptor",
+        "descr_trans": "拦截器"
+      },
+      {
+        "n": "1",
+        "descr": "entity intercepted",
+        "descr_trans": "实体被拦截"
+      },
+      {
+        "n": "2",
+        "descr": "intended goal/recipient/proposition",
+        "descr_trans": "预期目标/接收者/提议"
+      },
+      {
+        "n": "3",
+        "descr": "source intercepted from",
+        "descr_trans": "截获源"
+      }
+    ],
+    "roleset_name_trans": "在传输过程中停止、夺取或窃听、窃取"
+  }
 ]

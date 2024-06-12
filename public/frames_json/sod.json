@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sod.01",
-        "roleset_name": "cover with sod",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Gardener, landscaper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Yard, location/entity covered"
-            },
-            {
-                "n": "2",
-                "descr": "Sod itself, what kind of sod"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sod.01",
+    "roleset_name": "cover with sod",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Gardener, landscaper, agent",
+        "descr_trans": "园丁、园艺师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "Yard, location/entity covered",
+        "descr_trans": "所覆盖的院子、位置/实体"
+      },
+      {
+        "n": "2",
+        "descr": "Sod itself, what kind of sod",
+        "descr_trans": "草皮本身，是什么样的草皮"
+      }
+    ],
+    "roleset_name_trans": "用草皮覆盖"
+  }
 ]

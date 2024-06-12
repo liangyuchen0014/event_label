@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "groove.01",
-        "roleset_name": "put grooves into something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person making grooves"
-            },
-            {
-                "n": "1",
-                "descr": "material getting grooves"
-            },
-            {
-                "n": "2",
-                "descr": "grooves themselves, type of groove"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "groove.02",
-        "roleset_name": "feelin' the groove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity experiencing groovy feelings"
-            },
-            {
-                "n": "1",
-                "descr": "cause of groovy feeling, what arg0 is \"grooving on\""
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "groove.01",
+    "roleset_name": "put grooves into something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person making grooves",
+        "descr_trans": "代理人，创造凹槽的人"
+      },
+      {
+        "n": "1",
+        "descr": "material getting grooves",
+        "descr_trans": "材料获得凹槽"
+      },
+      {
+        "n": "2",
+        "descr": "grooves themselves, type of groove",
+        "descr_trans": "凹槽本身、凹槽类型"
+      }
+    ],
+    "roleset_name_trans": "在某物上刻上凹槽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "groove.02",
+    "roleset_name": "feelin' the groove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity experiencing groovy feelings",
+        "descr_trans": "体验美妙感觉的实体"
+      },
+      {
+        "n": "1",
+        "descr": "cause of groovy feeling, what arg0 is \"grooving on\"",
+        "descr_trans": "groovy 感觉的原因，arg0 是“grooving on”"
+      }
+    ],
+    "roleset_name_trans": "感受最佳状态"
+  }
 ]

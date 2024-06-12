@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defer.01",
-        "roleset_name": "put off until a later time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of delay"
-            },
-            {
-                "n": "1",
-                "descr": "event delayed"
-            },
-            {
-                "n": "2",
-                "descr": "delay itself, EXT, or new time"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "defer.02",
-        "roleset_name": "acknowledge as superior",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inferior thing"
-            },
-            {
-                "n": "1",
-                "descr": "superior thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "defer.03",
-        "roleset_name": "pass to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, passer"
-            },
-            {
-                "n": "1",
-                "descr": "thing passed off"
-            },
-            {
-                "n": "2",
-                "descr": "passed to, beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defer.01",
+    "roleset_name": "put off until a later time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of delay",
+        "descr_trans": "代理人，延误的原因"
+      },
+      {
+        "n": "1",
+        "descr": "event delayed",
+        "descr_trans": "事件延迟"
+      },
+      {
+        "n": "2",
+        "descr": "delay itself, EXT, or new time",
+        "descr_trans": "延迟本身、EXT 或新时间"
+      }
+    ],
+    "roleset_name_trans": "推迟到稍后时间"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "defer.02",
+    "roleset_name": "acknowledge as superior",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inferior thing",
+        "descr_trans": "劣等的东西"
+      },
+      {
+        "n": "1",
+        "descr": "superior thing",
+        "descr_trans": "优越的东西"
+      }
+    ],
+    "roleset_name_trans": "承认自己是上级"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "defer.03",
+    "roleset_name": "pass to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, passer",
+        "descr_trans": "代理、通行证"
+      },
+      {
+        "n": "1",
+        "descr": "thing passed off",
+        "descr_trans": "事情过去了"
+      },
+      {
+        "n": "2",
+        "descr": "passed to, beneficiary",
+        "descr_trans": "转给、受益人"
+      }
+    ],
+    "roleset_name_trans": "传递给"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hyperphosphorylate.01",
-        "roleset_name": "phosphorylate fully, so that all potential phosphorylation sites are occupied",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of hyperphosphorylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing hyperphosphorylated (e.g. protein or another organic molecule)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. enzyme)"
-            },
-            {
-                "n": "3",
-                "descr": "result of hyperphosphorylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hyperphosphorylate.01",
+    "roleset_name": "phosphorylate fully, so that all potential phosphorylation sites are occupied",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of hyperphosphorylation (e.g. scientist)",
+        "descr_trans": "过度磷酸化的故意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing hyperphosphorylated (e.g. protein or another organic molecule)",
+        "descr_trans": "过度磷酸化的物质（例如蛋白质或其他有机分子）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. enzyme)",
+        "descr_trans": "仪器（例如酶）"
+      },
+      {
+        "n": "3",
+        "descr": "result of hyperphosphorylation",
+        "descr_trans": "过度磷酸化的结果"
+      }
+    ],
+    "roleset_name_trans": "完全磷酸化，从而占据所有潜在的磷酸化位点"
+  }
 ]

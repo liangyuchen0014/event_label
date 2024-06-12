@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bribe.01",
-        "roleset_name": "to make illegal payments in exchange for favors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "briber, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person  bribed"
-            },
-            {
-                "n": "2",
-                "descr": "favor"
-            },
-            {
-                "n": "3",
-                "descr": "amount exchanged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bribe.01",
+    "roleset_name": "to make illegal payments in exchange for favors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "briber, agent",
+        "descr_trans": "行贿者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person  bribed",
+        "descr_trans": "受贿者"
+      },
+      {
+        "n": "2",
+        "descr": "favor",
+        "descr_trans": "青睐"
+      },
+      {
+        "n": "3",
+        "descr": "amount exchanged",
+        "descr_trans": "交换金额"
+      }
+    ],
+    "roleset_name_trans": "进行非法支付以换取好处"
+  }
 ]

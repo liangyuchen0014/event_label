@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slate.01",
-        "roleset_name": "schedule, designate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scheduler, designator"
-            },
-            {
-                "n": "1",
-                "descr": "entity chosen"
-            },
-            {
-                "n": "2",
-                "descr": "function or time"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slate.01",
+    "roleset_name": "schedule, designate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scheduler, designator",
+        "descr_trans": "调度器、指示符"
+      },
+      {
+        "n": "1",
+        "descr": "entity chosen",
+        "descr_trans": "选择的实体"
+      },
+      {
+        "n": "2",
+        "descr": "function or time",
+        "descr_trans": "函数或时间"
+      }
+    ],
+    "roleset_name_trans": "安排、指定"
+  }
 ]

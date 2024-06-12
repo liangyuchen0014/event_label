@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "page.01",
-        "roleset_name": "notify someone via beeper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "notifier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "notified person"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "page.01",
+    "roleset_name": "notify someone via beeper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "notifier, agent",
+        "descr_trans": "通知、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "notified person",
+        "descr_trans": "被通知人"
+      }
+    ],
+    "roleset_name_trans": "通过蜂鸣器通知某人"
+  }
 ]

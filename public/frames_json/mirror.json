@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mirror.01",
-        "roleset_name": "reflect, mimic, cast an image back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "external agent"
-            },
-            {
-                "n": "1",
-                "descr": "the original, entity whose image is recreated"
-            },
-            {
-                "n": "2",
-                "descr": "the mirror image, the reflection, the copy (usually subject)"
-            },
-            {
-                "n": "3",
-                "descr": "axis/plane of symmetry (akin to the mirror's surface)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mirror.01",
+    "roleset_name": "reflect, mimic, cast an image back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "external agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "the original, entity whose image is recreated",
+        "descr_trans": "其图像被重新创建的原始实体"
+      },
+      {
+        "n": "2",
+        "descr": "the mirror image, the reflection, the copy (usually subject)",
+        "descr_trans": "镜像、倒影、复制品（通常是主体）"
+      },
+      {
+        "n": "3",
+        "descr": "axis/plane of symmetry (akin to the mirror's surface)",
+        "descr_trans": "对称轴/对称面（类似于镜子的表面）"
+      }
+    ],
+    "roleset_name_trans": "反射、模仿、投射图像"
+  }
 ]

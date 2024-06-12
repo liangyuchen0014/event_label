@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exist.01",
-        "roleset_name": "be, exists ('non-existent' has its own frame, fyi)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing existing"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exist.01",
+    "roleset_name": "be, exists ('non-existent' has its own frame, fyi)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing existing",
+        "descr_trans": "存在的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "be，存在（“不存在”有自己的框架，仅供参考）"
+  }
 ]

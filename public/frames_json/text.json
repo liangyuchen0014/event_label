@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "text.01",
-        "roleset_name": "send a text message via cell phone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "text sender"
-            },
-            {
-                "n": "1",
-                "descr": "message"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of text (about what)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "text.01",
+    "roleset_name": "send a text message via cell phone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "text sender",
+        "descr_trans": "短信发送者"
+      },
+      {
+        "n": "1",
+        "descr": "message",
+        "descr_trans": "信息"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of text (about what)",
+        "descr_trans": "文本主题（关于什么）"
+      }
+    ],
+    "roleset_name_trans": "通过手机发送短信"
+  }
 ]

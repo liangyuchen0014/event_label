@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wheel.01",
-        "roleset_name": "move something on wheels",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing on wheels, vehicle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wheel.01",
+    "roleset_name": "move something on wheels",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion, agent",
+        "descr_trans": "动因、动因"
+      },
+      {
+        "n": "1",
+        "descr": "thing on wheels, vehicle",
+        "descr_trans": "轮子上的东西，车辆"
+      }
+    ],
+    "roleset_name_trans": "移动带轮子的东西"
+  }
 ]

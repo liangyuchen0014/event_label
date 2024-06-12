@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relieve.01",
-        "roleset_name": "help, ease, get rid of, make feel better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing relieving"
-            },
-            {
-                "n": "1",
-                "descr": "thing being helped, eased, gotten rid of"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "relieve.02",
-        "roleset_name": "make feel better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reliever"
-            },
-            {
-                "n": "1",
-                "descr": "patient, relieved"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relieve.01",
+    "roleset_name": "help, ease, get rid of, make feel better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing relieving",
+        "descr_trans": "缓解的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing being helped, eased, gotten rid of",
+        "descr_trans": "事物被帮助、缓解、摆脱"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "帮助、缓解、摆脱、让感觉更好"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "relieve.02",
+    "roleset_name": "make feel better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reliever",
+        "descr_trans": "缓解剂"
+      },
+      {
+        "n": "1",
+        "descr": "patient, relieved",
+        "descr_trans": "耐心，松了口气"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner",
+        "descr_trans": "仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "让感觉更好"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "increased.01",
-        "roleset_name": "go up incrementally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of increase"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "increased.01",
+    "roleset_name": "go up incrementally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of increase",
+        "descr_trans": "增加的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "逐步上升"
+  }
 ]

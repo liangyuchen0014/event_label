@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprimand.01",
-        "roleset_name": "scold, punish for wrong doing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reprimander, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity reprimanded"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprimand.01",
+    "roleset_name": "scold, punish for wrong doing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reprimander, agent",
+        "descr_trans": "斥责、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity reprimanded",
+        "descr_trans": "实体受到谴责"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "责骂，惩罚错误的行为"
+  }
 ]

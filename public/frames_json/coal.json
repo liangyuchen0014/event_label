@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coal.01",
-        "roleset_name": "burn to coal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing becomeing coal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "coal.02",
-        "roleset_name": "supply with coal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity supplying the coal"
-            },
-            {
-                "n": "1",
-                "descr": "Vessel taking on coal"
-            },
-            {
-                "n": "2",
-                "descr": "the coal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coal.01",
+    "roleset_name": "burn to coal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause of transformation",
+        "descr_trans": "转化的媒介或原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becomeing coal",
+        "descr_trans": "东西变成煤"
+      }
+    ],
+    "roleset_name_trans": "燃烧成煤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "coal.02",
+    "roleset_name": "supply with coal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity supplying the coal",
+        "descr_trans": "代理、煤炭供应实体"
+      },
+      {
+        "n": "1",
+        "descr": "Vessel taking on coal",
+        "descr_trans": "装载煤炭的船只"
+      },
+      {
+        "n": "2",
+        "descr": "the coal",
+        "descr_trans": "煤炭"
+      }
+    ],
+    "roleset_name_trans": "煤炭供应"
+  }
 ]

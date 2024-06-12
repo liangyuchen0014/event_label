@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grace.01",
-        "roleset_name": "to decorate, beautify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity beautifying"
-            },
-            {
-                "n": "1",
-                "descr": "entity beautified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gracious.02",
-        "roleset_name": "characterized by kindness, courteousness, generosity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "kind, gracious entity"
-            },
-            {
-                "n": "1",
-                "descr": "topic, action of graciousness"
-            },
-            {
-                "n": "2",
-                "descr": "target of graciousness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grace.01",
+    "roleset_name": "to decorate, beautify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity beautifying",
+        "descr_trans": "实体美化"
+      },
+      {
+        "n": "1",
+        "descr": "entity beautified",
+        "descr_trans": "实体美化"
+      }
+    ],
+    "roleset_name_trans": "装饰，美化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gracious.02",
+    "roleset_name": "characterized by kindness, courteousness, generosity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "kind, gracious entity",
+        "descr_trans": "善良、亲切的实体"
+      },
+      {
+        "n": "1",
+        "descr": "topic, action of graciousness",
+        "descr_trans": "主题、仁慈的行动"
+      },
+      {
+        "n": "2",
+        "descr": "target of graciousness",
+        "descr_trans": "恩惠的目标"
+      }
+    ],
+    "roleset_name_trans": "特点是善良、礼貌、慷慨"
+  }
 ]

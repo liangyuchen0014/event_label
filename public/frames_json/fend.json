@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fend.01",
-        "roleset_name": "manage, survive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity getting by, surviving"
-            },
-            {
-                "n": "1",
-                "descr": "REC"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fend_off.02",
-        "roleset_name": "avoid, keep away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "avoider, warder"
-            },
-            {
-                "n": "1",
-                "descr": "thing avoided, warded off"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fend.01",
+    "roleset_name": "manage, survive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity getting by, surviving",
+        "descr_trans": "实体渡过难关，幸存下来"
+      },
+      {
+        "n": "1",
+        "descr": "REC",
+        "descr_trans": "记录"
+      }
+    ],
+    "roleset_name_trans": "管理、生存"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fend_off.02",
+    "roleset_name": "avoid, keep away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "avoider, warder",
+        "descr_trans": "回避者，看守者"
+      },
+      {
+        "n": "1",
+        "descr": "thing avoided, warded off",
+        "descr_trans": "避免的事情，避开的事情"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      }
+    ],
+    "roleset_name_trans": "避免，远离"
+  }
 ]

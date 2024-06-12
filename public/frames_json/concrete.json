@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "concrete_over.01",
-        "roleset_name": "pour concrete over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, concrete layer"
-            },
-            {
-                "n": "1",
-                "descr": "thing now covered in concrete"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "concrete.02",
-        "roleset_name": "set in stone, not abstract",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "non-abstract, set in stone thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "concrete_over.01",
+    "roleset_name": "pour concrete over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, concrete layer",
+        "descr_trans": "剂、混凝土层"
+      },
+      {
+        "n": "1",
+        "descr": "thing now covered in concrete",
+        "descr_trans": "现在被混凝土覆盖的东西"
+      }
+    ],
+    "roleset_name_trans": "浇筑混凝土"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "concrete.02",
+    "roleset_name": "set in stone, not abstract",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "non-abstract, set in stone thing",
+        "descr_trans": "非抽象的、固定在石头上的东西"
+      }
+    ],
+    "roleset_name_trans": "是一成不变的，不是抽象的"
+  }
 ]

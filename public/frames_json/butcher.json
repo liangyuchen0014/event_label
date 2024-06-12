@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "butcher.01",
-        "roleset_name": "cut up meat for sale",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse(s)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, butcher knife"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "butcher.01",
+    "roleset_name": "cut up meat for sale",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse(s)",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, butcher knife",
+        "descr_trans": "工具、屠刀"
+      }
+    ],
+    "roleset_name_trans": "切肉出售"
+  }
 ]

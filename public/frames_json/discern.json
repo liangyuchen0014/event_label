@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discern.01",
-        "roleset_name": "to perceive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "entity perceived"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "discernable.02",
-        "roleset_name": "be able to perceive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "entity able to be seen"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discern.01",
+    "roleset_name": "to perceive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "entity perceived",
+        "descr_trans": "实体感知"
+      }
+    ],
+    "roleset_name_trans": "感知"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "discernable.02",
+    "roleset_name": "be able to perceive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "entity able to be seen",
+        "descr_trans": "可见实体"
+      }
+    ],
+    "roleset_name_trans": "能够感知"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misspell.01",
-        "roleset_name": "hand-typo",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misspeller"
-            },
-            {
-                "n": "1",
-                "descr": "misspelled thing"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misspell.01",
+    "roleset_name": "hand-typo",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misspeller",
+        "descr_trans": "拼写错误者"
+      },
+      {
+        "n": "1",
+        "descr": "misspelled thing",
+        "descr_trans": "拼写错误的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "手写错误"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shelve.01",
-        "roleset_name": "to place on a shelf",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity shelved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shelve.01",
+    "roleset_name": "to place on a shelf",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, agent",
+        "descr_trans": "安置者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity shelved",
+        "descr_trans": "实体被搁置"
+      }
+    ],
+    "roleset_name_trans": "放在架子上"
+  }
 ]

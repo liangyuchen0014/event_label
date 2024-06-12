@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "measure.01",
-        "roleset_name": "quantify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "measurer"
-            },
-            {
-                "n": "1",
-                "descr": "thing measured"
-            },
-            {
-                "n": "2",
-                "descr": "yardstick, standard of measurement"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "measure.02",
-        "roleset_name": "action taken",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "(purpose of) action taken"
-            },
-            {
-                "n": "2",
-                "descr": "(anti)benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "measurable.03",
-        "roleset_name": "able to be measured",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "measurer"
-            },
-            {
-                "n": "1",
-                "descr": "thing measured"
-            },
-            {
-                "n": "2",
-                "descr": "yardstick, standard of measurement"
-            },
-            {
-                "n": "3",
-                "descr": "measurement, value"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "measure.01",
+    "roleset_name": "quantify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "measurer",
+        "descr_trans": "测量器"
+      },
+      {
+        "n": "1",
+        "descr": "thing measured",
+        "descr_trans": "测量的东西"
+      },
+      {
+        "n": "2",
+        "descr": "yardstick, standard of measurement",
+        "descr_trans": "尺子，测量标准"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      }
+    ],
+    "roleset_name_trans": "量化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "measure.02",
+    "roleset_name": "action taken",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "(purpose of) action taken",
+        "descr_trans": "采取行动（的目的）"
+      },
+      {
+        "n": "2",
+        "descr": "(anti)benefactive",
+        "descr_trans": "（反）有益的"
+      }
+    ],
+    "roleset_name_trans": "所采取的行动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "measurable.03",
+    "roleset_name": "able to be measured",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "measurer",
+        "descr_trans": "测量器"
+      },
+      {
+        "n": "1",
+        "descr": "thing measured",
+        "descr_trans": "测量的东西"
+      },
+      {
+        "n": "2",
+        "descr": "yardstick, standard of measurement",
+        "descr_trans": "尺子，测量标准"
+      },
+      {
+        "n": "3",
+        "descr": "measurement, value",
+        "descr_trans": "测量、数值"
+      }
+    ],
+    "roleset_name_trans": "能够被测量"
+  }
 ]

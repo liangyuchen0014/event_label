@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weep.01",
-        "roleset_name": "to cry, crying",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "weeper"
-            },
-            {
-                "n": "1",
-                "descr": "tears"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weep.02",
-        "roleset_name": "to ooze, secrete, oozing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Oozer, emitter of fluid"
-            },
-            {
-                "n": "1",
-                "descr": "Fluid oozed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weep.01",
+    "roleset_name": "to cry, crying",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "weeper",
+        "descr_trans": "哭泣者"
+      },
+      {
+        "n": "1",
+        "descr": "tears",
+        "descr_trans": "眼泪"
+      }
+    ],
+    "roleset_name_trans": "哭泣，哭泣"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weep.02",
+    "roleset_name": "to ooze, secrete, oozing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Oozer, emitter of fluid",
+        "descr_trans": "Oozer，液体发射器"
+      },
+      {
+        "n": "1",
+        "descr": "Fluid oozed",
+        "descr_trans": "液体渗出"
+      }
+    ],
+    "roleset_name_trans": "渗出，分泌，渗出"
+  }
 ]

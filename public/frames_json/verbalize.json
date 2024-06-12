@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "verbalize.01",
-        "roleset_name": "speak, give voice to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer (in theory possible)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "verbalize.01",
+    "roleset_name": "speak, give voice to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer (in theory possible)",
+        "descr_trans": "听者（理论上可能）"
+      }
+    ],
+    "roleset_name_trans": "说话，发出声音"
+  }
 ]

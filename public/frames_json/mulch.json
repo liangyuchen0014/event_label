@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mulch.01",
-        "roleset_name": "apply, add much to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Gardener, agent adding mulch"
-            },
-            {
-                "n": "1",
-                "descr": "Garden/soil, entity receiving mulch"
-            },
-            {
-                "n": "2",
-                "descr": "Mulch itself, type of mulch"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mulch.01",
+    "roleset_name": "apply, add much to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Gardener, agent adding mulch",
+        "descr_trans": "园丁、添加覆盖物的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Garden/soil, entity receiving mulch",
+        "descr_trans": "花园/土壤，接收覆盖物的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Mulch itself, type of mulch",
+        "descr_trans": "覆盖物本身，覆盖物的类型"
+      }
+    ],
+    "roleset_name_trans": "应用，添加很多"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decelerate.01",
-        "roleset_name": "(cause to) slow down, slowing down or causing to slow down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of slowing"
-            },
-            {
-                "n": "1",
-                "descr": "entity slowing down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decelerate.01",
+    "roleset_name": "(cause to) slow down, slowing down or causing to slow down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of slowing",
+        "descr_trans": "代理，减慢的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity slowing down",
+        "descr_trans": "实体减速"
+      }
+    ],
+    "roleset_name_trans": "（导致）放慢速度、放慢速度或导致放慢速度"
+  }
 ]

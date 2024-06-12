@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vend.01",
-        "roleset_name": "sell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller, vendor"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vend.01",
+    "roleset_name": "sell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller, vendor",
+        "descr_trans": "卖方, 供应商"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "卖"
+  }
 ]

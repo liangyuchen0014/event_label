@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vouch.01",
-        "roleset_name": "guarantee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "guarantor"
-            },
-            {
-                "n": "1",
-                "descr": "guarantee"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vouch.01",
+    "roleset_name": "guarantee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "guarantor",
+        "descr_trans": "担保人"
+      },
+      {
+        "n": "1",
+        "descr": "guarantee",
+        "descr_trans": "保证"
+      }
+    ],
+    "roleset_name_trans": "保证"
+  }
 ]

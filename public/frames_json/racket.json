@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "racket.01",
-        "roleset_name": "make loud noises",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing making loud noises"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "racket.02",
-        "roleset_name": "engage in an illegal scheme",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, con artist"
-            },
-            {
-                "n": "1",
-                "descr": "domain of scheme"
-            },
-            {
-                "n": "2",
-                "descr": "victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "racket.01",
+    "roleset_name": "make loud noises",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing making loud noises",
+        "descr_trans": "发出很大声音的东西"
+      }
+    ],
+    "roleset_name_trans": "大声喧哗"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "racket.02",
+    "roleset_name": "engage in an illegal scheme",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, con artist",
+        "descr_trans": "经纪人、骗子"
+      },
+      {
+        "n": "1",
+        "descr": "domain of scheme",
+        "descr_trans": "方案域"
+      },
+      {
+        "n": "2",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "从事非法计划"
+  }
 ]

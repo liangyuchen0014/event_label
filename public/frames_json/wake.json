@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wake.01",
-        "roleset_name": "(cause to) become awake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alarm clock, cause of waking"
-            },
-            {
-                "n": "1",
-                "descr": "(former) sleeper"
-            },
-            {
-                "n": "2",
-                "descr": "sleep (oft metaphorical)"
-            },
-            {
-                "n": "3",
-                "descr": "thing awoken to, outside reality"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wake.04",
-        "roleset_name": "have a viewing for the dead",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mourners"
-            },
-            {
-                "n": "1",
-                "descr": "entity mourned, dead one"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wake_up.02",
-        "roleset_name": "(cause to) become awake, with particle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alarm clock, eg"
-            },
-            {
-                "n": "1",
-                "descr": "sleeper"
-            },
-            {
-                "n": "2",
-                "descr": "sleep (oft metaphorical)"
-            },
-            {
-                "n": "3",
-                "descr": "thing awoken to, outside reality"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "awake.03",
-        "roleset_name": "be awake",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "(former) sleeper"
-            },
-            {
-                "n": "2",
-                "descr": "sleep (oft metaphorical)"
-            },
-            {
-                "n": "3",
-                "descr": "thing awoken to, outside reality"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wake.01",
+    "roleset_name": "(cause to) become awake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alarm clock, cause of waking",
+        "descr_trans": "闹钟，醒来的原因"
+      },
+      {
+        "n": "1",
+        "descr": "(former) sleeper",
+        "descr_trans": "（前）卧铺者"
+      },
+      {
+        "n": "2",
+        "descr": "sleep (oft metaphorical)",
+        "descr_trans": "睡觉（通常是隐喻）"
+      },
+      {
+        "n": "3",
+        "descr": "thing awoken to, outside reality",
+        "descr_trans": "现实之外的事物被唤醒"
+      }
+    ],
+    "roleset_name_trans": "（使）醒来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wake.04",
+    "roleset_name": "have a viewing for the dead",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mourners",
+        "descr_trans": "哀悼者"
+      },
+      {
+        "n": "1",
+        "descr": "entity mourned, dead one",
+        "descr_trans": "实体哀悼，死者"
+      }
+    ],
+    "roleset_name_trans": "瞻仰死者"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wake_up.02",
+    "roleset_name": "(cause to) become awake, with particle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alarm clock, eg",
+        "descr_trans": "闹钟，例如"
+      },
+      {
+        "n": "1",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "2",
+        "descr": "sleep (oft metaphorical)",
+        "descr_trans": "睡觉（通常是隐喻）"
+      },
+      {
+        "n": "3",
+        "descr": "thing awoken to, outside reality",
+        "descr_trans": "现实之外的事物被唤醒"
+      }
+    ],
+    "roleset_name_trans": "（导致）醒来，带着粒子"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "awake.03",
+    "roleset_name": "be awake",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "(former) sleeper",
+        "descr_trans": "（前）卧铺者"
+      },
+      {
+        "n": "2",
+        "descr": "sleep (oft metaphorical)",
+        "descr_trans": "睡觉（通常是隐喻）"
+      },
+      {
+        "n": "3",
+        "descr": "thing awoken to, outside reality",
+        "descr_trans": "现实之外的事物被唤醒"
+      }
+    ],
+    "roleset_name_trans": "保持清醒"
+  }
 ]

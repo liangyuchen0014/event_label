@@ -1,88 +1,105 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heat.01",
-        "roleset_name": "(cause to) become hot or hotter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity heated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "heat_up.02",
-        "roleset_name": "make hot or hotter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity heated up"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hot.03",
-        "roleset_name": "attractive, stylish, desirable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "hottie"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hot.04",
-        "roleset_name": "emotionally agitated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "emotionally agitated entity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hot.05",
-        "roleset_name": "having a high temperature",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "hot thing (temperature-wise)"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "hot.06",
-        "roleset_name": "marco polo sense-- closeness to something sought",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "seeker"
-            },
-            {
-                "n": "2",
-                "descr": "trail"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heat.01",
+    "roleset_name": "(cause to) become hot or hotter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity heated",
+        "descr_trans": "实体加热"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更热或更热"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "heat_up.02",
+    "roleset_name": "make hot or hotter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity heated up",
+        "descr_trans": "实体升温"
+      }
+    ],
+    "roleset_name_trans": "使热或更热"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hot.03",
+    "roleset_name": "attractive, stylish, desirable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "hottie",
+        "descr_trans": "辣妹"
+      }
+    ],
+    "roleset_name_trans": "有吸引力的、时尚的、令人向往的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hot.04",
+    "roleset_name": "emotionally agitated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus",
+        "descr_trans": "刺激"
+      },
+      {
+        "n": "1",
+        "descr": "emotionally agitated entity",
+        "descr_trans": "情绪激动的实体"
+      }
+    ],
+    "roleset_name_trans": "情绪激动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hot.05",
+    "roleset_name": "having a high temperature",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "hot thing (temperature-wise)",
+        "descr_trans": "热的东西（温度方面）"
+      }
+    ],
+    "roleset_name_trans": "体温高"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "hot.06",
+    "roleset_name": "marco polo sense-- closeness to something sought",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "seeker",
+        "descr_trans": "探索者"
+      },
+      {
+        "n": "2",
+        "descr": "trail",
+        "descr_trans": "踪迹"
+      }
+    ],
+    "roleset_name_trans": "马可·波罗意识——接近所寻求的东西"
+  }
 ]

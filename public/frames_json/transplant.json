@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transplant.01",
-        "roleset_name": "move from one place to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transplant.01",
+    "roleset_name": "move from one place to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover, agent",
+        "descr_trans": "搬运工、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "从一个地方移动到另一个地方"
+  }
 ]

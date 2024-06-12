@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bumrush.01",
-        "roleset_name": "crash, slam or invade, possibly unexpectedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit/crashed/invaded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bumrush.01",
+    "roleset_name": "crash, slam or invade, possibly unexpectedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity in motion",
+        "descr_trans": "代理人，运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit/crashed/invaded",
+        "descr_trans": "实体被击中/坠毁/入侵"
+      }
+    ],
+    "roleset_name_trans": "碰撞、撞击或入侵，可能出乎意料"
+  }
 ]

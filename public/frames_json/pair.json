@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pair.01",
-        "roleset_name": "join two   things, matching, mating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joiner"
-            },
-            {
-                "n": "1",
-                "descr": "first thing, or both things"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, if separate"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pair_up.02",
-        "roleset_name": "same as pair.01",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joiner"
-            },
-            {
-                "n": "1",
-                "descr": "first thing, or both things"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, if separate"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pair_off.03",
-        "roleset_name": "split off into a pair, pairs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "first entity (or both) forming a pair"
-            },
-            {
-                "n": "2",
-                "descr": "second entity in the pair"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pair.01",
+    "roleset_name": "join two   things, matching, mating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joiner",
+        "descr_trans": "细木工"
+      },
+      {
+        "n": "1",
+        "descr": "first thing, or both things",
+        "descr_trans": "第一件事，或两件事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, if separate",
+        "descr_trans": "第二件事，如果分开的话"
+      }
+    ],
+    "roleset_name_trans": "连接两个事物、匹配、交配"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pair_up.02",
+    "roleset_name": "same as pair.01",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joiner",
+        "descr_trans": "细木工"
+      },
+      {
+        "n": "1",
+        "descr": "first thing, or both things",
+        "descr_trans": "第一件事，或两件事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, if separate",
+        "descr_trans": "第二件事，如果分开的话"
+      }
+    ],
+    "roleset_name_trans": "与pair.01相同"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pair_off.03",
+    "roleset_name": "split off into a pair, pairs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "first entity (or both) forming a pair",
+        "descr_trans": "第一个实体（或两者）形成一对"
+      },
+      {
+        "n": "2",
+        "descr": "second entity in the pair",
+        "descr_trans": "该对中的第二个实体"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "分成一对，成对"
+  }
 ]

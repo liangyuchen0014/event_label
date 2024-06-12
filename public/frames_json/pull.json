@@ -1,169 +1,204 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pull.01",
-        "roleset_name": "(try to) cause motion, causing motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled"
-            },
-            {
-                "n": "2",
-                "descr": "DIR, destination or attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "EXT, distance moved"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pull.06",
-        "roleset_name": "various quasi-idiomatic usages",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller"
-            },
-            {
-                "n": "1",
-                "descr": "the plug, the wool, etc"
-            },
-            {
-                "n": "2",
-                "descr": "the rest of the idiom"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pull.09",
-        "roleset_name": "remove from availability for consumption",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pull_out.02",
-        "roleset_name": "exit, leave, withdrawing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "2",
-                "descr": "place left"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pull_through.04",
-        "roleset_name": "make it, survive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "survivor"
-            },
-            {
-                "n": "1",
-                "descr": "adverse circumstances"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "pull_off.03",
-        "roleset_name": "manage to do despite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manager"
-            },
-            {
-                "n": "1",
-                "descr": "deed accomplished"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "pull_over.05",
-        "roleset_name": "(cause to) move to the side, moving to the side (of the road, for example)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving, pulling over"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "pull_up.07",
-        "roleset_name": "similar to a chin-up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "excerciser"
-            },
-            {
-                "n": "1",
-                "descr": "destination pulled up to"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "pull_down.08",
-        "roleset_name": "pull protein complexes out of a solution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of pull-down (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled down, antigen (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "pulled down from, solution"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pull.01",
+    "roleset_name": "(try to) cause motion, causing motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller",
+        "descr_trans": "拉拔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled",
+        "descr_trans": "东西拉"
+      },
+      {
+        "n": "2",
+        "descr": "DIR, destination or attribute of arg1",
+        "descr_trans": "DIR、目的地或 arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "EXT, distance moved",
+        "descr_trans": "EXT，移动距离"
+      }
+    ],
+    "roleset_name_trans": "（尝试）引起运动，引起运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pull.06",
+    "roleset_name": "various quasi-idiomatic usages",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller",
+        "descr_trans": "拉拔器"
+      },
+      {
+        "n": "1",
+        "descr": "the plug, the wool, etc",
+        "descr_trans": "插头、羊毛等"
+      },
+      {
+        "n": "2",
+        "descr": "the rest of the idiom",
+        "descr_trans": "其余的习语"
+      }
+    ],
+    "roleset_name_trans": "各种准惯用用法"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pull.09",
+    "roleset_name": "remove from availability for consumption",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "从可供消费的可用性中删除"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pull_out.02",
+    "roleset_name": "exit, leave, withdrawing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "2",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "退出，离开，退出"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pull_through.04",
+    "roleset_name": "make it, survive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "survivor",
+        "descr_trans": "幸存者"
+      },
+      {
+        "n": "1",
+        "descr": "adverse circumstances",
+        "descr_trans": "不利的情况"
+      }
+    ],
+    "roleset_name_trans": "做到，生存"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "pull_off.03",
+    "roleset_name": "manage to do despite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manager",
+        "descr_trans": "经理"
+      },
+      {
+        "n": "1",
+        "descr": "deed accomplished",
+        "descr_trans": "事情完成了"
+      }
+    ],
+    "roleset_name_trans": "尽管设法做到"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "pull_over.05",
+    "roleset_name": "(cause to) move to the side, moving to the side (of the road, for example)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving, pulling over",
+        "descr_trans": "东西移动，靠边停车"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "（导致）移动到一边，移动到（例如，道路的）一边"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "pull_up.07",
+    "roleset_name": "similar to a chin-up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "excerciser",
+        "descr_trans": "锻炼者"
+      },
+      {
+        "n": "1",
+        "descr": "destination pulled up to",
+        "descr_trans": "目的地拉至"
+      }
+    ],
+    "roleset_name_trans": "类似于引体向上"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "pull_down.08",
+    "roleset_name": "pull protein complexes out of a solution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of pull-down (e.g. scientist)",
+        "descr_trans": "故意下拉的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled down, antigen (e.g. protein)",
+        "descr_trans": "拉下来的东西，抗原（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "pulled down from, solution",
+        "descr_trans": "从解决方案中拉下来"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "从溶液中提取蛋白质复合物"
+  }
 ]

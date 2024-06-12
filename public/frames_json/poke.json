@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "poke.01",
-        "roleset_name": "touch with long slender object, touching with a pointy thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "toucher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing touched"
-            },
-            {
-                "n": "2",
-                "descr": "long slender object"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "poke_around.02",
-        "roleset_name": "rummage, look for idly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker, searcher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "place looked in"
-            },
-            {
-                "n": "2",
-                "descr": "thing looked for, goal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "poke.01",
+    "roleset_name": "touch with long slender object, touching with a pointy thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "toucher, agent",
+        "descr_trans": "触摸、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing touched",
+        "descr_trans": "触及的东西"
+      },
+      {
+        "n": "2",
+        "descr": "long slender object",
+        "descr_trans": "细长物体"
+      }
+    ],
+    "roleset_name_trans": "用细长的物体接触，用尖的东西接触"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "poke_around.02",
+    "roleset_name": "rummage, look for idly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker, searcher, agent",
+        "descr_trans": "观察者、搜寻者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "place looked in",
+        "descr_trans": "看过的地方"
+      },
+      {
+        "n": "2",
+        "descr": "thing looked for, goal",
+        "descr_trans": "寻找的东西，目标"
+      }
+    ],
+    "roleset_name_trans": "翻箱倒柜地寻找"
+  }
 ]

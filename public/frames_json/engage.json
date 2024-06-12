@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "engage.01",
-        "roleset_name": "cause to get involved, involvement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of engagement"
-            },
-            {
-                "n": "1",
-                "descr": "entity sucked in"
-            },
-            {
-                "n": "2",
-                "descr": "thing involved in"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "engagement.02",
-        "roleset_name": "betrothal, engaged to be married",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first betrothed entity"
-            },
-            {
-                "n": "2",
-                "descr": "second betrothed entity"
-            },
-            {
-                "n": "3",
-                "descr": "explicit mention of marriage"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "engage.01",
+    "roleset_name": "cause to get involved, involvement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of engagement",
+        "descr_trans": "参与的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity sucked in",
+        "descr_trans": "实体被吸进去"
+      },
+      {
+        "n": "2",
+        "descr": "thing involved in",
+        "descr_trans": "涉及的事情"
+      }
+    ],
+    "roleset_name_trans": "导致卷入，卷入"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "engagement.02",
+    "roleset_name": "betrothal, engaged to be married",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first betrothed entity",
+        "descr_trans": "第一个订婚实体"
+      },
+      {
+        "n": "2",
+        "descr": "second betrothed entity",
+        "descr_trans": "第二个未婚实体"
+      },
+      {
+        "n": "3",
+        "descr": "explicit mention of marriage",
+        "descr_trans": "明确提及婚姻"
+      }
+    ],
+    "roleset_name_trans": "订婚，订婚"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "encounter.01",
-        "roleset_name": "to meet unexpectedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity encountering something"
-            },
-            {
-                "n": "1",
-                "descr": "entity encountered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "encounter.01",
+    "roleset_name": "to meet unexpectedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity encountering something",
+        "descr_trans": "实体遇到某物"
+      },
+      {
+        "n": "1",
+        "descr": "entity encountered",
+        "descr_trans": "遇到实体"
+      }
+    ],
+    "roleset_name_trans": "不期而遇"
+  }
 ]

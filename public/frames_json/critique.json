@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "critique.01",
-        "roleset_name": "offer an oppinion judgement,or to criticize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "critiquer"
-            },
-            {
-                "n": "1",
-                "descr": "entity being critiqued"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "critique.01",
+    "roleset_name": "offer an oppinion judgement,or to criticize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "critiquer",
+        "descr_trans": "批评"
+      },
+      {
+        "n": "1",
+        "descr": "entity being critiqued",
+        "descr_trans": "被批评的实体"
+      }
+    ],
+    "roleset_name_trans": "提出意见判断或批评"
+  }
 ]

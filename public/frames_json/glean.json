@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "glean.01",
-        "roleset_name": "to collect bit by bit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "collector, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity gleaned"
-            },
-            {
-                "n": "2",
-                "descr": "entity gleaned from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "glean.01",
+    "roleset_name": "to collect bit by bit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "collector, agent",
+        "descr_trans": "收藏家、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity gleaned",
+        "descr_trans": "收集到的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity gleaned from",
+        "descr_trans": "实体收集自"
+      }
+    ],
+    "roleset_name_trans": "一点一滴地收集"
+  }
 ]

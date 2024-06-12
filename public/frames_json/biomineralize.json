@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "biomineralize.01",
-        "roleset_name": "formation of minerals via microorganisms",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "microorganism"
-            },
-            {
-                "n": "1",
-                "descr": "entity biomineralized (body part, tissue)"
-            },
-            {
-                "n": "2",
-                "descr": "chemical compound/biproduct produced by microorganism that is responsible for the biomineralization"
-            },
-            {
-                "n": "3",
-                "descr": "explicit mention of mineral produced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "biomineralize.01",
+    "roleset_name": "formation of minerals via microorganisms",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "microorganism",
+        "descr_trans": "微生物"
+      },
+      {
+        "n": "1",
+        "descr": "entity biomineralized (body part, tissue)",
+        "descr_trans": "生物矿化实体（身体部位、组织）"
+      },
+      {
+        "n": "2",
+        "descr": "chemical compound/biproduct produced by microorganism that is responsible for the biomineralization",
+        "descr_trans": "负责生物矿化的微生物产生的化合物/副产品"
+      },
+      {
+        "n": "3",
+        "descr": "explicit mention of mineral produced",
+        "descr_trans": "明确提及所生产的矿物"
+      }
+    ],
+    "roleset_name_trans": "通过微生物形成矿物质"
+  }
 ]

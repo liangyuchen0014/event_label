@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "downmodulate.01",
-        "roleset_name": "modulate to a lower level",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of downmodulation"
-            },
-            {
-                "n": "1",
-                "descr": "thing downmodulated (e.g. process)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "start state, initial level"
-            },
-            {
-                "n": "4",
-                "descr": "end state, resulting level"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "downmodulate.01",
+    "roleset_name": "modulate to a lower level",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of downmodulation",
+        "descr_trans": "有意下调剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing downmodulated (e.g. process)",
+        "descr_trans": "下调的事物（例如流程）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "start state, initial level",
+        "descr_trans": "起始状态、初始电平"
+      },
+      {
+        "n": "4",
+        "descr": "end state, resulting level",
+        "descr_trans": "最终状态，结果水平"
+      }
+    ],
+    "roleset_name_trans": "调节到较低水平"
+  }
 ]

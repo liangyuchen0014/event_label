@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depend.01",
-        "roleset_name": "rely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "depender"
-            },
-            {
-                "n": "1",
-                "descr": "depended on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depend.01",
+    "roleset_name": "rely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "depender",
+        "descr_trans": "依赖"
+      },
+      {
+        "n": "1",
+        "descr": "depended on",
+        "descr_trans": "依赖于"
+      }
+    ],
+    "roleset_name_trans": "依靠"
+  }
 ]

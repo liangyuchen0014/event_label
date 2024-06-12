@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "banter.01",
-        "roleset_name": "speak jokingly, lightheartedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first speaker (or all speakers if in one mention"
-            },
-            {
-                "n": "1",
-                "descr": "second speaker (when separate mention)"
-            },
-            {
-                "n": "2",
-                "descr": "topic, bantered about what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "banter.01",
+    "roleset_name": "speak jokingly, lightheartedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first speaker (or all speakers if in one mention",
+        "descr_trans": "第一个发言者（或所有发言者，如果在一次提及中）"
+      },
+      {
+        "n": "1",
+        "descr": "second speaker (when separate mention)",
+        "descr_trans": "第二位发言者（单独提及时）"
+      },
+      {
+        "n": "2",
+        "descr": "topic, bantered about what?",
+        "descr_trans": "话题，调侃什么？"
+      }
+    ],
+    "roleset_name_trans": "开玩笑地、轻松地说话"
+  }
 ]

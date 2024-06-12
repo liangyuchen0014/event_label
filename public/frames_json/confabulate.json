@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confabulate.01",
-        "roleset_name": "chat or confer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Speakers or first speaking partner"
-            },
-            {
-                "n": "1",
-                "descr": "Second speaking partner"
-            },
-            {
-                "n": "2",
-                "descr": "Confabulated about or on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "confabulate.02",
-        "roleset_name": "replace an actual memory with a fantasy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Confabulator"
-            },
-            {
-                "n": "1",
-                "descr": "Memory or thing changed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confabulate.01",
+    "roleset_name": "chat or confer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Speakers or first speaking partner",
+        "descr_trans": "演讲者或第一位演讲伙伴"
+      },
+      {
+        "n": "1",
+        "descr": "Second speaking partner",
+        "descr_trans": "第二位发言伙伴"
+      },
+      {
+        "n": "2",
+        "descr": "Confabulated about or on",
+        "descr_trans": "闲聊关于或关于"
+      }
+    ],
+    "roleset_name_trans": "聊天或商量"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "confabulate.02",
+    "roleset_name": "replace an actual memory with a fantasy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Confabulator",
+        "descr_trans": "八卦者"
+      },
+      {
+        "n": "1",
+        "descr": "Memory or thing changed",
+        "descr_trans": "记忆或事物改变了"
+      }
+    ],
+    "roleset_name_trans": "用幻想代替真实的记忆"
+  }
 ]

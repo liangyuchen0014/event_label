@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deactivate.01",
-        "roleset_name": "to render inactive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deactivator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity deactivated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deactivate.01",
+    "roleset_name": "to render inactive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deactivator, agent",
+        "descr_trans": "钝化剂, 钝化剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity deactivated",
+        "descr_trans": "实体已停用"
+      }
+    ],
+    "roleset_name_trans": "使不活动"
+  }
 ]

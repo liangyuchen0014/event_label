@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "encumber.01",
-        "roleset_name": "load down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, agent of encumberment"
-            },
-            {
-                "n": "1",
-                "descr": "thing loaded"
-            },
-            {
-                "n": "2",
-                "descr": "cargo"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "encumber.01",
+    "roleset_name": "load down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, agent of encumberment",
+        "descr_trans": "装载者，负担代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing loaded",
+        "descr_trans": "加载的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      }
+    ],
+    "roleset_name_trans": "减载"
+  }
 ]

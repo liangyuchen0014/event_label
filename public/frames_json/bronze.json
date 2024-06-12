@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bronze.01",
-        "roleset_name": "to face, cover with bronze, resulting in a bronze sculpture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "metalsmith, bronzer"
-            },
-            {
-                "n": "1",
-                "descr": "location, entity being bronzed"
-            },
-            {
-                "n": "2",
-                "descr": "bronze itself, material used to cover"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bronze.02",
-        "roleset_name": "give the skin a ruddy/sun-kissed glow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "make-up artist"
-            },
-            {
-                "n": "1",
-                "descr": "body part, patient bronzed"
-            },
-            {
-                "n": "2",
-                "descr": "bronzing agent (sun, cosmetic bronzer, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bronze.01",
+    "roleset_name": "to face, cover with bronze, resulting in a bronze sculpture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "metalsmith, bronzer",
+        "descr_trans": "金属匠、古铜粉"
+      },
+      {
+        "n": "1",
+        "descr": "location, entity being bronzed",
+        "descr_trans": "位置，实体被晒成古铜色"
+      },
+      {
+        "n": "2",
+        "descr": "bronze itself, material used to cover",
+        "descr_trans": "青铜本身，用于覆盖的材料"
+      }
+    ],
+    "roleset_name_trans": "面对，用青铜覆盖，形成青铜雕塑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bronze.02",
+    "roleset_name": "give the skin a ruddy/sun-kissed glow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "make-up artist",
+        "descr_trans": "彩妆大师"
+      },
+      {
+        "n": "1",
+        "descr": "body part, patient bronzed",
+        "descr_trans": "患者身体部位古铜色"
+      },
+      {
+        "n": "2",
+        "descr": "bronzing agent (sun, cosmetic bronzer, etc.)",
+        "descr_trans": "古铜剂（防晒霜、化妆品古铜粉等）"
+      }
+    ],
+    "roleset_name_trans": "赋予肌肤红润/阳光亲吻般的光泽"
+  }
 ]

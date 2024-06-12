@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seduce.01",
-        "roleset_name": "cause romantic action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seducer"
-            },
-            {
-                "n": "1",
-                "descr": "seduced"
-            },
-            {
-                "n": "2",
-                "descr": "action, end state, destination, seduced into what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seduce.01",
+    "roleset_name": "cause romantic action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seducer",
+        "descr_trans": "诱惑者"
+      },
+      {
+        "n": "1",
+        "descr": "seduced",
+        "descr_trans": "被诱惑的"
+      },
+      {
+        "n": "2",
+        "descr": "action, end state, destination, seduced into what?",
+        "descr_trans": "行动、最终状态、目的地、诱惑到什么？"
+      }
+    ],
+    "roleset_name_trans": "引起浪漫的行动"
+  }
 ]

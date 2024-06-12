@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "despair.01",
-        "roleset_name": "to give up hope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "entity despaired of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "desperate.02",
-        "roleset_name": "urgent to the point of despair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "desperate one"
-            },
-            {
-                "n": "1",
-                "descr": "desparate for/to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "despair.01",
+    "roleset_name": "to give up hope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "entity despaired of",
+        "descr_trans": "实体绝望"
+      }
+    ],
+    "roleset_name_trans": "放弃希望"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "desperate.02",
+    "roleset_name": "urgent to the point of despair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "desperate one",
+        "descr_trans": "绝望的一个"
+      },
+      {
+        "n": "1",
+        "descr": "desparate for/to what",
+        "descr_trans": "渴望/渴望什么"
+      }
+    ],
+    "roleset_name_trans": "紧急到绝望的地步"
+  }
 ]

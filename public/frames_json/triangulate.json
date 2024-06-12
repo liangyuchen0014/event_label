@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "triangulate.01",
-        "roleset_name": "pinpoint a location using known points and/or distances",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "triangulator"
-            },
-            {
-                "n": "1",
-                "descr": "location searched for"
-            },
-            {
-                "n": "2",
-                "descr": "based on, known info"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "triangulate.02",
-        "roleset_name": "surveying technique: dividing a region into equilateral triangles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "triangulator"
-            },
-            {
-                "n": "1",
-                "descr": "region divided into triangles"
-            },
-            {
-                "n": "2",
-                "descr": "triangle side length measurement"
-            },
-            {
-                "n": "3",
-                "descr": "number of nodes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "triangulate.01",
+    "roleset_name": "pinpoint a location using known points and/or distances",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "triangulator",
+        "descr_trans": "三角仪"
+      },
+      {
+        "n": "1",
+        "descr": "location searched for",
+        "descr_trans": "搜索到的位置"
+      },
+      {
+        "n": "2",
+        "descr": "based on, known info",
+        "descr_trans": "基于已知信息"
+      }
+    ],
+    "roleset_name_trans": "使用已知点和/或距离精确定位位置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "triangulate.02",
+    "roleset_name": "surveying technique: dividing a region into equilateral triangles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "triangulator",
+        "descr_trans": "三角仪"
+      },
+      {
+        "n": "1",
+        "descr": "region divided into triangles",
+        "descr_trans": "区域划分为三角形"
+      },
+      {
+        "n": "2",
+        "descr": "triangle side length measurement",
+        "descr_trans": "三角形边长测量"
+      },
+      {
+        "n": "3",
+        "descr": "number of nodes",
+        "descr_trans": "节点数"
+      }
+    ],
+    "roleset_name_trans": "测量技术：将区域划分为等边三角形"
+  }
 ]

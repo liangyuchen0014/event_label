@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "game.01",
-        "roleset_name": "up for, willing to participate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "willing participant"
-            },
-            {
-                "n": "1",
-                "descr": "the game (partipated in)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gaming.02",
-        "roleset_name": "playing games",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gamer"
-            },
-            {
-                "n": "1",
-                "descr": "type of game"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "game.01",
+    "roleset_name": "up for, willing to participate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "willing participant",
+        "descr_trans": "愿意的参与者"
+      },
+      {
+        "n": "1",
+        "descr": "the game (partipated in)",
+        "descr_trans": "游戏（参加过）"
+      }
+    ],
+    "roleset_name_trans": "愿意参加，愿意参加"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gaming.02",
+    "roleset_name": "playing games",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gamer",
+        "descr_trans": "游戏玩家"
+      },
+      {
+        "n": "1",
+        "descr": "type of game",
+        "descr_trans": "游戏类型"
+      }
+    ],
+    "roleset_name_trans": "玩游戏"
+  }
 ]

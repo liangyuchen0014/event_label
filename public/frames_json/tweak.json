@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tweak.01",
-        "roleset_name": "tweak, cause change",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tweaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing tweaked"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tweak.02",
-        "roleset_name": "tweak on drugs",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "drug user tweaking"
-            },
-            {
-                "n": "2",
-                "descr": "drug mention"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tweak.01",
+    "roleset_name": "tweak, cause change",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tweaker",
+        "descr_trans": "调整者"
+      },
+      {
+        "n": "1",
+        "descr": "thing tweaked",
+        "descr_trans": "事情调整了"
+      }
+    ],
+    "roleset_name_trans": "调整，引起变化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tweak.02",
+    "roleset_name": "tweak on drugs",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "drug user tweaking",
+        "descr_trans": "吸毒者调整"
+      },
+      {
+        "n": "2",
+        "descr": "drug mention",
+        "descr_trans": "药物提及"
+      }
+    ],
+    "roleset_name_trans": "调整药物"
+  }
 ]

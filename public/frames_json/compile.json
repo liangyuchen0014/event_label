@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compile.01",
-        "roleset_name": "collect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compile.01",
+    "roleset_name": "collect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "收集"
+  }
 ]

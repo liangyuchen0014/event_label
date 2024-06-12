@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dash.01",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit, dashed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dash.02",
-        "roleset_name": "run for a short distance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dash_off.03",
-        "roleset_name": "to write, make, or accomplish hastily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hurried producer"
-            },
-            {
-                "n": "1",
-                "descr": "thing produced"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dash.01",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit, dashed",
+        "descr_trans": "东西被击中，破折号"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dash.02",
+    "roleset_name": "run for a short distance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "跑一小段距离"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dash_off.03",
+    "roleset_name": "to write, make, or accomplish hastily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hurried producer",
+        "descr_trans": "匆忙的制作人"
+      },
+      {
+        "n": "1",
+        "descr": "thing produced",
+        "descr_trans": "产生的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "匆忙地写作、制作或完成"
+  }
 ]

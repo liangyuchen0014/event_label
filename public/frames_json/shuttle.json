@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shuttle.01",
-        "roleset_name": "move something back and forth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "one (or both) location(s), start point"
-            },
-            {
-                "n": "3",
-                "descr": "other location, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shuttle_off.02",
-        "roleset_name": "move (away) with little fanfare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shuttle.01",
+    "roleset_name": "move something back and forth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "one (or both) location(s), start point",
+        "descr_trans": "一个（或两个）位置、起点"
+      },
+      {
+        "n": "3",
+        "descr": "other location, destination",
+        "descr_trans": "其他地点、目的地"
+      }
+    ],
+    "roleset_name_trans": "来回移动某物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shuttle_off.02",
+    "roleset_name": "move (away) with little fanfare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of motion",
+        "descr_trans": "运动代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "小声地搬（走）"
+  }
 ]

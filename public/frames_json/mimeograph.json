@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mimeograph.01",
-        "roleset_name": "print using mimeograph",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "printer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing printed or created"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mimeograph.01",
+    "roleset_name": "print using mimeograph",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "printer, agent",
+        "descr_trans": "打印机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing printed or created",
+        "descr_trans": "打印或创建的东西"
+      }
+    ],
+    "roleset_name_trans": "使用油印机印刷"
+  }
 ]

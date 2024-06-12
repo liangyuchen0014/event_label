@@ -1,101 +1,122 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heighten.01",
-        "roleset_name": "make higher",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming higher"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "high.02",
-        "roleset_name": "location: Arg1 is located (probably far) upward within a substance/space",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing located up high"
-            },
-            {
-                "n": "2",
-                "descr": "high in what substance/space/domain"
-            },
-            {
-                "n": "3",
-                "descr": "height measurement"
-            },
-            {
-                "n": "4",
-                "descr": "scale"
-            },
-            {
-                "n": "5",
-                "descr": "axis"
-            },
-            {
-                "n": "6",
-                "descr": "anchor"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "high.03",
-        "roleset_name": "elated, in good spirits",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of elation"
-            },
-            {
-                "n": "1",
-                "descr": "elated entity"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "high.04",
-        "roleset_name": "stoned, intoxicated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intoxicant"
-            },
-            {
-                "n": "1",
-                "descr": "stoner"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "high.05",
-        "roleset_name": "dimension: Arg1 has a quantifiable dimension 'height'",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a height dimension"
-            },
-            {
-                "n": "2",
-                "descr": "height measurement"
-            },
-            {
-                "n": "3",
-                "descr": "axis measured"
-            },
-            {
-                "n": "4",
-                "descr": "height measurement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heighten.01",
+    "roleset_name": "make higher",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming higher",
+        "descr_trans": "事物变得更高"
+      }
+    ],
+    "roleset_name_trans": "使更高"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "high.02",
+    "roleset_name": "location: Arg1 is located (probably far) upward within a substance/space",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing located up high",
+        "descr_trans": "位于高处的东西"
+      },
+      {
+        "n": "2",
+        "descr": "high in what substance/space/domain",
+        "descr_trans": "在什么物质/空间/域中高"
+      },
+      {
+        "n": "3",
+        "descr": "height measurement",
+        "descr_trans": "高度测量"
+      },
+      {
+        "n": "4",
+        "descr": "scale",
+        "descr_trans": "规模"
+      },
+      {
+        "n": "5",
+        "descr": "axis",
+        "descr_trans": "轴"
+      },
+      {
+        "n": "6",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      }
+    ],
+    "roleset_name_trans": "位置：Arg1 位于物质/空间内（可能很远）向上"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "high.03",
+    "roleset_name": "elated, in good spirits",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of elation",
+        "descr_trans": "兴高采烈的原因"
+      },
+      {
+        "n": "1",
+        "descr": "elated entity",
+        "descr_trans": "相关实体"
+      }
+    ],
+    "roleset_name_trans": "兴高采烈，精神抖擞"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "high.04",
+    "roleset_name": "stoned, intoxicated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intoxicant",
+        "descr_trans": "醉人"
+      },
+      {
+        "n": "1",
+        "descr": "stoner",
+        "descr_trans": "斯托纳"
+      }
+    ],
+    "roleset_name_trans": "醉酒的, 醉酒的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "high.05",
+    "roleset_name": "dimension: Arg1 has a quantifiable dimension 'height'",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a height dimension",
+        "descr_trans": "具有高度尺寸的实体"
+      },
+      {
+        "n": "2",
+        "descr": "height measurement",
+        "descr_trans": "高度测量"
+      },
+      {
+        "n": "3",
+        "descr": "axis measured",
+        "descr_trans": "测量轴"
+      },
+      {
+        "n": "4",
+        "descr": "height measurement",
+        "descr_trans": "高度测量"
+      }
+    ],
+    "roleset_name_trans": "维度：Arg1 有一个可量化的维度“高度”"
+  }
 ]

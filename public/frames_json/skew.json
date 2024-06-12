@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skew.01",
-        "roleset_name": "to distort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity skewed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skew.01",
+    "roleset_name": "to distort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity skewed",
+        "descr_trans": "实体倾斜"
+      }
+    ],
+    "roleset_name_trans": "扭曲"
+  }
 ]

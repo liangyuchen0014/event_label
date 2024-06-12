@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recode.01",
-        "roleset_name": "recode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recoder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity recoded, theme"
-            },
-            {
-                "n": "2",
-                "descr": "destination of recoding"
-            },
-            {
-                "n": "3",
-                "descr": "recoded as what, predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recode.01",
+    "roleset_name": "recode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recoder, agent",
+        "descr_trans": "记录器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity recoded, theme",
+        "descr_trans": "实体重新编码，主题"
+      },
+      {
+        "n": "2",
+        "descr": "destination of recoding",
+        "descr_trans": "重新编码的目的地"
+      },
+      {
+        "n": "3",
+        "descr": "recoded as what, predicate",
+        "descr_trans": "重新编码为什么，谓词"
+      }
+    ],
+    "roleset_name_trans": "重新编码"
+  }
 ]

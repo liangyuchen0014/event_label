@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decrease.01",
-        "roleset_name": "go down incrementally, having gone down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of decline, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing decreasing"
-            },
-            {
-                "n": "2",
-                "descr": "amount decreased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decrease.01",
+    "roleset_name": "go down incrementally, having gone down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of decline, agent",
+        "descr_trans": "衰退的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing decreasing",
+        "descr_trans": "事物减少"
+      },
+      {
+        "n": "2",
+        "descr": "amount decreased by, EXT or MNR",
+        "descr_trans": "减少量，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "逐渐下降，已经下降"
+  }
 ]

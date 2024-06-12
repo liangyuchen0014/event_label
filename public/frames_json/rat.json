@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rat.01",
-        "roleset_name": "tell on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informant"
-            },
-            {
-                "n": "1",
-                "descr": "victim, informed on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rat.01",
+    "roleset_name": "tell on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informant",
+        "descr_trans": "线人"
+      },
+      {
+        "n": "1",
+        "descr": "victim, informed on",
+        "descr_trans": "受害者，被告知"
+      }
+    ],
+    "roleset_name_trans": "告发"
+  }
 ]

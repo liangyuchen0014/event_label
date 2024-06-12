@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "savvy.01",
-        "roleset_name": "understand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "knower"
-            },
-            {
-                "n": "1",
-                "descr": "thing known or thought"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "savvy.01",
+    "roleset_name": "understand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "knower",
+        "descr_trans": "知者"
+      },
+      {
+        "n": "1",
+        "descr": "thing known or thought",
+        "descr_trans": "已知或想到的事情"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "理解"
+  }
 ]

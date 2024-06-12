@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subordinate.01",
-        "roleset_name": "make lesser, dependent on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "subordinate thing"
-            },
-            {
-                "n": "2",
-                "descr": "superordinate thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subordinate.01",
+    "roleset_name": "make lesser, dependent on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "subordinate thing",
+        "descr_trans": "从属事物"
+      },
+      {
+        "n": "2",
+        "descr": "superordinate thing",
+        "descr_trans": "上位的东西"
+      }
+    ],
+    "roleset_name_trans": "减少，依赖于"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "google.01",
-        "roleset_name": "search for using google search engine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of search"
-            },
-            {
-                "n": "1",
-                "descr": "target of search"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "google.01",
+    "roleset_name": "search for using google search engine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of search",
+        "descr_trans": "搜索代理"
+      },
+      {
+        "n": "1",
+        "descr": "target of search",
+        "descr_trans": "搜索目标"
+      }
+    ],
+    "roleset_name_trans": "使用 google 搜索引擎进行搜索"
+  }
 ]

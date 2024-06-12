@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "model.01",
-        "roleset_name": "to copy, example",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity modeled"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "model.02",
-        "roleset_name": "to work as a fashion model",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fashion model"
-            },
-            {
-                "n": "1",
-                "descr": "garment, thing being modeled."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "model.01",
+    "roleset_name": "to copy, example",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity modeled",
+        "descr_trans": "实体建模"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "复制，例如"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "model.02",
+    "roleset_name": "to work as a fashion model",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fashion model",
+        "descr_trans": "时装模特"
+      },
+      {
+        "n": "1",
+        "descr": "garment, thing being modeled.",
+        "descr_trans": "服装，正在建模的东西。"
+      }
+    ],
+    "roleset_name_trans": "担任时装模特"
+  }
 ]

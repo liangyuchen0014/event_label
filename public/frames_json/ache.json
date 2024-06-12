@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ache.01",
-        "roleset_name": "to suffer a dull pain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "body part aching"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ache.02",
-        "roleset_name": "desire, long",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wanter"
-            },
-            {
-                "n": "1",
-                "descr": "wanted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ache.01",
+    "roleset_name": "to suffer a dull pain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "body part aching",
+        "descr_trans": "身体部位疼痛"
+      }
+    ],
+    "roleset_name_trans": "隐隐作痛"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ache.02",
+    "roleset_name": "desire, long",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wanter",
+        "descr_trans": "冬天"
+      },
+      {
+        "n": "1",
+        "descr": "wanted",
+        "descr_trans": "通缉"
+      }
+    ],
+    "roleset_name_trans": "渴望，漫长"
+  }
 ]

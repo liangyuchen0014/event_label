@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "privilege.01",
-        "roleset_name": "to grant a benefit enjoyed by few",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter"
-            },
-            {
-                "n": "1",
-                "descr": "benefit allowed"
-            },
-            {
-                "n": "2",
-                "descr": "extracted allowed-agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "privilege.01",
+    "roleset_name": "to grant a benefit enjoyed by few",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter",
+        "descr_trans": "授予者"
+      },
+      {
+        "n": "1",
+        "descr": "benefit allowed",
+        "descr_trans": "允许的好处"
+      },
+      {
+        "n": "2",
+        "descr": "extracted allowed-agent",
+        "descr_trans": "提取允许代理"
+      }
+    ],
+    "roleset_name_trans": "给予少数人享有的好处"
+  }
 ]

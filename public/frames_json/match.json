@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "match.01",
-        "roleset_name": "match, mate together, couple",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person performing match"
-            },
-            {
-                "n": "1",
-                "descr": "first matching object"
-            },
-            {
-                "n": "2",
-                "descr": "second object, matches what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "match.03",
-        "roleset_name": "competition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first competitor"
-            },
-            {
-                "n": "1",
-                "descr": "second competitor"
-            },
-            {
-                "n": "2",
-                "descr": "prize, title"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of the competition"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "match_up.02",
-        "roleset_name": "match up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity performing the match"
-            },
-            {
-                "n": "1",
-                "descr": "first matching object"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, matches what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "match.01",
+    "roleset_name": "match, mate together, couple",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person performing match",
+        "descr_trans": "进行比赛的人"
+      },
+      {
+        "n": "1",
+        "descr": "first matching object",
+        "descr_trans": "第一个匹配对象"
+      },
+      {
+        "n": "2",
+        "descr": "second object, matches what",
+        "descr_trans": "第二个对象，匹配什么"
+      }
+    ],
+    "roleset_name_trans": "匹配，配对，情侣"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "match.03",
+    "roleset_name": "competition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first competitor",
+        "descr_trans": "第一个竞争对手"
+      },
+      {
+        "n": "1",
+        "descr": "second competitor",
+        "descr_trans": "第二个竞争对手"
+      },
+      {
+        "n": "2",
+        "descr": "prize, title",
+        "descr_trans": "奖品、称号"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of the competition",
+        "descr_trans": "竞赛主题"
+      }
+    ],
+    "roleset_name_trans": "竞赛"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "match_up.02",
+    "roleset_name": "match up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity performing the match",
+        "descr_trans": "执行匹配的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first matching object",
+        "descr_trans": "第一个匹配对象"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, matches what",
+        "descr_trans": "第二件事，匹配什么"
+      }
+    ],
+    "roleset_name_trans": "配对"
+  }
 ]

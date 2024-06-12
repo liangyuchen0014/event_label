@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defibrillate.01",
-        "roleset_name": "to restore normal contractions in the heart, stopping fibrillation of the heart; restoring normal contractions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of defibrillation"
-            },
-            {
-                "n": "1",
-                "descr": "entity defibrillated, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of defibrillation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defibrillate.01",
+    "roleset_name": "to restore normal contractions in the heart, stopping fibrillation of the heart; restoring normal contractions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of defibrillation",
+        "descr_trans": "代理，除颤原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity defibrillated, patient",
+        "descr_trans": "实体除颤，患者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of defibrillation",
+        "descr_trans": "除颤仪"
+      }
+    ],
+    "roleset_name_trans": "恢复心脏的正常收缩，停止心脏颤动；恢复正常收缩"
+  }
 ]

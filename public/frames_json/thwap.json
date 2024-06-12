@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thwap.01",
-        "roleset_name": "hit with a thwapping sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing thwapped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing thwapping arg 1; answers the question thwapped with what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thwap.01",
+    "roleset_name": "hit with a thwapping sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing thwapped",
+        "descr_trans": "事情发生了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing thwapping arg 1; answers the question thwapped with what?",
+        "descr_trans": "仪器，Thwapping arg 1 的东西；回答了用什么来敲打的问题？"
+      }
+    ],
+    "roleset_name_trans": "敲击声"
+  }
 ]

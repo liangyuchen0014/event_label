@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curtain.01",
-        "roleset_name": "hide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hider"
-            },
-            {
-                "n": "1",
-                "descr": "thing hidden"
-            },
-            {
-                "n": "2",
-                "descr": "hidden from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curtain.01",
+    "roleset_name": "hide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hider",
+        "descr_trans": "隐藏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing hidden",
+        "descr_trans": "隐藏的东西"
+      },
+      {
+        "n": "2",
+        "descr": "hidden from",
+        "descr_trans": "隐藏于"
+      }
+    ],
+    "roleset_name_trans": "隐藏"
+  }
 ]

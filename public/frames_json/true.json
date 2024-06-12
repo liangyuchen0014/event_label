@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "true.01",
-        "roleset_name": "truthful, factual, accurate, actual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "truthful thing"
-            },
-            {
-                "n": "2",
-                "descr": "attributive; pertaining to what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "true.02",
-        "roleset_name": "consistent, on target, adhering to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "consistent, on target thing"
-            },
-            {
-                "n": "2",
-                "descr": "consistent with what, target"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "true.03",
-        "roleset_name": "loyal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "loyal one"
-            },
-            {
-                "n": "2",
-                "descr": "target of loyalty"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "true.01",
+    "roleset_name": "truthful, factual, accurate, actual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "truthful thing",
+        "descr_trans": "真实的事情"
+      },
+      {
+        "n": "2",
+        "descr": "attributive; pertaining to what",
+        "descr_trans": "定语；与什么有关"
+      }
+    ],
+    "roleset_name_trans": "真实的、事实的、准确的、实际的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "true.02",
+    "roleset_name": "consistent, on target, adhering to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "consistent, on target thing",
+        "descr_trans": "一致的、目标明确的事情"
+      },
+      {
+        "n": "2",
+        "descr": "consistent with what, target",
+        "descr_trans": "与什么、目标一致"
+      }
+    ],
+    "roleset_name_trans": "一致、目标明确、坚持"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "true.03",
+    "roleset_name": "loyal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "loyal one",
+        "descr_trans": "忠诚的人"
+      },
+      {
+        "n": "2",
+        "descr": "target of loyalty",
+        "descr_trans": "忠诚目标"
+      }
+    ],
+    "roleset_name_trans": "忠诚"
+  }
 ]

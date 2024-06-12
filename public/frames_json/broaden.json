@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "broaden.01",
-        "roleset_name": "(cause to) become   broader, wider",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causing broadening"
-            },
-            {
-                "n": "1",
-                "descr": "thing broadening"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount broadened by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "broad.02",
-        "roleset_name": "spanning a wide range",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "broad thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is broad (if in addition)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "broaden.01",
+    "roleset_name": "(cause to) become   broader, wider",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causing broadening",
+        "descr_trans": "剂，引起展宽"
+      },
+      {
+        "n": "1",
+        "descr": "thing broadening",
+        "descr_trans": "事物扩大"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount broadened by",
+        "descr_trans": "EXT，金额扩大"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更广泛、更广泛"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "broad.02",
+    "roleset_name": "spanning a wide range",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "broad thing",
+        "descr_trans": "广泛的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is broad (if in addition)",
+        "descr_trans": "arg1 广泛的特定方面（如果另外）"
+      }
+    ],
+    "roleset_name_trans": "范围广泛"
+  }
 ]

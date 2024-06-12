@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perpetrate.01",
-        "roleset_name": "do, act, commit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perp"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            },
-            {
-                "n": "2",
-                "descr": "victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perpetrate.01",
+    "roleset_name": "do, act, commit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perp",
+        "descr_trans": "罪犯"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "2",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "做、行动、承诺"
+  }
 ]

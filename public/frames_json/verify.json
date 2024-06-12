@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "verify.01",
-        "roleset_name": "determine truth of a proposition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "verifier"
-            },
-            {
-                "n": "1",
-                "descr": "verified"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "verify.01",
+    "roleset_name": "determine truth of a proposition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "verifier",
+        "descr_trans": "验证者"
+      },
+      {
+        "n": "1",
+        "descr": "verified",
+        "descr_trans": "已验证"
+      }
+    ],
+    "roleset_name_trans": "确定命题的真实性"
+  }
 ]

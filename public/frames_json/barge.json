@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "barge.01",
-        "roleset_name": "go rudely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "barge.01",
+    "roleset_name": "go rudely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "粗鲁地走"
+  }
 ]

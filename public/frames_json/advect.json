@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "advect.01",
-        "roleset_name": "horizontal transfer of mass (usually fluid or atmospheric)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of movement"
-            },
-            {
-                "n": "1",
-                "descr": "air, water, entity moved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "advect.01",
+    "roleset_name": "horizontal transfer of mass (usually fluid or atmospheric)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of movement",
+        "descr_trans": "运动原因"
+      },
+      {
+        "n": "1",
+        "descr": "air, water, entity moved",
+        "descr_trans": "空气、水、实体移动"
+      }
+    ],
+    "roleset_name_trans": "质量的水平传递（通常是流体或大气）"
+  }
 ]

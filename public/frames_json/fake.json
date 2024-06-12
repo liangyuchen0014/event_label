@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fake.01",
-        "roleset_name": "to counterfeit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "faker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity faked"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fake.02",
-        "roleset_name": "counterfeit",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "counterfeit thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fake.01",
+    "roleset_name": "to counterfeit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "faker, agent",
+        "descr_trans": "骗子、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity faked",
+        "descr_trans": "实体伪造"
+      }
+    ],
+    "roleset_name_trans": "伪造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fake.02",
+    "roleset_name": "counterfeit",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "counterfeit thing",
+        "descr_trans": "假货"
+      }
+    ],
+    "roleset_name_trans": "伪造"
+  }
 ]

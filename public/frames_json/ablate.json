@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ablate.01",
-        "roleset_name": "surgical removal of a body part; controlled surgical removal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "Material/Part of body ablated"
-            },
-            {
-                "n": "2",
-                "descr": "Object/Patient undergoing ablation, removed from"
-            },
-            {
-                "n": "3",
-                "descr": "Instrument, incl. chemical substance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ablate.02",
-        "roleset_name": "erode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of erosion"
-            },
-            {
-                "n": "1",
-                "descr": "entity removed, eroded away"
-            },
-            {
-                "n": "2",
-                "descr": "eroded from, source a piece is removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ablate.01",
+    "roleset_name": "surgical removal of a body part; controlled surgical removal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "Material/Part of body ablated",
+        "descr_trans": "材料/身体部分被烧蚀"
+      },
+      {
+        "n": "2",
+        "descr": "Object/Patient undergoing ablation, removed from",
+        "descr_trans": "正在接受消融的物体/患者，从"
+      },
+      {
+        "n": "3",
+        "descr": "Instrument, incl. chemical substance",
+        "descr_trans": "仪器，包括。化学物质"
+      }
+    ],
+    "roleset_name_trans": "手术切除身体部位；控制性手术切除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ablate.02",
+    "roleset_name": "erode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of erosion",
+        "descr_trans": "侵蚀原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity removed, eroded away",
+        "descr_trans": "实体被移除、侵蚀掉"
+      },
+      {
+        "n": "2",
+        "descr": "eroded from, source a piece is removed from",
+        "descr_trans": "侵蚀自，来源，一块被移除"
+      }
+    ],
+    "roleset_name_trans": "侵蚀"
+  }
 ]

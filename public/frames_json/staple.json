@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "staple.01",
-        "roleset_name": "attach with staples",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of attachment, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity stapled"
-            },
-            {
-                "n": "2",
-                "descr": "entity stapled to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "staple.01",
+    "roleset_name": "attach with staples",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of attachment, agent",
+        "descr_trans": "依恋原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity stapled",
+        "descr_trans": "实体装订"
+      },
+      {
+        "n": "2",
+        "descr": "entity stapled to",
+        "descr_trans": "实体装订到"
+      }
+    ],
+    "roleset_name_trans": "用订书钉固定"
+  }
 ]

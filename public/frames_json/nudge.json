@@ -1,56 +1,68 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nudge.01",
-        "roleset_name": "move slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount moved"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            },
-            {
-                "n": "5",
-                "descr": "direction--REQUIRED"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nudge.02",
-        "roleset_name": "touch lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing touched"
-            },
-            {
-                "n": "2",
-                "descr": "touched with, if separate from agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nudge.01",
+    "roleset_name": "move slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, causer",
+        "descr_trans": "代理、原因"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing moving",
+        "descr_trans": "逻辑主题、耐心、事物移动"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount moved",
+        "descr_trans": "EXT，移动量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      },
+      {
+        "n": "5",
+        "descr": "direction--REQUIRED",
+        "descr_trans": "方向--必填"
+      }
+    ],
+    "roleset_name_trans": "稍微动一下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nudge.02",
+    "roleset_name": "touch lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing touched",
+        "descr_trans": "触及的东西"
+      },
+      {
+        "n": "2",
+        "descr": "touched with, if separate from agent",
+        "descr_trans": "如果与代理人分开，则接触过"
+      }
+    ],
+    "roleset_name_trans": "轻轻触摸"
+  }
 ]

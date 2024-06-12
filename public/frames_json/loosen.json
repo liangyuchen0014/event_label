@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "loosen.01",
-        "roleset_name": "(cause to) become loose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of loosening"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming loose"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "loosen_up.02",
-        "roleset_name": "make loose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of loosening"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming loose"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "loose.03",
-        "roleset_name": "free, on the lamb",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "free entity"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "loose.04",
-        "roleset_name": "not tight fitting or compacted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of looseness"
-            },
-            {
-                "n": "1",
-                "descr": "non-compact substance (may be abstract)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of loosening, if in addition to arg0"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "loose.05",
-        "roleset_name": "free; release from captivity, particularly with intent to harm another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser"
-            },
-            {
-                "n": "1",
-                "descr": "thing released"
-            },
-            {
-                "n": "2",
-                "descr": "released upon; maleficiary"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "cut_loose.06",
-        "roleset_name": "cut loose: set or become free",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of freedom"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing freedom"
-            },
-            {
-                "n": "2",
-                "descr": "source, cause of unfreedom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "loosen.01",
+    "roleset_name": "(cause to) become loose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of loosening",
+        "descr_trans": "松动原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming loose",
+        "descr_trans": "东西变得松动"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得松散"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "loosen_up.02",
+    "roleset_name": "make loose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of loosening",
+        "descr_trans": "松动原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming loose",
+        "descr_trans": "东西变得松动"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "松开"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "loose.03",
+    "roleset_name": "free, on the lamb",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "free entity",
+        "descr_trans": "自由实体"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "免费，在羔羊身上"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "loose.04",
+    "roleset_name": "not tight fitting or compacted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of looseness",
+        "descr_trans": "松动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "non-compact substance (may be abstract)",
+        "descr_trans": "非致密物质（可能是抽象的）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of loosening, if in addition to arg0",
+        "descr_trans": "松动工具，如果除了 arg0 之外"
+      }
+    ],
+    "roleset_name_trans": "不紧密配合或压实"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "loose.05",
+    "roleset_name": "free; release from captivity, particularly with intent to harm another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "1",
+        "descr": "thing released",
+        "descr_trans": "发布的东西"
+      },
+      {
+        "n": "2",
+        "descr": "released upon; maleficiary",
+        "descr_trans": "释放于；恶人的"
+      }
+    ],
+    "roleset_name_trans": "自由的;从囚禁中释放，特别是意图伤害他人"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "cut_loose.06",
+    "roleset_name": "cut loose: set or become free",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of freedom",
+        "descr_trans": "自由的缔造者"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing freedom",
+        "descr_trans": "经历自由的实体"
+      },
+      {
+        "n": "2",
+        "descr": "source, cause of unfreedom",
+        "descr_trans": "不自由的根源、原因"
+      }
+    ],
+    "roleset_name_trans": "摆脱束缚：释放或变得自由"
+  }
 ]

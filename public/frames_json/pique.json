@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pique.01",
-        "roleset_name": "spark interest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing piqued (usually interest)"
-            },
-            {
-                "n": "2",
-                "descr": "causative instrument (if agent already present)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pique.01",
+    "roleset_name": "spark interest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "thing piqued (usually interest)",
+        "descr_trans": "激怒的事物（通常是兴趣）"
+      },
+      {
+        "n": "2",
+        "descr": "causative instrument (if agent already present)",
+        "descr_trans": "致因工具（如果代理人已经在场）"
+      }
+    ],
+    "roleset_name_trans": "激发兴趣"
+  }
 ]

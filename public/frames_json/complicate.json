@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "complicate.01",
-        "roleset_name": "cause to be more difficult, involved",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing something to become complicated"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming complicated"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "complication itself, if in addition to ARG0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "complicate.01",
+    "roleset_name": "cause to be more difficult, involved",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing something to become complicated",
+        "descr_trans": "代理人，导致事情变得复杂的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming complicated",
+        "descr_trans": "事情变得复杂"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "complication itself, if in addition to ARG0",
+        "descr_trans": "并发症本身，如果除了 ARG0"
+      }
+    ],
+    "roleset_name_trans": "导致更加困难，涉及"
+  }
 ]

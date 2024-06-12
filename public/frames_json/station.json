@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "station.01",
-        "roleset_name": "put military people in a place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "high command, agent"
-            },
-            {
-                "n": "1",
-                "descr": "military people"
-            },
-            {
-                "n": "2",
-                "descr": "place"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "station.01",
+    "roleset_name": "put military people in a place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "high command, agent",
+        "descr_trans": "高级指挥部、特工"
+      },
+      {
+        "n": "1",
+        "descr": "military people",
+        "descr_trans": "军人"
+      },
+      {
+        "n": "2",
+        "descr": "place",
+        "descr_trans": "地方"
+      }
+    ],
+    "roleset_name_trans": "把军人安置在一个地方"
+  }
 ]

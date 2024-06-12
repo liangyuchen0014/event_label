@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "miscount.01",
-        "roleset_name": "count inaccurately",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "faulty counter"
-            },
-            {
-                "n": "1",
-                "descr": "items counted"
-            },
-            {
-                "n": "2",
-                "descr": "incorrect count"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "miscount.01",
+    "roleset_name": "count inaccurately",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "faulty counter",
+        "descr_trans": "计数器故障"
+      },
+      {
+        "n": "1",
+        "descr": "items counted",
+        "descr_trans": "计数的项目"
+      },
+      {
+        "n": "2",
+        "descr": "incorrect count",
+        "descr_trans": "计数错误"
+      }
+    ],
+    "roleset_name_trans": "计数不准确"
+  }
 ]

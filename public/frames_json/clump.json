@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clump.02",
-        "roleset_name": "gather into a cluster",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming clumped"
-            },
-            {
-                "n": "2",
-                "descr": "end state (the clump)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clump.03",
-        "roleset_name": "walk clumsily and heavily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clomper"
-            },
-            {
-                "n": "1",
-                "descr": "clomped"
-            },
-            {
-                "n": "2",
-                "descr": "location, direction or path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clump.02",
+    "roleset_name": "gather into a cluster",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming clumped",
+        "descr_trans": "东西变得结块"
+      },
+      {
+        "n": "2",
+        "descr": "end state (the clump)",
+        "descr_trans": "最终状态（团块）"
+      }
+    ],
+    "roleset_name_trans": "聚集成一簇"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clump.03",
+    "roleset_name": "walk clumsily and heavily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clomper",
+        "descr_trans": "克伦珀"
+      },
+      {
+        "n": "1",
+        "descr": "clomped",
+        "descr_trans": "凝结的"
+      },
+      {
+        "n": "2",
+        "descr": "location, direction or path",
+        "descr_trans": "位置、方向或路径"
+      }
+    ],
+    "roleset_name_trans": "走路笨拙而沉重"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reocclude.01",
-        "roleset_name": "obstruct or block an opening again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker"
-            },
-            {
-                "n": "1",
-                "descr": "opening blocked"
-            },
-            {
-                "n": "2",
-                "descr": "blocked from what (2nd pred, action/flow blocked)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reocclude.01",
+    "roleset_name": "obstruct or block an opening again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker",
+        "descr_trans": "阻挡者"
+      },
+      {
+        "n": "1",
+        "descr": "opening blocked",
+        "descr_trans": "开口受阻"
+      },
+      {
+        "n": "2",
+        "descr": "blocked from what (2nd pred, action/flow blocked)",
+        "descr_trans": "被什么阻止了（第二个预测，动作/流程被阻止）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "再次阻塞或堵塞开口"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indemnify.01",
-        "roleset_name": "protect from damage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protector"
-            },
-            {
-                "n": "1",
-                "descr": "protected"
-            },
-            {
-                "n": "2",
-                "descr": "damage protected from/against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indemnify.01",
+    "roleset_name": "protect from damage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protector",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "protected",
+        "descr_trans": "受保护的"
+      },
+      {
+        "n": "2",
+        "descr": "damage protected from/against",
+        "descr_trans": "免受/抵抗的损害"
+      }
+    ],
+    "roleset_name_trans": "防止损坏"
+  }
 ]

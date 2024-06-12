@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fast.01",
-        "roleset_name": "to abstain from or eat very little food",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, faster"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fast.02",
-        "roleset_name": "speedy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "fast entity/action (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "speed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fast.01",
+    "roleset_name": "to abstain from or eat very little food",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, faster",
+        "descr_trans": "代理，更快"
+      }
+    ],
+    "roleset_name_trans": "戒断或吃很少的食物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fast.02",
+    "roleset_name": "speedy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "fast entity/action (may require concatenation)",
+        "descr_trans": "快速实体/动作（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "speed",
+        "descr_trans": "速度"
+      }
+    ],
+    "roleset_name_trans": "迅速"
+  }
 ]

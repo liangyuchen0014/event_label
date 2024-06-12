@@ -1,124 +1,150 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "up.01",
-        "roleset_name": "make higher",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "ante"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "up.02",
-        "roleset_name": "at an increase",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "increased entity"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of/domain in which arg1 is increased"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "up.03",
-        "roleset_name": "spatial: movement/location toward the top of some framework",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "up entity"
-            },
-            {
-                "n": "2",
-                "descr": "axis, what ARG1 is 'up'"
-            },
-            {
-                "n": "3",
-                "descr": "end point"
-            },
-            {
-                "n": "4",
-                "descr": "entity (or point) of comparison; start point"
-            },
-            {
-                "n": "5",
-                "descr": "anchor"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "up.04",
-        "roleset_name": "awake and perhaps out of bed/mobile",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "awake and mobile entity"
-            },
-            {
-                "n": "2",
-                "descr": "former state/location of repose"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "up.05",
-        "roleset_name": "informed with current knowledge",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "informed entity"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter informed about"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "up_creek-13",
-        "roleset_name": "up a creek without a paddle: be in a difficult situation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in trouble"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter of the difficulty"
-            },
-            {
-                "n": "3",
-                "descr": "mention/ description of paddle"
-            },
-            {
-                "n": "4",
-                "descr": "mention/ description of boat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "up.01",
+    "roleset_name": "make higher",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "ante",
+        "descr_trans": "赌注"
+      }
+    ],
+    "roleset_name_trans": "使更高"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "up.02",
+    "roleset_name": "at an increase",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "increased entity",
+        "descr_trans": "增加实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of/domain in which arg1 is increased",
+        "descr_trans": "arg1 增加的特定方面/域"
+      }
+    ],
+    "roleset_name_trans": "增加"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "up.03",
+    "roleset_name": "spatial: movement/location toward the top of some framework",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "up entity",
+        "descr_trans": "向上实体"
+      },
+      {
+        "n": "2",
+        "descr": "axis, what ARG1 is 'up'",
+        "descr_trans": "轴，ARG1 是“向上”"
+      },
+      {
+        "n": "3",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "4",
+        "descr": "entity (or point) of comparison; start point",
+        "descr_trans": "比较实体（或点）；起点"
+      },
+      {
+        "n": "5",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      }
+    ],
+    "roleset_name_trans": "空间：向某个框架顶部的移动/位置"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "up.04",
+    "roleset_name": "awake and perhaps out of bed/mobile",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "awake and mobile entity",
+        "descr_trans": "清醒且移动的实体"
+      },
+      {
+        "n": "2",
+        "descr": "former state/location of repose",
+        "descr_trans": "以前的休息状态/地点"
+      }
+    ],
+    "roleset_name_trans": "醒着，也许已经起床/移动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "up.05",
+    "roleset_name": "informed with current knowledge",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "informed entity",
+        "descr_trans": "知情实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter informed about",
+        "descr_trans": "获悉的主题事项"
+      }
+    ],
+    "roleset_name_trans": "了解当前知识"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "up_creek-13",
+    "roleset_name": "up a creek without a paddle: be in a difficult situation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in trouble",
+        "descr_trans": "陷入困境的实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter of the difficulty",
+        "descr_trans": "困难的主题"
+      },
+      {
+        "n": "3",
+        "descr": "mention/ description of paddle",
+        "descr_trans": "桨的提及/描述"
+      },
+      {
+        "n": "4",
+        "descr": "mention/ description of boat",
+        "descr_trans": "提及/描述船"
+      }
+    ],
+    "roleset_name_trans": "没有桨就上小溪：处境困难"
+  }
 ]

@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bleat.01",
-        "roleset_name": "the cry of a sheep or goat, or an imitation of   that sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bleat-er"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bleat.02",
-        "roleset_name": "move while making a bleating sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thing making bleating sound while in motion"
-            },
-            {
-                "n": "1",
-                "descr": "Path of motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bleat.03",
-        "roleset_name": "whine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sound emitter"
-            },
-            {
-                "n": "1",
-                "descr": "complaint; sound emitted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bleat.01",
+    "roleset_name": "the cry of a sheep or goat, or an imitation of   that sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bleat-er",
+        "descr_trans": "裸露的"
+      }
+    ],
+    "roleset_name_trans": "绵羊或山羊的叫声，或模仿该声音的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bleat.02",
+    "roleset_name": "move while making a bleating sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thing making bleating sound while in motion",
+        "descr_trans": "运动时发出咩咩叫声的东西"
+      },
+      {
+        "n": "1",
+        "descr": "Path of motion",
+        "descr_trans": "运动路径"
+      }
+    ],
+    "roleset_name_trans": "移动时发出咩咩的声音"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bleat.03",
+    "roleset_name": "whine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sound emitter",
+        "descr_trans": "发声器"
+      },
+      {
+        "n": "1",
+        "descr": "complaint; sound emitted",
+        "descr_trans": "抱怨;发出声音"
+      }
+    ],
+    "roleset_name_trans": "抱怨"
+  }
 ]

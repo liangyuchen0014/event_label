@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "single_out.01",
-        "roleset_name": "pick just one",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "the one"
-            },
-            {
-                "n": "2",
-                "descr": "group"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "single.02",
-        "roleset_name": "individual instance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "what there is 1 instance of"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that is singular"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "single.03",
-        "roleset_name": "unmarried, romantically unattached",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unmarried/unattached entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "single_out.01",
+    "roleset_name": "pick just one",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "the one",
+        "descr_trans": "唯一的那个"
+      },
+      {
+        "n": "2",
+        "descr": "group",
+        "descr_trans": "团体"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "只选一个"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "single.02",
+    "roleset_name": "individual instance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "what there is 1 instance of",
+        "descr_trans": "有 1 个实例"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that is singular",
+        "descr_trans": "arg1 的单数方面"
+      }
+    ],
+    "roleset_name_trans": "个别实例"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "single.03",
+    "roleset_name": "unmarried, romantically unattached",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unmarried/unattached entity",
+        "descr_trans": "未婚/未附属实体"
+      }
+    ],
+    "roleset_name_trans": "未婚的，未婚的"
+  }
 ]

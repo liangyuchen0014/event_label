@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plunk.01",
-        "roleset_name": "put, coarsely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "where put"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plunk.01",
+    "roleset_name": "put, coarsely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, putter",
+        "descr_trans": "代理、推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "where put",
+        "descr_trans": "放在哪里"
+      }
+    ],
+    "roleset_name_trans": "粗略地说"
+  }
 ]

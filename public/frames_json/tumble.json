@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tumble.01",
-        "roleset_name": "fall",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of falling"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tumble.01",
+    "roleset_name": "fall",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of falling",
+        "descr_trans": "跌倒的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state",
+        "descr_trans": "终点，结束状态"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "落下"
+  }
 ]

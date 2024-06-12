@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "substantiate.01",
-        "roleset_name": "prove, justify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prover"
-            },
-            {
-                "n": "1",
-                "descr": "justified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "substantial.02",
-        "roleset_name": "significant, ample, solid",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing having great substance"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is substantial, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "substantiate.01",
+    "roleset_name": "prove, justify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prover",
+        "descr_trans": "样品"
+      },
+      {
+        "n": "1",
+        "descr": "justified",
+        "descr_trans": "有道理的"
+      }
+    ],
+    "roleset_name_trans": "证明，证明合理"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "substantial.02",
+    "roleset_name": "significant, ample, solid",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing having great substance",
+        "descr_trans": "具有伟大实质的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is substantial, if in addition to arg1",
+        "descr_trans": "arg1 的重要特定方面（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "重要的、充足的、坚实的"
+  }
 ]

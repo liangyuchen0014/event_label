@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squaredance.01",
-        "roleset_name": "squaredance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of squaredancing (transitive subject only)"
-            },
-            {
-                "n": "1",
-                "descr": "theme, squaredancer(s) (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "path or location of squaredancing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squaredance.01",
+    "roleset_name": "squaredance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of squaredancing (transitive subject only)",
+        "descr_trans": "广场舞的代理人、引发者（仅及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "theme, squaredancer(s) (intransitive subject, transitive object)",
+        "descr_trans": "主题、广场舞者（不及物主语、及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "path or location of squaredancing",
+        "descr_trans": "广场舞的路径或地点"
+      }
+    ],
+    "roleset_name_trans": "广场舞"
+  }
 ]

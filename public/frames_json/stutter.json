@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stutter.01",
-        "roleset_name": "stutter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, stutterer"
-            },
-            {
-                "n": "1",
-                "descr": "stuttered about, utterance, topic"
-            },
-            {
-                "n": "2",
-                "descr": "stuttered to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stutter.01",
+    "roleset_name": "stutter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, stutterer",
+        "descr_trans": "代理人、口吃者"
+      },
+      {
+        "n": "1",
+        "descr": "stuttered about, utterance, topic",
+        "descr_trans": "口吃, 话语, 话题"
+      },
+      {
+        "n": "2",
+        "descr": "stuttered to, recipient",
+        "descr_trans": "结结巴巴地向收件人"
+      }
+    ],
+    "roleset_name_trans": "口吃"
+  }
 ]

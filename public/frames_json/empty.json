@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "empty.01",
-        "roleset_name": "(cause to) become empty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "empty.02",
-        "roleset_name": "containing nothing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "empty.01",
+    "roleset_name": "(cause to) become empty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "（使）变得空虚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "empty.02",
+    "roleset_name": "containing nothing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "不包含任何内容"
+  }
 ]

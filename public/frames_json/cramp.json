@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cramp.01",
-        "roleset_name": "obstruct, hinder with painful constriction, painfully constricting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of cramping"
-            },
-            {
-                "n": "1",
-                "descr": "entity being cramped, experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "cramped with what, instrument if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cramp.01",
+    "roleset_name": "obstruct, hinder with painful constriction, painfully constricting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of cramping",
+        "descr_trans": "抽筋的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity being cramped, experiencer",
+        "descr_trans": "实体被局促，体验者"
+      },
+      {
+        "n": "2",
+        "descr": "cramped with what, instrument if separate from arg 0",
+        "descr_trans": "如果与 arg 0 分开，则被什么、仪器挤住"
+      }
+    ],
+    "roleset_name_trans": "阻碍，以痛苦的收缩阻碍，痛苦地收缩"
+  }
 ]

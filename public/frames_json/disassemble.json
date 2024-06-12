@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disassemble.01",
-        "roleset_name": "to take apart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, disassembler"
-            },
-            {
-                "n": "1",
-                "descr": "thing disassembled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disassemble.01",
+    "roleset_name": "to take apart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, disassembler",
+        "descr_trans": "代理、拆机员"
+      },
+      {
+        "n": "1",
+        "descr": "thing disassembled",
+        "descr_trans": "拆开的东西"
+      }
+    ],
+    "roleset_name_trans": "拆开"
+  }
 ]

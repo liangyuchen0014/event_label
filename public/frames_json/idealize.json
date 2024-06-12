@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "idealize.01",
-        "roleset_name": "to regard as ideal.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity idealizing something"
-            },
-            {
-                "n": "1",
-                "descr": "entity idealized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ideal.02",
-        "roleset_name": "(hold as) a paragon, perfect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity holding arg1 as perfect"
-            },
-            {
-                "n": "1",
-                "descr": "perfect thing"
-            },
-            {
-                "n": "2",
-                "descr": "perfect for what; suited for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "idealize.01",
+    "roleset_name": "to regard as ideal.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity idealizing something",
+        "descr_trans": "实体将某事物理想化"
+      },
+      {
+        "n": "1",
+        "descr": "entity idealized",
+        "descr_trans": "实体理想化"
+      }
+    ],
+    "roleset_name_trans": "视为理想。"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ideal.02",
+    "roleset_name": "(hold as) a paragon, perfect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity holding arg1 as perfect",
+        "descr_trans": "实体将 arg1 视为完美"
+      },
+      {
+        "n": "1",
+        "descr": "perfect thing",
+        "descr_trans": "完美的东西"
+      },
+      {
+        "n": "2",
+        "descr": "perfect for what; suited for",
+        "descr_trans": "完美的什么；适合于"
+      }
+    ],
+    "roleset_name_trans": "（保持）典范，完美"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enable.01",
-        "roleset_name": "allow, let",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "action allowed"
-            },
-            {
-                "n": "2",
-                "descr": "allowed agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enable.01",
+    "roleset_name": "allow, let",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "action allowed",
+        "descr_trans": "允许采取行动"
+      },
+      {
+        "n": "2",
+        "descr": "allowed agent",
+        "descr_trans": "允许代理"
+      }
+    ],
+    "roleset_name_trans": "允许，让"
+  }
 ]

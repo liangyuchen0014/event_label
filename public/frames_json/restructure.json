@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restructure.01",
-        "roleset_name": "reorganize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "organizer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing reorganized"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restructure.01",
+    "roleset_name": "reorganize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "organizer, agent",
+        "descr_trans": "组织者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing reorganized",
+        "descr_trans": "事物重组"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "改组"
+  }
 ]

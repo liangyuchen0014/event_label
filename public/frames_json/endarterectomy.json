@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "endarterectomy.01",
-        "roleset_name": "removal of build-up/plaque from an artery",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from (location, source)"
-            },
-            {
-                "n": "3",
-                "descr": "more specific source, if in addition to ARG2"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "endarterectomy.01",
+    "roleset_name": "removal of build-up/plaque from an artery",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from (location, source)",
+        "descr_trans": "从（位置、来源）删除"
+      },
+      {
+        "n": "3",
+        "descr": "more specific source, if in addition to ARG2",
+        "descr_trans": "更具体的来源，如果除了 ARG2"
+      }
+    ],
+    "roleset_name_trans": "清除动脉上的堆积物/斑块"
+  }
 ]

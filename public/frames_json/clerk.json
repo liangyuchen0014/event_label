@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clerk.01",
-        "roleset_name": "act as a clerk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clerk"
-            },
-            {
-                "n": "1",
-                "descr": "person, organization, event arg0 is acting as clerk for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clerk.01",
+    "roleset_name": "act as a clerk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clerk",
+        "descr_trans": "职员"
+      },
+      {
+        "n": "1",
+        "descr": "person, organization, event arg0 is acting as clerk for",
+        "descr_trans": "人员、组织、事件 arg0 担任以下人员的职员"
+      }
+    ],
+    "roleset_name_trans": "担任办事员"
+  }
 ]

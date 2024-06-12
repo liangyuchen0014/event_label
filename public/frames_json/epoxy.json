@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "epoxy.01",
-        "roleset_name": "glue with epoxy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, linker"
-            },
-            {
-                "n": "1",
-                "descr": "thing linked"
-            },
-            {
-                "n": "2",
-                "descr": "thing linked to"
-            },
-            {
-                "n": "3",
-                "descr": "explicit mention of epoxy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "epoxy.01",
+    "roleset_name": "glue with epoxy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, linker",
+        "descr_trans": "代理、连接器"
+      },
+      {
+        "n": "1",
+        "descr": "thing linked",
+        "descr_trans": "链接的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing linked to",
+        "descr_trans": "链接到的东西"
+      },
+      {
+        "n": "3",
+        "descr": "explicit mention of epoxy",
+        "descr_trans": "明确提及环氧树脂"
+      }
+    ],
+    "roleset_name_trans": "用环氧树脂胶"
+  }
 ]

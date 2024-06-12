@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commute.01",
-        "roleset_name": "go back and forth to/from work",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "commuter"
-            },
-            {
-                "n": "1",
-                "descr": "one (or both) location(s), start point"
-            },
-            {
-                "n": "2",
-                "descr": "other location, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "commute.02",
-        "roleset_name": "make a law sentence more lenient",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge"
-            },
-            {
-                "n": "1",
-                "descr": "old sentence"
-            },
-            {
-                "n": "2",
-                "descr": "new sentence"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commute.01",
+    "roleset_name": "go back and forth to/from work",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "commuter",
+        "descr_trans": "通勤者"
+      },
+      {
+        "n": "1",
+        "descr": "one (or both) location(s), start point",
+        "descr_trans": "一个（或两个）位置、起点"
+      },
+      {
+        "n": "2",
+        "descr": "other location, destination",
+        "descr_trans": "其他地点、目的地"
+      }
+    ],
+    "roleset_name_trans": "往返工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "commute.02",
+    "roleset_name": "make a law sentence more lenient",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge",
+        "descr_trans": "法官"
+      },
+      {
+        "n": "1",
+        "descr": "old sentence",
+        "descr_trans": "旧句子"
+      },
+      {
+        "n": "2",
+        "descr": "new sentence",
+        "descr_trans": "新句子"
+      }
+    ],
+    "roleset_name_trans": "依法从轻处罚"
+  }
 ]

@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dress.01",
-        "roleset_name": "to put on clothes, decorate, covering, wearing clothes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person putting on clothes"
-            },
-            {
-                "n": "1",
-                "descr": "person wearing clothes"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dress_up.02",
-        "roleset_name": "to put on or wear formal or fancy clothes, to decorate, wearing formal clothes/adornments",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity putting on clothes"
-            },
-            {
-                "n": "1",
-                "descr": "entity dressed up, decorated, wearing clothes"
-            },
-            {
-                "n": "2",
-                "descr": "clothing itself or attribute; dressed up as what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dress_down.03",
-        "roleset_name": "to censure severely or angrily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "angry entity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity dressed down"
-            },
-            {
-                "n": "2",
-                "descr": "dress down for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dress.01",
+    "roleset_name": "to put on clothes, decorate, covering, wearing clothes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person putting on clothes",
+        "descr_trans": "穿衣服的人"
+      },
+      {
+        "n": "1",
+        "descr": "person wearing clothes",
+        "descr_trans": "穿着衣服的人"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "穿衣服、装饰、覆盖、穿衣服"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dress_up.02",
+    "roleset_name": "to put on or wear formal or fancy clothes, to decorate, wearing formal clothes/adornments",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity putting on clothes",
+        "descr_trans": "实体穿上衣服"
+      },
+      {
+        "n": "1",
+        "descr": "entity dressed up, decorated, wearing clothes",
+        "descr_trans": "实体打扮、装饰、穿着衣服"
+      },
+      {
+        "n": "2",
+        "descr": "clothing itself or attribute; dressed up as what?",
+        "descr_trans": "服装本身或属性；打扮成什么？"
+      }
+    ],
+    "roleset_name_trans": "穿上或穿着正式或华丽的衣服，装饰，穿着正式的衣服/装饰品"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dress_down.03",
+    "roleset_name": "to censure severely or angrily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "angry entity, agent",
+        "descr_trans": "愤怒的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dressed down",
+        "descr_trans": "实体穿着朴素"
+      },
+      {
+        "n": "2",
+        "descr": "dress down for",
+        "descr_trans": "穿便装去"
+      }
+    ],
+    "roleset_name_trans": "严厉地或愤怒地谴责"
+  }
 ]

@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "differ.01",
-        "roleset_name": "disagree, argue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first arguer"
-            },
-            {
-                "n": "1",
-                "descr": "second arguer"
-            },
-            {
-                "n": "2",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "differ.02",
-        "roleset_name": "be different, distinct, separate, unalike",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first thing that is different"
-            },
-            {
-                "n": "2",
-                "descr": "from what"
-            },
-            {
-                "n": "3",
-                "descr": "domain in which args 1 and 2 are different"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "make_difference.03",
-        "roleset_name": "cause a meaningful change, improve; improve the world",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing affecting"
-            },
-            {
-                "n": "1",
-                "descr": "thing affected"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, effect had"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "differ.01",
+    "roleset_name": "disagree, argue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first arguer",
+        "descr_trans": "首先争论"
+      },
+      {
+        "n": "1",
+        "descr": "second arguer",
+        "descr_trans": "第二次争论"
+      },
+      {
+        "n": "2",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "不同意，争论"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "differ.02",
+    "roleset_name": "be different, distinct, separate, unalike",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first thing that is different",
+        "descr_trans": "首先是不同的"
+      },
+      {
+        "n": "2",
+        "descr": "from what",
+        "descr_trans": "从何而来"
+      },
+      {
+        "n": "3",
+        "descr": "domain in which args 1 and 2 are different",
+        "descr_trans": "args 1 和 2 不同的域"
+      }
+    ],
+    "roleset_name_trans": "不同的、不同的、分开的、不同的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "make_difference.03",
+    "roleset_name": "cause a meaningful change, improve; improve the world",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing affecting",
+        "descr_trans": "影响的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing affected",
+        "descr_trans": "受影响的事物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, effect had",
+        "descr_trans": "乐器，效果有"
+      }
+    ],
+    "roleset_name_trans": "引起有意义的改变、改进；改善世界"
+  }
 ]

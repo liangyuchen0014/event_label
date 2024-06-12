@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thaw.01",
-        "roleset_name": "defrost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of defrosting"
-            },
-            {
-                "n": "1",
-                "descr": "item losing its frost"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thaw_out.02",
-        "roleset_name": "thaw_out: fully defrost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of defrosting"
-            },
-            {
-                "n": "1",
-                "descr": "item losing its frost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thaw.01",
+    "roleset_name": "defrost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of defrosting",
+        "descr_trans": "除霜原因"
+      },
+      {
+        "n": "1",
+        "descr": "item losing its frost",
+        "descr_trans": "失去霜冻的物品"
+      }
+    ],
+    "roleset_name_trans": "除霜"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thaw_out.02",
+    "roleset_name": "thaw_out: fully defrost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of defrosting",
+        "descr_trans": "除霜原因"
+      },
+      {
+        "n": "1",
+        "descr": "item losing its frost",
+        "descr_trans": "失去霜冻的物品"
+      }
+    ],
+    "roleset_name_trans": "thaw_out：完全解冻"
+  }
 ]

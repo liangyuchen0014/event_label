@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "respond.01",
-        "roleset_name": "give an answer, reply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "replier"
-            },
-            {
-                "n": "1",
-                "descr": "in response to"
-            },
-            {
-                "n": "2",
-                "descr": "answer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "responsive.02",
-        "roleset_name": "readily giving an answer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "readily responding thing"
-            },
-            {
-                "n": "1",
-                "descr": "responsive to what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "respond.01",
+    "roleset_name": "give an answer, reply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "replier",
+        "descr_trans": "折叠"
+      },
+      {
+        "n": "1",
+        "descr": "in response to",
+        "descr_trans": "回应"
+      },
+      {
+        "n": "2",
+        "descr": "answer",
+        "descr_trans": "回答"
+      }
+    ],
+    "roleset_name_trans": "给出答案，回复"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "responsive.02",
+    "roleset_name": "readily giving an answer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "readily responding thing",
+        "descr_trans": "容易反应的事物"
+      },
+      {
+        "n": "1",
+        "descr": "responsive to what?",
+        "descr_trans": "响应什么？"
+      }
+    ],
+    "roleset_name_trans": "欣然给出答案"
+  }
 ]

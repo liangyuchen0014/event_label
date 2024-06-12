@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "determine.01",
-        "roleset_name": "set, establish, decide, already established",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider"
-            },
-            {
-                "n": "1",
-                "descr": "thing determined"
-            },
-            {
-                "n": "2",
-                "descr": "grounds"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "determined.02",
-        "roleset_name": "characterized by determination",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "determined entity"
-            },
-            {
-                "n": "1",
-                "descr": "determined to do what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "determine.01",
+    "roleset_name": "set, establish, decide, already established",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider",
+        "descr_trans": "决定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing determined",
+        "descr_trans": "事情确定了"
+      },
+      {
+        "n": "2",
+        "descr": "grounds",
+        "descr_trans": "理由"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "设置，建立，决定，已经建立"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "determined.02",
+    "roleset_name": "characterized by determination",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "determined entity",
+        "descr_trans": "确定实体"
+      },
+      {
+        "n": "1",
+        "descr": "determined to do what?",
+        "descr_trans": "决心做什么？"
+      }
+    ],
+    "roleset_name_trans": "以决心为特征"
+  }
 ]

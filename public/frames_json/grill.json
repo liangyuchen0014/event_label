@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grill.01",
-        "roleset_name": "cook by grilling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook, agent"
-            },
-            {
-                "n": "1",
-                "descr": "food, material"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "grill.02",
-        "roleset_name": "interrogate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "questioner"
-            },
-            {
-                "n": "1",
-                "descr": "entity questioned"
-            },
-            {
-                "n": "2",
-                "descr": "about what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grill.01",
+    "roleset_name": "cook by grilling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook, agent",
+        "descr_trans": "厨师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "food, material",
+        "descr_trans": "食物、材料"
+      }
+    ],
+    "roleset_name_trans": "烧烤烹调"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "grill.02",
+    "roleset_name": "interrogate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "questioner",
+        "descr_trans": "提问者"
+      },
+      {
+        "n": "1",
+        "descr": "entity questioned",
+        "descr_trans": "受到质疑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "审问"
+  }
 ]

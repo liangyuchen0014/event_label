@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shampoo.01",
-        "roleset_name": "shampoo",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, shampooer"
-            },
-            {
-                "n": "1",
-                "descr": "thing shampooed, patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shampoo.01",
+    "roleset_name": "shampoo",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, shampooer",
+        "descr_trans": "剂、洗发水"
+      },
+      {
+        "n": "1",
+        "descr": "thing shampooed, patient",
+        "descr_trans": "洗过的东西，耐心"
+      }
+    ],
+    "roleset_name_trans": "洗发水"
+  }
 ]

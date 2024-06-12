@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disable.01",
-        "roleset_name": "make not work",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disabler"
-            },
-            {
-                "n": "1",
-                "descr": "thing not working"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disable.01",
+    "roleset_name": "make not work",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disabler",
+        "descr_trans": "禁用"
+      },
+      {
+        "n": "1",
+        "descr": "thing not working",
+        "descr_trans": "东西不工作"
+      }
+    ],
+    "roleset_name_trans": "使不工作"
+  }
 ]

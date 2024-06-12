@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hijack.01",
-        "roleset_name": "take control of something (often   transportation) by force, to seize control of a moving   vehicle by force in order to reach an alternate destination",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hijacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "airplane, entity hijacked"
-            },
-            {
-                "n": "2",
-                "descr": "pilot, hijacked from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hijack.01",
+    "roleset_name": "take control of something (often   transportation) by force, to seize control of a moving   vehicle by force in order to reach an alternate destination",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hijacker, agent",
+        "descr_trans": "劫机者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "airplane, entity hijacked",
+        "descr_trans": "飞机，实体被劫持"
+      },
+      {
+        "n": "2",
+        "descr": "pilot, hijacked from",
+        "descr_trans": "飞行员被劫持"
+      }
+    ],
+    "roleset_name_trans": "以武力控制某物（通常是交通），以武力控制移动车辆以到达另一个目的地"
+  }
 ]

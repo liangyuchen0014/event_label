@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "detrimental.01",
-        "roleset_name": "affecting negatively, damaging",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "detrimental thing"
-            },
-            {
-                "n": "1",
-                "descr": "entity damaged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "detrimental.01",
+    "roleset_name": "affecting negatively, damaging",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "detrimental thing",
+        "descr_trans": "有害的事情"
+      },
+      {
+        "n": "1",
+        "descr": "entity damaged",
+        "descr_trans": "实体受损"
+      }
+    ],
+    "roleset_name_trans": "产生负面影响，造成损害"
+  }
 ]

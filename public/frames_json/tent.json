@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tent.01",
-        "roleset_name": "live in a tent, camp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "campers"
-            },
-            {
-                "n": "1",
-                "descr": "geographical location"
-            },
-            {
-                "n": "2",
-                "descr": "tent used"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tent.02",
-        "roleset_name": "form into the shape of a tent (possibly over something)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing formed into a tent"
-            },
-            {
-                "n": "2",
-                "descr": "thing covered with a tent"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tent.03",
-        "roleset_name": "insert a surgical tent into a wound or opening to keep it open (or more open)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "wound or opening"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "width of opening held"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tent.01",
+    "roleset_name": "live in a tent, camp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "campers",
+        "descr_trans": "露营者"
+      },
+      {
+        "n": "1",
+        "descr": "geographical location",
+        "descr_trans": "地理位置"
+      },
+      {
+        "n": "2",
+        "descr": "tent used",
+        "descr_trans": "使用的帐篷"
+      }
+    ],
+    "roleset_name_trans": "住在帐篷里，露营"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tent.02",
+    "roleset_name": "form into the shape of a tent (possibly over something)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing formed into a tent",
+        "descr_trans": "形成帐篷的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing covered with a tent",
+        "descr_trans": "被帐篷覆盖的东西"
+      }
+    ],
+    "roleset_name_trans": "形成帐篷的形状（可能在某物上）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tent.03",
+    "roleset_name": "insert a surgical tent into a wound or opening to keep it open (or more open)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "wound or opening",
+        "descr_trans": "伤口或开口"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "width of opening held",
+        "descr_trans": "保持开口宽度"
+      }
+    ],
+    "roleset_name_trans": "将手术帐篷插入伤口或开口以保持其开放（或更开放）"
+  }
 ]

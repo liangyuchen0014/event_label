@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "charter.01",
-        "roleset_name": "to hire or lease by charter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hirer, leaser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity chartered"
-            },
-            {
-                "n": "2",
-                "descr": "task"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "charter.01",
+    "roleset_name": "to hire or lease by charter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hirer, leaser, agent",
+        "descr_trans": "租用人、出租人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity chartered",
+        "descr_trans": "特许实体"
+      },
+      {
+        "n": "2",
+        "descr": "task",
+        "descr_trans": "任务"
+      }
+    ],
+    "roleset_name_trans": "通过包机出租或租赁"
+  }
 ]

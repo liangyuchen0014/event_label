@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mislead.01",
-        "roleset_name": "not-quite lie to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liar liar"
-            },
-            {
-                "n": "1",
-                "descr": "lied to"
-            },
-            {
-                "n": "2",
-                "descr": "with respect to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mislead.02",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent, misleader"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mislead.01",
+    "roleset_name": "not-quite lie to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liar liar",
+        "descr_trans": "野生野生"
+      },
+      {
+        "n": "1",
+        "descr": "lied to",
+        "descr_trans": "骗"
+      },
+      {
+        "n": "2",
+        "descr": "with respect to",
+        "descr_trans": "关于"
+      }
+    ],
+    "roleset_name_trans": "不完全是撒谎"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mislead.02",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent, misleader",
+        "descr_trans": "因果因素, 误导者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  }
 ]

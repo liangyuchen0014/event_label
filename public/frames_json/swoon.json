@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swoon.01",
-        "roleset_name": "lose consciousness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fainter"
-            },
-            {
-                "n": "1",
-                "descr": "Stimulus of fainting"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swoon.02",
-        "roleset_name": "be in a state of ecstacy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus of swooning"
-            },
-            {
-                "n": "1",
-                "descr": "Experiencer, swooner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swoon.01",
+    "roleset_name": "lose consciousness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fainter",
+        "descr_trans": "较微弱"
+      },
+      {
+        "n": "1",
+        "descr": "Stimulus of fainting",
+        "descr_trans": "刺激昏厥"
+      }
+    ],
+    "roleset_name_trans": "失去知觉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swoon.02",
+    "roleset_name": "be in a state of ecstacy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus of swooning",
+        "descr_trans": "刺激昏厥"
+      },
+      {
+        "n": "1",
+        "descr": "Experiencer, swooner",
+        "descr_trans": "体验者、迷惑者"
+      }
+    ],
+    "roleset_name_trans": "欣喜若狂"
+  }
 ]

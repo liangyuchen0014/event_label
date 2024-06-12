@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "file.01",
-        "roleset_name": "paperwork, seek, claim, call for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "filer"
-            },
-            {
-                "n": "1",
-                "descr": "file"
-            },
-            {
-                "n": "2",
-                "descr": "filed-with"
-            },
-            {
-                "n": "3",
-                "descr": "filed against"
-            },
-            {
-                "n": "4",
-                "descr": "purpose of filing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "file.03",
-        "roleset_name": "walk in a straight line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "walker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "file.01",
+    "roleset_name": "paperwork, seek, claim, call for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "filer",
+        "descr_trans": "文件管理器"
+      },
+      {
+        "n": "1",
+        "descr": "file",
+        "descr_trans": "文件"
+      },
+      {
+        "n": "2",
+        "descr": "filed-with",
+        "descr_trans": "提交"
+      },
+      {
+        "n": "3",
+        "descr": "filed against",
+        "descr_trans": "提出反对"
+      },
+      {
+        "n": "4",
+        "descr": "purpose of filing",
+        "descr_trans": "归档的目的"
+      }
+    ],
+    "roleset_name_trans": "文书工作、寻求、索赔、要求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "file.03",
+    "roleset_name": "walk in a straight line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "walker",
+        "descr_trans": "沃克"
+      }
+    ],
+    "roleset_name_trans": "走直线"
+  }
 ]

@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plunge.01",
-        "roleset_name": "fall precipitously",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plunge.02",
-        "roleset_name": "immerse forcefully, dive into water or metaphorically dive into sth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, causer of immersion"
-            },
-            {
-                "n": "1",
-                "descr": "thing being immersed"
-            },
-            {
-                "n": "2",
-                "descr": "in what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plunge.01",
+    "roleset_name": "fall precipitously",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "急剧下降"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plunge.02",
+    "roleset_name": "immerse forcefully, dive into water or metaphorically dive into sth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, causer of immersion",
+        "descr_trans": "放置者，沉浸的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being immersed",
+        "descr_trans": "被浸没的东西"
+      },
+      {
+        "n": "2",
+        "descr": "in what",
+        "descr_trans": "在什么方面"
+      }
+    ],
+    "roleset_name_trans": "用力浸入，潜入水中或隐喻潜入某物"
+  }
 ]

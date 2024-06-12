@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abrade.01",
-        "roleset_name": "wear off or rub off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causing wearing"
-            },
-            {
-                "n": "1",
-                "descr": "thing wearing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abrade.01",
+    "roleset_name": "wear off or rub off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causing wearing",
+        "descr_trans": "剂，造成磨损"
+      },
+      {
+        "n": "1",
+        "descr": "thing wearing",
+        "descr_trans": "穿着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "磨损或擦掉"
+  }
 ]

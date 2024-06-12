@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gulp.01",
-        "roleset_name": "swig",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drinker"
-            },
-            {
-                "n": "1",
-                "descr": "drink"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gulp_down.02",
-        "roleset_name": "gulp_down: gulp all the way",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drinker"
-            },
-            {
-                "n": "1",
-                "descr": "drink"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gulp.01",
+    "roleset_name": "swig",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drinker",
+        "descr_trans": "饮酒者"
+      },
+      {
+        "n": "1",
+        "descr": "drink",
+        "descr_trans": "喝"
+      }
+    ],
+    "roleset_name_trans": "痛饮"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gulp_down.02",
+    "roleset_name": "gulp_down: gulp all the way",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drinker",
+        "descr_trans": "饮酒者"
+      },
+      {
+        "n": "1",
+        "descr": "drink",
+        "descr_trans": "喝"
+      }
+    ],
+    "roleset_name_trans": "gulp_down: 一路吞下去"
+  }
 ]

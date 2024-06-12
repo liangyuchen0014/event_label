@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rosin.01",
-        "roleset_name": "to cover or rub with rosin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person covering"
-            },
-            {
-                "n": "1",
-                "descr": "location/entity covered in rosin"
-            },
-            {
-                "n": "2",
-                "descr": "rosin, type of rosin itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rosin.01",
+    "roleset_name": "to cover or rub with rosin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person covering",
+        "descr_trans": "代理人，负责人"
+      },
+      {
+        "n": "1",
+        "descr": "location/entity covered in rosin",
+        "descr_trans": "被松香覆盖的地点/实体"
+      },
+      {
+        "n": "2",
+        "descr": "rosin, type of rosin itself",
+        "descr_trans": "松香，松香本身的类型"
+      }
+    ],
+    "roleset_name_trans": "用松香覆盖或擦拭"
+  }
 ]

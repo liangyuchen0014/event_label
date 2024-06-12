@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "maintain.01",
-        "roleset_name": "keep (up)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maintainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing maintained"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive/attribute of Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "maintain.01",
+    "roleset_name": "keep (up)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maintainer",
+        "descr_trans": "维护者"
+      },
+      {
+        "n": "1",
+        "descr": "thing maintained",
+        "descr_trans": "维护的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive/attribute of Arg1",
+        "descr_trans": "Arg1 的有益/属性"
+      }
+    ],
+    "roleset_name_trans": "赶上）"
+  }
 ]

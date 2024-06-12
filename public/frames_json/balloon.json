@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "balloon.01",
-        "roleset_name": "to ride in a balloon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "balloonist, agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "balloon.02",
-        "roleset_name": "to increase or cause to increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity increased"
-            },
-            {
-                "n": "2",
-                "descr": "endstate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "balloon.01",
+    "roleset_name": "to ride in a balloon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "balloonist, agent",
+        "descr_trans": "气球驾驶员、代理人"
+      }
+    ],
+    "roleset_name_trans": "乘坐气球"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "balloon.02",
+    "roleset_name": "to increase or cause to increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity increased",
+        "descr_trans": "实体增加"
+      },
+      {
+        "n": "2",
+        "descr": "endstate",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "增加或导致增加"
+  }
 ]

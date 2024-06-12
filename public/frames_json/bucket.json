@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bucket.01",
-        "roleset_name": "rain really hard",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the rain itself (cognate object)"
-            },
-            {
-                "n": "m",
-                "descr": "DIR: direction (usually 'down')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bucket.01",
+    "roleset_name": "rain really hard",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the rain itself (cognate object)",
+        "descr_trans": "雨本身（同源对象）"
+      },
+      {
+        "n": "m",
+        "descr": "DIR: direction (usually 'down')",
+        "descr_trans": "DIR：方向（通常为“向下”）"
+      }
+    ],
+    "roleset_name_trans": "雨很大"
+  }
 ]

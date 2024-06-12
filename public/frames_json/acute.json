@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "acute.01",
-        "roleset_name": "severe",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "acute illness"
-            },
-            {
-                "n": "2",
-                "descr": "patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "acute.01",
+    "roleset_name": "severe",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "acute illness",
+        "descr_trans": "急性疾病"
+      },
+      {
+        "n": "2",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "严重"
+  }
 ]

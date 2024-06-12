@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprogram.01",
-        "roleset_name": "program again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "programmer"
-            },
-            {
-                "n": "1",
-                "descr": "system receiving a new program"
-            },
-            {
-                "n": "2",
-                "descr": "the new program"
-            },
-            {
-                "n": "3",
-                "descr": "new function/attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprogram.01",
+    "roleset_name": "program again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "programmer",
+        "descr_trans": "程序员"
+      },
+      {
+        "n": "1",
+        "descr": "system receiving a new program",
+        "descr_trans": "系统接收新节目"
+      },
+      {
+        "n": "2",
+        "descr": "the new program",
+        "descr_trans": "新计划"
+      },
+      {
+        "n": "3",
+        "descr": "new function/attribute of arg1",
+        "descr_trans": "arg1 的新函数/属性"
+      }
+    ],
+    "roleset_name_trans": "再次编程"
+  }
 ]

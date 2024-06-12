@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exfoliate.01",
-        "roleset_name": "remove a layer (as of skin)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, source, thing the layer is removed from"
-            },
-            {
-                "n": "2",
-                "descr": "the removed layer"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exfoliate.01",
+    "roleset_name": "remove a layer (as of skin)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, source, thing the layer is removed from",
+        "descr_trans": "患者、来源、层被移除的事物"
+      },
+      {
+        "n": "2",
+        "descr": "the removed layer",
+        "descr_trans": "移除的层"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "去除一层（如皮肤）"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recover.01",
-        "roleset_name": "get better",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "that which was sick, now getting better"
-            },
-            {
-                "n": "2",
-                "descr": "sickness"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recover.02",
-        "roleset_name": "get back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity getting something"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            },
-            {
-                "n": "2",
-                "descr": "gotten from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "recover.03",
-        "roleset_name": "put the lid back on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered"
-            },
-            {
-                "n": "2",
-                "descr": "lid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recover.01",
+    "roleset_name": "get better",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "that which was sick, now getting better",
+        "descr_trans": "以前生病的，现在好起来了"
+      },
+      {
+        "n": "2",
+        "descr": "sickness",
+        "descr_trans": "疾病"
+      }
+    ],
+    "roleset_name_trans": "好转"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recover.02",
+    "roleset_name": "get back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity getting something",
+        "descr_trans": "实体得到某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      },
+      {
+        "n": "2",
+        "descr": "gotten from",
+        "descr_trans": "得到自"
+      }
+    ],
+    "roleset_name_trans": "回来"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "recover.03",
+    "roleset_name": "put the lid back on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coverer",
+        "descr_trans": "覆盖者"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered",
+        "descr_trans": "覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "lid",
+        "descr_trans": "盖"
+      }
+    ],
+    "roleset_name_trans": "盖上盖子"
+  }
 ]

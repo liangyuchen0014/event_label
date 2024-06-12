@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprocess.01",
-        "roleset_name": "process again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "processor"
-            },
-            {
-                "n": "1",
-                "descr": "thing reprocessed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprocess.01",
+    "roleset_name": "process again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "processor",
+        "descr_trans": "处理器"
+      },
+      {
+        "n": "1",
+        "descr": "thing reprocessed",
+        "descr_trans": "重新加工的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "再次处理"
+  }
 ]

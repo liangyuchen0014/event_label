@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "surveil.01",
-        "roleset_name": "to examine, inspect carefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surveiler"
-            },
-            {
-                "n": "1",
-                "descr": "entity surveiled"
-            },
-            {
-                "n": "2",
-                "descr": "surveiled about"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "surveil.01",
+    "roleset_name": "to examine, inspect carefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surveiler",
+        "descr_trans": "监视者"
+      },
+      {
+        "n": "1",
+        "descr": "entity surveiled",
+        "descr_trans": "被监视的实体"
+      },
+      {
+        "n": "2",
+        "descr": "surveiled about",
+        "descr_trans": "监视关于"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "检查，仔细检查"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discover.01",
-        "roleset_name": "find (out)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found, discovery"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, found for"
-            },
-            {
-                "n": "3",
-                "descr": "attribute on arg1 (found out to be/as what)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discover.01",
+    "roleset_name": "find (out)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found, discovery",
+        "descr_trans": "发现的东西，发现"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, found for",
+        "descr_trans": "有益的，发现的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute on arg1 (found out to be/as what)",
+        "descr_trans": "arg1 上的属性（发现是/是什么）"
+      }
+    ],
+    "roleset_name_trans": "查出）"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roadwork.01",
-        "roleset_name": "build or repair a road",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "job, project, research"
-            },
-            {
-                "n": "2",
-                "descr": "employer"
-            },
-            {
-                "n": "3",
-                "descr": "coworker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roadwork.01",
+    "roleset_name": "build or repair a road",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "job, project, research",
+        "descr_trans": "工作、项目、研究"
+      },
+      {
+        "n": "2",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "3",
+        "descr": "coworker",
+        "descr_trans": "同事"
+      }
+    ],
+    "roleset_name_trans": "修建或修理道路"
+  }
 ]

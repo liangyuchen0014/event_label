@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unground.01",
-        "roleset_name": "remove electrical ground connection (or metaphorical extension)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing no longer connected to ground potential"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unground.02",
-        "roleset_name": "release from stay-at-home punishment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parent/guardian"
-            },
-            {
-                "n": "1",
-                "descr": "child who has done his or her time"
-            },
-            {
-                "n": "2",
-                "descr": "domain from which the child was grounded"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "unground.03",
-        "roleset_name": "not ground up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grinder"
-            },
-            {
-                "n": "1",
-                "descr": "thing not ground up"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "ungrounded.04",
-        "roleset_name": "not having a connection to ground potential (or metaphorical extension)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of ungroundedness"
-            },
-            {
-                "n": "1",
-                "descr": "entity not connected to ground"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "ungrounded.05",
-        "roleset_name": "uncover, unearth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of uncovering"
-            },
-            {
-                "n": "1",
-                "descr": "entity not covered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unground.01",
+    "roleset_name": "remove electrical ground connection (or metaphorical extension)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing no longer connected to ground potential",
+        "descr_trans": "物体不再连接到地电位"
+      }
+    ],
+    "roleset_name_trans": "移除电气接地连接（或隐喻扩展）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unground.02",
+    "roleset_name": "release from stay-at-home punishment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parent/guardian",
+        "descr_trans": "家长监护人"
+      },
+      {
+        "n": "1",
+        "descr": "child who has done his or her time",
+        "descr_trans": "已经完成了他或她的时间的孩子"
+      },
+      {
+        "n": "2",
+        "descr": "domain from which the child was grounded",
+        "descr_trans": "孩子被禁足的域"
+      }
+    ],
+    "roleset_name_trans": "解除居家处罚"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "unground.03",
+    "roleset_name": "not ground up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grinder",
+        "descr_trans": "磨床"
+      },
+      {
+        "n": "1",
+        "descr": "thing not ground up",
+        "descr_trans": "东西没有磨碎"
+      }
+    ],
+    "roleset_name_trans": "没有磨碎"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "ungrounded.04",
+    "roleset_name": "not having a connection to ground potential (or metaphorical extension)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of ungroundedness",
+        "descr_trans": "不接地气的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not connected to ground",
+        "descr_trans": "实体未接地"
+      }
+    ],
+    "roleset_name_trans": "没有连接到地电位（或隐喻扩展）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "ungrounded.05",
+    "roleset_name": "uncover, unearth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of uncovering",
+        "descr_trans": "揭发的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not covered",
+        "descr_trans": "未涵盖的实体"
+      }
+    ],
+    "roleset_name_trans": "揭露，发掘"
+  }
 ]

@@ -1,105 +1,127 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "low.01",
-        "roleset_name": "make the characteristic noise of a cow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "low-er"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "low.02",
-        "roleset_name": "be depressed, in poor spirits",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of depression"
-            },
-            {
-                "n": "1",
-                "descr": "entity in low spirits"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "low.03",
-        "roleset_name": "be unrefined, base, immoral",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "low entity/action (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "low.04",
-        "roleset_name": "have a location towards the bottom of a framework",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "low thing"
-            },
-            {
-                "n": "2",
-                "descr": "the lower portion of what, domain"
-            },
-            {
-                "n": "3",
-                "descr": "measurment"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            },
-            {
-                "n": "5",
-                "descr": "scale"
-            },
-            {
-                "n": "6",
-                "descr": "anchor"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "lower.05",
-        "roleset_name": "cause to go down, esp of financial usage, decreasing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving something downward"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing going down"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount gone down by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "anchor"
-            },
-            {
-                "n": "6",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "low.01",
+    "roleset_name": "make the characteristic noise of a cow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "low-er",
+        "descr_trans": "低点"
+      }
+    ],
+    "roleset_name_trans": "发出牛特有的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "low.02",
+    "roleset_name": "be depressed, in poor spirits",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of depression",
+        "descr_trans": "抑郁症的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in low spirits",
+        "descr_trans": "实体情绪低落"
+      }
+    ],
+    "roleset_name_trans": "心情低落，精神不振"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "low.03",
+    "roleset_name": "be unrefined, base, immoral",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "low entity/action (may require concatenation)",
+        "descr_trans": "低实体/操作（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "粗鄙、卑鄙、不道德"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "low.04",
+    "roleset_name": "have a location towards the bottom of a framework",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "low thing",
+        "descr_trans": "低级的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the lower portion of what, domain",
+        "descr_trans": "什么的下部，域"
+      },
+      {
+        "n": "3",
+        "descr": "measurment",
+        "descr_trans": "测量"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      },
+      {
+        "n": "5",
+        "descr": "scale",
+        "descr_trans": "规模"
+      },
+      {
+        "n": "6",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      }
+    ],
+    "roleset_name_trans": "位于框架底部"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "lower.05",
+    "roleset_name": "cause to go down, esp of financial usage, decreasing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving something downward",
+        "descr_trans": "向下移动某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing going down",
+        "descr_trans": "逻辑主题、耐心、事情正在恶化"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount gone down by",
+        "descr_trans": "EXT，减少的金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "6",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "导致下降，特别是金融使用量​​下降"
+  }
 ]

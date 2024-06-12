@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "europeanize.01",
-        "roleset_name": "make european in trait",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "european.02",
-        "roleset_name": "of origin in europe",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "European entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "europeanize.01",
+    "roleset_name": "make european in trait",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      }
+    ],
+    "roleset_name_trans": "使欧洲人具有特征"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "european.02",
+    "roleset_name": "of origin in europe",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "European entity",
+        "descr_trans": "欧洲实体"
+      }
+    ],
+    "roleset_name_trans": "原产于欧洲"
+  }
 ]

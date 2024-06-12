@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "split.01",
-        "roleset_name": "divide, separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing separation"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being divided"
-            },
-            {
-                "n": "2",
-                "descr": "divided among (resulting/destination groups)"
-            },
-            {
-                "n": "3",
-                "descr": "divided from, if separate from arg1"
-            },
-            {
-                "n": "4",
-                "descr": "subject matter of split"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "split.02",
-        "roleset_name": "leave, depart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "place left"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "split_up.03",
-        "roleset_name": "split up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing separation"
-            },
-            {
-                "n": "1",
-                "descr": "thing being divided"
-            },
-            {
-                "n": "2",
-                "descr": "split up into (the groups)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "split.01",
+    "roleset_name": "divide, separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing separation",
+        "descr_trans": "导致分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being divided",
+        "descr_trans": "被分割的事物"
+      },
+      {
+        "n": "2",
+        "descr": "divided among (resulting/destination groups)",
+        "descr_trans": "分为（结果组/目的地组）"
+      },
+      {
+        "n": "3",
+        "descr": "divided from, if separate from arg1",
+        "descr_trans": "如果与 arg1 分开，则除以"
+      },
+      {
+        "n": "4",
+        "descr": "subject matter of split",
+        "descr_trans": "分割的标的物"
+      }
+    ],
+    "roleset_name_trans": "分开，分开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "split.02",
+    "roleset_name": "leave, depart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "离开，离开"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "split_up.03",
+    "roleset_name": "split up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing separation",
+        "descr_trans": "导致分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being divided",
+        "descr_trans": "事物被分割"
+      },
+      {
+        "n": "2",
+        "descr": "split up into (the groups)",
+        "descr_trans": "分成（组）"
+      }
+    ],
+    "roleset_name_trans": "分开"
+  }
 ]

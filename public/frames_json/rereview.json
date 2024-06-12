@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rereview.01",
-        "roleset_name": "look at again; review another time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reviewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing reviewed"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rereview.01",
+    "roleset_name": "look at again; review another time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reviewer",
+        "descr_trans": "审稿人"
+      },
+      {
+        "n": "1",
+        "descr": "thing reviewed",
+        "descr_trans": "审查的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "再看一遍；下次再评论"
+  }
 ]

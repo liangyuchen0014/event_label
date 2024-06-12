@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "average.01",
-        "roleset_name": "to amount to or come to an average, compute an average, calculating/finding/creating a mean, median or mode, computed mean",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person computing the average"
-            },
-            {
-                "n": "1",
-                "descr": "average(d) entity"
-            },
-            {
-                "n": "2",
-                "descr": "numerical value of the average (or whatever final form it takes)"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "average.03",
-        "roleset_name": "having a normal skill level",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "moderately skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "average.04",
-        "roleset_name": "normal, in the range of mean, meadian or mode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of computation"
-            },
-            {
-                "n": "1",
-                "descr": "average entity"
-            },
-            {
-                "n": "2",
-                "descr": "numerical value"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "averaging.02",
-        "roleset_name": "experiencing or having an average",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having the average"
-            },
-            {
-                "n": "1",
-                "descr": "value, average"
-            },
-            {
-                "n": "2",
-                "descr": "domain of the average"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "average.01",
+    "roleset_name": "to amount to or come to an average, compute an average, calculating/finding/creating a mean, median or mode, computed mean",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person computing the average",
+        "descr_trans": "代理人，计算平均值的人"
+      },
+      {
+        "n": "1",
+        "descr": "average(d) entity",
+        "descr_trans": "平均(d)实体"
+      },
+      {
+        "n": "2",
+        "descr": "numerical value of the average (or whatever final form it takes)",
+        "descr_trans": "平均值的数值（或任何最终形式）"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "达到或达到平均值、计算平均值、计算/查找/创建平均值、中位数或众数、计算平均值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "average.03",
+    "roleset_name": "having a normal skill level",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "moderately skilled entity",
+        "descr_trans": "中等技能实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "具有正常的技能水平"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "average.04",
+    "roleset_name": "normal, in the range of mean, meadian or mode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of computation",
+        "descr_trans": "计算代理"
+      },
+      {
+        "n": "1",
+        "descr": "average entity",
+        "descr_trans": "平均实体"
+      },
+      {
+        "n": "2",
+        "descr": "numerical value",
+        "descr_trans": "数值"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "正常，在均值、中位数或众数范围内"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "averaging.02",
+    "roleset_name": "experiencing or having an average",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having the average",
+        "descr_trans": "具有平均数的实体"
+      },
+      {
+        "n": "1",
+        "descr": "value, average",
+        "descr_trans": "值、平均值"
+      },
+      {
+        "n": "2",
+        "descr": "domain of the average",
+        "descr_trans": "平均域"
+      }
+    ],
+    "roleset_name_trans": "经历或具有平均水平"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prefertilize.01",
-        "roleset_name": "add fertilizer beforehand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "soil, etc., which fertilizer is added to"
-            },
-            {
-                "n": "2",
-                "descr": "fertilizer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prefertilization.02",
-        "roleset_name": "before fertilization",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing occuring prior to fertilization"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prefertilize.01",
+    "roleset_name": "add fertilizer beforehand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "soil, etc., which fertilizer is added to",
+        "descr_trans": "土壤等，添加了哪些肥料"
+      },
+      {
+        "n": "2",
+        "descr": "fertilizer",
+        "descr_trans": "肥料"
+      }
+    ],
+    "roleset_name_trans": "预先添加肥料"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prefertilization.02",
+    "roleset_name": "before fertilization",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing occuring prior to fertilization",
+        "descr_trans": "受精前发生的事情"
+      }
+    ],
+    "roleset_name_trans": "受精前"
+  }
 ]

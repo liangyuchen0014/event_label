@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "carve.01",
-        "roleset_name": "cut carefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carver"
-            },
-            {
-                "n": "1",
-                "descr": "thing carved"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "carve.02",
-        "roleset_name": "create by carving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "carve_out.03",
-        "roleset_name": "create variant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "carve.01",
+    "roleset_name": "cut carefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carver",
+        "descr_trans": "雕刻师"
+      },
+      {
+        "n": "1",
+        "descr": "thing carved",
+        "descr_trans": "雕刻的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "小心地切"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "carve.02",
+    "roleset_name": "create by carving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      }
+    ],
+    "roleset_name_trans": "通过雕刻创造"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "carve_out.03",
+    "roleset_name": "create variant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "创建变体"
+  }
 ]

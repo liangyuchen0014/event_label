@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "truck.01",
-        "roleset_name": "drive a truck or carry via truck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "driver"
-            },
-            {
-                "n": "1",
-                "descr": "truck or load"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "truck.01",
+    "roleset_name": "drive a truck or carry via truck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "driver",
+        "descr_trans": "司机"
+      },
+      {
+        "n": "1",
+        "descr": "truck or load",
+        "descr_trans": "卡车或负载"
+      }
+    ],
+    "roleset_name_trans": "驾驶卡车或通过卡车运输"
+  }
 ]

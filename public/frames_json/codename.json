@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "codename.01",
-        "roleset_name": "give a false name to hide real name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "codename giver"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving the code name"
-            },
-            {
-                "n": "2",
-                "descr": "the codename"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "codename.01",
+    "roleset_name": "give a false name to hide real name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "codename giver",
+        "descr_trans": "代号给予者"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving the code name",
+        "descr_trans": "接收代号的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the codename",
+        "descr_trans": "代号"
+      }
+    ],
+    "roleset_name_trans": "起假名以隐藏真实姓名"
+  }
 ]

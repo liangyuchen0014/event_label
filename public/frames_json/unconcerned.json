@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unconcerned.01",
-        "roleset_name": "not worried",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "potential causer of concern"
-            },
-            {
-                "n": "1",
-                "descr": "entity who isn't worried"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unconcerned.01",
+    "roleset_name": "not worried",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "potential causer of concern",
+        "descr_trans": "潜在引起关注的因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity who isn't worried",
+        "descr_trans": "不担心的实体"
+      }
+    ],
+    "roleset_name_trans": "不担心"
+  }
 ]

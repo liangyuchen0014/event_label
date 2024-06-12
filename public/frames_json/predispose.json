@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "predispose.01",
-        "roleset_name": "to make susceptible, be susceptible to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity predisposing"
-            },
-            {
-                "n": "1",
-                "descr": "entity predisposed"
-            },
-            {
-                "n": "2",
-                "descr": "predisposed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "predispose.01",
+    "roleset_name": "to make susceptible, be susceptible to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity predisposing",
+        "descr_trans": "实体倾向"
+      },
+      {
+        "n": "1",
+        "descr": "entity predisposed",
+        "descr_trans": "实体倾向"
+      },
+      {
+        "n": "2",
+        "descr": "predisposed to",
+        "descr_trans": "倾向于"
+      }
+    ],
+    "roleset_name_trans": "使易受影响，易受"
+  }
 ]

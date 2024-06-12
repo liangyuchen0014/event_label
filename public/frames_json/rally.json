@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rally.01",
-        "roleset_name": "summon to a cause",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "summoner"
-            },
-            {
-                "n": "1",
-                "descr": "summoned"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rally.02",
-        "roleset_name": "(cause to) suddenly show better performance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "performer"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rally.01",
+    "roleset_name": "summon to a cause",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "summoner",
+        "descr_trans": "召唤师"
+      },
+      {
+        "n": "1",
+        "descr": "summoned",
+        "descr_trans": "被召唤"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "召唤某项事业"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rally.02",
+    "roleset_name": "(cause to) suddenly show better performance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "（导致）突然表现出更好的表现"
+  }
 ]

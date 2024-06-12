@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coopt.01",
-        "roleset_name": "choose, elect, or appoint (for a specific task   or purpose)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, elector, appointer, ect."
-            },
-            {
-                "n": "1",
-                "descr": "the thing chosen"
-            },
-            {
-                "n": "2",
-                "descr": "office, task, purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coopt.01",
+    "roleset_name": "choose, elect, or appoint (for a specific task   or purpose)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, elector, appointer, ect.",
+        "descr_trans": "代理人、选举人、任命人等"
+      },
+      {
+        "n": "1",
+        "descr": "the thing chosen",
+        "descr_trans": "所选择的事物"
+      },
+      {
+        "n": "2",
+        "descr": "office, task, purpose",
+        "descr_trans": "办公室、任务、目的"
+      }
+    ],
+    "roleset_name_trans": "选择、选举或任命（为了特定任务或目的）"
+  }
 ]

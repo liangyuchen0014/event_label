@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "freshen.01",
-        "roleset_name": "(cause to be) new, vital, unadulterated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the fresh-maker, causer of freshness"
-            },
-            {
-                "n": "1",
-                "descr": "fresh entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "freshen_up.02",
-        "roleset_name": "to make fresh, revive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the fresh-maker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now fresh"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fresh.03",
-        "roleset_name": "impertinent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "impertinent one"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "target of impertinent behavior"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fresh.04",
-        "roleset_name": "new, vital, unadulterated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the fresh-maker, causer of freshness"
-            },
-            {
-                "n": "1",
-                "descr": "fresh entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "freshen.01",
+    "roleset_name": "(cause to be) new, vital, unadulterated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the fresh-maker, causer of freshness",
+        "descr_trans": "the fresh-maker, 新鲜的制造者"
+      },
+      {
+        "n": "1",
+        "descr": "fresh entity",
+        "descr_trans": "新鲜实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（原因是）新的、有活力的、纯粹的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "freshen_up.02",
+    "roleset_name": "to make fresh, revive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the fresh-maker, agent",
+        "descr_trans": "生鲜制造商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity now fresh",
+        "descr_trans": "实体现在新鲜"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "使新鲜、复活"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fresh.03",
+    "roleset_name": "impertinent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "impertinent one",
+        "descr_trans": "无礼的人"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "target of impertinent behavior",
+        "descr_trans": "无礼行为的目标"
+      }
+    ],
+    "roleset_name_trans": "无礼的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fresh.04",
+    "roleset_name": "new, vital, unadulterated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the fresh-maker, causer of freshness",
+        "descr_trans": "the fresh-maker, 新鲜的制造者"
+      },
+      {
+        "n": "1",
+        "descr": "fresh entity",
+        "descr_trans": "新鲜实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "新的、有活力的、纯粹的"
+  }
 ]

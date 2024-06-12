@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overbuy.01",
-        "roleset_name": "to buy in excessive amounts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "buyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "5",
-                "descr": "overbought by how much?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overbuy.01",
+    "roleset_name": "to buy in excessive amounts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought",
+        "descr_trans": "买的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "5",
+        "descr": "overbought by how much?",
+        "descr_trans": "超买了多少？"
+      }
+    ],
+    "roleset_name_trans": "过量购买"
+  }
 ]

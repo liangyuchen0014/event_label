@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "histology.01",
-        "roleset_name": "examination of the microscopic structure of tissue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "histology.01",
+    "roleset_name": "examination of the microscopic structure of tissue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      }
+    ],
+    "roleset_name_trans": "组织的微观结构检查"
+  }
 ]

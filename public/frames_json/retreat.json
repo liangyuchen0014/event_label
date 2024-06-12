@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retreat.01",
-        "roleset_name": "run away!",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "retreater, entity actually moving back"
-            },
-            {
-                "n": "2",
-                "descr": "scary thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "retreat.02",
-        "roleset_name": "quantifiable downward movement, quantifiable (inanimate) downward motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing moving downward"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "attribute of arg1 actually in decline (if in addition to arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "retreat.03",
-        "roleset_name": "vacation-type retreat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity going on a retreat"
-            },
-            {
-                "n": "1",
-                "descr": "theme/type of retreat"
-            },
-            {
-                "n": "2",
-                "descr": "location of the retreat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retreat.01",
+    "roleset_name": "run away!",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "retreater, entity actually moving back",
+        "descr_trans": "撤退者，实际后退的实体"
+      },
+      {
+        "n": "2",
+        "descr": "scary thing",
+        "descr_trans": "可怕的事情"
+      }
+    ],
+    "roleset_name_trans": "逃跑！"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "retreat.02",
+    "roleset_name": "quantifiable downward movement, quantifiable (inanimate) downward motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing moving downward",
+        "descr_trans": "向下移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "attribute of arg1 actually in decline (if in addition to arg1)",
+        "descr_trans": "arg1 的属性实际上在下降（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "可量化的向下运动, 可量化的（无生命的）向下运动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "retreat.03",
+    "roleset_name": "vacation-type retreat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity going on a retreat",
+        "descr_trans": "实体正在撤退"
+      },
+      {
+        "n": "1",
+        "descr": "theme/type of retreat",
+        "descr_trans": "静修主题/类型"
+      },
+      {
+        "n": "2",
+        "descr": "location of the retreat",
+        "descr_trans": "撤退地点"
+      }
+    ],
+    "roleset_name_trans": "度假型静修"
+  }
 ]

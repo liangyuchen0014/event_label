@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spout.01",
-        "roleset_name": "emit liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spouter"
-            },
-            {
-                "n": "1",
-                "descr": "liquid"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spout_off.02",
-        "roleset_name": "say flippantly or quickly, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "explicit mention of 'mouth' (or equivalent)"
-            },
-            {
-                "n": "2",
-                "descr": "utterance iteslf (quote/ 'that __')"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of utterance ('about __')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spout.01",
+    "roleset_name": "emit liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spouter",
+        "descr_trans": "喷口"
+      },
+      {
+        "n": "1",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "喷出液体"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spout_off.02",
+    "roleset_name": "say flippantly or quickly, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "explicit mention of 'mouth' (or equivalent)",
+        "descr_trans": "明确提及“嘴”（或类似内容）"
+      },
+      {
+        "n": "2",
+        "descr": "utterance iteslf (quote/ 'that __')",
+        "descr_trans": "话语 iteslf (quote/&#39;that __&#39;)"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of utterance ('about __')",
+        "descr_trans": "话语主题（“关于__”）"
+      }
+    ],
+    "roleset_name_trans": "轻率地或快速地说，短语"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cozen.01",
-        "roleset_name": "to cheat, trick out of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cheater, deceiver"
-            },
-            {
-                "n": "1",
-                "descr": "Theme, money or possession being taken through trickery"
-            },
-            {
-                "n": "2",
-                "descr": "Entity tricked, person/source of thing taken"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cozen.02",
-        "roleset_name": "to deceive, potentially doop into doing something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Deceiver"
-            },
-            {
-                "n": "1",
-                "descr": "Person deceived"
-            },
-            {
-                "n": "2",
-                "descr": "Arg1 is deceived into doing, thinking what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cozen.01",
+    "roleset_name": "to cheat, trick out of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cheater, deceiver",
+        "descr_trans": "骗子、骗子"
+      },
+      {
+        "n": "1",
+        "descr": "Theme, money or possession being taken through trickery",
+        "descr_trans": "通过欺骗手段夺取主题、金钱或财产"
+      },
+      {
+        "n": "2",
+        "descr": "Entity tricked, person/source of thing taken",
+        "descr_trans": "实体被欺骗，人/物来源被盗"
+      }
+    ],
+    "roleset_name_trans": "欺骗，欺骗某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cozen.02",
+    "roleset_name": "to deceive, potentially doop into doing something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Deceiver",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "Person deceived",
+        "descr_trans": "受骗者"
+      },
+      {
+        "n": "2",
+        "descr": "Arg1 is deceived into doing, thinking what?",
+        "descr_trans": "arg1被骗去做了，想什么呢？"
+      }
+    ],
+    "roleset_name_trans": "欺骗，可能会不顾一切地去做某事"
+  }
 ]

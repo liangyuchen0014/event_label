@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "galvanize.01",
-        "roleset_name": "motivate to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, galvanizer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "galvanize.02",
-        "roleset_name": "cause a response",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "action"
-            },
-            {
-                "n": "1",
-                "descr": "reaction"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "galvanize.03",
-        "roleset_name": "coat iron/steel with zinc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "galvanizer"
-            },
-            {
-                "n": "1",
-                "descr": "iron/steel thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "galvanize.01",
+    "roleset_name": "motivate to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, galvanizer",
+        "descr_trans": "代理、镀锌剂"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "激励做某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "galvanize.02",
+    "roleset_name": "cause a response",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "action",
+        "descr_trans": "行动"
+      },
+      {
+        "n": "1",
+        "descr": "reaction",
+        "descr_trans": "反应"
+      }
+    ],
+    "roleset_name_trans": "引起反应"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "galvanize.03",
+    "roleset_name": "coat iron/steel with zinc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "galvanizer",
+        "descr_trans": "镀锌机"
+      },
+      {
+        "n": "1",
+        "descr": "iron/steel thing",
+        "descr_trans": "铁/钢的东西"
+      }
+    ],
+    "roleset_name_trans": "给铁/钢镀上锌"
+  }
 ]

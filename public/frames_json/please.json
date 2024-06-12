@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "please.01",
-        "roleset_name": "make happy, contented, satisfied, possibly smug",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pleaser"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity pleased"
-            },
-            {
-                "n": "2",
-                "descr": "instrumental"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pleasant.02",
-        "roleset_name": "pleasant",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "pleasant thing"
-            },
-            {
-                "n": "2",
-                "descr": "pleasant to/for whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "please.01",
+    "roleset_name": "make happy, contented, satisfied, possibly smug",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pleaser",
+        "descr_trans": "代理人，取悦者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity pleased",
+        "descr_trans": "患者，实体满意"
+      },
+      {
+        "n": "2",
+        "descr": "instrumental",
+        "descr_trans": "工具性的"
+      }
+    ],
+    "roleset_name_trans": "使快乐、满足、满足、可能沾沾自喜"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pleasant.02",
+    "roleset_name": "pleasant",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "pleasant thing",
+        "descr_trans": "令人愉快的事情"
+      },
+      {
+        "n": "2",
+        "descr": "pleasant to/for whom?",
+        "descr_trans": "对谁来说愉快？"
+      }
+    ],
+    "roleset_name_trans": "令人愉快的"
+  }
 ]

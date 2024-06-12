@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whistleblow.01",
-        "roleset_name": "blow the whistle on; alert the authorities or public of wrongdoing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "whistleblower"
-            },
-            {
-                "n": "1",
-                "descr": "action reported"
-            },
-            {
-                "n": "2",
-                "descr": "perpetrator reported"
-            },
-            {
-                "n": "3",
-                "descr": "authorities alerted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whistleblow.01",
+    "roleset_name": "blow the whistle on; alert the authorities or public of wrongdoing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "whistleblower",
+        "descr_trans": "举报人"
+      },
+      {
+        "n": "1",
+        "descr": "action reported",
+        "descr_trans": "报告的行动"
+      },
+      {
+        "n": "2",
+        "descr": "perpetrator reported",
+        "descr_trans": "肇事者举报"
+      },
+      {
+        "n": "3",
+        "descr": "authorities alerted",
+        "descr_trans": "当局发出警报"
+      }
+    ],
+    "roleset_name_trans": "吹响口哨；提醒当局或公众注意不当行为"
+  }
 ]

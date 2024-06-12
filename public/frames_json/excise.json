@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excise.01",
-        "roleset_name": "to remove by or as if by cutting, removing by cutting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity excised"
-            },
-            {
-                "n": "2",
-                "descr": "excised from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excise.01",
+    "roleset_name": "to remove by or as if by cutting, removing by cutting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity excised",
+        "descr_trans": "实体被切除"
+      },
+      {
+        "n": "2",
+        "descr": "excised from",
+        "descr_trans": "切除自"
+      }
+    ],
+    "roleset_name_trans": "通过或仿佛通过切割去除，通过切割去除"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parity.01",
-        "roleset_name": "number of births a person has had",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person who gave birth"
-            },
-            {
-                "n": "1",
-                "descr": "number of births"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parity.01",
+    "roleset_name": "number of births a person has had",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person who gave birth",
+        "descr_trans": "生过孩子的人"
+      },
+      {
+        "n": "1",
+        "descr": "number of births",
+        "descr_trans": "出生人数"
+      }
+    ],
+    "roleset_name_trans": "一个人的生育次数"
+  }
 ]

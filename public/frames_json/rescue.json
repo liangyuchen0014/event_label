@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rescue.01",
-        "roleset_name": "save",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rescuer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity rescued"
-            },
-            {
-                "n": "2",
-                "descr": "rescued from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rescue.01",
+    "roleset_name": "save",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rescuer, agent",
+        "descr_trans": "救援者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity rescued",
+        "descr_trans": "实体获救"
+      },
+      {
+        "n": "2",
+        "descr": "rescued from",
+        "descr_trans": "被救出"
+      }
+    ],
+    "roleset_name_trans": "节省"
+  }
 ]

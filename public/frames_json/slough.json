@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slough.01",
-        "roleset_name": "shedding, remove in flaky chunks",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shedder"
-            },
-            {
-                "n": "1",
-                "descr": "thing shed"
-            },
-            {
-                "n": "2",
-                "descr": "source, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slough_off.02",
-        "roleset_name": "removing in flaky chunks",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shedder"
-            },
-            {
-                "n": "1",
-                "descr": "thing shed"
-            },
-            {
-                "n": "2",
-                "descr": "source, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slough.01",
+    "roleset_name": "shedding, remove in flaky chunks",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shedder",
+        "descr_trans": "脱落者"
+      },
+      {
+        "n": "1",
+        "descr": "thing shed",
+        "descr_trans": "东西棚"
+      },
+      {
+        "n": "2",
+        "descr": "source, if separate from arg0",
+        "descr_trans": "源，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "脱落，切成片状块状去除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slough_off.02",
+    "roleset_name": "removing in flaky chunks",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shedder",
+        "descr_trans": "脱落者"
+      },
+      {
+        "n": "1",
+        "descr": "thing shed",
+        "descr_trans": "东西棚"
+      },
+      {
+        "n": "2",
+        "descr": "source, if separate from arg0",
+        "descr_trans": "源，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "去除片状块状"
+  }
 ]

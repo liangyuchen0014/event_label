@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chain.01",
-        "roleset_name": "connect with chain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of connection, agent"
-            },
-            {
-                "n": "1",
-                "descr": "(first) thing being chained"
-            },
-            {
-                "n": "2",
-                "descr": "subsequent things, if separate"
-            },
-            {
-                "n": "3",
-                "descr": "attribute on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chain.01",
+    "roleset_name": "connect with chain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of connection, agent",
+        "descr_trans": "连接的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "(first) thing being chained",
+        "descr_trans": "（第一）被锁住的东西"
+      },
+      {
+        "n": "2",
+        "descr": "subsequent things, if separate",
+        "descr_trans": "后续的事情，如果分开的话"
+      },
+      {
+        "n": "3",
+        "descr": "attribute on arg1",
+        "descr_trans": "arg1 上的属性"
+      }
+    ],
+    "roleset_name_trans": "用链条连接"
+  }
 ]

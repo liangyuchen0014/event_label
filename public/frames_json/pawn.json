@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pawn.01",
-        "roleset_name": "to temporarily sell (personal property), ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "thing deposited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pawn.01",
+    "roleset_name": "to temporarily sell (personal property), ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "thing deposited",
+        "descr_trans": "存入的东西"
+      }
+    ],
+    "roleset_name_trans": "暂时出售（个人财产），"
+  }
 ]

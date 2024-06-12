@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "traffic.01",
-        "roleset_name": "buy or sell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "item sold"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "traffic.01",
+    "roleset_name": "buy or sell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "item sold",
+        "descr_trans": "已售商品"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      }
+    ],
+    "roleset_name_trans": "买或卖"
+  }
 ]

@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mist.01",
-        "roleset_name": "make blurry with mist (emphasis on blurriness)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent causing the mist"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming opaque with mist"
-            },
-            {
-                "n": "2",
-                "descr": "the mist"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mist.02",
-        "roleset_name": "spray with a mist of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, person doing the spraying"
-            },
-            {
-                "n": "1",
-                "descr": "destination of the spray"
-            },
-            {
-                "n": "2",
-                "descr": "the spray itself"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "mist.03",
-        "roleset_name": "weather condition with empty 'it'.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the droplets of mist themselves (or cognate)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "mist_up.04",
-        "roleset_name": "mist_up: obscure with mist",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent causing the mist"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming opaque with mist"
-            },
-            {
-                "n": "2",
-                "descr": "the mist"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "mist_over.05",
-        "roleset_name": "mist_over: obscure with mist",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent causing the mist"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming opaque with mist"
-            },
-            {
-                "n": "2",
-                "descr": "the mist"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mist.01",
+    "roleset_name": "make blurry with mist (emphasis on blurriness)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent causing the mist",
+        "descr_trans": "造成雾气的药剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming opaque with mist",
+        "descr_trans": "物体因雾而变得不透明"
+      },
+      {
+        "n": "2",
+        "descr": "the mist",
+        "descr_trans": "薄雾"
+      }
+    ],
+    "roleset_name_trans": "用雾气使模糊（强调模糊）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mist.02",
+    "roleset_name": "spray with a mist of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, person doing the spraying",
+        "descr_trans": "代理人、进行喷涂的人"
+      },
+      {
+        "n": "1",
+        "descr": "destination of the spray",
+        "descr_trans": "喷雾的目的地"
+      },
+      {
+        "n": "2",
+        "descr": "the spray itself",
+        "descr_trans": "喷雾本身"
+      }
+    ],
+    "roleset_name_trans": "喷上一层薄雾状的东西"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "mist.03",
+    "roleset_name": "weather condition with empty 'it'.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the droplets of mist themselves (or cognate)",
+        "descr_trans": "雾滴本身（或同源）"
+      }
+    ],
+    "roleset_name_trans": "带有空“it”的天气状况。"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "mist_up.04",
+    "roleset_name": "mist_up: obscure with mist",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent causing the mist",
+        "descr_trans": "造成雾气的药剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming opaque with mist",
+        "descr_trans": "物体因雾而变得不透明"
+      },
+      {
+        "n": "2",
+        "descr": "the mist",
+        "descr_trans": "薄雾"
+      }
+    ],
+    "roleset_name_trans": "雾气：雾气模糊"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "mist_over.05",
+    "roleset_name": "mist_over: obscure with mist",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent causing the mist",
+        "descr_trans": "造成雾气的药剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming opaque with mist",
+        "descr_trans": "物体因雾而变得不透明"
+      },
+      {
+        "n": "2",
+        "descr": "the mist",
+        "descr_trans": "薄雾"
+      }
+    ],
+    "roleset_name_trans": "雾气笼罩：雾气模糊"
+  }
 ]

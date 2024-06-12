@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retransmit.01",
-        "roleset_name": "transmit again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of retransmission"
-            },
-            {
-                "n": "1",
-                "descr": "retransmitted"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retransmit.01",
+    "roleset_name": "transmit again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of retransmission",
+        "descr_trans": "重传代理"
+      },
+      {
+        "n": "1",
+        "descr": "retransmitted",
+        "descr_trans": "重传"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "再次传送"
+  }
 ]

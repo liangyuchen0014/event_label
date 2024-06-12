@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "efface.01",
-        "roleset_name": "remove by rubbing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of erasing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing erased"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "efface.02",
-        "roleset_name": "remove from awareness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "efface.03",
-        "roleset_name": "make inconspicuous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of inconspicuousness"
-            },
-            {
-                "n": "1",
-                "descr": "Entity made inconspicuous"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "efface.01",
+    "roleset_name": "remove by rubbing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of erasing",
+        "descr_trans": "擦除的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing erased",
+        "descr_trans": "东西被删除了"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "通过摩擦去除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "efface.02",
+    "roleset_name": "remove from awareness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "从意识中删除"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "efface.03",
+    "roleset_name": "make inconspicuous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of inconspicuousness",
+        "descr_trans": "不引人注目的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity made inconspicuous",
+        "descr_trans": "实体变得不显眼"
+      }
+    ],
+    "roleset_name_trans": "使不显眼"
+  }
 ]

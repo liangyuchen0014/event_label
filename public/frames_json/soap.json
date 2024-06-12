@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "soap.01",
-        "roleset_name": "soap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, soaper"
-            },
-            {
-                "n": "1",
-                "descr": "thing soaped, patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "soap.01",
+    "roleset_name": "soap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, soaper",
+        "descr_trans": "代理、肥皂"
+      },
+      {
+        "n": "1",
+        "descr": "thing soaped, patient",
+        "descr_trans": "涂肥皂的东西，耐心"
+      }
+    ],
+    "roleset_name_trans": "肥皂"
+  }
 ]

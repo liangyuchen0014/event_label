@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "require.01",
-        "roleset_name": "need, obligation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "requirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing required"
-            },
-            {
-                "n": "2",
-                "descr": "required-of, required-from ('ablative')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "require.01",
+    "roleset_name": "need, obligation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "requirer",
+        "descr_trans": "要求者"
+      },
+      {
+        "n": "1",
+        "descr": "thing required",
+        "descr_trans": "需要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "required-of, required-from ('ablative')",
+        "descr_trans": "要求的、要求的（&#39;消融&#39;）"
+      }
+    ],
+    "roleset_name_trans": "需要、义务"
+  }
 ]

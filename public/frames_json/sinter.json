@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sinter.01",
-        "roleset_name": "cohere via heat but without melting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of compaction"
-            },
-            {
-                "n": "2",
-                "descr": "start state of entity"
-            },
-            {
-                "n": "3",
-                "descr": "end state of entity, resulting mass"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sinter.01",
+    "roleset_name": "cohere via heat but without melting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of compaction",
+        "descr_trans": "压实原因"
+      },
+      {
+        "n": "2",
+        "descr": "start state of entity",
+        "descr_trans": "实体的起始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state of entity, resulting mass",
+        "descr_trans": "实体的最终状态，产生的质量"
+      }
+    ],
+    "roleset_name_trans": "通过加热粘合但不熔化"
+  }
 ]

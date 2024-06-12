@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "federate.01",
-        "roleset_name": "to unite in a federation, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of federation,and/or first entity uniting"
-            },
-            {
-                "n": "1",
-                "descr": "entity united with"
-            },
-            {
-                "n": "2",
-                "descr": "other entities united with, if separate mention"
-            },
-            {
-                "n": "3",
-                "descr": "resulting federation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "federate.01",
+    "roleset_name": "to unite in a federation, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of federation,and/or first entity uniting",
+        "descr_trans": "联盟的引发者和/或第一个实体联合"
+      },
+      {
+        "n": "1",
+        "descr": "entity united with",
+        "descr_trans": "实体联合"
+      },
+      {
+        "n": "2",
+        "descr": "other entities united with, if separate mention",
+        "descr_trans": "与其他实体联合（如果单独提及）"
+      },
+      {
+        "n": "3",
+        "descr": "resulting federation",
+        "descr_trans": "由此产生的联邦"
+      }
+    ],
+    "roleset_name_trans": "团结成一个联邦，"
+  }
 ]

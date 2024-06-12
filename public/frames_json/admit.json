@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "admit.01",
-        "roleset_name": "acknowledge truth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "admitter"
-            },
-            {
-                "n": "1",
-                "descr": "truth"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "admit.02",
-        "roleset_name": "allow to enter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower (ticket)"
-            },
-            {
-                "n": "1",
-                "descr": "enterer"
-            },
-            {
-                "n": "2",
-                "descr": "place entered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "admit.01",
+    "roleset_name": "acknowledge truth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "admitter",
+        "descr_trans": "被录取"
+      },
+      {
+        "n": "1",
+        "descr": "truth",
+        "descr_trans": "真相"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "承认真相"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "admit.02",
+    "roleset_name": "allow to enter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower (ticket)",
+        "descr_trans": "许可（票）"
+      },
+      {
+        "n": "1",
+        "descr": "enterer",
+        "descr_trans": "进入者"
+      },
+      {
+        "n": "2",
+        "descr": "place entered",
+        "descr_trans": "输入的地方"
+      }
+    ],
+    "roleset_name_trans": "允许进入"
+  }
 ]

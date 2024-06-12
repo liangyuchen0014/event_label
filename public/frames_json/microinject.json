@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "microinject.01",
-        "roleset_name": "inject into a tissue or living cell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent, injector"
-            },
-            {
-                "n": "1",
-                "descr": "substance being injected"
-            },
-            {
-                "n": "2",
-                "descr": "injected into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "microinject.01",
+    "roleset_name": "inject into a tissue or living cell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent, injector",
+        "descr_trans": "故意代理人、注射者"
+      },
+      {
+        "n": "1",
+        "descr": "substance being injected",
+        "descr_trans": "被注射的物质"
+      },
+      {
+        "n": "2",
+        "descr": "injected into",
+        "descr_trans": "注入"
+      }
+    ],
+    "roleset_name_trans": "注射到组织或活细胞中"
+  }
 ]

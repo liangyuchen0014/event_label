@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "question.01",
-        "roleset_name": "ask a question (of a listener)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker"
-            },
-            {
-                "n": "1",
-                "descr": "question"
-            },
-            {
-                "n": "2",
-                "descr": "entity asked, hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "question.02",
-        "roleset_name": "out-of-the-question",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is out of the question"
-            },
-            {
-                "n": "2",
-                "descr": "for whom/what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "question.03",
-        "roleset_name": "have doubts, be dubious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having doubts"
-            },
-            {
-                "n": "1",
-                "descr": "thing whose truth value is in question"
-            },
-            {
-                "n": "2",
-                "descr": "more general entity in regard to which Arg1's truth value is questioned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "question.01",
+    "roleset_name": "ask a question (of a listener)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "question",
+        "descr_trans": "问题"
+      },
+      {
+        "n": "2",
+        "descr": "entity asked, hearer",
+        "descr_trans": "实体询问，听者"
+      }
+    ],
+    "roleset_name_trans": "（向听众）提出问题"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "question.02",
+    "roleset_name": "out-of-the-question",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is out of the question",
+        "descr_trans": "不可能的事"
+      },
+      {
+        "n": "2",
+        "descr": "for whom/what",
+        "descr_trans": "为了谁/什么"
+      }
+    ],
+    "roleset_name_trans": "毫无疑问的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "question.03",
+    "roleset_name": "have doubts, be dubious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having doubts",
+        "descr_trans": "实体有疑问"
+      },
+      {
+        "n": "1",
+        "descr": "thing whose truth value is in question",
+        "descr_trans": "其真实价值受到质疑的事物"
+      },
+      {
+        "n": "2",
+        "descr": "more general entity in regard to which Arg1's truth value is questioned",
+        "descr_trans": "更一般的实体，Arg1 的真值受到质疑"
+      }
+    ],
+    "roleset_name_trans": "有疑问，有疑问"
+  }
 ]

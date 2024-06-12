@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sever.01",
-        "roleset_name": "to divide or separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity severed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "severable.02",
-        "roleset_name": "able to be severed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity severed"
-            },
-            {
-                "n": "2",
-                "descr": "from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sever.01",
+    "roleset_name": "to divide or separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity severed",
+        "descr_trans": "实体被切断"
+      }
+    ],
+    "roleset_name_trans": "分开或分开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "severable.02",
+    "roleset_name": "able to be severed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity severed",
+        "descr_trans": "实体被切断"
+      },
+      {
+        "n": "2",
+        "descr": "from what",
+        "descr_trans": "从何而来"
+      }
+    ],
+    "roleset_name_trans": "能够被切断"
+  }
 ]

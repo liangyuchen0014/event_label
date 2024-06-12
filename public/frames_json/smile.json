@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smile.01",
-        "roleset_name": "to have or form a smile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent smiling"
-            },
-            {
-                "n": "1",
-                "descr": "cognate object"
-            },
-            {
-                "n": "2",
-                "descr": "smiled at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smile.02",
-        "roleset_name": "manner of speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smiling speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smile.01",
+    "roleset_name": "to have or form a smile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent smiling",
+        "descr_trans": "代理人微笑"
+      },
+      {
+        "n": "1",
+        "descr": "cognate object",
+        "descr_trans": "同源对象"
+      },
+      {
+        "n": "2",
+        "descr": "smiled at",
+        "descr_trans": "微笑着"
+      }
+    ],
+    "roleset_name_trans": "拥有或形成微笑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smile.02",
+    "roleset_name": "manner of speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smiling speaker",
+        "descr_trans": "微笑的演讲者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说话方式"
+  }
 ]

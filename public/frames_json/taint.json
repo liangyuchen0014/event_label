@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "taint.01",
-        "roleset_name": "contaminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/source of contamination"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming contaminated"
-            },
-            {
-                "n": "2",
-                "descr": "contaminant"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "taint.01",
+    "roleset_name": "contaminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/source of contamination",
+        "descr_trans": "污染原因/污染源"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming contaminated",
+        "descr_trans": "事物被污染"
+      },
+      {
+        "n": "2",
+        "descr": "contaminant",
+        "descr_trans": "污染物"
+      }
+    ],
+    "roleset_name_trans": "污染"
+  }
 ]

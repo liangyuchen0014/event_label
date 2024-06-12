@@ -1,73 +1,87 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "great.01",
-        "roleset_name": "generally very positive, pleasing, better than 'good'",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally positive/pleasing entity (concation may be required)"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of goodness (behavior directed toward)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "great.02",
-        "roleset_name": "very skilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "great.03",
-        "roleset_name": "large, physically or metaphorically",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "large one"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "great.04",
-        "roleset_name": "beneficial, possibly for health",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is beneficial"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "greater_than_symbol.05",
-        "roleset_name": "the greater than symbol '>'. mathematical equation., greater than",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "left side of the mathematical equation"
-            },
-            {
-                "n": "2",
-                "descr": "right side of the mathematical equation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "great.01",
+    "roleset_name": "generally very positive, pleasing, better than 'good'",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally positive/pleasing entity (concation may be required)",
+        "descr_trans": "通常是积极的/令人愉快的实体（可能需要配合）"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of goodness (behavior directed toward)",
+        "descr_trans": "善行的接受者（针对的行为）"
+      }
+    ],
+    "roleset_name_trans": "总体上非常积极、令人愉快，比“好”更好"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "great.02",
+    "roleset_name": "very skilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "skilled entity",
+        "descr_trans": "技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "非常擅长"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "great.03",
+    "roleset_name": "large, physically or metaphorically",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "large one",
+        "descr_trans": "大的一个"
+      }
+    ],
+    "roleset_name_trans": "大的，物理的或隐喻的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "great.04",
+    "roleset_name": "beneficial, possibly for health",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is beneficial",
+        "descr_trans": "有益的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "有益的，可能有益于健康"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "greater_than_symbol.05",
+    "roleset_name": "the greater than symbol '>'. mathematical equation., greater than",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "left side of the mathematical equation",
+        "descr_trans": "数学方程的左边"
+      },
+      {
+        "n": "2",
+        "descr": "right side of the mathematical equation",
+        "descr_trans": "数学方程的右边"
+      }
+    ],
+    "roleset_name_trans": "大于号“&gt;”。数学方程。，大于"
+  }
 ]

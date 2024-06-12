@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flux.01",
-        "roleset_name": "to move, flow like a stream",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Mover, entity flowing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flux.02",
-        "roleset_name": "become liquid when heated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, cause of melting"
-            },
-            {
-                "n": "1",
-                "descr": "Entity becoming liquid"
-            },
-            {
-                "n": "2",
-                "descr": "Resulting liquid"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "flux.03",
-        "roleset_name": "blend two ingredients together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of mixing"
-            },
-            {
-                "n": "1",
-                "descr": "First or all (if together in single constituent) ingredients mixed"
-            },
-            {
-                "n": "2",
-                "descr": "Second ingredient when separate mention"
-            },
-            {
-                "n": "3",
-                "descr": "End product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flux.01",
+    "roleset_name": "to move, flow like a stream",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Mover, entity flowing",
+        "descr_trans": "移动者，实体流动"
+      }
+    ],
+    "roleset_name_trans": "像溪流一样移动、流动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flux.02",
+    "roleset_name": "become liquid when heated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, cause of melting",
+        "descr_trans": "剂、熔化原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity becoming liquid",
+        "descr_trans": "实体变成液体"
+      },
+      {
+        "n": "2",
+        "descr": "Resulting liquid",
+        "descr_trans": "所得液体"
+      }
+    ],
+    "roleset_name_trans": "加热时变成液体"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "flux.03",
+    "roleset_name": "blend two ingredients together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of mixing",
+        "descr_trans": "剂、混合原因"
+      },
+      {
+        "n": "1",
+        "descr": "First or all (if together in single constituent) ingredients mixed",
+        "descr_trans": "第一个或所有（如果一起在单一成分中）成分混合"
+      },
+      {
+        "n": "2",
+        "descr": "Second ingredient when separate mention",
+        "descr_trans": "单独提及时的第二种成分"
+      },
+      {
+        "n": "3",
+        "descr": "End product",
+        "descr_trans": "成品"
+      }
+    ],
+    "roleset_name_trans": "将两种成分混合在一起"
+  }
 ]

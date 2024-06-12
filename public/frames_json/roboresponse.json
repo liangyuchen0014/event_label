@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roboresponse.01",
-        "roleset_name": "respond automatically (or automatedly), like a robot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "responder"
-            },
-            {
-                "n": "1",
-                "descr": "in response to"
-            },
-            {
-                "n": "2",
-                "descr": "the response"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roboresponse.01",
+    "roleset_name": "respond automatically (or automatedly), like a robot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "responder",
+        "descr_trans": "响应者"
+      },
+      {
+        "n": "1",
+        "descr": "in response to",
+        "descr_trans": "回应"
+      },
+      {
+        "n": "2",
+        "descr": "the response",
+        "descr_trans": "响应"
+      }
+    ],
+    "roleset_name_trans": "像机器人一样自动响应"
+  }
 ]

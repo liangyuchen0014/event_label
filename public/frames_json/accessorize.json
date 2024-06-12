@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "accessorize.01",
-        "roleset_name": "furnish with accessories",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, furnishing entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity furnished"
-            },
-            {
-                "n": "2",
-                "descr": "furnished with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "accessorize.01",
+    "roleset_name": "furnish with accessories",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, furnishing entity",
+        "descr_trans": "代理、提供实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity furnished",
+        "descr_trans": "实体提供"
+      },
+      {
+        "n": "2",
+        "descr": "furnished with what",
+        "descr_trans": "配有什么"
+      }
+    ],
+    "roleset_name_trans": "配备配件"
+  }
 ]

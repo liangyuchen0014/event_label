@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retrieve.01",
-        "roleset_name": "get back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            },
-            {
-                "n": "2",
-                "descr": "received from"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retrieve.01",
+    "roleset_name": "get back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      },
+      {
+        "n": "2",
+        "descr": "received from",
+        "descr_trans": "从......收到"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "回来"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stem.01",
-        "roleset_name": "arise (from)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing (state) arising"
-            },
-            {
-                "n": "2",
-                "descr": "source (from or in or of)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stem.02",
-        "roleset_name": "cause to stop (often flowing, as a liquid)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper"
-            },
-            {
-                "n": "1",
-                "descr": "thing being stopped, (liquid)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stem.03",
-        "roleset_name": "pointing skis inward in order to slow down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "skier"
-            },
-            {
-                "n": "1",
-                "descr": "skis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stem.01",
+    "roleset_name": "arise (from)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing (state) arising",
+        "descr_trans": "事物（状态）产生"
+      },
+      {
+        "n": "2",
+        "descr": "source (from or in or of)",
+        "descr_trans": "来源（来自或来自或来自）"
+      }
+    ],
+    "roleset_name_trans": "源自）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stem.02",
+    "roleset_name": "cause to stop (often flowing, as a liquid)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper",
+        "descr_trans": "塞子"
+      },
+      {
+        "n": "1",
+        "descr": "thing being stopped, (liquid)",
+        "descr_trans": "物体被停止，（液体）"
+      }
+    ],
+    "roleset_name_trans": "导致停止（通常作为液体流动）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stem.03",
+    "roleset_name": "pointing skis inward in order to slow down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "skier",
+        "descr_trans": "滑雪者"
+      },
+      {
+        "n": "1",
+        "descr": "skis",
+        "descr_trans": "滑雪板"
+      }
+    ],
+    "roleset_name_trans": "将滑雪板向内以减慢速度"
+  }
 ]

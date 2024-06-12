@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immigrate.01",
-        "roleset_name": "move population",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "population"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immigrate.01",
+    "roleset_name": "move population",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "population",
+        "descr_trans": "人口"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "移动人口"
+  }
 ]

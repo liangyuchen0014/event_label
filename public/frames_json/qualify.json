@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "qualify.01",
-        "roleset_name": "define (further), further defining, hedging, putting conditions on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing being described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "qualify.02",
-        "roleset_name": "measure up to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause, qualifying factor"
-            },
-            {
-                "n": "1",
-                "descr": "entity being tested"
-            },
-            {
-                "n": "2",
-                "descr": "for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "qualify.01",
+    "roleset_name": "define (further), further defining, hedging, putting conditions on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "定义（进一步）、进一步定义、对冲、施加条件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "qualify.02",
+    "roleset_name": "measure up to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause, qualifying factor",
+        "descr_trans": "代理人/原因，资格因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity being tested",
+        "descr_trans": "被测试实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what?",
+        "descr_trans": "为了什么？"
+      }
+    ],
+    "roleset_name_trans": "达到"
+  }
 ]

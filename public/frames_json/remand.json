@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remand.01",
-        "roleset_name": "send (a case) back to a lower   court, or a prisoner back to prison",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sender-back"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remand.01",
+    "roleset_name": "send (a case) back to a lower   court, or a prisoner back to prison",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sender-back",
+        "descr_trans": "代理，发件人返回"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sent to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "将（案件）发回下级法院，或将囚犯送回监狱"
+  }
 ]

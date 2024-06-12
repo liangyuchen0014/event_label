@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hint.01",
-        "roleset_name": "say, giving a clue, suggesting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance (hint)"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hint.01",
+    "roleset_name": "say, giving a clue, suggesting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance (hint)",
+        "descr_trans": "话语（提示）"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说，提供线索，建议"
+  }
 ]

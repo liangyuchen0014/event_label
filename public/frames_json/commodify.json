@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commodify.01",
-        "roleset_name": "to make into  a commodity, commercialize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing commodified"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commodify.01",
+    "roleset_name": "to make into  a commodity, commercialize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing commodified",
+        "descr_trans": "商品化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg 0",
+        "descr_trans": "仪器，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "使之成为商品，商业化"
+  }
 ]

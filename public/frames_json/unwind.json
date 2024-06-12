@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unwind.01",
-        "roleset_name": "(cause to) be uncoiled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unroller"
-            },
-            {
-                "n": "1",
-                "descr": "thing unrolled or unrolling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unwind.02",
-        "roleset_name": "relax",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "relaxer"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unwind.01",
+    "roleset_name": "(cause to) be uncoiled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unroller",
+        "descr_trans": "展开器"
+      },
+      {
+        "n": "1",
+        "descr": "thing unrolled or unrolling",
+        "descr_trans": "展开或展开的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）展开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unwind.02",
+    "roleset_name": "relax",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "relaxer",
+        "descr_trans": "放松剂"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "放松"
+  }
 ]

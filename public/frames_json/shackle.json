@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shackle.01",
-        "roleset_name": "restrain, tie up, bind in shackles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the shackling"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being shackled"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, shackled to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, shackles"
-            },
-            {
-                "n": "4",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shackle.01",
+    "roleset_name": "restrain, tie up, bind in shackles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the shackling",
+        "descr_trans": "代理人，进行束缚的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being shackled",
+        "descr_trans": "第一件事就是被束缚"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, shackled to what",
+        "descr_trans": "第二件事，束缚于什么"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, shackles",
+        "descr_trans": "仪器、枷锁"
+      },
+      {
+        "n": "4",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "用脚镣束缚、束缚、束缚"
+  }
 ]

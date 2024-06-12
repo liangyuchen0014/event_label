@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spear.01",
-        "roleset_name": "spear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, spearer"
-            },
-            {
-                "n": "1",
-                "descr": "entity being speared, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used, spear"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state of arg1, often prepositional"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spear.01",
+    "roleset_name": "spear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, spearer",
+        "descr_trans": "代理人, 矛手"
+      },
+      {
+        "n": "1",
+        "descr": "entity being speared, patient",
+        "descr_trans": "实体被矛刺，有耐心"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used, spear",
+        "descr_trans": "使用的乐器，矛"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state of arg1, often prepositional",
+        "descr_trans": "arg1 的结果状态，通常是介词"
+      }
+    ],
+    "roleset_name_trans": "矛"
+  }
 ]

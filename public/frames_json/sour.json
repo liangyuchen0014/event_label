@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sour.01",
-        "roleset_name": "make sour",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing sourness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming sour"
-            },
-            {
-                "n": "2",
-                "descr": "'benefactive'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sour.01",
+    "roleset_name": "make sour",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing sourness",
+        "descr_trans": "代理，引起酸味的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming sour",
+        "descr_trans": "东西变酸"
+      },
+      {
+        "n": "2",
+        "descr": "'benefactive'",
+        "descr_trans": "“有益”"
+      }
+    ],
+    "roleset_name_trans": "使酸"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expropriate.01",
-        "roleset_name": "revoke ownership",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expropriator"
-            },
-            {
-                "n": "1",
-                "descr": "thing revoked"
-            },
-            {
-                "n": "2",
-                "descr": "owner removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expropriate.01",
+    "roleset_name": "revoke ownership",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expropriator",
+        "descr_trans": "征用者"
+      },
+      {
+        "n": "1",
+        "descr": "thing revoked",
+        "descr_trans": "事情被撤销"
+      },
+      {
+        "n": "2",
+        "descr": "owner removed from",
+        "descr_trans": "所有者已从"
+      }
+    ],
+    "roleset_name_trans": "撤销所有权"
+  }
 ]

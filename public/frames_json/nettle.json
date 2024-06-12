@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nettle.01",
-        "roleset_name": "vex or irritate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "Nettled entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nettle.01",
+    "roleset_name": "vex or irritate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "Nettled entity",
+        "descr_trans": "恼怒的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "烦恼或激怒"
+  }
 ]

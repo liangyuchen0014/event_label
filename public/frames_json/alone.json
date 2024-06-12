@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alone.01",
-        "roleset_name": "isolated, unaccompanied, unique",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "loner"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which arg1 is unique"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "leave_alone.02",
-        "roleset_name": "stop bothering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bothersome entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity who doesn't want to be bothered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alone.01",
+    "roleset_name": "isolated, unaccompanied, unique",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "loner",
+        "descr_trans": "孤独者"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which arg1 is unique",
+        "descr_trans": "arg1 是唯一的域"
+      }
+    ],
+    "roleset_name_trans": "孤立的，无人陪伴的，独特的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "leave_alone.02",
+    "roleset_name": "stop bothering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bothersome entity",
+        "descr_trans": "麻烦的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity who doesn't want to be bothered",
+        "descr_trans": "不想被打扰的实体"
+      }
+    ],
+    "roleset_name_trans": "别烦"
+  }
 ]

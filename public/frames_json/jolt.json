@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jolt.01",
-        "roleset_name": "surprise, shock, be jostled physically or mentally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jolter"
-            },
-            {
-                "n": "1",
-                "descr": "person jolted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jolt.02",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jolter"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jolt.01",
+    "roleset_name": "surprise, shock, be jostled physically or mentally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jolter",
+        "descr_trans": "震动"
+      },
+      {
+        "n": "1",
+        "descr": "person jolted",
+        "descr_trans": "人摇晃"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from agent",
+        "descr_trans": "仪器，如果与代理分开"
+      }
+    ],
+    "roleset_name_trans": "惊讶、震惊、身心受到冲击"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jolt.02",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jolter",
+        "descr_trans": "震动"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hospitalize.01",
-        "roleset_name": "be in or send to (the) hospital, under care in the hospital",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "injured/ill entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hospitalize.01",
+    "roleset_name": "be in or send to (the) hospital, under care in the hospital",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "injured/ill entity",
+        "descr_trans": "受伤/生病的实体"
+      }
+    ],
+    "roleset_name_trans": "正在医院或被送往医院，在医院接受护理"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parade.01",
-        "roleset_name": "walk showily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being paraded"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "parade.02",
-        "roleset_name": "celebratory march/showing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "marching/celebrating entities"
-            },
-            {
-                "n": "2",
-                "descr": "party, occasion"
-            },
-            {
-                "n": "3",
-                "descr": "thing being displayed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parade.01",
+    "roleset_name": "walk showily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being paraded",
+        "descr_trans": "被游行的实体"
+      }
+    ],
+    "roleset_name_trans": "走路华丽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "parade.02",
+    "roleset_name": "celebratory march/showing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "marching/celebrating entities",
+        "descr_trans": "游行/庆祝实体"
+      },
+      {
+        "n": "2",
+        "descr": "party, occasion",
+        "descr_trans": "聚会、场合"
+      },
+      {
+        "n": "3",
+        "descr": "thing being displayed",
+        "descr_trans": "正在显示的东西"
+      }
+    ],
+    "roleset_name_trans": "庆祝游行/表演"
+  }
 ]

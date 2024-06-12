@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "offload.01",
-        "roleset_name": "cause to be unburdened",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unloader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "beast of burden"
-            },
-            {
-                "n": "2",
-                "descr": "cargo"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "offload.01",
+    "roleset_name": "cause to be unburdened",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unloader, agent",
+        "descr_trans": "卸货员、代理"
+      },
+      {
+        "n": "1",
+        "descr": "beast of burden",
+        "descr_trans": "负重的野兽"
+      },
+      {
+        "n": "2",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使人卸下负担"
+  }
 ]

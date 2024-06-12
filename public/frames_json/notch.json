@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "notch.01",
-        "roleset_name": "make a notch, mark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity marking"
-            },
-            {
-                "n": "1",
-                "descr": "thing being commemorated"
-            },
-            {
-                "n": "2",
-                "descr": "thing gaining the notch (ie, belt)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "notch.02",
-        "roleset_name": "move incrementally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving something"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount moved"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "direction--REQUIRED"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "notch.01",
+    "roleset_name": "make a notch, mark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity marking",
+        "descr_trans": "代理、实体标记"
+      },
+      {
+        "n": "1",
+        "descr": "thing being commemorated",
+        "descr_trans": "被纪念的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing gaining the notch (ie, belt)",
+        "descr_trans": "获得等级的东西（即腰带）"
+      }
+    ],
+    "roleset_name_trans": "做一个凹口，标记"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "notch.02",
+    "roleset_name": "move incrementally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving something",
+        "descr_trans": "实体移动某物"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing moving",
+        "descr_trans": "逻辑主题、耐心、事物移动"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount moved",
+        "descr_trans": "EXT，移动量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "direction--REQUIRED",
+        "descr_trans": "方向--必填"
+      }
+    ],
+    "roleset_name_trans": "逐步移动"
+  }
 ]

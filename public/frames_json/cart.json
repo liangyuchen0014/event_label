@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cart.01",
-        "roleset_name": "to convey in a car or truck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conveyor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity transported"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cart_off.02",
-        "roleset_name": "to take away  in a car or truck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transporter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity transported"
-            },
-            {
-                "n": "2",
-                "descr": "entity transported from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cart.01",
+    "roleset_name": "to convey in a car or truck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conveyor, agent",
+        "descr_trans": "输送机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity transported",
+        "descr_trans": "实体传送"
+      }
+    ],
+    "roleset_name_trans": "用汽车或卡车运输"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cart_off.02",
+    "roleset_name": "to take away  in a car or truck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transporter, agent",
+        "descr_trans": "运输者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity transported",
+        "descr_trans": "实体传送"
+      },
+      {
+        "n": "2",
+        "descr": "entity transported from",
+        "descr_trans": "实体传送自"
+      }
+    ],
+    "roleset_name_trans": "用汽车或卡车带走"
+  }
 ]

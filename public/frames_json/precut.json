@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "precut.01",
-        "roleset_name": "cut beforehand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "5",
-                "descr": "pieces"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "precut.01",
+    "roleset_name": "cut beforehand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "5",
+        "descr": "pieces",
+        "descr_trans": "件"
+      }
+    ],
+    "roleset_name_trans": "预先切割"
+  }
 ]

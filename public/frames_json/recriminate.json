@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recriminate.01",
-        "roleset_name": "make mutual/return accusations against",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accuser (in return)"
-            },
-            {
-                "n": "1",
-                "descr": "accused"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recriminate.01",
+    "roleset_name": "make mutual/return accusations against",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accuser (in return)",
+        "descr_trans": "原告（作为回报）"
+      },
+      {
+        "n": "1",
+        "descr": "accused",
+        "descr_trans": "被告"
+      }
+    ],
+    "roleset_name_trans": "互相指责/回击"
+  }
 ]

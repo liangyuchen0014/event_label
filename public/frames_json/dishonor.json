@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dishonor.01",
-        "roleset_name": "bring shame upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of disgrace"
-            },
-            {
-                "n": "1",
-                "descr": "entity dishonoured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dishonor.02",
-        "roleset_name": "refuse to accept",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one rejecting"
-            },
-            {
-                "n": "1",
-                "descr": "unexcepted item"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dishonor.03",
-        "roleset_name": "violate/rape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assailant"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dishonor.01",
+    "roleset_name": "bring shame upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of disgrace",
+        "descr_trans": "造成耻辱的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dishonoured",
+        "descr_trans": "实体蒙羞"
+      }
+    ],
+    "roleset_name_trans": "蒙羞"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dishonor.02",
+    "roleset_name": "refuse to accept",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one rejecting",
+        "descr_trans": "一个拒绝"
+      },
+      {
+        "n": "1",
+        "descr": "unexcepted item",
+        "descr_trans": "无例外的项目"
+      }
+    ],
+    "roleset_name_trans": "拒绝接受"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dishonor.03",
+    "roleset_name": "violate/rape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assailant",
+        "descr_trans": "袭击者"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "侵犯/强奸"
+  }
 ]

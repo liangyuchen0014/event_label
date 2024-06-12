@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "on.01",
-        "roleset_name": "functioning, active",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "functioning thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "on_to.02",
-        "roleset_name": "close to apprehending",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity close to apprehending"
-            },
-            {
-                "n": "1",
-                "descr": "entity, thing, concept almost apprehended"
-            },
-            {
-                "n": "2",
-                "descr": "pathway to enlightenment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "on.01",
+    "roleset_name": "functioning, active",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "functioning thing",
+        "descr_trans": "功能性的东西"
+      }
+    ],
+    "roleset_name_trans": "功能性的、活跃的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "on_to.02",
+    "roleset_name": "close to apprehending",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity close to apprehending",
+        "descr_trans": "接近逮捕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity, thing, concept almost apprehended",
+        "descr_trans": "实体、事物、概念几乎被理解"
+      },
+      {
+        "n": "2",
+        "descr": "pathway to enlightenment",
+        "descr_trans": "启蒙之路"
+      }
+    ],
+    "roleset_name_trans": "接近领悟"
+  }
 ]

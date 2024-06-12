@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nag.01",
-        "roleset_name": "nag, pester",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "nagger"
-            },
-            {
-                "n": "1",
-                "descr": "nagged, impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nag.01",
+    "roleset_name": "nag, pester",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "nagger",
+        "descr_trans": "唠叨者"
+      },
+      {
+        "n": "1",
+        "descr": "nagged, impelled agent",
+        "descr_trans": "被唠叨的、被迫的代理人"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "唠叨，纠缠"
+  }
 ]

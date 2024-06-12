@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arm.01",
-        "roleset_name": "to equip or provide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "equiper, provider, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity armed"
-            },
-            {
-                "n": "2",
-                "descr": "equipment"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "arm_up.02",
-        "roleset_name": "arm_up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "equiper, provider, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity armed"
-            },
-            {
-                "n": "2",
-                "descr": "equipment"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stiff_arm.03",
-        "roleset_name": "deflect an opponent using straight, stiff arms (maybe metaphorical)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deflector"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arm.01",
+    "roleset_name": "to equip or provide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "equiper, provider, agent",
+        "descr_trans": "设备商、供应商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity armed",
+        "descr_trans": "实体武装"
+      },
+      {
+        "n": "2",
+        "descr": "equipment",
+        "descr_trans": "设备"
+      }
+    ],
+    "roleset_name_trans": "装备或提供"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "arm_up.02",
+    "roleset_name": "arm_up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "equiper, provider, agent",
+        "descr_trans": "设备商、供应商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity armed",
+        "descr_trans": "实体武装"
+      },
+      {
+        "n": "2",
+        "descr": "equipment",
+        "descr_trans": "设备"
+      }
+    ],
+    "roleset_name_trans": "举起手臂"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stiff_arm.03",
+    "roleset_name": "deflect an opponent using straight, stiff arms (maybe metaphorical)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deflector",
+        "descr_trans": "偏转器"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "使用笔直、僵硬的手臂来偏转对手（也许是隐喻）"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "replaster.01",
-        "roleset_name": "put plaster on something again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent putting plaster on something"
-            },
-            {
-                "n": "1",
-                "descr": "thing put/plastered, plaster or thing serving as plaster itself"
-            },
-            {
-                "n": "2",
-                "descr": "where plaster is put, thing getting covered in plaster"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "replaster.01",
+    "roleset_name": "put plaster on something again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent putting plaster on something",
+        "descr_trans": "特工在某物上贴石膏"
+      },
+      {
+        "n": "1",
+        "descr": "thing put/plastered, plaster or thing serving as plaster itself",
+        "descr_trans": "放置/抹灰的东西、灰泥或本身用作灰泥的东西"
+      },
+      {
+        "n": "2",
+        "descr": "where plaster is put, thing getting covered in plaster",
+        "descr_trans": "放置石膏的地方，被石膏覆盖的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "再次在某物上贴上石膏"
+  }
 ]

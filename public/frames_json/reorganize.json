@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reorganize.01",
-        "roleset_name": "make organized again, resorting, restruucturing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "organizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing organized"
-            },
-            {
-                "n": "2",
-                "descr": "previous state"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of arg1 that is being reorganized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reorganize.01",
+    "roleset_name": "make organized again, resorting, restruucturing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "organizer",
+        "descr_trans": "组织者"
+      },
+      {
+        "n": "1",
+        "descr": "thing organized",
+        "descr_trans": "事情组织起来"
+      },
+      {
+        "n": "2",
+        "descr": "previous state",
+        "descr_trans": "之前的状态"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of arg1 that is being reorganized",
+        "descr_trans": "正在重组的 arg1 的特定方面"
+      }
+    ],
+    "roleset_name_trans": "重新组织、诉诸、重组"
+  }
 ]

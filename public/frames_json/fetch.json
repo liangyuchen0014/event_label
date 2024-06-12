@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fetch.01",
-        "roleset_name": "bring (back)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer"
-            },
-            {
-                "n": "1",
-                "descr": "thing brought"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, brought-for, brought-to"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            },
-            {
-                "n": "4",
-                "descr": "ablative, brought-from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fetch.01",
+    "roleset_name": "bring (back)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer",
+        "descr_trans": "布林尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing brought",
+        "descr_trans": "带来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, brought-for, brought-to",
+        "descr_trans": "有益的，带来的，带来的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      },
+      {
+        "n": "4",
+        "descr": "ablative, brought-from",
+        "descr_trans": "烧蚀的，带来的"
+      }
+    ],
+    "roleset_name_trans": "带回）"
+  }
 ]

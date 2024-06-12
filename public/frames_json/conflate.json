@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conflate.01",
-        "roleset_name": "confuse x for y",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer of confusion"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) thing(s) confused"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, confused with arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conflate.01",
+    "roleset_name": "confuse x for y",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer of confusion",
+        "descr_trans": "迷茫的经历者"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) thing(s) confused",
+        "descr_trans": "第一个（或所有）事情感到困惑"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, confused with arg1",
+        "descr_trans": "第二件事，与 arg1 混淆"
+      }
+    ],
+    "roleset_name_trans": "混淆 x 和 y"
+  }
 ]

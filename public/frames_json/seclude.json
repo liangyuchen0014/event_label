@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seclude.01",
-        "roleset_name": "seclude",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "secluder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing hidden, secluded, patient"
-            },
-            {
-                "n": "2",
-                "descr": "hidden from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seclude.01",
+    "roleset_name": "seclude",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "secluder, agent",
+        "descr_trans": "隔离者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing hidden, secluded, patient",
+        "descr_trans": "隐藏的、僻静的、有耐心的东西"
+      },
+      {
+        "n": "2",
+        "descr": "hidden from",
+        "descr_trans": "隐藏于"
+      }
+    ],
+    "roleset_name_trans": "隔离"
+  }
 ]

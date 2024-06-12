@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sap.01",
-        "roleset_name": "deplete of resources",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "resources"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sap.01",
+    "roleset_name": "deplete of resources",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "resources",
+        "descr_trans": "资源"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "资源枯竭"
+  }
 ]

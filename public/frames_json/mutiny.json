@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mutiny.01",
-        "roleset_name": "nautical coup d'?tat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mutineers"
-            },
-            {
-                "n": "1",
-                "descr": "entity overthrown"
-            },
-            {
-                "n": "2",
-                "descr": "ship"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mutiny.01",
+    "roleset_name": "nautical coup d'?tat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mutineers",
+        "descr_trans": "叛变者"
+      },
+      {
+        "n": "1",
+        "descr": "entity overthrown",
+        "descr_trans": "实体被推翻"
+      },
+      {
+        "n": "2",
+        "descr": "ship",
+        "descr_trans": "船"
+      }
+    ],
+    "roleset_name_trans": "航海政变"
+  }
 ]

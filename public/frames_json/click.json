@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "click.01",
-        "roleset_name": "(cause to) emit clicking sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of clicking noise"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting clicks"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "click.02",
-        "roleset_name": "have good relations",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity 1"
-            },
-            {
-                "n": "2",
-                "descr": "entity 2"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "click.01",
+    "roleset_name": "(cause to) emit clicking sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of clicking noise",
+        "descr_trans": "产生咔嗒声的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting clicks",
+        "descr_trans": "发出点击声的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）发出喀哒声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "click.02",
+    "roleset_name": "have good relations",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity 1",
+        "descr_trans": "实体1"
+      },
+      {
+        "n": "2",
+        "descr": "entity 2",
+        "descr_trans": "实体2"
+      }
+    ],
+    "roleset_name_trans": "有良好的关系"
+  }
 ]

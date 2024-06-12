@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drown.01",
-        "roleset_name": "to cover completely or make imperceptible",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity covering"
-            },
-            {
-                "n": "1",
-                "descr": "entity covered"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drown.02",
-        "roleset_name": "to die or kill by submerging in water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "person drowned"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "drown_out.03",
-        "roleset_name": "to make imperceptible",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "a louder sound"
-            },
-            {
-                "n": "1",
-                "descr": "an imperceptible sound"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drown.01",
+    "roleset_name": "to cover completely or make imperceptible",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity covering",
+        "descr_trans": "实体覆盖"
+      },
+      {
+        "n": "1",
+        "descr": "entity covered",
+        "descr_trans": "涵盖的实体"
+      }
+    ],
+    "roleset_name_trans": "完全覆盖或难以察觉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drown.02",
+    "roleset_name": "to die or kill by submerging in water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "person drowned",
+        "descr_trans": "人淹死了"
+      }
+    ],
+    "roleset_name_trans": "浸入水中而死或杀死"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "drown_out.03",
+    "roleset_name": "to make imperceptible",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "a louder sound",
+        "descr_trans": "更大的声音"
+      },
+      {
+        "n": "1",
+        "descr": "an imperceptible sound",
+        "descr_trans": "难以察觉的声音"
+      }
+    ],
+    "roleset_name_trans": "使难以察觉"
+  }
 ]

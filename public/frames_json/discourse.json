@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discourse.01",
-        "roleset_name": "converse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discourse.01",
+    "roleset_name": "converse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "交谈"
+  }
 ]

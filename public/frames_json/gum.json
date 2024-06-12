@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gum.01",
-        "roleset_name": "fill, attach, or fix with gum or gum-like substance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Fixer"
-            },
-            {
-                "n": "1",
-                "descr": "First (or all in one constituent) thing gummed"
-            },
-            {
-                "n": "2",
-                "descr": "Thing arg1 is attached to with gum (when separate constituent)"
-            },
-            {
-                "n": "3",
-                "descr": "Gum itself, type of gum used, instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gum.02",
-        "roleset_name": "to chew without gums",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chewer"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gum_up.03",
-        "roleset_name": "make sticky, metaphorically make a sticky situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of things becoming sticky"
-            },
-            {
-                "n": "2",
-                "descr": "Entity, situation made sticky"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gum.01",
+    "roleset_name": "fill, attach, or fix with gum or gum-like substance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Fixer",
+        "descr_trans": "固定器"
+      },
+      {
+        "n": "1",
+        "descr": "First (or all in one constituent) thing gummed",
+        "descr_trans": "第一个（或全部在一个组成部分中）涂胶的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Thing arg1 is attached to with gum (when separate constituent)",
+        "descr_trans": "东西 arg1 用口香糖附着（当单独的成分时）"
+      },
+      {
+        "n": "3",
+        "descr": "Gum itself, type of gum used, instrument",
+        "descr_trans": "口香糖本身、所用口香糖类型、仪器"
+      }
+    ],
+    "roleset_name_trans": "用口香糖或口香糖类物质填充、附着或固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gum.02",
+    "roleset_name": "to chew without gums",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chewer",
+        "descr_trans": "咀嚼者"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "不用牙龈咀嚼"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gum_up.03",
+    "roleset_name": "make sticky, metaphorically make a sticky situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of things becoming sticky",
+        "descr_trans": "东西变粘的原因"
+      },
+      {
+        "n": "2",
+        "descr": "Entity, situation made sticky",
+        "descr_trans": "实体、情况变得粘性"
+      }
+    ],
+    "roleset_name_trans": "使粘性，比喻使情况变得粘性"
+  }
 ]

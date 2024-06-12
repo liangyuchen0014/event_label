@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indicate.01",
-        "roleset_name": "show, suggesting, pointing to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "indicator"
-            },
-            {
-                "n": "1",
-                "descr": "thing indicated"
-            },
-            {
-                "n": "2",
-                "descr": "indicated to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "indicate.101",
-        "roleset_name": "recommend a course of action",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Indicating item (often a symptom or situation)"
-            },
-            {
-                "n": "2",
-                "descr": "Indicated item (often a medication or treatment)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indicate.01",
+    "roleset_name": "show, suggesting, pointing to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "indicator",
+        "descr_trans": "指标"
+      },
+      {
+        "n": "1",
+        "descr": "thing indicated",
+        "descr_trans": "表明的东西"
+      },
+      {
+        "n": "2",
+        "descr": "indicated to",
+        "descr_trans": "指示给"
+      }
+    ],
+    "roleset_name_trans": "显示、建议、指出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "indicate.101",
+    "roleset_name": "recommend a course of action",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Indicating item (often a symptom or situation)",
+        "descr_trans": "指示项（通常是症状或情况）"
+      },
+      {
+        "n": "2",
+        "descr": "Indicated item (often a medication or treatment)",
+        "descr_trans": "指定项目（通常是药物或治疗）"
+      }
+    ],
+    "roleset_name_trans": "建议采取行动"
+  }
 ]

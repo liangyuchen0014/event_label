@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "litter.01",
-        "roleset_name": "fail to put garbage in the   right place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "litterbug"
-            },
-            {
-                "n": "1",
-                "descr": "where garbage ended up"
-            },
-            {
-                "n": "2",
-                "descr": "garbage"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "litter.01",
+    "roleset_name": "fail to put garbage in the   right place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "litterbug",
+        "descr_trans": "垃圾虫"
+      },
+      {
+        "n": "1",
+        "descr": "where garbage ended up",
+        "descr_trans": "垃圾最终去向的地方"
+      },
+      {
+        "n": "2",
+        "descr": "garbage",
+        "descr_trans": "垃圾"
+      }
+    ],
+    "roleset_name_trans": "没有把垃圾放在正确的地方"
+  }
 ]

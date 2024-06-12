@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overeat.01",
-        "roleset_name": "eat too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consumer"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overeat.01",
+    "roleset_name": "eat too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consumer",
+        "descr_trans": "消费者"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "吃太多"
+  }
 ]

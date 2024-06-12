@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refuse.01",
-        "roleset_name": "refuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity refusing"
-            },
-            {
-                "n": "1",
-                "descr": "refused action or object"
-            },
-            {
-                "n": "2",
-                "descr": "anti-benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refuse.01",
+    "roleset_name": "refuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity refusing",
+        "descr_trans": "实体拒绝"
+      },
+      {
+        "n": "1",
+        "descr": "refused action or object",
+        "descr_trans": "拒绝行动或对象"
+      },
+      {
+        "n": "2",
+        "descr": "anti-benefactive",
+        "descr_trans": "反有益的"
+      }
+    ],
+    "roleset_name_trans": "拒绝"
+  }
 ]

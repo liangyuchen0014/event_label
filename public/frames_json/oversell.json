@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oversell.01",
-        "roleset_name": "to sell more than can be delivered",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity oversold"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oversell.01",
+    "roleset_name": "to sell more than can be delivered",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller, agent",
+        "descr_trans": "卖家、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity oversold",
+        "descr_trans": "实体超卖"
+      }
+    ],
+    "roleset_name_trans": "销售量超过交付量"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "friend.01",
-        "roleset_name": "add/request as a 'friend' on social media",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "friend request maker"
-            },
-            {
-                "n": "1",
-                "descr": "entity added/requested as friend"
-            },
-            {
-                "n": "2",
-                "descr": "social media site used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "friend.01",
+    "roleset_name": "add/request as a 'friend' on social media",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "friend request maker",
+        "descr_trans": "好友请求者"
+      },
+      {
+        "n": "1",
+        "descr": "entity added/requested as friend",
+        "descr_trans": "实体被添加/请求为好友"
+      },
+      {
+        "n": "2",
+        "descr": "social media site used",
+        "descr_trans": "使用的社交媒体网站"
+      }
+    ],
+    "roleset_name_trans": "在社交媒体上添加/请求为“朋友”"
+  }
 ]

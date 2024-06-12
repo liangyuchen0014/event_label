@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contain.01",
-        "roleset_name": "hold inside",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "container"
-            },
-            {
-                "n": "1",
-                "descr": "contents"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "contain.02",
-        "roleset_name": "restrain, halt the spread of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity restraining arg1"
-            },
-            {
-                "n": "1",
-                "descr": "thing being restrained, halted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contain.01",
+    "roleset_name": "hold inside",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "1",
+        "descr": "contents",
+        "descr_trans": "内容"
+      }
+    ],
+    "roleset_name_trans": "保持在里面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "contain.02",
+    "roleset_name": "restrain, halt the spread of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity restraining arg1",
+        "descr_trans": "实体抑制 arg1"
+      },
+      {
+        "n": "1",
+        "descr": "thing being restrained, halted",
+        "descr_trans": "事物被抑制、停止"
+      }
+    ],
+    "roleset_name_trans": "抑制、制止传播"
+  }
 ]

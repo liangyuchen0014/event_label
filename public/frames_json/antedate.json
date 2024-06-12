@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "antedate.01",
-        "roleset_name": "to precede, come before something else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Preceder, thing antedating/coming before sth else"
-            },
-            {
-                "n": "1",
-                "descr": "Thing preceded, following arg0."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "antedate.01",
+    "roleset_name": "to precede, come before something else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Preceder, thing antedating/coming before sth else",
+        "descr_trans": "先行者，事物先于/先于其他事物发生"
+      },
+      {
+        "n": "1",
+        "descr": "Thing preceded, following arg0.",
+        "descr_trans": "事情在前，在 arg0 之后。"
+      }
+    ],
+    "roleset_name_trans": "先于其他事物，先于其他事物"
+  }
 ]

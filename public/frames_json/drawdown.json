@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drawdown.01",
-        "roleset_name": "reduction, depletion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of reduction"
-            },
-            {
-                "n": "1",
-                "descr": "thing being reduced"
-            },
-            {
-                "n": "2",
-                "descr": "start amount"
-            },
-            {
-                "n": "3",
-                "descr": "end amount"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drawdown.01",
+    "roleset_name": "reduction, depletion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of reduction",
+        "descr_trans": "还原剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing being reduced",
+        "descr_trans": "事物被减少"
+      },
+      {
+        "n": "2",
+        "descr": "start amount",
+        "descr_trans": "起始金额"
+      },
+      {
+        "n": "3",
+        "descr": "end amount",
+        "descr_trans": "最终金额"
+      }
+    ],
+    "roleset_name_trans": "减少、耗尽"
+  }
 ]

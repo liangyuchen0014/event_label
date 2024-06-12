@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "irradiate.01",
-        "roleset_name": "expose to radiation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exposer"
-            },
-            {
-                "n": "1",
-                "descr": "thing exposed"
-            },
-            {
-                "n": "2",
-                "descr": "radiation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "irradiate.01",
+    "roleset_name": "expose to radiation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exposer",
+        "descr_trans": "暴露"
+      },
+      {
+        "n": "1",
+        "descr": "thing exposed",
+        "descr_trans": "暴露的东西"
+      },
+      {
+        "n": "2",
+        "descr": "radiation",
+        "descr_trans": "辐射"
+      }
+    ],
+    "roleset_name_trans": "暴露于辐射"
+  }
 ]

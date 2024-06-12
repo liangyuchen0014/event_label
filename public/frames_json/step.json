@@ -1,123 +1,148 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "step.01",
-        "roleset_name": "move incrementally, incremental movement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination or metaphorical goal"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            },
-            {
-                "n": "4",
-                "descr": "step itself, action taken to achieve goal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "step_in.02",
-        "roleset_name": "intervene",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity intervening"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "step_up.03",
-        "roleset_name": "increase incrementally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "step_down.04",
-        "roleset_name": "resign",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resigner"
-            },
-            {
-                "n": "1",
-                "descr": "position resigned"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "step_aside.05",
-        "roleset_name": "resign",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resigner"
-            },
-            {
-                "n": "1",
-                "descr": "job/position"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "in_step.06",
-        "roleset_name": "be in sync with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first synchronized entity"
-            },
-            {
-                "n": "2",
-                "descr": "in synch with"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "step_back.07",
-        "roleset_name": "pause an activity, perhaps to look at the big picture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "viewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing stepped back from; activity one is halting"
-            },
-            {
-                "n": "2",
-                "descr": "new activity, bigger picture viewed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "step.01",
+    "roleset_name": "move incrementally, incremental movement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination or metaphorical goal",
+        "descr_trans": "目的地或隐喻目标"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "4",
+        "descr": "step itself, action taken to achieve goal",
+        "descr_trans": "步骤本身，为实现目标而采取的行动"
+      }
+    ],
+    "roleset_name_trans": "增量运动, 渐进运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "step_in.02",
+    "roleset_name": "intervene",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity intervening",
+        "descr_trans": "实体介入"
+      }
+    ],
+    "roleset_name_trans": "干预"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "step_up.03",
+    "roleset_name": "increase incrementally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      }
+    ],
+    "roleset_name_trans": "逐渐增加"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "step_down.04",
+    "roleset_name": "resign",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resigner",
+        "descr_trans": "辞职者"
+      },
+      {
+        "n": "1",
+        "descr": "position resigned",
+        "descr_trans": "辞职"
+      }
+    ],
+    "roleset_name_trans": "辞职"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "step_aside.05",
+    "roleset_name": "resign",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resigner",
+        "descr_trans": "辞职者"
+      },
+      {
+        "n": "1",
+        "descr": "job/position",
+        "descr_trans": "工作职位"
+      }
+    ],
+    "roleset_name_trans": "辞职"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "in_step.06",
+    "roleset_name": "be in sync with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first synchronized entity",
+        "descr_trans": "第一个同步实体"
+      },
+      {
+        "n": "2",
+        "descr": "in synch with",
+        "descr_trans": "同步于"
+      }
+    ],
+    "roleset_name_trans": "同步于"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "step_back.07",
+    "roleset_name": "pause an activity, perhaps to look at the big picture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "viewer",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "1",
+        "descr": "thing stepped back from; activity one is halting",
+        "descr_trans": "事物退后一步；活动一已停止"
+      },
+      {
+        "n": "2",
+        "descr": "new activity, bigger picture viewed",
+        "descr_trans": "新活动，查看更大的图片"
+      }
+    ],
+    "roleset_name_trans": "暂停一项活动，也许是为了纵观全局"
+  }
 ]

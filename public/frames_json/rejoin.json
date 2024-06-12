@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rejoin.01",
-        "roleset_name": "attach, join again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being tied"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, string"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rejoin.01",
+    "roleset_name": "attach, join again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being tied",
+        "descr_trans": "病人，东西被绑住"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      }
+    ],
+    "roleset_name_trans": "附加，再次加入"
+  }
 ]

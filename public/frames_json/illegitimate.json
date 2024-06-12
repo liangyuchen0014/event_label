@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "illegitimate.01",
-        "roleset_name": "invalid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of illegitimacy"
-            },
-            {
-                "n": "1",
-                "descr": "invalid entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "illegitimate.02",
-        "roleset_name": "born out of wedlock",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "child"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "illegitimate.01",
+    "roleset_name": "invalid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of illegitimacy",
+        "descr_trans": "非婚生原因"
+      },
+      {
+        "n": "1",
+        "descr": "invalid entity",
+        "descr_trans": "无效实体"
+      }
+    ],
+    "roleset_name_trans": "无效的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "illegitimate.02",
+    "roleset_name": "born out of wedlock",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "child",
+        "descr_trans": "孩子"
+      }
+    ],
+    "roleset_name_trans": "非婚生"
+  }
 ]

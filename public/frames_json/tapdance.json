@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tapdance.01",
-        "roleset_name": "tapdance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of tapdancing, agent (transitive tapdance only)"
-            },
-            {
-                "n": "1",
-                "descr": "tapdancer (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location or path of tapdancing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tapdance.01",
+    "roleset_name": "tapdance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of tapdancing, agent (transitive tapdance only)",
+        "descr_trans": "踢踏舞的原因，代理人（仅限传递踢踏舞）"
+      },
+      {
+        "n": "1",
+        "descr": "tapdancer (intransitive subject, transitive object)",
+        "descr_trans": "Tapdancer（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location or path of tapdancing",
+        "descr_trans": "踢踏舞的地点或路径"
+      }
+    ],
+    "roleset_name_trans": "踢踏舞"
+  }
 ]

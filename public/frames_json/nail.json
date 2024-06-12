@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nail.01",
-        "roleset_name": "pin down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "nailer"
-            },
-            {
-                "n": "1",
-                "descr": "entity/entities nailed (each gets its own arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nail_down.02",
-        "roleset_name": "to narrow down, finalize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finalizer"
-            },
-            {
-                "n": "1",
-                "descr": "entity nailed down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nail.01",
+    "roleset_name": "pin down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "nailer",
+        "descr_trans": "钉枪"
+      },
+      {
+        "n": "1",
+        "descr": "entity/entities nailed (each gets its own arg1)",
+        "descr_trans": "固定的一个/多个实体（每个实体都有自己的 arg1）"
+      }
+    ],
+    "roleset_name_trans": "固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nail_down.02",
+    "roleset_name": "to narrow down, finalize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finalizer",
+        "descr_trans": "终结器"
+      },
+      {
+        "n": "1",
+        "descr": "entity nailed down",
+        "descr_trans": "实体被钉牢"
+      }
+    ],
+    "roleset_name_trans": "缩小范围，最终确定"
+  }
 ]

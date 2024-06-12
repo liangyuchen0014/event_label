@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coarsen.01",
-        "roleset_name": "(cause to) be more coarse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coarseness"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting coarse"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "coarse.02",
-        "roleset_name": "be rough, consist of large constituents",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coarseness"
-            },
-            {
-                "n": "1",
-                "descr": "coarse entity"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of ARG1 that is coarse"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coarsen.01",
+    "roleset_name": "(cause to) be more coarse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coarseness",
+        "descr_trans": "粗糙的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting coarse",
+        "descr_trans": "事情变得粗糙"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更加粗糙"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "coarse.02",
+    "roleset_name": "be rough, consist of large constituents",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coarseness",
+        "descr_trans": "粗糙的原因"
+      },
+      {
+        "n": "1",
+        "descr": "coarse entity",
+        "descr_trans": "粗实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of ARG1 that is coarse",
+        "descr_trans": "ARG1 的特定方面是粗略的"
+      }
+    ],
+    "roleset_name_trans": "是粗糙的，由大量成分组成"
+  }
 ]

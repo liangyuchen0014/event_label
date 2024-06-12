@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "substitute.01",
-        "roleset_name": "exchange one thing for another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity trading"
-            },
-            {
-                "n": "1",
-                "descr": "thing being preferred, new thing"
-            },
-            {
-                "n": "2",
-                "descr": "other item in exchange, old thing"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "substitute.01",
+    "roleset_name": "exchange one thing for another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity trading",
+        "descr_trans": "代理、实体贸易"
+      },
+      {
+        "n": "1",
+        "descr": "thing being preferred, new thing",
+        "descr_trans": "事物被偏好，新事物"
+      },
+      {
+        "n": "2",
+        "descr": "other item in exchange, old thing",
+        "descr_trans": "其他交换物品，旧东西"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "用一物交换另一物"
+  }
 ]

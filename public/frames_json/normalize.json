@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "normalize.01",
-        "roleset_name": "to make normal, standard, or consistent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity normalized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "normal.02",
-        "roleset_name": "average, to be expected",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "normal thing (may NOT be filled by a test; only the entity tested)"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is normal"
-            },
-            {
-                "n": "3",
-                "descr": "specific measurement, numerical reading of normalcy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "normalize.01",
+    "roleset_name": "to make normal, standard, or consistent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity normalized",
+        "descr_trans": "实体规范化"
+      }
+    ],
+    "roleset_name_trans": "使正常、标准或一致"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "normal.02",
+    "roleset_name": "average, to be expected",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "normal thing (may NOT be filled by a test; only the entity tested)",
+        "descr_trans": "正常的事情（可能无法通过测试来填充；仅测试实体）"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is normal",
+        "descr_trans": "arg1 正常的特定方面"
+      },
+      {
+        "n": "3",
+        "descr": "specific measurement, numerical reading of normalcy",
+        "descr_trans": "具体测量、正常值读数"
+      }
+    ],
+    "roleset_name_trans": "平均，预期"
+  }
 ]

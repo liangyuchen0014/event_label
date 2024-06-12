@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shower.01",
-        "roleset_name": "fall, sprinkle, rain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of things falling"
-            },
-            {
-                "n": "1",
-                "descr": "things falling"
-            },
-            {
-                "n": "2",
-                "descr": "falling on what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shower.02",
-        "roleset_name": "party for a new mother or bride, etc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "host"
-            },
-            {
-                "n": "1",
-                "descr": "guest of honor"
-            },
-            {
-                "n": "2",
-                "descr": "occasion celebrated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shower.01",
+    "roleset_name": "fall, sprinkle, rain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of things falling",
+        "descr_trans": "物体坠落的原因"
+      },
+      {
+        "n": "1",
+        "descr": "things falling",
+        "descr_trans": "东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "falling on what",
+        "descr_trans": "落在什么上"
+      }
+    ],
+    "roleset_name_trans": "落、洒、雨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shower.02",
+    "roleset_name": "party for a new mother or bride, etc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "host",
+        "descr_trans": "主持人"
+      },
+      {
+        "n": "1",
+        "descr": "guest of honor",
+        "descr_trans": "荣誉嘉宾"
+      },
+      {
+        "n": "2",
+        "descr": "occasion celebrated",
+        "descr_trans": "庆祝场合"
+      }
+    ],
+    "roleset_name_trans": "为新妈妈或新娘举办的派对等"
+  }
 ]

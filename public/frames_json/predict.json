@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "predict.01",
-        "roleset_name": "tell the future",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fortune teller"
-            },
-            {
-                "n": "1",
-                "descr": "prediction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "predictable.02",
-        "roleset_name": "able to be forecast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forecaster"
-            },
-            {
-                "n": "1",
-                "descr": "forecast"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "underpredict.03",
-        "roleset_name": "predict to be less than is true",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "predictor"
-            },
-            {
-                "n": "1",
-                "descr": "prediction"
-            },
-            {
-                "n": "2",
-                "descr": "measure of difference between prediction and reality"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "predict.01",
+    "roleset_name": "tell the future",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fortune teller",
+        "descr_trans": "算命先生"
+      },
+      {
+        "n": "1",
+        "descr": "prediction",
+        "descr_trans": "预言"
+      }
+    ],
+    "roleset_name_trans": "告诉未来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "predictable.02",
+    "roleset_name": "able to be forecast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forecaster",
+        "descr_trans": "预报员"
+      },
+      {
+        "n": "1",
+        "descr": "forecast",
+        "descr_trans": "预报"
+      }
+    ],
+    "roleset_name_trans": "可以预测的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "underpredict.03",
+    "roleset_name": "predict to be less than is true",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "predictor",
+        "descr_trans": "预测器"
+      },
+      {
+        "n": "1",
+        "descr": "prediction",
+        "descr_trans": "预言"
+      },
+      {
+        "n": "2",
+        "descr": "measure of difference between prediction and reality",
+        "descr_trans": "衡量预测与现实之间的差异"
+      }
+    ],
+    "roleset_name_trans": "预测小于真实情况"
+  }
 ]

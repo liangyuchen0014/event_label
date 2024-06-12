@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wrestle.01",
-        "roleset_name": "struggle with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first wrestler"
-            },
-            {
-                "n": "1",
-                "descr": "second wrestler"
-            },
-            {
-                "n": "2",
-                "descr": "topic, competition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wrestle.02",
-        "roleset_name": "put with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing put"
-            },
-            {
-                "n": "2",
-                "descr": "destination, put where"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wrestle.03",
-        "roleset_name": "take with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker"
-            },
-            {
-                "n": "1",
-                "descr": "taken"
-            },
-            {
-                "n": "2",
-                "descr": "taken from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wrestle.01",
+    "roleset_name": "struggle with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first wrestler",
+        "descr_trans": "第一个摔跤手"
+      },
+      {
+        "n": "1",
+        "descr": "second wrestler",
+        "descr_trans": "第二摔跤手"
+      },
+      {
+        "n": "2",
+        "descr": "topic, competition",
+        "descr_trans": "主题、竞赛"
+      }
+    ],
+    "roleset_name_trans": "与斗争"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wrestle.02",
+    "roleset_name": "put with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter, agent",
+        "descr_trans": "推杆, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing put",
+        "descr_trans": "耐心，放东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination, put where",
+        "descr_trans": "目的地，放在哪里"
+      }
+    ],
+    "roleset_name_trans": "困难地"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wrestle.03",
+    "roleset_name": "take with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "1",
+        "descr": "taken",
+        "descr_trans": "采取"
+      },
+      {
+        "n": "2",
+        "descr": "taken from",
+        "descr_trans": "取自"
+      }
+    ],
+    "roleset_name_trans": "艰难地接受"
+  }
 ]

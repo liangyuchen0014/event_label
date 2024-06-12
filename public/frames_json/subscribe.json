@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subscribe.01",
-        "roleset_name": "like a magazine subscription, or belief system, like a magazine subscription or a belief system",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subscriber"
-            },
-            {
-                "n": "1",
-                "descr": "magazine or belief system"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "subscribe.02",
-        "roleset_name": "pledge or contribute or sign up(?)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing contributed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subscribe.01",
+    "roleset_name": "like a magazine subscription, or belief system, like a magazine subscription or a belief system",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subscriber",
+        "descr_trans": "订户"
+      },
+      {
+        "n": "1",
+        "descr": "magazine or belief system",
+        "descr_trans": "杂志或信仰体系"
+      }
+    ],
+    "roleset_name_trans": "就像杂志订阅或信仰体系 就像杂志订阅或信仰体系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "subscribe.02",
+    "roleset_name": "pledge or contribute or sign up(?)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributor",
+        "descr_trans": "贡献者"
+      },
+      {
+        "n": "1",
+        "descr": "thing contributed",
+        "descr_trans": "事情贡献了"
+      }
+    ],
+    "roleset_name_trans": "承诺或贡献或注册（？）"
+  }
 ]

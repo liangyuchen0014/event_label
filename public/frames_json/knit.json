@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "knit.01",
-        "roleset_name": "create by knotting yarn together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state or attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "knit.02",
-        "roleset_name": "bones mending a break",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "bones"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "knit.03",
-        "roleset_name": "link or tie",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being tied"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "knit.01",
+    "roleset_name": "create by knotting yarn together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state or attribute of arg1",
+        "descr_trans": "arg1 的结束状态或属性"
+      }
+    ],
+    "roleset_name_trans": "通过将纱线打结在一起来创建"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "knit.02",
+    "roleset_name": "bones mending a break",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "bones",
+        "descr_trans": "骨头"
+      }
+    ],
+    "roleset_name_trans": "骨头修补断裂"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "knit.03",
+    "roleset_name": "link or tie",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent doing the tying",
+        "descr_trans": "代理进行搭售"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being tied",
+        "descr_trans": "病人，东西被绑住"
+      }
+    ],
+    "roleset_name_trans": "链接或领带"
+  }
 ]

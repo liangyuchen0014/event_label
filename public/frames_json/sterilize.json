@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sterilize.01",
-        "roleset_name": "to make free from live bacteria, to make inoffensive, unable to reproduce, inoffensive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sterilizer"
-            },
-            {
-                "n": "1",
-                "descr": "entity sterilized"
-            },
-            {
-                "n": "2",
-                "descr": "germs removed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sterile.02",
-        "roleset_name": "inhospitible to the growth of life",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sterile location/entity"
-            },
-            {
-                "n": "2",
-                "descr": "new life"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sterilize.01",
+    "roleset_name": "to make free from live bacteria, to make inoffensive, unable to reproduce, inoffensive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sterilizer",
+        "descr_trans": "消毒器"
+      },
+      {
+        "n": "1",
+        "descr": "entity sterilized",
+        "descr_trans": "实体已绝育"
+      },
+      {
+        "n": "2",
+        "descr": "germs removed",
+        "descr_trans": "细菌被去除"
+      }
+    ],
+    "roleset_name_trans": "使不含活细菌, 使其无害, 无法繁殖, 无害"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sterile.02",
+    "roleset_name": "inhospitible to the growth of life",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sterile location/entity",
+        "descr_trans": "无菌地点/实体"
+      },
+      {
+        "n": "2",
+        "descr": "new life",
+        "descr_trans": "新生活"
+      }
+    ],
+    "roleset_name_trans": "不利于生命的生长"
+  }
 ]

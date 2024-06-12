@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "watch.01",
-        "roleset_name": "look at, observe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "observer"
-            },
-            {
-                "n": "1",
-                "descr": "thing looked at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "watch.03",
-        "roleset_name": "guard, be on the lookout",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "guardian"
-            },
-            {
-                "n": "1",
-                "descr": "entity being guarded"
-            },
-            {
-                "n": "2",
-                "descr": "guarded against, watched out for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "watch_out.02",
-        "roleset_name": "erwarten sich",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "watcher out"
-            },
-            {
-                "n": "1",
-                "descr": "thing watched out for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "watch.01",
+    "roleset_name": "look at, observe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "observer",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "thing looked at",
+        "descr_trans": "看到的东西"
+      }
+    ],
+    "roleset_name_trans": "看看，观察"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "watch.03",
+    "roleset_name": "guard, be on the lookout",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "guardian",
+        "descr_trans": "监护人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being guarded",
+        "descr_trans": "被看守的实体"
+      },
+      {
+        "n": "2",
+        "descr": "guarded against, watched out for",
+        "descr_trans": "提防,提防"
+      }
+    ],
+    "roleset_name_trans": "守卫，警惕"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "watch_out.02",
+    "roleset_name": "erwarten sich",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "watcher out",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "thing watched out for",
+        "descr_trans": "留意的事情"
+      }
+    ],
+    "roleset_name_trans": "互相期待"
+  }
 ]

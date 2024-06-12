@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "acknowledge.01",
-        "roleset_name": "admit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "admitter, claimer, speaker"
-            },
-            {
-                "n": "1",
-                "descr": "proposition, claim, utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication, attribute of arg 1 acknowledged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "acknowledge.01",
+    "roleset_name": "admit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "admitter, claimer, speaker",
+        "descr_trans": "承认者、主张者、发言者"
+      },
+      {
+        "n": "1",
+        "descr": "proposition, claim, utterance",
+        "descr_trans": "主张、主张、言论"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication, attribute of arg 1 acknowledged",
+        "descr_trans": "次要预测，arg 1 的属性已确认"
+      }
+    ],
+    "roleset_name_trans": "承认"
+  }
 ]

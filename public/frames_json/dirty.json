@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dirty.01",
-        "roleset_name": "(cause to) become dirty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing dirtied"
-            },
-            {
-                "n": "2",
-                "descr": "dirt"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dirty.02",
-        "roleset_name": "unclean, infused with dirt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of dirtiness"
-            },
-            {
-                "n": "1",
-                "descr": "dirty thing"
-            },
-            {
-                "n": "2",
-                "descr": "dirt itself, with which arg1 becomes dirty"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dirty.01",
+    "roleset_name": "(cause to) become dirty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing dirtied",
+        "descr_trans": "东西脏了"
+      },
+      {
+        "n": "2",
+        "descr": "dirt",
+        "descr_trans": "污垢"
+      }
+    ],
+    "roleset_name_trans": "（导致）变脏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dirty.02",
+    "roleset_name": "unclean, infused with dirt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of dirtiness",
+        "descr_trans": "代理，肮脏的原因"
+      },
+      {
+        "n": "1",
+        "descr": "dirty thing",
+        "descr_trans": "肮脏的东西"
+      },
+      {
+        "n": "2",
+        "descr": "dirt itself, with which arg1 becomes dirty",
+        "descr_trans": "污垢本身，使 arg1 变脏"
+      }
+    ],
+    "roleset_name_trans": "不干净的，充满污垢的"
+  }
 ]

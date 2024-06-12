@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ply.01",
-        "roleset_name": "supply with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting stuff"
-            },
-            {
-                "n": "2",
-                "descr": "stuff"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ply.02",
-        "roleset_name": "work at some business/trade/skill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "business/trade/skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "ply.03",
-        "roleset_name": "typo for pry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pry-er"
-            },
-            {
-                "n": "1",
-                "descr": "thing pried"
-            },
-            {
-                "n": "2",
-                "descr": "end state/attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ply.01",
+    "roleset_name": "supply with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting stuff",
+        "descr_trans": "实体获取东西"
+      },
+      {
+        "n": "2",
+        "descr": "stuff",
+        "descr_trans": "东西"
+      }
+    ],
+    "roleset_name_trans": "提供给"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ply.02",
+    "roleset_name": "work at some business/trade/skill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "business/trade/skill",
+        "descr_trans": "商业/贸易/技能"
+      }
+    ],
+    "roleset_name_trans": "从事某些商业/贸易/技能工作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "ply.03",
+    "roleset_name": "typo for pry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pry-er",
+        "descr_trans": "代理人，窥探者"
+      },
+      {
+        "n": "1",
+        "descr": "thing pried",
+        "descr_trans": "撬开的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state/attribute of arg1",
+        "descr_trans": "arg1 的结束状态/属性"
+      }
+    ],
+    "roleset_name_trans": "撬的打字错误"
+  }
 ]

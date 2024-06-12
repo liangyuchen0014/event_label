@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thunder.01",
-        "roleset_name": "make loud noises, speak loudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thunderer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thunder.02",
-        "roleset_name": "effect a change by speaking loudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing affected"
-            },
-            {
-                "n": "2",
-                "descr": "effect, attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thunder.01",
+    "roleset_name": "make loud noises, speak loudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thunderer",
+        "descr_trans": "雷霆"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "大声喧哗，大声说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thunder.02",
+    "roleset_name": "effect a change by speaking loudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "thing affected",
+        "descr_trans": "受影响的事物"
+      },
+      {
+        "n": "2",
+        "descr": "effect, attribute of arg1",
+        "descr_trans": "效果，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "通过大声说话来实现改变"
+  }
 ]

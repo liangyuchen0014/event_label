@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parole.01",
-        "roleset_name": "release from detention, put on parole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser"
-            },
-            {
-                "n": "1",
-                "descr": "criminal, parolee"
-            },
-            {
-                "n": "2",
-                "descr": "released from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parole.01",
+    "roleset_name": "release from detention, put on parole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "1",
+        "descr": "criminal, parolee",
+        "descr_trans": "罪犯、假释犯"
+      },
+      {
+        "n": "2",
+        "descr": "released from",
+        "descr_trans": "从...发布"
+      }
+    ],
+    "roleset_name_trans": "释放、假释"
+  }
 ]

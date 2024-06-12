@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "threshold.01",
-        "roleset_name": "convert a grayscale image to a binary image",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "image converted"
-            },
-            {
-                "n": "2",
-                "descr": "threshold: pixel value, etc."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "threshold.01",
+    "roleset_name": "convert a grayscale image to a binary image",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "image converted",
+        "descr_trans": "图像转换"
+      },
+      {
+        "n": "2",
+        "descr": "threshold: pixel value, etc.",
+        "descr_trans": "阈值：像素值等。"
+      }
+    ],
+    "roleset_name_trans": "将灰度图像转换为二值图像"
+  }
 ]

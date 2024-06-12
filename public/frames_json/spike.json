@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spike.01",
-        "roleset_name": "destroy, kill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spike.02",
-        "roleset_name": "pierce with a spike-like object",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "piercer"
-            },
-            {
-                "n": "1",
-                "descr": "thing pierced"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "spike.03",
-        "roleset_name": "add alcohol to innocuous beverage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adder of alcohol"
-            },
-            {
-                "n": "1",
-                "descr": "innocuous beverage"
-            },
-            {
-                "n": "2",
-                "descr": "alcohol"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "spike.04",
-        "roleset_name": "sudden peak in quantity/number, ",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity peaking"
-            },
-            {
-                "n": "2",
-                "descr": "extent"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "spike.06",
-        "roleset_name": "hit or throw a ball to the ground ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "ball, thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "spike_out.05",
-        "roleset_name": "botanical: to bring forth spikes",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "flower"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spike.01",
+    "roleset_name": "destroy, kill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      }
+    ],
+    "roleset_name_trans": "摧毁、杀死"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spike.02",
+    "roleset_name": "pierce with a spike-like object",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "piercer",
+        "descr_trans": "穿孔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pierced",
+        "descr_trans": "东西被刺穿"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "用尖刺状物体刺穿"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "spike.03",
+    "roleset_name": "add alcohol to innocuous beverage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adder of alcohol",
+        "descr_trans": "酒精添加物"
+      },
+      {
+        "n": "1",
+        "descr": "innocuous beverage",
+        "descr_trans": "无毒饮料"
+      },
+      {
+        "n": "2",
+        "descr": "alcohol",
+        "descr_trans": "酒精"
+      }
+    ],
+    "roleset_name_trans": "在无害饮料中添加酒精"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "spike.04",
+    "roleset_name": "sudden peak in quantity/number, ",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity peaking",
+        "descr_trans": "实体峰值"
+      },
+      {
+        "n": "2",
+        "descr": "extent",
+        "descr_trans": "程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "数量/数量突然达到峰值，"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "spike.06",
+    "roleset_name": "hit or throw a ball to the ground ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "ball, thing hit",
+        "descr_trans": "球，物体击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "将球击或扔到地上"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "spike_out.05",
+    "roleset_name": "botanical: to bring forth spikes",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "flower",
+        "descr_trans": "花"
+      }
+    ],
+    "roleset_name_trans": "植物学：产生尖刺"
+  }
 ]

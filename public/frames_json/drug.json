@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drug.01",
-        "roleset_name": "apply pharmaceuticals",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier of drugs"
-            },
-            {
-                "n": "1",
-                "descr": "druggie"
-            },
-            {
-                "n": "2",
-                "descr": "drug"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drug_up.02",
-        "roleset_name": "completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drugger"
-            },
-            {
-                "n": "1",
-                "descr": "patient/victim"
-            },
-            {
-                "n": "2",
-                "descr": "drug"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drug.01",
+    "roleset_name": "apply pharmaceuticals",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier of drugs",
+        "descr_trans": "施药者"
+      },
+      {
+        "n": "1",
+        "descr": "druggie",
+        "descr_trans": "吸毒者"
+      },
+      {
+        "n": "2",
+        "descr": "drug",
+        "descr_trans": "药品"
+      }
+    ],
+    "roleset_name_trans": "应用药物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drug_up.02",
+    "roleset_name": "completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drugger",
+        "descr_trans": "毒贩"
+      },
+      {
+        "n": "1",
+        "descr": "patient/victim",
+        "descr_trans": "病人/受害者"
+      },
+      {
+        "n": "2",
+        "descr": "drug",
+        "descr_trans": "药品"
+      }
+    ],
+    "roleset_name_trans": "完整的"
+  }
 ]

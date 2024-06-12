@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oversubscribe.01",
-        "roleset_name": "to pledge too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributer"
-            },
-            {
-                "n": "1",
-                "descr": "contributed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oversubscribe.01",
+    "roleset_name": "to pledge too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributer",
+        "descr_trans": "贡献者"
+      },
+      {
+        "n": "1",
+        "descr": "contributed",
+        "descr_trans": "贡献了"
+      }
+    ],
+    "roleset_name_trans": "承诺太多"
+  }
 ]

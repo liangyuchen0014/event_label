@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enema.01",
-        "roleset_name": "inject fluid or gas into the rectum",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "injector"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of injection"
-            },
-            {
-                "n": "2",
-                "descr": "injected with (substance)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enema.01",
+    "roleset_name": "inject fluid or gas into the rectum",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "injector",
+        "descr_trans": "注射器"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of injection",
+        "descr_trans": "注射接受者"
+      },
+      {
+        "n": "2",
+        "descr": "injected with (substance)",
+        "descr_trans": "注入（物质）"
+      }
+    ],
+    "roleset_name_trans": "将液体或气体注入直肠"
+  }
 ]

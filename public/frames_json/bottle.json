@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bottle.01",
-        "roleset_name": "to place in a bottle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bottler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bottled"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bottle_up.02",
-        "roleset_name": "to supress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suppressor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bottled up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bottle.01",
+    "roleset_name": "to place in a bottle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bottler, agent",
+        "descr_trans": "装瓶商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity bottled",
+        "descr_trans": "实体瓶装"
+      }
+    ],
+    "roleset_name_trans": "放在瓶子里"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bottle_up.02",
+    "roleset_name": "to supress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suppressor, agent",
+        "descr_trans": "抑制剂, 药剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity bottled up",
+        "descr_trans": "实体被困住"
+      }
+    ],
+    "roleset_name_trans": "压制"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decriminalize.01",
-        "roleset_name": "make into less of a crime (or not a crime)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "(former) crime"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decriminalize.01",
+    "roleset_name": "make into less of a crime (or not a crime)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "(former) crime",
+        "descr_trans": "（前）犯罪"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "减少犯罪（或不犯罪）"
+  }
 ]

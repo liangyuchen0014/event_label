@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jam.01",
-        "roleset_name": "to pack to excess, cram, packed with something obstructing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity jammed"
-            },
-            {
-                "n": "2",
-                "descr": "location, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jam.02",
-        "roleset_name": "enjoy music",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player of instrument"
-            },
-            {
-                "n": "1",
-                "descr": "music listener"
-            },
-            {
-                "n": "2",
-                "descr": "music"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "jam.03",
-        "roleset_name": "move dancingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dancing/moving entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jam.01",
+    "roleset_name": "to pack to excess, cram, packed with something obstructing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer, agent",
+        "descr_trans": "包装工、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity jammed",
+        "descr_trans": "实体卡住"
+      },
+      {
+        "n": "2",
+        "descr": "location, destination",
+        "descr_trans": "地点、目的地"
+      }
+    ],
+    "roleset_name_trans": "装得过多，塞满，塞满阻碍的东西"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jam.02",
+    "roleset_name": "enjoy music",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player of instrument",
+        "descr_trans": "乐器演奏者"
+      },
+      {
+        "n": "1",
+        "descr": "music listener",
+        "descr_trans": "音乐聆听者"
+      },
+      {
+        "n": "2",
+        "descr": "music",
+        "descr_trans": "音乐"
+      }
+    ],
+    "roleset_name_trans": "享受音乐"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "jam.03",
+    "roleset_name": "move dancingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dancing/moving entity",
+        "descr_trans": "跳舞/移动的实体"
+      }
+    ],
+    "roleset_name_trans": "跳舞"
+  }
 ]

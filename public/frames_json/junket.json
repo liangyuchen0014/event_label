@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "junket.01",
-        "roleset_name": "go on a pleasure trip",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveler"
-            },
-            {
-                "n": "1",
-                "descr": "travel destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "junket.02",
-        "roleset_name": "provide or partake in a feast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Feaster or caterer"
-            },
-            {
-                "n": "1",
-                "descr": "smorgasbord"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "junket.01",
+    "roleset_name": "go on a pleasure trip",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveler",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "travel destination",
+        "descr_trans": "旅行目的地"
+      }
+    ],
+    "roleset_name_trans": "去愉快的旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "junket.02",
+    "roleset_name": "provide or partake in a feast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Feaster or caterer",
+        "descr_trans": "宴会或餐饮服务商"
+      },
+      {
+        "n": "1",
+        "descr": "smorgasbord",
+        "descr_trans": "自助餐"
+      }
+    ],
+    "roleset_name_trans": "提供或参加盛宴"
+  }
 ]

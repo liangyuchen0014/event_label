@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plaster.01",
-        "roleset_name": "secure or display for public view",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being plastered"
-            },
-            {
-                "n": "2",
-                "descr": "thing secured to/ plastered on/to"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plaster.01",
+    "roleset_name": "secure or display for public view",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being plastered",
+        "descr_trans": "被抹灰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing secured to/ plastered on/to",
+        "descr_trans": "固定在/贴在/上的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "保护或显示以供公众查看"
+  }
 ]

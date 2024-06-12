@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "house.01",
-        "roleset_name": "to contain or provide housing for, provide a home for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of housing"
-            },
-            {
-                "n": "1",
-                "descr": "entity housed"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "house.01",
+    "roleset_name": "to contain or provide housing for, provide a home for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of housing",
+        "descr_trans": "住房提供者"
+      },
+      {
+        "n": "1",
+        "descr": "entity housed",
+        "descr_trans": "实体安置"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "容纳或提供住房，为"
+  }
 ]

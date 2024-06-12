@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depigment.01",
-        "roleset_name": "(cause to) lose color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, person removing pigment"
-            },
-            {
-                "n": "1",
-                "descr": "Entity losing pigment"
-            },
-            {
-                "n": "2",
-                "descr": "Pigment, color itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depigment.01",
+    "roleset_name": "(cause to) lose color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, person removing pigment",
+        "descr_trans": "色素去除剂、去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "Entity losing pigment",
+        "descr_trans": "实体失去色素"
+      },
+      {
+        "n": "2",
+        "descr": "Pigment, color itself",
+        "descr_trans": "颜料、颜色本身"
+      }
+    ],
+    "roleset_name_trans": "（导致）失去颜色"
+  }
 ]

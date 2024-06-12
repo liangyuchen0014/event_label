@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commend.01",
-        "roleset_name": "give praise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving praise"
-            },
-            {
-                "n": "1",
-                "descr": "entity being praised"
-            },
-            {
-                "n": "2",
-                "descr": "praised for what (if in addition to arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "commendable.02",
-        "roleset_name": "give praise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving praise"
-            },
-            {
-                "n": "1",
-                "descr": "entity being praised"
-            },
-            {
-                "n": "2",
-                "descr": "praised for what (if in addition to arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commend.01",
+    "roleset_name": "give praise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving praise",
+        "descr_trans": "给予表扬的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being praised",
+        "descr_trans": "被表扬的实体"
+      },
+      {
+        "n": "2",
+        "descr": "praised for what (if in addition to arg1)",
+        "descr_trans": "称赞什么（如果除了arg1）"
+      }
+    ],
+    "roleset_name_trans": "给予赞扬"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "commendable.02",
+    "roleset_name": "give praise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving praise",
+        "descr_trans": "给予表扬的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being praised",
+        "descr_trans": "被表扬的实体"
+      },
+      {
+        "n": "2",
+        "descr": "praised for what (if in addition to arg1)",
+        "descr_trans": "称赞什么（如果除了arg1）"
+      }
+    ],
+    "roleset_name_trans": "给予赞扬"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discriminate.01",
-        "roleset_name": "tell the difference among, discerning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person with keen taste"
-            },
-            {
-                "n": "1",
-                "descr": "choices"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "discriminate.02",
-        "roleset_name": "illegal preferences, using unethical bias, unfairly giving favor to one group over another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bigot"
-            },
-            {
-                "n": "1",
-                "descr": "victim (discriminated against)"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (discriminated in favor of)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discriminate.01",
+    "roleset_name": "tell the difference among, discerning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person with keen taste",
+        "descr_trans": "代理人，品味敏锐的人"
+      },
+      {
+        "n": "1",
+        "descr": "choices",
+        "descr_trans": "选择"
+      }
+    ],
+    "roleset_name_trans": "辨别之间的区别，辨别"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "discriminate.02",
+    "roleset_name": "illegal preferences, using unethical bias, unfairly giving favor to one group over another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bigot",
+        "descr_trans": "偏执狂"
+      },
+      {
+        "n": "1",
+        "descr": "victim (discriminated against)",
+        "descr_trans": "受害者（受到歧视）"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (discriminated in favor of)",
+        "descr_trans": "受益人（受歧视）"
+      }
+    ],
+    "roleset_name_trans": "非法偏好、使用不道德的偏见、不公平地偏向某一群体而不是另一群体"
+  }
 ]

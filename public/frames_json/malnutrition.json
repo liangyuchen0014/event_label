@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "malnutrition.01",
-        "roleset_name": "cause to lack nutrients",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of lack"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, entity lacking"
-            },
-            {
-                "n": "2",
-                "descr": "lacking what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "malnutrition.01",
+    "roleset_name": "cause to lack nutrients",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of lack",
+        "descr_trans": "缺乏的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, entity lacking",
+        "descr_trans": "体验者、实体缺失"
+      },
+      {
+        "n": "2",
+        "descr": "lacking what?",
+        "descr_trans": "缺少什么？"
+      }
+    ],
+    "roleset_name_trans": "导致缺乏营养"
+  }
 ]

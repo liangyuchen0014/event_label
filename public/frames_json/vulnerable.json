@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vulnerable.01",
-        "roleset_name": "at risk of",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity at risk"
-            },
-            {
-                "n": "2",
-                "descr": "risk, vulnerable to"
-            },
-            {
-                "n": "3",
-                "descr": "the vulnerability itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vulnerable.01",
+    "roleset_name": "at risk of",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity at risk",
+        "descr_trans": "面临风险的实体"
+      },
+      {
+        "n": "2",
+        "descr": "risk, vulnerable to",
+        "descr_trans": "风险，易受"
+      },
+      {
+        "n": "3",
+        "descr": "the vulnerability itself",
+        "descr_trans": "漏洞本身"
+      }
+    ],
+    "roleset_name_trans": "有风险"
+  }
 ]

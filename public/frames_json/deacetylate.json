@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deacetylate.01",
-        "roleset_name": "remove the acetyl group from a compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of deacetylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing deacetylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of deacetylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deacetylate.01",
+    "roleset_name": "remove the acetyl group from a compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of deacetylation (e.g. scientist)",
+        "descr_trans": "脱乙酰化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing deacetylated",
+        "descr_trans": "脱乙酰基的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of deacetylation",
+        "descr_trans": "脱乙酰化产物"
+      }
+    ],
+    "roleset_name_trans": "从化合物中除去乙酰基"
+  }
 ]

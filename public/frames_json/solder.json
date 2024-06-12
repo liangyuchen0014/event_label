@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "solder.01",
-        "roleset_name": "solder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, solderer"
-            },
-            {
-                "n": "1",
-                "descr": "first thing soldered"
-            },
-            {
-                "n": "2",
-                "descr": "soldered to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, soldered with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "solder.01",
+    "roleset_name": "solder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, solderer",
+        "descr_trans": "代理、焊锡剂"
+      },
+      {
+        "n": "1",
+        "descr": "first thing soldered",
+        "descr_trans": "首先焊接的东西"
+      },
+      {
+        "n": "2",
+        "descr": "soldered to what",
+        "descr_trans": "焊接到什么"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, soldered with what",
+        "descr_trans": "仪器，用什么焊接"
+      }
+    ],
+    "roleset_name_trans": "焊接"
+  }
 ]

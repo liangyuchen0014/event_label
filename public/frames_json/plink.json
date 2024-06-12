@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plink.01",
-        "roleset_name": "plink",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of plinking (transitive subject only)"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting plinking sound, theme"
-            },
-            {
-                "n": "2",
-                "descr": "location of plinking"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plink.01",
+    "roleset_name": "plink",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of plinking (transitive subject only)",
+        "descr_trans": "代理人，叮当声的起因（仅限及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting plinking sound, theme",
+        "descr_trans": "发出叮当声的东西，主题"
+      },
+      {
+        "n": "2",
+        "descr": "location of plinking",
+        "descr_trans": "叮当响的位置"
+      }
+    ],
+    "roleset_name_trans": "普林克"
+  }
 ]

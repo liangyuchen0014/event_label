@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mark.01",
-        "roleset_name": "signify, distinguished",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signifier"
-            },
-            {
-                "n": "1",
-                "descr": "signified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mark.02",
-        "roleset_name": "make a mark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, marker"
-            },
-            {
-                "n": "1",
-                "descr": "mark"
-            },
-            {
-                "n": "2",
-                "descr": "surface, marked-on"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, marker"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "mark_up.03",
-        "roleset_name": "annotate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "annotator"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            },
-            {
-                "n": "2",
-                "descr": "annotation"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "mark_up.04",
-        "roleset_name": "raise the price",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity setting price"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "mark_down.05",
-        "roleset_name": "lower the price",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity setting price"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mark.01",
+    "roleset_name": "signify, distinguished",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signifier",
+        "descr_trans": "能指"
+      },
+      {
+        "n": "1",
+        "descr": "signified",
+        "descr_trans": "所指的"
+      }
+    ],
+    "roleset_name_trans": "表示、显着"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mark.02",
+    "roleset_name": "make a mark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, marker",
+        "descr_trans": "代理、标记"
+      },
+      {
+        "n": "1",
+        "descr": "mark",
+        "descr_trans": "标记"
+      },
+      {
+        "n": "2",
+        "descr": "surface, marked-on",
+        "descr_trans": "表面，有标记"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, marker",
+        "descr_trans": "仪器、标记"
+      }
+    ],
+    "roleset_name_trans": "做个记号"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "mark_up.03",
+    "roleset_name": "annotate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "annotator",
+        "descr_trans": "注释者"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      },
+      {
+        "n": "2",
+        "descr": "annotation",
+        "descr_trans": "注解"
+      }
+    ],
+    "roleset_name_trans": "注释"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "mark_up.04",
+    "roleset_name": "raise the price",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity setting price",
+        "descr_trans": "实体定价"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "提高价格"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "mark_down.05",
+    "roleset_name": "lower the price",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity setting price",
+        "descr_trans": "实体定价"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "降低价格"
+  }
 ]

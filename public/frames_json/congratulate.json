@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "congratulate.01",
-        "roleset_name": "to express acknowledgement as for the achievement of another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expresser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person congratulated"
-            },
-            {
-                "n": "2",
-                "descr": "achievement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "congratulate.01",
+    "roleset_name": "to express acknowledgement as for the achievement of another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expresser, agent",
+        "descr_trans": "表达者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person congratulated",
+        "descr_trans": "祝贺的人"
+      },
+      {
+        "n": "2",
+        "descr": "achievement",
+        "descr_trans": "成就"
+      }
+    ],
+    "roleset_name_trans": "对另一项成就表示认可"
+  }
 ]

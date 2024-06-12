@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "imperil.01",
-        "roleset_name": "put into danger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of danger (agent or instrument)"
-            },
-            {
-                "n": "1",
-                "descr": "entity in danger"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "imperil.01",
+    "roleset_name": "put into danger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of danger (agent or instrument)",
+        "descr_trans": "危险的起因（代理人或工具）"
+      },
+      {
+        "n": "1",
+        "descr": "entity in danger",
+        "descr_trans": "处于危险中的实体"
+      }
+    ],
+    "roleset_name_trans": "陷入危险"
+  }
 ]

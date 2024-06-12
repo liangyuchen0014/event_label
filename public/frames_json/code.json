@@ -1,96 +1,115 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "code.01",
-        "roleset_name": "make into a code, encrypt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "codemaker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "message etc."
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "code.02",
-        "roleset_name": "write software, writing computer programs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "programmer"
-            },
-            {
-                "n": "1",
-                "descr": "software"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "code.04",
-        "roleset_name": "be encoded for a certain function, as with genes",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "segment of DNA (or code)"
-            },
-            {
-                "n": "2",
-                "descr": "function"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "code.05",
-        "roleset_name": "authorization of level of clinical intervention in case of medical emergency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "authorizer (patient)"
-            },
-            {
-                "n": "1",
-                "descr": "status (value)"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "code.101",
-        "roleset_name": "medical patient being in cardiac arrest",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Patient"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "colorcode.03",
-        "roleset_name": "label by color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "color coder"
-            },
-            {
-                "n": "1",
-                "descr": "entity being labeled"
-            },
-            {
-                "n": "2",
-                "descr": "color"
-            },
-            {
-                "n": "3",
-                "descr": "attribute or attributive state colored as/for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "code.01",
+    "roleset_name": "make into a code, encrypt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "codemaker, agent",
+        "descr_trans": "代码制定者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "message etc.",
+        "descr_trans": "留言等"
+      }
+    ],
+    "roleset_name_trans": "做成代码，加密"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "code.02",
+    "roleset_name": "write software, writing computer programs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "programmer",
+        "descr_trans": "程序员"
+      },
+      {
+        "n": "1",
+        "descr": "software",
+        "descr_trans": "软件"
+      }
+    ],
+    "roleset_name_trans": "编写软件，编写计算机程序"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "code.04",
+    "roleset_name": "be encoded for a certain function, as with genes",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "segment of DNA (or code)",
+        "descr_trans": "DNA片段（或代码）"
+      },
+      {
+        "n": "2",
+        "descr": "function",
+        "descr_trans": "功能"
+      }
+    ],
+    "roleset_name_trans": "被编码为某种功能，如基因"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "code.05",
+    "roleset_name": "authorization of level of clinical intervention in case of medical emergency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "authorizer (patient)",
+        "descr_trans": "授权人（患者）"
+      },
+      {
+        "n": "1",
+        "descr": "status (value)",
+        "descr_trans": "状态（值）"
+      }
+    ],
+    "roleset_name_trans": "紧急医疗情况下临床干预级别的授权"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "code.101",
+    "roleset_name": "medical patient being in cardiac arrest",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "心脏骤停的病人"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "colorcode.03",
+    "roleset_name": "label by color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "color coder",
+        "descr_trans": "颜色编码器"
+      },
+      {
+        "n": "1",
+        "descr": "entity being labeled",
+        "descr_trans": "被标记的实体"
+      },
+      {
+        "n": "2",
+        "descr": "color",
+        "descr_trans": "颜色"
+      },
+      {
+        "n": "3",
+        "descr": "attribute or attributive state colored as/for",
+        "descr_trans": "属性或属性状态着色为/for"
+      }
+    ],
+    "roleset_name_trans": "按颜色标记"
+  }
 ]

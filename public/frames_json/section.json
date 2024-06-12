@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "section.01",
-        "roleset_name": "to divide, dividing into sections",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity dividing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity divided, patient"
-            },
-            {
-                "n": "2",
-                "descr": "divided into what, end state, oblique"
-            },
-            {
-                "n": "3",
-                "descr": "divided from what, source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "section.02",
-        "roleset_name": "commit to a psychiatric institution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "commiter"
-            },
-            {
-                "n": "1",
-                "descr": "entity being commited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "section.01",
+    "roleset_name": "to divide, dividing into sections",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity dividing, agent",
+        "descr_trans": "实体分割、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity divided, patient",
+        "descr_trans": "实体分裂，病人"
+      },
+      {
+        "n": "2",
+        "descr": "divided into what, end state, oblique",
+        "descr_trans": "分为什么、结束状态、斜"
+      },
+      {
+        "n": "3",
+        "descr": "divided from what, source",
+        "descr_trans": "从什么、来源划分"
+      }
+    ],
+    "roleset_name_trans": "划分，分成几部分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "section.02",
+    "roleset_name": "commit to a psychiatric institution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "commiter",
+        "descr_trans": "提交者"
+      },
+      {
+        "n": "1",
+        "descr": "entity being commited",
+        "descr_trans": "实体被提交"
+      }
+    ],
+    "roleset_name_trans": "送入精神病院"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unite.01",
-        "roleset_name": "make into one",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "uniter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "(first) thing(s) being unified"
-            },
-            {
-                "n": "2",
-                "descr": "other things, if separate from arg1"
-            },
-            {
-                "n": "3",
-                "descr": "unified whole"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unite.01",
+    "roleset_name": "make into one",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "uniter, agent",
+        "descr_trans": "他们一起行动"
+      },
+      {
+        "n": "1",
+        "descr": "(first) thing(s) being unified",
+        "descr_trans": "（第一）事物被统一"
+      },
+      {
+        "n": "2",
+        "descr": "other things, if separate from arg1",
+        "descr_trans": "其他东西，如果与 arg1 分开的话"
+      },
+      {
+        "n": "3",
+        "descr": "unified whole",
+        "descr_trans": "统一整体"
+      }
+    ],
+    "roleset_name_trans": "合而为一"
+  }
 ]

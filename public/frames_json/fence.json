@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fence_off.01",
-        "roleset_name": "(cause to) be enclosed or blocked out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing or area being enclosed"
-            },
-            {
-                "n": "2",
-                "descr": "thing being enclosed from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fence.02",
-        "roleset_name": "swashbuckling sport",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fencer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fence_off.01",
+    "roleset_name": "(cause to) be enclosed or blocked out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing or area being enclosed",
+        "descr_trans": "被封闭的事物或区域"
+      },
+      {
+        "n": "2",
+        "descr": "thing being enclosed from",
+        "descr_trans": "被包围的事物"
+      }
+    ],
+    "roleset_name_trans": "（导致）被封闭或封锁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fence.02",
+    "roleset_name": "swashbuckling sport",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fencer",
+        "descr_trans": "击剑手"
+      }
+    ],
+    "roleset_name_trans": "虚张声势的运动"
+  }
 ]

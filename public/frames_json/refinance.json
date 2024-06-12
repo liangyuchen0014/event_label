@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refinance.01",
-        "roleset_name": "provide money for, get money for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "financ(i)er"
-            },
-            {
-                "n": "1",
-                "descr": "thing financed"
-            },
-            {
-                "n": "2",
-                "descr": "money"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "refinance.02",
-        "roleset_name": "buy using someone else's money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "buyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought"
-            },
-            {
-                "n": "2",
-                "descr": "money or provider of money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refinance.01",
+    "roleset_name": "provide money for, get money for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "financ(i)er",
+        "descr_trans": "金融家。"
+      },
+      {
+        "n": "1",
+        "descr": "thing financed",
+        "descr_trans": "资助的事物"
+      },
+      {
+        "n": "2",
+        "descr": "money",
+        "descr_trans": "钱"
+      }
+    ],
+    "roleset_name_trans": "提供资金，获得资金"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "refinance.02",
+    "roleset_name": "buy using someone else's money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought",
+        "descr_trans": "买的东西"
+      },
+      {
+        "n": "2",
+        "descr": "money or provider of money",
+        "descr_trans": "金钱或金钱提供者"
+      }
+    ],
+    "roleset_name_trans": "用别人的钱买"
+  }
 ]

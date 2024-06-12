@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "effuse.01",
-        "roleset_name": "give out, radiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause or source of what is given off"
-            },
-            {
-                "n": "1",
-                "descr": "substance given off, radiated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "effuse.02",
-        "roleset_name": "speak enthusiastically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "effuse.01",
+    "roleset_name": "give out, radiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause or source of what is given off",
+        "descr_trans": "发出的原因或来源"
+      },
+      {
+        "n": "1",
+        "descr": "substance given off, radiated",
+        "descr_trans": "释放、辐射的物质"
+      }
+    ],
+    "roleset_name_trans": "发出，辐射"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "effuse.02",
+    "roleset_name": "speak enthusiastically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "热情发言"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "volunteer.01",
-        "roleset_name": "to give or offer to give voluntarily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity volunteering, voluntary agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing offered"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "voluntary.02",
-        "roleset_name": "self-initiated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity volunteering, voluntary agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing offered"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "volunteer.01",
+    "roleset_name": "to give or offer to give voluntarily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity volunteering, voluntary agent",
+        "descr_trans": "实体志愿服务、志愿代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing offered",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "自愿给予或提议给予"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "voluntary.02",
+    "roleset_name": "self-initiated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity volunteering, voluntary agent",
+        "descr_trans": "实体志愿服务、志愿代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing offered",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "自发的"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beep.01",
-        "roleset_name": "(cause to) emit a beeping sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing beeping"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beep.02",
-        "roleset_name": "notify someone via beeper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "notifier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "notified person"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beep.01",
+    "roleset_name": "(cause to) emit a beeping sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing beeping",
+        "descr_trans": "东西发出蜂鸣声"
+      }
+    ],
+    "roleset_name_trans": "（导致）发出嘟嘟声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beep.02",
+    "roleset_name": "notify someone via beeper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "notifier, agent",
+        "descr_trans": "通知、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "notified person",
+        "descr_trans": "被通知人"
+      }
+    ],
+    "roleset_name_trans": "通过蜂鸣器通知某人"
+  }
 ]

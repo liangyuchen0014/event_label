@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seed.01",
-        "roleset_name": "bear seeds, as a plant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the plant"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "seed.02",
-        "roleset_name": "plant seeds (or 'seeds')",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the farmer"
-            },
-            {
-                "n": "1",
-                "descr": "the ground"
-            },
-            {
-                "n": "2",
-                "descr": "the seeds"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "seed.03",
-        "roleset_name": "distribute players/teams in sports",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity organizing the players/teams"
-            },
-            {
-                "n": "1",
-                "descr": "players/teams"
-            },
-            {
-                "n": "2",
-                "descr": "classes or groups, or destination"
-            },
-            {
-                "n": "3",
-                "descr": "predicate-- i.e. ranking"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "seed.04",
-        "roleset_name": "remove the seeds from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity removing the seeds"
-            },
-            {
-                "n": "1",
-                "descr": "fruit that the seeds are being removed from"
-            },
-            {
-                "n": "2",
-                "descr": "the seeds"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seed.01",
+    "roleset_name": "bear seeds, as a plant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the plant",
+        "descr_trans": "植物"
+      }
+    ],
+    "roleset_name_trans": "结出种子，作为植物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "seed.02",
+    "roleset_name": "plant seeds (or 'seeds')",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the farmer",
+        "descr_trans": "农民"
+      },
+      {
+        "n": "1",
+        "descr": "the ground",
+        "descr_trans": "地面"
+      },
+      {
+        "n": "2",
+        "descr": "the seeds",
+        "descr_trans": "种子"
+      }
+    ],
+    "roleset_name_trans": "植物种子（或“种子”）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "seed.03",
+    "roleset_name": "distribute players/teams in sports",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity organizing the players/teams",
+        "descr_trans": "组织球员/球队的实体"
+      },
+      {
+        "n": "1",
+        "descr": "players/teams",
+        "descr_trans": "球员/球队"
+      },
+      {
+        "n": "2",
+        "descr": "classes or groups, or destination",
+        "descr_trans": "班级或团体，或目的地"
+      },
+      {
+        "n": "3",
+        "descr": "predicate-- i.e. ranking",
+        "descr_trans": "谓词——即排名"
+      }
+    ],
+    "roleset_name_trans": "分配体育项目中的球员/球队"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "seed.04",
+    "roleset_name": "remove the seeds from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity removing the seeds",
+        "descr_trans": "实体移除种子"
+      },
+      {
+        "n": "1",
+        "descr": "fruit that the seeds are being removed from",
+        "descr_trans": "正在去除种子的水果"
+      },
+      {
+        "n": "2",
+        "descr": "the seeds",
+        "descr_trans": "种子"
+      }
+    ],
+    "roleset_name_trans": "从中取出种子"
+  }
 ]

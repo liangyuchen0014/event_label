@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "microprinting.01",
-        "roleset_name": "printing text too small to be seen by the naked eye",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "printer"
-            },
-            {
-                "n": "1",
-                "descr": "print"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "microprinting.01",
+    "roleset_name": "printing text too small to be seen by the naked eye",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "printer",
+        "descr_trans": "打印机"
+      },
+      {
+        "n": "1",
+        "descr": "print",
+        "descr_trans": "打印"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "打印的文字太小，肉眼无法看到"
+  }
 ]

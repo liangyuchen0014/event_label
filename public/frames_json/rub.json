@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rub.01",
-        "roleset_name": "apply pressure to a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rubber, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing rubbed, core argument"
-            },
-            {
-                "n": "2",
-                "descr": "destination, if separate from arg1"
-            },
-            {
-                "n": "3",
-                "descr": "rubbed with, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rub.02",
-        "roleset_name": "an abnormal sound in the body",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing making sound (heart or lungs)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rub.01",
+    "roleset_name": "apply pressure to a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rubber, agent",
+        "descr_trans": "橡胶、剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing rubbed, core argument",
+        "descr_trans": "摩擦的事情，核心论点"
+      },
+      {
+        "n": "2",
+        "descr": "destination, if separate from arg1",
+        "descr_trans": "目的地（如果与 arg1 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "rubbed with, if separate from agent",
+        "descr_trans": "如果与试剂分开，则用摩擦"
+      }
+    ],
+    "roleset_name_trans": "向表面施加压力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rub.02",
+    "roleset_name": "an abnormal sound in the body",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing making sound (heart or lungs)",
+        "descr_trans": "发出声音的东西（心脏或肺）"
+      }
+    ],
+    "roleset_name_trans": "体内有异常声音"
+  }
 ]

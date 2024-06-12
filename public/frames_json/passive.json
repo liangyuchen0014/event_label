@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "passive.01",
-        "roleset_name": "inactive, nonviolent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Passive entity"
-            },
-            {
-                "n": "2",
-                "descr": "Target of passive nature: passive about who/what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "passive.02",
-        "roleset_name": "in the passive voice",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Verb, sentence, clause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "passive.01",
+    "roleset_name": "inactive, nonviolent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Passive entity",
+        "descr_trans": "被动实体"
+      },
+      {
+        "n": "2",
+        "descr": "Target of passive nature: passive about who/what?",
+        "descr_trans": "被动性目标：关于谁/什么的被动？"
+      }
+    ],
+    "roleset_name_trans": "不活跃、非暴力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "passive.02",
+    "roleset_name": "in the passive voice",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Verb, sentence, clause",
+        "descr_trans": "动词、句子、从句"
+      }
+    ],
+    "roleset_name_trans": "用被动语态"
+  }
 ]

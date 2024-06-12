@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clobber.01",
-        "roleset_name": "hit repeatedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clobber.01",
+    "roleset_name": "hit repeatedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "反复击打"
+  }
 ]

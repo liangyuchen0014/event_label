@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disown.01",
-        "roleset_name": "disclaim relationship to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, disowner"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing disowned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disown.01",
+    "roleset_name": "disclaim relationship to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, disowner",
+        "descr_trans": "代理人，剥夺者"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing disowned",
+        "descr_trans": "主题，被否认的事物"
+      }
+    ],
+    "roleset_name_trans": "否认与"
+  }
 ]

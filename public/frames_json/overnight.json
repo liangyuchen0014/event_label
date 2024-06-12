@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overnight.01",
-        "roleset_name": "spend a night",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alive entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "overnight.02",
-        "roleset_name": "send by overnight mail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mailer"
-            },
-            {
-                "n": "1",
-                "descr": "letter"
-            },
-            {
-                "n": "2",
-                "descr": "mailed-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overnight.01",
+    "roleset_name": "spend a night",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alive entity",
+        "descr_trans": "活的实体"
+      }
+    ],
+    "roleset_name_trans": "住一晚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "overnight.02",
+    "roleset_name": "send by overnight mail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mailer",
+        "descr_trans": "邮寄者"
+      },
+      {
+        "n": "1",
+        "descr": "letter",
+        "descr_trans": "信"
+      },
+      {
+        "n": "2",
+        "descr": "mailed-to",
+        "descr_trans": "邮寄至"
+      }
+    ],
+    "roleset_name_trans": "通过隔夜邮件发送"
+  }
 ]

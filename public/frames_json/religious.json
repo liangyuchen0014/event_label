@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "religious.01",
-        "roleset_name": "conforming to a religion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity conforming to a religion, adhering to rules"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "religious.02",
-        "roleset_name": "doing something with zealous consistency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, doer"
-            },
-            {
-                "n": "1",
-                "descr": "thing done (or domain) with zealous consistency"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "religious.01",
+    "roleset_name": "conforming to a religion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity conforming to a religion, adhering to rules",
+        "descr_trans": "遵守宗教、遵守规则的实体"
+      }
+    ],
+    "roleset_name_trans": "遵守某种宗教信仰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "religious.02",
+    "roleset_name": "doing something with zealous consistency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, doer",
+        "descr_trans": "代理人、行动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing done (or domain) with zealous consistency",
+        "descr_trans": "以热忱的一致性完成的事情（或领域）"
+      }
+    ],
+    "roleset_name_trans": "热心坚持做某事"
+  }
 ]

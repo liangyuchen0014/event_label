@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stress.01",
-        "roleset_name": "emphasize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stresser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stressed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stress.02",
-        "roleset_name": "(cause to) experience stress, anxiety inducing, experiencing stress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of stress"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing stress"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if separate from arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of stress (stressed about/over __)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stress.04",
-        "roleset_name": "physical strain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of strain"
-            },
-            {
-                "n": "1",
-                "descr": "thing strained"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "stress_out.03",
-        "roleset_name": "(cause to) experience stress (phrasal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of stress"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing stress"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if separate from arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of stress (stressed out about/over __)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stress.01",
+    "roleset_name": "emphasize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stresser, agent",
+        "descr_trans": "压力源、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stressed",
+        "descr_trans": "强调的事情"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "强调"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stress.02",
+    "roleset_name": "(cause to) experience stress, anxiety inducing, experiencing stress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of stress",
+        "descr_trans": "压力的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing stress",
+        "descr_trans": "经历压力的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if separate from arg0)",
+        "descr_trans": "仪器（如果与 arg0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of stress (stressed about/over __)",
+        "descr_trans": "压力的主题（强调/超过__）"
+      }
+    ],
+    "roleset_name_trans": "（导致）经历压力、诱发焦虑、经历压力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stress.04",
+    "roleset_name": "physical strain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of strain",
+        "descr_trans": "造成紧张的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing strained",
+        "descr_trans": "事情紧张"
+      }
+    ],
+    "roleset_name_trans": "身体劳损"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "stress_out.03",
+    "roleset_name": "(cause to) experience stress (phrasal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of stress",
+        "descr_trans": "压力的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing stress",
+        "descr_trans": "经历压力的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if separate from arg0)",
+        "descr_trans": "仪器（如果与 arg0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of stress (stressed out about/over __)",
+        "descr_trans": "压力的主题（因__而感到压力）"
+      }
+    ],
+    "roleset_name_trans": "（导致）经历压力（短语）"
+  }
 ]

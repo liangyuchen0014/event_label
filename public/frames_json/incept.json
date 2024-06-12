@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incept.01",
-        "roleset_name": "beginning, origination",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (probably rare)"
-            },
-            {
-                "n": "1",
-                "descr": "thing originating"
-            },
-            {
-                "n": "2",
-                "descr": "inception as what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "incept.02",
-        "roleset_name": "graduate from a university",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "student"
-            },
-            {
-                "n": "1",
-                "descr": "learning institution"
-            },
-            {
-                "n": "2",
-                "descr": "with which degree"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incept.01",
+    "roleset_name": "beginning, origination",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (probably rare)",
+        "descr_trans": "代理（可能很少见）"
+      },
+      {
+        "n": "1",
+        "descr": "thing originating",
+        "descr_trans": "事物起源"
+      },
+      {
+        "n": "2",
+        "descr": "inception as what",
+        "descr_trans": "开始是什么"
+      }
+    ],
+    "roleset_name_trans": "开始，起源"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "incept.02",
+    "roleset_name": "graduate from a university",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "1",
+        "descr": "learning institution",
+        "descr_trans": "学习机构"
+      },
+      {
+        "n": "2",
+        "descr": "with which degree",
+        "descr_trans": "拥有哪个学位"
+      }
+    ],
+    "roleset_name_trans": "大学毕业"
+  }
 ]

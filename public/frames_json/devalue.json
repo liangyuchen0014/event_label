@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "devalue.01",
-        "roleset_name": "to lessen the value of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of lower value, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing with lower value"
-            },
-            {
-                "n": "2",
-                "descr": "original state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "devalue.01",
+    "roleset_name": "to lessen the value of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of lower value, agent",
+        "descr_trans": "价值降低的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing with lower value",
+        "descr_trans": "价值较低的东西"
+      },
+      {
+        "n": "2",
+        "descr": "original state",
+        "descr_trans": "原始状态"
+      }
+    ],
+    "roleset_name_trans": "来减少 的值"
+  }
 ]

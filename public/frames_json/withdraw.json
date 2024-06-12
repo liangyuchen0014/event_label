@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "withdraw.01",
-        "roleset_name": "withdraw, remove oneself, removal from a source",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being withdrawn (often understood as 'self')"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "withdrawal.02",
-        "roleset_name": "symptom of loss of drugs from the body",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity experiencing withdrawals"
-            },
-            {
-                "n": "2",
-                "descr": "drug"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "withdraw.01",
+    "roleset_name": "withdraw, remove oneself, removal from a source",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "thing being withdrawn (often understood as 'self')",
+        "descr_trans": "被撤回的事物（通常被理解为“自我”）"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "撤回，移除自己，从源头移除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "withdrawal.02",
+    "roleset_name": "symptom of loss of drugs from the body",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity experiencing withdrawals",
+        "descr_trans": "经历提款的实体"
+      },
+      {
+        "n": "2",
+        "descr": "drug",
+        "descr_trans": "药品"
+      }
+    ],
+    "roleset_name_trans": "体内药物流失的症状"
+  }
 ]

@@ -1,132 +1,158 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "be.01",
-        "roleset_name": "copula",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "comment"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "be.02",
-        "roleset_name": "existential, existing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "be.03",
-        "roleset_name": "auxiliary",
-        "roles": []
-    },
-    {
-        "uid": 4,
-        "roleset_id": "be_like.04",
-        "roleset_name": "be_like: multiword expression akin to \"say\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "be_all.05",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "attributive, comment on utterance, topic of utterance"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "be_it.06",
-        "roleset_name": "evoke frustration or giving up; exceed one's tolerance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause or stimulus of frustration"
-            },
-            {
-                "n": "1",
-                "descr": "person frustrated, if explicit"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "be_it.07",
-        "roleset_name": "be the correct answer to a need or a question under discussion ",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "realization"
-            },
-            {
-                "n": "2",
-                "descr": "question, topic of utterance"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "be_it.08",
-        "roleset_name": "be minimal, less than expected, be finished",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing at the lower end of expectation (often 'that')"
-            },
-            {
-                "n": "2",
-                "descr": "domain or larger set"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive/malefactive; entity needing more arg1"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "be_it.09",
-        "roleset_name": "be a selected party, as in a game of tag.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person who is now designated as it"
-            },
-            {
-                "n": "2",
-                "descr": "game or task selected"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "be.01",
+    "roleset_name": "copula",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "comment",
+        "descr_trans": "评论"
+      }
+    ],
+    "roleset_name_trans": "系词"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "be.02",
+    "roleset_name": "existential, existing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is",
+        "descr_trans": "那是的东西"
+      }
+    ],
+    "roleset_name_trans": "存在的，现存的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "be.03",
+    "roleset_name": "auxiliary",
+    "roles": [],
+    "roleset_name_trans": "辅助的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "be_like.04",
+    "roleset_name": "be_like: multiword expression akin to \"say\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "be_like：类似于“say”的多词表达"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "be_all.05",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "attributive, comment on utterance, topic of utterance",
+        "descr_trans": "定语、对话语的评论、话语的主题"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "be_it.06",
+    "roleset_name": "evoke frustration or giving up; exceed one's tolerance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause or stimulus of frustration",
+        "descr_trans": "挫折的原因或刺激"
+      },
+      {
+        "n": "1",
+        "descr": "person frustrated, if explicit",
+        "descr_trans": "感到沮丧的人，如果明确的话"
+      }
+    ],
+    "roleset_name_trans": "引起沮丧或放弃；超出自己的承受能力"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "be_it.07",
+    "roleset_name": "be the correct answer to a need or a question under discussion ",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "realization",
+        "descr_trans": "实现"
+      },
+      {
+        "n": "2",
+        "descr": "question, topic of utterance",
+        "descr_trans": "问题、话语主题"
+      }
+    ],
+    "roleset_name_trans": "是对正在讨论的需求或问题的正确答案"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "be_it.08",
+    "roleset_name": "be minimal, less than expected, be finished",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing at the lower end of expectation (often 'that')",
+        "descr_trans": "处于期望较低端的事物（通常是“那个”）"
+      },
+      {
+        "n": "2",
+        "descr": "domain or larger set",
+        "descr_trans": "域或更大的集合"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive/malefactive; entity needing more arg1",
+        "descr_trans": "有益的/有害的；实体需要更多 arg1"
+      }
+    ],
+    "roleset_name_trans": "最小化，低于预期，完成"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "be_it.09",
+    "roleset_name": "be a selected party, as in a game of tag.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person who is now designated as it",
+        "descr_trans": "现在被指定为它的人"
+      },
+      {
+        "n": "2",
+        "descr": "game or task selected",
+        "descr_trans": "选定的游戏或任务"
+      }
+    ],
+    "roleset_name_trans": "成为选定的一方，就像在捉人游戏中一样。"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indecipherable.01",
-        "roleset_name": "impossible to determine the meaning of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unsuccessful code-breaker"
-            },
-            {
-                "n": "1",
-                "descr": "encrypted data"
-            },
-            {
-                "n": "2",
-                "descr": "decoded data, what couldn't be gleaned from Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indecipherable.01",
+    "roleset_name": "impossible to determine the meaning of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unsuccessful code-breaker",
+        "descr_trans": "密码破解失败"
+      },
+      {
+        "n": "1",
+        "descr": "encrypted data",
+        "descr_trans": "加密数据"
+      },
+      {
+        "n": "2",
+        "descr": "decoded data, what couldn't be gleaned from Arg1",
+        "descr_trans": "解码后的数据，无法从 Arg1 中收集到的内容"
+      }
+    ],
+    "roleset_name_trans": "无法确定其含义"
+  }
 ]

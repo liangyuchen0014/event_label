@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noninjected.01",
-        "roleset_name": "x not having been put into y",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "injector"
-            },
-            {
-                "n": "1",
-                "descr": "stuff (not) being put in (X)"
-            },
-            {
-                "n": "2",
-                "descr": "(not) injected into what? (Y)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noninjected.01",
+    "roleset_name": "x not having been put into y",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "injector",
+        "descr_trans": "注射器"
+      },
+      {
+        "n": "1",
+        "descr": "stuff (not) being put in (X)",
+        "descr_trans": "东西（不）被放入（X）"
+      },
+      {
+        "n": "2",
+        "descr": "(not) injected into what? (Y)",
+        "descr_trans": "（不）注入什么？ (是)"
+      }
+    ],
+    "roleset_name_trans": "x 尚未被放入 y"
+  }
 ]

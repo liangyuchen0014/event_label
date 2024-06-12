@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "geotag.01",
-        "roleset_name": "provide geographic location via metadata",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "geotag-giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing geotagged"
-            },
-            {
-                "n": "2",
-                "descr": "location given"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "geotag.01",
+    "roleset_name": "provide geographic location via metadata",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "geotag-giver",
+        "descr_trans": "地理标签提供商"
+      },
+      {
+        "n": "1",
+        "descr": "thing geotagged",
+        "descr_trans": "地理标记的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location given",
+        "descr_trans": "给出的位置"
+      }
+    ],
+    "roleset_name_trans": "通过元数据提供地理位置"
+  }
 ]

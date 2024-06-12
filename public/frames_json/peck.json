@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "peck.01",
-        "roleset_name": "take away bit by bit (like a bird eating)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pecker"
-            },
-            {
-                "n": "1",
-                "descr": "thing pecked at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "peck.02",
-        "roleset_name": "hit with beak",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter, bird"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "beak"
-            },
-            {
-                "n": "3",
-                "descr": "end state of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "peck.01",
+    "roleset_name": "take away bit by bit (like a bird eating)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pecker",
+        "descr_trans": "啄木鸟"
+      },
+      {
+        "n": "1",
+        "descr": "thing pecked at",
+        "descr_trans": "被啄的东西"
+      }
+    ],
+    "roleset_name_trans": "一点一点地带走（就像鸟儿吃东西一样）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "peck.02",
+    "roleset_name": "hit with beak",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter, bird",
+        "descr_trans": "击球手, 鸟"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "beak",
+        "descr_trans": "喙"
+      },
+      {
+        "n": "3",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "用喙击打"
+  }
 ]

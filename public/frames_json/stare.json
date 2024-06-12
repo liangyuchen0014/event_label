@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stare.01",
-        "roleset_name": "look intently, gazing fixedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker"
-            },
-            {
-                "n": "1",
-                "descr": "looked at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stare_down.02",
-        "roleset_name": "intimidate by staring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intimidator"
-            },
-            {
-                "n": "1",
-                "descr": "intimidated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stare.01",
+    "roleset_name": "look intently, gazing fixedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "looked at",
+        "descr_trans": "看着"
+      }
+    ],
+    "roleset_name_trans": "专心地看, 凝视"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stare_down.02",
+    "roleset_name": "intimidate by staring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intimidator",
+        "descr_trans": "恐吓者"
+      },
+      {
+        "n": "1",
+        "descr": "intimidated",
+        "descr_trans": "受到恐吓"
+      }
+    ],
+    "roleset_name_trans": "通过凝视来恐吓"
+  }
 ]

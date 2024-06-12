@@ -1,202 +1,243 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lay.01",
-        "roleset_name": "put, set, cause to exist at some location, putting (horizontally)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "layer"
-            },
-            {
-                "n": "1",
-                "descr": "thing laid"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lay.04",
-        "roleset_name": "have sexual relation with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sexual partner, entity laying arg1"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting laid (most common arg)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lie.07",
-        "roleset_name": "(cause to) be in a horizontal position, more generally 'exist', existing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in the position"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            },
-            {
-                "n": "3",
-                "descr": "orientation"
-            },
-            {
-                "n": "4",
-                "descr": "primary prone axis"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lie.08",
-        "roleset_name": "tell a falsehood",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liar"
-            },
-            {
-                "n": "1",
-                "descr": "lie itself"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter the lie is about"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "lay_on.03",
-        "roleset_name": "use or employ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing employed"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "lay_off.02",
-        "roleset_name": "fire, let go from employement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "(former) employer"
-            },
-            {
-                "n": "1",
-                "descr": "(former) employee"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "lay_off.06",
-        "roleset_name": "cease (harassing, using, etc.)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of cessation"
-            },
-            {
-                "n": "1",
-                "descr": "activity ceased"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "laid_back.05",
-        "roleset_name": "relaxed, casual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of relaxation"
-            },
-            {
-                "n": "1",
-                "descr": "relaxed/casual entity"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "lie_down.09",
-        "roleset_name": "more explicit horizontal position",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity lying down"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "lay_down.10",
-        "roleset_name": "install or establish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "installer, creator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing installed"
-            },
-            {
-                "n": "2",
-                "descr": "installed where"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "lie_in.11",
-        "roleset_name": "lie in bed, confinement or bed rest, sometimes for child birth",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "mother or lazy person"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "give_lie_to.12",
-        "roleset_name": "refute, prove as false",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "refuter"
-            },
-            {
-                "n": "1",
-                "descr": "thing proven false"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lay.01",
+    "roleset_name": "put, set, cause to exist at some location, putting (horizontally)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "layer",
+        "descr_trans": "层"
+      },
+      {
+        "n": "1",
+        "descr": "thing laid",
+        "descr_trans": "放置的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "放置、设置、导致存在于某个位置、放置（水平）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lay.04",
+    "roleset_name": "have sexual relation with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sexual partner, entity laying arg1",
+        "descr_trans": "性伴侣，铺设 arg1 的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting laid (most common arg)",
+        "descr_trans": "实体上床（最常见的参数）"
+      }
+    ],
+    "roleset_name_trans": "与发生性关系"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lie.07",
+    "roleset_name": "(cause to) be in a horizontal position, more generally 'exist', existing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in the position",
+        "descr_trans": "处于该位置的实体"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      },
+      {
+        "n": "3",
+        "descr": "orientation",
+        "descr_trans": "方向"
+      },
+      {
+        "n": "4",
+        "descr": "primary prone axis",
+        "descr_trans": "主要俯卧轴"
+      }
+    ],
+    "roleset_name_trans": "（导致）处于水平位置，更一般地“存在”，存在"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lie.08",
+    "roleset_name": "tell a falsehood",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liar",
+        "descr_trans": "说谎者"
+      },
+      {
+        "n": "1",
+        "descr": "lie itself",
+        "descr_trans": "谎言本身"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter the lie is about",
+        "descr_trans": "谎言的主题"
+      }
+    ],
+    "roleset_name_trans": "说谎"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "lay_on.03",
+    "roleset_name": "use or employ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing employed",
+        "descr_trans": "所雇用的东西"
+      }
+    ],
+    "roleset_name_trans": "使用或雇用"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "lay_off.02",
+    "roleset_name": "fire, let go from employement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "(former) employer",
+        "descr_trans": "（上任老板"
+      },
+      {
+        "n": "1",
+        "descr": "(former) employee",
+        "descr_trans": "（前雇员"
+      }
+    ],
+    "roleset_name_trans": "火灾、解雇"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "lay_off.06",
+    "roleset_name": "cease (harassing, using, etc.)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of cessation",
+        "descr_trans": "停止代理人"
+      },
+      {
+        "n": "1",
+        "descr": "activity ceased",
+        "descr_trans": "活动停止"
+      }
+    ],
+    "roleset_name_trans": "停止（骚扰、使用等）"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "laid_back.05",
+    "roleset_name": "relaxed, casual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of relaxation",
+        "descr_trans": "放松的原因"
+      },
+      {
+        "n": "1",
+        "descr": "relaxed/casual entity",
+        "descr_trans": "放松/休闲的实体"
+      }
+    ],
+    "roleset_name_trans": "放松的、休闲的"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "lie_down.09",
+    "roleset_name": "more explicit horizontal position",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity lying down",
+        "descr_trans": "实体躺着"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "更明确的水平位置"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "lay_down.10",
+    "roleset_name": "install or establish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "installer, creator, agent",
+        "descr_trans": "安装者、创建者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing installed",
+        "descr_trans": "安装的东西"
+      },
+      {
+        "n": "2",
+        "descr": "installed where",
+        "descr_trans": "安装在哪里"
+      }
+    ],
+    "roleset_name_trans": "安装或建立"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "lie_in.11",
+    "roleset_name": "lie in bed, confinement or bed rest, sometimes for child birth",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "mother or lazy person",
+        "descr_trans": "母亲或懒人"
+      }
+    ],
+    "roleset_name_trans": "躺在床上、坐月子或卧床休息，有时是为了分娩"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "give_lie_to.12",
+    "roleset_name": "refute, prove as false",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "refuter",
+        "descr_trans": "反驳者"
+      },
+      {
+        "n": "1",
+        "descr": "thing proven false",
+        "descr_trans": "事情被证明是假的"
+      }
+    ],
+    "roleset_name_trans": "反驳，证明是错误的"
+  }
 ]

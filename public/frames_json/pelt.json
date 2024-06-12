@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pelt.01",
-        "roleset_name": "hit,throw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pelter, thrower, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) thrown, theme"
-            },
-            {
-                "n": "2",
-                "descr": "pelted, victim, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pelt.01",
+    "roleset_name": "hit,throw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pelter, thrower, agent",
+        "descr_trans": "投掷者, 投掷者, 特工"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) thrown, theme",
+        "descr_trans": "抛出的东西，主题"
+      },
+      {
+        "n": "2",
+        "descr": "pelted, victim, destination",
+        "descr_trans": "被投掷, 受害者, 目的地"
+      }
+    ],
+    "roleset_name_trans": "击打、投掷"
+  }
 ]

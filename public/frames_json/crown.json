@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crown.01",
-        "roleset_name": "put a crown on somebody/thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter of crown"
-            },
-            {
-                "n": "1",
-                "descr": "receiver of crown"
-            },
-            {
-                "n": "2",
-                "descr": "crown, or attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crown.02",
-        "roleset_name": "culminating event",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/ owner of culmination/achievment"
-            },
-            {
-                "n": "1",
-                "descr": "crowned event"
-            },
-            {
-                "n": "2",
-                "descr": "crowning event/achievment"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "crown.03",
-        "roleset_name": "highest point of",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Highest point"
-            },
-            {
-                "n": "2",
-                "descr": "Foundation/support"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "crown.04",
-        "roleset_name": "put an enamel cover over a tooth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Dentist"
-            },
-            {
-                "n": "1",
-                "descr": "Tooth"
-            },
-            {
-                "n": "2",
-                "descr": "Cover"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crown.01",
+    "roleset_name": "put a crown on somebody/thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter of crown",
+        "descr_trans": "皇冠推杆"
+      },
+      {
+        "n": "1",
+        "descr": "receiver of crown",
+        "descr_trans": "皇冠接收者"
+      },
+      {
+        "n": "2",
+        "descr": "crown, or attribute of arg1",
+        "descr_trans": "冠，或 arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "给某人/某物戴上王冠"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crown.02",
+    "roleset_name": "culminating event",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/ owner of culmination/achievment",
+        "descr_trans": "顶峰/成就的代理人/所有者"
+      },
+      {
+        "n": "1",
+        "descr": "crowned event",
+        "descr_trans": "加冕事件"
+      },
+      {
+        "n": "2",
+        "descr": "crowning event/achievment",
+        "descr_trans": "最高事件/成就"
+      }
+    ],
+    "roleset_name_trans": "高潮事件"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "crown.03",
+    "roleset_name": "highest point of",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Highest point",
+        "descr_trans": "最高点"
+      },
+      {
+        "n": "2",
+        "descr": "Foundation/support",
+        "descr_trans": "基金会/支持"
+      }
+    ],
+    "roleset_name_trans": "的最高点"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "crown.04",
+    "roleset_name": "put an enamel cover over a tooth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Dentist",
+        "descr_trans": "牙医"
+      },
+      {
+        "n": "1",
+        "descr": "Tooth",
+        "descr_trans": "齿"
+      },
+      {
+        "n": "2",
+        "descr": "Cover",
+        "descr_trans": "覆盖"
+      }
+    ],
+    "roleset_name_trans": "将牙釉质覆盖在牙齿上"
+  }
 ]

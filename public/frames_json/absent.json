@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "absent.01",
-        "roleset_name": "(cause to) not be present",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "absent entity"
-            },
-            {
-                "n": "2",
-                "descr": "absent from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "absent.01",
+    "roleset_name": "(cause to) not be present",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "absent entity",
+        "descr_trans": "缺席实体"
+      },
+      {
+        "n": "2",
+        "descr": "absent from what",
+        "descr_trans": "缺席什么"
+      }
+    ],
+    "roleset_name_trans": "（导致）不在场"
+  }
 ]

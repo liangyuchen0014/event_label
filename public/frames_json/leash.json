@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leash.01",
-        "roleset_name": "put a leash on, possibly metaphorically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dog catcher, agent putting a leash on"
-            },
-            {
-                "n": "1",
-                "descr": "dog, entity leashed, muzzled"
-            },
-            {
-                "n": "2",
-                "descr": "fence, hydrant -- thing leashed to, attached by leash"
-            },
-            {
-                "n": "3",
-                "descr": "leash itself, type of leash"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leash.01",
+    "roleset_name": "put a leash on, possibly metaphorically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dog catcher, agent putting a leash on",
+        "descr_trans": "捕狗员，特工拴上皮带"
+      },
+      {
+        "n": "1",
+        "descr": "dog, entity leashed, muzzled",
+        "descr_trans": "狗，实体被拴住，戴上嘴套"
+      },
+      {
+        "n": "2",
+        "descr": "fence, hydrant -- thing leashed to, attached by leash",
+        "descr_trans": "栅栏，消火栓——用皮带拴住的东西"
+      },
+      {
+        "n": "3",
+        "descr": "leash itself, type of leash",
+        "descr_trans": "皮带本身，皮带类型"
+      }
+    ],
+    "roleset_name_trans": "系上皮带，可能是比喻意义上的"
+  }
 ]

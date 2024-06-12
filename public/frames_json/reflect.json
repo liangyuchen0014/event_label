@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reflect.01",
-        "roleset_name": "cast an image back, casting back an image",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "surface doing the reflecting"
-            },
-            {
-                "n": "2",
-                "descr": "reflected thing (usually the original model)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reflect.02",
-        "roleset_name": "think about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thoughts, reflected on/over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reflect.01",
+    "roleset_name": "cast an image back, casting back an image",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "surface doing the reflecting",
+        "descr_trans": "表面进行反射"
+      },
+      {
+        "n": "2",
+        "descr": "reflected thing (usually the original model)",
+        "descr_trans": "反映的事物（通常是原始模型）"
+      }
+    ],
+    "roleset_name_trans": "投射回图像, 投射回图像"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reflect.02",
+    "roleset_name": "think about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "thoughts, reflected on/over",
+        "descr_trans": "想法，反思/反思"
+      }
+    ],
+    "roleset_name_trans": "想一想"
+  }
 ]

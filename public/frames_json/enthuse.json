@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enthuse.01",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "encourager"
-            },
-            {
-                "n": "1",
-                "descr": "encouraged agent"
-            },
-            {
-                "n": "2",
-                "descr": "encouraged action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "enthuse.02",
-        "roleset_name": "fill with enthusiasm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Inspiration of enthusiasm"
-            },
-            {
-                "n": "1",
-                "descr": "Enthusiastic entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from cause"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "enthusiastic.03",
-        "roleset_name": "excited, full of enthusiasm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus of enthusiasm"
-            },
-            {
-                "n": "1",
-                "descr": "excited entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enthuse.01",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "encourager",
+        "descr_trans": "鼓励"
+      },
+      {
+        "n": "1",
+        "descr": "encouraged agent",
+        "descr_trans": "鼓励代理人"
+      },
+      {
+        "n": "2",
+        "descr": "encouraged action",
+        "descr_trans": "鼓励行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "enthuse.02",
+    "roleset_name": "fill with enthusiasm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Inspiration of enthusiasm",
+        "descr_trans": "热情的启发"
+      },
+      {
+        "n": "1",
+        "descr": "Enthusiastic entity",
+        "descr_trans": "热心实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from cause",
+        "descr_trans": "仪器，如果与原因分开"
+      }
+    ],
+    "roleset_name_trans": "充满热情"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "enthusiastic.03",
+    "roleset_name": "excited, full of enthusiasm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus of enthusiasm",
+        "descr_trans": "热情的刺激"
+      },
+      {
+        "n": "1",
+        "descr": "excited entity",
+        "descr_trans": "兴奋的实体"
+      }
+    ],
+    "roleset_name_trans": "兴奋、充满热情"
+  }
 ]

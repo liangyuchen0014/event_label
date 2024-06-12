@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prate.01",
-        "roleset_name": "talk endlessly and to little purpose (non-phrasal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prate_on.02",
-        "roleset_name": "prate_on: talk endlessly and to little purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prate.01",
+    "roleset_name": "talk endlessly and to little purpose (non-phrasal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "没完没了地说话，没有什么目的（非短语）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prate_on.02",
+    "roleset_name": "prate_on: talk endlessly and to little purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "prate_on：没完没了地说话，没有什么目的"
+  }
 ]

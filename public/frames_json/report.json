@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "report.01",
-        "roleset_name": "report, tell, writing/work-of-art, relating info, formally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Reporter"
-            },
-            {
-                "n": "1",
-                "descr": "theme (what is reported)"
-            },
-            {
-                "n": "2",
-                "descr": "entity reported to"
-            },
-            {
-                "n": "3",
-                "descr": "topic (what is reported about)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "report.02",
-        "roleset_name": "present one's self, show up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person presenting"
-            },
-            {
-                "n": "1",
-                "descr": "to whom, where"
-            },
-            {
-                "n": "2",
-                "descr": "for what (purpose)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "report.01",
+    "roleset_name": "report, tell, writing/work-of-art, relating info, formally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Reporter",
+        "descr_trans": "记者"
+      },
+      {
+        "n": "1",
+        "descr": "theme (what is reported)",
+        "descr_trans": "主题（报道内容）"
+      },
+      {
+        "n": "2",
+        "descr": "entity reported to",
+        "descr_trans": "实体报告给"
+      },
+      {
+        "n": "3",
+        "descr": "topic (what is reported about)",
+        "descr_trans": "主题（报道的内容）"
+      }
+    ],
+    "roleset_name_trans": "报告、讲述、写作/艺术作品、相关信息、正式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "report.02",
+    "roleset_name": "present one's self, show up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person presenting",
+        "descr_trans": "介绍人"
+      },
+      {
+        "n": "1",
+        "descr": "to whom, where",
+        "descr_trans": "给谁、在哪里"
+      },
+      {
+        "n": "2",
+        "descr": "for what (purpose)",
+        "descr_trans": "出于什么目的）"
+      }
+    ],
+    "roleset_name_trans": "展现自我，出现"
+  }
 ]

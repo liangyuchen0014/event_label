@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "annuloplasty.01",
-        "roleset_name": "surgical procedure to tighten a heart valve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "thing tightened (the valve)"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (undergoer of procedure)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "annuloplasty.01",
+    "roleset_name": "surgical procedure to tighten a heart valve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "thing tightened (the valve)",
+        "descr_trans": "拧紧的东西（阀门）"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (undergoer of procedure)",
+        "descr_trans": "受益人（程序的执行者）"
+      }
+    ],
+    "roleset_name_trans": "收紧心脏瓣膜的外科手术"
+  }
 ]

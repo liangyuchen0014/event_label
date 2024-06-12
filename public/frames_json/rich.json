@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rich.01",
-        "roleset_name": "wealthy, abundant (in money or other), add value",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity having wealth, abundance"
-            },
-            {
-                "n": "2",
-                "descr": "money, vitamins, other form of wealth"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rich.02",
-        "roleset_name": "sensorilly intense (as of color of flavor, etc)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "intense stimulus"
-            },
-            {
-                "n": "2",
-                "descr": "modality, sensory domain in which arg0 is rich"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rich.01",
+    "roleset_name": "wealthy, abundant (in money or other), add value",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity having wealth, abundance",
+        "descr_trans": "拥有财富、丰富的实体"
+      },
+      {
+        "n": "2",
+        "descr": "money, vitamins, other form of wealth",
+        "descr_trans": "金钱、维生素、其他形式的财富"
+      }
+    ],
+    "roleset_name_trans": "富有，丰富（在金钱或其他方面），增加价值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rich.02",
+    "roleset_name": "sensorilly intense (as of color of flavor, etc)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "intense stimulus",
+        "descr_trans": "强烈的刺激"
+      },
+      {
+        "n": "2",
+        "descr": "modality, sensory domain in which arg0 is rich",
+        "descr_trans": "模态，arg0 丰富的感觉域"
+      }
+    ],
+    "roleset_name_trans": "感官强烈（如味道的颜色等）"
+  }
 ]

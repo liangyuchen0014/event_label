@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "postmark.01",
-        "roleset_name": "to stamp with a postmark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier of stamp, agent"
-            },
-            {
-                "n": "1",
-                "descr": "letter"
-            },
-            {
-                "n": "2",
-                "descr": "temporal attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "postmark.01",
+    "roleset_name": "to stamp with a postmark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier of stamp, agent",
+        "descr_trans": "盖章者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "letter",
+        "descr_trans": "信"
+      },
+      {
+        "n": "2",
+        "descr": "temporal attribute",
+        "descr_trans": "时间属性"
+      }
+    ],
+    "roleset_name_trans": "加盖邮戳"
+  }
 ]

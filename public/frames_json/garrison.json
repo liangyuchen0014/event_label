@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "garrison.01",
-        "roleset_name": "stationing troops in a military post",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "troops stationed"
-            },
-            {
-                "n": "2",
-                "descr": "location posted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "garrison.01",
+    "roleset_name": "stationing troops in a military post",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "troops stationed",
+        "descr_trans": "驻军"
+      },
+      {
+        "n": "2",
+        "descr": "location posted",
+        "descr_trans": "位置已发布"
+      }
+    ],
+    "roleset_name_trans": "驻扎军队"
+  }
 ]

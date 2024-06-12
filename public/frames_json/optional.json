@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "optional.01",
-        "roleset_name": "left to choice, not required",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is not required"
-            },
-            {
-                "n": "2",
-                "descr": "who, what arg1 is not necessarily required for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "optional.01",
+    "roleset_name": "left to choice, not required",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is not required",
+        "descr_trans": "不需要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "who, what arg1 is not necessarily required for",
+        "descr_trans": "who, what arg1 不一定是必需的"
+      }
+    ],
+    "roleset_name_trans": "留给选择，不是必需的"
+  }
 ]

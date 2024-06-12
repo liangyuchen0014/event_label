@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "maneuver.01",
-        "roleset_name": "to direct the course",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "director, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity maneuvered"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "maneuver.01",
+    "roleset_name": "to direct the course",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "director, agent",
+        "descr_trans": "董事、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity maneuvered",
+        "descr_trans": "实体被操纵"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "指导课程"
+  }
 ]

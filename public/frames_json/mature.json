@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mature.01",
-        "roleset_name": "grow up, age; the inchoative event as it takes place",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing aging"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mature.02",
-        "roleset_name": "already grown up, adult-like",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing aging"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "maturate.03",
-        "roleset_name": "cause to mature",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent causing maturity in arg1"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming mature"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mature.01",
+    "roleset_name": "grow up, age; the inchoative event as it takes place",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing aging",
+        "descr_trans": "事物老化"
+      }
+    ],
+    "roleset_name_trans": "长大，变老；发生的起始事件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mature.02",
+    "roleset_name": "already grown up, adult-like",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing aging",
+        "descr_trans": "事物老化"
+      }
+    ],
+    "roleset_name_trans": "已经长大了，像大人一样"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "maturate.03",
+    "roleset_name": "cause to mature",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent causing maturity in arg1",
+        "descr_trans": "导致 arg1 成熟的代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming mature",
+        "descr_trans": "事物变得成熟"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "导致成熟"
+  }
 ]

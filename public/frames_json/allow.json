@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "allow.01",
-        "roleset_name": "let",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "action allowed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "allow.02",
-        "roleset_name": "allocate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allocator"
-            },
-            {
-                "n": "1",
-                "descr": "thing allocated (us. time)"
-            },
-            {
-                "n": "2",
-                "descr": "to some task"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "allow.03",
-        "roleset_name": "admit truth of proposition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "admitter"
-            },
-            {
-                "n": "1",
-                "descr": "true proposition"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "allowable.04",
-        "roleset_name": "permissable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "action allowed (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "allow.01",
+    "roleset_name": "let",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "action allowed",
+        "descr_trans": "允许采取行动"
+      }
+    ],
+    "roleset_name_trans": "让"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "allow.02",
+    "roleset_name": "allocate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allocator",
+        "descr_trans": "分配器"
+      },
+      {
+        "n": "1",
+        "descr": "thing allocated (us. time)",
+        "descr_trans": "分配的事物（美国时间）"
+      },
+      {
+        "n": "2",
+        "descr": "to some task",
+        "descr_trans": "完成某项任务"
+      }
+    ],
+    "roleset_name_trans": "分配"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "allow.03",
+    "roleset_name": "admit truth of proposition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "admitter",
+        "descr_trans": "被录取"
+      },
+      {
+        "n": "1",
+        "descr": "true proposition",
+        "descr_trans": "真命题"
+      }
+    ],
+    "roleset_name_trans": "承认命题的真实性"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "allowable.04",
+    "roleset_name": "permissable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "action allowed (may require concatenation)",
+        "descr_trans": "允许的操作（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "允许的"
+  }
 ]

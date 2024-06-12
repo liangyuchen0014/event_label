@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stabilize.01",
-        "roleset_name": "to make stable, making/becoming stable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of stability, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stabilized"
-            },
-            {
-                "n": "2",
-                "descr": "stabilized at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stable.02",
-        "roleset_name": "to keep or put in a stable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stabler"
-            },
-            {
-                "n": "1",
-                "descr": "thing stabled"
-            },
-            {
-                "n": "2",
-                "descr": "stable, location"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stable.03",
-        "roleset_name": "maintaining equilibrium",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stable entity"
-            },
-            {
-                "n": "2",
-                "descr": "position/attribute held in equilibrium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stabilize.01",
+    "roleset_name": "to make stable, making/becoming stable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of stability, agent",
+        "descr_trans": "稳定原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stabilized",
+        "descr_trans": "事情稳定下来"
+      },
+      {
+        "n": "2",
+        "descr": "stabilized at",
+        "descr_trans": "稳定在"
+      }
+    ],
+    "roleset_name_trans": "使稳定，使/变得稳定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stable.02",
+    "roleset_name": "to keep or put in a stable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stabler",
+        "descr_trans": "更稳定"
+      },
+      {
+        "n": "1",
+        "descr": "thing stabled",
+        "descr_trans": "东西稳定了"
+      },
+      {
+        "n": "2",
+        "descr": "stable, location",
+        "descr_trans": "稳定，位置"
+      }
+    ],
+    "roleset_name_trans": "保持或放入稳定的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stable.03",
+    "roleset_name": "maintaining equilibrium",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stable entity",
+        "descr_trans": "稳定的实体"
+      },
+      {
+        "n": "2",
+        "descr": "position/attribute held in equilibrium",
+        "descr_trans": "位置/属性保持平衡"
+      }
+    ],
+    "roleset_name_trans": "保持平衡"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incapacitate.01",
-        "roleset_name": "make unable or unfit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disabler"
-            },
-            {
-                "n": "1",
-                "descr": "thing no longer capable"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incapacitate.01",
+    "roleset_name": "make unable or unfit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disabler",
+        "descr_trans": "禁用"
+      },
+      {
+        "n": "1",
+        "descr": "thing no longer capable",
+        "descr_trans": "东西不再有能力"
+      }
+    ],
+    "roleset_name_trans": "使不能或不适合"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exonerate.01",
-        "roleset_name": "to free from blame or a responsibility",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "freer from blame, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity exonerated"
-            },
-            {
-                "n": "2",
-                "descr": "responsibility or blame"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exonerate.01",
+    "roleset_name": "to free from blame or a responsibility",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "freer from blame, agent",
+        "descr_trans": "代理人，免受责备"
+      },
+      {
+        "n": "1",
+        "descr": "entity exonerated",
+        "descr_trans": "实体无罪"
+      },
+      {
+        "n": "2",
+        "descr": "responsibility or blame",
+        "descr_trans": "责任或责备"
+      }
+    ],
+    "roleset_name_trans": "免于责备或责任"
+  }
 ]

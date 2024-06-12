@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recline.01",
-        "roleset_name": "move back and down into a restful position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being reclined"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recline.01",
+    "roleset_name": "move back and down into a restful position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing being reclined",
+        "descr_trans": "斜倚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "向后和向下移动到一个安静的位置"
+  }
 ]

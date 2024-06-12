@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pressurize.01",
-        "roleset_name": "put under certain pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of pressurization"
-            },
-            {
-                "n": "1",
-                "descr": "patient, space filled with pressure"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pressurize.01",
+    "roleset_name": "put under certain pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of pressurization",
+        "descr_trans": "代理，加压的原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, space filled with pressure",
+        "descr_trans": "病人，充满压力的空间"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "受到一定的压力"
+  }
 ]

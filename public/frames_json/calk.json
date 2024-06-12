@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "caulk.01",
-        "roleset_name": "to seal with caulk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Handyman, caulker"
-            },
-            {
-                "n": "1",
-                "descr": "Location, entity being caulked"
-            },
-            {
-                "n": "2",
-                "descr": "Caulk itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "calk.02",
-        "roleset_name": "install metal cleats (calks) on horseshoes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Blacksmith"
-            },
-            {
-                "n": "1",
-                "descr": "horseshoe"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "calk.03",
-        "roleset_name": "injure, usually with the metal cleat on a horse shoe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Assailant"
-            },
-            {
-                "n": "1",
-                "descr": "Victim"
-            },
-            {
-                "n": "2",
-                "descr": "Weapon"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "caulk.01",
+    "roleset_name": "to seal with caulk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Handyman, caulker",
+        "descr_trans": "杂工、填缝工"
+      },
+      {
+        "n": "1",
+        "descr": "Location, entity being caulked",
+        "descr_trans": "位置，被填缝的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Caulk itself",
+        "descr_trans": "填缝本身"
+      }
+    ],
+    "roleset_name_trans": "用填缝剂密封"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "calk.02",
+    "roleset_name": "install metal cleats (calks) on horseshoes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Blacksmith",
+        "descr_trans": "铁匠"
+      },
+      {
+        "n": "1",
+        "descr": "horseshoe",
+        "descr_trans": "马蹄铁"
+      }
+    ],
+    "roleset_name_trans": "在马蹄铁上安装金属夹板（calks）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "calk.03",
+    "roleset_name": "injure, usually with the metal cleat on a horse shoe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Assailant",
+        "descr_trans": "袭击者"
+      },
+      {
+        "n": "1",
+        "descr": "Victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "Weapon",
+        "descr_trans": "武器"
+      }
+    ],
+    "roleset_name_trans": "伤害，通常是用马蹄铁上的金属夹板造成的"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "libel.01",
-        "roleset_name": "tell lies about someone in print, printing lies about someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liar/writer"
-            },
-            {
-                "n": "1",
-                "descr": "victim, entity lied about"
-            },
-            {
-                "n": "2",
-                "descr": "the lie itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "libel.01",
+    "roleset_name": "tell lies about someone in print, printing lies about someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liar/writer",
+        "descr_trans": "骗子/作家"
+      },
+      {
+        "n": "1",
+        "descr": "victim, entity lied about",
+        "descr_trans": "受害者，实体撒谎"
+      },
+      {
+        "n": "2",
+        "descr": "the lie itself",
+        "descr_trans": "谎言本身"
+      }
+    ],
+    "roleset_name_trans": "在印刷品上说关于某人的谎言，印刷关于某人的谎言"
+  }
 ]

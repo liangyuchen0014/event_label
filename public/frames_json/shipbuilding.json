@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shipbuilding.01",
-        "roleset_name": "building of ships",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "specific ship built"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shipbuilding.01",
+    "roleset_name": "building of ships",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "specific ship built",
+        "descr_trans": "建造的特定船舶"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "船舶建造"
+  }
 ]

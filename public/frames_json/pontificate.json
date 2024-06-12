@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pontificate.01",
-        "roleset_name": "talk like the pope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker (Pope)"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pontificate.01",
+    "roleset_name": "talk like the pope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker (Pope)",
+        "descr_trans": "演讲者（教皇）"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "像教皇一样说话"
+  }
 ]

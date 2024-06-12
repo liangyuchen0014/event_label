@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rationalize.01",
-        "roleset_name": "make sense of, make excuses for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rationalizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing rationalized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rational.02",
-        "roleset_name": "logical, reasoned",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "logical entity (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rational.03",
-        "roleset_name": "expressible as the quotient of integers (math)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "rational number"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rationalize.01",
+    "roleset_name": "make sense of, make excuses for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rationalizer",
+        "descr_trans": "合理化者"
+      },
+      {
+        "n": "1",
+        "descr": "thing rationalized",
+        "descr_trans": "事物合理化"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "理解，找借口"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rational.02",
+    "roleset_name": "logical, reasoned",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "logical entity (may require concatenation)",
+        "descr_trans": "逻辑实体（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "有逻辑的，有道理的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rational.03",
+    "roleset_name": "expressible as the quotient of integers (math)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "rational number",
+        "descr_trans": "有理数"
+      }
+    ],
+    "roleset_name_trans": "可表示为整数的商（数学）"
+  }
 ]

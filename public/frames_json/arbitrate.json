@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arbitrate.01",
-        "roleset_name": "judge, decide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "conflict needing a decision"
-            },
-            {
-                "n": "2",
-                "descr": "decision itself, often in favor or against..."
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "arbitrary.02",
-        "roleset_name": "determined by chance, based on individual preference",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is determined by chance"
-            },
-            {
-                "n": "2",
-                "descr": "whom it is arbitrary to, perceiver of arbtrariness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arbitrate.01",
+    "roleset_name": "judge, decide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "conflict needing a decision",
+        "descr_trans": "需要做出决定的冲突"
+      },
+      {
+        "n": "2",
+        "descr": "decision itself, often in favor or against...",
+        "descr_trans": "决定本身，通常是赞成或反对......"
+      }
+    ],
+    "roleset_name_trans": "判断，决定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "arbitrary.02",
+    "roleset_name": "determined by chance, based on individual preference",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is determined by chance",
+        "descr_trans": "偶然决定的事情"
+      },
+      {
+        "n": "2",
+        "descr": "whom it is arbitrary to, perceiver of arbtrariness",
+        "descr_trans": "对谁来说是任意的，任意的感知者"
+      }
+    ],
+    "roleset_name_trans": "随机决定，根据个人喜好"
+  }
 ]

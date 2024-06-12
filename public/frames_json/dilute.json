@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dilute.01",
-        "roleset_name": "water down, make weaker",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing weakening"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dilute.01",
+    "roleset_name": "water down, make weaker",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing weakening",
+        "descr_trans": "事物减弱"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "浇水，削弱"
+  }
 ]

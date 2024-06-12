@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "entangle.01",
-        "roleset_name": "cause to be tangled (in something)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "trap, etc"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "entangle.01",
+    "roleset_name": "cause to be tangled (in something)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "trap, etc",
+        "descr_trans": "陷阱等"
+      }
+    ],
+    "roleset_name_trans": "使（在某事中）陷入困境"
+  }
 ]

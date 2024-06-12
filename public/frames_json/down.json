@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "down.01",
-        "roleset_name": "cause to fall/come down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "faller"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "down.02",
-        "roleset_name": "eat, consume, finishing off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "eaten"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "down.03",
-        "roleset_name": "spatial: movement/location toward the bottom of some framework",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "downward entity"
-            },
-            {
-                "n": "2",
-                "descr": "entity (or point) of comparison, start point"
-            },
-            {
-                "n": "3",
-                "descr": "end point"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            },
-            {
-                "n": "4",
-                "descr": "anchor"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "down.07",
-        "roleset_name": "on board, willing to participate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity on board"
-            },
-            {
-                "n": "1",
-                "descr": "with/for what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "go_down_on.04",
-        "roleset_name": "perform oral sex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "down.01",
+    "roleset_name": "cause to fall/come down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "faller",
+        "descr_trans": "堕落者"
+      }
+    ],
+    "roleset_name_trans": "导致跌倒/下来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "down.02",
+    "roleset_name": "eat, consume, finishing off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "eaten",
+        "descr_trans": "吃过"
+      }
+    ],
+    "roleset_name_trans": "吃，消耗，结束"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "down.03",
+    "roleset_name": "spatial: movement/location toward the bottom of some framework",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "downward entity",
+        "descr_trans": "向下的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity (or point) of comparison, start point",
+        "descr_trans": "比较实体（或点）、起点"
+      },
+      {
+        "n": "3",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      },
+      {
+        "n": "4",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      }
+    ],
+    "roleset_name_trans": "空间：向某个框架底部的移动/位置"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "down.07",
+    "roleset_name": "on board, willing to participate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity on board",
+        "descr_trans": "船上实体"
+      },
+      {
+        "n": "1",
+        "descr": "with/for what",
+        "descr_trans": "与/为了什么"
+      }
+    ],
+    "roleset_name_trans": "在船上，愿意参与"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "go_down_on.04",
+    "roleset_name": "perform oral sex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "进行口交"
+  }
 ]

@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "criticize.01",
-        "roleset_name": "criticize, blame, judging harshly and negatively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "critic"
-            },
-            {
-                "n": "1",
-                "descr": "entity being criticized"
-            },
-            {
-                "n": "2",
-                "descr": "on what grounds?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "critical.02",
-        "roleset_name": "of utmost importance, crucial to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is crucial"
-            },
-            {
-                "n": "2",
-                "descr": "situation that arg1 is critical to"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "critical.03",
-        "roleset_name": "in grave physical condition (medical)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in critical condition"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "criticism.04",
-        "roleset_name": "judge carefully, but not necessarily negatively, esp art/literature",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, critic"
-            },
-            {
-                "n": "1",
-                "descr": "work judged, critiqued"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "criticize.01",
+    "roleset_name": "criticize, blame, judging harshly and negatively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "critic",
+        "descr_trans": "评论家"
+      },
+      {
+        "n": "1",
+        "descr": "entity being criticized",
+        "descr_trans": "被批评的实体"
+      },
+      {
+        "n": "2",
+        "descr": "on what grounds?",
+        "descr_trans": "基于什么理由？"
+      }
+    ],
+    "roleset_name_trans": "批评、责备、严厉和消极地判断"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "critical.02",
+    "roleset_name": "of utmost importance, crucial to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is crucial",
+        "descr_trans": "至关重要的事情"
+      },
+      {
+        "n": "2",
+        "descr": "situation that arg1 is critical to",
+        "descr_trans": "arg1 至关重要的情况"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "极其重要的，至关重要的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "critical.03",
+    "roleset_name": "in grave physical condition (medical)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in critical condition",
+        "descr_trans": "实体处于危急状态"
+      }
+    ],
+    "roleset_name_trans": "身体状况严重（医疗）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "criticism.04",
+    "roleset_name": "judge carefully, but not necessarily negatively, esp art/literature",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, critic",
+        "descr_trans": "法官、评论家"
+      },
+      {
+        "n": "1",
+        "descr": "work judged, critiqued",
+        "descr_trans": "作品被评判、批评"
+      }
+    ],
+    "roleset_name_trans": "仔细判断，但不一定消极，特别是艺术/文学"
+  }
 ]

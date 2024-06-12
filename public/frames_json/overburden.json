@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overburden.01",
-        "roleset_name": "to load someone/thing with too great a burden",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader"
-            },
-            {
-                "n": "1",
-                "descr": "carrier"
-            },
-            {
-                "n": "2",
-                "descr": "load"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overburden.01",
+    "roleset_name": "to load someone/thing with too great a burden",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader",
+        "descr_trans": "装载机"
+      },
+      {
+        "n": "1",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "2",
+        "descr": "load",
+        "descr_trans": "加载"
+      }
+    ],
+    "roleset_name_trans": "使某人/事物背负过重的负担"
+  }
 ]

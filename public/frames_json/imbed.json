@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "imbed.01",
-        "roleset_name": "to fix or enclose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity embedded"
-            },
-            {
-                "n": "2",
-                "descr": "embedded into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "imbed.01",
+    "roleset_name": "to fix or enclose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity embedded",
+        "descr_trans": "实体嵌入"
+      },
+      {
+        "n": "2",
+        "descr": "embedded into",
+        "descr_trans": "嵌入到"
+      }
+    ],
+    "roleset_name_trans": "固定或封闭"
+  }
 ]

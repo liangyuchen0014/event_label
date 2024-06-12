@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impatient.01",
-        "roleset_name": "unable to wait, restless",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "impatient"
-            },
-            {
-                "n": "2",
-                "descr": "with whom/what"
-            },
-            {
-                "n": "3",
-                "descr": "for what reason (if in addition to arg2)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impatient.01",
+    "roleset_name": "unable to wait, restless",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "impatient",
+        "descr_trans": "不耐烦"
+      },
+      {
+        "n": "2",
+        "descr": "with whom/what",
+        "descr_trans": "与谁/什么"
+      },
+      {
+        "n": "3",
+        "descr": "for what reason (if in addition to arg2)",
+        "descr_trans": "出于什么原因（如果除了 arg2 之外）"
+      }
+    ],
+    "roleset_name_trans": "无法等待，焦躁不安"
+  }
 ]

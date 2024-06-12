@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "score.01",
-        "roleset_name": "earn points (in athletic competition), awarding/earning points",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grader, judge, entity awarding the points"
-            },
-            {
-                "n": "1",
-                "descr": "entity earning points"
-            },
-            {
-                "n": "2",
-                "descr": "the points/score"
-            },
-            {
-                "n": "3",
-                "descr": "domain"
-            },
-            {
-                "n": "4",
-                "descr": "opponent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "score.02",
-        "roleset_name": "set music, orchestrate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "musical composer"
-            },
-            {
-                "n": "1",
-                "descr": "piece of music"
-            },
-            {
-                "n": "2",
-                "descr": "for what, ensemble"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "score.01",
+    "roleset_name": "earn points (in athletic competition), awarding/earning points",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grader, judge, entity awarding the points",
+        "descr_trans": "评分者、裁判、评分实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity earning points",
+        "descr_trans": "实体赚取积分"
+      },
+      {
+        "n": "2",
+        "descr": "the points/score",
+        "descr_trans": "分数/分数"
+      },
+      {
+        "n": "3",
+        "descr": "domain",
+        "descr_trans": "领域"
+      },
+      {
+        "n": "4",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "赚取积分（在体育比赛中）、授予/赚取积分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "score.02",
+    "roleset_name": "set music, orchestrate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "musical composer",
+        "descr_trans": "音乐作曲家"
+      },
+      {
+        "n": "1",
+        "descr": "piece of music",
+        "descr_trans": "一段音乐"
+      },
+      {
+        "n": "2",
+        "descr": "for what, ensemble",
+        "descr_trans": "为了什么，合奏"
+      }
+    ],
+    "roleset_name_trans": "设定音乐、编排"
+  }
 ]

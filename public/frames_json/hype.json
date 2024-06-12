@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hype.01",
-        "roleset_name": "publicize in exaggerated or misleading manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "publicist"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hype_up.02",
-        "roleset_name": "hype_up: hype, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "publicist"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hype.01",
+    "roleset_name": "publicize in exaggerated or misleading manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "publicist",
+        "descr_trans": "公关人员"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "以夸大或误导的方式宣传"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hype_up.02",
+    "roleset_name": "hype_up: hype, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "publicist",
+        "descr_trans": "公关人员"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "hype_up：炒作、完整"
+  }
 ]

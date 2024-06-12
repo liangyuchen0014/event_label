@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "haul.01",
-        "roleset_name": "carry a load",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "thing carried"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "'with' reflecting back on arg0"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive (predicted but not seen)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "haul_in.02",
-        "roleset_name": "acquire, make (money)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acquirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "haul_out.03",
-        "roleset_name": "cause to appear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "haul.01",
+    "roleset_name": "carry a load",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "thing carried",
+        "descr_trans": "携带的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "'with' reflecting back on arg0",
+        "descr_trans": "&#39;with&#39; 反射回 arg0"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive (predicted but not seen)",
+        "descr_trans": "有益的（预测但未看到）"
+      }
+    ],
+    "roleset_name_trans": "负重"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "haul_in.02",
+    "roleset_name": "acquire, make (money)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acquirer",
+        "descr_trans": "收购"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "from",
+        "descr_trans": "从"
+      }
+    ],
+    "roleset_name_trans": "获得，赚（钱）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "haul_out.03",
+    "roleset_name": "cause to appear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "导致出现"
+  }
 ]

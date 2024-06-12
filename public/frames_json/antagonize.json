@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "antagonize.01",
-        "roleset_name": "be hostile towards, inciting hostility in the target",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hostile entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity antagonized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "antagonize.02",
-        "roleset_name": "diametrically oppose, neutralizing each other's effect",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "neutralizing, opposing entity"
-            },
-            {
-                "n": "2",
-                "descr": "neutralized, opposed entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "antagonize.01",
+    "roleset_name": "be hostile towards, inciting hostility in the target",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hostile entity",
+        "descr_trans": "敌对实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity antagonized",
+        "descr_trans": "对抗的实体"
+      }
+    ],
+    "roleset_name_trans": "对目标怀有敌意，煽动敌意"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "antagonize.02",
+    "roleset_name": "diametrically oppose, neutralizing each other's effect",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "neutralizing, opposing entity",
+        "descr_trans": "中立的、对立的实体"
+      },
+      {
+        "n": "2",
+        "descr": "neutralized, opposed entity",
+        "descr_trans": "中立的、对立的实体"
+      }
+    ],
+    "roleset_name_trans": "截然相反，相互抵消作用"
+  }
 ]

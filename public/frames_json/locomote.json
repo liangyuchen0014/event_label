@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "locomote.01",
-        "roleset_name": "move from place to place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "locomote.01",
+    "roleset_name": "move from place to place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "从一个地方移动到另一个地方"
+  }
 ]

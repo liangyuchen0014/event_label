@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mumble.01",
-        "roleset_name": "speak unclearly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mumble.01",
+    "roleset_name": "speak unclearly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说话不清楚"
+  }
 ]

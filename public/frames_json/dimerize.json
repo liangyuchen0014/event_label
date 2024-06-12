@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dimerize.01",
-        "roleset_name": "combine with a similar molecule to form a dimer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of dimerization, dimerizer"
-            },
-            {
-                "n": "1",
-                "descr": "first component of the dimer"
-            },
-            {
-                "n": "2",
-                "descr": "second component of the dimer"
-            },
-            {
-                "n": "3",
-                "descr": "result, dimer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dimerize.01",
+    "roleset_name": "combine with a similar molecule to form a dimer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of dimerization, dimerizer",
+        "descr_trans": "二聚化剂, 二聚化剂"
+      },
+      {
+        "n": "1",
+        "descr": "first component of the dimer",
+        "descr_trans": "二聚体的第一个成分"
+      },
+      {
+        "n": "2",
+        "descr": "second component of the dimer",
+        "descr_trans": "二聚体的第二个成分"
+      },
+      {
+        "n": "3",
+        "descr": "result, dimer",
+        "descr_trans": "结果，二聚体"
+      }
+    ],
+    "roleset_name_trans": "与相似的分子结合形成二聚体"
+  }
 ]

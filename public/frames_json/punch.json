@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "punch.01",
-        "roleset_name": "to hit or press (a key or a button)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity punched"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "punch_out.02",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "punch.01",
+    "roleset_name": "to hit or press (a key or a button)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity punched",
+        "descr_trans": "实体被打孔"
+      }
+    ],
+    "roleset_name_trans": "敲击或按下（一个键或一个按钮）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "punch_out.02",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity removed",
+        "descr_trans": "实体已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from what",
+        "descr_trans": "从什么中删除"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

@@ -1,339 +1,409 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leave.11",
-        "roleset_name": "depart, physically go away from a place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "starting point, location vacated"
-            },
-            {
-                "n": "2",
-                "descr": "destination (must also be a location)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "leave.12",
-        "roleset_name": "put in a location/state when physically leaving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive leaver (possibly in motion)"
-            },
-            {
-                "n": "1",
-                "descr": "person/thing put in a location/state"
-            },
-            {
-                "n": "2",
-                "descr": "state/location left in (at least implied)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "leave.13",
-        "roleset_name": "resulting from an event or situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "event/condition causing arg2 to happen"
-            },
-            {
-                "n": "1",
-                "descr": "new state (may involve concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "leave.14",
-        "roleset_name": "allow to remain or to continue by inaction, agent cannot be moving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decision\u00admaker chosing to not act (Must NOT be in motion)"
-            },
-            {
-                "n": "1",
-                "descr": "state remaining"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "leave.15",
-        "roleset_name": "abandon something in exchange for another; permanently leave an association/relationship/way of living",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner, entity leaving the relationship/organization"
-            },
-            {
-                "n": "1",
-                "descr": "person, thing abandoned (CANNOT be a location; use leave.11 instead)"
-            },
-            {
-                "n": "2",
-                "descr": "in exchange for; greener pastures"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "leave.16",
-        "roleset_name": "Put off or postpone something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity putting off an activity/behavior"
-            },
-            {
-                "n": "1",
-                "descr": "activity postponed"
-            },
-            {
-                "n": "2",
-                "descr": "until when?"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "leave.17",
-        "roleset_name": "exist or remain (potentially after others were removed)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity remaining"
-            },
-            {
-                "n": "2",
-                "descr": "larger original set of which a part is remaining"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "leave.21",
-        "roleset_name": "defer action to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity deferring"
-            },
-            {
-                "n": "1",
-                "descr": "deferred"
-            },
-            {
-                "n": "2",
-                "descr": "entity deferred to"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "leave.02",
-        "roleset_name": "bequeath, as in a will",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bequeather, donor"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive / given-to"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "leave.05",
-        "roleset_name": "lack; leave something to be desired",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "(non)possessor"
-            },
-            {
-                "n": "1",
-                "descr": "something to be desired, or similar"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "leave.09",
-        "roleset_name": "absence from work",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "absent entity"
-            },
-            {
-                "n": "1",
-                "descr": "type or cause of absence"
-            },
-            {
-                "n": "2",
-                "descr": "absence from what/where"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "leave.10",
-        "roleset_name": "permission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "entity allowed"
-            },
-            {
-                "n": "2",
-                "descr": "action allowed"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "leave_out.03",
-        "roleset_name": "exclude",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "excluder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "excluded entity"
-            },
-            {
-                "n": "2",
-                "descr": "excluded from"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "leave_off.07",
-        "roleset_name": "stop, discontinue an action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity stopping acting"
-            },
-            {
-                "n": "1",
-                "descr": "discontinued action"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "leave_off.22",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "name"
-            },
-            {
-                "n": "1",
-                "descr": "name"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "leave_over.08",
-        "roleset_name": "be leftover; cause something to remain after a larger activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing remaining"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "leave_behind.18",
-        "roleset_name": "forget (in a location, or generally)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forgetter"
-            },
-            {
-                "n": "1",
-                "descr": "thing forgotten or left behind"
-            },
-            {
-                "n": "2",
-                "descr": "behind them/him/it"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "left.19",
-        "roleset_name": "politically leaning towards liberal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "left-wing entity"
-            },
-            {
-                "n": "2",
-                "descr": "on what issues"
-            },
-            {
-                "n": "3",
-                "descr": "the whole group, of which one faction is left"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "left.20",
-        "roleset_name": "be located on the left side",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity on the left"
-            },
-            {
-                "n": "2",
-                "descr": "to the left of"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leave.11",
+    "roleset_name": "depart, physically go away from a place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "starting point, location vacated",
+        "descr_trans": "起点，空出的位置"
+      },
+      {
+        "n": "2",
+        "descr": "destination (must also be a location)",
+        "descr_trans": "目的地（也必须是一个位置）"
+      }
+    ],
+    "roleset_name_trans": "离开，物理上离开一个地方"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "leave.12",
+    "roleset_name": "put in a location/state when physically leaving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive leaver (possibly in motion)",
+        "descr_trans": "主动离职者（可能正在行动）"
+      },
+      {
+        "n": "1",
+        "descr": "person/thing put in a location/state",
+        "descr_trans": "放置在某个位置/状态的人/物"
+      },
+      {
+        "n": "2",
+        "descr": "state/location left in (at least implied)",
+        "descr_trans": "保留的州/位置（至少隐含）"
+      }
+    ],
+    "roleset_name_trans": "物理离开时置于某个位置/状态"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "leave.13",
+    "roleset_name": "resulting from an event or situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "event/condition causing arg2 to happen",
+        "descr_trans": "导致 arg2 发生的事件/条件"
+      },
+      {
+        "n": "1",
+        "descr": "new state (may involve concatenation)",
+        "descr_trans": "新状态（可能涉及串联）"
+      }
+    ],
+    "roleset_name_trans": "由事件或情况引起的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "leave.14",
+    "roleset_name": "allow to remain or to continue by inaction, agent cannot be moving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decision­maker chosing to not act (Must NOT be in motion)",
+        "descr_trans": "选择不采取行动的决策者（不得采取行动）"
+      },
+      {
+        "n": "1",
+        "descr": "state remaining",
+        "descr_trans": "状态剩余"
+      }
+    ],
+    "roleset_name_trans": "允许留下或继续不作为，代理人不能移动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "leave.15",
+    "roleset_name": "abandon something in exchange for another; permanently leave an association/relationship/way of living",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner, entity leaving the relationship/organization",
+        "descr_trans": "放弃者，离开关系/组织的实体"
+      },
+      {
+        "n": "1",
+        "descr": "person, thing abandoned (CANNOT be a location; use leave.11 instead)",
+        "descr_trans": "被遗弃的人、物（不能是位置；请改用leave.11）"
+      },
+      {
+        "n": "2",
+        "descr": "in exchange for; greener pastures",
+        "descr_trans": "换来的;更绿的牧场"
+      }
+    ],
+    "roleset_name_trans": "放弃某物以换取另一物；永久离开某种协会/关系/生活方式"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "leave.16",
+    "roleset_name": "Put off or postpone something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity putting off an activity/behavior",
+        "descr_trans": "实体推迟一项活动/行为"
+      },
+      {
+        "n": "1",
+        "descr": "activity postponed",
+        "descr_trans": "活动推迟"
+      },
+      {
+        "n": "2",
+        "descr": "until when?",
+        "descr_trans": "到什么时候？"
+      }
+    ],
+    "roleset_name_trans": "推迟或推迟某事"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "leave.17",
+    "roleset_name": "exist or remain (potentially after others were removed)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity remaining",
+        "descr_trans": "剩余实体"
+      },
+      {
+        "n": "2",
+        "descr": "larger original set of which a part is remaining",
+        "descr_trans": "较大的原始集，其中保留一部分"
+      }
+    ],
+    "roleset_name_trans": "存在或保留（可能在其他人被删除后）"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "leave.21",
+    "roleset_name": "defer action to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity deferring",
+        "descr_trans": "实体推迟"
+      },
+      {
+        "n": "1",
+        "descr": "deferred",
+        "descr_trans": "推迟的"
+      },
+      {
+        "n": "2",
+        "descr": "entity deferred to",
+        "descr_trans": "实体推迟到"
+      }
+    ],
+    "roleset_name_trans": "将行动推迟到另一个"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "leave.02",
+    "roleset_name": "bequeath, as in a will",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bequeather, donor",
+        "descr_trans": "遗赠者, 捐赠者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive / given-to",
+        "descr_trans": "有益的/给予的"
+      }
+    ],
+    "roleset_name_trans": "遗赠，如遗嘱"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "leave.05",
+    "roleset_name": "lack; leave something to be desired",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "(non)possessor",
+        "descr_trans": "（非）拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "something to be desired, or similar",
+        "descr_trans": "想要的东西，或类似的东西"
+      }
+    ],
+    "roleset_name_trans": "缺少;留下一些不足之处"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "leave.09",
+    "roleset_name": "absence from work",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "absent entity",
+        "descr_trans": "缺席实体"
+      },
+      {
+        "n": "1",
+        "descr": "type or cause of absence",
+        "descr_trans": "缺勤的类型或原因"
+      },
+      {
+        "n": "2",
+        "descr": "absence from what/where",
+        "descr_trans": "缺席什么/哪里"
+      }
+    ],
+    "roleset_name_trans": "缺勤"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "leave.10",
+    "roleset_name": "permission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "entity allowed",
+        "descr_trans": "允许的实体"
+      },
+      {
+        "n": "2",
+        "descr": "action allowed",
+        "descr_trans": "允许采取行动"
+      }
+    ],
+    "roleset_name_trans": "允许"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "leave_out.03",
+    "roleset_name": "exclude",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "excluder, agent",
+        "descr_trans": "排除者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "excluded entity",
+        "descr_trans": "排除实体"
+      },
+      {
+        "n": "2",
+        "descr": "excluded from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "排除"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "leave_off.07",
+    "roleset_name": "stop, discontinue an action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity stopping acting",
+        "descr_trans": "实体停止行动"
+      },
+      {
+        "n": "1",
+        "descr": "discontinued action",
+        "descr_trans": "停止行动"
+      }
+    ],
+    "roleset_name_trans": "停止，停止动作"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "leave_off.22",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "name",
+        "descr_trans": "姓名"
+      },
+      {
+        "n": "1",
+        "descr": "name",
+        "descr_trans": "姓名"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "leave_over.08",
+    "roleset_name": "be leftover; cause something to remain after a larger activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing remaining",
+        "descr_trans": "剩下的东西"
+      }
+    ],
+    "roleset_name_trans": "剩下的；导致较大活动后留下一些东西"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "leave_behind.18",
+    "roleset_name": "forget (in a location, or generally)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forgetter",
+        "descr_trans": "遗忘者"
+      },
+      {
+        "n": "1",
+        "descr": "thing forgotten or left behind",
+        "descr_trans": "被遗忘或留下的东西"
+      },
+      {
+        "n": "2",
+        "descr": "behind them/him/it",
+        "descr_trans": "在他们/他/它后面"
+      }
+    ],
+    "roleset_name_trans": "忘记（在某个地方或一般情况下）"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "left.19",
+    "roleset_name": "politically leaning towards liberal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "left-wing entity",
+        "descr_trans": "左翼实体"
+      },
+      {
+        "n": "2",
+        "descr": "on what issues",
+        "descr_trans": "关于什么问题"
+      },
+      {
+        "n": "3",
+        "descr": "the whole group, of which one faction is left",
+        "descr_trans": "整个团体，其中还剩下一个派系"
+      }
+    ],
+    "roleset_name_trans": "政治上倾向自由主义"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "left.20",
+    "roleset_name": "be located on the left side",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity on the left",
+        "descr_trans": "左侧的实体"
+      },
+      {
+        "n": "2",
+        "descr": "to the left of",
+        "descr_trans": "到左侧"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "位于左侧"
+  }
 ]

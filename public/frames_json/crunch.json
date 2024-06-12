@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crunch.01",
-        "roleset_name": "reduce to small pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of damage"
-            },
-            {
-                "n": "1",
-                "descr": "thing crunched"
-            },
-            {
-                "n": "2",
-                "descr": "endstate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crunch.01",
+    "roleset_name": "reduce to small pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of damage",
+        "descr_trans": "造成损害的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing crunched",
+        "descr_trans": "东西嘎吱作响"
+      },
+      {
+        "n": "2",
+        "descr": "endstate",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "减少成小块"
+  }
 ]

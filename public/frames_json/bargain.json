@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bargain.01",
-        "roleset_name": "to negotiate the terms of agreement, negotiate terms",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "negotiator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing bargained (for)"
-            },
-            {
-                "n": "2",
-                "descr": "co-negotiator, bargained with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bargain.01",
+    "roleset_name": "to negotiate the terms of agreement, negotiate terms",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "negotiator, agent",
+        "descr_trans": "谈判者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing bargained (for)",
+        "descr_trans": "讨价还价的东西"
+      },
+      {
+        "n": "2",
+        "descr": "co-negotiator, bargained with",
+        "descr_trans": "共同谈判者，与之讨价还价"
+      }
+    ],
+    "roleset_name_trans": "谈判协议条款, 谈判条款"
+  }
 ]

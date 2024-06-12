@@ -1,154 +1,186 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "move.01",
-        "roleset_name": "change location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "aspect, domain in which arg1 moving"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "move.02",
-        "roleset_name": "take measures, put forth strategic effort toward a goal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "measures"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "move.03",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "move.04",
-        "roleset_name": "attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "attacked"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "move.05",
-        "roleset_name": "affect emotionally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of emotion"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of the emotion"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "move_on.08",
-        "roleset_name": "proceed to a new place or subject matter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving on"
-            },
-            {
-                "n": "1",
-                "descr": "with what, topic"
-            },
-            {
-                "n": "2",
-                "descr": "start point/state"
-            },
-            {
-                "n": "3",
-                "descr": "end point/state"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "moveable.06",
-        "roleset_name": "aable to be repositioned",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect of arg1 moving"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "movement.07",
-        "roleset_name": "working toward a purpose, as a group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "group of people starting a revolution"
-            },
-            {
-                "n": "1",
-                "descr": "the revolution"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "move.01",
+    "roleset_name": "change location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "aspect, domain in which arg1 moving",
+        "descr_trans": "方面，arg1 移动的域"
+      }
+    ],
+    "roleset_name_trans": "换地点"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "move.02",
+    "roleset_name": "take measures, put forth strategic effort toward a goal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "measures",
+        "descr_trans": "措施"
+      }
+    ],
+    "roleset_name_trans": "采取措施，为目标做出战略努力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "move.03",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "move.04",
+    "roleset_name": "attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "attacked",
+        "descr_trans": "受到攻击"
+      }
+    ],
+    "roleset_name_trans": "攻击"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "move.05",
+    "roleset_name": "affect emotionally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of emotion",
+        "descr_trans": "情绪的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of the emotion",
+        "descr_trans": "情感的体验者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "影响情绪"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "move_on.08",
+    "roleset_name": "proceed to a new place or subject matter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving on",
+        "descr_trans": "实体继续前进"
+      },
+      {
+        "n": "1",
+        "descr": "with what, topic",
+        "descr_trans": "与什么、主题"
+      },
+      {
+        "n": "2",
+        "descr": "start point/state",
+        "descr_trans": "起点/状态"
+      },
+      {
+        "n": "3",
+        "descr": "end point/state",
+        "descr_trans": "终点/状态"
+      }
+    ],
+    "roleset_name_trans": "前往新地点或新主题"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "moveable.06",
+    "roleset_name": "aable to be repositioned",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect of arg1 moving",
+        "descr_trans": "arg1 移动的具体方面"
+      }
+    ],
+    "roleset_name_trans": "可以重新定位"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "movement.07",
+    "roleset_name": "working toward a purpose, as a group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "group of people starting a revolution",
+        "descr_trans": "一群人开始革命"
+      },
+      {
+        "n": "1",
+        "descr": "the revolution",
+        "descr_trans": "革命"
+      }
+    ],
+    "roleset_name_trans": "作为一个团队，为一个目标而努力"
+  }
 ]

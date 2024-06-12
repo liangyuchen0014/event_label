@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "string.01",
-        "roleset_name": "to arrange in a string, stretch out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arranger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity stretched"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "string_up.02",
-        "roleset_name": "hang by the neck (or other body part)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hangman"
-            },
-            {
-                "n": "1",
-                "descr": "entity hanged"
-            },
-            {
-                "n": "2",
-                "descr": "body part strung up by"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "string.01",
+    "roleset_name": "to arrange in a string, stretch out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arranger, agent",
+        "descr_trans": "安排人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity stretched",
+        "descr_trans": "实体拉伸"
+      }
+    ],
+    "roleset_name_trans": "排成一串，伸展"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "string_up.02",
+    "roleset_name": "hang by the neck (or other body part)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hangman",
+        "descr_trans": "刽子手"
+      },
+      {
+        "n": "1",
+        "descr": "entity hanged",
+        "descr_trans": "实体被吊死"
+      },
+      {
+        "n": "2",
+        "descr": "body part strung up by",
+        "descr_trans": "身体的一部分被串起来"
+      }
+    ],
+    "roleset_name_trans": "挂在脖子上（或身体其他部位）"
+  }
 ]

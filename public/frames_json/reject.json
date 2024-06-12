@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reject.01",
-        "roleset_name": "reject, decline, turn down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rejecter"
-            },
-            {
-                "n": "1",
-                "descr": "thing rejected"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reject.01",
+    "roleset_name": "reject, decline, turn down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rejecter",
+        "descr_trans": "拒绝者"
+      },
+      {
+        "n": "1",
+        "descr": "thing rejected",
+        "descr_trans": "事情被拒绝"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "拒绝、拒绝、拒绝"
+  }
 ]

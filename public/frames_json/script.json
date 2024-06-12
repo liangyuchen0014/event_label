@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "script.01",
-        "roleset_name": "write something for someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "script.01",
+    "roleset_name": "write something for someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg 1",
+        "descr_trans": "arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "为某人写一些东西"
+  }
 ]

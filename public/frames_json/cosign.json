@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cosign.01",
-        "roleset_name": "be accountable for someone else's debt by signing an agreement with them and being jointly responcible",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer with low income who requires help"
-            },
-            {
-                "n": "1",
-                "descr": "loan, lease, mortgage, or other agreement entered"
-            },
-            {
-                "n": "2",
-                "descr": "signer with higher income who's credit is used to qualify for loan"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cosign.01",
+    "roleset_name": "be accountable for someone else's debt by signing an agreement with them and being jointly responcible",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer with low income who requires help",
+        "descr_trans": "需要帮助的低收入签名者"
+      },
+      {
+        "n": "1",
+        "descr": "loan, lease, mortgage, or other agreement entered",
+        "descr_trans": "贷款、租赁、抵押或其他签订的协议"
+      },
+      {
+        "n": "2",
+        "descr": "signer with higher income who's credit is used to qualify for loan",
+        "descr_trans": "收入较高的签字人，其信用用于获得贷款资格"
+      }
+    ],
+    "roleset_name_trans": "通过与他人签订协议并共同承担责任，对他人的债务负责"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "episode.01",
-        "roleset_name": "an instance of a larger set of occurrances",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity experiencing the episode"
-            },
-            {
-                "n": "1",
-                "descr": "type"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "episode.01",
+    "roleset_name": "an instance of a larger set of occurrances",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity experiencing the episode",
+        "descr_trans": "经历该事件的实体"
+      },
+      {
+        "n": "1",
+        "descr": "type",
+        "descr_trans": "类型"
+      }
+    ],
+    "roleset_name_trans": "较大事件集合的一个实例"
+  }
 ]

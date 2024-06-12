@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flavor.01",
-        "roleset_name": "have a characteristic taste profile",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing having flavor"
-            },
-            {
-                "n": "2",
-                "descr": "the flavor"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flavor.02",
-        "roleset_name": "give flavor to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, chef"
-            },
-            {
-                "n": "1",
-                "descr": "thing gaining flavor"
-            },
-            {
-                "n": "2",
-                "descr": "the flavor added"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flavor.01",
+    "roleset_name": "have a characteristic taste profile",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing having flavor",
+        "descr_trans": "有味道的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the flavor",
+        "descr_trans": "味道"
+      }
+    ],
+    "roleset_name_trans": "具有独特的口味特征"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flavor.02",
+    "roleset_name": "give flavor to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, chef",
+        "descr_trans": "军官、团长"
+      },
+      {
+        "n": "1",
+        "descr": "thing gaining flavor",
+        "descr_trans": "东西变得有味道"
+      },
+      {
+        "n": "2",
+        "descr": "the flavor added",
+        "descr_trans": "添加的味道"
+      }
+    ],
+    "roleset_name_trans": "赋予风味"
+  }
 ]

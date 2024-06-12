@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "illustrate.01",
-        "roleset_name": "explain, explain visually, metaphorically, or with examples",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "illustrator"
-            },
-            {
-                "n": "1",
-                "descr": "item being explained"
-            },
-            {
-                "n": "2",
-                "descr": "explained to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "illustrate.02",
-        "roleset_name": "draw, paint, make a picture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "art"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "illustrate.01",
+    "roleset_name": "explain, explain visually, metaphorically, or with examples",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "illustrator",
+        "descr_trans": "插画家"
+      },
+      {
+        "n": "1",
+        "descr": "item being explained",
+        "descr_trans": "正在解释的项目"
+      },
+      {
+        "n": "2",
+        "descr": "explained to",
+        "descr_trans": "解释给"
+      }
+    ],
+    "roleset_name_trans": "解释，用视觉、比喻或例子来解释"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "illustrate.02",
+    "roleset_name": "draw, paint, make a picture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "art",
+        "descr_trans": "艺术"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "画画，画画，画一幅画"
+  }
 ]

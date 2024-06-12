@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "patronize.01",
-        "roleset_name": "give money to, funding, being a customer of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "patron, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity patronized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "patronize.01",
+    "roleset_name": "give money to, funding, being a customer of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "patron, agent",
+        "descr_trans": "赞助人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity patronized",
+        "descr_trans": "实体光顾"
+      }
+    ],
+    "roleset_name_trans": "给钱、资助、成为客户"
+  }
 ]

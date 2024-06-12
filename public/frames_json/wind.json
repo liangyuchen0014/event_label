@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wind.01",
-        "roleset_name": "move in circular fashion, cause to be coiled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roller"
-            },
-            {
-                "n": "1",
-                "descr": "thing rolled or rolling, wound"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1, end state/position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wind_up.02",
-        "roleset_name": "wind up: result in a condition",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "who/what's coming into a condition"
-            },
-            {
-                "n": "2",
-                "descr": "the condition"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wind_up.03",
-        "roleset_name": "wind up: move in circular fashion, cause to be coiled, tightly coild, stressed, anxious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roller"
-            },
-            {
-                "n": "1",
-                "descr": "thing rolled or rolling"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "wind_up.05",
-        "roleset_name": "wind up: bring to an end",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing something else to stop"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopping"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "wind_down.04",
-        "roleset_name": "wind down: come/bring to a stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing something else to stop"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopping"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wind.01",
+    "roleset_name": "move in circular fashion, cause to be coiled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roller",
+        "descr_trans": "滚筒"
+      },
+      {
+        "n": "1",
+        "descr": "thing rolled or rolling, wound",
+        "descr_trans": "卷起或滚动的东西，缠绕"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1, end state/position",
+        "descr_trans": "arg1 的次要属性，结束状态/位置"
+      }
+    ],
+    "roleset_name_trans": "以圆周方式移动，导致盘绕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wind_up.02",
+    "roleset_name": "wind up: result in a condition",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "who/what's coming into a condition",
+        "descr_trans": "谁/什么发生了某种情况"
+      },
+      {
+        "n": "2",
+        "descr": "the condition",
+        "descr_trans": "条件"
+      }
+    ],
+    "roleset_name_trans": "结束：导致某种情况"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wind_up.03",
+    "roleset_name": "wind up: move in circular fashion, cause to be coiled, tightly coild, stressed, anxious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roller",
+        "descr_trans": "滚筒"
+      },
+      {
+        "n": "1",
+        "descr": "thing rolled or rolling",
+        "descr_trans": "滚动或滚动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "Wind up：以循环方式移动，导致盘绕，紧紧盘绕，有压力，焦虑"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "wind_up.05",
+    "roleset_name": "wind up: bring to an end",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing something else to stop",
+        "descr_trans": "导致其他事物停止的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopping",
+        "descr_trans": "事情停止"
+      }
+    ],
+    "roleset_name_trans": "结束：结束"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "wind_down.04",
+    "roleset_name": "wind down: come/bring to a stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing something else to stop",
+        "descr_trans": "导致其他事物停止的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopping",
+        "descr_trans": "事情停止"
+      }
+    ],
+    "roleset_name_trans": "放松：来/停止"
+  }
 ]

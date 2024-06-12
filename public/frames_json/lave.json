@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lave.01",
-        "roleset_name": "wash clean",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "washer"
-            },
-            {
-                "n": "1",
-                "descr": "entity cleaned"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lave.02",
-        "roleset_name": "lap or flow against",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "licker"
-            },
-            {
-                "n": "1",
-                "descr": "thing licked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lave.01",
+    "roleset_name": "wash clean",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "washer",
+        "descr_trans": "垫圈"
+      },
+      {
+        "n": "1",
+        "descr": "entity cleaned",
+        "descr_trans": "实体已清理"
+      }
+    ],
+    "roleset_name_trans": "洗干净"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lave.02",
+    "roleset_name": "lap or flow against",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "licker",
+        "descr_trans": "舔者"
+      },
+      {
+        "n": "1",
+        "descr": "thing licked",
+        "descr_trans": "东西被舔了"
+      }
+    ],
+    "roleset_name_trans": "搭接或逆流"
+  }
 ]

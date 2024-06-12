@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "safe.01",
-        "roleset_name": "safe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "activity, thing that is not dangerous"
-            },
-            {
-                "n": "1",
-                "descr": "entity protected, not in danger"
-            },
-            {
-                "n": "2",
-                "descr": "protected from, danger avoided"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "safe.01",
+    "roleset_name": "safe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "activity, thing that is not dangerous",
+        "descr_trans": "活动，不危险的事情"
+      },
+      {
+        "n": "1",
+        "descr": "entity protected, not in danger",
+        "descr_trans": "实体受到保护，没有处于危险之中"
+      },
+      {
+        "n": "2",
+        "descr": "protected from, danger avoided",
+        "descr_trans": "免受危险，避免危险"
+      }
+    ],
+    "roleset_name_trans": "安全的"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adjacent.01",
-        "roleset_name": "next to, evokes horizontal relationship",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first neighboring enity"
-            },
-            {
-                "n": "2",
-                "descr": "second neighboring entity, neighbors what/whom"
-            },
-            {
-                "n": "3",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adjacent.01",
+    "roleset_name": "next to, evokes horizontal relationship",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first neighboring enity",
+        "descr_trans": "第一邻近实体"
+      },
+      {
+        "n": "2",
+        "descr": "second neighboring entity, neighbors what/whom",
+        "descr_trans": "第二个相邻实体，邻居是什么/谁"
+      },
+      {
+        "n": "3",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "旁边，唤起横向关系"
+  }
 ]

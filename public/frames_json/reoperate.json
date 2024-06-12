@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reoperate.01",
-        "roleset_name": "performing surgery",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Surgeon/Person performing precise work"
-            },
-            {
-                "n": "1",
-                "descr": "Patient/Body part being operated on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reoperate.01",
+    "roleset_name": "performing surgery",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Surgeon/Person performing precise work",
+        "descr_trans": "外科医生/执行精确工作的人员"
+      },
+      {
+        "n": "1",
+        "descr": "Patient/Body part being operated on",
+        "descr_trans": "正在接受手术的患者/身体部位"
+      }
+    ],
+    "roleset_name_trans": "进行手术"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "predate.01",
-        "roleset_name": "come before, temporally",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing coming before"
-            },
-            {
-                "n": "2",
-                "descr": "thing coming after"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "predate.02",
-        "roleset_name": "be a predator of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "predator"
-            },
-            {
-                "n": "1",
-                "descr": "prey"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "predate.03",
-        "roleset_name": "mark with a previous date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent-- entity assigning a date"
-            },
-            {
-                "n": "1",
-                "descr": "thing assigned a date"
-            },
-            {
-                "n": "2",
-                "descr": "date assigned, value or extent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "predate.01",
+    "roleset_name": "come before, temporally",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing coming before",
+        "descr_trans": "之前发生的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing coming after",
+        "descr_trans": "之后的事情"
+      }
+    ],
+    "roleset_name_trans": "暂时先来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "predate.02",
+    "roleset_name": "be a predator of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "predator",
+        "descr_trans": "捕食者"
+      },
+      {
+        "n": "1",
+        "descr": "prey",
+        "descr_trans": "猎物"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "成为掠夺者"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "predate.03",
+    "roleset_name": "mark with a previous date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent-- entity assigning a date",
+        "descr_trans": "代理——指定日期的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing assigned a date",
+        "descr_trans": "指定日期的事物"
+      },
+      {
+        "n": "2",
+        "descr": "date assigned, value or extent",
+        "descr_trans": "指定日期、值或范围"
+      }
+    ],
+    "roleset_name_trans": "标记上一个日期"
+  }
 ]

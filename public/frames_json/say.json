@@ -1,31 +1,37 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "say.01",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            },
-            {
-                "n": "3",
-                "descr": "Attributive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "say.02",
-        "roleset_name": "discourse function",
-        "roles": []
-    }
+  {
+    "uid": 1,
+    "roleset_id": "say.01",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "Attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "say.02",
+    "roleset_name": "discourse function",
+    "roles": [],
+    "roleset_name_trans": "话语功能"
+  }
 ]

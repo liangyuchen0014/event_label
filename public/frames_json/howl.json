@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "howl.01",
-        "roleset_name": "emit howl, speak   howlingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "howler"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, cognate object"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "howl.02",
-        "roleset_name": "make howling noises while moving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "howl.03",
-        "roleset_name": "bad weather",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wind, etc."
-            },
-            {
-                "n": "1",
-                "descr": "cognate object (gusts, a gale, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "howl.01",
+    "roleset_name": "emit howl, speak   howlingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "howler",
+        "descr_trans": "嚎叫者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, cognate object",
+        "descr_trans": "话语、同源对象"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "发出嚎叫声，嚎叫着说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "howl.02",
+    "roleset_name": "make howling noises while moving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "移动时发出嚎叫声"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "howl.03",
+    "roleset_name": "bad weather",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wind, etc.",
+        "descr_trans": "风等"
+      },
+      {
+        "n": "1",
+        "descr": "cognate object (gusts, a gale, etc.)",
+        "descr_trans": "同源对象（阵风、大风等）"
+      }
+    ],
+    "roleset_name_trans": "坏天气"
+  }
 ]

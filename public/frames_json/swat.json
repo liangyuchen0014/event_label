@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swat.01",
-        "roleset_name": "swat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swatter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity swatted, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, swatted with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swat.01",
+    "roleset_name": "swat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swatter, agent",
+        "descr_trans": "拍子, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity swatted, patient",
+        "descr_trans": "实体被殴打，病人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, swatted with",
+        "descr_trans": "仪器, 猛击"
+      }
+    ],
+    "roleset_name_trans": "扑打"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aviation.01",
-        "roleset_name": "fly an aircraft",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one flying the plane"
-            },
-            {
-                "n": "1",
-                "descr": "aircraft"
-            },
-            {
-                "n": "2",
-                "descr": "passanger, one riding but not flying the plane"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aviation.01",
+    "roleset_name": "fly an aircraft",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one flying the plane",
+        "descr_trans": "代理人，一名驾驶飞机的人"
+      },
+      {
+        "n": "1",
+        "descr": "aircraft",
+        "descr_trans": "飞机"
+      },
+      {
+        "n": "2",
+        "descr": "passanger, one riding but not flying the plane",
+        "descr_trans": "乘客，一名乘坐但不驾驶飞机的乘客"
+      }
+    ],
+    "roleset_name_trans": "驾驶飞机"
+  }
 ]

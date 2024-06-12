@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "validate.01",
-        "roleset_name": "to declare or make legally valid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity validated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "valid.02",
-        "roleset_name": "grounded in truth/legality",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "valid entity"
-            },
-            {
-                "n": "2",
-                "descr": "valid for what use"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "validate.01",
+    "roleset_name": "to declare or make legally valid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity validated",
+        "descr_trans": "实体验证"
+      }
+    ],
+    "roleset_name_trans": "声明或使其具有法律效力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "valid.02",
+    "roleset_name": "grounded in truth/legality",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "valid entity",
+        "descr_trans": "有效实体"
+      },
+      {
+        "n": "2",
+        "descr": "valid for what use",
+        "descr_trans": "有效用于什么用途"
+      }
+    ],
+    "roleset_name_trans": "以事实/合法性为基础"
+  }
 ]

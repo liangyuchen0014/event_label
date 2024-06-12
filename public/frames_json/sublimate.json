@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sublimate.01",
-        "roleset_name": "to have a purifying, ennobling effect; to change from solid to gas or vice versa",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of sublimation"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing change, sublimation"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "starting state of arg 1"
-            },
-            {
-                "n": "4",
-                "descr": "final state of arg 1, result after sublimation"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sublimation.02",
-        "roleset_name": "Transition directly from a solid state to a gas state.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "substance transitioning"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sublimate.01",
+    "roleset_name": "to have a purifying, ennobling effect; to change from solid to gas or vice versa",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of sublimation",
+        "descr_trans": "代理，升华原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing change, sublimation",
+        "descr_trans": "正在发生变化、升华的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "starting state of arg 1",
+        "descr_trans": "arg 1 的起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "final state of arg 1, result after sublimation",
+        "descr_trans": "arg 1的最终状态，升华后的结果"
+      }
+    ],
+    "roleset_name_trans": "具有净化、提升气质的效果；从固体变为气体，反之亦然"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sublimation.02",
+    "roleset_name": "Transition directly from a solid state to a gas state.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "substance transitioning",
+        "descr_trans": "物质转变"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "直接从固态转变为气态。"
+  }
 ]

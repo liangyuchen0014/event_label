@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subside.01",
-        "roleset_name": "to decrease",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity decreasing"
-            },
-            {
-                "n": "2",
-                "descr": "decreasing to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "subside.02",
-        "roleset_name": "ground sinkage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of ground sinking"
-            },
-            {
-                "n": "1",
-                "descr": "the ground"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subside.01",
+    "roleset_name": "to decrease",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity decreasing",
+        "descr_trans": "实体递减"
+      },
+      {
+        "n": "2",
+        "descr": "decreasing to",
+        "descr_trans": "减少到"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "subside.02",
+    "roleset_name": "ground sinkage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of ground sinking",
+        "descr_trans": "地面下沉的原因"
+      },
+      {
+        "n": "1",
+        "descr": "the ground",
+        "descr_trans": "地面"
+      }
+    ],
+    "roleset_name_trans": "地面下沉"
+  }
 ]

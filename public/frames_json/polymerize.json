@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "polymerize.01",
-        "roleset_name": "to change into another substance with the   same atomic proportions, but a different molecular weight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of polymerization, agent"
-            },
-            {
-                "n": "1",
-                "descr": "substance undergoing polymerization"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or manner if separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "Resulting substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "polymerize.01",
+    "roleset_name": "to change into another substance with the   same atomic proportions, but a different molecular weight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of polymerization, agent",
+        "descr_trans": "聚合引发剂"
+      },
+      {
+        "n": "1",
+        "descr": "substance undergoing polymerization",
+        "descr_trans": "发生聚合反应的物质"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "Resulting substance",
+        "descr_trans": "所得物质"
+      }
+    ],
+    "roleset_name_trans": "变成具有相同原子比例但不同分子量的另一种物质"
+  }
 ]

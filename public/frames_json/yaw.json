@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yaw.01",
-        "roleset_name": "gape; be wide open",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "wide open thing"
-            },
-            {
-                "n": "2",
-                "descr": "location of the wide open thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "yaw.02",
-        "roleset_name": "swerve off course",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing swerving"
-            },
-            {
-                "n": "2",
-                "descr": "location, direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yaw.01",
+    "roleset_name": "gape; be wide open",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent (rare)",
+        "descr_trans": "致病因素（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "wide open thing",
+        "descr_trans": "敞开的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location of the wide open thing",
+        "descr_trans": "开阔物体的位置"
+      }
+    ],
+    "roleset_name_trans": "目瞪口呆；敞开心扉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "yaw.02",
+    "roleset_name": "swerve off course",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing swerving",
+        "descr_trans": "东西转向"
+      },
+      {
+        "n": "2",
+        "descr": "location, direction",
+        "descr_trans": "地点、方向"
+      }
+    ],
+    "roleset_name_trans": "偏离航线"
+  }
 ]

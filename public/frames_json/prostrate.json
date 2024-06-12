@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prostrate.01",
-        "roleset_name": "submit, surrender, bow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or one who prostrates"
-            },
-            {
-                "n": "1",
-                "descr": "one who prostrates (if different from ARG0)"
-            },
-            {
-                "n": "2",
-                "descr": "prostrate to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prostrate.01",
+    "roleset_name": "submit, surrender, bow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or one who prostrates",
+        "descr_trans": "代理人或跪拜者"
+      },
+      {
+        "n": "1",
+        "descr": "one who prostrates (if different from ARG0)",
+        "descr_trans": "跪拜的人（如果与 ARG0 不同）"
+      },
+      {
+        "n": "2",
+        "descr": "prostrate to",
+        "descr_trans": "跪拜于"
+      }
+    ],
+    "roleset_name_trans": "屈服，投降，鞠躬"
+  }
 ]

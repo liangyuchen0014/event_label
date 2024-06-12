@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cuss.01",
-        "roleset_name": "swear, use foul language",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cusser"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "target of cussing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cuss.01",
+    "roleset_name": "swear, use foul language",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cusser",
+        "descr_trans": "咒骂者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "target of cussing",
+        "descr_trans": "咒骂的目标"
+      }
+    ],
+    "roleset_name_trans": "发誓、使用粗言秽语"
+  }
 ]

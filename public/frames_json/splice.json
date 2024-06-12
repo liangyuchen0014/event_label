@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "splice.01",
-        "roleset_name": "join or weave together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Splicer"
-            },
-            {
-                "n": "1",
-                "descr": "First entity joined together (or all entities)"
-            },
-            {
-                "n": "2",
-                "descr": "second entity joined together"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "splice.02",
-        "roleset_name": "perform a merriage ceremony.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Minister"
-            },
-            {
-                "n": "1",
-                "descr": "Party married"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "splice.01",
+    "roleset_name": "join or weave together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Splicer",
+        "descr_trans": "熔接机"
+      },
+      {
+        "n": "1",
+        "descr": "First entity joined together (or all entities)",
+        "descr_trans": "第一个连接在一起的实体（或所有实体）"
+      },
+      {
+        "n": "2",
+        "descr": "second entity joined together",
+        "descr_trans": "连接在一起的第二个实体"
+      }
+    ],
+    "roleset_name_trans": "加入或编织在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "splice.02",
+    "roleset_name": "perform a merriage ceremony.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Minister",
+        "descr_trans": "部长"
+      },
+      {
+        "n": "1",
+        "descr": "Party married",
+        "descr_trans": "党已婚"
+      }
+    ],
+    "roleset_name_trans": "举行婚礼。"
+  }
 ]

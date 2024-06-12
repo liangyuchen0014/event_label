@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underpenetrate.01",
-        "roleset_name": "not enter far enough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity entering"
-            },
-            {
-                "n": "1",
-                "descr": "place or thing entered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underpenetrate.01",
+    "roleset_name": "not enter far enough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity entering",
+        "descr_trans": "实体进入"
+      },
+      {
+        "n": "1",
+        "descr": "place or thing entered",
+        "descr_trans": "输入的地点或事物"
+      }
+    ],
+    "roleset_name_trans": "进入得不够远"
+  }
 ]

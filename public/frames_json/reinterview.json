@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinterview.01",
-        "roleset_name": "interview or be interviewed again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interviewer"
-            },
-            {
-                "n": "1",
-                "descr": "interviewee"
-            },
-            {
-                "n": "2",
-                "descr": "purpose/subject matter of interview"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinterview.01",
+    "roleset_name": "interview or be interviewed again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interviewer",
+        "descr_trans": "面试官"
+      },
+      {
+        "n": "1",
+        "descr": "interviewee",
+        "descr_trans": "受访者"
+      },
+      {
+        "n": "2",
+        "descr": "purpose/subject matter of interview",
+        "descr_trans": "采访目的/主题"
+      }
+    ],
+    "roleset_name_trans": "面试或再次面试"
+  }
 ]

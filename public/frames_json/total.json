@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "total.01",
-        "roleset_name": "sums to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being counted"
-            },
-            {
-                "n": "2",
-                "descr": "count"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "total.02",
-        "roleset_name": "slang: wreck completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wrecker"
-            },
-            {
-                "n": "1",
-                "descr": "wreck"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "total_up.03",
-        "roleset_name": "count",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter"
-            },
-            {
-                "n": "1",
-                "descr": "thing counted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "total.01",
+    "roleset_name": "sums to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being counted",
+        "descr_trans": "被计算的东西"
+      },
+      {
+        "n": "2",
+        "descr": "count",
+        "descr_trans": "数数"
+      }
+    ],
+    "roleset_name_trans": "总和为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "total.02",
+    "roleset_name": "slang: wreck completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wrecker",
+        "descr_trans": "清障车"
+      },
+      {
+        "n": "1",
+        "descr": "wreck",
+        "descr_trans": "破坏"
+      }
+    ],
+    "roleset_name_trans": "俚语：彻底毁掉"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "total_up.03",
+    "roleset_name": "count",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter",
+        "descr_trans": "柜台"
+      },
+      {
+        "n": "1",
+        "descr": "thing counted",
+        "descr_trans": "重要的事情"
+      }
+    ],
+    "roleset_name_trans": "数数"
+  }
 ]

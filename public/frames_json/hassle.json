@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hassle.01",
-        "roleset_name": "harass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hassler"
-            },
-            {
-                "n": "1",
-                "descr": "entity being hassled"
-            },
-            {
-                "n": "2",
-                "descr": "about what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hassle.02",
-        "roleset_name": "harassment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing that is a hassle"
-            },
-            {
-                "n": "1",
-                "descr": "entity being hassled"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg0 that is a hassle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hassle.01",
+    "roleset_name": "harass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hassler",
+        "descr_trans": "哈斯勒"
+      },
+      {
+        "n": "1",
+        "descr": "entity being hassled",
+        "descr_trans": "受到困扰的实体"
+      },
+      {
+        "n": "2",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "骚扰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hassle.02",
+    "roleset_name": "harassment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing that is a hassle",
+        "descr_trans": "麻烦的事"
+      },
+      {
+        "n": "1",
+        "descr": "entity being hassled",
+        "descr_trans": "受到困扰的实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg0 that is a hassle",
+        "descr_trans": "arg0 的特定方面很麻烦"
+      }
+    ],
+    "roleset_name_trans": "骚扰"
+  }
 ]

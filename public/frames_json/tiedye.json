@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tiedye.01",
-        "roleset_name": "Create a dye pattern by tying fabric",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one performng the tie-dying"
-            },
-            {
-                "n": "1",
-                "descr": "fabric"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tiedye.01",
+    "roleset_name": "Create a dye pattern by tying fabric",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one performng the tie-dying",
+        "descr_trans": "代理人，一名负责扎染的人"
+      },
+      {
+        "n": "1",
+        "descr": "fabric",
+        "descr_trans": "织物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "通过打结织物来创建染色图案"
+  }
 ]

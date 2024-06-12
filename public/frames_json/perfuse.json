@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perfuse.01",
-        "roleset_name": "permeate, suffuse, or forcing a liquid to flow over/through something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity suffused with fluid/substance (Patient)"
-            },
-            {
-                "n": "2",
-                "descr": "Fluid/ substance introduced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perfuse.01",
+    "roleset_name": "permeate, suffuse, or forcing a liquid to flow over/through something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent",
+        "descr_trans": "致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "Entity suffused with fluid/substance (Patient)",
+        "descr_trans": "充满液体/物质的实体（患者）"
+      },
+      {
+        "n": "2",
+        "descr": "Fluid/ substance introduced",
+        "descr_trans": "引入流体/物质"
+      }
+    ],
+    "roleset_name_trans": "渗透、弥漫或迫使液体流过/穿过某物"
+  }
 ]

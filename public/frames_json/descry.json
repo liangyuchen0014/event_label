@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "descry.01",
-        "roleset_name": "recognize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Viewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing discerned"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "descry.01",
+    "roleset_name": "recognize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Viewer",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "1",
+        "descr": "thing discerned",
+        "descr_trans": "所辨别的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as",
+        "descr_trans": "次要属性，描述为"
+      }
+    ],
+    "roleset_name_trans": "认出"
+  }
 ]

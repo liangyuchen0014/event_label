@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "help.01",
-        "roleset_name": "help, aid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helper"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, secondary agent  (when separate from arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "help.02",
-        "roleset_name": "avoid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing (not) avoided"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "help_out.03",
-        "roleset_name": "help, aid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helper"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "helpful.04",
-        "roleset_name": "tending to, able to provide assistance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helpful entity"
-            },
-            {
-                "n": "1",
-                "descr": "project helped"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "help.01",
+    "roleset_name": "help, aid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helper",
+        "descr_trans": "帮手"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, secondary agent  (when separate from arg1)",
+        "descr_trans": "有益的，次要代理（与 arg1 分开时）"
+      }
+    ],
+    "roleset_name_trans": "帮助，援助"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "help.02",
+    "roleset_name": "avoid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing (not) avoided",
+        "descr_trans": "（未）避免的事情"
+      }
+    ],
+    "roleset_name_trans": "避免"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "help_out.03",
+    "roleset_name": "help, aid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helper",
+        "descr_trans": "帮手"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "帮助，援助"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "helpful.04",
+    "roleset_name": "tending to, able to provide assistance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helpful entity",
+        "descr_trans": "有帮助的实体"
+      },
+      {
+        "n": "1",
+        "descr": "project helped",
+        "descr_trans": "项目有帮助"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "倾向于，能够提供帮助"
+  }
 ]

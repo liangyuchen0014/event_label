@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compost.01",
-        "roleset_name": "turn organic waste into enviornmentally   friendly goo",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "composter"
-            },
-            {
-                "n": "1",
-                "descr": "organic waste composted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compost.01",
+    "roleset_name": "turn organic waste into enviornmentally   friendly goo",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "composter",
+        "descr_trans": "堆肥"
+      },
+      {
+        "n": "1",
+        "descr": "organic waste composted",
+        "descr_trans": "有机废物堆肥"
+      }
+    ],
+    "roleset_name_trans": "将有机废物转化为环境友好型物质"
+  }
 ]

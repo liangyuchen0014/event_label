@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bait.01",
-        "roleset_name": "tease, rag on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "teaser"
-            },
-            {
-                "n": "1",
-                "descr": "person being teased"
-            },
-            {
-                "n": "2",
-                "descr": "teased about what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bait.02",
-        "roleset_name": "lure, entice, entrap with bait",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, volitional entity enticing"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity lured, enticed, entrapped"
-            },
-            {
-                "n": "2",
-                "descr": "Trap, entity, action arg1 is lured towards or into"
-            },
-            {
-                "n": "3",
-                "descr": "bait itself, instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bait.03",
-        "roleset_name": "put bait on a trap, hook, etc.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity putting bait on trap, hook"
-            },
-            {
-                "n": "1",
-                "descr": "entity baited, trap or hook itself"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, bait itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bait.01",
+    "roleset_name": "tease, rag on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "teaser",
+        "descr_trans": "预告片"
+      },
+      {
+        "n": "1",
+        "descr": "person being teased",
+        "descr_trans": "被戏弄的人"
+      },
+      {
+        "n": "2",
+        "descr": "teased about what?",
+        "descr_trans": "取笑什么？"
+      }
+    ],
+    "roleset_name_trans": "戏弄, 抹布"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bait.02",
+    "roleset_name": "lure, entice, entrap with bait",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, volitional entity enticing",
+        "descr_trans": "代理人，有诱惑力的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity lured, enticed, entrapped",
+        "descr_trans": "病人、实体被引诱、引诱、陷入困境"
+      },
+      {
+        "n": "2",
+        "descr": "Trap, entity, action arg1 is lured towards or into",
+        "descr_trans": "陷阱、实体、动作 arg1 被引诱至或进入"
+      },
+      {
+        "n": "3",
+        "descr": "bait itself, instrument",
+        "descr_trans": "诱饵本身，仪器"
+      }
+    ],
+    "roleset_name_trans": "用诱饵引诱,引诱,引诱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bait.03",
+    "roleset_name": "put bait on a trap, hook, etc.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity putting bait on trap, hook",
+        "descr_trans": "代理，将诱饵放在陷阱、钩子上的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity baited, trap or hook itself",
+        "descr_trans": "实体诱饵、诱捕或钩住自己"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, bait itself",
+        "descr_trans": "工具、诱饵本身"
+      }
+    ],
+    "roleset_name_trans": "将诱饵放在陷阱、钩子等上。"
+  }
 ]

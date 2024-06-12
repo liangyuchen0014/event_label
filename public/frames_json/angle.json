@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "angle.01",
-        "roleset_name": "move on an angled trajectory",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "description of path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "angle.02",
-        "roleset_name": "cause to be/move in an angular fashion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity angled"
-            },
-            {
-                "n": "2",
-                "descr": "path, axis"
-            },
-            {
-                "n": "3",
-                "descr": "compared to what entity"
-            },
-            {
-                "n": "4",
-                "descr": "angle measurement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "angle.01",
+    "roleset_name": "move on an angled trajectory",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "description of path",
+        "descr_trans": "路径描述"
+      }
+    ],
+    "roleset_name_trans": "沿着有角度的轨迹移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "angle.02",
+    "roleset_name": "cause to be/move in an angular fashion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity angled",
+        "descr_trans": "实体成角度"
+      },
+      {
+        "n": "2",
+        "descr": "path, axis",
+        "descr_trans": "路径、轴"
+      },
+      {
+        "n": "3",
+        "descr": "compared to what entity",
+        "descr_trans": "与什么实体相比"
+      },
+      {
+        "n": "4",
+        "descr": "angle measurement",
+        "descr_trans": "角度测量"
+      }
+    ],
+    "roleset_name_trans": "导致以有角度的方式存在/移动"
+  }
 ]

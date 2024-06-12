@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refute.01",
-        "roleset_name": "to deny or prove to be false",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "denier, prover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity refuted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refute.01",
+    "roleset_name": "to deny or prove to be false",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "denier, prover, agent",
+        "descr_trans": "否认者, 证明者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity refuted",
+        "descr_trans": "实体反驳"
+      }
+    ],
+    "roleset_name_trans": "否认或证明是错误的"
+  }
 ]

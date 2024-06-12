@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "account.01",
-        "roleset_name": "deal with, explain, give/tell report or explanation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accounter"
-            },
-            {
-                "n": "1",
-                "descr": "thing accounted for, dealt with, explained"
-            },
-            {
-                "n": "2",
-                "descr": "instrumental, accounted for with or by"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "accountable.02",
-        "roleset_name": "answerable, responsible for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perpetrator, accountable person"
-            },
-            {
-                "n": "1",
-                "descr": "role or crime, accountable for what?"
-            },
-            {
-                "n": "2",
-                "descr": "judge"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "accounting.03",
-        "roleset_name": "managing finance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accountant (entity acting as)"
-            },
-            {
-                "n": "1",
-                "descr": "money, accounts, etc. accounted for"
-            },
-            {
-                "n": "2",
-                "descr": "account owner, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "take_into_account.04",
-        "roleset_name": "consider",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "considerer"
-            },
-            {
-                "n": "1",
-                "descr": "thing considered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "account.01",
+    "roleset_name": "deal with, explain, give/tell report or explanation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accounter",
+        "descr_trans": "帐户"
+      },
+      {
+        "n": "1",
+        "descr": "thing accounted for, dealt with, explained",
+        "descr_trans": "事物被解释、处理、解释"
+      },
+      {
+        "n": "2",
+        "descr": "instrumental, accounted for with or by",
+        "descr_trans": "工具性的，用或由"
+      }
+    ],
+    "roleset_name_trans": "处理、解释、提供/讲述报告或解释"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "accountable.02",
+    "roleset_name": "answerable, responsible for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perpetrator, accountable person",
+        "descr_trans": "肇事者、责任人"
+      },
+      {
+        "n": "1",
+        "descr": "role or crime, accountable for what?",
+        "descr_trans": "角色或犯罪，对什么负责？"
+      },
+      {
+        "n": "2",
+        "descr": "judge",
+        "descr_trans": "法官"
+      }
+    ],
+    "roleset_name_trans": "有责任的，负责的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "accounting.03",
+    "roleset_name": "managing finance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accountant (entity acting as)",
+        "descr_trans": "会计师（担任的实体）"
+      },
+      {
+        "n": "1",
+        "descr": "money, accounts, etc. accounted for",
+        "descr_trans": "资金、账户等入账"
+      },
+      {
+        "n": "2",
+        "descr": "account owner, if separate from arg0",
+        "descr_trans": "帐户所有者（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "管理财务"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "take_into_account.04",
+    "roleset_name": "consider",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "considerer",
+        "descr_trans": "考虑"
+      },
+      {
+        "n": "1",
+        "descr": "thing considered",
+        "descr_trans": "考虑的事情"
+      }
+    ],
+    "roleset_name_trans": "考虑"
+  }
 ]

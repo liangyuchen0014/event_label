@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intersect.01",
-        "roleset_name": "divide into two parts by cutting through or across",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "focus, first mention of entity intersecting another"
-            },
-            {
-                "n": "1",
-                "descr": "thing arg0 is intersecting, entity divided in two"
-            },
-            {
-                "n": "2",
-                "descr": "point of intersection"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intersect.01",
+    "roleset_name": "divide into two parts by cutting through or across",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "focus, first mention of entity intersecting another",
+        "descr_trans": "焦点，第一次提到与另一个实体相交的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing arg0 is intersecting, entity divided in two",
+        "descr_trans": "事物 arg0 相交，实体一分为二"
+      },
+      {
+        "n": "2",
+        "descr": "point of intersection",
+        "descr_trans": "交点"
+      }
+    ],
+    "roleset_name_trans": "通过切割或交叉分为两部分"
+  }
 ]

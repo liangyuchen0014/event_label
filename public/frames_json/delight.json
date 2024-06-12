@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "delight.01",
-        "roleset_name": "make happy, direct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pleaser, pleasing thing"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity pleased"
-            },
-            {
-                "n": "2",
-                "descr": "instrumental (if in addition to arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "delight.03",
-        "roleset_name": "make happy, prepositional",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "happy entity"
-            },
-            {
-                "n": "1",
-                "descr": "prepositional object"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "delight.02",
-        "roleset_name": "mode of speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "delight.01",
+    "roleset_name": "make happy, direct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pleaser, pleasing thing",
+        "descr_trans": "代理人, 取悦者, 令人愉快的事情"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity pleased",
+        "descr_trans": "患者，实体满意"
+      },
+      {
+        "n": "2",
+        "descr": "instrumental (if in addition to arg0)",
+        "descr_trans": "工具（如果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "使快乐、直接"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "delight.03",
+    "roleset_name": "make happy, prepositional",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "happy entity",
+        "descr_trans": "快乐的实体"
+      },
+      {
+        "n": "1",
+        "descr": "prepositional object",
+        "descr_trans": "介词宾语"
+      }
+    ],
+    "roleset_name_trans": "使快乐，介词"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "delight.02",
+    "roleset_name": "mode of speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说话方式"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underprice.01",
-        "roleset_name": "give a too-low price",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of price"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underprice.01",
+    "roleset_name": "give a too-low price",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of price",
+        "descr_trans": "价格提供者"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "给出的价格太低"
+  }
 ]

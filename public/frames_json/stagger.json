@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stagger.01",
-        "roleset_name": "move unsteadily",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stagger.02",
-        "roleset_name": "cause an emotional reaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of reaction"
-            },
-            {
-                "n": "1",
-                "descr": "thing reacting, staggering"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stagger.03",
-        "roleset_name": "arrange in overlapping time periods",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, arranger"
-            },
-            {
-                "n": "1",
-                "descr": "thing arranged; staggered event(s)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stagger.01",
+    "roleset_name": "move unsteadily",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      }
+    ],
+    "roleset_name_trans": "移动不稳定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stagger.02",
+    "roleset_name": "cause an emotional reaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of reaction",
+        "descr_trans": "引起反应的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing reacting, staggering",
+        "descr_trans": "事物做出反应，令人震惊"
+      }
+    ],
+    "roleset_name_trans": "引起情绪反应"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stagger.03",
+    "roleset_name": "arrange in overlapping time periods",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, arranger",
+        "descr_trans": "经纪人、安排人"
+      },
+      {
+        "n": "1",
+        "descr": "thing arranged; staggered event(s)",
+        "descr_trans": "安排好的事情；交错事件"
+      }
+    ],
+    "roleset_name_trans": "安排在重叠的时间段"
+  }
 ]

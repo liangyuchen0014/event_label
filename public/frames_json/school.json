@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "school.01",
-        "roleset_name": "teach, educate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "teacher"
-            },
-            {
-                "n": "1",
-                "descr": "student"
-            },
-            {
-                "n": "2",
-                "descr": "topic, subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "school.01",
+    "roleset_name": "teach, educate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "teacher",
+        "descr_trans": "老师"
+      },
+      {
+        "n": "1",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "2",
+        "descr": "topic, subject",
+        "descr_trans": "主题，主题"
+      }
+    ],
+    "roleset_name_trans": "教导，教育"
+  }
 ]

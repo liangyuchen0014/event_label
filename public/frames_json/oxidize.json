@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oxidize.01",
-        "roleset_name": "to (cause to) convert into an oxide, combine with oxygen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of oxidizing, Scientist causing conversion"
-            },
-            {
-                "n": "1",
-                "descr": "Entity/element oxidizing"
-            },
-            {
-                "n": "2",
-                "descr": "End state, oxidized to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oxidize.01",
+    "roleset_name": "to (cause to) convert into an oxide, combine with oxygen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of oxidizing, Scientist causing conversion",
+        "descr_trans": "氧化原因，科学家引起转化"
+      },
+      {
+        "n": "1",
+        "descr": "Entity/element oxidizing",
+        "descr_trans": "实体/元素氧化"
+      },
+      {
+        "n": "2",
+        "descr": "End state, oxidized to what",
+        "descr_trans": "最终状态，氧化成什么"
+      }
+    ],
+    "roleset_name_trans": "（导致）转化为氧化物，与氧结合"
+  }
 ]

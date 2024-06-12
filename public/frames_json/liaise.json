@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "liaise.01",
-        "roleset_name": "establish liaison",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity establishing liaison"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being liaised"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "liaise.01",
+    "roleset_name": "establish liaison",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity establishing liaison",
+        "descr_trans": "代理人、建立联络的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being liaised",
+        "descr_trans": "病人，正在联络的事物"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "建立联络"
+  }
 ]

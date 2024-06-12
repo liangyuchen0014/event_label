@@ -1,244 +1,294 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "give.01",
-        "roleset_name": "transfer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "give.14",
-        "roleset_name": "to be likely to, given to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Person entity likely to do/be a certain way"
-            },
-            {
-                "n": "2",
-                "descr": "Thing which arg1 is likely to do/be"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "give.16",
-        "roleset_name": "idiomatic: to care (give a crap, etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver/carer"
-            },
-            {
-                "n": "1",
-                "descr": "crap/shit/poopoo, ect"
-            },
-            {
-                "n": "2",
-                "descr": "about what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "give.17",
-        "roleset_name": "yield when pressure is applied",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing yielding"
-            },
-            {
-                "n": "2",
-                "descr": "to what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "give_away.02",
-        "roleset_name": "give away: transfer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "give_away.15",
-        "roleset_name": "reveal what something really is",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity revealing true state"
-            },
-            {
-                "n": "1",
-                "descr": "thing revealed, given away"
-            },
-            {
-                "n": "2",
-                "descr": "audience, truth shown to who?"
-            },
-            {
-                "n": "3",
-                "descr": "what arg1 is revealed to be, true state itself"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "give_back.03",
-        "roleset_name": "give back: return",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "give_off.04",
-        "roleset_name": "give off: emit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing emit(ted)"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "give_out.05",
-        "roleset_name": "give out: die",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing dying"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "give_out.06",
-        "roleset_name": "give out: distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed to"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "give_up.07",
-        "roleset_name": "give up: abandon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "give_up.08",
-        "roleset_name": "give up: surrender",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "given-to"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "give_in.09",
-        "roleset_name": "give in: yield",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving way"
-            },
-            {
-                "n": "1",
-                "descr": "entity winning"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "give_over.13",
-        "roleset_name": "transfer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity or activity given to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "give.01",
+    "roleset_name": "transfer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "转移"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "give.14",
+    "roleset_name": "to be likely to, given to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Person entity likely to do/be a certain way",
+        "descr_trans": "人实体可能以某种方式做/成为"
+      },
+      {
+        "n": "2",
+        "descr": "Thing which arg1 is likely to do/be",
+        "descr_trans": "arg1 可能会做的事情"
+      }
+    ],
+    "roleset_name_trans": "有可能，给予"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "give.16",
+    "roleset_name": "idiomatic: to care (give a crap, etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver/carer",
+        "descr_trans": "给予者/照顾者"
+      },
+      {
+        "n": "1",
+        "descr": "crap/shit/poopoo, ect",
+        "descr_trans": "废话/狗屎/便便等"
+      },
+      {
+        "n": "2",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "惯用语：关心（废话等）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "give.17",
+    "roleset_name": "yield when pressure is applied",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing yielding",
+        "descr_trans": "事物屈服"
+      },
+      {
+        "n": "2",
+        "descr": "to what",
+        "descr_trans": "到什么"
+      }
+    ],
+    "roleset_name_trans": "施加压力时的屈服强度"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "give_away.02",
+    "roleset_name": "give away: transfer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "放弃：转让"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "give_away.15",
+    "roleset_name": "reveal what something really is",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity revealing true state",
+        "descr_trans": "代理，揭示真实状态的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing revealed, given away",
+        "descr_trans": "事情被揭露，被放弃"
+      },
+      {
+        "n": "2",
+        "descr": "audience, truth shown to who?",
+        "descr_trans": "观众，真相向谁展示？"
+      },
+      {
+        "n": "3",
+        "descr": "what arg1 is revealed to be, true state itself",
+        "descr_trans": "arg1 被揭示是什么，真实状态本身"
+      }
+    ],
+    "roleset_name_trans": "揭示某事物的真实面目"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "give_back.03",
+    "roleset_name": "give back: return",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "归还：回报"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "give_off.04",
+    "roleset_name": "give off: emit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emitter",
+        "descr_trans": "发射器"
+      },
+      {
+        "n": "1",
+        "descr": "thing emit(ted)",
+        "descr_trans": "发出的东西（ted）"
+      }
+    ],
+    "roleset_name_trans": "发出：发出"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "give_out.05",
+    "roleset_name": "give out: die",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing dying",
+        "descr_trans": "东西正在死去"
+      }
+    ],
+    "roleset_name_trans": "给出：死"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "give_out.06",
+    "roleset_name": "give out: distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed to",
+        "descr_trans": "分发给"
+      }
+    ],
+    "roleset_name_trans": "给予：分发"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "give_up.07",
+    "roleset_name": "give up: abandon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner",
+        "descr_trans": "放弃"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      }
+    ],
+    "roleset_name_trans": "放弃：放弃"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "give_up.08",
+    "roleset_name": "give up: surrender",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "given-to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "放弃：投降"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "give_in.09",
+    "roleset_name": "give in: yield",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving way",
+        "descr_trans": "实体让路"
+      },
+      {
+        "n": "1",
+        "descr": "entity winning",
+        "descr_trans": "实体获胜"
+      }
+    ],
+    "roleset_name_trans": "屈服：产量"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "give_over.13",
+    "roleset_name": "transfer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity or activity given to",
+        "descr_trans": "给予的实体或活动"
+      }
+    ],
+    "roleset_name_trans": "转移"
+  }
 ]

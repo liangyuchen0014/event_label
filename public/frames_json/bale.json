@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bale.01",
-        "roleset_name": "wrap stringy goods into a bale for easy trasport",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, packager"
-            },
-            {
-                "n": "1",
-                "descr": "the stringy goods being packaged"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bale.01",
+    "roleset_name": "wrap stringy goods into a bale for easy trasport",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, packager",
+        "descr_trans": "代理、包装商"
+      },
+      {
+        "n": "1",
+        "descr": "the stringy goods being packaged",
+        "descr_trans": "正在包装的绳状货物"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "将绳状货物打包成捆，以便于运输"
+  }
 ]

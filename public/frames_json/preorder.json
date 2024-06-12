@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preorder.01",
-        "roleset_name": "request before needed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "orderer"
-            },
-            {
-                "n": "1",
-                "descr": "thing ordered"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive; ordered for"
-            },
-            {
-                "n": "3",
-                "descr": "source; ordered from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preorder.01",
+    "roleset_name": "request before needed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "orderer",
+        "descr_trans": "订购者"
+      },
+      {
+        "n": "1",
+        "descr": "thing ordered",
+        "descr_trans": "订购的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive; ordered for",
+        "descr_trans": "有益的；订购的"
+      },
+      {
+        "n": "3",
+        "descr": "source; ordered from",
+        "descr_trans": "来源;订购自"
+      }
+    ],
+    "roleset_name_trans": "在需要之前请求"
+  }
 ]

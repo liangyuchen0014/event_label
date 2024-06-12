@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embrace.01",
-        "roleset_name": "to accept enthusiastically or to include",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "includer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity embraced"
-            },
-            {
-                "n": "2",
-                "descr": "embraced as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "embrace.02",
-        "roleset_name": "to hug, hug",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hugger"
-            },
-            {
-                "n": "1",
-                "descr": "person hugged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embrace.01",
+    "roleset_name": "to accept enthusiastically or to include",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "includer, agent",
+        "descr_trans": "包括者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity embraced",
+        "descr_trans": "实体拥抱"
+      },
+      {
+        "n": "2",
+        "descr": "embraced as",
+        "descr_trans": "拥抱为"
+      }
+    ],
+    "roleset_name_trans": "热情地接受或包括"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "embrace.02",
+    "roleset_name": "to hug, hug",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hugger",
+        "descr_trans": "拥抱者"
+      },
+      {
+        "n": "1",
+        "descr": "person hugged",
+        "descr_trans": "人拥抱"
+      }
+    ],
+    "roleset_name_trans": "拥抱，拥抱"
+  }
 ]

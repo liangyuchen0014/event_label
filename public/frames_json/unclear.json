@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unclear.01",
-        "roleset_name": "not apparent, obvious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of lack of clarity, failing to make clear"
-            },
-            {
-                "n": "1",
-                "descr": "what isn't clear, obvious"
-            },
-            {
-                "n": "2",
-                "descr": "perceiver"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unclear.02",
-        "roleset_name": "obstructed in some way, murky",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is obstructed, unclear"
-            },
-            {
-                "n": "2",
-                "descr": "obstruction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unclear.01",
+    "roleset_name": "not apparent, obvious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of lack of clarity, failing to make clear",
+        "descr_trans": "造成不明确的原因，未能明确"
+      },
+      {
+        "n": "1",
+        "descr": "what isn't clear, obvious",
+        "descr_trans": "什么是不清楚的、显而易见的"
+      },
+      {
+        "n": "2",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      }
+    ],
+    "roleset_name_trans": "不明显的，明显的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unclear.02",
+    "roleset_name": "obstructed in some way, murky",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is obstructed, unclear",
+        "descr_trans": "被阻碍的、不清楚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "obstruction",
+        "descr_trans": "梗阻"
+      }
+    ],
+    "roleset_name_trans": "以某种方式受阻，阴暗"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extricate.01",
-        "roleset_name": "remove thyself",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "from where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extricate.01",
+    "roleset_name": "remove thyself",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of removing",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "from where",
+        "descr_trans": "从哪里"
+      }
+    ],
+    "roleset_name_trans": "移除你自己"
+  }
 ]

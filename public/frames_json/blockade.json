@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blockade.01",
-        "roleset_name": "impede",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "impeder, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "impeded, Theme"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blockade.01",
+    "roleset_name": "impede",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "impeder, Agent",
+        "descr_trans": "阻碍者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "impeded, Theme",
+        "descr_trans": "受阻, 主题"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻碍"
+  }
 ]

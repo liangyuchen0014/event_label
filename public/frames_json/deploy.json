@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deploy.01",
-        "roleset_name": "set into place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Deployer"
-            },
-            {
-                "n": "1",
-                "descr": "Deployed"
-            },
-            {
-                "n": "2",
-                "descr": "deployed where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deploy.01",
+    "roleset_name": "set into place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Deployer",
+        "descr_trans": "部署者"
+      },
+      {
+        "n": "1",
+        "descr": "Deployed",
+        "descr_trans": "已部署"
+      },
+      {
+        "n": "2",
+        "descr": "deployed where",
+        "descr_trans": "部署在哪里"
+      }
+    ],
+    "roleset_name_trans": "设置到位"
+  }
 ]

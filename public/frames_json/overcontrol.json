@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overcontrol.01",
-        "roleset_name": "control to too great a degree",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "controller"
-            },
-            {
-                "n": "1",
-                "descr": "controlled"
-            },
-            {
-                "n": "2",
-                "descr": "instumental, controlled with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overcontrol.01",
+    "roleset_name": "control to too great a degree",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "controller",
+        "descr_trans": "控制器"
+      },
+      {
+        "n": "1",
+        "descr": "controlled",
+        "descr_trans": "受控"
+      },
+      {
+        "n": "2",
+        "descr": "instumental, controlled with",
+        "descr_trans": "器乐式的，控制用"
+      }
+    ],
+    "roleset_name_trans": "控制过度"
+  }
 ]

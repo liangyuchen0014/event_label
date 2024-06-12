@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hurry.01",
-        "roleset_name": "to move or act at a high speed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predicate, purpose"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hurry_up.02",
-        "roleset_name": "hurry_up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of hurrying"
-            },
-            {
-                "n": "1",
-                "descr": "entity in a hurry"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predicate, purpose, hurried action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hurry.01",
+    "roleset_name": "to move or act at a high speed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predicate, purpose",
+        "descr_trans": "次要谓词，目的"
+      }
+    ],
+    "roleset_name_trans": "高速移动或行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hurry_up.02",
+    "roleset_name": "hurry_up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of hurrying",
+        "descr_trans": "匆忙的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in a hurry",
+        "descr_trans": "匆忙的实体"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predicate, purpose, hurried action",
+        "descr_trans": "次要谓语、目的、紧急行动"
+      }
+    ],
+    "roleset_name_trans": "赶快"
+  }
 ]

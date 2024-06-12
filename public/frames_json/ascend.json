@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ascend.01",
-        "roleset_name": "to rise, go up, going up (intentional)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity rising"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ascend.02",
-        "roleset_name": "non-intentional rising",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Rising entity"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ascend.01",
+    "roleset_name": "to rise, go up, going up (intentional)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity rising",
+        "descr_trans": "实体崛起"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "上升，上升，上升（故意）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ascend.02",
+    "roleset_name": "non-intentional rising",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Rising entity",
+        "descr_trans": "崛起的实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "无意识的上升"
+  }
 ]

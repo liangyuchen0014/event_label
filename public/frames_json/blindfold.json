@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blindfold.01",
-        "roleset_name": "cover the eyes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coverer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity with covered eyes"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of blindfold"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blindfold.01",
+    "roleset_name": "cover the eyes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coverer, agent",
+        "descr_trans": "掩护者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity with covered eyes",
+        "descr_trans": "蒙着眼睛的实体"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of blindfold",
+        "descr_trans": "明确提及蒙眼"
+      }
+    ],
+    "roleset_name_trans": "遮住眼睛"
+  }
 ]

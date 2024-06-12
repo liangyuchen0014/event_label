@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reaffix.01",
-        "roleset_name": "attach, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing attached"
-            },
-            {
-                "n": "2",
-                "descr": "destination arg1 attached to"
-            },
-            {
-                "n": "3",
-                "descr": "instrument of bonding, glue"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reaffix.01",
+    "roleset_name": "attach, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing attached",
+        "descr_trans": "附加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination arg1 attached to",
+        "descr_trans": "目标 arg1 附加到"
+      },
+      {
+        "n": "3",
+        "descr": "instrument of bonding, glue",
+        "descr_trans": "粘接工具、胶水"
+      }
+    ],
+    "roleset_name_trans": "再附上"
+  }
 ]

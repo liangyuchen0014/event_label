@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outrank.01",
-        "roleset_name": "surpass in rank",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with higher rank"
-            },
-            {
-                "n": "1",
-                "descr": "entity with lower rank"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outrank.01",
+    "roleset_name": "surpass in rank",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with higher rank",
+        "descr_trans": "等级较高的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity with lower rank",
+        "descr_trans": "等级较低的实体"
+      }
+    ],
+    "roleset_name_trans": "超越等级"
+  }
 ]

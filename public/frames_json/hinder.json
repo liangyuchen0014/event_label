@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hinder.01",
-        "roleset_name": "(try to) stop, prevent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper, preventer"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being prevented)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1 or action"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hinder.01",
+    "roleset_name": "(try to) stop, prevent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper, preventer",
+        "descr_trans": "塞子，防止器"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being prevented)",
+        "descr_trans": "主题（被阻止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1 or action",
+        "descr_trans": "对 arg1 或操作的二次预测"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "（尝试）停止，阻止"
+  }
 ]

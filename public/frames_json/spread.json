@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spread.01",
-        "roleset_name": "smear, apply, physical smearing of a substance on a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier, intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "substance"
-            },
-            {
-                "n": "2",
-                "descr": "surface"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, brush"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spread.02",
-        "roleset_name": "extend, ranging",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "substance"
-            },
-            {
-                "n": "m",
-                "descr": "diretion or location (for location use loc)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "spread.03",
-        "roleset_name": "cause to be widely located or distributed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "things distributed"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "spread_out.04",
-        "roleset_name": "spread_out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing spread out"
-            },
-            {
-                "n": "2",
-                "descr": "location, spread amongst"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spread.01",
+    "roleset_name": "smear, apply, physical smearing of a substance on a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier, intentional agent",
+        "descr_trans": "申请者, 有意代理人"
+      },
+      {
+        "n": "1",
+        "descr": "substance",
+        "descr_trans": "物质"
+      },
+      {
+        "n": "2",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, brush",
+        "descr_trans": "仪器、刷子"
+      }
+    ],
+    "roleset_name_trans": "涂抹，涂抹，物理涂抹某种物质在表面上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spread.02",
+    "roleset_name": "extend, ranging",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "substance",
+        "descr_trans": "物质"
+      },
+      {
+        "n": "m",
+        "descr": "diretion or location (for location use loc)",
+        "descr_trans": "方向或位置（位置使用 loc）"
+      }
+    ],
+    "roleset_name_trans": "延伸，范围"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "spread.03",
+    "roleset_name": "cause to be widely located or distributed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor, agent",
+        "descr_trans": "经销商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "things distributed",
+        "descr_trans": "分发的东西"
+      }
+    ],
+    "roleset_name_trans": "导致广泛分布或分布"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "spread_out.04",
+    "roleset_name": "spread_out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing spread out",
+        "descr_trans": "事情散开"
+      },
+      {
+        "n": "2",
+        "descr": "location, spread amongst",
+        "descr_trans": "位置，分布于"
+      }
+    ],
+    "roleset_name_trans": "扩散;传播开"
+  }
 ]

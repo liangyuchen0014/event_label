@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "feel.01",
-        "roleset_name": "experience emotion or sensation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "feeler, person experiencing emotion"
-            },
-            {
-                "n": "1",
-                "descr": "emotion or sensation"
-            },
-            {
-                "n": "2",
-                "descr": "entity towards or for whom the emotion is directed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "feel.02",
-        "roleset_name": "believe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "believer"
-            },
-            {
-                "n": "1",
-                "descr": "belief"
-            },
-            {
-                "n": "2",
-                "descr": "attributive (whom/what the feeling is about)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "feel.03",
-        "roleset_name": "caress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "feeler"
-            },
-            {
-                "n": "1",
-                "descr": "thing felt"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "feel.05",
-        "roleset_name": "exhibit a (tactile or emotional) characteristic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stimulus"
-            },
-            {
-                "n": "2",
-                "descr": "characteristic"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "feel.06",
-        "roleset_name": "feel like: want, have an inclination",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wanter"
-            },
-            {
-                "n": "1",
-                "descr": "like what: thing or action arg0 is inclined towards"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "feel_up.04",
-        "roleset_name": "intentionally touch, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "feeler"
-            },
-            {
-                "n": "1",
-                "descr": "thing felt"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "feel.01",
+    "roleset_name": "experience emotion or sensation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "feeler, person experiencing emotion",
+        "descr_trans": "感受者，体验情感的人"
+      },
+      {
+        "n": "1",
+        "descr": "emotion or sensation",
+        "descr_trans": "情绪或感觉"
+      },
+      {
+        "n": "2",
+        "descr": "entity towards or for whom the emotion is directed",
+        "descr_trans": "情感针对或针对的实体"
+      }
+    ],
+    "roleset_name_trans": "体验情绪或感觉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "feel.02",
+    "roleset_name": "believe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "believer",
+        "descr_trans": "信徒"
+      },
+      {
+        "n": "1",
+        "descr": "belief",
+        "descr_trans": "信仰"
+      },
+      {
+        "n": "2",
+        "descr": "attributive (whom/what the feeling is about)",
+        "descr_trans": "定语（感觉是关于谁/什么的）"
+      }
+    ],
+    "roleset_name_trans": "相信"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "feel.03",
+    "roleset_name": "caress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "feeler",
+        "descr_trans": "触角"
+      },
+      {
+        "n": "1",
+        "descr": "thing felt",
+        "descr_trans": "感觉的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "抚摸"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "feel.05",
+    "roleset_name": "exhibit a (tactile or emotional) characteristic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stimulus",
+        "descr_trans": "刺激"
+      },
+      {
+        "n": "2",
+        "descr": "characteristic",
+        "descr_trans": "特征"
+      }
+    ],
+    "roleset_name_trans": "表现出（触觉或情感）特征"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "feel.06",
+    "roleset_name": "feel like: want, have an inclination",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wanter",
+        "descr_trans": "冬天"
+      },
+      {
+        "n": "1",
+        "descr": "like what: thing or action arg0 is inclined towards",
+        "descr_trans": "就像什么：arg0 倾向于的事物或动作"
+      }
+    ],
+    "roleset_name_trans": "感觉：想要、有倾向"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "feel_up.04",
+    "roleset_name": "intentionally touch, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "feeler",
+        "descr_trans": "触角"
+      },
+      {
+        "n": "1",
+        "descr": "thing felt",
+        "descr_trans": "感觉的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "故意触摸，短语"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undress.01",
-        "roleset_name": "to remove clothes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person removing clothes"
-            },
-            {
-                "n": "1",
-                "descr": "person (soon to be not) wearing clothes"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, clothes removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undress.01",
+    "roleset_name": "to remove clothes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person removing clothes",
+        "descr_trans": "脱衣服的人"
+      },
+      {
+        "n": "1",
+        "descr": "person (soon to be not) wearing clothes",
+        "descr_trans": "穿着衣服的人（很快就会不穿衣服）"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, clothes removed",
+        "descr_trans": "属性，衣服脱掉"
+      }
+    ],
+    "roleset_name_trans": "脱掉衣服"
+  }
 ]

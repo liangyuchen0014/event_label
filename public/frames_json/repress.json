@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repress.01",
-        "roleset_name": "to hold back, holding back/down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "represser"
-            },
-            {
-                "n": "1",
-                "descr": "repressed"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which arg1 is being repressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repress.01",
+    "roleset_name": "to hold back, holding back/down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "represser",
+        "descr_trans": "抑制子"
+      },
+      {
+        "n": "1",
+        "descr": "repressed",
+        "descr_trans": "压抑的"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which arg1 is being repressed",
+        "descr_trans": "arg1 被抑制的域"
+      }
+    ],
+    "roleset_name_trans": "阻止，阻止/抑制"
+  }
 ]

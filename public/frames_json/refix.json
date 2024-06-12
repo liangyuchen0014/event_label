@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refix.01",
-        "roleset_name": "prepare, fix again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, fixer"
-            },
-            {
-                "n": "1",
-                "descr": "thing fixed again"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refix.01",
+    "roleset_name": "prepare, fix again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, fixer",
+        "descr_trans": "代理人，固定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing fixed again",
+        "descr_trans": "事情又修好了"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "准备，再次修复"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "neurotomy.01",
-        "roleset_name": "procedure in which a nerve is cut",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "nerve cut"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (undergoer of procedure)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "neurotomy.01",
+    "roleset_name": "procedure in which a nerve is cut",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer of procedure",
+        "descr_trans": "程序执行者"
+      },
+      {
+        "n": "1",
+        "descr": "nerve cut",
+        "descr_trans": "神经切断"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (undergoer of procedure)",
+        "descr_trans": "受益人（程序的执行者）"
+      }
+    ],
+    "roleset_name_trans": "切断神经的过程"
+  }
 ]

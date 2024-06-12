@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leaf.01",
-        "roleset_name": "flip through pages",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person flipping through the pages"
-            },
-            {
-                "n": "1",
-                "descr": "location, the pages"
-            },
-            {
-                "n": "2",
-                "descr": "thing being searched for in the pages"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "leaf.02",
-        "roleset_name": "grow leaves",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing producing leaves"
-            },
-            {
-                "n": "1",
-                "descr": "final state of the thing once it has leaves, 'into __'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leaf.01",
+    "roleset_name": "flip through pages",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person flipping through the pages",
+        "descr_trans": "代理人，翻阅页面的人"
+      },
+      {
+        "n": "1",
+        "descr": "location, the pages",
+        "descr_trans": "位置、页面"
+      },
+      {
+        "n": "2",
+        "descr": "thing being searched for in the pages",
+        "descr_trans": "在页面中搜索的内容"
+      }
+    ],
+    "roleset_name_trans": "翻阅页面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "leaf.02",
+    "roleset_name": "grow leaves",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing producing leaves",
+        "descr_trans": "产生叶子的东西"
+      },
+      {
+        "n": "1",
+        "descr": "final state of the thing once it has leaves, 'into __'",
+        "descr_trans": "一旦事物有了叶子，它的最终状态就是“进入__”"
+      }
+    ],
+    "roleset_name_trans": "长出叶子"
+  }
 ]

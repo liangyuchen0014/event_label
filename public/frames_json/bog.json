@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bog_down.01",
-        "roleset_name": "to get stuck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity bogged down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bog_down.01",
+    "roleset_name": "to get stuck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity bogged down",
+        "descr_trans": "实体陷入困境"
+      }
+    ],
+    "roleset_name_trans": "卡住"
+  }
 ]

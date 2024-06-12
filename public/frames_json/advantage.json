@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "advantage.01",
-        "roleset_name": "providing a superior outcome or favorable position",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that provides advantage"
-            },
-            {
-                "n": "2",
-                "descr": "advantageous for/to whom/what?"
-            },
-            {
-                "n": "3",
-                "descr": "domain or task where the advantage is applied"
-            },
-            {
-                "n": "4",
-                "descr": "comparatively disadvantaged party"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "take_advantage.02",
-        "roleset_name": "use, overuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user"
-            },
-            {
-                "n": "1",
-                "descr": "thing used"
-            },
-            {
-                "n": "2",
-                "descr": "purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "advantage.01",
+    "roleset_name": "providing a superior outcome or favorable position",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that provides advantage",
+        "descr_trans": "提供优势的东西"
+      },
+      {
+        "n": "2",
+        "descr": "advantageous for/to whom/what?",
+        "descr_trans": "对/对谁/什么有利？"
+      },
+      {
+        "n": "3",
+        "descr": "domain or task where the advantage is applied",
+        "descr_trans": "应用优势的领域或任务"
+      },
+      {
+        "n": "4",
+        "descr": "comparatively disadvantaged party",
+        "descr_trans": "相对弱势一方"
+      }
+    ],
+    "roleset_name_trans": "提供优越的结果或有利的地位"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "take_advantage.02",
+    "roleset_name": "use, overuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "thing used",
+        "descr_trans": "使用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "purpose",
+        "descr_trans": "目的"
+      }
+    ],
+    "roleset_name_trans": "使用，过度使用"
+  }
 ]

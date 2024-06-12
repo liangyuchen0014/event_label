@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coumadinize.01",
-        "roleset_name": "administer coumadin to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Prescribing/administering agent"
-            },
-            {
-                "n": "1",
-                "descr": "Patient receiving Coumadin treatment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coumadinize.01",
+    "roleset_name": "administer coumadin to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Prescribing/administering agent",
+        "descr_trans": "处方/给药剂"
+      },
+      {
+        "n": "1",
+        "descr": "Patient receiving Coumadin treatment",
+        "descr_trans": "接受香豆素治疗的患者"
+      }
+    ],
+    "roleset_name_trans": "给予香豆素"
+  }
 ]

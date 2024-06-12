@@ -1,58 +1,69 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "terrible.01",
-        "roleset_name": "generally awful; morally bad, fearsome, displeasing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "terrible entity"
-            },
-            {
-                "n": "2",
-                "descr": "target of terrible behavior"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "terrible.02",
-        "roleset_name": "extremely unskilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "terrible.03",
-        "roleset_name": "extremely unbeneficial, unhealthy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unbeneficial thing"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "terrible.04",
-        "roleset_name": "extensive, intense",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "extensive thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "terrible.01",
+    "roleset_name": "generally awful; morally bad, fearsome, displeasing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "terrible entity",
+        "descr_trans": "可怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "target of terrible behavior",
+        "descr_trans": "可怕行为的目标"
+      }
+    ],
+    "roleset_name_trans": "一般都很糟糕；道德败坏、令人恐惧、令人不快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "terrible.02",
+    "roleset_name": "extremely unskilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "极其不熟练"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "terrible.03",
+    "roleset_name": "extremely unbeneficial, unhealthy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unbeneficial thing",
+        "descr_trans": "无益的事"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "极其无益的，不健康的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "terrible.04",
+    "roleset_name": "extensive, intense",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "extensive thing",
+        "descr_trans": "广泛的东西"
+      }
+    ],
+    "roleset_name_trans": "广泛的、强烈的"
+  }
 ]

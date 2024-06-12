@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stone.01",
-        "roleset_name": "remove seeds from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing seeds"
-            },
-            {
-                "n": "1",
-                "descr": "thing formerly having seeds"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stone.02",
-        "roleset_name": "throw stones at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thrower"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stone.03",
-        "roleset_name": "use drugs",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "user"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stone.01",
+    "roleset_name": "remove seeds from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing seeds",
+        "descr_trans": "实体移除种子"
+      },
+      {
+        "n": "1",
+        "descr": "thing formerly having seeds",
+        "descr_trans": "以前有种子的东西"
+      }
+    ],
+    "roleset_name_trans": "从中去除种子"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stone.02",
+    "roleset_name": "throw stones at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thrower",
+        "descr_trans": "投掷者"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "向"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stone.03",
+    "roleset_name": "use drugs",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "user",
+        "descr_trans": "用户"
+      }
+    ],
+    "roleset_name_trans": "使用药物"
+  }
 ]

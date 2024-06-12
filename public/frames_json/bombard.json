@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bombard.01",
-        "roleset_name": "to attack or assail persistently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity (e.g. region) bombarded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bombard.01",
+    "roleset_name": "to attack or assail persistently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker, agent",
+        "descr_trans": "攻击者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity (e.g. region) bombarded",
+        "descr_trans": "实体（例如地区）被轰炸"
+      }
+    ],
+    "roleset_name_trans": "持续攻击或攻击"
+  }
 ]

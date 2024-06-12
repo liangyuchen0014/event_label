@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wing.01",
-        "roleset_name": "fly through the air, travel via air",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing actually doing the flying"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wing.02",
-        "roleset_name": "make it up as you go",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "innovator"
-            },
-            {
-                "n": "1",
-                "descr": "'it'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wing.01",
+    "roleset_name": "fly through the air, travel via air",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing actually doing the flying",
+        "descr_trans": "实际上在飞行的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "在空中飞行，通过空中旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wing.02",
+    "roleset_name": "make it up as you go",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "innovator",
+        "descr_trans": "创新者"
+      },
+      {
+        "n": "1",
+        "descr": "'it'",
+        "descr_trans": "&#39;它&#39;"
+      }
+    ],
+    "roleset_name_trans": "边走边补"
+  }
 ]

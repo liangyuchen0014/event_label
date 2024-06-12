@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overweight.01",
-        "roleset_name": "weigh down too heavily, overload",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, entity loading/weighing down something"
-            },
-            {
-                "n": "1",
-                "descr": "destination, thing being loaded/overweighted"
-            },
-            {
-                "n": "2",
-                "descr": "entity weighing arg1 down, cargo"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "overweight.02",
-        "roleset_name": "weighing more than what is healthy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "overweight entity"
-            },
-            {
-                "n": "2",
-                "descr": "amount over weight"
-            },
-            {
-                "n": "3",
-                "descr": "weight measurement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overweight.01",
+    "roleset_name": "weigh down too heavily, overload",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, entity loading/weighing down something",
+        "descr_trans": "装载机，装载/称重某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "destination, thing being loaded/overweighted",
+        "descr_trans": "目的地、正在装载/超重的物品"
+      },
+      {
+        "n": "2",
+        "descr": "entity weighing arg1 down, cargo",
+        "descr_trans": "实体称重 arg1，货物"
+      }
+    ],
+    "roleset_name_trans": "体重过重，超负荷"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "overweight.02",
+    "roleset_name": "weighing more than what is healthy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "overweight entity",
+        "descr_trans": "超重实体"
+      },
+      {
+        "n": "2",
+        "descr": "amount over weight",
+        "descr_trans": "数量超过重量"
+      },
+      {
+        "n": "3",
+        "descr": "weight measurement",
+        "descr_trans": "体重测量"
+      }
+    ],
+    "roleset_name_trans": "体重超过健康体重"
+  }
 ]

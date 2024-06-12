@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bother.01",
-        "roleset_name": "cause stress in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bothering"
-            },
-            {
-                "n": "1",
-                "descr": "bothered"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of bothering (if in addition to arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bother.02",
-        "roleset_name": "semi-modal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "botherer"
-            },
-            {
-                "n": "1",
-                "descr": "real action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bother.01",
+    "roleset_name": "cause stress in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bothering",
+        "descr_trans": "造成困扰的人"
+      },
+      {
+        "n": "1",
+        "descr": "bothered",
+        "descr_trans": "烦恼"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of bothering (if in addition to arg0)",
+        "descr_trans": "干扰工具（如果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "造成压力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bother.02",
+    "roleset_name": "semi-modal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "botherer",
+        "descr_trans": "打扰者"
+      },
+      {
+        "n": "1",
+        "descr": "real action",
+        "descr_trans": "实际行动"
+      }
+    ],
+    "roleset_name_trans": "半模态"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "capsize.01",
-        "roleset_name": "(ship or boat) to tip over or roll over   upside down, usually in water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of capsizing"
-            },
-            {
-                "n": "1",
-                "descr": "thing capsizing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "capsize.01",
+    "roleset_name": "(ship or boat) to tip over or roll over   upside down, usually in water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of capsizing",
+        "descr_trans": "造成倾覆的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing capsizing",
+        "descr_trans": "东西倾覆"
+      }
+    ],
+    "roleset_name_trans": "（船或船）翻倒或翻滚，通常在水中"
+  }
 ]

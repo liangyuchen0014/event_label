@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clack.01",
-        "roleset_name": "make a rattling sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing actually clacking"
-            },
-            {
-                "n": "2",
-                "descr": "location of clacking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clack.02",
-        "roleset_name": "make a clacking sound (like a hen)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clacking-maker"
-            },
-            {
-                "n": "1",
-                "descr": "the clack sound"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "clack.03",
-        "roleset_name": "prattle on rapidly and incessantly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "his/her tongue"
-            },
-            {
-                "n": "2",
-                "descr": "topic/ utterance"
-            },
-            {
-                "n": "3",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clack.01",
+    "roleset_name": "make a rattling sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing actually clacking",
+        "descr_trans": "东西实际上在嘎嘎作响"
+      },
+      {
+        "n": "2",
+        "descr": "location of clacking",
+        "descr_trans": "发出咔哒声的位置"
+      }
+    ],
+    "roleset_name_trans": "发出嘎嘎声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clack.02",
+    "roleset_name": "make a clacking sound (like a hen)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clacking-maker",
+        "descr_trans": "咔哒声制造者"
+      },
+      {
+        "n": "1",
+        "descr": "the clack sound",
+        "descr_trans": "咔哒声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "发出咯咯的声音（像母鸡一样）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "clack.03",
+    "roleset_name": "prattle on rapidly and incessantly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "his/her tongue",
+        "descr_trans": "他/她的舌头"
+      },
+      {
+        "n": "2",
+        "descr": "topic/ utterance",
+        "descr_trans": "主题/话语"
+      },
+      {
+        "n": "3",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "喋喋不休"
+  }
 ]

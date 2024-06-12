@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whoop.01",
-        "roleset_name": "mode of speaking, making a 'whoop' sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whooping.02",
-        "roleset_name": "beating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whoop.01",
+    "roleset_name": "mode of speaking, making a 'whoop' sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说话方式，发出“呼呼”的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whooping.02",
+    "roleset_name": "beating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit",
+        "descr_trans": "实体命中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "殴打"
+  }
 ]

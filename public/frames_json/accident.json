@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "accident.01",
-        "roleset_name": "screw-up, unplanned event that may or may not cause damage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of accident, entity who screws up"
-            },
-            {
-                "n": "1",
-                "descr": "type of accident"
-            },
-            {
-                "n": "2",
-                "descr": "accidental action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "accident.01",
+    "roleset_name": "screw-up, unplanned event that may or may not cause damage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of accident, entity who screws up",
+        "descr_trans": "事故的肇因者，搞砸的实体"
+      },
+      {
+        "n": "1",
+        "descr": "type of accident",
+        "descr_trans": "事故类型"
+      },
+      {
+        "n": "2",
+        "descr": "accidental action",
+        "descr_trans": "意外动作"
+      }
+    ],
+    "roleset_name_trans": "搞砸了，可能会或可能不会造成损害的意外事件"
+  }
 ]

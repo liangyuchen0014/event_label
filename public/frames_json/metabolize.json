@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "metabolize.01",
-        "roleset_name": "cause a change in something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "source, original substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "metabolize.01",
+    "roleset_name": "cause a change in something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change",
+        "descr_trans": "变化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "source, original substance",
+        "descr_trans": "来源，原始物质"
+      }
+    ],
+    "roleset_name_trans": "引起某事的改变"
+  }
 ]

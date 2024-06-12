@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cease.01",
-        "roleset_name": "stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of ceasing, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being stopped)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cease.01",
+    "roleset_name": "stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of ceasing, Agent",
+        "descr_trans": "终止的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being stopped)",
+        "descr_trans": "主题（停止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "停止"
+  }
 ]

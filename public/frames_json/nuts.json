@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nuts.01",
-        "roleset_name": "crazy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "crazy entity (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nuts.02",
-        "roleset_name": "really, really like",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker"
-            },
-            {
-                "n": "1",
-                "descr": "liked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nuts.01",
+    "roleset_name": "crazy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "crazy entity (may require concatenation)",
+        "descr_trans": "疯狂的实体（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "疯狂的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nuts.02",
+    "roleset_name": "really, really like",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker",
+        "descr_trans": "喜欢"
+      },
+      {
+        "n": "1",
+        "descr": "liked",
+        "descr_trans": "喜欢"
+      }
+    ],
+    "roleset_name_trans": "真的真的很喜欢"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quote.01",
-        "roleset_name": "quote",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quoter (somewhat rare)"
-            },
-            {
-                "n": "1",
-                "descr": "the quote itself"
-            },
-            {
-                "n": "2",
-                "descr": "original speaker"
-            },
-            {
-                "n": "3",
-                "descr": "what the quote is about"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quote.01",
+    "roleset_name": "quote",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quoter (somewhat rare)",
+        "descr_trans": "引用者（有点罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "the quote itself",
+        "descr_trans": "报价本身"
+      },
+      {
+        "n": "2",
+        "descr": "original speaker",
+        "descr_trans": "原音箱"
+      },
+      {
+        "n": "3",
+        "descr": "what the quote is about",
+        "descr_trans": "这句话是关于什么的"
+      }
+    ],
+    "roleset_name_trans": "引用"
+  }
 ]

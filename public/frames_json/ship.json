@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ship.01",
-        "roleset_name": "send a package",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "package"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ship_out.02",
-        "roleset_name": "depart, as a soldier",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "soldier"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ship.01",
+    "roleset_name": "send a package",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "package",
+        "descr_trans": "包裹"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "发送包裹"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ship_out.02",
+    "roleset_name": "depart, as a soldier",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "soldier",
+        "descr_trans": "士兵"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "作为一名士兵离开"
+  }
 ]

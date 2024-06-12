@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brush.01",
-        "roleset_name": "to rub, clean, or remove with or as if with a brush, rubbing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with brush, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity brushed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "brush_off.02",
-        "roleset_name": "brush off: to dismiss, push away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dismisser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity dismissed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "brush_up.03",
-        "roleset_name": "brush up: to review, refresh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "review, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity brushed up"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "brush_up.05",
-        "roleset_name": "brush up: touch lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "toucher"
-            },
-            {
-                "n": "1",
-                "descr": "thing brushed up against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brush.01",
+    "roleset_name": "to rub, clean, or remove with or as if with a brush, rubbing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with brush, agent",
+        "descr_trans": "带刷子的实体，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity brushed",
+        "descr_trans": "实体拉丝"
+      }
+    ],
+    "roleset_name_trans": "用或好像用刷子摩擦、清洁或去除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "brush_off.02",
+    "roleset_name": "brush off: to dismiss, push away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dismisser, agent",
+        "descr_trans": "解雇者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dismissed",
+        "descr_trans": "实体被解雇"
+      }
+    ],
+    "roleset_name_trans": "Brush off: 驳回、推开"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "brush_up.03",
+    "roleset_name": "brush up: to review, refresh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "review, agent",
+        "descr_trans": "审查、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity brushed up",
+        "descr_trans": "实体刷了"
+      }
+    ],
+    "roleset_name_trans": "Brush up：复习、刷新"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "brush_up.05",
+    "roleset_name": "brush up: touch lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "toucher",
+        "descr_trans": "触摸"
+      },
+      {
+        "n": "1",
+        "descr": "thing brushed up against",
+        "descr_trans": "碰到的东西"
+      }
+    ],
+    "roleset_name_trans": "刷起：轻轻触碰"
+  }
 ]

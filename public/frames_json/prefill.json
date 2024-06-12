@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prefill.01",
-        "roleset_name": "to fill ahead of time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, Causer of filling"
-            },
-            {
-                "n": "1",
-                "descr": "Container"
-            },
-            {
-                "n": "2",
-                "descr": "Substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prefill.01",
+    "roleset_name": "to fill ahead of time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, Causer of filling",
+        "descr_trans": "填充剂、充填原因"
+      },
+      {
+        "n": "1",
+        "descr": "Container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "Substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "提前填写"
+  }
 ]

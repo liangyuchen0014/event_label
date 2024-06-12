@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vote.01",
-        "roleset_name": "cast a ballot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voter"
-            },
-            {
-                "n": "1",
-                "descr": "candidate or ballot issue"
-            },
-            {
-                "n": "2",
-                "descr": "numerical count of vote, margin, down/up"
-            },
-            {
-                "n": "3",
-                "descr": "electorate for whom arg0 is a proxy voter"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "vote.02",
-        "roleset_name": "give via legislative process",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "vote_down.03",
-        "roleset_name": "vote against",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voter"
-            },
-            {
-                "n": "1",
-                "descr": "defeated issue"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vote.01",
+    "roleset_name": "cast a ballot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voter",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "candidate or ballot issue",
+        "descr_trans": "候选人或选票问题"
+      },
+      {
+        "n": "2",
+        "descr": "numerical count of vote, margin, down/up",
+        "descr_trans": "投票数、差额、向下/向上"
+      },
+      {
+        "n": "3",
+        "descr": "electorate for whom arg0 is a proxy voter",
+        "descr_trans": "arg0 是其代理选民的选民"
+      }
+    ],
+    "roleset_name_trans": "投票"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "vote.02",
+    "roleset_name": "give via legislative process",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "通过立法程序给予"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "vote_down.03",
+    "roleset_name": "vote against",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voter",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "defeated issue",
+        "descr_trans": "失败的问题"
+      }
+    ],
+    "roleset_name_trans": "投反对票"
+  }
 ]

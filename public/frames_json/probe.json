@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "probe.01",
-        "roleset_name": "examine internally, closely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prober"
-            },
-            {
-                "n": "1",
-                "descr": "thing probed"
-            },
-            {
-                "n": "2",
-                "descr": "in search of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "probe.01",
+    "roleset_name": "examine internally, closely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prober",
+        "descr_trans": "尝试"
+      },
+      {
+        "n": "1",
+        "descr": "thing probed",
+        "descr_trans": "被探测的事物"
+      },
+      {
+        "n": "2",
+        "descr": "in search of",
+        "descr_trans": "寻找"
+      }
+    ],
+    "roleset_name_trans": "内部检查，仔细检查"
+  }
 ]

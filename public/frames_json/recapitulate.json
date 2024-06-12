@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recapitulate.01",
-        "roleset_name": "repeat briefly, as summary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person summarizing"
-            },
-            {
-                "n": "1",
-                "descr": "summary, utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recapitulate.01",
+    "roleset_name": "repeat briefly, as summary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person summarizing",
+        "descr_trans": "总结的人"
+      },
+      {
+        "n": "1",
+        "descr": "summary, utterance",
+        "descr_trans": "总结、发言"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "简要重复一下，作为总结"
+  }
 ]

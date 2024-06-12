@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defend.01",
-        "roleset_name": "defend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "defender"
-            },
-            {
-                "n": "1",
-                "descr": "defended"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "entity defended against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defend.01",
+    "roleset_name": "defend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "defender",
+        "descr_trans": "后卫"
+      },
+      {
+        "n": "1",
+        "descr": "defended",
+        "descr_trans": "辩护"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "entity defended against",
+        "descr_trans": "防御实体"
+      }
+    ],
+    "roleset_name_trans": "保卫"
+  }
 ]

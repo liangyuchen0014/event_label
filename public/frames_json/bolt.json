@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bolt.01",
-        "roleset_name": "run away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bolt.02",
-        "roleset_name": "attach with a bolt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent causing attachment"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being clamped"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, clamped to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bolt.01",
+    "roleset_name": "run away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      }
+    ],
+    "roleset_name_trans": "逃跑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bolt.02",
+    "roleset_name": "attach with a bolt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent causing attachment",
+        "descr_trans": "Attacher，引起附着的代理"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being clamped",
+        "descr_trans": "首先被夹住的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, clamped to what",
+        "descr_trans": "第二件事，夹在什么上"
+      }
+    ],
+    "roleset_name_trans": "用螺栓固定"
+  }
 ]

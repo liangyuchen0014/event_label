@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "emergency.01",
-        "roleset_name": "dire, extremely urgent situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity affected"
-            },
-            {
-                "n": "1",
-                "descr": "dire situation"
-            },
-            {
-                "n": "2",
-                "descr": "action necessitated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "emergency.01",
+    "roleset_name": "dire, extremely urgent situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity affected",
+        "descr_trans": "受影响的实体"
+      },
+      {
+        "n": "1",
+        "descr": "dire situation",
+        "descr_trans": "说出情况"
+      },
+      {
+        "n": "2",
+        "descr": "action necessitated",
+        "descr_trans": "需要采取行动"
+      }
+    ],
+    "roleset_name_trans": "形势严峻、极其紧急"
+  }
 ]

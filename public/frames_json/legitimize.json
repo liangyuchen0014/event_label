@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "legitimize.01",
-        "roleset_name": "to make legal or valid, valid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of legitimacy"
-            },
-            {
-                "n": "1",
-                "descr": "entity legitimized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "legitimate.02",
-        "roleset_name": "legal or valid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of legitimacy"
-            },
-            {
-                "n": "1",
-                "descr": "entity legitimized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "legitimize.01",
+    "roleset_name": "to make legal or valid, valid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of legitimacy",
+        "descr_trans": "合法性原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity legitimized",
+        "descr_trans": "实体合法化"
+      }
+    ],
+    "roleset_name_trans": "使合法或有效，有效"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "legitimate.02",
+    "roleset_name": "legal or valid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of legitimacy",
+        "descr_trans": "合法性原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity legitimized",
+        "descr_trans": "实体合法化"
+      }
+    ],
+    "roleset_name_trans": "合法或有效"
+  }
 ]

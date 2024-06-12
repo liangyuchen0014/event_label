@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transact.01",
-        "roleset_name": "perform a transaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity performing the transaction"
-            },
-            {
-                "n": "1",
-                "descr": "thing transacted or theme"
-            },
-            {
-                "n": "2",
-                "descr": "co-transactor"
-            },
-            {
-                "n": "3",
-                "descr": "value of transaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transact.01",
+    "roleset_name": "perform a transaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity performing the transaction",
+        "descr_trans": "执行交易的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing transacted or theme",
+        "descr_trans": "交易的事物或主题"
+      },
+      {
+        "n": "2",
+        "descr": "co-transactor",
+        "descr_trans": "共同交易者"
+      },
+      {
+        "n": "3",
+        "descr": "value of transaction",
+        "descr_trans": "交易价值"
+      }
+    ],
+    "roleset_name_trans": "执行交易"
+  }
 ]

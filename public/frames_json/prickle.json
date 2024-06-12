@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prickle.01",
-        "roleset_name": "cause a tingling sensation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of tingling sensation"
-            },
-            {
-                "n": "1",
-                "descr": "Thing tingling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prickle.02",
-        "roleset_name": "make a small hole in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Needle or maker of hole"
-            },
-            {
-                "n": "1",
-                "descr": "thing pricked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prickle.01",
+    "roleset_name": "cause a tingling sensation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of tingling sensation",
+        "descr_trans": "刺痛感的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing tingling",
+        "descr_trans": "东西刺痛"
+      }
+    ],
+    "roleset_name_trans": "引起刺痛感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prickle.02",
+    "roleset_name": "make a small hole in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Needle or maker of hole",
+        "descr_trans": "针或打孔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pricked",
+        "descr_trans": "东西刺痛"
+      }
+    ],
+    "roleset_name_trans": "打一个小洞"
+  }
 ]

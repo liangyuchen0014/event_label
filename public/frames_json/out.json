@@ -1,126 +1,151 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "out.01",
-        "roleset_name": "expose, reveal something (often negative) about someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outter, exposer, revealer"
-            },
-            {
-                "n": "1",
-                "descr": "person, thing being outted"
-            },
-            {
-                "n": "2",
-                "descr": "entity outted to"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg 1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "out.02",
-        "roleset_name": "extinguished (fire, lights, power, etc)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing formerly receiving power, fuel"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "out.03",
-        "roleset_name": "eliminated from play",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "former player"
-            },
-            {
-                "n": "2",
-                "descr": "game, play, competition"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "out.04",
-        "roleset_name": "asleep, unconscious",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sleeping beauty"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "out.05",
-        "roleset_name": "having exhausted a resource/commodity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who doesn't have any left"
-            },
-            {
-                "n": "2",
-                "descr": "what there isn't any left of"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "out.06",
-        "roleset_name": "not contained within outer boundaries",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity outside"
-            },
-            {
-                "n": "2",
-                "descr": "outside of what"
-            },
-            {
-                "n": "3",
-                "descr": "axis"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "outing.07",
-        "roleset_name": "pleasure trip, junket",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveler"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "outside.09",
-        "roleset_name": "outer part of a larger whole",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that is the outer portion"
-            },
-            {
-                "n": "2",
-                "descr": "of what larger whole"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "out.01",
+    "roleset_name": "expose, reveal something (often negative) about someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outter, exposer, revealer",
+        "descr_trans": "外在的, 暴露的, 揭示者"
+      },
+      {
+        "n": "1",
+        "descr": "person, thing being outted",
+        "descr_trans": "被淘汰的人、事"
+      },
+      {
+        "n": "2",
+        "descr": "entity outted to",
+        "descr_trans": "实体出局到"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg 1",
+        "descr_trans": "arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "揭露，揭露某人的某些事情（通常是负面的）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "out.02",
+    "roleset_name": "extinguished (fire, lights, power, etc)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing formerly receiving power, fuel",
+        "descr_trans": "以前接收电力、燃料的东西"
+      }
+    ],
+    "roleset_name_trans": "熄灭（火、灯、电源等）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "out.03",
+    "roleset_name": "eliminated from play",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "former player",
+        "descr_trans": "前球员"
+      },
+      {
+        "n": "2",
+        "descr": "game, play, competition",
+        "descr_trans": "游戏、玩耍、竞争"
+      }
+    ],
+    "roleset_name_trans": "被淘汰出局"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "out.04",
+    "roleset_name": "asleep, unconscious",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sleeping beauty",
+        "descr_trans": "睡美人"
+      }
+    ],
+    "roleset_name_trans": "睡着了，无意识的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "out.05",
+    "roleset_name": "having exhausted a resource/commodity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who doesn't have any left",
+        "descr_trans": "没有剩余的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what there isn't any left of",
+        "descr_trans": "什么都没有了"
+      }
+    ],
+    "roleset_name_trans": "耗尽资源/商品"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "out.06",
+    "roleset_name": "not contained within outer boundaries",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity outside",
+        "descr_trans": "外部实体"
+      },
+      {
+        "n": "2",
+        "descr": "outside of what",
+        "descr_trans": "在什么之外"
+      },
+      {
+        "n": "3",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "不包含在外部边界内"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "outing.07",
+    "roleset_name": "pleasure trip, junket",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveler",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "愉快的旅行，旅游中介"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "outside.09",
+    "roleset_name": "outer part of a larger whole",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that is the outer portion",
+        "descr_trans": "外部实体"
+      },
+      {
+        "n": "2",
+        "descr": "of what larger whole",
+        "descr_trans": "哪个更大的整体"
+      }
+    ],
+    "roleset_name_trans": "更大整体的外部部分"
+  }
 ]

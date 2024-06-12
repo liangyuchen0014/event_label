@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hamper.01",
-        "roleset_name": "obstruct, hinder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obstruction"
-            },
-            {
-                "n": "1",
-                "descr": "effort"
-            },
-            {
-                "n": "2",
-                "descr": "secondary agent, agent of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hamper.01",
+    "roleset_name": "obstruct, hinder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obstruction",
+        "descr_trans": "梗阻"
+      },
+      {
+        "n": "1",
+        "descr": "effort",
+        "descr_trans": "努力"
+      },
+      {
+        "n": "2",
+        "descr": "secondary agent, agent of arg1",
+        "descr_trans": "辅助代理，arg1 的代理"
+      }
+    ],
+    "roleset_name_trans": "阻碍，阻碍"
+  }
 ]

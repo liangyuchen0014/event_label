@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "offset.01",
-        "roleset_name": "balance out, lessen the impact of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing whose impact we want to lessen"
-            },
-            {
-                "n": "2",
-                "descr": "balanced by"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "offset.02",
-        "roleset_name": "position off to the side",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity positioned"
-            },
-            {
-                "n": "2",
-                "descr": "distance"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            },
-            {
-                "n": "4",
-                "descr": "offset from, in relation to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "offset.01",
+    "roleset_name": "balance out, lessen the impact of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent",
+        "descr_trans": "有意代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing whose impact we want to lessen",
+        "descr_trans": "我们想要减少其影响的事物"
+      },
+      {
+        "n": "2",
+        "descr": "balanced by",
+        "descr_trans": "平衡于"
+      }
+    ],
+    "roleset_name_trans": "平衡，减少影响"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "offset.02",
+    "roleset_name": "position off to the side",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity positioned",
+        "descr_trans": "实体定位"
+      },
+      {
+        "n": "2",
+        "descr": "distance",
+        "descr_trans": "距离"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "4",
+        "descr": "offset from, in relation to",
+        "descr_trans": "偏移量，相对于"
+      }
+    ],
+    "roleset_name_trans": "位置偏向一侧"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tram.01",
-        "roleset_name": "tram",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver"
-            },
-            {
-                "n": "1",
-                "descr": "tram riders"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            },
-            {
-                "n": "4",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tram.01",
+    "roleset_name": "tram",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver",
+        "descr_trans": "代理人、司机"
+      },
+      {
+        "n": "1",
+        "descr": "tram riders",
+        "descr_trans": "电车乘客"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "4",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "电车"
+  }
 ]

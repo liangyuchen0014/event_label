@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resile.01",
-        "roleset_name": "recant or renege on a belief or agreement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recanter"
-            },
-            {
-                "n": "1",
-                "descr": "reneged on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "resile.02",
-        "roleset_name": "spring back to original shape",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing bouncing back"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resile.01",
+    "roleset_name": "recant or renege on a belief or agreement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recanter",
+        "descr_trans": "后退者"
+      },
+      {
+        "n": "1",
+        "descr": "reneged on",
+        "descr_trans": "食言了"
+      }
+    ],
+    "roleset_name_trans": "放弃或背弃信念或协议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "resile.02",
+    "roleset_name": "spring back to original shape",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing bouncing back",
+        "descr_trans": "东西反弹回来"
+      }
+    ],
+    "roleset_name_trans": "弹回到原来的形状"
+  }
 ]

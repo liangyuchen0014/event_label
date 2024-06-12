@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perplex.01",
-        "roleset_name": "confuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, entity perplexed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perplex.01",
+    "roleset_name": "confuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, entity perplexed",
+        "descr_trans": "经历者，困惑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "迷惑"
+  }
 ]

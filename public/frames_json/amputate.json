@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "amputate.01",
-        "roleset_name": "amputate, removal of a part of an entity/body",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "amputator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "part of body amputated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "amputate.01",
+    "roleset_name": "amputate, removal of a part of an entity/body",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "amputator, agent",
+        "descr_trans": "截肢者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "part of body amputated",
+        "descr_trans": "身体的一部分被截肢"
+      }
+    ],
+    "roleset_name_trans": "截肢，去除实体/身体的一部分"
+  }
 ]

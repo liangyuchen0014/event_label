@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suspect.01",
-        "roleset_name": "potential belief, expectation, often of something negative",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suspecter"
-            },
-            {
-                "n": "1",
-                "descr": "suspicion: what arg0 thinks"
-            },
-            {
-                "n": "2",
-                "descr": "attributive: entity arg1 suspects something of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suspicious.02",
-        "roleset_name": "being prone to distrust, paranoia",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suspecter"
-            },
-            {
-                "n": "1",
-                "descr": "entity viewed suspiciously"
-            },
-            {
-                "n": "2",
-                "descr": "act by which arg0 expresses suspicion, e.g. a glance"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "suspicious.03",
-        "roleset_name": "questionable; exhibiting shady, sketchy characteristics",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing or event acting in ways that evoke suspicion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suspect.01",
+    "roleset_name": "potential belief, expectation, often of something negative",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suspecter",
+        "descr_trans": "怀疑"
+      },
+      {
+        "n": "1",
+        "descr": "suspicion: what arg0 thinks",
+        "descr_trans": "怀疑：arg0 的想法"
+      },
+      {
+        "n": "2",
+        "descr": "attributive: entity arg1 suspects something of",
+        "descr_trans": "定语：实体 arg1 怀疑某事"
+      }
+    ],
+    "roleset_name_trans": "潜在的信念、期望，通常是消极的事物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suspicious.02",
+    "roleset_name": "being prone to distrust, paranoia",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suspecter",
+        "descr_trans": "怀疑"
+      },
+      {
+        "n": "1",
+        "descr": "entity viewed suspiciously",
+        "descr_trans": "实体被可疑地看待"
+      },
+      {
+        "n": "2",
+        "descr": "act by which arg0 expresses suspicion, e.g. a glance",
+        "descr_trans": "arg0 表示怀疑的行为，例如一瞥"
+      }
+    ],
+    "roleset_name_trans": "容易不信任、偏执"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "suspicious.03",
+    "roleset_name": "questionable; exhibiting shady, sketchy characteristics",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing or event acting in ways that evoke suspicion",
+        "descr_trans": "以引起怀疑的方式行事的事物或事件"
+      }
+    ],
+    "roleset_name_trans": "可疑的;表现出阴暗、粗略的特征"
+  }
 ]

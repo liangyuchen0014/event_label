@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vulcanize.01",
-        "roleset_name": "vulcanize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, vulcanizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being vulcanized, patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vulcanize.01",
+    "roleset_name": "vulcanize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, vulcanizer",
+        "descr_trans": "剂、硫化剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing being vulcanized, patient",
+        "descr_trans": "正在硫化的东西，耐心"
+      }
+    ],
+    "roleset_name_trans": "硫化"
+  }
 ]

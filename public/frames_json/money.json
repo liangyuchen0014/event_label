@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "money.01",
-        "roleset_name": "provide money for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "project/person/cause given money"
-            },
-            {
-                "n": "2",
-                "descr": "funds themselves?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "money.01",
+    "roleset_name": "provide money for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "project/person/cause given money",
+        "descr_trans": "给予金钱的项目/人/事业"
+      },
+      {
+        "n": "2",
+        "descr": "funds themselves?",
+        "descr_trans": "自己出资？"
+      }
+    ],
+    "roleset_name_trans": "提供资金"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hay.01",
-        "roleset_name": "to convert plant material (grass, clover,   etc) into hay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity gathered; hay"
-            },
-            {
-                "n": "2",
-                "descr": "gathered into"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hay.01",
+    "roleset_name": "to convert plant material (grass, clover,   etc) into hay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or causer",
+        "descr_trans": "代理人或起因"
+      },
+      {
+        "n": "1",
+        "descr": "entity gathered; hay",
+        "descr_trans": "实体聚集；干草"
+      },
+      {
+        "n": "2",
+        "descr": "gathered into",
+        "descr_trans": "聚集成"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "将植物材料（草、三叶草等）转化为干草"
+  }
 ]

@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "win.01",
-        "roleset_name": "win, win a prize/contest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "prize"
-            },
-            {
-                "n": "2",
-                "descr": "contest"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "4",
-                "descr": "loser, giver of prize"
-            },
-            {
-                "n": "5",
-                "descr": "in exchange for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "win_over.02",
-        "roleset_name": "cause change of opinion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of changing opinion"
-            },
-            {
-                "n": "1",
-                "descr": "entity with opinion"
-            },
-            {
-                "n": "2",
-                "descr": "new opinion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "win.01",
+    "roleset_name": "win, win a prize/contest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "prize",
+        "descr_trans": "奖"
+      },
+      {
+        "n": "2",
+        "descr": "contest",
+        "descr_trans": "比赛"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "4",
+        "descr": "loser, giver of prize",
+        "descr_trans": "失败者，奖品授予者"
+      },
+      {
+        "n": "5",
+        "descr": "in exchange for",
+        "descr_trans": "换来的"
+      }
+    ],
+    "roleset_name_trans": "获胜，赢得奖品/比赛"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "win_over.02",
+    "roleset_name": "cause change of opinion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of changing opinion",
+        "descr_trans": "意见改变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity with opinion",
+        "descr_trans": "有意见的实体"
+      },
+      {
+        "n": "2",
+        "descr": "new opinion",
+        "descr_trans": "新意见"
+      }
+    ],
+    "roleset_name_trans": "导致意见改变"
+  }
 ]

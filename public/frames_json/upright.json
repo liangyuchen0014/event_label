@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upright.01",
-        "roleset_name": "standing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity standing up"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "upright.02",
-        "roleset_name": "morally good",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "upstanding entity"
-            },
-            {
-                "n": "2",
-                "descr": "specific domain/aspect of arg1 that is upstanding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upright.01",
+    "roleset_name": "standing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity standing up",
+        "descr_trans": "实体站起来"
+      }
+    ],
+    "roleset_name_trans": "常设"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "upright.02",
+    "roleset_name": "morally good",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "upstanding entity",
+        "descr_trans": "正直的实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific domain/aspect of arg1 that is upstanding",
+        "descr_trans": "arg1 的特定域/方面是正常的"
+      }
+    ],
+    "roleset_name_trans": "道德上良好"
+  }
 ]

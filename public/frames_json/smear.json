@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smear.01",
-        "roleset_name": "apply pasty entity to surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "paste, thing applied"
-            },
-            {
-                "n": "2",
-                "descr": "surface, arg1 is smeared on what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smear.02",
-        "roleset_name": "besmirch, cause damage to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Insulter, agent causing damage"
-            },
-            {
-                "n": "1",
-                "descr": "Person, entity insulted, damaged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smear.01",
+    "roleset_name": "apply pasty entity to surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "paste, thing applied",
+        "descr_trans": "粘贴，应用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "surface, arg1 is smeared on what?",
+        "descr_trans": "表面上，arg1 涂在什么上？"
+      }
+    ],
+    "roleset_name_trans": "将糊状实体应用到表面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smear.02",
+    "roleset_name": "besmirch, cause damage to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Insulter, agent causing damage",
+        "descr_trans": "侮辱者、造成损害的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Person, entity insulted, damaged",
+        "descr_trans": "人、实体受到侮辱、损害"
+      }
+    ],
+    "roleset_name_trans": "污渍, 造成损坏"
+  }
 ]

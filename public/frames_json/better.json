@@ -1,223 +1,267 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "better.01",
-        "roleset_name": "to improve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of improvement, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made better"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "good.02",
-        "roleset_name": "generally positive: morally good, pleasing; uses that mean 'well' go into a different roleset.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally positive/pleasing entity"
-            },
-            {
-                "n": "2",
-                "descr": "recipient/target of good behavior"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "good.03",
-        "roleset_name": "be skilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "good.04",
-        "roleset_name": "beneficial, healthy for",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "beneficial thing"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "good.07",
-        "roleset_name": "still adequate, usable, valid (the expiration date sense)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is still good, adequate, usable, valid"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "good.08",
-        "roleset_name": "dependable for something (money) owed, in fortunate circumstances (non-financial)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dependable entity"
-            },
-            {
-                "n": "2",
-                "descr": "commodity arg1 is \"good for\""
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "good.14",
-        "roleset_name": "ready, all set to do something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is all ready"
-            },
-            {
-                "n": "2",
-                "descr": "to do what"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "good.15",
-        "roleset_name": "extensive (large or thorough)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "extensive"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "well.05",
-        "roleset_name": "not as ill as before",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "one increasing in health/wellness"
-            },
-            {
-                "n": "2",
-                "descr": "malady that is lessening"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "well.09",
-        "roleset_name": "positive state, resulting favorably (incl. 'wellbeing')",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in a positive state, enjoying favorable results"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "well.12",
-        "roleset_name": "gather, pool up (non-phrasal version of 'well_up'); upward motion of water, or as if of water, perhaps from a spring",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "liquidy thing"
-            },
-            {
-                "n": "2",
-                "descr": "location of gathering"
-            },
-            {
-                "n": "3",
-                "descr": "source, spring"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "best.11",
-        "roleset_name": "triumph over, beat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "contest"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "well_off.06",
-        "roleset_name": "in fortunate circumstances (non-financial)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "more fortunate one"
-            },
-            {
-                "n": "2",
-                "descr": "situation/state that allows arg1 to be more fortunate"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "well_off.10",
-        "roleset_name": "rich, wealthy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "wealthy one"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "well_up.13",
-        "roleset_name": "well_up: gather; upward motion of water, or as if of water, perhaps from a spring",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "liquidy thing"
-            },
-            {
-                "n": "2",
-                "descr": "location of gathering"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "better.01",
+    "roleset_name": "to improve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of improvement, agent",
+        "descr_trans": "改善的原因、推动者"
+      },
+      {
+        "n": "1",
+        "descr": "entity made better",
+        "descr_trans": "实体变得更好"
+      }
+    ],
+    "roleset_name_trans": "改善"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "good.02",
+    "roleset_name": "generally positive: morally good, pleasing; uses that mean 'well' go into a different roleset.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally positive/pleasing entity",
+        "descr_trans": "总体上积极/令人愉快的实体"
+      },
+      {
+        "n": "2",
+        "descr": "recipient/target of good behavior",
+        "descr_trans": "良好行为的接受者/目标"
+      }
+    ],
+    "roleset_name_trans": "总体上积极的：道德良好、令人愉快；表示“好”的用法进入不同的角色集。"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "good.03",
+    "roleset_name": "be skilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "skilled entity",
+        "descr_trans": "技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "擅长"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "good.04",
+    "roleset_name": "beneficial, healthy for",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "beneficial thing",
+        "descr_trans": "有益的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "有益的，健康的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "good.07",
+    "roleset_name": "still adequate, usable, valid (the expiration date sense)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is still good, adequate, usable, valid",
+        "descr_trans": "仍然好的、足够的、可用的、有效的东西"
+      }
+    ],
+    "roleset_name_trans": "仍然充足、可用、有效（有效期意义上的）"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "good.08",
+    "roleset_name": "dependable for something (money) owed, in fortunate circumstances (non-financial)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dependable entity",
+        "descr_trans": "可靠的实体"
+      },
+      {
+        "n": "2",
+        "descr": "commodity arg1 is \"good for\"",
+        "descr_trans": "商品 arg1 是“适合”"
+      }
+    ],
+    "roleset_name_trans": "在幸运的情况下（非财务），对所欠的东西（金钱）是可靠的"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "good.14",
+    "roleset_name": "ready, all set to do something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is all ready",
+        "descr_trans": "已准备就绪的实体"
+      },
+      {
+        "n": "2",
+        "descr": "to do what",
+        "descr_trans": "做什么"
+      }
+    ],
+    "roleset_name_trans": "准备好，准备好做某事"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "good.15",
+    "roleset_name": "extensive (large or thorough)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "extensive",
+        "descr_trans": "广泛的"
+      }
+    ],
+    "roleset_name_trans": "广泛的（大的或彻底的）"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "well.05",
+    "roleset_name": "not as ill as before",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "one increasing in health/wellness",
+        "descr_trans": "健康/保健水平提高"
+      },
+      {
+        "n": "2",
+        "descr": "malady that is lessening",
+        "descr_trans": "疾病正在减轻"
+      }
+    ],
+    "roleset_name_trans": "不像以前那么病了"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "well.09",
+    "roleset_name": "positive state, resulting favorably (incl. 'wellbeing')",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in a positive state, enjoying favorable results",
+        "descr_trans": "主体状态积极，成效显着"
+      }
+    ],
+    "roleset_name_trans": "积极的状态，有利的结果（包括“幸福感”）"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "well.12",
+    "roleset_name": "gather, pool up (non-phrasal version of 'well_up'); upward motion of water, or as if of water, perhaps from a spring",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "liquidy thing",
+        "descr_trans": "液体状的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location of gathering",
+        "descr_trans": "聚会地点"
+      },
+      {
+        "n": "3",
+        "descr": "source, spring",
+        "descr_trans": "泉源、泉源"
+      }
+    ],
+    "roleset_name_trans": "收集，汇集（“well_up”的非短语版本）；水的向上运动，或者好像水的运动，可能来自泉水"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "best.11",
+    "roleset_name": "triumph over, beat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "contest",
+        "descr_trans": "比赛"
+      }
+    ],
+    "roleset_name_trans": "战胜，击败"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "well_off.06",
+    "roleset_name": "in fortunate circumstances (non-financial)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "more fortunate one",
+        "descr_trans": "比较幸运的一个"
+      },
+      {
+        "n": "2",
+        "descr": "situation/state that allows arg1 to be more fortunate",
+        "descr_trans": "使 arg1 更幸运的情况/状态"
+      }
+    ],
+    "roleset_name_trans": "在幸运的情况下（非财务）"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "well_off.10",
+    "roleset_name": "rich, wealthy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "wealthy one",
+        "descr_trans": "有钱人"
+      }
+    ],
+    "roleset_name_trans": "有钱，有钱"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "well_up.13",
+    "roleset_name": "well_up: gather; upward motion of water, or as if of water, perhaps from a spring",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "liquidy thing",
+        "descr_trans": "液体状的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location of gathering",
+        "descr_trans": "聚会地点"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "well_up的英文水的向上运动，或者好像水的运动，可能来自泉水"
+  }
 ]

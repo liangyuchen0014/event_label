@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parameterize.01",
-        "roleset_name": "Describe or represent in terms of a parameter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "entity described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parameterize.01",
+    "roleset_name": "Describe or represent in terms of a parameter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "entity described",
+        "descr_trans": "描述的实体"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "用参数来描述或表示"
+  }
 ]

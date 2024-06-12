@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stipple.01",
-        "roleset_name": "apply paint or ink in small dot like strokes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Artist"
-            },
-            {
-                "n": "1",
-                "descr": "thing stippled"
-            },
-            {
-                "n": "2",
-                "descr": "Paint or ink"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stipple.02",
-        "roleset_name": "engrave by means of dots",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Engraver"
-            },
-            {
-                "n": "1",
-                "descr": "Thing or inscription engraved"
-            },
-            {
-                "n": "2",
-                "descr": "Engraved into or onto"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stipple.03",
-        "roleset_name": "mottle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of mottled effect"
-            },
-            {
-                "n": "1",
-                "descr": "Thing mottled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stipple.01",
+    "roleset_name": "apply paint or ink in small dot like strokes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "thing stippled",
+        "descr_trans": "点画的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Paint or ink",
+        "descr_trans": "油漆或墨水"
+      }
+    ],
+    "roleset_name_trans": "以小点状笔画涂抹油漆或墨水"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stipple.02",
+    "roleset_name": "engrave by means of dots",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Engraver",
+        "descr_trans": "雕刻师"
+      },
+      {
+        "n": "1",
+        "descr": "Thing or inscription engraved",
+        "descr_trans": "刻有的东西或铭文"
+      },
+      {
+        "n": "2",
+        "descr": "Engraved into or onto",
+        "descr_trans": "刻入或刻于之上"
+      }
+    ],
+    "roleset_name_trans": "用点来雕刻"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stipple.03",
+    "roleset_name": "mottle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of mottled effect",
+        "descr_trans": "斑驳效应产生的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing mottled",
+        "descr_trans": "斑驳的东西"
+      }
+    ],
+    "roleset_name_trans": "斑点"
+  }
 ]

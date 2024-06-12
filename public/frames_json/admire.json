@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "admire.01",
-        "roleset_name": "admire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "admirer"
-            },
-            {
-                "n": "1",
-                "descr": "admired"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "admirable.02",
-        "roleset_name": "worthy of admiring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "admirer"
-            },
-            {
-                "n": "1",
-                "descr": "target of admiration"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "admire.01",
+    "roleset_name": "admire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "admirer",
+        "descr_trans": "爱慕者"
+      },
+      {
+        "n": "1",
+        "descr": "admired",
+        "descr_trans": "钦佩的"
+      }
+    ],
+    "roleset_name_trans": "钦佩"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "admirable.02",
+    "roleset_name": "worthy of admiring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "admirer",
+        "descr_trans": "爱慕者"
+      },
+      {
+        "n": "1",
+        "descr": "target of admiration",
+        "descr_trans": "钦佩的目标"
+      }
+    ],
+    "roleset_name_trans": "值得敬佩"
+  }
 ]

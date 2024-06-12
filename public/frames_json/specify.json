@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "specify.01",
-        "roleset_name": "set, establish, decide, expressed with detail, pinpointed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider, specifier"
-            },
-            {
-                "n": "1",
-                "descr": "thing specified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "specific.02",
-        "roleset_name": "particular to, unique to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unique thing"
-            },
-            {
-                "n": "2",
-                "descr": "unique to what/whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "specify.01",
+    "roleset_name": "set, establish, decide, expressed with detail, pinpointed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider, specifier",
+        "descr_trans": "决定者、说明者"
+      },
+      {
+        "n": "1",
+        "descr": "thing specified",
+        "descr_trans": "指定的事物"
+      }
+    ],
+    "roleset_name_trans": "设定、建立、决定、详细表达、明确指出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "specific.02",
+    "roleset_name": "particular to, unique to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unique thing",
+        "descr_trans": "独特的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unique to what/whom",
+        "descr_trans": "对什么/谁来说是独一无二的"
+      }
+    ],
+    "roleset_name_trans": "特定于，独特于"
+  }
 ]

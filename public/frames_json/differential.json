@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "differential.01",
-        "roleset_name": "calculate percentages of blood cells",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "calculator"
-            },
-            {
-                "n": "1",
-                "descr": "blood; cells; thing being measured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "differential.02",
-        "roleset_name": "constituting or contributing to making a distinction between entities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of distinction"
-            },
-            {
-                "n": "1",
-                "descr": "first thing differentiated"
-            },
-            {
-                "n": "2",
-                "descr": "differentiated from (if seperate from arg 1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "differential.01",
+    "roleset_name": "calculate percentages of blood cells",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "calculator",
+        "descr_trans": "计算器"
+      },
+      {
+        "n": "1",
+        "descr": "blood; cells; thing being measured",
+        "descr_trans": "血;细胞;被测量的事物"
+      }
+    ],
+    "roleset_name_trans": "计算血细胞百分比"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "differential.02",
+    "roleset_name": "constituting or contributing to making a distinction between entities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of distinction",
+        "descr_trans": "区分原因"
+      },
+      {
+        "n": "1",
+        "descr": "first thing differentiated",
+        "descr_trans": "首先要区分"
+      },
+      {
+        "n": "2",
+        "descr": "differentiated from (if seperate from arg 1)",
+        "descr_trans": "区别于（如果与 arg 1 分开）"
+      }
+    ],
+    "roleset_name_trans": "构成或有助于区分实体"
+  }
 ]

@@ -1,199 +1,240 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strike.01",
-        "roleset_name": "hit, attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "animate, volitional hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, non-volitional hitter"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "strike.02",
-        "roleset_name": "refrain from working",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "workers"
-            },
-            {
-                "n": "1",
-                "descr": "employer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "strike.03",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "source, removed from"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "strike.04",
-        "roleset_name": "appear, seem",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            },
-            {
-                "n": "3",
-                "descr": "viewer"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "strike.05",
-        "roleset_name": "initiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "strike.10",
-        "roleset_name": "strike a pose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "poseur"
-            },
-            {
-                "n": "1",
-                "descr": "pose"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "strike.11",
-        "roleset_name": "sports",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pitcher"
-            },
-            {
-                "n": "1",
-                "descr": "batter"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "strike_out.06",
-        "roleset_name": "baseball",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pitcher"
-            },
-            {
-                "n": "1",
-                "descr": "batter"
-            },
-            {
-                "n": "2",
-                "descr": "with respect to"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "strike_out.07",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "source, removed from"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "strike_down.08",
-        "roleset_name": "defeat, smite (cf. hit sense above)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "strike_up.09",
-        "roleset_name": "initiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strike.01",
+    "roleset_name": "hit, attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "animate, volitional hitter",
+        "descr_trans": "有活力、有意志的击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, non-volitional hitter",
+        "descr_trans": "乐器、非意志击球手"
+      }
+    ],
+    "roleset_name_trans": "击中、攻击"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "strike.02",
+    "roleset_name": "refrain from working",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "workers",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      }
+    ],
+    "roleset_name_trans": "避免工作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "strike.03",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "source, removed from",
+        "descr_trans": "来源，已删除"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "strike.04",
+    "roleset_name": "appear, seem",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming",
+        "descr_trans": "看起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      },
+      {
+        "n": "3",
+        "descr": "viewer",
+        "descr_trans": "观众"
+      }
+    ],
+    "roleset_name_trans": "出现，似乎"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "strike.05",
+    "roleset_name": "initiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "发起"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "strike.10",
+    "roleset_name": "strike a pose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "poseur",
+        "descr_trans": "装腔作势"
+      },
+      {
+        "n": "1",
+        "descr": "pose",
+        "descr_trans": "姿势"
+      }
+    ],
+    "roleset_name_trans": "摆姿势"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "strike.11",
+    "roleset_name": "sports",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pitcher",
+        "descr_trans": "投手"
+      },
+      {
+        "n": "1",
+        "descr": "batter",
+        "descr_trans": "面糊"
+      }
+    ],
+    "roleset_name_trans": "运动的"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "strike_out.06",
+    "roleset_name": "baseball",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pitcher",
+        "descr_trans": "投手"
+      },
+      {
+        "n": "1",
+        "descr": "batter",
+        "descr_trans": "面糊"
+      },
+      {
+        "n": "2",
+        "descr": "with respect to",
+        "descr_trans": "关于"
+      }
+    ],
+    "roleset_name_trans": "棒球"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "strike_out.07",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "source, removed from",
+        "descr_trans": "来源，已删除"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "strike_down.08",
+    "roleset_name": "defeat, smite (cf. hit sense above)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "失败，重击（参见上面的命中感）"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "strike_up.09",
+    "roleset_name": "initiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "发起"
+  }
 ]

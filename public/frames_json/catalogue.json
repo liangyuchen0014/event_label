@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "catalogue.01",
-        "roleset_name": "to make an itemized list of, classify, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator of catalogue, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing catalogued, entry"
-            },
-            {
-                "n": "2",
-                "descr": "catalogue itself, or category arg1 is placed in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "catalogue.01",
+    "roleset_name": "to make an itemized list of, classify, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator of catalogue, agent",
+        "descr_trans": "目录创建者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing catalogued, entry",
+        "descr_trans": "已编目的事物、条目"
+      },
+      {
+        "n": "2",
+        "descr": "catalogue itself, or category arg1 is placed in",
+        "descr_trans": "目录本身，或类别 arg1 放置在"
+      }
+    ],
+    "roleset_name_trans": "列出详细清单、分类、"
+  }
 ]

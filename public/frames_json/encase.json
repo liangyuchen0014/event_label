@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "encase.01",
-        "roleset_name": "put in a case",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing in a case"
-            },
-            {
-                "n": "2",
-                "descr": "case"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "encase.01",
+    "roleset_name": "put in a case",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter",
+        "descr_trans": "推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing in a case",
+        "descr_trans": "案件中的事情"
+      },
+      {
+        "n": "2",
+        "descr": "case",
+        "descr_trans": "案件"
+      }
+    ],
+    "roleset_name_trans": "放在一个盒子里"
+  }
 ]

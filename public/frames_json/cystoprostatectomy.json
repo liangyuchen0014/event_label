@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cystoprostatectomy.01",
-        "roleset_name": "removal of the urinary bladder and the prostate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cystoprostatectomy.01",
+    "roleset_name": "removal of the urinary bladder and the prostate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "removed",
+        "descr_trans": "已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "切除膀胱和前列腺"
+  }
 ]

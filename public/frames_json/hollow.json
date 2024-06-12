@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hollow_out.01",
-        "roleset_name": "cause to be hollow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "portion removed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hollow.02",
-        "roleset_name": "create an empty space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hollow_out.01",
+    "roleset_name": "cause to be hollow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "portion removed",
+        "descr_trans": "部分被移除"
+      }
+    ],
+    "roleset_name_trans": "导致空心"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hollow.02",
+    "roleset_name": "create an empty space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance removed",
+        "descr_trans": "物质被去除"
+      }
+    ],
+    "roleset_name_trans": "创建一个空白空间"
+  }
 ]

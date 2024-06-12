@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "turnabout.01",
-        "roleset_name": "motion in a new direction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of turner (transitive)"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "turnabout.02",
-        "roleset_name": "transformation, becoming",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity undergoing change"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "turnabout.01",
+    "roleset_name": "motion in a new direction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of turner (transitive)",
+        "descr_trans": "特纳的代理人（及物）"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "朝新方向运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "turnabout.02",
+    "roleset_name": "transformation, becoming",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity undergoing change",
+        "descr_trans": "正在发生变化的实体"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "转变、成为"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unable.01",
-        "roleset_name": "not capable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity without ability"
-            },
-            {
-                "n": "2",
-                "descr": "disability itself; what is arg1 incapable of?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unable.01",
+    "roleset_name": "not capable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity without ability",
+        "descr_trans": "无能力实体"
+      },
+      {
+        "n": "2",
+        "descr": "disability itself; what is arg1 incapable of?",
+        "descr_trans": "残疾本身； arg1 不能做什么？"
+      }
+    ],
+    "roleset_name_trans": "没有能力"
+  }
 ]

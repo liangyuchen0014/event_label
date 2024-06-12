@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chemoradiate.01",
-        "roleset_name": "name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity undergoing chemoradiation"
-            },
-            {
-                "n": "2",
-                "descr": "disease"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chemoradiate.01",
+    "roleset_name": "name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, doctor",
+        "descr_trans": "代理人、医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity undergoing chemoradiation",
+        "descr_trans": "患者，接受放化疗的实体"
+      },
+      {
+        "n": "2",
+        "descr": "disease",
+        "descr_trans": "疾病"
+      }
+    ],
+    "roleset_name_trans": "姓名"
+  }
 ]

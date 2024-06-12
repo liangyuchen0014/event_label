@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nourish.01",
-        "roleset_name": "keep alive by feeding, having recieved enough nutrients",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent (agent only)"
-            },
-            {
-                "n": "1",
-                "descr": "entity fed or maintained"
-            },
-            {
-                "n": "2",
-                "descr": "nourishment or sustenance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nourish.01",
+    "roleset_name": "keep alive by feeding, having recieved enough nutrients",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent (agent only)",
+        "descr_trans": "因果主体（仅主体）"
+      },
+      {
+        "n": "1",
+        "descr": "entity fed or maintained",
+        "descr_trans": "喂养或维持的实体"
+      },
+      {
+        "n": "2",
+        "descr": "nourishment or sustenance",
+        "descr_trans": "营养或维持"
+      }
+    ],
+    "roleset_name_trans": "通过进食维持生命，获得足够的营养"
+  }
 ]

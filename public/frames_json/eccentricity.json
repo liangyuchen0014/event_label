@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "eccentricity.01",
-        "roleset_name": "strangeness",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "odd duck"
-            },
-            {
-                "n": "2",
-                "descr": "norm compared to"
-            },
-            {
-                "n": "3",
-                "descr": "domain in which arg1 is odd"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "eccentricity.02",
-        "roleset_name": "off center, or having a central axis not in the center",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "off center thing"
-            },
-            {
-                "n": "2",
-                "descr": "in relation to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "eccentricity.01",
+    "roleset_name": "strangeness",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "odd duck",
+        "descr_trans": "奇怪的鸭子"
+      },
+      {
+        "n": "2",
+        "descr": "norm compared to",
+        "descr_trans": "常态相比"
+      },
+      {
+        "n": "3",
+        "descr": "domain in which arg1 is odd",
+        "descr_trans": "arg1 为奇数的域"
+      }
+    ],
+    "roleset_name_trans": "陌生感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "eccentricity.02",
+    "roleset_name": "off center, or having a central axis not in the center",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "off center thing",
+        "descr_trans": "偏离中心的东西"
+      },
+      {
+        "n": "2",
+        "descr": "in relation to",
+        "descr_trans": "和---关联"
+      }
+    ],
+    "roleset_name_trans": "偏离中心，或中心轴不在中心"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "populate.01",
-        "roleset_name": "provide inhabitants for, fill with inhabitants",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "area"
-            },
-            {
-                "n": "2",
-                "descr": "population"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "populate.01",
+    "roleset_name": "provide inhabitants for, fill with inhabitants",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "area",
+        "descr_trans": "区域"
+      },
+      {
+        "n": "2",
+        "descr": "population",
+        "descr_trans": "人口"
+      }
+    ],
+    "roleset_name_trans": "为居民提供居民，充满居民"
+  }
 ]

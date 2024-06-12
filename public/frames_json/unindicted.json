@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unindicted.01",
-        "roleset_name": "not having been indicted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "would-be accusor, accusor lacking evident to indict"
-            },
-            {
-                "n": "1",
-                "descr": "un-accused"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unindicted.01",
+    "roleset_name": "not having been indicted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "would-be accusor, accusor lacking evident to indict",
+        "descr_trans": "潜在原告，原告缺乏起诉证据"
+      },
+      {
+        "n": "1",
+        "descr": "un-accused",
+        "descr_trans": "未受指控的"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "没有被起诉"
+  }
 ]

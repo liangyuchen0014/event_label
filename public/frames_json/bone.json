@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bone.01",
-        "roleset_name": "remove bones",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing which used to have bones"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bone_up.02",
-        "roleset_name": "become more proficient",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boner up"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bone.01",
+    "roleset_name": "remove bones",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing which used to have bones",
+        "descr_trans": "曾经有骨头的东西"
+      }
+    ],
+    "roleset_name_trans": "去除骨头"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bone_up.02",
+    "roleset_name": "become more proficient",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boner up",
+        "descr_trans": "疯了"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "变得更加熟练"
+  }
 ]

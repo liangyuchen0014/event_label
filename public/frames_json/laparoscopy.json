@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "laparoscopy.01",
-        "roleset_name": "surgical procedure that uses a laparoscope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "entity scoped"
-            },
-            {
-                "n": "2",
-                "descr": "more specific entity scoped, if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "laparoscopy.01",
+    "roleset_name": "surgical procedure that uses a laparoscope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer of procedure",
+        "descr_trans": "程序执行者"
+      },
+      {
+        "n": "1",
+        "descr": "entity scoped",
+        "descr_trans": "实体范围"
+      },
+      {
+        "n": "2",
+        "descr": "more specific entity scoped, if in addition to ARG1",
+        "descr_trans": "更具体的实体范围（如果除了 ARG1）"
+      }
+    ],
+    "roleset_name_trans": "使用腹腔镜的外科手术"
+  }
 ]

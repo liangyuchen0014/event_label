@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backtrack.01",
-        "roleset_name": "retrace one's course",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "(extent -- rare)"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backtrack.01",
+    "roleset_name": "retrace one's course",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "(extent -- rare)",
+        "descr_trans": "（程度——罕见）"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "重走"
+  }
 ]

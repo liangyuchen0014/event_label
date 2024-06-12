@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "activate.01",
-        "roleset_name": "make active",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "activator"
-            },
-            {
-                "n": "1",
-                "descr": "thing now active"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "active.02",
-        "roleset_name": "live, in use, participating in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "active entity"
-            },
-            {
-                "n": "1",
-                "descr": "activity engaged in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "activate.01",
+    "roleset_name": "make active",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "activator",
+        "descr_trans": "活化剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing now active",
+        "descr_trans": "事情现在活跃"
+      }
+    ],
+    "roleset_name_trans": "激活"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "active.02",
+    "roleset_name": "live, in use, participating in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "active entity",
+        "descr_trans": "主动实体"
+      },
+      {
+        "n": "1",
+        "descr": "activity engaged in",
+        "descr_trans": "从事的活动"
+      }
+    ],
+    "roleset_name_trans": "生活中、使用中、参与中"
+  }
 ]

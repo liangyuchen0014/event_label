@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stash.01",
-        "roleset_name": "hide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, stasher"
-            },
-            {
-                "n": "1",
-                "descr": "thing stashed"
-            },
-            {
-                "n": "2",
-                "descr": "location or position, or attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stash_away.02",
-        "roleset_name": "hide without location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hider"
-            },
-            {
-                "n": "1",
-                "descr": "thing hidden"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stash.01",
+    "roleset_name": "hide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, stasher",
+        "descr_trans": "代理人、藏匿者"
+      },
+      {
+        "n": "1",
+        "descr": "thing stashed",
+        "descr_trans": "藏起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location or position, or attribute",
+        "descr_trans": "位置或位置，或属性"
+      }
+    ],
+    "roleset_name_trans": "隐藏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stash_away.02",
+    "roleset_name": "hide without location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hider",
+        "descr_trans": "隐藏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing hidden",
+        "descr_trans": "隐藏的东西"
+      }
+    ],
+    "roleset_name_trans": "隐藏没有位置"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excerpt.01",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing extracted"
-            },
-            {
-                "n": "2",
-                "descr": "entity extracted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excerpt.01",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing extracted",
+        "descr_trans": "提取的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity extracted from",
+        "descr_trans": "提取自的实体"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

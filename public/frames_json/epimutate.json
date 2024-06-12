@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "epimutate.01",
-        "roleset_name": "heritable change in gene expression",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of change"
-            },
-            {
-                "n": "1",
-                "descr": "gene; entity undergoing change"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "epimutate.01",
+    "roleset_name": "heritable change in gene expression",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of change",
+        "descr_trans": "推动者，变化的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "gene; entity undergoing change",
+        "descr_trans": "基因;正在发生变化的实体"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "基因表达的遗传变化"
+  }
 ]

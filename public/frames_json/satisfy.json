@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "satisfy.01",
-        "roleset_name": "make happy, fulfilled, fullfillment of a requirement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pleaser, fulfiller"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity pleased/fulfilled"
-            },
-            {
-                "n": "2",
-                "descr": "method/instrumental"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "satisfy.02",
-        "roleset_name": "convince",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "convincer"
-            },
-            {
-                "n": "1",
-                "descr": "convinced"
-            },
-            {
-                "n": "2",
-                "descr": "proposition"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "satisfactory.03",
-        "roleset_name": "meeting the acceptable standard",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "satisfactory entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill/domain"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "satisfy.01",
+    "roleset_name": "make happy, fulfilled, fullfillment of a requirement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pleaser, fulfiller",
+        "descr_trans": "代理者、取悦者、履行者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity pleased/fulfilled",
+        "descr_trans": "患者、实体满意/满足"
+      },
+      {
+        "n": "2",
+        "descr": "method/instrumental",
+        "descr_trans": "方法/工具"
+      }
+    ],
+    "roleset_name_trans": "使快乐、满足、满足要求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "satisfy.02",
+    "roleset_name": "convince",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "convincer",
+        "descr_trans": "说服者"
+      },
+      {
+        "n": "1",
+        "descr": "convinced",
+        "descr_trans": "确信"
+      },
+      {
+        "n": "2",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      }
+    ],
+    "roleset_name_trans": "说服"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "satisfactory.03",
+    "roleset_name": "meeting the acceptable standard",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "satisfactory entity",
+        "descr_trans": "令人满意的实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill/domain",
+        "descr_trans": "技能/领域"
+      }
+    ],
+    "roleset_name_trans": "达到可接受的标准"
+  }
 ]

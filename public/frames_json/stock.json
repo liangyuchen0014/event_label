@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stock.01",
-        "roleset_name": "store",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, storer"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "location or destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stock_up.02",
-        "roleset_name": "store",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, storer"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stock.01",
+    "roleset_name": "store",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, storer",
+        "descr_trans": "代理人、储存人"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "location or destination",
+        "descr_trans": "地点或目的地"
+      }
+    ],
+    "roleset_name_trans": "店铺"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stock_up.02",
+    "roleset_name": "store",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, storer",
+        "descr_trans": "代理人、储存人"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "店铺"
+  }
 ]

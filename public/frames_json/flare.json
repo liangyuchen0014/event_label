@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flare_up.01",
-        "roleset_name": "starting",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing starting"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flare.02",
-        "roleset_name": "burn suddenly bright or intense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of flaring (sometimes a speaker)"
-            },
-            {
-                "n": "1",
-                "descr": "thing burning/thing said/anger"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "flare.03",
-        "roleset_name": "widen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of flaring"
-            },
-            {
-                "n": "1",
-                "descr": "Thing flared"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flare_up.01",
+    "roleset_name": "starting",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing starting",
+        "descr_trans": "事情开始"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flare.02",
+    "roleset_name": "burn suddenly bright or intense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of flaring (sometimes a speaker)",
+        "descr_trans": "燃烧的媒介（有时是演讲者）"
+      },
+      {
+        "n": "1",
+        "descr": "thing burning/thing said/anger",
+        "descr_trans": "燃烧的东西/所说的东西/愤怒"
+      }
+    ],
+    "roleset_name_trans": "燃烧突然明亮或强烈"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "flare.03",
+    "roleset_name": "widen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of flaring",
+        "descr_trans": "引起燃烧的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing flared",
+        "descr_trans": "事情爆发了"
+      }
+    ],
+    "roleset_name_trans": "扩大"
+  }
 ]

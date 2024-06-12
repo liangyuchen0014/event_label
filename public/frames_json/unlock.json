@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unlock.01",
-        "roleset_name": "detach, open",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with a key, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing that was locked"
-            },
-            {
-                "n": "2",
-                "descr": "what it was locked to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unlock.01",
+    "roleset_name": "detach, open",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with a key, agent",
+        "descr_trans": "具有密钥的实体、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing that was locked",
+        "descr_trans": "被锁住的东西"
+      },
+      {
+        "n": "2",
+        "descr": "what it was locked to",
+        "descr_trans": "它被锁定到什么"
+      }
+    ],
+    "roleset_name_trans": "分离、打开"
+  }
 ]

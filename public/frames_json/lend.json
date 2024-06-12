@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lend.01",
-        "roleset_name": "give temporarily, allowing to borrow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lender"
-            },
-            {
-                "n": "1",
-                "descr": "thing lent"
-            },
-            {
-                "n": "2",
-                "descr": "lent-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lend.01",
+    "roleset_name": "give temporarily, allowing to borrow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lender",
+        "descr_trans": "贷方"
+      },
+      {
+        "n": "1",
+        "descr": "thing lent",
+        "descr_trans": "借出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "lent-to",
+        "descr_trans": "慢节奏"
+      }
+    ],
+    "roleset_name_trans": "暂时给予，允许借用"
+  }
 ]

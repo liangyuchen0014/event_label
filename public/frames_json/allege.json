@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "allege.01",
-        "roleset_name": "say without proof",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, alleger"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, allegation"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "person against whom something is alleged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "allege.01",
+    "roleset_name": "say without proof",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, alleger",
+        "descr_trans": "演讲者、指控者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, allegation",
+        "descr_trans": "言论、指控"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "person against whom something is alleged",
+        "descr_trans": "被指控某事的人"
+      }
+    ],
+    "roleset_name_trans": "没有证据就说"
+  }
 ]

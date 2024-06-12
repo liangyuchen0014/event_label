@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "choose.01",
-        "roleset_name": "choose, pick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked"
-            },
-            {
-                "n": "2",
-                "descr": "group or source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "secondary attribute on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "choose.01",
+    "roleset_name": "choose, pick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked",
+        "descr_trans": "挑选的东西"
+      },
+      {
+        "n": "2",
+        "descr": "group or source",
+        "descr_trans": "组或来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "secondary attribute on arg1",
+        "descr_trans": "arg1 的辅助属性"
+      }
+    ],
+    "roleset_name_trans": "选择，挑选"
+  }
 ]

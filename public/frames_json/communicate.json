@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "communicate.01",
-        "roleset_name": "communicate, discussing, passing information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first (or all) communicator(s)"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "other communicator(s), communicated with or to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "communicate.01",
+    "roleset_name": "communicate, discussing, passing information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first (or all) communicator(s)",
+        "descr_trans": "第一个（或所有）通信者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "other communicator(s), communicated with or to",
+        "descr_trans": "与其他通信者通信或向其他通信者通信"
+      }
+    ],
+    "roleset_name_trans": "沟通、讨论、传递信息"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "salt.01",
-        "roleset_name": "apply salt to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting saltier"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of salt itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "salt_away.02",
-        "roleset_name": "store",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storer"
-            },
-            {
-                "n": "1",
-                "descr": "thing stored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "salt.01",
+    "roleset_name": "apply salt to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting saltier",
+        "descr_trans": "东西变得更咸"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of salt itself",
+        "descr_trans": "明确提及盐本身"
+      }
+    ],
+    "roleset_name_trans": "涂盐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "salt_away.02",
+    "roleset_name": "store",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storer",
+        "descr_trans": "更大"
+      },
+      {
+        "n": "1",
+        "descr": "thing stored",
+        "descr_trans": "存储的东西"
+      }
+    ],
+    "roleset_name_trans": "店铺"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prejudice.01",
-        "roleset_name": "cause to have a preformed opinion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "prejudiced entity"
-            },
-            {
-                "n": "2",
-                "descr": "prejudiced against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prejudice.01",
+    "roleset_name": "cause to have a preformed opinion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "prejudiced entity",
+        "descr_trans": "带有偏见的实体"
+      },
+      {
+        "n": "2",
+        "descr": "prejudiced against",
+        "descr_trans": "怀有偏见"
+      }
+    ],
+    "roleset_name_trans": "导致有一个预先形成的意见"
+  }
 ]

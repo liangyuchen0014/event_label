@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preadmit.01",
-        "roleset_name": "allow to enter early",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, admitter"
-            },
-            {
-                "n": "1",
-                "descr": "enterer"
-            },
-            {
-                "n": "2",
-                "descr": "place entered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preadmit.01",
+    "roleset_name": "allow to enter early",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, admitter",
+        "descr_trans": "代理人、录取者"
+      },
+      {
+        "n": "1",
+        "descr": "enterer",
+        "descr_trans": "进入者"
+      },
+      {
+        "n": "2",
+        "descr": "place entered",
+        "descr_trans": "输入的地方"
+      }
+    ],
+    "roleset_name_trans": "允许提早进入"
+  }
 ]

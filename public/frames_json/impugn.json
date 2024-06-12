@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impugn.01",
-        "roleset_name": "to attack or challenge in argument",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker, slanderer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity impugned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impugn.01",
+    "roleset_name": "to attack or challenge in argument",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker, slanderer, agent",
+        "descr_trans": "攻击者、诽谤者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity impugned",
+        "descr_trans": "实体受到质疑"
+      }
+    ],
+    "roleset_name_trans": "在争论中攻击或挑战"
+  }
 ]

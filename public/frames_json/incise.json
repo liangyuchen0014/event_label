@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incise.01",
-        "roleset_name": "cut, carve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carver"
-            },
-            {
-                "n": "1",
-                "descr": "surface carved"
-            },
-            {
-                "n": "2",
-                "descr": "thing created on the surface"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incise.01",
+    "roleset_name": "cut, carve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carver",
+        "descr_trans": "雕刻师"
+      },
+      {
+        "n": "1",
+        "descr": "surface carved",
+        "descr_trans": "表面雕刻"
+      },
+      {
+        "n": "2",
+        "descr": "thing created on the surface",
+        "descr_trans": "表面上创造出来的东西"
+      }
+    ],
+    "roleset_name_trans": "切割、雕刻"
+  }
 ]

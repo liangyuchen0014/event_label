@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coregistration.01",
-        "roleset_name": "normalize or standardize different viewpoints or input types",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "technician, entity doing the normalization"
-            },
-            {
-                "n": "1",
-                "descr": "thing being normalized, realm of data"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coregistration.01",
+    "roleset_name": "normalize or standardize different viewpoints or input types",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "technician, entity doing the normalization",
+        "descr_trans": "技术人员，进行标准化的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being normalized, realm of data",
+        "descr_trans": "事物被标准化，数据领域"
+      }
+    ],
+    "roleset_name_trans": "规范或标准化不同的观点或输入类型"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "invite.01",
-        "roleset_name": "invite, summon, request to do or attend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inviter"
-            },
-            {
-                "n": "1",
-                "descr": "invited"
-            },
-            {
-                "n": "2",
-                "descr": "invited-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "invite.01",
+    "roleset_name": "invite, summon, request to do or attend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inviter",
+        "descr_trans": "邀请"
+      },
+      {
+        "n": "1",
+        "descr": "invited",
+        "descr_trans": "邀请"
+      },
+      {
+        "n": "2",
+        "descr": "invited-to",
+        "descr_trans": "受邀参加"
+      }
+    ],
+    "roleset_name_trans": "邀请、召唤、要求做或参加"
+  }
 ]

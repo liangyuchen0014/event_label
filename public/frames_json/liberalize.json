@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "liberalize.01",
-        "roleset_name": "become more liberal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of liberalization"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming more liberal (if separate from arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "liberal.02",
-        "roleset_name": "politically/socially liberal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "politically/socially liberal entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "liberal.03",
-        "roleset_name": "generous",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity giving generously"
-            },
-            {
-                "n": "2",
-                "descr": "generous with what, thing given generously"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "liberalize.01",
+    "roleset_name": "become more liberal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of liberalization",
+        "descr_trans": "自由化的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming more liberal (if separate from arg0)",
+        "descr_trans": "事情变得更加自由（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "变得更加自由"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "liberal.02",
+    "roleset_name": "politically/socially liberal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "politically/socially liberal entity",
+        "descr_trans": "政治/社会自由实体"
+      }
+    ],
+    "roleset_name_trans": "政治/社会自由主义"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "liberal.03",
+    "roleset_name": "generous",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity giving generously",
+        "descr_trans": "实体慷慨解囊"
+      },
+      {
+        "n": "2",
+        "descr": "generous with what, thing given generously",
+        "descr_trans": "慷慨地给予什么，慷慨地给予的东西"
+      }
+    ],
+    "roleset_name_trans": "慷慨的"
+  }
 ]

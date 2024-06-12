@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conduct.01",
-        "roleset_name": "directed motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conductor"
-            },
-            {
-                "n": "1",
-                "descr": "thing led"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conduct.02",
-        "roleset_name": "behavior",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "manner"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "conduct.03",
-        "roleset_name": "transmit, be a medium",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "transmitter"
-            },
-            {
-                "n": "2",
-                "descr": "transmitted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conduct.01",
+    "roleset_name": "directed motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conductor",
+        "descr_trans": "导体"
+      },
+      {
+        "n": "1",
+        "descr": "thing led",
+        "descr_trans": "事情主导"
+      }
+    ],
+    "roleset_name_trans": "定向运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conduct.02",
+    "roleset_name": "behavior",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "manner",
+        "descr_trans": "方式"
+      }
+    ],
+    "roleset_name_trans": "行为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "conduct.03",
+    "roleset_name": "transmit, be a medium",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "transmitter",
+        "descr_trans": "发射机"
+      },
+      {
+        "n": "2",
+        "descr": "transmitted",
+        "descr_trans": "传送的"
+      }
+    ],
+    "roleset_name_trans": "传播，成为媒介"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relabel.01",
-        "roleset_name": "apply a label again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity applying label"
-            },
-            {
-                "n": "1",
-                "descr": "item being labeled"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, label itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relabel.01",
+    "roleset_name": "apply a label again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity applying label",
+        "descr_trans": "应用标签的实体"
+      },
+      {
+        "n": "1",
+        "descr": "item being labeled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, label itself",
+        "descr_trans": "属性，标签本身"
+      }
+    ],
+    "roleset_name_trans": "再次贴上标签"
+  }
 ]

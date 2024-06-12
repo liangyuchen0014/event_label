@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resorb.01",
-        "roleset_name": "dissolve/assimilate bone tissue, destruction of bone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of bone loss (pathology or osteoclasts)"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing resorption"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "resorb.02",
-        "roleset_name": "absorb again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resorber, cause or agent"
-            },
-            {
-                "n": "1",
-                "descr": "resorbed thing/substance"
-            },
-            {
-                "n": "2",
-                "descr": "resorbed into what, destination"
-            },
-            {
-                "n": "3",
-                "descr": "resorbed from what, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resorb.01",
+    "roleset_name": "dissolve/assimilate bone tissue, destruction of bone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of bone loss (pathology or osteoclasts)",
+        "descr_trans": "骨质流失的原因（病理或破骨细胞）"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing resorption",
+        "descr_trans": "正在吸收的实体"
+      }
+    ],
+    "roleset_name_trans": "溶解/同化骨组织，破坏骨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "resorb.02",
+    "roleset_name": "absorb again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resorber, cause or agent",
+        "descr_trans": "再吸收器、原因或媒介"
+      },
+      {
+        "n": "1",
+        "descr": "resorbed thing/substance",
+        "descr_trans": "再吸收的东西/物质"
+      },
+      {
+        "n": "2",
+        "descr": "resorbed into what, destination",
+        "descr_trans": "重新吸收到什么、目的地"
+      },
+      {
+        "n": "3",
+        "descr": "resorbed from what, source",
+        "descr_trans": "从什么、来源重新吸收"
+      }
+    ],
+    "roleset_name_trans": "再次吸收"
+  }
 ]

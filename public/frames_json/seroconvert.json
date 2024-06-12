@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seroconvert.01",
-        "roleset_name": "develop specific antibodies as a result of infection or immunization",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer"
-            },
-            {
-                "n": "1",
-                "descr": "Entity seroconverted"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seroconvert.01",
+    "roleset_name": "develop specific antibodies as a result of infection or immunization",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity seroconverted",
+        "descr_trans": "实体血清转化"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, manner",
+        "descr_trans": "仪器、方式"
+      }
+    ],
+    "roleset_name_trans": "由于感染或免疫而产生特异性抗体"
+  }
 ]

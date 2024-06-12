@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fap.01",
-        "roleset_name": "masturbate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "masturbator"
-            },
-            {
-                "n": "1",
-                "descr": "patient, if separate from arg0"
-            },
-            {
-                "n": "2",
-                "descr": "sexual stimulus used"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fap_away.02",
-        "roleset_name": "talk unrestrainedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fap.01",
+    "roleset_name": "masturbate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "masturbator",
+        "descr_trans": "手淫者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, if separate from arg0",
+        "descr_trans": "患者，如果与 arg0 分开"
+      },
+      {
+        "n": "2",
+        "descr": "sexual stimulus used",
+        "descr_trans": "使用性刺激"
+      }
+    ],
+    "roleset_name_trans": "手淫"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fap_away.02",
+    "roleset_name": "talk unrestrainedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "畅所欲言"
+  }
 ]

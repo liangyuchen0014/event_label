@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "morbid.01",
-        "roleset_name": "pathological, diseased",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tissue having a pathology"
-            },
-            {
-                "n": "2",
-                "descr": "disease"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "morbid.02",
-        "roleset_name": "gruesome, preoccupied with the gruesome",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "morbid entity"
-            },
-            {
-                "n": "2",
-                "descr": "aspect/subject matter about which arg1 is morbid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "morbid.01",
+    "roleset_name": "pathological, diseased",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tissue having a pathology",
+        "descr_trans": "具有病理学的组织"
+      },
+      {
+        "n": "2",
+        "descr": "disease",
+        "descr_trans": "疾病"
+      }
+    ],
+    "roleset_name_trans": "病态的，患病的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "morbid.02",
+    "roleset_name": "gruesome, preoccupied with the gruesome",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "morbid entity",
+        "descr_trans": "病态实体"
+      },
+      {
+        "n": "2",
+        "descr": "aspect/subject matter about which arg1 is morbid",
+        "descr_trans": "arg1 病态的方面/主题"
+      }
+    ],
+    "roleset_name_trans": "可怕的，专注于可怕的事情"
+  }
 ]

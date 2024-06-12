@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hull.01",
-        "roleset_name": "removal of outer covering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "the thing that is having its outer covering removed"
-            },
-            {
-                "n": "2",
-                "descr": "the outer covering (rare)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hull.02",
-        "roleset_name": "attack and strike a ship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "entity being attacked"
-            },
-            {
-                "n": "2",
-                "descr": "weapon (usually cannon shot)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hull.01",
+    "roleset_name": "removal of outer covering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "the thing that is having its outer covering removed",
+        "descr_trans": "外壳被移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the outer covering (rare)",
+        "descr_trans": "外壳（罕见）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "去除外壳"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hull.02",
+    "roleset_name": "attack and strike a ship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "entity being attacked",
+        "descr_trans": "被攻击的实体"
+      },
+      {
+        "n": "2",
+        "descr": "weapon (usually cannon shot)",
+        "descr_trans": "武器（通常是大炮）"
+      }
+    ],
+    "roleset_name_trans": "攻击并撞击船只"
+  }
 ]

@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trouble.01",
-        "roleset_name": "upset slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of trouble"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, one upset"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner (if arg0 also present)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trouble.05",
-        "roleset_name": "exertion of effort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "external agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity exerting effort"
-            },
-            {
-                "n": "2",
-                "descr": "thing tried"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trouble.06",
-        "roleset_name": "fight; engage in (generally violent) conflict",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trouble-maker"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "2",
-                "descr": "over what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "in_trouble.02",
-        "roleset_name": "suffering repercussions of misbehavior",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity in trouble"
-            },
-            {
-                "n": "2",
-                "descr": "for what misbehavior"
-            },
-            {
-                "n": "3",
-                "descr": "the authorities"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "in_trouble.03",
-        "roleset_name": "in a dire, worrisome, potentially dangerous situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "source of danger"
-            },
-            {
-                "n": "1",
-                "descr": "entity in dire straights"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "have_trouble.04",
-        "roleset_name": "find something difficult",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person attempting act"
-            },
-            {
-                "n": "1",
-                "descr": "activity that is difficult"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trouble.01",
+    "roleset_name": "upset slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of trouble",
+        "descr_trans": "麻烦的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, one upset",
+        "descr_trans": "体验者，一心烦意乱"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner (if arg0 also present)",
+        "descr_trans": "工具或方式（如果 arg0 也存在）"
+      }
+    ],
+    "roleset_name_trans": "稍微心烦意乱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trouble.05",
+    "roleset_name": "exertion of effort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "external agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity exerting effort",
+        "descr_trans": "实体付出努力"
+      },
+      {
+        "n": "2",
+        "descr": "thing tried",
+        "descr_trans": "尝试过的事情"
+      }
+    ],
+    "roleset_name_trans": "努力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trouble.06",
+    "roleset_name": "fight; engage in (generally violent) conflict",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trouble-maker",
+        "descr_trans": "麻烦制造者"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "2",
+        "descr": "over what",
+        "descr_trans": "在什么之上"
+      }
+    ],
+    "roleset_name_trans": "斗争;参与（通常是暴力的）冲突"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "in_trouble.02",
+    "roleset_name": "suffering repercussions of misbehavior",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in trouble",
+        "descr_trans": "陷入困境的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what misbehavior",
+        "descr_trans": "因什么不当行为"
+      },
+      {
+        "n": "3",
+        "descr": "the authorities",
+        "descr_trans": "当局"
+      }
+    ],
+    "roleset_name_trans": "因不当行为而遭受后果"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "in_trouble.03",
+    "roleset_name": "in a dire, worrisome, potentially dangerous situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "source of danger",
+        "descr_trans": "危险源"
+      },
+      {
+        "n": "1",
+        "descr": "entity in dire straights",
+        "descr_trans": "陷入困境的实体"
+      }
+    ],
+    "roleset_name_trans": "处于可怕、令人担忧、有潜在危险的情况"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "have_trouble.04",
+    "roleset_name": "find something difficult",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person attempting act",
+        "descr_trans": "试图采取行动的人"
+      },
+      {
+        "n": "1",
+        "descr": "activity that is difficult",
+        "descr_trans": "困难的活动"
+      }
+    ],
+    "roleset_name_trans": "发现一些困难的事情"
+  }
 ]

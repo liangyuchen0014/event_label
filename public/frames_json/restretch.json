@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restretch.01",
-        "roleset_name": "extend or lengthen again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, stretcher"
-            },
-            {
-                "n": "1",
-                "descr": "Patient, thing getting stretcher"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or TMP, by how much or until when"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restretch.01",
+    "roleset_name": "extend or lengthen again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, stretcher",
+        "descr_trans": "代理、担架"
+      },
+      {
+        "n": "1",
+        "descr": "Patient, thing getting stretcher",
+        "descr_trans": "病人，东西被担架抬走"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or TMP, by how much or until when",
+        "descr_trans": "EXT 或 TMP，增加多少或直到何时"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "再次延长或延长"
+  }
 ]

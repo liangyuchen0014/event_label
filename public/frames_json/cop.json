@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cop.01",
-        "roleset_name": "to take or catch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken"
-            },
-            {
-                "n": "2",
-                "descr": "taken from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cop.01",
+    "roleset_name": "to take or catch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, agent",
+        "descr_trans": "小偷、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken",
+        "descr_trans": "拿走的东西"
+      },
+      {
+        "n": "2",
+        "descr": "taken from",
+        "descr_trans": "取自"
+      }
+    ],
+    "roleset_name_trans": "采取或抓住"
+  }
 ]

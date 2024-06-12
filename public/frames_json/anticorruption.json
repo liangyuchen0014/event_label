@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "anticorruption.01",
-        "roleset_name": "combatting corruption",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity combatting corruption"
-            },
-            {
-                "n": "1",
-                "descr": "entity freed from corruption"
-            },
-            {
-                "n": "2",
-                "descr": "the corruption itself, which is removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "anticorruption.01",
+    "roleset_name": "combatting corruption",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity combatting corruption",
+        "descr_trans": "反腐败实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity freed from corruption",
+        "descr_trans": "摆脱腐败的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the corruption itself, which is removed",
+        "descr_trans": "腐败本身已被消除"
+      }
+    ],
+    "roleset_name_trans": "打击腐败"
+  }
 ]

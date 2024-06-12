@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "collateralize.01",
-        "roleset_name": "growing of a blood vessel that serves the same end as another vessel that cannot adequately supply that organ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent or cause"
-            },
-            {
-                "n": "1",
-                "descr": "Blood vessel growing"
-            },
-            {
-                "n": "2",
-                "descr": "Organ now adequately supplied"
-            },
-            {
-                "n": "3",
-                "descr": "Inadequate vessel Arg1 is compensating for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "collateralize.02",
-        "roleset_name": "secure a loan with collateral",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent doing/causing collateralizing"
-            },
-            {
-                "n": "1",
-                "descr": "loan collateralized"
-            },
-            {
-                "n": "2",
-                "descr": "collateral itself, collateralized with what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "collateralize.01",
+    "roleset_name": "growing of a blood vessel that serves the same end as another vessel that cannot adequately supply that organ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent or cause",
+        "descr_trans": "故意代理人或原因"
+      },
+      {
+        "n": "1",
+        "descr": "Blood vessel growing",
+        "descr_trans": "血管生长"
+      },
+      {
+        "n": "2",
+        "descr": "Organ now adequately supplied",
+        "descr_trans": "器官目前供应充足"
+      },
+      {
+        "n": "3",
+        "descr": "Inadequate vessel Arg1 is compensating for",
+        "descr_trans": "容器 Arg1 的不足正在补偿"
+      }
+    ],
+    "roleset_name_trans": "与另一条血管同一端的血管生长，无法充分供应该器官"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "collateralize.02",
+    "roleset_name": "secure a loan with collateral",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent doing/causing collateralizing",
+        "descr_trans": "代理人进行/导致抵押"
+      },
+      {
+        "n": "1",
+        "descr": "loan collateralized",
+        "descr_trans": "贷款抵押"
+      },
+      {
+        "n": "2",
+        "descr": "collateral itself, collateralized with what?",
+        "descr_trans": "抵押品本身，用什么抵押？"
+      }
+    ],
+    "roleset_name_trans": "用抵押品获得贷款"
+  }
 ]

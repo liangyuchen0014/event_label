@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drain.01",
-        "roleset_name": "unfill, empty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drain.01",
+    "roleset_name": "unfill, empty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "未填满，空"
+  }
 ]

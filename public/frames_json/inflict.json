@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inflict.01",
-        "roleset_name": "cause injury",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inflicter"
-            },
-            {
-                "n": "1",
-                "descr": "injury"
-            },
-            {
-                "n": "2",
-                "descr": "injured"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inflict.01",
+    "roleset_name": "cause injury",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inflicter",
+        "descr_trans": "造成"
+      },
+      {
+        "n": "1",
+        "descr": "injury",
+        "descr_trans": "受伤"
+      },
+      {
+        "n": "2",
+        "descr": "injured",
+        "descr_trans": "受伤"
+      }
+    ],
+    "roleset_name_trans": "造成伤害"
+  }
 ]

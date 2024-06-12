@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "casualties.01",
-        "roleset_name": "accident that causes one to die",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of death, accident"
-            },
-            {
-                "n": "1",
-                "descr": "deceased"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "casualties.01",
+    "roleset_name": "accident that causes one to die",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of death, accident",
+        "descr_trans": "死亡原因、事故"
+      },
+      {
+        "n": "1",
+        "descr": "deceased",
+        "descr_trans": "死者"
+      }
+    ],
+    "roleset_name_trans": "导致一人死亡的事故"
+  }
 ]

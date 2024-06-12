@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enact.01",
-        "roleset_name": "pass legislation, put into practice as law",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legislative body, enactor"
-            },
-            {
-                "n": "1",
-                "descr": "thing enacted"
-            },
-            {
-                "n": "2",
-                "descr": "redundant mention of law"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enact.01",
+    "roleset_name": "pass legislation, put into practice as law",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legislative body, enactor",
+        "descr_trans": "立法机构、执行者"
+      },
+      {
+        "n": "1",
+        "descr": "thing enacted",
+        "descr_trans": "颁布的事情"
+      },
+      {
+        "n": "2",
+        "descr": "redundant mention of law",
+        "descr_trans": "多余提及法律"
+      }
+    ],
+    "roleset_name_trans": "通过立法，作为法律实施"
+  }
 ]

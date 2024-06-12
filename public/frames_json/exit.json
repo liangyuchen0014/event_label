@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exit.01",
-        "roleset_name": "leave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "departed entity"
-            },
-            {
-                "n": "1",
-                "descr": "place exited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exit.01",
+    "roleset_name": "leave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "departed entity",
+        "descr_trans": "离开的实体"
+      },
+      {
+        "n": "1",
+        "descr": "place exited",
+        "descr_trans": "地点已退出"
+      }
+    ],
+    "roleset_name_trans": "离开"
+  }
 ]

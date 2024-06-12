@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "study.01",
-        "roleset_name": "examine closely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "student"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "teacher"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "study_up.02",
-        "roleset_name": "examine closely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "student"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "study.01",
+    "roleset_name": "examine closely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "teacher",
+        "descr_trans": "老师"
+      }
+    ],
+    "roleset_name_trans": "仔细检查"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "study_up.02",
+    "roleset_name": "examine closely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "仔细检查"
+  }
 ]

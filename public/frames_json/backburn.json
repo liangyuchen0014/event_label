@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backburn.01",
-        "roleset_name": "light a controled fire in the path of a wild fire to gain control",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "firemen"
-            },
-            {
-                "n": "1",
-                "descr": "fire"
-            },
-            {
-                "n": "2",
-                "descr": "fuel being burned back"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backburn.01",
+    "roleset_name": "light a controled fire in the path of a wild fire to gain control",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "firemen",
+        "descr_trans": "消防员"
+      },
+      {
+        "n": "1",
+        "descr": "fire",
+        "descr_trans": "火"
+      },
+      {
+        "n": "2",
+        "descr": "fuel being burned back",
+        "descr_trans": "燃料被回烧"
+      }
+    ],
+    "roleset_name_trans": "在野火的路径上点燃受控的火以控制火势"
+  }
 ]

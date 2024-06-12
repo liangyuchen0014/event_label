@@ -1,58 +1,69 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "constitute.01",
-        "roleset_name": "comprise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "components (almost always plural)"
-            },
-            {
-                "n": "1",
-                "descr": "whole"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "constitutionalize.03",
-        "roleset_name": "make constitutional",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legislative body, agent"
-            },
-            {
-                "n": "1",
-                "descr": "newly constitutional thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "constitutionalize.04",
-        "roleset_name": "take a digestion-aiding walk after a meal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person going for a walk"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "constitutionalize.05",
-        "roleset_name": "provide with a constitution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "group providing constitution"
-            },
-            {
-                "n": "1",
-                "descr": "group receiving constitution"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "constitute.01",
+    "roleset_name": "comprise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "components (almost always plural)",
+        "descr_trans": "组成部分（几乎总是复数）"
+      },
+      {
+        "n": "1",
+        "descr": "whole",
+        "descr_trans": "所有的"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "constitutionalize.03",
+    "roleset_name": "make constitutional",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legislative body, agent",
+        "descr_trans": "立法机构、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "newly constitutional thing",
+        "descr_trans": "新宪法的事情"
+      }
+    ],
+    "roleset_name_trans": "制定宪法"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "constitutionalize.04",
+    "roleset_name": "take a digestion-aiding walk after a meal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person going for a walk",
+        "descr_trans": "去散步的人"
+      }
+    ],
+    "roleset_name_trans": "饭后散步助消化"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "constitutionalize.05",
+    "roleset_name": "provide with a constitution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "group providing constitution",
+        "descr_trans": "团体提供章程"
+      },
+      {
+        "n": "1",
+        "descr": "group receiving constitution",
+        "descr_trans": "团体接收构成"
+      }
+    ],
+    "roleset_name_trans": "提供宪法"
+  }
 ]

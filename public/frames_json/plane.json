@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plane.01",
-        "roleset_name": "shape into a plane",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one who planes, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing worked on"
-            },
-            {
-                "n": "2",
-                "descr": "end state, if different from arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plane.01",
+    "roleset_name": "shape into a plane",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one who planes, agent",
+        "descr_trans": "一名飞机、特工"
+      },
+      {
+        "n": "1",
+        "descr": "thing worked on",
+        "descr_trans": "事情进展顺利"
+      },
+      {
+        "n": "2",
+        "descr": "end state, if different from arg1",
+        "descr_trans": "结束状态，如果与 arg1 不同"
+      }
+    ],
+    "roleset_name_trans": "塑造成一个平面"
+  }
 ]

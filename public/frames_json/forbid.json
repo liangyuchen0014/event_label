@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forbid.01",
-        "roleset_name": "disallow, prohibit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disallower, agent"
-            },
-            {
-                "n": "1",
-                "descr": "forbidden action"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forbid.01",
+    "roleset_name": "disallow, prohibit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disallower, agent",
+        "descr_trans": "不允许,代理人"
+      },
+      {
+        "n": "1",
+        "descr": "forbidden action",
+        "descr_trans": "禁止的行为"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "不允许，禁止"
+  }
 ]

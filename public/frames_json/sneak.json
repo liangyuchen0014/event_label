@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sneak.01",
-        "roleset_name": "move stealthily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity sneaking"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "surreptitious cargo"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sneak.02",
-        "roleset_name": "steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief"
-            },
-            {
-                "n": "1",
-                "descr": "stolen object"
-            },
-            {
-                "n": "2",
-                "descr": "stolen-from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sneaky.03",
-        "roleset_name": "deceiving, surrepticious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the sneak"
-            },
-            {
-                "n": "1",
-                "descr": "sneaky action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sneak.01",
+    "roleset_name": "move stealthily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity sneaking",
+        "descr_trans": "实体潜行"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "surreptitious cargo",
+        "descr_trans": "秘密货物"
+      }
+    ],
+    "roleset_name_trans": "偷偷地移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sneak.02",
+    "roleset_name": "steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief",
+        "descr_trans": "贼"
+      },
+      {
+        "n": "1",
+        "descr": "stolen object",
+        "descr_trans": "被盗物品"
+      },
+      {
+        "n": "2",
+        "descr": "stolen-from",
+        "descr_trans": "偷来的"
+      }
+    ],
+    "roleset_name_trans": "偷"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sneaky.03",
+    "roleset_name": "deceiving, surrepticious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the sneak",
+        "descr_trans": "偷偷摸摸"
+      },
+      {
+        "n": "1",
+        "descr": "sneaky action",
+        "descr_trans": "偷偷摸摸的行动"
+      }
+    ],
+    "roleset_name_trans": "欺骗性的，阴险的"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transmute.01",
-        "roleset_name": "transmute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing transmutation"
-            },
-            {
-                "n": "2",
-                "descr": "end state, arg 1 transmuted into what?"
-            },
-            {
-                "n": "3",
-                "descr": "start state, arg 1 transmuted from what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transmute.01",
+    "roleset_name": "transmute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change, agent",
+        "descr_trans": "变化的起因、推动者"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing transmutation",
+        "descr_trans": "正在发生转变的实体"
+      },
+      {
+        "n": "2",
+        "descr": "end state, arg 1 transmuted into what?",
+        "descr_trans": "最终状态，arg 1 转变为什么？"
+      },
+      {
+        "n": "3",
+        "descr": "start state, arg 1 transmuted from what?",
+        "descr_trans": "开始状态，arg 1 是从什么转变而来的？"
+      }
+    ],
+    "roleset_name_trans": "转化"
+  }
 ]

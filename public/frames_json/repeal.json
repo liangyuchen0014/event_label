@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repeal.01",
-        "roleset_name": "to revoke, annul",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revoker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity repealed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repeal.01",
+    "roleset_name": "to revoke, annul",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revoker, agent",
+        "descr_trans": "撤销者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity repealed",
+        "descr_trans": "实体被废除"
+      }
+    ],
+    "roleset_name_trans": "撤销，废除"
+  }
 ]

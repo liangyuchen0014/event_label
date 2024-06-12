@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overwhelm.01",
-        "roleset_name": "overwhelm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "overwhelmer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, overwhelmed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overwhelm.01",
+    "roleset_name": "overwhelm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "overwhelmer",
+        "descr_trans": "压倒性的"
+      },
+      {
+        "n": "1",
+        "descr": "patient, overwhelmed",
+        "descr_trans": "病人，不堪重负"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner",
+        "descr_trans": "仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "压倒"
+  }
 ]

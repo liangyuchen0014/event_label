@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "telephone.01",
-        "roleset_name": "call",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "called"
-            },
-            {
-                "n": "2",
-                "descr": "message"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "telephone.01",
+    "roleset_name": "call",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "called",
+        "descr_trans": "被称为"
+      },
+      {
+        "n": "2",
+        "descr": "message",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "称呼"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quickstep.01",
-        "roleset_name": "quickstep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of quickstepping, agent (transitive clauses only)"
-            },
-            {
-                "n": "1",
-                "descr": "quickstepper(s), theme (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of quickstepping"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quickstep.01",
+    "roleset_name": "quickstep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of quickstepping, agent (transitive clauses only)",
+        "descr_trans": "快步的起因、代理人（仅限及物从句）"
+      },
+      {
+        "n": "1",
+        "descr": "quickstepper(s), theme (intransitive subject, transitive object)",
+        "descr_trans": "faststepper(s)，主题（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of quickstepping",
+        "descr_trans": "快步位置"
+      }
+    ],
+    "roleset_name_trans": "快步"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uninhabitable.01",
-        "roleset_name": "not able to be lived in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "would-be inhabitant"
-            },
-            {
-                "n": "1",
-                "descr": "unsuitable habitat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uninhabitable.01",
+    "roleset_name": "not able to be lived in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "would-be inhabitant",
+        "descr_trans": "未来的居民"
+      },
+      {
+        "n": "1",
+        "descr": "unsuitable habitat",
+        "descr_trans": "不适合的栖息地"
+      }
+    ],
+    "roleset_name_trans": "不能居住"
+  }
 ]

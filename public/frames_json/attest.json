@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "attest.01",
-        "roleset_name": "to affirm to be correct, indicate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attestor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing attested"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "attest.01",
+    "roleset_name": "to affirm to be correct, indicate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attestor, agent",
+        "descr_trans": "证明人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing attested",
+        "descr_trans": "已证实的事物"
+      }
+    ],
+    "roleset_name_trans": "确认正确，指出"
+  }
 ]

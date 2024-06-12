@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spend.01",
-        "roleset_name": "use money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender, buyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought, commodity"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid, money"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spend.02",
-        "roleset_name": "bide time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bider, waiter"
-            },
-            {
-                "n": "1",
-                "descr": "unit of time"
-            },
-            {
-                "n": "2",
-                "descr": "activity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "spend.04",
-        "roleset_name": "be used up",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing used up"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "spend_down.03",
-        "roleset_name": "spend money so that one is eligible for medicaid, services for poor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender"
-            },
-            {
-                "n": "1",
-                "descr": "money spent down"
-            },
-            {
-                "n": "2",
-                "descr": "limit spent down to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spend.01",
+    "roleset_name": "use money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender, buyer",
+        "descr_trans": "花钱者，买家"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought, commodity",
+        "descr_trans": "买的东西，商品"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid, money",
+        "descr_trans": "支付的价格、金钱"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "用钱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spend.02",
+    "roleset_name": "bide time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bider, waiter",
+        "descr_trans": "投标人，服务员"
+      },
+      {
+        "n": "1",
+        "descr": "unit of time",
+        "descr_trans": "时间单位"
+      },
+      {
+        "n": "2",
+        "descr": "activity",
+        "descr_trans": "活动"
+      }
+    ],
+    "roleset_name_trans": "等待时间"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "spend.04",
+    "roleset_name": "be used up",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing used up",
+        "descr_trans": "用完的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "被用完"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "spend_down.03",
+    "roleset_name": "spend money so that one is eligible for medicaid, services for poor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender",
+        "descr_trans": "花钱的人"
+      },
+      {
+        "n": "1",
+        "descr": "money spent down",
+        "descr_trans": "钱花下来"
+      },
+      {
+        "n": "2",
+        "descr": "limit spent down to",
+        "descr_trans": "支出限额降至"
+      }
+    ],
+    "roleset_name_trans": "花钱使一个人有资格获得医疗补助和为穷人提供的服务"
+  }
 ]

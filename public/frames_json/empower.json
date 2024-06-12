@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "empower.01",
-        "roleset_name": "give power to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of power"
-            },
-            {
-                "n": "1",
-                "descr": "empowered entity"
-            },
-            {
-                "n": "2",
-                "descr": "use of power"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "empower.01",
+    "roleset_name": "give power to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of power",
+        "descr_trans": "权力的给予者"
+      },
+      {
+        "n": "1",
+        "descr": "empowered entity",
+        "descr_trans": "授权实体"
+      },
+      {
+        "n": "2",
+        "descr": "use of power",
+        "descr_trans": "使用权力"
+      }
+    ],
+    "roleset_name_trans": "赋予权力"
+  }
 ]

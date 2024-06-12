@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dart.01",
-        "roleset_name": "move rapidly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of motion (includes volitional intransitive subjects)"
-            },
-            {
-                "n": "1",
-                "descr": "entity being moved around (includes non-volitional intransitive subjects)"
-            },
-            {
-                "n": "2",
-                "descr": "path of darting"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            },
-            {
-                "n": "4",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dart.02",
-        "roleset_name": "shoot with a dart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "wild animal"
-            },
-            {
-                "n": "2",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dart.03",
-        "roleset_name": "take a tuck out of a fabric item",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Tailor"
-            },
-            {
-                "n": "1",
-                "descr": "garment (or other fabric item)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dart.01",
+    "roleset_name": "move rapidly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of motion (includes volitional intransitive subjects)",
+        "descr_trans": "运动主体（包括意志不及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "entity being moved around (includes non-volitional intransitive subjects)",
+        "descr_trans": "正在移动的实体（包括非意志不及物主语）"
+      },
+      {
+        "n": "2",
+        "descr": "path of darting",
+        "descr_trans": "飞镖路径"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "4",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "快速移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dart.02",
+    "roleset_name": "shoot with a dart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "wild animal",
+        "descr_trans": "野生动物"
+      },
+      {
+        "n": "2",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "用飞镖射击"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dart.03",
+    "roleset_name": "take a tuck out of a fabric item",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Tailor",
+        "descr_trans": "裁缝"
+      },
+      {
+        "n": "1",
+        "descr": "garment (or other fabric item)",
+        "descr_trans": "服装（或其他织物）"
+      }
+    ],
+    "roleset_name_trans": "将布料折出"
+  }
 ]

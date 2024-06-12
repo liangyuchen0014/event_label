@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forward.01",
-        "roleset_name": "to send on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity forwarded"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forward.01",
+    "roleset_name": "to send on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity forwarded",
+        "descr_trans": "实体转发"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "发送"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quilt.01",
-        "roleset_name": "sew or stitch together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quilter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "material, things being quilted"
-            },
-            {
-                "n": "2",
-                "descr": "attached to if seperate from arg 1, quilted where"
-            },
-            {
-                "n": "3",
-                "descr": "product, end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quilt.01",
+    "roleset_name": "sew or stitch together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quilter, agent",
+        "descr_trans": "被子, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "material, things being quilted",
+        "descr_trans": "材料，被缝的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attached to if seperate from arg 1, quilted where",
+        "descr_trans": "附加到 if 与 arg 1 分开，绗缝其中"
+      },
+      {
+        "n": "3",
+        "descr": "product, end state",
+        "descr_trans": "产品，最终状态"
+      }
+    ],
+    "roleset_name_trans": "缝合或缝合在一起"
+  }
 ]

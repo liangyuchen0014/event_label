@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spoonfeed.01",
-        "roleset_name": "spoonfeed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, spoonfeeder"
-            },
-            {
-                "n": "1",
-                "descr": "food being given to recipient"
-            },
-            {
-                "n": "2",
-                "descr": "thing being spoonfed, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spoonfeed.01",
+    "roleset_name": "spoonfeed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, spoonfeeder",
+        "descr_trans": "代理、勺子喂食者"
+      },
+      {
+        "n": "1",
+        "descr": "food being given to recipient",
+        "descr_trans": "食物被给予接受者"
+      },
+      {
+        "n": "2",
+        "descr": "thing being spoonfed, recipient",
+        "descr_trans": "被勺子喂的东西，接受者"
+      }
+    ],
+    "roleset_name_trans": "勺子喂食"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hearten.01",
-        "roleset_name": "cause to feel better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of feeling better"
-            },
-            {
-                "n": "1",
-                "descr": "entity feeling better"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "take_to_heart.02",
-        "roleset_name": "take seriously and internalize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking something to heart"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken to heart"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hearten.01",
+    "roleset_name": "cause to feel better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of feeling better",
+        "descr_trans": "感觉更好的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity feeling better",
+        "descr_trans": "实体感觉更好"
+      }
+    ],
+    "roleset_name_trans": "使感觉更好"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "take_to_heart.02",
+    "roleset_name": "take seriously and internalize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking something to heart",
+        "descr_trans": "实体把某事放在心上"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken to heart",
+        "descr_trans": "牢记在心的事情"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "认真对待并内化"
+  }
 ]

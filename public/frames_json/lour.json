@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lour.01",
-        "roleset_name": "glower",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Glowerer"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of look"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lour.02",
-        "roleset_name": "lower",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "One doing the lowering"
-            },
-            {
-                "n": "1",
-                "descr": "thing lessened"
-            },
-            {
-                "n": "2",
-                "descr": "lowered to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lour.01",
+    "roleset_name": "glower",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Glowerer",
+        "descr_trans": "怒视者"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of look",
+        "descr_trans": "眼神的接受者"
+      }
+    ],
+    "roleset_name_trans": "怒视"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lour.02",
+    "roleset_name": "lower",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "One doing the lowering",
+        "descr_trans": "一个人在做降低动作"
+      },
+      {
+        "n": "1",
+        "descr": "thing lessened",
+        "descr_trans": "事情减少了"
+      },
+      {
+        "n": "2",
+        "descr": "lowered to",
+        "descr_trans": "降低至"
+      }
+    ],
+    "roleset_name_trans": "降低"
+  }
 ]

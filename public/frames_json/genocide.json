@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "genocide.01",
-        "roleset_name": "cause to undergo genocide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of genocide"
-            },
-            {
-                "n": "1",
-                "descr": "entity/people undergoing genocide"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of genocide"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "genocide.01",
+    "roleset_name": "cause to undergo genocide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of genocide",
+        "descr_trans": "种族灭绝的诱因"
+      },
+      {
+        "n": "1",
+        "descr": "entity/people undergoing genocide",
+        "descr_trans": "遭受种族灭绝的实体/人民"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of genocide",
+        "descr_trans": "种族灭绝的工具"
+      }
+    ],
+    "roleset_name_trans": "导致遭受种族灭绝"
+  }
 ]

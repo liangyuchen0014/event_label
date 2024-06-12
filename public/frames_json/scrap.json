@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scrap.01",
-        "roleset_name": "discard, throw away, dismantling for scraps",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scrapper"
-            },
-            {
-                "n": "1",
-                "descr": "garbage"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scrap.02",
-        "roleset_name": "fight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one fighter"
-            },
-            {
-                "n": "1",
-                "descr": "the other"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scrap.01",
+    "roleset_name": "discard, throw away, dismantling for scraps",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scrapper",
+        "descr_trans": "刮刀"
+      },
+      {
+        "n": "1",
+        "descr": "garbage",
+        "descr_trans": "垃圾"
+      }
+    ],
+    "roleset_name_trans": "丢弃、扔掉、拆解为废料"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scrap.02",
+    "roleset_name": "fight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one fighter",
+        "descr_trans": "一名战士"
+      },
+      {
+        "n": "1",
+        "descr": "the other",
+        "descr_trans": "另一个"
+      }
+    ],
+    "roleset_name_trans": "斗争"
+  }
 ]

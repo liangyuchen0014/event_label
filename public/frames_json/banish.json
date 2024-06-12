@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "banish.01",
-        "roleset_name": "send away, expel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "banisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity expelled"
-            },
-            {
-                "n": "2",
-                "descr": "expelled from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "banish.01",
+    "roleset_name": "send away, expel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "banisher, agent",
+        "descr_trans": "放逐者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity expelled",
+        "descr_trans": "实体被驱逐"
+      },
+      {
+        "n": "2",
+        "descr": "expelled from",
+        "descr_trans": "被驱逐出"
+      }
+    ],
+    "roleset_name_trans": "送走，驱逐"
+  }
 ]

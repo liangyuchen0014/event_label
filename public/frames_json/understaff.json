@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "understaff.01",
-        "roleset_name": "fail to provide enough staff support",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity responsible for hiring staff"
-            },
-            {
-                "n": "1",
-                "descr": "event/job understaffed"
-            },
-            {
-                "n": "2",
-                "descr": "employees in short supply"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "understaff.01",
+    "roleset_name": "fail to provide enough staff support",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity responsible for hiring staff",
+        "descr_trans": "负责雇用员工的实体"
+      },
+      {
+        "n": "1",
+        "descr": "event/job understaffed",
+        "descr_trans": "活动/工作人手不足"
+      },
+      {
+        "n": "2",
+        "descr": "employees in short supply",
+        "descr_trans": "员工紧缺"
+      }
+    ],
+    "roleset_name_trans": "未能提供足够的员工支持"
+  }
 ]

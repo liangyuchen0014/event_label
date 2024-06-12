@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "honor.01",
-        "roleset_name": "give honor to, having received honor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive giver of honor (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "honoree"
-            },
-            {
-                "n": "2",
-                "descr": "for what, reason honored"
-            },
-            {
-                "n": "3",
-                "descr": "the honor itself, thing that is an honor"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "honor.02",
-        "roleset_name": "to uphold a promise, law or regulation, law, regulation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "honorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing honored"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "honorable.03",
-        "roleset_name": "deserving of honor, respect",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "honorable entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "honor.01",
+    "roleset_name": "give honor to, having received honor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive giver of honor (rare)",
+        "descr_trans": "代理荣誉授予者（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "honoree",
+        "descr_trans": "获奖者"
+      },
+      {
+        "n": "2",
+        "descr": "for what, reason honored",
+        "descr_trans": "出于什么原因，受到尊重"
+      },
+      {
+        "n": "3",
+        "descr": "the honor itself, thing that is an honor",
+        "descr_trans": "荣誉本身，就是荣誉的东西"
+      }
+    ],
+    "roleset_name_trans": "给予荣誉，获得荣誉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "honor.02",
+    "roleset_name": "to uphold a promise, law or regulation, law, regulation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "honorer",
+        "descr_trans": "名誉"
+      },
+      {
+        "n": "1",
+        "descr": "thing honored",
+        "descr_trans": "荣幸之事"
+      }
+    ],
+    "roleset_name_trans": "信守承诺、法律或法规、法律、法规"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "honorable.03",
+    "roleset_name": "deserving of honor, respect",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "honorable entity",
+        "descr_trans": "荣誉实体"
+      }
+    ],
+    "roleset_name_trans": "值得荣誉、尊重"
+  }
 ]

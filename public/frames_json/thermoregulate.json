@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thermoregulate.01",
-        "roleset_name": "maintain body temperature within a specific range",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity whose temperature is regulated"
-            },
-            {
-                "n": "2",
-                "descr": "temperature maintained"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thermoregulate.01",
+    "roleset_name": "maintain body temperature within a specific range",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity whose temperature is regulated",
+        "descr_trans": "温度受到调节的实体"
+      },
+      {
+        "n": "2",
+        "descr": "temperature maintained",
+        "descr_trans": "维持温度"
+      }
+    ],
+    "roleset_name_trans": "将体温维持在特定范围内"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retie.01",
-        "roleset_name": "tie again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being tied"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, string"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retie.01",
+    "roleset_name": "tie again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being tied",
+        "descr_trans": "病人，东西被绑住"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "再次打结"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bar.01",
-        "roleset_name": "stop, prevent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "action or object being prevented"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on action"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bar.01",
+    "roleset_name": "stop, prevent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper, Agent",
+        "descr_trans": "塞子、代理"
+      },
+      {
+        "n": "1",
+        "descr": "action or object being prevented",
+        "descr_trans": "行动或物体被阻止"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on action",
+        "descr_trans": "行动的次要预测"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "停止，阻止"
+  }
 ]

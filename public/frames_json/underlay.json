@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underlay.01",
-        "roleset_name": "put something under or beneath",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the laying"
-            },
-            {
-                "n": "1",
-                "descr": "thing on top"
-            },
-            {
-                "n": "2",
-                "descr": "thing being put underneath"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underlay.01",
+    "roleset_name": "put something under or beneath",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the laying",
+        "descr_trans": "铺设实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing on top",
+        "descr_trans": "上面的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing being put underneath",
+        "descr_trans": "东西被放在下面"
+      }
+    ],
+    "roleset_name_trans": "把东西放在下面或下面"
+  }
 ]

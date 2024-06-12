@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immobilize.01",
-        "roleset_name": "cause to be immobile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent causing immobility"
-            },
-            {
-                "n": "1",
-                "descr": "thing made immobile"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immobilize.01",
+    "roleset_name": "cause to be immobile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent causing immobility",
+        "descr_trans": "导致不动的媒介"
+      },
+      {
+        "n": "1",
+        "descr": "thing made immobile",
+        "descr_trans": "固定不动的东西"
+      }
+    ],
+    "roleset_name_trans": "导致无法移动"
+  }
 ]

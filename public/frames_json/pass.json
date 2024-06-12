@@ -1,349 +1,420 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pass.01",
-        "roleset_name": "bill becomes law",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legislative body"
-            },
-            {
-                "n": "1",
-                "descr": "bill, state prior to passing"
-            },
-            {
-                "n": "2",
-                "descr": "law, state after passing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pass.02",
-        "roleset_name": "overtake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving ahead"
-            },
-            {
-                "n": "1",
-                "descr": "entity falling behind"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pass.03",
-        "roleset_name": "go by",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing passing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pass.04",
-        "roleset_name": "allow to go by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "thing let go by"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pass.05",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing hands"
-            },
-            {
-                "n": "2",
-                "descr": "getter"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "pass.06",
-        "roleset_name": "suffice, get away (with)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing passing"
-            },
-            {
-                "n": "2",
-                "descr": "attributive"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "pass.07",
-        "roleset_name": "pass a class, pass a test",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "student"
-            },
-            {
-                "n": "2",
-                "descr": "test"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "pass.08",
-        "roleset_name": "push through a passage (like a clot)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "passer"
-            },
-            {
-                "n": "1",
-                "descr": "thing passed (clot, gas, kidney stone, etc)"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "pass.20",
-        "roleset_name": "die",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity dying"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "pass.22",
-        "roleset_name": "make a pass at, attempt something (esp flirtation)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity attempting something"
-            },
-            {
-                "n": "1",
-                "descr": "thing attempted (often \"at\" phrase)"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "pass_by.17",
-        "roleset_name": "overtake, go past",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving ahead; passing entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity falling behind; thing passed"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "pass_off.18",
-        "roleset_name": "offer for acceptance under false pretext",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "faker"
-            },
-            {
-                "n": "1",
-                "descr": "thing offered"
-            },
-            {
-                "n": "2",
-                "descr": "(possibly) duped judge"
-            },
-            {
-                "n": "3",
-                "descr": "fake attribute of Arg1"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "pass_on.09",
-        "roleset_name": "give, pass_on: give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing hands"
-            },
-            {
-                "n": "2",
-                "descr": "getter"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "pass_on.14",
-        "roleset_name": "act as a middle man in the giving process",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transmitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing transmitted"
-            },
-            {
-                "n": "2",
-                "descr": "transmitted to"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "pass_on.19",
-        "roleset_name": "to move on from a place to another place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved, package"
-            },
-            {
-                "n": "2",
-                "descr": "moved from"
-            },
-            {
-                "n": "3",
-                "descr": "moved to"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "pass_out.10",
-        "roleset_name": "distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed to"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "pass_out.11",
-        "roleset_name": "faint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fainter"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "pass_over.12",
-        "roleset_name": "ignore, leave behind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ignorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing ignored"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "pass_up.13",
-        "roleset_name": "relinquish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity relinquishing one item"
-            },
-            {
-                "n": "1",
-                "descr": "item relinquished"
-            },
-            {
-                "n": "2",
-                "descr": "in favor of another"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "come_to_pass.23",
-        "roleset_name": "occur, perhaps as foretold",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "event"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "give_pass.24",
-        "roleset_name": "ignore or forgive an offense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of pass; forgiver"
-            },
-            {
-                "n": "1",
-                "descr": "entity forgiven, given a pass"
-            },
-            {
-                "n": "2",
-                "descr": "offense ignored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pass.01",
+    "roleset_name": "bill becomes law",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legislative body",
+        "descr_trans": "立法机关"
+      },
+      {
+        "n": "1",
+        "descr": "bill, state prior to passing",
+        "descr_trans": "法案，通过之前的状态"
+      },
+      {
+        "n": "2",
+        "descr": "law, state after passing",
+        "descr_trans": "法律，通过后的状态"
+      }
+    ],
+    "roleset_name_trans": "法案成为法律"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pass.02",
+    "roleset_name": "overtake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving ahead",
+        "descr_trans": "实体前进"
+      },
+      {
+        "n": "1",
+        "descr": "entity falling behind",
+        "descr_trans": "实体落后"
+      }
+    ],
+    "roleset_name_trans": "超过"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pass.03",
+    "roleset_name": "go by",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing passing",
+        "descr_trans": "事情经过"
+      }
+    ],
+    "roleset_name_trans": "过去"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pass.04",
+    "roleset_name": "allow to go by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "thing let go by",
+        "descr_trans": "事物被放走"
+      }
+    ],
+    "roleset_name_trans": "允许通过"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pass.05",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing hands",
+        "descr_trans": "事物易手"
+      },
+      {
+        "n": "2",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "pass.06",
+    "roleset_name": "suffice, get away (with)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing passing",
+        "descr_trans": "事情经过"
+      },
+      {
+        "n": "2",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "够了，离开（与）"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "pass.07",
+    "roleset_name": "pass a class, pass a test",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "2",
+        "descr": "test",
+        "descr_trans": "测试"
+      }
+    ],
+    "roleset_name_trans": "通过课程，通过测试"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "pass.08",
+    "roleset_name": "push through a passage (like a clot)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "passer",
+        "descr_trans": "过路人"
+      },
+      {
+        "n": "1",
+        "descr": "thing passed (clot, gas, kidney stone, etc)",
+        "descr_trans": "排出的东西（血块、气体、肾结石等）"
+      }
+    ],
+    "roleset_name_trans": "推动通道（如血块）"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "pass.20",
+    "roleset_name": "die",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity dying",
+        "descr_trans": "实体死亡"
+      }
+    ],
+    "roleset_name_trans": "死"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "pass.22",
+    "roleset_name": "make a pass at, attempt something (esp flirtation)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity attempting something",
+        "descr_trans": "尝试某事的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing attempted (often \"at\" phrase)",
+        "descr_trans": "尝试的事情（通常是“at”短语）"
+      }
+    ],
+    "roleset_name_trans": "试图做某事（尤其是调情）"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "pass_by.17",
+    "roleset_name": "overtake, go past",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving ahead; passing entity",
+        "descr_trans": "前进的实体；传递实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity falling behind; thing passed",
+        "descr_trans": "落后的实体；事情过去了"
+      }
+    ],
+    "roleset_name_trans": "超越，超越"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "pass_off.18",
+    "roleset_name": "offer for acceptance under false pretext",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "faker",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "thing offered",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "(possibly) duped judge",
+        "descr_trans": "（可能）欺骗了法官"
+      },
+      {
+        "n": "3",
+        "descr": "fake attribute of Arg1",
+        "descr_trans": "Arg1 的假属性"
+      }
+    ],
+    "roleset_name_trans": "以虚假借口接受要约"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "pass_on.09",
+    "roleset_name": "give, pass_on: give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing hands",
+        "descr_trans": "事物易手"
+      },
+      {
+        "n": "2",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      }
+    ],
+    "roleset_name_trans": "给予，传递：给予"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "pass_on.14",
+    "roleset_name": "act as a middle man in the giving process",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transmitter",
+        "descr_trans": "发射机"
+      },
+      {
+        "n": "1",
+        "descr": "thing transmitted",
+        "descr_trans": "传送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "transmitted to",
+        "descr_trans": "传送至"
+      }
+    ],
+    "roleset_name_trans": "在捐赠过程中充当中间人"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "pass_on.19",
+    "roleset_name": "to move on from a place to another place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved, package",
+        "descr_trans": "东西搬了，包裹"
+      },
+      {
+        "n": "2",
+        "descr": "moved from",
+        "descr_trans": "搬自"
+      },
+      {
+        "n": "3",
+        "descr": "moved to",
+        "descr_trans": "搬去"
+      }
+    ],
+    "roleset_name_trans": "从一个地方移动到另一个地方"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "pass_out.10",
+    "roleset_name": "distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed to",
+        "descr_trans": "分发给"
+      }
+    ],
+    "roleset_name_trans": "分发"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "pass_out.11",
+    "roleset_name": "faint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fainter",
+        "descr_trans": "较微弱"
+      }
+    ],
+    "roleset_name_trans": "头晕的"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "pass_over.12",
+    "roleset_name": "ignore, leave behind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ignorer",
+        "descr_trans": "忽略"
+      },
+      {
+        "n": "1",
+        "descr": "thing ignored",
+        "descr_trans": "被忽略的事情"
+      }
+    ],
+    "roleset_name_trans": "忽略，留下"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "pass_up.13",
+    "roleset_name": "relinquish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity relinquishing one item",
+        "descr_trans": "实体放弃一件物品"
+      },
+      {
+        "n": "1",
+        "descr": "item relinquished",
+        "descr_trans": "放弃的物品"
+      },
+      {
+        "n": "2",
+        "descr": "in favor of another",
+        "descr_trans": "有利于另一个人"
+      }
+    ],
+    "roleset_name_trans": "放弃"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "come_to_pass.23",
+    "roleset_name": "occur, perhaps as foretold",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "发生，也许正如预言的那样"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "give_pass.24",
+    "roleset_name": "ignore or forgive an offense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of pass; forgiver",
+        "descr_trans": "通行证授予者；宽恕者"
+      },
+      {
+        "n": "1",
+        "descr": "entity forgiven, given a pass",
+        "descr_trans": "实体被宽恕，获得通行证"
+      },
+      {
+        "n": "2",
+        "descr": "offense ignored",
+        "descr_trans": "冒犯被忽视"
+      }
+    ],
+    "roleset_name_trans": "忽略或原谅冒犯"
+  }
 ]

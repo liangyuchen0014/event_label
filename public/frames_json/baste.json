@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "baste.01",
-        "roleset_name": "moisten periodically with liquid while cooking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, chef"
-            },
-            {
-                "n": "1",
-                "descr": "thing being moistened"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "baste.02",
-        "roleset_name": "strike violently and repeatedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person doing the hitting"
-            },
-            {
-                "n": "1",
-                "descr": "patient, person being hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "baste.03",
-        "roleset_name": "stitch together loosely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, stitcher"
-            },
-            {
-                "n": "1",
-                "descr": "patient 1 (or all patients), thing(s) being stitched"
-            },
-            {
-                "n": "2",
-                "descr": "patient 2, thing being stitched to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "baste.01",
+    "roleset_name": "moisten periodically with liquid while cooking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, chef",
+        "descr_trans": "代理人、领导者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being moistened",
+        "descr_trans": "被弄湿的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "烹饪时定期用液体润湿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "baste.02",
+    "roleset_name": "strike violently and repeatedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person doing the hitting",
+        "descr_trans": "代理人，打人的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, person being hit",
+        "descr_trans": "病人，被击中的人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "反复猛烈打击"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "baste.03",
+    "roleset_name": "stitch together loosely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, stitcher",
+        "descr_trans": "代理、缝合员"
+      },
+      {
+        "n": "1",
+        "descr": "patient 1 (or all patients), thing(s) being stitched",
+        "descr_trans": "患者 1（或所有患者），正在缝合的东西"
+      },
+      {
+        "n": "2",
+        "descr": "patient 2, thing being stitched to",
+        "descr_trans": "病人2，正在缝合的东西"
+      }
+    ],
+    "roleset_name_trans": "松散地缝合在一起"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jabber.01",
-        "roleset_name": "rant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, sound"
-            },
-            {
-                "n": "2",
-                "descr": "listener, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jabber.01",
+    "roleset_name": "rant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, sound",
+        "descr_trans": "话语、声音"
+      },
+      {
+        "n": "2",
+        "descr": "listener, recipient",
+        "descr_trans": "听者、接受者"
+      }
+    ],
+    "roleset_name_trans": "咆哮"
+  }
 ]

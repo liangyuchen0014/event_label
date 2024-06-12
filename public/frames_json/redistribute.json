@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redistribute.01",
-        "roleset_name": "to distribute again in a different way",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity redistributed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redistribute.01",
+    "roleset_name": "to distribute again in a different way",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor, agent",
+        "descr_trans": "经销商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity redistributed",
+        "descr_trans": "实体重新分配"
+      }
+    ],
+    "roleset_name_trans": "以不同的方式再次分配"
+  }
 ]

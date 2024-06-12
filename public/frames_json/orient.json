@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "orient.01",
-        "roleset_name": "adjust or focus on; position so that the axes of the object have some relation to the axes of the space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity oriented"
-            },
-            {
-                "n": "2",
-                "descr": "oriented towards"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect/part of arg1 adjusted in relation to arg2"
-            },
-            {
-                "n": "4",
-                "descr": "orientation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "orient.01",
+    "roleset_name": "adjust or focus on; position so that the axes of the object have some relation to the axes of the space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity oriented",
+        "descr_trans": "面向实体"
+      },
+      {
+        "n": "2",
+        "descr": "oriented towards",
+        "descr_trans": "面向"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect/part of arg1 adjusted in relation to arg2",
+        "descr_trans": "arg1 的特定方面/部分相对于 arg2 进行了调整"
+      },
+      {
+        "n": "4",
+        "descr": "orientation",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "调整或专注于；位置使得物体的轴与空间的轴有一定的关系"
+  }
 ]

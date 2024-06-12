@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "circumduct.01",
-        "roleset_name": "move a body part in a conical motion (e.g. windmilling the arms, rolling the eyes)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "body part moving conically"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "circumduct.01",
+    "roleset_name": "move a body part in a conical motion (e.g. windmilling the arms, rolling the eyes)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "body part moving conically",
+        "descr_trans": "身体部位呈圆锥形运动"
+      }
+    ],
+    "roleset_name_trans": "以圆锥形运动移动身体部位（例如，手臂风车转动、转动眼睛）"
+  }
 ]

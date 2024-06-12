@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "osmoregulate.01",
-        "roleset_name": "regulation of osmotic pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "organism"
-            },
-            {
-                "n": "1",
-                "descr": "environment osmoregulated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument/method of osmoregulation "
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "osmoregulate.01",
+    "roleset_name": "regulation of osmotic pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "organism",
+        "descr_trans": "生物"
+      },
+      {
+        "n": "1",
+        "descr": "environment osmoregulated",
+        "descr_trans": "环境渗透调节"
+      },
+      {
+        "n": "2",
+        "descr": "instrument/method of osmoregulation ",
+        "descr_trans": "渗透压调节仪器/方法"
+      }
+    ],
+    "roleset_name_trans": "渗透压的调节"
+  }
 ]

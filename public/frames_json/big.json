@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "big.01",
-        "roleset_name": "generally large",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "large entity"
-            },
-            {
-                "n": "2",
-                "descr": "contents filling up arg1"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            },
-            {
-                "n": "4",
-                "descr": "scale: big for what"
-            },
-            {
-                "n": "5",
-                "descr": "domain; dimension measured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "big.02",
-        "roleset_name": "magnanimous, generous",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "magnanimous"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "big.03",
-        "roleset_name": "trendy, important",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "trendy, important entity"
-            },
-            {
-                "n": "2",
-                "descr": "group holding arg1 as important"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "big.01",
+    "roleset_name": "generally large",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "large entity",
+        "descr_trans": "大型实体"
+      },
+      {
+        "n": "2",
+        "descr": "contents filling up arg1",
+        "descr_trans": "内容填充arg1"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      },
+      {
+        "n": "4",
+        "descr": "scale: big for what",
+        "descr_trans": "规模：大做什么"
+      },
+      {
+        "n": "5",
+        "descr": "domain; dimension measured",
+        "descr_trans": "领域;测量尺寸"
+      }
+    ],
+    "roleset_name_trans": "一般大"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "big.02",
+    "roleset_name": "magnanimous, generous",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "magnanimous",
+        "descr_trans": "坦荡"
+      }
+    ],
+    "roleset_name_trans": "宽宏大量的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "big.03",
+    "roleset_name": "trendy, important",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "trendy, important entity",
+        "descr_trans": "时尚、重要的实体"
+      },
+      {
+        "n": "2",
+        "descr": "group holding arg1 as important",
+        "descr_trans": "持有 arg1 的组同样重要"
+      }
+    ],
+    "roleset_name_trans": "时尚、重要"
+  }
 ]

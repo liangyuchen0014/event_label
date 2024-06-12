@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backhand.01",
-        "roleset_name": "projectile sports swing style",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player"
-            },
-            {
-                "n": "1",
-                "descr": "the shot"
-            },
-            {
-                "n": "2",
-                "descr": "projectile projected (puck, ball, etc.)"
-            },
-            {
-                "n": "3",
-                "descr": "implement (racket, club, etc.)"
-            },
-            {
-                "n": "4",
-                "descr": "recipient/destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "backhand.02",
-        "roleset_name": "violent strike against an opponent (includes striking with the hand, but also swordplay, and metaphorical usage)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assaulter"
-            },
-            {
-                "n": "1",
-                "descr": "the blow"
-            },
-            {
-                "n": "2",
-                "descr": "victim"
-            },
-            {
-                "n": "3",
-                "descr": "weapon (including hand)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "backhanded.03",
-        "roleset_name": "sarcastic, insincere, even spiteful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sarcastic entity"
-            },
-            {
-                "n": "1",
-                "descr": "spiteful comment or action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backhand.01",
+    "roleset_name": "projectile sports swing style",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "the shot",
+        "descr_trans": "镜头"
+      },
+      {
+        "n": "2",
+        "descr": "projectile projected (puck, ball, etc.)",
+        "descr_trans": "投射物（冰球、球等）"
+      },
+      {
+        "n": "3",
+        "descr": "implement (racket, club, etc.)",
+        "descr_trans": "工具（球拍、球杆等）"
+      },
+      {
+        "n": "4",
+        "descr": "recipient/destination",
+        "descr_trans": "收件人/目的地"
+      }
+    ],
+    "roleset_name_trans": "抛射运动挥杆风格"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "backhand.02",
+    "roleset_name": "violent strike against an opponent (includes striking with the hand, but also swordplay, and metaphorical usage)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assaulter",
+        "descr_trans": "突击者"
+      },
+      {
+        "n": "1",
+        "descr": "the blow",
+        "descr_trans": "打击"
+      },
+      {
+        "n": "2",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "3",
+        "descr": "weapon (including hand)",
+        "descr_trans": "武器（包括手）"
+      }
+    ],
+    "roleset_name_trans": "对对手的猛烈打击（包括用手击打，也包括剑术和隐喻用法）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "backhanded.03",
+    "roleset_name": "sarcastic, insincere, even spiteful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sarcastic entity",
+        "descr_trans": "讽刺实体"
+      },
+      {
+        "n": "1",
+        "descr": "spiteful comment or action",
+        "descr_trans": "恶意的评论或行为"
+      }
+    ],
+    "roleset_name_trans": "讽刺、不真诚、甚至恶意"
+  }
 ]

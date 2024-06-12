@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "auscultate.01",
-        "roleset_name": "listen to internal organs using a stethoscope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "listener"
-            },
-            {
-                "n": "1",
-                "descr": "listened to (sound/organ/patient)"
-            },
-            {
-                "n": "2",
-                "descr": "results (what the auscultation demonstrates)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "auscultate.01",
+    "roleset_name": "listen to internal organs using a stethoscope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "listener",
+        "descr_trans": "听众"
+      },
+      {
+        "n": "1",
+        "descr": "listened to (sound/organ/patient)",
+        "descr_trans": "聆听（声音/器官/患者）"
+      },
+      {
+        "n": "2",
+        "descr": "results (what the auscultation demonstrates)",
+        "descr_trans": "结果（听诊显示的内容）"
+      }
+    ],
+    "roleset_name_trans": "用听诊器听内脏器官的声音"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "annotate.01",
-        "roleset_name": "to supply with notes, comment upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "commentor"
-            },
-            {
-                "n": "1",
-                "descr": "thing commented on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "annotate.01",
+    "roleset_name": "to supply with notes, comment upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "commentor",
+        "descr_trans": "评论员"
+      },
+      {
+        "n": "1",
+        "descr": "thing commented on",
+        "descr_trans": "评论的事情"
+      }
+    ],
+    "roleset_name_trans": "提供注释、评论"
+  }
 ]

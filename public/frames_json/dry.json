@@ -1,118 +1,141 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dry.02",
-        "roleset_name": "(cause to) lose moisture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of dryness"
-            },
-            {
-                "n": "1",
-                "descr": "moistureless thing"
-            },
-            {
-                "n": "2",
-                "descr": "liquid/moisture that is lacking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dry.04",
-        "roleset_name": "lacking adornment, emotion, warmth",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unadorned thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dry.05",
-        "roleset_name": "containing low residual sugar (as of wine)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing low in residual sugar"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "dry.06",
-        "roleset_name": "containing much strong liquor",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "strong drink"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "dry.07",
-        "roleset_name": "abstaining from/prohibiting alcohol",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "location/entity abstaining"
-            },
-            {
-                "n": "2",
-                "descr": "mention of alcohol"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "dry.08",
-        "roleset_name": " lacking moisture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of dryness"
-            },
-            {
-                "n": "1",
-                "descr": "moistureless thing"
-            },
-            {
-                "n": "2",
-                "descr": "liquid/moisture that is lacking"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "dry_up.01",
-        "roleset_name": "to make or become unproductive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing unproductivity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity dried up"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "dry_out.03",
-        "roleset_name": "(cause to) become less moist",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause, dry-er"
-            },
-            {
-                "n": "1",
-                "descr": "thing losing moisture"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dry.02",
+    "roleset_name": "(cause to) lose moisture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of dryness",
+        "descr_trans": "干燥的原因"
+      },
+      {
+        "n": "1",
+        "descr": "moistureless thing",
+        "descr_trans": "无水分的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid/moisture that is lacking",
+        "descr_trans": "缺乏液体/水分"
+      }
+    ],
+    "roleset_name_trans": "（导致）失去水分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dry.04",
+    "roleset_name": "lacking adornment, emotion, warmth",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unadorned thing",
+        "descr_trans": "朴素的东西"
+      }
+    ],
+    "roleset_name_trans": "缺乏装饰、情感、温暖"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dry.05",
+    "roleset_name": "containing low residual sugar (as of wine)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing low in residual sugar",
+        "descr_trans": "残糖低的东西"
+      }
+    ],
+    "roleset_name_trans": "含有低残留糖分（如葡萄酒）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "dry.06",
+    "roleset_name": "containing much strong liquor",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "strong drink",
+        "descr_trans": "烈酒"
+      }
+    ],
+    "roleset_name_trans": "含有大量烈酒"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "dry.07",
+    "roleset_name": "abstaining from/prohibiting alcohol",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "location/entity abstaining",
+        "descr_trans": "地点/实体弃权"
+      },
+      {
+        "n": "2",
+        "descr": "mention of alcohol",
+        "descr_trans": "提及酒精"
+      }
+    ],
+    "roleset_name_trans": "戒酒/禁止饮酒"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "dry.08",
+    "roleset_name": " lacking moisture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of dryness",
+        "descr_trans": "干燥的原因"
+      },
+      {
+        "n": "1",
+        "descr": "moistureless thing",
+        "descr_trans": "无水分的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid/moisture that is lacking",
+        "descr_trans": "缺乏液体/水分"
+      }
+    ],
+    "roleset_name_trans": "缺乏水分"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "dry_up.01",
+    "roleset_name": "to make or become unproductive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing unproductivity, agent",
+        "descr_trans": "导致生产力低下的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity dried up",
+        "descr_trans": "实体枯竭"
+      }
+    ],
+    "roleset_name_trans": "使生产力低下或变得生产力低下"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "dry_out.03",
+    "roleset_name": "(cause to) become less moist",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause, dry-er",
+        "descr_trans": "媒介或原因，干燥剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing losing moisture",
+        "descr_trans": "失去水分的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得不那么湿润"
+  }
 ]

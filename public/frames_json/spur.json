@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spur.01",
-        "roleset_name": "cause an increase (in interest, etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent is also present"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spur.01",
+    "roleset_name": "cause an increase (in interest, etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase, agent",
+        "descr_trans": "增加原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent is also present",
+        "descr_trans": "仪器（如果代理人也在场）"
+      }
+    ],
+    "roleset_name_trans": "导致（利息等）增加"
+  }
 ]

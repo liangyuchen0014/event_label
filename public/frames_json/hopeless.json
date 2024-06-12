@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hopeless.01",
-        "roleset_name": "not feeling hope",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity not feeling hope"
-            },
-            {
-                "n": "2",
-                "descr": "activity, issue that arg0 has no hope for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hopeless.02",
-        "roleset_name": "not at all skilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "non-skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hopeless.01",
+    "roleset_name": "not feeling hope",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity not feeling hope",
+        "descr_trans": "实体感觉不到希望"
+      },
+      {
+        "n": "2",
+        "descr": "activity, issue that arg0 has no hope for",
+        "descr_trans": "arg0 不希望出现的活动、问题"
+      }
+    ],
+    "roleset_name_trans": "没有感到希望"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hopeless.02",
+    "roleset_name": "not at all skilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "non-skilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "一点也不擅长"
+  }
 ]

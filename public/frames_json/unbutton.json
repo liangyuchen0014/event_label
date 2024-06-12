@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unbutton.01",
-        "roleset_name": "unbutton",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unbuttoner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unbuttoned, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unbuttoned from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unbutton.01",
+    "roleset_name": "unbutton",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unbuttoner, agent",
+        "descr_trans": "解扣员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing unbuttoned, patient",
+        "descr_trans": "解开扣子的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unbuttoned from, source",
+        "descr_trans": "解开源头"
+      }
+    ],
+    "roleset_name_trans": "解开"
+  }
 ]

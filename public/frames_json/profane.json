@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "profane.01",
-        "roleset_name": "desecrate, corrupt, make profane",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, desecrator"
-            },
-            {
-                "n": "1",
-                "descr": "desecrated entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if in addition to arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "profane.01",
+    "roleset_name": "desecrate, corrupt, make profane",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, desecrator",
+        "descr_trans": "代理人、亵渎者"
+      },
+      {
+        "n": "1",
+        "descr": "desecrated entity",
+        "descr_trans": "被亵渎的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if in addition to arg0)",
+        "descr_trans": "仪器（如果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "亵渎、腐败、亵渎"
+  }
 ]

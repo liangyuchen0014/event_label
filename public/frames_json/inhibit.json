@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inhibit.01",
-        "roleset_name": "to restrain, suppress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inhibitor"
-            },
-            {
-                "n": "1",
-                "descr": "entity inhibited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inhibit.01",
+    "roleset_name": "to restrain, suppress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inhibitor",
+        "descr_trans": "抑制剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity inhibited",
+        "descr_trans": "实体被抑制"
+      }
+    ],
+    "roleset_name_trans": "抑制，抑制"
+  }
 ]

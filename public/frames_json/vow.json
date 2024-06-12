@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vow.01",
-        "roleset_name": "to promise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "promiser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "promised action"
-            },
-            {
-                "n": "2",
-                "descr": "promised to whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vow.01",
+    "roleset_name": "to promise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "promiser, agent",
+        "descr_trans": "承诺者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "promised action",
+        "descr_trans": "承诺的行动"
+      },
+      {
+        "n": "2",
+        "descr": "promised to whom?",
+        "descr_trans": "答应给谁？"
+      }
+    ],
+    "roleset_name_trans": "承诺"
+  }
 ]

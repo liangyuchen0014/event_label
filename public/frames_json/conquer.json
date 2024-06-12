@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conquer.01",
-        "roleset_name": "to gain control of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conquering hero, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity conquered, spoils (if unclear whether the spoils or the loser, use this arg)"
-            },
-            {
-                "n": "2",
-                "descr": "defeated entity; loser; former owner of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conquer.01",
+    "roleset_name": "to gain control of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conquering hero, agent",
+        "descr_trans": "征服英雄、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity conquered, spoils (if unclear whether the spoils or the loser, use this arg)",
+        "descr_trans": "实体被征服，战利品（如果不清楚是战利品还是失败者，请使用此参数）"
+      },
+      {
+        "n": "2",
+        "descr": "defeated entity; loser; former owner of arg1",
+        "descr_trans": "被击败的实体；失败者; arg1 的前所有者"
+      }
+    ],
+    "roleset_name_trans": "获得控制权"
+  }
 ]

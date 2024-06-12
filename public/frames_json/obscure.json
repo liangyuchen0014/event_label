@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "obscure.01",
-        "roleset_name": "to make dim or indistinct, to conceal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity obscured"
-            },
-            {
-                "n": "2",
-                "descr": "obscured from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "obscure.02",
-        "roleset_name": "be indistinct, concealed, dimmed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity obscured"
-            },
-            {
-                "n": "2",
-                "descr": "obscured from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "obscure.01",
+    "roleset_name": "to make dim or indistinct, to conceal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity obscured",
+        "descr_trans": "实体被遮蔽"
+      },
+      {
+        "n": "2",
+        "descr": "obscured from",
+        "descr_trans": "被遮蔽"
+      }
+    ],
+    "roleset_name_trans": "使模糊或模糊，隐藏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "obscure.02",
+    "roleset_name": "be indistinct, concealed, dimmed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity obscured",
+        "descr_trans": "实体被遮蔽"
+      },
+      {
+        "n": "2",
+        "descr": "obscured from",
+        "descr_trans": "被遮蔽"
+      }
+    ],
+    "roleset_name_trans": "模糊的、隐蔽的、暗淡的"
+  }
 ]

@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "justify.01",
-        "roleset_name": "show to be right, valid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "justifier"
-            },
-            {
-                "n": "1",
-                "descr": "decision or attitude being shown to be right"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive, justified to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "just.02",
-        "roleset_name": "ethically/morally fair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of fair actions"
-            },
-            {
-                "n": "1",
-                "descr": "fair actions"
-            },
-            {
-                "n": "2",
-                "descr": "target of fair behavior, beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "justify.01",
+    "roleset_name": "show to be right, valid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "justifier",
+        "descr_trans": "证明合法"
+      },
+      {
+        "n": "1",
+        "descr": "decision or attitude being shown to be right",
+        "descr_trans": "决定或态度被证明是正确的"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive, justified to",
+        "descr_trans": "有益的，有道理的"
+      }
+    ],
+    "roleset_name_trans": "证明是正确的、有效的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "just.02",
+    "roleset_name": "ethically/morally fair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of fair actions",
+        "descr_trans": "公平行动的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "fair actions",
+        "descr_trans": "公平行动"
+      },
+      {
+        "n": "2",
+        "descr": "target of fair behavior, beneficiary",
+        "descr_trans": "公平行为的目标、受益人"
+      }
+    ],
+    "roleset_name_trans": "伦理/道德上公平"
+  }
 ]

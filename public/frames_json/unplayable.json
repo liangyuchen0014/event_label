@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unplayable.01",
-        "roleset_name": "game play: not able to be played",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Player"
-            },
-            {
-                "n": "1",
-                "descr": "Game that can't be played"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used to play game (or not)"
-            },
-            {
-                "n": "3",
-                "descr": "opponent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unplayable.02",
-        "roleset_name": "not able to be performed, musically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "musician"
-            },
-            {
-                "n": "1",
-                "descr": "piece performed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "unplayable.03",
-        "roleset_name": "role not able to be played, theatrically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Actor"
-            },
-            {
-                "n": "1",
-                "descr": "role"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unplayable.01",
+    "roleset_name": "game play: not able to be played",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "Game that can't be played",
+        "descr_trans": "不能玩的游戏"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used to play game (or not)",
+        "descr_trans": "用于玩游戏（或不玩游戏）的乐器"
+      },
+      {
+        "n": "3",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "游戏玩法： 无法玩"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unplayable.02",
+    "roleset_name": "not able to be performed, musically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "musician",
+        "descr_trans": "音乐家"
+      },
+      {
+        "n": "1",
+        "descr": "piece performed",
+        "descr_trans": "演奏的作品"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "无法在音乐上表演"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "unplayable.03",
+    "roleset_name": "role not able to be played, theatrically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Actor",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "role",
+        "descr_trans": "角色"
+      }
+    ],
+    "roleset_name_trans": "无法扮演的角色，戏剧性的"
+  }
 ]

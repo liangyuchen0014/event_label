@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hydrolyze.01",
-        "roleset_name": "break a chemical bond using water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of hydrolysis (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing hydrolysis (e.g. small molecule)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. enzyme)"
-            },
-            {
-                "n": "3",
-                "descr": "result of hydrolysis (e.g. small molecule)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hydrolyze.01",
+    "roleset_name": "break a chemical bond using water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of hydrolysis (e.g. scientist)",
+        "descr_trans": "水解剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing hydrolysis (e.g. small molecule)",
+        "descr_trans": "经历水解的实体（例如小分子）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. enzyme)",
+        "descr_trans": "仪器（例如酶）"
+      },
+      {
+        "n": "3",
+        "descr": "result of hydrolysis (e.g. small molecule)",
+        "descr_trans": "水解的结果（例如小分子）"
+      }
+    ],
+    "roleset_name_trans": "用水打破化学键"
+  }
 ]

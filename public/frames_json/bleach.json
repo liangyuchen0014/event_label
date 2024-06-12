@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bleach.01",
-        "roleset_name": "whiten or blanch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, bleacher"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing made lighter"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bleach.01",
+    "roleset_name": "whiten or blanch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, bleacher",
+        "descr_trans": "代理、看台"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing made lighter",
+        "descr_trans": "耐心，事情变得更轻松"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变白或漂白"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smell.01",
-        "roleset_name": "notice an odor, act of smelling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with a nose"
-            },
-            {
-                "n": "1",
-                "descr": "stinky thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smell.02",
-        "roleset_name": "emit an odor",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stinky thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smell.01",
+    "roleset_name": "notice an odor, act of smelling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with a nose",
+        "descr_trans": "有鼻子的实体"
+      },
+      {
+        "n": "1",
+        "descr": "stinky thing",
+        "descr_trans": "臭东西"
+      }
+    ],
+    "roleset_name_trans": "注意到气味，闻气味的行为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smell.02",
+    "roleset_name": "emit an odor",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stinky thing",
+        "descr_trans": "臭东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "散发出气味"
+  }
 ]

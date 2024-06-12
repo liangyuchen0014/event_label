@@ -1,146 +1,176 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "line.01",
-        "roleset_name": "provide a lining, accompany in line-like fashion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing lined"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, lining proper"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "line.03",
-        "roleset_name": "puts lines on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter of lines"
-            },
-            {
-                "n": "1",
-                "descr": "thing with lines"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "line_up.02",
-        "roleset_name": "stand in line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "things in a line"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "in_line.04",
-        "roleset_name": "follow policies, be in accordance with something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "follower of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "action done"
-            },
-            {
-                "n": "2",
-                "descr": "regulations, procedure, or expectations accorded with"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "out_of_line.05",
-        "roleset_name": "be improper, or in a state of exceeding limits or expectations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "improper entity"
-            },
-            {
-                "n": "1",
-                "descr": "improper action"
-            },
-            {
-                "n": "2",
-                "descr": "what was expected, proper"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "draw_line.07",
-        "roleset_name": "create an abstract boundary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boundary enforcer"
-            },
-            {
-                "n": "1",
-                "descr": "characteristic of the line"
-            },
-            {
-                "n": "2",
-                "descr": "first (or all) things on one (or both, if together) side of boundary"
-            },
-            {
-                "n": "3",
-                "descr": "thing on other side of boundary, if separate"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "toe_line.08",
-        "roleset_name": "comply with regulations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "compliant entity"
-            },
-            {
-                "n": "1",
-                "descr": "compliance with what"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "read_between_lines.09",
-        "roleset_name": "understand implicit information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reader, agent inferring something"
-            },
-            {
-                "n": "1",
-                "descr": "new belief, implicit thing"
-            },
-            {
-                "n": "2",
-                "descr": "source interpreted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "line.01",
+    "roleset_name": "provide a lining, accompany in line-like fashion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent only!",
+        "descr_trans": "仅限代理！"
+      },
+      {
+        "n": "1",
+        "descr": "thing lined",
+        "descr_trans": "东西排列"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, lining proper",
+        "descr_trans": "仪器，衬里适当"
+      }
+    ],
+    "roleset_name_trans": "提供衬里，以线条般的方式陪伴"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "line.03",
+    "roleset_name": "puts lines on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter of lines",
+        "descr_trans": "推杆线"
+      },
+      {
+        "n": "1",
+        "descr": "thing with lines",
+        "descr_trans": "有线条的东西"
+      }
+    ],
+    "roleset_name_trans": "放上线"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "line_up.02",
+    "roleset_name": "stand in line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "things in a line",
+        "descr_trans": "排成一行的东西"
+      }
+    ],
+    "roleset_name_trans": "排队"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "in_line.04",
+    "roleset_name": "follow policies, be in accordance with something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "follower of procedure",
+        "descr_trans": "程序的追随者"
+      },
+      {
+        "n": "1",
+        "descr": "action done",
+        "descr_trans": "行动已完成"
+      },
+      {
+        "n": "2",
+        "descr": "regulations, procedure, or expectations accorded with",
+        "descr_trans": "符合的法规、程序或期望"
+      }
+    ],
+    "roleset_name_trans": "遵循政策，符合某事"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "out_of_line.05",
+    "roleset_name": "be improper, or in a state of exceeding limits or expectations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "improper entity",
+        "descr_trans": "不正当实体"
+      },
+      {
+        "n": "1",
+        "descr": "improper action",
+        "descr_trans": "不当行为"
+      },
+      {
+        "n": "2",
+        "descr": "what was expected, proper",
+        "descr_trans": "预期的，正确的"
+      }
+    ],
+    "roleset_name_trans": "不适当，或处于超出限制或期望的状态"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "draw_line.07",
+    "roleset_name": "create an abstract boundary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boundary enforcer",
+        "descr_trans": "边界执行者"
+      },
+      {
+        "n": "1",
+        "descr": "characteristic of the line",
+        "descr_trans": "线的特征"
+      },
+      {
+        "n": "2",
+        "descr": "first (or all) things on one (or both, if together) side of boundary",
+        "descr_trans": "边界一侧（或两侧，如果在一起）上的第一个（或所有）事物"
+      },
+      {
+        "n": "3",
+        "descr": "thing on other side of boundary, if separate",
+        "descr_trans": "边界另一侧的事物（如果分开）"
+      }
+    ],
+    "roleset_name_trans": "创建一个抽象的边界"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "toe_line.08",
+    "roleset_name": "comply with regulations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "compliant entity",
+        "descr_trans": "合规实体"
+      },
+      {
+        "n": "1",
+        "descr": "compliance with what",
+        "descr_trans": "遵守什么"
+      }
+    ],
+    "roleset_name_trans": "遵守规定"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "read_between_lines.09",
+    "roleset_name": "understand implicit information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reader, agent inferring something",
+        "descr_trans": "读者，代理人推断某事"
+      },
+      {
+        "n": "1",
+        "descr": "new belief, implicit thing",
+        "descr_trans": "新的信念，隐含的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source interpreted",
+        "descr_trans": "来源解释"
+      }
+    ],
+    "roleset_name_trans": "理解隐含信息"
+  }
 ]

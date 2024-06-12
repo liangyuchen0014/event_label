@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrill.01",
-        "roleset_name": "excite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of excitement"
-            },
-            {
-                "n": "1",
-                "descr": "excited entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thrill.02",
-        "roleset_name": "prepositional usage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "excited entity"
-            },
-            {
-                "n": "1",
-                "descr": "cause of excitement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrill.01",
+    "roleset_name": "excite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of excitement",
+        "descr_trans": "兴奋的原因"
+      },
+      {
+        "n": "1",
+        "descr": "excited entity",
+        "descr_trans": "兴奋的实体"
+      }
+    ],
+    "roleset_name_trans": "激发"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thrill.02",
+    "roleset_name": "prepositional usage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "excited entity",
+        "descr_trans": "兴奋的实体"
+      },
+      {
+        "n": "1",
+        "descr": "cause of excitement",
+        "descr_trans": "兴奋的原因"
+      }
+    ],
+    "roleset_name_trans": "介词用法"
+  }
 ]

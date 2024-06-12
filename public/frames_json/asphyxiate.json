@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "asphyxiate.01",
-        "roleset_name": "(cause to) not be able to breathe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of not breathing"
-            },
-            {
-                "n": "1",
-                "descr": "entity not breathing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if cause also present as arg0"
-            },
-            {
-                "n": "3",
-                "descr": "aspect of arg1 actually suffocating"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "asphyxiate.01",
+    "roleset_name": "(cause to) not be able to breathe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of not breathing",
+        "descr_trans": "不呼吸的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not breathing",
+        "descr_trans": "实体没有呼吸"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if cause also present as arg0",
+        "descr_trans": "仪器，如果原因也以 arg0 形式出现"
+      },
+      {
+        "n": "3",
+        "descr": "aspect of arg1 actually suffocating",
+        "descr_trans": "arg1 的方面实际上令人窒息"
+      }
+    ],
+    "roleset_name_trans": "（导致）无法呼吸"
+  }
 ]

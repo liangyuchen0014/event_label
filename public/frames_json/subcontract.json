@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subcontract.01",
-        "roleset_name": "send out part of a job",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer, entity with big job"
-            },
-            {
-                "n": "1",
-                "descr": "(part of) job"
-            },
-            {
-                "n": "2",
-                "descr": "subcontractor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subcontract.01",
+    "roleset_name": "send out part of a job",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer, entity with big job",
+        "descr_trans": "雇主，有大工作的实体"
+      },
+      {
+        "n": "1",
+        "descr": "(part of) job",
+        "descr_trans": "（部分）工作"
+      },
+      {
+        "n": "2",
+        "descr": "subcontractor",
+        "descr_trans": "分包商"
+      }
+    ],
+    "roleset_name_trans": "发送部分作业"
+  }
 ]

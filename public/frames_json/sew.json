@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sew.01",
-        "roleset_name": "attach with thread",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing being sewn"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thread"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1, end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sew.02",
-        "roleset_name": "create clothes by sewing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sew_up.03",
-        "roleset_name": "make secure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making something secure"
-            },
-            {
-                "n": "1",
-                "descr": "thing made secure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sew.01",
+    "roleset_name": "attach with thread",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing being sewn",
+        "descr_trans": "病人，正在缝制的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thread",
+        "descr_trans": "仪器、线"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1, end state",
+        "descr_trans": "arg1 的属性，结束状态"
+      }
+    ],
+    "roleset_name_trans": "用线连接"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sew.02",
+    "roleset_name": "create clothes by sewing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过缝纫制作衣服"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sew_up.03",
+    "roleset_name": "make secure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making something secure",
+        "descr_trans": "使某物安全的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing made secure",
+        "descr_trans": "安全的事情"
+      }
+    ],
+    "roleset_name_trans": "确保安全"
+  }
 ]

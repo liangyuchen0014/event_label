@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elute.01",
-        "roleset_name": "extract or wash one material from another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent; causer of extraction"
-            },
-            {
-                "n": "1",
-                "descr": "thing extracted"
-            },
-            {
-                "n": "2",
-                "descr": "extracted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elute.01",
+    "roleset_name": "extract or wash one material from another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent; causer of extraction",
+        "descr_trans": "代理人;提取的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing extracted",
+        "descr_trans": "提取的东西"
+      },
+      {
+        "n": "2",
+        "descr": "extracted from",
+        "descr_trans": "摘自"
+      }
+    ],
+    "roleset_name_trans": "从另一种材料中提取或清洗一种材料"
+  }
 ]

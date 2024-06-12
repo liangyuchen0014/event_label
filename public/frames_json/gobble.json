@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gobble.01",
-        "roleset_name": "eat voraciously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gobble.02",
-        "roleset_name": "make like a turkey",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turkey"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gobble_up.03",
-        "roleset_name": "eat voraciously and completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gobble.01",
+    "roleset_name": "eat voraciously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "狼吞虎咽地吃"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gobble.02",
+    "roleset_name": "make like a turkey",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turkey",
+        "descr_trans": "火鸡"
+      }
+    ],
+    "roleset_name_trans": "像火鸡一样"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gobble_up.03",
+    "roleset_name": "eat voraciously and completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "狼吞虎咽地吃"
+  }
 ]

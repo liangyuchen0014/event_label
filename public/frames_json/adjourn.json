@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adjourn.01",
-        "roleset_name": "(bring to a) close",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "closer, adjourner"
-            },
-            {
-                "n": "1",
-                "descr": "thing closed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "adjourn.02",
-        "roleset_name": "go from one location to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adjourn.01",
+    "roleset_name": "(bring to a) close",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "closer, adjourner",
+        "descr_trans": "更近的，休会的"
+      },
+      {
+        "n": "1",
+        "descr": "thing closed",
+        "descr_trans": "东西关闭了"
+      }
+    ],
+    "roleset_name_trans": "（煞"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "adjourn.02",
+    "roleset_name": "go from one location to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "从一个地点到另一个地点"
+  }
 ]

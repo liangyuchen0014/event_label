@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swarm.01",
-        "roleset_name": "move chaotically in a group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the swarmer"
-            },
-            {
-                "n": "1",
-                "descr": "location/source of swarming"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swarm.01",
+    "roleset_name": "move chaotically in a group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the swarmer",
+        "descr_trans": "蜂群"
+      },
+      {
+        "n": "1",
+        "descr": "location/source of swarming",
+        "descr_trans": "蜂群的位置/来源"
+      }
+    ],
+    "roleset_name_trans": "在群体中混乱地移动"
+  }
 ]

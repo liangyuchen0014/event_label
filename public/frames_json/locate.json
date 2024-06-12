@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "locate.01",
-        "roleset_name": "(cause to) be located in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of location"
-            },
-            {
-                "n": "1",
-                "descr": "institution, thing located"
-            },
-            {
-                "n": "M",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "locate.02",
-        "roleset_name": "find",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "locate.01",
+    "roleset_name": "(cause to) be located in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of location",
+        "descr_trans": "位置的原因"
+      },
+      {
+        "n": "1",
+        "descr": "institution, thing located",
+        "descr_trans": "机构，位于的事物"
+      },
+      {
+        "n": "M",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "（导致）位于"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "locate.02",
+    "roleset_name": "find",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      }
+    ],
+    "roleset_name_trans": "寻找"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonunification.01",
-        "roleset_name": "absence of joining into a whole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) entities joined"
-            },
-            {
-                "n": "2",
-                "descr": "second entity joined"
-            },
-            {
-                "n": "3",
-                "descr": "unified whole"
-            },
-            {
-                "n": "4",
-                "descr": "specific aspect of args1/2 being unified (if in addition)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonunification.01",
+    "roleset_name": "absence of joining into a whole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) entities joined",
+        "descr_trans": "第一个（或所有）实体加入"
+      },
+      {
+        "n": "2",
+        "descr": "second entity joined",
+        "descr_trans": "第二个实体加入"
+      },
+      {
+        "n": "3",
+        "descr": "unified whole",
+        "descr_trans": "统一整体"
+      },
+      {
+        "n": "4",
+        "descr": "specific aspect of args1/2 being unified (if in addition)",
+        "descr_trans": "args1/2 统一的具体方面（如果另外）"
+      }
+    ],
+    "roleset_name_trans": "没有连成一个整体"
+  }
 ]

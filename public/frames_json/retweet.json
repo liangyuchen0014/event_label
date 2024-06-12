@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retweet.01",
-        "roleset_name": "reposting of a tweet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tweet-er, repost-er"
-            },
-            {
-                "n": "1",
-                "descr": "message"
-            },
-            {
-                "n": "2",
-                "descr": "posted to; either audience or blog/board"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retweet.01",
+    "roleset_name": "reposting of a tweet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tweet-er, repost-er",
+        "descr_trans": "推文、转发"
+      },
+      {
+        "n": "1",
+        "descr": "message",
+        "descr_trans": "信息"
+      },
+      {
+        "n": "2",
+        "descr": "posted to; either audience or blog/board",
+        "descr_trans": "发布到；观众或博客/论坛"
+      }
+    ],
+    "roleset_name_trans": "转发推文"
+  }
 ]

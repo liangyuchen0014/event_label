@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forgo.01",
-        "roleset_name": "go without",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity going without"
-            },
-            {
-                "n": "1",
-                "descr": "thing given up or avoided"
-            },
-            {
-                "n": "2",
-                "descr": "in exchange for"
-            },
-            {
-                "n": "3",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "forgo.02",
-        "roleset_name": "go before someone or something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing going before"
-            },
-            {
-                "n": "2",
-                "descr": "thing going after"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forgo.01",
+    "roleset_name": "go without",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity going without",
+        "descr_trans": "实体没有"
+      },
+      {
+        "n": "1",
+        "descr": "thing given up or avoided",
+        "descr_trans": "放弃或避免的事情"
+      },
+      {
+        "n": "2",
+        "descr": "in exchange for",
+        "descr_trans": "换来的"
+      },
+      {
+        "n": "3",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "没有"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "forgo.02",
+    "roleset_name": "go before someone or something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing going before",
+        "descr_trans": "之前发生的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing going after",
+        "descr_trans": "后续的事情"
+      }
+    ],
+    "roleset_name_trans": "走在某人或某物之前"
+  }
 ]

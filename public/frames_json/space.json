@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "space.01",
-        "roleset_name": "place things with space in between",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "how far apart, amount of space in between"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "space.02",
-        "roleset_name": "forget about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forgetter"
-            },
-            {
-                "n": "1",
-                "descr": "thing forgotten about"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "space.03",
-        "roleset_name": "span a distance (not areas/places)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "time, distance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "space.01",
+    "roleset_name": "place things with space in between",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter, agent",
+        "descr_trans": "推杆, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "how far apart, amount of space in between",
+        "descr_trans": "相距多远，之间的空间大小"
+      }
+    ],
+    "roleset_name_trans": "放置物品之间留有空间"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "space.02",
+    "roleset_name": "forget about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forgetter",
+        "descr_trans": "遗忘者"
+      },
+      {
+        "n": "1",
+        "descr": "thing forgotten about",
+        "descr_trans": "被遗忘的事情"
+      }
+    ],
+    "roleset_name_trans": "把...忘了吧"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "space.03",
+    "roleset_name": "span a distance (not areas/places)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "time, distance",
+        "descr_trans": "时间、距离"
+      }
+    ],
+    "roleset_name_trans": "跨越一段距离（不是区域/地点）"
+  }
 ]

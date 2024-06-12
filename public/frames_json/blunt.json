@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blunt.01",
-        "roleset_name": "to make less effective, not sharp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bluntness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming blunt"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blunt.02",
-        "roleset_name": "candid, frank",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "candid entity"
-            },
-            {
-                "n": "1",
-                "descr": "topic blunt about"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blunt.01",
+    "roleset_name": "to make less effective, not sharp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bluntness, agent",
+        "descr_trans": "直言不讳的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming blunt",
+        "descr_trans": "实体变得迟钝"
+      }
+    ],
+    "roleset_name_trans": "使效率降低，不尖锐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blunt.02",
+    "roleset_name": "candid, frank",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "candid entity",
+        "descr_trans": "坦诚的实体"
+      },
+      {
+        "n": "1",
+        "descr": "topic blunt about",
+        "descr_trans": "话题直白"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "坦率的，坦白的"
+  }
 ]

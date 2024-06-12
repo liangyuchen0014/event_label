@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "respire.01",
-        "roleset_name": "breathe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Breather"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "respiratory.02",
-        "roleset_name": "relating to breathing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that relates to breath"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "respire.01",
+    "roleset_name": "breathe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Breather",
+        "descr_trans": "喘息"
+      }
+    ],
+    "roleset_name_trans": "呼吸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "respiratory.02",
+    "roleset_name": "relating to breathing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that relates to breath",
+        "descr_trans": "与呼吸有关的东西"
+      }
+    ],
+    "roleset_name_trans": "与呼吸有关"
+  }
 ]

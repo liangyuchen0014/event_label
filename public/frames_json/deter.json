@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deter.01",
-        "roleset_name": "deter, scare away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, deterer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity deterred"
-            },
-            {
-                "n": "2",
-                "descr": "secondary action (deter from X)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deter.01",
+    "roleset_name": "deter, scare away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, deterer",
+        "descr_trans": "代理人、威慑者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity deterred",
+        "descr_trans": "患者，实体被阻止"
+      },
+      {
+        "n": "2",
+        "descr": "secondary action (deter from X)",
+        "descr_trans": "次要行动（阻止 X）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "阻止，吓走"
+  }
 ]

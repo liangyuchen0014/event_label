@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "patter.01",
-        "roleset_name": "patter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of pattering, agent (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting pattering noise, theme (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "loctation of pattering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "patter.01",
+    "roleset_name": "patter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of pattering, agent (transitive subject)",
+        "descr_trans": "喋喋不休的原因，代理人（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting pattering noise, theme (intransitive subject, transitive object)",
+        "descr_trans": "发出啪嗒啪嗒的噪音的东西，主题（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "loctation of pattering",
+        "descr_trans": "拍打的位置"
+      }
+    ],
+    "roleset_name_trans": "啪嗒啪嗒"
+  }
 ]

@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scrape.01",
-        "roleset_name": "remove by scraping",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, scraper"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scrape.02",
-        "roleset_name": "collect with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "collector"
-            },
-            {
-                "n": "1",
-                "descr": "thing collected"
-            },
-            {
-                "n": "2",
-                "descr": "quasi-phrasal attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scrape.03",
-        "roleset_name": "just get by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity just getting by"
-            },
-            {
-                "n": "1",
-                "descr": "path, thing just barely accomplished"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scrape.01",
+    "roleset_name": "remove by scraping",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, scraper",
+        "descr_trans": "代理、刮刀"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "刮除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scrape.02",
+    "roleset_name": "collect with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "collector",
+        "descr_trans": "集电极"
+      },
+      {
+        "n": "1",
+        "descr": "thing collected",
+        "descr_trans": "收集的东西"
+      },
+      {
+        "n": "2",
+        "descr": "quasi-phrasal attribute of arg1",
+        "descr_trans": "arg1 的准短语属性"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "艰难地收集"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scrape.03",
+    "roleset_name": "just get by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity just getting by",
+        "descr_trans": "实体刚刚过得去"
+      },
+      {
+        "n": "1",
+        "descr": "path, thing just barely accomplished",
+        "descr_trans": "路径，事情才刚刚完成"
+      }
+    ],
+    "roleset_name_trans": "就这样过去"
+  }
 ]

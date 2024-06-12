@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undo.01",
-        "roleset_name": "to reverse or annul",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer of deed, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity undone"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undo.01",
+    "roleset_name": "to reverse or annul",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer of deed, agent",
+        "descr_trans": "行动者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity undone",
+        "descr_trans": "实体撤消"
+      }
+    ],
+    "roleset_name_trans": "撤销或撤销"
+  }
 ]

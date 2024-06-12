@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expurgate.01",
-        "roleset_name": "expunge objectionable material from text",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Censor, person deleting/removing objectionable material"
-            },
-            {
-                "n": "1",
-                "descr": "Objectionable material being removed"
-            },
-            {
-                "n": "2",
-                "descr": "Source, entity arg 1 is removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expurgate.01",
+    "roleset_name": "expunge objectionable material from text",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Censor, person deleting/removing objectionable material",
+        "descr_trans": "审查员、删除/删除令人反感材料的人"
+      },
+      {
+        "n": "1",
+        "descr": "Objectionable material being removed",
+        "descr_trans": "令人反感的材料被删除"
+      },
+      {
+        "n": "2",
+        "descr": "Source, entity arg 1 is removed from",
+        "descr_trans": "来源，实体 arg 1 已从"
+      }
+    ],
+    "roleset_name_trans": "从文本中删除令人反感的材料"
+  }
 ]

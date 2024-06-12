@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tour.01",
-        "roleset_name": "visit, view, sight-seeing/showcasing event",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tourist"
-            },
-            {
-                "n": "1",
-                "descr": "location toured"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter/title of tour (see examples)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tour.01",
+    "roleset_name": "visit, view, sight-seeing/showcasing event",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tourist",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "location toured",
+        "descr_trans": "游览地点"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter/title of tour (see examples)",
+        "descr_trans": "旅游主题/标题（参见示例）"
+      }
+    ],
+    "roleset_name_trans": "参观、观看、观光/展示活动"
+  }
 ]

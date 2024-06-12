@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snort.01",
-        "roleset_name": "emit a snorting sound, say snortingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snorter"
-            },
-            {
-                "n": "1",
-                "descr": "snort itself, utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snort.02",
-        "roleset_name": "ingest through the nose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snorter"
-            },
-            {
-                "n": "1",
-                "descr": "substance ingested"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snort.01",
+    "roleset_name": "emit a snorting sound, say snortingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snorter",
+        "descr_trans": "打鼾者"
+      },
+      {
+        "n": "1",
+        "descr": "snort itself, utterance",
+        "descr_trans": "自己哼哼，说话"
+      }
+    ],
+    "roleset_name_trans": "发出鼻息声，鼻息地说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snort.02",
+    "roleset_name": "ingest through the nose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snorter",
+        "descr_trans": "打鼾者"
+      },
+      {
+        "n": "1",
+        "descr": "substance ingested",
+        "descr_trans": "摄入的物质"
+      }
+    ],
+    "roleset_name_trans": "通过鼻子摄入"
+  }
 ]

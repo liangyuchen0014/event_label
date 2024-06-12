@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "padlock.01",
-        "roleset_name": "fasten with a padlock",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, fastener"
-            },
-            {
-                "n": "1",
-                "descr": "thing fastened"
-            },
-            {
-                "n": "2",
-                "descr": "thing fastened to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "padlock.01",
+    "roleset_name": "fasten with a padlock",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, fastener",
+        "descr_trans": "代理、紧固件"
+      },
+      {
+        "n": "1",
+        "descr": "thing fastened",
+        "descr_trans": "固定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing fastened to",
+        "descr_trans": "固定在的东西"
+      }
+    ],
+    "roleset_name_trans": "用挂锁固定"
+  }
 ]

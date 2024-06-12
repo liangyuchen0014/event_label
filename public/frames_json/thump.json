@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thump.01",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thump.02",
-        "roleset_name": "emit regular dull sounds",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "emitter of sound"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thump.01",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thump.02",
+    "roleset_name": "emit regular dull sounds",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "emitter of sound",
+        "descr_trans": "声音发射器"
+      }
+    ],
+    "roleset_name_trans": "发出有规律的沉闷声音"
+  }
 ]

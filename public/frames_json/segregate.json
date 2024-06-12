@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "segregate.01",
-        "roleset_name": "separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, segregator"
-            },
-            {
-                "n": "1",
-                "descr": "first or all entities being segregated"
-            },
-            {
-                "n": "2",
-                "descr": "segregated from what/whom"
-            },
-            {
-                "n": "3",
-                "descr": "characteristic of arg1 being segregated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "segregate.01",
+    "roleset_name": "separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, segregator",
+        "descr_trans": "代理人、分离者"
+      },
+      {
+        "n": "1",
+        "descr": "first or all entities being segregated",
+        "descr_trans": "第一个或所有实体被隔离"
+      },
+      {
+        "n": "2",
+        "descr": "segregated from what/whom",
+        "descr_trans": "与什么/谁隔离"
+      },
+      {
+        "n": "3",
+        "descr": "characteristic of arg1 being segregated",
+        "descr_trans": "arg1 被隔离的特征"
+      }
+    ],
+    "roleset_name_trans": "分离"
+  }
 ]

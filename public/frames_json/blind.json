@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blind.01",
-        "roleset_name": "cause to be unable to see",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of blindness"
-            },
-            {
-                "n": "1",
-                "descr": "blind one"
-            },
-            {
-                "n": "2",
-                "descr": "blind to what? specific thing arg1 cannot see"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blind.02",
-        "roleset_name": "be unable to see",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of blindness"
-            },
-            {
-                "n": "1",
-                "descr": "blind one"
-            },
-            {
-                "n": "2",
-                "descr": "blind to what? specific thing arg1 cannot see"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blind.01",
+    "roleset_name": "cause to be unable to see",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of blindness",
+        "descr_trans": "失明的原因"
+      },
+      {
+        "n": "1",
+        "descr": "blind one",
+        "descr_trans": "盲人一"
+      },
+      {
+        "n": "2",
+        "descr": "blind to what? specific thing arg1 cannot see",
+        "descr_trans": "对什么视而不见？ arg1 看不到特定的东西"
+      }
+    ],
+    "roleset_name_trans": "导致看不见"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blind.02",
+    "roleset_name": "be unable to see",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of blindness",
+        "descr_trans": "失明的原因"
+      },
+      {
+        "n": "1",
+        "descr": "blind one",
+        "descr_trans": "盲人一"
+      },
+      {
+        "n": "2",
+        "descr": "blind to what? specific thing arg1 cannot see",
+        "descr_trans": "对什么视而不见？ arg1 看不到特定的东西"
+      }
+    ],
+    "roleset_name_trans": "看不见"
+  }
 ]

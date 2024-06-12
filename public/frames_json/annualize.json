@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "annualize.01",
-        "roleset_name": "convert to a yearly basis",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing annualized"
-            },
-            {
-                "n": "2",
-                "descr": "term, length of time annualized over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "annualize.01",
+    "roleset_name": "convert to a yearly basis",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing annualized",
+        "descr_trans": "年化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "term, length of time annualized over",
+        "descr_trans": "期限，年化的时间长度"
+      }
+    ],
+    "roleset_name_trans": "转换为按年计算"
+  }
 ]

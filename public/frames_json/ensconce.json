@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ensconce.01",
-        "roleset_name": "to settle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "who put what where, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity ensconced"
-            },
-            {
-                "n": "2",
-                "descr": "place"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ensconce.01",
+    "roleset_name": "to settle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "who put what where, agent",
+        "descr_trans": "谁把什么放在哪里，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity ensconced",
+        "descr_trans": "隐藏的实体"
+      },
+      {
+        "n": "2",
+        "descr": "place",
+        "descr_trans": "地方"
+      }
+    ],
+    "roleset_name_trans": "定居"
+  }
 ]

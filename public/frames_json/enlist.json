@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enlist.01",
-        "roleset_name": "sign up to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent (often subsumed into arg0"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enlist.01",
+    "roleset_name": "sign up to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent (often subsumed into arg0",
+        "descr_trans": "推动代理（通常包含在 arg0 中）"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "报名做某事"
+  }
 ]

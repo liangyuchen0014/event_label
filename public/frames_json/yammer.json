@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yammer.01",
-        "roleset_name": "yammer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Yammerer"
-            },
-            {
-                "n": "1",
-                "descr": "Complaint, thing Yammered, topic of Yammering"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "yammer_away.02",
-        "roleset_name": "yammer away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Yammerer"
-            },
-            {
-                "n": "1",
-                "descr": "Complaint, thing Yammered, topic of Yammering"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "yammer_on.03",
-        "roleset_name": "yammer on.. and on.. and on...",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Yammerer"
-            },
-            {
-                "n": "1",
-                "descr": "Complaint, thing Yammered, topic of Yammering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yammer.01",
+    "roleset_name": "yammer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Yammerer",
+        "descr_trans": "亚默勒"
+      },
+      {
+        "n": "1",
+        "descr": "Complaint, thing Yammered, topic of Yammering",
+        "descr_trans": "投诉、Yammered 的事情、Yammering 的主题"
+      }
+    ],
+    "roleset_name_trans": "抱怨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "yammer_away.02",
+    "roleset_name": "yammer away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Yammerer",
+        "descr_trans": "亚默勒"
+      },
+      {
+        "n": "1",
+        "descr": "Complaint, thing Yammered, topic of Yammering",
+        "descr_trans": "投诉、Yammered 的事情、Yammering 的主题"
+      }
+    ],
+    "roleset_name_trans": "发牢骚"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "yammer_on.03",
+    "roleset_name": "yammer on.. and on.. and on...",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Yammerer",
+        "descr_trans": "亚默勒"
+      },
+      {
+        "n": "1",
+        "descr": "Complaint, thing Yammered, topic of Yammering",
+        "descr_trans": "投诉、Yammered 的事情、Yammering 的主题"
+      }
+    ],
+    "roleset_name_trans": "yamer 继续.. 继续.. 继续..."
+  }
 ]

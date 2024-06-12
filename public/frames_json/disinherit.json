@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disinherit.01",
-        "roleset_name": "deprive of an inheritance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity denying inheritance"
-            },
-            {
-                "n": "1",
-                "descr": "deprived inheritance"
-            },
-            {
-                "n": "2",
-                "descr": "entity no longer receiving inheritance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disinherit.01",
+    "roleset_name": "deprive of an inheritance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity denying inheritance",
+        "descr_trans": "实体否认继承"
+      },
+      {
+        "n": "1",
+        "descr": "deprived inheritance",
+        "descr_trans": "被剥夺的继承权"
+      },
+      {
+        "n": "2",
+        "descr": "entity no longer receiving inheritance",
+        "descr_trans": "实体不再接受继承"
+      }
+    ],
+    "roleset_name_trans": "剥夺继承权"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "occlude.01",
-        "roleset_name": "to obstruct or block an opening, obstructing, blocking an opening",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Blocker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object blocked)"
-            },
-            {
-                "n": "2",
-                "descr": "Secondary predication, Arg1 stopped from what"
-            },
-            {
-                "n": "3",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "occlude.01",
+    "roleset_name": "to obstruct or block an opening, obstructing, blocking an opening",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Blocker, agent",
+        "descr_trans": "拦截者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object blocked)",
+        "descr_trans": "主题（被阻止的动作或对象）"
+      },
+      {
+        "n": "2",
+        "descr": "Secondary predication, Arg1 stopped from what",
+        "descr_trans": "辅助谓词，Arg1 从什么停止"
+      },
+      {
+        "n": "3",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻塞或阻塞开口，阻塞，阻塞开口"
+  }
 ]

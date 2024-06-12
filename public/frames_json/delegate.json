@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "delegate.01",
-        "roleset_name": "delegate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "delegator"
-            },
-            {
-                "n": "1",
-                "descr": "thing given out (ie authority)"
-            },
-            {
-                "n": "2",
-                "descr": "to whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "delegate.01",
+    "roleset_name": "delegate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "delegator",
+        "descr_trans": "委托人"
+      },
+      {
+        "n": "1",
+        "descr": "thing given out (ie authority)",
+        "descr_trans": "给予的东西（即权威）"
+      },
+      {
+        "n": "2",
+        "descr": "to whom",
+        "descr_trans": "给谁"
+      }
+    ],
+    "roleset_name_trans": "代表"
+  }
 ]

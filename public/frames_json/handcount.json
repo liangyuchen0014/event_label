@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handcount.01",
-        "roleset_name": "enumerate by hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter"
-            },
-            {
-                "n": "1",
-                "descr": "thing counted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handcount.01",
+    "roleset_name": "enumerate by hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter",
+        "descr_trans": "柜台"
+      },
+      {
+        "n": "1",
+        "descr": "thing counted",
+        "descr_trans": "重要的事情"
+      }
+    ],
+    "roleset_name_trans": "用手枚举"
+  }
 ]

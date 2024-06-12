@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "doubt.01",
-        "roleset_name": "doubt, disbelieve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disbeliever"
-            },
-            {
-                "n": "1",
-                "descr": "disbelief"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dubious.02",
-        "roleset_name": "skeptical/hard to believe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "skeptic"
-            },
-            {
-                "n": "1",
-                "descr": "hard to believe thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "doubt.01",
+    "roleset_name": "doubt, disbelieve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disbeliever",
+        "descr_trans": "不信者"
+      },
+      {
+        "n": "1",
+        "descr": "disbelief",
+        "descr_trans": "怀疑"
+      }
+    ],
+    "roleset_name_trans": "怀疑、不相信"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dubious.02",
+    "roleset_name": "skeptical/hard to believe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "skeptic",
+        "descr_trans": "怀疑论者"
+      },
+      {
+        "n": "1",
+        "descr": "hard to believe thing",
+        "descr_trans": "很难相信的事情"
+      }
+    ],
+    "roleset_name_trans": "怀疑/难以相信"
+  }
 ]

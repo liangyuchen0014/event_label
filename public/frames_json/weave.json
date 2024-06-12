@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weave.01",
-        "roleset_name": "to interlace as if by weaving, create by weaving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "weaver"
-            },
-            {
-                "n": "1",
-                "descr": "entity woven"
-            },
-            {
-                "n": "2",
-                "descr": "product"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weave.02",
-        "roleset_name": "to move in a zigzagging course",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weave.01",
+    "roleset_name": "to interlace as if by weaving, create by weaving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "weaver",
+        "descr_trans": "织工"
+      },
+      {
+        "n": "1",
+        "descr": "entity woven",
+        "descr_trans": "实体编织"
+      },
+      {
+        "n": "2",
+        "descr": "product",
+        "descr_trans": "产品"
+      }
+    ],
+    "roleset_name_trans": "像编织一样交织，通过编织创造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weave.02",
+    "roleset_name": "to move in a zigzagging course",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving",
+        "descr_trans": "实体移动"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "曲折前进"
+  }
 ]

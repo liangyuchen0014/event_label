@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "time.01",
-        "roleset_name": "measure the time it takes to do an action, measuring time it takes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "measurer"
-            },
-            {
-                "n": "1",
-                "descr": "action"
-            },
-            {
-                "n": "2",
-                "descr": "time required"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "time.02",
-        "roleset_name": "synchronize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first thing synchronized"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, if separate"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "timely.03",
-        "roleset_name": "synchronize",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first thing synchronized"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, if separate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "time.01",
+    "roleset_name": "measure the time it takes to do an action, measuring time it takes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "measurer",
+        "descr_trans": "测量器"
+      },
+      {
+        "n": "1",
+        "descr": "action",
+        "descr_trans": "行动"
+      },
+      {
+        "n": "2",
+        "descr": "time required",
+        "descr_trans": "所需时间"
+      }
+    ],
+    "roleset_name_trans": "测量执行某项操作所需的时间，测量执行某项操作所需的时间"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "time.02",
+    "roleset_name": "synchronize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first thing synchronized",
+        "descr_trans": "第一件事是同步"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, if separate",
+        "descr_trans": "第二件事，如果分开的话"
+      }
+    ],
+    "roleset_name_trans": "同步"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "timely.03",
+    "roleset_name": "synchronize",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first thing synchronized",
+        "descr_trans": "第一件事是同步"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, if separate",
+        "descr_trans": "第二件事，如果分开的话"
+      }
+    ],
+    "roleset_name_trans": "同步"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brave.01",
-        "roleset_name": "to brave something; face courageously; verb frame only",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "courageous one"
-            },
-            {
-                "n": "1",
-                "descr": "challenge"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "brave.02",
-        "roleset_name": "be characterized as brave, courageous; adjective/noun frame only",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "brave one"
-            },
-            {
-                "n": "1",
-                "descr": "fearsome activity faced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brave.01",
+    "roleset_name": "to brave something; face courageously; verb frame only",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "courageous one",
+        "descr_trans": "勇敢的一个"
+      },
+      {
+        "n": "1",
+        "descr": "challenge",
+        "descr_trans": "挑战"
+      }
+    ],
+    "roleset_name_trans": "勇敢做某事；勇敢地面对；仅动词框架"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "brave.02",
+    "roleset_name": "be characterized as brave, courageous; adjective/noun frame only",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "brave one",
+        "descr_trans": "勇敢的一个"
+      },
+      {
+        "n": "1",
+        "descr": "fearsome activity faced",
+        "descr_trans": "面临可怕的活动"
+      }
+    ],
+    "roleset_name_trans": "具有勇敢、勇敢的特点；仅形容词/名词框架"
+  }
 ]

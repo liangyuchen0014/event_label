@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "airdrop.09",
-        "roleset_name": "delivery via aircraft",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deliverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing delivered"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "airdrop.09",
+    "roleset_name": "delivery via aircraft",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deliverer",
+        "descr_trans": "送货员"
+      },
+      {
+        "n": "1",
+        "descr": "thing delivered",
+        "descr_trans": "东西交付了"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "通过飞机交付"
+  }
 ]

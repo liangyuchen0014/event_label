@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retake.01",
-        "roleset_name": "take again, take back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker"
-            },
-            {
-                "n": "1",
-                "descr": "taken"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retake.01",
+    "roleset_name": "take again, take back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "1",
+        "descr": "taken",
+        "descr_trans": "采取"
+      }
+    ],
+    "roleset_name_trans": "再次拿走，收回"
+  }
 ]

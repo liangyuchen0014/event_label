@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "engulf.01",
-        "roleset_name": "to flow over or absorb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing engulfing"
-            },
-            {
-                "n": "1",
-                "descr": "entity engulfed"
-            },
-            {
-                "n": "2",
-                "descr": "engulfed in what? actual liquid/entity surrounding arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "engulf.01",
+    "roleset_name": "to flow over or absorb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing engulfing",
+        "descr_trans": "造成吞噬的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity engulfed",
+        "descr_trans": "实体被吞没"
+      },
+      {
+        "n": "2",
+        "descr": "engulfed in what? actual liquid/entity surrounding arg1",
+        "descr_trans": "陷入什么？ arg1 周围的实际液体/实体"
+      }
+    ],
+    "roleset_name_trans": "流过或吸收"
+  }
 ]

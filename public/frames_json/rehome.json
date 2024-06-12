@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rehome.01",
-        "roleset_name": "find a new home for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of rehoming"
-            },
-            {
-                "n": "1",
-                "descr": "entity in need of a new home"
-            },
-            {
-                "n": "2",
-                "descr": "the new home"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rehome.01",
+    "roleset_name": "find a new home for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of rehoming",
+        "descr_trans": "重新安置代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity in need of a new home",
+        "descr_trans": "需要新家的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the new home",
+        "descr_trans": "新家"
+      }
+    ],
+    "roleset_name_trans": "找到一个新家"
+  }
 ]

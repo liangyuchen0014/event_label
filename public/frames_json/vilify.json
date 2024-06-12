@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vilify.01",
-        "roleset_name": "to speak ill of, slander",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vilifier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity vilified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "vile.02",
-        "roleset_name": "disgusting",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "vile entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vilify.01",
+    "roleset_name": "to speak ill of, slander",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vilifier, agent",
+        "descr_trans": "诽谤者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity vilified",
+        "descr_trans": "实体被诽谤"
+      }
+    ],
+    "roleset_name_trans": "说坏话、诽谤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "vile.02",
+    "roleset_name": "disgusting",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "vile entity",
+        "descr_trans": "邪恶实体"
+      }
+    ],
+    "roleset_name_trans": "恶心的"
+  }
 ]

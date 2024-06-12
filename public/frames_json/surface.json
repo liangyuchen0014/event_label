@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "surface.01",
-        "roleset_name": "appear, as from underwater",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "surface.02",
-        "roleset_name": "put atop, apply a surface to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "substrate, medium"
-            },
-            {
-                "n": "2",
-                "descr": "stuff on top"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "surface.01",
+    "roleset_name": "appear, as from underwater",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "出现，就像从水下一样"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "surface.02",
+    "roleset_name": "put atop, apply a surface to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier, agent",
+        "descr_trans": "申请者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "substrate, medium",
+        "descr_trans": "基质、介质"
+      },
+      {
+        "n": "2",
+        "descr": "stuff on top",
+        "descr_trans": "上面的东西"
+      }
+    ],
+    "roleset_name_trans": "放在上面，应用一个表面"
+  }
 ]

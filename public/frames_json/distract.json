@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "distract.01",
-        "roleset_name": "draw attention away from something, not focused on what is at hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or Stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "entity distracted"
-            },
-            {
-                "n": "2",
-                "descr": "entity distracted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "distract.01",
+    "roleset_name": "draw attention away from something, not focused on what is at hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or Stimulus",
+        "descr_trans": "代理或刺激"
+      },
+      {
+        "n": "1",
+        "descr": "entity distracted",
+        "descr_trans": "实体分心"
+      },
+      {
+        "n": "2",
+        "descr": "entity distracted from",
+        "descr_trans": "实体分散注意力"
+      }
+    ],
+    "roleset_name_trans": "将注意力从某件事上转移开，而不是集中在手头的事情上"
+  }
 ]

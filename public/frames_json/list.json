@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "list.01",
-        "roleset_name": "enumerate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lister"
-            },
-            {
-                "n": "1",
-                "descr": "item"
-            },
-            {
-                "n": "2",
-                "descr": "list"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "list.02",
-        "roleset_name": "give a price",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pricer"
-            },
-            {
-                "n": "1",
-                "descr": "item"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "list.03",
-        "roleset_name": "lean, be at an angle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing at an angle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "list.01",
+    "roleset_name": "enumerate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lister",
+        "descr_trans": "利斯特"
+      },
+      {
+        "n": "1",
+        "descr": "item",
+        "descr_trans": "物品"
+      },
+      {
+        "n": "2",
+        "descr": "list",
+        "descr_trans": "列表"
+      }
+    ],
+    "roleset_name_trans": "枚举"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "list.02",
+    "roleset_name": "give a price",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pricer",
+        "descr_trans": "定价者"
+      },
+      {
+        "n": "1",
+        "descr": "item",
+        "descr_trans": "物品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "给个价格"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "list.03",
+    "roleset_name": "lean, be at an angle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing at an angle",
+        "descr_trans": "有角度的东西"
+      }
+    ],
+    "roleset_name_trans": "倾斜，倾斜"
+  }
 ]

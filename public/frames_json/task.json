@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "task.01",
-        "roleset_name": "assign someone a task, order, assignment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boss"
-            },
-            {
-                "n": "1",
-                "descr": "task required"
-            },
-            {
-                "n": "2",
-                "descr": "required-of, task assigned to whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "task.01",
+    "roleset_name": "assign someone a task, order, assignment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boss",
+        "descr_trans": "老板"
+      },
+      {
+        "n": "1",
+        "descr": "task required",
+        "descr_trans": "需要任务"
+      },
+      {
+        "n": "2",
+        "descr": "required-of, task assigned to whom?",
+        "descr_trans": "需要的，任务分配给谁？"
+      }
+    ],
+    "roleset_name_trans": "给某人分配任务、命令、指派"
+  }
 ]

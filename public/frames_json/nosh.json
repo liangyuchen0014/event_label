@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nosh.01",
-        "roleset_name": "snack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "eaten"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nosh.01",
+    "roleset_name": "snack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "eaten",
+        "descr_trans": "吃过"
+      }
+    ],
+    "roleset_name_trans": "小吃"
+  }
 ]

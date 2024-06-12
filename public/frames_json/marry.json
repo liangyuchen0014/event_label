@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "marry.01",
-        "roleset_name": "to take as a spouse, to join spouses, combine   agreeably, combine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "one half"
-            },
-            {
-                "n": "2",
-                "descr": "second half"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "marry_off.02",
-        "roleset_name": "cause to be married",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer (ex parent)"
-            },
-            {
-                "n": "1",
-                "descr": "first half"
-            },
-            {
-                "n": "2",
-                "descr": "second half"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "marry.01",
+    "roleset_name": "to take as a spouse, to join spouses, combine   agreeably, combine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "one half",
+        "descr_trans": "一半"
+      },
+      {
+        "n": "2",
+        "descr": "second half",
+        "descr_trans": "下半场"
+      }
+    ],
+    "roleset_name_trans": "成为配偶, 加入配偶, 愉快地结合, 结合"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "marry_off.02",
+    "roleset_name": "cause to be married",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer (ex parent)",
+        "descr_trans": "原因（前父母）"
+      },
+      {
+        "n": "1",
+        "descr": "first half",
+        "descr_trans": "上半场"
+      },
+      {
+        "n": "2",
+        "descr": "second half",
+        "descr_trans": "下半场"
+      }
+    ],
+    "roleset_name_trans": "结婚的原因"
+  }
 ]

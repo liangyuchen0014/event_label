@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strut.01",
-        "roleset_name": "to walk proudly, like a peacock",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, rider (use only if arg1 is present)"
-            },
-            {
-                "n": "1",
-                "descr": "thing strutted, walker"
-            },
-            {
-                "n": "2",
-                "descr": "path, thing  strutted up to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strut.01",
+    "roleset_name": "to walk proudly, like a peacock",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, rider (use only if arg1 is present)",
+        "descr_trans": "代理、骑手（仅当 arg1 存在时使用）"
+      },
+      {
+        "n": "1",
+        "descr": "thing strutted, walker",
+        "descr_trans": "东西昂首阔步，步行者"
+      },
+      {
+        "n": "2",
+        "descr": "path, thing  strutted up to",
+        "descr_trans": "路径，东西昂首阔步"
+      }
+    ],
+    "roleset_name_trans": "像孔雀一样骄傲地行走"
+  }
 ]

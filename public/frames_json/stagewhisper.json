@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stagewhisper.01",
-        "roleset_name": "whisper loudly so that audience can hear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "whisperer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "audience, whispered-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stagewhisper.01",
+    "roleset_name": "whisper loudly so that audience can hear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "whisperer",
+        "descr_trans": "窃窃私语者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "audience, whispered-to",
+        "descr_trans": "低声对着的观众"
+      }
+    ],
+    "roleset_name_trans": "大声小声以便观众能够听到"
+  }
 ]

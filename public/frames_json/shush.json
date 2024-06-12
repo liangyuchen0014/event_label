@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shush.01",
-        "roleset_name": "make a shushing noise to encourage someone to be quiet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shusher"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "entity shushed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shush.01",
+    "roleset_name": "make a shushing noise to encourage someone to be quiet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shusher",
+        "descr_trans": "舒舍尔"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "entity shushed",
+        "descr_trans": "实体闭嘴"
+      }
+    ],
+    "roleset_name_trans": "发出嘘声以鼓励某人安静"
+  }
 ]

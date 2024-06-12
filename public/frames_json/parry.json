@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parry.01",
-        "roleset_name": "deflect an attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "defender"
-            },
-            {
-                "n": "1",
-                "descr": "attack"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, defensive weapon"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parry.01",
+    "roleset_name": "deflect an attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "defender",
+        "descr_trans": "后卫"
+      },
+      {
+        "n": "1",
+        "descr": "attack",
+        "descr_trans": "攻击"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, defensive weapon",
+        "descr_trans": "仪器、防御武器"
+      }
+    ],
+    "roleset_name_trans": "偏转攻击"
+  }
 ]

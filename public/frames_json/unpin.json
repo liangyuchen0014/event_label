@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unpin.01",
-        "roleset_name": "unpin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unpinning, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unpinned, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unpinned from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unpin.01",
+    "roleset_name": "unpin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unpinning, agent",
+        "descr_trans": "实体取消固定，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unpinned, patient",
+        "descr_trans": "未固定的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unpinned from, source",
+        "descr_trans": "取消固定来源"
+      }
+    ],
+    "roleset_name_trans": "取消固定"
+  }
 ]

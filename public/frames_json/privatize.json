@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "privatize.01",
-        "roleset_name": "sell off government property, selling off gov't property to the private sector",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "government, usually"
-            },
-            {
-                "n": "1",
-                "descr": "property, usually industry"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "private.02",
-        "roleset_name": "personal, intimate, exclusive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "personal thing"
-            },
-            {
-                "n": "2",
-                "descr": "person arg1 is particular to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "private.03",
-        "roleset_name": "not publicly traded or backed by gov't",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "private enterprise"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "privatize.01",
+    "roleset_name": "sell off government property, selling off gov't property to the private sector",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "government, usually",
+        "descr_trans": "政府，通常"
+      },
+      {
+        "n": "1",
+        "descr": "property, usually industry",
+        "descr_trans": "财产，通常是工业"
+      }
+    ],
+    "roleset_name_trans": "出售政府财产，将政府财产出售给私营部门"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "private.02",
+    "roleset_name": "personal, intimate, exclusive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "personal thing",
+        "descr_trans": "个人的事"
+      },
+      {
+        "n": "2",
+        "descr": "person arg1 is particular to",
+        "descr_trans": "人 arg1 特指"
+      }
+    ],
+    "roleset_name_trans": "个人的、亲密的、独特的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "private.03",
+    "roleset_name": "not publicly traded or backed by gov't",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "private enterprise",
+        "descr_trans": "私人企业"
+      }
+    ],
+    "roleset_name_trans": "不公开交易或不受政府支持"
+  }
 ]

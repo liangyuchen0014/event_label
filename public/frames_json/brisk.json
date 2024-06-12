@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brisk.01",
-        "roleset_name": "move quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of quick motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brisk.01",
+    "roleset_name": "move quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of quick motion",
+        "descr_trans": "快速运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "动作快点"
+  }
 ]

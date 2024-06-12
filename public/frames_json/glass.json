@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "glass.01",
-        "roleset_name": "cover with glass, glaze",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person covering"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered in glass"
-            },
-            {
-                "n": "2",
-                "descr": "glass itself, type of glass"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "glass.02",
-        "roleset_name": "to scan with binoculars",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Looker, scanner"
-            },
-            {
-                "n": "1",
-                "descr": "Scene watched"
-            },
-            {
-                "n": "2",
-                "descr": "Scanned for what? thing searched for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "glass_over.03",
-        "roleset_name": "become glass-like in appearance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming glass-like"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "glass.01",
+    "roleset_name": "cover with glass, glaze",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person covering",
+        "descr_trans": "代理人，负责人"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered in glass",
+        "descr_trans": "被玻璃覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "glass itself, type of glass",
+        "descr_trans": "玻璃本身、玻璃类型"
+      }
+    ],
+    "roleset_name_trans": "盖上玻璃、釉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "glass.02",
+    "roleset_name": "to scan with binoculars",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Looker, scanner",
+        "descr_trans": "观察者、扫描仪"
+      },
+      {
+        "n": "1",
+        "descr": "Scene watched",
+        "descr_trans": "现场观看"
+      },
+      {
+        "n": "2",
+        "descr": "Scanned for what? thing searched for",
+        "descr_trans": "扫描了什么？搜索的东西"
+      }
+    ],
+    "roleset_name_trans": "用双筒望远镜扫描"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "glass_over.03",
+    "roleset_name": "become glass-like in appearance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming glass-like",
+        "descr_trans": "东西变得像玻璃一样"
+      }
+    ],
+    "roleset_name_trans": "外观变得像玻璃"
+  }
 ]

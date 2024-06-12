@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gore.01",
-        "roleset_name": "impale",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, gorer"
-            },
-            {
-                "n": "1",
-                "descr": "victim, entity gored"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, by default 'horn'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gore.01",
+    "roleset_name": "impale",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, gorer",
+        "descr_trans": "代理人, 戈尔勒"
+      },
+      {
+        "n": "1",
+        "descr": "victim, entity gored",
+        "descr_trans": "受害者，实体被刺伤"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, by default 'horn'",
+        "descr_trans": "乐器，默认为“喇叭”"
+      }
+    ],
+    "roleset_name_trans": "刺穿"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exile.01",
-        "roleset_name": "banish, send away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender away, agent"
-            },
-            {
-                "n": "1",
-                "descr": "exile"
-            },
-            {
-                "n": "2",
-                "descr": "exiled from, homeland etc"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exile.01",
+    "roleset_name": "banish, send away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender away, agent",
+        "descr_trans": "发件人离开，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "exile",
+        "descr_trans": "流亡"
+      },
+      {
+        "n": "2",
+        "descr": "exiled from, homeland etc",
+        "descr_trans": "被流放、祖国等"
+      }
+    ],
+    "roleset_name_trans": "驱逐，送走"
+  }
 ]

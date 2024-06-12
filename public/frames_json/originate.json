@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "originate.01",
-        "roleset_name": "create, come about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing originated"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "originate.01",
+    "roleset_name": "create, come about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing originated",
+        "descr_trans": "事物起源"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "创造，出现"
+  }
 ]

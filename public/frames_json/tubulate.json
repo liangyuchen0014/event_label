@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tubulate.01",
-        "roleset_name": "acquire a tubular shape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of tubulation"
-            },
-            {
-                "n": "1",
-                "descr": "tubular entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tubular.02",
-        "roleset_name": "relating to tubes; having a tube-like shape or features",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing relating to tubes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tubulate.01",
+    "roleset_name": "acquire a tubular shape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of tubulation",
+        "descr_trans": "输卵管的原因"
+      },
+      {
+        "n": "1",
+        "descr": "tubular entity",
+        "descr_trans": "管状实体"
+      }
+    ],
+    "roleset_name_trans": "获得管状形状"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tubular.02",
+    "roleset_name": "relating to tubes; having a tube-like shape or features",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing relating to tubes",
+        "descr_trans": "与管有关的东西"
+      }
+    ],
+    "roleset_name_trans": "与管有关；具有管状形状或特征"
+  }
 ]

@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "downgrade.01",
-        "roleset_name": "replace",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "replacer"
-            },
-            {
-                "n": "1",
-                "descr": "old thing"
-            },
-            {
-                "n": "2",
-                "descr": "new thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "downgrade.02",
-        "roleset_name": "worsen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of worsening, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing worsening"
-            },
-            {
-                "n": "2",
-                "descr": "amount, EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "downgrade.01",
+    "roleset_name": "replace",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "replacer",
+        "descr_trans": "替代者"
+      },
+      {
+        "n": "1",
+        "descr": "old thing",
+        "descr_trans": "老东西"
+      },
+      {
+        "n": "2",
+        "descr": "new thing",
+        "descr_trans": "新事物"
+      }
+    ],
+    "roleset_name_trans": "代替"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "downgrade.02",
+    "roleset_name": "worsen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of worsening, agent",
+        "descr_trans": "恶化的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing worsening",
+        "descr_trans": "事情恶化"
+      },
+      {
+        "n": "2",
+        "descr": "amount, EXT",
+        "descr_trans": "金额，外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "恶化"
+  }
 ]

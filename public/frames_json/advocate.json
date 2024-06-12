@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "advocate.01",
-        "roleset_name": "suggest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "advocate, suggest"
-            },
-            {
-                "n": "1",
-                "descr": "suggestion"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of advice"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "advocate.01",
+    "roleset_name": "suggest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "advocate, suggest",
+        "descr_trans": "提倡、建议"
+      },
+      {
+        "n": "1",
+        "descr": "suggestion",
+        "descr_trans": "建议"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of advice",
+        "descr_trans": "建议接受者"
+      }
+    ],
+    "roleset_name_trans": "建议"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonrevealing.01",
-        "roleset_name": "not showing new information/what was hidden",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revealer"
-            },
-            {
-                "n": "1",
-                "descr": "thing not revealed"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonrevealing.01",
+    "roleset_name": "not showing new information/what was hidden",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revealer",
+        "descr_trans": "揭秘者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not revealed",
+        "descr_trans": "事情没有透露"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "不显示新信息/隐藏的内容"
+  }
 ]

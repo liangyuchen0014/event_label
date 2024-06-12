@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "garnish.01",
-        "roleset_name": "decorate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator"
-            },
-            {
-                "n": "1",
-                "descr": "thing decorated"
-            },
-            {
-                "n": "2",
-                "descr": "decorations"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "garnish.02",
-        "roleset_name": "withold or extort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "witholder or extorter"
-            },
-            {
-                "n": "1",
-                "descr": "thing withheld or extorted"
-            },
-            {
-                "n": "2",
-                "descr": "withheld or extorted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "garnish.01",
+    "roleset_name": "decorate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator",
+        "descr_trans": "装饰者"
+      },
+      {
+        "n": "1",
+        "descr": "thing decorated",
+        "descr_trans": "装饰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "decorations",
+        "descr_trans": "装饰"
+      }
+    ],
+    "roleset_name_trans": "装饰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "garnish.02",
+    "roleset_name": "withold or extort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "witholder or extorter",
+        "descr_trans": "扣留者或勒索者"
+      },
+      {
+        "n": "1",
+        "descr": "thing withheld or extorted",
+        "descr_trans": "扣留或勒索的东西"
+      },
+      {
+        "n": "2",
+        "descr": "withheld or extorted from",
+        "descr_trans": "扣留或勒索"
+      }
+    ],
+    "roleset_name_trans": "扣留或勒索"
+  }
 ]

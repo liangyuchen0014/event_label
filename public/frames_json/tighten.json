@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tighten.01",
-        "roleset_name": "(cause to) become tight(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tightening"
-            },
-            {
-                "n": "1",
-                "descr": "thing tightening"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tighten_up.02",
-        "roleset_name": "get tight over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing getting tight"
-            },
-            {
-                "n": "1",
-                "descr": "because of what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tight.03",
-        "roleset_name": "close, as friends",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first (or all) friend(s)"
-            },
-            {
-                "n": "2",
-                "descr": "second friend"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tight.04",
-        "roleset_name": "stingy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "miser"
-            },
-            {
-                "n": "1",
-                "descr": "thing hoarded"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "tight.05",
-        "roleset_name": "fastened securely, not loose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tightness"
-            },
-            {
-                "n": "1",
-                "descr": "thing fastened securely"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tighten.01",
+    "roleset_name": "(cause to) become tight(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tightening",
+        "descr_trans": "紧缩原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing tightening",
+        "descr_trans": "事情收紧"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得紧张（呃）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tighten_up.02",
+    "roleset_name": "get tight over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing getting tight",
+        "descr_trans": "事情变得紧张"
+      },
+      {
+        "n": "1",
+        "descr": "because of what",
+        "descr_trans": "因为什么"
+      }
+    ],
+    "roleset_name_trans": "紧张起来"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tight.03",
+    "roleset_name": "close, as friends",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first (or all) friend(s)",
+        "descr_trans": "第一个（或所有）朋友"
+      },
+      {
+        "n": "2",
+        "descr": "second friend",
+        "descr_trans": "第二个朋友"
+      }
+    ],
+    "roleset_name_trans": "亲密，如朋友"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tight.04",
+    "roleset_name": "stingy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "miser",
+        "descr_trans": "吝啬鬼"
+      },
+      {
+        "n": "1",
+        "descr": "thing hoarded",
+        "descr_trans": "囤积的东西"
+      }
+    ],
+    "roleset_name_trans": "小气"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "tight.05",
+    "roleset_name": "fastened securely, not loose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tightness",
+        "descr_trans": "紧绷的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing fastened securely",
+        "descr_trans": "牢固固定的东西"
+      }
+    ],
+    "roleset_name_trans": "紧固牢固，不松动"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repaint.01",
-        "roleset_name": "put paint on a surface, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, painter"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of paint"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "repaint.02",
-        "roleset_name": "create pictures with paint, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "art"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repaint.01",
+    "roleset_name": "put paint on a surface, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, painter",
+        "descr_trans": "经纪人、画家"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of paint",
+        "descr_trans": "明确提及油漆"
+      }
+    ],
+    "roleset_name_trans": "再次将油漆涂在表面上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "repaint.02",
+    "roleset_name": "create pictures with paint, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "art",
+        "descr_trans": "艺术"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "再次用颜料创作图片"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "garrotte.01",
-        "roleset_name": "strangle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of strangling"
-            },
-            {
-                "n": "1",
-                "descr": "strangled entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, strangled with what device?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "garrotte.01",
+    "roleset_name": "strangle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of strangling",
+        "descr_trans": "造成勒死的原因"
+      },
+      {
+        "n": "1",
+        "descr": "strangled entity",
+        "descr_trans": "被勒死的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, strangled with what device?",
+        "descr_trans": "仪器，用什么装置勒死？"
+      }
+    ],
+    "roleset_name_trans": "扼杀"
+  }
 ]

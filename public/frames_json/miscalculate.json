@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "miscalculate.01",
-        "roleset_name": "to count or estimate incorrectly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "calculator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing calculated"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "miscalculate.01",
+    "roleset_name": "to count or estimate incorrectly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "calculator, agent",
+        "descr_trans": "计算器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing calculated",
+        "descr_trans": "计算出来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "错误地计算或估计"
+  }
 ]

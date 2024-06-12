@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "superheat.01",
-        "roleset_name": "heat past boiling/melting point without changing state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of heating"
-            },
-            {
-                "n": "1",
-                "descr": "liquid being heated"
-            },
-            {
-                "n": "2",
-                "descr": "start state/temp"
-            },
-            {
-                "n": "3",
-                "descr": "end state/temp"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "superheat.01",
+    "roleset_name": "heat past boiling/melting point without changing state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of heating",
+        "descr_trans": "加热的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "liquid being heated",
+        "descr_trans": "液体被加热"
+      },
+      {
+        "n": "2",
+        "descr": "start state/temp",
+        "descr_trans": "启动状态/温度"
+      },
+      {
+        "n": "3",
+        "descr": "end state/temp",
+        "descr_trans": "最终状态/温度"
+      }
+    ],
+    "roleset_name_trans": "加热超过沸点/熔点而不改变状态"
+  }
 ]

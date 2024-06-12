@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recordkeeping.01",
-        "roleset_name": "keep records (of transactions, finances, etc.)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "keeper of records, recorder"
-            },
-            {
-                "n": "1",
-                "descr": "records kept"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, owner of records"
-            },
-            {
-                "n": "3",
-                "descr": "topic or content of records"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recordkeeping.01",
+    "roleset_name": "keep records (of transactions, finances, etc.)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "keeper of records, recorder",
+        "descr_trans": "记录员、记录员"
+      },
+      {
+        "n": "1",
+        "descr": "records kept",
+        "descr_trans": "保存记录"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, owner of records",
+        "descr_trans": "受益者，记录所有者"
+      },
+      {
+        "n": "3",
+        "descr": "topic or content of records",
+        "descr_trans": "记录的主题或内容"
+      }
+    ],
+    "roleset_name_trans": "保存（交易、财务等）记录"
+  }
 ]

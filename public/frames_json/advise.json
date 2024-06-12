@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "advise.01",
-        "roleset_name": "give advice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving advice"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting advice, impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "advice, impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "advisable.02",
-        "roleset_name": "prudent, wise",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "prudent, wise thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "advise.01",
+    "roleset_name": "give advice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving advice",
+        "descr_trans": "提供建议的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting advice, impelled agent",
+        "descr_trans": "实体获得建议、推动代理人"
+      },
+      {
+        "n": "2",
+        "descr": "advice, impelled action",
+        "descr_trans": "建议，推动行动"
+      }
+    ],
+    "roleset_name_trans": "提出建议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "advisable.02",
+    "roleset_name": "prudent, wise",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "prudent, wise thing",
+        "descr_trans": "谨慎、明智的事情"
+      }
+    ],
+    "roleset_name_trans": "谨慎、明智"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "describe.01",
-        "roleset_name": "assign a label or attribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "describe.01",
+    "roleset_name": "assign a label or attribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as",
+        "descr_trans": "次要属性，描述为"
+      }
+    ],
+    "roleset_name_trans": "分配标签或属性"
+  }
 ]

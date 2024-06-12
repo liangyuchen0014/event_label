@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fart.01",
-        "roleset_name": "expel gas",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expeller"
-            },
-            {
-                "n": "1",
-                "descr": "gas"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fart_around.02",
-        "roleset_name": "procrastinate; play around",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity playing around"
-            },
-            {
-                "n": "1",
-                "descr": "playing with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fart.01",
+    "roleset_name": "expel gas",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expeller",
+        "descr_trans": "推进器"
+      },
+      {
+        "n": "1",
+        "descr": "gas",
+        "descr_trans": "气体"
+      }
+    ],
+    "roleset_name_trans": "排出气体"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fart_around.02",
+    "roleset_name": "procrastinate; play around",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity playing around",
+        "descr_trans": "实体在玩耍"
+      },
+      {
+        "n": "1",
+        "descr": "playing with",
+        "descr_trans": "和谁玩"
+      }
+    ],
+    "roleset_name_trans": "拖延;玩耍"
+  }
 ]

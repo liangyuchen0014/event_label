@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perfume.01",
-        "roleset_name": "apply perfume to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting perfumed"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of perfume itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perfume.01",
+    "roleset_name": "apply perfume to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting perfumed",
+        "descr_trans": "东西变得有香味"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of perfume itself",
+        "descr_trans": "明确提及香水本身"
+      }
+    ],
+    "roleset_name_trans": "涂抹香水"
+  }
 ]

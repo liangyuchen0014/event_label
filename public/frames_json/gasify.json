@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gasify.01",
-        "roleset_name": "to make into a gas",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of gasification"
-            },
-            {
-                "n": "1",
-                "descr": "entity made into gas"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gasify.01",
+    "roleset_name": "to make into a gas",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of gasification",
+        "descr_trans": "气化原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity made into gas",
+        "descr_trans": "实体变成气体"
+      }
+    ],
+    "roleset_name_trans": "变成气体"
+  }
 ]

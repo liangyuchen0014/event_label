@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foreshock.01",
-        "roleset_name": "minor tremor that precedes a larger earthquake, from the same epicenter",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "ground shaken (plates, region, epicenter)"
-            },
-            {
-                "n": "2",
-                "descr": "magnitude, generally Richter scale"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foreshock.01",
+    "roleset_name": "minor tremor that precedes a larger earthquake, from the same epicenter",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "ground shaken (plates, region, epicenter)",
+        "descr_trans": "地面震动（板块、区域、震中）"
+      },
+      {
+        "n": "2",
+        "descr": "magnitude, generally Richter scale",
+        "descr_trans": "震级，一般为里氏震级"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      }
+    ],
+    "roleset_name_trans": "来自同一震中的较大地震之前的轻微震动"
+  }
 ]

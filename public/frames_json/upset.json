@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upset.01",
-        "roleset_name": "cause emotional or physical anguish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of upsetting"
-            },
-            {
-                "n": "1",
-                "descr": "upset entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "upset.02",
-        "roleset_name": "turn over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "turned (container, usually)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upset.01",
+    "roleset_name": "cause emotional or physical anguish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of upsetting",
+        "descr_trans": "扰乱代理人"
+      },
+      {
+        "n": "1",
+        "descr": "upset entity",
+        "descr_trans": "不安的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "造成情绪或身体痛苦"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "upset.02",
+    "roleset_name": "turn over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "turned (container, usually)",
+        "descr_trans": "转动（容器，通常）"
+      }
+    ],
+    "roleset_name_trans": "翻"
+  }
 ]

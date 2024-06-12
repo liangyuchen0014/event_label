@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stumble.01",
-        "roleset_name": "to miss a step while walking, to make an error",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity stumbling"
-            },
-            {
-                "n": "1",
-                "descr": "stumble over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stumble.01",
+    "roleset_name": "to miss a step while walking, to make an error",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity stumbling",
+        "descr_trans": "代理、实体绊倒"
+      },
+      {
+        "n": "1",
+        "descr": "stumble over",
+        "descr_trans": "绊倒"
+      }
+    ],
+    "roleset_name_trans": "走路时漏一步、犯错误"
+  }
 ]

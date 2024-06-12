@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decamp.01",
-        "roleset_name": "to leave (camp or more generic place)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving, agent"
-            },
-            {
-                "n": "1",
-                "descr": "place leaving"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decamp.01",
+    "roleset_name": "to leave (camp or more generic place)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving, agent",
+        "descr_trans": "实体离开，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "place leaving",
+        "descr_trans": "离开的地方"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "离开（营地或更通用的地方）"
+  }
 ]

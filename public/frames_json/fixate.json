@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fixate.01",
-        "roleset_name": "cause to become affixed to something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the fixating"
-            },
-            {
-                "n": "1",
-                "descr": "thing being affixed, attention"
-            },
-            {
-                "n": "2",
-                "descr": "fixated on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fixate.01",
+    "roleset_name": "cause to become affixed to something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the fixating",
+        "descr_trans": "代理，进行固定的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being affixed, attention",
+        "descr_trans": "正在粘贴的东西，注意"
+      },
+      {
+        "n": "2",
+        "descr": "fixated on",
+        "descr_trans": "专注于"
+      }
+    ],
+    "roleset_name_trans": "导致附着在某物上"
+  }
 ]

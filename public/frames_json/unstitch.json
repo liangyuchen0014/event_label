@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unstitch.01",
-        "roleset_name": "unstitch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unstitching, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unstitched, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unstitched, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unstitch.01",
+    "roleset_name": "unstitch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unstitching, agent",
+        "descr_trans": "实体拆线、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unstitched, patient",
+        "descr_trans": "未缝合的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unstitched, source",
+        "descr_trans": "未缝合，来源"
+      }
+    ],
+    "roleset_name_trans": "拆开"
+  }
 ]

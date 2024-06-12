@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unattainable.01",
-        "roleset_name": "not able to be reached, gotten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity reaching"
-            },
-            {
-                "n": "1",
-                "descr": "goal not reached"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unattainable.01",
+    "roleset_name": "not able to be reached, gotten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity reaching",
+        "descr_trans": "实体到达"
+      },
+      {
+        "n": "1",
+        "descr": "goal not reached",
+        "descr_trans": "目标未达到"
+      }
+    ],
+    "roleset_name_trans": "无法到达，得到"
+  }
 ]

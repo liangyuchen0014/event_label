@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cuddle.01",
-        "roleset_name": "hug, snugglingly, marry",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "one half"
-            },
-            {
-                "n": "2",
-                "descr": "second half"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cuddly.02",
-        "roleset_name": "liking to cuddle, suitable for cuddling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one half"
-            },
-            {
-                "n": "1",
-                "descr": "second half"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cuddle.01",
+    "roleset_name": "hug, snugglingly, marry",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "one half",
+        "descr_trans": "一半"
+      },
+      {
+        "n": "2",
+        "descr": "second half",
+        "descr_trans": "下半场"
+      }
+    ],
+    "roleset_name_trans": "拥抱、依偎、结婚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cuddly.02",
+    "roleset_name": "liking to cuddle, suitable for cuddling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one half",
+        "descr_trans": "一半"
+      },
+      {
+        "n": "1",
+        "descr": "second half",
+        "descr_trans": "下半场"
+      }
+    ],
+    "roleset_name_trans": "喜欢拥抱，适合拥抱"
+  }
 ]

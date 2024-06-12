@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jug.01",
-        "roleset_name": "to place in a jug",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jugger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity jugged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jug.01",
+    "roleset_name": "to place in a jug",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jugger, agent",
+        "descr_trans": "杂耍者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity jugged",
+        "descr_trans": "实体被压垮"
+      }
+    ],
+    "roleset_name_trans": "放入壶中"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "metastasize.101",
-        "roleset_name": "to spread to other sites in the body",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Disease or tumor undergoing metastasis"
-            },
-            {
-                "n": "2",
-                "descr": "Destination"
-            },
-            {
-                "n": "3",
-                "descr": "product, physical manifestation of the metastasizing event; the metastasis itself"
-            },
-            {
-                "n": "4",
-                "descr": "source (primary organ)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "metastasize.101",
+    "roleset_name": "to spread to other sites in the body",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Disease or tumor undergoing metastasis",
+        "descr_trans": "正在发生转移的疾病或肿瘤"
+      },
+      {
+        "n": "2",
+        "descr": "Destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "product, physical manifestation of the metastasizing event; the metastasis itself",
+        "descr_trans": "转移事件的产物、物理表现；转移本身"
+      },
+      {
+        "n": "4",
+        "descr": "source (primary organ)",
+        "descr_trans": "来源（主要器官）"
+      }
+    ],
+    "roleset_name_trans": "扩散到身体的其他部位"
+  }
 ]

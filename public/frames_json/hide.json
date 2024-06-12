@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hide.01",
-        "roleset_name": "conceal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hider"
-            },
-            {
-                "n": "1",
-                "descr": "thing hidden"
-            },
-            {
-                "n": "2",
-                "descr": "hidden from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hide_out.02",
-        "roleset_name": "go into hiding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in hiding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hide.01",
+    "roleset_name": "conceal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hider",
+        "descr_trans": "隐藏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing hidden",
+        "descr_trans": "隐藏的东西"
+      },
+      {
+        "n": "2",
+        "descr": "hidden from",
+        "descr_trans": "隐藏于"
+      }
+    ],
+    "roleset_name_trans": "隐藏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hide_out.02",
+    "roleset_name": "go into hiding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in hiding",
+        "descr_trans": "隐藏的实体"
+      }
+    ],
+    "roleset_name_trans": "逃匿"
+  }
 ]

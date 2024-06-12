@@ -1,13 +1,15 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deadlock.01",
-        "roleset_name": "two processes stopping each other from completing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing(s) deadlocking"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deadlock.01",
+    "roleset_name": "two processes stopping each other from completing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing(s) deadlocking",
+        "descr_trans": "事情陷入僵局"
+      }
+    ],
+    "roleset_name_trans": "两个进程互相阻止完成"
+  }
 ]

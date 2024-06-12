@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spell.01",
-        "roleset_name": "sequence of letters",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speller"
-            },
-            {
-                "n": "1",
-                "descr": "word"
-            },
-            {
-                "n": "2",
-                "descr": "spelling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spell.02",
-        "roleset_name": "mean",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "theme"
-            },
-            {
-                "n": "1",
-                "descr": "explanation"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "spell_out.03",
-        "roleset_name": "explain in detail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing explaining"
-            },
-            {
-                "n": "1",
-                "descr": "thing explained"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spell.01",
+    "roleset_name": "sequence of letters",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speller",
+        "descr_trans": "拼写器"
+      },
+      {
+        "n": "1",
+        "descr": "word",
+        "descr_trans": "单词"
+      },
+      {
+        "n": "2",
+        "descr": "spelling",
+        "descr_trans": "拼写"
+      }
+    ],
+    "roleset_name_trans": "字母序列"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spell.02",
+    "roleset_name": "mean",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "theme",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "explanation",
+        "descr_trans": "解释"
+      }
+    ],
+    "roleset_name_trans": "意思是"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "spell_out.03",
+    "roleset_name": "explain in detail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing explaining",
+        "descr_trans": "解释的东西"
+      },
+      {
+        "n": "1",
+        "descr": "thing explained",
+        "descr_trans": "事情解释了"
+      }
+    ],
+    "roleset_name_trans": "详细解释"
+  }
 ]

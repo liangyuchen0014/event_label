@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chip.01",
-        "roleset_name": "break off small pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing broken"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "pieces"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "chip_in.02",
-        "roleset_name": "contribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing contributed"
-            },
-            {
-                "n": "2",
-                "descr": "contributed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chip.01",
+    "roleset_name": "break off small pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breaker",
+        "descr_trans": "断路器"
+      },
+      {
+        "n": "1",
+        "descr": "thing broken",
+        "descr_trans": "东西坏了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "pieces",
+        "descr_trans": "件"
+      }
+    ],
+    "roleset_name_trans": "折断小块"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "chip_in.02",
+    "roleset_name": "contribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributor",
+        "descr_trans": "贡献者"
+      },
+      {
+        "n": "1",
+        "descr": "thing contributed",
+        "descr_trans": "事情贡献了"
+      },
+      {
+        "n": "2",
+        "descr": "contributed to",
+        "descr_trans": "有助于"
+      }
+    ],
+    "roleset_name_trans": "贡献"
+  }
 ]

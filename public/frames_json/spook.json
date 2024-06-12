@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spook.01",
-        "roleset_name": "scare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of fright"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if arg0 is also present"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spook.01",
+    "roleset_name": "scare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of fright",
+        "descr_trans": "恐惧的原因"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if arg0 is also present",
+        "descr_trans": "仪器，如果 arg0 也存在"
+      }
+    ],
+    "roleset_name_trans": "吓"
+  }
 ]

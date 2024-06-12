@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "juxtapose.01",
-        "roleset_name": "to place side by side, side by side placement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing juxtaposition, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity juxtaposed"
-            },
-            {
-                "n": "2",
-                "descr": "entity juxtaposed with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "juxtapose.01",
+    "roleset_name": "to place side by side, side by side placement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing juxtaposition, agent",
+        "descr_trans": "引起并置的实体、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity juxtaposed",
+        "descr_trans": "并置实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity juxtaposed with",
+        "descr_trans": "实体并列于"
+      }
+    ],
+    "roleset_name_trans": "并排放置, 并排放置"
+  }
 ]

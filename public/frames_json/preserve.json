@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preserve.01",
-        "roleset_name": "keep, maintain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preserver"
-            },
-            {
-                "n": "1",
-                "descr": "thing preserved"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "3",
-                "descr": "preserved against what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preserve.01",
+    "roleset_name": "keep, maintain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preserver",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "thing preserved",
+        "descr_trans": "保存的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "3",
+        "descr": "preserved against what?",
+        "descr_trans": "保护什么？"
+      }
+    ],
+    "roleset_name_trans": "保留，维持"
+  }
 ]

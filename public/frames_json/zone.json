@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zone.01",
-        "roleset_name": "establish areas for certain activities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "zoning board"
-            },
-            {
-                "n": "1",
-                "descr": "area"
-            },
-            {
-                "n": "2",
-                "descr": "activity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "zone_out.02",
-        "roleset_name": "not pay attention to some major stimulus",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity not paying attention"
-            },
-            {
-                "n": "1",
-                "descr": "thing not payed attention to"
-            },
-            {
-                "n": "2",
-                "descr": "thing payed attention to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zone.01",
+    "roleset_name": "establish areas for certain activities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "zoning board",
+        "descr_trans": "分区委员会"
+      },
+      {
+        "n": "1",
+        "descr": "area",
+        "descr_trans": "区域"
+      },
+      {
+        "n": "2",
+        "descr": "activity",
+        "descr_trans": "活动"
+      }
+    ],
+    "roleset_name_trans": "为某些活动设立区域"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "zone_out.02",
+    "roleset_name": "not pay attention to some major stimulus",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity not paying attention",
+        "descr_trans": "实体不注意"
+      },
+      {
+        "n": "1",
+        "descr": "thing not payed attention to",
+        "descr_trans": "没有注意的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing payed attention to",
+        "descr_trans": "关注的事情"
+      }
+    ],
+    "roleset_name_trans": "不关注一些重大刺激"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inspire.01",
-        "roleset_name": "to affect, guide, driving to goodness, providing motivation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of inspiration"
-            },
-            {
-                "n": "1",
-                "descr": "person, thing inspired"
-            },
-            {
-                "n": "2",
-                "descr": "inspired action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inspire.02",
-        "roleset_name": "inhaling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, breather"
-            },
-            {
-                "n": "1",
-                "descr": "Air, vapor inhaled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inspire.01",
+    "roleset_name": "to affect, guide, driving to goodness, providing motivation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of inspiration",
+        "descr_trans": "灵感的起因"
+      },
+      {
+        "n": "1",
+        "descr": "person, thing inspired",
+        "descr_trans": "人、事的启发"
+      },
+      {
+        "n": "2",
+        "descr": "inspired action",
+        "descr_trans": "受启发的行动"
+      }
+    ],
+    "roleset_name_trans": "影响、引导、推动向善、提供动力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inspire.02",
+    "roleset_name": "inhaling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, breather",
+        "descr_trans": "代理、喘息者"
+      },
+      {
+        "n": "1",
+        "descr": "Air, vapor inhaled",
+        "descr_trans": "吸入空气、蒸气"
+      }
+    ],
+    "roleset_name_trans": "吸入"
+  }
 ]

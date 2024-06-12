@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shoe.01",
-        "roleset_name": "to cover with shoes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, person putting on shoes"
-            },
-            {
-                "n": "1",
-                "descr": "Feet, entity covered with shoes"
-            },
-            {
-                "n": "2",
-                "descr": "Shoes themselves, what type of shoes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shoe.01",
+    "roleset_name": "to cover with shoes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, person putting on shoes",
+        "descr_trans": "经纪人、穿鞋的人"
+      },
+      {
+        "n": "1",
+        "descr": "Feet, entity covered with shoes",
+        "descr_trans": "脚，被鞋子覆盖的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Shoes themselves, what type of shoes",
+        "descr_trans": "鞋子本身是什么类型的鞋子"
+      }
+    ],
+    "roleset_name_trans": "用鞋子遮盖"
+  }
 ]

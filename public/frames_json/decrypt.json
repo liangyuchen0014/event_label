@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decrypt.01",
-        "roleset_name": "decode, decipher",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decoder"
-            },
-            {
-                "n": "1",
-                "descr": "thing decoded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decrypt.01",
+    "roleset_name": "decode, decipher",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decoder",
+        "descr_trans": "解码器"
+      },
+      {
+        "n": "1",
+        "descr": "thing decoded",
+        "descr_trans": "解码的东西"
+      }
+    ],
+    "roleset_name_trans": "解码，破译"
+  }
 ]

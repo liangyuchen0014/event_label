@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hypoperfuse.01",
-        "roleset_name": "decrease perfusion of blood through an organ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity losing perfusion of blood"
-            },
-            {
-                "n": "2",
-                "descr": "Blood/other fluid, if explicit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hypoperfuse.01",
+    "roleset_name": "decrease perfusion of blood through an organ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent",
+        "descr_trans": "致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "Entity losing perfusion of blood",
+        "descr_trans": "实体失去血液灌注"
+      },
+      {
+        "n": "2",
+        "descr": "Blood/other fluid, if explicit",
+        "descr_trans": "血液/其他液体（如果明显）"
+      }
+    ],
+    "roleset_name_trans": "减少通过器官的血液灌注"
+  }
 ]

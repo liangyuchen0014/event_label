@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "license.01",
-        "roleset_name": "give legal rights to property",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter of license"
-            },
-            {
-                "n": "1",
-                "descr": "licensed thing"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, licensed-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "license.01",
+    "roleset_name": "give legal rights to property",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter of license",
+        "descr_trans": "许可证授予者"
+      },
+      {
+        "n": "1",
+        "descr": "licensed thing",
+        "descr_trans": "许可的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, licensed-to",
+        "descr_trans": "有益的，获得许可的"
+      }
+    ],
+    "roleset_name_trans": "赋予财产合法权利"
+  }
 ]

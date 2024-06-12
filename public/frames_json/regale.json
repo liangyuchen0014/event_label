@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regale.01",
-        "roleset_name": "entertain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entertainer"
-            },
-            {
-                "n": "1",
-                "descr": "entity being entertained"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regale.01",
+    "roleset_name": "entertain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entertainer",
+        "descr_trans": "经纪人、艺人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being entertained",
+        "descr_trans": "被娱乐的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "招待"
+  }
 ]

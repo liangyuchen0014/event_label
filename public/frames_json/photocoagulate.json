@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "photocoagulate.01",
-        "roleset_name": "destroy tissue with an intense laser beam",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor/surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "patient, tissues, entity destroyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "photocoagulate.01",
+    "roleset_name": "destroy tissue with an intense laser beam",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor/surgeon",
+        "descr_trans": "医生/外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, tissues, entity destroyed",
+        "descr_trans": "患者、组织、实体被摧毁"
+      }
+    ],
+    "roleset_name_trans": "用强激光束破坏组织"
+  }
 ]

@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crude.01",
-        "roleset_name": "vulgar",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "vulgar entity/act"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crude.02",
-        "roleset_name": "unrefined, rough, unprocessed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unrefined substance, entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crude.01",
+    "roleset_name": "vulgar",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "vulgar entity/act",
+        "descr_trans": "粗俗的实体/行为"
+      }
+    ],
+    "roleset_name_trans": "庸俗"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crude.02",
+    "roleset_name": "unrefined, rough, unprocessed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unrefined substance, entity",
+        "descr_trans": "未精炼的物质，实体"
+      }
+    ],
+    "roleset_name_trans": "未精炼的，粗糙的，未加工的"
+  }
 ]

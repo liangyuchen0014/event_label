@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "personalize.01",
-        "roleset_name": "to make personal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity personalized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "personal.02",
-        "roleset_name": "private, pertaining to an individual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "private thing"
-            },
-            {
-                "n": "2",
-                "descr": "individual it is private/pertaining to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "personalize.01",
+    "roleset_name": "to make personal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity personalized",
+        "descr_trans": "实体个性化"
+      }
+    ],
+    "roleset_name_trans": "使个人"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "personal.02",
+    "roleset_name": "private, pertaining to an individual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "private thing",
+        "descr_trans": "私人的事情"
+      },
+      {
+        "n": "2",
+        "descr": "individual it is private/pertaining to",
+        "descr_trans": "个人是私人的/属于"
+      }
+    ],
+    "roleset_name_trans": "私人的，与个人有关的"
+  }
 ]

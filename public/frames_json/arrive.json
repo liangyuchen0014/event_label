@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arrive.01",
-        "roleset_name": "move, come to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion / 'comer'"
-            },
-            {
-                "n": "2",
-                "descr": "extent -- rare)"
-            },
-            {
-                "n": "3",
-                "descr": "start point -- also rare)"
-            },
-            {
-                "n": "4",
-                "descr": "end point, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arrive.01",
+    "roleset_name": "move, come to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion / 'comer'",
+        "descr_trans": "运动中的实体/“来者”"
+      },
+      {
+        "n": "2",
+        "descr": "extent -- rare)",
+        "descr_trans": "程度——罕见）"
+      },
+      {
+        "n": "3",
+        "descr": "start point -- also rare)",
+        "descr_trans": "起点——也很少见）"
+      },
+      {
+        "n": "4",
+        "descr": "end point, destination",
+        "descr_trans": "终点，目的地"
+      }
+    ],
+    "roleset_name_trans": "移动，来到"
+  }
 ]

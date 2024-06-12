@@ -1,124 +1,150 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lose.01",
-        "roleset_name": "decrease, fall",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lose.02",
-        "roleset_name": "lose, no longer have",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity losing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing lost"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, entity gaining thing lost"
-            },
-            {
-                "n": "3",
-                "descr": "source of loss"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lose.03",
-        "roleset_name": "battle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loser"
-            },
-            {
-                "n": "1",
-                "descr": "battle"
-            },
-            {
-                "n": "2",
-                "descr": "winner"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lose.04",
-        "roleset_name": "lose touch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loser"
-            },
-            {
-                "n": "1",
-                "descr": "touch"
-            },
-            {
-                "n": "2",
-                "descr": "with ..."
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "lose.07",
-        "roleset_name": "be unaware",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "what you're not aware of"
-            },
-            {
-                "n": "2",
-                "descr": "unaware entity"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "lose_out.06",
-        "roleset_name": "lose, come to not have",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity losing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing lost"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, entity gaining thing lost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lose.01",
+    "roleset_name": "decrease, fall",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "logical subject, patient, thing falling",
+        "descr_trans": "逻辑主题，病人，东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "减少，下降"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lose.02",
+    "roleset_name": "lose, no longer have",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity losing something",
+        "descr_trans": "实体失去某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing lost",
+        "descr_trans": "东西丢失了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, entity gaining thing lost",
+        "descr_trans": "有益的，得到失去的东西的实体"
+      },
+      {
+        "n": "3",
+        "descr": "source of loss",
+        "descr_trans": "损失来源"
+      }
+    ],
+    "roleset_name_trans": "失去，不再拥有"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lose.03",
+    "roleset_name": "battle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "1",
+        "descr": "battle",
+        "descr_trans": "战斗"
+      },
+      {
+        "n": "2",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      }
+    ],
+    "roleset_name_trans": "战斗"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lose.04",
+    "roleset_name": "lose touch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "1",
+        "descr": "touch",
+        "descr_trans": "触碰"
+      },
+      {
+        "n": "2",
+        "descr": "with ...",
+        "descr_trans": "和 ..."
+      }
+    ],
+    "roleset_name_trans": "失去联系"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "lose.07",
+    "roleset_name": "be unaware",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "what you're not aware of",
+        "descr_trans": "你不知道的事"
+      },
+      {
+        "n": "2",
+        "descr": "unaware entity",
+        "descr_trans": "不知情的实体"
+      }
+    ],
+    "roleset_name_trans": "不知道"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "lose_out.06",
+    "roleset_name": "lose, come to not have",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity losing something",
+        "descr_trans": "实体失去某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing lost",
+        "descr_trans": "东西丢失了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, entity gaining thing lost",
+        "descr_trans": "有益的，得到失去的东西的实体"
+      }
+    ],
+    "roleset_name_trans": "失去，变得没有"
+  }
 ]

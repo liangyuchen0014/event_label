@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beetle.01",
-        "roleset_name": "to pound with a beetle -- no, really!",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, pounder"
-            },
-            {
-                "n": "1",
-                "descr": "Entity pounded with beetle"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beetle.02",
-        "roleset_name": "to move, travel like a beetle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Entity in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beetle.01",
+    "roleset_name": "to pound with a beetle -- no, really!",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, pounder",
+        "descr_trans": "代理、捣蛋器"
+      },
+      {
+        "n": "1",
+        "descr": "Entity pounded with beetle",
+        "descr_trans": "实体被甲虫敲打"
+      }
+    ],
+    "roleset_name_trans": "用甲虫敲击——不，真的！"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beetle.02",
+    "roleset_name": "to move, travel like a beetle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "像甲虫一样移动、旅行"
+  }
 ]

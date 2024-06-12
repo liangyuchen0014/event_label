@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sovereign.01",
-        "roleset_name": "having authority to rule",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ruler"
-            },
-            {
-                "n": "1",
-                "descr": "ruled over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sovereign.01",
+    "roleset_name": "having authority to rule",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ruler",
+        "descr_trans": "统治者"
+      },
+      {
+        "n": "1",
+        "descr": "ruled over",
+        "descr_trans": "被统治"
+      }
+    ],
+    "roleset_name_trans": "有统治权"
+  }
 ]

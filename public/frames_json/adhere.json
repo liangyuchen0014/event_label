@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adhere.01",
-        "roleset_name": "stick (to)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of adhesion"
-            },
-            {
-                "n": "1",
-                "descr": "theme of adhesion"
-            },
-            {
-                "n": "2",
-                "descr": "thing stuck to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "adhere.02",
-        "roleset_name": "follow (policy, etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "follower"
-            },
-            {
-                "n": "1",
-                "descr": "policy, etc."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adhere.01",
+    "roleset_name": "stick (to)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of adhesion",
+        "descr_trans": "粘连的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "theme of adhesion",
+        "descr_trans": "粘附主题"
+      },
+      {
+        "n": "2",
+        "descr": "thing stuck to",
+        "descr_trans": "东西粘在"
+      }
+    ],
+    "roleset_name_trans": "依照）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "adhere.02",
+    "roleset_name": "follow (policy, etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "follower",
+        "descr_trans": "追随者"
+      },
+      {
+        "n": "1",
+        "descr": "policy, etc.",
+        "descr_trans": "政策等"
+      }
+    ],
+    "roleset_name_trans": "遵循（政策等）"
+  }
 ]

@@ -1,88 +1,105 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gross.01",
-        "roleset_name": "earn profits",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "earner"
-            },
-            {
-                "n": "1",
-                "descr": "gross profits (not net)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gross.02",
-        "roleset_name": "examine or study for tissue changes as a whole and without the use of an aid (ie a microscope)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor/ pathologist"
-            },
-            {
-                "n": "1",
-                "descr": "tissue studied"
-            },
-            {
-                "n": "2",
-                "descr": "visible thing; thing seen on exam"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gross.03",
-        "roleset_name": "complete, before deductions (financial sense)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Income, thing that is complete"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "gross.04",
-        "roleset_name": "visible to the naked eye; be able to see without a microscope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "viewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing viewed"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "gross.05",
-        "roleset_name": "disgusting, crude",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "disgusting thing"
-            },
-            {
-                "n": "2",
-                "descr": "perceiver of grossness, gross to whom?"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "gross.06",
-        "roleset_name": "conspicuous, flagrant",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Flagrant thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gross.01",
+    "roleset_name": "earn profits",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "earner",
+        "descr_trans": "赚钱者"
+      },
+      {
+        "n": "1",
+        "descr": "gross profits (not net)",
+        "descr_trans": "毛利润（非净利润）"
+      }
+    ],
+    "roleset_name_trans": "赚取利润"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gross.02",
+    "roleset_name": "examine or study for tissue changes as a whole and without the use of an aid (ie a microscope)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor/ pathologist",
+        "descr_trans": "医生/病理学家"
+      },
+      {
+        "n": "1",
+        "descr": "tissue studied",
+        "descr_trans": "研究组织"
+      },
+      {
+        "n": "2",
+        "descr": "visible thing; thing seen on exam",
+        "descr_trans": "看得见的东西；考试时看到的东西"
+      }
+    ],
+    "roleset_name_trans": "检查或研究整个组织的变化，无需使用辅助工具（即显微镜）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gross.03",
+    "roleset_name": "complete, before deductions (financial sense)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Income, thing that is complete",
+        "descr_trans": "收入，完成的事情"
+      }
+    ],
+    "roleset_name_trans": "完整，扣除前（财务意义上）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "gross.04",
+    "roleset_name": "visible to the naked eye; be able to see without a microscope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "viewer",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "1",
+        "descr": "thing viewed",
+        "descr_trans": "看过的东西"
+      }
+    ],
+    "roleset_name_trans": "肉眼可见；不用显微镜就能看到"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "gross.05",
+    "roleset_name": "disgusting, crude",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "disgusting thing",
+        "descr_trans": "恶心的东西"
+      },
+      {
+        "n": "2",
+        "descr": "perceiver of grossness, gross to whom?",
+        "descr_trans": "粗俗的感知者，对谁来说是粗俗的？"
+      }
+    ],
+    "roleset_name_trans": "恶心的, 粗鲁的"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "gross.06",
+    "roleset_name": "conspicuous, flagrant",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Flagrant thing",
+        "descr_trans": "明目张胆的事"
+      }
+    ],
+    "roleset_name_trans": "显眼的, 明目张胆的"
+  }
 ]

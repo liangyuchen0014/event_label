@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slot.01",
-        "roleset_name": "attach by inserting into a slot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of attachment"
-            },
-            {
-                "n": "1",
-                "descr": "first item attached"
-            },
-            {
-                "n": "2",
-                "descr": "inserted into, fitted to second item"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slot.01",
+    "roleset_name": "attach by inserting into a slot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of attachment",
+        "descr_trans": "代理人，依恋原因"
+      },
+      {
+        "n": "1",
+        "descr": "first item attached",
+        "descr_trans": "所附第一项"
+      },
+      {
+        "n": "2",
+        "descr": "inserted into, fitted to second item",
+        "descr_trans": "插入、安装到第二个项目"
+      }
+    ],
+    "roleset_name_trans": "通过插入插槽进行连接"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transcribe.01",
-        "roleset_name": "to make a copy or record on tape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing copied"
-            },
-            {
-                "n": "2",
-                "descr": "original medium"
-            },
-            {
-                "n": "3",
-                "descr": "destination medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transcribe.01",
+    "roleset_name": "to make a copy or record on tape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier, agent",
+        "descr_trans": "复制代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing copied",
+        "descr_trans": "复制的东西"
+      },
+      {
+        "n": "2",
+        "descr": "original medium",
+        "descr_trans": "原始媒体"
+      },
+      {
+        "n": "3",
+        "descr": "destination medium",
+        "descr_trans": "目的地媒介"
+      }
+    ],
+    "roleset_name_trans": "复制或录制在磁带上"
+  }
 ]

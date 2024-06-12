@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scald.01",
-        "roleset_name": "burn with hot liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, scalder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing scalded"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (i.e. hot water, oil, latex)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scald.01",
+    "roleset_name": "burn with hot liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, scalder",
+        "descr_trans": "代理、烫剂"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing scalded",
+        "descr_trans": "病人，被烫伤的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (i.e. hot water, oil, latex)",
+        "descr_trans": "仪器（即热水、油、乳胶）"
+      }
+    ],
+    "roleset_name_trans": "用热液体燃烧"
+  }
 ]

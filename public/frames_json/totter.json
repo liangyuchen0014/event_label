@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "totter.01",
-        "roleset_name": "stand unsteadily",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing tottering"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "totter_around.02",
-        "roleset_name": "move unsteadily",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing tottering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "totter.01",
+    "roleset_name": "stand unsteadily",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing tottering",
+        "descr_trans": "东西摇摇欲坠"
+      }
+    ],
+    "roleset_name_trans": "站不稳"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "totter_around.02",
+    "roleset_name": "move unsteadily",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing tottering",
+        "descr_trans": "东西摇摇欲坠"
+      }
+    ],
+    "roleset_name_trans": "移动不稳定"
+  }
 ]

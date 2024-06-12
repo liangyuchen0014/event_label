@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unburden.01",
-        "roleset_name": "remove a load",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unloader"
-            },
-            {
-                "n": "1",
-                "descr": "carrier"
-            },
-            {
-                "n": "2",
-                "descr": "load"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unburden.01",
+    "roleset_name": "remove a load",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unloader",
+        "descr_trans": "卸料器"
+      },
+      {
+        "n": "1",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "2",
+        "descr": "load",
+        "descr_trans": "加载"
+      }
+    ],
+    "roleset_name_trans": "移除负载"
+  }
 ]

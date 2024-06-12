@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "authorize.01",
-        "roleset_name": "allow, grant permission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "action allowed"
-            },
-            {
-                "n": "2",
-                "descr": "explicit allowed-agent"
-            },
-            {
-                "n": "3",
-                "descr": "purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "authorize.01",
+    "roleset_name": "allow, grant permission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "action allowed",
+        "descr_trans": "允许采取行动"
+      },
+      {
+        "n": "2",
+        "descr": "explicit allowed-agent",
+        "descr_trans": "显式允许代理"
+      },
+      {
+        "n": "3",
+        "descr": "purpose",
+        "descr_trans": "目的"
+      }
+    ],
+    "roleset_name_trans": "允许，授予许可"
+  }
 ]

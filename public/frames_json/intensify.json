@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intensify.01",
-        "roleset_name": "make more intense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of intensity"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming intense"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intense.02",
-        "roleset_name": "extreme, rich, concentrated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "intense thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is intense (if in addition)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intensify.01",
+    "roleset_name": "make more intense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of intensity",
+        "descr_trans": "强度的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming intense",
+        "descr_trans": "事情变得激烈"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from agent",
+        "descr_trans": "仪器，如果与代理分开"
+      }
+    ],
+    "roleset_name_trans": "使更加强烈"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intense.02",
+    "roleset_name": "extreme, rich, concentrated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "intense thing",
+        "descr_trans": "激烈的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is intense (if in addition)",
+        "descr_trans": "arg1 强烈的特定方面（如果另外的话）"
+      }
+    ],
+    "roleset_name_trans": "极端、丰富、集中"
+  }
 ]

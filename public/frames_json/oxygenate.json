@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oxygenate.01",
-        "roleset_name": "supply with oxygen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supplier of air, breather, agent"
-            },
-            {
-                "n": "1",
-                "descr": "recipient, entity oxygenated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oxygenate.01",
+    "roleset_name": "supply with oxygen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supplier of air, breather, agent",
+        "descr_trans": "空气供应商、呼吸器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "recipient, entity oxygenated",
+        "descr_trans": "接受者，实体氧化"
+      }
+    ],
+    "roleset_name_trans": "供应氧气"
+  }
 ]

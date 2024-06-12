@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "evidence.01",
-        "roleset_name": "provide proof for, proven/proving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "proof"
-            },
-            {
-                "n": "1",
-                "descr": "thing proved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "evidence.01",
+    "roleset_name": "provide proof for, proven/proving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "proof",
+        "descr_trans": "证明"
+      },
+      {
+        "n": "1",
+        "descr": "thing proved",
+        "descr_trans": "事实证明"
+      }
+    ],
+    "roleset_name_trans": "提供证明，证明/证明"
+  }
 ]

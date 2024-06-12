@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stretch.01",
-        "roleset_name": "extend, lengthen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making something be longer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing getting longer"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or TMP, by how much or until when"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stretch_out.02",
-        "roleset_name": "to extend to a greater or the full length",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of lengthening"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing getting longer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stretch.01",
+    "roleset_name": "extend, lengthen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making something be longer",
+        "descr_trans": "代理人，使某物更长的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing getting longer",
+        "descr_trans": "耐心，事情变得更长"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or TMP, by how much or until when",
+        "descr_trans": "EXT 或 TMP，增加多少或直到何时"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "延长，延长"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stretch_out.02",
+    "roleset_name": "to extend to a greater or the full length",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of lengthening",
+        "descr_trans": "延长的原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing getting longer",
+        "descr_trans": "耐心，事情变得更长"
+      }
+    ],
+    "roleset_name_trans": "延伸至更长或全长"
+  }
 ]

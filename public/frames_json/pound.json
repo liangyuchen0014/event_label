@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pound.02",
-        "roleset_name": "hit hard and repeatedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pound.03",
-        "roleset_name": "create a substance by pounding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing pounded, raw material"
-            },
-            {
-                "n": "2",
-                "descr": "end product"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pound.04",
-        "roleset_name": "move quickly but heavily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pound.05",
-        "roleset_name": "pulsating outwardly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Entity pulsating"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pound_out.01",
-        "roleset_name": "extract, produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pounder, extractor"
-            },
-            {
-                "n": "1",
-                "descr": "thing extracted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pound.02",
+    "roleset_name": "hit hard and repeatedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "重击并反复"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pound.03",
+    "roleset_name": "create a substance by pounding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing pounded, raw material",
+        "descr_trans": "捣碎的东西，原料"
+      },
+      {
+        "n": "2",
+        "descr": "end product",
+        "descr_trans": "成品"
+      }
+    ],
+    "roleset_name_trans": "通过敲击产生物质"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pound.04",
+    "roleset_name": "move quickly but heavily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "行动迅速但力度大"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pound.05",
+    "roleset_name": "pulsating outwardly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Entity pulsating",
+        "descr_trans": "实体脉动"
+      }
+    ],
+    "roleset_name_trans": "向外脉动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pound_out.01",
+    "roleset_name": "extract, produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pounder, extractor",
+        "descr_trans": "捣碎器、提取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing extracted",
+        "descr_trans": "提取的东西"
+      }
+    ],
+    "roleset_name_trans": "提取，生产"
+  }
 ]

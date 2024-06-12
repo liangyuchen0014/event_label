@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "schmooze.01",
-        "roleset_name": "schmooze, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "schmoozer(s)"
-            },
-            {
-                "n": "1",
-                "descr": "other schmoozers (if separate from Arg0), schmoozed-with"
-            },
-            {
-                "n": "2",
-                "descr": "schmoozed about what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "schmooze.01",
+    "roleset_name": "schmooze, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "schmoozer(s)",
+        "descr_trans": "闲聊者"
+      },
+      {
+        "n": "1",
+        "descr": "other schmoozers (if separate from Arg0), schmoozed-with",
+        "descr_trans": "其他闲聊者（如果与 Arg0 分开），闲聊"
+      },
+      {
+        "n": "2",
+        "descr": "schmoozed about what",
+        "descr_trans": "闲聊什么"
+      }
+    ],
+    "roleset_name_trans": "闲聊，"
+  }
 ]

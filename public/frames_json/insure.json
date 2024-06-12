@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insure.01",
-        "roleset_name": "make sure, guarantee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making guarantee"
-            },
-            {
-                "n": "1",
-                "descr": "guarantee"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, guaranteed-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "insure.02",
-        "roleset_name": "act like an insurance agency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "insurance company"
-            },
-            {
-                "n": "1",
-                "descr": "thing insured"
-            },
-            {
-                "n": "2",
-                "descr": "for how much"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "4",
-                "descr": "danger"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insure.01",
+    "roleset_name": "make sure, guarantee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making guarantee",
+        "descr_trans": "担保主体"
+      },
+      {
+        "n": "1",
+        "descr": "guarantee",
+        "descr_trans": "保证"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, guaranteed-to",
+        "descr_trans": "有益的，保证的"
+      }
+    ],
+    "roleset_name_trans": "确定，保证"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "insure.02",
+    "roleset_name": "act like an insurance agency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "insurance company",
+        "descr_trans": "保险公司"
+      },
+      {
+        "n": "1",
+        "descr": "thing insured",
+        "descr_trans": "受保物品"
+      },
+      {
+        "n": "2",
+        "descr": "for how much",
+        "descr_trans": "多少钱"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "4",
+        "descr": "danger",
+        "descr_trans": "危险"
+      }
+    ],
+    "roleset_name_trans": "像保险机构一样行事"
+  }
 ]

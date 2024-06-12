@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "divide.01",
-        "roleset_name": "mathematics, mathematical dividing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity performing calculation"
-            },
-            {
-                "n": "1",
-                "descr": "first operand"
-            },
-            {
-                "n": "2",
-                "descr": "second operand, divided-by"
-            },
-            {
-                "n": "3",
-                "descr": "resulting quantity, answer to math problem"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "divide.02",
-        "roleset_name": "separate, separated; suffering disunity, causing separation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "topic/causer/agent of division"
-            },
-            {
-                "n": "1",
-                "descr": "separated entity"
-            },
-            {
-                "n": "2",
-                "descr": "divided among/ between"
-            },
-            {
-                "n": "3",
-                "descr": "other entity separated from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "divide_up.03",
-        "roleset_name": "separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, divider"
-            },
-            {
-                "n": "1",
-                "descr": "entity divided up 2"
-            },
-            {
-                "n": "2",
-                "descr": "smaller units arg 1 is divided into/among"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "divide.01",
+    "roleset_name": "mathematics, mathematical dividing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity performing calculation",
+        "descr_trans": "执行计算的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first operand",
+        "descr_trans": "第一个操作数"
+      },
+      {
+        "n": "2",
+        "descr": "second operand, divided-by",
+        "descr_trans": "第二个操作数，除以"
+      },
+      {
+        "n": "3",
+        "descr": "resulting quantity, answer to math problem",
+        "descr_trans": "结果数量，数学问题的答案"
+      }
+    ],
+    "roleset_name_trans": "数学，数学除法"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "divide.02",
+    "roleset_name": "separate, separated; suffering disunity, causing separation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "topic/causer/agent of division",
+        "descr_trans": "分裂的主题/原因/推动者"
+      },
+      {
+        "n": "1",
+        "descr": "separated entity",
+        "descr_trans": "分离的实体"
+      },
+      {
+        "n": "2",
+        "descr": "divided among/ between",
+        "descr_trans": "划分在/之间"
+      },
+      {
+        "n": "3",
+        "descr": "other entity separated from",
+        "descr_trans": "与其他实体分离"
+      }
+    ],
+    "roleset_name_trans": "分开，分开；遭受不团结，造成分离"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "divide_up.03",
+    "roleset_name": "separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, divider",
+        "descr_trans": "代理人、分配者"
+      },
+      {
+        "n": "1",
+        "descr": "entity divided up 2",
+        "descr_trans": "实体划分2"
+      },
+      {
+        "n": "2",
+        "descr": "smaller units arg 1 is divided into/among",
+        "descr_trans": "较小的单位 arg 1 被分为/之中"
+      }
+    ],
+    "roleset_name_trans": "分离"
+  }
 ]

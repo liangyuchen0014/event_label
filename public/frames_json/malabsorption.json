@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "malabsorption.01",
-        "roleset_name": "abnormality in absorption of nutrients",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "medical patient failing to absorb"
-            },
-            {
-                "n": "1",
-                "descr": "Malabsorbed substance"
-            },
-            {
-                "n": "2",
-                "descr": "Sponge into which Arg1 is absorbed, if in addition to arg0"
-            },
-            {
-                "n": "3",
-                "descr": "Source of Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "malabsorption.01",
+    "roleset_name": "abnormality in absorption of nutrients",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "medical patient failing to absorb",
+        "descr_trans": "医疗病人无法吸收"
+      },
+      {
+        "n": "1",
+        "descr": "Malabsorbed substance",
+        "descr_trans": "吸收不良物质"
+      },
+      {
+        "n": "2",
+        "descr": "Sponge into which Arg1 is absorbed, if in addition to arg0",
+        "descr_trans": "如果除了 arg0 之外，还吸收了 Arg1 的海绵"
+      },
+      {
+        "n": "3",
+        "descr": "Source of Arg1",
+        "descr_trans": "Arg1 的来源"
+      }
+    ],
+    "roleset_name_trans": "营养吸收异常"
+  }
 ]

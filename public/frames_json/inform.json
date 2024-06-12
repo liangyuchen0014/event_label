@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inform.01",
-        "roleset_name": "cause to know",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informer"
-            },
-            {
-                "n": "1",
-                "descr": "informed"
-            },
-            {
-                "n": "2",
-                "descr": "information"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inform.02",
-        "roleset_name": "disclose confidential information to an authority; be an informant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informant"
-            },
-            {
-                "n": "1",
-                "descr": "authorities alerted"
-            },
-            {
-                "n": "2",
-                "descr": "wrongdoings, information"
-            },
-            {
-                "n": "3",
-                "descr": "wrongdoers"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inform.01",
+    "roleset_name": "cause to know",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informer",
+        "descr_trans": "告密者"
+      },
+      {
+        "n": "1",
+        "descr": "informed",
+        "descr_trans": "知情的"
+      },
+      {
+        "n": "2",
+        "descr": "information",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "导致知道"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inform.02",
+    "roleset_name": "disclose confidential information to an authority; be an informant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informant",
+        "descr_trans": "线人"
+      },
+      {
+        "n": "1",
+        "descr": "authorities alerted",
+        "descr_trans": "当局发出警报"
+      },
+      {
+        "n": "2",
+        "descr": "wrongdoings, information",
+        "descr_trans": "错误行为、信息"
+      },
+      {
+        "n": "3",
+        "descr": "wrongdoers",
+        "descr_trans": "不法分子"
+      }
+    ],
+    "roleset_name_trans": "向当局披露机密信息；成为线人"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "multiply.01",
-        "roleset_name": "increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of increase, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing or multiplier"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or multiplicand"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point or product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "multiply.01",
+    "roleset_name": "increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of increase, agent",
+        "descr_trans": "增加的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing or multiplier",
+        "descr_trans": "事物增加或乘数"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or multiplicand",
+        "descr_trans": "增加 EXT 或被乘数的金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point or product",
+        "descr_trans": "终点或产品"
+      }
+    ],
+    "roleset_name_trans": "增加"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "polka.01",
-        "roleset_name": "polka",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of polka-ing, (transitive subject only)"
-            },
-            {
-                "n": "1",
-                "descr": "polkaer(s), theme (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of polka-ing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "polka.01",
+    "roleset_name": "polka",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of polka-ing, (transitive subject only)",
+        "descr_trans": "代理人，polka-ing 的起因，（仅及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "polkaer(s), theme (intransitive subject, transitive object)",
+        "descr_trans": "polkaer(s)，主题（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of polka-ing",
+        "descr_trans": "波尔卡舞的位置"
+      }
+    ],
+    "roleset_name_trans": "波尔卡"
+  }
 ]

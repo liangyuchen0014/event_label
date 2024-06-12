@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "baidu.01",
-        "roleset_name": "use the chinese language search engine \"baidu\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity using the search engine"
-            },
-            {
-                "n": "1",
-                "descr": "thing looked up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "baidu.01",
+    "roleset_name": "use the chinese language search engine \"baidu\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity using the search engine",
+        "descr_trans": "使用搜索引擎的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing looked up",
+        "descr_trans": "东西抬头"
+      }
+    ],
+    "roleset_name_trans": "使用中文搜索引擎“百度”"
+  }
 ]

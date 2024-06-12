@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "connect.01",
-        "roleset_name": "attach, making connected, include in some group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being tied"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, tied to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "connect.01",
+    "roleset_name": "attach, making connected, include in some group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being tied",
+        "descr_trans": "首先被束缚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, tied to what",
+        "descr_trans": "第二件事，与什么相关"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "附加、建立连接、包含在某个组中"
+  }
 ]

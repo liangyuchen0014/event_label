@@ -1,150 +1,181 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "short.01",
-        "roleset_name": "sell stocks short",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stock broker"
-            },
-            {
-                "n": "1",
-                "descr": "stocks"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "short.02",
-        "roleset_name": "short-circuit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "electrician"
-            },
-            {
-                "n": "1",
-                "descr": "circuit, electrical appliance, or metaphorical extension"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "short.03",
-        "roleset_name": "short change",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of change"
-            },
-            {
-                "n": "1",
-                "descr": "receiver of change"
-            },
-            {
-                "n": "2",
-                "descr": "amount"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "short.05",
-        "roleset_name": "crumbly due to heavy fat content (as pie crust)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with heavy fat content"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "short.06",
-        "roleset_name": "not having enough to reach a goal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity not having enough"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 doesn't have enough of, amount short"
-            },
-            {
-                "n": "3",
-                "descr": "goal arg1 is short of reaching"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "short.07",
-        "roleset_name": "minimal length/duration",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "short entity"
-            },
-            {
-                "n": "2",
-                "descr": "domain/dimension in which arg1 isn't long"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            },
-            {
-                "n": "4",
-                "descr": "measurement"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "short.08",
-        "roleset_name": "snippy, brusk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity behaving bruskly"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "target of brusk behavior"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "shorten.04",
-        "roleset_name": "make shorter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming shorter"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "short.01",
+    "roleset_name": "sell stocks short",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stock broker",
+        "descr_trans": "股票经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "stocks",
+        "descr_trans": "股票"
+      }
+    ],
+    "roleset_name_trans": "卖空股票"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "short.02",
+    "roleset_name": "short-circuit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "electrician",
+        "descr_trans": "电工"
+      },
+      {
+        "n": "1",
+        "descr": "circuit, electrical appliance, or metaphorical extension",
+        "descr_trans": "电路、电器或隐喻延伸"
+      }
+    ],
+    "roleset_name_trans": "短路"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "short.03",
+    "roleset_name": "short change",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of change",
+        "descr_trans": "改变的给予者"
+      },
+      {
+        "n": "1",
+        "descr": "receiver of change",
+        "descr_trans": "变化的接受者"
+      },
+      {
+        "n": "2",
+        "descr": "amount",
+        "descr_trans": "数量"
+      }
+    ],
+    "roleset_name_trans": "零钱"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "short.05",
+    "roleset_name": "crumbly due to heavy fat content (as pie crust)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with heavy fat content",
+        "descr_trans": "脂肪含量高的东西"
+      }
+    ],
+    "roleset_name_trans": "由于脂肪含量高而易碎（如馅饼皮）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "short.06",
+    "roleset_name": "not having enough to reach a goal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity not having enough",
+        "descr_trans": "实体没有足够的"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 doesn't have enough of, amount short",
+        "descr_trans": "arg1 没有足够的东西，数量不足"
+      },
+      {
+        "n": "3",
+        "descr": "goal arg1 is short of reaching",
+        "descr_trans": "目标 arg1 尚未达到"
+      }
+    ],
+    "roleset_name_trans": "没有足够的能力来实现目标"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "short.07",
+    "roleset_name": "minimal length/duration",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "short entity",
+        "descr_trans": "短实体"
+      },
+      {
+        "n": "2",
+        "descr": "domain/dimension in which arg1 isn't long",
+        "descr_trans": "arg1 不长的域/维度"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      },
+      {
+        "n": "4",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      }
+    ],
+    "roleset_name_trans": "最小长度/持续时间"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "short.08",
+    "roleset_name": "snippy, brusk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity behaving bruskly",
+        "descr_trans": "行为粗鲁的实体"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "target of brusk behavior",
+        "descr_trans": "布鲁克行为目标"
+      }
+    ],
+    "roleset_name_trans": "脆皮, 软骨"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "shorten.04",
+    "roleset_name": "make shorter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming shorter",
+        "descr_trans": "东西变短"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "变短"
+  }
 ]

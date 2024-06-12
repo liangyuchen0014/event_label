@@ -1,485 +1,587 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cut.01",
-        "roleset_name": "slice, injure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, unintentional cutter"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cut.02",
-        "roleset_name": "reduce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing reduced"
-            },
-            {
-                "n": "2",
-                "descr": "amount reduced by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cut.12",
-        "roleset_name": "execute, make happen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "executor"
-            },
-            {
-                "n": "1",
-                "descr": "thing done"
-            },
-            {
-                "n": "2",
-                "descr": "other party"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "cut.13",
-        "roleset_name": "make a recording (because records have to be etched)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Artist"
-            },
-            {
-                "n": "1",
-                "descr": "recording"
-            },
-            {
-                "n": "2",
-                "descr": "producer/media company/label"
-            },
-            {
-                "n": "3",
-                "descr": "other artists involved"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "cut.14",
-        "roleset_name": "ditch class",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ditcher"
-            },
-            {
-                "n": "1",
-                "descr": "explicit name of the class"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "cut.15",
-        "roleset_name": "move abruptly from one scene to another, as in film editing or viewing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, editor"
-            },
-            {
-                "n": "1",
-                "descr": "film"
-            },
-            {
-                "n": "2",
-                "descr": "scene immediately before the cut"
-            },
-            {
-                "n": "3",
-                "descr": "scene immediately after the cut"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "cut_off.04",
-        "roleset_name": "slice off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "cut_back.05",
-        "roleset_name": "cut back: reduce, reduction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing reduced"
-            },
-            {
-                "n": "2",
-                "descr": "amount reduced by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "cut_out.06",
-        "roleset_name": "eliminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator"
-            },
-            {
-                "n": "1",
-                "descr": "thing eliminated"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "cut_out.09",
-        "roleset_name": "arrange",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing arranged"
-            },
-            {
-                "n": "2",
-                "descr": "arranged for whom"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "cut_up.08",
-        "roleset_name": "cut completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing now in pieces"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "cut_up.10",
-        "roleset_name": "laugh and joke",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first or all jokers"
-            },
-            {
-                "n": "1",
-                "descr": "other entity cutting up with"
-            },
-            {
-                "n": "2",
-                "descr": "joke, cutting up about what?"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "cut_down.11",
-        "roleset_name": "reduce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing reduced"
-            },
-            {
-                "n": "2",
-                "descr": "amount reduced by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "cut_to_chase.16",
-        "roleset_name": "get to the point",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rambling entity"
-            },
-            {
-                "n": "1",
-                "descr": "the point"
-            },
-            {
-                "n": "2",
-                "descr": "about what subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "cut_corners.17",
-        "roleset_name": "do a less than thorough job, take shortcuts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking a shortcut"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "cut_and_dry.18",
-        "roleset_name": "straightforward, candid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "candid entity"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter, straightforward thing"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect of arg1 that is straightforward"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "cut_it.19",
-        "roleset_name": "measure up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity hoping to measure up"
-            },
-            {
-                "n": "1",
-                "descr": "domain of achievement"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "cut_cheese.20",
-        "roleset_name": "flatulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "flatulent one"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "cut_slack.21",
-        "roleset_name": "give some leeway to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving leeway"
-            },
-            {
-                "n": "1",
-                "descr": "entity receivin leeway"
-            },
-            {
-                "n": "2",
-                "descr": "amount of slack"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter (or rope)"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "cut_fine_figure.22",
-        "roleset_name": "project a beautiful image; look attractive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "good-looking entity"
-            },
-            {
-                "n": "2",
-                "descr": "image of what"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "cut_rug.23",
-        "roleset_name": "dance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dancer"
-            },
-            {
-                "n": "1",
-                "descr": "description of rug/dance"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "cut_and_run.24",
-        "roleset_name": "to hurry off promptly, abandon effort, flee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person fleeing, cutter and runner"
-            },
-            {
-                "n": "1",
-                "descr": "topic/entity abandoned"
-            },
-            {
-                "n": "2",
-                "descr": "danger; in the face of what"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "fish_or_cut_bait.25",
-        "roleset_name": "make a decision to act or give up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vacillator"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter of decision"
-            }
-        ]
-    },
-    {
-        "uid": 24,
-        "roleset_id": "cut_above.26",
-        "roleset_name": "superior to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "superior entity"
-            },
-            {
-                "n": "2",
-                "descr": "inferior entity"
-            }
-        ]
-    },
-    {
-        "uid": 25,
-        "roleset_id": "cut_off_nose_to_spite_face.27",
-        "roleset_name": "do something self-detrimental to spite someone else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "self-sabotaging entity"
-            },
-            {
-                "n": "1",
-                "descr": "reason for self-sabotage"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cut.01",
+    "roleset_name": "slice, injure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional cutter",
+        "descr_trans": "故意切割"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, unintentional cutter",
+        "descr_trans": "仪器、无意切割器"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "切片，伤害"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cut.02",
+    "roleset_name": "reduce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing reduced",
+        "descr_trans": "东西减少了"
+      },
+      {
+        "n": "2",
+        "descr": "amount reduced by",
+        "descr_trans": "金额减少了"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cut.12",
+    "roleset_name": "execute, make happen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "executor",
+        "descr_trans": "执行人"
+      },
+      {
+        "n": "1",
+        "descr": "thing done",
+        "descr_trans": "事情完成了"
+      },
+      {
+        "n": "2",
+        "descr": "other party",
+        "descr_trans": "对方"
+      }
+    ],
+    "roleset_name_trans": "执行，使发生"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "cut.13",
+    "roleset_name": "make a recording (because records have to be etched)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "recording",
+        "descr_trans": "记录"
+      },
+      {
+        "n": "2",
+        "descr": "producer/media company/label",
+        "descr_trans": "制片人/媒体公司/唱片公司"
+      },
+      {
+        "n": "3",
+        "descr": "other artists involved",
+        "descr_trans": "其他参与的艺术家"
+      }
+    ],
+    "roleset_name_trans": "进行录音（因为记录必须被蚀刻）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "cut.14",
+    "roleset_name": "ditch class",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ditcher",
+        "descr_trans": "挖沟者"
+      },
+      {
+        "n": "1",
+        "descr": "explicit name of the class",
+        "descr_trans": "类的显式名称"
+      }
+    ],
+    "roleset_name_trans": "沟类"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "cut.15",
+    "roleset_name": "move abruptly from one scene to another, as in film editing or viewing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, editor",
+        "descr_trans": "代理人、编辑"
+      },
+      {
+        "n": "1",
+        "descr": "film",
+        "descr_trans": "电影"
+      },
+      {
+        "n": "2",
+        "descr": "scene immediately before the cut",
+        "descr_trans": "剪辑前的场景"
+      },
+      {
+        "n": "3",
+        "descr": "scene immediately after the cut",
+        "descr_trans": "剪辑后的场景"
+      }
+    ],
+    "roleset_name_trans": "突然从一个场景转到另一个场景，如电影剪辑或观看"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "cut_off.04",
+    "roleset_name": "slice off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "切掉"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "cut_back.05",
+    "roleset_name": "cut back: reduce, reduction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing reduced",
+        "descr_trans": "东西减少了"
+      },
+      {
+        "n": "2",
+        "descr": "amount reduced by",
+        "descr_trans": "金额减少了"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "cut back：减少，减少"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "cut_out.06",
+    "roleset_name": "eliminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator",
+        "descr_trans": "消除器"
+      },
+      {
+        "n": "1",
+        "descr": "thing eliminated",
+        "descr_trans": "消除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "排除"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "cut_out.09",
+    "roleset_name": "arrange",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing arranged",
+        "descr_trans": "事情安排好了"
+      },
+      {
+        "n": "2",
+        "descr": "arranged for whom",
+        "descr_trans": "为谁安排"
+      }
+    ],
+    "roleset_name_trans": "安排"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "cut_up.08",
+    "roleset_name": "cut completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing now in pieces",
+        "descr_trans": "现在的事情已经支离破碎"
+      }
+    ],
+    "roleset_name_trans": "完全切断"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "cut_up.10",
+    "roleset_name": "laugh and joke",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first or all jokers",
+        "descr_trans": "第一个或所有小丑"
+      },
+      {
+        "n": "1",
+        "descr": "other entity cutting up with",
+        "descr_trans": "其他实体与"
+      },
+      {
+        "n": "2",
+        "descr": "joke, cutting up about what?",
+        "descr_trans": "笑话，分手什么？"
+      }
+    ],
+    "roleset_name_trans": "笑和笑话"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "cut_down.11",
+    "roleset_name": "reduce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing reduced",
+        "descr_trans": "东西减少了"
+      },
+      {
+        "n": "2",
+        "descr": "amount reduced by",
+        "descr_trans": "金额减少了"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "cut_to_chase.16",
+    "roleset_name": "get to the point",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rambling entity",
+        "descr_trans": "散乱的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the point",
+        "descr_trans": "重点"
+      },
+      {
+        "n": "2",
+        "descr": "about what subject matter",
+        "descr_trans": "关于什么主题"
+      }
+    ],
+    "roleset_name_trans": "切入正题"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "cut_corners.17",
+    "roleset_name": "do a less than thorough job, take shortcuts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking a shortcut",
+        "descr_trans": "实体走捷径"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      }
+    ],
+    "roleset_name_trans": "做事不彻底，走捷径"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "cut_and_dry.18",
+    "roleset_name": "straightforward, candid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "candid entity",
+        "descr_trans": "坦诚的实体"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter, straightforward thing",
+        "descr_trans": "主题，简单的事情"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect of arg1 that is straightforward",
+        "descr_trans": "arg1 的具体方面很简单"
+      }
+    ],
+    "roleset_name_trans": "直率、坦诚"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "cut_it.19",
+    "roleset_name": "measure up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity hoping to measure up",
+        "descr_trans": "希望达到标准的实体"
+      },
+      {
+        "n": "1",
+        "descr": "domain of achievement",
+        "descr_trans": "成就领域"
+      }
+    ],
+    "roleset_name_trans": "达到"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "cut_cheese.20",
+    "roleset_name": "flatulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "flatulent one",
+        "descr_trans": "胀气的一个"
+      }
+    ],
+    "roleset_name_trans": "扁平化"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "cut_slack.21",
+    "roleset_name": "give some leeway to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving leeway",
+        "descr_trans": "实体给予回旋余地"
+      },
+      {
+        "n": "1",
+        "descr": "entity receivin leeway",
+        "descr_trans": "实体接收余地"
+      },
+      {
+        "n": "2",
+        "descr": "amount of slack",
+        "descr_trans": "松弛量"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter (or rope)",
+        "descr_trans": "主题（或绳索）"
+      }
+    ],
+    "roleset_name_trans": "给一些余地"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "cut_fine_figure.22",
+    "roleset_name": "project a beautiful image; look attractive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "good-looking entity",
+        "descr_trans": "好看的实体"
+      },
+      {
+        "n": "2",
+        "descr": "image of what",
+        "descr_trans": "什么的图像"
+      }
+    ],
+    "roleset_name_trans": "塑造美丽的形象；看起来很有吸引力"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "cut_rug.23",
+    "roleset_name": "dance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dancer",
+        "descr_trans": "舞蹈家"
+      },
+      {
+        "n": "1",
+        "descr": "description of rug/dance",
+        "descr_trans": "地毯/舞蹈的描述"
+      }
+    ],
+    "roleset_name_trans": "舞蹈"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "cut_and_run.24",
+    "roleset_name": "to hurry off promptly, abandon effort, flee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person fleeing, cutter and runner",
+        "descr_trans": "逃跑的人、切割者和奔跑者"
+      },
+      {
+        "n": "1",
+        "descr": "topic/entity abandoned",
+        "descr_trans": "主题/实体被放弃"
+      },
+      {
+        "n": "2",
+        "descr": "danger; in the face of what",
+        "descr_trans": "危险;面对什么"
+      }
+    ],
+    "roleset_name_trans": "迅速离开、放弃努力、逃跑"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "fish_or_cut_bait.25",
+    "roleset_name": "make a decision to act or give up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vacillator",
+        "descr_trans": "动摇者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter of decision",
+        "descr_trans": "决定的主题"
+      }
+    ],
+    "roleset_name_trans": "做出行动或放弃的决定"
+  },
+  {
+    "uid": 24,
+    "roleset_id": "cut_above.26",
+    "roleset_name": "superior to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "superior entity",
+        "descr_trans": "上级实体"
+      },
+      {
+        "n": "2",
+        "descr": "inferior entity",
+        "descr_trans": "劣等实体"
+      }
+    ],
+    "roleset_name_trans": "优于"
+  },
+  {
+    "uid": 25,
+    "roleset_id": "cut_off_nose_to_spite_face.27",
+    "roleset_name": "do something self-detrimental to spite someone else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "self-sabotaging entity",
+        "descr_trans": "自我破坏的实体"
+      },
+      {
+        "n": "1",
+        "descr": "reason for self-sabotage",
+        "descr_trans": "自我破坏的原因"
+      }
+    ],
+    "roleset_name_trans": "做一些对自己有害的事情来激怒别人"
+  }
 ]

@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "speak.01",
-        "roleset_name": "speak, lecturing, talking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "language"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "speak.04",
-        "roleset_name": "speak_to: give evidence of or comments on; address an issue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "commenter"
-            },
-            {
-                "n": "1",
-                "descr": "commented on, issue addressed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "speak_up.02",
-        "roleset_name": "speak up: make yourself heard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "speak_out.03",
-        "roleset_name": "speak out: make yourself heard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "speak_for.05",
-        "roleset_name": "claim",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "claimer"
-            },
-            {
-                "n": "1",
-                "descr": "thing claimed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "speak.01",
+    "roleset_name": "speak, lecturing, talking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "language",
+        "descr_trans": "语言"
+      }
+    ],
+    "roleset_name_trans": "讲话、演讲、演讲"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "speak.04",
+    "roleset_name": "speak_to: give evidence of or comments on; address an issue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "commenter",
+        "descr_trans": "评论者"
+      },
+      {
+        "n": "1",
+        "descr": "commented on, issue addressed",
+        "descr_trans": "发表评论，解决问题"
+      }
+    ],
+    "roleset_name_trans": "talk_to：提供证据或评论；解决问题"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "speak_up.02",
+    "roleset_name": "speak up: make yourself heard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      }
+    ],
+    "roleset_name_trans": "大声说出来：让别人听到你自己的声音"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "speak_out.03",
+    "roleset_name": "speak out: make yourself heard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "说出来：让别人听到你自己的声音"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "speak_for.05",
+    "roleset_name": "claim",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "claimer",
+        "descr_trans": "索赔"
+      },
+      {
+        "n": "1",
+        "descr": "thing claimed",
+        "descr_trans": "声称的东西"
+      }
+    ],
+    "roleset_name_trans": "宣称"
+  }
 ]

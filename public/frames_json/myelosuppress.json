@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "myelosuppress.01",
-        "roleset_name": "decreasing bone marrow activity, resulting in fewer red blood cells",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of myelosuppression"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing myelosuppression"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "myelosuppress.01",
+    "roleset_name": "decreasing bone marrow activity, resulting in fewer red blood cells",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of myelosuppression",
+        "descr_trans": "骨髓抑制的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing myelosuppression",
+        "descr_trans": "经历骨髓抑制的实体"
+      }
+    ],
+    "roleset_name_trans": "降低骨髓活性，导致红细胞减少"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coop.01",
-        "roleset_name": "confine in a small space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cooper"
-            },
-            {
-                "n": "1",
-                "descr": "entity cooped"
-            },
-            {
-                "n": "m",
-                "descr": "coop, location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "coop_up.02",
-        "roleset_name": "confine in a small space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cooper"
-            },
-            {
-                "n": "1",
-                "descr": "entity cooped"
-            },
-            {
-                "n": "m",
-                "descr": "coop, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coop.01",
+    "roleset_name": "confine in a small space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cooper",
+        "descr_trans": "库珀"
+      },
+      {
+        "n": "1",
+        "descr": "entity cooped",
+        "descr_trans": "实体合作"
+      },
+      {
+        "n": "m",
+        "descr": "coop, location",
+        "descr_trans": "鸡舍, 位置"
+      }
+    ],
+    "roleset_name_trans": "限制在狭小的空间内"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "coop_up.02",
+    "roleset_name": "confine in a small space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cooper",
+        "descr_trans": "库珀"
+      },
+      {
+        "n": "1",
+        "descr": "entity cooped",
+        "descr_trans": "实体合作"
+      },
+      {
+        "n": "m",
+        "descr": "coop, location",
+        "descr_trans": "鸡舍, 位置"
+      }
+    ],
+    "roleset_name_trans": "限制在狭小的空间内"
+  }
 ]

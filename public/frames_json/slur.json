@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slur.01",
-        "roleset_name": "to articulate poorly, mumble, garble",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Speaker"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance, Speech"
-            },
-            {
-                "n": "2",
-                "descr": "Listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slur.02",
-        "roleset_name": "disparaging remark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person making ugly remark"
-            },
-            {
-                "n": "1",
-                "descr": "ugly remark, utterance"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, hearer or audience of remark, remarked-to"
-            },
-            {
-                "n": "3",
-                "descr": "attributive, type of slur (e.g. racial)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slur.01",
+    "roleset_name": "to articulate poorly, mumble, garble",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance, Speech",
+        "descr_trans": "话语、演讲"
+      },
+      {
+        "n": "2",
+        "descr": "Listener",
+        "descr_trans": "聆听者"
+      }
+    ],
+    "roleset_name_trans": "口齿不清、含糊不清、胡言乱语"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slur.02",
+    "roleset_name": "disparaging remark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person making ugly remark",
+        "descr_trans": "发表难听言论的人"
+      },
+      {
+        "n": "1",
+        "descr": "ugly remark, utterance",
+        "descr_trans": "丑陋的言论, 言语"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, hearer or audience of remark, remarked-to",
+        "descr_trans": "言论的接受者、听众或观众、评论对象"
+      },
+      {
+        "n": "3",
+        "descr": "attributive, type of slur (e.g. racial)",
+        "descr_trans": "定语、诽谤类型（例如种族）"
+      }
+    ],
+    "roleset_name_trans": "贬低言论"
+  }
 ]

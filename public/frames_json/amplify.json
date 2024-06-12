@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "amplify.01",
-        "roleset_name": "make louder or greater",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of becoming louder"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming louder"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "amplify.01",
+    "roleset_name": "make louder or greater",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of becoming louder",
+        "descr_trans": "导致声音变大的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming louder",
+        "descr_trans": "事情变得越来越响亮"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "使声音变大或变大"
+  }
 ]

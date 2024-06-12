@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coronate.01",
-        "roleset_name": "ritual crowning of a monarch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity performing the crowning"
-            },
-            {
-                "n": "1",
-                "descr": "new monarch"
-            },
-            {
-                "n": "2",
-                "descr": "new title, role"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coronate.01",
+    "roleset_name": "ritual crowning of a monarch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity performing the crowning",
+        "descr_trans": "执行加冕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "new monarch",
+        "descr_trans": "新君主"
+      },
+      {
+        "n": "2",
+        "descr": "new title, role",
+        "descr_trans": "新头衔、新角色"
+      }
+    ],
+    "roleset_name_trans": "君主加冕仪式"
+  }
 ]

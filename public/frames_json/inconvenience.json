@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inconvenience.01",
-        "roleset_name": "(cause to) become inconvenienced",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/agent"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of inconvenience"
-            },
-            {
-                "n": "2",
-                "descr": "thing that is inconvenient; (about what) (if separate from arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inconvenience.02",
-        "roleset_name": "put out, not suited to comfort/needs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/agent"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of inconvenience"
-            },
-            {
-                "n": "2",
-                "descr": "thing that is inconvenient; (about what) (if separate from arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inconvenience.01",
+    "roleset_name": "(cause to) become inconvenienced",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of inconvenience",
+        "descr_trans": "不便经历者"
+      },
+      {
+        "n": "2",
+        "descr": "thing that is inconvenient; (about what) (if separate from arg0)",
+        "descr_trans": "不方便的事情； （关于什么）（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得不便"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inconvenience.02",
+    "roleset_name": "put out, not suited to comfort/needs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of inconvenience",
+        "descr_trans": "不便经历者"
+      },
+      {
+        "n": "2",
+        "descr": "thing that is inconvenient; (about what) (if separate from arg0)",
+        "descr_trans": "不方便的事情； （关于什么）（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "被淘汰，不适合舒适/需要"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expose.01",
-        "roleset_name": "cause to be visible",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exposer"
-            },
-            {
-                "n": "1",
-                "descr": "exposed entity"
-            },
-            {
-                "n": "2",
-                "descr": "exposed to (second entity)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expose.01",
+    "roleset_name": "cause to be visible",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exposer",
+        "descr_trans": "暴露"
+      },
+      {
+        "n": "1",
+        "descr": "exposed entity",
+        "descr_trans": "暴露实体"
+      },
+      {
+        "n": "2",
+        "descr": "exposed to (second entity)",
+        "descr_trans": "暴露于（第二实体）"
+      }
+    ],
+    "roleset_name_trans": "导致可见"
+  }
 ]

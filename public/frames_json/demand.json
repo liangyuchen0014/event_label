@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demand.01",
-        "roleset_name": "ask a favor, ask a request",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker"
-            },
-            {
-                "n": "1",
-                "descr": "favor"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demand.01",
+    "roleset_name": "ask a favor, ask a request",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "favor",
+        "descr_trans": "青睐"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "请求帮忙，提出请求"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pave.01",
-        "roleset_name": "cover a wide flat surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier of cover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            },
-            {
-                "n": "2",
-                "descr": "paving material"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pave.02",
-        "roleset_name": "pave the way: prepare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            },
-            {
-                "n": "1",
-                "descr": "the way"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pave.01",
+    "roleset_name": "cover a wide flat surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier of cover, agent",
+        "descr_trans": "覆盖者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "2",
+        "descr": "paving material",
+        "descr_trans": "铺路材料"
+      }
+    ],
+    "roleset_name_trans": "覆盖宽阔的平坦表面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pave.02",
+    "roleset_name": "pave the way: prepare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      },
+      {
+        "n": "1",
+        "descr": "the way",
+        "descr_trans": "道路"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "铺平道路：准备"
+  }
 ]

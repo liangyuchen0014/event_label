@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "layover.01",
-        "roleset_name": "a stop in the course of a trip",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "waiting entitiy"
-            },
-            {
-                "n": "1",
-                "descr": "length of stop"
-            },
-            {
-                "n": "2",
-                "descr": "area or location of wait"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "layover.01",
+    "roleset_name": "a stop in the course of a trip",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "waiting entitiy",
+        "descr_trans": "等待实体"
+      },
+      {
+        "n": "1",
+        "descr": "length of stop",
+        "descr_trans": "停止长度"
+      },
+      {
+        "n": "2",
+        "descr": "area or location of wait",
+        "descr_trans": "等待区域或地点"
+      }
+    ],
+    "roleset_name_trans": "旅行途中的停留"
+  }
 ]

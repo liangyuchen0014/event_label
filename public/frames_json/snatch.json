@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snatch.01",
-        "roleset_name": "grab quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snatched"
-            },
-            {
-                "n": "1",
-                "descr": "snatched"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snatch_away.02",
-        "roleset_name": "grab quickly away from someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "snatcher"
-            },
-            {
-                "n": "1",
-                "descr": "thing snatched"
-            },
-            {
-                "n": "2",
-                "descr": "snatched from"
-            },
-            {
-                "n": "3",
-                "descr": "snatched for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snatch.01",
+    "roleset_name": "grab quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snatched",
+        "descr_trans": "抢走的"
+      },
+      {
+        "n": "1",
+        "descr": "snatched",
+        "descr_trans": "抢走的"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "快点抢"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snatch_away.02",
+    "roleset_name": "grab quickly away from someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "snatcher",
+        "descr_trans": "抢夺者"
+      },
+      {
+        "n": "1",
+        "descr": "thing snatched",
+        "descr_trans": "东西被抢了"
+      },
+      {
+        "n": "2",
+        "descr": "snatched from",
+        "descr_trans": "抢夺自"
+      },
+      {
+        "n": "3",
+        "descr": "snatched for",
+        "descr_trans": "抢夺"
+      }
+    ],
+    "roleset_name_trans": "迅速从某人身边夺走"
+  }
 ]

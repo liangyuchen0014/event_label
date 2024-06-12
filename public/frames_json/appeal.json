@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appeal.01",
-        "roleset_name": "legal transaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "appealer"
-            },
-            {
-                "n": "1",
-                "descr": "decision disagreed with"
-            },
-            {
-                "n": "2",
-                "descr": "appealed to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appeal.02",
-        "roleset_name": "beg",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "begger, appealer"
-            },
-            {
-                "n": "1",
-                "descr": "appealed to, begged from"
-            },
-            {
-                "n": "2",
-                "descr": "begged/appealed for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "appeal.03",
-        "roleset_name": "be attractive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "appealing thing"
-            },
-            {
-                "n": "1",
-                "descr": "entity attracted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appeal.01",
+    "roleset_name": "legal transaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "appealer",
+        "descr_trans": "上诉人"
+      },
+      {
+        "n": "1",
+        "descr": "decision disagreed with",
+        "descr_trans": "决定不同意"
+      },
+      {
+        "n": "2",
+        "descr": "appealed to",
+        "descr_trans": "呼吁"
+      }
+    ],
+    "roleset_name_trans": "合法交易"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appeal.02",
+    "roleset_name": "beg",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "begger, appealer",
+        "descr_trans": "乞讨者，上诉者"
+      },
+      {
+        "n": "1",
+        "descr": "appealed to, begged from",
+        "descr_trans": "呼吁，恳求"
+      },
+      {
+        "n": "2",
+        "descr": "begged/appealed for",
+        "descr_trans": "恳求/呼吁"
+      }
+    ],
+    "roleset_name_trans": "求"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "appeal.03",
+    "roleset_name": "be attractive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "appealing thing",
+        "descr_trans": "吸引人的东西"
+      },
+      {
+        "n": "1",
+        "descr": "entity attracted",
+        "descr_trans": "实体吸引"
+      }
+    ],
+    "roleset_name_trans": "具有吸引力"
+  }
 ]

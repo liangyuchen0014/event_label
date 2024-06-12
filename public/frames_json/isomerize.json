@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "isomerize.01",
-        "roleset_name": "tranform a molecule into another with the same atoms, but a different arrangement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of isomerization (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing isomerized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "resulting isomer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "isomerize.01",
+    "roleset_name": "tranform a molecule into another with the same atoms, but a different arrangement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of isomerization (e.g. scientist)",
+        "descr_trans": "异构化的故意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing isomerized",
+        "descr_trans": "异构化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "resulting isomer",
+        "descr_trans": "所得异构体"
+      }
+    ],
+    "roleset_name_trans": "将一个分子转变为具有相同原子但排列不同的另一个分子"
+  }
 ]

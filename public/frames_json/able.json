@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "able.01",
-        "roleset_name": "have an ability, skill, being able",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with ability"
-            },
-            {
-                "n": "2",
-                "descr": "ability itself, what is arg1 able to do?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "able.01",
+    "roleset_name": "have an ability, skill, being able",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with ability",
+        "descr_trans": "有能力的实体"
+      },
+      {
+        "n": "2",
+        "descr": "ability itself, what is arg1 able to do?",
+        "descr_trans": "能力本身，arg1 能够做什么？"
+      }
+    ],
+    "roleset_name_trans": "有能力、技能、能够"
+  }
 ]

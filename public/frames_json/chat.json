@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chat.01",
-        "roleset_name": "talk idly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chat.01",
+    "roleset_name": "talk idly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "闲聊"
+  }
 ]

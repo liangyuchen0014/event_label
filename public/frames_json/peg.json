@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "peg.01",
-        "roleset_name": "stabilize (a price)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of stabilization, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity pegged"
-            },
-            {
-                "n": "2",
-                "descr": "pegged to/at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "peg.02",
-        "roleset_name": "peg it: to die",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity dying"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: \"it\""
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "peg.01",
+    "roleset_name": "stabilize (a price)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of stabilization, agent",
+        "descr_trans": "稳定原因，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity pegged",
+        "descr_trans": "实体挂钩"
+      },
+      {
+        "n": "2",
+        "descr": "pegged to/at",
+        "descr_trans": "挂钩/于"
+      }
+    ],
+    "roleset_name_trans": "稳定（价格）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "peg.02",
+    "roleset_name": "peg it: to die",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity dying",
+        "descr_trans": "实体死亡"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: \"it\"",
+        "descr_trans": "修复”"
+      }
+    ],
+    "roleset_name_trans": "钉住它：去死"
+  }
 ]

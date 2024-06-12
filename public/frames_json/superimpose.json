@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "superimpose.01",
-        "roleset_name": "put one thing atop another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing on top"
-            },
-            {
-                "n": "2",
-                "descr": "thing below"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "superimpose.01",
+    "roleset_name": "put one thing atop another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, putter, agent",
+        "descr_trans": "放置者, 推杆, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing on top",
+        "descr_trans": "上面的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing below",
+        "descr_trans": "下面的东西"
+      }
+    ],
+    "roleset_name_trans": "把一件事放在另一件事上面"
+  }
 ]

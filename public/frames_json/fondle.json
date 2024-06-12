@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fondle.01",
-        "roleset_name": "touch-rub-grab",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fondler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing fondled, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of fondling (rare)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fondle.01",
+    "roleset_name": "touch-rub-grab",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fondler, agent",
+        "descr_trans": "宠儿，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing fondled, patient",
+        "descr_trans": "抚摸的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of fondling (rare)",
+        "descr_trans": "抚摸的工具（罕见）"
+      }
+    ],
+    "roleset_name_trans": "触摸-摩擦-抓取"
+  }
 ]

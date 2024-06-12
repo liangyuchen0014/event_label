@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handdeliver.01",
-        "roleset_name": "give by hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deliverer"
-            },
-            {
-                "n": "1",
-                "descr": "package"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handdeliver.01",
+    "roleset_name": "give by hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deliverer",
+        "descr_trans": "送货员"
+      },
+      {
+        "n": "1",
+        "descr": "package",
+        "descr_trans": "包裹"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "亲手给予"
+  }
 ]

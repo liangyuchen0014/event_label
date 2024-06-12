@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ill.01",
-        "roleset_name": "ill",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sick/ill one"
-            },
-            {
-                "n": "2",
-                "descr": "cause or disease, ill with what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ill.02",
-        "roleset_name": "poor, unfavorable, bad",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity described as poor, unfavorable, bad"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ill.01",
+    "roleset_name": "ill",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sick/ill one",
+        "descr_trans": "有病/有病的一个"
+      },
+      {
+        "n": "2",
+        "descr": "cause or disease, ill with what?",
+        "descr_trans": "原因或疾病，因什么而生病？"
+      }
+    ],
+    "roleset_name_trans": "患病的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ill.02",
+    "roleset_name": "poor, unfavorable, bad",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity described as poor, unfavorable, bad",
+        "descr_trans": "被描述为贫穷、不利、坏的实体"
+      }
+    ],
+    "roleset_name_trans": "贫穷的，不利的，坏的"
+  }
 ]

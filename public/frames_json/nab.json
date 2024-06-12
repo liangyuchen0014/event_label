@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nab.01",
-        "roleset_name": "to arrest or capture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, nabber"
-            },
-            {
-                "n": "1",
-                "descr": "criminal,entity nabbed"
-            },
-            {
-                "n": "2",
-                "descr": "nabbed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nab.01",
+    "roleset_name": "to arrest or capture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, nabber",
+        "descr_trans": "代理人，纳伯"
+      },
+      {
+        "n": "1",
+        "descr": "criminal,entity nabbed",
+        "descr_trans": "犯罪分子、实体被抓获"
+      },
+      {
+        "n": "2",
+        "descr": "nabbed from",
+        "descr_trans": "被抓获"
+      }
+    ],
+    "roleset_name_trans": "逮捕或捕获"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mop.01",
-        "roleset_name": "clean a surface of liquid, with a mop or mopping implement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mopper"
-            },
-            {
-                "n": "1",
-                "descr": "surface (ie, floor)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (defaults to 'mop')"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mop_up.02",
-        "roleset_name": "clean up with a mop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mopper"
-            },
-            {
-                "n": "1",
-                "descr": "surface (ie, floor)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (defaults to 'mop')"
-            },
-            {
-                "n": "3",
-                "descr": "mess-maker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mop.01",
+    "roleset_name": "clean a surface of liquid, with a mop or mopping implement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mopper",
+        "descr_trans": "拖把"
+      },
+      {
+        "n": "1",
+        "descr": "surface (ie, floor)",
+        "descr_trans": "表面（即地板）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (defaults to 'mop')",
+        "descr_trans": "乐器（默认为“拖把”）"
+      }
+    ],
+    "roleset_name_trans": "用拖把或拖把工具清洁液体表面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mop_up.02",
+    "roleset_name": "clean up with a mop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mopper",
+        "descr_trans": "拖把"
+      },
+      {
+        "n": "1",
+        "descr": "surface (ie, floor)",
+        "descr_trans": "表面（即地板）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (defaults to 'mop')",
+        "descr_trans": "乐器（默认为“拖把”）"
+      },
+      {
+        "n": "3",
+        "descr": "mess-maker",
+        "descr_trans": "混乱制造者"
+      }
+    ],
+    "roleset_name_trans": "用拖把清理"
+  }
 ]

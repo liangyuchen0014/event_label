@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curette.01",
-        "roleset_name": "use a curette to remove unwanted tissue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, user of curette"
-            },
-            {
-                "n": "1",
-                "descr": "Patient, entity curette is being used on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curette.01",
+    "roleset_name": "use a curette to remove unwanted tissue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, user of curette",
+        "descr_trans": "代理人、刮匙使用者"
+      },
+      {
+        "n": "1",
+        "descr": "Patient, entity curette is being used on",
+        "descr_trans": "患者，实体刮匙正在使用"
+      }
+    ],
+    "roleset_name_trans": "使用刮匙去除不需要的组织"
+  }
 ]

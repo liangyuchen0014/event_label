@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compete.01",
-        "roleset_name": "vie, wanting to win",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "competitor"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "2",
-                "descr": "prize"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of the competition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "compete.02",
-        "roleset_name": "economic, capitalistic competition: competitive salary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "competitor"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "3",
-                "descr": "domain of the competition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compete.01",
+    "roleset_name": "vie, wanting to win",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "competitor",
+        "descr_trans": "竞争者"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "2",
+        "descr": "prize",
+        "descr_trans": "奖"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of the competition",
+        "descr_trans": "竞赛主题"
+      }
+    ],
+    "roleset_name_trans": "竞争，想赢"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "compete.02",
+    "roleset_name": "economic, capitalistic competition: competitive salary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "competitor",
+        "descr_trans": "竞争者"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "3",
+        "descr": "domain of the competition",
+        "descr_trans": "竞争领域"
+      }
+    ],
+    "roleset_name_trans": "经济、资本主义竞争：有竞争力的薪资"
+  }
 ]

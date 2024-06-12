@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plead.01",
-        "roleset_name": "beg",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "begger, appealer"
-            },
-            {
-                "n": "1",
-                "descr": "appealed to, begged from"
-            },
-            {
-                "n": "2",
-                "descr": "begged/appealed for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plead.02",
-        "roleset_name": "state guilt or innocence, give a plea in court, misspelling of plead?, give an answer, reply to charges, usually in court",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the accused"
-            },
-            {
-                "n": "1",
-                "descr": "guilty or innocent"
-            },
-            {
-                "n": "2",
-                "descr": "alleged crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plead.01",
+    "roleset_name": "beg",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "begger, appealer",
+        "descr_trans": "乞讨者，上诉者"
+      },
+      {
+        "n": "1",
+        "descr": "appealed to, begged from",
+        "descr_trans": "呼吁，恳求"
+      },
+      {
+        "n": "2",
+        "descr": "begged/appealed for",
+        "descr_trans": "恳求/呼吁"
+      }
+    ],
+    "roleset_name_trans": "求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plead.02",
+    "roleset_name": "state guilt or innocence, give a plea in court, misspelling of plead?, give an answer, reply to charges, usually in court",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the accused",
+        "descr_trans": "被告人"
+      },
+      {
+        "n": "1",
+        "descr": "guilty or innocent",
+        "descr_trans": "有罪或无罪"
+      },
+      {
+        "n": "2",
+        "descr": "alleged crime",
+        "descr_trans": "涉嫌犯罪"
+      }
+    ],
+    "roleset_name_trans": "陈述有罪或无罪，在法庭上提出抗辩，抗辩拼写错误？，给出答案，答复指控，通常在法庭上"
+  }
 ]

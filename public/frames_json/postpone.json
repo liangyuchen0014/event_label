@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "postpone.01",
-        "roleset_name": "delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of delay"
-            },
-            {
-                "n": "1",
-                "descr": "event delayed"
-            },
-            {
-                "n": "2",
-                "descr": "delay itself, EXT, time period, how long arg 1 was delayed for"
-            },
-            {
-                "n": "3",
-                "descr": "original time"
-            },
-            {
-                "n": "4",
-                "descr": "new time"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "postpone.01",
+    "roleset_name": "delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of delay",
+        "descr_trans": "代理人，延误的原因"
+      },
+      {
+        "n": "1",
+        "descr": "event delayed",
+        "descr_trans": "事件延迟"
+      },
+      {
+        "n": "2",
+        "descr": "delay itself, EXT, time period, how long arg 1 was delayed for",
+        "descr_trans": "延迟本身、EXT、时间段、arg 1 延迟了多长时间"
+      },
+      {
+        "n": "3",
+        "descr": "original time",
+        "descr_trans": "原来的时间"
+      },
+      {
+        "n": "4",
+        "descr": "new time",
+        "descr_trans": "新时间"
+      }
+    ],
+    "roleset_name_trans": "延迟"
+  }
 ]

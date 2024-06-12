@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transit.01",
-        "roleset_name": "travel",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing passing"
-            },
-            {
-                "n": "2",
-                "descr": "location, space crossed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "transient.02",
-        "roleset_name": "passing, changing, in motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing passing"
-            },
-            {
-                "n": "2",
-                "descr": "location, space traversed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transit.01",
+    "roleset_name": "travel",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing passing",
+        "descr_trans": "事情经过"
+      },
+      {
+        "n": "2",
+        "descr": "location, space crossed",
+        "descr_trans": "位置、空间交叉"
+      }
+    ],
+    "roleset_name_trans": "旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "transient.02",
+    "roleset_name": "passing, changing, in motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing passing",
+        "descr_trans": "事情经过"
+      },
+      {
+        "n": "2",
+        "descr": "location, space traversed",
+        "descr_trans": "位置、经过的空间"
+      }
+    ],
+    "roleset_name_trans": "经过、变化、运动"
+  }
 ]

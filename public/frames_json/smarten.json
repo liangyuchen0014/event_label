@@ -1,100 +1,120 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smarten.01",
-        "roleset_name": "(cause to) be more intelligent, quick,   and/or stylish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now stylish, quick, or smart"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "subject, smarten about what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smarten_up.02",
-        "roleset_name": "(cause to) be more intelligent, quick,         and/or stylish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now stylish, quick, or smart"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "subject, smarten up about/to what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "smart.03",
-        "roleset_name": "experience mild pain",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity which is experiencing pain"
-            },
-            {
-                "n": "2",
-                "descr": "cause of pain (us. 'at')"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "smart.04",
-        "roleset_name": "aesthetically sharp, stylish",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sytlish thing"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "smart.05",
-        "roleset_name": "speedy, brisk (pace)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "pace being described"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "smart.06",
-        "roleset_name": "intelligent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "intelligent agent/action (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "skill area (smart at)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smarten.01",
+    "roleset_name": "(cause to) be more intelligent, quick,   and/or stylish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation, agent",
+        "descr_trans": "转变原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity now stylish, quick, or smart",
+        "descr_trans": "实体现在时尚、快速或智能"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "subject, smarten about what?",
+        "descr_trans": "主题，聪明什么？"
+      }
+    ],
+    "roleset_name_trans": "（导致）更加聪明、快速和/或时尚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smarten_up.02",
+    "roleset_name": "(cause to) be more intelligent, quick,         and/or stylish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation, agent",
+        "descr_trans": "转变原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity now stylish, quick, or smart",
+        "descr_trans": "实体现在时尚、快速或智能"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "subject, smarten up about/to what?",
+        "descr_trans": "主题，关于/针对什么？"
+      }
+    ],
+    "roleset_name_trans": "（导致）更加聪明、快速和/或时尚"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "smart.03",
+    "roleset_name": "experience mild pain",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity which is experiencing pain",
+        "descr_trans": "正在经历痛苦的​​实体"
+      },
+      {
+        "n": "2",
+        "descr": "cause of pain (us. 'at')",
+        "descr_trans": "疼痛的原因（us.&#39;at&#39;）"
+      }
+    ],
+    "roleset_name_trans": "经历轻微疼痛"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "smart.04",
+    "roleset_name": "aesthetically sharp, stylish",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sytlish thing",
+        "descr_trans": "时髦的东西"
+      }
+    ],
+    "roleset_name_trans": "审美敏锐、时尚"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "smart.05",
+    "roleset_name": "speedy, brisk (pace)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "pace being described",
+        "descr_trans": "所描述的速度"
+      }
+    ],
+    "roleset_name_trans": "快速的，轻快的（节奏）"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "smart.06",
+    "roleset_name": "intelligent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "intelligent agent/action (may require concatenation)",
+        "descr_trans": "智能代理/操作（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "skill area (smart at)",
+        "descr_trans": "技能领域（擅长）"
+      }
+    ],
+    "roleset_name_trans": "聪明的"
+  }
 ]

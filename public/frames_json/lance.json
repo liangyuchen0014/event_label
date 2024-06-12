@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lance.01",
-        "roleset_name": "pierce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of piercing"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming pierced"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lance.02",
-        "roleset_name": "move sharply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lance.01",
+    "roleset_name": "pierce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of piercing",
+        "descr_trans": "穿孔的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming pierced",
+        "descr_trans": "实体被刺穿"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used",
+        "descr_trans": "使用的仪器"
+      }
+    ],
+    "roleset_name_trans": "刺穿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lance.02",
+    "roleset_name": "move sharply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "急剧移动"
+  }
 ]

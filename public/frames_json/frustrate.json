@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frustrate.01",
-        "roleset_name": "cause angst, experiencing angst",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus, frustrater"
-            },
-            {
-                "n": "1",
-                "descr": "entity frustrated"
-            },
-            {
-                "n": "2",
-                "descr": "target of frustration (if in addition to arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frustrate.01",
+    "roleset_name": "cause angst, experiencing angst",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus, frustrater",
+        "descr_trans": "刺激、挫败"
+      },
+      {
+        "n": "1",
+        "descr": "entity frustrated",
+        "descr_trans": "实体受挫"
+      },
+      {
+        "n": "2",
+        "descr": "target of frustration (if in addition to arg0)",
+        "descr_trans": "挫败目标（如果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "引起焦虑，经历焦虑"
+  }
 ]

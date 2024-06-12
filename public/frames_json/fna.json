@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fna.01",
-        "roleset_name": "fine needle aspiration - suck out fluid with a fine needle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "docotr"
-            },
-            {
-                "n": "1",
-                "descr": "substance"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fna.01",
+    "roleset_name": "fine needle aspiration - suck out fluid with a fine needle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "docotr",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "substance",
+        "descr_trans": "物质"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "细针抽吸——用细针吸出液体"
+  }
 ]

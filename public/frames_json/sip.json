@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sip.01",
-        "roleset_name": "to drink in small quantities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drinker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "drink"
-            },
-            {
-                "n": "2",
-                "descr": "container"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sip.01",
+    "roleset_name": "to drink in small quantities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drinker, agent",
+        "descr_trans": "饮酒者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "drink",
+        "descr_trans": "喝"
+      },
+      {
+        "n": "2",
+        "descr": "container",
+        "descr_trans": "容器"
+      }
+    ],
+    "roleset_name_trans": "少量饮用"
+  }
 ]

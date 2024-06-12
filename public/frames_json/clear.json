@@ -1,172 +1,207 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clear.01",
-        "roleset_name": "clean, make clear or open",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "thing made clean"
-            },
-            {
-                "n": "2",
-                "descr": "dirt"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clear.02",
-        "roleset_name": "approve, permit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, approver"
-            },
-            {
-                "n": "1",
-                "descr": "thing approved"
-            },
-            {
-                "n": "2",
-                "descr": "semi-idiomatic: 'the way'"
-            },
-            {
-                "n": "3",
-                "descr": "entity given permission for arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "clear.03",
-        "roleset_name": "escape, avoid, get past or through",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "escaper"
-            },
-            {
-                "n": "1",
-                "descr": "thing escaped"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "clear.06",
-        "roleset_name": "apparent, obvious, well-explained, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of clarification, evidence/facts"
-            },
-            {
-                "n": "1",
-                "descr": "Thing that is clear, obvious"
-            },
-            {
-                "n": "2",
-                "descr": "whom it is obvious to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "clear.07",
-        "roleset_name": "translucent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is translucent"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "clear.08",
-        "roleset_name": "unobstructed, clean, open",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is clear, open (may not be filled by test event)"
-            },
-            {
-                "n": "2",
-                "descr": "dirt, obstructions"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "clear.09",
-        "roleset_name": "having avoided obstruction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing avoiding something else"
-            },
-            {
-                "n": "1",
-                "descr": "thing avoided"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "clear_up.04",
-        "roleset_name": "become/make clear, clean, becoming, making clean or clear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming clean"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "clear_out.05",
-        "roleset_name": "remove, leave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clearer, causer of leaving"
-            },
-            {
-                "n": "1",
-                "descr": "entity leaving or removed"
-            },
-            {
-                "n": "2",
-                "descr": "place left"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "clarify.10",
-        "roleset_name": "make clear(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of clarification, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming clearer"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clear.01",
+    "roleset_name": "clean, make clear or open",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cleaner",
+        "descr_trans": "清洁工"
+      },
+      {
+        "n": "1",
+        "descr": "thing made clean",
+        "descr_trans": "东西变得干净"
+      },
+      {
+        "n": "2",
+        "descr": "dirt",
+        "descr_trans": "污垢"
+      }
+    ],
+    "roleset_name_trans": "清洁、明确或开放"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clear.02",
+    "roleset_name": "approve, permit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, approver",
+        "descr_trans": "代理人、审批人"
+      },
+      {
+        "n": "1",
+        "descr": "thing approved",
+        "descr_trans": "批准的事情"
+      },
+      {
+        "n": "2",
+        "descr": "semi-idiomatic: 'the way'",
+        "descr_trans": "半惯用语：“方式”"
+      },
+      {
+        "n": "3",
+        "descr": "entity given permission for arg1",
+        "descr_trans": "授予 arg1 权限的实体"
+      }
+    ],
+    "roleset_name_trans": "批准，允许"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "clear.03",
+    "roleset_name": "escape, avoid, get past or through",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "escaper",
+        "descr_trans": "逃亡者"
+      },
+      {
+        "n": "1",
+        "descr": "thing escaped",
+        "descr_trans": "东西逃脱了"
+      }
+    ],
+    "roleset_name_trans": "逃脱、避免、过去或通过"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "clear.06",
+    "roleset_name": "apparent, obvious, well-explained, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of clarification, evidence/facts",
+        "descr_trans": "澄清原因、证据/事实"
+      },
+      {
+        "n": "1",
+        "descr": "Thing that is clear, obvious",
+        "descr_trans": "清楚、显而易见的事情"
+      },
+      {
+        "n": "2",
+        "descr": "whom it is obvious to",
+        "descr_trans": "对谁来说是显而易见的"
+      }
+    ],
+    "roleset_name_trans": "明显的, 明显的, 解释清楚的,"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "clear.07",
+    "roleset_name": "translucent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is translucent",
+        "descr_trans": "半透明的东西"
+      }
+    ],
+    "roleset_name_trans": "半透明"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "clear.08",
+    "roleset_name": "unobstructed, clean, open",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is clear, open (may not be filled by test event)",
+        "descr_trans": "明确、开放的事物（可能不会被测试事件填充）"
+      },
+      {
+        "n": "2",
+        "descr": "dirt, obstructions",
+        "descr_trans": "污垢、障碍物"
+      }
+    ],
+    "roleset_name_trans": "畅通无阻、干净、开放"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "clear.09",
+    "roleset_name": "having avoided obstruction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing avoiding something else",
+        "descr_trans": "回避其他事物的事物"
+      },
+      {
+        "n": "1",
+        "descr": "thing avoided",
+        "descr_trans": "避免的事情"
+      }
+    ],
+    "roleset_name_trans": "避免了阻碍"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "clear_up.04",
+    "roleset_name": "become/make clear, clean, becoming, making clean or clear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cleaner",
+        "descr_trans": "清洁工"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming clean",
+        "descr_trans": "事物变得干净"
+      }
+    ],
+    "roleset_name_trans": "变得/变得清晰、干净、成为、变得干净或清晰"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "clear_out.05",
+    "roleset_name": "remove, leave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clearer, causer of leaving",
+        "descr_trans": "更清楚，导致离开"
+      },
+      {
+        "n": "1",
+        "descr": "entity leaving or removed",
+        "descr_trans": "实体离开或移除"
+      },
+      {
+        "n": "2",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "除去、离开"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "clarify.10",
+    "roleset_name": "make clear(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of clarification, agent",
+        "descr_trans": "澄清原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming clearer",
+        "descr_trans": "事情变得更加清晰"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "明确（呃）"
+  }
 ]

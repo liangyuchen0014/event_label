@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excrete.01",
-        "roleset_name": "discharge something from the system, removing or ejecting waste product",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity excreting"
-            },
-            {
-                "n": "1",
-                "descr": "Substance being excreted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excrete.01",
+    "roleset_name": "discharge something from the system, removing or ejecting waste product",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity excreting",
+        "descr_trans": "代理、实体排泄"
+      },
+      {
+        "n": "1",
+        "descr": "Substance being excreted",
+        "descr_trans": "物质被排出"
+      }
+    ],
+    "roleset_name_trans": "从系统中排出一些东西，去除或排出废物"
+  }
 ]

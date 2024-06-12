@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "net.02",
-        "roleset_name": "give, cause to have (as profit)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "source, giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "destination, benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "net.03",
-        "roleset_name": "get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter"
-            },
-            {
-                "n": "1",
-                "descr": "gotten"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "net_out.01",
-        "roleset_name": "net out: total",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being counted"
-            },
-            {
-                "n": "2",
-                "descr": "count"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "net.02",
+    "roleset_name": "give, cause to have (as profit)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "source, giver",
+        "descr_trans": "来源，给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "destination, benefactive",
+        "descr_trans": "目的地, 有益的"
+      }
+    ],
+    "roleset_name_trans": "给予，导致拥有（作为利润）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "net.03",
+    "roleset_name": "get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      },
+      {
+        "n": "1",
+        "descr": "gotten",
+        "descr_trans": "得到"
+      }
+    ],
+    "roleset_name_trans": "得到"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "net_out.01",
+    "roleset_name": "net out: total",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being counted",
+        "descr_trans": "被计算的东西"
+      },
+      {
+        "n": "2",
+        "descr": "count",
+        "descr_trans": "数数"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "净输出：总计"
+  }
 ]

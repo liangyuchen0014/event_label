@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compute.01",
-        "roleset_name": "to calculate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "calculator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity calculated"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compute.01",
+    "roleset_name": "to calculate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "calculator, agent",
+        "descr_trans": "计算器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity calculated",
+        "descr_trans": "实体计算"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "计算"
+  }
 ]

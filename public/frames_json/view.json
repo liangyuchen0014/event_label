@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "view.01",
-        "roleset_name": "watch, look at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "viewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing viewed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "view.02",
-        "roleset_name": "assign an attribute to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner"
-            },
-            {
-                "n": "1",
-                "descr": "thing labelled"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "view.01",
+    "roleset_name": "watch, look at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "viewer",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "1",
+        "descr": "thing viewed",
+        "descr_trans": "看过的东西"
+      }
+    ],
+    "roleset_name_trans": "观看，看看"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "view.02",
+    "roleset_name": "assign an attribute to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner",
+        "descr_trans": "分配"
+      },
+      {
+        "n": "1",
+        "descr": "thing labelled",
+        "descr_trans": "贴有标签的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "分配一个属性给"
+  }
 ]

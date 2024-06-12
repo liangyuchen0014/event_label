@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gather.01",
-        "roleset_name": "to collect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity gathered"
-            },
-            {
-                "n": "2",
-                "descr": "gathered into"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gather.02",
-        "roleset_name": "understand, deduce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "understood"
-            },
-            {
-                "n": "2",
-                "descr": "source, evidence"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gather.03",
-        "roleset_name": "come together, meet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entities coming together, meeting particpants"
-            },
-            {
-                "n": "1",
-                "descr": "purpose/type of gathering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gather.01",
+    "roleset_name": "to collect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or causer",
+        "descr_trans": "代理人或起因"
+      },
+      {
+        "n": "1",
+        "descr": "entity gathered",
+        "descr_trans": "实体聚集"
+      },
+      {
+        "n": "2",
+        "descr": "gathered into",
+        "descr_trans": "聚集成"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "去收集"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gather.02",
+    "roleset_name": "understand, deduce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "understood",
+        "descr_trans": "明白了"
+      },
+      {
+        "n": "2",
+        "descr": "source, evidence",
+        "descr_trans": "来源、证据"
+      }
+    ],
+    "roleset_name_trans": "理解、推断"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gather.03",
+    "roleset_name": "come together, meet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entities coming together, meeting particpants",
+        "descr_trans": "实体聚集在一起，与参与者会面"
+      },
+      {
+        "n": "1",
+        "descr": "purpose/type of gathering",
+        "descr_trans": "聚会的目的/类型"
+      }
+    ],
+    "roleset_name_trans": "聚集在一起，见面"
+  }
 ]

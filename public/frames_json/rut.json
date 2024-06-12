@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rut.01",
-        "roleset_name": "put ruts in, furrow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, maker of ruts"
-            },
-            {
-                "n": "1",
-                "descr": "location/entity rutted"
-            },
-            {
-                "n": "2",
-                "descr": "rut itself, type of rut"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rut.01",
+    "roleset_name": "put ruts in, furrow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, maker of ruts",
+        "descr_trans": "代理人，车辙制造者"
+      },
+      {
+        "n": "1",
+        "descr": "location/entity rutted",
+        "descr_trans": "位置/实体车辙"
+      },
+      {
+        "n": "2",
+        "descr": "rut itself, type of rut",
+        "descr_trans": "车辙本身，车辙的类型"
+      }
+    ],
+    "roleset_name_trans": "铺上车辙，开沟"
+  }
 ]

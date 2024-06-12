@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prioritize.01",
-        "roleset_name": "make  a priority",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing made a priority"
-            },
-            {
-                "n": "2",
-                "descr": "old priority; what the new thing is prioritized over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prioritize.01",
+    "roleset_name": "make  a priority",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing made a priority",
+        "descr_trans": "事情被优先考虑"
+      },
+      {
+        "n": "2",
+        "descr": "old priority; what the new thing is prioritized over",
+        "descr_trans": "旧优先级；新事物优先于什么"
+      }
+    ],
+    "roleset_name_trans": "优先考虑"
+  }
 ]

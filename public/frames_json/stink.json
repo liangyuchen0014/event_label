@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stink.01",
-        "roleset_name": "to emit a strong odor",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity stinking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stink.02",
-        "roleset_name": "be very bad at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "incompetent entity"
-            },
-            {
-                "n": "2",
-                "descr": "what they're bad at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stink.01",
+    "roleset_name": "to emit a strong odor",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity stinking",
+        "descr_trans": "实体发臭"
+      }
+    ],
+    "roleset_name_trans": "散发出强烈的气味"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stink.02",
+    "roleset_name": "be very bad at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "incompetent entity",
+        "descr_trans": "无能力实体"
+      },
+      {
+        "n": "2",
+        "descr": "what they're bad at",
+        "descr_trans": "他们不擅长什么"
+      }
+    ],
+    "roleset_name_trans": "很不擅长"
+  }
 ]

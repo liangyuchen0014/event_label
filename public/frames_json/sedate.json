@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sedate.01",
-        "roleset_name": "make calm with drugs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sedator"
-            },
-            {
-                "n": "1",
-                "descr": "sedated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of sedation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sedate.01",
+    "roleset_name": "make calm with drugs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sedator",
+        "descr_trans": "镇静剂"
+      },
+      {
+        "n": "1",
+        "descr": "sedated",
+        "descr_trans": "镇静剂"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of sedation",
+        "descr_trans": "镇静仪器"
+      }
+    ],
+    "roleset_name_trans": "用药物让自己平静下来"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excommunicate.01",
-        "roleset_name": "exclude from the sacraments of a   church by ecclesiastical sentence., permanently banishing from church affiliation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sentencer, excluder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity excluded"
-            },
-            {
-                "n": "2",
-                "descr": "excluded from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excommunicate.01",
+    "roleset_name": "exclude from the sacraments of a   church by ecclesiastical sentence., permanently banishing from church affiliation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sentencer, excluder, agent",
+        "descr_trans": "判刑者, 排除者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity excluded",
+        "descr_trans": "排除实体"
+      },
+      {
+        "n": "2",
+        "descr": "excluded from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "被教会判决从教会的圣礼中排除，永久地从教会中驱逐出去"
+  }
 ]

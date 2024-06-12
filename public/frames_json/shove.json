@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shove.01",
-        "roleset_name": "push harshly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pusher"
-            },
-            {
-                "n": "1",
-                "descr": "thing pushed"
-            },
-            {
-                "n": "2",
-                "descr": "destination, direction, end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shove.01",
+    "roleset_name": "push harshly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pusher",
+        "descr_trans": "推手"
+      },
+      {
+        "n": "1",
+        "descr": "thing pushed",
+        "descr_trans": "东西推了"
+      },
+      {
+        "n": "2",
+        "descr": "destination, direction, end state",
+        "descr_trans": "目的地、方向、最终状态"
+      }
+    ],
+    "roleset_name_trans": "狠狠地推"
+  }
 ]

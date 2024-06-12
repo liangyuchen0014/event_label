@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "canonize.01",
-        "roleset_name": "actually officially declare to be a saint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity declaring sainthood"
-            },
-            {
-                "n": "1",
-                "descr": "entity being sainted"
-            },
-            {
-                "n": "2",
-                "descr": "canonized as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "canonize.02",
-        "roleset_name": "treat like a saint (metaphorically)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "glorifier"
-            },
-            {
-                "n": "1",
-                "descr": "glorified"
-            },
-            {
-                "n": "2",
-                "descr": "blessed with (gift)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "canonize.01",
+    "roleset_name": "actually officially declare to be a saint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity declaring sainthood",
+        "descr_trans": "宣告圣人的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being sainted",
+        "descr_trans": "实体被圣化"
+      },
+      {
+        "n": "2",
+        "descr": "canonized as",
+        "descr_trans": "册封为"
+      }
+    ],
+    "roleset_name_trans": "实际上正式宣布成为圣人"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "canonize.02",
+    "roleset_name": "treat like a saint (metaphorically)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "glorifier",
+        "descr_trans": "颂扬"
+      },
+      {
+        "n": "1",
+        "descr": "glorified",
+        "descr_trans": "荣耀的"
+      },
+      {
+        "n": "2",
+        "descr": "blessed with (gift)",
+        "descr_trans": "受到（礼物）的祝福"
+      }
+    ],
+    "roleset_name_trans": "像圣人一样对待（比喻）"
+  }
 ]

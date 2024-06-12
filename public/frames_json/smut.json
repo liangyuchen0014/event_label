@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smut.01",
-        "roleset_name": "make obscene",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of obsceneness"
-            },
-            {
-                "n": "1",
-                "descr": "affected entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smut.02",
-        "roleset_name": "be affected with smut or mildew",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing moldering"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "smut.03",
-        "roleset_name": "stain with a dirty substance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stain"
-            },
-            {
-                "n": "1",
-                "descr": "dirt"
-            },
-            {
-                "n": "2",
-                "descr": "stained item"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smut.01",
+    "roleset_name": "make obscene",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of obsceneness",
+        "descr_trans": "淫秽的原因"
+      },
+      {
+        "n": "1",
+        "descr": "affected entity",
+        "descr_trans": "受影响的实体"
+      }
+    ],
+    "roleset_name_trans": "使猥亵"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smut.02",
+    "roleset_name": "be affected with smut or mildew",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing moldering",
+        "descr_trans": "东西腐烂"
+      }
+    ],
+    "roleset_name_trans": "受到黑穗病或霉菌的影响"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "smut.03",
+    "roleset_name": "stain with a dirty substance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stain",
+        "descr_trans": "污渍的原因"
+      },
+      {
+        "n": "1",
+        "descr": "dirt",
+        "descr_trans": "污垢"
+      },
+      {
+        "n": "2",
+        "descr": "stained item",
+        "descr_trans": "染色物品"
+      }
+    ],
+    "roleset_name_trans": "沾有脏物"
+  }
 ]

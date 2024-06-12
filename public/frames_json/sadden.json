@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sadden.01",
-        "roleset_name": "(cause to) become sad, unhappy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sadness"
-            },
-            {
-                "n": "1",
-                "descr": "saddened entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sad.02",
-        "roleset_name": "unhappy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sadness"
-            },
-            {
-                "n": "1",
-                "descr": "sad entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sadden.01",
+    "roleset_name": "(cause to) become sad, unhappy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sadness",
+        "descr_trans": "悲伤的原因"
+      },
+      {
+        "n": "1",
+        "descr": "saddened entity",
+        "descr_trans": "悲伤的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得悲伤、不快乐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sad.02",
+    "roleset_name": "unhappy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sadness",
+        "descr_trans": "悲伤的原因"
+      },
+      {
+        "n": "1",
+        "descr": "sad entity",
+        "descr_trans": "悲伤的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "不高兴"
+  }
 ]

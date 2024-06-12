@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "concern.01",
-        "roleset_name": "worry about, be emotionally involved with, cause anxiety about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of concern"
-            },
-            {
-                "n": "1",
-                "descr": "worried entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "concern.02",
-        "roleset_name": "deal with, have to do with, involved, pertained to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity dealing with something"
-            },
-            {
-                "n": "1",
-                "descr": "thing dealt with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "concerning.03",
-        "roleset_name": "indicating a particular condition or outcome.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "symptom, causer or concern"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing concern"
-            },
-            {
-                "n": "2",
-                "descr": "condition or outcome indicated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "concern.01",
+    "roleset_name": "worry about, be emotionally involved with, cause anxiety about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of concern",
+        "descr_trans": "引起关注"
+      },
+      {
+        "n": "1",
+        "descr": "worried entity",
+        "descr_trans": "担心的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "担心、情绪化、引起焦虑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "concern.02",
+    "roleset_name": "deal with, have to do with, involved, pertained to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity dealing with something",
+        "descr_trans": "处理某事物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing dealt with",
+        "descr_trans": "处理的事情"
+      }
+    ],
+    "roleset_name_trans": "处理、涉及、涉及、涉及"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "concerning.03",
+    "roleset_name": "indicating a particular condition or outcome.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "symptom, causer or concern",
+        "descr_trans": "症状、原因或担忧"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing concern",
+        "descr_trans": "遇到关注的实体"
+      },
+      {
+        "n": "2",
+        "descr": "condition or outcome indicated",
+        "descr_trans": "指示的条件或结果"
+      }
+    ],
+    "roleset_name_trans": "表示特定的条件或结果。"
+  }
 ]

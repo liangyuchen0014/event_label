@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "combust.01",
-        "roleset_name": "cause to burn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of combustion"
-            },
-            {
-                "n": "1",
-                "descr": "thing combusting"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "combust.01",
+    "roleset_name": "cause to burn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of combustion",
+        "descr_trans": "燃烧剂/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing combusting",
+        "descr_trans": "燃烧的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "导致燃烧"
+  }
 ]

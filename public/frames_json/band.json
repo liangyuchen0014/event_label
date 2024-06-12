@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "band.01",
-        "roleset_name": "attach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of banding together, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) thing(s) attached"
-            },
-            {
-                "n": "2",
-                "descr": "other things, if present/separate"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of patients"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "band.01",
+    "roleset_name": "attach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of banding together, agent",
+        "descr_trans": "团结的起因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) thing(s) attached",
+        "descr_trans": "第一个（或所有）附加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "other things, if present/separate",
+        "descr_trans": "其他东西，如果存在/单独的话"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of patients",
+        "descr_trans": "患者属性"
+      }
+    ],
+    "roleset_name_trans": "附"
+  }
 ]

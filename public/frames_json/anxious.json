@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "anxious.01",
-        "roleset_name": "experiencing nervousness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of anxiety -- anxious over/about what?"
-            },
-            {
-                "n": "1",
-                "descr": "nervous entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "anxious.02",
-        "roleset_name": "antsy, impatient, eager to do something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "impatient one"
-            },
-            {
-                "n": "2",
-                "descr": "to do what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "anxious.01",
+    "roleset_name": "experiencing nervousness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of anxiety -- anxious over/about what?",
+        "descr_trans": "焦虑的原因——因为什么而焦虑？"
+      },
+      {
+        "n": "1",
+        "descr": "nervous entity",
+        "descr_trans": "神经实体"
+      }
+    ],
+    "roleset_name_trans": "感到紧张"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "anxious.02",
+    "roleset_name": "antsy, impatient, eager to do something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "impatient one",
+        "descr_trans": "不耐烦的一个"
+      },
+      {
+        "n": "2",
+        "descr": "to do what",
+        "descr_trans": "做什么"
+      }
+    ],
+    "roleset_name_trans": "坐立不安，不耐烦，急于做某事"
+  }
 ]

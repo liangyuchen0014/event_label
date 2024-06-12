@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plop.01",
-        "roleset_name": "drop smth heavily/carelessly, perhaps making a plopping noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person purposefully doing the dropping"
-            },
-            {
-                "n": "1",
-                "descr": "thing being dropped"
-            },
-            {
-                "n": "2",
-                "descr": "location/destination of the thing being dropped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plop.01",
+    "roleset_name": "drop smth heavily/carelessly, perhaps making a plopping noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person purposefully doing the dropping",
+        "descr_trans": "特工，故意丢弃物品的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being dropped",
+        "descr_trans": "东西被丢弃"
+      },
+      {
+        "n": "2",
+        "descr": "location/destination of the thing being dropped",
+        "descr_trans": "被丢弃物品的位置/目的地"
+      }
+    ],
+    "roleset_name_trans": "重重地/不小心地掉落某物，也许会发出扑通扑通的声音"
+  }
 ]

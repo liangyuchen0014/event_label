@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sublet.01",
-        "roleset_name": "to rent property one holds by lease to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "original renter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "property"
-            },
-            {
-                "n": "2",
-                "descr": "new renter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sublet.01",
+    "roleset_name": "to rent property one holds by lease to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "original renter, agent",
+        "descr_trans": "原承租人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "property",
+        "descr_trans": "财产"
+      },
+      {
+        "n": "2",
+        "descr": "new renter",
+        "descr_trans": "新租客"
+      }
+    ],
+    "roleset_name_trans": "将一个人通过租赁持有的财产出租给另一个人"
+  }
 ]

@@ -1,149 +1,179 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "right.01",
-        "roleset_name": "make right, correct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker right"
-            },
-            {
-                "n": "1",
-                "descr": "thing that was wrong"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "right.02",
-        "roleset_name": "morally/legally appropriate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "suitable thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "right.03",
-        "roleset_name": "suited to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "suitable thing"
-            },
-            {
-                "n": "2",
-                "descr": "suited to what/whom"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "right.04",
-        "roleset_name": "be located next to the right side",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "theme, entity located on the right"
-            },
-            {
-                "n": "2",
-                "descr": "to the right of"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "right.05",
-        "roleset_name": "something due to you by law, tradition or moral principle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a right"
-            },
-            {
-                "n": "2",
-                "descr": "what they have a right to"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "right.06",
-        "roleset_name": "correct, accurate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with the correct facts"
-            },
-            {
-                "n": "2",
-                "descr": "accurate proposition, thought, right about what"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "right.08",
-        "roleset_name": "politically leaning towards conservative",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "right-wing entity"
-            },
-            {
-                "n": "2",
-                "descr": "on what issues"
-            },
-            {
-                "n": "3",
-                "descr": "the whole group, of which one faction is right"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "righteous.07",
-        "roleset_name": "morally upstanding",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "righteous entity"
-            },
-            {
-                "n": "2",
-                "descr": "domain of righteousness"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "alright.09",
-        "roleset_name": "ok",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity deeming it 'alright'"
-            },
-            {
-                "n": "1",
-                "descr": "thing that is alright"
-            },
-            {
-                "n": "2",
-                "descr": "who it is alright for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "right.01",
+    "roleset_name": "make right, correct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker right",
+        "descr_trans": "制造者权利"
+      },
+      {
+        "n": "1",
+        "descr": "thing that was wrong",
+        "descr_trans": "错误的事情"
+      }
+    ],
+    "roleset_name_trans": "使正确，正确"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "right.02",
+    "roleset_name": "morally/legally appropriate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "suitable thing",
+        "descr_trans": "合适的东西"
+      }
+    ],
+    "roleset_name_trans": "道德上/法律上适当的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "right.03",
+    "roleset_name": "suited to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "suitable thing",
+        "descr_trans": "合适的东西"
+      },
+      {
+        "n": "2",
+        "descr": "suited to what/whom",
+        "descr_trans": "适合什么/谁"
+      }
+    ],
+    "roleset_name_trans": "适合"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "right.04",
+    "roleset_name": "be located next to the right side",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "theme, entity located on the right",
+        "descr_trans": "主题，位于右侧的实体"
+      },
+      {
+        "n": "2",
+        "descr": "to the right of",
+        "descr_trans": "在 - 的右边"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "位于右侧旁边"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "right.05",
+    "roleset_name": "something due to you by law, tradition or moral principle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a right",
+        "descr_trans": "具有权利的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what they have a right to",
+        "descr_trans": "他们有权做什么"
+      }
+    ],
+    "roleset_name_trans": "根据法律、传统或道德原则应得的东西"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "right.06",
+    "roleset_name": "correct, accurate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with the correct facts",
+        "descr_trans": "具有正确事实的实体"
+      },
+      {
+        "n": "2",
+        "descr": "accurate proposition, thought, right about what",
+        "descr_trans": "准确的主张、想法、正确的事情"
+      }
+    ],
+    "roleset_name_trans": "正确的，准确的"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "right.08",
+    "roleset_name": "politically leaning towards conservative",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "right-wing entity",
+        "descr_trans": "右翼实体"
+      },
+      {
+        "n": "2",
+        "descr": "on what issues",
+        "descr_trans": "关于什么问题"
+      },
+      {
+        "n": "3",
+        "descr": "the whole group, of which one faction is right",
+        "descr_trans": "整个团体，其中一个派系是正确的"
+      }
+    ],
+    "roleset_name_trans": "政治上倾向保守"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "righteous.07",
+    "roleset_name": "morally upstanding",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "righteous entity",
+        "descr_trans": "正义实体"
+      },
+      {
+        "n": "2",
+        "descr": "domain of righteousness",
+        "descr_trans": "正义的领域"
+      }
+    ],
+    "roleset_name_trans": "道德高尚"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "alright.09",
+    "roleset_name": "ok",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity deeming it 'alright'",
+        "descr_trans": "实体认为“没问题”"
+      },
+      {
+        "n": "1",
+        "descr": "thing that is alright",
+        "descr_trans": "没关系的事"
+      },
+      {
+        "n": "2",
+        "descr": "who it is alright for",
+        "descr_trans": "谁适合"
+      }
+    ],
+    "roleset_name_trans": "好的"
+  }
 ]

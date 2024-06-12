@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "port.01",
-        "roleset_name": "to carry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity ported"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "port.01",
+    "roleset_name": "to carry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier, agent",
+        "descr_trans": "承运人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity ported",
+        "descr_trans": "实体移植"
+      }
+    ],
+    "roleset_name_trans": "携带"
+  }
 ]

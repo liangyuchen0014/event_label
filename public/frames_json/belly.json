@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "belly_up.01",
-        "roleset_name": "move towards",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "belly_up.01",
+    "roleset_name": "move towards",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "朝着去"
+  }
 ]

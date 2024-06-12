@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compromise.01",
-        "roleset_name": "reach an agreement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agreer"
-            },
-            {
-                "n": "1",
-                "descr": "proposition"
-            },
-            {
-                "n": "2",
-                "descr": "other entity agreeing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "compromise.02",
-        "roleset_name": "lose security, concede, cause to weaken, endanger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of loss"
-            },
-            {
-                "n": "1",
-                "descr": "thing losing security"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compromise.01",
+    "roleset_name": "reach an agreement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agreer",
+        "descr_trans": "同意"
+      },
+      {
+        "n": "1",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      },
+      {
+        "n": "2",
+        "descr": "other entity agreeing",
+        "descr_trans": "其他实体同意"
+      }
+    ],
+    "roleset_name_trans": "达成协议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "compromise.02",
+    "roleset_name": "lose security, concede, cause to weaken, endanger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of loss",
+        "descr_trans": "造成损失的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing losing security",
+        "descr_trans": "失去安全感的东西"
+      }
+    ],
+    "roleset_name_trans": "失去安全感、让步、导致削弱、危及"
+  }
 ]

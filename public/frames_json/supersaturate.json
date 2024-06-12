@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supersaturate.01",
-        "roleset_name": "causing a solution to contain more solute than it can stably contain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent of filling"
-            },
-            {
-                "n": "1",
-                "descr": "Container; Substance supersaturated( solution)"
-            },
-            {
-                "n": "2",
-                "descr": "Substance supersaturating Arg1 (solute)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supersaturate.01",
+    "roleset_name": "causing a solution to contain more solute than it can stably contain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent of filling",
+        "descr_trans": "填充剂"
+      },
+      {
+        "n": "1",
+        "descr": "Container; Substance supersaturated( solution)",
+        "descr_trans": "容器;物质过饱和（溶液）"
+      },
+      {
+        "n": "2",
+        "descr": "Substance supersaturating Arg1 (solute)",
+        "descr_trans": "物质过饱和 Arg1（溶质）"
+      }
+    ],
+    "roleset_name_trans": "导致溶液中的溶质含量超过其稳定含量"
+  }
 ]

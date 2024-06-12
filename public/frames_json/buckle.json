@@ -1,58 +1,69 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "buckle.01",
-        "roleset_name": "use a buckle to fasten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being tied"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, buckle"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "buckle.04",
-        "roleset_name": "collapse",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing collapsing"
-            },
-            {
-                "n": "2",
-                "descr": "pressure, weight, etc"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "buckle_up.02",
-        "roleset_name": "buckle up: prepare for the worst",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "buckle_down.03",
-        "roleset_name": "buckle down: get busy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity getting busy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "buckle.01",
+    "roleset_name": "use a buckle to fasten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being tied",
+        "descr_trans": "病人，东西被绑住"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, buckle",
+        "descr_trans": "仪表、扣具"
+      }
+    ],
+    "roleset_name_trans": "用带扣固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "buckle.04",
+    "roleset_name": "collapse",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing collapsing",
+        "descr_trans": "东西倒塌"
+      },
+      {
+        "n": "2",
+        "descr": "pressure, weight, etc",
+        "descr_trans": "压力、重量等"
+      }
+    ],
+    "roleset_name_trans": "坍塌"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "buckle_up.02",
+    "roleset_name": "buckle up: prepare for the worst",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      }
+    ],
+    "roleset_name_trans": "系好安全带：做好最坏的打算"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "buckle_down.03",
+    "roleset_name": "buckle down: get busy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity getting busy",
+        "descr_trans": "实体变得忙碌"
+      }
+    ],
+    "roleset_name_trans": "全力以赴：忙起来"
+  }
 ]

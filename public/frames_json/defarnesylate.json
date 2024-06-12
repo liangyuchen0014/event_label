@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defarnesylate.01",
-        "roleset_name": "remove the farnesyl group from a compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of defarnesylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing defarnesylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "result of defarnesylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defarnesylate.01",
+    "roleset_name": "remove the farnesyl group from a compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of defarnesylation (e.g. scientist)",
+        "descr_trans": "去法尼基化的故意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing defarnesylated",
+        "descr_trans": "去法尼基化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "result of defarnesylation",
+        "descr_trans": "去法尼西化的结果"
+      }
+    ],
+    "roleset_name_trans": "从化合物中除去法尼基"
+  }
 ]

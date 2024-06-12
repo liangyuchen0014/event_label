@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swallow.01",
-        "roleset_name": "cause to go down the throat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swallower"
-            },
-            {
-                "n": "1",
-                "descr": "thing swallowed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swallow_up.02",
-        "roleset_name": "swallow completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swallower"
-            },
-            {
-                "n": "1",
-                "descr": "thing swallowed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swallow.01",
+    "roleset_name": "cause to go down the throat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swallower",
+        "descr_trans": "吞者"
+      },
+      {
+        "n": "1",
+        "descr": "thing swallowed",
+        "descr_trans": "东西被吞掉了"
+      }
+    ],
+    "roleset_name_trans": "导致进入喉咙"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swallow_up.02",
+    "roleset_name": "swallow completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swallower",
+        "descr_trans": "吞者"
+      },
+      {
+        "n": "1",
+        "descr": "thing swallowed",
+        "descr_trans": "东西被吞掉了"
+      }
+    ],
+    "roleset_name_trans": "完全吞下"
+  }
 ]

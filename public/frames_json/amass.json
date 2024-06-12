@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "amass.01",
-        "roleset_name": "accumulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity accumulating something"
-            },
-            {
-                "n": "1",
-                "descr": "thing/stuff accumulated"
-            },
-            {
-                "n": "3",
-                "descr": "price"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "amass.01",
+    "roleset_name": "accumulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity accumulating something",
+        "descr_trans": "积累某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing/stuff accumulated",
+        "descr_trans": "积累的东西/东西"
+      },
+      {
+        "n": "3",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "积累"
+  }
 ]

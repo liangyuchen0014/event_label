@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinstall.01",
-        "roleset_name": "to install again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "installer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity reinstalled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinstall.01",
+    "roleset_name": "to install again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "installer, agent",
+        "descr_trans": "安装工、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity reinstalled",
+        "descr_trans": "实体重新安装"
+      }
+    ],
+    "roleset_name_trans": "再次安装"
+  }
 ]

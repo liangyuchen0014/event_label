@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dissuade.01",
-        "roleset_name": "persuade not to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "convincer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled (non)agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled (non)action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dissuade.01",
+    "roleset_name": "persuade not to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "convincer",
+        "descr_trans": "说服者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled (non)agent",
+        "descr_trans": "推动（非）代理人"
+      },
+      {
+        "n": "2",
+        "descr": "impelled (non)action",
+        "descr_trans": "被迫（非）行动"
+      }
+    ],
+    "roleset_name_trans": "劝说不要"
+  }
 ]

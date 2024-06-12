@@ -1,71 +1,86 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resolve.01",
-        "roleset_name": "resolve, come to a solution, solution in practice. solving an issue.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making resolution"
-            },
-            {
-                "n": "1",
-                "descr": "thing being resolved"
-            },
-            {
-                "n": "2",
-                "descr": "comitative, resolved with"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, resolved to or at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "resolve.02",
-        "roleset_name": "decide, commit to an endeavor (think new year's resolutions)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider"
-            },
-            {
-                "n": "1",
-                "descr": "decision"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "resolve.03",
-        "roleset_name": "separate into constituents",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "material resolved"
-            },
-            {
-                "n": "2",
-                "descr": "end state, constituents"
-            },
-            {
-                "n": "3",
-                "descr": "method used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resolve.01",
+    "roleset_name": "resolve, come to a solution, solution in practice. solving an issue.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making resolution",
+        "descr_trans": "作出决议的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being resolved",
+        "descr_trans": "事情正在解决"
+      },
+      {
+        "n": "2",
+        "descr": "comitative, resolved with",
+        "descr_trans": "积极配合，解决"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, resolved to or at",
+        "descr_trans": "属性，解析为或于"
+      }
+    ],
+    "roleset_name_trans": "解决，得出解决方案，在实践中解决。解决一个问题。"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "resolve.02",
+    "roleset_name": "decide, commit to an endeavor (think new year's resolutions)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider",
+        "descr_trans": "决定者"
+      },
+      {
+        "n": "1",
+        "descr": "decision",
+        "descr_trans": "决定"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "决定，致力于一项努力（想想新年的决心）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "resolve.03",
+    "roleset_name": "separate into constituents",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "material resolved",
+        "descr_trans": "材料已解决"
+      },
+      {
+        "n": "2",
+        "descr": "end state, constituents",
+        "descr_trans": "最终状态、成分"
+      },
+      {
+        "n": "3",
+        "descr": "method used",
+        "descr_trans": "使用的方法"
+      }
+    ],
+    "roleset_name_trans": "分成成分"
+  }
 ]

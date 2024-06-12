@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restent.01",
-        "roleset_name": "re-insert a stent to prevent closure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inserter"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            },
-            {
-                "n": "2",
-                "descr": "stent, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restent.01",
+    "roleset_name": "re-insert a stent to prevent closure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inserter",
+        "descr_trans": "插入器"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      },
+      {
+        "n": "2",
+        "descr": "stent, instrument",
+        "descr_trans": "支架、器械"
+      }
+    ],
+    "roleset_name_trans": "重新插入支架以防止闭合"
+  }
 ]

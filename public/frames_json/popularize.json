@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "popularize.01",
-        "roleset_name": "make popular",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "popularizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing now popular"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "popular.02",
-        "roleset_name": "popular",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "popular entity"
-            },
-            {
-                "n": "2",
-                "descr": "audience, popular among/with whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "popularize.01",
+    "roleset_name": "make popular",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "popularizer",
+        "descr_trans": "普及者"
+      },
+      {
+        "n": "1",
+        "descr": "thing now popular",
+        "descr_trans": "现在流行的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "流行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "popular.02",
+    "roleset_name": "popular",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "popular entity",
+        "descr_trans": "受欢迎的实体"
+      },
+      {
+        "n": "2",
+        "descr": "audience, popular among/with whom?",
+        "descr_trans": "观众，在谁中受欢迎/受谁欢迎？"
+      }
+    ],
+    "roleset_name_trans": "受欢迎的"
+  }
 ]

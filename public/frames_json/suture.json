@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suture.01",
-        "roleset_name": "surgically stitch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "Entity sutured"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            },
-            {
-                "n": "3",
-                "descr": "Attribute of Arg1, end state (shut, together)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suture.01",
+    "roleset_name": "surgically stitch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "Entity sutured",
+        "descr_trans": "实体缝合"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "Attribute of Arg1, end state (shut, together)",
+        "descr_trans": "Arg1的属性，结束状态（关闭，在一起）"
+      }
+    ],
+    "roleset_name_trans": "手术缝合"
+  }
 ]

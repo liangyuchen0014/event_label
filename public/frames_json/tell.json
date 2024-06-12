@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tell.01",
-        "roleset_name": "pass along information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Speaker"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tell.02",
-        "roleset_name": "distinguish, determine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing separation"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being divided"
-            },
-            {
-                "n": "2",
-                "descr": "source, separated from, if separate from arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tell_on.03",
-        "roleset_name": "squeal, be a tattletail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stool pigeon"
-            },
-            {
-                "n": "1",
-                "descr": "alleged perpetrator"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tell.01",
+    "roleset_name": "pass along information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "传递信息"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tell.02",
+    "roleset_name": "distinguish, determine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing separation",
+        "descr_trans": "导致分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being divided",
+        "descr_trans": "被分割的事物"
+      },
+      {
+        "n": "2",
+        "descr": "source, separated from, if separate from arg1",
+        "descr_trans": "源，与 arg1 分开，如果与 arg1 分开"
+      }
+    ],
+    "roleset_name_trans": "区分，确定"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tell_on.03",
+    "roleset_name": "squeal, be a tattletail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stool pigeon",
+        "descr_trans": "粪便鸽子"
+      },
+      {
+        "n": "1",
+        "descr": "alleged perpetrator",
+        "descr_trans": "被指控的肇事者"
+      }
+    ],
+    "roleset_name_trans": "尖叫，成为一个爱说闲话的人"
+  }
 ]

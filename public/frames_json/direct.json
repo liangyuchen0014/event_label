@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "direct.01",
-        "roleset_name": "provide direction, provide instruction/guidance (not cardinal directions!)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "director"
-            },
-            {
-                "n": "1",
-                "descr": "thing directed"
-            },
-            {
-                "n": "2",
-                "descr": "direction, towards what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "direct.02",
-        "roleset_name": "straightforward",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "straight thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "direct.01",
+    "roleset_name": "provide direction, provide instruction/guidance (not cardinal directions!)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "director",
+        "descr_trans": "导演"
+      },
+      {
+        "n": "1",
+        "descr": "thing directed",
+        "descr_trans": "事物定向"
+      },
+      {
+        "n": "2",
+        "descr": "direction, towards what",
+        "descr_trans": "方向，朝向什么"
+      }
+    ],
+    "roleset_name_trans": "提供方向，提供指导/指导（不是基本方向！）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "direct.02",
+    "roleset_name": "straightforward",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "straight thing",
+        "descr_trans": "直的东西"
+      }
+    ],
+    "roleset_name_trans": "直截了当"
+  }
 ]

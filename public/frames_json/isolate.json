@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "isolate.01",
-        "roleset_name": "to set apart, (causing to be) solitary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing isolation"
-            },
-            {
-                "n": "1",
-                "descr": "entity isolated"
-            },
-            {
-                "n": "2",
-                "descr": "entity that patient was isolated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "isolate.01",
+    "roleset_name": "to set apart, (causing to be) solitary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing isolation",
+        "descr_trans": "造成孤立的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity isolated",
+        "descr_trans": "实体隔离"
+      },
+      {
+        "n": "2",
+        "descr": "entity that patient was isolated from",
+        "descr_trans": "与患者隔离的实体"
+      }
+    ],
+    "roleset_name_trans": "分开，（导致）孤独"
+  }
 ]

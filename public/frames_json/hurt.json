@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hurt.01",
-        "roleset_name": "cause damage to (transitive), causing damage to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing damage"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity experiencing hurt/damage"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if in addition to arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hurt.02",
-        "roleset_name": "be experiencing pain (intransitive), experiencing pain",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "patient, entity experiencing pain"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hurtful.03",
-        "roleset_name": "tending to, able to cause damage to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing damage"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing hurt/damage"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if in addition to arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hurt.01",
+    "roleset_name": "cause damage to (transitive), causing damage to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing damage",
+        "descr_trans": "造成损害的代理人、实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity experiencing hurt/damage",
+        "descr_trans": "患者、遭受伤害/损害的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if in addition to arg0)",
+        "descr_trans": "仪器（如果除了 arg0 之外）"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "造成损害（及物），造成损害"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hurt.02",
+    "roleset_name": "be experiencing pain (intransitive), experiencing pain",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "patient, entity experiencing pain",
+        "descr_trans": "病人，经历痛苦的​​实体"
+      }
+    ],
+    "roleset_name_trans": "正在经历痛苦（不及物动词），正在经历痛苦"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hurtful.03",
+    "roleset_name": "tending to, able to cause damage to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing damage",
+        "descr_trans": "造成损害的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing hurt/damage",
+        "descr_trans": "遭受伤害/损害的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if in addition to arg0)",
+        "descr_trans": "仪器（如果除了 arg0 之外）"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "倾向于，能够造成损害"
+  }
 ]

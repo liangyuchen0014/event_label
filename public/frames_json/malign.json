@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "malign.01",
-        "roleset_name": "talk down, slander",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maligner"
-            },
-            {
-                "n": "1",
-                "descr": "maligned"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "malignant.02",
-        "roleset_name": "harmful, perhaps as cancer",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tumor/tissue"
-            },
-            {
-                "n": "2",
-                "descr": "cancer or other disease"
-            },
-            {
-                "n": "3",
-                "descr": "medical patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "malign.01",
+    "roleset_name": "talk down, slander",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maligner",
+        "descr_trans": "诽谤者"
+      },
+      {
+        "n": "1",
+        "descr": "maligned",
+        "descr_trans": "被诽谤的"
+      }
+    ],
+    "roleset_name_trans": "贬低、诽谤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "malignant.02",
+    "roleset_name": "harmful, perhaps as cancer",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tumor/tissue",
+        "descr_trans": "肿瘤/组织"
+      },
+      {
+        "n": "2",
+        "descr": "cancer or other disease",
+        "descr_trans": "癌症或其他疾病"
+      },
+      {
+        "n": "3",
+        "descr": "medical patient",
+        "descr_trans": "医疗病人"
+      }
+    ],
+    "roleset_name_trans": "有害，可能会导致癌症"
+  }
 ]

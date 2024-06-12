@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "puncture.01",
-        "roleset_name": "perforate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one making hole"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing being punctured"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "puncture.01",
+    "roleset_name": "perforate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one making hole",
+        "descr_trans": "代理，一打孔"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing being punctured",
+        "descr_trans": "病人，被刺穿的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "穿孔"
+  }
 ]

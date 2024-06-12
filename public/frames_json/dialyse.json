@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dialyse.01",
-        "roleset_name": "to subject to or undergo dialysis (sp. var. of 'dialyze')",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Performer of dialysis (doctor, technician, nurse)"
-            },
-            {
-                "n": "1",
-                "descr": "Undergoer of dialysis (patient)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument; dialysis machine if explicit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dialyse.01",
+    "roleset_name": "to subject to or undergo dialysis (sp. var. of 'dialyze')",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Performer of dialysis (doctor, technician, nurse)",
+        "descr_trans": "透析执行者（医生、技术员、护士）"
+      },
+      {
+        "n": "1",
+        "descr": "Undergoer of dialysis (patient)",
+        "descr_trans": "透析接受者（患者）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument; dialysis machine if explicit",
+        "descr_trans": "乐器;透析机（如果明确）"
+      }
+    ],
+    "roleset_name_trans": "接受或经历透析（“透析”的变种）"
+  }
 ]

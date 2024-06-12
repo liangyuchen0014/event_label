@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lace.01",
-        "roleset_name": "intertwine, connect via a lace",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lacer"
-            },
-            {
-                "n": "1",
-                "descr": "things connected or intertwined"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lace.02",
-        "roleset_name": "add to, garnish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing added to, garnished"
-            },
-            {
-                "n": "2",
-                "descr": "special ingredient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lace.01",
+    "roleset_name": "intertwine, connect via a lace",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lacer",
+        "descr_trans": "眼泪"
+      },
+      {
+        "n": "1",
+        "descr": "things connected or intertwined",
+        "descr_trans": "事物相互联系或交织在一起"
+      }
+    ],
+    "roleset_name_trans": "交织在一起，通过花边连接"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lace.02",
+    "roleset_name": "add to, garnish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adder, agent",
+        "descr_trans": "加法器，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing added to, garnished",
+        "descr_trans": "添加的东西，装饰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "special ingredient",
+        "descr_trans": "特殊成分"
+      }
+    ],
+    "roleset_name_trans": "添加到，装饰"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "countersue.01",
-        "roleset_name": "call to court",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "litigant"
-            },
-            {
-                "n": "1",
-                "descr": "defender"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            },
-            {
-                "n": "3",
-                "descr": "intended prize"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "countersue.01",
+    "roleset_name": "call to court",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "litigant",
+        "descr_trans": "当事人"
+      },
+      {
+        "n": "1",
+        "descr": "defender",
+        "descr_trans": "后卫"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "3",
+        "descr": "intended prize",
+        "descr_trans": "预期奖品"
+      }
+    ],
+    "roleset_name_trans": "打电话到法庭"
+  }
 ]

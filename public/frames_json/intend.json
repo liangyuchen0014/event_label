@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intend.01",
-        "roleset_name": "intend, plan, on purpose, intent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "planner"
-            },
-            {
-                "n": "1",
-                "descr": "intent, thing planned"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intent.02",
-        "roleset_name": "firmly fixed on a specific purpose, activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obsessive planner"
-            },
-            {
-                "n": "1",
-                "descr": "intent, thing planned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intend.01",
+    "roleset_name": "intend, plan, on purpose, intent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "planner",
+        "descr_trans": "规划师"
+      },
+      {
+        "n": "1",
+        "descr": "intent, thing planned",
+        "descr_trans": "意图，计划的事情"
+      }
+    ],
+    "roleset_name_trans": "打算、计划、有意、意图"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intent.02",
+    "roleset_name": "firmly fixed on a specific purpose, activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obsessive planner",
+        "descr_trans": "强迫性计划者"
+      },
+      {
+        "n": "1",
+        "descr": "intent, thing planned",
+        "descr_trans": "意图，计划的事情"
+      }
+    ],
+    "roleset_name_trans": "坚定地专注于特定的目的、活动"
+  }
 ]

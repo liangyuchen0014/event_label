@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "romance.01",
-        "roleset_name": "woo",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "romancer"
-            },
-            {
-                "n": "1",
-                "descr": "romanced"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "romantic.02",
-        "roleset_name": "idealized (but not pertaining to amour)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "idealized thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "romantic.03",
-        "roleset_name": "amorous, pertaining to romance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "romancer (may be animate, inanimate, or actions)"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of romantic acts"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "romanticize.04",
-        "roleset_name": "fit to a romantic ideal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "romantic fool"
-            },
-            {
-                "n": "1",
-                "descr": "romanticized thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "romance.01",
+    "roleset_name": "woo",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "romancer",
+        "descr_trans": "浪漫史"
+      },
+      {
+        "n": "1",
+        "descr": "romanced",
+        "descr_trans": "浪漫的"
+      }
+    ],
+    "roleset_name_trans": "呜"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "romantic.02",
+    "roleset_name": "idealized (but not pertaining to amour)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "idealized thing",
+        "descr_trans": "理想化的事物"
+      }
+    ],
+    "roleset_name_trans": "理想化（但与恋情无关）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "romantic.03",
+    "roleset_name": "amorous, pertaining to romance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "romancer (may be animate, inanimate, or actions)",
+        "descr_trans": "浪漫主义者（可以是有生命的、无生命的或动作的）"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of romantic acts",
+        "descr_trans": "浪漫行为的接受者"
+      }
+    ],
+    "roleset_name_trans": "多情的，与浪漫有关的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "romanticize.04",
+    "roleset_name": "fit to a romantic ideal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "romantic fool",
+        "descr_trans": "浪漫的傻瓜"
+      },
+      {
+        "n": "1",
+        "descr": "romanticized thing",
+        "descr_trans": "浪漫化的事情"
+      }
+    ],
+    "roleset_name_trans": "符合浪漫的理想"
+  }
 ]

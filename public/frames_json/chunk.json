@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chunk.01",
-        "roleset_name": "put together in a chunk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent chunking"
-            },
-            {
-                "n": "1",
-                "descr": "entity put into chunk"
-            },
-            {
-                "n": "2",
-                "descr": "chunk itself, group arg1 is chunked into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chunk.01",
+    "roleset_name": "put together in a chunk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent chunking",
+        "descr_trans": "代理分块"
+      },
+      {
+        "n": "1",
+        "descr": "entity put into chunk",
+        "descr_trans": "实体放入块中"
+      },
+      {
+        "n": "2",
+        "descr": "chunk itself, group arg1 is chunked into",
+        "descr_trans": "块本身，组 arg1 被分块为"
+      }
+    ],
+    "roleset_name_trans": "放在一块"
+  }
 ]

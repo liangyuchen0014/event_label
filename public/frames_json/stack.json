@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stack.01",
-        "roleset_name": "set one thing atop another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stacker"
-            },
-            {
-                "n": "1",
-                "descr": "one thing"
-            },
-            {
-                "n": "2",
-                "descr": "the other thing arg1 istacked onto, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stack_up.02",
-        "roleset_name": "compare, measure up",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being assessed"
-            },
-            {
-                "n": "2",
-                "descr": "compared against"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stack_up.03",
-        "roleset_name": "make into a stack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stacker"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being stacked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stack.01",
+    "roleset_name": "set one thing atop another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stacker",
+        "descr_trans": "堆垛机"
+      },
+      {
+        "n": "1",
+        "descr": "one thing",
+        "descr_trans": "一件事"
+      },
+      {
+        "n": "2",
+        "descr": "the other thing arg1 istacked onto, destination",
+        "descr_trans": "arg1 堆叠到目的地的另一件事"
+      }
+    ],
+    "roleset_name_trans": "将一件事放在另一件事之上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stack_up.02",
+    "roleset_name": "compare, measure up",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being assessed",
+        "descr_trans": "正在评估的事物"
+      },
+      {
+        "n": "2",
+        "descr": "compared against",
+        "descr_trans": "相比"
+      }
+    ],
+    "roleset_name_trans": "比较，衡量"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stack_up.03",
+    "roleset_name": "make into a stack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stacker",
+        "descr_trans": "堆垛机"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being stacked",
+        "descr_trans": "堆放的东西"
+      }
+    ],
+    "roleset_name_trans": "做成一个栈"
+  }
 ]

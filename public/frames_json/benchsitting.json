@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "benchsitting.01",
-        "roleset_name": "hanging out on a bench, in a sitting position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity sitting on a bench"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "benchsitting.02",
-        "roleset_name": "on the team but not playing, in sports",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player on the bench"
-            },
-            {
-                "n": "1",
-                "descr": "team played for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "benchsitting.01",
+    "roleset_name": "hanging out on a bench, in a sitting position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity sitting on a bench",
+        "descr_trans": "坐在长凳上的实体"
+      }
+    ],
+    "roleset_name_trans": "坐在长凳上，以坐姿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "benchsitting.02",
+    "roleset_name": "on the team but not playing, in sports",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player on the bench",
+        "descr_trans": "板凳上的球员"
+      },
+      {
+        "n": "1",
+        "descr": "team played for",
+        "descr_trans": "球队效力于"
+      }
+    ],
+    "roleset_name_trans": "在球队中但不参加运动"
+  }
 ]

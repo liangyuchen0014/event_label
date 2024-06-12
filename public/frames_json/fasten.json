@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fasten.01",
-        "roleset_name": "connect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of connection, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) thing(s) fastened (together)"
-            },
-            {
-                "n": "2",
-                "descr": "additional thing(s), destination"
-            },
-            {
-                "n": "3",
-                "descr": "fastener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fasten.01",
+    "roleset_name": "connect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of connection, agent",
+        "descr_trans": "连接的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) thing(s) fastened (together)",
+        "descr_trans": "第一个（或所有）东西紧固（在一起）"
+      },
+      {
+        "n": "2",
+        "descr": "additional thing(s), destination",
+        "descr_trans": "额外的东西，目的地"
+      },
+      {
+        "n": "3",
+        "descr": "fastener",
+        "descr_trans": "紧固件"
+      }
+    ],
+    "roleset_name_trans": "连接"
+  }
 ]

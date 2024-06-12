@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "degerm.01",
-        "roleset_name": "remove germ or oil",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "degermed entity"
-            },
-            {
-                "n": "2",
-                "descr": "germ,thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "degerm.01",
+    "roleset_name": "remove germ or oil",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "degermed entity",
+        "descr_trans": "脱胚实体"
+      },
+      {
+        "n": "2",
+        "descr": "germ,thing removed",
+        "descr_trans": "细菌，被移除的东西"
+      }
+    ],
+    "roleset_name_trans": "去除细菌或油"
+  }
 ]

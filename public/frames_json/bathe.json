@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bathe.01",
-        "roleset_name": "have a bath, giving or having a bath",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent of bathing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing washed, dirt, patient"
-            },
-            {
-                "n": "2",
-                "descr": "Liquid bathed in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bathe.01",
+    "roleset_name": "have a bath, giving or having a bath",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent of bathing",
+        "descr_trans": "沐浴剂"
+      },
+      {
+        "n": "1",
+        "descr": "Thing washed, dirt, patient",
+        "descr_trans": "东西洗过，污垢，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "Liquid bathed in",
+        "descr_trans": "浸入液体"
+      }
+    ],
+    "roleset_name_trans": "洗澡、洗澡或洗澡"
+  }
 ]

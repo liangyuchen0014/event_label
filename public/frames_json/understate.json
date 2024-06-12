@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "understate.01",
-        "roleset_name": "minimally state (such as reporting a quantity at a level too low)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stater"
-            },
-            {
-                "n": "1",
-                "descr": "entity understated"
-            },
-            {
-                "n": "2",
-                "descr": "quantity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "understate.01",
+    "roleset_name": "minimally state (such as reporting a quantity at a level too low)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stater",
+        "descr_trans": "斯塔特"
+      },
+      {
+        "n": "1",
+        "descr": "entity understated",
+        "descr_trans": "实体被低估"
+      },
+      {
+        "n": "2",
+        "descr": "quantity",
+        "descr_trans": "数量"
+      }
+    ],
+    "roleset_name_trans": "最低限度的状态（例如报告数量水平过低）"
+  }
 ]

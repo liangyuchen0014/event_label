@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alkylate.01",
-        "roleset_name": "introduce an alkyl radical into (a compound)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Compound alkylated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alkylate.01",
+    "roleset_name": "introduce an alkyl radical into (a compound)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Compound alkylated",
+        "descr_trans": "烷基化化合物"
+      }
+    ],
+    "roleset_name_trans": "将烷基引入（化合物）"
+  }
 ]

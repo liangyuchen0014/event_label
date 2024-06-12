@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intussuscept.01",
-        "roleset_name": "enfolding of one segment of the intestine with another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "first intestinal segment"
-            },
-            {
-                "n": "2",
-                "descr": "second intestinal segment; intwined with; enfolded in (if seperate from arg 1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intussuscept.01",
+    "roleset_name": "enfolding of one segment of the intestine with another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause (rare)",
+        "descr_trans": "原因（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "first intestinal segment",
+        "descr_trans": "第一肠段"
+      },
+      {
+        "n": "2",
+        "descr": "second intestinal segment; intwined with; enfolded in (if seperate from arg 1)",
+        "descr_trans": "第二肠段；纠缠在一起；包含在（如果与 arg 1 分开）"
+      }
+    ],
+    "roleset_name_trans": "将肠的一段与另一段包裹起来"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foul.01",
-        "roleset_name": "make wrong",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of wrongness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing gone wrong"
-            },
-            {
-                "n": "2",
-                "descr": "mode-specific description of act of going wrong"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foul.01",
+    "roleset_name": "make wrong",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of wrongness, agent",
+        "descr_trans": "错误的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing gone wrong",
+        "descr_trans": "出了问题"
+      },
+      {
+        "n": "2",
+        "descr": "mode-specific description of act of going wrong",
+        "descr_trans": "出错行为的模式特定描述"
+      }
+    ],
+    "roleset_name_trans": "犯错"
+  }
 ]

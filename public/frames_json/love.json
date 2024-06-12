@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "love.01",
-        "roleset_name": "object of affection",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lover"
-            },
-            {
-                "n": "1",
-                "descr": "loved"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "love.02",
-        "roleset_name": "would love, wish very much (polite)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject"
-            },
-            {
-                "n": "1",
-                "descr": "phrasal complement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "love.01",
+    "roleset_name": "object of affection",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lover",
+        "descr_trans": "情人"
+      },
+      {
+        "n": "1",
+        "descr": "loved",
+        "descr_trans": "爱过"
+      }
+    ],
+    "roleset_name_trans": "感情对象"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "love.02",
+    "roleset_name": "would love, wish very much (polite)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "phrasal complement",
+        "descr_trans": "短语补语"
+      }
+    ],
+    "roleset_name_trans": "会喜欢，非常希望（礼貌）"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fancy.01",
-        "roleset_name": "suppose to be, take as",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supposer"
-            },
-            {
-                "n": "1",
-                "descr": "sentential arg"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fancy.02",
-        "roleset_name": "want, like",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wanter"
-            },
-            {
-                "n": "1",
-                "descr": "wanted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fancy.01",
+    "roleset_name": "suppose to be, take as",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supposer",
+        "descr_trans": "认为"
+      },
+      {
+        "n": "1",
+        "descr": "sentential arg",
+        "descr_trans": "句子论证"
+      }
+    ],
+    "roleset_name_trans": "假设是，视为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fancy.02",
+    "roleset_name": "want, like",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wanter",
+        "descr_trans": "冬天"
+      },
+      {
+        "n": "1",
+        "descr": "wanted",
+        "descr_trans": "通缉"
+      }
+    ],
+    "roleset_name_trans": "想要，喜欢"
+  }
 ]

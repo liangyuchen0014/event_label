@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unban.01",
-        "roleset_name": "to undo a ban",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person, cause undoing ban"
-            },
-            {
-                "n": "1",
-                "descr": "action currently prohibited by ban, soon to be unbanned action"
-            },
-            {
-                "n": "2",
-                "descr": "secondary agent, person unbanned from doing arg1 when separate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unban.01",
+    "roleset_name": "to undo a ban",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person, cause undoing ban",
+        "descr_trans": "人，导致解除禁令"
+      },
+      {
+        "n": "1",
+        "descr": "action currently prohibited by ban, soon to be unbanned action",
+        "descr_trans": "目前被禁令禁止的行为，很快将被取消禁止的行为"
+      },
+      {
+        "n": "2",
+        "descr": "secondary agent, person unbanned from doing arg1 when separate",
+        "descr_trans": "二级特工，在分居时不被禁止执行 arg1 的人"
+      }
+    ],
+    "roleset_name_trans": "撤销禁令"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mischaracterize.01",
-        "roleset_name": "incorrectly assign a label or   attribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer, person assigning label"
-            },
-            {
-                "n": "1",
-                "descr": "thing described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, misdescribed-as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mischaracterize.01",
+    "roleset_name": "incorrectly assign a label or   attribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer, person assigning label",
+        "descr_trans": "描述者、分配标签的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, misdescribed-as",
+        "descr_trans": "次要属性，错误描述为"
+      }
+    ],
+    "roleset_name_trans": "错误分配标签或属性"
+  }
 ]

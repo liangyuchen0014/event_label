@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dissociate.01",
-        "roleset_name": "un-associate, making unrelated, separating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of non-association, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing not associated"
-            },
-            {
-                "n": "2",
-                "descr": "separated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dissociate.01",
+    "roleset_name": "un-associate, making unrelated, separating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of non-association, agent",
+        "descr_trans": "不关联的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing not associated",
+        "descr_trans": "不相关的事物"
+      },
+      {
+        "n": "2",
+        "descr": "separated from",
+        "descr_trans": "分离于"
+      }
+    ],
+    "roleset_name_trans": "取消关联，使不相关，分离"
+  }
 ]

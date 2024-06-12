@@ -1,73 +1,87 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "realize.01",
-        "roleset_name": "come to know",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "new knower"
-            },
-            {
-                "n": "1",
-                "descr": "new knowledge"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "realize.02",
-        "roleset_name": "cause to come about, create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            },
-            {
-                "n": "2",
-                "descr": "source, created from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "realistic.03",
-        "roleset_name": "as things really are",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "realistic thing"
-            },
-            {
-                "n": "2",
-                "descr": "realistic for who/what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "real.04",
-        "roleset_name": "actual, substantial",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "actual thing"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "real.05",
-        "roleset_name": "of all numbers, rational and irrational",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "number"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "realize.01",
+    "roleset_name": "come to know",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "new knower",
+        "descr_trans": "新认识者"
+      },
+      {
+        "n": "1",
+        "descr": "new knowledge",
+        "descr_trans": "新知识"
+      }
+    ],
+    "roleset_name_trans": "来认识"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "realize.02",
+    "roleset_name": "cause to come about, create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source, created from",
+        "descr_trans": "来源，创建自"
+      }
+    ],
+    "roleset_name_trans": "导致发生、创造"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "realistic.03",
+    "roleset_name": "as things really are",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "realistic thing",
+        "descr_trans": "现实的事情"
+      },
+      {
+        "n": "2",
+        "descr": "realistic for who/what",
+        "descr_trans": "对于谁/什么来说是现实的"
+      }
+    ],
+    "roleset_name_trans": "事情本来就是这样"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "real.04",
+    "roleset_name": "actual, substantial",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "actual thing",
+        "descr_trans": "实际的事情"
+      }
+    ],
+    "roleset_name_trans": "实际的，实质性的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "real.05",
+    "roleset_name": "of all numbers, rational and irrational",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "number",
+        "descr_trans": "数字"
+      }
+    ],
+    "roleset_name_trans": "所有数字，有理数和无理数"
+  }
 ]

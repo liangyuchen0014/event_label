@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nick.01",
-        "roleset_name": "cut slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nick.02",
-        "roleset_name": "pocket, steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen"
-            },
-            {
-                "n": "2",
-                "descr": "stolen from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nick.01",
+    "roleset_name": "cut slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "稍微切一下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nick.02",
+    "roleset_name": "pocket, steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief",
+        "descr_trans": "贼"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen",
+        "descr_trans": "东西被偷了"
+      },
+      {
+        "n": "2",
+        "descr": "stolen from",
+        "descr_trans": "被盗自"
+      }
+    ],
+    "roleset_name_trans": "口袋里，偷窃"
+  }
 ]

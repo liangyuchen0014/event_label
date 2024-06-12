@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stay.01",
-        "roleset_name": "remain, be left over, linger, visit",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing remaining"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, rare"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1: state, location stayed in"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stay.03",
-        "roleset_name": "legal term: postpone, restraint, postponement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "postponer"
-            },
-            {
-                "n": "1",
-                "descr": "thing postponed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stay_on.02",
-        "roleset_name": "linger",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing remaining, staying, lingering"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "stay_over.04",
-        "roleset_name": "remain in a location (usually for the night)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity staying over"
-            },
-            {
-                "n": "2",
-                "descr": "where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stay.01",
+    "roleset_name": "remain, be left over, linger, visit",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing remaining",
+        "descr_trans": "剩下的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, rare",
+        "descr_trans": "有益的，罕见的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1: state, location stayed in",
+        "descr_trans": "arg1的属性：状态、停留位置"
+      }
+    ],
+    "roleset_name_trans": "留下来, 留下来, 逗留, 拜访"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stay.03",
+    "roleset_name": "legal term: postpone, restraint, postponement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "postponer",
+        "descr_trans": "推迟者"
+      },
+      {
+        "n": "1",
+        "descr": "thing postponed",
+        "descr_trans": "事情推迟了"
+      }
+    ],
+    "roleset_name_trans": "法律术语：推迟、限制、延期"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stay_on.02",
+    "roleset_name": "linger",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing remaining, staying, lingering",
+        "descr_trans": "剩下的、留下的、徘徊的东西"
+      }
+    ],
+    "roleset_name_trans": "萦绕"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "stay_over.04",
+    "roleset_name": "remain in a location (usually for the night)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity staying over",
+        "descr_trans": "实体停留"
+      },
+      {
+        "n": "2",
+        "descr": "where",
+        "descr_trans": "在哪里"
+      }
+    ],
+    "roleset_name_trans": "留在某个地点（通常过夜）"
+  }
 ]

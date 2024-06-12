@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "humanize.01",
-        "roleset_name": "make seem human or fit for humans",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of kinder gentler thing"
-            },
-            {
-                "n": "1",
-                "descr": "thing now seeming (fit for) human(s)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "human.02",
-        "roleset_name": "characterized as a human being",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "human"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "humanize.01",
+    "roleset_name": "make seem human or fit for humans",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of kinder gentler thing",
+        "descr_trans": "更仁慈更温柔的事情的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing now seeming (fit for) human(s)",
+        "descr_trans": "现在看起来（适合）人类的东西"
+      }
+    ],
+    "roleset_name_trans": "使看起来人性化或适合人类"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "human.02",
+    "roleset_name": "characterized as a human being",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "human",
+        "descr_trans": "人类"
+      }
+    ],
+    "roleset_name_trans": "作为一个人的特征"
+  }
 ]

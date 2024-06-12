@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hypermethylate.01",
-        "roleset_name": "increase in methyl group to cytosine or adenosine residues in dna",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer/recepient"
-            },
-            {
-                "n": "2",
-                "descr": "result of epigenetic modification; DNA/protein underexpressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hypermethylate.01",
+    "roleset_name": "increase in methyl group to cytosine or adenosine residues in dna",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer/recepient",
+        "descr_trans": "体验者/接受者"
+      },
+      {
+        "n": "2",
+        "descr": "result of epigenetic modification; DNA/protein underexpressed",
+        "descr_trans": "表观遗传修饰的结果； DNA/蛋白质表达不足"
+      }
+    ],
+    "roleset_name_trans": "DNA 中胞嘧啶或腺苷残基的甲基增加"
+  }
 ]

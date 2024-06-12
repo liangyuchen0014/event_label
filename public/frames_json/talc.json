@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "talc.01",
-        "roleset_name": "talc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, talcer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing talced"
-            },
-            {
-                "n": "2",
-                "descr": "end result"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "talc.01",
+    "roleset_name": "talc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, talcer",
+        "descr_trans": "代理, 滑石粉"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing talced",
+        "descr_trans": "病人, 滑稽的事情"
+      },
+      {
+        "n": "2",
+        "descr": "end result",
+        "descr_trans": "最终结果"
+      }
+    ],
+    "roleset_name_trans": "滑石"
+  }
 ]

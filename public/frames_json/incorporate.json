@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incorporate.01",
-        "roleset_name": "(cause) a corporate entity to have a certain tax status",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tax status"
-            },
-            {
-                "n": "1",
-                "descr": "corporation"
-            },
-            {
-                "n": "m",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "incorporate.02",
-        "roleset_name": "blend, mix, consolidate into one",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mixer, integrater"
-            },
-            {
-                "n": "1",
-                "descr": "figure"
-            },
-            {
-                "n": "2",
-                "descr": "ground"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incorporate.01",
+    "roleset_name": "(cause) a corporate entity to have a certain tax status",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tax status",
+        "descr_trans": "税务状况的原因"
+      },
+      {
+        "n": "1",
+        "descr": "corporation",
+        "descr_trans": "公司"
+      },
+      {
+        "n": "m",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "（导致）公司实体具有一定的税务地位"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "incorporate.02",
+    "roleset_name": "blend, mix, consolidate into one",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mixer, integrater",
+        "descr_trans": "混合器、积分器"
+      },
+      {
+        "n": "1",
+        "descr": "figure",
+        "descr_trans": "数字"
+      },
+      {
+        "n": "2",
+        "descr": "ground",
+        "descr_trans": "地面"
+      }
+    ],
+    "roleset_name_trans": "混合、混合、合并为一"
+  }
 ]

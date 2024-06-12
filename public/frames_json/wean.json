@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wean.01",
-        "roleset_name": "cause to be no longer dependent on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "newly independent entity"
-            },
-            {
-                "n": "2",
-                "descr": "former dependency"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wean.01",
+    "roleset_name": "cause to be no longer dependent on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "newly independent entity",
+        "descr_trans": "新独立实体"
+      },
+      {
+        "n": "2",
+        "descr": "former dependency",
+        "descr_trans": "以前的依赖"
+      }
+    ],
+    "roleset_name_trans": "使不再依赖"
+  }
 ]

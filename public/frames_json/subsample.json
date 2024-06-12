@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subsample.01",
-        "roleset_name": "take a smaller sample from a larger sample",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sample-taker"
-            },
-            {
-                "n": "1",
-                "descr": "thing subsampled"
-            },
-            {
-                "n": "2",
-                "descr": "new size/measurement of the new sample"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subsample.01",
+    "roleset_name": "take a smaller sample from a larger sample",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sample-taker",
+        "descr_trans": "取样器"
+      },
+      {
+        "n": "1",
+        "descr": "thing subsampled",
+        "descr_trans": "二次抽样的事物"
+      },
+      {
+        "n": "2",
+        "descr": "new size/measurement of the new sample",
+        "descr_trans": "新样品的新尺寸/测量值"
+      }
+    ],
+    "roleset_name_trans": "从较大样本中取出较小样本"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shelter.01",
-        "roleset_name": "put/be in a shelter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, putter in shelter"
-            },
-            {
-                "n": "1",
-                "descr": "thing in shelter (if separate from arg0)"
-            },
-            {
-                "n": "2",
-                "descr": "shelter"
-            },
-            {
-                "n": "3",
-                "descr": "danger, sheltered from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shelter.01",
+    "roleset_name": "put/be in a shelter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, putter in shelter",
+        "descr_trans": "代理人，庇护所中的推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing in shelter (if separate from arg0)",
+        "descr_trans": "庇护所中的东西（如果与 arg0 分开）"
+      },
+      {
+        "n": "2",
+        "descr": "shelter",
+        "descr_trans": "庇护所"
+      },
+      {
+        "n": "3",
+        "descr": "danger, sheltered from",
+        "descr_trans": "危险，躲避"
+      }
+    ],
+    "roleset_name_trans": "安置/待在避难所"
+  }
 ]

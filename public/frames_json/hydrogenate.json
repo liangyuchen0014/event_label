@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hydrogenate.01",
-        "roleset_name": "combine with or treat with hydrogen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of hydrogenation agent"
-            },
-            {
-                "n": "1",
-                "descr": "substance undergoing hydrogenation"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or manner if separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "Resulting substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hydrogenate.01",
+    "roleset_name": "combine with or treat with hydrogen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of hydrogenation agent",
+        "descr_trans": "加氢剂产生原因"
+      },
+      {
+        "n": "1",
+        "descr": "substance undergoing hydrogenation",
+        "descr_trans": "氢化物"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "Resulting substance",
+        "descr_trans": "所得物质"
+      }
+    ],
+    "roleset_name_trans": "与氢结合或用氢处理"
+  }
 ]

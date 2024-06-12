@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "electrify.01",
-        "roleset_name": "apply electricity to, excite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity adding electricity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "electrified entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "electrify.01",
+    "roleset_name": "apply electricity to, excite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity adding electricity, agent",
+        "descr_trans": "加电实体、代理"
+      },
+      {
+        "n": "1",
+        "descr": "electrified entity",
+        "descr_trans": "电气化实体"
+      }
+    ],
+    "roleset_name_trans": "通电，激发"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncommitted.01",
-        "roleset_name": "not pledged, designated to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of commitment"
-            },
-            {
-                "n": "1",
-                "descr": "entity not committed"
-            },
-            {
-                "n": "2",
-                "descr": "committed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncommitted.01",
+    "roleset_name": "not pledged, designated to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of commitment",
+        "descr_trans": "承诺代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity not committed",
+        "descr_trans": "实体未承诺"
+      },
+      {
+        "n": "2",
+        "descr": "committed to",
+        "descr_trans": "承诺"
+      }
+    ],
+    "roleset_name_trans": "不承诺，指定给"
+  }
 ]

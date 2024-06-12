@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "invest.01",
-        "roleset_name": "provide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "investor"
-            },
-            {
-                "n": "1",
-                "descr": "thing invested"
-            },
-            {
-                "n": "2",
-                "descr": "invested in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "invest.01",
+    "roleset_name": "provide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "investor",
+        "descr_trans": "投资者"
+      },
+      {
+        "n": "1",
+        "descr": "thing invested",
+        "descr_trans": "投资的东西"
+      },
+      {
+        "n": "2",
+        "descr": "invested in",
+        "descr_trans": "投资于"
+      }
+    ],
+    "roleset_name_trans": "提供"
+  }
 ]

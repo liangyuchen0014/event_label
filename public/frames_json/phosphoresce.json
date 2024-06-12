@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "phosphoresce.01",
-        "roleset_name": "become phosphorescent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent (unlikely?)"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing phosphorescing"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "phosphoresce.01",
+    "roleset_name": "become phosphorescent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent (unlikely?)",
+        "descr_trans": "原因，代理人（不太可能？）"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing phosphorescing",
+        "descr_trans": "病人，发磷光的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变成磷光的"
+  }
 ]

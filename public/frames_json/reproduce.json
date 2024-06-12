@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reproduce.01",
-        "roleset_name": "copy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "original"
-            },
-            {
-                "n": "2",
-                "descr": "copy"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reproducible.02",
-        "roleset_name": "able to be copied",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of reproduction"
-            },
-            {
-                "n": "1",
-                "descr": "entity reproduced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reproduce.01",
+    "roleset_name": "copy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier, agent",
+        "descr_trans": "复制代理"
+      },
+      {
+        "n": "1",
+        "descr": "original",
+        "descr_trans": "原来的"
+      },
+      {
+        "n": "2",
+        "descr": "copy",
+        "descr_trans": "复制"
+      }
+    ],
+    "roleset_name_trans": "复制"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reproducible.02",
+    "roleset_name": "able to be copied",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of reproduction",
+        "descr_trans": "繁殖媒介"
+      },
+      {
+        "n": "1",
+        "descr": "entity reproduced",
+        "descr_trans": "实体转载"
+      }
+    ],
+    "roleset_name_trans": "可以复制的"
+  }
 ]

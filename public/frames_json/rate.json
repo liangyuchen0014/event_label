@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rate.01",
-        "roleset_name": "establish value or worth, evaluation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rater / entity establishing value"
-            },
-            {
-                "n": "1",
-                "descr": "entity being evaluated"
-            },
-            {
-                "n": "2",
-                "descr": "value, worth, grade"
-            },
-            {
-                "n": "3",
-                "descr": "aspect of arg1 actually being rated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rate.01",
+    "roleset_name": "establish value or worth, evaluation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rater / entity establishing value",
+        "descr_trans": "评估者/建立价值的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being evaluated",
+        "descr_trans": "被评估实体"
+      },
+      {
+        "n": "2",
+        "descr": "value, worth, grade",
+        "descr_trans": "价值，价值，等级"
+      },
+      {
+        "n": "3",
+        "descr": "aspect of arg1 actually being rated",
+        "descr_trans": "arg1 实际被评级的方面"
+      }
+    ],
+    "roleset_name_trans": "建立价值或价值、评估"
+  }
 ]

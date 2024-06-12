@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "malnourished.01",
-        "roleset_name": "having received insufficient nourishment",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "malnourished entity"
-            },
-            {
-                "n": "2",
-                "descr": "nourishment lacked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "malnourished.01",
+    "roleset_name": "having received insufficient nourishment",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "malnourished entity",
+        "descr_trans": "营养不良的实体"
+      },
+      {
+        "n": "2",
+        "descr": "nourishment lacked",
+        "descr_trans": "缺乏营养"
+      }
+    ],
+    "roleset_name_trans": "没有得到足够的营养"
+  }
 ]

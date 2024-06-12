@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "precassette.01",
-        "roleset_name": "have previously transfered to a cassette",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of transfer to cassette"
-            },
-            {
-                "n": "1",
-                "descr": "thing now on cassette"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "precassette.01",
+    "roleset_name": "have previously transfered to a cassette",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of transfer to cassette",
+        "descr_trans": "转移到盒式磁带的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing now on cassette",
+        "descr_trans": "现在在磁带上的东西"
+      }
+    ],
+    "roleset_name_trans": "之前已经转移到磁带上"
+  }
 ]

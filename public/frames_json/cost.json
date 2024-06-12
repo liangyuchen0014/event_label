@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cost.01",
-        "roleset_name": "requires cash",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            },
-            {
-                "n": "3",
-                "descr": "buyer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cost.01",
+    "roleset_name": "requires cash",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      },
+      {
+        "n": "3",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      }
+    ],
+    "roleset_name_trans": "需要现金"
+  }
 ]

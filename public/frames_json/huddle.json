@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "huddle.01",
-        "roleset_name": "bend over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "huddler"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "huddle.02",
-        "roleset_name": "meet with football analogy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one party"
-            },
-            {
-                "n": "1",
-                "descr": "other party"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "huddle.01",
+    "roleset_name": "bend over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "huddler",
+        "descr_trans": "拥挤者"
+      }
+    ],
+    "roleset_name_trans": "弯腰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "huddle.02",
+    "roleset_name": "meet with football analogy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one party",
+        "descr_trans": "一方"
+      },
+      {
+        "n": "1",
+        "descr": "other party",
+        "descr_trans": "对方"
+      }
+    ],
+    "roleset_name_trans": "与足球类比见面"
+  }
 ]

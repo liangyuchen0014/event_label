@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yelp.01",
-        "roleset_name": "mode of speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "yelper, speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yelp.01",
+    "roleset_name": "mode of speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "yelper, speaker",
+        "descr_trans": "叫喊者, 扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说话方式"
+  }
 ]

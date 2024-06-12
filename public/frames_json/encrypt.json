@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "encrypt.01",
-        "roleset_name": "encode, scramble digital information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scrambler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "information"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "encrypt.01",
+    "roleset_name": "encode, scramble digital information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scrambler, agent",
+        "descr_trans": "扰频器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "information",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "对数字信息进行编码、加扰"
+  }
 ]

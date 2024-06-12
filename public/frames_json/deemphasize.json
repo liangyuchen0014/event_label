@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deemphasize.01",
-        "roleset_name": "to minimize the importance of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of deemphasis"
-            },
-            {
-                "n": "1",
-                "descr": "entity  deemphasized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deemphasize.01",
+    "roleset_name": "to minimize the importance of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of deemphasis",
+        "descr_trans": "去加重的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity  deemphasized",
+        "descr_trans": "实体不再被强调"
+      }
+    ],
+    "roleset_name_trans": "以尽量减少重要性"
+  }
 ]

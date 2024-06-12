@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "minimize.01",
-        "roleset_name": "reduce greatly, make the least",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of smallness"
-            },
-            {
-                "n": "1",
-                "descr": "minimal thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "minimal.02",
-        "roleset_name": "small in amount",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of smallness"
-            },
-            {
-                "n": "1",
-                "descr": "minimal thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "minimize.01",
+    "roleset_name": "reduce greatly, make the least",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of smallness",
+        "descr_trans": "造成渺小的原因"
+      },
+      {
+        "n": "1",
+        "descr": "minimal thing",
+        "descr_trans": "最小的东西"
+      }
+    ],
+    "roleset_name_trans": "大大减少，使最少"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "minimal.02",
+    "roleset_name": "small in amount",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of smallness",
+        "descr_trans": "造成渺小的原因"
+      },
+      {
+        "n": "1",
+        "descr": "minimal thing",
+        "descr_trans": "最小的东西"
+      }
+    ],
+    "roleset_name_trans": "数量少"
+  }
 ]

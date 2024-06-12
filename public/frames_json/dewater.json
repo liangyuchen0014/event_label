@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dewater.01",
-        "roleset_name": "remove water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed water from"
-            },
-            {
-                "n": "2",
-                "descr": "water, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dewater.01",
+    "roleset_name": "remove water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed water from",
+        "descr_trans": "东西去除了水"
+      },
+      {
+        "n": "2",
+        "descr": "water, thing removed",
+        "descr_trans": "水，移除的东西"
+      }
+    ],
+    "roleset_name_trans": "除去水"
+  }
 ]

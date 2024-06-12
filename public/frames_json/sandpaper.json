@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sandpaper.01",
-        "roleset_name": "sandpaper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sandpaperer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface sandpapered, theme"
-            },
-            {
-                "n": "2",
-                "descr": "location/source of sandpapering"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (defaults to 'sandpaper')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sandpaper.01",
+    "roleset_name": "sandpaper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sandpaperer, agent",
+        "descr_trans": "砂纸工、代理"
+      },
+      {
+        "n": "1",
+        "descr": "surface sandpapered, theme",
+        "descr_trans": "表面砂纸、主题"
+      },
+      {
+        "n": "2",
+        "descr": "location/source of sandpapering",
+        "descr_trans": "砂纸的位置/来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (defaults to 'sandpaper')",
+        "descr_trans": "仪器（默认为“砂纸”）"
+      }
+    ],
+    "roleset_name_trans": "砂纸"
+  }
 ]

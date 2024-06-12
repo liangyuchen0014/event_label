@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "threaten.01",
-        "roleset_name": "threaten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making a threat"
-            },
-            {
-                "n": "1",
-                "descr": "threat"
-            },
-            {
-                "n": "2",
-                "descr": "'benefactive', entity threatened"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "threaten.01",
+    "roleset_name": "threaten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making a threat",
+        "descr_trans": "代理人，发出威胁的实体"
+      },
+      {
+        "n": "1",
+        "descr": "threat",
+        "descr_trans": "威胁"
+      },
+      {
+        "n": "2",
+        "descr": "'benefactive', entity threatened",
+        "descr_trans": "“有益”，实体受到威胁"
+      }
+    ],
+    "roleset_name_trans": "威胁"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "graduate.01",
-        "roleset_name": "move from one level to the next",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity awarding degree"
-            },
-            {
-                "n": "1",
-                "descr": "graduate"
-            },
-            {
-                "n": "2",
-                "descr": "old level"
-            },
-            {
-                "n": "3",
-                "descr": "new level"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "graduate.01",
+    "roleset_name": "move from one level to the next",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity awarding degree",
+        "descr_trans": "授予学位的实体"
+      },
+      {
+        "n": "1",
+        "descr": "graduate",
+        "descr_trans": "毕业"
+      },
+      {
+        "n": "2",
+        "descr": "old level",
+        "descr_trans": "旧水平"
+      },
+      {
+        "n": "3",
+        "descr": "new level",
+        "descr_trans": "新水平"
+      }
+    ],
+    "roleset_name_trans": "从一个级别移动到下一个级别"
+  }
 ]

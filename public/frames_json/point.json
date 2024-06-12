@@ -1,198 +1,239 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "point.01",
-        "roleset_name": "point",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pointer"
-            },
-            {
-                "n": "1",
-                "descr": "thing pointed (defaults to finger)"
-            },
-            {
-                "n": "2",
-                "descr": "pointed at (a variety of prepositions)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "point.03",
-        "roleset_name": "have a particular goal or destiny; be intended for something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person with intensions"
-            },
-            {
-                "n": "1",
-                "descr": "smaller actions that are intended for that goal"
-            },
-            {
-                "n": "2",
-                "descr": "larger goal; the point itself"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "point.04",
-        "roleset_name": "make an argument or claim",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "claimer, asserter"
-            },
-            {
-                "n": "1",
-                "descr": "thing claimed, asserted"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "point.05",
-        "roleset_name": "be certain to do/accomplish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer"
-            },
-            {
-                "n": "1",
-                "descr": "thing done/accomplished"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "point.yy",
-        "roleset_name": "non-predicative use of point; score in a game or sharp bit of an object",
-        "roles": []
-    },
-    {
-        "uid": 6,
-        "roleset_id": "point_out.02",
-        "roleset_name": "point at, define, make an example of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pointer"
-            },
-            {
-                "n": "1",
-                "descr": "pointed at"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "point_finger.06",
-        "roleset_name": "assign blame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blamer"
-            },
-            {
-                "n": "1",
-                "descr": "entity blamed"
-            },
-            {
-                "n": "2",
-                "descr": "blame for what"
-            },
-            {
-                "n": "3",
-                "descr": "event providing evidence for the finger-pointing"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "have_talking_point.07",
-        "roleset_name": "speak based upon pre-existing arguments (potentially provided by others)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker, one spouting talking points"
-            },
-            {
-                "n": "1",
-                "descr": "topic of talking points"
-            },
-            {
-                "n": "2",
-                "descr": "target audience, recipient"
-            },
-            {
-                "n": "3",
-                "descr": "actual talking points"
-            },
-            {
-                "n": "4",
-                "descr": "original source of talking points"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "have_point_of_view.08",
-        "roleset_name": "have a particular perspective upon an issue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person who has a view point"
-            },
-            {
-                "n": "1",
-                "descr": "topic of point of view"
-            },
-            {
-                "n": "2",
-                "descr": "actual point of view or stance"
-            },
-            {
-                "n": "3",
-                "descr": "kind of point of view; characterization of viewer"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "have_point.09",
-        "roleset_name": "be correct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person who is correct"
-            },
-            {
-                "n": "1",
-                "descr": "topic; right about what"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "case_in_point.10",
-        "roleset_name": "exemplify, be a good example of a generalization",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "example, individual case"
-            },
-            {
-                "n": "1",
-                "descr": "of what; larger generalization"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "point.01",
+    "roleset_name": "point",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pointer",
+        "descr_trans": "指针"
+      },
+      {
+        "n": "1",
+        "descr": "thing pointed (defaults to finger)",
+        "descr_trans": "指向的东西（默认为手指）"
+      },
+      {
+        "n": "2",
+        "descr": "pointed at (a variety of prepositions)",
+        "descr_trans": "指出（各种介词）"
+      }
+    ],
+    "roleset_name_trans": "观点"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "point.03",
+    "roleset_name": "have a particular goal or destiny; be intended for something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person with intensions",
+        "descr_trans": "有意图的人"
+      },
+      {
+        "n": "1",
+        "descr": "smaller actions that are intended for that goal",
+        "descr_trans": "旨在实现该目标的较小行动"
+      },
+      {
+        "n": "2",
+        "descr": "larger goal; the point itself",
+        "descr_trans": "更大的目标；要点本身"
+      }
+    ],
+    "roleset_name_trans": "有特定的目标或命运；旨在用于某事"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "point.04",
+    "roleset_name": "make an argument or claim",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "claimer, asserter",
+        "descr_trans": "主张者, 断言者"
+      },
+      {
+        "n": "1",
+        "descr": "thing claimed, asserted",
+        "descr_trans": "声称的事物，断言的事物"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "提出论点或主张"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "point.05",
+    "roleset_name": "be certain to do/accomplish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer",
+        "descr_trans": "实干家"
+      },
+      {
+        "n": "1",
+        "descr": "thing done/accomplished",
+        "descr_trans": "事情完成/完成"
+      }
+    ],
+    "roleset_name_trans": "一定要做/完成"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "point.yy",
+    "roleset_name": "non-predicative use of point; score in a game or sharp bit of an object",
+    "roles": [],
+    "roleset_name_trans": "点的非预测性使用；游戏得分或物体的锋利部分"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "point_out.02",
+    "roleset_name": "point at, define, make an example of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pointer",
+        "descr_trans": "指针"
+      },
+      {
+        "n": "1",
+        "descr": "pointed at",
+        "descr_trans": "指向"
+      }
+    ],
+    "roleset_name_trans": "指出、定义、举例说明"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "point_finger.06",
+    "roleset_name": "assign blame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blamer",
+        "descr_trans": "责怪"
+      },
+      {
+        "n": "1",
+        "descr": "entity blamed",
+        "descr_trans": "受到指责的实体"
+      },
+      {
+        "n": "2",
+        "descr": "blame for what",
+        "descr_trans": "归咎于什么"
+      },
+      {
+        "n": "3",
+        "descr": "event providing evidence for the finger-pointing",
+        "descr_trans": "事件为相互指责提供了证据"
+      }
+    ],
+    "roleset_name_trans": "归咎于"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "have_talking_point.07",
+    "roleset_name": "speak based upon pre-existing arguments (potentially provided by others)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker, one spouting talking points",
+        "descr_trans": "谈话者，滔滔不绝地谈论谈话要点的人"
+      },
+      {
+        "n": "1",
+        "descr": "topic of talking points",
+        "descr_trans": "谈话要点的主题"
+      },
+      {
+        "n": "2",
+        "descr": "target audience, recipient",
+        "descr_trans": "目标受众、接受者"
+      },
+      {
+        "n": "3",
+        "descr": "actual talking points",
+        "descr_trans": "实际谈话要点"
+      },
+      {
+        "n": "4",
+        "descr": "original source of talking points",
+        "descr_trans": "谈话要点的原始来源"
+      }
+    ],
+    "roleset_name_trans": "根据预先存在的论点（可能由其他人提供）发言"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "have_point_of_view.08",
+    "roleset_name": "have a particular perspective upon an issue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person who has a view point",
+        "descr_trans": "有观点的人"
+      },
+      {
+        "n": "1",
+        "descr": "topic of point of view",
+        "descr_trans": "主题观点"
+      },
+      {
+        "n": "2",
+        "descr": "actual point of view or stance",
+        "descr_trans": "实际的观点或立场"
+      },
+      {
+        "n": "3",
+        "descr": "kind of point of view; characterization of viewer",
+        "descr_trans": "什么样的观点；观众的表征"
+      }
+    ],
+    "roleset_name_trans": "对某个问题有特定的看法"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "have_point.09",
+    "roleset_name": "be correct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person who is correct",
+        "descr_trans": "正确的人"
+      },
+      {
+        "n": "1",
+        "descr": "topic; right about what",
+        "descr_trans": "话题;关于什么是正确的"
+      }
+    ],
+    "roleset_name_trans": "是正确的"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "case_in_point.10",
+    "roleset_name": "exemplify, be a good example of a generalization",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "example, individual case",
+        "descr_trans": "举例，个别情况"
+      },
+      {
+        "n": "1",
+        "descr": "of what; larger generalization",
+        "descr_trans": "什么；更大的概括"
+      }
+    ],
+    "roleset_name_trans": "举例说明，成为概括的好例子"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coat.01",
-        "roleset_name": "cover, apply something to a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing covering, agent"
-            },
-            {
-                "n": "1",
-                "descr": "covered"
-            },
-            {
-                "n": "2",
-                "descr": "covering, coat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coat.01",
+    "roleset_name": "cover, apply something to a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing covering, agent",
+        "descr_trans": "造成覆盖的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "covered",
+        "descr_trans": "覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "covering, coat",
+        "descr_trans": "覆盖物，外套"
+      }
+    ],
+    "roleset_name_trans": "覆盖，在表面上涂抹一些东西"
+  }
 ]

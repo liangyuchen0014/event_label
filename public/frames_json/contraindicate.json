@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contraindicate.101",
-        "roleset_name": "recommend against a course of action",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "contraindicating item/symptom/situation"
-            },
-            {
-                "n": "2",
-                "descr": "contraindicated item/treatment/action/medication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contraindicate.101",
+    "roleset_name": "recommend against a course of action",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "contraindicating item/symptom/situation",
+        "descr_trans": "禁忌项目/症状/情况"
+      },
+      {
+        "n": "2",
+        "descr": "contraindicated item/treatment/action/medication",
+        "descr_trans": "禁忌项目/治疗/行动/药物"
+      }
+    ],
+    "roleset_name_trans": "建议反对某项行动"
+  }
 ]

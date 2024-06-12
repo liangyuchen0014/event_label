@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tease.01",
-        "roleset_name": "discover bit by bit, get out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, discoverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing discovered"
-            },
-            {
-                "n": "2",
-                "descr": "from where, source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tease.02",
-        "roleset_name": "tease, make fun of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, teaser"
-            },
-            {
-                "n": "1",
-                "descr": "patient, teased"
-            },
-            {
-                "n": "2",
-                "descr": "about what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tease.03",
-        "roleset_name": "do bad things to hair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "evildoer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "hair"
-            },
-            {
-                "n": "2",
-                "descr": "end result"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tease_out.04",
-        "roleset_name": "discover bit by bit, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, discoverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing discovered"
-            },
-            {
-                "n": "2",
-                "descr": "from where, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tease.01",
+    "roleset_name": "discover bit by bit, get out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, discoverer",
+        "descr_trans": "代理人、发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing discovered",
+        "descr_trans": "发现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "from where, source",
+        "descr_trans": "从哪里、来源"
+      }
+    ],
+    "roleset_name_trans": "一点一滴发现，走出去"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tease.02",
+    "roleset_name": "tease, make fun of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, teaser",
+        "descr_trans": "代理、预告片"
+      },
+      {
+        "n": "1",
+        "descr": "patient, teased",
+        "descr_trans": "耐心，被戏弄"
+      },
+      {
+        "n": "2",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "戏弄，取笑"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tease.03",
+    "roleset_name": "do bad things to hair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "evildoer, agent",
+        "descr_trans": "恶人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "hair",
+        "descr_trans": "头发"
+      },
+      {
+        "n": "2",
+        "descr": "end result",
+        "descr_trans": "最终结果"
+      }
+    ],
+    "roleset_name_trans": "对头发做坏事"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tease_out.04",
+    "roleset_name": "discover bit by bit, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, discoverer",
+        "descr_trans": "代理人、发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing discovered",
+        "descr_trans": "发现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "from where, source",
+        "descr_trans": "从哪里、来源"
+      }
+    ],
+    "roleset_name_trans": "一点一点发现短语"
+  }
 ]

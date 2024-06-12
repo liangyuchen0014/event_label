@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "castrate.01",
-        "roleset_name": "make weak",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of weakening"
-            },
-            {
-                "n": "1",
-                "descr": "thing weakened"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "castrate.02",
-        "roleset_name": "edit to change indelicate parts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "editor"
-            },
-            {
-                "n": "1",
-                "descr": "Thing edited"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "castrate.03",
-        "roleset_name": "literally remove overies or testicles.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Castrator"
-            },
-            {
-                "n": "1",
-                "descr": "Spayed/neutered entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "castrate.01",
+    "roleset_name": "make weak",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of weakening",
+        "descr_trans": "削弱的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing weakened",
+        "descr_trans": "事物被削弱"
+      }
+    ],
+    "roleset_name_trans": "使弱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "castrate.02",
+    "roleset_name": "edit to change indelicate parts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "editor",
+        "descr_trans": "编辑"
+      },
+      {
+        "n": "1",
+        "descr": "Thing edited",
+        "descr_trans": "事情已编辑"
+      }
+    ],
+    "roleset_name_trans": "编辑更改不雅部分"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "castrate.03",
+    "roleset_name": "literally remove overies or testicles.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Castrator",
+        "descr_trans": "阉割者"
+      },
+      {
+        "n": "1",
+        "descr": "Spayed/neutered entity",
+        "descr_trans": "绝育/绝育实体"
+      }
+    ],
+    "roleset_name_trans": "字面意思是去除上衣或睾丸。"
+  }
 ]

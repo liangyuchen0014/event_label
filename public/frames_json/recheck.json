@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recheck.01",
-        "roleset_name": "re-examine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Checker"
-            },
-            {
-                "n": "1",
-                "descr": "Thing/Person checked"
-            },
-            {
-                "n": "2",
-                "descr": "Checked for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recheck.01",
+    "roleset_name": "re-examine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Checker",
+        "descr_trans": "检查者"
+      },
+      {
+        "n": "1",
+        "descr": "Thing/Person checked",
+        "descr_trans": "检查的事物/人"
+      },
+      {
+        "n": "2",
+        "descr": "Checked for",
+        "descr_trans": "检查了"
+      }
+    ],
+    "roleset_name_trans": "复审"
+  }
 ]

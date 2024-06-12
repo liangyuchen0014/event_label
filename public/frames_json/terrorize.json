@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "terrorize.01",
-        "roleset_name": "bully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of scaring"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier, predication"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "terror.02",
-        "roleset_name": "panic, anxiety, and extreme fear rolled into one",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "source or cause of terror"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "terrorism.03",
-        "roleset_name": "use extreme violence to intimidate for political or idiological reasons",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of scaring"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "terrorize.01",
+    "roleset_name": "bully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of scaring",
+        "descr_trans": "故意恐吓"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from arg 0",
+        "descr_trans": "仪器，当与 arg 0 分开时"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier, predication",
+        "descr_trans": "强化剂、预测"
+      }
+    ],
+    "roleset_name_trans": "欺负"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "terror.02",
+    "roleset_name": "panic, anxiety, and extreme fear rolled into one",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "source or cause of terror",
+        "descr_trans": "恐怖的根源或原因"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      }
+    ],
+    "roleset_name_trans": "恐慌、焦虑、极度恐惧合而为一"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "terrorism.03",
+    "roleset_name": "use extreme violence to intimidate for political or idiological reasons",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of scaring",
+        "descr_trans": "故意恐吓"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from arg 0",
+        "descr_trans": "仪器，当与 arg 0 分开时"
+      }
+    ],
+    "roleset_name_trans": "出于政治或意识形态原因使用极端暴力进行恐吓"
+  }
 ]

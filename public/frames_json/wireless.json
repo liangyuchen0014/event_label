@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wireless.01",
-        "roleset_name": "wireless",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent, wirelesser"
-            },
-            {
-                "n": "1",
-                "descr": "entity sent, faxed"
-            },
-            {
-                "n": "2",
-                "descr": "sent to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wireless.01",
+    "roleset_name": "wireless",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent, wirelesser",
+        "descr_trans": "发送者、代理者、无线者"
+      },
+      {
+        "n": "1",
+        "descr": "entity sent, faxed",
+        "descr_trans": "实体发送、传真"
+      },
+      {
+        "n": "2",
+        "descr": "sent to, recipient",
+        "descr_trans": "发送至、收件人"
+      }
+    ],
+    "roleset_name_trans": "无线的"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trough.01",
-        "roleset_name": "eat in a vulgar manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "thing eaten"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trough_out.02",
-        "roleset_name": "reach the bottom",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing reaching the bottom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trough.01",
+    "roleset_name": "eat in a vulgar manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "thing eaten",
+        "descr_trans": "吃的东西"
+      }
+    ],
+    "roleset_name_trans": "粗俗地吃"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trough_out.02",
+    "roleset_name": "reach the bottom",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing reaching the bottom",
+        "descr_trans": "到达底部的东西"
+      }
+    ],
+    "roleset_name_trans": "到达底部"
+  }
 ]

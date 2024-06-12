@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bank.01",
-        "roleset_name": "put (money) in the bank",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "bank"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bank.02",
-        "roleset_name": "turn like an airplane",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pilot"
-            },
-            {
-                "n": "1",
-                "descr": "aeroplane"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bank.04",
-        "roleset_name": "rely, depend, bet, take for granted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "relier, better"
-            },
-            {
-                "n": "1",
-                "descr": "thing depeded, banked on"
-            },
-            {
-                "n": "2",
-                "descr": "for, in order to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bank_up.03",
-        "roleset_name": "create an embankment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "embankment or location"
-            },
-            {
-                "n": "2",
-                "descr": "substance of embankment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bank.01",
+    "roleset_name": "put (money) in the bank",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter, agent",
+        "descr_trans": "推杆, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "bank",
+        "descr_trans": "银行"
+      }
+    ],
+    "roleset_name_trans": "把（钱）存入银行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bank.02",
+    "roleset_name": "turn like an airplane",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pilot",
+        "descr_trans": "飞行员"
+      },
+      {
+        "n": "1",
+        "descr": "aeroplane",
+        "descr_trans": "飞机"
+      }
+    ],
+    "roleset_name_trans": "像飞机一样转动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bank.04",
+    "roleset_name": "rely, depend, bet, take for granted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "relier, better",
+        "descr_trans": "更可靠，更好"
+      },
+      {
+        "n": "1",
+        "descr": "thing depeded, banked on",
+        "descr_trans": "事情取决于，依靠"
+      },
+      {
+        "n": "2",
+        "descr": "for, in order to",
+        "descr_trans": "为了，为了"
+      }
+    ],
+    "roleset_name_trans": "依赖，依靠，打赌，认为理所当然"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bank_up.03",
+    "roleset_name": "create an embankment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "embankment or location",
+        "descr_trans": "路堤或位置"
+      },
+      {
+        "n": "2",
+        "descr": "substance of embankment",
+        "descr_trans": "路堤的物质"
+      }
+    ],
+    "roleset_name_trans": "创建堤坝"
+  }
 ]

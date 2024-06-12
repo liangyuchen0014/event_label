@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resettle.01",
-        "roleset_name": "come to rest again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing something to settle again"
-            },
-            {
-                "n": "1",
-                "descr": "commodity or stock, thing resettling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount declined by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resettle.01",
+    "roleset_name": "come to rest again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing something to settle again",
+        "descr_trans": "导致某物再次沉降的实体"
+      },
+      {
+        "n": "1",
+        "descr": "commodity or stock, thing resettling",
+        "descr_trans": "商品或库存、物品重新安置"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount declined by",
+        "descr_trans": "EXT，金额下降"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "再次休息"
+  }
 ]

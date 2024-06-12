@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "requisition.01",
-        "roleset_name": "to demand, take",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "demander, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity requisitioned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "requisition.01",
+    "roleset_name": "to demand, take",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "demander, agent",
+        "descr_trans": "询问，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity requisitioned",
+        "descr_trans": "实体被征用"
+      }
+    ],
+    "roleset_name_trans": "要求，采取"
+  }
 ]

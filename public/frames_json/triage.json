@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "triage.01",
-        "roleset_name": "sort into groups based on severity of need",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sorter"
-            },
-            {
-                "n": "1",
-                "descr": "patients, entities sorted"
-            },
-            {
-                "n": "2",
-                "descr": "groups sorted into"
-            },
-            {
-                "n": "3",
-                "descr": "rubric, based on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "triage.01",
+    "roleset_name": "sort into groups based on severity of need",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sorter",
+        "descr_trans": "分拣机"
+      },
+      {
+        "n": "1",
+        "descr": "patients, entities sorted",
+        "descr_trans": "患者、实体排序"
+      },
+      {
+        "n": "2",
+        "descr": "groups sorted into",
+        "descr_trans": "分组分为"
+      },
+      {
+        "n": "3",
+        "descr": "rubric, based on",
+        "descr_trans": "标题，基于"
+      }
+    ],
+    "roleset_name_trans": "根据需求的严重程度进行分组"
+  }
 ]

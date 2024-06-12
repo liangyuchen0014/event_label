@@ -1,168 +1,202 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "keep.01",
-        "roleset_name": "maintain possession",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Keeper"
-            },
-            {
-                "n": "1",
-                "descr": "thing kept"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "keep.02",
-        "roleset_name": "aspectual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of continued action"
-            },
-            {
-                "n": "1",
-                "descr": "continued entity"
-            },
-            {
-                "n": "2",
-                "descr": "continued state or action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "keep.03",
-        "roleset_name": "light verb-- FOR AMR USE ONLY",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agenty thing"
-            },
-            {
-                "n": "1",
-                "descr": "noun"
-            },
-            {
-                "n": "2",
-                "descr": "perpositional object"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "keep.04",
-        "roleset_name": "maintain some prepositional relationship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of separation"
-            },
-            {
-                "n": "1",
-                "descr": "one noun"
-            },
-            {
-                "n": "2",
-                "descr": "other noun"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "keep.06",
-        "roleset_name": "prepositional, comforming (only annotated by amr), prepositional (keeping with)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing conforming"
-            },
-            {
-                "n": "2",
-                "descr": "conformed-to"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "keep_up.05",
-        "roleset_name": "keep up: maintain one's position, maintaining one's position (relatively)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maintainer of position"
-            },
-            {
-                "n": "1",
-                "descr": "relative to what"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "keep_up.10",
-        "roleset_name": "sustain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing maintained/sustained"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "keep_on.08",
-        "roleset_name": "keep on: aspectual, aspectual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of continuation, volitional"
-            },
-            {
-                "n": "1",
-                "descr": "continued entity"
-            },
-            {
-                "n": "2",
-                "descr": "continued event or state"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "keep_to_oneself.11",
-        "roleset_name": "keep to oneself: isolate oneself",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "isolated entity"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "keep_to_oneself.12",
-        "roleset_name": "keep something to oneself: not spill the beans",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "secret keeper"
-            },
-            {
-                "n": "1",
-                "descr": "secret"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "keep.01",
+    "roleset_name": "maintain possession",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Keeper",
+        "descr_trans": "守护者"
+      },
+      {
+        "n": "1",
+        "descr": "thing kept",
+        "descr_trans": "保留的东西"
+      }
+    ],
+    "roleset_name_trans": "保持占有"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "keep.02",
+    "roleset_name": "aspectual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of continued action",
+        "descr_trans": "持续行动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "continued entity",
+        "descr_trans": "持续实体"
+      },
+      {
+        "n": "2",
+        "descr": "continued state or action",
+        "descr_trans": "持续的状态或动作"
+      }
+    ],
+    "roleset_name_trans": "方面的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "keep.03",
+    "roleset_name": "light verb-- FOR AMR USE ONLY",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agenty thing",
+        "descr_trans": "代理的事情"
+      },
+      {
+        "n": "1",
+        "descr": "noun",
+        "descr_trans": "名词"
+      },
+      {
+        "n": "2",
+        "descr": "perpositional object",
+        "descr_trans": "介位宾语"
+      }
+    ],
+    "roleset_name_trans": "轻动词——仅供 AMR 使用"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "keep.04",
+    "roleset_name": "maintain some prepositional relationship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of separation",
+        "descr_trans": "造成分离的原因"
+      },
+      {
+        "n": "1",
+        "descr": "one noun",
+        "descr_trans": "一个名词"
+      },
+      {
+        "n": "2",
+        "descr": "other noun",
+        "descr_trans": "其他名词"
+      }
+    ],
+    "roleset_name_trans": "保持某种介词关系"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "keep.06",
+    "roleset_name": "prepositional, comforming (only annotated by amr), prepositional (keeping with)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing conforming",
+        "descr_trans": "符合的东西"
+      },
+      {
+        "n": "2",
+        "descr": "conformed-to",
+        "descr_trans": "符合"
+      }
+    ],
+    "roleset_name_trans": "介词，一致（仅由amr注释），介词（与）"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "keep_up.05",
+    "roleset_name": "keep up: maintain one's position, maintaining one's position (relatively)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maintainer of position",
+        "descr_trans": "地位维持者"
+      },
+      {
+        "n": "1",
+        "descr": "relative to what",
+        "descr_trans": "相对于什么"
+      }
+    ],
+    "roleset_name_trans": "keep up: 维持自己的立场，维持自己的立场（相对）"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "keep_up.10",
+    "roleset_name": "sustain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing maintained/sustained",
+        "descr_trans": "维持/维持的事物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "维持"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "keep_on.08",
+    "roleset_name": "keep on: aspectual, aspectual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of continuation, volitional",
+        "descr_trans": "持续的原因，自愿的"
+      },
+      {
+        "n": "1",
+        "descr": "continued entity",
+        "descr_trans": "持续实体"
+      },
+      {
+        "n": "2",
+        "descr": "continued event or state",
+        "descr_trans": "持续的事件或状态"
+      }
+    ],
+    "roleset_name_trans": "keep on：方面，方面"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "keep_to_oneself.11",
+    "roleset_name": "keep to oneself: isolate oneself",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "isolated entity",
+        "descr_trans": "孤立的实体"
+      }
+    ],
+    "roleset_name_trans": "独处：孤立自己"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "keep_to_oneself.12",
+    "roleset_name": "keep something to oneself: not spill the beans",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "secret keeper",
+        "descr_trans": "秘密守护者"
+      },
+      {
+        "n": "1",
+        "descr": "secret",
+        "descr_trans": "秘密"
+      }
+    ],
+    "roleset_name_trans": "保守秘密：不要泄露秘密"
+  }
 ]

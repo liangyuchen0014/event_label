@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vasoconstrict.01",
-        "roleset_name": "constricting of a blood vessel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity constricted (explicit blood vessel or patient)"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount constricted by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vasoconstrict.01",
+    "roleset_name": "constricting of a blood vessel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity constricted (explicit blood vessel or patient)",
+        "descr_trans": "实体收缩（显式血管或患者）"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount constricted by",
+        "descr_trans": "EXT，金额限制为"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "血管收缩"
+  }
 ]

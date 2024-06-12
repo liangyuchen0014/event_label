@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demilitarize.01",
-        "roleset_name": "remove armed forces, removal of military presence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "military presence (troops, weapons, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "location removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demilitarize.01",
+    "roleset_name": "remove armed forces, removal of military presence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "military presence (troops, weapons, etc)",
+        "descr_trans": "军事存在（部队、武器等）"
+      },
+      {
+        "n": "2",
+        "descr": "location removed from",
+        "descr_trans": "位置已删除"
+      }
+    ],
+    "roleset_name_trans": "撤除武装部队, 撤除军事存在"
+  }
 ]

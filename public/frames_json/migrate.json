@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "migrate.01",
-        "roleset_name": "to change location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path, border being crossed"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "migrate.01",
+    "roleset_name": "to change location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path, border being crossed",
+        "descr_trans": "路径，跨越边界"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "改变位置"
+  }
 ]

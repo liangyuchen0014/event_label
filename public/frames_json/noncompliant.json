@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noncompliant.01",
-        "roleset_name": "uncooperative",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-complier"
-            },
-            {
-                "n": "1",
-                "descr": "not complied with (ie, rule)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noncompliant.01",
+    "roleset_name": "uncooperative",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-complier",
+        "descr_trans": "不遵守者"
+      },
+      {
+        "n": "1",
+        "descr": "not complied with (ie, rule)",
+        "descr_trans": "不遵守（即规则）"
+      }
+    ],
+    "roleset_name_trans": "不合作的"
+  }
 ]

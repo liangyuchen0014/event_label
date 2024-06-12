@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "focalize.01",
-        "roleset_name": "focus, localize, concentrate on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of focussing"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of focussing, thing focussed"
-            },
-            {
-                "n": "2",
-                "descr": "thing focussed-on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "focal.02",
-        "roleset_name": "affecting a specific body part or location",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "focal thing"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "focalize.01",
+    "roleset_name": "focus, localize, concentrate on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of focussing",
+        "descr_trans": "代理，聚焦的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of focussing, thing focussed",
+        "descr_trans": "聚焦体验者，聚焦事物"
+      },
+      {
+        "n": "2",
+        "descr": "thing focussed-on",
+        "descr_trans": "所关注的事物"
+      }
+    ],
+    "roleset_name_trans": "集中，集中，集中于"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "focal.02",
+    "roleset_name": "affecting a specific body part or location",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "focal thing",
+        "descr_trans": "焦点事物"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "影响特定的身体部位或位置"
+  }
 ]

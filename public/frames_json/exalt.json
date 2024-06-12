@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exalt.01",
-        "roleset_name": "elevate in status",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of elevation"
-            },
-            {
-                "n": "1",
-                "descr": "entity being elevated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exalt.01",
+    "roleset_name": "elevate in status",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of elevation",
+        "descr_trans": "升高的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity being elevated",
+        "descr_trans": "实体被提升"
+      }
+    ],
+    "roleset_name_trans": "地位提升"
+  }
 ]

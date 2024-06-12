@@ -1,147 +1,178 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "return.01",
-        "roleset_name": "come back",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "(extent -- rare)"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "return.02",
-        "roleset_name": "give back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "return.03",
-        "roleset_name": "bring back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity bring something back"
-            },
-            {
-                "n": "1",
-                "descr": "thing brought back"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1, state arg1 is brought back to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "return.04",
-        "roleset_name": "send back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "return.05",
-        "roleset_name": "exchange, trade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity trading"
-            },
-            {
-                "n": "1",
-                "descr": "theme"
-            },
-            {
-                "n": "2",
-                "descr": "other exchanger"
-            },
-            {
-                "n": "3",
-                "descr": "secondary theme"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "return.06",
-        "roleset_name": "give a dividend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing providing a dividend"
-            },
-            {
-                "n": "1",
-                "descr": "dividend, earnings"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "returnable.07",
-        "roleset_name": "eligible/able to be given back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given back"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "return.01",
+    "roleset_name": "come back",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "(extent -- rare)",
+        "descr_trans": "（程度——罕见）"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "回来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "return.02",
+    "roleset_name": "give back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "回报"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "return.03",
+    "roleset_name": "bring back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity bring something back",
+        "descr_trans": "实体带回一些东西"
+      },
+      {
+        "n": "1",
+        "descr": "thing brought back",
+        "descr_trans": "带回来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1, state arg1 is brought back to",
+        "descr_trans": "arg1 的属性，状态 arg1 返回到"
+      }
+    ],
+    "roleset_name_trans": "带回"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "return.04",
+    "roleset_name": "send back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "退还"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "return.05",
+    "roleset_name": "exchange, trade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity trading",
+        "descr_trans": "代理、实体贸易"
+      },
+      {
+        "n": "1",
+        "descr": "theme",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "other exchanger",
+        "descr_trans": "其他交换器"
+      },
+      {
+        "n": "3",
+        "descr": "secondary theme",
+        "descr_trans": "次要主题"
+      }
+    ],
+    "roleset_name_trans": "交换、贸易"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "return.06",
+    "roleset_name": "give a dividend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing providing a dividend",
+        "descr_trans": "提供股息的事物"
+      },
+      {
+        "n": "1",
+        "descr": "dividend, earnings",
+        "descr_trans": "股息、收益"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "给予股息"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "returnable.07",
+    "roleset_name": "eligible/able to be given back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given back",
+        "descr_trans": "归还的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "有资格/能够归还"
+  }
 ]

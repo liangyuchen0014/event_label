@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tsunami.01",
-        "roleset_name": "tidal wave",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "water (might be the name of the body of water)"
-            },
-            {
-                "n": "2",
-                "descr": "period length of the wave (generally measured in ft or m)"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            },
-            {
-                "n": "5",
-                "descr": "run up (the height the water reaches above sea level)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tsunami.01",
+    "roleset_name": "tidal wave",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "water (might be the name of the body of water)",
+        "descr_trans": "水（可能是水体的名称）"
+      },
+      {
+        "n": "2",
+        "descr": "period length of the wave (generally measured in ft or m)",
+        "descr_trans": "波的周期长度（通常以英尺或米为单位测量）"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      },
+      {
+        "n": "5",
+        "descr": "run up (the height the water reaches above sea level)",
+        "descr_trans": "上升（水达到海平面以上的高度）"
+      }
+    ],
+    "roleset_name_trans": "潮汐波"
+  }
 ]

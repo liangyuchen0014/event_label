@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "price.01",
-        "roleset_name": "assign/identify the price of, cf cost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller, pricer"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            },
-            {
-                "n": "3",
-                "descr": "potential buyer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "price_out.02",
-        "roleset_name": "price_out: assign/identify prices for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pricer"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "price.01",
+    "roleset_name": "assign/identify the price of, cf cost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller, pricer",
+        "descr_trans": "卖家、定价者"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      },
+      {
+        "n": "3",
+        "descr": "potential buyer",
+        "descr_trans": "潜在买家"
+      }
+    ],
+    "roleset_name_trans": "分配/确定价格，参见成本"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "price_out.02",
+    "roleset_name": "price_out: assign/identify prices for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pricer",
+        "descr_trans": "代理人、定价者"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "Price_out：分配/确定价格"
+  }
 ]

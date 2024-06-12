@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "engrave.01",
-        "roleset_name": "carve, inscribe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "engraver"
-            },
-            {
-                "n": "1",
-                "descr": "thing engraved"
-            },
-            {
-                "n": "2",
-                "descr": "inscription"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "engrave.01",
+    "roleset_name": "carve, inscribe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "engraver",
+        "descr_trans": "雕刻师"
+      },
+      {
+        "n": "1",
+        "descr": "thing engraved",
+        "descr_trans": "刻的东西"
+      },
+      {
+        "n": "2",
+        "descr": "inscription",
+        "descr_trans": "题词"
+      }
+    ],
+    "roleset_name_trans": "雕刻、刻字"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "range.01",
-        "roleset_name": "move randomly across some scale",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start or low point"
-            },
-            {
-                "n": "4",
-                "descr": "end or high point"
-            },
-            {
-                "n": "5",
-                "descr": "medium/range"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "range.01",
+    "roleset_name": "move randomly across some scale",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start or low point",
+        "descr_trans": "起点或低点"
+      },
+      {
+        "n": "4",
+        "descr": "end or high point",
+        "descr_trans": "终点或高点"
+      },
+      {
+        "n": "5",
+        "descr": "medium/range",
+        "descr_trans": "中/范围"
+      }
+    ],
+    "roleset_name_trans": "在一定范围内随机移动"
+  }
 ]

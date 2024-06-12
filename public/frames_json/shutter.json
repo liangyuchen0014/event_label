@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shutter.01",
-        "roleset_name": "to close down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "closer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity shuttered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shutter.01",
+    "roleset_name": "to close down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "closer, agent",
+        "descr_trans": "更接近者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity shuttered",
+        "descr_trans": "实体关闭"
+      }
+    ],
+    "roleset_name_trans": "关闭"
+  }
 ]

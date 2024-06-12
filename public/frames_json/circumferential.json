@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "circumferential.01",
-        "roleset_name": "surrounding in a 2D radial manner, acting as a circumference",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity surrounding Arg2, acting as a circumference"
-            },
-            {
-                "n": "2",
-                "descr": "surrounded entity, entity that has a circumference"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "circumferential.01",
+    "roleset_name": "surrounding in a 2D radial manner, acting as a circumference",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity surrounding Arg2, acting as a circumference",
+        "descr_trans": "Arg2 周围的实体，充当圆周"
+      },
+      {
+        "n": "2",
+        "descr": "surrounded entity, entity that has a circumference",
+        "descr_trans": "包围实体，有圆周的实体"
+      }
+    ],
+    "roleset_name_trans": "以二维径向方式包围，充当圆周"
+  }
 ]

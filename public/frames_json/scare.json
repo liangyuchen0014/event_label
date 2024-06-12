@@ -1,71 +1,86 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scare.01",
-        "roleset_name": "(cause to) become afraid, afraid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scary entity"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if separate from arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier, extent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scare.02",
-        "roleset_name": "scare and make go away, or into motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of scaring"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "direction or resulting action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scary.03",
-        "roleset_name": "frightening",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scary entity"
-            },
-            {
-                "n": "1",
-                "descr": "scared entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier, extent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scare.01",
+    "roleset_name": "(cause to) become afraid, afraid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scary entity",
+        "descr_trans": "可怕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if separate from arg0)",
+        "descr_trans": "仪器（如果与 arg0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier, extent",
+        "descr_trans": "增强器，程度"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得害怕、害怕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scare.02",
+    "roleset_name": "scare and make go away, or into motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of scaring",
+        "descr_trans": "故意恐吓"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "direction or resulting action",
+        "descr_trans": "方向或由此产生的行动"
+      }
+    ],
+    "roleset_name_trans": "吓唬并让其走开，或开始行动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scary.03",
+    "roleset_name": "frightening",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scary entity",
+        "descr_trans": "可怕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "scared entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier, extent",
+        "descr_trans": "增强器，程度"
+      }
+    ],
+    "roleset_name_trans": "令人恐惧的"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undevelop.01",
-        "roleset_name": "adjectival-only usage: never been developed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "would-have-been developer"
-            },
-            {
-                "n": "1",
-                "descr": "space/thing never developed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "undevelop.02",
-        "roleset_name": "remove previously existing development",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "undoer of development"
-            },
-            {
-                "n": "1",
-                "descr": "thing losing its development"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undevelop.01",
+    "roleset_name": "adjectival-only usage: never been developed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "would-have-been developer",
+        "descr_trans": "本来是开发商"
+      },
+      {
+        "n": "1",
+        "descr": "space/thing never developed",
+        "descr_trans": "空间/事物从未发展过"
+      }
+    ],
+    "roleset_name_trans": "仅限形容词用法：从未开发过"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "undevelop.02",
+    "roleset_name": "remove previously existing development",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "undoer of development",
+        "descr_trans": "发展的破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing losing its development",
+        "descr_trans": "事物失去发展"
+      }
+    ],
+    "roleset_name_trans": "删除以前现有的开发"
+  }
 ]

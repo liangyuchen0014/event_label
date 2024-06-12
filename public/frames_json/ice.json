@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ice.01",
-        "roleset_name": "decorate with frosting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pastry chef"
-            },
-            {
-                "n": "1",
-                "descr": "the cake"
-            },
-            {
-                "n": "2",
-                "descr": "the frosting"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ice.02",
-        "roleset_name": "make colder (or icy) using ice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person holding the ice"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing being made icy"
-            },
-            {
-                "n": "2",
-                "descr": "the ice"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ice.01",
+    "roleset_name": "decorate with frosting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pastry chef",
+        "descr_trans": "糕点厨师"
+      },
+      {
+        "n": "1",
+        "descr": "the cake",
+        "descr_trans": "蛋糕"
+      },
+      {
+        "n": "2",
+        "descr": "the frosting",
+        "descr_trans": "糖霜"
+      }
+    ],
+    "roleset_name_trans": "用糖霜装饰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ice.02",
+    "roleset_name": "make colder (or icy) using ice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person holding the ice",
+        "descr_trans": "代理人，持有冰块的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing being made icy",
+        "descr_trans": "耐心，事情变得冰冷"
+      },
+      {
+        "n": "2",
+        "descr": "the ice",
+        "descr_trans": "冰块"
+      }
+    ],
+    "roleset_name_trans": "用冰使温度变冷（或冰冷）"
+  }
 ]

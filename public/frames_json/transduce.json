@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transduce.01",
-        "roleset_name": "transfer genetic material",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent causing the transfer (doctor)"
-            },
-            {
-                "n": "1",
-                "descr": "material transfered (e.g. DNA)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of transduction (e.g. viral agent)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transduce.01",
+    "roleset_name": "transfer genetic material",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent causing the transfer (doctor)",
+        "descr_trans": "造成转移的代理人（医生）"
+      },
+      {
+        "n": "1",
+        "descr": "material transfered (e.g. DNA)",
+        "descr_trans": "转移的材料（例如DNA）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of transduction (e.g. viral agent)",
+        "descr_trans": "转导工具（例如病毒剂）"
+      }
+    ],
+    "roleset_name_trans": "转移遗传物质"
+  }
 ]

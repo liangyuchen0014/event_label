@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overpursue.01",
-        "roleset_name": "pursue too far",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pursuer"
-            },
-            {
-                "n": "1",
-                "descr": "entity pursued"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overpursue.01",
+    "roleset_name": "pursue too far",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pursuer",
+        "descr_trans": "追赶者"
+      },
+      {
+        "n": "1",
+        "descr": "entity pursued",
+        "descr_trans": "被追捕的实体"
+      }
+    ],
+    "roleset_name_trans": "追求太远"
+  }
 ]

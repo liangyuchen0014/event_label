@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fossilize.01",
-        "roleset_name": "(cause to) petrify, make rigid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of fossilization"
-            },
-            {
-                "n": "1",
-                "descr": "entity made into fossil"
-            },
-            {
-                "n": "2",
-                "descr": "result, attribe of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fossilize.01",
+    "roleset_name": "(cause to) petrify, make rigid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of fossilization",
+        "descr_trans": "石化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity made into fossil",
+        "descr_trans": "实体变成化石"
+      },
+      {
+        "n": "2",
+        "descr": "result, attribe of arg 1",
+        "descr_trans": "结果，arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "（导致）僵化，僵化"
+  }
 ]

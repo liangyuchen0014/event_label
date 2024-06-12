@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incarcerate.01",
-        "roleset_name": "throw in jail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, court, etc."
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "term"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incarcerate.01",
+    "roleset_name": "throw in jail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, court, etc.",
+        "descr_trans": "法官、法庭等"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "term",
+        "descr_trans": "学期"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "投入监狱"
+  }
 ]

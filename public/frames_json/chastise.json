@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chastise.01",
-        "roleset_name": "give mild verbal punishment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chastiser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being chastised"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chastise.01",
+    "roleset_name": "give mild verbal punishment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chastiser, agent",
+        "descr_trans": "惩戒者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being chastised",
+        "descr_trans": "受到惩罚的实体"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "给予轻微的口头惩罚"
+  }
 ]

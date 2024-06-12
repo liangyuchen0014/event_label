@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "circle.01",
-        "roleset_name": "to move in a circle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "circle.02",
-        "roleset_name": "to form a circle, enclose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity forming a circle"
-            },
-            {
-                "n": "2",
-                "descr": "entity within a circle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "circle.01",
+    "roleset_name": "to move in a circle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving",
+        "descr_trans": "实体移动"
+      }
+    ],
+    "roleset_name_trans": "绕圈移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "circle.02",
+    "roleset_name": "to form a circle, enclose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity forming a circle",
+        "descr_trans": "形成一个圆圈的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity within a circle",
+        "descr_trans": "圆圈内的实体"
+      }
+    ],
+    "roleset_name_trans": "形成一个圆圈，包围"
+  }
 ]

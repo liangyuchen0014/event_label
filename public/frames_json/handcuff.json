@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handcuff.01",
-        "roleset_name": "attach with handcuffs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cop"
-            },
-            {
-                "n": "1",
-                "descr": "criminal, first thing being hancuffed"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, handcuffed to what"
-            },
-            {
-                "n": "3",
-                "descr": "handcuffs"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handcuff.01",
+    "roleset_name": "attach with handcuffs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cop",
+        "descr_trans": "警察"
+      },
+      {
+        "n": "1",
+        "descr": "criminal, first thing being hancuffed",
+        "descr_trans": "罪犯，首先被戴上手铐"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, handcuffed to what",
+        "descr_trans": "第二件事，戴上手铐"
+      },
+      {
+        "n": "3",
+        "descr": "handcuffs",
+        "descr_trans": "手铐"
+      }
+    ],
+    "roleset_name_trans": "戴上手铐"
+  }
 ]

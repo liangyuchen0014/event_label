@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "molt.01",
-        "roleset_name": "molt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing undergoing molting"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "molt.01",
+    "roleset_name": "molt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing undergoing molting",
+        "descr_trans": "病人，正在蜕皮的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "很多"
+  }
 ]

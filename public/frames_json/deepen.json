@@ -1,104 +1,125 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deepen.01",
-        "roleset_name": "make/become deeper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of deepening"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting deeper"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deep.03",
-        "roleset_name": "rich in meaning, complex",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity rich in meaning"
-            },
-            {
-                "n": "2",
-                "descr": "meaning/complexity arg1 is rich in"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "deep.04",
-        "roleset_name": "low in pitch",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing low in pitch"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "deep.05",
-        "roleset_name": "aesthetically rich",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "aesthetically rich thing"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "deep.06",
-        "roleset_name": "spatial dimension: Arg1 has a quantifiable dimension called 'depth'",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a spatial 'depth' dimension"
-            },
-            {
-                "n": "3",
-                "descr": "deep in what"
-            },
-            {
-                "n": "4",
-                "descr": "axis (of Arg1) measured"
-            },
-            {
-                "n": "5",
-                "descr": "scale"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "deep.07",
-        "roleset_name": "location: Arg1 is located probably far downward or inward within a probably vast substance/space",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity located in a deep place"
-            },
-            {
-                "n": "2",
-                "descr": "deep in what substance/space"
-            },
-            {
-                "n": "3",
-                "descr": "depth measurement"
-            },
-            {
-                "n": "4",
-                "descr": "axis (of the location) measured"
-            },
-            {
-                "n": "5",
-                "descr": "scale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deepen.01",
+    "roleset_name": "make/become deeper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of deepening",
+        "descr_trans": "深化的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting deeper",
+        "descr_trans": "事情越来越深入"
+      }
+    ],
+    "roleset_name_trans": "使/变得更深"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deep.03",
+    "roleset_name": "rich in meaning, complex",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity rich in meaning",
+        "descr_trans": "具有丰富意义的实体"
+      },
+      {
+        "n": "2",
+        "descr": "meaning/complexity arg1 is rich in",
+        "descr_trans": "意义/复杂性 arg1 富含"
+      }
+    ],
+    "roleset_name_trans": "含义丰富、复杂"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "deep.04",
+    "roleset_name": "low in pitch",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing low in pitch",
+        "descr_trans": "音调低的东西"
+      }
+    ],
+    "roleset_name_trans": "音调低"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "deep.05",
+    "roleset_name": "aesthetically rich",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "aesthetically rich thing",
+        "descr_trans": "审美丰富的东西"
+      }
+    ],
+    "roleset_name_trans": "审美丰富"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "deep.06",
+    "roleset_name": "spatial dimension: Arg1 has a quantifiable dimension called 'depth'",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a spatial 'depth' dimension",
+        "descr_trans": "具有空间“深度”维度的实体"
+      },
+      {
+        "n": "3",
+        "descr": "deep in what",
+        "descr_trans": "深入到什么"
+      },
+      {
+        "n": "4",
+        "descr": "axis (of Arg1) measured",
+        "descr_trans": "测量的（Arg1）轴"
+      },
+      {
+        "n": "5",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "空间维度：Arg1 有一个可量化的维度，称为“深度”"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "deep.07",
+    "roleset_name": "location: Arg1 is located probably far downward or inward within a probably vast substance/space",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity located in a deep place",
+        "descr_trans": "位于深处的实体"
+      },
+      {
+        "n": "2",
+        "descr": "deep in what substance/space",
+        "descr_trans": "在什么物质/空间深处"
+      },
+      {
+        "n": "3",
+        "descr": "depth measurement",
+        "descr_trans": "深度测量"
+      },
+      {
+        "n": "4",
+        "descr": "axis (of the location) measured",
+        "descr_trans": "测量的（位置）轴"
+      },
+      {
+        "n": "5",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "位置：Arg1 可能位于很远的下方或内部，位于可能巨大的物质/空间内"
+  }
 ]

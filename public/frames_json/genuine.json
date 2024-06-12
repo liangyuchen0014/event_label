@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "genuine.01",
-        "roleset_name": "sincere",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Sincere entity"
-            },
-            {
-                "n": "2",
-                "descr": "Sincere in what aspect, endeavour?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "genuine.02",
-        "roleset_name": "not fake, authentic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "authentic thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "genuine.01",
+    "roleset_name": "sincere",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Sincere entity",
+        "descr_trans": "真诚实体"
+      },
+      {
+        "n": "2",
+        "descr": "Sincere in what aspect, endeavour?",
+        "descr_trans": "在哪些方面真诚、努力？"
+      }
+    ],
+    "roleset_name_trans": "真诚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "genuine.02",
+    "roleset_name": "not fake, authentic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "authentic thing",
+        "descr_trans": "真实的东西"
+      }
+    ],
+    "roleset_name_trans": "不假，正品"
+  }
 ]

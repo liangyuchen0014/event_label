@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overbid.01",
-        "roleset_name": "bid too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bidder"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "overbid.02",
-        "roleset_name": "bid more than someone else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "higher bidder"
-            },
-            {
-                "n": "1",
-                "descr": "lower bidder"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overbid.01",
+    "roleset_name": "bid too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bidder",
+        "descr_trans": "投标人"
+      }
+    ],
+    "roleset_name_trans": "出价过高"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "overbid.02",
+    "roleset_name": "bid more than someone else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "higher bidder",
+        "descr_trans": "出价较高者"
+      },
+      {
+        "n": "1",
+        "descr": "lower bidder",
+        "descr_trans": "出价较低者"
+      }
+    ],
+    "roleset_name_trans": "出价比别人高"
+  }
 ]

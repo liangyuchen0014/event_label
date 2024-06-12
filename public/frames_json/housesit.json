@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "housesit.01",
-        "roleset_name": "to take care of someone's house",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caretaker"
-            },
-            {
-                "n": "1",
-                "descr": "house"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary, housesit for whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "housesit.01",
+    "roleset_name": "to take care of someone's house",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caretaker",
+        "descr_trans": "看门人"
+      },
+      {
+        "n": "1",
+        "descr": "house",
+        "descr_trans": "房子"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary, housesit for whom?",
+        "descr_trans": "受益人，为谁看家？"
+      }
+    ],
+    "roleset_name_trans": "照顾某人的房子"
+  }
 ]

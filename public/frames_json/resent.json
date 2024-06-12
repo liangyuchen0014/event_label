@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resent.01",
-        "roleset_name": "resent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing or person resented"
-            },
-            {
-                "n": "2",
-                "descr": "because-of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resent.01",
+    "roleset_name": "resent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resenter",
+        "descr_trans": "重新注册"
+      },
+      {
+        "n": "1",
+        "descr": "thing or person resented",
+        "descr_trans": "怨恨的事物或人"
+      },
+      {
+        "n": "2",
+        "descr": "because-of",
+        "descr_trans": "因为"
+      }
+    ],
+    "roleset_name_trans": "怨恨"
+  }
 ]

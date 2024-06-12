@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rehabilitate.01",
-        "roleset_name": "to restore",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "restorer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient rehabilitated"
-            },
-            {
-                "n": "2",
-                "descr": "affliction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rehabilitate.01",
+    "roleset_name": "to restore",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "restorer, agent",
+        "descr_trans": "恢复者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient rehabilitated",
+        "descr_trans": "病人康复了"
+      },
+      {
+        "n": "2",
+        "descr": "affliction",
+        "descr_trans": "痛苦"
+      }
+    ],
+    "roleset_name_trans": "恢复"
+  }
 ]

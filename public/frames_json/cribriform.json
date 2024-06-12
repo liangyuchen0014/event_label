@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cribriform.01",
-        "roleset_name": "perforate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent; hole poker"
-            },
-            {
-                "n": "1",
-                "descr": "entity perforated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cribriform.02",
-        "roleset_name": "like a flat layer of bone",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "flat bony layer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cribriform.01",
+    "roleset_name": "perforate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent; hole poker",
+        "descr_trans": "代理人;洞扑克"
+      },
+      {
+        "n": "1",
+        "descr": "entity perforated",
+        "descr_trans": "实体穿孔"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "穿孔"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cribriform.02",
+    "roleset_name": "like a flat layer of bone",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "flat bony layer",
+        "descr_trans": "扁平骨层"
+      }
+    ],
+    "roleset_name_trans": "就像一层平坦的骨头"
+  }
 ]

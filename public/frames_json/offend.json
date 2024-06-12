@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "offend.01",
-        "roleset_name": "give offense, bother, take aback, insulted and in a huff",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "offender"
-            },
-            {
-                "n": "1",
-                "descr": "offended"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "offend.03",
-        "roleset_name": "Commit an illegal act",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "criminal"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "offense.02",
-        "roleset_name": "making an attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the offense (attackers)"
-            },
-            {
-                "n": "1",
-                "descr": "the defense (victims/targets)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "offend.01",
+    "roleset_name": "give offense, bother, take aback, insulted and in a huff",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "offender",
+        "descr_trans": "罪犯"
+      },
+      {
+        "n": "1",
+        "descr": "offended",
+        "descr_trans": "冒犯了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "冒犯、打扰、吃惊、侮辱和愤怒"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "offend.03",
+    "roleset_name": "Commit an illegal act",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "做出违法行为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "offense.02",
+    "roleset_name": "making an attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the offense (attackers)",
+        "descr_trans": "进攻者（攻击者）"
+      },
+      {
+        "n": "1",
+        "descr": "the defense (victims/targets)",
+        "descr_trans": "辩护方（受害者/目标）"
+      }
+    ],
+    "roleset_name_trans": "发起攻击"
+  }
 ]

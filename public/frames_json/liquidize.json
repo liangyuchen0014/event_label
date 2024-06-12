@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "liquidize.01",
-        "roleset_name": "make liquid, literally or in financial sense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liquidator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being made liquid"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "liquid.02",
-        "roleset_name": "state of matter: fluid",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "substance in liquid state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "liquidize.01",
+    "roleset_name": "make liquid, literally or in financial sense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liquidator, agent",
+        "descr_trans": "清算人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being made liquid",
+        "descr_trans": "物体变成液体"
+      }
+    ],
+    "roleset_name_trans": "从字面上或财务意义上讲，使流动性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "liquid.02",
+    "roleset_name": "state of matter: fluid",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "substance in liquid state",
+        "descr_trans": "液态物质"
+      }
+    ],
+    "roleset_name_trans": "物质状态：流体"
+  }
 ]

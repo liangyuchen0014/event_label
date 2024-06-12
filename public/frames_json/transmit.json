@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transmit.01",
-        "roleset_name": "send (electronically), send or pass on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transmit.01",
+    "roleset_name": "send (electronically), send or pass on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "发送（以电子方式）、发送或传递"
+  }
 ]

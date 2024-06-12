@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "iodize.01",
-        "roleset_name": "treat with iodide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, treater"
-            },
-            {
-                "n": "1",
-                "descr": "thing iodized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "iodize.01",
+    "roleset_name": "treat with iodide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, treater",
+        "descr_trans": "代理人，治疗者"
+      },
+      {
+        "n": "1",
+        "descr": "thing iodized",
+        "descr_trans": "加碘的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "用碘化物处理"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "osculate.01",
-        "roleset_name": "kiss by pressing lips together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "couple, or first kisser"
-            },
-            {
-                "n": "1",
-                "descr": "other half of the couple if listed separately"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "osculate.02",
-        "roleset_name": "share at least three common points",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first point of a curve"
-            },
-            {
-                "n": "2",
-                "descr": "second piece of a curve; thing sharing common points"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "osculate.03",
-        "roleset_name": "fall between two taxonomic groups",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "species"
-            },
-            {
-                "n": "2",
-                "descr": "taxonomic groups it falls between"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "osculate.01",
+    "roleset_name": "kiss by pressing lips together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "couple, or first kisser",
+        "descr_trans": "情侣或初吻者"
+      },
+      {
+        "n": "1",
+        "descr": "other half of the couple if listed separately",
+        "descr_trans": "夫妻的另一半（如果单独列出）"
+      }
+    ],
+    "roleset_name_trans": "将嘴唇压在一起接吻"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "osculate.02",
+    "roleset_name": "share at least three common points",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first point of a curve",
+        "descr_trans": "曲线的第一个点"
+      },
+      {
+        "n": "2",
+        "descr": "second piece of a curve; thing sharing common points",
+        "descr_trans": "曲线的第二条；事物有共同点"
+      }
+    ],
+    "roleset_name_trans": "至少有三个共同点"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "osculate.03",
+    "roleset_name": "fall between two taxonomic groups",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "species",
+        "descr_trans": "物种"
+      },
+      {
+        "n": "2",
+        "descr": "taxonomic groups it falls between",
+        "descr_trans": "它所属的分类群"
+      }
+    ],
+    "roleset_name_trans": "介于两个分类群之间"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rope.01",
-        "roleset_name": "rope",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first thing(s) roped"
-            },
-            {
-                "n": "2",
-                "descr": "roped to what, second thing roped (if separate from Arg1)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument of roping (rope itself)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rope.01",
+    "roleset_name": "rope",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roper, agent",
+        "descr_trans": "罗珀，经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "first thing(s) roped",
+        "descr_trans": "第一件东西用绳子拴住"
+      },
+      {
+        "n": "2",
+        "descr": "roped to what, second thing roped (if separate from Arg1)",
+        "descr_trans": "绳索到什么，第二个绳索（如果与 Arg1 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument of roping (rope itself)",
+        "descr_trans": "绳索工具（绳索本身）"
+      }
+    ],
+    "roleset_name_trans": "绳索"
+  }
 ]

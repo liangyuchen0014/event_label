@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "americanize.01",
-        "roleset_name": "make more american",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "american.02",
-        "roleset_name": "or origin in america",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "American entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "americanize.01",
+    "roleset_name": "make more american",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "让更多美国人"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "american.02",
+    "roleset_name": "or origin in america",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "American entity",
+        "descr_trans": "美国实体"
+      }
+    ],
+    "roleset_name_trans": "或起源于美国"
+  }
 ]

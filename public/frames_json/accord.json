@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "accord.01",
-        "roleset_name": "to give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "given-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "accord.02",
-        "roleset_name": "follow a procedure; be in line with expectations or other facts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "follower of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "action done"
-            },
-            {
-                "n": "2",
-                "descr": "regulations, procedure, or expectations accorded with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "accord.03",
-        "roleset_name": "create or agree to a pact",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first party in agreement, both parties when mentioned together"
-            },
-            {
-                "n": "1",
-                "descr": "subject of promise, subject/topic pact involves"
-            },
-            {
-                "n": "2",
-                "descr": "second party in agreement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "accord.01",
+    "roleset_name": "to give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "given-to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "给予"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "accord.02",
+    "roleset_name": "follow a procedure; be in line with expectations or other facts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "follower of procedure",
+        "descr_trans": "程序的追随者"
+      },
+      {
+        "n": "1",
+        "descr": "action done",
+        "descr_trans": "行动已完成"
+      },
+      {
+        "n": "2",
+        "descr": "regulations, procedure, or expectations accorded with",
+        "descr_trans": "符合的法规、程序或期望"
+      }
+    ],
+    "roleset_name_trans": "遵循程序；符合预期或其他事实"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "accord.03",
+    "roleset_name": "create or agree to a pact",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first party in agreement, both parties when mentioned together",
+        "descr_trans": "达成协议的第一方，当同时提及时双方"
+      },
+      {
+        "n": "1",
+        "descr": "subject of promise, subject/topic pact involves",
+        "descr_trans": "承诺的主题、主题/主题契约涉及"
+      },
+      {
+        "n": "2",
+        "descr": "second party in agreement",
+        "descr_trans": "协议第二方"
+      }
+    ],
+    "roleset_name_trans": "制定或同意一项协议"
+  }
 ]

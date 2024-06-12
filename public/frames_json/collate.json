@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "collate.01",
-        "roleset_name": "put papers into systematic order",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "organizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing organized"
-            },
-            {
-                "n": "2",
-                "descr": "end state, collated into what, if separate from arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "collate.01",
+    "roleset_name": "put papers into systematic order",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "organizer",
+        "descr_trans": "组织者"
+      },
+      {
+        "n": "1",
+        "descr": "thing organized",
+        "descr_trans": "事情组织起来"
+      },
+      {
+        "n": "2",
+        "descr": "end state, collated into what, if separate from arg 1",
+        "descr_trans": "最终状态，如果与 arg 1 分开，则整理成什么"
+      }
+    ],
+    "roleset_name_trans": "将论文按系统顺序排列"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "payout.01",
-        "roleset_name": "provide a payout",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "money (or similar)"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of payout"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, paid for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "payout.01",
+    "roleset_name": "provide a payout",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "money (or similar)",
+        "descr_trans": "钱（或类似的东西）"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of payout",
+        "descr_trans": "付款接收者"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, paid for what",
+        "descr_trans": "商品，支付什么"
+      }
+    ],
+    "roleset_name_trans": "提供付款"
+  }
 ]

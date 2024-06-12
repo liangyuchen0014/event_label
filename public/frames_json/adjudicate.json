@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adjudicate.01",
-        "roleset_name": "to settle conflicts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adjudicator"
-            },
-            {
-                "n": "1",
-                "descr": "decision or conflict"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adjudicate.01",
+    "roleset_name": "to settle conflicts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adjudicator",
+        "descr_trans": "裁决者"
+      },
+      {
+        "n": "1",
+        "descr": "decision or conflict",
+        "descr_trans": "决定或冲突"
+      }
+    ],
+    "roleset_name_trans": "来解决冲突"
+  }
 ]

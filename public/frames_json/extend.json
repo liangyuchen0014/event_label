@@ -1,75 +1,91 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extend.01",
-        "roleset_name": "(cause to) become longer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making something be longer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing getting longer"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or TMP, by how much or until when"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "relevant dimension of ARG1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "extend.02",
-        "roleset_name": "offer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, offerer"
-            },
-            {
-                "n": "1",
-                "descr": "thing offered"
-            },
-            {
-                "n": "2",
-                "descr": "offered-to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "extensive.03",
-        "roleset_name": "range or depth of",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "patient, thing that is extended"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, degree, by how much"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extend.01",
+    "roleset_name": "(cause to) become longer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making something be longer",
+        "descr_trans": "代理人，使某物更长的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing getting longer",
+        "descr_trans": "耐心，事情变得更长"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or TMP, by how much or until when",
+        "descr_trans": "EXT 或 TMP，增加多少或直到何时"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "relevant dimension of ARG1",
+        "descr_trans": "ARG1的相关尺寸"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更长"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "extend.02",
+    "roleset_name": "offer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, offerer",
+        "descr_trans": "给予、牺牲"
+      },
+      {
+        "n": "1",
+        "descr": "thing offered",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "offered-to",
+        "descr_trans": "提供给"
+      }
+    ],
+    "roleset_name_trans": "提供"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "extensive.03",
+    "roleset_name": "range or depth of",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "patient, thing that is extended",
+        "descr_trans": "病人，延伸的东西"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, degree, by how much",
+        "descr_trans": "EXT，程度，多少"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "范围或深度"
+  }
 ]

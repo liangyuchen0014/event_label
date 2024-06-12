@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proceed.01",
-        "roleset_name": "keep on, continuing on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of continuing event"
-            },
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "proceeding.02",
-        "roleset_name": "legal hearing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity having a hearing"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter of the hearing"
-            },
-            {
-                "n": "3",
-                "descr": "court/officiant appeared before"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proceed.01",
+    "roleset_name": "keep on, continuing on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of continuing event",
+        "descr_trans": "持续事件的起因"
+      },
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      }
+    ],
+    "roleset_name_trans": "继续，继续"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "proceeding.02",
+    "roleset_name": "legal hearing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity having a hearing",
+        "descr_trans": "举行听证会的实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter of the hearing",
+        "descr_trans": "听证会的主题"
+      },
+      {
+        "n": "3",
+        "descr": "court/officiant appeared before",
+        "descr_trans": "法庭/官员出庭"
+      }
+    ],
+    "roleset_name_trans": "法律听证会"
+  }
 ]

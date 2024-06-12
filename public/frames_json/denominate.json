@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "denominate.01",
-        "roleset_name": "give a name, assign a designation to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of name/value, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity named"
-            },
-            {
-                "n": "2",
-                "descr": "name, attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "denominate.01",
+    "roleset_name": "give a name, assign a designation to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of name/value, agent",
+        "descr_trans": "名称/值的分配者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity named",
+        "descr_trans": "实体命名"
+      },
+      {
+        "n": "2",
+        "descr": "name, attribute",
+        "descr_trans": "名称、属性"
+      }
+    ],
+    "roleset_name_trans": "给出一个名称，指定一个名称"
+  }
 ]

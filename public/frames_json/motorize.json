@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "motorize.01",
-        "roleset_name": "attach a motor to, have a motor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher of motor"
-            },
-            {
-                "n": "1",
-                "descr": "thing with motor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "motorize.01",
+    "roleset_name": "attach a motor to, have a motor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher of motor",
+        "descr_trans": "电机连接器"
+      },
+      {
+        "n": "1",
+        "descr": "thing with motor",
+        "descr_trans": "有马达的东西"
+      }
+    ],
+    "roleset_name_trans": "附上一个电机，有一个电机"
+  }
 ]

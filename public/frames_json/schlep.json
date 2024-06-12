@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "schlep.01",
-        "roleset_name": "schlep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "schlepper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) schlepped, theme"
-            },
-            {
-                "n": "2",
-                "descr": "schlepped from where, source"
-            },
-            {
-                "n": "3",
-                "descr": "schlepped to where, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "schlep.01",
+    "roleset_name": "schlep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "schlepper, agent",
+        "descr_trans": "人贩子、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) schlepped, theme",
+        "descr_trans": "事物（S）拖沓，主题"
+      },
+      {
+        "n": "2",
+        "descr": "schlepped from where, source",
+        "descr_trans": "从哪里开始，来源"
+      },
+      {
+        "n": "3",
+        "descr": "schlepped to where, destination",
+        "descr_trans": "运往何处、目的地"
+      }
+    ],
+    "roleset_name_trans": "拖"
+  }
 ]

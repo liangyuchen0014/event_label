@@ -1,480 +1,578 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "get.01",
-        "roleset_name": "transfer of goods, acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            },
-            {
-                "n": "2",
-                "descr": "giver"
-            },
-            {
-                "n": "3",
-                "descr": "price paid, in-exchange-for"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "get.02",
-        "roleset_name": "have-got: already possess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "haver, possessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing had, possessed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "get.03",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1 (not a VP node)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "get.04",
-        "roleset_name": "cause to do or be something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "instigator"
-            },
-            {
-                "n": "1",
-                "descr": "a clause -- action done or descriptive small clause"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "get.05",
-        "roleset_name": "move",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "get.06",
-        "roleset_name": "must",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Subject"
-            },
-            {
-                "n": "1",
-                "descr": "Complement"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "get.22",
-        "roleset_name": "have the pleasure of doing something, \"i gettuh...\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Benefactive, partaker in desired action"
-            },
-            {
-                "n": "1",
-                "descr": "Action done, S-node or clause"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "get.24",
-        "roleset_name": "auxiliary usage (rel followed by a vp)",
-        "roles": []
-    },
-    {
-        "uid": 9,
-        "roleset_id": "get.28",
-        "roleset_name": "get to: aggravate, annoy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "aggravator"
-            },
-            {
-                "n": "1",
-                "descr": "aggravated"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "get.30",
-        "roleset_name": "understand, grasp conceptually",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "thing understood"
-            },
-            {
-                "n": "2",
-                "descr": "source of understood thing, perhaps another communicator"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "get_out.07",
-        "roleset_name": "produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "get_away.08",
-        "roleset_name": "manage to accomplish without repercussions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity attempting some deed"
-            },
-            {
-                "n": "1",
-                "descr": "the deed"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "get_back.09",
-        "roleset_name": "recover",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recoverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing regained"
-            },
-            {
-                "n": "2",
-                "descr": "who had it before"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "get_back.10",
-        "roleset_name": "return",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing"
-            },
-            {
-                "n": "2",
-                "descr": "original state"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "get_back.19",
-        "roleset_name": "get even: revenge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revenger"
-            },
-            {
-                "n": "1",
-                "descr": "committer of prior offense"
-            },
-            {
-                "n": "2",
-                "descr": "prior offense"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "get_back.25",
-        "roleset_name": "respond to an inquiry/correspondence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity responding to correspondence"
-            },
-            {
-                "n": "1",
-                "descr": "entity responded to, original caller"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "get_off.11",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            },
-            {
-                "n": "2",
-                "descr": "manner?"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "get_off.23",
-        "roleset_name": "get away with something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Outside causal agent, usually lawyer"
-            },
-            {
-                "n": "1",
-                "descr": "Person getting away with something"
-            },
-            {
-                "n": "2",
-                "descr": "Deed gotten away with"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "get_off.29",
-        "roleset_name": "reach a state of euphoria, climax (via drugs, sex, or random happy things)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing euphoria"
-            },
-            {
-                "n": "2",
-                "descr": "pleasure-giving stimulus"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "get_through.12",
-        "roleset_name": "reach, connect with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity trying to get through"
-            },
-            {
-                "n": "1",
-                "descr": "entity trying to be contacted"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "get_through.13",
-        "roleset_name": "persevere",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perseverer"
-            },
-            {
-                "n": "1",
-                "descr": "troubles"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "get_along.18",
-        "roleset_name": "have good relations",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity 1"
-            },
-            {
-                "n": "2",
-                "descr": "with entity 2"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "get_by.17",
-        "roleset_name": "cope, manage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "what getting by with or without"
-            }
-        ]
-    },
-    {
-        "uid": 24,
-        "roleset_id": "get_down.15",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "beginner"
-            },
-            {
-                "n": "2",
-                "descr": "thing begun, task"
-            }
-        ]
-    },
-    {
-        "uid": 25,
-        "roleset_id": "get_down.27",
-        "roleset_name": "boogie, get in the groove with, possibly dance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity jamming out, getting down, boogying"
-            },
-            {
-                "n": "1",
-                "descr": "to/with what-- inspiration, mood setter, music, stimulus"
-            }
-        ]
-    },
-    {
-        "uid": 26,
-        "roleset_id": "get_together.14",
-        "roleset_name": "meet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one party"
-            },
-            {
-                "n": "1",
-                "descr": "the other"
-            }
-        ]
-    },
-    {
-        "uid": 27,
-        "roleset_id": "get_on.20",
-        "roleset_name": "have good relations",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity 1"
-            },
-            {
-                "n": "2",
-                "descr": "with entity 2 (if specified)"
-            }
-        ]
-    },
-    {
-        "uid": 28,
-        "roleset_id": "get_on.21",
-        "roleset_name": "continue on with something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of continuation"
-            },
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            }
-        ]
-    },
-    {
-        "uid": 29,
-        "roleset_id": "get_up.26",
-        "roleset_name": "arise from slumber",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, alarm clock"
-            },
-            {
-                "n": "1",
-                "descr": "entity waking up"
-            },
-            {
-                "n": "2",
-                "descr": "time of waking/arising"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "get.01",
+    "roleset_name": "transfer of goods, acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      },
+      {
+        "n": "2",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "3",
+        "descr": "price paid, in-exchange-for",
+        "descr_trans": "支付的价格，交换的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "转让货物、取得"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "get.02",
+    "roleset_name": "have-got: already possess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "haver, possessor",
+        "descr_trans": "拥有者，拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing had, possessed",
+        "descr_trans": "事物拥有，拥有"
+      }
+    ],
+    "roleset_name_trans": "拥有：已经拥有"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "get.03",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing",
+        "descr_trans": "事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1 (not a VP node)",
+        "descr_trans": "arg1 的属性（不是 VP 节点）"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "get.04",
+    "roleset_name": "cause to do or be something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "instigator",
+        "descr_trans": "煽动者"
+      },
+      {
+        "n": "1",
+        "descr": "a clause -- action done or descriptive small clause",
+        "descr_trans": "子句——完成的动作或描述性小子句"
+      }
+    ],
+    "roleset_name_trans": "导致做某事或成为某事"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "get.05",
+    "roleset_name": "move",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "移动"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "get.06",
+    "roleset_name": "must",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "Complement",
+        "descr_trans": "补充"
+      }
+    ],
+    "roleset_name_trans": "必须"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "get.22",
+    "roleset_name": "have the pleasure of doing something, \"i gettuh...\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Benefactive, partaker in desired action",
+        "descr_trans": "乐于助人，参与期望的行动"
+      },
+      {
+        "n": "1",
+        "descr": "Action done, S-node or clause",
+        "descr_trans": "操作完成、S 节点或子句"
+      }
+    ],
+    "roleset_name_trans": "很高兴做某事，“我明白……”"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "get.24",
+    "roleset_name": "auxiliary usage (rel followed by a vp)",
+    "roles": [],
+    "roleset_name_trans": "辅助用法（rel 后跟 vp）"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "get.28",
+    "roleset_name": "get to: aggravate, annoy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "aggravator",
+        "descr_trans": "加重者"
+      },
+      {
+        "n": "1",
+        "descr": "aggravated",
+        "descr_trans": "加重的"
+      }
+    ],
+    "roleset_name_trans": "达到：加剧，惹恼"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "get.30",
+    "roleset_name": "understand, grasp conceptually",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "thing understood",
+        "descr_trans": "事情明白了"
+      },
+      {
+        "n": "2",
+        "descr": "source of understood thing, perhaps another communicator",
+        "descr_trans": "理解事物的来源，也许是另一个沟通者"
+      }
+    ],
+    "roleset_name_trans": "从概念上理解、掌握"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "get_out.07",
+    "roleset_name": "produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "生产"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "get_away.08",
+    "roleset_name": "manage to accomplish without repercussions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity attempting some deed",
+        "descr_trans": "尝试某种行为的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the deed",
+        "descr_trans": "契税"
+      }
+    ],
+    "roleset_name_trans": "设法完成而不产生任何影响"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "get_back.09",
+    "roleset_name": "recover",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recoverer",
+        "descr_trans": "恢复者"
+      },
+      {
+        "n": "1",
+        "descr": "thing regained",
+        "descr_trans": "东西恢复了"
+      },
+      {
+        "n": "2",
+        "descr": "who had it before",
+        "descr_trans": "谁以前有过"
+      }
+    ],
+    "roleset_name_trans": "恢复"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "get_back.10",
+    "roleset_name": "return",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing",
+        "descr_trans": "事物"
+      },
+      {
+        "n": "2",
+        "descr": "original state",
+        "descr_trans": "原始状态"
+      }
+    ],
+    "roleset_name_trans": "返回"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "get_back.19",
+    "roleset_name": "get even: revenge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revenger",
+        "descr_trans": "复仇者"
+      },
+      {
+        "n": "1",
+        "descr": "committer of prior offense",
+        "descr_trans": "犯罪前科者"
+      },
+      {
+        "n": "2",
+        "descr": "prior offense",
+        "descr_trans": "先前的犯罪行为"
+      }
+    ],
+    "roleset_name_trans": "报仇：报仇"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "get_back.25",
+    "roleset_name": "respond to an inquiry/correspondence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity responding to correspondence",
+        "descr_trans": "回复信件的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity responded to, original caller",
+        "descr_trans": "实体响应，原始调用者"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "回复询问/信件"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "get_off.11",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      },
+      {
+        "n": "2",
+        "descr": "manner?",
+        "descr_trans": "方式？"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "get_off.23",
+    "roleset_name": "get away with something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Outside causal agent, usually lawyer",
+        "descr_trans": "外部因果代理人，通常是律师"
+      },
+      {
+        "n": "1",
+        "descr": "Person getting away with something",
+        "descr_trans": "逃脱某事的人"
+      },
+      {
+        "n": "2",
+        "descr": "Deed gotten away with",
+        "descr_trans": "契约逃脱了"
+      }
+    ],
+    "roleset_name_trans": "摆脱某事"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "get_off.29",
+    "roleset_name": "reach a state of euphoria, climax (via drugs, sex, or random happy things)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing euphoria",
+        "descr_trans": "体验欣快感的实体"
+      },
+      {
+        "n": "2",
+        "descr": "pleasure-giving stimulus",
+        "descr_trans": "令人愉悦的刺激"
+      }
+    ],
+    "roleset_name_trans": "达到欣快、高潮的状态（通过药物、性或随机的快乐的事情）"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "get_through.12",
+    "roleset_name": "reach, connect with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity trying to get through",
+        "descr_trans": "试图通过的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity trying to be contacted",
+        "descr_trans": "尝试联系的实体"
+      }
+    ],
+    "roleset_name_trans": "到达，连接到"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "get_through.13",
+    "roleset_name": "persevere",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perseverer",
+        "descr_trans": "坚持者"
+      },
+      {
+        "n": "1",
+        "descr": "troubles",
+        "descr_trans": "麻烦"
+      }
+    ],
+    "roleset_name_trans": "坚持下去"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "get_along.18",
+    "roleset_name": "have good relations",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity 1",
+        "descr_trans": "实体1"
+      },
+      {
+        "n": "2",
+        "descr": "with entity 2",
+        "descr_trans": "与实体 2"
+      }
+    ],
+    "roleset_name_trans": "有良好的关系"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "get_by.17",
+    "roleset_name": "cope, manage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "what getting by with or without",
+        "descr_trans": "有或没有都过得怎么样"
+      }
+    ],
+    "roleset_name_trans": "应对，管理"
+  },
+  {
+    "uid": 24,
+    "roleset_id": "get_down.15",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "beginner",
+        "descr_trans": "初学者"
+      },
+      {
+        "n": "2",
+        "descr": "thing begun, task",
+        "descr_trans": "事情开始，任务"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 25,
+    "roleset_id": "get_down.27",
+    "roleset_name": "boogie, get in the groove with, possibly dance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity jamming out, getting down, boogying",
+        "descr_trans": "实体干扰、趴下、嘘嘘"
+      },
+      {
+        "n": "1",
+        "descr": "to/with what-- inspiration, mood setter, music, stimulus",
+        "descr_trans": "灵感、情绪调节器、音乐、刺激"
+      }
+    ],
+    "roleset_name_trans": "boogie，进入最佳状态，可能会跳舞"
+  },
+  {
+    "uid": 26,
+    "roleset_id": "get_together.14",
+    "roleset_name": "meet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one party",
+        "descr_trans": "一方"
+      },
+      {
+        "n": "1",
+        "descr": "the other",
+        "descr_trans": "另一个"
+      }
+    ],
+    "roleset_name_trans": "见面"
+  },
+  {
+    "uid": 27,
+    "roleset_id": "get_on.20",
+    "roleset_name": "have good relations",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity 1",
+        "descr_trans": "实体1"
+      },
+      {
+        "n": "2",
+        "descr": "with entity 2 (if specified)",
+        "descr_trans": "与实体 2（如果指定）"
+      }
+    ],
+    "roleset_name_trans": "有良好的关系"
+  },
+  {
+    "uid": 28,
+    "roleset_id": "get_on.21",
+    "roleset_name": "continue on with something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of continuation",
+        "descr_trans": "继续的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      }
+    ],
+    "roleset_name_trans": "继续做某事"
+  },
+  {
+    "uid": 29,
+    "roleset_id": "get_up.26",
+    "roleset_name": "arise from slumber",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, alarm clock",
+        "descr_trans": "代理、闹钟"
+      },
+      {
+        "n": "1",
+        "descr": "entity waking up",
+        "descr_trans": "实体苏醒"
+      },
+      {
+        "n": "2",
+        "descr": "time of waking/arising",
+        "descr_trans": "醒来/起床的时间"
+      }
+    ],
+    "roleset_name_trans": "从睡眠中醒来"
+  }
 ]

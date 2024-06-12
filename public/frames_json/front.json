@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "front.01",
-        "roleset_name": "be the front portion of a larger whole",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that is the front portion"
-            },
-            {
-                "n": "2",
-                "descr": "larger whole"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "up_front.02",
-        "roleset_name": "be straightfoward and honest with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, one who is direct and honest"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter, about what"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "front.01",
+    "roleset_name": "be the front portion of a larger whole",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that is the front portion",
+        "descr_trans": "前面部分的实体"
+      },
+      {
+        "n": "2",
+        "descr": "larger whole",
+        "descr_trans": "更大的整体"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "是一个更大整体的前部"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "up_front.02",
+    "roleset_name": "be straightfoward and honest with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, one who is direct and honest",
+        "descr_trans": "说话者，一位直接而诚实的人"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter, about what",
+        "descr_trans": "主题，关于什么"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "坦率诚实"
+  }
 ]

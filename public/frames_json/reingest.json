@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reingest.01",
-        "roleset_name": "eat/ingest again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "foodstuff"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reingest.01",
+    "roleset_name": "eat/ingest again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "foodstuff",
+        "descr_trans": "食品"
+      }
+    ],
+    "roleset_name_trans": "再次进食/摄入"
+  }
 ]

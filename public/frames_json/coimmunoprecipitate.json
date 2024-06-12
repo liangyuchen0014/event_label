@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coimmunoprecipitate.01",
-        "roleset_name": "immunoprecipitate together (with another compound)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of coimmunoprecipitation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "antigen(s) (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "second chemical"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, antibody"
-            },
-            {
-                "n": "4",
-                "descr": "coimmunoprecipitated from, solution"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coimmunoprecipitate.01",
+    "roleset_name": "immunoprecipitate together (with another compound)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of coimmunoprecipitation (e.g. scientist)",
+        "descr_trans": "共免疫沉淀的有意代理（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "antigen(s) (e.g. protein)",
+        "descr_trans": "抗原（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "second chemical",
+        "descr_trans": "第二化学品"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, antibody",
+        "descr_trans": "仪器、抗体"
+      },
+      {
+        "n": "4",
+        "descr": "coimmunoprecipitated from, solution",
+        "descr_trans": "溶液共免疫沉淀"
+      }
+    ],
+    "roleset_name_trans": "一起免疫沉淀（与另一种化合物）"
+  }
 ]

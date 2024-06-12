@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "integrate.01",
-        "roleset_name": "blend, mix",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mixer, integrater"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) thing(s) being integrated"
-            },
-            {
-                "n": "2",
-                "descr": "integrated into (second thing)"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1 that is actually undergoing integration"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "integrate.01",
+    "roleset_name": "blend, mix",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mixer, integrater",
+        "descr_trans": "混合器、积分器"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) thing(s) being integrated",
+        "descr_trans": "第一个（或所有）事物被集成"
+      },
+      {
+        "n": "2",
+        "descr": "integrated into (second thing)",
+        "descr_trans": "融入（第二件事）"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1 that is actually undergoing integration",
+        "descr_trans": "实际正在进行集成的 arg1 属性"
+      }
+    ],
+    "roleset_name_trans": "混合，混合"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "matchmake.01",
-        "roleset_name": "match people together, usual romantically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, matchmaker"
-            },
-            {
-                "n": "1",
-                "descr": "first person in union"
-            },
-            {
-                "n": "2",
-                "descr": "second person, matched with, when seperate from arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "matchmake.01",
+    "roleset_name": "match people together, usual romantically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, matchmaker",
+        "descr_trans": "经纪人、媒人"
+      },
+      {
+        "n": "1",
+        "descr": "first person in union",
+        "descr_trans": "联盟第一人"
+      },
+      {
+        "n": "2",
+        "descr": "second person, matched with, when seperate from arg1",
+        "descr_trans": "第二人称，与 arg1 分开时匹配"
+      }
+    ],
+    "roleset_name_trans": "将人们撮合在一起，通常很浪漫"
+  }
 ]

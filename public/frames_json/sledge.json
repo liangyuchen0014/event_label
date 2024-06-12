@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sledge.01",
-        "roleset_name": "travel in a sled, sledge or sleigh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sled driver"
-            },
-            {
-                "n": "1",
-                "descr": "the sled, or cargo/passengers"
-            },
-            {
-                "n": "2",
-                "descr": "location/path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sledge.02",
-        "roleset_name": "hit with a sledgehammer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sledge.01",
+    "roleset_name": "travel in a sled, sledge or sleigh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sled driver",
+        "descr_trans": "代理人、雪橇司机"
+      },
+      {
+        "n": "1",
+        "descr": "the sled, or cargo/passengers",
+        "descr_trans": "雪橇，或货物/乘客"
+      },
+      {
+        "n": "2",
+        "descr": "location/path",
+        "descr_trans": "位置/路径"
+      }
+    ],
+    "roleset_name_trans": "乘坐雪橇、雪橇或雪橇旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sledge.02",
+    "roleset_name": "hit with a sledgehammer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "用大锤击打"
+  }
 ]

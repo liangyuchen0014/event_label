@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mortify.01",
-        "roleset_name": "to greatly shame, embarrass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of mortification"
-            },
-            {
-                "n": "1",
-                "descr": "entity mortified"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mortify.02",
-        "roleset_name": "deaden, repress, attenuate (as of carnal desires/sins)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of repression"
-            },
-            {
-                "n": "1",
-                "descr": "thing repressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mortify.01",
+    "roleset_name": "to greatly shame, embarrass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of mortification",
+        "descr_trans": "屈辱的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity mortified",
+        "descr_trans": "实体受到羞辱"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "使极其羞耻、难堪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mortify.02",
+    "roleset_name": "deaden, repress, attenuate (as of carnal desires/sins)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of repression",
+        "descr_trans": "镇压代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing repressed",
+        "descr_trans": "被压抑的东西"
+      }
+    ],
+    "roleset_name_trans": "抑制、抑制、削弱（如肉欲/罪恶）"
+  }
 ]

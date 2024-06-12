@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shred.01",
-        "roleset_name": "turn wide flat object into small flat objects",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shredder"
-            },
-            {
-                "n": "1",
-                "descr": "thing shredded, whole"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "pieces"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shred.01",
+    "roleset_name": "turn wide flat object into small flat objects",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shredder",
+        "descr_trans": "碎纸机"
+      },
+      {
+        "n": "1",
+        "descr": "thing shredded, whole",
+        "descr_trans": "东西被切碎，整个"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "pieces",
+        "descr_trans": "件"
+      }
+    ],
+    "roleset_name_trans": "将宽的扁平物体变成小扁平物体"
+  }
 ]

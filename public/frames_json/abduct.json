@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abduct.01",
-        "roleset_name": "to carry someone off by force",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "person kidnapped"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "abduct.02",
-        "roleset_name": "move away from a central axis",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abduct.01",
+    "roleset_name": "to carry someone off by force",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person kidnapped",
+        "descr_trans": "被绑架的人"
+      }
+    ],
+    "roleset_name_trans": "强行带走某人"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "abduct.02",
+    "roleset_name": "move away from a central axis",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      }
+    ],
+    "roleset_name_trans": "远离中心轴"
+  }
 ]

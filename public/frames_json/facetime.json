@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "facetime.01",
-        "roleset_name": "videochat, using facetime program",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first videochatter"
-            },
-            {
-                "n": "1",
-                "descr": "other videochatter(s)"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "facetime.01",
+    "roleset_name": "videochat, using facetime program",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first videochatter",
+        "descr_trans": "第一次视频聊天"
+      },
+      {
+        "n": "1",
+        "descr": "other videochatter(s)",
+        "descr_trans": "其他视频聊天者"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "视频聊天，使用facetime程序"
+  }
 ]

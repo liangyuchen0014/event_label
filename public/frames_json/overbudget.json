@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overbudget.01",
-        "roleset_name": "allocate too much money to some purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "amount of money overbudgeted"
-            },
-            {
-                "n": "2",
-                "descr": "project receiving money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overbudget.01",
+    "roleset_name": "allocate too much money to some purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "amount of money overbudgeted",
+        "descr_trans": "超出预算的金额"
+      },
+      {
+        "n": "2",
+        "descr": "project receiving money",
+        "descr_trans": "项目收款"
+      }
+    ],
+    "roleset_name_trans": "为某种目的分配太多的钱"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chelate.01",
-        "roleset_name": "removing heavy metals from bloodstream using a chelate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being removed (e.g. heavy metals)"
-            },
-            {
-                "n": "2",
-                "descr": "Removed from (e.g. from bloodstream/patient)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chelate.01",
+    "roleset_name": "removing heavy metals from bloodstream using a chelate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being removed (e.g. heavy metals)",
+        "descr_trans": "被移除的东西（例如重金属）"
+      },
+      {
+        "n": "2",
+        "descr": "Removed from (e.g. from bloodstream/patient)",
+        "descr_trans": "从（例如从血液/患者）中移除"
+      }
+    ],
+    "roleset_name_trans": "使用螯合物去除血液中的重金属"
+  }
 ]

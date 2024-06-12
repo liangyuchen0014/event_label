@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demarginate.01",
-        "roleset_name": "returning of leukocytes to circulating pool in response to stress, seizures, chemical cause",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent or cause of demargination- intentional"
-            },
-            {
-                "n": "1",
-                "descr": "Entity demarginating"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument- unintentional cause of demargination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demarginate.01",
+    "roleset_name": "returning of leukocytes to circulating pool in response to stress, seizures, chemical cause",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent or cause of demargination- intentional",
+        "descr_trans": "取消边界的代理人或原因 - 故意"
+      },
+      {
+        "n": "1",
+        "descr": "Entity demarginating",
+        "descr_trans": "实体界定"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument- unintentional cause of demargination",
+        "descr_trans": "仪器 - 无意造成的脱边原因"
+      }
+    ],
+    "roleset_name_trans": "因应激、癫痫发作、化学原因而导致白细胞返回循环池"
+  }
 ]

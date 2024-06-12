@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wise.01",
-        "roleset_name": "characterized by wisdom",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "that characterized as wise (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wise.02",
-        "roleset_name": "knowing about (\"wise to\")",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "knower"
-            },
-            {
-                "n": "1",
-                "descr": "known"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wise_up.03",
-        "roleset_name": "become wise (to something)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming wise"
-            },
-            {
-                "n": "2",
-                "descr": "thing learned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wise.01",
+    "roleset_name": "characterized by wisdom",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "that characterized as wise (may require concatenation)",
+        "descr_trans": "被表征为明智的（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "以智慧为特征"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wise.02",
+    "roleset_name": "knowing about (\"wise to\")",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "knower",
+        "descr_trans": "知者"
+      },
+      {
+        "n": "1",
+        "descr": "known",
+        "descr_trans": "已知的"
+      }
+    ],
+    "roleset_name_trans": "了解（“明智地”）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wise_up.03",
+    "roleset_name": "become wise (to something)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent or causer",
+        "descr_trans": "外部代理人或原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming wise",
+        "descr_trans": "实体变得明智"
+      },
+      {
+        "n": "2",
+        "descr": "thing learned",
+        "descr_trans": "学到的东西"
+      }
+    ],
+    "roleset_name_trans": "变得明智（对某事）"
+  }
 ]

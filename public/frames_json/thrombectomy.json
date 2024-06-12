@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrombectomy.01",
-        "roleset_name": "removal of a blood clot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from (location, source)"
-            },
-            {
-                "n": "3",
-                "descr": "more specific source, if in addition to ARG2"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrombectomy.01",
+    "roleset_name": "removal of a blood clot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "removed",
+        "descr_trans": "已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from (location, source)",
+        "descr_trans": "从（位置、来源）删除"
+      },
+      {
+        "n": "3",
+        "descr": "more specific source, if in addition to ARG2",
+        "descr_trans": "更具体的来源，如果除了 ARG2"
+      }
+    ],
+    "roleset_name_trans": "去除血凝块"
+  }
 ]

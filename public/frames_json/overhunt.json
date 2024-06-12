@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overhunt.01",
-        "roleset_name": "hunt a species or area to the point of damaging the herd",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hunter"
-            },
-            {
-                "n": "1",
-                "descr": "prey"
-            },
-            {
-                "n": "2",
-                "descr": "habitat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overhunt.01",
+    "roleset_name": "hunt a species or area to the point of damaging the herd",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hunter",
+        "descr_trans": "猎人"
+      },
+      {
+        "n": "1",
+        "descr": "prey",
+        "descr_trans": "猎物"
+      },
+      {
+        "n": "2",
+        "descr": "habitat",
+        "descr_trans": "栖息地"
+      }
+    ],
+    "roleset_name_trans": "狩猎一个物种或一个地区，直至破坏牛群"
+  }
 ]

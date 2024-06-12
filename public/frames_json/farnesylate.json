@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "farnesylate.01",
-        "roleset_name": " attach a farnesyl group to a protein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of farnesylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing farnesylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "result of farnesylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "farnesylate.01",
+    "roleset_name": " attach a farnesyl group to a protein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of farnesylation (e.g. scientist)",
+        "descr_trans": "法尼基化的有意代理（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing farnesylated",
+        "descr_trans": "法尼基化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "result of farnesylation",
+        "descr_trans": "法呢基化结果"
+      }
+    ],
+    "roleset_name_trans": "将法尼基连接到蛋白质上"
+  }
 ]

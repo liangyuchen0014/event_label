@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overhear.01",
-        "roleset_name": "hear by 'accident'",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hearer"
-            },
-            {
-                "n": "1",
-                "descr": "heard"
-            },
-            {
-                "n": "2",
-                "descr": "location of speech, or speaker(s)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overhear.01",
+    "roleset_name": "hear by 'accident'",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "1",
+        "descr": "heard",
+        "descr_trans": "听到"
+      },
+      {
+        "n": "2",
+        "descr": "location of speech, or speaker(s)",
+        "descr_trans": "演讲地点或说话者"
+      }
+    ],
+    "roleset_name_trans": "“意外”听到"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upstage.01",
-        "roleset_name": "distract attention from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity getting the attention"
-            },
-            {
-                "n": "1",
-                "descr": "entity not getting the attention"
-            },
-            {
-                "n": "2",
-                "descr": "distracting antics, if in addition to arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upstage.01",
+    "roleset_name": "distract attention from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity getting the attention",
+        "descr_trans": "受到关注的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity not getting the attention",
+        "descr_trans": "实体没有引起注意"
+      },
+      {
+        "n": "2",
+        "descr": "distracting antics, if in addition to arg0",
+        "descr_trans": "分散注意力的滑稽动作，如果除了 arg0 之外"
+      }
+    ],
+    "roleset_name_trans": "分散注意力"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demast.01",
-        "roleset_name": "remove mast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing demasted (such as ship)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demast.01",
+    "roleset_name": "remove mast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing demasted (such as ship)",
+        "descr_trans": "被拆除的物体（例如船）"
+      }
+    ],
+    "roleset_name_trans": "拆除桅杆"
+  }
 ]

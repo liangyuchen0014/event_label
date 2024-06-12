@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thumb.01",
-        "roleset_name": "look through idly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thumber"
-            },
-            {
-                "n": "1",
-                "descr": "thing looked through"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thumb.02",
-        "roleset_name": "make a rude gesture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker of gesture"
-            },
-            {
-                "n": "1",
-                "descr": "nose"
-            },
-            {
-                "n": "2",
-                "descr": "at whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thumb.01",
+    "roleset_name": "look through idly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thumber",
+        "descr_trans": "拇指"
+      },
+      {
+        "n": "1",
+        "descr": "thing looked through",
+        "descr_trans": "事情经过"
+      }
+    ],
+    "roleset_name_trans": "懒洋洋地看过去"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thumb.02",
+    "roleset_name": "make a rude gesture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker of gesture",
+        "descr_trans": "手势制造者"
+      },
+      {
+        "n": "1",
+        "descr": "nose",
+        "descr_trans": "鼻子"
+      },
+      {
+        "n": "2",
+        "descr": "at whom",
+        "descr_trans": "对谁"
+      }
+    ],
+    "roleset_name_trans": "做出粗鲁的手势"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foreign.01",
-        "roleset_name": "from outside the group, set",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "foreign entity"
-            },
-            {
-                "n": "2",
-                "descr": "foreign to what (group/set not part of)"
-            },
-            {
-                "n": "3",
-                "descr": "perceiver (if separate from arg2)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foreign.01",
+    "roleset_name": "from outside the group, set",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "foreign entity",
+        "descr_trans": "外国实体"
+      },
+      {
+        "n": "2",
+        "descr": "foreign to what (group/set not part of)",
+        "descr_trans": "与什么无关（组/组不属于）"
+      },
+      {
+        "n": "3",
+        "descr": "perceiver (if separate from arg2)",
+        "descr_trans": "感知者（如果与 arg2 分开）"
+      }
+    ],
+    "roleset_name_trans": "从组外，设置"
+  }
 ]

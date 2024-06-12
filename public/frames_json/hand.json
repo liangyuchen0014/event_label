@@ -1,290 +1,350 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hand.01",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hand_over.02",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hand_out.03",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "in_ones_hands.04",
-        "roleset_name": "be in possession of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "possessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing possessed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of hands of arg0"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "in_ones_hands.07",
-        "roleset_name": "have responsibility or control over a task or event",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bearer of responsibility, person with power"
-            },
-            {
-                "n": "1",
-                "descr": "task, power or entity controlled"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "change_hands.06",
-        "roleset_name": "transfer possession",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing changing hands"
-            },
-            {
-                "n": "2",
-                "descr": "giver"
-            },
-            {
-                "n": "3",
-                "descr": "getter"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "out_of_hands.08",
-        "roleset_name": "not in possession of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "possessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing not possessed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of hands of arg0"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "out_of_hands.09",
-        "roleset_name": "not in control of, not tasked with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "possessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing not possessed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of hands of arg0"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "out_of_hand.10",
-        "roleset_name": "uncontrolled, wild",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of wildness"
-            },
-            {
-                "n": "1",
-                "descr": "wild, out of hand thing"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "out_of_hand.11",
-        "roleset_name": "without thinking or consideration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the abrupt act"
-            },
-            {
-                "n": "1",
-                "descr": "thing done or rejected without thinking"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "blood_on_hands.12",
-        "roleset_name": "be culpable for the death or injuries of another",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "culpable entity, criminal"
-            },
-            {
-                "n": "2",
-                "descr": "those injured, source of blod"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "play_into_ones_hands.13",
-        "roleset_name": "unwittingly contribute to and fall for one's manipulations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity playing into arg1's hands"
-            },
-            {
-                "n": "1",
-                "descr": "manipulator"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "at_hand.14",
-        "roleset_name": "nearby, spatially or temporally; be imminent or immediately relevant ",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "near entity"
-            },
-            {
-                "n": "2",
-                "descr": "in relation to, near to what"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "on_hand.15",
-        "roleset_name": "available",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "available to whom/what? entity having access to arg2"
-            },
-            {
-                "n": "2",
-                "descr": "thing that is available"
-            },
-            {
-                "n": "3",
-                "descr": "purpose, use for arg2"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "give_hand.16",
-        "roleset_name": "aid, help",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helper"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, secondary agent  (when separate from arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "have_hand_in.17",
-        "roleset_name": "have a hand in; participate in, or have a causal role in, an activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity involved, agent"
-            },
-            {
-                "n": "1",
-                "descr": "activity"
-            },
-            {
-                "n": "2",
-                "descr": "participation event"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hand.01",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hand_over.02",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hand_out.03",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "in_ones_hands.04",
+    "roleset_name": "be in possession of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "possessor",
+        "descr_trans": "拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing possessed",
+        "descr_trans": "拥有的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of hands of arg0",
+        "descr_trans": "arg0 手的属性"
+      }
+    ],
+    "roleset_name_trans": "拥有"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "in_ones_hands.07",
+    "roleset_name": "have responsibility or control over a task or event",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bearer of responsibility, person with power",
+        "descr_trans": "有责任的人，有权力的人"
+      },
+      {
+        "n": "1",
+        "descr": "task, power or entity controlled",
+        "descr_trans": "任务、权力或实体控制"
+      }
+    ],
+    "roleset_name_trans": "对任务或事件负有责任或控制权"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "change_hands.06",
+    "roleset_name": "transfer possession",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing changing hands",
+        "descr_trans": "事物易手"
+      },
+      {
+        "n": "2",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "3",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      }
+    ],
+    "roleset_name_trans": "转让占有"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "out_of_hands.08",
+    "roleset_name": "not in possession of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "possessor",
+        "descr_trans": "拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not possessed",
+        "descr_trans": "不拥有的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of hands of arg0",
+        "descr_trans": "arg0 手的属性"
+      }
+    ],
+    "roleset_name_trans": "不拥有"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "out_of_hands.09",
+    "roleset_name": "not in control of, not tasked with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "possessor",
+        "descr_trans": "拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not possessed",
+        "descr_trans": "不拥有的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of hands of arg0",
+        "descr_trans": "arg0 手的属性"
+      }
+    ],
+    "roleset_name_trans": "不受控制，没有任务"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "out_of_hand.10",
+    "roleset_name": "uncontrolled, wild",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of wildness",
+        "descr_trans": "野性的原因"
+      },
+      {
+        "n": "1",
+        "descr": "wild, out of hand thing",
+        "descr_trans": "狂野的、失控的东西"
+      }
+    ],
+    "roleset_name_trans": "不受控制的、狂野的"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "out_of_hand.11",
+    "roleset_name": "without thinking or consideration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the abrupt act",
+        "descr_trans": "做出突然行为的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing done or rejected without thinking",
+        "descr_trans": "不假思索地完成或拒绝的事情"
+      }
+    ],
+    "roleset_name_trans": "不加思考或考虑"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "blood_on_hands.12",
+    "roleset_name": "be culpable for the death or injuries of another",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "culpable entity, criminal",
+        "descr_trans": "有罪实体, 犯罪分子"
+      },
+      {
+        "n": "2",
+        "descr": "those injured, source of blod",
+        "descr_trans": "那些受伤的人，血液的来源"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "对他人的死亡或受伤负有责任"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "play_into_ones_hands.13",
+    "roleset_name": "unwittingly contribute to and fall for one's manipulations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity playing into arg1's hands",
+        "descr_trans": "实体正中 arg1 的下怀"
+      },
+      {
+        "n": "1",
+        "descr": "manipulator",
+        "descr_trans": "机械手"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "不知不觉地促成并落入他人的操纵之中"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "at_hand.14",
+    "roleset_name": "nearby, spatially or temporally; be imminent or immediately relevant ",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "near entity",
+        "descr_trans": "近实体"
+      },
+      {
+        "n": "2",
+        "descr": "in relation to, near to what",
+        "descr_trans": "与什么有关，接近于什么"
+      }
+    ],
+    "roleset_name_trans": "附近、空间上或时间上；迫在眉睫或立即相关"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "on_hand.15",
+    "roleset_name": "available",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "available to whom/what? entity having access to arg2",
+        "descr_trans": "可供谁/什么使用？有权访问 arg2 的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing that is available",
+        "descr_trans": "可用的东西"
+      },
+      {
+        "n": "3",
+        "descr": "purpose, use for arg2",
+        "descr_trans": "目的，用于 arg2"
+      }
+    ],
+    "roleset_name_trans": "可用的"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "give_hand.16",
+    "roleset_name": "aid, help",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helper",
+        "descr_trans": "帮手"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, secondary agent  (when separate from arg1)",
+        "descr_trans": "有益的，次要代理（与 arg1 分开时）"
+      }
+    ],
+    "roleset_name_trans": "援助，帮助"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "have_hand_in.17",
+    "roleset_name": "have a hand in; participate in, or have a causal role in, an activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity involved, agent",
+        "descr_trans": "涉及实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "activity",
+        "descr_trans": "活动"
+      },
+      {
+        "n": "2",
+        "descr": "participation event",
+        "descr_trans": "参与活动"
+      }
+    ],
+    "roleset_name_trans": "参与其中；参与某项活动或在某项活动中起因果作用"
+  }
 ]

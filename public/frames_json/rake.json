@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rake.01",
-        "roleset_name": "move with a rake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of movement, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved (leaves)"
-            },
-            {
-                "n": "2",
-                "descr": "source (yard)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument: rake"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rake_in.02",
-        "roleset_name": "get abundantly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rake.01",
+    "roleset_name": "move with a rake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of movement, agent",
+        "descr_trans": "运动的起因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved (leaves)",
+        "descr_trans": "东西移动了（叶子）"
+      },
+      {
+        "n": "2",
+        "descr": "source (yard)",
+        "descr_trans": "来源（码）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument: rake",
+        "descr_trans": "工具：耙子"
+      }
+    ],
+    "roleset_name_trans": "用耙子移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rake_in.02",
+    "roleset_name": "get abundantly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      }
+    ],
+    "roleset_name_trans": "得到丰富"
+  }
 ]

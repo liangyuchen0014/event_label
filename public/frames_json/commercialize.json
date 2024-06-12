@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commercialize.01",
-        "roleset_name": "to make commercial",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing commercialized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commercialize.01",
+    "roleset_name": "to make commercial",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing commercialized",
+        "descr_trans": "商品化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "进行商业化"
+  }
 ]

@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tangle.01",
-        "roleset_name": "to mix or twist together, drag in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity tangled"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tangle.03",
-        "roleset_name": "tussle, fight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first (or all) tangler"
-            },
-            {
-                "n": "1",
-                "descr": "other tangler"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter of the fight"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tangle_up.02",
-        "roleset_name": "phrasal variant of tangle.01",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity tangled"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tangle.01",
+    "roleset_name": "to mix or twist together, drag in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity tangled",
+        "descr_trans": "实体纠缠"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "混合或扭曲在一起，拖入"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tangle.03",
+    "roleset_name": "tussle, fight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first (or all) tangler",
+        "descr_trans": "第一个（或全部）缠结者"
+      },
+      {
+        "n": "1",
+        "descr": "other tangler",
+        "descr_trans": "其他缠结者"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter of the fight",
+        "descr_trans": "战斗的主题"
+      }
+    ],
+    "roleset_name_trans": "争斗，打架"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tangle_up.02",
+    "roleset_name": "phrasal variant of tangle.01",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity tangled",
+        "descr_trans": "实体纠缠"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "tangle.01 的短语变体"
+  }
 ]

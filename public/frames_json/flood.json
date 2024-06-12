@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flood.01",
-        "roleset_name": "cover with a liquid, to fill with an excess, filling past capacity with liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "location flooded"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flood.01",
+    "roleset_name": "cover with a liquid, to fill with an excess, filling past capacity with liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "location flooded",
+        "descr_trans": "位置被淹没"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "用液体覆盖，填充多余的液体，用液体填充超过容量"
+  }
 ]

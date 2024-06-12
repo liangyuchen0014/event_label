@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "manage.01",
-        "roleset_name": "supervise, control",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manager"
-            },
-            {
-                "n": "1",
-                "descr": "thing managed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "manage.02",
-        "roleset_name": "scrape by, accomplish by extraordinary means",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manager"
-            },
-            {
-                "n": "1",
-                "descr": "deed accomplished"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "manageable.03",
-        "roleset_name": "able to be controlled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manager"
-            },
-            {
-                "n": "1",
-                "descr": "thing managed"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "manageable.04",
-        "roleset_name": "accomplishable, but only by barely scraping by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity just scraping by"
-            },
-            {
-                "n": "1",
-                "descr": "deed accomplished"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "manage.01",
+    "roleset_name": "supervise, control",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manager",
+        "descr_trans": "经理"
+      },
+      {
+        "n": "1",
+        "descr": "thing managed",
+        "descr_trans": "管理的事情"
+      }
+    ],
+    "roleset_name_trans": "监督、控制"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "manage.02",
+    "roleset_name": "scrape by, accomplish by extraordinary means",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manager",
+        "descr_trans": "经理"
+      },
+      {
+        "n": "1",
+        "descr": "deed accomplished",
+        "descr_trans": "事情完成了"
+      }
+    ],
+    "roleset_name_trans": "用非常手段勉强度日"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "manageable.03",
+    "roleset_name": "able to be controlled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manager",
+        "descr_trans": "经理"
+      },
+      {
+        "n": "1",
+        "descr": "thing managed",
+        "descr_trans": "管理的事情"
+      }
+    ],
+    "roleset_name_trans": "能够被控制"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "manageable.04",
+    "roleset_name": "accomplishable, but only by barely scraping by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity just scraping by",
+        "descr_trans": "实体只是勉强通过"
+      },
+      {
+        "n": "1",
+        "descr": "deed accomplished",
+        "descr_trans": "事情完成了"
+      }
+    ],
+    "roleset_name_trans": "可以实现，但只能勉强勉强维持"
+  }
 ]

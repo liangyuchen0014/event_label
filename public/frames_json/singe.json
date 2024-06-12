@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "singe.01",
-        "roleset_name": "make singed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causing singe"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting singed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "singe.01",
+    "roleset_name": "make singed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causing singe",
+        "descr_trans": "剂，引起烧焦"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting singed",
+        "descr_trans": "东西被烧焦"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使烧焦"
+  }
 ]

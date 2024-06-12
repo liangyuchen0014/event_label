@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "approach.01",
-        "roleset_name": "move towards, movement towards something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "approach.02",
-        "roleset_name": "treat, deal with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "treater, dealer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "approachable.03",
-        "roleset_name": "easy to approach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "approacher"
-            },
-            {
-                "n": "1",
-                "descr": "entity that is easy to approach"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "approach.01",
+    "roleset_name": "move towards, movement towards something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "向某事移动，向某事移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "approach.02",
+    "roleset_name": "treat, deal with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "treater, dealer, agent",
+        "descr_trans": "处理者、经销商、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing",
+        "descr_trans": "事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "对待，对付"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "approachable.03",
+    "roleset_name": "easy to approach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "approacher",
+        "descr_trans": "接近者"
+      },
+      {
+        "n": "1",
+        "descr": "entity that is easy to approach",
+        "descr_trans": "容易接近的实体"
+      }
+    ],
+    "roleset_name_trans": "容易接近"
+  }
 ]

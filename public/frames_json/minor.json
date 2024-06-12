@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "minor.01",
-        "roleset_name": "lesser",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "lesser entity"
-            },
-            {
-                "n": "2",
-                "descr": "greater entit"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "minor.02",
-        "roleset_name": "not of legal age",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "minor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "minor.01",
+    "roleset_name": "lesser",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "lesser entity",
+        "descr_trans": "较小的实体"
+      },
+      {
+        "n": "2",
+        "descr": "greater entit",
+        "descr_trans": "更大的实体"
+      }
+    ],
+    "roleset_name_trans": "较小的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "minor.02",
+    "roleset_name": "not of legal age",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "minor",
+        "descr_trans": "次要的"
+      }
+    ],
+    "roleset_name_trans": "未达到法定年龄"
+  }
 ]

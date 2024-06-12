@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "diffract.01",
-        "roleset_name": "cause diffraction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing diffracted"
-            },
-            {
-                "n": "2",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "diffract.01",
+    "roleset_name": "cause diffraction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing diffracted",
+        "descr_trans": "事物发生衍射"
+      },
+      {
+        "n": "2",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "引起衍射"
+  }
 ]

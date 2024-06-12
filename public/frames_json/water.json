@@ -1,58 +1,69 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "water.01",
-        "roleset_name": "to make wet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of water, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity watered"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "water.04",
-        "roleset_name": "produce tears",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity producing tears, usually eyes"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "water_down.02",
-        "roleset_name": "to reduce the strength or effectiveness of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of lesser strength"
-            },
-            {
-                "n": "1",
-                "descr": "entity watered down"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "watery.03",
-        "roleset_name": "permeated with water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity full of water"
-            },
-            {
-                "n": "1",
-                "descr": "watery entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "water.01",
+    "roleset_name": "to make wet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of water, agent",
+        "descr_trans": "水的提供者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity watered",
+        "descr_trans": "实体浇水"
+      }
+    ],
+    "roleset_name_trans": "弄湿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "water.04",
+    "roleset_name": "produce tears",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity producing tears, usually eyes",
+        "descr_trans": "产生眼泪的实体，通常是眼睛"
+      }
+    ],
+    "roleset_name_trans": "产生眼泪"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "water_down.02",
+    "roleset_name": "to reduce the strength or effectiveness of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of lesser strength",
+        "descr_trans": "力量减弱的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity watered down",
+        "descr_trans": "实体被淡化"
+      }
+    ],
+    "roleset_name_trans": "降低强度或有效性"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "watery.03",
+    "roleset_name": "permeated with water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity full of water",
+        "descr_trans": "充满水的实体"
+      },
+      {
+        "n": "1",
+        "descr": "watery entity",
+        "descr_trans": "水状实体"
+      }
+    ],
+    "roleset_name_trans": "被水浸透"
+  }
 ]

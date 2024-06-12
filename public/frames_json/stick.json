@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stick.01",
-        "roleset_name": "(cause to) adhere to, or put somewhere",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing sticking, adhering, being placed"
-            },
-            {
-                "n": "2",
-                "descr": "stuck-to, destination of placement"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stick_out.02",
-        "roleset_name": "stick out: extend, making vulnerable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing extended"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stick_around.03",
-        "roleset_name": "stick around: continue to be in a location, hang out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sticker around, hanger out"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "stick_up.04",
-        "roleset_name": "stick up: defend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "defender"
-            },
-            {
-                "n": "1",
-                "descr": "defended"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stick.01",
+    "roleset_name": "(cause to) adhere to, or put somewhere",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing sticking, adhering, being placed",
+        "descr_trans": "粘着、附着、放置的东西"
+      },
+      {
+        "n": "2",
+        "descr": "stuck-to, destination of placement",
+        "descr_trans": "固定，放置目的地"
+      }
+    ],
+    "roleset_name_trans": "（导致）坚持或放在某处"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stick_out.02",
+    "roleset_name": "stick out: extend, making vulnerable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing extended",
+        "descr_trans": "事情延长了"
+      }
+    ],
+    "roleset_name_trans": "突出：延伸，使脆弱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stick_around.03",
+    "roleset_name": "stick around: continue to be in a location, hang out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sticker around, hanger out",
+        "descr_trans": "周围贴上贴纸，挂起来"
+      }
+    ],
+    "roleset_name_trans": "留在附近：继续呆在一个地方，闲逛"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "stick_up.04",
+    "roleset_name": "stick up: defend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "defender",
+        "descr_trans": "后卫"
+      },
+      {
+        "n": "1",
+        "descr": "defended",
+        "descr_trans": "辩护"
+      }
+    ],
+    "roleset_name_trans": "坚持：捍卫"
+  }
 ]

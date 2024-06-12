@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "land.01",
-        "roleset_name": "bring to land, from water or air, or metaphorical extension: (cause to) end up in a location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer, captain, pilot, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing landing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "land.02",
-        "roleset_name": "get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter, lander"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten, landed"
-            },
-            {
-                "n": "2",
-                "descr": "giver?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "land.01",
+    "roleset_name": "bring to land, from water or air, or metaphorical extension: (cause to) end up in a location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer, captain, pilot, agent",
+        "descr_trans": "使者、船长、飞行员、特工"
+      },
+      {
+        "n": "1",
+        "descr": "thing landing",
+        "descr_trans": "东西着陆"
+      }
+    ],
+    "roleset_name_trans": "从水中或空中带到陆地，或隐喻延伸：（导致）最终到达某个地点"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "land.02",
+    "roleset_name": "get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter, lander",
+        "descr_trans": "吸气剂、着陆器"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten, landed",
+        "descr_trans": "东西得到了，落地了"
+      },
+      {
+        "n": "2",
+        "descr": "giver?",
+        "descr_trans": "给予者？"
+      }
+    ],
+    "roleset_name_trans": "得到"
+  }
 ]

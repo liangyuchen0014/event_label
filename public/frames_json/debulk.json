@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debulk.01",
-        "roleset_name": "remove as much of a malignant tumor as possible",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "tumor"
-            },
-            {
-                "n": "2",
-                "descr": "patient/benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debulk.01",
+    "roleset_name": "remove as much of a malignant tumor as possible",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "tumor",
+        "descr_trans": "瘤"
+      },
+      {
+        "n": "2",
+        "descr": "patient/benefactive",
+        "descr_trans": "患者/受益人"
+      }
+    ],
+    "roleset_name_trans": "尽可能多地切除恶性肿瘤"
+  }
 ]

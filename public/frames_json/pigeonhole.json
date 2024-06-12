@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pigeonhole.01",
-        "roleset_name": "to assign to a definite place in an orderly system",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person assigning another entity a definite role/place"
-            },
-            {
-                "n": "1",
-                "descr": "entity pigeonholed, assigned a role/place"
-            },
-            {
-                "n": "2",
-                "descr": "pigenholed as what? role or position assigned/describing arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pigeonhole.01",
+    "roleset_name": "to assign to a definite place in an orderly system",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person assigning another entity a definite role/place",
+        "descr_trans": "代理人，为另一个实体分配明确角色/位置的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity pigeonholed, assigned a role/place",
+        "descr_trans": "实体归类，分配角色/位置"
+      },
+      {
+        "n": "2",
+        "descr": "pigenholed as what? role or position assigned/describing arg 1",
+        "descr_trans": "鸽子洞是什么？分配/描述 arg 1 的角色或位置"
+      }
+    ],
+    "roleset_name_trans": "分配到有序系统中的确定位置"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "penalize.01",
-        "roleset_name": "to subject to a penalty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier of penalty, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity penalized"
-            },
-            {
-                "n": "2",
-                "descr": "thing penalized for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "penalize.01",
+    "roleset_name": "to subject to a penalty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier of penalty, agent",
+        "descr_trans": "处罚执行人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity penalized",
+        "descr_trans": "受到处罚的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing penalized for",
+        "descr_trans": "受到处罚的事情"
+      }
+    ],
+    "roleset_name_trans": "受到处罚"
+  }
 ]

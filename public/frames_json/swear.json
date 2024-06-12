@@ -1,119 +1,143 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swear.01",
-        "roleset_name": "make a promise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swearer"
-            },
-            {
-                "n": "1",
-                "descr": "promise"
-            },
-            {
-                "n": "2",
-                "descr": "on what (bible, life, etc)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swear.02",
-        "roleset_name": "use bad language",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swearer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "swear.04",
-        "roleset_name": "tell the truth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "true utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "swear.05",
-        "roleset_name": "attest to something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swearer"
-            },
-            {
-                "n": "1",
-                "descr": "thing sworn by"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "swear.07",
-        "roleset_name": "swear into office",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, legal authority"
-            },
-            {
-                "n": "1",
-                "descr": "person sworn in"
-            },
-            {
-                "n": "2",
-                "descr": "position, office"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "swear_off.03",
-        "roleset_name": "promise to not (do)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swearer"
-            },
-            {
-                "n": "1",
-                "descr": "thing you're not going to do"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "swear_in.06",
-        "roleset_name": "make/accept an oath of office or court",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, legal authority"
-            },
-            {
-                "n": "1",
-                "descr": "person sworn in"
-            },
-            {
-                "n": "2",
-                "descr": "position, office"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swear.01",
+    "roleset_name": "make a promise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swearer",
+        "descr_trans": "发誓者"
+      },
+      {
+        "n": "1",
+        "descr": "promise",
+        "descr_trans": "承诺"
+      },
+      {
+        "n": "2",
+        "descr": "on what (bible, life, etc)",
+        "descr_trans": "关于什么（圣经、生活等）"
+      }
+    ],
+    "roleset_name_trans": "做出承诺"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swear.02",
+    "roleset_name": "use bad language",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swearer",
+        "descr_trans": "发誓者"
+      }
+    ],
+    "roleset_name_trans": "使用脏话"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "swear.04",
+    "roleset_name": "tell the truth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "true utterance",
+        "descr_trans": "真实的话语"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说实话"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "swear.05",
+    "roleset_name": "attest to something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swearer",
+        "descr_trans": "发誓者"
+      },
+      {
+        "n": "1",
+        "descr": "thing sworn by",
+        "descr_trans": "宣誓的事情"
+      }
+    ],
+    "roleset_name_trans": "证明某事"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "swear.07",
+    "roleset_name": "swear into office",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, legal authority",
+        "descr_trans": "法官、法律权威"
+      },
+      {
+        "n": "1",
+        "descr": "person sworn in",
+        "descr_trans": "宣誓就职的人"
+      },
+      {
+        "n": "2",
+        "descr": "position, office",
+        "descr_trans": "职位、办公室"
+      }
+    ],
+    "roleset_name_trans": "宣誓就职"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "swear_off.03",
+    "roleset_name": "promise to not (do)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swearer",
+        "descr_trans": "发誓者"
+      },
+      {
+        "n": "1",
+        "descr": "thing you're not going to do",
+        "descr_trans": "你不会做的事"
+      }
+    ],
+    "roleset_name_trans": "承诺不（做）"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "swear_in.06",
+    "roleset_name": "make/accept an oath of office or court",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, legal authority",
+        "descr_trans": "法官、法律权威"
+      },
+      {
+        "n": "1",
+        "descr": "person sworn in",
+        "descr_trans": "宣誓就职的人"
+      },
+      {
+        "n": "2",
+        "descr": "position, office",
+        "descr_trans": "职位、办公室"
+      }
+    ],
+    "roleset_name_trans": "作出/接受就职或法庭宣誓"
+  }
 ]

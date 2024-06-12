@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dock.01",
-        "roleset_name": "(cause to) park (a ship) in a dock",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, docker"
-            },
-            {
-                "n": "1",
-                "descr": "thing docked, ship"
-            },
-            {
-                "n": "2",
-                "descr": "Destination (the dock)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dock.01",
+    "roleset_name": "(cause to) park (a ship) in a dock",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, docker",
+        "descr_trans": "代理、码头工人"
+      },
+      {
+        "n": "1",
+        "descr": "thing docked, ship",
+        "descr_trans": "东西停靠，船"
+      },
+      {
+        "n": "2",
+        "descr": "Destination (the dock)",
+        "descr_trans": "目的地（码头）"
+      }
+    ],
+    "roleset_name_trans": "（导致）将（船）停泊在码头"
+  }
 ]

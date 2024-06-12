@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "legalize.01",
-        "roleset_name": "make legal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legislative body, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing now legal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "legal.02",
-        "roleset_name": "allowed by law, not illegal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "legal thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "legalize.01",
+    "roleset_name": "make legal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legislative body, agent",
+        "descr_trans": "立法机构、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing now legal",
+        "descr_trans": "现在事情合法了"
+      }
+    ],
+    "roleset_name_trans": "使合法化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "legal.02",
+    "roleset_name": "allowed by law, not illegal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "legal thing",
+        "descr_trans": "合法的事情"
+      }
+    ],
+    "roleset_name_trans": "法律允许，不违法"
+  }
 ]

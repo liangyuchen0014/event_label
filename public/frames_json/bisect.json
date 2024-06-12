@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bisect.01",
-        "roleset_name": "divide into two",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of division"
-            },
-            {
-                "n": "1",
-                "descr": "thing divided"
-            },
-            {
-                "n": "2",
-                "descr": "divider,instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bisect.01",
+    "roleset_name": "divide into two",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of division",
+        "descr_trans": "代理人、分裂原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing divided",
+        "descr_trans": "东西分开"
+      },
+      {
+        "n": "2",
+        "descr": "divider,instrument",
+        "descr_trans": "分频器、仪器"
+      }
+    ],
+    "roleset_name_trans": "分成两部分"
+  }
 ]

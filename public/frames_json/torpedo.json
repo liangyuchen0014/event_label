@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "torpedo.01",
-        "roleset_name": "to destroy decisively, wreck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer, firer of torpedo, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity torpedoed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "torpedo.01",
+    "roleset_name": "to destroy decisively, wreck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer, firer of torpedo, agent",
+        "descr_trans": "驱逐舰、鱼雷发射器、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity torpedoed",
+        "descr_trans": "实体鱼雷"
+      }
+    ],
+    "roleset_name_trans": "果断地摧毁，破坏"
+  }
 ]

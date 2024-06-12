@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overawe.01",
-        "roleset_name": "subdue through awe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of awe"
-            },
-            {
-                "n": "1",
-                "descr": "overawed entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overawe.01",
+    "roleset_name": "subdue through awe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of awe",
+        "descr_trans": "令人敬畏的人"
+      },
+      {
+        "n": "1",
+        "descr": "overawed entity",
+        "descr_trans": "令人敬畏的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "通过敬畏来征服"
+  }
 ]

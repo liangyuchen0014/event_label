@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scalp.01",
-        "roleset_name": "scalp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scalper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "scalped from what/whom, source"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed/scalped, theme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scalp.02",
-        "roleset_name": "sell illegally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "thing sold"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scalp.01",
+    "roleset_name": "scalp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scalper, agent",
+        "descr_trans": "黄牛、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "scalped from what/whom, source",
+        "descr_trans": "从什么/谁那里剥头皮，来源"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed/scalped, theme",
+        "descr_trans": "东西被移除/被剥皮，主题"
+      }
+    ],
+    "roleset_name_trans": "头皮"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scalp.02",
+    "roleset_name": "sell illegally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "thing sold",
+        "descr_trans": "东西卖了"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "非法出售"
+  }
 ]

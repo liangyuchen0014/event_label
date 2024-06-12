@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backbite.01",
-        "roleset_name": "to attack the character or reputation of   someone who is not present",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity attacked"
-            },
-            {
-                "n": "2",
-                "descr": "attacked about"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backbite.01",
+    "roleset_name": "to attack the character or reputation of   someone who is not present",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker, agent",
+        "descr_trans": "攻击者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity attacked",
+        "descr_trans": "实体受到攻击"
+      },
+      {
+        "n": "2",
+        "descr": "attacked about",
+        "descr_trans": "攻击关于"
+      }
+    ],
+    "roleset_name_trans": "攻击不在场的人的品格或名誉"
+  }
 ]

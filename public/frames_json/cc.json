@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cc.01",
-        "roleset_name": "carbon copy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier; email author"
-            },
-            {
-                "n": "1",
-                "descr": "thing copied or sent multiple places"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cc.01",
+    "roleset_name": "carbon copy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier; email author",
+        "descr_trans": "复印机；给作者发电子邮件"
+      },
+      {
+        "n": "1",
+        "descr": "thing copied or sent multiple places",
+        "descr_trans": "东西被复制或发送到多个地方"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "复写本"
+  }
 ]

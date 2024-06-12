@@ -1,86 +1,104 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "send.01",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "send.02",
-        "roleset_name": "cause to action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent, impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "project, impelled action, attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "send.03",
-        "roleset_name": "cause motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, attribute of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "send_out.04",
-        "roleset_name": "summon, order for delivery",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "orderer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing ordered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "send.01",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "send.02",
+    "roleset_name": "cause to action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent, impelled agent",
+        "descr_trans": "发送、推动代理人"
+      },
+      {
+        "n": "2",
+        "descr": "project, impelled action, attribute of arg1",
+        "descr_trans": "项目、推动动作、arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "行动的原因"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "send.03",
+    "roleset_name": "cause motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, attribute of arg1",
+        "descr_trans": "终点，arg1 的属性"
+      },
+      {
+        "n": "5",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "引起运动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "send_out.04",
+    "roleset_name": "summon, order for delivery",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "orderer, agent",
+        "descr_trans": "订购者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing ordered",
+        "descr_trans": "主题、订购的东西"
+      }
+    ],
+    "roleset_name_trans": "传唤，命令交付"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dispirit.01",
-        "roleset_name": "bring down (mood)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of depression"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting depressed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if causer also present"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dispirit.01",
+    "roleset_name": "bring down (mood)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of depression",
+        "descr_trans": "抑郁症的诱因"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting depressed",
+        "descr_trans": "实体变得沮丧"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if causer also present",
+        "descr_trans": "仪器，如果原因也存在"
+      }
+    ],
+    "roleset_name_trans": "降低（情绪）"
+  }
 ]

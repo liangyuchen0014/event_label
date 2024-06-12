@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conclude.01",
-        "roleset_name": "come to/point to a decision based on evidence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider"
-            },
-            {
-                "n": "1",
-                "descr": "decision made"
-            },
-            {
-                "n": "2",
-                "descr": "question answered"
-            },
-            {
-                "n": "3",
-                "descr": "evidence"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conclude.02",
-        "roleset_name": "bring to an end",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing ending"
-            },
-            {
-                "n": "2",
-                "descr": "Explicit instrument, thing ended with"
-            },
-            {
-                "n": "m",
-                "descr": "point at which something ends"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conclude.01",
+    "roleset_name": "come to/point to a decision based on evidence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider",
+        "descr_trans": "决定者"
+      },
+      {
+        "n": "1",
+        "descr": "decision made",
+        "descr_trans": "作出决定"
+      },
+      {
+        "n": "2",
+        "descr": "question answered",
+        "descr_trans": "问题得到解答"
+      },
+      {
+        "n": "3",
+        "descr": "evidence",
+        "descr_trans": "证据"
+      }
+    ],
+    "roleset_name_trans": "根据证据作出/指出决定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conclude.02",
+    "roleset_name": "bring to an end",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing ending",
+        "descr_trans": "事情的结局"
+      },
+      {
+        "n": "2",
+        "descr": "Explicit instrument, thing ended with",
+        "descr_trans": "显式工具，事情结束于"
+      },
+      {
+        "n": "m",
+        "descr": "point at which something ends",
+        "descr_trans": "某事结束的点"
+      }
+    ],
+    "roleset_name_trans": "结束"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "occasion.01",
-        "roleset_name": "bring about an event",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer about"
-            },
-            {
-                "n": "1",
-                "descr": "event"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "occasion.02",
-        "roleset_name": "occurrance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing occurring"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "occasion.01",
+    "roleset_name": "bring about an event",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer about",
+        "descr_trans": "带来"
+      },
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      }
+    ],
+    "roleset_name_trans": "引起事件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "occasion.02",
+    "roleset_name": "occurrance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing occurring",
+        "descr_trans": "发生的事情"
+      }
+    ],
+    "roleset_name_trans": "发生"
+  }
 ]

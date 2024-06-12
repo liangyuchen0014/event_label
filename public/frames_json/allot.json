@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "allot.01",
-        "roleset_name": "give to, allow to have",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing alloted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, allotted-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "allot.01",
+    "roleset_name": "give to, allow to have",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing alloted",
+        "descr_trans": "分配的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, allotted-to",
+        "descr_trans": "有益的，分配的"
+      }
+    ],
+    "roleset_name_trans": "给予，允许拥有"
+  }
 ]

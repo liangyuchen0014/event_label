@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plonk.01",
-        "roleset_name": "plonk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of plonking ((active voice) transitive subject only)"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting plonking noise, theme"
-            },
-            {
-                "n": "2",
-                "descr": "location of plonking"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plonk.01",
+    "roleset_name": "plonk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of plonking ((active voice) transitive subject only)",
+        "descr_trans": "代理人，造成重击的人（仅限（主动语态）及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting plonking noise, theme",
+        "descr_trans": "发出隆隆声的东西，主题"
+      },
+      {
+        "n": "2",
+        "descr": "location of plonking",
+        "descr_trans": "撞击的位置"
+      }
+    ],
+    "roleset_name_trans": "砰砰"
+  }
 ]

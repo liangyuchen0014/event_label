@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "patent.01",
-        "roleset_name": "to obtain a patent for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder of patent"
-            },
-            {
-                "n": "1",
-                "descr": "invention"
-            },
-            {
-                "n": "2",
-                "descr": "inventor, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "patent.02",
-        "roleset_name": "be free or clear of, open",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that is free of debris"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "patent.01",
+    "roleset_name": "to obtain a patent for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder of patent",
+        "descr_trans": "专利持有人"
+      },
+      {
+        "n": "1",
+        "descr": "invention",
+        "descr_trans": "发明"
+      },
+      {
+        "n": "2",
+        "descr": "inventor, if separate from arg0",
+        "descr_trans": "发明人，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "获得专利"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "patent.02",
+    "roleset_name": "be free or clear of, open",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that is free of debris",
+        "descr_trans": "没有碎片的实体"
+      }
+    ],
+    "roleset_name_trans": "自由或清除，开放"
+  }
 ]

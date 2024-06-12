@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unwelcomed.01",
-        "roleset_name": "not welcome",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "welcomer"
-            },
-            {
-                "n": "1",
-                "descr": "entity not welcomed"
-            },
-            {
-                "n": "2",
-                "descr": "not welcomed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unwelcomed.01",
+    "roleset_name": "not welcome",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "welcomer",
+        "descr_trans": "欢迎者"
+      },
+      {
+        "n": "1",
+        "descr": "entity not welcomed",
+        "descr_trans": "不欢迎实体"
+      },
+      {
+        "n": "2",
+        "descr": "not welcomed to",
+        "descr_trans": "不欢迎来到"
+      }
+    ],
+    "roleset_name_trans": "不欢迎"
+  }
 ]

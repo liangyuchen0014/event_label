@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tenure.01",
-        "roleset_name": "give lifetime employment to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent giving the tenure"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving tenure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tenure.01",
+    "roleset_name": "give lifetime employment to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent giving the tenure",
+        "descr_trans": "给予任期的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving tenure",
+        "descr_trans": "获得终身教职的实体"
+      }
+    ],
+    "roleset_name_trans": "给予终身雇佣"
+  }
 ]

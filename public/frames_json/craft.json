@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "craft.01",
-        "roleset_name": "to make by hand and with much skill, capable as a craftsman",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "crafts(wo)man, agent"
-            },
-            {
-                "n": "1",
-                "descr": "theme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crafty.02",
-        "roleset_name": "devious, conniving",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "devious entity/act"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "craft.01",
+    "roleset_name": "to make by hand and with much skill, capable as a craftsman",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "crafts(wo)man, agent",
+        "descr_trans": "工艺（女）人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "theme",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "手工制作，技术精湛，有工匠精神"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crafty.02",
+    "roleset_name": "devious, conniving",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "devious entity/act",
+        "descr_trans": "狡猾的实体/行为"
+      }
+    ],
+    "roleset_name_trans": "狡猾的，纵容的"
+  }
 ]

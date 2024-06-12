@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disquiet.01",
-        "roleset_name": "upset, cause anxiety in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of disquiet"
-            },
-            {
-                "n": "1",
-                "descr": "disquieted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disquiet.01",
+    "roleset_name": "upset, cause anxiety in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of disquiet",
+        "descr_trans": "引起不安的"
+      },
+      {
+        "n": "1",
+        "descr": "disquieted",
+        "descr_trans": "不安的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "心烦意乱，引起焦虑"
+  }
 ]

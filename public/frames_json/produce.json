@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "produce.01",
-        "roleset_name": "create, accomplishing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "produce.02",
-        "roleset_name": "bring to light, show",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shower"
-            },
-            {
-                "n": "1",
-                "descr": "thing shown"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "productive.03",
-        "roleset_name": "producing much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "producer"
-            },
-            {
-                "n": "1",
-                "descr": "product"
-            },
-            {
-                "n": "2",
-                "descr": "created from, material"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "produce.01",
+    "roleset_name": "create, accomplishing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "创造、完成"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "produce.02",
+    "roleset_name": "bring to light, show",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shower",
+        "descr_trans": "淋浴"
+      },
+      {
+        "n": "1",
+        "descr": "thing shown",
+        "descr_trans": "显示的东西"
+      }
+    ],
+    "roleset_name_trans": "揭露, 展示"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "productive.03",
+    "roleset_name": "producing much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "producer",
+        "descr_trans": "制片人"
+      },
+      {
+        "n": "1",
+        "descr": "product",
+        "descr_trans": "产品"
+      },
+      {
+        "n": "2",
+        "descr": "created from, material",
+        "descr_trans": "由材料创建"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "生产很多"
+  }
 ]

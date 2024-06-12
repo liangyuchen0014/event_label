@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "browbeat.01",
-        "roleset_name": "to intimidate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, Stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "entity intimidated"
-            },
-            {
-                "n": "2",
-                "descr": "intimidated into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "browbeat.01",
+    "roleset_name": "to intimidate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, Stimulus",
+        "descr_trans": "代理、刺激"
+      },
+      {
+        "n": "1",
+        "descr": "entity intimidated",
+        "descr_trans": "实体受到恐吓"
+      },
+      {
+        "n": "2",
+        "descr": "intimidated into",
+        "descr_trans": "恐吓成"
+      }
+    ],
+    "roleset_name_trans": "恐吓"
+  }
 ]

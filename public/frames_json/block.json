@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "block.01",
-        "roleset_name": "oppose, halt, stop, block up, stopping up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being stopped)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication, arg1 stopped from what, where relevant"
-            },
-            {
-                "n": "3",
-                "descr": "Instrument, blcked with what? stuff acting as block"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "block_up.02",
-        "roleset_name": "oppose, halt, stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being stopped)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            },
-            {
-                "n": "3",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "block.01",
+    "roleset_name": "oppose, halt, stop, block up, stopping up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker, Agent",
+        "descr_trans": "拦截者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being stopped)",
+        "descr_trans": "主题（停止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication, arg1 stopped from what, where relevant",
+        "descr_trans": "次要预测，arg1 从相关的地方停止"
+      },
+      {
+        "n": "3",
+        "descr": "Instrument, blcked with what? stuff acting as block",
+        "descr_trans": "仪器，用什么堵住了？充当块的东西"
+      }
+    ],
+    "roleset_name_trans": "反对、停止、阻止、阻止、阻止"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "block_up.02",
+    "roleset_name": "oppose, halt, stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker, Agent",
+        "descr_trans": "拦截者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being stopped)",
+        "descr_trans": "主题（停止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      },
+      {
+        "n": "3",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "反对、停止、停止"
+  }
 ]

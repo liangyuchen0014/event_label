@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bash.01",
-        "roleset_name": "to hit, with words or a bat (etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "critizer, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "entity criticized/hit"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bash_up.02",
-        "roleset_name": "to hit, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "critizer, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "entity criticized/hit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bash.01",
+    "roleset_name": "to hit, with words or a bat (etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "critizer, hitter",
+        "descr_trans": "批评者、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "entity criticized/hit",
+        "descr_trans": "实体批评/打击"
+      }
+    ],
+    "roleset_name_trans": "用言语或球棒等击打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bash_up.02",
+    "roleset_name": "to hit, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "critizer, hitter",
+        "descr_trans": "批评者、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "entity criticized/hit",
+        "descr_trans": "实体批评/打击"
+      }
+    ],
+    "roleset_name_trans": "击中，完成"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "putrefy.01",
-        "roleset_name": "make putrid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of rotting"
-            },
-            {
-                "n": "1",
-                "descr": "thing rotting"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "putrefy.01",
+    "roleset_name": "make putrid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of rotting",
+        "descr_trans": "代理，腐烂的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing rotting",
+        "descr_trans": "东西腐烂"
+      }
+    ],
+    "roleset_name_trans": "使腐烂"
+  }
 ]

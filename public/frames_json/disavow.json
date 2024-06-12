@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disavow.01",
-        "roleset_name": "disclaim knowledge of,   responsibility for, or association with; repudiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disavower"
-            },
-            {
-                "n": "1",
-                "descr": "thing disavowed"
-            },
-            {
-                "n": "2",
-                "descr": "listener to statement of disavowal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disavow.01",
+    "roleset_name": "disclaim knowledge of,   responsibility for, or association with; repudiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disavower",
+        "descr_trans": "否认"
+      },
+      {
+        "n": "1",
+        "descr": "thing disavowed",
+        "descr_trans": "事情被否认"
+      },
+      {
+        "n": "2",
+        "descr": "listener to statement of disavowal",
+        "descr_trans": "否认声明的倾听者"
+      }
+    ],
+    "roleset_name_trans": "否认对以下内容的了解、责任或关联；否认"
+  }
 ]

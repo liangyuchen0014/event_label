@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unteach.01",
-        "roleset_name": "make forget learning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unteacher"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "(former) student"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unteach.01",
+    "roleset_name": "make forget learning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unteacher",
+        "descr_trans": "非教师"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "(former) student",
+        "descr_trans": "（前）学生"
+      }
+    ],
+    "roleset_name_trans": "让忘记学习"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "center.01",
-        "roleset_name": "focus on; cause the centerpoint of one entity to align with the centerpoint of another entity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing centered"
-            },
-            {
-                "n": "2",
-                "descr": "centered on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "center.02",
-        "roleset_name": "politically/socially moderate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "politically/socially centrist entity"
-            },
-            {
-                "n": "2",
-                "descr": "domain or topic of centrism"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "center.01",
+    "roleset_name": "focus on; cause the centerpoint of one entity to align with the centerpoint of another entity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing centered",
+        "descr_trans": "以事物为中心"
+      },
+      {
+        "n": "2",
+        "descr": "centered on",
+        "descr_trans": "以"
+      }
+    ],
+    "roleset_name_trans": "专注于;使一个实体的中心点与另一实体的中心点对齐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "center.02",
+    "roleset_name": "politically/socially moderate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "politically/socially centrist entity",
+        "descr_trans": "政治/社会中间派实体"
+      },
+      {
+        "n": "2",
+        "descr": "domain or topic of centrism",
+        "descr_trans": "中心主义的领域或主题"
+      }
+    ],
+    "roleset_name_trans": "政治/社会温和"
+  }
 ]

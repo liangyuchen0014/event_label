@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrust.01",
-        "roleset_name": "to push quickly and forcibly, a forcful forward push",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity pushed"
-            },
-            {
-                "n": "2",
-                "descr": "direction, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrust.01",
+    "roleset_name": "to push quickly and forcibly, a forcful forward push",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity pushed",
+        "descr_trans": "实体推送"
+      },
+      {
+        "n": "2",
+        "descr": "direction, destination",
+        "descr_trans": "方向、目的地"
+      }
+    ],
+    "roleset_name_trans": "快速而有力地推动，有力地向前推动"
+  }
 ]

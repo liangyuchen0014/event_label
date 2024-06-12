@@ -1,602 +1,726 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "take.01",
-        "roleset_name": "take, acquire, come to have, choose, bring with you from somewhere, internalize, ingest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Taker"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken"
-            },
-            {
-                "n": "2",
-                "descr": "taken FROM, SOURCE of thing taken"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "take.02",
-        "roleset_name": "tolerate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tolerator"
-            },
-            {
-                "n": "1",
-                "descr": "thing tolerated"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "take.03",
-        "roleset_name": "cause (to be)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "impeller to action"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent, topic"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action, attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "take.04",
-        "roleset_name": "understand to be",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "take.10",
-        "roleset_name": "need, requiring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "requirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing required"
-            },
-            {
-                "n": "2",
-                "descr": "required-of, required-from ('ablative')"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "take.16",
-        "roleset_name": "take by surprise, taking by surprise (or some other manner)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of surprise"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of surprise"
-            },
-            {
-                "n": "2",
-                "descr": "surprise"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "take.17",
-        "roleset_name": "become fond of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity becoming fond of something"
-            },
-            {
-                "n": "1",
-                "descr": "thing fond of"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "take.25",
-        "roleset_name": "swindle/rob someone of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Swindler"
-            },
-            {
-                "n": "1",
-                "descr": "poor schmuck getting swindled"
-            },
-            {
-                "n": "2",
-                "descr": "money/item being taken"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "take.LV",
-        "roleset_name": "light verb",
-        "roles": []
-    },
-    {
-        "uid": 10,
-        "roleset_id": "take.32",
-        "roleset_name": "take after; heredity, similarity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "similar entity"
-            },
-            {
-                "n": "2",
-                "descr": "entity taken after"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "take.34",
-        "roleset_name": "opinion, perspective, position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having an opinion/take"
-            },
-            {
-                "n": "1",
-                "descr": "opinion, perspective"
-            },
-            {
-                "n": "2",
-                "descr": "attributive, subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "take.35",
-        "roleset_name": "choose a public location/throughway as a place to congregate or enact a course of action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity gathering in public"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken"
-            },
-            {
-                "n": "2",
-                "descr": "destination, often 'streets'"
-            },
-            {
-                "n": "3",
-                "descr": "secondary action/instigating factor/purpose"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "take_away.05",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "take_in.06",
-        "roleset_name": "give shelter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving shelter"
-            },
-            {
-                "n": "1",
-                "descr": "entity taking shelter"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "take_in.23",
-        "roleset_name": "absorb sensorily, possibly with pleasure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking something in"
-            },
-            {
-                "n": "1",
-                "descr": "entity enjoyed, viewed, taken in"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "take_off.07",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing being removed"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "take_off.08",
-        "roleset_name": "increase dramatically",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is taking off"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "take_off.18",
-        "roleset_name": "take time off, like for vacation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking a vacation"
-            },
-            {
-                "n": "1",
-                "descr": "'time'"
-            },
-            {
-                "n": "2",
-                "descr": "work, job, etc"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "take_off.19",
-        "roleset_name": "process of becoming airborne, as a plane",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "airplane"
-            },
-            {
-                "n": "2",
-                "descr": "airport"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "take_off.33",
-        "roleset_name": "get going, hit the road",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "start point"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "take_on.09",
-        "roleset_name": "acquire, hiring, undertaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing being acquired"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "take_on.21",
-        "roleset_name": "battle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hero"
-            },
-            {
-                "n": "1",
-                "descr": "adversary"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "take_out.11",
-        "roleset_name": "obtain, draw (out)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity drawing something forth"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken out"
-            }
-        ]
-    },
-    {
-        "uid": 24,
-        "roleset_id": "take_out.26",
-        "roleset_name": "direct negative emotion towards someone (unfairly)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "angry person"
-            },
-            {
-                "n": "1",
-                "descr": "usually \"it\", thing causing anger"
-            },
-            {
-                "n": "2",
-                "descr": "person anger is projected on"
-            }
-        ]
-    },
-    {
-        "uid": 25,
-        "roleset_id": "take_out.27",
-        "roleset_name": "kill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer, person taking out someone or something"
-            },
-            {
-                "n": "1",
-                "descr": "person being attacked"
-            }
-        ]
-    },
-    {
-        "uid": 26,
-        "roleset_id": "take_out.28",
-        "roleset_name": "vacation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking time off"
-            },
-            {
-                "n": "1",
-                "descr": "time taken"
-            },
-            {
-                "n": "2",
-                "descr": "work, job, etc (taking a vacation from)"
-            }
-        ]
-    },
-    {
-        "uid": 27,
-        "roleset_id": "take_over.12",
-        "roleset_name": "become dominant, in charge; assume leadership",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity becoming dominant"
-            },
-            {
-                "n": "1",
-                "descr": "entity being taken over"
-            },
-            {
-                "n": "2",
-                "descr": "the old boss"
-            }
-        ]
-    },
-    {
-        "uid": 28,
-        "roleset_id": "take_up.13",
-        "roleset_name": "occupy space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking up space"
-            },
-            {
-                "n": "1",
-                "descr": "space occupied"
-            },
-            {
-                "n": "2",
-                "descr": "specific thing arg0 is using to take up space (if separate)"
-            }
-        ]
-    },
-    {
-        "uid": 29,
-        "roleset_id": "take_up.30",
-        "roleset_name": "raise an issue/grievance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking"
-            },
-            {
-                "n": "1",
-                "descr": "thing being occupied"
-            },
-            {
-                "n": "2",
-                "descr": "collaborator, interlocutor"
-            }
-        ]
-    },
-    {
-        "uid": 30,
-        "roleset_id": "take_up.31",
-        "roleset_name": "start a habitual activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking up a new activity"
-            },
-            {
-                "n": "1",
-                "descr": "the new activity"
-            }
-        ]
-    },
-    {
-        "uid": 31,
-        "roleset_id": "take_up.38",
-        "roleset_name": "begin an action/state/position, non-habitual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            }
-        ]
-    },
-    {
-        "uid": 32,
-        "roleset_id": "take_aback.20",
-        "roleset_name": "surprise, offensively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surprising entity"
-            },
-            {
-                "n": "1",
-                "descr": "surprised entity"
-            }
-        ]
-    },
-    {
-        "uid": 33,
-        "roleset_id": "take_down.22",
-        "roleset_name": "deconstruct, destroy, bring an end to, defeat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken down"
-            }
-        ]
-    },
-    {
-        "uid": 34,
-        "roleset_id": "taking.29",
-        "roleset_name": "nominal version of light verb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker, subject of ligh verbish noun"
-            },
-            {
-                "n": "1",
-                "descr": "true noun predicate"
-            }
-        ]
-    },
-    {
-        "uid": 35,
-        "roleset_id": "take_with_grain_of_salt.36",
-        "roleset_name": "doubt, attribute very little weight to a claim",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disbeliever"
-            },
-            {
-                "n": "1",
-                "descr": "disbelief, thing to be taken with grain of salt"
-            },
-            {
-                "n": "2",
-                "descr": "extent; size of the grain of salt"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "take.01",
+    "roleset_name": "take, acquire, come to have, choose, bring with you from somewhere, internalize, ingest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Taker",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken",
+        "descr_trans": "拿走的东西"
+      },
+      {
+        "n": "2",
+        "descr": "taken FROM, SOURCE of thing taken",
+        "descr_trans": "取自，所取事物的来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "采取、获得、拥有、选择、从某处带来、内化、吸收"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "take.02",
+    "roleset_name": "tolerate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tolerator",
+        "descr_trans": "容忍者"
+      },
+      {
+        "n": "1",
+        "descr": "thing tolerated",
+        "descr_trans": "容忍的事情"
+      }
+    ],
+    "roleset_name_trans": "容忍"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "take.03",
+    "roleset_name": "cause (to be)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "impeller to action",
+        "descr_trans": "叶轮动作"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent, topic",
+        "descr_trans": "推动主体、主题"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action, attribute of arg1",
+        "descr_trans": "强制动作，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "导致（成为）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "take.04",
+    "roleset_name": "understand to be",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "thing",
+        "descr_trans": "事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "理解为"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "take.10",
+    "roleset_name": "need, requiring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "requirer",
+        "descr_trans": "要求者"
+      },
+      {
+        "n": "1",
+        "descr": "thing required",
+        "descr_trans": "需要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "required-of, required-from ('ablative')",
+        "descr_trans": "要求的、要求的（&#39;消融&#39;）"
+      }
+    ],
+    "roleset_name_trans": "需要，要求"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "take.16",
+    "roleset_name": "take by surprise, taking by surprise (or some other manner)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of surprise",
+        "descr_trans": "惊讶的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of surprise",
+        "descr_trans": "惊喜的体验者"
+      },
+      {
+        "n": "2",
+        "descr": "surprise",
+        "descr_trans": "惊喜"
+      }
+    ],
+    "roleset_name_trans": "出其不意，出其不意（或以其他方式）"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "take.17",
+    "roleset_name": "become fond of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity becoming fond of something",
+        "descr_trans": "实体变得喜欢某事"
+      },
+      {
+        "n": "1",
+        "descr": "thing fond of",
+        "descr_trans": "喜欢的东西"
+      }
+    ],
+    "roleset_name_trans": "变得喜欢"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "take.25",
+    "roleset_name": "swindle/rob someone of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Swindler",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "poor schmuck getting swindled",
+        "descr_trans": "可怜的笨蛋被骗了"
+      },
+      {
+        "n": "2",
+        "descr": "money/item being taken",
+        "descr_trans": "金钱/物品被拿走"
+      }
+    ],
+    "roleset_name_trans": "诈骗/抢夺某人某物"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "take.LV",
+    "roleset_name": "light verb",
+    "roles": [],
+    "roleset_name_trans": "轻动词"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "take.32",
+    "roleset_name": "take after; heredity, similarity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "similar entity",
+        "descr_trans": "类似实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity taken after",
+        "descr_trans": "之后采取的实体"
+      }
+    ],
+    "roleset_name_trans": "采取之后；遗传、相似性"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "take.34",
+    "roleset_name": "opinion, perspective, position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having an opinion/take",
+        "descr_trans": "有意见/采取的实体"
+      },
+      {
+        "n": "1",
+        "descr": "opinion, perspective",
+        "descr_trans": "意见、观点"
+      },
+      {
+        "n": "2",
+        "descr": "attributive, subject matter",
+        "descr_trans": "定语、主题"
+      }
+    ],
+    "roleset_name_trans": "意见、观点、立场"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "take.35",
+    "roleset_name": "choose a public location/throughway as a place to congregate or enact a course of action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity gathering in public",
+        "descr_trans": "实体公共场所聚集"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken",
+        "descr_trans": "拿走的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination, often 'streets'",
+        "descr_trans": "目的地，通常是“街道”"
+      },
+      {
+        "n": "3",
+        "descr": "secondary action/instigating factor/purpose",
+        "descr_trans": "次要行动/引发因素/目的"
+      }
+    ],
+    "roleset_name_trans": "选择公共场所/通道作为聚集或采取行动的场所"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "take_away.05",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "take_in.06",
+    "roleset_name": "give shelter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving shelter",
+        "descr_trans": "提供庇护的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity taking shelter",
+        "descr_trans": "实体庇护"
+      }
+    ],
+    "roleset_name_trans": "给予庇护"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "take_in.23",
+    "roleset_name": "absorb sensorily, possibly with pleasure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking something in",
+        "descr_trans": "实体接受某物"
+      },
+      {
+        "n": "1",
+        "descr": "entity enjoyed, viewed, taken in",
+        "descr_trans": "实体享受、观看、接受"
+      }
+    ],
+    "roleset_name_trans": "感官地吸收，可能是愉快的"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "take_off.07",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing something",
+        "descr_trans": "实体移除某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing being removed",
+        "descr_trans": "被移除的东西"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "take_off.08",
+    "roleset_name": "increase dramatically",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is taking off",
+        "descr_trans": "arg1 正在起飞的具体方面"
+      }
+    ],
+    "roleset_name_trans": "急剧增加"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "take_off.18",
+    "roleset_name": "take time off, like for vacation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking a vacation",
+        "descr_trans": "实体休假"
+      },
+      {
+        "n": "1",
+        "descr": "'time'",
+        "descr_trans": "&#39;时间&#39;"
+      },
+      {
+        "n": "2",
+        "descr": "work, job, etc",
+        "descr_trans": "工作、工作等"
+      }
+    ],
+    "roleset_name_trans": "抽出时间休息，比如度假"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "take_off.19",
+    "roleset_name": "process of becoming airborne, as a plane",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "airplane",
+        "descr_trans": "飞机"
+      },
+      {
+        "n": "2",
+        "descr": "airport",
+        "descr_trans": "飞机场"
+      }
+    ],
+    "roleset_name_trans": "像飞机一样升空的过程"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "take_off.33",
+    "roleset_name": "get going, hit the road",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "出发，上路"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "take_on.09",
+    "roleset_name": "acquire, hiring, undertaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acquiring something",
+        "descr_trans": "实体获得某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing being acquired",
+        "descr_trans": "被收购的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "获取、雇用、承担"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "take_on.21",
+    "roleset_name": "battle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hero",
+        "descr_trans": "英雄"
+      },
+      {
+        "n": "1",
+        "descr": "adversary",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "战斗"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "take_out.11",
+    "roleset_name": "obtain, draw (out)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity drawing something forth",
+        "descr_trans": "实体提出某种东西"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken out",
+        "descr_trans": "取出来的东西"
+      }
+    ],
+    "roleset_name_trans": "获得，抽出（出）"
+  },
+  {
+    "uid": 24,
+    "roleset_id": "take_out.26",
+    "roleset_name": "direct negative emotion towards someone (unfairly)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "angry person",
+        "descr_trans": "愤怒的人"
+      },
+      {
+        "n": "1",
+        "descr": "usually \"it\", thing causing anger",
+        "descr_trans": "通常是“it”，引起愤怒的事物"
+      },
+      {
+        "n": "2",
+        "descr": "person anger is projected on",
+        "descr_trans": "人的愤怒被投射到"
+      }
+    ],
+    "roleset_name_trans": "对某人直接产生负面情绪（不公平）"
+  },
+  {
+    "uid": 25,
+    "roleset_id": "take_out.27",
+    "roleset_name": "kill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer, person taking out someone or something",
+        "descr_trans": "杀手，杀死某人或某物的人"
+      },
+      {
+        "n": "1",
+        "descr": "person being attacked",
+        "descr_trans": "被攻击的人"
+      }
+    ],
+    "roleset_name_trans": "杀"
+  },
+  {
+    "uid": 26,
+    "roleset_id": "take_out.28",
+    "roleset_name": "vacation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking time off",
+        "descr_trans": "实体请假"
+      },
+      {
+        "n": "1",
+        "descr": "time taken",
+        "descr_trans": "所用的时间"
+      },
+      {
+        "n": "2",
+        "descr": "work, job, etc (taking a vacation from)",
+        "descr_trans": "工作、工作等（休假）"
+      }
+    ],
+    "roleset_name_trans": "假期"
+  },
+  {
+    "uid": 27,
+    "roleset_id": "take_over.12",
+    "roleset_name": "become dominant, in charge; assume leadership",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity becoming dominant",
+        "descr_trans": "实体成为主导"
+      },
+      {
+        "n": "1",
+        "descr": "entity being taken over",
+        "descr_trans": "实体被接管"
+      },
+      {
+        "n": "2",
+        "descr": "the old boss",
+        "descr_trans": "老老板"
+      }
+    ],
+    "roleset_name_trans": "成为主导、负责；挂帅"
+  },
+  {
+    "uid": 28,
+    "roleset_id": "take_up.13",
+    "roleset_name": "occupy space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking up space",
+        "descr_trans": "实体占据空间"
+      },
+      {
+        "n": "1",
+        "descr": "space occupied",
+        "descr_trans": "占用空间"
+      },
+      {
+        "n": "2",
+        "descr": "specific thing arg0 is using to take up space (if separate)",
+        "descr_trans": "arg0 用于占用空间的特定事物（如果是单独的）"
+      }
+    ],
+    "roleset_name_trans": "占据空间"
+  },
+  {
+    "uid": 29,
+    "roleset_id": "take_up.30",
+    "roleset_name": "raise an issue/grievance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking",
+        "descr_trans": "实体获取"
+      },
+      {
+        "n": "1",
+        "descr": "thing being occupied",
+        "descr_trans": "被占用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "collaborator, interlocutor",
+        "descr_trans": "合作者，对话者"
+      }
+    ],
+    "roleset_name_trans": "提出问题/申诉"
+  },
+  {
+    "uid": 30,
+    "roleset_id": "take_up.31",
+    "roleset_name": "start a habitual activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking up a new activity",
+        "descr_trans": "从事新活动的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the new activity",
+        "descr_trans": "新活动"
+      }
+    ],
+    "roleset_name_trans": "开始一项习惯性活动"
+  },
+  {
+    "uid": 31,
+    "roleset_id": "take_up.38",
+    "roleset_name": "begin an action/state/position, non-habitual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      }
+    ],
+    "roleset_name_trans": "开始一个动作/状态/位置，非习惯性的"
+  },
+  {
+    "uid": 32,
+    "roleset_id": "take_aback.20",
+    "roleset_name": "surprise, offensively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surprising entity",
+        "descr_trans": "令人惊讶的实体"
+      },
+      {
+        "n": "1",
+        "descr": "surprised entity",
+        "descr_trans": "惊讶的实体"
+      }
+    ],
+    "roleset_name_trans": "令人惊讶的，进攻性的"
+  },
+  {
+    "uid": 33,
+    "roleset_id": "take_down.22",
+    "roleset_name": "deconstruct, destroy, bring an end to, defeat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken down",
+        "descr_trans": "东西被拿下来"
+      }
+    ],
+    "roleset_name_trans": "解构，摧毁，结束，失败"
+  },
+  {
+    "uid": 34,
+    "roleset_id": "taking.29",
+    "roleset_name": "nominal version of light verb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker, subject of ligh verbish noun",
+        "descr_trans": "taker，轻动词名词的主语"
+      },
+      {
+        "n": "1",
+        "descr": "true noun predicate",
+        "descr_trans": "真名词谓语"
+      }
+    ],
+    "roleset_name_trans": "轻动词的名义版本"
+  },
+  {
+    "uid": 35,
+    "roleset_id": "take_with_grain_of_salt.36",
+    "roleset_name": "doubt, attribute very little weight to a claim",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disbeliever",
+        "descr_trans": "不信者"
+      },
+      {
+        "n": "1",
+        "descr": "disbelief, thing to be taken with grain of salt",
+        "descr_trans": "难以置信，持保留态度的事情"
+      },
+      {
+        "n": "2",
+        "descr": "extent; size of the grain of salt",
+        "descr_trans": "程度;盐粒的大小"
+      }
+    ],
+    "roleset_name_trans": "怀疑，对某个主张给予很少的重视"
+  }
 ]

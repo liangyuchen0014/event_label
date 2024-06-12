@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cte.01",
-        "roleset_name": "imaging scan of the intestines using computed tomography",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "entity scanned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cte.01",
+    "roleset_name": "imaging scan of the intestines using computed tomography",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "entity scanned",
+        "descr_trans": "实体扫描"
+      }
+    ],
+    "roleset_name_trans": "使用计算机断层扫描对肠道进行成像扫描"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cudgel.01",
-        "roleset_name": "strike",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "resulting state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cudgel.01",
+    "roleset_name": "strike",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "resulting state",
+        "descr_trans": "结果状态"
+      }
+    ],
+    "roleset_name_trans": "罢工"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "team.01",
-        "roleset_name": "(cause to) be on a team",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some grouping"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group, associated-with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "team_up.02",
-        "roleset_name": "(cause to) be on a team",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some groupin"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all if in one mention) thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group, associated-with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "team.01",
+    "roleset_name": "(cause to) be on a team",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some grouping",
+        "descr_trans": "代理，导致某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being included in some group",
+        "descr_trans": "主题，包含在某个组中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "group, associated-with",
+        "descr_trans": "组，相关联"
+      }
+    ],
+    "roleset_name_trans": "（导致）成为一个团队的一员"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "team_up.02",
+    "roleset_name": "(cause to) be on a team",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some groupin",
+        "descr_trans": "代理，引起某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all if in one mention) thing being included in some group",
+        "descr_trans": "第一个（或所有，如果在一次提及中）事物被包含在某个组中"
+      },
+      {
+        "n": "2",
+        "descr": "group, associated-with",
+        "descr_trans": "组，相关联"
+      }
+    ],
+    "roleset_name_trans": "（导致）成为一个团队的一员"
+  }
 ]

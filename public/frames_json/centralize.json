@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "centralize.01",
-        "roleset_name": "collect into one location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "collector"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) collected"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "centralize.01",
+    "roleset_name": "collect into one location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "collector",
+        "descr_trans": "集电极"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) collected",
+        "descr_trans": "收集的东西"
+      }
+    ],
+    "roleset_name_trans": "收集到一个位置"
+  }
 ]

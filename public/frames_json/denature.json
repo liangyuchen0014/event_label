@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "denature.01",
-        "roleset_name": "modify the molecular structure (of a protein or other biological macromolecule)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of denaturation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing denatured"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            },
-            {
-                "n": "4",
-                "descr": "instrument, denaturant"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "denature.01",
+    "roleset_name": "modify the molecular structure (of a protein or other biological macromolecule)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of denaturation (e.g. scientist)",
+        "descr_trans": "故意变性剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing denatured",
+        "descr_trans": "变性的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "4",
+        "descr": "instrument, denaturant",
+        "descr_trans": "他们扭曲了乐器"
+      }
+    ],
+    "roleset_name_trans": "修改（蛋白质或其他生物大分子的）分子结构"
+  }
 ]

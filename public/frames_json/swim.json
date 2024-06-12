@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swim.01",
-        "roleset_name": "move through water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swimmer"
-            },
-            {
-                "n": "1",
-                "descr": "course (e.g. channel)"
-            },
-            {
-                "n": "2",
-                "descr": "to where? destination, end state"
-            },
-            {
-                "n": "3",
-                "descr": "from where? source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swim.02",
-        "roleset_name": "feel dizzy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "head"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swim.01",
+    "roleset_name": "move through water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swimmer",
+        "descr_trans": "游泳者"
+      },
+      {
+        "n": "1",
+        "descr": "course (e.g. channel)",
+        "descr_trans": "课程（例如频道）"
+      },
+      {
+        "n": "2",
+        "descr": "to where? destination, end state",
+        "descr_trans": "去哪里？目的地、最终状态"
+      },
+      {
+        "n": "3",
+        "descr": "from where? source",
+        "descr_trans": "从哪里？来源"
+      }
+    ],
+    "roleset_name_trans": "在水中移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swim.02",
+    "roleset_name": "feel dizzy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "head",
+        "descr_trans": "头"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "眼晕"
+  }
 ]

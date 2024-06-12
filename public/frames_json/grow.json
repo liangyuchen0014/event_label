@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grow.01",
-        "roleset_name": "increase,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "[causer of growth - should be possible]"
-            },
-            {
-                "n": "1",
-                "descr": "thing grown"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "grow.02",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming"
-            },
-            {
-                "n": "2",
-                "descr": "thing become = end state of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "source, start point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "grow.03",
-        "roleset_name": "agriculture, cultivating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grower"
-            },
-            {
-                "n": "1",
-                "descr": "crop"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "grow_up.04",
-        "roleset_name": "go from child to adult",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person aging"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "grown.05",
-        "roleset_name": "having reached adulthood",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person aged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grow.01",
+    "roleset_name": "increase,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "[causer of growth - should be possible]",
+        "descr_trans": "[增长的原因-应该是可能的]"
+      },
+      {
+        "n": "1",
+        "descr": "thing grown",
+        "descr_trans": "东西长大了"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "增加，"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "grow.02",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming",
+        "descr_trans": "事物变成"
+      },
+      {
+        "n": "2",
+        "descr": "thing become = end state of arg1",
+        "descr_trans": "事情变成 = arg1 的最终状态"
+      },
+      {
+        "n": "3",
+        "descr": "source, start point",
+        "descr_trans": "来源，起点"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "grow.03",
+    "roleset_name": "agriculture, cultivating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grower",
+        "descr_trans": "种植者"
+      },
+      {
+        "n": "1",
+        "descr": "crop",
+        "descr_trans": "庄稼"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "农业、耕种"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "grow_up.04",
+    "roleset_name": "go from child to adult",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person aging",
+        "descr_trans": "人变老"
+      }
+    ],
+    "roleset_name_trans": "从小孩到成人"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "grown.05",
+    "roleset_name": "having reached adulthood",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person aged",
+        "descr_trans": "老年人"
+      }
+    ],
+    "roleset_name_trans": "已经成年"
+  }
 ]

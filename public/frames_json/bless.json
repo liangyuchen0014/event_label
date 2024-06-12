@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bless.01",
-        "roleset_name": "bless, act of saying prayer, bestowing happiness/wellbeing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving blessing"
-            },
-            {
-                "n": "1",
-                "descr": "entity being blessed"
-            },
-            {
-                "n": "2",
-                "descr": "blessed with (gift)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bless.01",
+    "roleset_name": "bless, act of saying prayer, bestowing happiness/wellbeing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving blessing",
+        "descr_trans": "给予祝福的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being blessed",
+        "descr_trans": "被祝福的实体"
+      },
+      {
+        "n": "2",
+        "descr": "blessed with (gift)",
+        "descr_trans": "受到（礼物）的祝福"
+      }
+    ],
+    "roleset_name_trans": "祝福，祈祷的行为，给予幸福/福祉"
+  }
 ]

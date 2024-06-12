@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dredge.01",
-        "roleset_name": "dig up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, dredger"
-            },
-            {
-                "n": "1",
-                "descr": "location dredged"
-            },
-            {
-                "n": "2",
-                "descr": "entity dredged up"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dredge_up.02",
-        "roleset_name": "dig up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, dredger"
-            },
-            {
-                "n": "1",
-                "descr": "Location dredged, dug"
-            },
-            {
-                "n": "2",
-                "descr": "Entity dredged up from ground (arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dredge.01",
+    "roleset_name": "dig up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, dredger",
+        "descr_trans": "代理、挖泥船"
+      },
+      {
+        "n": "1",
+        "descr": "location dredged",
+        "descr_trans": "位置疏浚"
+      },
+      {
+        "n": "2",
+        "descr": "entity dredged up",
+        "descr_trans": "实体被挖出"
+      }
+    ],
+    "roleset_name_trans": "挖出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dredge_up.02",
+    "roleset_name": "dig up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, dredger",
+        "descr_trans": "代理、挖泥船"
+      },
+      {
+        "n": "1",
+        "descr": "Location dredged, dug",
+        "descr_trans": "位置已疏浚、挖掘"
+      },
+      {
+        "n": "2",
+        "descr": "Entity dredged up from ground (arg1)",
+        "descr_trans": "从地面挖出的实体 (arg1)"
+      }
+    ],
+    "roleset_name_trans": "挖出"
+  }
 ]

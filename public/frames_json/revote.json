@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revote.01",
-        "roleset_name": "cast ballot again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voter"
-            },
-            {
-                "n": "1",
-                "descr": "candidate or ballot issue"
-            },
-            {
-                "n": "2",
-                "descr": "numerical count of vote, margin"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revote.01",
+    "roleset_name": "cast ballot again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voter",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "candidate or ballot issue",
+        "descr_trans": "候选人或选票问题"
+      },
+      {
+        "n": "2",
+        "descr": "numerical count of vote, margin",
+        "descr_trans": "票数、差额"
+      }
+    ],
+    "roleset_name_trans": "再次投票"
+  }
 ]

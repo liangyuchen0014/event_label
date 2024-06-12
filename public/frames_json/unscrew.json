@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unscrew.01",
-        "roleset_name": "unscrew",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unscrewing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unscrewed, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unscrewed from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unscrew.01",
+    "roleset_name": "unscrew",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unscrewing, agent",
+        "descr_trans": "实体拧开，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unscrewed, patient",
+        "descr_trans": "东西拧开，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unscrewed from, source",
+        "descr_trans": "从源头上拧下"
+      }
+    ],
+    "roleset_name_trans": "拧开"
+  }
 ]

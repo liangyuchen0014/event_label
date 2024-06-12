@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flash.01",
-        "roleset_name": "shine, show quickly, shine or show quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shower, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing shining"
-            },
-            {
-                "n": "2",
-                "descr": "location, such as screen"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flash.02",
-        "roleset_name": "move quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "flash_back.03",
-        "roleset_name": "return in time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity returning"
-            },
-            {
-                "n": "2",
-                "descr": "returning to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flash.01",
+    "roleset_name": "shine, show quickly, shine or show quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shower, agent",
+        "descr_trans": "淋浴, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing shining",
+        "descr_trans": "闪亮的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location, such as screen",
+        "descr_trans": "位置，例如屏幕"
+      }
+    ],
+    "roleset_name_trans": "发光，快速显示，发光或快速显示"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flash.02",
+    "roleset_name": "move quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion, agent",
+        "descr_trans": "动因、动因"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      }
+    ],
+    "roleset_name_trans": "动作快点"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "flash_back.03",
+    "roleset_name": "return in time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity returning",
+        "descr_trans": "实体返回"
+      },
+      {
+        "n": "2",
+        "descr": "returning to",
+        "descr_trans": "回到"
+      }
+    ],
+    "roleset_name_trans": "及时返回"
+  }
 ]

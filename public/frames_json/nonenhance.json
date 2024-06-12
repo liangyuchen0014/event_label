@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonenhance.01",
-        "roleset_name": "not be darkened by contrast dye, not enhancing, growing greater",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of enhancement, contrast, dye"
-            },
-            {
-                "n": "1",
-                "descr": "entity enhanced"
-            },
-            {
-                "n": "2",
-                "descr": "instrument to show no enhancement (ie PET or CT scan)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonenhance.01",
+    "roleset_name": "not be darkened by contrast dye, not enhancing, growing greater",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of enhancement, contrast, dye",
+        "descr_trans": "增强、对比度、染料的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity enhanced",
+        "descr_trans": "实体增强"
+      },
+      {
+        "n": "2",
+        "descr": "instrument to show no enhancement (ie PET or CT scan)",
+        "descr_trans": "仪器显示无增强（即 PET 或 CT 扫描）"
+      }
+    ],
+    "roleset_name_trans": "不会被对比染料变暗，不会增强，不会变得更大"
+  }
 ]

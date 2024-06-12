@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reallocate.01",
-        "roleset_name": "give to, donate (again)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter"
-            },
-            {
-                "n": "1",
-                "descr": "thing granted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, granted-to"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reallocate.01",
+    "roleset_name": "give to, donate (again)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter",
+        "descr_trans": "授予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing granted",
+        "descr_trans": "授予的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, granted-to",
+        "descr_trans": "有益的，被授予的"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "（再次）给予，捐赠"
+  }
 ]

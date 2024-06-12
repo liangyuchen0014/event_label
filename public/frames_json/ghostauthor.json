@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ghostauthor.01",
-        "roleset_name": "write anonymously for another credited author",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ghost writer"
-            },
-            {
-                "n": "1",
-                "descr": "written work"
-            },
-            {
-                "n": "2",
-                "descr": "supposed author (the person whose name is on arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ghostauthor.01",
+    "roleset_name": "write anonymously for another credited author",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ghost writer",
+        "descr_trans": "代笔作家"
+      },
+      {
+        "n": "1",
+        "descr": "written work",
+        "descr_trans": "书面作业"
+      },
+      {
+        "n": "2",
+        "descr": "supposed author (the person whose name is on arg1)",
+        "descr_trans": "假设的作者（名字在 arg1 上的人）"
+      }
+    ],
+    "roleset_name_trans": "为另一位知名作者匿名写作"
+  }
 ]

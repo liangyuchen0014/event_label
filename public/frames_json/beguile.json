@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beguile.01",
-        "roleset_name": "to amuse or charm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of amusement"
-            },
-            {
-                "n": "1",
-                "descr": "amused entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beguile.02",
-        "roleset_name": "deprive, cheat someone out of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity depriving"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken by trickery"
-            },
-            {
-                "n": "2",
-                "descr": "taken from who?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "beguile.03",
-        "roleset_name": "deceive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liar"
-            },
-            {
-                "n": "1",
-                "descr": "deceived"
-            },
-            {
-                "n": "2",
-                "descr": "subject, deceived about"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beguile.01",
+    "roleset_name": "to amuse or charm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of amusement",
+        "descr_trans": "引起娱乐的人"
+      },
+      {
+        "n": "1",
+        "descr": "amused entity",
+        "descr_trans": "有趣的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "取悦或迷惑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beguile.02",
+    "roleset_name": "deprive, cheat someone out of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity depriving",
+        "descr_trans": "实体剥夺"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken by trickery",
+        "descr_trans": "被诡计夺走的东西"
+      },
+      {
+        "n": "2",
+        "descr": "taken from who?",
+        "descr_trans": "从谁那里拿走的？"
+      }
+    ],
+    "roleset_name_trans": "剥夺、欺骗某人某物"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "beguile.03",
+    "roleset_name": "deceive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liar",
+        "descr_trans": "说谎者"
+      },
+      {
+        "n": "1",
+        "descr": "deceived",
+        "descr_trans": "受骗"
+      },
+      {
+        "n": "2",
+        "descr": "subject, deceived about",
+        "descr_trans": "主题，被欺骗"
+      }
+    ],
+    "roleset_name_trans": "欺骗"
+  }
 ]

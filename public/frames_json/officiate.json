@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "officiate.01",
-        "roleset_name": "to function as an officer of a duty, such as a priest or referee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "official performing a duty"
-            },
-            {
-                "n": "1",
-                "descr": "duty, ceremony officiated by arg 0"
-            },
-            {
-                "n": "2",
-                "descr": "role, secondary predication of arg0, officiated as what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "officiate.01",
+    "roleset_name": "to function as an officer of a duty, such as a priest or referee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "official performing a duty",
+        "descr_trans": "执行职务的官员"
+      },
+      {
+        "n": "1",
+        "descr": "duty, ceremony officiated by arg 0",
+        "descr_trans": "职责，由 arg 0 主持的仪式"
+      },
+      {
+        "n": "2",
+        "descr": "role, secondary predication of arg0, officiated as what?",
+        "descr_trans": "作用，arg0的辅助谓词，主持什么？"
+      }
+    ],
+    "roleset_name_trans": "担任职务官员，例如牧师或裁判员"
+  }
 ]

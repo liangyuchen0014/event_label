@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "radiate.01",
-        "roleset_name": "emit or project",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity emitting"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "radiate.02",
-        "roleset_name": "hit with radiation; irradiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit with radiation"
-            },
-            {
-                "n": "2",
-                "descr": "the radiation"
-            },
-            {
-                "n": "3",
-                "descr": "more specific destination, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "radiate.01",
+    "roleset_name": "emit or project",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity emitting",
+        "descr_trans": "实体发射"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitted",
+        "descr_trans": "发出的东西"
+      }
+    ],
+    "roleset_name_trans": "发出或投射"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "radiate.02",
+    "roleset_name": "hit with radiation; irradiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit with radiation",
+        "descr_trans": "实体受到辐射"
+      },
+      {
+        "n": "2",
+        "descr": "the radiation",
+        "descr_trans": "辐射"
+      },
+      {
+        "n": "3",
+        "descr": "more specific destination, if in addition to arg1",
+        "descr_trans": "更具体的目的地，如果除了 arg1"
+      }
+    ],
+    "roleset_name_trans": "受到辐射打击；照射"
+  }
 ]

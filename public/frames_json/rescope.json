@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rescope.01",
-        "roleset_name": "re-examine using some kind of scoping tool",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            },
-            {
-                "n": "2",
-                "descr": "thing examined for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rescope.01",
+    "roleset_name": "re-examine using some kind of scoping tool",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "thing examined for",
+        "descr_trans": "检查的东西"
+      }
+    ],
+    "roleset_name_trans": "使用某种范围界定工具重新检查"
+  }
 ]

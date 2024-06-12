@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cure.01",
-        "roleset_name": "treat an illness completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor (etc)"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness or injury"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, treatment"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cure.02",
-        "roleset_name": "preserve (as in meat or hide)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "curable.03",
-        "roleset_name": "able to be cured",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor (etc)"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness or injury"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, treatment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cure.01",
+    "roleset_name": "treat an illness completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor (etc)",
+        "descr_trans": "医生（等）"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness or injury",
+        "descr_trans": "生病或受伤"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, treatment",
+        "descr_trans": "仪器、治疗"
+      }
+    ],
+    "roleset_name_trans": "彻底治疗疾病"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cure.02",
+    "roleset_name": "preserve (as in meat or hide)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "保存（如肉或兽皮）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "curable.03",
+    "roleset_name": "able to be cured",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor (etc)",
+        "descr_trans": "医生（等）"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness or injury",
+        "descr_trans": "生病或受伤"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, treatment",
+        "descr_trans": "仪器、治疗"
+      }
+    ],
+    "roleset_name_trans": "能够被治愈"
+  }
 ]

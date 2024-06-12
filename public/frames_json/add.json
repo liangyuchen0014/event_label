@@ -1,101 +1,122 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "add.01",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "add.02",
-        "roleset_name": "mathematics, mixing, add something to something else, increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adder"
-            },
-            {
-                "n": "1",
-                "descr": "thing being added"
-            },
-            {
-                "n": "2",
-                "descr": "thing being added to"
-            },
-            {
-                "n": "3",
-                "descr": "resulting sum"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "add.03",
-        "roleset_name": "achieve or gain",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising/gaining/being added to"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "add_up.04",
-        "roleset_name": "result in",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "things added"
-            },
-            {
-                "n": "2",
-                "descr": "result"
-            },
-            {
-                "n": "0",
-                "descr": "agent adding items up"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "add_on.05",
-        "roleset_name": "add to existing mass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent adding on"
-            },
-            {
-                "n": "1",
-                "descr": "Thing added"
-            },
-            {
-                "n": "2",
-                "descr": "Added to what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "add.01",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "add.02",
+    "roleset_name": "mathematics, mixing, add something to something else, increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adder",
+        "descr_trans": "加法器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being added",
+        "descr_trans": "正在添加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing being added to",
+        "descr_trans": "正在添加的东西"
+      },
+      {
+        "n": "3",
+        "descr": "resulting sum",
+        "descr_trans": "结果总和"
+      }
+    ],
+    "roleset_name_trans": "数学，混合，将某些东西添加到其他东西中，增加"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "add.03",
+    "roleset_name": "achieve or gain",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising/gaining/being added to",
+        "descr_trans": "逻辑主题、病人、事物上升/获得/被添加"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "达到或获得"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "add_up.04",
+    "roleset_name": "result in",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "things added",
+        "descr_trans": "添加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "result",
+        "descr_trans": "结果"
+      },
+      {
+        "n": "0",
+        "descr": "agent adding items up",
+        "descr_trans": "代理添加项目"
+      }
+    ],
+    "roleset_name_trans": "导致"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "add_on.05",
+    "roleset_name": "add to existing mass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent adding on",
+        "descr_trans": "代理添加中"
+      },
+      {
+        "n": "1",
+        "descr": "Thing added",
+        "descr_trans": "添加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Added to what?",
+        "descr_trans": "添加到什么？"
+      }
+    ],
+    "roleset_name_trans": "添加到现有质量"
+  }
 ]

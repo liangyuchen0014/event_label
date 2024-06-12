@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nickname.01",
-        "roleset_name": "assign a nickname",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer"
-            },
-            {
-                "n": "1",
-                "descr": "named"
-            },
-            {
-                "n": "2",
-                "descr": "name"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nickname.01",
+    "roleset_name": "assign a nickname",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer",
+        "descr_trans": "意图"
+      },
+      {
+        "n": "1",
+        "descr": "named",
+        "descr_trans": "命名的"
+      },
+      {
+        "n": "2",
+        "descr": "name",
+        "descr_trans": "姓名"
+      }
+    ],
+    "roleset_name_trans": "指定昵称"
+  }
 ]

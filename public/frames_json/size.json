@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "size.01",
-        "roleset_name": "(cause to) have some size",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing whose size is important"
-            },
-            {
-                "n": "2",
-                "descr": "size itself, attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "size_up.02",
-        "roleset_name": "evaluate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "evaluator"
-            },
-            {
-                "n": "1",
-                "descr": "evaluated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "size.01",
+    "roleset_name": "(cause to) have some size",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sizer",
+        "descr_trans": "代理、尺寸确定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing whose size is important",
+        "descr_trans": "尺寸很重要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "size itself, attribute of arg1",
+        "descr_trans": "size 本身，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "（导致）有一定的规模"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "size_up.02",
+    "roleset_name": "evaluate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "evaluator",
+        "descr_trans": "评估者"
+      },
+      {
+        "n": "1",
+        "descr": "evaluated",
+        "descr_trans": "评价的"
+      }
+    ],
+    "roleset_name_trans": "评价"
+  }
 ]

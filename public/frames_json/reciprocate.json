@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reciprocate.01",
-        "roleset_name": "respond in kind, building a relationship of mutual dependency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity responding"
-            },
-            {
-                "n": "1",
-                "descr": "reciprocated to, mutually exchanged act"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reciprocate.02",
-        "roleset_name": "move back and forth alternately",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving back and forth"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reciprocate.01",
+    "roleset_name": "respond in kind, building a relationship of mutual dependency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity responding",
+        "descr_trans": "实体响应"
+      },
+      {
+        "n": "1",
+        "descr": "reciprocated to, mutually exchanged act",
+        "descr_trans": "相互交换的行为"
+      }
+    ],
+    "roleset_name_trans": "以实物回应，建立相互依赖的关系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reciprocate.02",
+    "roleset_name": "move back and forth alternately",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving back and forth",
+        "descr_trans": "来回移动的东西"
+      }
+    ],
+    "roleset_name_trans": "交替来回移动"
+  }
 ]

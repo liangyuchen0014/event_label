@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cull.01",
-        "roleset_name": "gather, collect, pluck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "collector"
-            },
-            {
-                "n": "1",
-                "descr": "collected"
-            },
-            {
-                "n": "2",
-                "descr": "group or source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cull.01",
+    "roleset_name": "gather, collect, pluck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "collector",
+        "descr_trans": "集电极"
+      },
+      {
+        "n": "1",
+        "descr": "collected",
+        "descr_trans": "集"
+      },
+      {
+        "n": "2",
+        "descr": "group or source",
+        "descr_trans": "组或来源"
+      }
+    ],
+    "roleset_name_trans": "收集、收集、采摘"
+  }
 ]

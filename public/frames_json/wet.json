@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wet.01",
-        "roleset_name": "cause to be wet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "now-wet thing"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wet.01",
+    "roleset_name": "cause to be wet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "now-wet thing",
+        "descr_trans": "现在湿的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "导致潮湿"
+  }
 ]

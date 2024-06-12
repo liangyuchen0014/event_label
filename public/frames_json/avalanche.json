@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "avalanche.01",
-        "roleset_name": "natural disaster: snowslide",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "snow (may incl. type: loose, slab, powder, wet)"
-            },
-            {
-                "n": "2",
-                "descr": "volume/weight"
-            },
-            {
-                "n": "3",
-                "descr": "casualties/injuries"
-            },
-            {
-                "n": "4",
-                "descr": "damages/costs"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "avalanche.01",
+    "roleset_name": "natural disaster: snowslide",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "snow (may incl. type: loose, slab, powder, wet)",
+        "descr_trans": "雪（可能包括类型：松散雪、板雪、粉雪、湿雪）"
+      },
+      {
+        "n": "2",
+        "descr": "volume/weight",
+        "descr_trans": "体积/重量"
+      },
+      {
+        "n": "3",
+        "descr": "casualties/injuries",
+        "descr_trans": "伤亡/受伤"
+      },
+      {
+        "n": "4",
+        "descr": "damages/costs",
+        "descr_trans": "损害赔偿/费用"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：雪崩"
+  }
 ]

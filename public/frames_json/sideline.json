@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sideline.01",
-        "roleset_name": "to remove or keep from active participation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person preventing, removing arg1 from participation"
-            },
-            {
-                "n": "1",
-                "descr": "entity sidelined"
-            },
-            {
-                "n": "2",
-                "descr": "sidelined from what?  mention of activity arg1 can't participate in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sideline.01",
+    "roleset_name": "to remove or keep from active participation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person preventing, removing arg1 from participation",
+        "descr_trans": "阻止、移除 arg1 参与的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity sidelined",
+        "descr_trans": "实体被边缘化"
+      },
+      {
+        "n": "2",
+        "descr": "sidelined from what?  mention of activity arg1 can't participate in",
+        "descr_trans": "靠边站什么？提及活动 arg1 无法参与"
+      }
+    ],
+    "roleset_name_trans": "取消或阻止积极参与"
+  }
 ]

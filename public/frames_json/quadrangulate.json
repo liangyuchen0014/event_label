@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quadrangulate.01",
-        "roleset_name": "pinpoint the location of using 4 points (as opposed to 3 in triangulation)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quadrangulator"
-            },
-            {
-                "n": "1",
-                "descr": "location searched for"
-            },
-            {
-                "n": "2",
-                "descr": "based on, known info"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "quadrangulate.02",
-        "roleset_name": "divide into quadrangles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quadrangulator"
-            },
-            {
-                "n": "1",
-                "descr": "region divided into quadrangles"
-            },
-            {
-                "n": "2",
-                "descr": "quadrangle side length measurement"
-            },
-            {
-                "n": "3",
-                "descr": "number of nodes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quadrangulate.01",
+    "roleset_name": "pinpoint the location of using 4 points (as opposed to 3 in triangulation)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quadrangulator",
+        "descr_trans": "四边形仪"
+      },
+      {
+        "n": "1",
+        "descr": "location searched for",
+        "descr_trans": "搜索到的位置"
+      },
+      {
+        "n": "2",
+        "descr": "based on, known info",
+        "descr_trans": "基于已知信息"
+      }
+    ],
+    "roleset_name_trans": "使用 4 个点（而不是三角测量中的 3 个点）精确定位位置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "quadrangulate.02",
+    "roleset_name": "divide into quadrangles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quadrangulator",
+        "descr_trans": "四边形仪"
+      },
+      {
+        "n": "1",
+        "descr": "region divided into quadrangles",
+        "descr_trans": "区域被划分为四边形"
+      },
+      {
+        "n": "2",
+        "descr": "quadrangle side length measurement",
+        "descr_trans": "四边形边长测量"
+      },
+      {
+        "n": "3",
+        "descr": "number of nodes",
+        "descr_trans": "节点数"
+      }
+    ],
+    "roleset_name_trans": "分成四边形"
+  }
 ]

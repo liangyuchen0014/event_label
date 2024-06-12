@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debauch.01",
-        "roleset_name": "to morally corrupt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of corruption"
-            },
-            {
-                "n": "1",
-                "descr": "entity corrupted"
-            },
-            {
-                "n": "2",
-                "descr": "corrupted with what? instrument if separate from arg 0 (unlikely)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debauch.01",
+    "roleset_name": "to morally corrupt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of corruption",
+        "descr_trans": "腐败的根源"
+      },
+      {
+        "n": "1",
+        "descr": "entity corrupted",
+        "descr_trans": "实体损坏"
+      },
+      {
+        "n": "2",
+        "descr": "corrupted with what? instrument if separate from arg 0 (unlikely)",
+        "descr_trans": "被什么腐蚀了？仪器如果与 arg 0 分开（不太可能）"
+      }
+    ],
+    "roleset_name_trans": "道德败坏"
+  }
 ]

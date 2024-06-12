@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appear.01",
-        "roleset_name": "come to be visible",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appear.02",
-        "roleset_name": "seem, appear, be unmistakable (for/as)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming, often requires concatenation"
-            },
-            {
-                "n": "2",
-                "descr": "viewer, to whom does it seem like that?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appear.01",
+    "roleset_name": "come to be visible",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "变得可见"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appear.02",
+    "roleset_name": "seem, appear, be unmistakable (for/as)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming, often requires concatenation",
+        "descr_trans": "看似的事情，往往需要串联"
+      },
+      {
+        "n": "2",
+        "descr": "viewer, to whom does it seem like that?",
+        "descr_trans": "观众，对谁来说是这样的？"
+      }
+    ],
+    "roleset_name_trans": "似乎，看来，明显无误（对于/作为）"
+  }
 ]

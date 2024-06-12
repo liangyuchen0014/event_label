@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "autoanticoagulate.01",
-        "roleset_name": "be prevented from coagulating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "\"auto\", causer of coagulation prevention (should be rare)"
-            },
-            {
-                "n": "1",
-                "descr": "entity lacking coagulation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "autoanticoagulate.01",
+    "roleset_name": "be prevented from coagulating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "\"auto\", causer of coagulation prevention (should be rare)",
+        "descr_trans": "“auto”，凝血障碍的原因（应该很少见）"
+      },
+      {
+        "n": "1",
+        "descr": "entity lacking coagulation",
+        "descr_trans": "缺乏凝固的实体"
+      }
+    ],
+    "roleset_name_trans": "防止凝固"
+  }
 ]

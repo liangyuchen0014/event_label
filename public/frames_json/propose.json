@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "propose.01",
-        "roleset_name": "cf offer, suggestion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "proposer"
-            },
-            {
-                "n": "1",
-                "descr": "proposition"
-            },
-            {
-                "n": "2",
-                "descr": "who/what arg1 applies to (beneficiary, not listener)"
-            },
-            {
-                "n": "3",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "propose.01",
+    "roleset_name": "cf offer, suggestion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "proposer",
+        "descr_trans": "提议者"
+      },
+      {
+        "n": "1",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      },
+      {
+        "n": "2",
+        "descr": "who/what arg1 applies to (beneficiary, not listener)",
+        "descr_trans": "arg1 适用于谁/什么（受益人，而不是听众）"
+      },
+      {
+        "n": "3",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "比照提议、建议"
+  }
 ]

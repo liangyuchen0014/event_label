@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "homodimerize.01",
-        "roleset_name": "form a dimer from two identical dimers",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of homodimerization"
-            },
-            {
-                "n": "1",
-                "descr": "first component of the dimer"
-            },
-            {
-                "n": "2",
-                "descr": "second component of the dimer"
-            },
-            {
-                "n": "3",
-                "descr": "result, dimer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "homodimerize.01",
+    "roleset_name": "form a dimer from two identical dimers",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of homodimerization",
+        "descr_trans": "同二聚化剂"
+      },
+      {
+        "n": "1",
+        "descr": "first component of the dimer",
+        "descr_trans": "二聚体的第一个成分"
+      },
+      {
+        "n": "2",
+        "descr": "second component of the dimer",
+        "descr_trans": "二聚体的第二个成分"
+      },
+      {
+        "n": "3",
+        "descr": "result, dimer",
+        "descr_trans": "结果，二聚体"
+      }
+    ],
+    "roleset_name_trans": "由两个相同的二聚体形成二聚体"
+  }
 ]

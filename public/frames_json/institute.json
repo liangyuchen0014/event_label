@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "institute.01",
-        "roleset_name": "establish, establishment of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "institutionalize.02",
-        "roleset_name": "systematize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing institutionalized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "institute.01",
+    "roleset_name": "establish, establishment of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "建立，建立某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "institutionalize.02",
+    "roleset_name": "systematize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing institutionalized",
+        "descr_trans": "制度化的事情"
+      }
+    ],
+    "roleset_name_trans": "系统化"
+  }
 ]

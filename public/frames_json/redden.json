@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redden.01",
-        "roleset_name": "(cause to become) the color red",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of redness"
-            },
-            {
-                "n": "1",
-                "descr": "red thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is red"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "red.02",
-        "roleset_name": "be the color red",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of redness"
-            },
-            {
-                "n": "1",
-                "descr": "red entity"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is red"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "reddish.03",
-        "roleset_name": "slightly/somewhat red",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of redishness"
-            },
-            {
-                "n": "1",
-                "descr": "reddish thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redden.01",
+    "roleset_name": "(cause to become) the color red",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of redness",
+        "descr_trans": "发红的原因"
+      },
+      {
+        "n": "1",
+        "descr": "red thing",
+        "descr_trans": "红色的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is red",
+        "descr_trans": "arg1 的特定方面是红色的"
+      }
+    ],
+    "roleset_name_trans": "（导致变成）红色"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "red.02",
+    "roleset_name": "be the color red",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of redness",
+        "descr_trans": "发红的原因"
+      },
+      {
+        "n": "1",
+        "descr": "red entity",
+        "descr_trans": "红色实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is red",
+        "descr_trans": "arg1 的特定方面是红色的"
+      }
+    ],
+    "roleset_name_trans": "颜色是红色"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "reddish.03",
+    "roleset_name": "slightly/somewhat red",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of redishness",
+        "descr_trans": "引起发红的原因"
+      },
+      {
+        "n": "1",
+        "descr": "reddish thing",
+        "descr_trans": "淡红色的东西"
+      }
+    ],
+    "roleset_name_trans": "稍微/有点红色"
+  }
 ]

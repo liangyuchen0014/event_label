@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outfly.01",
-        "roleset_name": "fly beyond or faster than another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first flier who is winning, flying faster/further"
-            },
-            {
-                "n": "1",
-                "descr": "other flier who is being outflown"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outfly.01",
+    "roleset_name": "fly beyond or faster than another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first flier who is winning, flying faster/further",
+        "descr_trans": "第一个获胜的飞行员，飞得更快/更远"
+      },
+      {
+        "n": "1",
+        "descr": "other flier who is being outflown",
+        "descr_trans": "其他正在飞出的乘客"
+      }
+    ],
+    "roleset_name_trans": "飞得比别人更远或更快"
+  }
 ]

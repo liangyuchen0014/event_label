@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonindurated.01",
-        "roleset_name": "not having hardened",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of hardening"
-            },
-            {
-                "n": "1",
-                "descr": "entity not hardened"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonindurated.01",
+    "roleset_name": "not having hardened",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of hardening",
+        "descr_trans": "硬化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not hardened",
+        "descr_trans": "实体未硬化"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "尚未硬化"
+  }
 ]

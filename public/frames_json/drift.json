@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drift.01",
-        "roleset_name": "move aimlessly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "object in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drift_off.02",
-        "roleset_name": "fall gently into a dreamy state (often sleep)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sleeper"
-            },
-            {
-                "n": "2",
-                "descr": "sleep"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drift.01",
+    "roleset_name": "move aimlessly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "object in motion",
+        "descr_trans": "运动中的物体"
+      }
+    ],
+    "roleset_name_trans": "漫无目的地移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drift_off.02",
+    "roleset_name": "fall gently into a dreamy state (often sleep)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "2",
+        "descr": "sleep",
+        "descr_trans": "睡觉"
+      }
+    ],
+    "roleset_name_trans": "轻轻地进入梦乡（经常睡觉）"
+  }
 ]

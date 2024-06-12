@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dine.01",
-        "roleset_name": "eat dinner, eating, properly and politely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dine_out.02",
-        "roleset_name": "eat dinner at a restaurant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater, diner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dine.01",
+    "roleset_name": "eat dinner, eating, properly and politely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "吃晚饭，吃饭，适当，有礼貌"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dine_out.02",
+    "roleset_name": "eat dinner at a restaurant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater, diner",
+        "descr_trans": "食者，食客"
+      }
+    ],
+    "roleset_name_trans": "在餐馆吃晚餐"
+  }
 ]

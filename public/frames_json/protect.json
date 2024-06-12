@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "protect.01",
-        "roleset_name": "shield from danger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protector"
-            },
-            {
-                "n": "1",
-                "descr": "protected"
-            },
-            {
-                "n": "2",
-                "descr": "danger"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "protective.02",
-        "roleset_name": "acting defensively for the safety/preservation of something dear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protector"
-            },
-            {
-                "n": "1",
-                "descr": "protected"
-            },
-            {
-                "n": "2",
-                "descr": "danger"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "protect.01",
+    "roleset_name": "shield from danger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protector",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "protected",
+        "descr_trans": "受保护的"
+      },
+      {
+        "n": "2",
+        "descr": "danger",
+        "descr_trans": "危险"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "远离危险"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "protective.02",
+    "roleset_name": "acting defensively for the safety/preservation of something dear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protector",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "protected",
+        "descr_trans": "受保护的"
+      },
+      {
+        "n": "2",
+        "descr": "danger",
+        "descr_trans": "危险"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "为了保护亲爱的东西的安全/保护而采取防御行动"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mince.01",
-        "roleset_name": "walk like a girl (sorry)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mince.02",
-        "roleset_name": "chop finely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook"
-            },
-            {
-                "n": "1",
-                "descr": "ingredient"
-            },
-            {
-                "n": "2",
-                "descr": "knife"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mince.01",
+    "roleset_name": "walk like a girl (sorry)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "像个女孩一样走路（抱歉）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mince.02",
+    "roleset_name": "chop finely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook",
+        "descr_trans": "厨师"
+      },
+      {
+        "n": "1",
+        "descr": "ingredient",
+        "descr_trans": "成分"
+      },
+      {
+        "n": "2",
+        "descr": "knife",
+        "descr_trans": "刀"
+      }
+    ],
+    "roleset_name_trans": "切细"
+  }
 ]

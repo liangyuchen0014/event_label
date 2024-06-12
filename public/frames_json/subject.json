@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subject.01",
-        "roleset_name": "cause, required to undergo, contingent upon some procedure, experience",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "induced experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "procedure"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "subject.02",
-        "roleset_name": "prone, likely to be affected by",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "likely undergoer"
-            },
-            {
-                "n": "2",
-                "descr": "thing often undergone"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "subjective.03",
-        "roleset_name": "particular to person experience",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "subjective entity"
-            },
-            {
-                "n": "2",
-                "descr": "perceiver"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subject.01",
+    "roleset_name": "cause, required to undergo, contingent upon some procedure, experience",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "induced experiencer",
+        "descr_trans": "诱导体验者"
+      },
+      {
+        "n": "2",
+        "descr": "procedure",
+        "descr_trans": "程序"
+      }
+    ],
+    "roleset_name_trans": "原因、需要经历、取决于某些程序、经验"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "subject.02",
+    "roleset_name": "prone, likely to be affected by",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "likely undergoer",
+        "descr_trans": "可能的经历者"
+      },
+      {
+        "n": "2",
+        "descr": "thing often undergone",
+        "descr_trans": "经常发生的事情"
+      }
+    ],
+    "roleset_name_trans": "容易，可能受到影响"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "subjective.03",
+    "roleset_name": "particular to person experience",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "subjective entity",
+        "descr_trans": "主观实体"
+      },
+      {
+        "n": "2",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      }
+    ],
+    "roleset_name_trans": "因人而异的经历"
+  }
 ]

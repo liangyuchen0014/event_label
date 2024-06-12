@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consent.01",
-        "roleset_name": "agree (to), agreed upon by both parties",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agreer, consenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing consented to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "consensual.02",
-        "roleset_name": "concurrent sensory response",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing exhibiting concurrent sensory response"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consent.01",
+    "roleset_name": "agree (to), agreed upon by both parties",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agreer, consenter",
+        "descr_trans": "同意者，同意者"
+      },
+      {
+        "n": "1",
+        "descr": "thing consented to",
+        "descr_trans": "事物同意"
+      }
+    ],
+    "roleset_name_trans": "同意（to），双方同意"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "consensual.02",
+    "roleset_name": "concurrent sensory response",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing exhibiting concurrent sensory response",
+        "descr_trans": "表现出同时感觉反应的事物"
+      }
+    ],
+    "roleset_name_trans": "并发感觉反应"
+  }
 ]

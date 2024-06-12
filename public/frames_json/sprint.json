@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sprint.01",
-        "roleset_name": "run at top speed, possibly for a shorter distance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sprint.01",
+    "roleset_name": "run at top speed, possibly for a shorter distance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "以最高速度奔跑，可能跑较短的距离"
+  }
 ]

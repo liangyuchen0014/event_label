@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "iterate.01",
-        "roleset_name": "repeat, utter again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance or action that is repeated"
-            },
-            {
-                "n": "2",
-                "descr": "listener when arg 1 is an utterance"
-            },
-            {
-                "n": "3",
-                "descr": "number of repetitions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "iterate.01",
+    "roleset_name": "repeat, utter again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance or action that is repeated",
+        "descr_trans": "重复的言语或动作"
+      },
+      {
+        "n": "2",
+        "descr": "listener when arg 1 is an utterance",
+        "descr_trans": "当 arg 1 是一个话语时的监听器"
+      },
+      {
+        "n": "3",
+        "descr": "number of repetitions",
+        "descr_trans": "重复次数"
+      }
+    ],
+    "roleset_name_trans": "重复，再次说出"
+  }
 ]

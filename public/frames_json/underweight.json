@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underweight.01",
-        "roleset_name": "bias or underload",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent weighting something"
-            },
-            {
-                "n": "1",
-                "descr": "entity underweighted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, underweighted in what way?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underweight.01",
+    "roleset_name": "bias or underload",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent weighting something",
+        "descr_trans": "代理称重某物"
+      },
+      {
+        "n": "1",
+        "descr": "entity underweighted",
+        "descr_trans": "实体权重偏低"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, underweighted in what way?",
+        "descr_trans": "属性，通过什么方式权重不足？"
+      }
+    ],
+    "roleset_name_trans": "偏置或欠载"
+  }
 ]

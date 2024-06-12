@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "farm.01",
-        "roleset_name": "to cultivate or produce a crop on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "farmer"
-            },
-            {
-                "n": "1",
-                "descr": "land"
-            },
-            {
-                "n": "2",
-                "descr": "crop, thing produced"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "farm_out.02",
-        "roleset_name": "to subcontract",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor of work, agent"
-            },
-            {
-                "n": "1",
-                "descr": "work"
-            },
-            {
-                "n": "2",
-                "descr": "contractor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "farm.01",
+    "roleset_name": "to cultivate or produce a crop on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "farmer",
+        "descr_trans": "农民"
+      },
+      {
+        "n": "1",
+        "descr": "land",
+        "descr_trans": "土地"
+      },
+      {
+        "n": "2",
+        "descr": "crop, thing produced",
+        "descr_trans": "农作物，生产的东西"
+      }
+    ],
+    "roleset_name_trans": "种植或生产农作物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "farm_out.02",
+    "roleset_name": "to subcontract",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor of work, agent",
+        "descr_trans": "工作分配者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "work",
+        "descr_trans": "工作"
+      },
+      {
+        "n": "2",
+        "descr": "contractor",
+        "descr_trans": "承包商"
+      }
+    ],
+    "roleset_name_trans": "分包"
+  }
 ]

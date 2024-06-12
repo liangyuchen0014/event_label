@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "destress.01",
-        "roleset_name": "remove stress",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing destressed"
-            },
-            {
-                "n": "2",
-                "descr": "stress, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "destress.01",
+    "roleset_name": "remove stress",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing destressed",
+        "descr_trans": "减压的事情"
+      },
+      {
+        "n": "2",
+        "descr": "stress, thing removed",
+        "descr_trans": "压力，东西被移除"
+      }
+    ],
+    "roleset_name_trans": "消除压力"
+  }
 ]

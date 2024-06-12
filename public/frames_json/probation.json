@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "probation.01",
-        "roleset_name": "a trial period",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of probation period"
-            },
-            {
-                "n": "1",
-                "descr": "thing on trial, entity probated"
-            },
-            {
-                "n": "2",
-                "descr": "trial period"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "probation.01",
+    "roleset_name": "a trial period",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of probation period",
+        "descr_trans": "试用期的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing on trial, entity probated",
+        "descr_trans": "正在审判的事物，经过检验的实体"
+      },
+      {
+        "n": "2",
+        "descr": "trial period",
+        "descr_trans": "试用期"
+      }
+    ],
+    "roleset_name_trans": "试用期"
+  }
 ]

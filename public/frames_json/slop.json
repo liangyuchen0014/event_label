@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slop.01",
-        "roleset_name": "pour untidily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pourer"
-            },
-            {
-                "n": "1",
-                "descr": "liquid"
-            },
-            {
-                "n": "2",
-                "descr": "source container"
-            },
-            {
-                "n": "3",
-                "descr": "destination container"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slop.02",
-        "roleset_name": "make noises like a liquid in a  container",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liquid"
-            },
-            {
-                "n": "1",
-                "descr": "container or surface"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slop.01",
+    "roleset_name": "pour untidily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pourer",
+        "descr_trans": "倒"
+      },
+      {
+        "n": "1",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      },
+      {
+        "n": "2",
+        "descr": "source container",
+        "descr_trans": "源容器"
+      },
+      {
+        "n": "3",
+        "descr": "destination container",
+        "descr_trans": "目的地集装箱"
+      }
+    ],
+    "roleset_name_trans": "倒得不整齐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slop.02",
+    "roleset_name": "make noises like a liquid in a  container",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      },
+      {
+        "n": "1",
+        "descr": "container or surface",
+        "descr_trans": "容器或表面"
+      }
+    ],
+    "roleset_name_trans": "发出像容器中的液体一样的声音"
+  }
 ]

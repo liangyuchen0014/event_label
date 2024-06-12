@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vitrify.01",
-        "roleset_name": "make into glass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, vitrifier"
-            },
-            {
-                "n": "1",
-                "descr": "thing vitrified"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vitrify.01",
+    "roleset_name": "make into glass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, vitrifier",
+        "descr_trans": "剂、玻璃化剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing vitrified",
+        "descr_trans": "玻璃化的东西"
+      }
+    ],
+    "roleset_name_trans": "制成玻璃"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misplace.01",
-        "roleset_name": "to put in a wrong place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "who put something down, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity misplaced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misplace.01",
+    "roleset_name": "to put in a wrong place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "who put something down, agent",
+        "descr_trans": "谁放下了东西，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity misplaced",
+        "descr_trans": "实体错位"
+      }
+    ],
+    "roleset_name_trans": "放错地方"
+  }
 ]

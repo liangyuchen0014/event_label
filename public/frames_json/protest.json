@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "protest.01",
-        "roleset_name": "object to something, demonstrating against, participate in a protest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protester"
-            },
-            {
-                "n": "1",
-                "descr": "objectionable thing, topic of protest"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "protest.02",
-        "roleset_name": "manner of speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "protest.01",
+    "roleset_name": "object to something, demonstrating against, participate in a protest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protester",
+        "descr_trans": "抗议者"
+      },
+      {
+        "n": "1",
+        "descr": "objectionable thing, topic of protest",
+        "descr_trans": "令人反感的事情，抗议的话题"
+      }
+    ],
+    "roleset_name_trans": "反对某事、示威反对、参加抗议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "protest.02",
+    "roleset_name": "manner of speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说话方式"
+  }
 ]

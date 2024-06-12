@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abbreviate.01",
-        "roleset_name": "make shorter, especially words",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming shorter"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, arg1 is shortened by how much?"
-            },
-            {
-                "n": "3",
-                "descr": "start state of arg 1, original word when separate mention"
-            },
-            {
-                "n": "4",
-                "descr": "end state of arg1, new abbreviation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abbreviate.01",
+    "roleset_name": "make shorter, especially words",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming shorter",
+        "descr_trans": "东西变短"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, arg1 is shortened by how much?",
+        "descr_trans": "EXT,arg1缩短了多少？"
+      },
+      {
+        "n": "3",
+        "descr": "start state of arg 1, original word when separate mention",
+        "descr_trans": "arg 1 的起始状态，单独提及时的原始单词"
+      },
+      {
+        "n": "4",
+        "descr": "end state of arg1, new abbreviation",
+        "descr_trans": "arg1 的结束状态，新缩写"
+      }
+    ],
+    "roleset_name_trans": "缩短，尤其是单词"
+  }
 ]

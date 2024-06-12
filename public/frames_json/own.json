@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "own.01",
-        "roleset_name": "possess, own something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "owner"
-            },
-            {
-                "n": "1",
-                "descr": "possession"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "own_up.02",
-        "roleset_name": "confess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "confessor"
-            },
-            {
-                "n": "1",
-                "descr": "sin"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "own.01",
+    "roleset_name": "possess, own something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "owner",
+        "descr_trans": "所有者"
+      },
+      {
+        "n": "1",
+        "descr": "possession",
+        "descr_trans": "拥有"
+      }
+    ],
+    "roleset_name_trans": "拥有，拥有某物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "own_up.02",
+    "roleset_name": "confess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "confessor",
+        "descr_trans": "告解神父"
+      },
+      {
+        "n": "1",
+        "descr": "sin",
+        "descr_trans": "罪"
+      }
+    ],
+    "roleset_name_trans": "承认"
+  }
 ]

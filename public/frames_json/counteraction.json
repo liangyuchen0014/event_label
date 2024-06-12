@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counteraction.01",
-        "roleset_name": "action against, in response",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "actor"
-            },
-            {
-                "n": "1",
-                "descr": "in response to, target of the action, against/on/towards"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter of action (see example)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counteraction.01",
+    "roleset_name": "action against, in response",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "actor",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "in response to, target of the action, against/on/towards",
+        "descr_trans": "响应、行动目标、反对/针对/朝向"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter of action (see example)",
+        "descr_trans": "行动的主题（参见示例）"
+      }
+    ],
+    "roleset_name_trans": "采取行动，针对、回应"
+  }
 ]

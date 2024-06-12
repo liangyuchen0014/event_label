@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adventure.01",
-        "roleset_name": "courageous expedition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adventurer"
-            },
-            {
-                "n": "1",
-                "descr": "the adventure"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "adventurous.02",
-        "roleset_name": "seeking, characterized by adventure",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "adventurous thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adventure.01",
+    "roleset_name": "courageous expedition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adventurer",
+        "descr_trans": "冒险家"
+      },
+      {
+        "n": "1",
+        "descr": "the adventure",
+        "descr_trans": "冒险"
+      }
+    ],
+    "roleset_name_trans": "勇敢的探险"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "adventurous.02",
+    "roleset_name": "seeking, characterized by adventure",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "adventurous thing",
+        "descr_trans": "冒险的事情"
+      }
+    ],
+    "roleset_name_trans": "寻求，以冒险为特征"
+  }
 ]

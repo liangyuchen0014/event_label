@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conform.01",
-        "roleset_name": "(cause) to be similar, comply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of similarity"
-            },
-            {
-                "n": "1",
-                "descr": "entity conforming"
-            },
-            {
-                "n": "2",
-                "descr": "entity conforming to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conform.02",
-        "roleset_name": "structural configuration, esp. of atoms, animals",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity taking on a structural configuration"
-            },
-            {
-                "n": "2",
-                "descr": "specific rings of atoms or sub-part of arg1 involved"
-            },
-            {
-                "n": "3",
-                "descr": "name/description of the configuration"
-            },
-            {
-                "n": "4",
-                "descr": "angle measurements"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conform.01",
+    "roleset_name": "(cause) to be similar, comply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of similarity",
+        "descr_trans": "相似性的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity conforming",
+        "descr_trans": "实体符合"
+      },
+      {
+        "n": "2",
+        "descr": "entity conforming to",
+        "descr_trans": "实体符合"
+      }
+    ],
+    "roleset_name_trans": "（导致）相似，遵守"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conform.02",
+    "roleset_name": "structural configuration, esp. of atoms, animals",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity taking on a structural configuration",
+        "descr_trans": "具有结构配置的实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific rings of atoms or sub-part of arg1 involved",
+        "descr_trans": "涉及的特定原子环或 arg1 的子部分"
+      },
+      {
+        "n": "3",
+        "descr": "name/description of the configuration",
+        "descr_trans": "配置的名称/描述"
+      },
+      {
+        "n": "4",
+        "descr": "angle measurements",
+        "descr_trans": "角度测量"
+      }
+    ],
+    "roleset_name_trans": "结构配置，特别是。原子、动物"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rear.01",
-        "roleset_name": "raise a child",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parent"
-            },
-            {
-                "n": "1",
-                "descr": "child"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rear.02",
-        "roleset_name": "jump (like an animal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rearing animal"
-            },
-            {
-                "n": "1",
-                "descr": "body part reared"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rear.01",
+    "roleset_name": "raise a child",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parent",
+        "descr_trans": "家长"
+      },
+      {
+        "n": "1",
+        "descr": "child",
+        "descr_trans": "孩子"
+      }
+    ],
+    "roleset_name_trans": "抚养一个孩子"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rear.02",
+    "roleset_name": "jump (like an animal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rearing animal",
+        "descr_trans": "饲养动物"
+      },
+      {
+        "n": "1",
+        "descr": "body part reared",
+        "descr_trans": "身体部分抬起"
+      }
+    ],
+    "roleset_name_trans": "跳跃（像动物一样）"
+  }
 ]

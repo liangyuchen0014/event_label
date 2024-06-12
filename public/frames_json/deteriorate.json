@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deteriorate.01",
-        "roleset_name": "to grow worse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity deteriorating"
-            },
-            {
-                "n": "2",
-                "descr": "endstate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deteriorate.01",
+    "roleset_name": "to grow worse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity deteriorating",
+        "descr_trans": "实体恶化"
+      },
+      {
+        "n": "2",
+        "descr": "endstate",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变得更糟"
+  }
 ]

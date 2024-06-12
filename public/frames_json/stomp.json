@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stomp.01",
-        "roleset_name": "to tread or trample heavily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with heavy feet, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity stomped (on)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stomp.01",
+    "roleset_name": "to tread or trample heavily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with heavy feet, agent",
+        "descr_trans": "重脚实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity stomped (on)",
+        "descr_trans": "实体被践踏（上）"
+      }
+    ],
+    "roleset_name_trans": "重重地踩踏或践踏"
+  }
 ]

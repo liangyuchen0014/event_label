@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parse.01",
-        "roleset_name": "analyze into parts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parser"
-            },
-            {
-                "n": "1",
-                "descr": "thing analyzed"
-            },
-            {
-                "n": "2",
-                "descr": "end state, parts"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parse.01",
+    "roleset_name": "analyze into parts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parser",
+        "descr_trans": "解析器"
+      },
+      {
+        "n": "1",
+        "descr": "thing analyzed",
+        "descr_trans": "分析的事情"
+      },
+      {
+        "n": "2",
+        "descr": "end state, parts",
+        "descr_trans": "最终状态，部分"
+      }
+    ],
+    "roleset_name_trans": "分析成部分"
+  }
 ]

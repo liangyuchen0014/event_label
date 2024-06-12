@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perk_up.01",
-        "roleset_name": "to gain or regain energy or liveliness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity energised"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perk_up.01",
+    "roleset_name": "to gain or regain energy or liveliness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity energised",
+        "descr_trans": "实体赋能"
+      }
+    ],
+    "roleset_name_trans": "获得或恢复能量或活力"
+  }
 ]

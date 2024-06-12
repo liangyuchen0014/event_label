@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rustle.01",
-        "roleset_name": "emit dry random noise",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "emitter of noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rustle.02",
-        "roleset_name": "steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief"
-            },
-            {
-                "n": "1",
-                "descr": "livestock, usually"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rustle.01",
+    "roleset_name": "emit dry random noise",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "emitter of noise",
+        "descr_trans": "噪声发射器"
+      }
+    ],
+    "roleset_name_trans": "发出干随机噪声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rustle.02",
+    "roleset_name": "steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief",
+        "descr_trans": "贼"
+      },
+      {
+        "n": "1",
+        "descr": "livestock, usually",
+        "descr_trans": "牲畜，通常"
+      }
+    ],
+    "roleset_name_trans": "偷"
+  }
 ]

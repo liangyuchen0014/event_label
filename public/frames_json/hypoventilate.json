@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hypoventilate.01",
-        "roleset_name": "breathing too slowly and shallowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Breather"
-            },
-            {
-                "n": "1",
-                "descr": "Air"
-            },
-            {
-                "n": "2",
-                "descr": "Direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hypoventilate.01",
+    "roleset_name": "breathing too slowly and shallowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Breather",
+        "descr_trans": "喘息"
+      },
+      {
+        "n": "1",
+        "descr": "Air",
+        "descr_trans": "空气"
+      },
+      {
+        "n": "2",
+        "descr": "Direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "呼吸太慢太浅"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bowl.01",
-        "roleset_name": "throw heavy balls at pins",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bowler (not the hat)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bowl_over.02",
-        "roleset_name": "astonish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of astonishment"
-            },
-            {
-                "n": "1",
-                "descr": "astonished entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bowl.01",
+    "roleset_name": "throw heavy balls at pins",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bowler (not the hat)",
+        "descr_trans": "圆顶礼帽（不是帽子）"
+      }
+    ],
+    "roleset_name_trans": "将重球扔到球瓶上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bowl_over.02",
+    "roleset_name": "astonish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of astonishment",
+        "descr_trans": "令人惊讶的原因"
+      },
+      {
+        "n": "1",
+        "descr": "astonished entity",
+        "descr_trans": "惊讶的实体"
+      }
+    ],
+    "roleset_name_trans": "震惊"
+  }
 ]

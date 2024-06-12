@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roll.01",
-        "roleset_name": "move in circular fashion, onward rotational motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roller"
-            },
-            {
-                "n": "1",
-                "descr": "thing rolled or rolling"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1, end state/location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "roll_out.02",
-        "roleset_name": "bring out, cause to appear, introduce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "introducer"
-            },
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "roll_up.03",
-        "roleset_name": "cause to be in a coil",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing rolling up or being rolled up"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "roll_back.04",
-        "roleset_name": "move backwards, rollingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roller-backer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being rolled back"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roll.01",
+    "roleset_name": "move in circular fashion, onward rotational motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roller",
+        "descr_trans": "滚筒"
+      },
+      {
+        "n": "1",
+        "descr": "thing rolled or rolling",
+        "descr_trans": "滚动或滚动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1, end state/location",
+        "descr_trans": "arg1 的次要属性，结束状态/位置"
+      }
+    ],
+    "roleset_name_trans": "以圆周方式移动，向前旋转运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "roll_out.02",
+    "roleset_name": "bring out, cause to appear, introduce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "introducer",
+        "descr_trans": "介绍人"
+      },
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "带来，导致出现，介绍"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "roll_up.03",
+    "roleset_name": "cause to be in a coil",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing rolling up or being rolled up",
+        "descr_trans": "卷起或被卷起的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "导致处于线圈状态"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "roll_back.04",
+    "roleset_name": "move backwards, rollingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roller-backer",
+        "descr_trans": "滚轮支持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being rolled back",
+        "descr_trans": "正在回滚的事物"
+      }
+    ],
+    "roleset_name_trans": "滚动地向后移动"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "declassify.01",
-        "roleset_name": "make/keep secret",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "secret-keeper"
-            },
-            {
-                "n": "1",
-                "descr": "secret"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "declassify.01",
+    "roleset_name": "make/keep secret",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "secret-keeper",
+        "descr_trans": "秘密守护者"
+      },
+      {
+        "n": "1",
+        "descr": "secret",
+        "descr_trans": "秘密"
+      }
+    ],
+    "roleset_name_trans": "保密/保守秘密"
+  }
 ]

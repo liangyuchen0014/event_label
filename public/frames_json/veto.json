@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "veto.01",
-        "roleset_name": "to forbid or prevent, cancel a proposition, reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity vetoed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "veto.01",
+    "roleset_name": "to forbid or prevent, cancel a proposition, reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity vetoed",
+        "descr_trans": "实体否决"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "禁止或阻止、取消提议、拒绝"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dispense.01",
-        "roleset_name": "stop some action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing something to end"
-            },
-            {
-                "n": "1",
-                "descr": "thing ending"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dispense.02",
-        "roleset_name": "distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dispenser"
-            },
-            {
-                "n": "1",
-                "descr": "thing dispensed"
-            },
-            {
-                "n": "2",
-                "descr": "dispensed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dispense.01",
+    "roleset_name": "stop some action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing something to end",
+        "descr_trans": "代理，导致某事结束的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing ending",
+        "descr_trans": "事情结束"
+      }
+    ],
+    "roleset_name_trans": "停止某些行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dispense.02",
+    "roleset_name": "distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dispenser",
+        "descr_trans": "自动售货机"
+      },
+      {
+        "n": "1",
+        "descr": "thing dispensed",
+        "descr_trans": "分发的东西"
+      },
+      {
+        "n": "2",
+        "descr": "dispensed to",
+        "descr_trans": "分配给"
+      }
+    ],
+    "roleset_name_trans": "分发"
+  }
 ]

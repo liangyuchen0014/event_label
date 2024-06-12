@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restage.01",
-        "roleset_name": "reassess the progression of a disease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assessor of stage"
-            },
-            {
-                "n": "1",
-                "descr": "tissue or organ examined"
-            },
-            {
-                "n": "2",
-                "descr": "stage"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restage.01",
+    "roleset_name": "reassess the progression of a disease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assessor of stage",
+        "descr_trans": "阶段评估员"
+      },
+      {
+        "n": "1",
+        "descr": "tissue or organ examined",
+        "descr_trans": "检查的组织或器官"
+      },
+      {
+        "n": "2",
+        "descr": "stage",
+        "descr_trans": "阶段"
+      }
+    ],
+    "roleset_name_trans": "重新评估疾病的进展"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dewax.01",
-        "roleset_name": "remove wax",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "dewaxed entity"
-            },
-            {
-                "n": "2",
-                "descr": "wax, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dewax.01",
+    "roleset_name": "remove wax",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "dewaxed entity",
+        "descr_trans": "脱蜡实体"
+      },
+      {
+        "n": "2",
+        "descr": "wax, thing removed",
+        "descr_trans": "蜡，去除的东西"
+      }
+    ],
+    "roleset_name_trans": "去除蜡"
+  }
 ]

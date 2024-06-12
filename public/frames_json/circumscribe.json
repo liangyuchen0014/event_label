@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "circumscribe.01",
-        "roleset_name": "set/define limits, confine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity imposing limits"
-            },
-            {
-                "n": "1",
-                "descr": "thing limited, confined"
-            },
-            {
-                "n": "2",
-                "descr": "mention of limit on arg1, confined to what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "circumscribe.01",
+    "roleset_name": "set/define limits, confine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity imposing limits",
+        "descr_trans": "代理人、施加限制的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing limited, confined",
+        "descr_trans": "有限的事物，受限的事物"
+      },
+      {
+        "n": "2",
+        "descr": "mention of limit on arg1, confined to what?",
+        "descr_trans": "提到arg1的限制，限制在什么？"
+      }
+    ],
+    "roleset_name_trans": "设置/定义限制，限制"
+  }
 ]

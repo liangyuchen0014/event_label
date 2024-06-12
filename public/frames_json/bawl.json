@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bawl.01",
-        "roleset_name": "cry out loudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bawl.02",
-        "roleset_name": "sell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "peddler"
-            },
-            {
-                "n": "1",
-                "descr": "wares"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bawl.01",
+    "roleset_name": "cry out loudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "大声喊叫"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bawl.02",
+    "roleset_name": "sell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "peddler",
+        "descr_trans": "小贩"
+      },
+      {
+        "n": "1",
+        "descr": "wares",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "卖"
+  }
 ]

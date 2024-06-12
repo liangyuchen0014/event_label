@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "class.01",
-        "roleset_name": "assign a label or attribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing defined"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as, definition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "classy.02",
-        "roleset_name": "elegant",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "classy entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "class.01",
+    "roleset_name": "assign a label or attribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing defined",
+        "descr_trans": "定义的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as, definition",
+        "descr_trans": "次要属性、描述、定义"
+      }
+    ],
+    "roleset_name_trans": "分配标签或属性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "classy.02",
+    "roleset_name": "elegant",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "classy entity",
+        "descr_trans": "优雅的实体"
+      }
+    ],
+    "roleset_name_trans": "优雅的"
+  }
 ]

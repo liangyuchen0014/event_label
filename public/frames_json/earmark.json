@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "earmark.01",
-        "roleset_name": "to reserve or set aside for a particular purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "setter aside, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity earmarked"
-            },
-            {
-                "n": "2",
-                "descr": "earmarked for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "earmark.01",
+    "roleset_name": "to reserve or set aside for a particular purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "setter aside, agent",
+        "descr_trans": "放在一边，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity earmarked",
+        "descr_trans": "指定实体"
+      },
+      {
+        "n": "2",
+        "descr": "earmarked for",
+        "descr_trans": "指定用于"
+      }
+    ],
+    "roleset_name_trans": "为特定目的保留或留出"
+  }
 ]

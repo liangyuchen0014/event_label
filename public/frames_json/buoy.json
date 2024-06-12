@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "buoy.01",
-        "roleset_name": "cause to float",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing floating"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "buoy_up.02",
-        "roleset_name": "buoy up: cause to float",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "floating thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "buoy.01",
+    "roleset_name": "cause to float",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing floating",
+        "descr_trans": "漂浮的东西"
+      }
+    ],
+    "roleset_name_trans": "导致漂浮"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "buoy_up.02",
+    "roleset_name": "buoy up: cause to float",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "floating thing",
+        "descr_trans": "漂浮物"
+      }
+    ],
+    "roleset_name_trans": "浮起：导致漂浮"
+  }
 ]

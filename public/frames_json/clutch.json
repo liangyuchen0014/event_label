@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clutch.01",
-        "roleset_name": "to grasp and hold tightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grasper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity clutched"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clutch_on.02",
-        "roleset_name": "to grasp and hold tightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grasper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity clutched"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clutch.01",
+    "roleset_name": "to grasp and hold tightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grasper, agent",
+        "descr_trans": "抓手、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity clutched",
+        "descr_trans": "实体被抓住"
+      }
+    ],
+    "roleset_name_trans": "紧紧抓住"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clutch_on.02",
+    "roleset_name": "to grasp and hold tightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grasper, agent",
+        "descr_trans": "抓手、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity clutched",
+        "descr_trans": "实体被抓住"
+      }
+    ],
+    "roleset_name_trans": "紧紧抓住"
+  }
 ]

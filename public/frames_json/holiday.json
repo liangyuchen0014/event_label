@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "holiday.01",
-        "roleset_name": "vacation, taking a vacation, break (from something)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vacationer"
-            },
-            {
-                "n": "1",
-                "descr": "locaction"
-            },
-            {
-                "n": "2",
-                "descr": "holiday away from what"
-            },
-            {
-                "n": "3",
-                "descr": "holiday commemorating what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "holiday.01",
+    "roleset_name": "vacation, taking a vacation, break (from something)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vacationer",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "locaction",
+        "descr_trans": "位置"
+      },
+      {
+        "n": "2",
+        "descr": "holiday away from what",
+        "descr_trans": "假期远离什么"
+      },
+      {
+        "n": "3",
+        "descr": "holiday commemorating what",
+        "descr_trans": "纪念什么的节日"
+      }
+    ],
+    "roleset_name_trans": "假期，休假，（从某事中）休息"
+  }
 ]

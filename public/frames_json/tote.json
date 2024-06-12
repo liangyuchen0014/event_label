@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tote.01",
-        "roleset_name": "carry, lug",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "thing carried"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "'with' reflecting back on arg0"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive (predicted but not seen)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tote.01",
+    "roleset_name": "carry, lug",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "thing carried",
+        "descr_trans": "携带的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "'with' reflecting back on arg0",
+        "descr_trans": "&#39;with&#39; 反射回 arg0"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive (predicted but not seen)",
+        "descr_trans": "有益的（预测但未看到）"
+      }
+    ],
+    "roleset_name_trans": "携带，拖着"
+  }
 ]

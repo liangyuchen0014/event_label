@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exponential.01",
-        "roleset_name": "description of the growth rate when x is the first measurement, and each new iteration multiplies the previous measurement against x",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "exponential thing"
-            },
-            {
-                "n": "2",
-                "descr": "the exponent(number of times arg3 is multiplied by itself)"
-            },
-            {
-                "n": "3",
-                "descr": "the base (number multiplied by itself arg2 times)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exponential.01",
+    "roleset_name": "description of the growth rate when x is the first measurement, and each new iteration multiplies the previous measurement against x",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "exponential thing",
+        "descr_trans": "指数事物"
+      },
+      {
+        "n": "2",
+        "descr": "the exponent(number of times arg3 is multiplied by itself)",
+        "descr_trans": "指数（arg3 与其自身相乘的次数）"
+      },
+      {
+        "n": "3",
+        "descr": "the base (number multiplied by itself arg2 times)",
+        "descr_trans": "基数（数字乘以自身 arg2 次）"
+      }
+    ],
+    "roleset_name_trans": "当 x 是第一个测量值并且每次新迭代将先前的测量值乘以 x 时的增长率描述"
+  }
 ]

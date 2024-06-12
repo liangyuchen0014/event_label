@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mesmerize.01",
-        "roleset_name": "hypnotize, spellbind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mesmerizer"
-            },
-            {
-                "n": "1",
-                "descr": "mesmerized, victim"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mesmerize.01",
+    "roleset_name": "hypnotize, spellbind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mesmerizer",
+        "descr_trans": "催眠师"
+      },
+      {
+        "n": "1",
+        "descr": "mesmerized, victim",
+        "descr_trans": "着迷，受害者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg 0",
+        "descr_trans": "仪器，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "催眠, 着迷"
+  }
 ]

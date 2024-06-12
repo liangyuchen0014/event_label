@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "summit.01",
-        "roleset_name": "get together with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one party"
-            },
-            {
-                "n": "1",
-                "descr": "reason to meet"
-            },
-            {
-                "n": "2",
-                "descr": "other party"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "summit.02",
-        "roleset_name": "reach the top of a mountain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mountain climber"
-            },
-            {
-                "n": "1",
-                "descr": "mountain"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "summit.01",
+    "roleset_name": "get together with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one party",
+        "descr_trans": "一方"
+      },
+      {
+        "n": "1",
+        "descr": "reason to meet",
+        "descr_trans": "见面的理由"
+      },
+      {
+        "n": "2",
+        "descr": "other party",
+        "descr_trans": "对方"
+      }
+    ],
+    "roleset_name_trans": "和...聚在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "summit.02",
+    "roleset_name": "reach the top of a mountain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mountain climber",
+        "descr_trans": "登山者"
+      },
+      {
+        "n": "1",
+        "descr": "mountain",
+        "descr_trans": "山"
+      }
+    ],
+    "roleset_name_trans": "到达山顶"
+  }
 ]

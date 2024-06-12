@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heterodimerize.01",
-        "roleset_name": "form a dimer from two different monomers",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of heterodimerization"
-            },
-            {
-                "n": "1",
-                "descr": "monomer 1"
-            },
-            {
-                "n": "2",
-                "descr": "monomer 2"
-            },
-            {
-                "n": "3",
-                "descr": "result, heterodimer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heterodimerize.01",
+    "roleset_name": "form a dimer from two different monomers",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of heterodimerization",
+        "descr_trans": "异二聚化剂"
+      },
+      {
+        "n": "1",
+        "descr": "monomer 1",
+        "descr_trans": "单体1"
+      },
+      {
+        "n": "2",
+        "descr": "monomer 2",
+        "descr_trans": "单体2"
+      },
+      {
+        "n": "3",
+        "descr": "result, heterodimer",
+        "descr_trans": "结果，异二聚体"
+      }
+    ],
+    "roleset_name_trans": "由两个不同的单体形成二聚体"
+  }
 ]

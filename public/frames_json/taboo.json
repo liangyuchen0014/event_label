@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "taboo.01",
-        "roleset_name": "make something be a taboo",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tabooment"
-            },
-            {
-                "n": "1",
-                "descr": "taboo"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "taboo.01",
+    "roleset_name": "make something be a taboo",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tabooment",
+        "descr_trans": "禁忌的原因"
+      },
+      {
+        "n": "1",
+        "descr": "taboo",
+        "descr_trans": "忌讳"
+      }
+    ],
+    "roleset_name_trans": "使某事成为禁忌"
+  }
 ]

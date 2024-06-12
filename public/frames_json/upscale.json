@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upscale.01",
-        "roleset_name": "upgrade; make higher-end",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing upgraded"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "upscale.02",
-        "roleset_name": "increase the scale of, enlarge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing enlarged"
-            },
-            {
-                "n": "2",
-                "descr": "amount enlarged"
-            },
-            {
-                "n": "3",
-                "descr": "start scale"
-            },
-            {
-                "n": "4",
-                "descr": "end scale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upscale.01",
+    "roleset_name": "upgrade; make higher-end",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing upgraded",
+        "descr_trans": "东西升级了"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "升级;打造更高端"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "upscale.02",
+    "roleset_name": "increase the scale of, enlarge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing enlarged",
+        "descr_trans": "东西放大了"
+      },
+      {
+        "n": "2",
+        "descr": "amount enlarged",
+        "descr_trans": "放大金额"
+      },
+      {
+        "n": "3",
+        "descr": "start scale",
+        "descr_trans": "起始规模"
+      },
+      {
+        "n": "4",
+        "descr": "end scale",
+        "descr_trans": "末端刻度"
+      }
+    ],
+    "roleset_name_trans": "增加规模，扩大"
+  }
 ]

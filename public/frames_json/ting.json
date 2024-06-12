@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ting.01",
-        "roleset_name": "ting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of tinging (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "theme, actual thing tinging (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of tinging"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ting.01",
+    "roleset_name": "ting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of tinging (transitive subject)",
+        "descr_trans": "代理，着色的原因（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "theme, actual thing tinging (intransitive subject, transitive object)",
+        "descr_trans": "主题，实际事物的色调（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of tinging",
+        "descr_trans": "视线位置"
+      }
+    ],
+    "roleset_name_trans": "婷"
+  }
 ]

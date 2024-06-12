@@ -1,134 +1,161 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hit.01",
-        "roleset_name": "strike",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hit.02",
-        "roleset_name": "reach, encounter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing hitting / reaching"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hit.03",
-        "roleset_name": "go to, turn to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity turning to a new hobby"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hit.06",
-        "roleset_name": "murder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assassin, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person assassinated"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hit.07",
-        "roleset_name": "earn points (on exam/competition)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "athlete, scorer"
-            },
-            {
-                "n": "1",
-                "descr": "cognate object, points"
-            },
-            {
-                "n": "2",
-                "descr": "test/game"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "hit_on.04",
-        "roleset_name": "to make sexual advances",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "person hit on"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "hit_up.05",
-        "roleset_name": "ask for, request",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person making request"
-            },
-            {
-                "n": "1",
-                "descr": "request"
-            },
-            {
-                "n": "2",
-                "descr": "requested from"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "hit_nail_on_head.08",
-        "roleset_name": "say a thing that seems very or precisely correct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with the correct facts"
-            },
-            {
-                "n": "1",
-                "descr": "accurate proposition, thought, right about what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hit.01",
+    "roleset_name": "strike",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "罢工"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hit.02",
+    "roleset_name": "reach, encounter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing hitting / reaching",
+        "descr_trans": "物体击中/到达"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      }
+    ],
+    "roleset_name_trans": "到达、遭遇"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hit.03",
+    "roleset_name": "go to, turn to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity turning to a new hobby",
+        "descr_trans": "实体转向新的爱好"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      }
+    ],
+    "roleset_name_trans": "转到，转向"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hit.06",
+    "roleset_name": "murder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assassin, agent",
+        "descr_trans": "刺客、特工"
+      },
+      {
+        "n": "1",
+        "descr": "person assassinated",
+        "descr_trans": "被暗杀的人"
+      }
+    ],
+    "roleset_name_trans": "谋杀"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hit.07",
+    "roleset_name": "earn points (on exam/competition)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "athlete, scorer",
+        "descr_trans": "运动员、得分手"
+      },
+      {
+        "n": "1",
+        "descr": "cognate object, points",
+        "descr_trans": "同源对象、点"
+      },
+      {
+        "n": "2",
+        "descr": "test/game",
+        "descr_trans": "测试/游戏"
+      }
+    ],
+    "roleset_name_trans": "赚取积分（通过考试/比赛）"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "hit_on.04",
+    "roleset_name": "to make sexual advances",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person hit on",
+        "descr_trans": "人碰上了"
+      }
+    ],
+    "roleset_name_trans": "进行性挑衅"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "hit_up.05",
+    "roleset_name": "ask for, request",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person making request",
+        "descr_trans": "提出请求的人"
+      },
+      {
+        "n": "1",
+        "descr": "request",
+        "descr_trans": "要求"
+      },
+      {
+        "n": "2",
+        "descr": "requested from",
+        "descr_trans": "请求自"
+      }
+    ],
+    "roleset_name_trans": "要求，要求"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "hit_nail_on_head.08",
+    "roleset_name": "say a thing that seems very or precisely correct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with the correct facts",
+        "descr_trans": "具有正确事实的实体"
+      },
+      {
+        "n": "1",
+        "descr": "accurate proposition, thought, right about what",
+        "descr_trans": "准确的主张、想法、正确的事情"
+      }
+    ],
+    "roleset_name_trans": "说一件看起来非常正确或完全正确的事情"
+  }
 ]

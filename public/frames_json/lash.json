@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lash.01",
-        "roleset_name": "to tie",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity lashed"
-            },
-            {
-                "n": "2",
-                "descr": "entity lashed to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lash_out.02",
-        "roleset_name": "to attack verbally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "lash at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lash.01",
+    "roleset_name": "to tie",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tier, agent",
+        "descr_trans": "层级、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity lashed",
+        "descr_trans": "实体受到鞭打"
+      },
+      {
+        "n": "2",
+        "descr": "entity lashed to",
+        "descr_trans": "实体被绑在"
+      }
+    ],
+    "roleset_name_trans": "打结"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lash_out.02",
+    "roleset_name": "to attack verbally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker, agent",
+        "descr_trans": "攻击者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "lash at",
+        "descr_trans": "鞭打"
+      }
+    ],
+    "roleset_name_trans": "进行言语攻击"
+  }
 ]

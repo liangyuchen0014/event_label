@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pretest.01",
-        "roleset_name": "to test in advance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            },
-            {
-                "n": "2",
-                "descr": "in search of what, tested for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pretest.01",
+    "roleset_name": "to test in advance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "in search of what, tested for what?",
+        "descr_trans": "寻找什么，测试什么？"
+      }
+    ],
+    "roleset_name_trans": "提前测试"
+  }
 ]

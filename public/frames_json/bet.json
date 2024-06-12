@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bet.01",
-        "roleset_name": "wager, making a wager",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "better"
-            },
-            {
-                "n": "1",
-                "descr": "amount of bet"
-            },
-            {
-                "n": "2",
-                "descr": "basis, proposition, bet-on"
-            },
-            {
-                "n": "3",
-                "descr": "co-better"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bet.01",
+    "roleset_name": "wager, making a wager",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "better",
+        "descr_trans": "更好的"
+      },
+      {
+        "n": "1",
+        "descr": "amount of bet",
+        "descr_trans": "投注金额"
+      },
+      {
+        "n": "2",
+        "descr": "basis, proposition, bet-on",
+        "descr_trans": "基础、主张、赌注"
+      },
+      {
+        "n": "3",
+        "descr": "co-better",
+        "descr_trans": "共同更好"
+      }
+    ],
+    "roleset_name_trans": "打赌，打赌"
+  }
 ]

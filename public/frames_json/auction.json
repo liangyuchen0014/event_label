@@ -1,56 +1,68 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "auction_off.01",
-        "roleset_name": "sell at auction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "sold"
-            },
-            {
-                "n": "2",
-                "descr": "highest bidder (recipient)"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "auction.02",
-        "roleset_name": "sell at auction, no particle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "sold"
-            },
-            {
-                "n": "2",
-                "descr": "highest bidder (recipient)"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "auction_off.01",
+    "roleset_name": "sell at auction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "sold",
+        "descr_trans": "卖"
+      },
+      {
+        "n": "2",
+        "descr": "highest bidder (recipient)",
+        "descr_trans": "最高出价者（接受者）"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "拍卖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "auction.02",
+    "roleset_name": "sell at auction, no particle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "sold",
+        "descr_trans": "卖"
+      },
+      {
+        "n": "2",
+        "descr": "highest bidder (recipient)",
+        "descr_trans": "最高出价者（接受者）"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "拍卖出售，无颗粒"
+  }
 ]

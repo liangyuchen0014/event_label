@@ -1,19 +1,22 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "about.01",
-        "roleset_name": "located 'around', in the general vicinity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is around"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "about.02",
-        "roleset_name": "about to __",
-        "roles": []
-    }
+  {
+    "uid": 1,
+    "roleset_id": "about.01",
+    "roleset_name": "located 'around', in the general vicinity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is around",
+        "descr_trans": "周围的实体"
+      }
+    ],
+    "roleset_name_trans": "位于“周围”，在一般附近"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "about.02",
+    "roleset_name": "about to __",
+    "roles": [],
+    "roleset_name_trans": "即将__"
+  }
 ]

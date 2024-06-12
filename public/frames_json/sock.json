@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sock.01",
-        "roleset_name": "manner of hitting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "hit"
-            },
-            {
-                "n": "2",
-                "descr": "hit with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sock_away.02",
-        "roleset_name": "put, save",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "put where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sock.01",
+    "roleset_name": "manner of hitting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "hit",
+        "descr_trans": "打"
+      },
+      {
+        "n": "2",
+        "descr": "hit with",
+        "descr_trans": "击中"
+      }
+    ],
+    "roleset_name_trans": "击打方式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sock_away.02",
+    "roleset_name": "put, save",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter",
+        "descr_trans": "推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "put where",
+        "descr_trans": "放在哪里"
+      }
+    ],
+    "roleset_name_trans": "放置、保存"
+  }
 ]

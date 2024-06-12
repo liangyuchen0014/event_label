@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "homemake.01",
-        "roleset_name": "create at home",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "materials"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "homemaking.02",
-        "roleset_name": "managing of a household",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Homemaker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "homemake.01",
+    "roleset_name": "create at home",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker",
+        "descr_trans": "制作者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "materials",
+        "descr_trans": "材料"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "在家创作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "homemaking.02",
+    "roleset_name": "managing of a household",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Homemaker",
+        "descr_trans": "家庭主妇"
+      }
+    ],
+    "roleset_name_trans": "管理家庭"
+  }
 ]

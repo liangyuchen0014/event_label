@@ -1,90 +1,109 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "raise.01",
-        "roleset_name": "move upward, quantifiably or metaphorically, (cause of) upward movement/increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            },
-            {
-                "n": "5",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "raise.02",
-        "roleset_name": "raising funds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter of money"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "giver of money"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "raise.03",
-        "roleset_name": "rear or nurture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parent"
-            },
-            {
-                "n": "1",
-                "descr": "child"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fundraise.04",
-        "roleset_name": "raise funds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "raiser of funds"
-            },
-            {
-                "n": "1",
-                "descr": "amount raised"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "raise.01",
+    "roleset_name": "move upward, quantifiably or metaphorically, (cause of) upward movement/increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "向上移动，可量化或隐喻地，向上移动/增加（的原因）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "raise.02",
+    "roleset_name": "raising funds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter of money",
+        "descr_trans": "钱财获得者"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "giver of money",
+        "descr_trans": "金钱的给予者"
+      }
+    ],
+    "roleset_name_trans": "募集资金"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "raise.03",
+    "roleset_name": "rear or nurture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parent",
+        "descr_trans": "家长"
+      },
+      {
+        "n": "1",
+        "descr": "child",
+        "descr_trans": "孩子"
+      }
+    ],
+    "roleset_name_trans": "后继或养育"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fundraise.04",
+    "roleset_name": "raise funds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "raiser of funds",
+        "descr_trans": "资金筹集者"
+      },
+      {
+        "n": "1",
+        "descr": "amount raised",
+        "descr_trans": "筹集金额"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "筹集资金"
+  }
 ]

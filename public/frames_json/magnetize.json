@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "magnetize.01",
-        "roleset_name": "cause to have magnetic properties",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of magnetism, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing getting magnetized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "magnetic.02",
-        "roleset_name": "name",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "magnetic entity"
-            },
-            {
-                "n": "2",
-                "descr": "opposing force arg1 is attracted to/attracts"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "magnetize.01",
+    "roleset_name": "cause to have magnetic properties",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of magnetism, agent",
+        "descr_trans": "磁力的起因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing getting magnetized",
+        "descr_trans": "病人，物体被磁化"
+      }
+    ],
+    "roleset_name_trans": "导致具有磁性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "magnetic.02",
+    "roleset_name": "name",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "magnetic entity",
+        "descr_trans": "磁性实体"
+      },
+      {
+        "n": "2",
+        "descr": "opposing force arg1 is attracted to/attracts",
+        "descr_trans": "相反的力 arg1 被吸引/吸引"
+      }
+    ],
+    "roleset_name_trans": "姓名"
+  }
 ]

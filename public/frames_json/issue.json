@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "issue.01",
-        "roleset_name": "emit, emit/provide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "issuer"
-            },
-            {
-                "n": "1",
-                "descr": "thing issued"
-            },
-            {
-                "n": "2",
-                "descr": "issued to"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, issued as or at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "issue.02",
-        "roleset_name": "problematic state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus of problematic state -- thing that is a problem"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of problematic state -- who has a problem with 0?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "issue.01",
+    "roleset_name": "emit, emit/provide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "issuer",
+        "descr_trans": "发行人"
+      },
+      {
+        "n": "1",
+        "descr": "thing issued",
+        "descr_trans": "发出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "issued to",
+        "descr_trans": "发给"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, issued as or at",
+        "descr_trans": "属性，发布为或于"
+      }
+    ],
+    "roleset_name_trans": "发出，发出/提供"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "issue.02",
+    "roleset_name": "problematic state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus of problematic state -- thing that is a problem",
+        "descr_trans": "有问题的状态的刺激——有问题的事情"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of problematic state -- who has a problem with 0?",
+        "descr_trans": "问题状态的经历者——谁对0有问题？"
+      }
+    ],
+    "roleset_name_trans": "有问题的状态"
+  }
 ]

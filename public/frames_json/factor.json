@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "factor.01",
-        "roleset_name": "include in calculation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "factorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing included"
-            },
-            {
-                "n": "2",
-                "descr": "calculation, or particle of direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "factor.01",
+    "roleset_name": "include in calculation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "factorer",
+        "descr_trans": "保理商"
+      },
+      {
+        "n": "1",
+        "descr": "thing included",
+        "descr_trans": "包括的东西"
+      },
+      {
+        "n": "2",
+        "descr": "calculation, or particle of direction",
+        "descr_trans": "计算，或方向粒子"
+      }
+    ],
+    "roleset_name_trans": "计入计算中"
+  }
 ]

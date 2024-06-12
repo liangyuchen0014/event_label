@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "administer.01",
-        "roleset_name": "to manage, distribute, or apply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "administrator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity administered"
-            },
-            {
-                "n": "2",
-                "descr": "administered to/upon"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "administer.01",
+    "roleset_name": "to manage, distribute, or apply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "administrator, agent",
+        "descr_trans": "管理员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity administered",
+        "descr_trans": "管理实体"
+      },
+      {
+        "n": "2",
+        "descr": "administered to/upon",
+        "descr_trans": "给予/之上"
+      }
+    ],
+    "roleset_name_trans": "管理、分发或应用"
+  }
 ]

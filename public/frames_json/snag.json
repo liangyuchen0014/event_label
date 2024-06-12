@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snag.01",
-        "roleset_name": "get, capture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "capturer"
-            },
-            {
-                "n": "1",
-                "descr": "captured"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, hook"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snag.01",
+    "roleset_name": "get, capture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "capturer",
+        "descr_trans": "捕获"
+      },
+      {
+        "n": "1",
+        "descr": "captured",
+        "descr_trans": "被捕获"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, hook",
+        "descr_trans": "仪器、挂钩"
+      }
+    ],
+    "roleset_name_trans": "获得、捕获"
+  }
 ]

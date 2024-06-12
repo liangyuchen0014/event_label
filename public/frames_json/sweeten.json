@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sweeten.01",
-        "roleset_name": "(cause to) become sweet(er) in flavor/scent, sugary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing sweetness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming sweet"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sweeten.02",
-        "roleset_name": "improve, make more palatable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "improver"
-            },
-            {
-                "n": "1",
-                "descr": "thing improved"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sweet.03",
-        "roleset_name": "extra nice to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity being nice"
-            },
-            {
-                "n": "2",
-                "descr": "target of niceness"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sweet.04",
-        "roleset_name": "be sugary in flavor/scent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sweetness"
-            },
-            {
-                "n": "1",
-                "descr": "sweet thing"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sweet.05",
-        "roleset_name": "awesome, cool, admirable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "awesome thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sweeten.01",
+    "roleset_name": "(cause to) become sweet(er) in flavor/scent, sugary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing sweetness",
+        "descr_trans": "媒介，引起甜味的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming sweet",
+        "descr_trans": "事情变得甜蜜"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      }
+    ],
+    "roleset_name_trans": "（导致）味道/气味变得甜（呃），含糖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sweeten.02",
+    "roleset_name": "improve, make more palatable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "improver",
+        "descr_trans": "改良剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing improved",
+        "descr_trans": "事情有所改善"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "改进，使更可口"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sweet.03",
+    "roleset_name": "extra nice to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity being nice",
+        "descr_trans": "实体很好"
+      },
+      {
+        "n": "2",
+        "descr": "target of niceness",
+        "descr_trans": "善良的目标"
+      }
+    ],
+    "roleset_name_trans": "特别好"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sweet.04",
+    "roleset_name": "be sugary in flavor/scent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sweetness",
+        "descr_trans": "甜味的原因"
+      },
+      {
+        "n": "1",
+        "descr": "sweet thing",
+        "descr_trans": "甜蜜的事情"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      }
+    ],
+    "roleset_name_trans": "味道/气味含糖"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sweet.05",
+    "roleset_name": "awesome, cool, admirable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "awesome thing",
+        "descr_trans": "很棒的事情"
+      }
+    ],
+    "roleset_name_trans": "很棒的，酷的，令人钦佩的"
+  }
 ]

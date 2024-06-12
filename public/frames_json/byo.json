@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "byo.01",
-        "roleset_name": "bring your own",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer"
-            },
-            {
-                "n": "1",
-                "descr": "brought"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "byo.01",
+    "roleset_name": "bring your own",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer",
+        "descr_trans": "布林尔"
+      },
+      {
+        "n": "1",
+        "descr": "brought",
+        "descr_trans": "带来"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "带上你自己的"
+  }
 ]

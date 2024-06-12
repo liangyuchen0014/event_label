@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repossess.01",
-        "roleset_name": "take back material goods",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "new/previous owner, holder of lien"
-            },
-            {
-                "n": "1",
-                "descr": "goods"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repossess.01",
+    "roleset_name": "take back material goods",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "new/previous owner, holder of lien",
+        "descr_trans": "新/前任所有者、留置权持有者"
+      },
+      {
+        "n": "1",
+        "descr": "goods",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "收回物质货物"
+  }
 ]

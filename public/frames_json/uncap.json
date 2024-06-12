@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncap.01",
-        "roleset_name": "remove cap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing uncapped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncap.01",
+    "roleset_name": "remove cap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing uncapped",
+        "descr_trans": "未加盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "取下盖子"
+  }
 ]

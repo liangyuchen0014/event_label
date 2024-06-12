@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "logarithmic.01",
-        "roleset_name": "growth rate inverse to exponentiation (b to the y power equals x, with y being the log of x, logarithmic to x)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "logarithmic thing (includes the log, which is the number of times arg2 is multiplied against itself, or y in the above equation)"
-            },
-            {
-                "n": "2",
-                "descr": "the base (number multiplied by itself arg1 times, b in the above equation)"
-            },
-            {
-                "n": "3",
-                "descr": "the antilogarithm (result when arg3 is multiplied by itself arg2 times, number the log is 'of', x in the above equation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "logarithmic.01",
+    "roleset_name": "growth rate inverse to exponentiation (b to the y power equals x, with y being the log of x, logarithmic to x)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "logarithmic thing (includes the log, which is the number of times arg2 is multiplied against itself, or y in the above equation)",
+        "descr_trans": "对数（包括 log，即 arg2 与其自身相乘的次数，或上式中的 y）"
+      },
+      {
+        "n": "2",
+        "descr": "the base (number multiplied by itself arg1 times, b in the above equation)",
+        "descr_trans": "基数（数字乘以 arg1 倍，上式中的 b）"
+      },
+      {
+        "n": "3",
+        "descr": "the antilogarithm (result when arg3 is multiplied by itself arg2 times, number the log is 'of', x in the above equation)",
+        "descr_trans": "反对数（arg3 乘以 arg2 次的结果，对数为 &#39;of&#39;，上式中的 x）"
+      }
+    ],
+    "roleset_name_trans": "增长率与指数相反（b 的 y 次方等于 x，y 是 x 的对数，x 的对数）"
+  }
 ]

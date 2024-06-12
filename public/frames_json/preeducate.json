@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preeducate.01",
-        "roleset_name": "teach prior to formal instruction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "teacher"
-            },
-            {
-                "n": "1",
-                "descr": "student(s)"
-            },
-            {
-                "n": "2",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preeducate.01",
+    "roleset_name": "teach prior to formal instruction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "teacher",
+        "descr_trans": "老师"
+      },
+      {
+        "n": "1",
+        "descr": "student(s)",
+        "descr_trans": "学生）"
+      },
+      {
+        "n": "2",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "在正式教学之前进行教学"
+  }
 ]

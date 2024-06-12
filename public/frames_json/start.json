@@ -1,188 +1,227 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "start.01",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "start.06",
-        "roleset_name": "begin traveling toward",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveler"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "start.101",
-        "roleset_name": "to put someone on particular medicine or diet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor"
-            },
-            {
-                "n": "1",
-                "descr": "Patient"
-            },
-            {
-                "n": "2",
-                "descr": "medicine/diet/course of treatment"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "start.03",
-        "roleset_name": "be startled, reaction to surprise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "startled entity"
-            },
-            {
-                "n": "1",
-                "descr": "cause of startlement"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "start.09",
-        "roleset_name": "housing starts/attribute",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "theme"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            },
-            {
-                "n": "3",
-                "descr": "secondary-theme"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "start_off.02",
-        "roleset_name": "phrasal aspectual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "event"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "start_up.04",
-        "roleset_name": "begin, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "start_out.05",
-        "roleset_name": "begin, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Object"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication (can be used on arg0 or arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "start_in.07",
-        "roleset_name": "begin to harangue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "topic of the harangue"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "start_over.08",
-        "roleset_name": "start_over: once more, from the top",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of starting"
-            },
-            {
-                "n": "1",
-                "descr": "thing starting again"
-            },
-            {
-                "n": "2",
-                "descr": "starting point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "start.01",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "start.06",
+    "roleset_name": "begin traveling toward",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveler",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "开始前往"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "start.101",
+    "roleset_name": "to put someone on particular medicine or diet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "Patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "medicine/diet/course of treatment",
+        "descr_trans": "药物/饮食/疗程"
+      }
+    ],
+    "roleset_name_trans": "让某人接受特定的药物或饮食"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "start.03",
+    "roleset_name": "be startled, reaction to surprise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "startled entity",
+        "descr_trans": "受惊的实体"
+      },
+      {
+        "n": "1",
+        "descr": "cause of startlement",
+        "descr_trans": "惊吓的原因"
+      }
+    ],
+    "roleset_name_trans": "受到惊吓，对惊讶的反应"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "start.09",
+    "roleset_name": "housing starts/attribute",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "theme",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      },
+      {
+        "n": "3",
+        "descr": "secondary-theme",
+        "descr_trans": "次要主题"
+      }
+    ],
+    "roleset_name_trans": "房屋开工率/属性"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "start_off.02",
+    "roleset_name": "phrasal aspectual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      }
+    ],
+    "roleset_name_trans": "短语方面"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "start_up.04",
+    "roleset_name": "begin, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "开始, 短语"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "start_out.05",
+    "roleset_name": "begin, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Object",
+        "descr_trans": "目的"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication (can be used on arg0 or arg1)",
+        "descr_trans": "辅助预测（可用于 arg0 或 arg1）"
+      }
+    ],
+    "roleset_name_trans": "开始, 短语"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "start_in.07",
+    "roleset_name": "begin to harangue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "topic of the harangue",
+        "descr_trans": "长篇大论的主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "开始长篇大论"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "start_over.08",
+    "roleset_name": "start_over: once more, from the top",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of starting",
+        "descr_trans": "启动的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing starting again",
+        "descr_trans": "事情重新开始"
+      },
+      {
+        "n": "2",
+        "descr": "starting point",
+        "descr_trans": "初始点"
+      }
+    ],
+    "roleset_name_trans": "start_over：再次从顶部开始"
+  }
 ]

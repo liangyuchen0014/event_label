@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exceed.01",
-        "roleset_name": "be more than",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing that's more"
-            },
-            {
-                "n": "1",
-                "descr": "thing that's less"
-            },
-            {
-                "n": "2",
-                "descr": "margin, difference"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "excessive.02",
-        "roleset_name": "exceeding a limit",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that's excessive"
-            },
-            {
-                "n": "2",
-                "descr": "specific attribute of arg1 that's excessive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exceed.01",
+    "roleset_name": "be more than",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing that's more",
+        "descr_trans": "更重要的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing that's less",
+        "descr_trans": "少的东西"
+      },
+      {
+        "n": "2",
+        "descr": "margin, difference",
+        "descr_trans": "边际，差异"
+      }
+    ],
+    "roleset_name_trans": "超过"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "excessive.02",
+    "roleset_name": "exceeding a limit",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that's excessive",
+        "descr_trans": "过分的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific attribute of arg1 that's excessive",
+        "descr_trans": "arg1 的特定属性过多"
+      }
+    ],
+    "roleset_name_trans": "超过限制"
+  }
 ]

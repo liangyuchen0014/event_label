@@ -1,257 +1,311 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shoot.01",
-        "roleset_name": "propel projectile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "projectile"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shoot.02",
-        "roleset_name": "kill with gun;  Event where weapons are fired; firing a gun",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            },
-            {
-                "n": "2",
-                "descr": "gun"
-            },
-            {
-                "n": "3",
-                "descr": "specific location of wound"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shoot.03",
-        "roleset_name": "record on film; Event where photographers shoot pictures",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "videographer"
-            },
-            {
-                "n": "1",
-                "descr": "subject filmed/photographed"
-            },
-            {
-                "n": "2",
-                "descr": "medium: photo, video, hi-def, color, etc"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "shoot.06",
-        "roleset_name": "move very rapidly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "shoot_off.04",
-        "roleset_name": "loose wildly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "cannon, mouth, whatever"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "shoot_down.05",
-        "roleset_name": "cause to not fly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "planes, birds, ideas"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "shoot_back.07",
-        "roleset_name": "answer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "shoot_up.08",
-        "roleset_name": "inject a drug into a vein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity injecting the drug (usually the drug user)"
-            },
-            {
-                "n": "1",
-                "descr": "the drug"
-            },
-            {
-                "n": "2",
-                "descr": "entity being given the drug, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "shoot_up.09",
-        "roleset_name": "shoot 'em up, with guns",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            },
-            {
-                "n": "2",
-                "descr": "gun"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "shootout.10",
-        "roleset_name": "gunfight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first shooter"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "shot.11",
-        "roleset_name": "exhausted, worn out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of exhaustion, being worn out"
-            },
-            {
-                "n": "1",
-                "descr": "worn out entity"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "shot.12",
-        "roleset_name": "drink a small glass of liquid in a single backwards motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drinker"
-            },
-            {
-                "n": "1",
-                "descr": "drink being shot"
-            },
-            {
-                "n": "2",
-                "descr": "event, cause of celebration"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "shot.13",
-        "roleset_name": "inject with a substance for clinical purposes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "injector"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of shot"
-            },
-            {
-                "n": "2",
-                "descr": "substance injected"
-            },
-            {
-                "n": "3",
-                "descr": "injected for what purpose (the condition being prevented or treated)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shoot.01",
+    "roleset_name": "propel projectile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "projectile",
+        "descr_trans": "射弹"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "推进弹丸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shoot.02",
+    "roleset_name": "kill with gun;  Event where weapons are fired; firing a gun",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "gun",
+        "descr_trans": "枪"
+      },
+      {
+        "n": "3",
+        "descr": "specific location of wound",
+        "descr_trans": "伤口具体位置"
+      }
+    ],
+    "roleset_name_trans": "用枪杀人；开枪事件；开枪"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shoot.03",
+    "roleset_name": "record on film; Event where photographers shoot pictures",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "videographer",
+        "descr_trans": "摄像师"
+      },
+      {
+        "n": "1",
+        "descr": "subject filmed/photographed",
+        "descr_trans": "拍摄/拍摄的对象"
+      },
+      {
+        "n": "2",
+        "descr": "medium: photo, video, hi-def, color, etc",
+        "descr_trans": "媒介：照片、视频、高清、彩色等"
+      }
+    ],
+    "roleset_name_trans": "记录在胶片上；摄影师拍摄照片的活动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "shoot.06",
+    "roleset_name": "move very rapidly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "移动得非常快"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "shoot_off.04",
+    "roleset_name": "loose wildly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "cannon, mouth, whatever",
+        "descr_trans": "大炮，嘴，无论什么"
+      }
+    ],
+    "roleset_name_trans": "疯狂地放松"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "shoot_down.05",
+    "roleset_name": "cause to not fly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "planes, birds, ideas",
+        "descr_trans": "飞机、鸟类、想法"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "导致不能飞"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "shoot_back.07",
+    "roleset_name": "answer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "回答"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "shoot_up.08",
+    "roleset_name": "inject a drug into a vein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity injecting the drug (usually the drug user)",
+        "descr_trans": "注射毒品的实体（通常是吸毒者）"
+      },
+      {
+        "n": "1",
+        "descr": "the drug",
+        "descr_trans": "毒品"
+      },
+      {
+        "n": "2",
+        "descr": "entity being given the drug, if separate from arg0",
+        "descr_trans": "正在给予药物的实体（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "将药物注入静脉"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "shoot_up.09",
+    "roleset_name": "shoot 'em up, with guns",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "gun",
+        "descr_trans": "枪"
+      }
+    ],
+    "roleset_name_trans": "用枪射击他们"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "shootout.10",
+    "roleset_name": "gunfight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first shooter",
+        "descr_trans": "第一射手"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "枪战"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "shot.11",
+    "roleset_name": "exhausted, worn out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of exhaustion, being worn out",
+        "descr_trans": "精疲力竭的原因"
+      },
+      {
+        "n": "1",
+        "descr": "worn out entity",
+        "descr_trans": "破旧的实体"
+      }
+    ],
+    "roleset_name_trans": "精疲力尽，疲惫不堪"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "shot.12",
+    "roleset_name": "drink a small glass of liquid in a single backwards motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drinker",
+        "descr_trans": "饮酒者"
+      },
+      {
+        "n": "1",
+        "descr": "drink being shot",
+        "descr_trans": "喝酒被枪杀"
+      },
+      {
+        "n": "2",
+        "descr": "event, cause of celebration",
+        "descr_trans": "事件，庆祝的原因"
+      }
+    ],
+    "roleset_name_trans": "向后喝一小杯液体"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "shot.13",
+    "roleset_name": "inject with a substance for clinical purposes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "injector",
+        "descr_trans": "注射器"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of shot",
+        "descr_trans": "射击的接受者"
+      },
+      {
+        "n": "2",
+        "descr": "substance injected",
+        "descr_trans": "注射物质"
+      },
+      {
+        "n": "3",
+        "descr": "injected for what purpose (the condition being prevented or treated)",
+        "descr_trans": "注射的目的是什么（预防或治疗的病症）"
+      }
+    ],
+    "roleset_name_trans": "注射用于临床目的的物质"
+  }
 ]

@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trick.01",
-        "roleset_name": "to deceive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deceiver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity tricked"
-            },
-            {
-                "n": "2",
-                "descr": "tricked into doing what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trick.03",
-        "roleset_name": "unusual feat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "type of trick"
-            },
-            {
-                "n": "2",
-                "descr": "audience, beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tricky.02",
-        "roleset_name": "difficult",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "difficult thing (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trick.01",
+    "roleset_name": "to deceive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deceiver, agent",
+        "descr_trans": "骗子、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity tricked",
+        "descr_trans": "实体被欺骗"
+      },
+      {
+        "n": "2",
+        "descr": "tricked into doing what?",
+        "descr_trans": "被骗做什么？"
+      }
+    ],
+    "roleset_name_trans": "欺骗"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trick.03",
+    "roleset_name": "unusual feat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "type of trick",
+        "descr_trans": "技巧类型"
+      },
+      {
+        "n": "2",
+        "descr": "audience, beneficiary",
+        "descr_trans": "受众、受益者"
+      }
+    ],
+    "roleset_name_trans": "不寻常的壮举"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tricky.02",
+    "roleset_name": "difficult",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "difficult thing (may require concatenation)",
+        "descr_trans": "困难的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "难的"
+  }
 ]

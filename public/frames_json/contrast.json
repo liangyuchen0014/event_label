@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contrast.01",
-        "roleset_name": "point out differences, measure of difference",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making comparison"
-            },
-            {
-                "n": "1",
-                "descr": "first item in comparison"
-            },
-            {
-                "n": "2",
-                "descr": "second item in comparison, usually prepositional"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contrast.01",
+    "roleset_name": "point out differences, measure of difference",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making comparison",
+        "descr_trans": "实体进行比较"
+      },
+      {
+        "n": "1",
+        "descr": "first item in comparison",
+        "descr_trans": "第一项比较"
+      },
+      {
+        "n": "2",
+        "descr": "second item in comparison, usually prepositional",
+        "descr_trans": "比较中的第二项，通常是介词"
+      }
+    ],
+    "roleset_name_trans": "指出差异，衡量差异"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beard.01",
-        "roleset_name": "border",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first locale"
-            },
-            {
-                "n": "1",
-                "descr": "second locale"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beard.02",
-        "roleset_name": "furnish with a beard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, bearder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity given beard"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beard.01",
+    "roleset_name": "border",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first locale",
+        "descr_trans": "第一个语言环境"
+      },
+      {
+        "n": "1",
+        "descr": "second locale",
+        "descr_trans": "第二个语言环境"
+      }
+    ],
+    "roleset_name_trans": "边界"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beard.02",
+    "roleset_name": "furnish with a beard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, bearder",
+        "descr_trans": "代理人、胡须"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity given beard",
+        "descr_trans": "病人，被赋予胡须的实体"
+      }
+    ],
+    "roleset_name_trans": "留着胡子"
+  }
 ]

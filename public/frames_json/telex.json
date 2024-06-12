@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "telex.01",
-        "roleset_name": "telex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "telexer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing telexed"
-            },
-            {
-                "n": "2",
-                "descr": "sent to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "telex.01",
+    "roleset_name": "telex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "telexer, agent",
+        "descr_trans": "电传员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing telexed",
+        "descr_trans": "电传的事情"
+      },
+      {
+        "n": "2",
+        "descr": "sent to, recipient",
+        "descr_trans": "发送至、收件人"
+      }
+    ],
+    "roleset_name_trans": "电传"
+  }
 ]

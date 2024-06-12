@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "signify.01",
-        "roleset_name": "denote, mean, stand for, be indicative of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity holding meaning, signaling"
-            },
-            {
-                "n": "1",
-                "descr": "what arg0 signifies, means"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "significant.02",
-        "roleset_name": "notable in size or importance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is notable"
-            },
-            {
-                "n": "2",
-                "descr": "cause or reason of notability. ONLY IN USE FOR THYME"
-            },
-            {
-                "n": "3",
-                "descr": "notable for whom or what; topic. ONLY IN USE FOR THYME"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "signify.01",
+    "roleset_name": "denote, mean, stand for, be indicative of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity holding meaning, signaling",
+        "descr_trans": "实体持有意义、信号"
+      },
+      {
+        "n": "1",
+        "descr": "what arg0 signifies, means",
+        "descr_trans": "arg0 表示什么意思"
+      }
+    ],
+    "roleset_name_trans": "表示，意味着，代表，表明"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "significant.02",
+    "roleset_name": "notable in size or importance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is notable",
+        "descr_trans": "值得注意的事情"
+      },
+      {
+        "n": "2",
+        "descr": "cause or reason of notability. ONLY IN USE FOR THYME",
+        "descr_trans": "引起关注的原因或原因。仅用于百里香"
+      },
+      {
+        "n": "3",
+        "descr": "notable for whom or what; topic. ONLY IN USE FOR THYME",
+        "descr_trans": "因谁或什么事而引人注目；话题。仅用于百里香"
+      }
+    ],
+    "roleset_name_trans": "规模或重要性显着"
+  }
 ]

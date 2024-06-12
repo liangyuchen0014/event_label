@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tempt.01",
-        "roleset_name": "tempt, entice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, tempter"
-            },
-            {
-                "n": "1",
-                "descr": "patient, tempted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, tempted with or by"
-            },
-            {
-                "n": "3",
-                "descr": "induced action of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tempt.01",
+    "roleset_name": "tempt, entice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, tempter",
+        "descr_trans": "代理人、诱惑者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, tempted",
+        "descr_trans": "耐心，受诱惑"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, tempted with or by",
+        "descr_trans": "仪器，受到或被诱惑"
+      },
+      {
+        "n": "3",
+        "descr": "induced action of arg1",
+        "descr_trans": "arg1 的诱导作用"
+      }
+    ],
+    "roleset_name_trans": "诱惑，引诱"
+  }
 ]

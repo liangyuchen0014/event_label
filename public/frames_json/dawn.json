@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dawn.01",
-        "roleset_name": "to become known",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming known"
-            },
-            {
-                "n": "2",
-                "descr": "experiencer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dawn.02",
-        "roleset_name": "to begin to become light in the morning, an opening time period",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "day dawning, thing beginning"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dawn.01",
+    "roleset_name": "to become known",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming known",
+        "descr_trans": "事情变得众所周知"
+      },
+      {
+        "n": "2",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      }
+    ],
+    "roleset_name_trans": "出名"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dawn.02",
+    "roleset_name": "to begin to become light in the morning, an opening time period",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "day dawning, thing beginning",
+        "descr_trans": "天亮，事情开始"
+      }
+    ],
+    "roleset_name_trans": "早晨开始天亮，一个开放的时间段"
+  }
 ]

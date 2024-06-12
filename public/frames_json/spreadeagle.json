@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spreadeagle.01",
-        "roleset_name": "stretch out or over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stretched out entity"
-            },
-            {
-                "n": "1",
-                "descr": "thing spread out"
-            },
-            {
-                "n": "2",
-                "descr": "stretched over"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spreadeagle.02",
-        "roleset_name": "stand with arms and legs stretched out",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person spead-eagled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spreadeagle.01",
+    "roleset_name": "stretch out or over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stretched out entity",
+        "descr_trans": "实体延伸的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing spread out",
+        "descr_trans": "事情散开"
+      },
+      {
+        "n": "2",
+        "descr": "stretched over",
+        "descr_trans": "伸过"
+      }
+    ],
+    "roleset_name_trans": "伸展或超过"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spreadeagle.02",
+    "roleset_name": "stand with arms and legs stretched out",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person spead-eagled",
+        "descr_trans": "人张开双臂"
+      }
+    ],
+    "roleset_name_trans": "站立，手臂和腿伸直"
+  }
 ]

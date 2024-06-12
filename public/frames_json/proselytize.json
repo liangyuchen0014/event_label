@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proselytize.01",
-        "roleset_name": "convert",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "proselytizer"
-            },
-            {
-                "n": "1",
-                "descr": "proselytized"
-            },
-            {
-                "n": "2",
-                "descr": "new faith, party, institution, or cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proselytize.01",
+    "roleset_name": "convert",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "proselytizer",
+        "descr_trans": "传教者"
+      },
+      {
+        "n": "1",
+        "descr": "proselytized",
+        "descr_trans": "被传教的"
+      },
+      {
+        "n": "2",
+        "descr": "new faith, party, institution, or cause",
+        "descr_trans": "新的信仰、政党、机构或事业"
+      }
+    ],
+    "roleset_name_trans": "转变"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "salpingectomy.01",
-        "roleset_name": "removal of the Fallopian tube(s)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "salpingectomy.01",
+    "roleset_name": "removal of the Fallopian tube(s)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "removed",
+        "descr_trans": "已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "切除输卵管"
+  }
 ]

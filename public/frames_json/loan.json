@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "loan.01",
-        "roleset_name": "give temporarily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "loan_out.02",
-        "roleset_name": "like loan.01 but without stated recipient",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "loan.01",
+    "roleset_name": "give temporarily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "暂时给予"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "loan_out.02",
+    "roleset_name": "like loan.01 but without stated recipient",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      }
+    ],
+    "roleset_name_trans": "类似于贷款.01，但没有指定收件人"
+  }
 ]

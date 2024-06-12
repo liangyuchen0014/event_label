@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excoriate.01",
-        "roleset_name": "denounce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "grounds, reason"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "excoriate.02",
-        "roleset_name": "damage or remove part of a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, damager"
-            },
-            {
-                "n": "1",
-                "descr": "thing damaged"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excoriate.01",
+    "roleset_name": "denounce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "grounds, reason",
+        "descr_trans": "理由，理由"
+      }
+    ],
+    "roleset_name_trans": "声讨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "excoriate.02",
+    "roleset_name": "damage or remove part of a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, damager",
+        "descr_trans": "代理人、破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing damaged",
+        "descr_trans": "东西损坏了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "损坏或去除部分表面"
+  }
 ]

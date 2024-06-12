@@ -1,88 +1,105 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tear.01",
-        "roleset_name": "to pull apart, separate forcefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller, tearer, separator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing torn"
-            },
-            {
-                "n": "2",
-                "descr": "torn between/from/out"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tear.02",
-        "roleset_name": "to rush, move hurriedly, rushing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity rushing"
-            },
-            {
-                "n": "1",
-                "descr": "direction/location"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tear.03",
-        "roleset_name": "to fill with tears, filling with tears (crying)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity filled with tears"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tear_up.04",
-        "roleset_name": "to tear to pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tearer"
-            },
-            {
-                "n": "1",
-                "descr": "entity torn"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "tear_down.05",
-        "roleset_name": "to demolish, take apart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "demolisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity torn"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "teary.06",
-        "roleset_name": "to fill with tears",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity filled with tears"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tear.01",
+    "roleset_name": "to pull apart, separate forcefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller, tearer, separator, agent",
+        "descr_trans": "拉拔器、撕裂器、分离器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing torn",
+        "descr_trans": "东西撕裂了"
+      },
+      {
+        "n": "2",
+        "descr": "torn between/from/out",
+        "descr_trans": "在/从/出之间撕裂"
+      }
+    ],
+    "roleset_name_trans": "用力拉开，分开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tear.02",
+    "roleset_name": "to rush, move hurriedly, rushing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity rushing",
+        "descr_trans": "实体冲"
+      },
+      {
+        "n": "1",
+        "descr": "direction/location",
+        "descr_trans": "方向/位置"
+      }
+    ],
+    "roleset_name_trans": "匆忙，匆忙，匆忙"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tear.03",
+    "roleset_name": "to fill with tears, filling with tears (crying)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity filled with tears",
+        "descr_trans": "充满泪水的实体"
+      }
+    ],
+    "roleset_name_trans": "充满泪水，充满泪水（哭泣）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tear_up.04",
+    "roleset_name": "to tear to pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tearer",
+        "descr_trans": "撕裂者"
+      },
+      {
+        "n": "1",
+        "descr": "entity torn",
+        "descr_trans": "实体撕裂"
+      }
+    ],
+    "roleset_name_trans": "撕成碎片"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "tear_down.05",
+    "roleset_name": "to demolish, take apart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "demolisher, agent",
+        "descr_trans": "拆迁人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity torn",
+        "descr_trans": "实体撕裂"
+      }
+    ],
+    "roleset_name_trans": "拆除，拆开"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "teary.06",
+    "roleset_name": "to fill with tears",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity filled with tears",
+        "descr_trans": "充满泪水的实体"
+      }
+    ],
+    "roleset_name_trans": "充满泪水"
+  }
 ]

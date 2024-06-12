@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weather.01",
-        "roleset_name": "live through rocky situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "survivor"
-            },
-            {
-                "n": "1",
-                "descr": "situation"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weather.02",
-        "roleset_name": "age, break down due to exposure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing breaking down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weather.01",
+    "roleset_name": "live through rocky situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "survivor",
+        "descr_trans": "幸存者"
+      },
+      {
+        "n": "1",
+        "descr": "situation",
+        "descr_trans": "情况"
+      }
+    ],
+    "roleset_name_trans": "度过艰难的处境"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weather.02",
+    "roleset_name": "age, break down due to exposure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing breaking down",
+        "descr_trans": "东西坏了"
+      }
+    ],
+    "roleset_name_trans": "年龄，因暴露而分解"
+  }
 ]

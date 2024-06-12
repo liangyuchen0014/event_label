@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chortle.01",
-        "roleset_name": "chuckle and snort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chortler (the jabberwocky)"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, theme"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "chortle.02",
-        "roleset_name": "move while chortling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chortler"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chortle.01",
+    "roleset_name": "chuckle and snort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chortler (the jabberwocky)",
+        "descr_trans": "笑声（jabberwocky）"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, theme",
+        "descr_trans": "话语、主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "轻笑和哼哼"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "chortle.02",
+    "roleset_name": "move while chortling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chortler",
+        "descr_trans": "咯咯地笑"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "边走边笑"
+  }
 ]

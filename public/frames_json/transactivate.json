@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transactivate.01",
-        "roleset_name": "stimulate the transcription of (a gene in a host cell) by binding to DNA",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of transactivation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing transactivated, gene"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, protein, transactivator"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transactivate.01",
+    "roleset_name": "stimulate the transcription of (a gene in a host cell) by binding to DNA",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of transactivation (e.g. scientist)",
+        "descr_trans": "反式激活的有意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing transactivated, gene",
+        "descr_trans": "反式激活的东西，基因"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, protein, transactivator",
+        "descr_trans": "仪器、蛋白质、反式激活子"
+      }
+    ],
+    "roleset_name_trans": "通过与 DNA 结合刺激（宿主细胞中的基因）的转录"
+  }
 ]

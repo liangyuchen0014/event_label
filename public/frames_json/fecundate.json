@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fecundate.01",
-        "roleset_name": "inseminate/pollenate, cause to be fruitful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity inseminated"
-            },
-            {
-                "n": "2",
-                "descr": "male germ-element"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fecundate.01",
+    "roleset_name": "inseminate/pollenate, cause to be fruitful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity inseminated",
+        "descr_trans": "实体受精"
+      },
+      {
+        "n": "2",
+        "descr": "male germ-element",
+        "descr_trans": "雄性生殖元件"
+      }
+    ],
+    "roleset_name_trans": "授精/授粉，导致结果子"
+  }
 ]

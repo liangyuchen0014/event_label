@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underwrite.01",
-        "roleset_name": "provide money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "financ(i)er"
-            },
-            {
-                "n": "1",
-                "descr": "thing financed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underwrite.01",
+    "roleset_name": "provide money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "financ(i)er",
+        "descr_trans": "金融家。"
+      },
+      {
+        "n": "1",
+        "descr": "thing financed",
+        "descr_trans": "资助的事物"
+      }
+    ],
+    "roleset_name_trans": "提供金钱"
+  }
 ]

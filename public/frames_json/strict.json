@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strict.01",
-        "roleset_name": "rigidly enforcing the rules",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "enforcer"
-            },
-            {
-                "n": "1",
-                "descr": "rules enforced"
-            },
-            {
-                "n": "2",
-                "descr": "entity subject to the rules, enforcement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strict.01",
+    "roleset_name": "rigidly enforcing the rules",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "enforcer",
+        "descr_trans": "执行者"
+      },
+      {
+        "n": "1",
+        "descr": "rules enforced",
+        "descr_trans": "规则执行"
+      },
+      {
+        "n": "2",
+        "descr": "entity subject to the rules, enforcement",
+        "descr_trans": "受规则、执行的实体"
+      }
+    ],
+    "roleset_name_trans": "严格执行规则"
+  }
 ]

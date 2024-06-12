@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jumpstart.01",
-        "roleset_name": "start a dead engine using another car's battery (etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jump-starter (agent/cause)"
-            },
-            {
-                "n": "1",
-                "descr": "car with a dead battery getting a jump"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (outside power source), if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jumpstart.01",
+    "roleset_name": "start a dead engine using another car's battery (etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jump-starter (agent/cause)",
+        "descr_trans": "启动者（代理人/原因）"
+      },
+      {
+        "n": "1",
+        "descr": "car with a dead battery getting a jump",
+        "descr_trans": "电池没电的汽车跳跃"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (outside power source), if separate from arg0",
+        "descr_trans": "仪器（外部电源），如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "使用另一辆车的电池启动熄火的发动机（等）"
+  }
 ]

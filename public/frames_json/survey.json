@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "survey.01",
-        "roleset_name": "poll, examine, research, to examine or poll",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "entity surveyed"
-            },
-            {
-                "n": "2",
-                "descr": "surveyed about"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "survey.02",
-        "roleset_name": "inspect/measure/assess property",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surveyor"
-            },
-            {
-                "n": "1",
-                "descr": "location surveyed"
-            },
-            {
-                "n": "2",
-                "descr": "in search of"
-            },
-            {
-                "n": "3",
-                "descr": "value of the measurement/assessment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "survey.01",
+    "roleset_name": "poll, examine, research, to examine or poll",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "entity surveyed",
+        "descr_trans": "接受调查的实体"
+      },
+      {
+        "n": "2",
+        "descr": "surveyed about",
+        "descr_trans": "调查了关于"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "民意调查、检查、研究、检查或民意调查"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "survey.02",
+    "roleset_name": "inspect/measure/assess property",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surveyor",
+        "descr_trans": "测量员"
+      },
+      {
+        "n": "1",
+        "descr": "location surveyed",
+        "descr_trans": "调查地点"
+      },
+      {
+        "n": "2",
+        "descr": "in search of",
+        "descr_trans": "寻找"
+      },
+      {
+        "n": "3",
+        "descr": "value of the measurement/assessment",
+        "descr_trans": "测量/评估的价值"
+      }
+    ],
+    "roleset_name_trans": "检查/测量/评估财产"
+  }
 ]

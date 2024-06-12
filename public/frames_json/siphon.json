@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "siphon.01",
-        "roleset_name": "to convey through or as if through a siphon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conveyor"
-            },
-            {
-                "n": "1",
-                "descr": "entity siphoned"
-            },
-            {
-                "n": "2",
-                "descr": "siphoned from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "siphon_off.02",
-        "roleset_name": "to convey through or as if through a siphon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conveyor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity siphoned"
-            },
-            {
-                "n": "2",
-                "descr": "siphoned from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "siphon.01",
+    "roleset_name": "to convey through or as if through a siphon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conveyor",
+        "descr_trans": "输送带"
+      },
+      {
+        "n": "1",
+        "descr": "entity siphoned",
+        "descr_trans": "实体虹吸"
+      },
+      {
+        "n": "2",
+        "descr": "siphoned from",
+        "descr_trans": "虹吸自"
+      }
+    ],
+    "roleset_name_trans": "通过或仿佛通过虹吸管输送"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "siphon_off.02",
+    "roleset_name": "to convey through or as if through a siphon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conveyor, agent",
+        "descr_trans": "输送机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity siphoned",
+        "descr_trans": "实体虹吸"
+      },
+      {
+        "n": "2",
+        "descr": "siphoned from",
+        "descr_trans": "虹吸自"
+      }
+    ],
+    "roleset_name_trans": "通过或仿佛通过虹吸管输送"
+  }
 ]

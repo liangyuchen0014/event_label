@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confound.01",
-        "roleset_name": "confuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, confounder"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, entity confused"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confound.01",
+    "roleset_name": "confuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, confounder",
+        "descr_trans": "原因、混杂因素"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, entity confused",
+        "descr_trans": "体验者，实体困惑"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "迷惑"
+  }
 ]

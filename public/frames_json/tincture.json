@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tincture.01",
-        "roleset_name": "(cause to) tint, tinge, color lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing tinctured, colored"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tincture.01",
+    "roleset_name": "(cause to) tint, tinge, color lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing tinctured, colored",
+        "descr_trans": "酊的东西，有颜色的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg 1",
+        "descr_trans": "arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "（导致）淡色、色调、颜色"
+  }
 ]

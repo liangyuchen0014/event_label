@@ -1,38 +1,45 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "become.01",
-        "roleset_name": "change of state",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity changing"
-            },
-            {
-                "n": "2",
-                "descr": "new state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "become.02",
-        "roleset_name": "be attractive or well suited",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "appealing or fetching thing"
-            },
-            {
-                "n": "2",
-                "descr": "who or what it is become on/for?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "become.03",
-        "roleset_name": "auxiliary",
-        "roles": []
-    }
+  {
+    "uid": 1,
+    "roleset_id": "become.01",
+    "roleset_name": "change of state",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity changing",
+        "descr_trans": "实体改变"
+      },
+      {
+        "n": "2",
+        "descr": "new state",
+        "descr_trans": "新状态"
+      }
+    ],
+    "roleset_name_trans": "状态改变"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "become.02",
+    "roleset_name": "be attractive or well suited",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "appealing or fetching thing",
+        "descr_trans": "吸引人或吸引人的东西"
+      },
+      {
+        "n": "2",
+        "descr": "who or what it is become on/for?",
+        "descr_trans": "它适用于谁或什么？"
+      }
+    ],
+    "roleset_name_trans": "有吸引力或非常适合"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "become.03",
+    "roleset_name": "auxiliary",
+    "roles": [],
+    "roleset_name_trans": "辅助的"
+  }
 ]

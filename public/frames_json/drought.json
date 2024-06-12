@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drought.01",
-        "roleset_name": "natural disaster: prolonged water shortage",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "water in limited supply"
-            },
-            {
-                "n": "2",
-                "descr": "duration of drought"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            },
-            {
-                "n": "5",
-                "descr": "drought rating (D1-D5 scale)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drought.01",
+    "roleset_name": "natural disaster: prolonged water shortage",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "water in limited supply",
+        "descr_trans": "水供应有限"
+      },
+      {
+        "n": "2",
+        "descr": "duration of drought",
+        "descr_trans": "干旱持续时间"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      },
+      {
+        "n": "5",
+        "descr": "drought rating (D1-D5 scale)",
+        "descr_trans": "干旱等级（D1-D5等级）"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：长期缺水"
+  }
 ]

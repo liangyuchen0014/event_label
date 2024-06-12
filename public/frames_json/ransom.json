@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ransom.01",
-        "roleset_name": "hold a captive in exchange for money, or pay for release of captive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity paying for the release of the captive"
-            },
-            {
-                "n": "1",
-                "descr": "the captive"
-            },
-            {
-                "n": "2",
-                "descr": "money demanded/paid"
-            },
-            {
-                "n": "3",
-                "descr": "kidnapper, entity paid"
-            },
-            {
-                "n": "4",
-                "descr": "terrible fate arg1 avoids via ransom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ransom.01",
+    "roleset_name": "hold a captive in exchange for money, or pay for release of captive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity paying for the release of the captive",
+        "descr_trans": "支付释放俘虏费用的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the captive",
+        "descr_trans": "俘虏"
+      },
+      {
+        "n": "2",
+        "descr": "money demanded/paid",
+        "descr_trans": "要求/支付的钱"
+      },
+      {
+        "n": "3",
+        "descr": "kidnapper, entity paid",
+        "descr_trans": "绑匪，实体付费"
+      },
+      {
+        "n": "4",
+        "descr": "terrible fate arg1 avoids via ransom",
+        "descr_trans": "arg1 通过赎金避免了可怕的命运"
+      }
+    ],
+    "roleset_name_trans": "扣押俘虏以换取金钱，或支付释放俘虏的费用"
+  }
 ]

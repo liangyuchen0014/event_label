@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rock.01",
-        "roleset_name": "tremble",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of trembling motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing trembling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rock.03",
-        "roleset_name": "party",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rocker"
-            },
-            {
-                "n": "1",
-                "descr": "inspiration; rock on to what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rock.04",
-        "roleset_name": "be hip or trendy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of trendiness"
-            },
-            {
-                "n": "1",
-                "descr": "cool thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "rock_on.02",
-        "roleset_name": "party on, wayne.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rock star"
-            },
-            {
-                "n": "1",
-                "descr": "inspiration; rock on to what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "rocky.05",
-        "roleset_name": "difficult, full of problems",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "difficult thing"
-            },
-            {
-                "n": "2",
-                "descr": "domain of difficulty, if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rock.01",
+    "roleset_name": "tremble",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of trembling motion",
+        "descr_trans": "颤抖运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing trembling",
+        "descr_trans": "东西在颤抖"
+      }
+    ],
+    "roleset_name_trans": "颤抖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rock.03",
+    "roleset_name": "party",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rocker",
+        "descr_trans": "摇杆"
+      },
+      {
+        "n": "1",
+        "descr": "inspiration; rock on to what",
+        "descr_trans": "灵感;摇滚于什么"
+      }
+    ],
+    "roleset_name_trans": "派对"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rock.04",
+    "roleset_name": "be hip or trendy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of trendiness",
+        "descr_trans": "潮流的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "cool thing",
+        "descr_trans": "很酷的事情"
+      }
+    ],
+    "roleset_name_trans": "时髦或新潮"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "rock_on.02",
+    "roleset_name": "party on, wayne.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rock star",
+        "descr_trans": "摇滚明星"
+      },
+      {
+        "n": "1",
+        "descr": "inspiration; rock on to what",
+        "descr_trans": "灵感;摇滚于什么"
+      }
+    ],
+    "roleset_name_trans": "聚会吧，韦恩。"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "rocky.05",
+    "roleset_name": "difficult, full of problems",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "difficult thing",
+        "descr_trans": "困难的事情"
+      },
+      {
+        "n": "2",
+        "descr": "domain of difficulty, if in addition to ARG1",
+        "descr_trans": "难度域，如果除了 ARG1 之外"
+      }
+    ],
+    "roleset_name_trans": "困难的，充满问题的"
+  }
 ]

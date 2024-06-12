@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "naturalize.01",
-        "roleset_name": "confer rights of citizenship, make more natural",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "government for first sense, agent for second sense"
-            },
-            {
-                "n": "1",
-                "descr": "citizen or thing naturalized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "natural.02",
-        "roleset_name": "innate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "talent, thing that is innate"
-            },
-            {
-                "n": "2",
-                "descr": "to who, beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "natural.03",
-        "roleset_name": "come from nature",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "nature born entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "naturalize.01",
+    "roleset_name": "confer rights of citizenship, make more natural",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "government for first sense, agent for second sense",
+        "descr_trans": "政府为第一感觉，代理人为第二感觉"
+      },
+      {
+        "n": "1",
+        "descr": "citizen or thing naturalized",
+        "descr_trans": "公民或归化事物"
+      }
+    ],
+    "roleset_name_trans": "赋予公民权利，使之更加自然"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "natural.02",
+    "roleset_name": "innate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "talent, thing that is innate",
+        "descr_trans": "天赋，与生俱来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "to who, beneficiary",
+        "descr_trans": "给谁，受益人"
+      }
+    ],
+    "roleset_name_trans": "先天"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "natural.03",
+    "roleset_name": "come from nature",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "nature born entity",
+        "descr_trans": "自然诞生的实体"
+      }
+    ],
+    "roleset_name_trans": "来自自然"
+  }
 ]

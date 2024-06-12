@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reserve.01",
-        "roleset_name": "hold back, set aside",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reserver, holder back"
-            },
-            {
-                "n": "1",
-                "descr": "thing reserved"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reserved.02",
-        "roleset_name": "reticent, stoic, using self-restraint",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stoic one"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "reservation.03",
-        "roleset_name": "misgiving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having misgivings"
-            },
-            {
-                "n": "1",
-                "descr": "about what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reserve.01",
+    "roleset_name": "hold back, set aside",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reserver, holder back",
+        "descr_trans": "保留，保留"
+      },
+      {
+        "n": "1",
+        "descr": "thing reserved",
+        "descr_trans": "保留的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "保留, 搁置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reserved.02",
+    "roleset_name": "reticent, stoic, using self-restraint",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stoic one",
+        "descr_trans": "坚忍的一"
+      }
+    ],
+    "roleset_name_trans": "沉默寡言、坚忍、自我克制"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "reservation.03",
+    "roleset_name": "misgiving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having misgivings",
+        "descr_trans": "有疑虑的实体"
+      },
+      {
+        "n": "1",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "疑虑"
+  }
 ]

@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "missell.01",
-        "roleset_name": "sell misleadingly or fraudulently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "thing sold"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            },
-            {
-                "n": "5",
-                "descr": "grounds of deception under which arg1 is sold"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "missell.01",
+    "roleset_name": "sell misleadingly or fraudulently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "thing sold",
+        "descr_trans": "东西卖了"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "5",
+        "descr": "grounds of deception under which arg1 is sold",
+        "descr_trans": "出售 arg1 的欺骗理由"
+      }
+    ],
+    "roleset_name_trans": "误导性或欺诈性销售"
+  }
 ]

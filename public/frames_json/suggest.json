@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suggest.01",
-        "roleset_name": "say, giving of advice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance (suggestion)"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suggest.02",
-        "roleset_name": "sexually suggestive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sexually suggestive entity"
-            },
-            {
-                "n": "1",
-                "descr": "explicit mention of sexual suggestion"
-            },
-            {
-                "n": "2",
-                "descr": "suggested to; observer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suggest.01",
+    "roleset_name": "say, giving of advice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance (suggestion)",
+        "descr_trans": "发言（建议）"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说，提供建议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suggest.02",
+    "roleset_name": "sexually suggestive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sexually suggestive entity",
+        "descr_trans": "性暗示实体"
+      },
+      {
+        "n": "1",
+        "descr": "explicit mention of sexual suggestion",
+        "descr_trans": "明确提及性暗示"
+      },
+      {
+        "n": "2",
+        "descr": "suggested to; observer",
+        "descr_trans": "建议；观察者"
+      }
+    ],
+    "roleset_name_trans": "性暗示"
+  }
 ]

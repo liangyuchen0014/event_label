@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "raincheck.01",
-        "roleset_name": "postpone current plans",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity postponing"
-            },
-            {
-                "n": "1",
-                "descr": "plans postoned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "raincheck.01",
+    "roleset_name": "postpone current plans",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity postponing",
+        "descr_trans": "实体推迟"
+      },
+      {
+        "n": "1",
+        "descr": "plans postoned",
+        "descr_trans": "计划推迟"
+      }
+    ],
+    "roleset_name_trans": "推迟当前计划"
+  }
 ]

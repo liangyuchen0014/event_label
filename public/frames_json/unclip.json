@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unclip.01",
-        "roleset_name": "unclip",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unclipper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unclipped, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unclipped from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unclip.01",
+    "roleset_name": "unclip",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unclipper, agent",
+        "descr_trans": "解锁器, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unclipped, patient",
+        "descr_trans": "东西未夹住，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unclipped from, source",
+        "descr_trans": "未剪辑，来源"
+      }
+    ],
+    "roleset_name_trans": "松开"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "titrate.01",
-        "roleset_name": "measure the amount of a constituent in a solution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Measurer (chemist, doctor)"
-            },
-            {
-                "n": "1",
-                "descr": "Chemical/Drugs"
-            },
-            {
-                "n": "2",
-                "descr": "Starting point before titration"
-            },
-            {
-                "n": "3",
-                "descr": "Endpoint after titration"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "titrate.01",
+    "roleset_name": "measure the amount of a constituent in a solution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Measurer (chemist, doctor)",
+        "descr_trans": "测量员（化学家、医生）"
+      },
+      {
+        "n": "1",
+        "descr": "Chemical/Drugs",
+        "descr_trans": "化学品/药品"
+      },
+      {
+        "n": "2",
+        "descr": "Starting point before titration",
+        "descr_trans": "滴定前的起始点"
+      },
+      {
+        "n": "3",
+        "descr": "Endpoint after titration",
+        "descr_trans": "滴定后终点"
+      }
+    ],
+    "roleset_name_trans": "测量溶液中成分的量"
+  }
 ]

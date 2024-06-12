@@ -1,172 +1,207 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fill.01",
-        "roleset_name": "to make or become full, containing, up to capacity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fill.06",
-        "roleset_name": "fulfill, satisfy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "satisfier, (order) filler"
-            },
-            {
-                "n": "1",
-                "descr": "order, thing satisfied"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fill_up.02",
-        "roleset_name": "fill up: to make or become full",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of fullness"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fill_out.03",
-        "roleset_name": "fill out: to complete, fill in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, poor schmuck with a pen"
-            },
-            {
-                "n": "1",
-                "descr": "forms to be filled out"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "fill_out.04",
-        "roleset_name": "fill out: bring to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of completion"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming complete"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "fill_in.05",
-        "roleset_name": "fill in, to complete",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, poor schmuck with a pen"
-            },
-            {
-                "n": "1",
-                "descr": "forms to be filled in"
-            },
-            {
-                "n": "2",
-                "descr": "information put in"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "fill_in.07",
-        "roleset_name": "fill in: subsitute",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person, thing acting as something else"
-            },
-            {
-                "n": "2",
-                "descr": "thing being substituted"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "fill_in.08",
-        "roleset_name": "provide with info/details",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "info giver"
-            },
-            {
-                "n": "1",
-                "descr": "entity filled in"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "full.09",
-        "roleset_name": "complete, contain the maximum possible amount",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "complete thing, container"
-            },
-            {
-                "n": "2",
-                "descr": "thing contained, what you are full of"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "full.10",
-        "roleset_name": "conceited",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "conceited entity"
-            },
-            {
-                "n": "2",
-                "descr": "self-referential (of _self)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fill.01",
+    "roleset_name": "to make or become full, containing, up to capacity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "使或变得充满、包含、达到容量"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fill.06",
+    "roleset_name": "fulfill, satisfy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "satisfier, (order) filler",
+        "descr_trans": "满足者，（订单）填充者"
+      },
+      {
+        "n": "1",
+        "descr": "order, thing satisfied",
+        "descr_trans": "订单，满意的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "满足，满足"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fill_up.02",
+    "roleset_name": "fill up: to make or become full",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of fullness",
+        "descr_trans": "代理，饱足的原因"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "填满：使或变得充满"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fill_out.03",
+    "roleset_name": "fill out: to complete, fill in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, poor schmuck with a pen",
+        "descr_trans": "特工，拿着笔的可怜笨蛋"
+      },
+      {
+        "n": "1",
+        "descr": "forms to be filled out",
+        "descr_trans": "需要填写的表格"
+      }
+    ],
+    "roleset_name_trans": "fill out：完成，填写"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "fill_out.04",
+    "roleset_name": "fill out: bring to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of completion",
+        "descr_trans": "完成的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming complete",
+        "descr_trans": "事情变得完整"
+      }
+    ],
+    "roleset_name_trans": "填写：完成"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "fill_in.05",
+    "roleset_name": "fill in, to complete",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, poor schmuck with a pen",
+        "descr_trans": "特工，拿着笔的可怜笨蛋"
+      },
+      {
+        "n": "1",
+        "descr": "forms to be filled in",
+        "descr_trans": "需要填写的表格"
+      },
+      {
+        "n": "2",
+        "descr": "information put in",
+        "descr_trans": "信息投入"
+      }
+    ],
+    "roleset_name_trans": "填写，完成"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "fill_in.07",
+    "roleset_name": "fill in: subsitute",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person, thing acting as something else",
+        "descr_trans": "人、事物充当其他事物"
+      },
+      {
+        "n": "2",
+        "descr": "thing being substituted",
+        "descr_trans": "被替代的事物"
+      }
+    ],
+    "roleset_name_trans": "填写： 替代"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "fill_in.08",
+    "roleset_name": "provide with info/details",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "info giver",
+        "descr_trans": "信息提供"
+      },
+      {
+        "n": "1",
+        "descr": "entity filled in",
+        "descr_trans": "实体填写"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "提供信息/详细信息"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "full.09",
+    "roleset_name": "complete, contain the maximum possible amount",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "complete thing, container",
+        "descr_trans": "完整的东西，容器"
+      },
+      {
+        "n": "2",
+        "descr": "thing contained, what you are full of",
+        "descr_trans": "所包含的东西，你充满的东西"
+      }
+    ],
+    "roleset_name_trans": "完整，包含尽可能多的数量"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "full.10",
+    "roleset_name": "conceited",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "conceited entity",
+        "descr_trans": "自负的实体"
+      },
+      {
+        "n": "2",
+        "descr": "self-referential (of _self)",
+        "descr_trans": "自我参照（_self）"
+      }
+    ],
+    "roleset_name_trans": "自负"
+  }
 ]

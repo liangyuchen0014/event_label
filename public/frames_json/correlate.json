@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "correlate.01",
-        "roleset_name": "to be mutually related",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of relation"
-            },
-            {
-                "n": "1",
-                "descr": "topic, first entity in relation"
-            },
-            {
-                "n": "2",
-                "descr": "with what? second entity in relation"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "autocorrelate.02",
-        "roleset_name": "cross-correlation of something (a signal?) with itself",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of correlation"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) instances correlated"
-            },
-            {
-                "n": "2",
-                "descr": "second instance correlated"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "crosscorrelate.03",
-        "roleset_name": "compare one set of data against another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of correlation"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) set correlated"
-            },
-            {
-                "n": "2",
-                "descr": "second set"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "correlate.01",
+    "roleset_name": "to be mutually related",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of relation",
+        "descr_trans": "关系的起因"
+      },
+      {
+        "n": "1",
+        "descr": "topic, first entity in relation",
+        "descr_trans": "主题，相关的第一个实体"
+      },
+      {
+        "n": "2",
+        "descr": "with what? second entity in relation",
+        "descr_trans": "什么？相关的第二个实体"
+      }
+    ],
+    "roleset_name_trans": "相互关联"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "autocorrelate.02",
+    "roleset_name": "cross-correlation of something (a signal?) with itself",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of correlation",
+        "descr_trans": "相关性的动因/起因"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) instances correlated",
+        "descr_trans": "第一个（或所有）实例相关"
+      },
+      {
+        "n": "2",
+        "descr": "second instance correlated",
+        "descr_trans": "二审相关"
+      }
+    ],
+    "roleset_name_trans": "某物（信号？）与其自身的互相关"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "crosscorrelate.03",
+    "roleset_name": "compare one set of data against another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of correlation",
+        "descr_trans": "相关性的动因/起因"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) set correlated",
+        "descr_trans": "第一个（或所有）集合相关"
+      },
+      {
+        "n": "2",
+        "descr": "second set",
+        "descr_trans": "第二组"
+      }
+    ],
+    "roleset_name_trans": "将一组数据与另一组数据进行比较"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enshrine.01",
-        "roleset_name": "hold sacred, enclose in shrine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent who enshrines"
-            },
-            {
-                "n": "1",
-                "descr": "entity enshrined"
-            },
-            {
-                "n": "2",
-                "descr": "shrine itself, enshrined in what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enshrine.01",
+    "roleset_name": "hold sacred, enclose in shrine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent who enshrines",
+        "descr_trans": "供奉的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity enshrined",
+        "descr_trans": "供奉的实体"
+      },
+      {
+        "n": "2",
+        "descr": "shrine itself, enshrined in what?",
+        "descr_trans": "神社本身，供奉着什么？"
+      }
+    ],
+    "roleset_name_trans": "奉为圣物，封于神社"
+  }
 ]

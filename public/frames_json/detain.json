@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "detain.01",
-        "roleset_name": "to keep in custody or delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "police, etc."
-            },
-            {
-                "n": "1",
-                "descr": "entity detained"
-            },
-            {
-                "n": "2",
-                "descr": "detained for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "detain.01",
+    "roleset_name": "to keep in custody or delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "police, etc.",
+        "descr_trans": "警察等"
+      },
+      {
+        "n": "1",
+        "descr": "entity detained",
+        "descr_trans": "被拘留的实体"
+      },
+      {
+        "n": "2",
+        "descr": "detained for what?",
+        "descr_trans": "因什么被拘留？"
+      }
+    ],
+    "roleset_name_trans": "拘留或拖延"
+  }
 ]

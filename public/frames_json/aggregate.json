@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aggregate.01",
-        "roleset_name": "to bring together, collect into one sum, mass, or body",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity aggregating something"
-            },
-            {
-                "n": "1",
-                "descr": "thing/stuff aggregated"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, descriptor of state where arg1 aggregates"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aggregate.01",
+    "roleset_name": "to bring together, collect into one sum, mass, or body",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity aggregating something",
+        "descr_trans": "聚合某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing/stuff aggregated",
+        "descr_trans": "事物/东西聚合"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, descriptor of state where arg1 aggregates",
+        "descr_trans": "属性，arg1 聚合的状态描述符"
+      }
+    ],
+    "roleset_name_trans": "聚集在一起，聚集成一个整体、一团或一团"
+  }
 ]

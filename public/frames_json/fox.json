@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fox.01",
-        "roleset_name": "deceive or confuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "confounding factor"
-            },
-            {
-                "n": "1",
-                "descr": "confused entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fox.02",
-        "roleset_name": "become discolored",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "discolored item"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fox.01",
+    "roleset_name": "deceive or confuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "confounding factor",
+        "descr_trans": "混杂因素"
+      },
+      {
+        "n": "1",
+        "descr": "confused entity",
+        "descr_trans": "混乱的实体"
+      }
+    ],
+    "roleset_name_trans": "欺骗或迷惑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fox.02",
+    "roleset_name": "become discolored",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "discolored item",
+        "descr_trans": "变色物品"
+      }
+    ],
+    "roleset_name_trans": "变色"
+  }
 ]

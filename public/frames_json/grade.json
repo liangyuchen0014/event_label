@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grade.01",
-        "roleset_name": "assign a grade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grader"
-            },
-            {
-                "n": "1",
-                "descr": "thing graded"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "grade.02",
-        "roleset_name": "(cause to) have gradation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing gradation"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming gradiant"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grade.01",
+    "roleset_name": "assign a grade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grader",
+        "descr_trans": "平地机"
+      },
+      {
+        "n": "1",
+        "descr": "thing graded",
+        "descr_trans": "分级的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "指定一个等级"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "grade.02",
+    "roleset_name": "(cause to) have gradation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing gradation",
+        "descr_trans": "代理，引起分级的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming gradiant",
+        "descr_trans": "事物变得有渐变"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "（导致）有等级"
+  }
 ]

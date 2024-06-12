@@ -1,531 +1,638 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "go.01",
-        "roleset_name": "motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion/goer"
-            },
-            {
-                "n": "2",
-                "descr": "extent"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "go.02",
-        "roleset_name": "self-directed motion, disapear or go away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "goer"
-            },
-            {
-                "n": "1",
-                "descr": "journey"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "go.03",
-        "roleset_name": "pursue (often with after)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pursuer"
-            },
-            {
-                "n": "1",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "go.04",
-        "roleset_name": "modal / future",
-        "roles": []
-    },
-    {
-        "uid": 5,
-        "roleset_id": "go.05",
-        "roleset_name": "serial verb construction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject"
-            },
-            {
-                "n": "1",
-                "descr": "subsequent action"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "go.06",
-        "roleset_name": "proceed (with a variety of prepositions)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity proceeding"
-            },
-            {
-                "n": "1",
-                "descr": "project"
-            },
-            {
-                "n": "2",
-                "descr": "direction, usually a particle"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "go.07",
-        "roleset_name": "sell",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            },
-            {
-                "n": "3",
-                "descr": "price"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "go.08",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "object"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "with reference to what"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "go.09",
-        "roleset_name": "operate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing going"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "go.10",
-        "roleset_name": "benefactive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing going"
-            },
-            {
-                "n": "2",
-                "descr": "receiver"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "go.11",
-        "roleset_name": "serve",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing going"
-            },
-            {
-                "n": "2",
-                "descr": "purpose"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "go.12",
-        "roleset_name": "experience, undergo",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "experienced"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "go.14",
-        "roleset_name": "be left",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing left"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "go.21",
-        "roleset_name": "have on your side",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing on your side, supporter"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary, supported"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "go.22",
-        "roleset_name": "go with, match, accompany",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "what you get for free, matching thing"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "go.23",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "go.24",
-        "roleset_name": "existential",
-        "roles": [
-            {
-                "n": "m",
-                "descr": "here, there"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: you"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "go.29",
-        "roleset_name": "potty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "potty-er"
-            },
-            {
-                "n": "1",
-                "descr": "duty done"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "go.31",
-        "roleset_name": "an attempt, effort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity trying something"
-            },
-            {
-                "n": "1",
-                "descr": "Thing attempted"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "go.32",
-        "roleset_name": "attack or insult",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "attacked, insulted entity"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "go.35",
-        "roleset_name": "spatial positioning; belong in a spot",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that exists in space"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            },
-            {
-                "n": "3",
-                "descr": "if arg1 spans a space, first boundary (source)"
-            },
-            {
-                "n": "4",
-                "descr": "if arg1 spans a space, second boundary (goal)"
-            },
-            {
-                "n": "5",
-                "descr": "orientation"
-            },
-            {
-                "n": "6",
-                "descr": "if arg1 is 3D, third boundary for third dimension"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "go_on.15",
-        "roleset_name": "go on: occur, continue",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing/entity continuing/ occuring"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "go_on.25",
-        "roleset_name": "continue speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener, audience spoken to"
-            }
-        ]
-    },
-    {
-        "uid": 24,
-        "roleset_id": "go_off.16",
-        "roleset_name": "become on",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming on, exploding"
-            }
-        ]
-    },
-    {
-        "uid": 25,
-        "roleset_id": "go_out.17",
-        "roleset_name": "leave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "place left"
-            }
-        ]
-    },
-    {
-        "uid": 26,
-        "roleset_id": "go_out.18",
-        "roleset_name": "extinguish",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being extinguished"
-            }
-        ]
-    },
-    {
-        "uid": 27,
-        "roleset_id": "go_out.34",
-        "roleset_name": "date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "First dater"
-            },
-            {
-                "n": "1",
-                "descr": "Second dater"
-            }
-        ]
-    },
-    {
-        "uid": 28,
-        "roleset_id": "go_back.19",
-        "roleset_name": "return to being",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing going back to previous state"
-            },
-            {
-                "n": "2",
-                "descr": "previous state"
-            }
-        ]
-    },
-    {
-        "uid": 29,
-        "roleset_id": "go_through.20",
-        "roleset_name": "come to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing coming to completion"
-            }
-        ]
-    },
-    {
-        "uid": 30,
-        "roleset_id": "go_over.26",
-        "roleset_name": "review, discuss, analyze, explain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reviewer"
-            },
-            {
-                "n": "1",
-                "descr": "thing reviewed, gone over"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            },
-            {
-                "n": "m",
-                "descr": "gone over with whom"
-            }
-        ]
-    },
-    {
-        "uid": 31,
-        "roleset_id": "go_over.30",
-        "roleset_name": "be received, create an impression",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being received"
-            }
-        ]
-    },
-    {
-        "uid": 32,
-        "roleset_id": "go_down.27",
-        "roleset_name": "happen",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing happening"
-            }
-        ]
-    },
-    {
-        "uid": 33,
-        "roleset_id": "undergo.28",
-        "roleset_name": "experience, undergo",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "experienced"
-            }
-        ]
-    },
-    {
-        "uid": 34,
-        "roleset_id": "gone.33",
-        "roleset_name": "telling time: after X o'clock",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "time stamp that has passed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "go.01",
+    "roleset_name": "motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion/goer",
+        "descr_trans": "运动中的实体/去者"
+      },
+      {
+        "n": "2",
+        "descr": "extent",
+        "descr_trans": "程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "go.02",
+    "roleset_name": "self-directed motion, disapear or go away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "goer",
+        "descr_trans": "去者"
+      },
+      {
+        "n": "1",
+        "descr": "journey",
+        "descr_trans": "旅行"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "自主运动、消失或消失"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "go.03",
+    "roleset_name": "pursue (often with after)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pursuer",
+        "descr_trans": "追赶者"
+      },
+      {
+        "n": "1",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "追求（通常与after一起）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "go.04",
+    "roleset_name": "modal / future",
+    "roles": [],
+    "roleset_name_trans": "情态/将来时"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "go.05",
+    "roleset_name": "serial verb construction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "subsequent action",
+        "descr_trans": "后续行动"
+      }
+    ],
+    "roleset_name_trans": "连续动词结构"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "go.06",
+    "roleset_name": "proceed (with a variety of prepositions)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity proceeding",
+        "descr_trans": "实体程序"
+      },
+      {
+        "n": "1",
+        "descr": "project",
+        "descr_trans": "项目"
+      },
+      {
+        "n": "2",
+        "descr": "direction, usually a particle",
+        "descr_trans": "方向，通常是粒子"
+      }
+    ],
+    "roleset_name_trans": "继续（使用各种介词）"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "go.07",
+    "roleset_name": "sell",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "卖"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "go.08",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "object",
+        "descr_trans": "目的"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "with reference to what",
+        "descr_trans": "参考什么"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "go.09",
+    "roleset_name": "operate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing going",
+        "descr_trans": "事情进展"
+      }
+    ],
+    "roleset_name_trans": "操作"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "go.10",
+    "roleset_name": "benefactive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing going",
+        "descr_trans": "事情进展"
+      },
+      {
+        "n": "2",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      }
+    ],
+    "roleset_name_trans": "有益的"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "go.11",
+    "roleset_name": "serve",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing going",
+        "descr_trans": "事情进展"
+      },
+      {
+        "n": "2",
+        "descr": "purpose",
+        "descr_trans": "目的"
+      }
+    ],
+    "roleset_name_trans": "服务"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "go.12",
+    "roleset_name": "experience, undergo",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "2",
+        "descr": "experienced",
+        "descr_trans": "有经验的"
+      }
+    ],
+    "roleset_name_trans": "经历，经历"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "go.14",
+    "roleset_name": "be left",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing left",
+        "descr_trans": "剩下的东西"
+      }
+    ],
+    "roleset_name_trans": "被留下"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "go.21",
+    "roleset_name": "have on your side",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing on your side, supporter",
+        "descr_trans": "你这边的事情，支持者"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary, supported",
+        "descr_trans": "受益人、支持者"
+      }
+    ],
+    "roleset_name_trans": "站在你这边"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "go.22",
+    "roleset_name": "go with, match, accompany",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "what you get for free, matching thing",
+        "descr_trans": "你免费得到的东西，匹配的东西"
+      }
+    ],
+    "roleset_name_trans": "伴随，相配，陪伴"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "go.23",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "go.24",
+    "roleset_name": "existential",
+    "roles": [
+      {
+        "n": "m",
+        "descr": "here, there",
+        "descr_trans": "这里，那里"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: you",
+        "descr_trans": "固定：你"
+      }
+    ],
+    "roleset_name_trans": "存在主义的"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "go.29",
+    "roleset_name": "potty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "potty-er",
+        "descr_trans": "便盆的"
+      },
+      {
+        "n": "1",
+        "descr": "duty done",
+        "descr_trans": "尽职尽责"
+      }
+    ],
+    "roleset_name_trans": "便壶"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "go.31",
+    "roleset_name": "an attempt, effort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity trying something",
+        "descr_trans": "代理，尝试某事的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Thing attempted",
+        "descr_trans": "尝试的事情"
+      }
+    ],
+    "roleset_name_trans": "尝试、努力"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "go.32",
+    "roleset_name": "attack or insult",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "attacked, insulted entity",
+        "descr_trans": "被攻击、侮辱的实体"
+      }
+    ],
+    "roleset_name_trans": "攻击或侮辱"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "go.35",
+    "roleset_name": "spatial positioning; belong in a spot",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that exists in space",
+        "descr_trans": "存在于空间中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      },
+      {
+        "n": "3",
+        "descr": "if arg1 spans a space, first boundary (source)",
+        "descr_trans": "如果 arg1 跨越空间，则第一个边界（源）"
+      },
+      {
+        "n": "4",
+        "descr": "if arg1 spans a space, second boundary (goal)",
+        "descr_trans": "如果 arg1 跨越一个空间，则第二个边界（目标）"
+      },
+      {
+        "n": "5",
+        "descr": "orientation",
+        "descr_trans": "方向"
+      },
+      {
+        "n": "6",
+        "descr": "if arg1 is 3D, third boundary for third dimension",
+        "descr_trans": "如果 arg1 是三维，则第三个维度的第三个边界"
+      }
+    ],
+    "roleset_name_trans": "空间定位；属于某个地方"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "go_on.15",
+    "roleset_name": "go on: occur, continue",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing/entity continuing/ occuring",
+        "descr_trans": "事物/实体持续/发生"
+      }
+    ],
+    "roleset_name_trans": "go on：发生，继续"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "go_on.25",
+    "roleset_name": "continue speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener, audience spoken to",
+        "descr_trans": "听众, 听众"
+      }
+    ],
+    "roleset_name_trans": "继续说话"
+  },
+  {
+    "uid": 24,
+    "roleset_id": "go_off.16",
+    "roleset_name": "become on",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming on, exploding",
+        "descr_trans": "事情开始发生，爆炸"
+      }
+    ],
+    "roleset_name_trans": "成为"
+  },
+  {
+    "uid": 25,
+    "roleset_id": "go_out.17",
+    "roleset_name": "leave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "离开"
+  },
+  {
+    "uid": 26,
+    "roleset_id": "go_out.18",
+    "roleset_name": "extinguish",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being extinguished",
+        "descr_trans": "正在熄灭的事物"
+      }
+    ],
+    "roleset_name_trans": "扑灭"
+  },
+  {
+    "uid": 27,
+    "roleset_id": "go_out.34",
+    "roleset_name": "date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "First dater",
+        "descr_trans": "第一次约会"
+      },
+      {
+        "n": "1",
+        "descr": "Second dater",
+        "descr_trans": "第二次约会"
+      }
+    ],
+    "roleset_name_trans": "日期"
+  },
+  {
+    "uid": 28,
+    "roleset_id": "go_back.19",
+    "roleset_name": "return to being",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing going back to previous state",
+        "descr_trans": "事情回到以前的状态"
+      },
+      {
+        "n": "2",
+        "descr": "previous state",
+        "descr_trans": "之前的状态"
+      }
+    ],
+    "roleset_name_trans": "回归本来面目"
+  },
+  {
+    "uid": 29,
+    "roleset_id": "go_through.20",
+    "roleset_name": "come to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing coming to completion",
+        "descr_trans": "事情即将完成"
+      }
+    ],
+    "roleset_name_trans": "完成"
+  },
+  {
+    "uid": 30,
+    "roleset_id": "go_over.26",
+    "roleset_name": "review, discuss, analyze, explain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reviewer",
+        "descr_trans": "审稿人"
+      },
+      {
+        "n": "1",
+        "descr": "thing reviewed, gone over",
+        "descr_trans": "事情经过审查，结束了"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      },
+      {
+        "n": "m",
+        "descr": "gone over with whom",
+        "descr_trans": "和谁一起过"
+      }
+    ],
+    "roleset_name_trans": "回顾、讨论、分析、解释"
+  },
+  {
+    "uid": 31,
+    "roleset_id": "go_over.30",
+    "roleset_name": "be received, create an impression",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being received",
+        "descr_trans": "收到的东西"
+      }
+    ],
+    "roleset_name_trans": "被接受，留下印象"
+  },
+  {
+    "uid": 32,
+    "roleset_id": "go_down.27",
+    "roleset_name": "happen",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing happening",
+        "descr_trans": "事情发生"
+      }
+    ],
+    "roleset_name_trans": "发生"
+  },
+  {
+    "uid": 33,
+    "roleset_id": "undergo.28",
+    "roleset_name": "experience, undergo",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "2",
+        "descr": "experienced",
+        "descr_trans": "有经验的"
+      }
+    ],
+    "roleset_name_trans": "经历，经历"
+  },
+  {
+    "uid": 34,
+    "roleset_id": "gone.33",
+    "roleset_name": "telling time: after X o'clock",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "time stamp that has passed",
+        "descr_trans": "已经过去的时间戳"
+      }
+    ],
+    "roleset_name_trans": "告知时间：X点以后"
+  }
 ]

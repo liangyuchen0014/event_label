@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "orphan.01",
-        "roleset_name": "cause to not have parents",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "orphan"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "orphan.01",
+    "roleset_name": "cause to not have parents",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "orphan",
+        "descr_trans": "孤儿"
+      }
+    ],
+    "roleset_name_trans": "没有父母的原因"
+  }
 ]

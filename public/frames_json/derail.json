@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "derail.01",
-        "roleset_name": "to bring to a sudden halt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity derailed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "derail.01",
+    "roleset_name": "to bring to a sudden halt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity derailed",
+        "descr_trans": "实体出轨"
+      }
+    ],
+    "roleset_name_trans": "突然停止"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confine.01",
-        "roleset_name": "confine, restrict",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, confiner"
-            },
-            {
-                "n": "1",
-                "descr": "entity confined, restricted"
-            },
-            {
-                "n": "2",
-                "descr": "confined-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confine.01",
+    "roleset_name": "confine, restrict",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, confiner",
+        "descr_trans": "代理、限制"
+      },
+      {
+        "n": "1",
+        "descr": "entity confined, restricted",
+        "descr_trans": "实体受限，受限制"
+      },
+      {
+        "n": "2",
+        "descr": "confined-to",
+        "descr_trans": "限制于"
+      }
+    ],
+    "roleset_name_trans": "限制，限制"
+  }
 ]

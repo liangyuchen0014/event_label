@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harden.01",
-        "roleset_name": "(cause to) become hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of hardness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming hard"
-            },
-            {
-                "n": "2",
-                "descr": "hardened to what? conditions that arg1 is hardening towards"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hard.02",
-        "roleset_name": "difficult",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "difficult thing (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hard.03",
-        "roleset_name": "hard of hearing (or similar)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who has a hard time with arg1"
-            },
-            {
-                "n": "1",
-                "descr": "hearing, or other domain of difficulty"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hard.04",
-        "roleset_name": "sturdy, dense, resistant to pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of hardness"
-            },
-            {
-                "n": "1",
-                "descr": "hard thing"
-            },
-            {
-                "n": "2",
-                "descr": "hardened towards what/whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harden.01",
+    "roleset_name": "(cause to) become hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of hardness, agent",
+        "descr_trans": "硬度的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming hard",
+        "descr_trans": "事情变得困难"
+      },
+      {
+        "n": "2",
+        "descr": "hardened to what? conditions that arg1 is hardening towards",
+        "descr_trans": "硬化到什么？ arg1 正在强化的条件"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得困难"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hard.02",
+    "roleset_name": "difficult",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "difficult thing (may require concatenation)",
+        "descr_trans": "困难的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "难的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hard.03",
+    "roleset_name": "hard of hearing (or similar)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who has a hard time with arg1",
+        "descr_trans": "arg1 遇到困难的实体"
+      },
+      {
+        "n": "1",
+        "descr": "hearing, or other domain of difficulty",
+        "descr_trans": "听力或其他困难领域"
+      }
+    ],
+    "roleset_name_trans": "听力障碍（或类似情况）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hard.04",
+    "roleset_name": "sturdy, dense, resistant to pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of hardness",
+        "descr_trans": "硬度的原因"
+      },
+      {
+        "n": "1",
+        "descr": "hard thing",
+        "descr_trans": "困难的事情"
+      },
+      {
+        "n": "2",
+        "descr": "hardened towards what/whom",
+        "descr_trans": "对什么/谁变得强硬"
+      }
+    ],
+    "roleset_name_trans": "坚固、致密、抗压"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "starch.01",
-        "roleset_name": "to spray with starch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "starcher, sprayer"
-            },
-            {
-                "n": "1",
-                "descr": "entity sprayed, starched"
-            },
-            {
-                "n": "2",
-                "descr": "starched with what (redundant and unlikely)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "starch.01",
+    "roleset_name": "to spray with starch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "starcher, sprayer",
+        "descr_trans": "上浆机、喷雾器"
+      },
+      {
+        "n": "1",
+        "descr": "entity sprayed, starched",
+        "descr_trans": "实体喷涂、浆化"
+      },
+      {
+        "n": "2",
+        "descr": "starched with what (redundant and unlikely)",
+        "descr_trans": "用什么来固定（多余且不太可能）"
+      }
+    ],
+    "roleset_name_trans": "喷淀粉"
+  }
 ]

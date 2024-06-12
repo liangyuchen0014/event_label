@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "join.01",
-        "roleset_name": "attach, connect things together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being tied"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, tied to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "join.04",
-        "roleset_name": "come into the company of, be together with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person joining"
-            },
-            {
-                "n": "1",
-                "descr": "entity joined"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication (with something, like news, for example)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "join_in.05",
-        "roleset_name": "join in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity joining"
-            },
-            {
-                "n": "1",
-                "descr": "group joined"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "join_up.02",
-        "roleset_name": "become a member of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity joining"
-            },
-            {
-                "n": "1",
-                "descr": "group joined"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "join.01",
+    "roleset_name": "attach, connect things together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being tied",
+        "descr_trans": "首先被束缚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, tied to what",
+        "descr_trans": "第二件事，与什么相关"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      }
+    ],
+    "roleset_name_trans": "附加，将事物连接在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "join.04",
+    "roleset_name": "come into the company of, be together with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person joining",
+        "descr_trans": "代理人、加盟者"
+      },
+      {
+        "n": "1",
+        "descr": "entity joined",
+        "descr_trans": "实体加入"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication (with something, like news, for example)",
+        "descr_trans": "次要谓词（例如新闻等）"
+      }
+    ],
+    "roleset_name_trans": "加入…的公司，与…在一起"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "join_in.05",
+    "roleset_name": "join in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity joining",
+        "descr_trans": "代理、实体加盟"
+      },
+      {
+        "n": "1",
+        "descr": "group joined",
+        "descr_trans": "已加入群组"
+      }
+    ],
+    "roleset_name_trans": "加入"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "join_up.02",
+    "roleset_name": "become a member of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity joining",
+        "descr_trans": "代理、实体加盟"
+      },
+      {
+        "n": "1",
+        "descr": "group joined",
+        "descr_trans": "已加入群组"
+      }
+    ],
+    "roleset_name_trans": "成为会员"
+  }
 ]

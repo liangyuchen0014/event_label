@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interpret.01",
-        "roleset_name": "to explain, make sense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interpreter"
-            },
-            {
-                "n": "1",
-                "descr": "entity interpreted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interpret.01",
+    "roleset_name": "to explain, make sense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interpreter",
+        "descr_trans": "口译员"
+      },
+      {
+        "n": "1",
+        "descr": "entity interpreted",
+        "descr_trans": "实体解释"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "解释，使有意义"
+  }
 ]

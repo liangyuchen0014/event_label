@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extravasate.01",
-        "roleset_name": "flowing or being forced from a vessel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of extravasation (forcer)"
-            },
-            {
-                "n": "1",
-                "descr": "Entity flowing out"
-            },
-            {
-                "n": "2",
-                "descr": "Source, flowing from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extravasate.01",
+    "roleset_name": "flowing or being forced from a vessel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of extravasation (forcer)",
+        "descr_trans": "外渗原因（强制力）"
+      },
+      {
+        "n": "1",
+        "descr": "Entity flowing out",
+        "descr_trans": "实体流出"
+      },
+      {
+        "n": "2",
+        "descr": "Source, flowing from what",
+        "descr_trans": "来源，从何而来"
+      }
+    ],
+    "roleset_name_trans": "从容器中流出或被迫流出"
+  }
 ]

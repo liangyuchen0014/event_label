@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gas.01",
-        "roleset_name": "provide with fuel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "fuel"
-            },
-            {
-                "n": "2",
-                "descr": "entity provided for (destination)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gas.03",
-        "roleset_name": "be killed with gas fumes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of type of gas"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gas_up.02",
-        "roleset_name": "fill to full",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "fuel"
-            },
-            {
-                "n": "2",
-                "descr": "entity provided for (destination)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gas.01",
+    "roleset_name": "provide with fuel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "fuel",
+        "descr_trans": "燃料"
+      },
+      {
+        "n": "2",
+        "descr": "entity provided for (destination)",
+        "descr_trans": "提供给（目的地）的实体"
+      }
+    ],
+    "roleset_name_trans": "提供燃料"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gas.03",
+    "roleset_name": "be killed with gas fumes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of type of gas",
+        "descr_trans": "明确提及气体类型"
+      }
+    ],
+    "roleset_name_trans": "被毒气杀死"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gas_up.02",
+    "roleset_name": "fill to full",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "fuel",
+        "descr_trans": "燃料"
+      },
+      {
+        "n": "2",
+        "descr": "entity provided for (destination)",
+        "descr_trans": "提供给（目的地）的实体"
+      }
+    ],
+    "roleset_name_trans": "填满"
+  }
 ]

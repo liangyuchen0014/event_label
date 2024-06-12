@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ready.01",
-        "roleset_name": "prepare, state of preparation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made ready"
-            },
-            {
-                "n": "2",
-                "descr": "ready for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ready.02",
-        "roleset_name": "prepared",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            },
-            {
-                "n": "1",
-                "descr": "entity made ready"
-            },
-            {
-                "n": "2",
-                "descr": "ready for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ready.01",
+    "roleset_name": "prepare, state of preparation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made ready",
+        "descr_trans": "东西准备好了"
+      },
+      {
+        "n": "2",
+        "descr": "ready for",
+        "descr_trans": "准备好"
+      }
+    ],
+    "roleset_name_trans": "准备，准备状态"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ready.02",
+    "roleset_name": "prepared",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      },
+      {
+        "n": "1",
+        "descr": "entity made ready",
+        "descr_trans": "实体已准备就绪"
+      },
+      {
+        "n": "2",
+        "descr": "ready for",
+        "descr_trans": "准备好"
+      }
+    ],
+    "roleset_name_trans": "准备好了"
+  }
 ]

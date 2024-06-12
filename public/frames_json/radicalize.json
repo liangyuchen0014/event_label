@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "radicalize.01",
-        "roleset_name": "(cause to) become more radical",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming radical"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "radical.02",
-        "roleset_name": "be revolutionary, drastic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "radical entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "radicalize.01",
+    "roleset_name": "(cause to) become more radical",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming radical",
+        "descr_trans": "实体变得激进"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更加激进"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "radical.02",
+    "roleset_name": "be revolutionary, drastic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "radical entity",
+        "descr_trans": "激进实体"
+      }
+    ],
+    "roleset_name_trans": "是革命性的、激烈的"
+  }
 ]

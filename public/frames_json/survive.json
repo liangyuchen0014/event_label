@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "survive.01",
-        "roleset_name": "live despite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "survivor"
-            },
-            {
-                "n": "1",
-                "descr": "adverse circumstances"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "survive.02",
-        "roleset_name": "outlive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "survivor"
-            },
-            {
-                "n": "1",
-                "descr": "deceased"
-            },
-            {
-                "n": "2",
-                "descr": "margin, extent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "survive.01",
+    "roleset_name": "live despite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "survivor",
+        "descr_trans": "幸存者"
+      },
+      {
+        "n": "1",
+        "descr": "adverse circumstances",
+        "descr_trans": "不利的情况"
+      }
+    ],
+    "roleset_name_trans": "尽管生活"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "survive.02",
+    "roleset_name": "outlive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "survivor",
+        "descr_trans": "幸存者"
+      },
+      {
+        "n": "1",
+        "descr": "deceased",
+        "descr_trans": "死者"
+      },
+      {
+        "n": "2",
+        "descr": "margin, extent",
+        "descr_trans": "边距、范围"
+      }
+    ],
+    "roleset_name_trans": "比寿命长"
+  }
 ]

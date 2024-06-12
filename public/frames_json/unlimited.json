@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unlimited.01",
-        "roleset_name": "not having a limit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, limiter"
-            },
-            {
-                "n": "1",
-                "descr": "entity not having a limit"
-            },
-            {
-                "n": "2",
-                "descr": "the limit itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unlimited.01",
+    "roleset_name": "not having a limit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, limiter",
+        "descr_trans": "代理、限制器"
+      },
+      {
+        "n": "1",
+        "descr": "entity not having a limit",
+        "descr_trans": "实体没有限制"
+      },
+      {
+        "n": "2",
+        "descr": "the limit itself",
+        "descr_trans": "极限本身"
+      }
+    ],
+    "roleset_name_trans": "没有限制"
+  }
 ]

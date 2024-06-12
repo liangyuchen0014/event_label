@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gnaw.01",
-        "roleset_name": "bite, chew on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gnawer"
-            },
-            {
-                "n": "1",
-                "descr": "thing chewed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gnaw.02",
-        "roleset_name": "to cause persistent worry or pain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "gnawed at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gnaw.01",
+    "roleset_name": "bite, chew on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gnawer",
+        "descr_trans": "啃咬者"
+      },
+      {
+        "n": "1",
+        "descr": "thing chewed",
+        "descr_trans": "咀嚼过的东西"
+      }
+    ],
+    "roleset_name_trans": "咬，咀嚼"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gnaw.02",
+    "roleset_name": "to cause persistent worry or pain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "gnawed at",
+        "descr_trans": "啃咬"
+      }
+    ],
+    "roleset_name_trans": "引起持续的担忧或痛苦"
+  }
 ]

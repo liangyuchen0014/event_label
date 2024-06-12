@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decompress.01",
-        "roleset_name": "return data to and uncompressed state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity (person, computer or program) doing the decompressing"
-            },
-            {
-                "n": "1",
-                "descr": "file being decompressed"
-            },
-            {
-                "n": "2",
-                "descr": "tool used in decompression"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "decompress.02",
-        "roleset_name": "reduce the physical pressure in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause of decompression"
-            },
-            {
-                "n": "1",
-                "descr": "entity in which the pressure is being reduced"
-            },
-            {
-                "n": "2",
-                "descr": "tool used to aid in decompression"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "decompress.03",
-        "roleset_name": "relax/recover from an affliction",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity recovering from an affliction"
-            },
-            {
-                "n": "2",
-                "descr": "the affliction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decompress.01",
+    "roleset_name": "return data to and uncompressed state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity (person, computer or program) doing the decompressing",
+        "descr_trans": "进行解压的实体（人、计算机或程序）"
+      },
+      {
+        "n": "1",
+        "descr": "file being decompressed",
+        "descr_trans": "正在解压的文件"
+      },
+      {
+        "n": "2",
+        "descr": "tool used in decompression",
+        "descr_trans": "解压时使用的工具"
+      }
+    ],
+    "roleset_name_trans": "将数据返回到未压缩状态"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "decompress.02",
+    "roleset_name": "reduce the physical pressure in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause of decompression",
+        "descr_trans": "减压的媒介或原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in which the pressure is being reduced",
+        "descr_trans": "压力正在减少的实体"
+      },
+      {
+        "n": "2",
+        "descr": "tool used to aid in decompression",
+        "descr_trans": "用于帮助减压的工具"
+      }
+    ],
+    "roleset_name_trans": "减少身体压力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "decompress.03",
+    "roleset_name": "relax/recover from an affliction",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity recovering from an affliction",
+        "descr_trans": "从痛苦中恢复的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the affliction",
+        "descr_trans": "苦难"
+      }
+    ],
+    "roleset_name_trans": "放松/从痛苦中恢复"
+  }
 ]

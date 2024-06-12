@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "phosphorylate.01",
-        "roleset_name": "introduce a phosphate group into an organic compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of phosphorylation (e.g. person)"
-            },
-            {
-                "n": "1",
-                "descr": "thing phosphorylated (e.g. protein or another organic molecule)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. enzyme)"
-            },
-            {
-                "n": "3",
-                "descr": "product of phosphorylation (e.g. protein or another organic molecule)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "phosphorylate.01",
+    "roleset_name": "introduce a phosphate group into an organic compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of phosphorylation (e.g. person)",
+        "descr_trans": "磷酸化的故意代理人（例如人）"
+      },
+      {
+        "n": "1",
+        "descr": "thing phosphorylated (e.g. protein or another organic molecule)",
+        "descr_trans": "磷酸化物质（例如蛋白质或其他有机分子）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. enzyme)",
+        "descr_trans": "仪器（例如酶）"
+      },
+      {
+        "n": "3",
+        "descr": "product of phosphorylation (e.g. protein or another organic molecule)",
+        "descr_trans": "磷酸化产物（例如蛋白质或其他有机分子）"
+      }
+    ],
+    "roleset_name_trans": "将磷酸基团引入有机化合物中"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fulguration.01",
-        "roleset_name": "destroy tissue with a high-frequency electric current",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "tissues removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fulguration.01",
+    "roleset_name": "destroy tissue with a high-frequency electric current",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "tissues removed",
+        "descr_trans": "组织被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "用高频电流破坏组织"
+  }
 ]

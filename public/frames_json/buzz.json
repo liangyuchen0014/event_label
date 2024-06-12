@@ -1,58 +1,69 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "buzz.01",
-        "roleset_name": "to make a buzzing  sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity buzzing"
-            },
-            {
-                "n": "1",
-                "descr": "thing buzzing about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "buzz.02",
-        "roleset_name": "to be filled with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity buzzing"
-            },
-            {
-                "n": "1",
-                "descr": "entity buzzing with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "buzz.04",
-        "roleset_name": "visit briefly but noisily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "buzz_off.03",
-        "roleset_name": "buzz off: to go away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "buzz.01",
+    "roleset_name": "to make a buzzing  sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity buzzing",
+        "descr_trans": "实体嗡嗡声"
+      },
+      {
+        "n": "1",
+        "descr": "thing buzzing about",
+        "descr_trans": "嗡嗡作响的事情"
+      }
+    ],
+    "roleset_name_trans": "发出嗡嗡声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "buzz.02",
+    "roleset_name": "to be filled with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity buzzing",
+        "descr_trans": "实体嗡嗡声"
+      },
+      {
+        "n": "1",
+        "descr": "entity buzzing with",
+        "descr_trans": "实体嗡嗡作响"
+      }
+    ],
+    "roleset_name_trans": "充满"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "buzz.04",
+    "roleset_name": "visit briefly but noisily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "短暂但喧闹的访问"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "buzz_off.03",
+    "roleset_name": "buzz off: to go away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      }
+    ],
+    "roleset_name_trans": "嗡嗡声关闭：走开"
+  }
 ]

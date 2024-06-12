@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skitter.01",
-        "roleset_name": "(cause to) move in a light skipping manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of skittering motion (transitive only)"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skitter.01",
+    "roleset_name": "(cause to) move in a light skipping manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of skittering motion (transitive only)",
+        "descr_trans": "掠过运动的代理（仅传递）"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      }
+    ],
+    "roleset_name_trans": "（导致）以轻快的跳跃方式移动"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unshackle.01",
-        "roleset_name": "to remove shackles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, unshackler"
-            },
-            {
-                "n": "1",
-                "descr": "thing unshackled"
-            },
-            {
-                "n": "2",
-                "descr": "unshackled from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unshackle.01",
+    "roleset_name": "to remove shackles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, unshackler",
+        "descr_trans": "代理人、解除枷锁的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing unshackled",
+        "descr_trans": "解开束缚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unshackled from what",
+        "descr_trans": "摆脱什么束缚"
+      }
+    ],
+    "roleset_name_trans": "除去枷锁"
+  }
 ]

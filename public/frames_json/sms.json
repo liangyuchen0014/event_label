@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sms.01",
-        "roleset_name": "send via text message, 'short message service'",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "text sender"
-            },
-            {
-                "n": "1",
-                "descr": "text"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sms.01",
+    "roleset_name": "send via text message, 'short message service'",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "text sender",
+        "descr_trans": "短信发送者"
+      },
+      {
+        "n": "1",
+        "descr": "text",
+        "descr_trans": "文本"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "通过短信发送，“短信服务”"
+  }
 ]

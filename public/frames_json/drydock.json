@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drydock.01",
-        "roleset_name": "to store a ship out of water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "docker"
-            },
-            {
-                "n": "1",
-                "descr": "docked (boat)"
-            },
-            {
-                "n": "2",
-                "descr": "drydock, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drydock.01",
+    "roleset_name": "to store a ship out of water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "docker",
+        "descr_trans": "泊坞窗"
+      },
+      {
+        "n": "1",
+        "descr": "docked (boat)",
+        "descr_trans": "停靠（船）"
+      },
+      {
+        "n": "2",
+        "descr": "drydock, location",
+        "descr_trans": "干船坞, 位置"
+      }
+    ],
+    "roleset_name_trans": "将船停在水面上"
+  }
 ]

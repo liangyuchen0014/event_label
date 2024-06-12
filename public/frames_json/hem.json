@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hem.01",
-        "roleset_name": "fold over and sew together to provide with a hem",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the sewing"
-            },
-            {
-                "n": "1",
-                "descr": "fabric being given a hem"
-            },
-            {
-                "n": "2",
-                "descr": "description of the hem"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hem_in.02",
-        "roleset_name": "surround",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "surrounding entity"
-            },
-            {
-                "n": "2",
-                "descr": "entity being surrounded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hem.01",
+    "roleset_name": "fold over and sew together to provide with a hem",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the sewing",
+        "descr_trans": "代理、缝纫实体"
+      },
+      {
+        "n": "1",
+        "descr": "fabric being given a hem",
+        "descr_trans": "布料被赋予下摆"
+      },
+      {
+        "n": "2",
+        "descr": "description of the hem",
+        "descr_trans": "下摆的描述"
+      }
+    ],
+    "roleset_name_trans": "折叠并缝合在一起以提供下摆"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hem_in.02",
+    "roleset_name": "surround",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "surrounding entity",
+        "descr_trans": "周围实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity being surrounded",
+        "descr_trans": "实体被包围"
+      }
+    ],
+    "roleset_name_trans": "环绕"
+  }
 ]

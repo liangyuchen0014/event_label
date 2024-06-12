@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chance.01",
-        "roleset_name": "to take the risk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker of risk, agent"
-            },
-            {
-                "n": "1",
-                "descr": "risk taken"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "chance.02",
-        "roleset_name": "opportunity, possibility or probability",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having an opportunity"
-            },
-            {
-                "n": "1",
-                "descr": "the opportunity or event"
-            },
-            {
-                "n": "2",
-                "descr": "likelihood"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chance.01",
+    "roleset_name": "to take the risk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker of risk, agent",
+        "descr_trans": "风险承担者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "risk taken",
+        "descr_trans": "承担风险"
+      }
+    ],
+    "roleset_name_trans": "去冒险"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "chance.02",
+    "roleset_name": "opportunity, possibility or probability",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having an opportunity",
+        "descr_trans": "有机会的实​​体"
+      },
+      {
+        "n": "1",
+        "descr": "the opportunity or event",
+        "descr_trans": "机会或事件"
+      },
+      {
+        "n": "2",
+        "descr": "likelihood",
+        "descr_trans": "可能性"
+      }
+    ],
+    "roleset_name_trans": "机会、可能性或概率"
+  }
 ]

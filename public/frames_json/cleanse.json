@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cleanse.01",
-        "roleset_name": "make clean, empty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "dirt"
-            },
-            {
-                "n": "2",
-                "descr": "dirty thing, now clean"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cleanse.01",
+    "roleset_name": "make clean, empty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cleaner",
+        "descr_trans": "代理人、清洁工"
+      },
+      {
+        "n": "1",
+        "descr": "dirt",
+        "descr_trans": "污垢"
+      },
+      {
+        "n": "2",
+        "descr": "dirty thing, now clean",
+        "descr_trans": "脏东西现在干净了"
+      }
+    ],
+    "roleset_name_trans": "使干净、空旷"
+  }
 ]

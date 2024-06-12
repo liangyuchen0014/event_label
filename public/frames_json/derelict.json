@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "derelict.01",
-        "roleset_name": "broken down, worn out",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "broken thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "derelict.02",
-        "roleset_name": "neglectful of duties",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "neglectful one"
-            },
-            {
-                "n": "1",
-                "descr": "neglected (duties)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "derelict.01",
+    "roleset_name": "broken down, worn out",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "broken thing",
+        "descr_trans": "坏掉的东西"
+      }
+    ],
+    "roleset_name_trans": "破损的，破旧的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "derelict.02",
+    "roleset_name": "neglectful of duties",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "neglectful one",
+        "descr_trans": "疏忽的一个"
+      },
+      {
+        "n": "1",
+        "descr": "neglected (duties)",
+        "descr_trans": "被忽视的（职责）"
+      }
+    ],
+    "roleset_name_trans": "玩忽职守"
+  }
 ]

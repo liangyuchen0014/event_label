@@ -1,39 +1,46 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "westernize.01",
-        "roleset_name": "make more western (new world), make more western (European-based cultures)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "western.02",
-        "roleset_name": "relating to cultures that originated in Europe",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity identified as western"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "western.03",
-        "roleset_name": "relating to the old American west",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity identified as of the old west"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "westernize.01",
+    "roleset_name": "make more western (new world), make more western (European-based cultures)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "更加西方化（新世界），更加西方化（欧洲文化）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "western.02",
+    "roleset_name": "relating to cultures that originated in Europe",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity identified as western",
+        "descr_trans": "被认定为西方的实体"
+      }
+    ],
+    "roleset_name_trans": "与起源于欧洲的文化有关"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "western.03",
+    "roleset_name": "relating to the old American west",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity identified as of the old west",
+        "descr_trans": "被认定为旧西部的实体"
+      }
+    ],
+    "roleset_name_trans": "与旧美国西部有关"
+  }
 ]

@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chop.01",
-        "roleset_name": "cut up, (attempt to) cut with a chopping motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "chopped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "chop_down.02",
-        "roleset_name": "fell, as a tree",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "chopped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "chop_up.03",
-        "roleset_name": "render into pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "chopped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "chop_out.04",
-        "roleset_name": "remove by chopping",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "segment removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chop.01",
+    "roleset_name": "cut up, (attempt to) cut with a chopping motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "chopped",
+        "descr_trans": "切碎的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "切碎，（尝试）用切碎动作切碎"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "chop_down.02",
+    "roleset_name": "fell, as a tree",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "chopped",
+        "descr_trans": "切碎的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "像一棵树一样倒下"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "chop_up.03",
+    "roleset_name": "render into pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "chopped",
+        "descr_trans": "切碎的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "渲染成碎片"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "chop_out.04",
+    "roleset_name": "remove by chopping",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "segment removed",
+        "descr_trans": "片段已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "切碎去除"
+  }
 ]

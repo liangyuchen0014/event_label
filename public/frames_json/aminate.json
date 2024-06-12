@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aminate.01",
-        "roleset_name": "add an amino group to a compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of amination (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing aminated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of amination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aminate.01",
+    "roleset_name": "add an amino group to a compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of amination (e.g. scientist)",
+        "descr_trans": "胺化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing aminated",
+        "descr_trans": "胺化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of amination",
+        "descr_trans": "胺化产物"
+      }
+    ],
+    "roleset_name_trans": "在化合物中添加氨基"
+  }
 ]

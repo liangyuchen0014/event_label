@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tragic.01",
-        "roleset_name": "extremely sad; inducing grief",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tragic thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspec of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tragedy.02",
-        "roleset_name": "disasterous event",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the disasterous event"
-            },
-            {
-                "n": "2",
-                "descr": "antibeneficiary; sufferer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tragic.01",
+    "roleset_name": "extremely sad; inducing grief",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tragic thing",
+        "descr_trans": "悲惨的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspec of arg1",
+        "descr_trans": "arg1 的特定方面"
+      }
+    ],
+    "roleset_name_trans": "极度悲伤；引发悲伤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tragedy.02",
+    "roleset_name": "disasterous event",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the disasterous event",
+        "descr_trans": "灾难性事件"
+      },
+      {
+        "n": "2",
+        "descr": "antibeneficiary; sufferer",
+        "descr_trans": "反受益人；患者"
+      }
+    ],
+    "roleset_name_trans": "灾难性事件"
+  }
 ]

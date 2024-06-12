@@ -1,197 +1,236 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fall.01",
-        "roleset_name": "move downward",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fall.04",
-        "roleset_name": "occur",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing occurring"
-            },
-            {
-                "n": "2",
-                "descr": "when/where"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fall.05",
-        "roleset_name": "be defeated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "winner or instrument of destruction"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fall.07",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Person undergoing change"
-            },
-            {
-                "n": "2",
-                "descr": "End state"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "fall.10",
-        "roleset_name": "fall for a trick: be fooled by",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the fool"
-            },
-            {
-                "n": "2",
-                "descr": "the trick"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "fall.12",
-        "roleset_name": "blame, repercussions; take the fall for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking the blame"
-            },
-            {
-                "n": "1",
-                "descr": "blame for what"
-            },
-            {
-                "n": "2",
-                "descr": "entity protected from blame"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "fall_back.08",
-        "roleset_name": "fall back, rely on in emergency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing falling back"
-            },
-            {
-                "n": "1",
-                "descr": "thing fallen back on"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "fall_off.02",
-        "roleset_name": "fall off: stop, almost",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "fall_out.03",
-        "roleset_name": "fall out: no longer be on good terms",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "parties on bad terms"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "fall_through.06",
-        "roleset_name": "fall through: not come to pass, not come to pass",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "non-event"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "fall_apart.09",
-        "roleset_name": "fall apart: break, separate into pieces",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in peices"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "fall_over.11",
-        "roleset_name": "be no longer standing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity falling"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "fell.13",
-        "roleset_name": "cause to fall down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "faller (us. trees)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fall.01",
+    "roleset_name": "move downward",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "向下移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fall.04",
+    "roleset_name": "occur",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing occurring",
+        "descr_trans": "发生的事情"
+      },
+      {
+        "n": "2",
+        "descr": "when/where",
+        "descr_trans": "何时何地"
+      }
+    ],
+    "roleset_name_trans": "发生"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fall.05",
+    "roleset_name": "be defeated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "winner or instrument of destruction",
+        "descr_trans": "胜利者或毁灭工具"
+      }
+    ],
+    "roleset_name_trans": "被击败"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fall.07",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Person undergoing change",
+        "descr_trans": "正在经历改变的人"
+      },
+      {
+        "n": "2",
+        "descr": "End state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "fall.10",
+    "roleset_name": "fall for a trick: be fooled by",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the fool",
+        "descr_trans": "傻瓜"
+      },
+      {
+        "n": "2",
+        "descr": "the trick",
+        "descr_trans": "窍门"
+      }
+    ],
+    "roleset_name_trans": "上当受骗：被愚弄"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "fall.12",
+    "roleset_name": "blame, repercussions; take the fall for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking the blame",
+        "descr_trans": "承担责任的实体"
+      },
+      {
+        "n": "1",
+        "descr": "blame for what",
+        "descr_trans": "归咎于什么"
+      },
+      {
+        "n": "2",
+        "descr": "entity protected from blame",
+        "descr_trans": "实体免受指责"
+      }
+    ],
+    "roleset_name_trans": "责备、后果；承担责任"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "fall_back.08",
+    "roleset_name": "fall back, rely on in emergency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing falling back",
+        "descr_trans": "东西回落"
+      },
+      {
+        "n": "1",
+        "descr": "thing fallen back on",
+        "descr_trans": "东西又落回了"
+      }
+    ],
+    "roleset_name_trans": "紧急情况下的依靠"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "fall_off.02",
+    "roleset_name": "fall off: stop, almost",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      }
+    ],
+    "roleset_name_trans": "掉下来：停止，几乎"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "fall_out.03",
+    "roleset_name": "fall out: no longer be on good terms",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "parties on bad terms",
+        "descr_trans": "关系不睦的当事人"
+      }
+    ],
+    "roleset_name_trans": "闹翻：关系不再融洽"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "fall_through.06",
+    "roleset_name": "fall through: not come to pass, not come to pass",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "non-event",
+        "descr_trans": "非事件"
+      }
+    ],
+    "roleset_name_trans": "失败：没有实现，没有实现"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "fall_apart.09",
+    "roleset_name": "fall apart: break, separate into pieces",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in peices",
+        "descr_trans": "东西成碎片"
+      }
+    ],
+    "roleset_name_trans": "崩溃：破碎，分裂成碎片"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "fall_over.11",
+    "roleset_name": "be no longer standing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity falling",
+        "descr_trans": "实体坠落"
+      }
+    ],
+    "roleset_name_trans": "不再站立"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "fell.13",
+    "roleset_name": "cause to fall down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "faller (us. trees)",
+        "descr_trans": "伐木者（美国树木）"
+      }
+    ],
+    "roleset_name_trans": "导致跌倒"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncover.01",
-        "roleset_name": "discover",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discoverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing discovered"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncover.01",
+    "roleset_name": "discover",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discoverer",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing discovered",
+        "descr_trans": "发现的东西"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "发现"
+  }
 ]

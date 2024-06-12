@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "import.01",
-        "roleset_name": "get a commodity in trade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "importer"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "exporter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "import.01",
+    "roleset_name": "get a commodity in trade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "importer",
+        "descr_trans": "进口商"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "exporter",
+        "descr_trans": "出口商"
+      }
+    ],
+    "roleset_name_trans": "获得贸易商品"
+  }
 ]

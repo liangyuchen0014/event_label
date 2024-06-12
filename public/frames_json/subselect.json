@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subselect.01",
-        "roleset_name": "make a choice, pick out from a small set",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "selector"
-            },
-            {
-                "n": "1",
-                "descr": "entity selected"
-            },
-            {
-                "n": "2",
-                "descr": "selected from, set"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, selected for/as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subselect.01",
+    "roleset_name": "make a choice, pick out from a small set",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "selector",
+        "descr_trans": "选择器"
+      },
+      {
+        "n": "1",
+        "descr": "entity selected",
+        "descr_trans": "选定的实体"
+      },
+      {
+        "n": "2",
+        "descr": "selected from, set",
+        "descr_trans": "选自、集合"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, selected for/as",
+        "descr_trans": "属性，选择用于/作为"
+      }
+    ],
+    "roleset_name_trans": "做出选择，从一小部分中挑选"
+  }
 ]

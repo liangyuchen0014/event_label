@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "censure.01",
-        "roleset_name": "condemn or rebuke",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "condemner"
-            },
-            {
-                "n": "1",
-                "descr": "entity censured"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "censure.01",
+    "roleset_name": "condemn or rebuke",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "condemner",
+        "descr_trans": "谴责者"
+      },
+      {
+        "n": "1",
+        "descr": "entity censured",
+        "descr_trans": "受到谴责的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "谴责或斥责"
+  }
 ]

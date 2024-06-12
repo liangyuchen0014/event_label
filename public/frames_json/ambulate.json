@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ambulate.01",
-        "roleset_name": "to walk, walking around, walking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Walker"
-            },
-            {
-                "n": "1",
-                "descr": "Path walked, not DIR"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ambulatory.02",
-        "roleset_name": "to walk, walking around, walking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Walker"
-            },
-            {
-                "n": "1",
-                "descr": "Path walked, not DIR"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ambulate.01",
+    "roleset_name": "to walk, walking around, walking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Walker",
+        "descr_trans": "沃克"
+      },
+      {
+        "n": "1",
+        "descr": "Path walked, not DIR",
+        "descr_trans": "行走的路径，而不是 DIR"
+      }
+    ],
+    "roleset_name_trans": "散步、四处走动、散步"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ambulatory.02",
+    "roleset_name": "to walk, walking around, walking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Walker",
+        "descr_trans": "沃克"
+      },
+      {
+        "n": "1",
+        "descr": "Path walked, not DIR",
+        "descr_trans": "行走的路径，而不是 DIR"
+      }
+    ],
+    "roleset_name_trans": "散步、四处走动、散步"
+  }
 ]

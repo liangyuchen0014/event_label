@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pullback.08",
-        "roleset_name": "reciprocal force following a push",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "2",
-                "descr": "source, place left"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pullback.08",
+    "roleset_name": "reciprocal force following a push",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "2",
+        "descr": "source, place left",
+        "descr_trans": "来源，左侧位置"
+      }
+    ],
+    "roleset_name_trans": "推力后产生的反作用力"
+  }
 ]

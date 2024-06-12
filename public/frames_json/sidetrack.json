@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sidetrack.01",
-        "roleset_name": "to divert from a main issue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of diversion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity diverted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sidetrack.01",
+    "roleset_name": "to divert from a main issue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of diversion, agent",
+        "descr_trans": "转移原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity diverted",
+        "descr_trans": "实体转移"
+      }
+    ],
+    "roleset_name_trans": "转移注意力"
+  }
 ]

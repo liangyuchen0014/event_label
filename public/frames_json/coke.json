@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coke.01",
-        "roleset_name": "process coal into coke",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "start material (coal)"
-            },
-            {
-                "n": "2",
-                "descr": "end product (coke)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coke.01",
+    "roleset_name": "process coal into coke",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "start material (coal)",
+        "descr_trans": "起始原料（煤）"
+      },
+      {
+        "n": "2",
+        "descr": "end product (coke)",
+        "descr_trans": "最终产品（焦炭）"
+      }
+    ],
+    "roleset_name_trans": "将煤加工成焦炭"
+  }
 ]

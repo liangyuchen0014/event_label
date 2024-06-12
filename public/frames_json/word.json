@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "word.01",
-        "roleset_name": "to express in words",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expresser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "text"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "word.02",
-        "roleset_name": "talk with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "word.01",
+    "roleset_name": "to express in words",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expresser, agent",
+        "descr_trans": "表达者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "text",
+        "descr_trans": "文本"
+      }
+    ],
+    "roleset_name_trans": "用言语表达"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "word.02",
+    "roleset_name": "talk with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "与"
+  }
 ]

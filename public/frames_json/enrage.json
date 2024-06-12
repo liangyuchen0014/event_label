@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enrage.01",
-        "roleset_name": "make very very angry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of anger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "angry entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enrage.01",
+    "roleset_name": "make very very angry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of anger, agent",
+        "descr_trans": "愤怒的起因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "angry entity",
+        "descr_trans": "愤怒的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "使非常非常生气"
+  }
 ]

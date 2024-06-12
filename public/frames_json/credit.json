@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "credit.01",
-        "roleset_name": "give someone credit for smth, recognition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of credit"
-            },
-            {
-                "n": "1",
-                "descr": "entity credited"
-            },
-            {
-                "n": "2",
-                "descr": "credited for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "credit.02",
-        "roleset_name": "to enter as a credit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bookkeeper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "amount credited"
-            },
-            {
-                "n": "2",
-                "descr": "account, credited to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "credit.01",
+    "roleset_name": "give someone credit for smth, recognition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of credit",
+        "descr_trans": "信用给予者"
+      },
+      {
+        "n": "1",
+        "descr": "entity credited",
+        "descr_trans": "记入实体"
+      },
+      {
+        "n": "2",
+        "descr": "credited for",
+        "descr_trans": "计入"
+      }
+    ],
+    "roleset_name_trans": "给予某人某事的信任、认可"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "credit.02",
+    "roleset_name": "to enter as a credit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bookkeeper, agent",
+        "descr_trans": "簿记员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "amount credited",
+        "descr_trans": "贷记金额"
+      },
+      {
+        "n": "2",
+        "descr": "account, credited to",
+        "descr_trans": "账户，记入"
+      }
+    ],
+    "roleset_name_trans": "作为信用输入"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ingest.01",
-        "roleset_name": "to eat, eating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "entity ingested"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ingest.01",
+    "roleset_name": "to eat, eating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "entity ingested",
+        "descr_trans": "实体摄入"
+      }
+    ],
+    "roleset_name_trans": "吃，吃"
+  }
 ]

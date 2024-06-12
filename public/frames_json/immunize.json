@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immunize.01",
-        "roleset_name": "guard against disease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "immunizer"
-            },
-            {
-                "n": "1",
-                "descr": "immunized"
-            },
-            {
-                "n": "2",
-                "descr": "against what, disease"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "immune.02",
-        "roleset_name": "not susceptible to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is immune"
-            },
-            {
-                "n": "2",
-                "descr": "to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immunize.01",
+    "roleset_name": "guard against disease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "immunizer",
+        "descr_trans": "免疫剂"
+      },
+      {
+        "n": "1",
+        "descr": "immunized",
+        "descr_trans": "免疫的"
+      },
+      {
+        "n": "2",
+        "descr": "against what, disease",
+        "descr_trans": "对抗什么、疾病"
+      }
+    ],
+    "roleset_name_trans": "预防疾病"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "immune.02",
+    "roleset_name": "not susceptible to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is immune",
+        "descr_trans": "免疫实体"
+      },
+      {
+        "n": "2",
+        "descr": "to what",
+        "descr_trans": "到什么"
+      }
+    ],
+    "roleset_name_trans": "不易受"
+  }
 ]

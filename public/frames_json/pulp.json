@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pulp.01",
-        "roleset_name": "remove pulp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pulp-er"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulped"
-            },
-            {
-                "n": "2",
-                "descr": "pulp"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pulp.02",
-        "roleset_name": "grind into pulp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grinder"
-            },
-            {
-                "n": "1",
-                "descr": "thing turned into pulp"
-            },
-            {
-                "n": "2",
-                "descr": "pulp"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pulp.01",
+    "roleset_name": "remove pulp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pulp-er",
+        "descr_trans": "纸浆"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulped",
+        "descr_trans": "变成浆状的东西"
+      },
+      {
+        "n": "2",
+        "descr": "pulp",
+        "descr_trans": "纸浆"
+      }
+    ],
+    "roleset_name_trans": "去除果肉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pulp.02",
+    "roleset_name": "grind into pulp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grinder",
+        "descr_trans": "磨床"
+      },
+      {
+        "n": "1",
+        "descr": "thing turned into pulp",
+        "descr_trans": "东西变成了纸浆"
+      },
+      {
+        "n": "2",
+        "descr": "pulp",
+        "descr_trans": "纸浆"
+      }
+    ],
+    "roleset_name_trans": "磨成浆"
+  }
 ]

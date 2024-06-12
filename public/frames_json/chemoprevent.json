@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chemoprevent.01",
-        "roleset_name": "preventing or delaying the development of cancer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "theme, specific cancer whose development is being prevented"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication; thing prevented (e.g. from metastasizing)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (drugs, treatments, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chemoprevent.01",
+    "roleset_name": "preventing or delaying the development of cancer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "theme, specific cancer whose development is being prevented",
+        "descr_trans": "主题，正在预防其发展的特定癌症"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication; thing prevented (e.g. from metastasizing)",
+        "descr_trans": "二次预测；被阻止的事物（例如转移）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (drugs, treatments, etc.)",
+        "descr_trans": "仪器（药物、治疗等）"
+      }
+    ],
+    "roleset_name_trans": "预防或延缓癌症的发展"
+  }
 ]

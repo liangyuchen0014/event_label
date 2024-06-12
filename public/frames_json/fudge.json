@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fudge.01",
-        "roleset_name": "falsify slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fudger"
-            },
-            {
-                "n": "1",
-                "descr": "thing fudged (on)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fudge_over.02",
-        "roleset_name": "conceal by fudging",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "concealer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing concealed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fudge.01",
+    "roleset_name": "falsify slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fudger",
+        "descr_trans": "忽悠者"
+      },
+      {
+        "n": "1",
+        "descr": "thing fudged (on)",
+        "descr_trans": "捏造的东西（上）"
+      }
+    ],
+    "roleset_name_trans": "稍微伪造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fudge_over.02",
+    "roleset_name": "conceal by fudging",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "concealer, agent",
+        "descr_trans": "遮瑕剂、遮瑕剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing concealed",
+        "descr_trans": "隐藏的东西"
+      }
+    ],
+    "roleset_name_trans": "捏造隐瞒"
+  }
 ]

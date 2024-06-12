@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nip.01",
-        "roleset_name": "motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity nipping"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "3",
-                "descr": "end point"
-            },
-            {
-                "n": "4",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nip.02",
-        "roleset_name": "pinch, snip, bite (possibly off)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "biter"
-            },
-            {
-                "n": "1",
-                "descr": "thing bitten"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "nip.03",
-        "roleset_name": "nip_in_the_bud: fixed. = prevent, cause to end",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preventative nipper"
-            },
-            {
-                "n": "1",
-                "descr": "thing nipped, prevented"
-            },
-            {
-                "n": "2",
-                "descr": "fixed: \"in the bud\""
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nip.01",
+    "roleset_name": "motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity nipping",
+        "descr_trans": "实体夹击"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "3",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "4",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nip.02",
+    "roleset_name": "pinch, snip, bite (possibly off)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "biter",
+        "descr_trans": "咬人者"
+      },
+      {
+        "n": "1",
+        "descr": "thing bitten",
+        "descr_trans": "被咬的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "捏、剪、咬（可能是关闭的）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "nip.03",
+    "roleset_name": "nip_in_the_bud: fixed. = prevent, cause to end",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preventative nipper",
+        "descr_trans": "预防性钳子"
+      },
+      {
+        "n": "1",
+        "descr": "thing nipped, prevented",
+        "descr_trans": "东西被消灭，被阻止"
+      },
+      {
+        "n": "2",
+        "descr": "fixed: \"in the bud\"",
+        "descr_trans": "固定：“处于萌芽状态”"
+      }
+    ],
+    "roleset_name_trans": "nip_in_the_bud：已修复。 = 阻止，导致结束"
+  }
 ]

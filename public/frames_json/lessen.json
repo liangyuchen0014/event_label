@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lessen.01",
-        "roleset_name": "make less",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point, end state of arg1"
-            },
-            {
-                "n": "m",
-                "descr": "Medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "less.02",
-        "roleset_name": "not as much as",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is less"
-            },
-            {
-                "n": "2",
-                "descr": "thing that is more"
-            },
-            {
-                "n": "3",
-                "descr": "less of what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "less.03",
-        "roleset_name": "akin to \"not\": i'm less than impressed!",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Topic"
-            },
-            {
-                "n": "2",
-                "descr": "Comment that is NOT quite true of Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lessen.01",
+    "roleset_name": "make less",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "m",
+        "descr": "Medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "少赚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "less.02",
+    "roleset_name": "not as much as",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is less",
+        "descr_trans": "较少的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing that is more",
+        "descr_trans": "更重要的事情"
+      },
+      {
+        "n": "3",
+        "descr": "less of what",
+        "descr_trans": "少什么"
+      }
+    ],
+    "roleset_name_trans": "不及那么多"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "less.03",
+    "roleset_name": "akin to \"not\": i'm less than impressed!",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "Comment that is NOT quite true of Arg1",
+        "descr_trans": "Arg1 的评论不完全正确"
+      }
+    ],
+    "roleset_name_trans": "类似于“不”：我不太印象深刻！"
+  }
 ]

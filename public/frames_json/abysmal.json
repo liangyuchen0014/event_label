@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abysmal.01",
-        "roleset_name": "generally terrible, in the absolute lowest ranges",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally terrible entity"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "abysmal.02",
-        "roleset_name": "be extremely unskilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abysmal.01",
+    "roleset_name": "generally terrible, in the absolute lowest ranges",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally terrible entity",
+        "descr_trans": "一般可怕的实体"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "通常很糟糕，在绝对最低的范围内"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "abysmal.02",
+    "roleset_name": "be extremely unskilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "极其不熟练"
+  }
 ]

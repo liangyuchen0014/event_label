@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "number.01",
-        "roleset_name": "have a certain quantity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being counted"
-            },
-            {
-                "n": "2",
-                "descr": "count, number, quantity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "number.02",
-        "roleset_name": "give numbers to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "numberer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being counted; entity numbered"
-            },
-            {
-                "n": "2",
-                "descr": "numbers themselves"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "number.01",
+    "roleset_name": "have a certain quantity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being counted",
+        "descr_trans": "被计算的东西"
+      },
+      {
+        "n": "2",
+        "descr": "count, number, quantity",
+        "descr_trans": "计数、数目、数量"
+      }
+    ],
+    "roleset_name_trans": "有一定数量"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "number.02",
+    "roleset_name": "give numbers to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "numberer",
+        "descr_trans": "编号器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being counted; entity numbered",
+        "descr_trans": "被计算的事物；实体编号"
+      },
+      {
+        "n": "2",
+        "descr": "numbers themselves",
+        "descr_trans": "数字本身"
+      }
+    ],
+    "roleset_name_trans": "给数字"
+  }
 ]

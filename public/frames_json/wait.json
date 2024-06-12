@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wait.01",
-        "roleset_name": "wait, delay movement or action",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "wait-er (not waiter, that's the other sense)"
-            },
-            {
-                "n": "2",
-                "descr": "thing waited for"
-            },
-            {
-                "n": "m",
-                "descr": "period of time waited through"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wait.02",
-        "roleset_name": "serve tables",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "waiter"
-            },
-            {
-                "n": "1",
-                "descr": "table"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wait_out.03",
-        "roleset_name": "wait out: endure, outlast, enduring, lasting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing lasting longer"
-            },
-            {
-                "n": "1",
-                "descr": "thing lasting shorter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wait.01",
+    "roleset_name": "wait, delay movement or action",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "wait-er (not waiter, that's the other sense)",
+        "descr_trans": "wait-er（不是服务员，那是另一种意思）"
+      },
+      {
+        "n": "2",
+        "descr": "thing waited for",
+        "descr_trans": "等待的事情"
+      },
+      {
+        "n": "m",
+        "descr": "period of time waited through",
+        "descr_trans": "等待经过一段时间"
+      }
+    ],
+    "roleset_name_trans": "等待、延迟移动或行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wait.02",
+    "roleset_name": "serve tables",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "waiter",
+        "descr_trans": "服务员"
+      },
+      {
+        "n": "1",
+        "descr": "table",
+        "descr_trans": "桌子"
+      }
+    ],
+    "roleset_name_trans": "服务餐桌"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wait_out.03",
+    "roleset_name": "wait out: endure, outlast, enduring, lasting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing lasting longer",
+        "descr_trans": "持续时间较长的事物"
+      },
+      {
+        "n": "1",
+        "descr": "thing lasting shorter",
+        "descr_trans": "持续时间较短的事物"
+      }
+    ],
+    "roleset_name_trans": "wait out: 忍耐，持久，持久，持久"
+  }
 ]

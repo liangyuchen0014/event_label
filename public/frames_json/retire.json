@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retire.01",
-        "roleset_name": "stop working",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "retiree"
-            },
-            {
-                "n": "1",
-                "descr": "former job"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "retire.02",
-        "roleset_name": "cease, end, as of debt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, payer-off of debt"
-            },
-            {
-                "n": "1",
-                "descr": "thing (eg debt) being retired"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retire.01",
+    "roleset_name": "stop working",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "retiree",
+        "descr_trans": "退休人员"
+      },
+      {
+        "n": "1",
+        "descr": "former job",
+        "descr_trans": "以前的工作"
+      }
+    ],
+    "roleset_name_trans": "停止工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "retire.02",
+    "roleset_name": "cease, end, as of debt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, payer-off of debt",
+        "descr_trans": "原因、债务清偿"
+      },
+      {
+        "n": "1",
+        "descr": "thing (eg debt) being retired",
+        "descr_trans": "事物（例如债务）被退休"
+      }
+    ],
+    "roleset_name_trans": "停止，结束，债务"
+  }
 ]

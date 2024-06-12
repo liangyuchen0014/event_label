@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interdict.01",
-        "roleset_name": "forbid, prohibit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forbidding authority"
-            },
-            {
-                "n": "1",
-                "descr": "action/theme forbidden"
-            },
-            {
-                "n": "2",
-                "descr": "entity prohibited from enacting/participating in arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interdict.01",
+    "roleset_name": "forbid, prohibit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forbidding authority",
+        "descr_trans": "禁止权"
+      },
+      {
+        "n": "1",
+        "descr": "action/theme forbidden",
+        "descr_trans": "禁止的动作/主题"
+      },
+      {
+        "n": "2",
+        "descr": "entity prohibited from enacting/participating in arg1",
+        "descr_trans": "禁止实体制定/参与 arg1"
+      }
+    ],
+    "roleset_name_trans": "禁止，禁止"
+  }
 ]

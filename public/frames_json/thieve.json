@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thieve.01",
-        "roleset_name": "steal, be a thief",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thieve.01",
+    "roleset_name": "steal, be a thief",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief",
+        "descr_trans": "贼"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen",
+        "descr_trans": "东西被偷了"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "偷窃，当小偷"
+  }
 ]

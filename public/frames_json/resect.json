@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resect.01",
-        "roleset_name": "to remove surgically, surgically excising part of a tissue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "Entity removed"
-            },
-            {
-                "n": "2",
-                "descr": "Removed from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "resectable.02",
-        "roleset_name": "able to be removed surgically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "source, removed from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "apr.03",
-        "roleset_name": "abdominoperineal resection: a procedure in which the rectum, anus, some of the colon, and other tissue are removed via entry through the abdomen and the perineum",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "entity removed"
-            },
-            {
-                "n": "2",
-                "descr": "source, removed from"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lar.04",
-        "roleset_name": "a procedure in which all or part of the rectum is removed via entry through the abdomen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "entity removed"
-            },
-            {
-                "n": "2",
-                "descr": "source, removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resect.01",
+    "roleset_name": "to remove surgically, surgically excising part of a tissue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "Entity removed",
+        "descr_trans": "实体已删除"
+      },
+      {
+        "n": "2",
+        "descr": "Removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "通过手术切除，通过手术切除部分组织"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "resectable.02",
+    "roleset_name": "able to be removed surgically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "source, removed from",
+        "descr_trans": "来源，已删除"
+      }
+    ],
+    "roleset_name_trans": "可以通过手术切除"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "apr.03",
+    "roleset_name": "abdominoperineal resection: a procedure in which the rectum, anus, some of the colon, and other tissue are removed via entry through the abdomen and the perineum",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "entity removed",
+        "descr_trans": "实体已删除"
+      },
+      {
+        "n": "2",
+        "descr": "source, removed from",
+        "descr_trans": "来源，已删除"
+      }
+    ],
+    "roleset_name_trans": "腹会阴切除术：通过腹部和会阴进入直肠、肛门、部分结肠和其他组织的手术"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lar.04",
+    "roleset_name": "a procedure in which all or part of the rectum is removed via entry through the abdomen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "entity removed",
+        "descr_trans": "实体已删除"
+      },
+      {
+        "n": "2",
+        "descr": "source, removed from",
+        "descr_trans": "来源，已删除"
+      }
+    ],
+    "roleset_name_trans": "通过腹部进入切除全部或部分直肠的手术"
+  }
 ]

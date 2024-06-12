@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pace.01",
-        "roleset_name": "move at same speed, keep, set pace",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "first entity keeping/set at pace"
-            },
-            {
-                "n": "2",
-                "descr": "arg 1 is keeping pace with what?"
-            },
-            {
-                "n": "3",
-                "descr": "mention of the pace itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pace.02",
-        "roleset_name": "walk back and forth nervously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pacer"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pacing.03",
-        "roleset_name": "set the speed of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing having a speed/pace"
-            },
-            {
-                "n": "2",
-                "descr": "the pace"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pace.01",
+    "roleset_name": "move at same speed, keep, set pace",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "first entity keeping/set at pace",
+        "descr_trans": "第一个实体保持/设定步伐"
+      },
+      {
+        "n": "2",
+        "descr": "arg 1 is keeping pace with what?",
+        "descr_trans": "arg 1 与什么保持同步？"
+      },
+      {
+        "n": "3",
+        "descr": "mention of the pace itself",
+        "descr_trans": "提及节奏本身"
+      }
+    ],
+    "roleset_name_trans": "以相同的速度移动、保持、设定步调"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pace.02",
+    "roleset_name": "walk back and forth nervously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pacer",
+        "descr_trans": "起搏器"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "紧张地来回走动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pacing.03",
+    "roleset_name": "set the speed of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing having a speed/pace",
+        "descr_trans": "有速度/节奏的事物"
+      },
+      {
+        "n": "2",
+        "descr": "the pace",
+        "descr_trans": "步伐"
+      }
+    ],
+    "roleset_name_trans": "设定速度"
+  }
 ]

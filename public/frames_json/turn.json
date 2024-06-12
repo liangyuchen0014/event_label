@@ -1,385 +1,465 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "turn.01",
-        "roleset_name": "rotation, motion in a new direction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "thing turning"
-            },
-            {
-                "n": "2",
-                "descr": "axis/centerpoint of rotation"
-            },
-            {
-                "n": "m",
-                "descr": "direction, location, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "turn.02",
-        "roleset_name": "transformation, becoming",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "turn.03",
-        "roleset_name": "idiomatic: turn thumbs down on = reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rejecter"
-            },
-            {
-                "n": "1",
-                "descr": "thumbs"
-            },
-            {
-                "n": "2",
-                "descr": "thing rejected"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "turn.14",
-        "roleset_name": "depend, hang, hinge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "depender"
-            },
-            {
-                "n": "1",
-                "descr": "depended on"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "turn.16",
-        "roleset_name": "produce, nonphrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "producer"
-            },
-            {
-                "n": "1",
-                "descr": "us. 'profit'"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "turn.18",
-        "roleset_name": "turn 'one's back' or 'a blind eye': ignore purposefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Turner"
-            },
-            {
-                "n": "1",
-                "descr": "Back/Blind eye"
-            },
-            {
-                "n": "2",
-                "descr": "entity ignored"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "turn_away.04",
-        "roleset_name": "reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "thing turned away"
-            },
-            {
-                "n": "2",
-                "descr": "turned-away-from"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "turn_down.05",
-        "roleset_name": "reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rejecter"
-            },
-            {
-                "n": "1",
-                "descr": "thing rejected"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "turn_in.06",
-        "roleset_name": "give, hand in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "turn_in.22",
-        "roleset_name": "surrender to authorities, as a criminal/rule violator",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity turned in; criminal/rule violator"
-            },
-            {
-                "n": "2",
-                "descr": "authorities"
-            },
-            {
-                "n": "3",
-                "descr": "crime/violation"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "turn_on.13",
-        "roleset_name": "cause to be on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of on-ness"
-            },
-            {
-                "n": "1",
-                "descr": "lamp, etc"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "turn_off.07",
-        "roleset_name": "cause to be off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner off"
-            },
-            {
-                "n": "1",
-                "descr": "thing which becomes off"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "turn_off.08",
-        "roleset_name": "cause to reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "rejecter"
-            },
-            {
-                "n": "2",
-                "descr": "thing rejected"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "turn_out.09",
-        "roleset_name": "cause to be off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner out"
-            },
-            {
-                "n": "1",
-                "descr": "thing turned out"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "turn_out.10",
-        "roleset_name": "produce, create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "turn_out.11",
-        "roleset_name": "seem",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "turn_out.17",
-        "roleset_name": "(cause to) turn out: appear, show up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "those appearing"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "turn_over.12",
-        "roleset_name": "submit, give, exchange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "entity given to"
-            },
-            {
-                "n": "3",
-                "descr": "in-exhange-for"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "turn_up.15",
-        "roleset_name": "(cause to) appear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of appearance"
-            },
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "turn_around.23",
-        "roleset_name": "cause to rotate exactly 180 degrees so that the front is facing what was the back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "thing turning"
-            },
-            {
-                "n": "2",
-                "descr": "axis/centerpoint of rotation"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "turn_around.24",
-        "roleset_name": "spin for (probably) one or more complete rotations; give a twirl",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "turner"
-            },
-            {
-                "n": "1",
-                "descr": "thing turning"
-            },
-            {
-                "n": "2",
-                "descr": "axis/centerpoint of rotation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "turn.01",
+    "roleset_name": "rotation, motion in a new direction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "thing turning",
+        "descr_trans": "事物转动"
+      },
+      {
+        "n": "2",
+        "descr": "axis/centerpoint of rotation",
+        "descr_trans": "旋转轴/中心点"
+      },
+      {
+        "n": "m",
+        "descr": "direction, location, destination",
+        "descr_trans": "方向、地点、目的地"
+      }
+    ],
+    "roleset_name_trans": "旋转，向新方向运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "turn.02",
+    "roleset_name": "transformation, becoming",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "转变、成为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "turn.03",
+    "roleset_name": "idiomatic: turn thumbs down on = reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rejecter",
+        "descr_trans": "拒绝者"
+      },
+      {
+        "n": "1",
+        "descr": "thumbs",
+        "descr_trans": "拇指"
+      },
+      {
+        "n": "2",
+        "descr": "thing rejected",
+        "descr_trans": "事情被拒绝"
+      }
+    ],
+    "roleset_name_trans": "惯用语：拒绝=拒绝"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "turn.14",
+    "roleset_name": "depend, hang, hinge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "depender",
+        "descr_trans": "依赖"
+      },
+      {
+        "n": "1",
+        "descr": "depended on",
+        "descr_trans": "依赖于"
+      }
+    ],
+    "roleset_name_trans": "依靠、悬挂、铰链"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "turn.16",
+    "roleset_name": "produce, nonphrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "producer",
+        "descr_trans": "制片人"
+      },
+      {
+        "n": "1",
+        "descr": "us. 'profit'",
+        "descr_trans": "我们。 &#39;利润&#39;"
+      }
+    ],
+    "roleset_name_trans": "产生，非短语"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "turn.18",
+    "roleset_name": "turn 'one's back' or 'a blind eye': ignore purposefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "Back/Blind eye",
+        "descr_trans": "后背/盲眼"
+      },
+      {
+        "n": "2",
+        "descr": "entity ignored",
+        "descr_trans": "实体被忽略"
+      }
+    ],
+    "roleset_name_trans": "“转身”或“视而不见”：故意忽视"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "turn_away.04",
+    "roleset_name": "reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "thing turned away",
+        "descr_trans": "东西转走了"
+      },
+      {
+        "n": "2",
+        "descr": "turned-away-from",
+        "descr_trans": "转身离开"
+      }
+    ],
+    "roleset_name_trans": "拒绝"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "turn_down.05",
+    "roleset_name": "reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rejecter",
+        "descr_trans": "拒绝者"
+      },
+      {
+        "n": "1",
+        "descr": "thing rejected",
+        "descr_trans": "事情被拒绝"
+      }
+    ],
+    "roleset_name_trans": "拒绝"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "turn_in.06",
+    "roleset_name": "give, hand in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      }
+    ],
+    "roleset_name_trans": "给予，交出"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "turn_in.22",
+    "roleset_name": "surrender to authorities, as a criminal/rule violator",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity turned in; criminal/rule violator",
+        "descr_trans": "实体上交；罪犯/违反规则者"
+      },
+      {
+        "n": "2",
+        "descr": "authorities",
+        "descr_trans": "当局"
+      },
+      {
+        "n": "3",
+        "descr": "crime/violation",
+        "descr_trans": "犯罪/违法行为"
+      }
+    ],
+    "roleset_name_trans": "作为罪犯/违规者向当局自首"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "turn_on.13",
+    "roleset_name": "cause to be on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of on-ness",
+        "descr_trans": "接通原因"
+      },
+      {
+        "n": "1",
+        "descr": "lamp, etc",
+        "descr_trans": "灯等"
+      }
+    ],
+    "roleset_name_trans": "导致开启"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "turn_off.07",
+    "roleset_name": "cause to be off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner off",
+        "descr_trans": "关闭"
+      },
+      {
+        "n": "1",
+        "descr": "thing which becomes off",
+        "descr_trans": "关闭的东西"
+      }
+    ],
+    "roleset_name_trans": "导致关闭"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "turn_off.08",
+    "roleset_name": "cause to reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "rejecter",
+        "descr_trans": "拒绝者"
+      },
+      {
+        "n": "2",
+        "descr": "thing rejected",
+        "descr_trans": "事情被拒绝"
+      }
+    ],
+    "roleset_name_trans": "导致拒绝"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "turn_out.09",
+    "roleset_name": "cause to be off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner out",
+        "descr_trans": "特纳出"
+      },
+      {
+        "n": "1",
+        "descr": "thing turned out",
+        "descr_trans": "结果事情"
+      }
+    ],
+    "roleset_name_trans": "导致关闭"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "turn_out.10",
+    "roleset_name": "produce, create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "生产、创造"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "turn_out.11",
+    "roleset_name": "seem",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming",
+        "descr_trans": "看起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "似乎"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "turn_out.17",
+    "roleset_name": "(cause to) turn out: appear, show up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "those appearing",
+        "descr_trans": "那些出现的"
+      }
+    ],
+    "roleset_name_trans": "（导致）结果：出现，出现"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "turn_over.12",
+    "roleset_name": "submit, give, exchange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity given to",
+        "descr_trans": "实体给予"
+      },
+      {
+        "n": "3",
+        "descr": "in-exhange-for",
+        "descr_trans": "交换"
+      }
+    ],
+    "roleset_name_trans": "提交、给予、交换"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "turn_up.15",
+    "roleset_name": "(cause to) appear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of appearance",
+        "descr_trans": "代理人，出现的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）出现"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "turn_around.23",
+    "roleset_name": "cause to rotate exactly 180 degrees so that the front is facing what was the back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "thing turning",
+        "descr_trans": "事物转动"
+      },
+      {
+        "n": "2",
+        "descr": "axis/centerpoint of rotation",
+        "descr_trans": "旋转轴/中心点"
+      }
+    ],
+    "roleset_name_trans": "导致正好旋转 180 度，使正面朝向背面"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "turn_around.24",
+    "roleset_name": "spin for (probably) one or more complete rotations; give a twirl",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "turner",
+        "descr_trans": "车工"
+      },
+      {
+        "n": "1",
+        "descr": "thing turning",
+        "descr_trans": "事物转动"
+      },
+      {
+        "n": "2",
+        "descr": "axis/centerpoint of rotation",
+        "descr_trans": "旋转轴/中心点"
+      }
+    ],
+    "roleset_name_trans": "旋转（可能）一轮或多轮完整的旋转；旋转一下"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bedew.01",
-        "roleset_name": "cause to be covered in dew",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bedewing"
-            },
-            {
-                "n": "1",
-                "descr": "thing bedewed"
-            },
-            {
-                "n": "2",
-                "descr": "dew, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bedew.01",
+    "roleset_name": "cause to be covered in dew",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bedewing",
+        "descr_trans": "造成结露的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing bedewed",
+        "descr_trans": "沾满水的东西"
+      },
+      {
+        "n": "2",
+        "descr": "dew, instrument",
+        "descr_trans": "露水, 仪器"
+      }
+    ],
+    "roleset_name_trans": "导致被露水覆盖"
+  }
 ]

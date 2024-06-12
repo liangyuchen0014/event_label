@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deregulate.01",
-        "roleset_name": "supervise, watch over, removing/relaxing regulation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deregulator"
-            },
-            {
-                "n": "1",
-                "descr": "thing deregulated"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deregulate.01",
+    "roleset_name": "supervise, watch over, removing/relaxing regulation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deregulator",
+        "descr_trans": "放松管制者"
+      },
+      {
+        "n": "1",
+        "descr": "thing deregulated",
+        "descr_trans": "放松管制的东西"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "监督、监视、取消/放松监管"
+  }
 ]

@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "marginalize.01",
-        "roleset_name": "make unimportant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "unimportant thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "marginal.02",
-        "roleset_name": "in the margin, almost not making a cut-off",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "marginal thing"
-            },
-            {
-                "n": "2",
-                "descr": "domain"
-            },
-            {
-                "n": "3",
-                "descr": "actual measurment"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "marginal.03",
-        "roleset_name": "hardly skilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "marginalize.01",
+    "roleset_name": "make unimportant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "unimportant thing",
+        "descr_trans": "不重要的事情"
+      }
+    ],
+    "roleset_name_trans": "使不重要"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "marginal.02",
+    "roleset_name": "in the margin, almost not making a cut-off",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "marginal thing",
+        "descr_trans": "边缘事物"
+      },
+      {
+        "n": "2",
+        "descr": "domain",
+        "descr_trans": "领域"
+      },
+      {
+        "n": "3",
+        "descr": "actual measurment",
+        "descr_trans": "实际测量"
+      }
+    ],
+    "roleset_name_trans": "在边缘，几乎没有进行截止"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "marginal.03",
+    "roleset_name": "hardly skilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "几乎不擅长"
+  }
 ]

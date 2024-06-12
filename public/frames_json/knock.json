@@ -1,188 +1,227 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "knock.01",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "knock.04",
-        "roleset_name": "cut off by striking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "knock_back.07",
-        "roleset_name": "ingest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "knocker"
-            },
-            {
-                "n": "1",
-                "descr": "drink"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "knock_down.02",
-        "roleset_name": "knock down: hit and cause to go down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "knocker"
-            },
-            {
-                "n": "1",
-                "descr": "thing knocked and going down"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "knock_out.03",
-        "roleset_name": "knock out: eliminate, destroy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing destroyed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of destruction"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "knock_off.05",
-        "roleset_name": "knock off: eliminate, destroy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "The Eliminator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing eliminated"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "knock_off.06",
-        "roleset_name": "knock off: copy, copying",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier"
-            },
-            {
-                "n": "1",
-                "descr": "thing copied"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "knock_over.08",
-        "roleset_name": "knock_over: rob",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "robber"
-            },
-            {
-                "n": "1",
-                "descr": "establishment being robbed"
-            },
-            {
-                "n": "2",
-                "descr": "the loot"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "knock_up.09",
-        "roleset_name": "impregnate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "baby daddy"
-            },
-            {
-                "n": "1",
-                "descr": "baby mama"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "knock_up.10",
-        "roleset_name": "awaken by knocking insistently on the door (british)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "insistent knocker"
-            },
-            {
-                "n": "1",
-                "descr": "entity woken up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "knock.01",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "knock.04",
+    "roleset_name": "cut off by striking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "击打切断"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "knock_back.07",
+    "roleset_name": "ingest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "knocker",
+        "descr_trans": "门环"
+      },
+      {
+        "n": "1",
+        "descr": "drink",
+        "descr_trans": "喝"
+      }
+    ],
+    "roleset_name_trans": "摄入"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "knock_down.02",
+    "roleset_name": "knock down: hit and cause to go down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "knocker",
+        "descr_trans": "门环"
+      },
+      {
+        "n": "1",
+        "descr": "thing knocked and going down",
+        "descr_trans": "东西被撞倒了"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "击倒：击中并导致倒下"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "knock_out.03",
+    "roleset_name": "knock out: eliminate, destroy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer",
+        "descr_trans": "驱逐舰"
+      },
+      {
+        "n": "1",
+        "descr": "thing destroyed",
+        "descr_trans": "东西被毁了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of destruction",
+        "descr_trans": "毁灭工具"
+      }
+    ],
+    "roleset_name_trans": "knock out：消灭，消灭"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "knock_off.05",
+    "roleset_name": "knock off: eliminate, destroy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "The Eliminator, agent",
+        "descr_trans": "消灭者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "thing eliminated",
+        "descr_trans": "消除的东西"
+      }
+    ],
+    "roleset_name_trans": "knock off: 消灭，消灭"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "knock_off.06",
+    "roleset_name": "knock off: copy, copying",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier",
+        "descr_trans": "复印机"
+      },
+      {
+        "n": "1",
+        "descr": "thing copied",
+        "descr_trans": "复制的东西"
+      }
+    ],
+    "roleset_name_trans": "敲掉：复制，抄袭"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "knock_over.08",
+    "roleset_name": "knock_over: rob",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "robber",
+        "descr_trans": "强盗"
+      },
+      {
+        "n": "1",
+        "descr": "establishment being robbed",
+        "descr_trans": "机构被抢劫"
+      },
+      {
+        "n": "2",
+        "descr": "the loot",
+        "descr_trans": "战利品"
+      }
+    ],
+    "roleset_name_trans": "击倒：抢劫"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "knock_up.09",
+    "roleset_name": "impregnate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "baby daddy",
+        "descr_trans": "宝贝爸爸"
+      },
+      {
+        "n": "1",
+        "descr": "baby mama",
+        "descr_trans": "宝贝妈妈"
+      }
+    ],
+    "roleset_name_trans": "浸渍"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "knock_up.10",
+    "roleset_name": "awaken by knocking insistently on the door (british)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "insistent knocker",
+        "descr_trans": "持续的门环"
+      },
+      {
+        "n": "1",
+        "descr": "entity woken up",
+        "descr_trans": "实体醒来"
+      }
+    ],
+    "roleset_name_trans": "坚持敲门叫醒（英国）"
+  }
 ]

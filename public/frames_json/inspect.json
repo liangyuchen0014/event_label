@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inspect.01",
-        "roleset_name": "to examine carefully, review, careful review, carefully examined",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "entity inspected"
-            },
-            {
-                "n": "2",
-                "descr": "inspected for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inspect.01",
+    "roleset_name": "to examine carefully, review, careful review, carefully examined",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "entity inspected",
+        "descr_trans": "被检查实体"
+      },
+      {
+        "n": "2",
+        "descr": "inspected for what?",
+        "descr_trans": "检查什么？"
+      }
+    ],
+    "roleset_name_trans": "仔细检查，仔细检查，仔细检查，仔细检查"
+  }
 ]

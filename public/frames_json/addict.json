@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "addict.01",
-        "roleset_name": "cause a dependency, as to a drug",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside causer of addiction"
-            },
-            {
-                "n": "1",
-                "descr": "addicted entity"
-            },
-            {
-                "n": "2",
-                "descr": "drug etc."
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "addictive.02",
-        "roleset_name": "causing addiction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "addictive substance"
-            },
-            {
-                "n": "1",
-                "descr": "addictive to whom? addicted entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "addict.01",
+    "roleset_name": "cause a dependency, as to a drug",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside causer of addiction",
+        "descr_trans": "成瘾的外部原因"
+      },
+      {
+        "n": "1",
+        "descr": "addicted entity",
+        "descr_trans": "上瘾的实体"
+      },
+      {
+        "n": "2",
+        "descr": "drug etc.",
+        "descr_trans": "药物等"
+      }
+    ],
+    "roleset_name_trans": "导致对药物的依赖性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "addictive.02",
+    "roleset_name": "causing addiction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "addictive substance",
+        "descr_trans": "成瘾物质"
+      },
+      {
+        "n": "1",
+        "descr": "addictive to whom? addicted entity",
+        "descr_trans": "对谁上瘾？上瘾的实体"
+      }
+    ],
+    "roleset_name_trans": "导致成瘾"
+  }
 ]

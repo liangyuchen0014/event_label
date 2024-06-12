@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "canter.01",
-        "roleset_name": "go or ride at a canter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rider"
-            },
-            {
-                "n": "1",
-                "descr": "steed (entity actually running)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "canter.01",
+    "roleset_name": "go or ride at a canter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rider",
+        "descr_trans": "骑士"
+      },
+      {
+        "n": "1",
+        "descr": "steed (entity actually running)",
+        "descr_trans": "骏马（实际运行的实体）"
+      }
+    ],
+    "roleset_name_trans": "慢跑或骑行"
+  }
 ]

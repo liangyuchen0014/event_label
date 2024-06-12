@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misrepresent.01",
-        "roleset_name": "portray falsely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misrepresenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing portrayed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misrepresent.01",
+    "roleset_name": "portray falsely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misrepresenter",
+        "descr_trans": "误传者"
+      },
+      {
+        "n": "1",
+        "descr": "thing portrayed",
+        "descr_trans": "所描绘的事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "错误地描绘"
+  }
 ]

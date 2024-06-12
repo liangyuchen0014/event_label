@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pulpation.01",
-        "roleset_name": "cause to be reduced to a pulp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity turning to pulp"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pulpation.01",
+    "roleset_name": "cause to be reduced to a pulp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity turning to pulp",
+        "descr_trans": "实体变成纸浆"
+      }
+    ],
+    "roleset_name_trans": "导致变成纸浆"
+  }
 ]

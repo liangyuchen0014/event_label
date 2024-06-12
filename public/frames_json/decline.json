@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decline.01",
-        "roleset_name": "fall, ",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing declining"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount declined by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of arg1 in decline"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "decline.02",
-        "roleset_name": "demure, turn down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity turning down"
-            },
-            {
-                "n": "1",
-                "descr": "thing turned down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decline.01",
+    "roleset_name": "fall, ",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing declining",
+        "descr_trans": "逻辑主体、耐心、事物衰退"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount declined by",
+        "descr_trans": "EXT，金额下降"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of arg1 in decline",
+        "descr_trans": "arg1 下降的具体方面"
+      }
+    ],
+    "roleset_name_trans": "落下，"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "decline.02",
+    "roleset_name": "demure, turn down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity turning down",
+        "descr_trans": "实体拒绝"
+      },
+      {
+        "n": "1",
+        "descr": "thing turned down",
+        "descr_trans": "事情被拒绝"
+      }
+    ],
+    "roleset_name_trans": "端庄, 拒绝"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "selfidentify.01",
-        "roleset_name": "hold as one's own identity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "identifyer"
-            },
-            {
-                "n": "1",
-                "descr": "explicit additional mention of the entity identified"
-            },
-            {
-                "n": "2",
-                "descr": "as what: identity claimed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "selfidentify.01",
+    "roleset_name": "hold as one's own identity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "identifyer",
+        "descr_trans": "识别器"
+      },
+      {
+        "n": "1",
+        "descr": "explicit additional mention of the entity identified",
+        "descr_trans": "明确额外提及所识别的实体"
+      },
+      {
+        "n": "2",
+        "descr": "as what: identity claimed",
+        "descr_trans": "如下：身份声称"
+      }
+    ],
+    "roleset_name_trans": "保持自己的身份"
+  }
 ]

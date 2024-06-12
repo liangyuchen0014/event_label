@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "calibrate.01",
-        "roleset_name": "fine-tune",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "calibrator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing calibrated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intercalibrate.02",
-        "roleset_name": "calibrate within a set; calibrate between",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intercalibrator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first thing (or things) intercalibrated"
-            },
-            {
-                "n": "2",
-                "descr": "second thing intercalibrated, compared with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "calibrate.01",
+    "roleset_name": "fine-tune",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "calibrator, agent",
+        "descr_trans": "校准剂、试剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing calibrated",
+        "descr_trans": "校准的东西"
+      }
+    ],
+    "roleset_name_trans": "微调"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intercalibrate.02",
+    "roleset_name": "calibrate within a set; calibrate between",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intercalibrator, agent",
+        "descr_trans": "互校准剂、试剂"
+      },
+      {
+        "n": "1",
+        "descr": "first thing (or things) intercalibrated",
+        "descr_trans": "第一个（或多个）事物相互校准"
+      },
+      {
+        "n": "2",
+        "descr": "second thing intercalibrated, compared with",
+        "descr_trans": "相互校准的第二件事，与"
+      }
+    ],
+    "roleset_name_trans": "在一组内进行校准；校准之间"
+  }
 ]

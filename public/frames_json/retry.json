@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retry.01",
-        "roleset_name": "lawsuit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Litigant"
-            },
-            {
-                "n": "1",
-                "descr": "Lawsuit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retry.01",
+    "roleset_name": "lawsuit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Litigant",
+        "descr_trans": "当事人"
+      },
+      {
+        "n": "1",
+        "descr": "Lawsuit",
+        "descr_trans": "诉讼"
+      }
+    ],
+    "roleset_name_trans": "诉讼"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unconscious.01",
-        "roleset_name": "not aware of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who isn't aware"
-            },
-            {
-                "n": "1",
-                "descr": "unaware of what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unconscious.02",
-        "roleset_name": "knocked out; unawake from a medical standpoint",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unawake entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unconscious.01",
+    "roleset_name": "not aware of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who isn't aware",
+        "descr_trans": "不知道的实体"
+      },
+      {
+        "n": "1",
+        "descr": "unaware of what",
+        "descr_trans": "不知道什么"
+      }
+    ],
+    "roleset_name_trans": "不知道"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unconscious.02",
+    "roleset_name": "knocked out; unawake from a medical standpoint",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unawake entity",
+        "descr_trans": "女性实体"
+      }
+    ],
+    "roleset_name_trans": "被踢出;从医学角度来看尚未觉醒"
+  }
 ]

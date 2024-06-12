@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "underrepresent.01",
-        "roleset_name": "(present as) having fewer representatives than ideal/actual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "presenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing, group underrepresented"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which arg1 is underrepresented"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "underrepresent.01",
+    "roleset_name": "(present as) having fewer representatives than ideal/actual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "presenter",
+        "descr_trans": "主持人"
+      },
+      {
+        "n": "1",
+        "descr": "thing, group underrepresented",
+        "descr_trans": "事物、群体代表性不足"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which arg1 is underrepresented",
+        "descr_trans": "arg1 代表性不足的域"
+      }
+    ],
+    "roleset_name_trans": "（表现为）代表人数少于理想/实际人数"
+  }
 ]

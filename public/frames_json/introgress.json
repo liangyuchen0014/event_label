@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "introgress.01",
-        "roleset_name": "transfer genes of a hybrid back into one of the originating species by backbreeding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breeder"
-            },
-            {
-                "n": "1",
-                "descr": "hybrid genes"
-            },
-            {
-                "n": "2",
-                "descr": "species bred back into"
-            },
-            {
-                "n": "3",
-                "descr": "mention of the other species involved in the hybrid, if separate from arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "introgress.01",
+    "roleset_name": "transfer genes of a hybrid back into one of the originating species by backbreeding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breeder",
+        "descr_trans": "饲养员"
+      },
+      {
+        "n": "1",
+        "descr": "hybrid genes",
+        "descr_trans": "杂种基因"
+      },
+      {
+        "n": "2",
+        "descr": "species bred back into",
+        "descr_trans": "繁殖回的物种"
+      },
+      {
+        "n": "3",
+        "descr": "mention of the other species involved in the hybrid, if separate from arg1",
+        "descr_trans": "提及杂交中涉及的其他物种（如果与 arg1 分开）"
+      }
+    ],
+    "roleset_name_trans": "通过回交将杂种的基因转移回原始物种之一"
+  }
 ]

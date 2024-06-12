@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "console.01",
-        "roleset_name": "make feel better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consoler"
-            },
-            {
-                "n": "1",
-                "descr": "consoled"
-            },
-            {
-                "n": "2",
-                "descr": "consolation, instrument (if separate from arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "console.01",
+    "roleset_name": "make feel better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consoler",
+        "descr_trans": "安慰"
+      },
+      {
+        "n": "1",
+        "descr": "consoled",
+        "descr_trans": "安慰"
+      },
+      {
+        "n": "2",
+        "descr": "consolation, instrument (if separate from arg0)",
+        "descr_trans": "安慰、工具（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "让感觉更好"
+  }
 ]

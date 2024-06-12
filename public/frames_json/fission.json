@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fission.01",
-        "roleset_name": "split into smaller parts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent (scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing splitting"
-            },
-            {
-                "n": "2",
-                "descr": "pieces"
-            },
-            {
-                "n": "3",
-                "descr": "number resulting pieces"
-            },
-            {
-                "n": "4",
-                "descr": "type of fission"
-            },
-            {
-                "n": "5",
-                "descr": "catalyst"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fission.01",
+    "roleset_name": "split into smaller parts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent (scientist)",
+        "descr_trans": "外部代理人（科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing splitting",
+        "descr_trans": "事物分裂"
+      },
+      {
+        "n": "2",
+        "descr": "pieces",
+        "descr_trans": "件"
+      },
+      {
+        "n": "3",
+        "descr": "number resulting pieces",
+        "descr_trans": "结果件数"
+      },
+      {
+        "n": "4",
+        "descr": "type of fission",
+        "descr_trans": "裂变类型"
+      },
+      {
+        "n": "5",
+        "descr": "catalyst",
+        "descr_trans": "催化剂"
+      }
+    ],
+    "roleset_name_trans": "分成更小的部分"
+  }
 ]

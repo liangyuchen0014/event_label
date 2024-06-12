@@ -1,137 +1,164 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "back.01",
-        "roleset_name": "support",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supporter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being supported"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "back.02",
-        "roleset_name": "move backwards",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of backwards motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "back.03",
-        "roleset_name": "face backwards",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker, facer"
-            },
-            {
-                "n": "1",
-                "descr": "looked at, faced"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "back_up.04",
-        "roleset_name": "back up: support",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supporter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being supported"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "back_up.06",
-        "roleset_name": "back up: move backwards",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of backwards motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "back_up.08",
-        "roleset_name": "back up: face backwards",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker, facer"
-            },
-            {
-                "n": "1",
-                "descr": "looked at, faced"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "back_up.09",
-        "roleset_name": "back up: preserve data",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preserver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "data"
-            },
-            {
-                "n": "2",
-                "descr": "permanent storage device"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "back_up.10",
-        "roleset_name": "back up: traffic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "traffic"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "back_off.11",
-        "roleset_name": "back off: to retreat from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "retreator"
-            },
-            {
-                "n": "1",
-                "descr": "location or thing retreating from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "back.01",
+    "roleset_name": "support",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supporter",
+        "descr_trans": "支持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being supported",
+        "descr_trans": "被支持的事物"
+      }
+    ],
+    "roleset_name_trans": "支持"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "back.02",
+    "roleset_name": "move backwards",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of backwards motion",
+        "descr_trans": "向后运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "向后移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "back.03",
+    "roleset_name": "face backwards",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker, facer",
+        "descr_trans": "观察者，面对者"
+      },
+      {
+        "n": "1",
+        "descr": "looked at, faced",
+        "descr_trans": "看着，面对"
+      }
+    ],
+    "roleset_name_trans": "面朝后"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "back_up.04",
+    "roleset_name": "back up: support",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supporter",
+        "descr_trans": "支持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being supported",
+        "descr_trans": "被支持的事物"
+      }
+    ],
+    "roleset_name_trans": "备份：支持"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "back_up.06",
+    "roleset_name": "back up: move backwards",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of backwards motion",
+        "descr_trans": "向后运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "后退：向后移动"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "back_up.08",
+    "roleset_name": "back up: face backwards",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker, facer",
+        "descr_trans": "观察者，面对者"
+      },
+      {
+        "n": "1",
+        "descr": "looked at, faced",
+        "descr_trans": "看着，面对"
+      }
+    ],
+    "roleset_name_trans": "向后仰：面朝后"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "back_up.09",
+    "roleset_name": "back up: preserve data",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preserver, agent",
+        "descr_trans": "保护剂，代理"
+      },
+      {
+        "n": "1",
+        "descr": "data",
+        "descr_trans": "数据"
+      },
+      {
+        "n": "2",
+        "descr": "permanent storage device",
+        "descr_trans": "永久存储设备"
+      }
+    ],
+    "roleset_name_trans": "备份：保存数据"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "back_up.10",
+    "roleset_name": "back up: traffic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "traffic",
+        "descr_trans": "交通"
+      }
+    ],
+    "roleset_name_trans": "备份：交通"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "back_off.11",
+    "roleset_name": "back off: to retreat from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "retreator",
+        "descr_trans": "撤退者"
+      },
+      {
+        "n": "1",
+        "descr": "location or thing retreating from",
+        "descr_trans": "撤退的地点或事物"
+      }
+    ],
+    "roleset_name_trans": "back off：退却"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refract.01",
-        "roleset_name": "change direction (of a light beam), block or redirect a light wave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deflector, eye"
-            },
-            {
-                "n": "1",
-                "descr": "thing deflected, light"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refract.01",
+    "roleset_name": "change direction (of a light beam), block or redirect a light wave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deflector, eye",
+        "descr_trans": "偏转器、眼睛"
+      },
+      {
+        "n": "1",
+        "descr": "thing deflected, light",
+        "descr_trans": "物体偏转，光线"
+      }
+    ],
+    "roleset_name_trans": "改变（光束）方向、阻挡或重定向光波"
+  }
 ]

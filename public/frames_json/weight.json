@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weight.01",
-        "roleset_name": "to present with a bias",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "presenter of bias, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity weighted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weight.01",
+    "roleset_name": "to present with a bias",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "presenter of bias, agent",
+        "descr_trans": "偏见的提出者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity weighted",
+        "descr_trans": "实体加权"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "有偏见地呈现"
+  }
 ]

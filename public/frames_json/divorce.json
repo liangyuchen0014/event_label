@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "divorce.01",
-        "roleset_name": "to obtain a divorce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "initiator of end of marriage, agent"
-            },
-            {
-                "n": "1",
-                "descr": "ex-spouse"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "divorce.02",
-        "roleset_name": "to separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of separation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity separated"
-            },
-            {
-                "n": "2",
-                "descr": "entity separated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "divorce.01",
+    "roleset_name": "to obtain a divorce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "initiator of end of marriage, agent",
+        "descr_trans": "终止婚姻的发起人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "ex-spouse",
+        "descr_trans": "前配偶"
+      }
+    ],
+    "roleset_name_trans": "离婚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "divorce.02",
+    "roleset_name": "to separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of separation, agent",
+        "descr_trans": "造成分离的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity separated",
+        "descr_trans": "实体分离"
+      },
+      {
+        "n": "2",
+        "descr": "entity separated from",
+        "descr_trans": "实体分离于"
+      }
+    ],
+    "roleset_name_trans": "分开"
+  }
 ]

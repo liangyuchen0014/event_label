@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "upsize.01",
-        "roleset_name": "increase in size",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of upsizing"
-            },
-            {
-                "n": "1",
-                "descr": "thing upsizing"
-            },
-            {
-                "n": "2",
-                "descr": "amount upsized by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "upsize.01",
+    "roleset_name": "increase in size",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of upsizing",
+        "descr_trans": "导致规模扩大的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing upsizing",
+        "descr_trans": "东西变大"
+      },
+      {
+        "n": "2",
+        "descr": "amount upsized by, EXT or MNR",
+        "descr_trans": "EXT 或 MNR 增加的金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "尺寸增加"
+  }
 ]

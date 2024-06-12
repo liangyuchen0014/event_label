@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deck.01",
-        "roleset_name": "to decorate, adorn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity decked"
-            },
-            {
-                "n": "2",
-                "descr": "decoration"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deck_out.02",
-        "roleset_name": "to dress up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person putting on clothes"
-            },
-            {
-                "n": "1",
-                "descr": "person wearing clothes"
-            },
-            {
-                "n": "2",
-                "descr": "clothes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deck.01",
+    "roleset_name": "to decorate, adorn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, agent",
+        "descr_trans": "装修师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity decked",
+        "descr_trans": "实体装饰"
+      },
+      {
+        "n": "2",
+        "descr": "decoration",
+        "descr_trans": "装饰"
+      }
+    ],
+    "roleset_name_trans": "装饰，装饰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deck_out.02",
+    "roleset_name": "to dress up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person putting on clothes",
+        "descr_trans": "穿衣服的人"
+      },
+      {
+        "n": "1",
+        "descr": "person wearing clothes",
+        "descr_trans": "穿着衣服的人"
+      },
+      {
+        "n": "2",
+        "descr": "clothes",
+        "descr_trans": "衣服"
+      }
+    ],
+    "roleset_name_trans": "打扮"
+  }
 ]

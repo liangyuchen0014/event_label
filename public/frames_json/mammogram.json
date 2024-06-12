@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mammogram.01",
-        "roleset_name": "x-ray imaging of the breast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "entity scanned"
-            },
-            {
-                "n": "2",
-                "descr": "more specific entity scanned, if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mammogram.01",
+    "roleset_name": "x-ray imaging of the breast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "entity scanned",
+        "descr_trans": "实体扫描"
+      },
+      {
+        "n": "2",
+        "descr": "more specific entity scanned, if in addition to ARG1",
+        "descr_trans": "扫描更具体的实体（如果除了 ARG1）"
+      }
+    ],
+    "roleset_name_trans": "乳房 X 射线成像"
+  }
 ]

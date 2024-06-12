@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "barricade.01",
-        "roleset_name": "to block with a barricade, or to keep in   or out of somewhere with a barricade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the barricading"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being barricaded"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing used to barricade"
-            },
-            {
-                "n": "3",
-                "descr": "location of patient (thing being barricaded)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "barricade.01",
+    "roleset_name": "to block with a barricade, or to keep in   or out of somewhere with a barricade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the barricading",
+        "descr_trans": "代理、设置路障的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being barricaded",
+        "descr_trans": "病人，东西被封锁"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing used to barricade",
+        "descr_trans": "工具，用来设置路障的东西"
+      },
+      {
+        "n": "3",
+        "descr": "location of patient (thing being barricaded)",
+        "descr_trans": "病人的位置（被封锁的东西）"
+      }
+    ],
+    "roleset_name_trans": "用路障阻挡，或用路障进出某个地方"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blackline.01",
-        "roleset_name": "Compare two documents by displaying only what has changed between them",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "comparer"
-            },
-            {
-                "n": "1",
-                "descr": "first document or item compared"
-            },
-            {
-                "n": "2",
-                "descr": "second item, compared against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blackline.01",
+    "roleset_name": "Compare two documents by displaying only what has changed between them",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "comparer",
+        "descr_trans": "比较"
+      },
+      {
+        "n": "1",
+        "descr": "first document or item compared",
+        "descr_trans": "第一个比较的文档或项目"
+      },
+      {
+        "n": "2",
+        "descr": "second item, compared against",
+        "descr_trans": "第二项，与"
+      }
+    ],
+    "roleset_name_trans": "通过仅显示两个文档之间的更改来比较两个文档"
+  }
 ]

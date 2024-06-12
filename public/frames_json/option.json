@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "option.01",
-        "roleset_name": "to purchase an option on something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller, entity offering option"
-            },
-            {
-                "n": "1",
-                "descr": "Thing optioned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "option.01",
+    "roleset_name": "to purchase an option on something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller, entity offering option",
+        "descr_trans": "卖方、提供期权的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Thing optioned",
+        "descr_trans": "选择的东西"
+      }
+    ],
+    "roleset_name_trans": "购买某物的期权"
+  }
 ]

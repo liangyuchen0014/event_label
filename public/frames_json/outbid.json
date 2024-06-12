@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outbid.01",
-        "roleset_name": "bid more than",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bidder"
-            },
-            {
-                "n": "1",
-                "descr": "other, lesser bidder"
-            },
-            {
-                "n": "2",
-                "descr": "goods"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outbid.01",
+    "roleset_name": "bid more than",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bidder",
+        "descr_trans": "投标人"
+      },
+      {
+        "n": "1",
+        "descr": "other, lesser bidder",
+        "descr_trans": "其他出价较低的投标人"
+      },
+      {
+        "n": "2",
+        "descr": "goods",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "出价超过"
+  }
 ]

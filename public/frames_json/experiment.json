@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "experiment.01",
-        "roleset_name": "to conduct an experiment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scientist, agent"
-            },
-            {
-                "n": "1",
-                "descr": "experimental subject"
-            },
-            {
-                "n": "2",
-                "descr": "experimental method"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "experiment.01",
+    "roleset_name": "to conduct an experiment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scientist, agent",
+        "descr_trans": "科学家、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "experimental subject",
+        "descr_trans": "实验对象"
+      },
+      {
+        "n": "2",
+        "descr": "experimental method",
+        "descr_trans": "实验方法"
+      }
+    ],
+    "roleset_name_trans": "进行实验"
+  }
 ]

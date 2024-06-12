@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "saddle.01",
-        "roleset_name": "to load or burden",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "saddler"
-            },
-            {
-                "n": "1",
-                "descr": "entity saddled"
-            },
-            {
-                "n": "2",
-                "descr": "burden"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "saddle.01",
+    "roleset_name": "to load or burden",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "saddler",
+        "descr_trans": "马鞍匠"
+      },
+      {
+        "n": "1",
+        "descr": "entity saddled",
+        "descr_trans": "实体背负"
+      },
+      {
+        "n": "2",
+        "descr": "burden",
+        "descr_trans": "负担"
+      }
+    ],
+    "roleset_name_trans": "装载或负担"
+  }
 ]

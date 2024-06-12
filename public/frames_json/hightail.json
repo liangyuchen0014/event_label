@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hightail.01",
-        "roleset_name": "leave in a hurry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "place left"
-            },
-            {
-                "n": "2",
-                "descr": "fixed: 'it'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hightail.01",
+    "roleset_name": "leave in a hurry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      },
+      {
+        "n": "2",
+        "descr": "fixed: 'it'",
+        "descr_trans": "修复&#39;"
+      }
+    ],
+    "roleset_name_trans": "匆匆离开"
+  }
 ]

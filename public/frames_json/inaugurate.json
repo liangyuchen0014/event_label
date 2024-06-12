@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inaugurate.01",
-        "roleset_name": "swear into office",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "new officer"
-            },
-            {
-                "n": "2",
-                "descr": "office, role"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inaugurate.02",
-        "roleset_name": "mark the beginning of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "marker"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inaugurate.01",
+    "roleset_name": "swear into office",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (rare)",
+        "descr_trans": "代理（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "new officer",
+        "descr_trans": "新官"
+      },
+      {
+        "n": "2",
+        "descr": "office, role",
+        "descr_trans": "办公室、角色"
+      }
+    ],
+    "roleset_name_trans": "宣誓就职"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inaugurate.02",
+    "roleset_name": "mark the beginning of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "marker",
+        "descr_trans": "标记"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      }
+    ],
+    "roleset_name_trans": "标记开始"
+  }
 ]

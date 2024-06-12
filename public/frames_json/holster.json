@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "holster.01",
-        "roleset_name": "to place back in a holster",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holster-er"
-            },
-            {
-                "n": "1",
-                "descr": "holstered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "holster.01",
+    "roleset_name": "to place back in a holster",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holster-er",
+        "descr_trans": "皮套"
+      },
+      {
+        "n": "1",
+        "descr": "holstered",
+        "descr_trans": "装在皮套里的"
+      }
+    ],
+    "roleset_name_trans": "放回皮套中"
+  }
 ]

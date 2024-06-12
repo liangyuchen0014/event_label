@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "worry.01",
-        "roleset_name": "worry with direct object, causing worry, anxious about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of worrying, troublesome topic"
-            },
-            {
-                "n": "1",
-                "descr": "worrier"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "worry.02",
-        "roleset_name": "worrier as active subject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worrier"
-            },
-            {
-                "n": "1",
-                "descr": "topic of worry"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "worrisome.03",
-        "roleset_name": "suggestive of a particular condition or outcome",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worrisome symptom"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing worry"
-            },
-            {
-                "n": "2",
-                "descr": "the condition/outcome possibly indicated by arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "worry.01",
+    "roleset_name": "worry with direct object, causing worry, anxious about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of worrying, troublesome topic",
+        "descr_trans": "令人担忧、麻烦的话题的原因"
+      },
+      {
+        "n": "1",
+        "descr": "worrier",
+        "descr_trans": "担心者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from agent",
+        "descr_trans": "仪器，当与代理人分开时"
+      }
+    ],
+    "roleset_name_trans": "对直接对象的担忧，引起担忧，焦虑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "worry.02",
+    "roleset_name": "worrier as active subject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worrier",
+        "descr_trans": "担心者"
+      },
+      {
+        "n": "1",
+        "descr": "topic of worry",
+        "descr_trans": "担心的话题"
+      }
+    ],
+    "roleset_name_trans": "忧虑者作为主动主体"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "worrisome.03",
+    "roleset_name": "suggestive of a particular condition or outcome",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worrisome symptom",
+        "descr_trans": "令人担忧的症状"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing worry",
+        "descr_trans": "实体经历忧虑"
+      },
+      {
+        "n": "2",
+        "descr": "the condition/outcome possibly indicated by arg0",
+        "descr_trans": "arg0 可能指示的条件/结果"
+      }
+    ],
+    "roleset_name_trans": "暗示特定的条件或结果"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sluice_down.01",
-        "roleset_name": "clean as if by using a sluice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sluicer"
-            },
-            {
-                "n": "1",
-                "descr": "thing sluiced, location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sluice_down.02",
-        "roleset_name": "flow as if a sluice has opened",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sluice_down.01",
+    "roleset_name": "clean as if by using a sluice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sluicer",
+        "descr_trans": "水闸"
+      },
+      {
+        "n": "1",
+        "descr": "thing sluiced, location",
+        "descr_trans": "东西被冲洗掉，位置"
+      }
+    ],
+    "roleset_name_trans": "像使用水闸一样清洁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sluice_down.02",
+    "roleset_name": "flow as if a sluice has opened",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "如同水闸打开一样流动"
+  }
 ]

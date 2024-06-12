@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spectate.01",
-        "roleset_name": "watch but not participate (esp. games)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spectator"
-            },
-            {
-                "n": "1",
-                "descr": "thing watched"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spectate.01",
+    "roleset_name": "watch but not participate (esp. games)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spectator",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "1",
+        "descr": "thing watched",
+        "descr_trans": "被看的东西"
+      }
+    ],
+    "roleset_name_trans": "观看但不参与（尤其是游戏）"
+  }
 ]

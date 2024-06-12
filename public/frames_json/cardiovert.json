@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cardiovert.01",
-        "roleset_name": "subject to a cardioversion, correcting cardiac arrythmia using electric current or medication",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/ doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient undergoing procedure"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cardiovert.01",
+    "roleset_name": "subject to a cardioversion, correcting cardiac arrythmia using electric current or medication",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/ doctor",
+        "descr_trans": "代理人/医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient undergoing procedure",
+        "descr_trans": "正在接受手术的患者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "接受心脏复律，使用电流或药物纠正心律失常"
+  }
 ]

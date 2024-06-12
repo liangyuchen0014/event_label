@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "boom.01",
-        "roleset_name": "make a booming noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of boom, agent"
-            },
-            {
-                "n": "1",
-                "descr": "loud noise"
-            },
-            {
-                "n": "2",
-                "descr": "source of loud noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "boom.02",
-        "roleset_name": "be successful, growing suddenly and quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "successful thing"
-            },
-            {
-                "n": "1",
-                "descr": "specific aspect of arg0 growing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "boom_out.03",
-        "roleset_name": "produce loudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "introducer"
-            },
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "boom.01",
+    "roleset_name": "make a booming noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of boom, agent",
+        "descr_trans": "繁荣的起因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "loud noise",
+        "descr_trans": "巨响"
+      },
+      {
+        "n": "2",
+        "descr": "source of loud noise",
+        "descr_trans": "大声喧哗的来源"
+      }
+    ],
+    "roleset_name_trans": "发出轰鸣声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "boom.02",
+    "roleset_name": "be successful, growing suddenly and quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "successful thing",
+        "descr_trans": "成功的事情"
+      },
+      {
+        "n": "1",
+        "descr": "specific aspect of arg0 growing",
+        "descr_trans": "arg0 增长的具体方面"
+      }
+    ],
+    "roleset_name_trans": "获得成功，突然而快速地成长"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "boom_out.03",
+    "roleset_name": "produce loudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "introducer",
+        "descr_trans": "介绍人"
+      },
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      }
+    ],
+    "roleset_name_trans": "大声地产生"
+  }
 ]

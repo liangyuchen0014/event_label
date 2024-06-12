@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embrocate.01",
-        "roleset_name": "to moisten/rub with oil or liniment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of embrocation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity rubbed"
-            },
-            {
-                "n": "2",
-                "descr": "rubbed with what? oil or liniment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embrocate.01",
+    "roleset_name": "to moisten/rub with oil or liniment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of embrocation, agent",
+        "descr_trans": "擦伤的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "entity rubbed",
+        "descr_trans": "实体被摩擦"
+      },
+      {
+        "n": "2",
+        "descr": "rubbed with what? oil or liniment",
+        "descr_trans": "用什么擦？油或搽剂"
+      }
+    ],
+    "roleset_name_trans": "用油或搽剂润湿/擦拭"
+  }
 ]

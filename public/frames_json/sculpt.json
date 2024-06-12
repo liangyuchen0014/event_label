@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sculpt.01",
-        "roleset_name": "build by molding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sculptor"
-            },
-            {
-                "n": "1",
-                "descr": "sculpture"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sculpt.01",
+    "roleset_name": "build by molding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sculptor",
+        "descr_trans": "雕塑家"
+      },
+      {
+        "n": "1",
+        "descr": "sculpture",
+        "descr_trans": "雕塑"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过模压建造"
+  }
 ]

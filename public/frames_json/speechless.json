@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "speechless.01",
-        "roleset_name": "unable to speak",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who can't speak"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "would-be hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "speechless.01",
+    "roleset_name": "unable to speak",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who can't speak",
+        "descr_trans": "不能说话的实体"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "would-be hearer",
+        "descr_trans": "潜在的听众"
+      }
+    ],
+    "roleset_name_trans": "无法说话"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "muzzle.01",
-        "roleset_name": "make unable to speak",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of speaking inability"
-            },
-            {
-                "n": "1",
-                "descr": "entity no longer able to speak"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of muzzle proper"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "muzzle.01",
+    "roleset_name": "make unable to speak",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of speaking inability",
+        "descr_trans": "导致无法说话的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity no longer able to speak",
+        "descr_trans": "实体不再能够说话"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of muzzle proper",
+        "descr_trans": "明确提及枪口本身"
+      }
+    ],
+    "roleset_name_trans": "使无法说话"
+  }
 ]

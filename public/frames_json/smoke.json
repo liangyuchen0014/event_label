@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smoke.01",
-        "roleset_name": "emit smoke, inhaling, event where smoking occurs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of smoke emission"
-            },
-            {
-                "n": "1",
-                "descr": "substance smoking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smoke.02",
-        "roleset_name": "smoke cigarettes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smoker"
-            },
-            {
-                "n": "1",
-                "descr": "cigarettes (etc)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "smoke.03",
-        "roleset_name": "imbue smoky flavor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smoker"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquiring smoky flavor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smoke.01",
+    "roleset_name": "emit smoke, inhaling, event where smoking occurs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of smoke emission",
+        "descr_trans": "烟雾排放的原因"
+      },
+      {
+        "n": "1",
+        "descr": "substance smoking",
+        "descr_trans": "吸烟物质"
+      }
+    ],
+    "roleset_name_trans": "放出烟雾、吸入、发生吸烟的事件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smoke.02",
+    "roleset_name": "smoke cigarettes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smoker",
+        "descr_trans": "吸烟者"
+      },
+      {
+        "n": "1",
+        "descr": "cigarettes (etc)",
+        "descr_trans": "香烟（等）"
+      }
+    ],
+    "roleset_name_trans": "抽烟"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "smoke.03",
+    "roleset_name": "imbue smoky flavor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smoker",
+        "descr_trans": "吸烟者"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquiring smoky flavor",
+        "descr_trans": "获得烟熏味的东西"
+      }
+    ],
+    "roleset_name_trans": "赋予烟熏味"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incumbency.01",
-        "roleset_name": "currently holding office",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "office-holder"
-            },
-            {
-                "n": "2",
-                "descr": "office held"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "incumbency.02",
-        "roleset_name": "imposed obligation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "obligation"
-            },
-            {
-                "n": "2",
-                "descr": "entity imposed upon"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "incumbency.03",
-        "roleset_name": "physically lying upon (oft geological)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in a physical position"
-            },
-            {
-                "n": "2",
-                "descr": "on what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incumbency.01",
+    "roleset_name": "currently holding office",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "office-holder",
+        "descr_trans": "公职人员"
+      },
+      {
+        "n": "2",
+        "descr": "office held",
+        "descr_trans": "担任职务"
+      }
+    ],
+    "roleset_name_trans": "现任职务"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "incumbency.02",
+    "roleset_name": "imposed obligation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "obligation",
+        "descr_trans": "义务"
+      },
+      {
+        "n": "2",
+        "descr": "entity imposed upon",
+        "descr_trans": "强加给实体"
+      }
+    ],
+    "roleset_name_trans": "强加的义务"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "incumbency.03",
+    "roleset_name": "physically lying upon (oft geological)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in a physical position",
+        "descr_trans": "处于物理位置的实体"
+      },
+      {
+        "n": "2",
+        "descr": "on what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "物理上躺在（通常是地质上的）"
+  }
 ]

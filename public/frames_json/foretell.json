@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foretell.01",
-        "roleset_name": "make an event known before it happens",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing prophecied"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foretell.01",
+    "roleset_name": "make an event known before it happens",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "thing prophecied",
+        "descr_trans": "预言的事情"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, hearer",
+        "descr_trans": "接受者，听者"
+      }
+    ],
+    "roleset_name_trans": "在事件发生之前让其知道"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reappraise.01",
-        "roleset_name": "find value of, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "appraiser"
-            },
-            {
-                "n": "1",
-                "descr": "thing appraised"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reappraise.01",
+    "roleset_name": "find value of, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "appraiser",
+        "descr_trans": "估价师"
+      },
+      {
+        "n": "1",
+        "descr": "thing appraised",
+        "descr_trans": "评估的事物"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "再次找到值"
+  }
 ]

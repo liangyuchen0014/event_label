@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quarry.01",
-        "roleset_name": "quarry,mine,search",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quarrier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "location (the quarry)"
-            },
-            {
-                "n": "2",
-                "descr": "the stone"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quarry.01",
+    "roleset_name": "quarry,mine,search",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quarrier, agent",
+        "descr_trans": "采石工、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "location (the quarry)",
+        "descr_trans": "地点（采石场）"
+      },
+      {
+        "n": "2",
+        "descr": "the stone",
+        "descr_trans": "石头"
+      }
+    ],
+    "roleset_name_trans": "采石场,矿山,搜索"
+  }
 ]

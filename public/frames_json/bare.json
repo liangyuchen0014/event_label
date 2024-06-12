@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bare.01",
-        "roleset_name": "cause to not have covering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing now uncovered"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bare.02",
-        "roleset_name": "be naked, not be covered",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bareness"
-            },
-            {
-                "n": "1",
-                "descr": "bare thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bare.01",
+    "roleset_name": "cause to not have covering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing now uncovered",
+        "descr_trans": "现在发现的事情"
+      }
+    ],
+    "roleset_name_trans": "导致没有覆盖物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bare.02",
+    "roleset_name": "be naked, not be covered",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bareness",
+        "descr_trans": "裸露的原因"
+      },
+      {
+        "n": "1",
+        "descr": "bare thing",
+        "descr_trans": "裸露的东西"
+      }
+    ],
+    "roleset_name_trans": "赤身裸体，不被遮盖"
+  }
 ]

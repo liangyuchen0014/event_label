@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unsubscribe.01",
-        "roleset_name": "end a subscription",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity ending subscription"
-            },
-            {
-                "n": "1",
-                "descr": "thing no longer subscribed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unsubscribe.01",
+    "roleset_name": "end a subscription",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity ending subscription",
+        "descr_trans": "实体结束订阅"
+      },
+      {
+        "n": "1",
+        "descr": "thing no longer subscribed to",
+        "descr_trans": "不再订阅的东西"
+      }
+    ],
+    "roleset_name_trans": "结束订阅"
+  }
 ]

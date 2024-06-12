@@ -1,180 +1,217 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "touch.01",
-        "roleset_name": "be or come into contact with, literally or metpahorically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "toucher"
-            },
-            {
-                "n": "1",
-                "descr": "thing touched"
-            },
-            {
-                "n": "2",
-                "descr": "touched with, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "touch.07",
-        "roleset_name": "cause an effect by touching",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "start state, thing touched"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "touch_off.02",
-        "roleset_name": "touch off: start",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing starting"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "touch_off.06",
-        "roleset_name": "touch off: ignite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "starter of fire"
-            },
-            {
-                "n": "1",
-                "descr": "(in)flammable substance"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "touch_up.03",
-        "roleset_name": "touch up: repair, to repair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "repairer"
-            },
-            {
-                "n": "1",
-                "descr": "thing repaired"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "touch_on.04",
-        "roleset_name": "touch on: be/get involved with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "focus"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "touch_upon.05",
-        "roleset_name": "touch upon: same as touch on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "focus"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "touch_base.08",
-        "roleset_name": "establish communication with someone abt smth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contact-maker"
-            },
-            {
-                "n": "1",
-                "descr": "entity contacted"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "touchy.09",
-        "roleset_name": "in need of careful handling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus, what arg1 is touchy about"
-            },
-            {
-                "n": "1",
-                "descr": "touchy one"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "touchy.10",
-        "roleset_name": "handsy, unable to resist",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who wont' stop touching things"
-            },
-            {
-                "n": "1",
-                "descr": "entity touched"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (if in addition to arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "touch.01",
+    "roleset_name": "be or come into contact with, literally or metpahorically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "toucher",
+        "descr_trans": "触摸"
+      },
+      {
+        "n": "1",
+        "descr": "thing touched",
+        "descr_trans": "触及的东西"
+      },
+      {
+        "n": "2",
+        "descr": "touched with, if separate from agent",
+        "descr_trans": "如果与代理人分开，则接触过"
+      }
+    ],
+    "roleset_name_trans": "字面上或隐喻上是或接触到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "touch.07",
+    "roleset_name": "cause an effect by touching",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "start state, thing touched",
+        "descr_trans": "开始状态，接触的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过触摸产生效果"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "touch_off.02",
+    "roleset_name": "touch off: start",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing starting",
+        "descr_trans": "事情开始"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "触发：开始"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "touch_off.06",
+    "roleset_name": "touch off: ignite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "starter of fire",
+        "descr_trans": "点火器"
+      },
+      {
+        "n": "1",
+        "descr": "(in)flammable substance",
+        "descr_trans": "（内）易燃物质"
+      }
+    ],
+    "roleset_name_trans": "触发：点燃"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "touch_up.03",
+    "roleset_name": "touch up: repair, to repair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "repairer",
+        "descr_trans": "修理工"
+      },
+      {
+        "n": "1",
+        "descr": "thing repaired",
+        "descr_trans": "东西修好了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "touch up：修理，修复"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "touch_on.04",
+    "roleset_name": "touch on: be/get involved with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "focus",
+        "descr_trans": "重点"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "touch on：参与/参与"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "touch_upon.05",
+    "roleset_name": "touch upon: same as touch on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "focus",
+        "descr_trans": "重点"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "触摸：与触摸相同"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "touch_base.08",
+    "roleset_name": "establish communication with someone abt smth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contact-maker",
+        "descr_trans": "联络人"
+      },
+      {
+        "n": "1",
+        "descr": "entity contacted",
+        "descr_trans": "联系实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "与某人建立联系"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "touchy.09",
+    "roleset_name": "in need of careful handling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus, what arg1 is touchy about",
+        "descr_trans": "刺激，arg1 敏感的是什么"
+      },
+      {
+        "n": "1",
+        "descr": "touchy one",
+        "descr_trans": "敏感的一个"
+      }
+    ],
+    "roleset_name_trans": "需要小心处理"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "touchy.10",
+    "roleset_name": "handsy, unable to resist",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who wont' stop touching things",
+        "descr_trans": "不会停止触摸事物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity touched",
+        "descr_trans": "实体接触"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (if in addition to arg0)",
+        "descr_trans": "仪器（如果除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "手巧，无法抗拒"
+  }
 ]

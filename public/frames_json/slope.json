@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slope.01",
-        "roleset_name": "to ascend or descend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity sloping"
-            },
-            {
-                "n": "1",
-                "descr": "axis/axes of ARG0 that slope"
-            },
-            {
-                "n": "2",
-                "descr": "grade measurement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slope.01",
+    "roleset_name": "to ascend or descend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity sloping",
+        "descr_trans": "实体倾斜"
+      },
+      {
+        "n": "1",
+        "descr": "axis/axes of ARG0 that slope",
+        "descr_trans": "ARG0 倾斜的轴"
+      },
+      {
+        "n": "2",
+        "descr": "grade measurement",
+        "descr_trans": "等级测量"
+      }
+    ],
+    "roleset_name_trans": "上升或下降"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transphosphorylate.01",
-        "roleset_name": "exchange of phosphate groups between organic phosphates, without their going through the stage of inorganic phosphates",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of transphosphorylation"
-            },
-            {
-                "n": "1",
-                "descr": "thing transphosphorylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of transphosphorylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transphosphorylate.01",
+    "roleset_name": "exchange of phosphate groups between organic phosphates, without their going through the stage of inorganic phosphates",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of transphosphorylation",
+        "descr_trans": "转磷酸化剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing transphosphorylated",
+        "descr_trans": "转磷酸化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of transphosphorylation",
+        "descr_trans": "转磷酸化产物"
+      }
+    ],
+    "roleset_name_trans": "有机磷酸盐之间磷酸基团的交换，而不经过无机磷酸盐的阶段"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dive.01",
-        "roleset_name": "to plunge into water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "diver"
-            },
-            {
-                "n": "1",
-                "descr": "area"
-            },
-            {
-                "n": "2",
-                "descr": "dive for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dive.02",
-        "roleset_name": "to drop, plunge",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "extent"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dive.01",
+    "roleset_name": "to plunge into water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "diver",
+        "descr_trans": "潜水员"
+      },
+      {
+        "n": "1",
+        "descr": "area",
+        "descr_trans": "区域"
+      },
+      {
+        "n": "2",
+        "descr": "dive for",
+        "descr_trans": "潜入"
+      }
+    ],
+    "roleset_name_trans": "跳入水中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dive.02",
+    "roleset_name": "to drop, plunge",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing falling",
+        "descr_trans": "东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "extent",
+        "descr_trans": "程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "跌落，坠落"
+  }
 ]

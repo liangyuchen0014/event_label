@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remember.01",
-        "roleset_name": "default, to recall",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rememberer"
-            },
-            {
-                "n": "1",
-                "descr": "memory"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remember.01",
+    "roleset_name": "default, to recall",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rememberer",
+        "descr_trans": "记忆者"
+      },
+      {
+        "n": "1",
+        "descr": "memory",
+        "descr_trans": "记忆"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "默认，回忆"
+  }
 ]

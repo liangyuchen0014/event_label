@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "breast.01",
-        "roleset_name": "face, move up against, move abreast another entity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Focus, entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "Entity arg1 moves abreast of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "breast.01",
+    "roleset_name": "face, move up against, move abreast another entity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Focus, entity in motion",
+        "descr_trans": "焦点，运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Entity arg1 moves abreast of",
+        "descr_trans": "实体 arg1 并排移动"
+      }
+    ],
+    "roleset_name_trans": "面对、对抗、并排另一个实体"
+  }
 ]

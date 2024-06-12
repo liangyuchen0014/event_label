@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overplant.01",
-        "roleset_name": "to plant too abundantly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "planter"
-            },
-            {
-                "n": "1",
-                "descr": "crop/seed/entity overplanted"
-            },
-            {
-                "n": "2",
-                "descr": "land overplanted, where planted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overplant.01",
+    "roleset_name": "to plant too abundantly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "planter",
+        "descr_trans": "播种机"
+      },
+      {
+        "n": "1",
+        "descr": "crop/seed/entity overplanted",
+        "descr_trans": "过度种植的作物/种子/实体"
+      },
+      {
+        "n": "2",
+        "descr": "land overplanted, where planted",
+        "descr_trans": "过度种植的土地，种植地点"
+      }
+    ],
+    "roleset_name_trans": "种植过多"
+  }
 ]

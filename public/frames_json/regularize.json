@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regularize.01",
-        "roleset_name": "to make regular",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of regularization"
-            },
-            {
-                "n": "1",
-                "descr": "entity regularized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "regular.02",
-        "roleset_name": "uniform, consistent, having uniform intervals (temporal or spatial)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "regular thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific activity/aspect of arg1 that is regular"
-            },
-            {
-                "n": "3",
-                "descr": "measurement of the period"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "regular.03",
-        "roleset_name": "average, ordinary, of the norm",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "ordinary thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regularize.01",
+    "roleset_name": "to make regular",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of regularization",
+        "descr_trans": "代理，正则化原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity regularized",
+        "descr_trans": "实体正则化"
+      }
+    ],
+    "roleset_name_trans": "使定期"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "regular.02",
+    "roleset_name": "uniform, consistent, having uniform intervals (temporal or spatial)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "regular thing",
+        "descr_trans": "常规的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific activity/aspect of arg1 that is regular",
+        "descr_trans": "arg1 的特定活动/方面是常规的"
+      },
+      {
+        "n": "3",
+        "descr": "measurement of the period",
+        "descr_trans": "周期的测量"
+      }
+    ],
+    "roleset_name_trans": "均匀的、一致的、具有均匀的间隔（时间或空间）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "regular.03",
+    "roleset_name": "average, ordinary, of the norm",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "ordinary thing",
+        "descr_trans": "普通的事情"
+      }
+    ],
+    "roleset_name_trans": "平均的, 普通的, 正常的"
+  }
 ]

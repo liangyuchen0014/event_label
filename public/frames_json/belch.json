@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "belch.01",
-        "roleset_name": "burp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "belcher"
-            },
-            {
-                "n": "1",
-                "descr": "cognate object or utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "belch_out.02",
-        "roleset_name": "emit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emitter"
-            },
-            {
-                "n": "1",
-                "descr": "emitted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "belch.01",
+    "roleset_name": "burp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "belcher",
+        "descr_trans": "贝尔彻"
+      },
+      {
+        "n": "1",
+        "descr": "cognate object or utterance",
+        "descr_trans": "同源对象或话语"
+      }
+    ],
+    "roleset_name_trans": "打嗝"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "belch_out.02",
+    "roleset_name": "emit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emitter",
+        "descr_trans": "发射器"
+      },
+      {
+        "n": "1",
+        "descr": "emitted",
+        "descr_trans": "发射的"
+      }
+    ],
+    "roleset_name_trans": "发射"
+  }
 ]

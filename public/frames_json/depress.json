@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depress.01",
-        "roleset_name": "bring or bringing down (in mood or activity), blue, feeling down, sad",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of depression"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting depressed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if causer also present"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "depress.02",
-        "roleset_name": "bring down (stock prices)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of depression (agent or instrument)"
-            },
-            {
-                "n": "1",
-                "descr": "stock"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depress.01",
+    "roleset_name": "bring or bringing down (in mood or activity), blue, feeling down, sad",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of depression",
+        "descr_trans": "抑郁症的诱因"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting depressed",
+        "descr_trans": "实体变得沮丧"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if causer also present",
+        "descr_trans": "仪器，如果原因也存在"
+      }
+    ],
+    "roleset_name_trans": "带来或降低（情绪或活动）、忧郁、情绪低落、悲伤"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "depress.02",
+    "roleset_name": "bring down (stock prices)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of depression (agent or instrument)",
+        "descr_trans": "抑郁症的诱因（媒介或工具）"
+      },
+      {
+        "n": "1",
+        "descr": "stock",
+        "descr_trans": "库存"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "压低（股票价格）"
+  }
 ]

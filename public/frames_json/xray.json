@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "xray.01",
-        "roleset_name": "take a picture of the insides",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "x-rayer"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "more specific entity x-rayed, if in addition to ARG1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "xray.01",
+    "roleset_name": "take a picture of the insides",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "x-rayer",
+        "descr_trans": "X射线"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "more specific entity x-rayed, if in addition to ARG1",
+        "descr_trans": "更具体的实体 X 射线检查，如果除了 ARG1"
+      }
+    ],
+    "roleset_name_trans": "拍一张内部照片"
+  }
 ]

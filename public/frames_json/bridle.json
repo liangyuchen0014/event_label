@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bridle.01",
-        "roleset_name": "constrain by bridle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Equestrian, causer of bridling"
-            },
-            {
-                "n": "1",
-                "descr": "Horse, entity constrained, bridled"
-            },
-            {
-                "n": "2",
-                "descr": "Bridle itself, headstall"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bridle.01",
+    "roleset_name": "constrain by bridle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Equestrian, causer of bridling",
+        "descr_trans": "马术运动，辔头的制造者"
+      },
+      {
+        "n": "1",
+        "descr": "Horse, entity constrained, bridled",
+        "descr_trans": "马，实体受限，有缰绳"
+      },
+      {
+        "n": "2",
+        "descr": "Bridle itself, headstall",
+        "descr_trans": "缰绳本身、头箍"
+      }
+    ],
+    "roleset_name_trans": "用缰绳约束"
+  }
 ]

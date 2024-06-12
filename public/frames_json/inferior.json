@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inferior.01",
-        "roleset_name": "inferior",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "worse/inferior entity"
-            },
-            {
-                "n": "2",
-                "descr": "better entity, inferior to what?"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect of arg1 that is inferior"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inferior.02",
-        "roleset_name": "lower than a given reference point; spacially lower",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first item; thing in a lower position"
-            },
-            {
-                "n": "2",
-                "descr": "second item, reference point, thing in a relativly higher position"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inferior.01",
+    "roleset_name": "inferior",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "worse/inferior entity",
+        "descr_trans": "更差/较差的实体"
+      },
+      {
+        "n": "2",
+        "descr": "better entity, inferior to what?",
+        "descr_trans": "更好的实体，不如什么？"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect of arg1 that is inferior",
+        "descr_trans": "arg1 较差的特定方面"
+      }
+    ],
+    "roleset_name_trans": "下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inferior.02",
+    "roleset_name": "lower than a given reference point; spacially lower",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first item; thing in a lower position",
+        "descr_trans": "第一项；处于较低位置的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second item, reference point, thing in a relativly higher position",
+        "descr_trans": "第二项，参考点，位置相对较高的事物"
+      }
+    ],
+    "roleset_name_trans": "低于给定参考点；空间较低"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "degum.01",
-        "roleset_name": "remove gum",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "gum, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "degum.01",
+    "roleset_name": "remove gum",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "gum, thing removed",
+        "descr_trans": "口香糖，去除的东西"
+      }
+    ],
+    "roleset_name_trans": "去除口香糖"
+  }
 ]

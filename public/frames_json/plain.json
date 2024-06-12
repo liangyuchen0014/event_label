@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plain.01",
-        "roleset_name": "apparent, clear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of clarity, evidence"
-            },
-            {
-                "n": "1",
-                "descr": "apparent thing"
-            },
-            {
-                "n": "2",
-                "descr": "to whom it is apparent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plain.02",
-        "roleset_name": "unadorned",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unadorned entity"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is plain"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plain.01",
+    "roleset_name": "apparent, clear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of clarity, evidence",
+        "descr_trans": "澄清的原因、证据"
+      },
+      {
+        "n": "1",
+        "descr": "apparent thing",
+        "descr_trans": "明显的东西"
+      },
+      {
+        "n": "2",
+        "descr": "to whom it is apparent",
+        "descr_trans": "对谁来说这是显而易见的"
+      }
+    ],
+    "roleset_name_trans": "明显的，清楚的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plain.02",
+    "roleset_name": "unadorned",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unadorned entity",
+        "descr_trans": "朴素的实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is plain",
+        "descr_trans": "arg1 的特定方面很简单"
+      }
+    ],
+    "roleset_name_trans": "缦"
+  }
 ]

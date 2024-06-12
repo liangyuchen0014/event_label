@@ -1,218 +1,263 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pick.01",
-        "roleset_name": "select from a group, plucking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked"
-            },
-            {
-                "n": "2",
-                "descr": "group or source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pick.09",
-        "roleset_name": "work at with long slender instrument",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked (at)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pick.10",
-        "roleset_name": "pick at, take small pieces out of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, picker"
-            },
-            {
-                "n": "1",
-                "descr": "Patient, thing picked at"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pick_on.02",
-        "roleset_name": "pick on: bully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bully"
-            },
-            {
-                "n": "1",
-                "descr": "bullied"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pick_out.03",
-        "roleset_name": "select from a group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked"
-            },
-            {
-                "n": "2",
-                "descr": "group or source"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "pick_up.04",
-        "roleset_name": "pick up: acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "pick_up.05",
-        "roleset_name": "pick up: increase",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "pick_up.06",
-        "roleset_name": "pick up: resume",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of resuming"
-            },
-            {
-                "n": "1",
-                "descr": "thing resuming or continuing"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "pick_up.11",
-        "roleset_name": "discover, spot, find, notice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found, discovery"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "pick_away.07",
-        "roleset_name": "remove small pieces from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, picker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked away at"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "pick_off.08",
-        "roleset_name": "pick off: remove pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "pieces"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "pick_off.12",
-        "roleset_name": "pick_off: target and eliminate from a distance, like a sniper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sniper"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pick.01",
+    "roleset_name": "select from a group, plucking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked",
+        "descr_trans": "挑选的东西"
+      },
+      {
+        "n": "2",
+        "descr": "group or source",
+        "descr_trans": "组或来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "从一组中选择，采摘"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pick.09",
+    "roleset_name": "work at with long slender instrument",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked (at)",
+        "descr_trans": "挑选的东西（在）"
+      }
+    ],
+    "roleset_name_trans": "使用细长的仪器工作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pick.10",
+    "roleset_name": "pick at, take small pieces out of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, picker",
+        "descr_trans": "代理、拣货员"
+      },
+      {
+        "n": "1",
+        "descr": "Patient, thing picked at",
+        "descr_trans": "耐心，事情被选中"
+      }
+    ],
+    "roleset_name_trans": "挑选，从中取出小块"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pick_on.02",
+    "roleset_name": "pick on: bully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bully",
+        "descr_trans": "欺负"
+      },
+      {
+        "n": "1",
+        "descr": "bullied",
+        "descr_trans": "被欺负"
+      }
+    ],
+    "roleset_name_trans": "选择：恶霸"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pick_out.03",
+    "roleset_name": "select from a group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked",
+        "descr_trans": "挑选的东西"
+      },
+      {
+        "n": "2",
+        "descr": "group or source",
+        "descr_trans": "组或来源"
+      }
+    ],
+    "roleset_name_trans": "从组中选择"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "pick_up.04",
+    "roleset_name": "pick up: acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "拾取：取得"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "pick_up.05",
+    "roleset_name": "pick up: increase",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "拾取：增加"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "pick_up.06",
+    "roleset_name": "pick up: resume",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of resuming",
+        "descr_trans": "恢复代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing resuming or continuing",
+        "descr_trans": "事情继续或继续"
+      }
+    ],
+    "roleset_name_trans": "接：简历"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "pick_up.11",
+    "roleset_name": "discover, spot, find, notice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found, discovery",
+        "descr_trans": "发现的东西，发现"
+      }
+    ],
+    "roleset_name_trans": "发现、发现、发现、注意"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "pick_away.07",
+    "roleset_name": "remove small pieces from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, picker, agent",
+        "descr_trans": "去除剂、拾取剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked away at",
+        "descr_trans": "事情被挑选出来"
+      }
+    ],
+    "roleset_name_trans": "从中取出小块"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "pick_off.08",
+    "roleset_name": "pick off: remove pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "pieces",
+        "descr_trans": "件"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "摘除：去除碎片"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "pick_off.12",
+    "roleset_name": "pick_off: target and eliminate from a distance, like a sniper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sniper",
+        "descr_trans": "狙击手"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "pick_off：像狙击手一样从远处瞄准并消除"
+  }
 ]

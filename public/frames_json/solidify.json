@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "solidify.01",
-        "roleset_name": "(cause to) become solid, strong, or united, hard, dense, sturdy, reliable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of solidification"
-            },
-            {
-                "n": "1",
-                "descr": "entity made strong"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "solid.02",
-        "roleset_name": "be in a solid state, strong, united, hard, dense, sturdy, reliable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of solidity"
-            },
-            {
-                "n": "1",
-                "descr": "solid entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "solidify.01",
+    "roleset_name": "(cause to) become solid, strong, or united, hard, dense, sturdy, reliable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of solidification",
+        "descr_trans": "凝固原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity made strong",
+        "descr_trans": "实体变得强大"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得坚固、强大或团结、坚硬、致密、坚固、可靠"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "solid.02",
+    "roleset_name": "be in a solid state, strong, united, hard, dense, sturdy, reliable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of solidity",
+        "descr_trans": "坚固的原因"
+      },
+      {
+        "n": "1",
+        "descr": "solid entity",
+        "descr_trans": "实体"
+      }
+    ],
+    "roleset_name_trans": "坚固、坚固、团结、坚硬、致密、坚固、可靠"
+  }
 ]

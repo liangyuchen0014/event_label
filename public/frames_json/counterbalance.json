@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counterbalance.01",
-        "roleset_name": "to oppose with an equal force",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "opposer"
-            },
-            {
-                "n": "1",
-                "descr": "entity counterbalanced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counterbalance.01",
+    "roleset_name": "to oppose with an equal force",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "opposer",
+        "descr_trans": "反对"
+      },
+      {
+        "n": "1",
+        "descr": "entity counterbalanced",
+        "descr_trans": "实体平衡"
+      }
+    ],
+    "roleset_name_trans": "以同等力量反对"
+  }
 ]

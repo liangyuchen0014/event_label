@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "graft.01",
-        "roleset_name": "attach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing attached"
-            },
-            {
-                "n": "2",
-                "descr": "attached to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cabg.02",
-        "roleset_name": "surgical procedure in which a graft is performed to bypass one or more blocked arteries",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "undergoer of procedure"
-            },
-            {
-                "n": "2",
-                "descr": "bypassed site (vessel)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "graft.01",
+    "roleset_name": "attach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing attached",
+        "descr_trans": "附加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attached to",
+        "descr_trans": "附于"
+      }
+    ],
+    "roleset_name_trans": "附"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cabg.02",
+    "roleset_name": "surgical procedure in which a graft is performed to bypass one or more blocked arteries",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer of procedure",
+        "descr_trans": "程序执行者"
+      },
+      {
+        "n": "1",
+        "descr": "undergoer of procedure",
+        "descr_trans": "程序的接受者"
+      },
+      {
+        "n": "2",
+        "descr": "bypassed site (vessel)",
+        "descr_trans": "绕过站点（船只）"
+      }
+    ],
+    "roleset_name_trans": "进行移植以绕过一根或多根阻塞动脉的外科手术"
+  }
 ]

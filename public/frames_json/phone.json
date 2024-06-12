@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "phone.01",
-        "roleset_name": "to telephone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent making a call"
-            },
-            {
-                "n": "1",
-                "descr": "receiver"
-            },
-            {
-                "n": "2",
-                "descr": "message"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "phone.01",
+    "roleset_name": "to telephone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent making a call",
+        "descr_trans": "代理打电话"
+      },
+      {
+        "n": "1",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "2",
+        "descr": "message",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "打电话"
+  }
 ]

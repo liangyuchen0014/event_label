@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gash.01",
-        "roleset_name": "form gashes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of gashing"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming gashed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state of arg1, often prepositional"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gash.01",
+    "roleset_name": "form gashes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of gashing",
+        "descr_trans": "伤口的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming gashed",
+        "descr_trans": "实体被割伤"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used",
+        "descr_trans": "使用的仪器"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state of arg1, often prepositional",
+        "descr_trans": "arg1 的结果状态，通常是介词"
+      }
+    ],
+    "roleset_name_trans": "形成缝隙"
+  }
 ]

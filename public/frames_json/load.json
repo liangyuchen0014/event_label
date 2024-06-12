@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "load.01",
-        "roleset_name": "cause to be burdened",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "beast of burden"
-            },
-            {
-                "n": "2",
-                "descr": "cargo"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "load.03",
-        "roleset_name": "fix, set up to cheat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cheater"
-            },
-            {
-                "n": "1",
-                "descr": "thing loaded (dice, the deck, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "load.04",
-        "roleset_name": "transfer data from one place to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "flle, program, site loaded"
-            },
-            {
-                "n": "2",
-                "descr": "loaded where? (ie computer)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "load_up.02",
-        "roleset_name": "phrasal cause to be burdened",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "beast of burden"
-            },
-            {
-                "n": "2",
-                "descr": "cargo"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "load.01",
+    "roleset_name": "cause to be burdened",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, agent",
+        "descr_trans": "装载机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "beast of burden",
+        "descr_trans": "负重的野兽"
+      },
+      {
+        "n": "2",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "造成负担"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "load.03",
+    "roleset_name": "fix, set up to cheat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cheater",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "thing loaded (dice, the deck, etc)",
+        "descr_trans": "装载的东西（骰子、牌组等）"
+      },
+      {
+        "n": "2",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "修复、设置作弊"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "load.04",
+    "roleset_name": "transfer data from one place to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, agent",
+        "descr_trans": "装载机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "flle, program, site loaded",
+        "descr_trans": "文件、程序、站点已加载"
+      },
+      {
+        "n": "2",
+        "descr": "loaded where? (ie computer)",
+        "descr_trans": "加载到哪里？ （即计算机）"
+      }
+    ],
+    "roleset_name_trans": "将数据从一个地方传输到另一个地方"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "load_up.02",
+    "roleset_name": "phrasal cause to be burdened",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, agent",
+        "descr_trans": "装载机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "beast of burden",
+        "descr_trans": "负重的野兽"
+      },
+      {
+        "n": "2",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      }
+    ],
+    "roleset_name_trans": "短语导致有负担"
+  }
 ]

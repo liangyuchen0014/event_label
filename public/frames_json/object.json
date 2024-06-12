@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "object.01",
-        "roleset_name": "complain about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "complainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing objected to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "objectionable.02",
-        "roleset_name": "offensive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "objector"
-            },
-            {
-                "n": "1",
-                "descr": "objectionable thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "object.01",
+    "roleset_name": "complain about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "complainer",
+        "descr_trans": "抱怨者"
+      },
+      {
+        "n": "1",
+        "descr": "thing objected to",
+        "descr_trans": "反对的事物"
+      }
+    ],
+    "roleset_name_trans": "抱怨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "objectionable.02",
+    "roleset_name": "offensive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "objector",
+        "descr_trans": "反对者"
+      },
+      {
+        "n": "1",
+        "descr": "objectionable thing",
+        "descr_trans": "令人反感的事情"
+      }
+    ],
+    "roleset_name_trans": "进攻"
+  }
 ]

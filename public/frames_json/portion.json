@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "portion.01",
-        "roleset_name": "portion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver / leaver / portioner"
-            },
-            {
-                "n": "1",
-                "descr": "thing portioned"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive / given-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "portion.01",
+    "roleset_name": "portion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver / leaver / portioner",
+        "descr_trans": "给予/叶子/部分"
+      },
+      {
+        "n": "1",
+        "descr": "thing portioned",
+        "descr_trans": "东西分配"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive / given-to",
+        "descr_trans": "有益的/给予的"
+      }
+    ],
+    "roleset_name_trans": "部分"
+  }
 ]

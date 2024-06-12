@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enliven.01",
-        "roleset_name": "to make lively or spirited, animate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "entity animated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "liven_up.02",
-        "roleset_name": "make cheerful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, entity made cheerful"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, cause of emotion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enliven.01",
+    "roleset_name": "to make lively or spirited, animate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus",
+        "descr_trans": "刺激"
+      },
+      {
+        "n": "1",
+        "descr": "entity animated",
+        "descr_trans": "实体动画"
+      }
+    ],
+    "roleset_name_trans": "使活泼或生气勃勃，有活力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "liven_up.02",
+    "roleset_name": "make cheerful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, entity made cheerful",
+        "descr_trans": "体验者，实体变得快乐"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, cause of emotion",
+        "descr_trans": "工具，情感的原因"
+      }
+    ],
+    "roleset_name_trans": "使开朗"
+  }
 ]

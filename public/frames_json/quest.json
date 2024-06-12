@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quest.01",
-        "roleset_name": "go on a quest searching for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity on a quest"
-            },
-            {
-                "n": "1",
-                "descr": "goal of the quest"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quest.01",
+    "roleset_name": "go on a quest searching for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity on a quest",
+        "descr_trans": "正在进行任务的实体"
+      },
+      {
+        "n": "1",
+        "descr": "goal of the quest",
+        "descr_trans": "追求的目标"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "去寻找"
+  }
 ]

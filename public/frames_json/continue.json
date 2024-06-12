@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "continue.01",
-        "roleset_name": "aspectual, fictive motion; go on, extend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of continuation"
-            },
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "continue.02",
-        "roleset_name": "speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sayer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "attributive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "continue.01",
+    "roleset_name": "aspectual, fictive motion; go on, extend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of continuation",
+        "descr_trans": "继续的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      }
+    ],
+    "roleset_name_trans": "方面的、虚构的运动；继续，延长"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "continue.02",
+    "roleset_name": "speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "请讲"
+  }
 ]

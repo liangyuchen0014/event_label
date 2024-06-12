@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "absorb.01",
-        "roleset_name": "soak up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "absorber, cause or agent"
-            },
-            {
-                "n": "1",
-                "descr": "absorbed, us. liquid"
-            },
-            {
-                "n": "2",
-                "descr": "sponge, arg 1 is absorbed into this, when separate from cause"
-            },
-            {
-                "n": "3",
-                "descr": "Source of liquid, absorbed from what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "absorb.01",
+    "roleset_name": "soak up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "absorber, cause or agent",
+        "descr_trans": "吸收者、原因或媒介"
+      },
+      {
+        "n": "1",
+        "descr": "absorbed, us. liquid",
+        "descr_trans": "吸收了，我们。液体"
+      },
+      {
+        "n": "2",
+        "descr": "sponge, arg 1 is absorbed into this, when separate from cause",
+        "descr_trans": "海绵，当与原因分离时，arg 1 被吸收到其中"
+      },
+      {
+        "n": "3",
+        "descr": "Source of liquid, absorbed from what?",
+        "descr_trans": "液体的来源，从什么吸收？"
+      }
+    ],
+    "roleset_name_trans": "吸收"
+  }
 ]

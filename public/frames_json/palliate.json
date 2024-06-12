@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "palliate.01",
-        "roleset_name": "relieving or alleviating symptoms (temporarily)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of improvement, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity becoming better"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, if separate from Agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "palliate.01",
+    "roleset_name": "relieving or alleviating symptoms (temporarily)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of improvement, Agent",
+        "descr_trans": "改进原因，代理"
+      },
+      {
+        "n": "1",
+        "descr": "Entity becoming better",
+        "descr_trans": "实体变得更好"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, if separate from Agent",
+        "descr_trans": "仪器（如果与代理分开）"
+      }
+    ],
+    "roleset_name_trans": "缓解或缓解症状（暂时）"
+  }
 ]

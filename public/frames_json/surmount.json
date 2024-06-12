@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "surmount.01",
-        "roleset_name": "(cause to) be atop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing on top"
-            },
-            {
-                "n": "2",
-                "descr": "on top of what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "surmount.02",
-        "roleset_name": "overcome",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "victorious one, agent"
-            },
-            {
-                "n": "1",
-                "descr": "challenge"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "surmount.01",
+    "roleset_name": "(cause to) be atop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing on top",
+        "descr_trans": "上面的东西"
+      },
+      {
+        "n": "2",
+        "descr": "on top of what",
+        "descr_trans": "在什么之上"
+      }
+    ],
+    "roleset_name_trans": "（导致）处于顶部"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "surmount.02",
+    "roleset_name": "overcome",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "victorious one, agent",
+        "descr_trans": "胜利者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "challenge",
+        "descr_trans": "挑战"
+      }
+    ],
+    "roleset_name_trans": "克服"
+  }
 ]

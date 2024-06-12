@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prefer.01",
-        "roleset_name": "to choose as more desirable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chooser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity chosen"
-            },
-            {
-                "n": "2",
-                "descr": "entity compared to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "preferable.02",
-        "roleset_name": "tending to be preferred",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chooser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity chosen"
-            },
-            {
-                "n": "2",
-                "descr": "entity compared to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "preferential.03",
-        "roleset_name": "giving/receiving preference",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chooser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity chosen"
-            },
-            {
-                "n": "2",
-                "descr": "entity compared to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prefer.01",
+    "roleset_name": "to choose as more desirable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chooser, agent",
+        "descr_trans": "选择者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity chosen",
+        "descr_trans": "选择的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity compared to",
+        "descr_trans": "实体与"
+      }
+    ],
+    "roleset_name_trans": "选择更理想的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "preferable.02",
+    "roleset_name": "tending to be preferred",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chooser, agent",
+        "descr_trans": "选择者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity chosen",
+        "descr_trans": "选择的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity compared to",
+        "descr_trans": "实体与"
+      }
+    ],
+    "roleset_name_trans": "倾向于被优先考虑"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "preferential.03",
+    "roleset_name": "giving/receiving preference",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chooser, agent",
+        "descr_trans": "选择者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity chosen",
+        "descr_trans": "选择的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity compared to",
+        "descr_trans": "实体与"
+      }
+    ],
+    "roleset_name_trans": "给予/接受偏好"
+  }
 ]

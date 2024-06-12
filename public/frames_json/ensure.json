@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ensure.01",
-        "roleset_name": "promise, ensure, make sure, guarantee (to do/be)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "to what (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sure.02",
-        "roleset_name": "believing absolutely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "believer"
-            },
-            {
-                "n": "1",
-                "descr": "belief"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ensure.01",
+    "roleset_name": "promise, ensure, make sure, guarantee (to do/be)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "to what (may require concatenation)",
+        "descr_trans": "到什么（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "承诺，确保，确保，保证（做/做）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sure.02",
+    "roleset_name": "believing absolutely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "believer",
+        "descr_trans": "信徒"
+      },
+      {
+        "n": "1",
+        "descr": "belief",
+        "descr_trans": "信仰"
+      }
+    ],
+    "roleset_name_trans": "绝对相信"
+  }
 ]

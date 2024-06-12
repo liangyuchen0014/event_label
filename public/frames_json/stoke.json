@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stoke.01",
-        "roleset_name": "feed a fire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stoker"
-            },
-            {
-                "n": "1",
-                "descr": "fire"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stoked.02",
-        "roleset_name": "excited, amped up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of excitment"
-            },
-            {
-                "n": "1",
-                "descr": "excited entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stoke.01",
+    "roleset_name": "feed a fire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stoker",
+        "descr_trans": "司炉"
+      },
+      {
+        "n": "1",
+        "descr": "fire",
+        "descr_trans": "火"
+      }
+    ],
+    "roleset_name_trans": "生火"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stoked.02",
+    "roleset_name": "excited, amped up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of excitment",
+        "descr_trans": "兴奋的原因"
+      },
+      {
+        "n": "1",
+        "descr": "excited entity",
+        "descr_trans": "兴奋的实体"
+      }
+    ],
+    "roleset_name_trans": "兴奋，兴奋"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sulfurize.01",
-        "roleset_name": "to treat with sulfur",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, cause of treatment"
-            },
-            {
-                "n": "1",
-                "descr": "entity now sulfurized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sulfurize.01",
+    "roleset_name": "to treat with sulfur",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, cause of treatment",
+        "descr_trans": "代理人、治疗原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity now sulfurized",
+        "descr_trans": "现已硫化的实体"
+      }
+    ],
+    "roleset_name_trans": "用硫磺处理"
+  }
 ]

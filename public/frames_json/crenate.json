@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crenate.01",
-        "roleset_name": "formation of abnormal notching around the edge (of a cell, etc) due to water loss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, causer of crenation"
-            },
-            {
-                "n": "1",
-                "descr": "Entity crenated"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, if separate from Arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crenate.01",
+    "roleset_name": "formation of abnormal notching around the edge (of a cell, etc) due to water loss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, causer of crenation",
+        "descr_trans": "代理人，出生的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity crenated",
+        "descr_trans": "实体创建"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, if separate from Arg0",
+        "descr_trans": "仪器（如果与 Arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "由于失水而在（细胞等）边缘形成异常凹口"
+  }
 ]

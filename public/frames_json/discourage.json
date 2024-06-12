@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discourage.01",
-        "roleset_name": "to deprive of confidence, induce   inaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing confidence, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity discouraged"
-            },
-            {
-                "n": "2",
-                "descr": "discouraged from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discourage.01",
+    "roleset_name": "to deprive of confidence, induce   inaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing confidence, agent",
+        "descr_trans": "实体消除信心，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity discouraged",
+        "descr_trans": "实体不鼓励"
+      },
+      {
+        "n": "2",
+        "descr": "discouraged from",
+        "descr_trans": "气馁"
+      }
+    ],
+    "roleset_name_trans": "剥夺信心，导致无所作为"
+  }
 ]

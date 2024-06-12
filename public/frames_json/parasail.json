@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parasail.01",
-        "roleset_name": "name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity driving the boat (outside agent of parasailing)"
-            },
-            {
-                "n": "1",
-                "descr": "entity in the parasail"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parasail.01",
+    "roleset_name": "name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity driving the boat (outside agent of parasailing)",
+        "descr_trans": "驾驶船只的实体（帆伞运动的外部代理）"
+      },
+      {
+        "n": "1",
+        "descr": "entity in the parasail",
+        "descr_trans": "滑翔伞中的实体"
+      }
+    ],
+    "roleset_name_trans": "姓名"
+  }
 ]

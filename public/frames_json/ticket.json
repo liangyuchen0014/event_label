@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ticket.01",
-        "roleset_name": "to designate for a specified use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "designator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity ticketed"
-            },
-            {
-                "n": "2",
-                "descr": "use"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ticket.02",
-        "roleset_name": "give a ticket to someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, ticketer"
-            },
-            {
-                "n": "1",
-                "descr": "Entity ticketed, given ticket"
-            },
-            {
-                "n": "2",
-                "descr": "Mention of ticket itself (probably rare), ticketed with what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ticket.01",
+    "roleset_name": "to designate for a specified use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "designator, agent",
+        "descr_trans": "指定人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity ticketed",
+        "descr_trans": "实体出票"
+      },
+      {
+        "n": "2",
+        "descr": "use",
+        "descr_trans": "使用"
+      }
+    ],
+    "roleset_name_trans": "指定用于特定用途"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ticket.02",
+    "roleset_name": "give a ticket to someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, ticketer",
+        "descr_trans": "代理、票务员"
+      },
+      {
+        "n": "1",
+        "descr": "Entity ticketed, given ticket",
+        "descr_trans": "实体出票，给定票证"
+      },
+      {
+        "n": "2",
+        "descr": "Mention of ticket itself (probably rare), ticketed with what?",
+        "descr_trans": "提到票本身（可能很少见），用什么票？"
+      }
+    ],
+    "roleset_name_trans": "给某人一张票"
+  }
 ]

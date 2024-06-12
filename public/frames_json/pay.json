@@ -1,127 +1,153 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pay.01",
-        "roleset_name": "cf buy and sell, pay for, pay for again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "money or attention"
-            },
-            {
-                "n": "2",
-                "descr": "person being paid, destination of attention"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, paid for what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pay.04",
-        "roleset_name": "succeed, work out",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing succeeding or working out"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pay_off.02",
-        "roleset_name": "pay off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer"
-            },
-            {
-                "n": "1",
-                "descr": "debt"
-            },
-            {
-                "n": "2",
-                "descr": "owed to whom, person paid"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pay_off.05",
-        "roleset_name": "succeed, work out (phrasal)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing succeeding, working out"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pay_out.03",
-        "roleset_name": "pay out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "money or attention"
-            },
-            {
-                "n": "2",
-                "descr": "person being paid, destination of attention"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, paid for what"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "pay_down.06",
-        "roleset_name": "reduce indebtedness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer"
-            },
-            {
-                "n": "1",
-                "descr": "debt"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "pay_up.07",
-        "roleset_name": "same as pay.01 but sounds tougher",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, payer"
-            },
-            {
-                "n": "1",
-                "descr": "money paid"
-            },
-            {
-                "n": "2",
-                "descr": "person being paid, given the money"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, money paid for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pay.01",
+    "roleset_name": "cf buy and sell, pay for, pay for again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "money or attention",
+        "descr_trans": "金钱或关注"
+      },
+      {
+        "n": "2",
+        "descr": "person being paid, destination of attention",
+        "descr_trans": "被支付的人，关注的目的地"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, paid for what",
+        "descr_trans": "商品，支付什么"
+      }
+    ],
+    "roleset_name_trans": "cf 买卖、支付、再次支付"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pay.04",
+    "roleset_name": "succeed, work out",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing succeeding or working out",
+        "descr_trans": "事情成功或成功"
+      }
+    ],
+    "roleset_name_trans": "成功，锻炼"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pay_off.02",
+    "roleset_name": "pay off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "debt",
+        "descr_trans": "债务"
+      },
+      {
+        "n": "2",
+        "descr": "owed to whom, person paid",
+        "descr_trans": "欠谁，付款人"
+      }
+    ],
+    "roleset_name_trans": "付清"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pay_off.05",
+    "roleset_name": "succeed, work out (phrasal)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing succeeding, working out",
+        "descr_trans": "事情成功，锻炼出来"
+      }
+    ],
+    "roleset_name_trans": "成功，锻炼（短语）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pay_out.03",
+    "roleset_name": "pay out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "money or attention",
+        "descr_trans": "金钱或关注"
+      },
+      {
+        "n": "2",
+        "descr": "person being paid, destination of attention",
+        "descr_trans": "被支付的人，关注的目的地"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, paid for what",
+        "descr_trans": "商品，支付什么"
+      }
+    ],
+    "roleset_name_trans": "付出"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "pay_down.06",
+    "roleset_name": "reduce indebtedness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "debt",
+        "descr_trans": "债务"
+      }
+    ],
+    "roleset_name_trans": "减少债务"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "pay_up.07",
+    "roleset_name": "same as pay.01 but sounds tougher",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, payer",
+        "descr_trans": "代理人、付款人"
+      },
+      {
+        "n": "1",
+        "descr": "money paid",
+        "descr_trans": "已付钱"
+      },
+      {
+        "n": "2",
+        "descr": "person being paid, given the money",
+        "descr_trans": "被支付、给予金钱的人"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, money paid for what?",
+        "descr_trans": "商品，钱是用来做什么的？"
+      }
+    ],
+    "roleset_name_trans": "与 pay.01 相同，但听起来更难"
+  }
 ]

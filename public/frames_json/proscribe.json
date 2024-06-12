@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proscribe.01",
-        "roleset_name": "to prohibit, forbid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing proscribed"
-            },
-            {
-                "n": "2",
-                "descr": "proscribed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proscribe.01",
+    "roleset_name": "to prohibit, forbid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing proscribed",
+        "descr_trans": "被禁止的东西"
+      },
+      {
+        "n": "2",
+        "descr": "proscribed from",
+        "descr_trans": "禁止从"
+      }
+    ],
+    "roleset_name_trans": "禁止，禁止"
+  }
 ]

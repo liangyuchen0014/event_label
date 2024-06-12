@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interlink.01",
-        "roleset_name": "link 2 or more things together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing linking"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being tied"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, linking material"
-            },
-            {
-                "n": "3",
-                "descr": "second thing being tied"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interlink.01",
+    "roleset_name": "link 2 or more things together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing linking",
+        "descr_trans": "代理，进行链接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being tied",
+        "descr_trans": "病人，东西被绑住"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, linking material",
+        "descr_trans": "仪器、连接材料"
+      },
+      {
+        "n": "3",
+        "descr": "second thing being tied",
+        "descr_trans": "第二件事被捆绑"
+      }
+    ],
+    "roleset_name_trans": "将 2 个或更多事物链接在一起"
+  }
 ]

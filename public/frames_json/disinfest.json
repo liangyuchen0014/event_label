@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disinfest.01",
-        "roleset_name": "eliminate insects, vermin, or pests",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, remover of pests"
-            },
-            {
-                "n": "1",
-                "descr": "Container, space, or entity currently infested"
-            },
-            {
-                "n": "2",
-                "descr": "Contaminants/vermin/pests being eliminated from Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disinfest.01",
+    "roleset_name": "eliminate insects, vermin, or pests",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, remover of pests",
+        "descr_trans": "害虫清除剂"
+      },
+      {
+        "n": "1",
+        "descr": "Container, space, or entity currently infested",
+        "descr_trans": "当前被感染的容器、空间或实体"
+      },
+      {
+        "n": "2",
+        "descr": "Contaminants/vermin/pests being eliminated from Arg1",
+        "descr_trans": "从 Arg1 中消除污染物/害虫/害虫"
+      }
+    ],
+    "roleset_name_trans": "消除昆虫、害虫或害虫"
+  }
 ]

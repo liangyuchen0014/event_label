@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rumple.01",
-        "roleset_name": "wrinkle, crease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of wrinkles"
-            },
-            {
-                "n": "1",
-                "descr": "Thing wrinkled"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rumple.02",
-        "roleset_name": "disturb the smoothness/calmness of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Ruffler"
-            },
-            {
-                "n": "1",
-                "descr": "Thing disturbed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rumple.01",
+    "roleset_name": "wrinkle, crease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of wrinkles",
+        "descr_trans": "皱纹产生的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing wrinkled",
+        "descr_trans": "东西有皱纹"
+      }
+    ],
+    "roleset_name_trans": "皱纹，折痕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rumple.02",
+    "roleset_name": "disturb the smoothness/calmness of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Ruffler",
+        "descr_trans": "褶边"
+      },
+      {
+        "n": "1",
+        "descr": "Thing disturbed",
+        "descr_trans": "事情受到干扰"
+      }
+    ],
+    "roleset_name_trans": "扰乱平稳/平静"
+  }
 ]

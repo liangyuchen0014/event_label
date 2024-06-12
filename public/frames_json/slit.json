@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slit.01",
-        "roleset_name": "make a narrow cut",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, slitter"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slit.01",
+    "roleset_name": "make a narrow cut",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, slitter",
+        "descr_trans": "代理、分切机"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing cut",
+        "descr_trans": "病人，东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "做一个窄切口"
+  }
 ]

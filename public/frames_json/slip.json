@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slip.01",
-        "roleset_name": "decrease",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of arg1 slipping"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slip.02",
-        "roleset_name": "change location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "slip.03",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "slip_in.04",
-        "roleset_name": "slip in: include stealthily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stealthy includer"
-            },
-            {
-                "n": "1",
-                "descr": "stealthy inclusion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slip.01",
+    "roleset_name": "decrease",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of arg1 slipping",
+        "descr_trans": "arg1 滑动的具体方面"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slip.02",
+    "roleset_name": "change location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "换地点"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "slip.03",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "给"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "slip_in.04",
+    "roleset_name": "slip in: include stealthily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stealthy includer",
+        "descr_trans": "隐形包含者"
+      },
+      {
+        "n": "1",
+        "descr": "stealthy inclusion",
+        "descr_trans": "隐秘的包容"
+      }
+    ],
+    "roleset_name_trans": "潜入：悄悄地包含"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hope.01",
-        "roleset_name": "wish- verb frame only",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hoper"
-            },
-            {
-                "n": "1",
-                "descr": "thing hoped (for)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hopeful.02",
-        "roleset_name": "be promising, have good prospects",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing that inspires hope"
-            },
-            {
-                "n": "1",
-                "descr": "entity offered hope"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hopeful.03",
-        "roleset_name": "be hopeful, have hope-- noun and adjective only",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hoper"
-            },
-            {
-                "n": "1",
-                "descr": "thing hoped (for)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hope.01",
+    "roleset_name": "wish- verb frame only",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hoper",
+        "descr_trans": "堆"
+      },
+      {
+        "n": "1",
+        "descr": "thing hoped (for)",
+        "descr_trans": "希望（的）事物"
+      }
+    ],
+    "roleset_name_trans": "仅愿望动词框架"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hopeful.02",
+    "roleset_name": "be promising, have good prospects",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing that inspires hope",
+        "descr_trans": "激发希望的东西"
+      },
+      {
+        "n": "1",
+        "descr": "entity offered hope",
+        "descr_trans": "实体提供了希望"
+      }
+    ],
+    "roleset_name_trans": "有前途，有前途"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hopeful.03",
+    "roleset_name": "be hopeful, have hope-- noun and adjective only",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hoper",
+        "descr_trans": "堆"
+      },
+      {
+        "n": "1",
+        "descr": "thing hoped (for)",
+        "descr_trans": "希望（的）事物"
+      }
+    ],
+    "roleset_name_trans": "充满希望，抱有希望——仅限名词和形容词"
+  }
 ]

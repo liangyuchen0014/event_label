@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "name.01",
-        "roleset_name": "call, giving a name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer"
-            },
-            {
-                "n": "1",
-                "descr": "named"
-            },
-            {
-                "n": "2",
-                "descr": "name of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "name.02",
-        "roleset_name": "give someone else's name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer"
-            },
-            {
-                "n": "1",
-                "descr": "named"
-            },
-            {
-                "n": "2",
-                "descr": "named after, namesake"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "name.03",
-        "roleset_name": "to appoint to  an office, assign a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person appointing another"
-            },
-            {
-                "n": "1",
-                "descr": "Person named, appointed"
-            },
-            {
-                "n": "2",
-                "descr": "Office/Job Arg 1 is appointed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "name.01",
+    "roleset_name": "call, giving a name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer",
+        "descr_trans": "意图"
+      },
+      {
+        "n": "1",
+        "descr": "named",
+        "descr_trans": "命名的"
+      },
+      {
+        "n": "2",
+        "descr": "name of arg1",
+        "descr_trans": "arg1 的名称"
+      }
+    ],
+    "roleset_name_trans": "打电话，报出名字"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "name.02",
+    "roleset_name": "give someone else's name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer",
+        "descr_trans": "意图"
+      },
+      {
+        "n": "1",
+        "descr": "named",
+        "descr_trans": "命名的"
+      },
+      {
+        "n": "2",
+        "descr": "named after, namesake",
+        "descr_trans": "以名字命名，同名"
+      }
+    ],
+    "roleset_name_trans": "给出别人的名字"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "name.03",
+    "roleset_name": "to appoint to  an office, assign a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person appointing another",
+        "descr_trans": "指定另一人的人"
+      },
+      {
+        "n": "1",
+        "descr": "Person named, appointed",
+        "descr_trans": "指定、任命的人"
+      },
+      {
+        "n": "2",
+        "descr": "Office/Job Arg 1 is appointed to",
+        "descr_trans": "办公室/工作 Arg 1 被任命为"
+      }
+    ],
+    "roleset_name_trans": "任命到一个办公室，分配一个角色"
+  }
 ]

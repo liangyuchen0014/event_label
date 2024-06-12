@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "broadcast.01",
-        "roleset_name": "to transmit or announce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transmitter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "message"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "broadcast.01",
+    "roleset_name": "to transmit or announce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transmitter, agent",
+        "descr_trans": "发射器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "message",
+        "descr_trans": "信息"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "传送或宣布"
+  }
 ]

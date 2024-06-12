@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yak.01",
-        "roleset_name": "yak, talk loudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "talked about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "yak.02",
-        "roleset_name": "vomit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Vomiter, Cougher"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yak.01",
+    "roleset_name": "yak, talk loudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "talked about",
+        "descr_trans": "讨论过"
+      }
+    ],
+    "roleset_name_trans": "牦牛，大声说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "yak.02",
+    "roleset_name": "vomit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Vomiter, Cougher",
+        "descr_trans": "呕吐、咳嗽"
+      }
+    ],
+    "roleset_name_trans": "呕吐"
+  }
 ]

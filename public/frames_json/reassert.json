@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reassert.01",
-        "roleset_name": "stand up for again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asserter"
-            },
-            {
-                "n": "1",
-                "descr": "thing asserted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reassert.02",
-        "roleset_name": "say forcefully again (actual utterance sense)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            },
-            {
-                "n": "3",
-                "descr": "Attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "reassert.03",
-        "roleset_name": "claim again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "claimer, asserter"
-            },
-            {
-                "n": "1",
-                "descr": "thing claimed, asserted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, claimed/asserted for"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reassert.01",
+    "roleset_name": "stand up for again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asserter",
+        "descr_trans": "断言者"
+      },
+      {
+        "n": "1",
+        "descr": "thing asserted",
+        "descr_trans": "断言的事情"
+      }
+    ],
+    "roleset_name_trans": "再次站起来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reassert.02",
+    "roleset_name": "say forcefully again (actual utterance sense)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "Attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "再次用力地说（实际的话语意义）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "reassert.03",
+    "roleset_name": "claim again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "claimer, asserter",
+        "descr_trans": "主张者, 断言者"
+      },
+      {
+        "n": "1",
+        "descr": "thing claimed, asserted",
+        "descr_trans": "声称的事物，断言的事物"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, claimed/asserted for",
+        "descr_trans": "有益的，声称/主张的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "再次索赔"
+  }
 ]

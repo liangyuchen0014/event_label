@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "submit.01",
-        "roleset_name": "turn in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "given"
-            },
-            {
-                "n": "2",
-                "descr": "given-to"
-            },
-            {
-                "n": "3",
-                "descr": "purpose"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "submit.02",
-        "roleset_name": "give in, be submissive, subservient, meek",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "submissive entity"
-            },
-            {
-                "n": "1",
-                "descr": "given: explicit mention of will, or similar"
-            },
-            {
-                "n": "2",
-                "descr": "dominant entity submitted to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "submit.01",
+    "roleset_name": "turn in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "given",
+        "descr_trans": "给定"
+      },
+      {
+        "n": "2",
+        "descr": "given-to",
+        "descr_trans": "给予"
+      },
+      {
+        "n": "3",
+        "descr": "purpose",
+        "descr_trans": "目的"
+      }
+    ],
+    "roleset_name_trans": "上交"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "submit.02",
+    "roleset_name": "give in, be submissive, subservient, meek",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "submissive entity",
+        "descr_trans": "顺从实体"
+      },
+      {
+        "n": "1",
+        "descr": "given: explicit mention of will, or similar",
+        "descr_trans": "给予：明确提及意愿或类似内容"
+      },
+      {
+        "n": "2",
+        "descr": "dominant entity submitted to",
+        "descr_trans": "主导实体提交给"
+      }
+    ],
+    "roleset_name_trans": "屈服, 顺从, 顺从, 温顺"
+  }
 ]

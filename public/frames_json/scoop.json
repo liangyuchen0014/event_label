@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scoop.01",
-        "roleset_name": "dip",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scooper"
-            },
-            {
-                "n": "1",
-                "descr": "thing scooped"
-            },
-            {
-                "n": "2",
-                "descr": "scooped into"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scoop_up.02",
-        "roleset_name": "acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acquirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing scooped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scoop.01",
+    "roleset_name": "dip",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scooper",
+        "descr_trans": "勺子"
+      },
+      {
+        "n": "1",
+        "descr": "thing scooped",
+        "descr_trans": "挖出来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "scooped into",
+        "descr_trans": "舀进"
+      }
+    ],
+    "roleset_name_trans": "蘸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scoop_up.02",
+    "roleset_name": "acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acquirer",
+        "descr_trans": "收购"
+      },
+      {
+        "n": "1",
+        "descr": "thing scooped",
+        "descr_trans": "挖出来的东西"
+      }
+    ],
+    "roleset_name_trans": "获得"
+  }
 ]

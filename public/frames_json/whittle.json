@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whittle.01",
-        "roleset_name": "create by remove wood",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whittle_down.02",
-        "roleset_name": "make smaller gradually",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of making smaller"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting smaller"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whittle.01",
+    "roleset_name": "create by remove wood",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过移除木头来创建"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whittle_down.02",
+    "roleset_name": "make smaller gradually",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of making smaller",
+        "descr_trans": "缩小代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting smaller",
+        "descr_trans": "东西变小"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "逐渐变小"
+  }
 ]

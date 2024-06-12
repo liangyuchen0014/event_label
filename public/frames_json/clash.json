@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clash.01",
-        "roleset_name": "to come into conflict, be in opposition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "1st, all in one mention, or agentive clasher"
-            },
-            {
-                "n": "1",
-                "descr": "entity clashed with when separat constituent"
-            },
-            {
-                "n": "2",
-                "descr": "entity clashed over"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clash.02",
-        "roleset_name": "(cause to) emit a clashing noise, or cause discord between two non-agentive things",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one causing a clashing noise"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing clashing into something"
-            },
-            {
-                "n": "2",
-                "descr": "location, thing that the theme clashes against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clash.01",
+    "roleset_name": "to come into conflict, be in opposition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "1st, all in one mention, or agentive clasher",
+        "descr_trans": "1、一言以蔽之，或主动冲突者"
+      },
+      {
+        "n": "1",
+        "descr": "entity clashed with when separat constituent",
+        "descr_trans": "当单独的组成部分时，实体发生冲突"
+      },
+      {
+        "n": "2",
+        "descr": "entity clashed over",
+        "descr_trans": "实体发生冲突"
+      }
+    ],
+    "roleset_name_trans": "发生冲突，反对"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clash.02",
+    "roleset_name": "(cause to) emit a clashing noise, or cause discord between two non-agentive things",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one causing a clashing noise",
+        "descr_trans": "特工，一名造成冲突噪音的特工"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing clashing into something",
+        "descr_trans": "主题，事物与事物发生冲突"
+      },
+      {
+        "n": "2",
+        "descr": "location, thing that the theme clashes against",
+        "descr_trans": "地点、主题冲突的事物"
+      }
+    ],
+    "roleset_name_trans": "（导致）发出冲突的噪音，或引起两个非能动事物之间的不和谐"
+  }
 ]

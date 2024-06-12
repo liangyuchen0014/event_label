@@ -1,232 +1,279 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lighten.01",
-        "roleset_name": "(make) get lighter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting lighter"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lighten_up.02",
-        "roleset_name": "(cause to) become lighter, easier",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting lighter"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lighten_up.03",
-        "roleset_name": "lighten up on: begin to handle/approach in a less intense way than the previous handling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking it easier on something"
-            },
-            {
-                "n": "1",
-                "descr": "taking it easier on what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lighten_up.09",
-        "roleset_name": "stop being so serious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of increased mirth"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming less serious"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "light.04",
-        "roleset_name": "to set on fire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "setter of fire, increaser of illumination, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity lit"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "light.05",
-        "roleset_name": "light-hearted",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "light-hearted entity"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that is particularly light-hearted (if in addition)"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "light.06",
-        "roleset_name": "having little weight, pressure",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "non-heavy entity"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that isn't heavy (if in addition)"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "light.07",
-        "roleset_name": "bright, pale, reflecting/containing light",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing reflecting more light"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that is bright/pale (if in addition)"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "light_up.08",
-        "roleset_name": "to illuminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of illumination or fire, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity lit"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "shed_light.10",
-        "roleset_name": "inform, provide information regarding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of knowledge, source of information"
-            },
-            {
-                "n": "1",
-                "descr": "thing studied, domain of research"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "make_light.11",
-        "roleset_name": "minimize, not handle with appropriate seriousness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making light"
-            },
-            {
-                "n": "1",
-                "descr": "of what"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "in_a_light.12",
-        "roleset_name": "perceived in a certain way",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "event or situation leading to a certain perception"
-            },
-            {
-                "n": "1",
-                "descr": "thing perceived"
-            },
-            {
-                "n": "2",
-                "descr": "descriptor of the light"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "alight.13",
-        "roleset_name": "land on, lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity landing"
-            },
-            {
-                "n": "1",
-                "descr": "landed upon"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "lit.14",
-        "roleset_name": "generally positive, exciting, great",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "lit thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lighten.01",
+    "roleset_name": "(make) get lighter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting lighter",
+        "descr_trans": "事情变得更轻"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "（使）变得更轻"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lighten_up.02",
+    "roleset_name": "(cause to) become lighter, easier",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting lighter",
+        "descr_trans": "事情变得更轻"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      }
+    ],
+    "roleset_name_trans": "（使）变得更轻、更容易"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lighten_up.03",
+    "roleset_name": "lighten up on: begin to handle/approach in a less intense way than the previous handling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking it easier on something",
+        "descr_trans": "实体在某事上变得更容易"
+      },
+      {
+        "n": "1",
+        "descr": "taking it easier on what",
+        "descr_trans": "更容易做什么"
+      }
+    ],
+    "roleset_name_trans": "减轻：开始以比之前处理不那么强烈的方式处理/接近"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lighten_up.09",
+    "roleset_name": "stop being so serious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of increased mirth",
+        "descr_trans": "增加欢乐的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming less serious",
+        "descr_trans": "实体变得不那么严重"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "别那么严肃"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "light.04",
+    "roleset_name": "to set on fire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "setter of fire, increaser of illumination, agent",
+        "descr_trans": "点火者、照明增加者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity lit",
+        "descr_trans": "实体点亮"
+      }
+    ],
+    "roleset_name_trans": "放火"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "light.05",
+    "roleset_name": "light-hearted",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "light-hearted entity",
+        "descr_trans": "轻松愉快的实体"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that is particularly light-hearted (if in addition)",
+        "descr_trans": "arg1 特别轻松的方面（如果另外的话）"
+      }
+    ],
+    "roleset_name_trans": "轻快"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "light.06",
+    "roleset_name": "having little weight, pressure",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "non-heavy entity",
+        "descr_trans": "非重实体"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that isn't heavy (if in addition)",
+        "descr_trans": "arg1 不重的方面（如果另外的话）"
+      }
+    ],
+    "roleset_name_trans": "重量轻、压力小"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "light.07",
+    "roleset_name": "bright, pale, reflecting/containing light",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing reflecting more light",
+        "descr_trans": "反射更多光的东西"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that is bright/pale (if in addition)",
+        "descr_trans": "arg1 明亮/苍白的方面（如果另外）"
+      }
+    ],
+    "roleset_name_trans": "明亮、苍白、反射/含光"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "light_up.08",
+    "roleset_name": "to illuminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of illumination or fire, agent",
+        "descr_trans": "照明或火灾的起因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "entity lit",
+        "descr_trans": "实体点亮"
+      }
+    ],
+    "roleset_name_trans": "照亮"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "shed_light.10",
+    "roleset_name": "inform, provide information regarding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of knowledge, source of information",
+        "descr_trans": "知识的产生者、信息的来源"
+      },
+      {
+        "n": "1",
+        "descr": "thing studied, domain of research",
+        "descr_trans": "研究的事物，研究领域"
+      }
+    ],
+    "roleset_name_trans": "告知，提供有关的信息"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "make_light.11",
+    "roleset_name": "minimize, not handle with appropriate seriousness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making light",
+        "descr_trans": "实体发光"
+      },
+      {
+        "n": "1",
+        "descr": "of what",
+        "descr_trans": "什么的"
+      }
+    ],
+    "roleset_name_trans": "尽量减少，而不是适当严肃地处理"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "in_a_light.12",
+    "roleset_name": "perceived in a certain way",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "event or situation leading to a certain perception",
+        "descr_trans": "导致某种看法的事件或情况"
+      },
+      {
+        "n": "1",
+        "descr": "thing perceived",
+        "descr_trans": "感知到的事物"
+      },
+      {
+        "n": "2",
+        "descr": "descriptor of the light",
+        "descr_trans": "光的描述符"
+      }
+    ],
+    "roleset_name_trans": "以某种方式感知"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "alight.13",
+    "roleset_name": "land on, lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity landing",
+        "descr_trans": "实体登陆"
+      },
+      {
+        "n": "1",
+        "descr": "landed upon",
+        "descr_trans": "降落在"
+      }
+    ],
+    "roleset_name_trans": "轻轻地着陆"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "lit.14",
+    "roleset_name": "generally positive, exciting, great",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "lit thing",
+        "descr_trans": "点燃的东西"
+      }
+    ],
+    "roleset_name_trans": "总体来说是积极的、令人兴奋的、很棒的"
+  }
 ]

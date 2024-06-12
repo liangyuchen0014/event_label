@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "value.01",
-        "roleset_name": "evaluate for cost; assess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity establishing value"
-            },
-            {
-                "n": "1",
-                "descr": "commodity being valued"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "value.02",
-        "roleset_name": "hold dear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity holding arg1 dear"
-            },
-            {
-                "n": "1",
-                "descr": "entity held dear/valued by arg0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "valuable.03",
-        "roleset_name": "able to be assigned a cost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity establishing value"
-            },
-            {
-                "n": "1",
-                "descr": "commodity being valued"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "value.01",
+    "roleset_name": "evaluate for cost; assess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity establishing value",
+        "descr_trans": "实体建立价值"
+      },
+      {
+        "n": "1",
+        "descr": "commodity being valued",
+        "descr_trans": "商品被估价"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "评估成本；评估"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "value.02",
+    "roleset_name": "hold dear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity holding arg1 dear",
+        "descr_trans": "持有 arg1 的实体亲爱的"
+      },
+      {
+        "n": "1",
+        "descr": "entity held dear/valued by arg0",
+        "descr_trans": "arg0 珍视/重视的实体"
+      }
+    ],
+    "roleset_name_trans": "亲爱的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "valuable.03",
+    "roleset_name": "able to be assigned a cost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity establishing value",
+        "descr_trans": "实体建立价值"
+      },
+      {
+        "n": "1",
+        "descr": "commodity being valued",
+        "descr_trans": "商品被估价"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "能够分配成本"
+  }
 ]

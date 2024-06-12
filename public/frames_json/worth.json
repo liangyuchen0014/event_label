@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "worth.01",
-        "roleset_name": "economic value",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing having value"
-            },
-            {
-                "n": "2",
-                "descr": "value (amount)"
-            },
-            {
-                "n": "3",
-                "descr": "entity recognizing value"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "worth.02",
-        "roleset_name": "worthy of, deserving",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "worthy thing"
-            },
-            {
-                "n": "2",
-                "descr": "worthy of what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "worth.01",
+    "roleset_name": "economic value",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing having value",
+        "descr_trans": "有价值的东西"
+      },
+      {
+        "n": "2",
+        "descr": "value (amount)",
+        "descr_trans": "值（金额）"
+      },
+      {
+        "n": "3",
+        "descr": "entity recognizing value",
+        "descr_trans": "实体认识价值"
+      }
+    ],
+    "roleset_name_trans": "经济价值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "worth.02",
+    "roleset_name": "worthy of, deserving",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "worthy thing",
+        "descr_trans": "有价值的事情"
+      },
+      {
+        "n": "2",
+        "descr": "worthy of what",
+        "descr_trans": "值得什么"
+      }
+    ],
+    "roleset_name_trans": "值得的，值得的"
+  }
 ]

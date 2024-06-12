@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hoover.01",
-        "roleset_name": "vacuum with a hoover",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent vacuuming"
-            },
-            {
-                "n": "1",
-                "descr": "dirt, thing vacuumed up"
-            },
-            {
-                "n": "2",
-                "descr": "surface (ie, floor)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (defaults to 'Hoover vacuum')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hoover.01",
+    "roleset_name": "vacuum with a hoover",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent vacuuming",
+        "descr_trans": "代理吸尘"
+      },
+      {
+        "n": "1",
+        "descr": "dirt, thing vacuumed up",
+        "descr_trans": "污垢，吸尘器清理过的东西"
+      },
+      {
+        "n": "2",
+        "descr": "surface (ie, floor)",
+        "descr_trans": "表面（即地板）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (defaults to 'Hoover vacuum')",
+        "descr_trans": "仪器（默认为“胡佛真空”）"
+      }
+    ],
+    "roleset_name_trans": "用吸尘器吸尘"
+  }
 ]

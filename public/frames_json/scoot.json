@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scoot.01",
-        "roleset_name": "move moderately quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being scooted"
-            },
-            {
-                "n": "2",
-                "descr": "path"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scoot.01",
+    "roleset_name": "move moderately quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity being scooted",
+        "descr_trans": "实体被快速移动"
+      },
+      {
+        "n": "2",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "适度快速地移动"
+  }
 ]

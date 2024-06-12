@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "satellite.01",
-        "roleset_name": "satellite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, satelliter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity sent, faxed, satellited"
-            },
-            {
-                "n": "2",
-                "descr": "sent to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "satellite.01",
+    "roleset_name": "satellite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, satelliter, agent",
+        "descr_trans": "发射机、卫星、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity sent, faxed, satellited",
+        "descr_trans": "实体发送、传真、卫星发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent to, recipient",
+        "descr_trans": "发送至、收件人"
+      }
+    ],
+    "roleset_name_trans": "卫星"
+  }
 ]

@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "argue.01",
-        "roleset_name": "provide an argument, say, make an argument for or against something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "argument"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "argue.02",
-        "roleset_name": "argue with, have an argument with someone else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first arguer"
-            },
-            {
-                "n": "1",
-                "descr": "second arguer"
-            },
-            {
-                "n": "2",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "arguable.03",
-        "roleset_name": "able to provide an argument for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arguer"
-            },
-            {
-                "n": "1",
-                "descr": "argument"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "argue.01",
+    "roleset_name": "provide an argument, say, make an argument for or against something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "argument",
+        "descr_trans": "争论"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "提供论据，例如，提出支持或反对某事的论据"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "argue.02",
+    "roleset_name": "argue with, have an argument with someone else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first arguer",
+        "descr_trans": "首先争论"
+      },
+      {
+        "n": "1",
+        "descr": "second arguer",
+        "descr_trans": "第二次争论"
+      },
+      {
+        "n": "2",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "与他人争论，与他人争论"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "arguable.03",
+    "roleset_name": "able to provide an argument for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arguer",
+        "descr_trans": "争论"
+      },
+      {
+        "n": "1",
+        "descr": "argument",
+        "descr_trans": "争论"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      }
+    ],
+    "roleset_name_trans": "能够提供论据"
+  }
 ]

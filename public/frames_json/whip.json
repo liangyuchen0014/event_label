@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whip.01",
-        "roleset_name": "change of state by repeated striking or rapid movement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity whipped"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whip_out.02",
-        "roleset_name": "to take quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity whipped"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "whip_up.03",
-        "roleset_name": "to excite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity whipped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whip.01",
+    "roleset_name": "change of state by repeated striking or rapid movement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity whipped",
+        "descr_trans": "实体鞭打"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过重复敲击或快速移动改变状态"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whip_out.02",
+    "roleset_name": "to take quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity whipped",
+        "descr_trans": "实体鞭打"
+      }
+    ],
+    "roleset_name_trans": "快速采取"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "whip_up.03",
+    "roleset_name": "to excite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity whipped",
+        "descr_trans": "实体鞭打"
+      }
+    ],
+    "roleset_name_trans": "兴奋"
+  }
 ]

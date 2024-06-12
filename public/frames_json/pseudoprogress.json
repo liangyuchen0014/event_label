@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pseudoprogress.01",
-        "roleset_name": "increase in lesion size following treatment that mimics diseas progression",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tumor, lesion growing"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that is actually progressing"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pseudoprogress.01",
+    "roleset_name": "increase in lesion size following treatment that mimics diseas progression",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tumor, lesion growing",
+        "descr_trans": "肿瘤、病灶生长"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that is actually progressing",
+        "descr_trans": "arg1 实际进展的方面"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "模拟疾病进展的治疗后病灶尺寸增加"
+  }
 ]

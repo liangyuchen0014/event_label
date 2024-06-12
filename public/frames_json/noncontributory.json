@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noncontributory.01",
-        "roleset_name": "not adding to, giving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing not given"
-            },
-            {
-                "n": "2",
-                "descr": "entity not given to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noncontributory.01",
+    "roleset_name": "not adding to, giving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-giver",
+        "descr_trans": "非给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not given",
+        "descr_trans": "没有给出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity not given to",
+        "descr_trans": "实体未给予"
+      }
+    ],
+    "roleset_name_trans": "不添加、给予"
+  }
 ]

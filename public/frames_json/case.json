@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "case.01",
-        "roleset_name": "to put or enclose in a case",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer"
-            },
-            {
-                "n": "1",
-                "descr": "thing packed"
-            },
-            {
-                "n": "2",
-                "descr": "case, location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "case.02",
-        "roleset_name": "case the joint, observe covertly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thief or spy"
-            },
-            {
-                "n": "1",
-                "descr": "Place being observed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "case.03",
-        "roleset_name": "a formal argument/petition/big deal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "authority making a case"
-            },
-            {
-                "n": "1",
-                "descr": "the argument"
-            },
-            {
-                "n": "2",
-                "descr": "against whom"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "case.04",
-        "roleset_name": "instance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "instance of, thing happenening or occuring, example"
-            },
-            {
-                "n": "2",
-                "descr": "category"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "case.01",
+    "roleset_name": "to put or enclose in a case",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer",
+        "descr_trans": "包装工"
+      },
+      {
+        "n": "1",
+        "descr": "thing packed",
+        "descr_trans": "东西包装好"
+      },
+      {
+        "n": "2",
+        "descr": "case, location",
+        "descr_trans": "案例、地点"
+      }
+    ],
+    "roleset_name_trans": "放入或装入箱子中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "case.02",
+    "roleset_name": "case the joint, observe covertly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thief or spy",
+        "descr_trans": "小偷或间谍"
+      },
+      {
+        "n": "1",
+        "descr": "Place being observed",
+        "descr_trans": "被观察的地方"
+      }
+    ],
+    "roleset_name_trans": "包住接头，暗中观察"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "case.03",
+    "roleset_name": "a formal argument/petition/big deal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "authority making a case",
+        "descr_trans": "当局立案"
+      },
+      {
+        "n": "1",
+        "descr": "the argument",
+        "descr_trans": "论证"
+      },
+      {
+        "n": "2",
+        "descr": "against whom",
+        "descr_trans": "针对谁"
+      }
+    ],
+    "roleset_name_trans": "正式的论点/请愿书/大事"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "case.04",
+    "roleset_name": "instance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "instance of, thing happenening or occuring, example",
+        "descr_trans": "事情发生或正在发生的实例"
+      },
+      {
+        "n": "2",
+        "descr": "category",
+        "descr_trans": "类别"
+      }
+    ],
+    "roleset_name_trans": "实例"
+  }
 ]

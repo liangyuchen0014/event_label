@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frost.01",
-        "roleset_name": "cover with whitish, semi-opaque surface, as ice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of frosting"
-            },
-            {
-                "n": "1",
-                "descr": "thing frosted"
-            },
-            {
-                "n": "2",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "frost.02",
-        "roleset_name": "decorate with frosting, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Pastry chef"
-            },
-            {
-                "n": "1",
-                "descr": "pastry, or thing being covered in frosting"
-            },
-            {
-                "n": "2",
-                "descr": "the frosting"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "frost_up.03",
-        "roleset_name": "become completely obscurred by frost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause of frostiness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming obscurred with frost"
-            },
-            {
-                "n": "2",
-                "descr": "instrument/frost itself"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "frost_over.04",
-        "roleset_name": "become completely obscurred by frost",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming covered in frost"
-            },
-            {
-                "n": "2",
-                "descr": "frosty substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frost.01",
+    "roleset_name": "cover with whitish, semi-opaque surface, as ice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of frosting",
+        "descr_trans": "结霜的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing frosted",
+        "descr_trans": "磨砂的东西"
+      },
+      {
+        "n": "2",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "覆盖有白色、半透明的表面，如冰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "frost.02",
+    "roleset_name": "decorate with frosting, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Pastry chef",
+        "descr_trans": "糕点厨师"
+      },
+      {
+        "n": "1",
+        "descr": "pastry, or thing being covered in frosting",
+        "descr_trans": "糕点或被糖霜覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the frosting",
+        "descr_trans": "糖霜"
+      }
+    ],
+    "roleset_name_trans": "用糖霜装饰，"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "frost_up.03",
+    "roleset_name": "become completely obscurred by frost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause of frostiness",
+        "descr_trans": "霜冻的媒介或原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming obscurred with frost",
+        "descr_trans": "事物因霜而变得模糊"
+      },
+      {
+        "n": "2",
+        "descr": "instrument/frost itself",
+        "descr_trans": "仪器/霜本身"
+      }
+    ],
+    "roleset_name_trans": "被霜完全遮蔽"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "frost_over.04",
+    "roleset_name": "become completely obscurred by frost",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming covered in frost",
+        "descr_trans": "东西被霜覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "frosty substance",
+        "descr_trans": "霜状物质"
+      }
+    ],
+    "roleset_name_trans": "被霜完全遮蔽"
+  }
 ]

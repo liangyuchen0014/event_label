@@ -1,104 +1,125 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pocket.01",
-        "roleset_name": "take",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "line_pocket.02",
-        "roleset_name": "acquire money, often while doing a seemingly charitable act",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, taker of money"
-            },
-            {
-                "n": "1",
-                "descr": "money stolen or selfishly acquired"
-            },
-            {
-                "n": "2",
-                "descr": "activity during which money is taken"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "in_pocket.03",
-        "roleset_name": "possess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "possessor"
-            },
-            {
-                "n": "1",
-                "descr": "person in pocket, bribed person"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "out_of_pocket.04",
-        "roleset_name": "to occur without reimbursement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person paying"
-            },
-            {
-                "n": "1",
-                "descr": "expenses, thing not being re-imbursed"
-            },
-            {
-                "n": "2",
-                "descr": "acitvities costing money"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "out_of_pocket.05",
-        "roleset_name": "unavailable, out of office",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person unavailable"
-            },
-            {
-                "n": "2",
-                "descr": "location or medium in which one is temporarily unavailable"
-            },
-            {
-                "n": "3",
-                "descr": "activity causing out of pocket status"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "in_ones_pocket.06",
-        "roleset_name": "under influence of due to financial control",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "influencer"
-            },
-            {
-                "n": "1",
-                "descr": "entity influenced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pocket.01",
+    "roleset_name": "take",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker, agent",
+        "descr_trans": "接受者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken",
+        "descr_trans": "拿走的东西"
+      }
+    ],
+    "roleset_name_trans": "拿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "line_pocket.02",
+    "roleset_name": "acquire money, often while doing a seemingly charitable act",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, taker of money",
+        "descr_trans": "小偷，抢钱的人"
+      },
+      {
+        "n": "1",
+        "descr": "money stolen or selfishly acquired",
+        "descr_trans": "被盗或自私获得的金钱"
+      },
+      {
+        "n": "2",
+        "descr": "activity during which money is taken",
+        "descr_trans": "收取金钱的活动"
+      }
+    ],
+    "roleset_name_trans": "获得金钱，通常是在做看似慈善的行为时"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "in_pocket.03",
+    "roleset_name": "possess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "possessor",
+        "descr_trans": "拥有者"
+      },
+      {
+        "n": "1",
+        "descr": "person in pocket, bribed person",
+        "descr_trans": "口袋里的人, 受贿的人"
+      }
+    ],
+    "roleset_name_trans": "具有"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "out_of_pocket.04",
+    "roleset_name": "to occur without reimbursement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person paying",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "expenses, thing not being re-imbursed",
+        "descr_trans": "费用，未报销的东西"
+      },
+      {
+        "n": "2",
+        "descr": "acitvities costing money",
+        "descr_trans": "需要花钱的活动"
+      }
+    ],
+    "roleset_name_trans": "发生而无需报销"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "out_of_pocket.05",
+    "roleset_name": "unavailable, out of office",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person unavailable",
+        "descr_trans": "无法联系的人"
+      },
+      {
+        "n": "2",
+        "descr": "location or medium in which one is temporarily unavailable",
+        "descr_trans": "暂时无法使用的位置或媒介"
+      },
+      {
+        "n": "3",
+        "descr": "activity causing out of pocket status",
+        "descr_trans": "导致自掏腰包状态的活动"
+      }
+    ],
+    "roleset_name_trans": "没空，不在办公室"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "in_ones_pocket.06",
+    "roleset_name": "under influence of due to financial control",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "influencer",
+        "descr_trans": "影响者"
+      },
+      {
+        "n": "1",
+        "descr": "entity influenced",
+        "descr_trans": "实体受影响"
+      }
+    ],
+    "roleset_name_trans": "受财务管制影响"
+  }
 ]

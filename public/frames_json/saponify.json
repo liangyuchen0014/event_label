@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "saponify.01",
-        "roleset_name": "to convert to soap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "soap-maker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being converted to soap"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            },
-            {
-                "n": "3",
-                "descr": "Soap, result"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "saponify.01",
+    "roleset_name": "to convert to soap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "soap-maker, agent",
+        "descr_trans": "肥皂制造商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity being converted to soap",
+        "descr_trans": "实体被转换为肥皂"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "Soap, result",
+        "descr_trans": "肥皂, 结果"
+      }
+    ],
+    "roleset_name_trans": "转化为肥皂"
+  }
 ]

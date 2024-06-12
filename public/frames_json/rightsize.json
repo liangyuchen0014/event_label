@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rightsize.01",
-        "roleset_name": "(cause to) fit as necessary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, sizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing that needs refitting"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rightsize.01",
+    "roleset_name": "(cause to) fit as necessary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, sizer",
+        "descr_trans": "代理、尺寸确定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing that needs refitting",
+        "descr_trans": "需要改装的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "（导致）必要时适合"
+  }
 ]

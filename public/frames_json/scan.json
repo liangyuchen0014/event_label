@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scan.01",
-        "roleset_name": "look at, examine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker, examiner"
-            },
-            {
-                "n": "1",
-                "descr": "thing examined"
-            },
-            {
-                "n": "2",
-                "descr": "examined for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scan.02",
-        "roleset_name": "scan into a computer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Human doing the scanning"
-            },
-            {
-                "n": "1",
-                "descr": "document or entity scanned"
-            },
-            {
-                "n": "2",
-                "descr": "computer; scanned into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scan.01",
+    "roleset_name": "look at, examine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker, examiner",
+        "descr_trans": "观察者、检查者"
+      },
+      {
+        "n": "1",
+        "descr": "thing examined",
+        "descr_trans": "检查的东西"
+      },
+      {
+        "n": "2",
+        "descr": "examined for",
+        "descr_trans": "检查了"
+      }
+    ],
+    "roleset_name_trans": "看看，检查"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scan.02",
+    "roleset_name": "scan into a computer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Human doing the scanning",
+        "descr_trans": "人类进行扫描"
+      },
+      {
+        "n": "1",
+        "descr": "document or entity scanned",
+        "descr_trans": "扫描的文档或实体"
+      },
+      {
+        "n": "2",
+        "descr": "computer; scanned into",
+        "descr_trans": "电脑;扫描到"
+      }
+    ],
+    "roleset_name_trans": "扫描到电脑中"
+  }
 ]

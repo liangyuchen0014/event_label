@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "provide.01",
-        "roleset_name": "cf give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "thing provided"
-            },
-            {
-                "n": "2",
-                "descr": "entity provided for (benefactive)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "provision.02",
-        "roleset_name": "provide provisions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity providing provisions"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving provisions"
-            },
-            {
-                "n": "2",
-                "descr": "provisions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "provide.01",
+    "roleset_name": "cf give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "thing provided",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity provided for (benefactive)",
+        "descr_trans": "提供的实体（受益人）"
+      }
+    ],
+    "roleset_name_trans": "比照给"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "provision.02",
+    "roleset_name": "provide provisions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity providing provisions",
+        "descr_trans": "提供规定的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving provisions",
+        "descr_trans": "实体接收规定"
+      },
+      {
+        "n": "2",
+        "descr": "provisions",
+        "descr_trans": "规定"
+      }
+    ],
+    "roleset_name_trans": "提供规定"
+  }
 ]

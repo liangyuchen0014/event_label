@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tuck.01",
-        "roleset_name": "put securely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tucker"
-            },
-            {
-                "n": "1",
-                "descr": "tucked"
-            },
-            {
-                "n": "2",
-                "descr": "place"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tuck_away.02",
-        "roleset_name": "give criminal sentence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tucker"
-            },
-            {
-                "n": "1",
-                "descr": "tucked"
-            },
-            {
-                "n": "2",
-                "descr": "sentence"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tuck_in.03",
-        "roleset_name": "put your shirt in your pants",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tucker"
-            },
-            {
-                "n": "1",
-                "descr": "shirt"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tuck.01",
+    "roleset_name": "put securely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tucker",
+        "descr_trans": "塔克"
+      },
+      {
+        "n": "1",
+        "descr": "tucked",
+        "descr_trans": "塞起来"
+      },
+      {
+        "n": "2",
+        "descr": "place",
+        "descr_trans": "地方"
+      }
+    ],
+    "roleset_name_trans": "安全地放置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tuck_away.02",
+    "roleset_name": "give criminal sentence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tucker",
+        "descr_trans": "塔克"
+      },
+      {
+        "n": "1",
+        "descr": "tucked",
+        "descr_trans": "塞起来"
+      },
+      {
+        "n": "2",
+        "descr": "sentence",
+        "descr_trans": "句子"
+      }
+    ],
+    "roleset_name_trans": "判处刑事处罚"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tuck_in.03",
+    "roleset_name": "put your shirt in your pants",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tucker",
+        "descr_trans": "塔克"
+      },
+      {
+        "n": "1",
+        "descr": "shirt",
+        "descr_trans": "衬衫"
+      }
+    ],
+    "roleset_name_trans": "把你的衬衫放在裤子里"
+  }
 ]

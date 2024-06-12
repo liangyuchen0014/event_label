@@ -1,105 +1,127 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "carry.01",
-        "roleset_name": "bring with, have",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "thing carried"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "'with' reflecting back on arg0"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive (predicted but not seen)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "carry_on.02",
-        "roleset_name": "carry on: continue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "continuer"
-            },
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            },
-            {
-                "n": "2",
-                "descr": "comitative, thing kept together"
-            },
-            {
-                "n": "3",
-                "descr": "attributive of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "carry_out.03",
-        "roleset_name": "carry out: implement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "implementer"
-            },
-            {
-                "n": "1",
-                "descr": "thing implemented"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "carry_over.04",
-        "roleset_name": "carry over: continue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            },
-            {
-                "n": "2",
-                "descr": "(from) whence?"
-            },
-            {
-                "n": "3",
-                "descr": "(to) whither?"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "carry_off.05",
-        "roleset_name": "carry off: accomplish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accomplisher"
-            },
-            {
-                "n": "1",
-                "descr": "deed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "carry.01",
+    "roleset_name": "bring with, have",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "thing carried",
+        "descr_trans": "携带的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "'with' reflecting back on arg0",
+        "descr_trans": "&#39;with&#39; 反射回 arg0"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive (predicted but not seen)",
+        "descr_trans": "有益的（预测但未看到）"
+      }
+    ],
+    "roleset_name_trans": "带着，拥有"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "carry_on.02",
+    "roleset_name": "carry on: continue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "continuer",
+        "descr_trans": "继续"
+      },
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      },
+      {
+        "n": "2",
+        "descr": "comitative, thing kept together",
+        "descr_trans": "共同的，事物保持在一起"
+      },
+      {
+        "n": "3",
+        "descr": "attributive of arg1",
+        "descr_trans": "arg1 的定语"
+      }
+    ],
+    "roleset_name_trans": "继续：继续"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "carry_out.03",
+    "roleset_name": "carry out: implement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "implementer",
+        "descr_trans": "实施者"
+      },
+      {
+        "n": "1",
+        "descr": "thing implemented",
+        "descr_trans": "实施的事情"
+      }
+    ],
+    "roleset_name_trans": "执行：实行"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "carry_over.04",
+    "roleset_name": "carry over: continue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      },
+      {
+        "n": "2",
+        "descr": "(from) whence?",
+        "descr_trans": "（从）哪里来？"
+      },
+      {
+        "n": "3",
+        "descr": "(to) whither?",
+        "descr_trans": "（到）哪里？"
+      }
+    ],
+    "roleset_name_trans": "结转：继续"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "carry_off.05",
+    "roleset_name": "carry off: accomplish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accomplisher",
+        "descr_trans": "成就者"
+      },
+      {
+        "n": "1",
+        "descr": "deed",
+        "descr_trans": "契据"
+      }
+    ],
+    "roleset_name_trans": "完成：完成"
+  }
 ]

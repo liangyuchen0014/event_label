@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "starve.01",
-        "roleset_name": "to suffer or cause to suffer  from deprivation or hunger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of starvation"
-            },
-            {
-                "n": "1",
-                "descr": "entity starving"
-            },
-            {
-                "n": "2",
-                "descr": "food/nutrient (etc) arg1 is starving for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "starve.01",
+    "roleset_name": "to suffer or cause to suffer  from deprivation or hunger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of starvation",
+        "descr_trans": "饥饿的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity starving",
+        "descr_trans": "实体挨饿"
+      },
+      {
+        "n": "2",
+        "descr": "food/nutrient (etc) arg1 is starving for",
+        "descr_trans": "食物/营养物（等）arg1 渴望得到"
+      }
+    ],
+    "roleset_name_trans": "遭受或导致遭受剥夺或饥饿"
+  }
 ]

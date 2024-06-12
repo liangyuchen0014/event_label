@@ -1,56 +1,68 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "widen.01",
-        "roleset_name": "make wider",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming wider"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wide.02",
-        "roleset_name": "spanning a great breadth",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "wide entity"
-            },
-            {
-                "n": "2",
-                "descr": "axis/dimension measured"
-            },
-            {
-                "n": "3",
-                "descr": "width measurement"
-            },
-            {
-                "n": "4",
-                "descr": "scale"
-            },
-            {
-                "n": "5",
-                "descr": "anchor (whose framework dictates which directions are lateral)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "widen.01",
+    "roleset_name": "make wider",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming wider",
+        "descr_trans": "事物变得更广泛"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "使更宽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wide.02",
+    "roleset_name": "spanning a great breadth",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "wide entity",
+        "descr_trans": "广泛的实体"
+      },
+      {
+        "n": "2",
+        "descr": "axis/dimension measured",
+        "descr_trans": "测量的轴/尺寸"
+      },
+      {
+        "n": "3",
+        "descr": "width measurement",
+        "descr_trans": "宽度测量"
+      },
+      {
+        "n": "4",
+        "descr": "scale",
+        "descr_trans": "规模"
+      },
+      {
+        "n": "5",
+        "descr": "anchor (whose framework dictates which directions are lateral)",
+        "descr_trans": "锚（其框架决定哪些方向是横向的）"
+      }
+    ],
+    "roleset_name_trans": "跨越很大的广度"
+  }
 ]

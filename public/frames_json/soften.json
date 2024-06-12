@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "soften.01",
-        "roleset_name": "(cause to) become soft(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of softening"
-            },
-            {
-                "n": "1",
-                "descr": "soft entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "soft.02",
-        "roleset_name": "not hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of softness"
-            },
-            {
-                "n": "1",
-                "descr": "soft thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "soften.01",
+    "roleset_name": "(cause to) become soft(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of softening",
+        "descr_trans": "软化原因"
+      },
+      {
+        "n": "1",
+        "descr": "soft entity",
+        "descr_trans": "软实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得柔软（呃）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "soft.02",
+    "roleset_name": "not hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of softness",
+        "descr_trans": "柔软的原因"
+      },
+      {
+        "n": "1",
+        "descr": "soft thing",
+        "descr_trans": "柔软的东西"
+      }
+    ],
+    "roleset_name_trans": "不难"
+  }
 ]

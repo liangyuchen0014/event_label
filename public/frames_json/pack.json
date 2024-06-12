@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pack.01",
-        "roleset_name": "fill, load",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "beast of burden"
-            },
-            {
-                "n": "2",
-                "descr": "cargo"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pack.03",
-        "roleset_name": "send",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pack.05",
-        "roleset_name": "Carry with oneself, as with a gun",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "thing carried"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pack_up.02",
-        "roleset_name": "fill up, load",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, packer"
-            },
-            {
-                "n": "1",
-                "descr": "cargo"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pack_away.04",
-        "roleset_name": "ingest a large quantity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater"
-            },
-            {
-                "n": "1",
-                "descr": "meal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pack.01",
+    "roleset_name": "fill, load",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer, agent",
+        "descr_trans": "包装工、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "beast of burden",
+        "descr_trans": "负重的野兽"
+      },
+      {
+        "n": "2",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      }
+    ],
+    "roleset_name_trans": "填充，装载"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pack.03",
+    "roleset_name": "send",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "发送"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pack.05",
+    "roleset_name": "Carry with oneself, as with a gun",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "thing carried",
+        "descr_trans": "携带的东西"
+      }
+    ],
+    "roleset_name_trans": "随身携带，就像携带枪一样"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pack_up.02",
+    "roleset_name": "fill up, load",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, packer",
+        "descr_trans": "代理、包装工"
+      },
+      {
+        "n": "1",
+        "descr": "cargo",
+        "descr_trans": "货物"
+      }
+    ],
+    "roleset_name_trans": "填满，装载"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pack_away.04",
+    "roleset_name": "ingest a large quantity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "1",
+        "descr": "meal",
+        "descr_trans": "一顿饭"
+      }
+    ],
+    "roleset_name_trans": "大量摄入"
+  }
 ]

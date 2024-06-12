@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pile.01",
-        "roleset_name": "make a pile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "piler"
-            },
-            {
-                "n": "1",
-                "descr": "substance being piled"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of pile, or destination/location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pile.03",
-        "roleset_name": "move in an untidy fashion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pile_up.02",
-        "roleset_name": "make a pile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of piling"
-            },
-            {
-                "n": "1",
-                "descr": "substance being piled"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pile_on.04",
-        "roleset_name": "add to a pile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of piling"
-            },
-            {
-                "n": "1",
-                "descr": "substance being piled"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of pile"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pile.01",
+    "roleset_name": "make a pile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "piler",
+        "descr_trans": "箭头"
+      },
+      {
+        "n": "1",
+        "descr": "substance being piled",
+        "descr_trans": "正在堆积的物质"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of pile, or destination/location",
+        "descr_trans": "明确提及堆或目的地/位置"
+      }
+    ],
+    "roleset_name_trans": "堆成一堆"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pile.03",
+    "roleset_name": "move in an untidy fashion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "邋遢地走动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pile_up.02",
+    "roleset_name": "make a pile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of piling",
+        "descr_trans": "打桩代理"
+      },
+      {
+        "n": "1",
+        "descr": "substance being piled",
+        "descr_trans": "正在堆积的物质"
+      }
+    ],
+    "roleset_name_trans": "堆成一堆"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pile_on.04",
+    "roleset_name": "add to a pile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of piling",
+        "descr_trans": "打桩代理"
+      },
+      {
+        "n": "1",
+        "descr": "substance being piled",
+        "descr_trans": "正在堆积的物质"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of pile",
+        "descr_trans": "明确提及桩"
+      }
+    ],
+    "roleset_name_trans": "添加到一堆"
+  }
 ]

@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wrench.01",
-        "roleset_name": "twist suddenly and violently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity/thing doing the wrenching"
-            },
-            {
-                "n": "1",
-                "descr": "thing wrenched"
-            },
-            {
-                "n": "2",
-                "descr": "from where"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wrench.02",
-        "roleset_name": "wring one's hands",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hand-wringer"
-            },
-            {
-                "n": "1",
-                "descr": "hands"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wrench.03",
-        "roleset_name": "twist and sprain a body part",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "injured person"
-            },
-            {
-                "n": "1",
-                "descr": "body part, or self"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wrench.01",
+    "roleset_name": "twist suddenly and violently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity/thing doing the wrenching",
+        "descr_trans": "代理人、实体/事物进行扭转"
+      },
+      {
+        "n": "1",
+        "descr": "thing wrenched",
+        "descr_trans": "扭转的东西"
+      },
+      {
+        "n": "2",
+        "descr": "from where",
+        "descr_trans": "从哪里"
+      }
+    ],
+    "roleset_name_trans": "突然猛烈地扭动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wrench.02",
+    "roleset_name": "wring one's hands",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hand-wringer",
+        "descr_trans": "绞手"
+      },
+      {
+        "n": "1",
+        "descr": "hands",
+        "descr_trans": "手"
+      }
+    ],
+    "roleset_name_trans": "绞尽脑汁"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wrench.03",
+    "roleset_name": "twist and sprain a body part",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "injured person",
+        "descr_trans": "受伤的人"
+      },
+      {
+        "n": "1",
+        "descr": "body part, or self",
+        "descr_trans": "身体的一部分，或自我"
+      }
+    ],
+    "roleset_name_trans": "扭转和扭伤身体部位"
+  }
 ]

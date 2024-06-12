@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "southbound.07",
-        "roleset_name": "headed south",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity headed south"
-            },
-            {
-                "n": "2",
-                "descr": "other explicit destination"
-            },
-            {
-                "n": "3",
-                "descr": "anchoring framework"
-            },
-            {
-                "n": "4",
-                "descr": "axis, path, trajectory"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "southbound.07",
+    "roleset_name": "headed south",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity headed south",
+        "descr_trans": "实体向南"
+      },
+      {
+        "n": "2",
+        "descr": "other explicit destination",
+        "descr_trans": "其他明确的目的地"
+      },
+      {
+        "n": "3",
+        "descr": "anchoring framework",
+        "descr_trans": "锚定框架"
+      },
+      {
+        "n": "4",
+        "descr": "axis, path, trajectory",
+        "descr_trans": "轴、路径、轨迹"
+      }
+    ],
+    "roleset_name_trans": "向南"
+  }
 ]

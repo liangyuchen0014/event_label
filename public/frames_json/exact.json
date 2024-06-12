@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exact.01",
-        "roleset_name": "get, obtain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver, exactor"
-            },
-            {
-                "n": "1",
-                "descr": "thing obtained"
-            },
-            {
-                "n": "2",
-                "descr": "received from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exact.01",
+    "roleset_name": "get, obtain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver, exactor",
+        "descr_trans": "接收器、驱动器"
+      },
+      {
+        "n": "1",
+        "descr": "thing obtained",
+        "descr_trans": "得到的东西"
+      },
+      {
+        "n": "2",
+        "descr": "received from",
+        "descr_trans": "从......收到"
+      }
+    ],
+    "roleset_name_trans": "得到，获得"
+  }
 ]

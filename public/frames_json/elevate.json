@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elevate.01",
-        "roleset_name": "to raise or lift",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of upward motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity elevated"
-            },
-            {
-                "n": "2",
-                "descr": "endpoint"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elevate.01",
+    "roleset_name": "to raise or lift",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of upward motion, agent",
+        "descr_trans": "向上运动的原因、推动者"
+      },
+      {
+        "n": "1",
+        "descr": "entity elevated",
+        "descr_trans": "实体提升"
+      },
+      {
+        "n": "2",
+        "descr": "endpoint",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "举起或举起"
+  }
 ]

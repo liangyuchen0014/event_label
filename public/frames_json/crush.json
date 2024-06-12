@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crush.01",
-        "roleset_name": "press, break, pressing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing crushed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            },
-            {
-                "n": "3",
-                "descr": "crushed from or upon"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crush.02",
-        "roleset_name": "be infatuated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker"
-            },
-            {
-                "n": "1",
-                "descr": "object of affection"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crush.01",
+    "roleset_name": "press, break, pressing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing crushed",
+        "descr_trans": "东西压碎了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      },
+      {
+        "n": "3",
+        "descr": "crushed from or upon",
+        "descr_trans": "从或之上压碎"
+      }
+    ],
+    "roleset_name_trans": "按下、打破、按下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crush.02",
+    "roleset_name": "be infatuated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker",
+        "descr_trans": "喜欢"
+      },
+      {
+        "n": "1",
+        "descr": "object of affection",
+        "descr_trans": "感情对象"
+      }
+    ],
+    "roleset_name_trans": "痴情"
+  }
 ]

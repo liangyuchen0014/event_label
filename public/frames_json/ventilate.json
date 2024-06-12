@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ventilate.01",
-        "roleset_name": "allow air circulation, circulate air",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower, agent"
-            },
-            {
-                "n": "1",
-                "descr": "stuffy room"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ventilate.01",
+    "roleset_name": "allow air circulation, circulate air",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower, agent",
+        "descr_trans": "允许者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "stuffy room",
+        "descr_trans": "闷热的房间"
+      }
+    ],
+    "roleset_name_trans": "让空气流通，使空气流通"
+  }
 ]

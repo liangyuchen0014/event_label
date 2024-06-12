@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "actualize.01",
-        "roleset_name": "make real or more real",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing actualized, theme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "actual.02",
-        "roleset_name": "really real",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "actual thing"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 is an actual instantiation of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "actualize.01",
+    "roleset_name": "make real or more real",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing actualized, theme",
+        "descr_trans": "已实现的事物、主题"
+      }
+    ],
+    "roleset_name_trans": "使真实或更真实"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "actual.02",
+    "roleset_name": "really real",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "actual thing",
+        "descr_trans": "实际的事情"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 is an actual instantiation of",
+        "descr_trans": "arg1 是一个实际实例"
+      }
+    ],
+    "roleset_name_trans": "真的很真实"
+  }
 ]

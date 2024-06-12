@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "catechize.01",
-        "roleset_name": "question systematically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "questioner"
-            },
-            {
-                "n": "1",
-                "descr": "one being questioned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "catechize.01",
+    "roleset_name": "question systematically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "questioner",
+        "descr_trans": "提问者"
+      },
+      {
+        "n": "1",
+        "descr": "one being questioned",
+        "descr_trans": "一个人被询问"
+      }
+    ],
+    "roleset_name_trans": "系统地提问"
+  }
 ]

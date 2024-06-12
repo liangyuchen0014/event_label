@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preapprove.01",
-        "roleset_name": "to approve in advance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "approver"
-            },
-            {
-                "n": "1",
-                "descr": "thing approved"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, arg1 approved for/as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preapprove.01",
+    "roleset_name": "to approve in advance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "approver",
+        "descr_trans": "批准人"
+      },
+      {
+        "n": "1",
+        "descr": "thing approved",
+        "descr_trans": "批准的事情"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, arg1 approved for/as",
+        "descr_trans": "次要属性，arg1 批准用于/作为"
+      }
+    ],
+    "roleset_name_trans": "提前批准"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rap.01",
-        "roleset_name": "strike lightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rapper (no, not like that)"
-            },
-            {
-                "n": "1",
-                "descr": "instrument"
-            },
-            {
-                "n": "2",
-                "descr": "target, surface"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rap.02",
-        "roleset_name": "perform spoken rhythmic lyrics",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rapper"
-            },
-            {
-                "n": "1",
-                "descr": "song, utterance"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rap.01",
+    "roleset_name": "strike lightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rapper (no, not like that)",
+        "descr_trans": "说唱歌手（不，不是那样的）"
+      },
+      {
+        "n": "1",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "2",
+        "descr": "target, surface",
+        "descr_trans": "目标、表面"
+      }
+    ],
+    "roleset_name_trans": "轻轻一击"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rap.02",
+    "roleset_name": "perform spoken rhythmic lyrics",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rapper",
+        "descr_trans": "说唱歌手"
+      },
+      {
+        "n": "1",
+        "descr": "song, utterance",
+        "descr_trans": "歌曲、话语"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of arg1",
+        "descr_trans": "arg1 的主题"
+      }
+    ],
+    "roleset_name_trans": "表演有节奏的口头歌词"
+  }
 ]

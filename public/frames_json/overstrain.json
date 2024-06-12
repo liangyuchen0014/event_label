@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overstrain.01",
-        "roleset_name": "strain too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of strain"
-            },
-            {
-                "n": "1",
-                "descr": "strained entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overstrain.01",
+    "roleset_name": "strain too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of strain",
+        "descr_trans": "造成紧张的原因"
+      },
+      {
+        "n": "1",
+        "descr": "strained entity",
+        "descr_trans": "紧张的实体"
+      }
+    ],
+    "roleset_name_trans": "压力太大"
+  }
 ]

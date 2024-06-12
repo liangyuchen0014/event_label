@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "marvel.01",
-        "roleset_name": "be amazed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer of marvelation :)"
-            },
-            {
-                "n": "1",
-                "descr": "marvellous thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "marvel.02",
-        "roleset_name": "express amazement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "marvel.01",
+    "roleset_name": "be amazed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer of marvelation :)",
+        "descr_trans": "惊叹的经历者:)"
+      },
+      {
+        "n": "1",
+        "descr": "marvellous thing",
+        "descr_trans": "奇妙的事情"
+      }
+    ],
+    "roleset_name_trans": "吃惊"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "marvel.02",
+    "roleset_name": "express amazement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "表达惊讶"
+  }
 ]

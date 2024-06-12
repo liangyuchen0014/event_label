@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "palmitoylate.01",
-        "roleset_name": "attach fatty acids to a membrane protein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of palmitoylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing palmitoylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, enzyme performing the palmitoylation"
-            },
-            {
-                "n": "3",
-                "descr": "result of palmitoylation"
-            },
-            {
-                "n": "4",
-                "descr": "fatty acid, molecule added to Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "palmitoylate.01",
+    "roleset_name": "attach fatty acids to a membrane protein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of palmitoylation (e.g. scientist)",
+        "descr_trans": "棕榈酰化的有意代理（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing palmitoylated",
+        "descr_trans": "棕榈酰化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, enzyme performing the palmitoylation",
+        "descr_trans": "仪器，进行棕榈酰化的酶"
+      },
+      {
+        "n": "3",
+        "descr": "result of palmitoylation",
+        "descr_trans": "棕榈酰化结果"
+      },
+      {
+        "n": "4",
+        "descr": "fatty acid, molecule added to Arg1",
+        "descr_trans": "脂肪酸，添加到 Arg1 的分子"
+      }
+    ],
+    "roleset_name_trans": "将脂肪酸附着在膜蛋白上"
+  }
 ]

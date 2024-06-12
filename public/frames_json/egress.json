@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "egress.01",
-        "roleset_name": "exit, go out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "departing entity"
-            },
-            {
-                "n": "1",
-                "descr": "place left"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "egress.01",
+    "roleset_name": "exit, go out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "departing entity",
+        "descr_trans": "离开的实体"
+      },
+      {
+        "n": "1",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "退出，出去"
+  }
 ]

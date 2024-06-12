@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "eye.01",
-        "roleset_name": "to watch closely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "watcher"
-            },
-            {
-                "n": "1",
-                "descr": "entity eyed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "keep_eye_out.02",
-        "roleset_name": "be alert for a yet-unseen thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "watcher out"
-            },
-            {
-                "n": "1",
-                "descr": "thing watched out for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "open_eyes.03",
-        "roleset_name": "cause to know",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informer; causer of understanding"
-            },
-            {
-                "n": "1",
-                "descr": "informed; person whose eyes are now open"
-            },
-            {
-                "n": "2",
-                "descr": "information; revelation"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "eye_on_ball.04",
-        "roleset_name": "be ready and attentive; keeping track of an issue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attentive entity"
-            },
-            {
-                "n": "1",
-                "descr": "issue arg0 is attentive to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "have_eye_on.05",
-        "roleset_name": "watch closely and possibly warily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "watcher"
-            },
-            {
-                "n": "1",
-                "descr": "watched"
-            },
-            {
-                "n": "2",
-                "descr": "number of eyes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "eye.01",
+    "roleset_name": "to watch closely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "watcher",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "entity eyed",
+        "descr_trans": "实体眼"
+      }
+    ],
+    "roleset_name_trans": "仔细观察"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "keep_eye_out.02",
+    "roleset_name": "be alert for a yet-unseen thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "watcher out",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "thing watched out for",
+        "descr_trans": "留意的事情"
+      }
+    ],
+    "roleset_name_trans": "对尚未见过的事物保持警惕"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "open_eyes.03",
+    "roleset_name": "cause to know",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informer; causer of understanding",
+        "descr_trans": "告密者；理解的起因"
+      },
+      {
+        "n": "1",
+        "descr": "informed; person whose eyes are now open",
+        "descr_trans": "通知；现在睁开眼睛的人"
+      },
+      {
+        "n": "2",
+        "descr": "information; revelation",
+        "descr_trans": "信息;启示"
+      }
+    ],
+    "roleset_name_trans": "导致知道"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "eye_on_ball.04",
+    "roleset_name": "be ready and attentive; keeping track of an issue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attentive entity",
+        "descr_trans": "细心的实体"
+      },
+      {
+        "n": "1",
+        "descr": "issue arg0 is attentive to",
+        "descr_trans": "问题 arg0 关注"
+      }
+    ],
+    "roleset_name_trans": "做好准备并专心致志；跟踪问题"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "have_eye_on.05",
+    "roleset_name": "watch closely and possibly warily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "watcher",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "watched",
+        "descr_trans": "看过"
+      },
+      {
+        "n": "2",
+        "descr": "number of eyes",
+        "descr_trans": "眼睛数量"
+      }
+    ],
+    "roleset_name_trans": "密切且可能谨慎地观察"
+  }
 ]

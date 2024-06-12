@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insufficient.01",
-        "roleset_name": "inadequate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inadequate entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity not satisfied by arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insufficient.01",
+    "roleset_name": "inadequate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inadequate entity",
+        "descr_trans": "实体不充分"
+      },
+      {
+        "n": "1",
+        "descr": "entity not satisfied by arg0",
+        "descr_trans": "arg0 不满足实体"
+      }
+    ],
+    "roleset_name_trans": "不足"
+  }
 ]

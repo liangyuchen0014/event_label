@@ -1,122 +1,146 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "live.01",
-        "roleset_name": "not be dead, being alive, exist in some manner or for some length of time, alive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alive entity"
-            },
-            {
-                "n": "1",
-                "descr": "life"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "live.02",
-        "roleset_name": "endure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "endurer, sufferer"
-            },
-            {
-                "n": "1",
-                "descr": "malady"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "live.08",
-        "roleset_name": "being broadcast in real time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity being broadcast in real time"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "live_down.06",
-        "roleset_name": "withstand an incident until others forget, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one who withstands"
-            },
-            {
-                "n": "1",
-                "descr": "incident, crime, impression"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "live_on.03",
-        "roleset_name": "continue",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing continuing"
-            },
-            {
-                "n": "2",
-                "descr": "comitative: group, things kept together"
-            },
-            {
-                "n": "3",
-                "descr": "attributive"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "live_up.04",
-        "roleset_name": "fulfill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fulfiller"
-            },
-            {
-                "n": "1",
-                "descr": "fulfilled"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "live_out.05",
-        "roleset_name": "live to the end/completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alive entity"
-            },
-            {
-                "n": "1",
-                "descr": "life"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "livable.07",
-        "roleset_name": "suitable to be lived in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who might reside"
-            },
-            {
-                "n": "1",
-                "descr": "place that is suitable to be lived in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "live.01",
+    "roleset_name": "not be dead, being alive, exist in some manner or for some length of time, alive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alive entity",
+        "descr_trans": "活的实体"
+      },
+      {
+        "n": "1",
+        "descr": "life",
+        "descr_trans": "生活"
+      }
+    ],
+    "roleset_name_trans": "没有死，还活着，以某种方式存在或存在一段时间，活着"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "live.02",
+    "roleset_name": "endure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "endurer, sufferer",
+        "descr_trans": "忍受，忍受"
+      },
+      {
+        "n": "1",
+        "descr": "malady",
+        "descr_trans": "弊病"
+      }
+    ],
+    "roleset_name_trans": "忍受"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "live.08",
+    "roleset_name": "being broadcast in real time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity being broadcast in real time",
+        "descr_trans": "实体正在实时广播"
+      }
+    ],
+    "roleset_name_trans": "正在实时播出"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "live_down.06",
+    "roleset_name": "withstand an incident until others forget, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one who withstands",
+        "descr_trans": "代理人，一个能承受的人"
+      },
+      {
+        "n": "1",
+        "descr": "incident, crime, impression",
+        "descr_trans": "事件、犯罪、印象"
+      }
+    ],
+    "roleset_name_trans": "承受事件直到其他人忘记，"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "live_on.03",
+    "roleset_name": "continue",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing continuing",
+        "descr_trans": "事情仍在继续"
+      },
+      {
+        "n": "2",
+        "descr": "comitative: group, things kept together",
+        "descr_trans": "共同的：群体，事物聚集在一起"
+      },
+      {
+        "n": "3",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "继续"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "live_up.04",
+    "roleset_name": "fulfill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fulfiller",
+        "descr_trans": "履行者"
+      },
+      {
+        "n": "1",
+        "descr": "fulfilled",
+        "descr_trans": "实现了"
+      }
+    ],
+    "roleset_name_trans": "实现"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "live_out.05",
+    "roleset_name": "live to the end/completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alive entity",
+        "descr_trans": "活的实体"
+      },
+      {
+        "n": "1",
+        "descr": "life",
+        "descr_trans": "生活"
+      }
+    ],
+    "roleset_name_trans": "活到最后/完成"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "livable.07",
+    "roleset_name": "suitable to be lived in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who might reside",
+        "descr_trans": "可能居住的实体"
+      },
+      {
+        "n": "1",
+        "descr": "place that is suitable to be lived in",
+        "descr_trans": "适合居住的地方"
+      }
+    ],
+    "roleset_name_trans": "适合居住"
+  }
 ]

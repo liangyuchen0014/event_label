@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "level.01",
-        "roleset_name": "cause to become level",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming level"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "level.03",
-        "roleset_name": "direct emphatically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "director, agent"
-            },
-            {
-                "n": "1",
-                "descr": "us. charges or accusations"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "level.04",
-        "roleset_name": "even, flat, uniformly horizontal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of levelness"
-            },
-            {
-                "n": "1",
-                "descr": "level thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "level_off.02",
-        "roleset_name": "level off: become level, even",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming level"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "level.01",
+    "roleset_name": "cause to become level",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming level",
+        "descr_trans": "事物变得水平"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from agent",
+        "descr_trans": "仪器，如果与代理分开"
+      }
+    ],
+    "roleset_name_trans": "导致变得水平"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "level.03",
+    "roleset_name": "direct emphatically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "director, agent",
+        "descr_trans": "董事、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "us. charges or accusations",
+        "descr_trans": "我们。指控或指控"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "直接强调"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "level.04",
+    "roleset_name": "even, flat, uniformly horizontal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of levelness",
+        "descr_trans": "水平度的代理/原因"
+      },
+      {
+        "n": "1",
+        "descr": "level thing",
+        "descr_trans": "水平的东西"
+      }
+    ],
+    "roleset_name_trans": "均匀、平坦、均匀水平"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "level_off.02",
+    "roleset_name": "level off: become level, even",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming level",
+        "descr_trans": "事物变得水平"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from agent",
+        "descr_trans": "仪器，如果与代理分开"
+      }
+    ],
+    "roleset_name_trans": "level off：变得水平，均匀"
+  }
 ]

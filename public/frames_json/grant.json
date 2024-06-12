@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grant.01",
-        "roleset_name": "request, giving, often in answer to a request",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter"
-            },
-            {
-                "n": "1",
-                "descr": "thing granted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, granted-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "take_for_granted.02",
-        "roleset_name": "assume something as given, fail to appreciate something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking for granted"
-            },
-            {
-                "n": "1",
-                "descr": "thing assumed to be granted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grant.01",
+    "roleset_name": "request, giving, often in answer to a request",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter",
+        "descr_trans": "授予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing granted",
+        "descr_trans": "授予的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, granted-to",
+        "descr_trans": "有益的，被授予的"
+      }
+    ],
+    "roleset_name_trans": "请求，给予，通常是为了回应请求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "take_for_granted.02",
+    "roleset_name": "assume something as given, fail to appreciate something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking for granted",
+        "descr_trans": "认为理所当然的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing assumed to be granted",
+        "descr_trans": "假定被授予的事物"
+      }
+    ],
+    "roleset_name_trans": "假设某事是给定的，不欣赏某事"
+  }
 ]

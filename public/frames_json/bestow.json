@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bestow.01",
-        "roleset_name": "to present, give as a gift",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "gift, theme"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, bestowed on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bestow.01",
+    "roleset_name": "to present, give as a gift",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, agent",
+        "descr_trans": "给予者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "gift, theme",
+        "descr_trans": "礼物、主题"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, bestowed on",
+        "descr_trans": "接受者，授予"
+      }
+    ],
+    "roleset_name_trans": "赠送，赠送"
+  }
 ]

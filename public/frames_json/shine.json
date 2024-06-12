@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shine.01",
-        "roleset_name": "produce light",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of illumination, agent"
-            },
-            {
-                "n": "1",
-                "descr": "light itself, thing shining"
-            },
-            {
-                "n": "2",
-                "descr": "thing illuminated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shine_through.02",
-        "roleset_name": "be very apparent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "apparent thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shine.01",
+    "roleset_name": "produce light",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of illumination, agent",
+        "descr_trans": "照明原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "light itself, thing shining",
+        "descr_trans": "光本身，发光的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing illuminated",
+        "descr_trans": "被照亮的东西"
+      }
+    ],
+    "roleset_name_trans": "产生光"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shine_through.02",
+    "roleset_name": "be very apparent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "apparent thing",
+        "descr_trans": "明显的东西"
+      }
+    ],
+    "roleset_name_trans": "非常明显"
+  }
 ]

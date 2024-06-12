@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resequence.01",
-        "roleset_name": "determine the ordering of consituents in a specific individual, to compare against standard sequence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "genome, or the entire group of constituents in a sequence"
-            },
-            {
-                "n": "2",
-                "descr": "organism the genome belongs to"
-            },
-            {
-                "n": "3",
-                "descr": "specific genes (or constituents) looked at within arg1"
-            },
-            {
-                "n": "4",
-                "descr": "standard compared against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resequence.01",
+    "roleset_name": "determine the ordering of consituents in a specific individual, to compare against standard sequence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "genome, or the entire group of constituents in a sequence",
+        "descr_trans": "基因组，或序列中的整个成分组"
+      },
+      {
+        "n": "2",
+        "descr": "organism the genome belongs to",
+        "descr_trans": "基因组所属的生物体"
+      },
+      {
+        "n": "3",
+        "descr": "specific genes (or constituents) looked at within arg1",
+        "descr_trans": "在 arg1 中查看特定基因（或成分）"
+      },
+      {
+        "n": "4",
+        "descr": "standard compared against",
+        "descr_trans": "标准比较"
+      }
+    ],
+    "roleset_name_trans": "确定特定个体中成分的顺序，以与标准序列进行比较"
+  }
 ]

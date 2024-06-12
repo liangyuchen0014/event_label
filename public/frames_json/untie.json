@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "untie.01",
-        "roleset_name": "unattach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the untying"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being untied"
-            },
-            {
-                "n": "2",
-                "descr": "untied from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "untie.01",
+    "roleset_name": "unattach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the untying",
+        "descr_trans": "代理人、解绑实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being untied",
+        "descr_trans": "病人，东西被解开"
+      },
+      {
+        "n": "2",
+        "descr": "untied from",
+        "descr_trans": "解脱于"
+      }
+    ],
+    "roleset_name_trans": "取消附加"
+  }
 ]

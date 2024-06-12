@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regret.01",
-        "roleset_name": "regret, feel bad about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "regreter"
-            },
-            {
-                "n": "1",
-                "descr": "thing regretted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "regrettable.02",
-        "roleset_name": "able/worthy to be reqretted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "regretter"
-            },
-            {
-                "n": "1",
-                "descr": "regrettable"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regret.01",
+    "roleset_name": "regret, feel bad about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "regreter",
+        "descr_trans": "后悔者"
+      },
+      {
+        "n": "1",
+        "descr": "thing regretted",
+        "descr_trans": "遗憾的事"
+      }
+    ],
+    "roleset_name_trans": "后悔，感到难过"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "regrettable.02",
+    "roleset_name": "able/worthy to be reqretted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "regretter",
+        "descr_trans": "后悔"
+      },
+      {
+        "n": "1",
+        "descr": "regrettable",
+        "descr_trans": "遗憾的"
+      }
+    ],
+    "roleset_name_trans": "能够/值得被要求"
+  }
 ]

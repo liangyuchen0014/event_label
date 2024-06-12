@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slim.02",
-        "roleset_name": "to reduce, melt off, lose weight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity slimming down"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slim_down.01",
-        "roleset_name": "to reduce, melt off, lose weight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity slimming down"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slim.02",
+    "roleset_name": "to reduce, melt off, lose weight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity slimming down",
+        "descr_trans": "实体瘦身"
+      }
+    ],
+    "roleset_name_trans": "减少、融化、减肥"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slim_down.01",
+    "roleset_name": "to reduce, melt off, lose weight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity slimming down",
+        "descr_trans": "实体瘦身"
+      }
+    ],
+    "roleset_name_trans": "减少、融化、减肥"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hedge.01",
-        "roleset_name": "protect, minimize the loss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity seeking to minimize a loss"
-            },
-            {
-                "n": "1",
-                "descr": "thing protected"
-            },
-            {
-                "n": "2",
-                "descr": "protected from"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hedge.01",
+    "roleset_name": "protect, minimize the loss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity seeking to minimize a loss",
+        "descr_trans": "寻求最小化损失的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing protected",
+        "descr_trans": "受保护的东西"
+      },
+      {
+        "n": "2",
+        "descr": "protected from",
+        "descr_trans": "免受"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "保护、减少损失"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trust.01",
-        "roleset_name": "trust someone with something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "truster"
-            },
-            {
-                "n": "1",
-                "descr": "something"
-            },
-            {
-                "n": "2",
-                "descr": "someone"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trust.02",
-        "roleset_name": "put faith in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "truster"
-            },
-            {
-                "n": "1",
-                "descr": "thing trusted"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trustworthy.03",
-        "roleset_name": "worthy of trust",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "truster"
-            },
-            {
-                "n": "1",
-                "descr": "entity worthy of trust"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 upholds, preserves, carries through with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trust.01",
+    "roleset_name": "trust someone with something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "truster",
+        "descr_trans": "信任者"
+      },
+      {
+        "n": "1",
+        "descr": "something",
+        "descr_trans": "某物"
+      },
+      {
+        "n": "2",
+        "descr": "someone",
+        "descr_trans": "某人"
+      }
+    ],
+    "roleset_name_trans": "信任某人某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trust.02",
+    "roleset_name": "put faith in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "truster",
+        "descr_trans": "信任者"
+      },
+      {
+        "n": "1",
+        "descr": "thing trusted",
+        "descr_trans": "值得信赖的事情"
+      }
+    ],
+    "roleset_name_trans": "相信"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trustworthy.03",
+    "roleset_name": "worthy of trust",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "truster",
+        "descr_trans": "信任者"
+      },
+      {
+        "n": "1",
+        "descr": "entity worthy of trust",
+        "descr_trans": "值得信赖的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 upholds, preserves, carries through with",
+        "descr_trans": "arg1 所坚持、保留、贯彻的内容"
+      }
+    ],
+    "roleset_name_trans": "值得信赖"
+  }
 ]

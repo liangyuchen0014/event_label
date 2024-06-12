@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "define.01",
-        "roleset_name": "assign a label or attribute; specify features or boundaries",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing defined"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as, definition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "definition.02",
-        "roleset_name": "highlighting, emphasizing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "highlighter"
-            },
-            {
-                "n": "1",
-                "descr": "thing highlighted/emphasized"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "definitive.03",
-        "roleset_name": "final, resolving; the option after which there are not expected to be more options",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "definitive thing"
-            },
-            {
-                "n": "2",
-                "descr": "superset of options out of which ARG1 is final"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "define.01",
+    "roleset_name": "assign a label or attribute; specify features or boundaries",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing defined",
+        "descr_trans": "定义的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as, definition",
+        "descr_trans": "次要属性、描述、定义"
+      }
+    ],
+    "roleset_name_trans": "分配标签或属性；指定特征或边界"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "definition.02",
+    "roleset_name": "highlighting, emphasizing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "highlighter",
+        "descr_trans": "荧光笔"
+      },
+      {
+        "n": "1",
+        "descr": "thing highlighted/emphasized",
+        "descr_trans": "突出/强调的事情"
+      }
+    ],
+    "roleset_name_trans": "突出显示，强调"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "definitive.03",
+    "roleset_name": "final, resolving; the option after which there are not expected to be more options",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "definitive thing",
+        "descr_trans": "确定的事情"
+      },
+      {
+        "n": "2",
+        "descr": "superset of options out of which ARG1 is final",
+        "descr_trans": "选项超集，其中 ARG1 是最终选项"
+      }
+    ],
+    "roleset_name_trans": "最终的，解决的；该选项之后预计不会有更多选项"
+  }
 ]

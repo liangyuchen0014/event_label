@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "source.01",
-        "roleset_name": "obtain or use from a specific source",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obtainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing obtained"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "source.02",
-        "roleset_name": "provide, be a source of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "thing provided"
-            },
-            {
-                "n": "2",
-                "descr": "entity provided for (benefactive)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "source.01",
+    "roleset_name": "obtain or use from a specific source",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obtainer",
+        "descr_trans": "获取者"
+      },
+      {
+        "n": "1",
+        "descr": "thing obtained",
+        "descr_trans": "得到的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "从特定来源获取或使用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "source.02",
+    "roleset_name": "provide, be a source of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "thing provided",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity provided for (benefactive)",
+        "descr_trans": "提供的实体（受益人）"
+      }
+    ],
+    "roleset_name_trans": "提供，成为的来源"
+  }
 ]

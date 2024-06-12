@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "superpose.01",
-        "roleset_name": "place on or above something else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity placed on or above"
-            },
-            {
-                "n": "2",
-                "descr": "entity covered or lower in relation to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "superpose.01",
+    "roleset_name": "place on or above something else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity placed on or above",
+        "descr_trans": "放置在其上或上方的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity covered or lower in relation to arg1",
+        "descr_trans": "相对于 arg1 覆盖或更低的实体"
+      }
+    ],
+    "roleset_name_trans": "放在其他东西上面或上面"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thumbtack.01",
-        "roleset_name": "thumbtack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thumbtacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing thumbtacked"
-            },
-            {
-                "n": "2",
-                "descr": "thumbtacked to what, second patient"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, thumbtack proper"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thumbtack.01",
+    "roleset_name": "thumbtack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thumbtacker, agent",
+        "descr_trans": "图钉者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing thumbtacked",
+        "descr_trans": "病人，用图钉钉着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thumbtacked to what, second patient",
+        "descr_trans": "图钉到了什么，第二个病人"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, thumbtack proper",
+        "descr_trans": "乐器，图钉本身"
+      }
+    ],
+    "roleset_name_trans": "图钉"
+  }
 ]

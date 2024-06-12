@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brace.01",
-        "roleset_name": "to prepare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "prepare for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "brace.02",
-        "roleset_name": "support, hold up, stabilize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of stability"
-            },
-            {
-                "n": "1",
-                "descr": "entity supported"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if seperate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brace.01",
+    "roleset_name": "to prepare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer, agent",
+        "descr_trans": "准备者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "prepare for",
+        "descr_trans": "准备"
+      }
+    ],
+    "roleset_name_trans": "准备"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "brace.02",
+    "roleset_name": "support, hold up, stabilize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of stability",
+        "descr_trans": "代理人，稳定的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity supported",
+        "descr_trans": "支持实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if seperate from arg 0",
+        "descr_trans": "仪器，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "支持，支撑，稳定"
+  }
 ]

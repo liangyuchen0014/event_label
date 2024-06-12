@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misinform.01",
-        "roleset_name": "give incorrect information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misinformer"
-            },
-            {
-                "n": "1",
-                "descr": "misinformed"
-            },
-            {
-                "n": "2",
-                "descr": "misinformation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misinform.01",
+    "roleset_name": "give incorrect information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misinformer",
+        "descr_trans": "误导者"
+      },
+      {
+        "n": "1",
+        "descr": "misinformed",
+        "descr_trans": "被误导"
+      },
+      {
+        "n": "2",
+        "descr": "misinformation",
+        "descr_trans": "误传"
+      }
+    ],
+    "roleset_name_trans": "提供不正确的信息"
+  }
 ]

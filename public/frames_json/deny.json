@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deny.01",
-        "roleset_name": "turn down, reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "denier"
-            },
-            {
-                "n": "1",
-                "descr": "thing denied"
-            },
-            {
-                "n": "2",
-                "descr": "anti-benefactive: entity being denied arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deniable.02",
-        "roleset_name": "able to be denied",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "denier"
-            },
-            {
-                "n": "1",
-                "descr": "thing denied"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deny.01",
+    "roleset_name": "turn down, reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "denier",
+        "descr_trans": "丹尼尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing denied",
+        "descr_trans": "事情被否认"
+      },
+      {
+        "n": "2",
+        "descr": "anti-benefactive: entity being denied arg1",
+        "descr_trans": "反有益的：实体被拒绝 arg1"
+      }
+    ],
+    "roleset_name_trans": "拒绝，拒绝"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deniable.02",
+    "roleset_name": "able to be denied",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "denier",
+        "descr_trans": "丹尼尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing denied",
+        "descr_trans": "事情被否认"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "可以被拒绝"
+  }
 ]

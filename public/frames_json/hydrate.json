@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hydrate.01",
-        "roleset_name": "add moisture to, add moisture again, moist",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity adding the moisture"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing becoming moist"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hydrate.01",
+    "roleset_name": "add moisture to, add moisture again, moist",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity adding the moisture",
+        "descr_trans": "剂，添加水分的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing becoming moist",
+        "descr_trans": "病人，东西变得潮湿"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "补充水分，再补充水分，湿润"
+  }
 ]

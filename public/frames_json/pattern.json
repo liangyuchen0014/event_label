@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pattern.01",
-        "roleset_name": "copy, as if following a pattern",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "copy"
-            },
-            {
-                "n": "2",
-                "descr": "original"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pattern.01",
+    "roleset_name": "copy, as if following a pattern",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copier, agent",
+        "descr_trans": "复制代理"
+      },
+      {
+        "n": "1",
+        "descr": "copy",
+        "descr_trans": "复制"
+      },
+      {
+        "n": "2",
+        "descr": "original",
+        "descr_trans": "原来的"
+      }
+    ],
+    "roleset_name_trans": "复制，就像遵循某种模式一样"
+  }
 ]

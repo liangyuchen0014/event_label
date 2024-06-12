@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defeat.01",
-        "roleset_name": "to win over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity victorious"
-            },
-            {
-                "n": "1",
-                "descr": "entity defeated"
-            },
-            {
-                "n": "m",
-                "descr": "domain of competition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defeat.01",
+    "roleset_name": "to win over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity victorious",
+        "descr_trans": "实体胜利"
+      },
+      {
+        "n": "1",
+        "descr": "entity defeated",
+        "descr_trans": "实体被击败"
+      },
+      {
+        "n": "m",
+        "descr": "domain of competition",
+        "descr_trans": "竞争领域"
+      }
+    ],
+    "roleset_name_trans": "赢得"
+  }
 ]

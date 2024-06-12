@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resend.01",
-        "roleset_name": "send again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resend.01",
+    "roleset_name": "send again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sent to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "重新发送"
+  }
 ]

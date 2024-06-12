@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undislodgeable.01",
-        "roleset_name": "not able to be dislodged",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing that can't be dislodged"
-            },
-            {
-                "n": "2",
-                "descr": "location where arg1 is stuck"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undislodgeable.01",
+    "roleset_name": "not able to be dislodged",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing that can't be dislodged",
+        "descr_trans": "无法摆脱的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location where arg1 is stuck",
+        "descr_trans": "arg1 卡住的位置"
+      }
+    ],
+    "roleset_name_trans": "无法被驱逐"
+  }
 ]

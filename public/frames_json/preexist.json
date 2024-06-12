@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preexist.01",
-        "roleset_name": "exist before",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing coming before (pre-existing thing)"
-            },
-            {
-                "n": "2",
-                "descr": "thing coming after (transitive object)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preexist.01",
+    "roleset_name": "exist before",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing coming before (pre-existing thing)",
+        "descr_trans": "之前发生的事情（预先存在的事情）"
+      },
+      {
+        "n": "2",
+        "descr": "thing coming after (transitive object)",
+        "descr_trans": "之后的事物（及物宾语）"
+      }
+    ],
+    "roleset_name_trans": "之前存在"
+  }
 ]

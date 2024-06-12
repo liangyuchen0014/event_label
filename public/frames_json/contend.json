@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contend.01",
-        "roleset_name": "hold and utter a belief",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity uttering a belief"
-            },
-            {
-                "n": "1",
-                "descr": "contension, belief"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "contend.02",
-        "roleset_name": "deal with, suffer through",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contender"
-            },
-            {
-                "n": "1",
-                "descr": "thing dealt with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contend.01",
+    "roleset_name": "hold and utter a belief",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity uttering a belief",
+        "descr_trans": "代理人，表达信念的实体"
+      },
+      {
+        "n": "1",
+        "descr": "contension, belief",
+        "descr_trans": "争论、信念"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "坚持并说出一个信念"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "contend.02",
+    "roleset_name": "deal with, suffer through",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contender",
+        "descr_trans": "竞争者"
+      },
+      {
+        "n": "1",
+        "descr": "thing dealt with",
+        "descr_trans": "处理的事情"
+      }
+    ],
+    "roleset_name_trans": "处理，经历"
+  }
 ]

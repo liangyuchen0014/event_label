@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "submerge.01",
-        "roleset_name": "plunge under water or fluid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, causer of underwater-ness"
-            },
-            {
-                "n": "1",
-                "descr": "thing being put under water"
-            },
-            {
-                "n": "2",
-                "descr": "location or fluid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "submerge.01",
+    "roleset_name": "plunge under water or fluid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, causer of underwater-ness",
+        "descr_trans": "放置者，水下的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being put under water",
+        "descr_trans": "东西被放入水下"
+      },
+      {
+        "n": "2",
+        "descr": "location or fluid",
+        "descr_trans": "位置或流体"
+      }
+    ],
+    "roleset_name_trans": "浸入水或液体中"
+  }
 ]

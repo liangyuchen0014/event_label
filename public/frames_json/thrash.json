@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrash.01",
-        "roleset_name": "beat up thoroughly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thrash.03",
-        "roleset_name": "move violently and randomly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "thrash_out.02",
-        "roleset_name": "work out, arrange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arranger"
-            },
-            {
-                "n": "1",
-                "descr": "scheme"
-            },
-            {
-                "n": "2",
-                "descr": "collaborator"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrash.01",
+    "roleset_name": "beat up thoroughly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "彻底殴打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thrash.03",
+    "roleset_name": "move violently and randomly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      }
+    ],
+    "roleset_name_trans": "剧烈且随机地移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "thrash_out.02",
+    "roleset_name": "work out, arrange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arranger",
+        "descr_trans": "编曲者"
+      },
+      {
+        "n": "1",
+        "descr": "scheme",
+        "descr_trans": "方案"
+      },
+      {
+        "n": "2",
+        "descr": "collaborator",
+        "descr_trans": "合作者"
+      }
+    ],
+    "roleset_name_trans": "锻炼，安排"
+  }
 ]

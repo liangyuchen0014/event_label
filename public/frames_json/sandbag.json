@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sandbag.01",
-        "roleset_name": "place sandbags",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Bag placer"
-            },
-            {
-                "n": "1",
-                "descr": "specific mention of the bag"
-            },
-            {
-                "n": "2",
-                "descr": "recipient; entity fortified"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sandbag.01",
+    "roleset_name": "place sandbags",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Bag placer",
+        "descr_trans": "袋放置器"
+      },
+      {
+        "n": "1",
+        "descr": "specific mention of the bag",
+        "descr_trans": "特别提及该包"
+      },
+      {
+        "n": "2",
+        "descr": "recipient; entity fortified",
+        "descr_trans": "接受者;实体强化"
+      }
+    ],
+    "roleset_name_trans": "放置沙袋"
+  }
 ]

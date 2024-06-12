@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dorm.01",
-        "roleset_name": "staying in a dorm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first entity staying in a dorm"
-            },
-            {
-                "n": "1",
-                "descr": "roommates"
-            },
-            {
-                "n": "2",
-                "descr": "location, dorm"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dorm.01",
+    "roleset_name": "staying in a dorm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first entity staying in a dorm",
+        "descr_trans": "第一个入住宿舍的实体"
+      },
+      {
+        "n": "1",
+        "descr": "roommates",
+        "descr_trans": "室友"
+      },
+      {
+        "n": "2",
+        "descr": "location, dorm",
+        "descr_trans": "地点、宿舍"
+      }
+    ],
+    "roleset_name_trans": "住在宿舍"
+  }
 ]

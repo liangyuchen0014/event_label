@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "melt.01",
-        "roleset_name": "to change from a solid to a liquid state, melted, in a (hot) liquid state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing melted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "melt_down.02",
-        "roleset_name": "experience (usually emotional) system failure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having a fit"
-            },
-            {
-                "n": "1",
-                "descr": "over what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "melt.01",
+    "roleset_name": "to change from a solid to a liquid state, melted, in a (hot) liquid state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing melted",
+        "descr_trans": "东西融化了"
+      }
+    ],
+    "roleset_name_trans": "从固态转变为液态，熔化，处于（热）液态"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "melt_down.02",
+    "roleset_name": "experience (usually emotional) system failure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having a fit",
+        "descr_trans": "适合的实体"
+      },
+      {
+        "n": "1",
+        "descr": "over what",
+        "descr_trans": "在什么之上"
+      }
+    ],
+    "roleset_name_trans": "经历（通常是情绪化的）系统故障"
+  }
 ]

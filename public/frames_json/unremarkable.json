@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unremarkable.01",
-        "roleset_name": "not worthy of being noted, remarked on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking note"
-            },
-            {
-                "n": "1",
-                "descr": "unremarkable thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unremarkable.02",
-        "roleset_name": "not indicating a particular condition or outcome",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unremarkable entity"
-            },
-            {
-                "n": "2",
-                "descr": "condition or outcome not indicated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unremarkable.01",
+    "roleset_name": "not worthy of being noted, remarked on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking note",
+        "descr_trans": "实体注意到"
+      },
+      {
+        "n": "1",
+        "descr": "unremarkable thing",
+        "descr_trans": "不起眼的事情"
+      }
+    ],
+    "roleset_name_trans": "不值得一提，评论"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unremarkable.02",
+    "roleset_name": "not indicating a particular condition or outcome",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unremarkable entity",
+        "descr_trans": "不起眼的实体"
+      },
+      {
+        "n": "2",
+        "descr": "condition or outcome not indicated",
+        "descr_trans": "未指明条件或结果"
+      }
+    ],
+    "roleset_name_trans": "不表明特定的条件或结果"
+  }
 ]

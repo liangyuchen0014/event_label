@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incident.01",
-        "roleset_name": "disturbance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "problem"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incident.01",
+    "roleset_name": "disturbance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "problem",
+        "descr_trans": "问题"
+      }
+    ],
+    "roleset_name_trans": "骚乱"
+  }
 ]

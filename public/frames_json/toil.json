@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "toil.01",
-        "roleset_name": "work endlessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "job, project"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "toilsome.02",
-        "roleset_name": "difficult, a lot of work",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "toilsome thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "toil.01",
+    "roleset_name": "work endlessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "job, project",
+        "descr_trans": "工作、项目"
+      }
+    ],
+    "roleset_name_trans": "无休止地工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "toilsome.02",
+    "roleset_name": "difficult, a lot of work",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "toilsome thing",
+        "descr_trans": "辛苦的事"
+      }
+    ],
+    "roleset_name_trans": "困难，工作量很大"
+  }
 ]

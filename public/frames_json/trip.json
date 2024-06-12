@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trip.01",
-        "roleset_name": "what circuit breakers do",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of trip, overload"
-            },
-            {
-                "n": "1",
-                "descr": "thing tripped (circuit breaker)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trip.02",
-        "roleset_name": "behave as if under the influence of drugs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity tripping"
-            },
-            {
-                "n": "1",
-                "descr": "mention of 'balls' or other intensifying object"
-            },
-            {
-                "n": "2",
-                "descr": "drug or subject matter stimulus"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trip.03",
-        "roleset_name": "travel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            },
-            {
-                "n": "2",
-                "descr": "source or from where"
-            },
-            {
-                "n": "3",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "trip.04",
-        "roleset_name": "fall",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity stumbling"
-            },
-            {
-                "n": "1",
-                "descr": "tripped over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trip.01",
+    "roleset_name": "what circuit breakers do",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of trip, overload",
+        "descr_trans": "跳闸原因、过载"
+      },
+      {
+        "n": "1",
+        "descr": "thing tripped (circuit breaker)",
+        "descr_trans": "东西跳闸（断路器）"
+      }
+    ],
+    "roleset_name_trans": "断路器有什么作用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trip.02",
+    "roleset_name": "behave as if under the influence of drugs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity tripping",
+        "descr_trans": "实体跳闸"
+      },
+      {
+        "n": "1",
+        "descr": "mention of 'balls' or other intensifying object",
+        "descr_trans": "提及“球”或其他强化物体"
+      },
+      {
+        "n": "2",
+        "descr": "drug or subject matter stimulus",
+        "descr_trans": "药物或主题刺激"
+      }
+    ],
+    "roleset_name_trans": "表现得就像受到药物影响一样"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trip.03",
+    "roleset_name": "travel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "2",
+        "descr": "source or from where",
+        "descr_trans": "来源或来自哪里"
+      },
+      {
+        "n": "3",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "旅行"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "trip.04",
+    "roleset_name": "fall",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity stumbling",
+        "descr_trans": "代理、实体绊倒"
+      },
+      {
+        "n": "1",
+        "descr": "tripped over",
+        "descr_trans": "被绊倒"
+      }
+    ],
+    "roleset_name_trans": "落下"
+  }
 ]

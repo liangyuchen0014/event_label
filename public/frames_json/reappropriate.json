@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reappropriate.01",
-        "roleset_name": "retake possession",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity reclaiming control"
-            },
-            {
-                "n": "1",
-                "descr": "item recovered"
-            },
-            {
-                "n": "2",
-                "descr": "item taken from, entity relinquishing control"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reappropriate.01",
+    "roleset_name": "retake possession",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity reclaiming control",
+        "descr_trans": "实体收回控制权"
+      },
+      {
+        "n": "1",
+        "descr": "item recovered",
+        "descr_trans": "物品已恢复"
+      },
+      {
+        "n": "2",
+        "descr": "item taken from, entity relinquishing control",
+        "descr_trans": "项目取自实体放弃控制权"
+      }
+    ],
+    "roleset_name_trans": "重新夺回占有权"
+  }
 ]

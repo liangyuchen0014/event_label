@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reel.01",
-        "roleset_name": "be astounded",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity which is astounded"
-            },
-            {
-                "n": "2",
-                "descr": "cause of reeling (us. 'from')"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reel.03",
-        "roleset_name": "bring, put somewhere like a fish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Reeler, causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "Fish, thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "Destination, moved where"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "reel_off.02",
-        "roleset_name": "enumerate, announce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, enumerator"
-            },
-            {
-                "n": "1",
-                "descr": "list of things"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reel.01",
+    "roleset_name": "be astounded",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity which is astounded",
+        "descr_trans": "感到震惊的实体"
+      },
+      {
+        "n": "2",
+        "descr": "cause of reeling (us. 'from')",
+        "descr_trans": "卷绕的原因（我们。“来自”）"
+      }
+    ],
+    "roleset_name_trans": "感到震惊"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reel.03",
+    "roleset_name": "bring, put somewhere like a fish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Reeler, causer of motion",
+        "descr_trans": "卷轴器，运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "Fish, thing moved",
+        "descr_trans": "鱼，东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "Destination, moved where",
+        "descr_trans": "目的地，搬到哪里"
+      }
+    ],
+    "roleset_name_trans": "像鱼一样带，放在某个地方"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "reel_off.02",
+    "roleset_name": "enumerate, announce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, enumerator",
+        "descr_trans": "扬声器、枚举器"
+      },
+      {
+        "n": "1",
+        "descr": "list of things",
+        "descr_trans": "事物清单"
+      }
+    ],
+    "roleset_name_trans": "列举、公布"
+  }
 ]

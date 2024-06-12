@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lasik.01",
-        "roleset_name": "surgery that uses lasers to correct eyesight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "undergoer of procedure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lasik.01",
+    "roleset_name": "surgery that uses lasers to correct eyesight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer of procedure",
+        "descr_trans": "程序执行者"
+      },
+      {
+        "n": "1",
+        "descr": "undergoer of procedure",
+        "descr_trans": "程序的接受者"
+      }
+    ],
+    "roleset_name_trans": "使用激光矫正视力的手术"
+  }
 ]

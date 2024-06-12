@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "badmouth.01",
-        "roleset_name": "insult, criticize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "critic, badmouther"
-            },
-            {
-                "n": "1",
-                "descr": "entity being criticized, badmouthed"
-            },
-            {
-                "n": "2",
-                "descr": "arg1 is badmouthed for what? grounds of criticism"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "badmouth.01",
+    "roleset_name": "insult, criticize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "critic, badmouther",
+        "descr_trans": "批评家、坏话者"
+      },
+      {
+        "n": "1",
+        "descr": "entity being criticized, badmouthed",
+        "descr_trans": "实体受到批评、诽谤"
+      },
+      {
+        "n": "2",
+        "descr": "arg1 is badmouthed for what? grounds of criticism",
+        "descr_trans": "arg1 为何被骂？批评理由"
+      }
+    ],
+    "roleset_name_trans": "侮辱、批评"
+  }
 ]

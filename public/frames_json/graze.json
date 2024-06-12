@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "graze.01",
-        "roleset_name": "(allow to) eat grass, or eat steadily in small amounts through the day",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rancher"
-            },
-            {
-                "n": "1",
-                "descr": "cow"
-            },
-            {
-                "n": "2",
-                "descr": "grass, pasture"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "graze.01",
+    "roleset_name": "(allow to) eat grass, or eat steadily in small amounts through the day",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rancher",
+        "descr_trans": "牧场主"
+      },
+      {
+        "n": "1",
+        "descr": "cow",
+        "descr_trans": "奶牛"
+      },
+      {
+        "n": "2",
+        "descr": "grass, pasture",
+        "descr_trans": "草、牧场"
+      }
+    ],
+    "roleset_name_trans": "（允许）吃草，或全天少量稳定地进食"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bin.01",
-        "roleset_name": "to store in a bin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storer"
-            },
-            {
-                "n": "1",
-                "descr": "thing stored"
-            },
-            {
-                "n": "2",
-                "descr": "bin, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bin.01",
+    "roleset_name": "to store in a bin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storer",
+        "descr_trans": "更大"
+      },
+      {
+        "n": "1",
+        "descr": "thing stored",
+        "descr_trans": "存储的东西"
+      },
+      {
+        "n": "2",
+        "descr": "bin, location",
+        "descr_trans": "垃圾箱，位置"
+      }
+    ],
+    "roleset_name_trans": "存放在垃圾箱中"
+  }
 ]

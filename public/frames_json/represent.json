@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "represent.01",
-        "roleset_name": "stand for, correspond, signify, being a representative",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity standing in for another entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity stood in for"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which arg0 stands for arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "representation.02",
-        "roleset_name": "presentation, depiction, characterization",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, characterizer"
-            },
-            {
-                "n": "1",
-                "descr": "entity characterized"
-            },
-            {
-                "n": "2",
-                "descr": "characterized as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "represent.01",
+    "roleset_name": "stand for, correspond, signify, being a representative",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity standing in for another entity",
+        "descr_trans": "实体代表另一个实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity stood in for",
+        "descr_trans": "实体代表"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which arg0 stands for arg1",
+        "descr_trans": "arg0 代表 arg1 的域"
+      }
+    ],
+    "roleset_name_trans": "代表、对应、表示、成为代表"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "representation.02",
+    "roleset_name": "presentation, depiction, characterization",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, characterizer",
+        "descr_trans": "代理人，表征者"
+      },
+      {
+        "n": "1",
+        "descr": "entity characterized",
+        "descr_trans": "实体特征"
+      },
+      {
+        "n": "2",
+        "descr": "characterized as what",
+        "descr_trans": "表征为什么"
+      }
+    ],
+    "roleset_name_trans": "表现、描述、特征描述"
+  }
 ]

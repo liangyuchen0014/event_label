@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "occupy.01",
-        "roleset_name": "be in a certain place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "occupier"
-            },
-            {
-                "n": "1",
-                "descr": "occupied"
-            },
-            {
-                "n": "2",
-                "descr": "occupying activity (doing what)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "occupy.01",
+    "roleset_name": "be in a certain place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "occupier",
+        "descr_trans": "占领者"
+      },
+      {
+        "n": "1",
+        "descr": "occupied",
+        "descr_trans": "占据"
+      },
+      {
+        "n": "2",
+        "descr": "occupying activity (doing what)",
+        "descr_trans": "占用活动（做什么）"
+      }
+    ],
+    "roleset_name_trans": "在某个地方"
+  }
 ]

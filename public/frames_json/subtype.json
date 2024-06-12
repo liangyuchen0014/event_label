@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subtype.01",
-        "roleset_name": "categorize as a subtype",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "categorizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing categorized"
-            },
-            {
-                "n": "2",
-                "descr": "the subtype"
-            },
-            {
-                "n": "3",
-                "descr": "the broader category"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subtype.01",
+    "roleset_name": "categorize as a subtype",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "categorizer",
+        "descr_trans": "分类器"
+      },
+      {
+        "n": "1",
+        "descr": "thing categorized",
+        "descr_trans": "事物分类"
+      },
+      {
+        "n": "2",
+        "descr": "the subtype",
+        "descr_trans": "亚型"
+      },
+      {
+        "n": "3",
+        "descr": "the broader category",
+        "descr_trans": "更广泛的类别"
+      }
+    ],
+    "roleset_name_trans": "归类为子类型"
+  }
 ]

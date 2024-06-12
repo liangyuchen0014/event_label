@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "symptomatic.01",
-        "roleset_name": "presenting signs of, indicating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity showing symptoms"
-            },
-            {
-                "n": "1",
-                "descr": "symptoms of what"
-            },
-            {
-                "n": "2",
-                "descr": "the symptoms themselves"
-            },
-            {
-                "n": "3",
-                "descr": "topic (symptoms are relevant to what, typically a body part)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "symptomatic.01",
+    "roleset_name": "presenting signs of, indicating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity showing symptoms",
+        "descr_trans": "表现出症状的实体"
+      },
+      {
+        "n": "1",
+        "descr": "symptoms of what",
+        "descr_trans": "什么症状"
+      },
+      {
+        "n": "2",
+        "descr": "the symptoms themselves",
+        "descr_trans": "症状本身"
+      },
+      {
+        "n": "3",
+        "descr": "topic (symptoms are relevant to what, typically a body part)",
+        "descr_trans": "主题（症状与什么相关，通常是身体部位）"
+      }
+    ],
+    "roleset_name_trans": "呈现出迹象，表明"
+  }
 ]

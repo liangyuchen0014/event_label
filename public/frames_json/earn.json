@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "earn.01",
-        "roleset_name": "wages",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "earner"
-            },
-            {
-                "n": "1",
-                "descr": "wages"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "earn.01",
+    "roleset_name": "wages",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "earner",
+        "descr_trans": "赚钱者"
+      },
+      {
+        "n": "1",
+        "descr": "wages",
+        "descr_trans": "工资"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "工资"
+  }
 ]

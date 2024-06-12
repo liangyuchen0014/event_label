@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repack.01",
-        "roleset_name": "pack again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer"
-            },
-            {
-                "n": "1",
-                "descr": "contents"
-            },
-            {
-                "n": "2",
-                "descr": "container"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repack.01",
+    "roleset_name": "pack again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer",
+        "descr_trans": "包装工"
+      },
+      {
+        "n": "1",
+        "descr": "contents",
+        "descr_trans": "内容"
+      },
+      {
+        "n": "2",
+        "descr": "container",
+        "descr_trans": "容器"
+      }
+    ],
+    "roleset_name_trans": "再次打包"
+  }
 ]

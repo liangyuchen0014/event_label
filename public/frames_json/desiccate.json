@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "desiccate.01",
-        "roleset_name": "(cause to) become dried out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "entity dried"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "desiccate.01",
+    "roleset_name": "(cause to) become dried out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity dried",
+        "descr_trans": "实体干燥"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得干燥"
+  }
 ]

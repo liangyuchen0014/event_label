@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "imagine.01",
-        "roleset_name": "conceptualize, create in mental space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "imagined thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "imaginable.02",
-        "roleset_name": "able to be imagined",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "imaginer"
-            },
-            {
-                "n": "1",
-                "descr": "imaginable"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "imagine.01",
+    "roleset_name": "conceptualize, create in mental space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "imagined thing",
+        "descr_trans": "想象的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "在心理空间中构思、创造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "imaginable.02",
+    "roleset_name": "able to be imagined",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "imaginer",
+        "descr_trans": "想象"
+      },
+      {
+        "n": "1",
+        "descr": "imaginable",
+        "descr_trans": "可以想象的"
+      }
+    ],
+    "roleset_name_trans": "可以想象"
+  }
 ]

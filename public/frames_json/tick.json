@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tick.01",
-        "roleset_name": "make sounds like a clock",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ticker"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tick.04",
-        "roleset_name": "move position on a scale",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of scale change"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing position"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tick.05",
-        "roleset_name": "mark (with a tick mark)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing marked (destination)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tick_off.02",
-        "roleset_name": "make angry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of anger"
-            },
-            {
-                "n": "1",
-                "descr": "angry entity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "tick_off.03",
-        "roleset_name": "enumerate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) counted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tick.01",
+    "roleset_name": "make sounds like a clock",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ticker",
+        "descr_trans": "股票行情"
+      }
+    ],
+    "roleset_name_trans": "发出像时钟一样的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tick.04",
+    "roleset_name": "move position on a scale",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of scale change",
+        "descr_trans": "规模变化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing position",
+        "descr_trans": "事物改变位置"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "在秤上移动位置"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tick.05",
+    "roleset_name": "mark (with a tick mark)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing marked (destination)",
+        "descr_trans": "标记的东西（目的地）"
+      }
+    ],
+    "roleset_name_trans": "标记（带有勾号）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tick_off.02",
+    "roleset_name": "make angry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of anger",
+        "descr_trans": "愤怒的原因"
+      },
+      {
+        "n": "1",
+        "descr": "angry entity",
+        "descr_trans": "愤怒的实体"
+      }
+    ],
+    "roleset_name_trans": "使人生气"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "tick_off.03",
+    "roleset_name": "enumerate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter, agent",
+        "descr_trans": "专柜代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) counted",
+        "descr_trans": "已计算的事物"
+      }
+    ],
+    "roleset_name_trans": "枚举"
+  }
 ]

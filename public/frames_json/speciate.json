@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "speciate.01",
-        "roleset_name": "develop into a new species",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity evolving"
-            },
-            {
-                "n": "2",
-                "descr": "evolved into; end state"
-            },
-            {
-                "n": "3",
-                "descr": "evolved from; start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "speciate.01",
+    "roleset_name": "develop into a new species",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity evolving",
+        "descr_trans": "实体进化"
+      },
+      {
+        "n": "2",
+        "descr": "evolved into; end state",
+        "descr_trans": "演变成；结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "evolved from; start state",
+        "descr_trans": "演变自；开始状态"
+      }
+    ],
+    "roleset_name_trans": "发展成新物种"
+  }
 ]

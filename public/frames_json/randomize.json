@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "randomize.01",
-        "roleset_name": "to make random or arrange randomly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, arranger"
-            },
-            {
-                "n": "1",
-                "descr": "Thing arranged"
-            },
-            {
-                "n": "2",
-                "descr": "Arranged for/ Assigned to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "random.02",
-        "roleset_name": "in an unpatterned order; selected by chance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "random entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "randomize.01",
+    "roleset_name": "to make random or arrange randomly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, arranger",
+        "descr_trans": "经纪人、安排人"
+      },
+      {
+        "n": "1",
+        "descr": "Thing arranged",
+        "descr_trans": "事情安排好了"
+      },
+      {
+        "n": "2",
+        "descr": "Arranged for/ Assigned to",
+        "descr_trans": "安排/分配给"
+      }
+    ],
+    "roleset_name_trans": "随机制作或随机排列"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "random.02",
+    "roleset_name": "in an unpatterned order; selected by chance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "random entity",
+        "descr_trans": "随机实体"
+      }
+    ],
+    "roleset_name_trans": "以无图案的顺序；偶然选择的"
+  }
 ]

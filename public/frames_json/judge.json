@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "judge.01",
-        "roleset_name": "make a judgement, judge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge"
-            },
-            {
-                "n": "1",
-                "descr": "judged"
-            },
-            {
-                "n": "2",
-                "descr": "judgement, attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "on what grounds"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "judge.01",
+    "roleset_name": "make a judgement, judge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge",
+        "descr_trans": "法官"
+      },
+      {
+        "n": "1",
+        "descr": "judged",
+        "descr_trans": "判断的"
+      },
+      {
+        "n": "2",
+        "descr": "judgement, attribute of arg1",
+        "descr_trans": "判断，arg1的属性"
+      },
+      {
+        "n": "3",
+        "descr": "on what grounds",
+        "descr_trans": "依据什么理由"
+      }
+    ],
+    "roleset_name_trans": "做出判断，判断"
+  }
 ]

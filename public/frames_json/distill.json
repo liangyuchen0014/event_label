@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "distill.01",
-        "roleset_name": "remove impurities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover of impurities, agent"
-            },
-            {
-                "n": "1",
-                "descr": "impurities"
-            },
-            {
-                "n": "2",
-                "descr": "source, pure substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "distill.01",
+    "roleset_name": "remove impurities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover of impurities, agent",
+        "descr_trans": "杂质去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "impurities",
+        "descr_trans": "杂质"
+      },
+      {
+        "n": "2",
+        "descr": "source, pure substance",
+        "descr_trans": "来源，纯物质"
+      }
+    ],
+    "roleset_name_trans": "去除杂质"
+  }
 ]

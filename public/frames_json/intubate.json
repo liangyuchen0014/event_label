@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intubate.01",
-        "roleset_name": "insert a tube in, having a tube inserted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity being intubated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intubate.01",
+    "roleset_name": "insert a tube in, having a tube inserted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor, agent",
+        "descr_trans": "医生、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity being intubated",
+        "descr_trans": "患者，正在插管的实体"
+      }
+    ],
+    "roleset_name_trans": "插入管子，已插入管子"
+  }
 ]

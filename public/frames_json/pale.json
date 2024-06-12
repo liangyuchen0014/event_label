@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pale.01",
-        "roleset_name": "become pale, light in color (perhaps unhealthily so)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity becoming pale"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pale.02",
-        "roleset_name": "seem weak by comparison",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming pale, weak"
-            },
-            {
-                "n": "2",
-                "descr": "in comparison to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pale.03",
-        "roleset_name": "be characterized as light in color (perhaps unhealthily so), pallid, feeble",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity described as pale"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is pale"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pale.01",
+    "roleset_name": "become pale, light in color (perhaps unhealthily so)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity becoming pale",
+        "descr_trans": "实体变得苍白"
+      }
+    ],
+    "roleset_name_trans": "变得苍白、颜色浅（也许不健康）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pale.02",
+    "roleset_name": "seem weak by comparison",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming pale, weak",
+        "descr_trans": "看起来苍白、虚弱的东西"
+      },
+      {
+        "n": "2",
+        "descr": "in comparison to",
+        "descr_trans": "相比于"
+      }
+    ],
+    "roleset_name_trans": "相比之下显得较弱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pale.03",
+    "roleset_name": "be characterized as light in color (perhaps unhealthily so), pallid, feeble",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity described as pale",
+        "descr_trans": "实体被描述为苍白"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is pale",
+        "descr_trans": "arg1 的特定方面是苍白的"
+      }
+    ],
+    "roleset_name_trans": "被描述为颜色浅（也许不健康）、苍白、虚弱"
+  }
 ]

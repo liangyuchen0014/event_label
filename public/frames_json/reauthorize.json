@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reauthorize.01",
-        "roleset_name": "allow again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "action allowed"
-            },
-            {
-                "n": "2",
-                "descr": "explicit allowed agent, when separate constituent"
-            },
-            {
-                "n": "3",
-                "descr": "purpose, authorized for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reauthorize.01",
+    "roleset_name": "allow again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "action allowed",
+        "descr_trans": "允许采取行动"
+      },
+      {
+        "n": "2",
+        "descr": "explicit allowed agent, when separate constituent",
+        "descr_trans": "明确允许的代理人，当单独的组成部分"
+      },
+      {
+        "n": "3",
+        "descr": "purpose, authorized for what?",
+        "descr_trans": "目的、授权的目的是什么？"
+      }
+    ],
+    "roleset_name_trans": "再次允许"
+  }
 ]

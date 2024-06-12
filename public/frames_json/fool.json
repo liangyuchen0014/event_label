@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fool.01",
-        "roleset_name": "to deceive or trick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trickster, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity deceived"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fool_around.02",
-        "roleset_name": "to engage in idle or frivolous activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity fooling around"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fool.01",
+    "roleset_name": "to deceive or trick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trickster, agent",
+        "descr_trans": "骗子、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity deceived",
+        "descr_trans": "实体受骗"
+      }
+    ],
+    "roleset_name_trans": "欺骗或欺骗"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fool_around.02",
+    "roleset_name": "to engage in idle or frivolous activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity fooling around",
+        "descr_trans": "实体鬼混"
+      }
+    ],
+    "roleset_name_trans": "从事闲散或无聊的活动"
+  }
 ]

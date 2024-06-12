@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tile.01",
-        "roleset_name": "cover a surface in tiles",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "location tiled"
-            },
-            {
-                "n": "2",
-                "descr": "material, stuff tiled with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tile.01",
+    "roleset_name": "cover a surface in tiles",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "location tiled",
+        "descr_trans": "位置平铺"
+      },
+      {
+        "n": "2",
+        "descr": "material, stuff tiled with",
+        "descr_trans": "材料，铺有瓷砖的东西"
+      }
+    ],
+    "roleset_name_trans": "用瓷砖覆盖表面"
+  }
 ]

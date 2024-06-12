@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unfix.01",
-        "roleset_name": "unfix",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unfixing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unfixed, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unfixed from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unfix.01",
+    "roleset_name": "unfix",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unfixing, agent",
+        "descr_trans": "实体解除、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unfixed, patient",
+        "descr_trans": "事情未解决，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unfixed from, source",
+        "descr_trans": "未修复，来源"
+      }
+    ],
+    "roleset_name_trans": "拔去"
+  }
 ]

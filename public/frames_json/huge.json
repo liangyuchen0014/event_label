@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "huge.01",
-        "roleset_name": "generally large",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "huge thing"
-            },
-            {
-                "n": "2",
-                "descr": "huge with what contents"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            },
-            {
-                "n": "4",
-                "descr": "scale; big for what"
-            },
-            {
-                "n": "5",
-                "descr": "domain, dimension measured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "huge.02",
-        "roleset_name": "very popular, important",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "popular entity"
-            },
-            {
-                "n": "2",
-                "descr": "group holding arg1 as important"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "huge.01",
+    "roleset_name": "generally large",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "huge thing",
+        "descr_trans": "巨大的东西"
+      },
+      {
+        "n": "2",
+        "descr": "huge with what contents",
+        "descr_trans": "内容巨大"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      },
+      {
+        "n": "4",
+        "descr": "scale; big for what",
+        "descr_trans": "规模;为了什么而大"
+      },
+      {
+        "n": "5",
+        "descr": "domain, dimension measured",
+        "descr_trans": "域、测量维度"
+      }
+    ],
+    "roleset_name_trans": "一般大"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "huge.02",
+    "roleset_name": "very popular, important",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "popular entity",
+        "descr_trans": "受欢迎的实体"
+      },
+      {
+        "n": "2",
+        "descr": "group holding arg1 as important",
+        "descr_trans": "持有 arg1 的组同样重要"
+      }
+    ],
+    "roleset_name_trans": "很受欢迎，很重要"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recur.01",
-        "roleset_name": "occur over again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "event"
-            },
-            {
-                "n": "1",
-                "descr": "count of recurrences"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recur.01",
+    "roleset_name": "occur over again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "event",
+        "descr_trans": "事件"
+      },
+      {
+        "n": "1",
+        "descr": "count of recurrences",
+        "descr_trans": "重复次数"
+      }
+    ],
+    "roleset_name_trans": "再次发生"
+  }
 ]

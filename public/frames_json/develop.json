@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "develop.01",
-        "roleset_name": "come about, arise",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
-            },
-            {
-                "n": "2",
-                "descr": "theme, thing that develops"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "develop.02",
-        "roleset_name": "create, having been intentionally grown, built up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "attribute, secondary predication"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of arg1 being developed, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "develop.01",
+    "roleset_name": "come about, arise",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it",
+        "descr_trans": "事物发展的位置，或者最初存在的事物随着新元素的发展而经历某种变化的地方"
+      },
+      {
+        "n": "2",
+        "descr": "theme, thing that develops",
+        "descr_trans": "主题，发展的事物"
+      }
+    ],
+    "roleset_name_trans": "出现，出现"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "develop.02",
+    "roleset_name": "create, having been intentionally grown, built up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "attribute, secondary predication",
+        "descr_trans": "属性，辅助预测"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of arg1 being developed, if in addition to arg1",
+        "descr_trans": "正在开发的 arg1 的特定方面（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "创造、有意地成长、建立"
+  }
 ]

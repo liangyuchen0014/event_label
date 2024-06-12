@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ratify.01",
-        "roleset_name": "to approve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "approver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity ratified"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ratify.01",
+    "roleset_name": "to approve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "approver, agent",
+        "descr_trans": "审批人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity ratified",
+        "descr_trans": "实体批准"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "审批"
+  }
 ]

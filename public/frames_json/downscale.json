@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "downscale.01",
-        "roleset_name": "scale down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing change in size"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming smaller"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount changed by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "downscale.01",
+    "roleset_name": "scale down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing change in size",
+        "descr_trans": "代理，导致尺寸变化的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming smaller",
+        "descr_trans": "东西变小"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount changed by",
+        "descr_trans": "EXT，更改金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "缩小"
+  }
 ]

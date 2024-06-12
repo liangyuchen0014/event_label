@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "influx.01",
-        "roleset_name": "flowing in",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing flowing in"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "influx.01",
+    "roleset_name": "flowing in",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing flowing in",
+        "descr_trans": "流入的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "流入"
+  }
 ]

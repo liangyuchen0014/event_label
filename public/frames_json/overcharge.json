@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overcharge.01",
-        "roleset_name": "ask too much (price)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "asking price"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overcharge.01",
+    "roleset_name": "ask too much (price)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "asking price",
+        "descr_trans": "询问价格"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "要求太多（价格）"
+  }
 ]

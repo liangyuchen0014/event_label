@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "acquit.01",
-        "roleset_name": "relieve of guilt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover of guilt"
-            },
-            {
-                "n": "1",
-                "descr": "(un)guilty party"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of guilt"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "acquit.01",
+    "roleset_name": "relieve of guilt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover of guilt",
+        "descr_trans": "消除愧疚感"
+      },
+      {
+        "n": "1",
+        "descr": "(un)guilty party",
+        "descr_trans": "（非）有罪方"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of guilt",
+        "descr_trans": "明确提及内疚"
+      }
+    ],
+    "roleset_name_trans": "减轻负罪感"
+  }
 ]

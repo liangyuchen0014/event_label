@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spiral.01",
-        "roleset_name": "move (or be) in spiral direction/configuration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "spiral-shaped path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spiral.01",
+    "roleset_name": "move (or be) in spiral direction/configuration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "spiral-shaped path",
+        "descr_trans": "螺旋形路径"
+      }
+    ],
+    "roleset_name_trans": "沿螺旋方向/配置移动（或处于）"
+  }
 ]

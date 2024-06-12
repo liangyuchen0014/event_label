@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shop.01",
-        "roleset_name": "look for something to buy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shopper"
-            },
-            {
-                "n": "1",
-                "descr": "thing sought"
-            },
-            {
-                "n": "2",
-                "descr": "store/seller"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shop.02",
-        "roleset_name": "try to sell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller"
-            },
-            {
-                "n": "1",
-                "descr": "Thing Sold"
-            },
-            {
-                "n": "2",
-                "descr": "Buyer"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shop.01",
+    "roleset_name": "look for something to buy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shopper",
+        "descr_trans": "购物者"
+      },
+      {
+        "n": "1",
+        "descr": "thing sought",
+        "descr_trans": "寻求的东西"
+      },
+      {
+        "n": "2",
+        "descr": "store/seller",
+        "descr_trans": "商店/卖家"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "寻找要买的东西"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shop.02",
+    "roleset_name": "try to sell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "Thing Sold",
+        "descr_trans": "出售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "尝试出售"
+  }
 ]

@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "count.01",
-        "roleset_name": "enumerate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter"
-            },
-            {
-                "n": "1",
-                "descr": "thing counted"
-            },
-            {
-                "n": "2",
-                "descr": "Count itself (measure, amount, extent)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "count.02",
-        "roleset_name": "include",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some grouping"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "count.03",
-        "roleset_name": "rely, depend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "depender"
-            },
-            {
-                "n": "1",
-                "descr": "depended on"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "count.04",
-        "roleset_name": "matter",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "important thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "count.01",
+    "roleset_name": "enumerate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter",
+        "descr_trans": "柜台"
+      },
+      {
+        "n": "1",
+        "descr": "thing counted",
+        "descr_trans": "重要的事情"
+      },
+      {
+        "n": "2",
+        "descr": "Count itself (measure, amount, extent)",
+        "descr_trans": "计数本身（度量、数量、范围）"
+      }
+    ],
+    "roleset_name_trans": "枚举"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "count.02",
+    "roleset_name": "include",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some grouping",
+        "descr_trans": "代理，导致某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being included in some group",
+        "descr_trans": "主题，包含在某个组中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "group",
+        "descr_trans": "团体"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "count.03",
+    "roleset_name": "rely, depend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "depender",
+        "descr_trans": "依赖"
+      },
+      {
+        "n": "1",
+        "descr": "depended on",
+        "descr_trans": "依赖于"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "依靠，依靠"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "count.04",
+    "roleset_name": "matter",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "important thing",
+        "descr_trans": "重要的事情"
+      }
+    ],
+    "roleset_name_trans": "事情"
+  }
 ]

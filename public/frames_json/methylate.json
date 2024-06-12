@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "methylate.01",
-        "roleset_name": "addition of a methyl group to an atom or group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of methylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "entity methylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (e.g. enzyme)"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state of modification"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "methylate.01",
+    "roleset_name": "addition of a methyl group to an atom or group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of methylation (e.g. scientist)",
+        "descr_trans": "甲基化的媒介/原因（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "entity methylated",
+        "descr_trans": "实体甲基化"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (e.g. enzyme)",
+        "descr_trans": "仪器（例如酶）"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state of modification",
+        "descr_trans": "修改的结果状态"
+      }
+    ],
+    "roleset_name_trans": "将甲基加成到原子或基团上"
+  }
 ]

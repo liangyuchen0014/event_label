@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "egg.01",
-        "roleset_name": "throw eggs at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "egg thrower"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            },
-            {
-                "n": "2",
-                "descr": "the eggs"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "egg_on.02",
-        "roleset_name": "urge, coax (phrasal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "urger"
-            },
-            {
-                "n": "1",
-                "descr": "entity urged"
-            },
-            {
-                "n": "2",
-                "descr": "secondary action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "egg.01",
+    "roleset_name": "throw eggs at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "egg thrower",
+        "descr_trans": "扔蛋者"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "the eggs",
+        "descr_trans": "鸡蛋"
+      }
+    ],
+    "roleset_name_trans": "扔鸡蛋"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "egg_on.02",
+    "roleset_name": "urge, coax (phrasal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "urger",
+        "descr_trans": "催促"
+      },
+      {
+        "n": "1",
+        "descr": "entity urged",
+        "descr_trans": "敦促实体"
+      },
+      {
+        "n": "2",
+        "descr": "secondary action",
+        "descr_trans": "次要行动"
+      }
+    ],
+    "roleset_name_trans": "催促，哄骗（短语）"
+  }
 ]

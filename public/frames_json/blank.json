@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blank.01",
-        "roleset_name": "intentially ignore social interaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional ignorer"
-            },
-            {
-                "n": "1",
-                "descr": "ignored"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blank.02",
-        "roleset_name": "empty, unfilled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of blankness"
-            },
-            {
-                "n": "1",
-                "descr": "blank entity"
-            },
-            {
-                "n": "2",
-                "descr": "what isn't there"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "blanking.03",
-        "roleset_name": "making void or erasing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Blanker"
-            },
-            {
-                "n": "1",
-                "descr": "Entity made blank, forgotten, ignored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blank.01",
+    "roleset_name": "intentially ignore social interaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional ignorer",
+        "descr_trans": "故意忽视"
+      },
+      {
+        "n": "1",
+        "descr": "ignored",
+        "descr_trans": "被忽略"
+      }
+    ],
+    "roleset_name_trans": "故意忽视社交互动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blank.02",
+    "roleset_name": "empty, unfilled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of blankness",
+        "descr_trans": "造成空白的原因"
+      },
+      {
+        "n": "1",
+        "descr": "blank entity",
+        "descr_trans": "空白实体"
+      },
+      {
+        "n": "2",
+        "descr": "what isn't there",
+        "descr_trans": "那里没有什么"
+      }
+    ],
+    "roleset_name_trans": "空的，未填满的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "blanking.03",
+    "roleset_name": "making void or erasing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Blanker",
+        "descr_trans": "布兰克"
+      },
+      {
+        "n": "1",
+        "descr": "Entity made blank, forgotten, ignored",
+        "descr_trans": "实体变得空白、被遗忘、被忽视"
+      }
+    ],
+    "roleset_name_trans": "使无效或擦除"
+  }
 ]

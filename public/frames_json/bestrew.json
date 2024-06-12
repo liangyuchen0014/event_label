@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bestrew.01",
-        "roleset_name": "to cover, scatter about a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scatterer"
-            },
-            {
-                "n": "1",
-                "descr": "surface bestrewn with something"
-            },
-            {
-                "n": "2",
-                "descr": "thing scattered, bestrewn on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bestrew.01",
+    "roleset_name": "to cover, scatter about a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scatterer",
+        "descr_trans": "散射体"
+      },
+      {
+        "n": "1",
+        "descr": "surface bestrewn with something",
+        "descr_trans": "表面布满东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing scattered, bestrewn on arg1",
+        "descr_trans": "东西散落在 arg1 上"
+      }
+    ],
+    "roleset_name_trans": "覆盖、散布在表面上"
+  }
 ]

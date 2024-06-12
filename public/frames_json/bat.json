@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bat.01",
-        "roleset_name": "move in a swinging or fluttering motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "batter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "eye(s)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bat.02",
-        "roleset_name": "play baseball, earn stat in baseball",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "batter"
-            },
-            {
-                "n": "1",
-                "descr": "ball or pitch hit"
-            },
-            {
-                "n": "2",
-                "descr": "position of batter in order, role of batter"
-            },
-            {
-                "n": "3",
-                "descr": "result, stats over many batting attempts"
-            },
-            {
-                "n": "4",
-                "descr": "team or employer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bat_in.03",
-        "roleset_name": "bring in runs by hitting a baseball",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "batter"
-            },
-            {
-                "n": "1",
-                "descr": "runs"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bat.01",
+    "roleset_name": "move in a swinging or fluttering motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "batter, agent",
+        "descr_trans": "面糊、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "eye(s)",
+        "descr_trans": "眼睛"
+      }
+    ],
+    "roleset_name_trans": "以摆动或扑动的方式移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bat.02",
+    "roleset_name": "play baseball, earn stat in baseball",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "batter",
+        "descr_trans": "面糊"
+      },
+      {
+        "n": "1",
+        "descr": "ball or pitch hit",
+        "descr_trans": "球或投球击中"
+      },
+      {
+        "n": "2",
+        "descr": "position of batter in order, role of batter",
+        "descr_trans": "击球手的顺序、击球手的作用"
+      },
+      {
+        "n": "3",
+        "descr": "result, stats over many batting attempts",
+        "descr_trans": "结果，多次击球尝试的统计数据"
+      },
+      {
+        "n": "4",
+        "descr": "team or employer",
+        "descr_trans": "团队或雇主"
+      }
+    ],
+    "roleset_name_trans": "打棒球，获得棒球统计数据"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bat_in.03",
+    "roleset_name": "bring in runs by hitting a baseball",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "batter",
+        "descr_trans": "面糊"
+      },
+      {
+        "n": "1",
+        "descr": "runs",
+        "descr_trans": "运行"
+      }
+    ],
+    "roleset_name_trans": "通过击打棒球来获得跑动"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outsource.01",
-        "roleset_name": "contract work to an outside entity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity contracting work out"
-            },
-            {
-                "n": "1",
-                "descr": "work"
-            },
-            {
-                "n": "2",
-                "descr": "outsourced to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outsource.01",
+    "roleset_name": "contract work to an outside entity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity contracting work out",
+        "descr_trans": "实体承包工作"
+      },
+      {
+        "n": "1",
+        "descr": "work",
+        "descr_trans": "工作"
+      },
+      {
+        "n": "2",
+        "descr": "outsourced to",
+        "descr_trans": "外包给"
+      }
+    ],
+    "roleset_name_trans": "将工作外包给外部实体"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reconvene.01",
-        "roleset_name": "call a meeting again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity calling the meeting"
-            },
-            {
-                "n": "1",
-                "descr": "theme, the meeting itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reconvene.01",
+    "roleset_name": "call a meeting again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity calling the meeting",
+        "descr_trans": "代理人、召集会议的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, the meeting itself",
+        "descr_trans": "主题、会议本身"
+      }
+    ],
+    "roleset_name_trans": "再次召开会议"
+  }
 ]

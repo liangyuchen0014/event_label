@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "champion.01",
-        "roleset_name": "lend aid, credence to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helper"
-            },
-            {
-                "n": "1",
-                "descr": "person or project being supported"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "championship.02",
-        "roleset_name": "winning over an opponent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "champion/winner"
-            },
-            {
-                "n": "1",
-                "descr": "topic of contest"
-            },
-            {
-                "n": "2",
-                "descr": "loser(s)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "champion.01",
+    "roleset_name": "lend aid, credence to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helper",
+        "descr_trans": "帮手"
+      },
+      {
+        "n": "1",
+        "descr": "person or project being supported",
+        "descr_trans": "受支持的人或项目"
+      }
+    ],
+    "roleset_name_trans": "提供援助，信任"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "championship.02",
+    "roleset_name": "winning over an opponent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "champion/winner",
+        "descr_trans": "冠军/优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "topic of contest",
+        "descr_trans": "竞赛主题"
+      },
+      {
+        "n": "2",
+        "descr": "loser(s)",
+        "descr_trans": "失败者"
+      }
+    ],
+    "roleset_name_trans": "战胜对手"
+  }
 ]

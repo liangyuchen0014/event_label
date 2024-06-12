@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aphasic.01",
-        "roleset_name": "be affected by aphasia",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing or aspect affected by aphasic (Ie speech)"
-            },
-            {
-                "n": "2",
-                "descr": "aphasia sufferer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aphasic.01",
+    "roleset_name": "be affected by aphasia",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing or aspect affected by aphasic (Ie speech)",
+        "descr_trans": "受失语症影响的事物或方面（即言语）"
+      },
+      {
+        "n": "2",
+        "descr": "aphasia sufferer",
+        "descr_trans": "失语症患者"
+      }
+    ],
+    "roleset_name_trans": "受到失语症的影响"
+  }
 ]

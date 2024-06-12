@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handwrite.01",
-        "roleset_name": "write by hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handwrite.01",
+    "roleset_name": "write by hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "手写"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fault.01",
-        "roleset_name": "assign culpability",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blamer"
-            },
-            {
-                "n": "1",
-                "descr": "entity blamed"
-            },
-            {
-                "n": "2",
-                "descr": "blamed for what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fault.02",
-        "roleset_name": "functioning improperly, flawed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "flawed thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is flawed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fault.01",
+    "roleset_name": "assign culpability",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blamer",
+        "descr_trans": "责怪"
+      },
+      {
+        "n": "1",
+        "descr": "entity blamed",
+        "descr_trans": "受到指责的实体"
+      },
+      {
+        "n": "2",
+        "descr": "blamed for what?",
+        "descr_trans": "因什么而受到指责？"
+      }
+    ],
+    "roleset_name_trans": "追究责任"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fault.02",
+    "roleset_name": "functioning improperly, flawed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "flawed thing",
+        "descr_trans": "有缺陷的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is flawed",
+        "descr_trans": "arg1 有缺陷的特定方面"
+      }
+    ],
+    "roleset_name_trans": "功能不正常、有缺陷"
+  }
 ]

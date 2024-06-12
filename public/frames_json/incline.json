@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incline.01",
-        "roleset_name": "want to, (cause to be) tending towards, prone to,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity feeling inclined; wanter"
-            },
-            {
-                "n": "1",
-                "descr": "toward what; specific thing wanted"
-            },
-            {
-                "n": "2",
-                "descr": "domain of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inclined.02",
-        "roleset_name": "angled, at a slope",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing at an angle"
-            },
-            {
-                "n": "2",
-                "descr": "angle measurment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incline.01",
+    "roleset_name": "want to, (cause to be) tending towards, prone to,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity feeling inclined; wanter",
+        "descr_trans": "实体感觉倾向；想要者"
+      },
+      {
+        "n": "1",
+        "descr": "toward what; specific thing wanted",
+        "descr_trans": "朝向什么；想要具体的东西"
+      },
+      {
+        "n": "2",
+        "descr": "domain of arg1",
+        "descr_trans": "arg1 的域"
+      }
+    ],
+    "roleset_name_trans": "想要、（导致）倾向于、倾向于、"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inclined.02",
+    "roleset_name": "angled, at a slope",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing at an angle",
+        "descr_trans": "有角度的东西"
+      },
+      {
+        "n": "2",
+        "descr": "angle measurment",
+        "descr_trans": "角度测量"
+      }
+    ],
+    "roleset_name_trans": "有角度的，有斜坡的"
+  }
 ]

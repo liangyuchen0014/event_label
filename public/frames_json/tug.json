@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tug.01",
-        "roleset_name": "carry by tugging",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dragger"
-            },
-            {
-                "n": "1",
-                "descr": "thing dragged"
-            },
-            {
-                "n": "2",
-                "descr": "direction, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tug.02",
-        "roleset_name": "pull (on)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller"
-            },
-            {
-                "n": "1",
-                "descr": "thing pulled"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tug.03",
-        "roleset_name": "pull with end result",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "puller, tugger"
-            },
-            {
-                "n": "1",
-                "descr": "thing tugged"
-            },
-            {
-                "n": "2",
-                "descr": "other thing tugged or secondary attribute, result of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tug.01",
+    "roleset_name": "carry by tugging",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dragger",
+        "descr_trans": "拖拉机"
+      },
+      {
+        "n": "1",
+        "descr": "thing dragged",
+        "descr_trans": "拖着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "direction, destination",
+        "descr_trans": "方向、目的地"
+      }
+    ],
+    "roleset_name_trans": "拖拉携带"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tug.02",
+    "roleset_name": "pull (on)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller",
+        "descr_trans": "拉拔器"
+      },
+      {
+        "n": "1",
+        "descr": "thing pulled",
+        "descr_trans": "东西拉"
+      }
+    ],
+    "roleset_name_trans": "拉（上）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tug.03",
+    "roleset_name": "pull with end result",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "puller, tugger",
+        "descr_trans": "拉机, 拖拉机"
+      },
+      {
+        "n": "1",
+        "descr": "thing tugged",
+        "descr_trans": "东西被拉扯"
+      },
+      {
+        "n": "2",
+        "descr": "other thing tugged or secondary attribute, result of arg1",
+        "descr_trans": "其他被拉动的东西或次要属性，arg1 的结果"
+      }
+    ],
+    "roleset_name_trans": "拉出最终结果"
+  }
 ]

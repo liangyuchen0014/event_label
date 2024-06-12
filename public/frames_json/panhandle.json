@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "panhandle.01",
-        "roleset_name": "accost someone in order to beg",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "begger, panhandler"
-            },
-            {
-                "n": "1",
-                "descr": "person accosted"
-            },
-            {
-                "n": "2",
-                "descr": "money, item panhandler is begging for from arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "panhandle.01",
+    "roleset_name": "accost someone in order to beg",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "begger, panhandler",
+        "descr_trans": "乞丐，乞丐"
+      },
+      {
+        "n": "1",
+        "descr": "person accosted",
+        "descr_trans": "被搭讪的人"
+      },
+      {
+        "n": "2",
+        "descr": "money, item panhandler is begging for from arg 1",
+        "descr_trans": "钱，乞讨者正在向 arg 1 乞讨"
+      }
+    ],
+    "roleset_name_trans": "为了乞讨而搭讪某人"
+  }
 ]

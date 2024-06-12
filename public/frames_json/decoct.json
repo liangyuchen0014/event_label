@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decoct.01",
-        "roleset_name": "distill into liquid by boiling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the decocting"
-            },
-            {
-                "n": "1",
-                "descr": "first or all ingredients"
-            },
-            {
-                "n": "2",
-                "descr": "additional ingredients, water"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decoct.01",
+    "roleset_name": "distill into liquid by boiling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the decocting",
+        "descr_trans": "代理、煎煮实体"
+      },
+      {
+        "n": "1",
+        "descr": "first or all ingredients",
+        "descr_trans": "第一个或所有成分"
+      },
+      {
+        "n": "2",
+        "descr": "additional ingredients, water",
+        "descr_trans": "附加成分、水"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "煮沸蒸馏成液体"
+  }
 ]

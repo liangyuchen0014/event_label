@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "africanize.01",
-        "roleset_name": "make african in trait",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "african.02",
-        "roleset_name": "characterized as of african origin",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "African entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "africanize.01",
+    "roleset_name": "make african in trait",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      }
+    ],
+    "roleset_name_trans": "使非洲人成为特质"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "african.02",
+    "roleset_name": "characterized as of african origin",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "African entity",
+        "descr_trans": "非洲实体"
+      }
+    ],
+    "roleset_name_trans": "具有非洲血统的特征"
+  }
 ]

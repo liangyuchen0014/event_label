@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mineralize.01",
-        "roleset_name": "convert into or enrich with minerals",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of mineralization"
-            },
-            {
-                "n": "1",
-                "descr": "entity mineralized"
-            },
-            {
-                "n": "2",
-                "descr": "mineral"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mineralize.01",
+    "roleset_name": "convert into or enrich with minerals",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of mineralization",
+        "descr_trans": "矿化成因"
+      },
+      {
+        "n": "1",
+        "descr": "entity mineralized",
+        "descr_trans": "实体矿化"
+      },
+      {
+        "n": "2",
+        "descr": "mineral",
+        "descr_trans": "矿物"
+      }
+    ],
+    "roleset_name_trans": "转化为或富含矿物质"
+  }
 ]

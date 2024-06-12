@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preown.01",
-        "roleset_name": "be a previous owner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "owner"
-            },
-            {
-                "n": "1",
-                "descr": "possession"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preown.01",
+    "roleset_name": "be a previous owner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "owner",
+        "descr_trans": "所有者"
+      },
+      {
+        "n": "1",
+        "descr": "possession",
+        "descr_trans": "拥有"
+      }
+    ],
+    "roleset_name_trans": "是以前的业主"
+  }
 ]

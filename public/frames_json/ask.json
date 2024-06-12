@@ -1,86 +1,104 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ask.01",
-        "roleset_name": "ask a question",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker"
-            },
-            {
-                "n": "1",
-                "descr": "question"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "attributive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ask.02",
-        "roleset_name": "ask a favor, ask a request, ask for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker"
-            },
-            {
-                "n": "1",
-                "descr": "favor"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "ask.03",
-        "roleset_name": "buying and selling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "buyer"
-            },
-            {
-                "n": "3",
-                "descr": "asking price"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "ask_out.04",
-        "roleset_name": "invite on a date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inviter"
-            },
-            {
-                "n": "1",
-                "descr": "invitee"
-            },
-            {
-                "n": "2",
-                "descr": "the invitation (do what/go where)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ask.01",
+    "roleset_name": "ask a question",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "question",
+        "descr_trans": "问题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "问一个问题"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ask.02",
+    "roleset_name": "ask a favor, ask a request, ask for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "favor",
+        "descr_trans": "青睐"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "请求帮忙，请求帮助，请求帮助"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "ask.03",
+    "roleset_name": "buying and selling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "asking price",
+        "descr_trans": "询问价格"
+      }
+    ],
+    "roleset_name_trans": "买卖"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "ask_out.04",
+    "roleset_name": "invite on a date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inviter",
+        "descr_trans": "邀请"
+      },
+      {
+        "n": "1",
+        "descr": "invitee",
+        "descr_trans": "受邀者"
+      },
+      {
+        "n": "2",
+        "descr": "the invitation (do what/go where)",
+        "descr_trans": "邀请（做什么/去哪里）"
+      }
+    ],
+    "roleset_name_trans": "邀请约会"
+  }
 ]

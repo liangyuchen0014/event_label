@@ -1,73 +1,87 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roughen.01",
-        "roleset_name": "make rough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing made rough"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or method"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rough_up.02",
-        "roleset_name": "commit violence on, rough_up: manhandled, battered",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "committer of violence"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rough_in.03",
-        "roleset_name": "drawn in a sketchy form",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "figure"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "rough.04",
-        "roleset_name": "bumpy, coarse, unrefined",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "bumpy, unrefined thing"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "rough.05",
-        "roleset_name": "difficult, harsh",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "difficult thing (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roughen.01",
+    "roleset_name": "make rough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing made rough",
+        "descr_trans": "事情变得粗糙"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or method",
+        "descr_trans": "仪器或方法"
+      }
+    ],
+    "roleset_name_trans": "使粗糙"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rough_up.02",
+    "roleset_name": "commit violence on, rough_up: manhandled, battered",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "committer of violence",
+        "descr_trans": "暴力实施者"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "实施暴力，rough_up：粗暴对待，殴打"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rough_in.03",
+    "roleset_name": "drawn in a sketchy form",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "figure",
+        "descr_trans": "数字"
+      }
+    ],
+    "roleset_name_trans": "以粗略的形式绘制"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "rough.04",
+    "roleset_name": "bumpy, coarse, unrefined",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "bumpy, unrefined thing",
+        "descr_trans": "凹凸不平、未经精炼的东西"
+      }
+    ],
+    "roleset_name_trans": "凹凸不平的，粗糙的，未精炼的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "rough.05",
+    "roleset_name": "difficult, harsh",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "difficult thing (may require concatenation)",
+        "descr_trans": "困难的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "困难的，严酷的"
+  }
 ]

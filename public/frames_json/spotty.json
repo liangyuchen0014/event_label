@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spotty.01",
-        "roleset_name": "intermittent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "intermittent thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spotty.02",
-        "roleset_name": "covered in dots",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "location, entity covered in dots"
-            },
-            {
-                "n": "2",
-                "descr": "the dots"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spotty.01",
+    "roleset_name": "intermittent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "intermittent thing",
+        "descr_trans": "间歇性的事情"
+      }
+    ],
+    "roleset_name_trans": "间歇性的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spotty.02",
+    "roleset_name": "covered in dots",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "location, entity covered in dots",
+        "descr_trans": "位置，被点覆盖的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the dots",
+        "descr_trans": "点"
+      }
+    ],
+    "roleset_name_trans": "被点覆盖"
+  }
 ]

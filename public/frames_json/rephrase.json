@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rephrase.01",
-        "roleset_name": "to summarize or restate differently from   original statement or text",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, writer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing rephrased"
-            },
-            {
-                "n": "2",
-                "descr": "rephrased as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rephrase.01",
+    "roleset_name": "to summarize or restate differently from   original statement or text",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, writer, agent",
+        "descr_trans": "演说家、作家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing rephrased",
+        "descr_trans": "事情改写了"
+      },
+      {
+        "n": "2",
+        "descr": "rephrased as",
+        "descr_trans": "改写为"
+      }
+    ],
+    "roleset_name_trans": "与原始陈述或文本不同地总结或重述"
+  }
 ]

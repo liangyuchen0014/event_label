@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "anticipate.01",
-        "roleset_name": "expect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "anticipater"
-            },
-            {
-                "n": "1",
-                "descr": "thing anticipated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "anticipate.02",
-        "roleset_name": "come before",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing coming before"
-            },
-            {
-                "n": "1",
-                "descr": "thing coming after"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "anticipate.01",
+    "roleset_name": "expect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "anticipater",
+        "descr_trans": "预见者"
+      },
+      {
+        "n": "1",
+        "descr": "thing anticipated",
+        "descr_trans": "预期的事情"
+      }
+    ],
+    "roleset_name_trans": "预计"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "anticipate.02",
+    "roleset_name": "come before",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing coming before",
+        "descr_trans": "之前发生的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing coming after",
+        "descr_trans": "之后的事情"
+      }
+    ],
+    "roleset_name_trans": "来之前"
+  }
 ]

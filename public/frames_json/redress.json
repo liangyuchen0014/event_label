@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redress.01",
-        "roleset_name": "right a wrong",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, redresser"
-            },
-            {
-                "n": "1",
-                "descr": "wrong, recipient of compensation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redress.01",
+    "roleset_name": "right a wrong",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, redresser",
+        "descr_trans": "代理人，整顿"
+      },
+      {
+        "n": "1",
+        "descr": "wrong, recipient of compensation",
+        "descr_trans": "错误，赔偿接受者"
+      }
+    ],
+    "roleset_name_trans": "对错"
+  }
 ]

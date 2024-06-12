@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appoint.01",
-        "roleset_name": "name to a position, hire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "appointer, employer"
-            },
-            {
-                "n": "1",
-                "descr": "appointee, employee"
-            },
-            {
-                "n": "2",
-                "descr": "job, position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appointment.02",
-        "roleset_name": "time to meet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first person meeting"
-            },
-            {
-                "n": "1",
-                "descr": "second person meeting, who arg0 has appt. with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appoint.01",
+    "roleset_name": "name to a position, hire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "appointer, employer",
+        "descr_trans": "任命人、雇主"
+      },
+      {
+        "n": "1",
+        "descr": "appointee, employee",
+        "descr_trans": "任命者、雇员"
+      },
+      {
+        "n": "2",
+        "descr": "job, position",
+        "descr_trans": "工作职位"
+      }
+    ],
+    "roleset_name_trans": "为某个职位命名、雇用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appointment.02",
+    "roleset_name": "time to meet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first person meeting",
+        "descr_trans": "第一人称会议"
+      },
+      {
+        "n": "1",
+        "descr": "second person meeting, who arg0 has appt. with",
+        "descr_trans": "第二人会议，arg0 已预约。和"
+      }
+    ],
+    "roleset_name_trans": "见面的时间"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smack.01",
-        "roleset_name": "to give an indication, be suggestive of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity being suggestive"
-            },
-            {
-                "n": "1",
-                "descr": "entity suggested of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smack.02",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "smack.03",
-        "roleset_name": "smack the lips together, making a smacking sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smacker"
-            },
-            {
-                "n": "1",
-                "descr": "lips, or similar"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smack.01",
+    "roleset_name": "to give an indication, be suggestive of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity being suggestive",
+        "descr_trans": "具有暗示性的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity suggested of",
+        "descr_trans": "建议的实体"
+      }
+    ],
+    "roleset_name_trans": "给出指示，暗示"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smack.02",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "smack.03",
+    "roleset_name": "smack the lips together, making a smacking sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smacker",
+        "descr_trans": "咂嘴者"
+      },
+      {
+        "n": "1",
+        "descr": "lips, or similar",
+        "descr_trans": "嘴唇或类似的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "将嘴唇抿在一起，发出咂嘴的声音"
+  }
 ]

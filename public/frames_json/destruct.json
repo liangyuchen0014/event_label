@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "destruct.01",
-        "roleset_name": "implode, become no more",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (predicted but not observed)"
-            },
-            {
-                "n": "1",
-                "descr": "thing being destroyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "destruct.01",
+    "roleset_name": "implode, become no more",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (predicted but not observed)",
+        "descr_trans": "代理（预测但未观察到）"
+      },
+      {
+        "n": "1",
+        "descr": "thing being destroyed",
+        "descr_trans": "事物被毁坏"
+      }
+    ],
+    "roleset_name_trans": "内爆，不再存在"
+  }
 ]

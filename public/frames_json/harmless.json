@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harmless.01",
-        "roleset_name": "not capable of harm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "harmless thing"
-            },
-            {
-                "n": "1",
-                "descr": "entity not harmed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harmless.01",
+    "roleset_name": "not capable of harm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "harmless thing",
+        "descr_trans": "无害的东西"
+      },
+      {
+        "n": "1",
+        "descr": "entity not harmed",
+        "descr_trans": "实体未受到伤害"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "没有能力造成伤害"
+  }
 ]

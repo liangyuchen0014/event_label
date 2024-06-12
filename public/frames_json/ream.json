@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ream.01",
-        "roleset_name": "remove by making a hole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Reamer"
-            },
-            {
-                "n": "1",
-                "descr": "thing reamed"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ream.02",
-        "roleset_name": "enlarge a hole with a reamer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reamer"
-            },
-            {
-                "n": "1",
-                "descr": "thing reamed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ream.01",
+    "roleset_name": "remove by making a hole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Reamer",
+        "descr_trans": "铰刀"
+      },
+      {
+        "n": "1",
+        "descr": "thing reamed",
+        "descr_trans": "铰削的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "通过打孔去除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ream.02",
+    "roleset_name": "enlarge a hole with a reamer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reamer",
+        "descr_trans": "铰刀"
+      },
+      {
+        "n": "1",
+        "descr": "thing reamed",
+        "descr_trans": "铰削的东西"
+      }
+    ],
+    "roleset_name_trans": "用铰刀扩大孔"
+  }
 ]

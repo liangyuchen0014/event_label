@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reabsorb.01",
-        "roleset_name": "suck up, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Reabsorber, cause or agent"
-            },
-            {
-                "n": "1",
-                "descr": "Reabsorbed substance"
-            },
-            {
-                "n": "2",
-                "descr": "Sponge into which Arg1 is reabsorbed"
-            },
-            {
-                "n": "3",
-                "descr": "Source of liquid/substance reabsorbed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reabsorb.01",
+    "roleset_name": "suck up, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Reabsorber, cause or agent",
+        "descr_trans": "重吸收者、原因或媒介"
+      },
+      {
+        "n": "1",
+        "descr": "Reabsorbed substance",
+        "descr_trans": "重吸收物质"
+      },
+      {
+        "n": "2",
+        "descr": "Sponge into which Arg1 is reabsorbed",
+        "descr_trans": "Arg1 被重吸收的海绵"
+      },
+      {
+        "n": "3",
+        "descr": "Source of liquid/substance reabsorbed",
+        "descr_trans": "重吸收液体/物质的来源"
+      }
+    ],
+    "roleset_name_trans": "再次吸吮"
+  }
 ]

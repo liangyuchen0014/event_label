@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ulcerate.01",
-        "roleset_name": "make ulcer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of ulcers"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing with an ulcer"
-            },
-            {
-                "n": "2",
-                "descr": "the ulcer itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ulcerative.02",
-        "roleset_name": "pertaining to or of the nature of ulcers",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing pertaining to ulcers"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ulcerate.01",
+    "roleset_name": "make ulcer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of ulcers",
+        "descr_trans": "溃疡的诱因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing with an ulcer",
+        "descr_trans": "病人，患有溃疡的人"
+      },
+      {
+        "n": "2",
+        "descr": "the ulcer itself",
+        "descr_trans": "溃疡本身"
+      }
+    ],
+    "roleset_name_trans": "造成溃疡"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ulcerative.02",
+    "roleset_name": "pertaining to or of the nature of ulcers",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing pertaining to ulcers",
+        "descr_trans": "与溃疡有关的事情"
+      }
+    ],
+    "roleset_name_trans": "与溃疡有关或属于溃疡的性质"
+  }
 ]

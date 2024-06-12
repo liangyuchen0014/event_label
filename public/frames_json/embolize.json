@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embolize.01",
-        "roleset_name": "process by which a vessel is obstructed by an embolus, to introduce or cause embolism",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, if intentionally embolizing"
-            },
-            {
-                "n": "1",
-                "descr": "entity embolized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, embolus itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embolize.01",
+    "roleset_name": "process by which a vessel is obstructed by an embolus, to introduce or cause embolism",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, if intentionally embolizing",
+        "descr_trans": "药剂，如果有意栓塞"
+      },
+      {
+        "n": "1",
+        "descr": "entity embolized",
+        "descr_trans": "实体栓塞"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, embolus itself",
+        "descr_trans": "仪器，栓塞本身"
+      }
+    ],
+    "roleset_name_trans": "血管被栓子阻塞、引入或引起栓塞的过程"
+  }
 ]

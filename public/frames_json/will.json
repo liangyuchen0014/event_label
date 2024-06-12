@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "will.01",
-        "roleset_name": "give in a will, bequeath",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bequeather, giver"
-            },
-            {
-                "n": "1",
-                "descr": "inheritance, gift"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "will.02",
-        "roleset_name": "desire some state/action, desiring, agreeing to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "desirer"
-            },
-            {
-                "n": "1",
-                "descr": "state/action desired"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "will.01",
+    "roleset_name": "give in a will, bequeath",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bequeather, giver",
+        "descr_trans": "遗赠者，给予者"
+      },
+      {
+        "n": "1",
+        "descr": "inheritance, gift",
+        "descr_trans": "遗产、礼物"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "立遗嘱，遗赠"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "will.02",
+    "roleset_name": "desire some state/action, desiring, agreeing to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "desirer",
+        "descr_trans": "欲望者"
+      },
+      {
+        "n": "1",
+        "descr": "state/action desired",
+        "descr_trans": "期望的状态/动作"
+      }
+    ],
+    "roleset_name_trans": "渴望某种状态/行动，渴望，同意"
+  }
 ]

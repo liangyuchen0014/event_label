@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "endorse.01",
-        "roleset_name": "support for a position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supporter"
-            },
-            {
-                "n": "1",
-                "descr": "thing/person supported"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "endorse.02",
-        "roleset_name": "sign on the backside",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "thing signed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "endorse.01",
+    "roleset_name": "support for a position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supporter",
+        "descr_trans": "支持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing/person supported",
+        "descr_trans": "支持的事物/人"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "对某个立场的支持"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "endorse.02",
+    "roleset_name": "sign on the backside",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "thing signed",
+        "descr_trans": "签署的东西"
+      }
+    ],
+    "roleset_name_trans": "背面签名"
+  }
 ]

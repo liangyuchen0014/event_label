@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preempt.01",
-        "roleset_name": "act to prevent something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "actor"
-            },
-            {
-                "n": "1",
-                "descr": "thing prevented"
-            },
-            {
-                "n": "2",
-                "descr": "induced action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preempt.01",
+    "roleset_name": "act to prevent something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "actor",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "thing prevented",
+        "descr_trans": "事情阻止了"
+      },
+      {
+        "n": "2",
+        "descr": "induced action",
+        "descr_trans": "诱导作用"
+      }
+    ],
+    "roleset_name_trans": "采取行动阻止某事"
+  }
 ]

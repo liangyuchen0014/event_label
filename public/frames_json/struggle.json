@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "struggle.01",
-        "roleset_name": "engage in a battle with someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first struggler"
-            },
-            {
-                "n": "1",
-                "descr": "second struggler"
-            },
-            {
-                "n": "2",
-                "descr": "topic or prize"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "struggle.02",
-        "roleset_name": "try very hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity trying"
-            },
-            {
-                "n": "1",
-                "descr": "predicative action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "struggle.01",
+    "roleset_name": "engage in a battle with someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first struggler",
+        "descr_trans": "第一奋斗者"
+      },
+      {
+        "n": "1",
+        "descr": "second struggler",
+        "descr_trans": "第二个奋斗者"
+      },
+      {
+        "n": "2",
+        "descr": "topic or prize",
+        "descr_trans": "主题或奖品"
+      }
+    ],
+    "roleset_name_trans": "与某人交战"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "struggle.02",
+    "roleset_name": "try very hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity trying",
+        "descr_trans": "实体尝试"
+      },
+      {
+        "n": "1",
+        "descr": "predicative action",
+        "descr_trans": "谓语动作"
+      }
+    ],
+    "roleset_name_trans": "非常努力"
+  }
 ]

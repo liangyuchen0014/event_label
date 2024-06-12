@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "glint.01",
-        "roleset_name": "emit light intermittently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing emitting light"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "glint.02",
-        "roleset_name": "look at with shining eyes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker"
-            },
-            {
-                "n": "1",
-                "descr": "sight"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "glint.01",
+    "roleset_name": "emit light intermittently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing emitting light",
+        "descr_trans": "发光的东西"
+      }
+    ],
+    "roleset_name_trans": "间歇性地发光"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "glint.02",
+    "roleset_name": "look at with shining eyes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "sight",
+        "descr_trans": "视线"
+      }
+    ],
+    "roleset_name_trans": "用闪亮的眼睛看着"
+  }
 ]

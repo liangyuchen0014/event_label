@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shadow.01",
-        "roleset_name": "follow or mimic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mimic, follower"
-            },
-            {
-                "n": "1",
-                "descr": "entity followed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shadow.02",
-        "roleset_name": "cast a shadow over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caster of shadows"
-            },
-            {
-                "n": "1",
-                "descr": "now shadowed entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shadow.01",
+    "roleset_name": "follow or mimic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mimic, follower",
+        "descr_trans": "模仿者、追随者"
+      },
+      {
+        "n": "1",
+        "descr": "entity followed",
+        "descr_trans": "实体已关注"
+      }
+    ],
+    "roleset_name_trans": "跟随或模仿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shadow.02",
+    "roleset_name": "cast a shadow over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caster of shadows",
+        "descr_trans": "阴影投射者"
+      },
+      {
+        "n": "1",
+        "descr": "now shadowed entity",
+        "descr_trans": "现在阴影实体"
+      }
+    ],
+    "roleset_name_trans": "投下阴影"
+  }
 ]

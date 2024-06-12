@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ignore.01",
-        "roleset_name": "not pay attention to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ignorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing ignored"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ignorant.02",
-        "roleset_name": "unknowledgeable, unaware",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unknowledgeable entity"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter arg1 is unwaware of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ignore.01",
+    "roleset_name": "not pay attention to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ignorer",
+        "descr_trans": "忽略"
+      },
+      {
+        "n": "1",
+        "descr": "thing ignored",
+        "descr_trans": "被忽略的事情"
+      }
+    ],
+    "roleset_name_trans": "不注意"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ignorant.02",
+    "roleset_name": "unknowledgeable, unaware",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unknowledgeable entity",
+        "descr_trans": "无知实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter arg1 is unwaware of",
+        "descr_trans": "主题 arg1 不知道"
+      }
+    ],
+    "roleset_name_trans": "无知的，不知道的"
+  }
 ]

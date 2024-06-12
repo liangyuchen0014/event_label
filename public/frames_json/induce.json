@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "induce.01",
-        "roleset_name": "to cause, impell, persuade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "Impelled person"
-            },
-            {
-                "n": "2",
-                "descr": "Action or Proposition (ex. labor)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "induct.02",
-        "roleset_name": "placing into an office formally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity inducted"
-            },
-            {
-                "n": "2",
-                "descr": "Inducted into what (Hall of Fame, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "induce.01",
+    "roleset_name": "to cause, impell, persuade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent",
+        "descr_trans": "致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "Impelled person",
+        "descr_trans": "被推动的人"
+      },
+      {
+        "n": "2",
+        "descr": "Action or Proposition (ex. labor)",
+        "descr_trans": "行动或提议（例如劳工）"
+      }
+    ],
+    "roleset_name_trans": "引起、促使、劝说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "induct.02",
+    "roleset_name": "placing into an office formally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity inducted",
+        "descr_trans": "实体引入"
+      },
+      {
+        "n": "2",
+        "descr": "Inducted into what (Hall of Fame, etc.)",
+        "descr_trans": "入选什么（名人堂等）"
+      }
+    ],
+    "roleset_name_trans": "正式入住办公室"
+  }
 ]

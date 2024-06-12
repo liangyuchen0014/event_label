@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bicycle.01",
-        "roleset_name": "travel by bicycle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bicycler"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bicycle.01",
+    "roleset_name": "travel by bicycle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bicycler",
+        "descr_trans": "骑自行车的人"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "骑自行车旅行"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exert.01",
-        "roleset_name": "to put forth, exercise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exerciser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity exerted"
-            },
-            {
-                "n": "2",
-                "descr": "exerted over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exert.01",
+    "roleset_name": "to put forth, exercise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exerciser, agent",
+        "descr_trans": "锻炼者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity exerted",
+        "descr_trans": "实体发挥"
+      },
+      {
+        "n": "2",
+        "descr": "exerted over",
+        "descr_trans": "施加于"
+      }
+    ],
+    "roleset_name_trans": "提出、锻炼"
+  }
 ]

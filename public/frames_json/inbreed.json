@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inbreed.01",
-        "roleset_name": "breed together with genetic kin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent, breeder"
-            },
-            {
-                "n": "1",
-                "descr": "first entity mated"
-            },
-            {
-                "n": "2",
-                "descr": "second entity mated"
-            },
-            {
-                "n": "3",
-                "descr": "offspring"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inbreed.02",
-        "roleset_name": "generate within, instill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "what is instilled"
-            },
-            {
-                "n": "2",
-                "descr": "entity in whom something is instilled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inbreed.01",
+    "roleset_name": "breed together with genetic kin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent, breeder",
+        "descr_trans": "外部代理人、饲养员"
+      },
+      {
+        "n": "1",
+        "descr": "first entity mated",
+        "descr_trans": "第一个实体交配"
+      },
+      {
+        "n": "2",
+        "descr": "second entity mated",
+        "descr_trans": "第二个实体交配"
+      },
+      {
+        "n": "3",
+        "descr": "offspring",
+        "descr_trans": "后代"
+      }
+    ],
+    "roleset_name_trans": "与遗传亲属一起繁殖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inbreed.02",
+    "roleset_name": "generate within, instill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "what is instilled",
+        "descr_trans": "灌输什么"
+      },
+      {
+        "n": "2",
+        "descr": "entity in whom something is instilled",
+        "descr_trans": "被灌输某种东西的实体"
+      }
+    ],
+    "roleset_name_trans": "内在产生、灌输"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "instruct.01",
-        "roleset_name": "impel action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "instructor"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "the instruction itself"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter the instruction relates to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "instruct.01",
+    "roleset_name": "impel action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "instructor",
+        "descr_trans": "讲师"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "the instruction itself",
+        "descr_trans": "指令本身"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter the instruction relates to",
+        "descr_trans": "该指令涉及的主题"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  }
 ]

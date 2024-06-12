@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "odd.01",
-        "roleset_name": "strange (may require concatenation)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "strange entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "odd.02",
-        "roleset_name": "of numbers, having one left over, not even",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "odd numbered entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "odd.01",
+    "roleset_name": "strange (may require concatenation)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "strange entity",
+        "descr_trans": "奇怪的实体"
+      }
+    ],
+    "roleset_name_trans": "奇怪（可能需要串联）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "odd.02",
+    "roleset_name": "of numbers, having one left over, not even",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "odd numbered entity",
+        "descr_trans": "奇数实体"
+      }
+    ],
+    "roleset_name_trans": "的数字，还剩下一个，甚至没有"
+  }
 ]

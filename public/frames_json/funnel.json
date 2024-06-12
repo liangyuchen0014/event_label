@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "funnel.01",
-        "roleset_name": "directed motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "funnel.01",
+    "roleset_name": "directed motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion, agent",
+        "descr_trans": "动因、动因"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "定向运动"
+  }
 ]

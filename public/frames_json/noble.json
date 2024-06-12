@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noble.01",
-        "roleset_name": "elevated or high in appearance or character",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "noble entity"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "noble.02",
-        "roleset_name": "impossing, impressive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "impressive entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noble.01",
+    "roleset_name": "elevated or high in appearance or character",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "noble entity",
+        "descr_trans": "高贵的实体"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "外表或性格高尚或高尚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "noble.02",
+    "roleset_name": "impossing, impressive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "impressive entity",
+        "descr_trans": "令人印象深刻的实体"
+      }
+    ],
+    "roleset_name_trans": "令人印象深刻的，令人印象深刻的"
+  }
 ]

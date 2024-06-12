@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nucleate.01",
-        "roleset_name": "cause to form a nucleus",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of nuclei formation (rare, only for explicit creation)"
-            },
-            {
-                "n": "1",
-                "descr": "cell/entity where nuclei is formed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nucleate.01",
+    "roleset_name": "cause to form a nucleus",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of nuclei formation (rare, only for explicit creation)",
+        "descr_trans": "原子核形成的原因（罕见，仅用于显式创建）"
+      },
+      {
+        "n": "1",
+        "descr": "cell/entity where nuclei is formed",
+        "descr_trans": "形成细胞核的细胞/实体"
+      }
+    ],
+    "roleset_name_trans": "导致形成核"
+  }
 ]

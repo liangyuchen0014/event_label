@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debone.01",
-        "roleset_name": "remove flesh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "removed flesh from"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debone.01",
+    "roleset_name": "remove flesh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "removed flesh from",
+        "descr_trans": "从中去除肉"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "去除肉"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revaccinate.01",
-        "roleset_name": "vaccinating again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Vaccinator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Revaccinated, patient"
-            },
-            {
-                "n": "2",
-                "descr": "Against what, disease"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revaccinate.01",
+    "roleset_name": "vaccinating again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Vaccinator, agent",
+        "descr_trans": "疫苗接种员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Revaccinated, patient",
+        "descr_trans": "重新接种疫苗，有耐心"
+      },
+      {
+        "n": "2",
+        "descr": "Against what, disease",
+        "descr_trans": "针对什么，疾病"
+      }
+    ],
+    "roleset_name_trans": "再次接种疫苗"
+  }
 ]

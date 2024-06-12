@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "denude.01",
-        "roleset_name": "remove covering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "uncoverer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing now uncovered"
-            },
-            {
-                "n": "2",
-                "descr": "covering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "denude.01",
+    "roleset_name": "remove covering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "uncoverer, agent",
+        "descr_trans": "揭露者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing now uncovered",
+        "descr_trans": "现在发现的事情"
+      },
+      {
+        "n": "2",
+        "descr": "covering",
+        "descr_trans": "覆盖"
+      }
+    ],
+    "roleset_name_trans": "去除覆盖物"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gorge.01",
-        "roleset_name": "eat",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity eating"
-            },
-            {
-                "n": "2",
-                "descr": "eaten thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gorge.01",
+    "roleset_name": "eat",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity eating",
+        "descr_trans": "实体进食"
+      },
+      {
+        "n": "2",
+        "descr": "eaten thing",
+        "descr_trans": "吃过的东西"
+      }
+    ],
+    "roleset_name_trans": "吃"
+  }
 ]

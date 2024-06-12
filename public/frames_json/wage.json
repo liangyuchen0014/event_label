@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wage.01",
-        "roleset_name": "wage war",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "combatant"
-            },
-            {
-                "n": "1",
-                "descr": "war"
-            },
-            {
-                "n": "2",
-                "descr": "foe, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wage.01",
+    "roleset_name": "wage war",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "combatant",
+        "descr_trans": "战斗员"
+      },
+      {
+        "n": "1",
+        "descr": "war",
+        "descr_trans": "战争"
+      },
+      {
+        "n": "2",
+        "descr": "foe, if separate from arg0",
+        "descr_trans": "敌人，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "交兵"
+  }
 ]

@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "boost.01",
-        "roleset_name": "push upwards",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of upward motion, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, thing moving upward"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "Medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "boost.01",
+    "roleset_name": "push upwards",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of upward motion, Agent",
+        "descr_trans": "向上运动的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, thing moving upward",
+        "descr_trans": "逻辑主题，向上移动的事物"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "Medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "向上推"
+  }
 ]

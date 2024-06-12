@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "electrocute.01",
-        "roleset_name": "cause an electric shock in an object",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of electrocution"
-            },
-            {
-                "n": "1",
-                "descr": "electrocuted entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, electrocuted with what device?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "electrocute.01",
+    "roleset_name": "cause an electric shock in an object",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of electrocution",
+        "descr_trans": "触电事故的原因"
+      },
+      {
+        "n": "1",
+        "descr": "electrocuted entity",
+        "descr_trans": "触电实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, electrocuted with what device?",
+        "descr_trans": "仪器，用什么装置触电？"
+      }
+    ],
+    "roleset_name_trans": "导致物体触电"
+  }
 ]

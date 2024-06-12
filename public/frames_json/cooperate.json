@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cooperate.01",
-        "roleset_name": "work with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one cooperator"
-            },
-            {
-                "n": "1",
-                "descr": "other cooperator(s)"
-            },
-            {
-                "n": "2",
-                "descr": "shared task"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cooperate.01",
+    "roleset_name": "work with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one cooperator",
+        "descr_trans": "合作者一名"
+      },
+      {
+        "n": "1",
+        "descr": "other cooperator(s)",
+        "descr_trans": "其他合作者"
+      },
+      {
+        "n": "2",
+        "descr": "shared task",
+        "descr_trans": "共享任务"
+      }
+    ],
+    "roleset_name_trans": "与...一起工作"
+  }
 ]

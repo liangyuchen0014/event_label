@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deform.01",
-        "roleset_name": "take on a new (usually bad) form",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bad form, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being deformed, patient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deformable.02",
-        "roleset_name": "able to be reshaped",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, reshaper"
-            },
-            {
-                "n": "1",
-                "descr": "thing being deformed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deform.01",
+    "roleset_name": "take on a new (usually bad) form",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bad form, agent",
+        "descr_trans": "不良行为的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being deformed, patient",
+        "descr_trans": "东西变形了，耐心点"
+      }
+    ],
+    "roleset_name_trans": "采取新的（通常是坏的）形式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deformable.02",
+    "roleset_name": "able to be reshaped",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, reshaper",
+        "descr_trans": "代理人、重塑者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being deformed",
+        "descr_trans": "物体变形"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "能够被重塑"
+  }
 ]

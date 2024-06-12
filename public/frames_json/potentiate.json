@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "potentiate.01",
-        "roleset_name": "enhance or increase potency of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, Cause of increased potency"
-            },
-            {
-                "n": "1",
-                "descr": "Thing enhanced/improved"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument (if separate from Arg0)"
-            },
-            {
-                "n": "3",
-                "descr": "Enhanced by how much, EXT or MNR"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "potential.02",
-        "roleset_name": "capacity for future development",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "possible proposition (concatenate if necessary)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "potentiate.01",
+    "roleset_name": "enhance or increase potency of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, Cause of increased potency",
+        "descr_trans": "药剂，效力增加的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing enhanced/improved",
+        "descr_trans": "事物增强/改进"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument (if separate from Arg0)",
+        "descr_trans": "仪器（如果与 Arg0 分开）"
+      },
+      {
+        "n": "3",
+        "descr": "Enhanced by how much, EXT or MNR",
+        "descr_trans": "增强多少，EXT 或 MNR"
+      }
+    ],
+    "roleset_name_trans": "增强或增加效力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "potential.02",
+    "roleset_name": "capacity for future development",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "possible proposition (concatenate if necessary)",
+        "descr_trans": "可能的命题（必要时连接）"
+      }
+    ],
+    "roleset_name_trans": "未来发展能力"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "douche.01",
-        "roleset_name": "irrigating some part of the body (usually the vagina)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity irrigated"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "douche.01",
+    "roleset_name": "irrigating some part of the body (usually the vagina)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity irrigated",
+        "descr_trans": "实体灌溉"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "冲洗身体的某些部位（通常是阴道）"
+  }
 ]

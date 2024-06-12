@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shy_away.01",
-        "roleset_name": "avoid in fear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "avoider"
-            },
-            {
-                "n": "1",
-                "descr": "thing avoided"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shy.02",
-        "roleset_name": "avoid in fear, nonphrasal; avoiding out of fear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shy one"
-            },
-            {
-                "n": "1",
-                "descr": "afraid of"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shy.03",
-        "roleset_name": "not having enough, being some distance from a goal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity not having enough/attained a goal"
-            },
-            {
-                "n": "2",
-                "descr": "amount shy"
-            },
-            {
-                "n": "3",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "shy.04",
-        "roleset_name": "socially nervous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shy one"
-            },
-            {
-                "n": "1",
-                "descr": "afraid of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shy_away.01",
+    "roleset_name": "avoid in fear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "avoider",
+        "descr_trans": "回避者"
+      },
+      {
+        "n": "1",
+        "descr": "thing avoided",
+        "descr_trans": "避免的事情"
+      }
+    ],
+    "roleset_name_trans": "因恐惧而回避"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shy.02",
+    "roleset_name": "avoid in fear, nonphrasal; avoiding out of fear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shy one",
+        "descr_trans": "害羞的一个"
+      },
+      {
+        "n": "1",
+        "descr": "afraid of",
+        "descr_trans": "害怕"
+      }
+    ],
+    "roleset_name_trans": "避免因恐惧而非言语；出于恐惧而回避"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shy.03",
+    "roleset_name": "not having enough, being some distance from a goal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity not having enough/attained a goal",
+        "descr_trans": "实体没有足够/达到目标"
+      },
+      {
+        "n": "2",
+        "descr": "amount shy",
+        "descr_trans": "害羞的程度"
+      },
+      {
+        "n": "3",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "还不够，离目标还有一段距离"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "shy.04",
+    "roleset_name": "socially nervous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shy one",
+        "descr_trans": "害羞的一个"
+      },
+      {
+        "n": "1",
+        "descr": "afraid of",
+        "descr_trans": "害怕"
+      }
+    ],
+    "roleset_name_trans": "社交紧张"
+  }
 ]

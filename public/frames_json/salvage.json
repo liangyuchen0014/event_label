@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "salvage.01",
-        "roleset_name": "to save or rescue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "saver, salvager"
-            },
-            {
-                "n": "1",
-                "descr": "entity salvaged"
-            },
-            {
-                "n": "2",
-                "descr": "entity salvaged from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "salvage.01",
+    "roleset_name": "to save or rescue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "saver, salvager",
+        "descr_trans": "拯救者，拯救者"
+      },
+      {
+        "n": "1",
+        "descr": "entity salvaged",
+        "descr_trans": "实体被打捞"
+      },
+      {
+        "n": "2",
+        "descr": "entity salvaged from",
+        "descr_trans": "被抢救出来的实体"
+      }
+    ],
+    "roleset_name_trans": "拯救或营救"
+  }
 ]

@@ -1,101 +1,122 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "settle.01",
-        "roleset_name": "decide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider"
-            },
-            {
-                "n": "1",
-                "descr": "decision"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "settle.02",
-        "roleset_name": "resolve, resolution of dispute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making resolution"
-            },
-            {
-                "n": "1",
-                "descr": "thing being resolved"
-            },
-            {
-                "n": "2",
-                "descr": "comitative, resolved with"
-            },
-            {
-                "n": "3",
-                "descr": "what the settlement is (value or decision)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "settle.03",
-        "roleset_name": "come to rest, or approach a steady state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing something/someone to settle"
-            },
-            {
-                "n": "1",
-                "descr": "entity settling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount declined by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "settle_down.04",
-        "roleset_name": "and be quiet!",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "one who should be quiet"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "settle_down.05",
-        "roleset_name": "put down roots, plan to reside somewhere for the long run",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resident"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "settle.01",
+    "roleset_name": "decide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider",
+        "descr_trans": "决定者"
+      },
+      {
+        "n": "1",
+        "descr": "decision",
+        "descr_trans": "决定"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "决定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "settle.02",
+    "roleset_name": "resolve, resolution of dispute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making resolution",
+        "descr_trans": "作出决议的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being resolved",
+        "descr_trans": "事情正在解决"
+      },
+      {
+        "n": "2",
+        "descr": "comitative, resolved with",
+        "descr_trans": "积极配合，解决"
+      },
+      {
+        "n": "3",
+        "descr": "what the settlement is (value or decision)",
+        "descr_trans": "和解是什么（价值或决定）"
+      }
+    ],
+    "roleset_name_trans": "解决，解决争端"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "settle.03",
+    "roleset_name": "come to rest, or approach a steady state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing something/someone to settle",
+        "descr_trans": "导致某事/某人解决的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity settling",
+        "descr_trans": "实体结算"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount declined by",
+        "descr_trans": "EXT，金额下降"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "休息或接近稳定状态"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "settle_down.04",
+    "roleset_name": "and be quiet!",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "one who should be quiet",
+        "descr_trans": "一个应该安静的人"
+      }
+    ],
+    "roleset_name_trans": "保持安静！"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "settle_down.05",
+    "roleset_name": "put down roots, plan to reside somewhere for the long run",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resident",
+        "descr_trans": "居民"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "扎根，计划长期居住在某个地方"
+  }
 ]

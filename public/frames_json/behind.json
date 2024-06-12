@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "behind.01",
-        "roleset_name": "not keeping up with a schedule",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity/accomplishment behind schedule"
-            },
-            {
-                "n": "2",
-                "descr": "by how much"
-            },
-            {
-                "n": "3",
-                "descr": "schedule, goal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "behind.02",
-        "roleset_name": "be spatially located past the back side of something",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity behind"
-            },
-            {
-                "n": "2",
-                "descr": "behind what"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "behind.03",
-        "roleset_name": "be losing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity losing"
-            },
-            {
-                "n": "2",
-                "descr": "entity winning"
-            },
-            {
-                "n": "3",
-                "descr": "by how much"
-            },
-            {
-                "n": "4",
-                "descr": "competition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "behind.01",
+    "roleset_name": "not keeping up with a schedule",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity/accomplishment behind schedule",
+        "descr_trans": "实体/成就落后于计划"
+      },
+      {
+        "n": "2",
+        "descr": "by how much",
+        "descr_trans": "多少"
+      },
+      {
+        "n": "3",
+        "descr": "schedule, goal",
+        "descr_trans": "日程、目标"
+      }
+    ],
+    "roleset_name_trans": "没有跟上时间表"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "behind.02",
+    "roleset_name": "be spatially located past the back side of something",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity behind",
+        "descr_trans": "背后的实体"
+      },
+      {
+        "n": "2",
+        "descr": "behind what",
+        "descr_trans": "背后是什么"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "在空间上位于某物背面的后面"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "behind.03",
+    "roleset_name": "be losing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity losing",
+        "descr_trans": "实体损失"
+      },
+      {
+        "n": "2",
+        "descr": "entity winning",
+        "descr_trans": "实体获胜"
+      },
+      {
+        "n": "3",
+        "descr": "by how much",
+        "descr_trans": "多少"
+      },
+      {
+        "n": "4",
+        "descr": "competition",
+        "descr_trans": "竞赛"
+      }
+    ],
+    "roleset_name_trans": "正在失去"
+  }
 ]

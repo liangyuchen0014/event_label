@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drive.01",
-        "roleset_name": "drive or be driven around in a vehicle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "driver"
-            },
-            {
-                "n": "1",
-                "descr": "vehicle or path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drive.02",
-        "roleset_name": "cause to move or become, impelled, inspired",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "driver"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "drive.03",
-        "roleset_name": "desire for something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Desirer, driven person"
-            },
-            {
-                "n": "1",
-                "descr": "desired thing, driven to/for what?"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "drive.04",
-        "roleset_name": "Cause, effort, campaign",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, campaigner"
-            },
-            {
-                "n": "1",
-                "descr": "cause, campaign beneficiary"
-            },
-            {
-                "n": "2",
-                "descr": "type of drive, attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drive.01",
+    "roleset_name": "drive or be driven around in a vehicle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "driver",
+        "descr_trans": "司机"
+      },
+      {
+        "n": "1",
+        "descr": "vehicle or path",
+        "descr_trans": "车辆或路径"
+      }
+    ],
+    "roleset_name_trans": "驾驶或被驾驶车辆四处行驶"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drive.02",
+    "roleset_name": "cause to move or become, impelled, inspired",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "driver",
+        "descr_trans": "司机"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "导致移动或成为、推动、启发"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "drive.03",
+    "roleset_name": "desire for something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Desirer, driven person",
+        "descr_trans": "有欲望、有动力的人"
+      },
+      {
+        "n": "1",
+        "descr": "desired thing, driven to/for what?",
+        "descr_trans": "想要的东西，被驱使/为了什么？"
+      }
+    ],
+    "roleset_name_trans": "对某事的渴望"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "drive.04",
+    "roleset_name": "Cause, effort, campaign",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, campaigner",
+        "descr_trans": "事业、活动家"
+      },
+      {
+        "n": "1",
+        "descr": "cause, campaign beneficiary",
+        "descr_trans": "原因、活动受益人"
+      },
+      {
+        "n": "2",
+        "descr": "type of drive, attribute",
+        "descr_trans": "驱动器类型、属性"
+      }
+    ],
+    "roleset_name_trans": "事业、努力、活动"
+  }
 ]

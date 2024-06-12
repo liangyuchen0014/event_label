@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sharpen.01",
-        "roleset_name": "(cause to) become sharp(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sharpener"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting sharper"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent is also present"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sharp.02",
-        "roleset_name": "finely honed, focused (knives, photos, wit, etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sharpener, agent/cause of sharpness"
-            },
-            {
-                "n": "1",
-                "descr": "sharp thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sharpen.01",
+    "roleset_name": "(cause to) become sharp(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sharpener",
+        "descr_trans": "磨刀器"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting sharper",
+        "descr_trans": "事情变得更加尖锐"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent is also present",
+        "descr_trans": "仪器（如果代理人也在场）"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得敏锐（呃）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sharp.02",
+    "roleset_name": "finely honed, focused (knives, photos, wit, etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sharpener, agent/cause of sharpness",
+        "descr_trans": "磨刀器，锐度的媒介/原因"
+      },
+      {
+        "n": "1",
+        "descr": "sharp thing",
+        "descr_trans": "尖的东西"
+      }
+    ],
+    "roleset_name_trans": "精心打磨、专注（刀具、照片、智慧等）"
+  }
 ]

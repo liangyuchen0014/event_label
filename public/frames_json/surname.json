@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "surname.01",
-        "roleset_name": "assign a last name to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer"
-            },
-            {
-                "n": "1",
-                "descr": "entity named"
-            },
-            {
-                "n": "2",
-                "descr": "name itself, name of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "surname.01",
+    "roleset_name": "assign a last name to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer",
+        "descr_trans": "意图"
+      },
+      {
+        "n": "1",
+        "descr": "entity named",
+        "descr_trans": "实体命名"
+      },
+      {
+        "n": "2",
+        "descr": "name itself, name of arg1",
+        "descr_trans": "名称本身，arg1 的名称"
+      }
+    ],
+    "roleset_name_trans": "指定姓氏"
+  }
 ]

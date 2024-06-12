@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "emote.01",
-        "roleset_name": "express emotion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expresser"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "emotional.02",
-        "roleset_name": "having strong emotions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing exhibiting emotion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "emote.01",
+    "roleset_name": "express emotion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expresser",
+        "descr_trans": "表达者"
+      }
+    ],
+    "roleset_name_trans": "表达情感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "emotional.02",
+    "roleset_name": "having strong emotions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing exhibiting emotion",
+        "descr_trans": "表现出情感的事物"
+      }
+    ],
+    "roleset_name_trans": "有强烈的情绪"
+  }
 ]

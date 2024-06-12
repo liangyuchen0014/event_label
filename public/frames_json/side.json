@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "side.01",
-        "roleset_name": "take the side of, support",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supporter"
-            },
-            {
-                "n": "1",
-                "descr": "supported"
-            },
-            {
-                "n": "2",
-                "descr": "sided-against, anti-beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "side.02",
-        "roleset_name": "put siding on a house",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "construction worker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "house"
-            },
-            {
-                "n": "2",
-                "descr": "siding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "side.01",
+    "roleset_name": "take the side of, support",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supporter",
+        "descr_trans": "支持者"
+      },
+      {
+        "n": "1",
+        "descr": "supported",
+        "descr_trans": "支持的"
+      },
+      {
+        "n": "2",
+        "descr": "sided-against, anti-beneficiary",
+        "descr_trans": "反对受益人的, 反对受益人的"
+      }
+    ],
+    "roleset_name_trans": "站在一边，支持"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "side.02",
+    "roleset_name": "put siding on a house",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "construction worker, agent",
+        "descr_trans": "建筑工人、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "house",
+        "descr_trans": "房子"
+      },
+      {
+        "n": "2",
+        "descr": "siding",
+        "descr_trans": "壁板"
+      }
+    ],
+    "roleset_name_trans": "在房子上放置壁板"
+  }
 ]

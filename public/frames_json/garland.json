@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "garland.01",
-        "roleset_name": "lay a garland over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, garland-placer"
-            },
-            {
-                "n": "1",
-                "descr": "entity ornamented by garland, where placed"
-            },
-            {
-                "n": "2",
-                "descr": "garland itself, type of garland"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "garland.01",
+    "roleset_name": "lay a garland over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, garland-placer",
+        "descr_trans": "代理，花环放置者"
+      },
+      {
+        "n": "1",
+        "descr": "entity ornamented by garland, where placed",
+        "descr_trans": "由花环装饰的实体，放置在"
+      },
+      {
+        "n": "2",
+        "descr": "garland itself, type of garland",
+        "descr_trans": "花环本身，花环的类型"
+      }
+    ],
+    "roleset_name_trans": "放上花环"
+  }
 ]

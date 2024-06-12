@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proofread.01",
-        "roleset_name": "check for errors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "proofreader"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proofread.01",
+    "roleset_name": "check for errors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "proofreader",
+        "descr_trans": "校对"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      }
+    ],
+    "roleset_name_trans": "检查错误"
+  }
 ]

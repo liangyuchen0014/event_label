@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "filch.01",
-        "roleset_name": "steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, stealer"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen"
-            },
-            {
-                "n": "2",
-                "descr": "stolen from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "filch.01",
+    "roleset_name": "steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, stealer",
+        "descr_trans": "代理人、偷窃者"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen",
+        "descr_trans": "东西被偷了"
+      },
+      {
+        "n": "2",
+        "descr": "stolen from, source",
+        "descr_trans": "盗自、来源"
+      }
+    ],
+    "roleset_name_trans": "偷"
+  }
 ]

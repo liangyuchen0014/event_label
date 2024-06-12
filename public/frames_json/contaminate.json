@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contaminate.01",
-        "roleset_name": "befoul",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of contamination"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming contaminated"
-            },
-            {
-                "n": "2",
-                "descr": "contaminant"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contaminate.01",
+    "roleset_name": "befoul",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of contamination",
+        "descr_trans": "造成污染的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming contaminated",
+        "descr_trans": "事物被污染"
+      },
+      {
+        "n": "2",
+        "descr": "contaminant",
+        "descr_trans": "污染物"
+      }
+    ],
+    "roleset_name_trans": "污秽的"
+  }
 ]

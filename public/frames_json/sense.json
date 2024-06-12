@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sense.01",
-        "roleset_name": "perceive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sensor"
-            },
-            {
-                "n": "1",
-                "descr": "thing sensed"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sense.02",
-        "roleset_name": "be reasonable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that makes sense"
-            },
-            {
-                "n": "2",
-                "descr": "perceiver of sense/reason"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sensitive.03",
-        "roleset_name": "skilled at, capable of perceiving",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sensitive soul"
-            },
-            {
-                "n": "1",
-                "descr": "thing sensed, sensitive to/of what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sense.01",
+    "roleset_name": "perceive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sensor",
+        "descr_trans": "传感器"
+      },
+      {
+        "n": "1",
+        "descr": "thing sensed",
+        "descr_trans": "感觉到的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "感知"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sense.02",
+    "roleset_name": "be reasonable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that makes sense",
+        "descr_trans": "有道理的事"
+      },
+      {
+        "n": "2",
+        "descr": "perceiver of sense/reason",
+        "descr_trans": "感觉/理性的感知者"
+      }
+    ],
+    "roleset_name_trans": "讲道理"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sensitive.03",
+    "roleset_name": "skilled at, capable of perceiving",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sensitive soul",
+        "descr_trans": "敏感的灵魂"
+      },
+      {
+        "n": "1",
+        "descr": "thing sensed, sensitive to/of what?",
+        "descr_trans": "感觉到的东西，对什么敏感？"
+      }
+    ],
+    "roleset_name_trans": "擅长，能够感知"
+  }
 ]

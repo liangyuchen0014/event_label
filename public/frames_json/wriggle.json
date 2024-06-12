@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wriggle.01",
-        "roleset_name": "move part of the body slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of motion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "body part"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wriggle.02",
-        "roleset_name": "move with wriggling motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wriggle.01",
+    "roleset_name": "move part of the body slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of motion, agent",
+        "descr_trans": "动因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "body part",
+        "descr_trans": "身体的一部分"
+      }
+    ],
+    "roleset_name_trans": "稍微移动身体的一部分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wriggle.02",
+    "roleset_name": "move with wriggling motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "蠕动"
+  }
 ]

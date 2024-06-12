@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "baffle.01",
-        "roleset_name": "to bewilder, perplex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of bewilderment, stupefication"
-            },
-            {
-                "n": "1",
-                "descr": "baffled entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "baffle.01",
+    "roleset_name": "to bewilder, perplex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of bewilderment, stupefication",
+        "descr_trans": "造成困惑、麻木的原因"
+      },
+      {
+        "n": "1",
+        "descr": "baffled entity",
+        "descr_trans": "困惑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "使迷惑，使困惑"
+  }
 ]

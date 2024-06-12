@@ -1,96 +1,115 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "negative.01",
-        "roleset_name": "absence of a feature; disconfirmed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "test or patient, thing evaluated"
-            },
-            {
-                "n": "2",
-                "descr": "thing disconfirmed; thing that is absent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "negative.02",
-        "roleset_name": "not desirable, unwanted, bad",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of badness; undesirable thing"
-            },
-            {
-                "n": "1",
-                "descr": "malefactive; person hurt by negative events or situation"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "negative.03",
-        "roleset_name": "express unfavorable sentiment about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity expressing negative sentiment"
-            },
-            {
-                "n": "1",
-                "descr": "target of negative sentiment/feedback"
-            },
-            {
-                "n": "2",
-                "descr": "cause of negative feedback, complaint"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "negative.05",
-        "roleset_name": "be less than zero; go in a direction opposite of positive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "quantity, value or rate which is less than zero"
-            },
-            {
-                "n": "2",
-                "descr": "domain or property quantified"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "negative.06",
-        "roleset_name": "electronegativity; have a surplus of electrons",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with a negative charge"
-            },
-            {
-                "n": "2",
-                "descr": "charge itself, extent of negativity"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "negate.04",
-        "roleset_name": "make invalid, counteract",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of invalidity"
-            },
-            {
-                "n": "1",
-                "descr": "thing negated, proposition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "negative.01",
+    "roleset_name": "absence of a feature; disconfirmed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "test or patient, thing evaluated",
+        "descr_trans": "测试或患者，评估的事物"
+      },
+      {
+        "n": "2",
+        "descr": "thing disconfirmed; thing that is absent",
+        "descr_trans": "事情没有得到证实；不存在的东西"
+      }
+    ],
+    "roleset_name_trans": "缺乏某项功能；未确认的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "negative.02",
+    "roleset_name": "not desirable, unwanted, bad",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of badness; undesirable thing",
+        "descr_trans": "不良原因；不受欢迎的事情"
+      },
+      {
+        "n": "1",
+        "descr": "malefactive; person hurt by negative events or situation",
+        "descr_trans": "恶意的；因负面事件或情况而受到伤害的人"
+      }
+    ],
+    "roleset_name_trans": "不想要的、不需要的、坏的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "negative.03",
+    "roleset_name": "express unfavorable sentiment about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity expressing negative sentiment",
+        "descr_trans": "表达负面情绪的实体"
+      },
+      {
+        "n": "1",
+        "descr": "target of negative sentiment/feedback",
+        "descr_trans": "负面情绪/反馈的目标"
+      },
+      {
+        "n": "2",
+        "descr": "cause of negative feedback, complaint",
+        "descr_trans": "负面反馈、投诉的原因"
+      }
+    ],
+    "roleset_name_trans": "表达不赞成的情绪"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "negative.05",
+    "roleset_name": "be less than zero; go in a direction opposite of positive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "quantity, value or rate which is less than zero",
+        "descr_trans": "数量、价值或比率小于零"
+      },
+      {
+        "n": "2",
+        "descr": "domain or property quantified",
+        "descr_trans": "量化的领域或属性"
+      }
+    ],
+    "roleset_name_trans": "小于零；朝与正方向相反的方向走"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "negative.06",
+    "roleset_name": "electronegativity; have a surplus of electrons",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with a negative charge",
+        "descr_trans": "带负电荷的东西"
+      },
+      {
+        "n": "2",
+        "descr": "charge itself, extent of negativity",
+        "descr_trans": "电荷本身，负电程度"
+      }
+    ],
+    "roleset_name_trans": "电负性；有过剩电子"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "negate.04",
+    "roleset_name": "make invalid, counteract",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of invalidity",
+        "descr_trans": "造成无效的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing negated, proposition",
+        "descr_trans": "被否定的事物，提议"
+      }
+    ],
+    "roleset_name_trans": "使无效，抵消"
+  }
 ]

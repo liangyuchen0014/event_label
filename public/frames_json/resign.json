@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resign.01",
-        "roleset_name": "quit, cease employment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resigner"
-            },
-            {
-                "n": "1",
-                "descr": "position resigned"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "resign.02",
-        "roleset_name": "adjectival, giving up (as in despair)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "experiencer of emotional resignation"
-            },
-            {
-                "n": "2",
-                "descr": "resigned to what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "resign.03",
-        "roleset_name": "re-sign, sign again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Signer"
-            },
-            {
-                "n": "1",
-                "descr": "Talent, contract signed"
-            },
-            {
-                "n": "2",
-                "descr": "Signed as what, what role arg1 is signed as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resign.01",
+    "roleset_name": "quit, cease employment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resigner",
+        "descr_trans": "辞职者"
+      },
+      {
+        "n": "1",
+        "descr": "position resigned",
+        "descr_trans": "辞职"
+      }
+    ],
+    "roleset_name_trans": "辞职，停止工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "resign.02",
+    "roleset_name": "adjectival, giving up (as in despair)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "experiencer of emotional resignation",
+        "descr_trans": "情感放弃的经历者"
+      },
+      {
+        "n": "2",
+        "descr": "resigned to what",
+        "descr_trans": "屈服于什么"
+      }
+    ],
+    "roleset_name_trans": "形容词，放弃（如绝望中）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "resign.03",
+    "roleset_name": "re-sign, sign again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Signer",
+        "descr_trans": "西格纳"
+      },
+      {
+        "n": "1",
+        "descr": "Talent, contract signed",
+        "descr_trans": "人才、合同签订"
+      },
+      {
+        "n": "2",
+        "descr": "Signed as what, what role arg1 is signed as",
+        "descr_trans": "签名为什么，arg1 签名为什么角色"
+      }
+    ],
+    "roleset_name_trans": "重新签名，再签名"
+  }
 ]

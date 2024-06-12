@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "neaten.01",
-        "roleset_name": "(cause to) be more orderly, tidy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now tidy"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "neaten_up.02",
-        "roleset_name": "(cause to) be more orderly, tidy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now tidy"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "neaten.01",
+    "roleset_name": "(cause to) be more orderly, tidy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation, agent",
+        "descr_trans": "转变原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity now tidy",
+        "descr_trans": "实体现在整洁"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（使）更加有序、整洁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "neaten_up.02",
+    "roleset_name": "(cause to) be more orderly, tidy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation, agent",
+        "descr_trans": "转变原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity now tidy",
+        "descr_trans": "实体现在整洁"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（使）更加有序、整洁"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embolden.01",
-        "roleset_name": "make be bold",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing causing boldness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming bold"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bold.02",
-        "roleset_name": "brave, forward,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "brave, forward one"
-            },
-            {
-                "n": "1",
-                "descr": "brave action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bold.03",
-        "roleset_name": "darkened, thickened type",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "bold typeface"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embolden.01",
+    "roleset_name": "make be bold",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing causing boldness",
+        "descr_trans": "导致大胆的事物"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming bold",
+        "descr_trans": "事情变得大胆"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使大胆"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bold.02",
+    "roleset_name": "brave, forward,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "brave, forward one",
+        "descr_trans": "勇敢前行"
+      },
+      {
+        "n": "1",
+        "descr": "brave action",
+        "descr_trans": "勇敢的行动"
+      }
+    ],
+    "roleset_name_trans": "勇敢、前进、"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bold.03",
+    "roleset_name": "darkened, thickened type",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "bold typeface",
+        "descr_trans": "粗体字体"
+      }
+    ],
+    "roleset_name_trans": "深色、加厚型"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gladden.01",
-        "roleset_name": "(cause to) become glad",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pleaser"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity pleased"
-            },
-            {
-                "n": "2",
-                "descr": "instrumental"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "glad.02",
-        "roleset_name": "happy and grateful, pleased",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus, pleaser (about what)"
-            },
-            {
-                "n": "1",
-                "descr": "glad one"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gladden.01",
+    "roleset_name": "(cause to) become glad",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pleaser",
+        "descr_trans": "代理人，取悦者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity pleased",
+        "descr_trans": "患者，实体满意"
+      },
+      {
+        "n": "2",
+        "descr": "instrumental",
+        "descr_trans": "工具性的"
+      }
+    ],
+    "roleset_name_trans": "（使）变得高兴"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "glad.02",
+    "roleset_name": "happy and grateful, pleased",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus, pleaser (about what)",
+        "descr_trans": "刺激，取悦（关于什么）"
+      },
+      {
+        "n": "1",
+        "descr": "glad one",
+        "descr_trans": "很高兴的一个"
+      }
+    ],
+    "roleset_name_trans": "高兴、感激、高兴"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hive.01",
-        "roleset_name": "to store in a hive like bees",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Bee"
-            },
-            {
-                "n": "1",
-                "descr": "honey"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hive.02",
-        "roleset_name": "to (cause to) gather in a hive, move like a hive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent causing movement, gathering into hive"
-            },
-            {
-                "n": "1",
-                "descr": "Entity moving/gathering as a hive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hive.01",
+    "roleset_name": "to store in a hive like bees",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Bee",
+        "descr_trans": "蜜蜂"
+      },
+      {
+        "n": "1",
+        "descr": "honey",
+        "descr_trans": "蜂蜜"
+      }
+    ],
+    "roleset_name_trans": "像蜜蜂一样储存在蜂巢中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hive.02",
+    "roleset_name": "to (cause to) gather in a hive, move like a hive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent causing movement, gathering into hive",
+        "descr_trans": "代理引起移动，聚集到蜂巢中"
+      },
+      {
+        "n": "1",
+        "descr": "Entity moving/gathering as a hive",
+        "descr_trans": "实体作为蜂巢移动/聚集"
+      }
+    ],
+    "roleset_name_trans": "（导致）聚集在蜂巢中，像蜂巢一样移动"
+  }
 ]

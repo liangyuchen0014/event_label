@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bug.01",
-        "roleset_name": "bother, cause stress in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bothering"
-            },
-            {
-                "n": "1",
-                "descr": "bothered"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of bothering"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bug.02",
-        "roleset_name": "gain information via a planted electronic   recording device",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person or institution planting the device"
-            },
-            {
-                "n": "1",
-                "descr": "person or institution being bugged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bug.01",
+    "roleset_name": "bother, cause stress in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bothering",
+        "descr_trans": "造成困扰的人"
+      },
+      {
+        "n": "1",
+        "descr": "bothered",
+        "descr_trans": "烦恼"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of bothering",
+        "descr_trans": "打扰的工具"
+      }
+    ],
+    "roleset_name_trans": "打扰，造成压力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bug.02",
+    "roleset_name": "gain information via a planted electronic   recording device",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person or institution planting the device",
+        "descr_trans": "种植该装置的个人或机构"
+      },
+      {
+        "n": "1",
+        "descr": "person or institution being bugged",
+        "descr_trans": "被窃听的个人或机构"
+      }
+    ],
+    "roleset_name_trans": "通过植入的电子记录装置获取信息"
+  }
 ]

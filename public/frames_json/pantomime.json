@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pantomime.01",
-        "roleset_name": "communicate with gestures",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gesturer"
-            },
-            {
-                "n": "1",
-                "descr": "gesture itself"
-            },
-            {
-                "n": "2",
-                "descr": "gestered to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pantomime.01",
+    "roleset_name": "communicate with gestures",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gesturer",
+        "descr_trans": "手势"
+      },
+      {
+        "n": "1",
+        "descr": "gesture itself",
+        "descr_trans": "手势本身"
+      },
+      {
+        "n": "2",
+        "descr": "gestered to",
+        "descr_trans": "向"
+      }
+    ],
+    "roleset_name_trans": "通过手势进行交流"
+  }
 ]

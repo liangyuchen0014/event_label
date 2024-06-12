@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decode.01",
-        "roleset_name": "translate a coded message into readable message",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation, decoder"
-            },
-            {
-                "n": "1",
-                "descr": "message decoded"
-            },
-            {
-                "n": "2",
-                "descr": "end state, translation when separate mention from arg 1"
-            },
-            {
-                "n": "3",
-                "descr": "start state, code"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decode.01",
+    "roleset_name": "translate a coded message into readable message",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation, decoder",
+        "descr_trans": "转化的原因、解码器"
+      },
+      {
+        "n": "1",
+        "descr": "message decoded",
+        "descr_trans": "消息已解码"
+      },
+      {
+        "n": "2",
+        "descr": "end state, translation when separate mention from arg 1",
+        "descr_trans": "结束状态，与 arg 1 分开提及时的翻译"
+      },
+      {
+        "n": "3",
+        "descr": "start state, code",
+        "descr_trans": "起始状态、代码"
+      }
+    ],
+    "roleset_name_trans": "将编码消息转换为可读消息"
+  }
 ]

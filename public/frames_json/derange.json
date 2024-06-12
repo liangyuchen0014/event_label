@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "derange.01",
-        "roleset_name": "to upset the arrangement or sanity of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, thing deranged"
-            },
-            {
-                "n": "2",
-                "descr": "instrument when separate mention from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "derange.01",
+    "roleset_name": "to upset the arrangement or sanity of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, thing deranged",
+        "descr_trans": "经历者，事物疯狂"
+      },
+      {
+        "n": "2",
+        "descr": "instrument when separate mention from arg 0",
+        "descr_trans": "与 arg 0 分开提及时的仪器"
+      }
+    ],
+    "roleset_name_trans": "打乱安排或理智"
+  }
 ]

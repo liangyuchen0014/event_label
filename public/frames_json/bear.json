@@ -1,172 +1,207 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bear.01",
-        "roleset_name": "hold, support, endure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute of thing held"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bear.02",
-        "roleset_name": "bear children",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mother"
-            },
-            {
-                "n": "1",
-                "descr": "child"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bear.03",
-        "roleset_name": "move",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bear.06",
-        "roleset_name": "has relation to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "related topic"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bear_up.04",
-        "roleset_name": "survive, exist",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity existing"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "bear_out.05",
-        "roleset_name": "bear out: confirm?  support again?",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "confirmer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing confirmed, patient"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "bear_down.09",
-        "roleset_name": "intensify effort, exert pressure on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity bearing down"
-            },
-            {
-                "n": "1",
-                "descr": "pressure exerted on"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "bear_down.10",
-        "roleset_name": "approach in a determined manner (possibly from windward)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity approaching"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "bore.07",
-        "roleset_name": "create a hole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator of hole, agent"
-            },
-            {
-                "n": "1",
-                "descr": "hole"
-            },
-            {
-                "n": "2",
-                "descr": "location of hole"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "bore.08",
-        "roleset_name": "be dull, experiencing boredom",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boring entity"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of boredom"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier (the heck, etc)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bear.01",
+    "roleset_name": "hold, support, endure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute of thing held",
+        "descr_trans": "所持有事物的次要属性"
+      }
+    ],
+    "roleset_name_trans": "持有、支持、忍受"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bear.02",
+    "roleset_name": "bear children",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mother",
+        "descr_trans": "母亲"
+      },
+      {
+        "n": "1",
+        "descr": "child",
+        "descr_trans": "孩子"
+      }
+    ],
+    "roleset_name_trans": "熊孩子"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bear.03",
+    "roleset_name": "move",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "移动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bear.06",
+    "roleset_name": "has relation to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "related topic",
+        "descr_trans": "相关主题"
+      }
+    ],
+    "roleset_name_trans": "有关系到"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bear_up.04",
+    "roleset_name": "survive, exist",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity existing",
+        "descr_trans": "现有实体"
+      }
+    ],
+    "roleset_name_trans": "生存，存在"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "bear_out.05",
+    "roleset_name": "bear out: confirm?  support again?",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "confirmer, agent",
+        "descr_trans": "确认，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing confirmed, patient",
+        "descr_trans": "事情已确认，耐心等待"
+      }
+    ],
+    "roleset_name_trans": "证实：确认？再次支持？"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "bear_down.09",
+    "roleset_name": "intensify effort, exert pressure on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity bearing down",
+        "descr_trans": "实体压低"
+      },
+      {
+        "n": "1",
+        "descr": "pressure exerted on",
+        "descr_trans": "施加的压力"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "加大力度，加大压力"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "bear_down.10",
+    "roleset_name": "approach in a determined manner (possibly from windward)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity approaching",
+        "descr_trans": "实体接近"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "以坚定的方式接近（可能从上风方向）"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "bore.07",
+    "roleset_name": "create a hole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator of hole, agent",
+        "descr_trans": "空洞的创造者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "hole",
+        "descr_trans": "洞"
+      },
+      {
+        "n": "2",
+        "descr": "location of hole",
+        "descr_trans": "孔的位置"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "创建一个洞"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "bore.08",
+    "roleset_name": "be dull, experiencing boredom",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boring entity",
+        "descr_trans": "无聊的实体"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of boredom",
+        "descr_trans": "无聊的体验者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier (the heck, etc)",
+        "descr_trans": "增强器（哎呀，等等）"
+      }
+    ],
+    "roleset_name_trans": "变得迟钝，感到无聊"
+  }
 ]

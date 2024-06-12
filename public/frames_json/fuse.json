@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fuse.01",
-        "roleset_name": "melt into lump, melting together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fusing"
-            },
-            {
-                "n": "1",
-                "descr": "ingredient one"
-            },
-            {
-                "n": "2",
-                "descr": "ingredient two"
-            },
-            {
-                "n": "3",
-                "descr": "end product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fuse.01",
+    "roleset_name": "melt into lump, melting together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fusing",
+        "descr_trans": "熔断原因"
+      },
+      {
+        "n": "1",
+        "descr": "ingredient one",
+        "descr_trans": "成分一"
+      },
+      {
+        "n": "2",
+        "descr": "ingredient two",
+        "descr_trans": "成分二"
+      },
+      {
+        "n": "3",
+        "descr": "end product",
+        "descr_trans": "成品"
+      }
+    ],
+    "roleset_name_trans": "融化成块，融化在一起"
+  }
 ]

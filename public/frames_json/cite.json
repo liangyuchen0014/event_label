@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cite.01",
-        "roleset_name": "refer to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "citer"
-            },
-            {
-                "n": "1",
-                "descr": "thing cited"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, cited-as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cite.02",
-        "roleset_name": "give legal summons, ticket",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of ticket"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving citation"
-            },
-            {
-                "n": "2",
-                "descr": "criminal misdeed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cite.01",
+    "roleset_name": "refer to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "citer",
+        "descr_trans": "去引用"
+      },
+      {
+        "n": "1",
+        "descr": "thing cited",
+        "descr_trans": "引用的事情"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, cited-as",
+        "descr_trans": "次要属性，引用为"
+      }
+    ],
+    "roleset_name_trans": "参考"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cite.02",
+    "roleset_name": "give legal summons, ticket",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of ticket",
+        "descr_trans": "门票提供者"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving citation",
+        "descr_trans": "收到传票的实体"
+      },
+      {
+        "n": "2",
+        "descr": "criminal misdeed",
+        "descr_trans": "刑事犯罪"
+      }
+    ],
+    "roleset_name_trans": "发出合法传票、罚单"
+  }
 ]

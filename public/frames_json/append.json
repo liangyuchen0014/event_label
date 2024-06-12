@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "append.01",
-        "roleset_name": "attach to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher"
-            },
-            {
-                "n": "1",
-                "descr": "attached"
-            },
-            {
-                "n": "2",
-                "descr": "attached to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "append.01",
+    "roleset_name": "attach to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher",
+        "descr_trans": "附"
+      },
+      {
+        "n": "1",
+        "descr": "attached",
+        "descr_trans": "随附的"
+      },
+      {
+        "n": "2",
+        "descr": "attached to",
+        "descr_trans": "附于"
+      }
+    ],
+    "roleset_name_trans": "附加到"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scrub.01",
-        "roleset_name": "clean with some difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cleaner, scrubber"
-            },
-            {
-                "n": "1",
-                "descr": "was dirty, now clean"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scrub_up.02",
-        "roleset_name": "achieve cleanliness, with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scrubber"
-            },
-            {
-                "n": "1",
-                "descr": "was dirty, now clean"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scrub.01",
+    "roleset_name": "clean with some difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cleaner, scrubber",
+        "descr_trans": "清洁器、洗涤器"
+      },
+      {
+        "n": "1",
+        "descr": "was dirty, now clean",
+        "descr_trans": "以前很脏，现在很干净"
+      }
+    ],
+    "roleset_name_trans": "清洁有一定困难"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scrub_up.02",
+    "roleset_name": "achieve cleanliness, with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scrubber",
+        "descr_trans": "洗涤器"
+      },
+      {
+        "n": "1",
+        "descr": "was dirty, now clean",
+        "descr_trans": "以前很脏，现在很干净"
+      }
+    ],
+    "roleset_name_trans": "实现清洁，有困难"
+  }
 ]

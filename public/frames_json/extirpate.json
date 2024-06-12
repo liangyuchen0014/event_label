@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extirpate.01",
-        "roleset_name": "remove or destroy totally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing destroyed"
-            },
-            {
-                "n": "2",
-                "descr": "place cleared of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extirpate.01",
+    "roleset_name": "remove or destroy totally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer, agent",
+        "descr_trans": "驱逐舰、特工"
+      },
+      {
+        "n": "1",
+        "descr": "thing destroyed",
+        "descr_trans": "东西被毁了"
+      },
+      {
+        "n": "2",
+        "descr": "place cleared of arg1",
+        "descr_trans": "已清除 arg1 的位置"
+      }
+    ],
+    "roleset_name_trans": "完全移除或销毁"
+  }
 ]

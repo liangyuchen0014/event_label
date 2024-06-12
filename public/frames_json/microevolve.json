@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "microevolve.01",
-        "roleset_name": "evolution within a species, sometimes resulting in new subspecies",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "evolving entity"
-            },
-            {
-                "n": "2",
-                "descr": "descendent (end state)"
-            },
-            {
-                "n": "3",
-                "descr": "ancestor (start state)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "microevolve.01",
+    "roleset_name": "evolution within a species, sometimes resulting in new subspecies",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "evolving entity",
+        "descr_trans": "进化的实体"
+      },
+      {
+        "n": "2",
+        "descr": "descendent (end state)",
+        "descr_trans": "后代（最终状态）"
+      },
+      {
+        "n": "3",
+        "descr": "ancestor (start state)",
+        "descr_trans": "祖先（起始状态）"
+      }
+    ],
+    "roleset_name_trans": "物种内部的进化，有时会产生新的亚种"
+  }
 ]

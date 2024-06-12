@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disorganize.01",
-        "roleset_name": "cause to be no longer organized",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity disorganized"
-            },
-            {
-                "n": "2",
-                "descr": "result, attribute of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disorganize.01",
+    "roleset_name": "cause to be no longer organized",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity disorganized",
+        "descr_trans": "实体混乱"
+      },
+      {
+        "n": "2",
+        "descr": "result, attribute of arg 1",
+        "descr_trans": "结果，arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "导致不再有组织"
+  }
 ]

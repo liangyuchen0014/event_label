@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "except.01",
-        "roleset_name": "to leave out, exclude",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity causing/making exception"
-            },
-            {
-                "n": "1",
-                "descr": "Entity excepted, excluded"
-            },
-            {
-                "n": "2",
-                "descr": "Excluded/excepted from what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "except.02",
-        "roleset_name": "to object, legal domain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Lawyer, entity objecting"
-            },
-            {
-                "n": "1",
-                "descr": "Thing objected-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "except.01",
+    "roleset_name": "to leave out, exclude",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity causing/making exception",
+        "descr_trans": "实体引发/制造异常"
+      },
+      {
+        "n": "1",
+        "descr": "Entity excepted, excluded",
+        "descr_trans": "实体除外，排除"
+      },
+      {
+        "n": "2",
+        "descr": "Excluded/excepted from what?",
+        "descr_trans": "排除/排除什么？"
+      }
+    ],
+    "roleset_name_trans": "遗漏，排除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "except.02",
+    "roleset_name": "to object, legal domain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Lawyer, entity objecting",
+        "descr_trans": "律师、实体异议"
+      },
+      {
+        "n": "1",
+        "descr": "Thing objected-to",
+        "descr_trans": "反对的事物"
+      }
+    ],
+    "roleset_name_trans": "反对，合法领域"
+  }
 ]

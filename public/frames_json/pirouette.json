@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pirouette.01",
-        "roleset_name": "pirouette",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of pirouette (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "pirouetter, theme (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of pirouette"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pirouette.01",
+    "roleset_name": "pirouette",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of pirouette (transitive subject)",
+        "descr_trans": "代理人，旋转的原因（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "pirouetter, theme (intransitive subject, transitive object)",
+        "descr_trans": "pirouetter，主题（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of pirouette",
+        "descr_trans": "旋转的位置"
+      }
+    ],
+    "roleset_name_trans": "旋转"
+  }
 ]

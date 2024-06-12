@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "equivalent.01",
-        "roleset_name": "equal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "focus, one side of equation or equal things in one mention"
-            },
-            {
-                "n": "2",
-                "descr": "other side of equation when separate mention"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, quality in which args are equal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "equivalent.01",
+    "roleset_name": "equal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "focus, one side of equation or equal things in one mention",
+        "descr_trans": "焦点、等式的一侧或一次提及的同等事物"
+      },
+      {
+        "n": "2",
+        "descr": "other side of equation when separate mention",
+        "descr_trans": "单独提及时等式的另一边"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, quality in which args are equal",
+        "descr_trans": "属性，参数相等的质量"
+      }
+    ],
+    "roleset_name_trans": "平等的"
+  }
 ]

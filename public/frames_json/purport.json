@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "purport.01",
-        "roleset_name": "claim, pretend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "claimer"
-            },
-            {
-                "n": "1",
-                "descr": "thing claimed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "purport.01",
+    "roleset_name": "claim, pretend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "claimer",
+        "descr_trans": "索赔"
+      },
+      {
+        "n": "1",
+        "descr": "thing claimed",
+        "descr_trans": "声称的东西"
+      }
+    ],
+    "roleset_name_trans": "声称，假装"
+  }
 ]

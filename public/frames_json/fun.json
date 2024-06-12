@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fun.01",
-        "roleset_name": "enjoyment, amusement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Experiencer of fun"
-            },
-            {
-                "n": "1",
-                "descr": "Stimulus, what was fun/enjoyed?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "funny.02",
-        "roleset_name": "amusing, humorous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "amusing thing (concatenate if necessary)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "funny.03",
-        "roleset_name": "odd, possibly suspicious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "strange/suspicious thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "make_fun.04",
-        "roleset_name": "make fun of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mocker"
-            },
-            {
-                "n": "1",
-                "descr": "mocked"
-            },
-            {
-                "n": "2",
-                "descr": "reason, what's so funny"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fun.01",
+    "roleset_name": "enjoyment, amusement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Experiencer of fun",
+        "descr_trans": "乐趣的体验者"
+      },
+      {
+        "n": "1",
+        "descr": "Stimulus, what was fun/enjoyed?",
+        "descr_trans": "刺激，什么有趣/享受？"
+      }
+    ],
+    "roleset_name_trans": "享受、娱乐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "funny.02",
+    "roleset_name": "amusing, humorous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "amusing thing (concatenate if necessary)",
+        "descr_trans": "有趣的事情（必要时连接）"
+      }
+    ],
+    "roleset_name_trans": "有趣的，幽默的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "funny.03",
+    "roleset_name": "odd, possibly suspicious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "strange/suspicious thing",
+        "descr_trans": "奇怪/可疑的事情"
+      }
+    ],
+    "roleset_name_trans": "奇怪的，可能可疑的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "make_fun.04",
+    "roleset_name": "make fun of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mocker",
+        "descr_trans": "嘲笑者"
+      },
+      {
+        "n": "1",
+        "descr": "mocked",
+        "descr_trans": "嘲笑"
+      },
+      {
+        "n": "2",
+        "descr": "reason, what's so funny",
+        "descr_trans": "理由，有什么好笑的"
+      }
+    ],
+    "roleset_name_trans": "开玩笑"
+  }
 ]

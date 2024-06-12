@@ -1,111 +1,133 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "warm.01",
-        "roleset_name": "(cause to) become warm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of warmth"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming warm"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "warm.03",
-        "roleset_name": "become receptive to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity becoming receptive"
-            },
-            {
-                "n": "1",
-                "descr": "to what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "warm.06",
-        "roleset_name": "be socially welcoming, nice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of warm behavior"
-            },
-            {
-                "n": "1",
-                "descr": "warm behavior"
-            },
-            {
-                "n": "2",
-                "descr": "target of warm behavior"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "warm.07",
-        "roleset_name": "(become) comfortably above average temperature",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of warmth"
-            },
-            {
-                "n": "1",
-                "descr": "warm thing (not 'it', if refering to empty weather pronoun)"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "warm_up.02",
-        "roleset_name": "(cause to) become warm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of warmth"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming warm"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "warm_up.05",
-        "roleset_name": "warm-up: become receptive to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity becoming receptive"
-            },
-            {
-                "n": "1",
-                "descr": "to what?"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "warm_over.04",
-        "roleset_name": "warm slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of warming"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming warm"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "warm.01",
+    "roleset_name": "(cause to) become warm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of warmth",
+        "descr_trans": "温暖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming warm",
+        "descr_trans": "事物变得温暖"
+      }
+    ],
+    "roleset_name_trans": "（使）变得温暖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "warm.03",
+    "roleset_name": "become receptive to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity becoming receptive",
+        "descr_trans": "实体变得有接受性"
+      },
+      {
+        "n": "1",
+        "descr": "to what?",
+        "descr_trans": "到什么？"
+      }
+    ],
+    "roleset_name_trans": "变得容易接受"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "warm.06",
+    "roleset_name": "be socially welcoming, nice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of warm behavior",
+        "descr_trans": "温暖行为的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "warm behavior",
+        "descr_trans": "温暖的行为"
+      },
+      {
+        "n": "2",
+        "descr": "target of warm behavior",
+        "descr_trans": "温暖行为的目标"
+      }
+    ],
+    "roleset_name_trans": "善于社交、友善"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "warm.07",
+    "roleset_name": "(become) comfortably above average temperature",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of warmth",
+        "descr_trans": "温暖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "warm thing (not 'it', if refering to empty weather pronoun)",
+        "descr_trans": "温暖的东西（不是“它”，如果指的是空旷的天气代词）"
+      }
+    ],
+    "roleset_name_trans": "（变得）舒适地高于平均温度"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "warm_up.02",
+    "roleset_name": "(cause to) become warm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of warmth",
+        "descr_trans": "温暖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming warm",
+        "descr_trans": "事物变得温暖"
+      }
+    ],
+    "roleset_name_trans": "（使）变得温暖"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "warm_up.05",
+    "roleset_name": "warm-up: become receptive to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity becoming receptive",
+        "descr_trans": "实体变得有接受性"
+      },
+      {
+        "n": "1",
+        "descr": "to what?",
+        "descr_trans": "到什么？"
+      }
+    ],
+    "roleset_name_trans": "热身：变得容易接受"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "warm_over.04",
+    "roleset_name": "warm slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of warming",
+        "descr_trans": "变暖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming warm",
+        "descr_trans": "事物变得温暖"
+      }
+    ],
+    "roleset_name_trans": "稍微温暖"
+  }
 ]

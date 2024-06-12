@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonexistent.01",
-        "roleset_name": "doesn't exist",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that doesn't exist"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonexistent.01",
+    "roleset_name": "doesn't exist",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that doesn't exist",
+        "descr_trans": "不存在的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "不存在"
+  }
 ]

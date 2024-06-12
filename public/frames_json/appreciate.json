@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appreciate.01",
-        "roleset_name": "increase in value",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appreciate.02",
-        "roleset_name": "esteem, value, have a fondness for, regard judgment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emoter"
-            },
-            {
-                "n": "1",
-                "descr": "thing appreciated"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "appreciate.03",
-        "roleset_name": "notice, discover",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "noticer"
-            },
-            {
-                "n": "1",
-                "descr": "thing noticed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appreciate.01",
+    "roleset_name": "increase in value",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "增值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appreciate.02",
+    "roleset_name": "esteem, value, have a fondness for, regard judgment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emoter",
+        "descr_trans": "表情者"
+      },
+      {
+        "n": "1",
+        "descr": "thing appreciated",
+        "descr_trans": "值得赞赏的事情"
+      }
+    ],
+    "roleset_name_trans": "尊重、重视、喜爱、尊重判断"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "appreciate.03",
+    "roleset_name": "notice, discover",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "noticer",
+        "descr_trans": "通知者"
+      },
+      {
+        "n": "1",
+        "descr": "thing noticed",
+        "descr_trans": "注意到的事情"
+      }
+    ],
+    "roleset_name_trans": "注意到、发现"
+  }
 ]

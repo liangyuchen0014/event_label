@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "anneal.01",
-        "roleset_name": "temper (strengthen), and possibly attach, by heating and cooling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing heated and cooled"
-            },
-            {
-                "n": "2",
-                "descr": "temperature"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state, secondary predication"
-            },
-            {
-                "n": "5",
-                "descr": "adhered to, as a result of melting and hardening"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "anneal.01",
+    "roleset_name": "temper (strengthen), and possibly attach, by heating and cooling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing heated and cooled",
+        "descr_trans": "物体被加热和冷却"
+      },
+      {
+        "n": "2",
+        "descr": "temperature",
+        "descr_trans": "温度"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state, secondary predication",
+        "descr_trans": "最终状态，二次预测"
+      },
+      {
+        "n": "5",
+        "descr": "adhered to, as a result of melting and hardening",
+        "descr_trans": "由于熔化和硬化而粘附"
+      }
+    ],
+    "roleset_name_trans": "通过加热和冷却回火（强化）并可能附着"
+  }
 ]

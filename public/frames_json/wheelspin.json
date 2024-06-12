@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wheelspin.01",
-        "roleset_name": "spin the wheels",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing wheelspun (us. vehicle or specific wheels)"
-            },
-            {
-                "n": "2",
-                "descr": "entity run over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wheelspin.01",
+    "roleset_name": "spin the wheels",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing wheelspun (us. vehicle or specific wheels)",
+        "descr_trans": "轮子的东西（美国车辆或特定的车轮）"
+      },
+      {
+        "n": "2",
+        "descr": "entity run over",
+        "descr_trans": "实体碾压"
+      }
+    ],
+    "roleset_name_trans": "转动轮子"
+  }
 ]

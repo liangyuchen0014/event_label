@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clap.01",
-        "roleset_name": "strike, as hands",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clapper"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) struck"
-            },
-            {
-                "n": "2",
-                "descr": "other thing struck, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clap.01",
+    "roleset_name": "strike, as hands",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clapper",
+        "descr_trans": "拍板"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) struck",
+        "descr_trans": "物体撞击"
+      },
+      {
+        "n": "2",
+        "descr": "other thing struck, location",
+        "descr_trans": "其他发生的事情，地点"
+      }
+    ],
+    "roleset_name_trans": "罢工，如手"
+  }
 ]

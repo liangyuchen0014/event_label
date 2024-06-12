@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dazzle.01",
-        "roleset_name": "cause amazement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus of amazement"
-            },
-            {
-                "n": "1",
-                "descr": "bedazzled entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dazzle.01",
+    "roleset_name": "cause amazement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus of amazement",
+        "descr_trans": "惊奇的刺激"
+      },
+      {
+        "n": "1",
+        "descr": "bedazzled entity",
+        "descr_trans": "令人眼花缭乱的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "引起惊讶"
+  }
 ]

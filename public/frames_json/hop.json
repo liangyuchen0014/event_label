@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hop.01",
-        "roleset_name": "manner of motion, jumping",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hopper"
-            },
-            {
-                "n": "3",
-                "descr": "Source"
-            },
-            {
-                "n": "4",
-                "descr": "Destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hop.02",
-        "roleset_name": "catch a ride",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity catching a ride"
-            },
-            {
-                "n": "1",
-                "descr": "the ride"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hop.01",
+    "roleset_name": "manner of motion, jumping",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hopper",
+        "descr_trans": "料斗"
+      },
+      {
+        "n": "3",
+        "descr": "Source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "4",
+        "descr": "Destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "运动方式、跳跃"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hop.02",
+    "roleset_name": "catch a ride",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity catching a ride",
+        "descr_trans": "搭便车的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the ride",
+        "descr_trans": "骑行"
+      }
+    ],
+    "roleset_name_trans": "搭便车"
+  }
 ]

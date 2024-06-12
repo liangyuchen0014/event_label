@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suckle.01",
-        "roleset_name": "suckle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one giving suckle"
-            },
-            {
-                "n": "1",
-                "descr": "thing given (milk, etc.)"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, thing suckling"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suckle.01",
+    "roleset_name": "suckle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one giving suckle",
+        "descr_trans": "代理，一给奶"
+      },
+      {
+        "n": "1",
+        "descr": "thing given (milk, etc.)",
+        "descr_trans": "给予的东西（牛奶等）"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, thing suckling",
+        "descr_trans": "接受者，哺乳的东西"
+      }
+    ],
+    "roleset_name_trans": "哺乳"
+  }
 ]

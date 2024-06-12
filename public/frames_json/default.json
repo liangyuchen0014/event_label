@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "default.01",
-        "roleset_name": "fail, fail to be able to pay",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "group/entity unable to pay"
-            },
-            {
-                "n": "2",
-                "descr": "what they can't pay for"
-            },
-            {
-                "n": "3",
-                "descr": "loaner of money"
-            },
-            {
-                "n": "4",
-                "descr": "amount of money"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "default.02",
-        "roleset_name": "automatic selection of an option in absense of intervention",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing activating default selection"
-            },
-            {
-                "n": "2",
-                "descr": "the selection that is that default"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "default.01",
+    "roleset_name": "fail, fail to be able to pay",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "group/entity unable to pay",
+        "descr_trans": "无法付款的团体/实体"
+      },
+      {
+        "n": "2",
+        "descr": "what they can't pay for",
+        "descr_trans": "他们无法支付的费用"
+      },
+      {
+        "n": "3",
+        "descr": "loaner of money",
+        "descr_trans": "借钱人"
+      },
+      {
+        "n": "4",
+        "descr": "amount of money",
+        "descr_trans": "金钱数额"
+      }
+    ],
+    "roleset_name_trans": "失败，无法支付"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "default.02",
+    "roleset_name": "automatic selection of an option in absense of intervention",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing activating default selection",
+        "descr_trans": "激活默认选择的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the selection that is that default",
+        "descr_trans": "默认选择"
+      }
+    ],
+    "roleset_name_trans": "在没有干预的情况下自动选择选项"
+  }
 ]

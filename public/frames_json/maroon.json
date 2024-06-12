@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "maroon.01",
-        "roleset_name": "abandon in a remote place, e.g. a desert island",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner"
-            },
-            {
-                "n": "1",
-                "descr": "entity abandoned"
-            },
-            {
-                "n": "2",
-                "descr": "desert island"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "maroon.01",
+    "roleset_name": "abandon in a remote place, e.g. a desert island",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner",
+        "descr_trans": "放弃"
+      },
+      {
+        "n": "1",
+        "descr": "entity abandoned",
+        "descr_trans": "实体被遗弃"
+      },
+      {
+        "n": "2",
+        "descr": "desert island",
+        "descr_trans": "沙漠荒岛"
+      }
+    ],
+    "roleset_name_trans": "遗弃在偏远的地方，例如荒岛"
+  }
 ]

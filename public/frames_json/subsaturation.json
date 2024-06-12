@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subsaturation.01",
-        "roleset_name": "not being fully saturated, or saturated enough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer"
-            },
-            {
-                "n": "1",
-                "descr": "location, thing saturated"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subsaturation.01",
+    "roleset_name": "not being fully saturated, or saturated enough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "location, thing saturated",
+        "descr_trans": "位置，东西饱和"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "未完全饱和或饱和得不够"
+  }
 ]

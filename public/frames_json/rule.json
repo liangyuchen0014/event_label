@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rule.01",
-        "roleset_name": "the act of deciding, regulation, law, decide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lawmaker, rule creator"
-            },
-            {
-                "n": "1",
-                "descr": "domain the rule applies to"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (entities following the rule)"
-            },
-            {
-                "n": "3",
-                "descr": "specifics of the rule itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rule.03",
-        "roleset_name": "show leadership",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ruler, leader"
-            },
-            {
-                "n": "1",
-                "descr": "unwashed masses, minions"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rule_out.02",
-        "roleset_name": "eliminate from consideration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator"
-            },
-            {
-                "n": "1",
-                "descr": "thing eliminated"
-            },
-            {
-                "n": "2",
-                "descr": "eliminated from (?)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rule.01",
+    "roleset_name": "the act of deciding, regulation, law, decide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lawmaker, rule creator",
+        "descr_trans": "立法者、规则制定者"
+      },
+      {
+        "n": "1",
+        "descr": "domain the rule applies to",
+        "descr_trans": "规则适用的域"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (entities following the rule)",
+        "descr_trans": "受益人（遵循规则的实体）"
+      },
+      {
+        "n": "3",
+        "descr": "specifics of the rule itself",
+        "descr_trans": "规则本身的细节"
+      }
+    ],
+    "roleset_name_trans": "决定、规定、法律、决定的行为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rule.03",
+    "roleset_name": "show leadership",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ruler, leader",
+        "descr_trans": "统治者、领导者"
+      },
+      {
+        "n": "1",
+        "descr": "unwashed masses, minions",
+        "descr_trans": "未洗过的群众、奴才"
+      }
+    ],
+    "roleset_name_trans": "展现领导力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rule_out.02",
+    "roleset_name": "eliminate from consideration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator",
+        "descr_trans": "消除器"
+      },
+      {
+        "n": "1",
+        "descr": "thing eliminated",
+        "descr_trans": "消除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "eliminated from (?)",
+        "descr_trans": "从 (?) 中消除"
+      }
+    ],
+    "roleset_name_trans": "排除在考虑范围之外"
+  }
 ]

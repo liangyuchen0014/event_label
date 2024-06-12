@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sanction.01",
-        "roleset_name": "approve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "approver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity approved"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sanction.02",
-        "roleset_name": "punish by applying legal sanctions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity enforcing sanctions"
-            },
-            {
-                "n": "1",
-                "descr": "entity being punished"
-            },
-            {
-                "n": "2",
-                "descr": "sanctions, manner of punishment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sanction.01",
+    "roleset_name": "approve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "approver, agent",
+        "descr_trans": "审批人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity approved",
+        "descr_trans": "实体批准"
+      }
+    ],
+    "roleset_name_trans": "批准"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sanction.02",
+    "roleset_name": "punish by applying legal sanctions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity enforcing sanctions",
+        "descr_trans": "执行制裁的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being punished",
+        "descr_trans": "受处罚实体"
+      },
+      {
+        "n": "2",
+        "descr": "sanctions, manner of punishment",
+        "descr_trans": "制裁、惩罚方式"
+      }
+    ],
+    "roleset_name_trans": "采取法律制裁措施"
+  }
 ]

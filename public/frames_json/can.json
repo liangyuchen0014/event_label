@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "can.01",
-        "roleset_name": "put into tins",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "canner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "substance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "can.02",
-        "roleset_name": "fire (metphorical extension of 'throw away')",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "ex-employee (thing thrown away)"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "can.01",
+    "roleset_name": "put into tins",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "canner, agent",
+        "descr_trans": "罐头，代理商"
+      },
+      {
+        "n": "1",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "放入罐中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "can.02",
+    "roleset_name": "fire (metphorical extension of 'throw away')",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "ex-employee (thing thrown away)",
+        "descr_trans": "前雇员（扔掉的东西）"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "火（“扔掉”的隐喻延伸）"
+  }
 ]

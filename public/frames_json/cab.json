@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cab.01",
-        "roleset_name": "drive, ferry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver or causer of cabbing"
-            },
-            {
-                "n": "1",
-                "descr": "passenger"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            },
-            {
-                "n": "4",
-                "descr": "location, path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cab.01",
+    "roleset_name": "drive, ferry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver or causer of cabbing",
+        "descr_trans": "出租车代理人、司机或肇事者"
+      },
+      {
+        "n": "1",
+        "descr": "passenger",
+        "descr_trans": "乘客"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "4",
+        "descr": "location, path",
+        "descr_trans": "位置、路径"
+      }
+    ],
+    "roleset_name_trans": "驾车、渡轮"
+  }
 ]

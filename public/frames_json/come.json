@@ -1,479 +1,575 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "come.01",
-        "roleset_name": "motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion / 'comer'"
-            },
-            {
-                "n": "2",
-                "descr": "extent -- rare"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "come.02",
-        "roleset_name": "pursue (often with after), pursuing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pursuer"
-            },
-            {
-                "n": "1",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "come.03",
-        "roleset_name": "arise (from)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing (often state) arising"
-            },
-            {
-                "n": "2",
-                "descr": "source, basis on which arg1 comes to be  (not start point of motion!)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "come.04",
-        "roleset_name": "become, arrive at a certain state of being",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "object"
-            },
-            {
-                "n": "2",
-                "descr": "attribute on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "come.05",
-        "roleset_name": "pertaining to inclusion in a purchase",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "commodity"
-            },
-            {
-                "n": "2",
-                "descr": "what else is included"
-            },
-            {
-                "n": "3",
-                "descr": "non-monetary descriptor of price"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "come.12",
-        "roleset_name": "come to: speaking of",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "come.16",
-        "roleset_name": "ring up at a certain monetary value",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing(s) being counted"
-            },
-            {
-                "n": "2",
-                "descr": "sum, total, amount"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "come.28",
-        "roleset_name": "serial verb construction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject"
-            },
-            {
-                "n": "1",
-                "descr": "subsequent action"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "come.33",
-        "roleset_name": "spatial extension (fictive motion)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity existing as an extension of another entity"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            },
-            {
-                "n": "3",
-                "descr": "source, first boundary"
-            },
-            {
-                "n": "4",
-                "descr": "end point, second boundary"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "come_to_terms.14",
-        "roleset_name": "acclimate to fate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity coming to terms"
-            },
-            {
-                "n": "2",
-                "descr": "with who/what"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "come_about.06",
-        "roleset_name": "occur, as a result of circumstances",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "object"
-            },
-            {
-                "n": "2",
-                "descr": "attribute on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "come_in.07",
-        "roleset_name": "arrive on the scene in a particular state, enter ranking",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being described"
-            },
-            {
-                "n": "2",
-                "descr": "state, attribute"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "come_on.08",
-        "roleset_name": "activate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing being turned on"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "come_on.25",
-        "roleset_name": "discoursey, but based on motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who needs to get with the program (and maybe move)"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "come_on.29",
-        "roleset_name": "progress, develop, come across",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing progressing, coming on"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "come_out.09",
-        "roleset_name": "appear",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, originator of arg1"
-            },
-            {
-                "n": "1",
-                "descr": "thing appearing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "come_out.10",
-        "roleset_name": "become publicly gay (or publicly announce some other attribute that was formerly kept secret)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person coming out"
-            },
-            {
-                "n": "1",
-                "descr": "state made public"
-            },
-            {
-                "n": "2",
-                "descr": "public audience"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "come_up.11",
-        "roleset_name": "devise, bring forth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deviser"
-            },
-            {
-                "n": "1",
-                "descr": "thing devised, brought forth, come up with"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "come_up.13",
-        "roleset_name": "arise unexpectedly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing arising"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "come_across.15",
-        "roleset_name": "seem, be seen as",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing coming across"
-            },
-            {
-                "n": "2",
-                "descr": "attribute- come across how/as what"
-            },
-            {
-                "n": "3",
-                "descr": "perceiver"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "come_across.21",
-        "roleset_name": "find, discover, usually unintentionally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "come_through.17",
-        "roleset_name": "fulfill, live up to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fulfuller, agent"
-            },
-            {
-                "n": "1",
-                "descr": "plans,promises, etc"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "come_through.18",
-        "roleset_name": "become apparent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming apparent"
-            }
-        ]
-    },
-    {
-        "uid": 24,
-        "roleset_id": "come_along.19",
-        "roleset_name": "progress",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing progressing"
-            }
-        ]
-    },
-    {
-        "uid": 25,
-        "roleset_id": "come_by.20",
-        "roleset_name": "come by: acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acquirer"
-            },
-            {
-                "n": "1",
-                "descr": "acquired"
-            }
-        ]
-    },
-    {
-        "uid": 26,
-        "roleset_id": "come_down.22",
-        "roleset_name": "come down with an illness",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness"
-            }
-        ]
-    },
-    {
-        "uid": 27,
-        "roleset_id": "come_down.23",
-        "roleset_name": "it comes down to x (results in/responsibility of)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "it, thing coming down"
-            },
-            {
-                "n": "2",
-                "descr": "person/summerization (what it comes down to)"
-            }
-        ]
-    },
-    {
-        "uid": 28,
-        "roleset_id": "come_upon.26",
-        "roleset_name": "find, discover, stumble upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            }
-        ]
-    },
-    {
-        "uid": 29,
-        "roleset_id": "come_to.27",
-        "roleset_name": "regain consciousness",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity regaining consciousness"
-            }
-        ]
-    },
-    {
-        "uid": 30,
-        "roleset_id": "come_forward.31",
-        "roleset_name": "volunteer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "volunteer"
-            },
-            {
-                "n": "1",
-                "descr": "for what activity, cause"
-            }
-        ]
-    },
-    {
-        "uid": 31,
-        "roleset_id": "come_around.32",
-        "roleset_name": "change one's mind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity changing mind"
-            },
-            {
-                "n": "1",
-                "descr": "new idea"
-            },
-            {
-                "n": "2",
-                "descr": "old idea"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "come.01",
+    "roleset_name": "motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion / 'comer'",
+        "descr_trans": "运动中的实体/“来者”"
+      },
+      {
+        "n": "2",
+        "descr": "extent -- rare",
+        "descr_trans": "程度——罕见"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "come.02",
+    "roleset_name": "pursue (often with after), pursuing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pursuer",
+        "descr_trans": "追赶者"
+      },
+      {
+        "n": "1",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "追求（通常与after一起），追求"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "come.03",
+    "roleset_name": "arise (from)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing (often state) arising",
+        "descr_trans": "事物（通常是陈述）产生"
+      },
+      {
+        "n": "2",
+        "descr": "source, basis on which arg1 comes to be  (not start point of motion!)",
+        "descr_trans": "源，arg1 形成的基础（不是运动的起点！）"
+      }
+    ],
+    "roleset_name_trans": "源自）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "come.04",
+    "roleset_name": "become, arrive at a certain state of being",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "object",
+        "descr_trans": "目的"
+      },
+      {
+        "n": "2",
+        "descr": "attribute on arg1",
+        "descr_trans": "arg1 上的属性"
+      }
+    ],
+    "roleset_name_trans": "成为，达到某种存在状态"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "come.05",
+    "roleset_name": "pertaining to inclusion in a purchase",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "what else is included",
+        "descr_trans": "还包括什么"
+      },
+      {
+        "n": "3",
+        "descr": "non-monetary descriptor of price",
+        "descr_trans": "价格的非货币描述符"
+      }
+    ],
+    "roleset_name_trans": "关于包含在购买中"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "come.12",
+    "roleset_name": "come to: speaking of",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "来到：谈到"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "come.16",
+    "roleset_name": "ring up at a certain monetary value",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing(s) being counted",
+        "descr_trans": "正在计算的事物"
+      },
+      {
+        "n": "2",
+        "descr": "sum, total, amount",
+        "descr_trans": "总和，总计，金额"
+      }
+    ],
+    "roleset_name_trans": "达到一定的货币价值"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "come.28",
+    "roleset_name": "serial verb construction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "subsequent action",
+        "descr_trans": "后续行动"
+      }
+    ],
+    "roleset_name_trans": "连续动词结构"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "come.33",
+    "roleset_name": "spatial extension (fictive motion)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity existing as an extension of another entity",
+        "descr_trans": "作为另一个实体的扩展而存在的实体"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      },
+      {
+        "n": "3",
+        "descr": "source, first boundary",
+        "descr_trans": "源头，第一边界"
+      },
+      {
+        "n": "4",
+        "descr": "end point, second boundary",
+        "descr_trans": "终点，第二个边界"
+      }
+    ],
+    "roleset_name_trans": "空间延伸（虚拟运动）"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "come_to_terms.14",
+    "roleset_name": "acclimate to fate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity coming to terms",
+        "descr_trans": "实体达成协议"
+      },
+      {
+        "n": "2",
+        "descr": "with who/what",
+        "descr_trans": "与谁/什么"
+      }
+    ],
+    "roleset_name_trans": "适应命运"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "come_about.06",
+    "roleset_name": "occur, as a result of circumstances",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "object",
+        "descr_trans": "目的"
+      },
+      {
+        "n": "2",
+        "descr": "attribute on arg1",
+        "descr_trans": "arg1 上的属性"
+      }
+    ],
+    "roleset_name_trans": "由于情况而发生"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "come_in.07",
+    "roleset_name": "arrive on the scene in a particular state, enter ranking",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "state, attribute",
+        "descr_trans": "状态、属性"
+      }
+    ],
+    "roleset_name_trans": "以特定状态到达场景，进入排名"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "come_on.08",
+    "roleset_name": "activate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing being turned on",
+        "descr_trans": "正在打开的东西"
+      }
+    ],
+    "roleset_name_trans": "启用"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "come_on.25",
+    "roleset_name": "discoursey, but based on motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who needs to get with the program (and maybe move)",
+        "descr_trans": "需要参与该计划（并且可能需要搬家）的实体"
+      }
+    ],
+    "roleset_name_trans": "话语性，但基于动作"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "come_on.29",
+    "roleset_name": "progress, develop, come across",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing progressing, coming on",
+        "descr_trans": "事情正在进展，即将到来"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "进步、发展、遇到"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "come_out.09",
+    "roleset_name": "appear",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, originator of arg1",
+        "descr_trans": "代理，arg1 的发起者"
+      },
+      {
+        "n": "1",
+        "descr": "thing appearing",
+        "descr_trans": "出现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "出现"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "come_out.10",
+    "roleset_name": "become publicly gay (or publicly announce some other attribute that was formerly kept secret)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person coming out",
+        "descr_trans": "出来的人"
+      },
+      {
+        "n": "1",
+        "descr": "state made public",
+        "descr_trans": "国家公开"
+      },
+      {
+        "n": "2",
+        "descr": "public audience",
+        "descr_trans": "公众观众"
+      }
+    ],
+    "roleset_name_trans": "公开成为同性恋（或公开宣布以前保密的其他一些属性）"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "come_up.11",
+    "roleset_name": "devise, bring forth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deviser",
+        "descr_trans": "设计者"
+      },
+      {
+        "n": "1",
+        "descr": "thing devised, brought forth, come up with",
+        "descr_trans": "设计出来的东西，产生的，想出的"
+      }
+    ],
+    "roleset_name_trans": "设计，产生"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "come_up.13",
+    "roleset_name": "arise unexpectedly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing arising",
+        "descr_trans": "事物产生"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "意外地出现"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "come_across.15",
+    "roleset_name": "seem, be seen as",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing coming across",
+        "descr_trans": "遇到的事情"
+      },
+      {
+        "n": "2",
+        "descr": "attribute- come across how/as what",
+        "descr_trans": "属性-遇到如何/作为什么"
+      },
+      {
+        "n": "3",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      }
+    ],
+    "roleset_name_trans": "看来，被视为"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "come_across.21",
+    "roleset_name": "find, discover, usually unintentionally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      }
+    ],
+    "roleset_name_trans": "发现，发现，通常是无意的"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "come_through.17",
+    "roleset_name": "fulfill, live up to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fulfuller, agent",
+        "descr_trans": "履行者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "plans,promises, etc",
+        "descr_trans": "计划、承诺等"
+      }
+    ],
+    "roleset_name_trans": "履行，不辜负"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "come_through.18",
+    "roleset_name": "become apparent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming apparent",
+        "descr_trans": "事情变得明显"
+      }
+    ],
+    "roleset_name_trans": "变得明显"
+  },
+  {
+    "uid": 24,
+    "roleset_id": "come_along.19",
+    "roleset_name": "progress",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing progressing",
+        "descr_trans": "事情进展"
+      }
+    ],
+    "roleset_name_trans": "进步"
+  },
+  {
+    "uid": 25,
+    "roleset_id": "come_by.20",
+    "roleset_name": "come by: acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acquirer",
+        "descr_trans": "收购"
+      },
+      {
+        "n": "1",
+        "descr": "acquired",
+        "descr_trans": "获得的"
+      }
+    ],
+    "roleset_name_trans": "来：获得"
+  },
+  {
+    "uid": 26,
+    "roleset_id": "come_down.22",
+    "roleset_name": "come down with an illness",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness",
+        "descr_trans": "疾病"
+      }
+    ],
+    "roleset_name_trans": "生病了"
+  },
+  {
+    "uid": 27,
+    "roleset_id": "come_down.23",
+    "roleset_name": "it comes down to x (results in/responsibility of)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "it, thing coming down",
+        "descr_trans": "它，东西下来了"
+      },
+      {
+        "n": "2",
+        "descr": "person/summerization (what it comes down to)",
+        "descr_trans": "人/总结（归结为什么）"
+      }
+    ],
+    "roleset_name_trans": "归结为 x（结果/责任）"
+  },
+  {
+    "uid": 28,
+    "roleset_id": "come_upon.26",
+    "roleset_name": "find, discover, stumble upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      }
+    ],
+    "roleset_name_trans": "发现、发现、偶然发现"
+  },
+  {
+    "uid": 29,
+    "roleset_id": "come_to.27",
+    "roleset_name": "regain consciousness",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity regaining consciousness",
+        "descr_trans": "实体恢复意识"
+      }
+    ],
+    "roleset_name_trans": "苏醒"
+  },
+  {
+    "uid": 30,
+    "roleset_id": "come_forward.31",
+    "roleset_name": "volunteer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "volunteer",
+        "descr_trans": "志愿者"
+      },
+      {
+        "n": "1",
+        "descr": "for what activity, cause",
+        "descr_trans": "进行什么活动、原因"
+      }
+    ],
+    "roleset_name_trans": "志愿者"
+  },
+  {
+    "uid": 31,
+    "roleset_id": "come_around.32",
+    "roleset_name": "change one's mind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity changing mind",
+        "descr_trans": "实体改变想法"
+      },
+      {
+        "n": "1",
+        "descr": "new idea",
+        "descr_trans": "新想法"
+      },
+      {
+        "n": "2",
+        "descr": "old idea",
+        "descr_trans": "旧观念"
+      }
+    ],
+    "roleset_name_trans": "改变一个人的想法"
+  }
 ]

@@ -1,33 +1,40 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unwinnable.01",
-        "roleset_name": "not able to be won",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who can't win"
-            },
-            {
-                "n": "1",
-                "descr": "prize not able to be won"
-            },
-            {
-                "n": "2",
-                "descr": "contest not able to be won"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "4",
-                "descr": "opponent"
-            },
-            {
-                "n": "5",
-                "descr": "in exchange for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unwinnable.01",
+    "roleset_name": "not able to be won",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who can't win",
+        "descr_trans": "无法获胜的实体"
+      },
+      {
+        "n": "1",
+        "descr": "prize not able to be won",
+        "descr_trans": "无法赢得奖品"
+      },
+      {
+        "n": "2",
+        "descr": "contest not able to be won",
+        "descr_trans": "比赛无法获胜"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "4",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "5",
+        "descr": "in exchange for",
+        "descr_trans": "换来的"
+      }
+    ],
+    "roleset_name_trans": "无法赢得"
+  }
 ]

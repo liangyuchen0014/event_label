@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plant.01",
-        "roleset_name": "to put or place, sewing in the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity planted"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plant.01",
+    "roleset_name": "to put or place, sewing in the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter, agent",
+        "descr_trans": "推杆, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity planted",
+        "descr_trans": "实体种植"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "放置或放置，缝在地上"
+  }
 ]

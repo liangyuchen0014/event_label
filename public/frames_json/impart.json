@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impart.01",
-        "roleset_name": "give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "given-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impart.01",
+    "roleset_name": "give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "given-to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "给"
+  }
 ]

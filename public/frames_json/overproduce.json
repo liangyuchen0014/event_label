@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overproduce.01",
-        "roleset_name": "create too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Creator"
-            },
-            {
-                "n": "1",
-                "descr": "Creation"
-            },
-            {
-                "n": "2",
-                "descr": "Created-from"
-            },
-            {
-                "n": "3",
-                "descr": "Benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overproduce.01",
+    "roleset_name": "create too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Creator",
+        "descr_trans": "创作者"
+      },
+      {
+        "n": "1",
+        "descr": "Creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "Created-from",
+        "descr_trans": "创建自"
+      },
+      {
+        "n": "3",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "创造太多"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hawk.01",
-        "roleset_name": "try to attract buyers",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller, salesperson"
-            },
-            {
-                "n": "1",
-                "descr": "goods"
-            },
-            {
-                "n": "2",
-                "descr": "(potential) buyer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hawk.02",
-        "roleset_name": "clear one's throat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hawker"
-            },
-            {
-                "n": "1",
-                "descr": "mucus"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hawk.01",
+    "roleset_name": "try to attract buyers",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller, salesperson",
+        "descr_trans": "卖家，销售员"
+      },
+      {
+        "n": "1",
+        "descr": "goods",
+        "descr_trans": "商品"
+      },
+      {
+        "n": "2",
+        "descr": "(potential) buyer",
+        "descr_trans": "（潜在）买家"
+      }
+    ],
+    "roleset_name_trans": "试图吸引买家"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hawk.02",
+    "roleset_name": "clear one's throat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hawker",
+        "descr_trans": "小贩"
+      },
+      {
+        "n": "1",
+        "descr": "mucus",
+        "descr_trans": "粘液"
+      }
+    ],
+    "roleset_name_trans": "清清嗓子"
+  }
 ]

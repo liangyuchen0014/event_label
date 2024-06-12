@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tire.01",
-        "roleset_name": "to be physically spent, sleepy, or to cause to be such",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tiredness, sleepiness"
-            },
-            {
-                "n": "1",
-                "descr": "tired entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tire.03",
-        "roleset_name": "cause to not want to put up with anymore",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tired entity"
-            },
-            {
-                "n": "1",
-                "descr": "what arg0 doesn't want to put up with anymore"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tire_out.02",
-        "roleset_name": "(make) become weary, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tiredness"
-            },
-            {
-                "n": "1",
-                "descr": "tired entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tire.01",
+    "roleset_name": "to be physically spent, sleepy, or to cause to be such",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tiredness, sleepiness",
+        "descr_trans": "疲劳、嗜睡的原因"
+      },
+      {
+        "n": "1",
+        "descr": "tired entity",
+        "descr_trans": "疲惫的实体"
+      }
+    ],
+    "roleset_name_trans": "体力耗尽、昏昏欲睡或导致这样的情况"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tire.03",
+    "roleset_name": "cause to not want to put up with anymore",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tired entity",
+        "descr_trans": "疲惫的实体"
+      },
+      {
+        "n": "1",
+        "descr": "what arg0 doesn't want to put up with anymore",
+        "descr_trans": "arg0 不想再忍受什么"
+      }
+    ],
+    "roleset_name_trans": "导致不想再忍受"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tire_out.02",
+    "roleset_name": "(make) become weary, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tiredness",
+        "descr_trans": "疲劳的原因"
+      },
+      {
+        "n": "1",
+        "descr": "tired entity",
+        "descr_trans": "疲惫的实体"
+      }
+    ],
+    "roleset_name_trans": "（使）变得疲倦，短语"
+  }
 ]

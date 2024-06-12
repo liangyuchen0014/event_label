@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dogsit.01",
-        "roleset_name": "care for someone's dog while they're away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dogsitter"
-            },
-            {
-                "n": "1",
-                "descr": "dog"
-            },
-            {
-                "n": "2",
-                "descr": "dog owner, who is away"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dogsit.01",
+    "roleset_name": "care for someone's dog while they're away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dogsitter",
+        "descr_trans": "狗保姆"
+      },
+      {
+        "n": "1",
+        "descr": "dog",
+        "descr_trans": "狗"
+      },
+      {
+        "n": "2",
+        "descr": "dog owner, who is away",
+        "descr_trans": "狗主人不在家"
+      }
+    ],
+    "roleset_name_trans": "当某人不在时照顾他们的狗"
+  }
 ]

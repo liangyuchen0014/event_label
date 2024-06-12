@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "percuss.01",
-        "roleset_name": "striking, knocking, tapping",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, percusser"
-            },
-            {
-                "n": "1",
-                "descr": "Entity percussed"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, thing percussed by or with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "percuss.01",
+    "roleset_name": "striking, knocking, tapping",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, percusser",
+        "descr_trans": "经纪人、打击乐手"
+      },
+      {
+        "n": "1",
+        "descr": "Entity percussed",
+        "descr_trans": "实体被敲击"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, thing percussed by or with",
+        "descr_trans": "乐器，被人敲击或用其敲击的东西"
+      }
+    ],
+    "roleset_name_trans": "击打、敲击、敲击"
+  }
 ]

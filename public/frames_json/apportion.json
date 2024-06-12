@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "apportion.01",
-        "roleset_name": "divide and assign proportionally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "divider"
-            },
-            {
-                "n": "1",
-                "descr": "thing divided"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "apportion.01",
+    "roleset_name": "divide and assign proportionally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "divider",
+        "descr_trans": "分隔线"
+      },
+      {
+        "n": "1",
+        "descr": "thing divided",
+        "descr_trans": "东西分开"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "按比例划分和分配"
+  }
 ]

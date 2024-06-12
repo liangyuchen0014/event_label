@@ -1,71 +1,86 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "secure.01",
-        "roleset_name": "get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "source, gained from"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive, gained for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "secure.02",
-        "roleset_name": "make secure, literally or figuratively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker"
-            },
-            {
-                "n": "1",
-                "descr": "thing secured"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "potential danger"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "security.03",
-        "roleset_name": "be safe, secure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity who is protected"
-            },
-            {
-                "n": "2",
-                "descr": "specific domain in which arg1 is safe"
-            },
-            {
-                "n": "3",
-                "descr": "potential danger"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "secure.01",
+    "roleset_name": "get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source, gained from",
+        "descr_trans": "来源，获得于"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive, gained for",
+        "descr_trans": "有益的，获得的"
+      }
+    ],
+    "roleset_name_trans": "得到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "secure.02",
+    "roleset_name": "make secure, literally or figuratively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker",
+        "descr_trans": "制作者"
+      },
+      {
+        "n": "1",
+        "descr": "thing secured",
+        "descr_trans": "安全的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "potential danger",
+        "descr_trans": "潜在危险"
+      }
+    ],
+    "roleset_name_trans": "使安全，字面上或象征上的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "security.03",
+    "roleset_name": "be safe, secure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity who is protected",
+        "descr_trans": "受保护的实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific domain in which arg1 is safe",
+        "descr_trans": "arg1 在其中安全的特定域"
+      },
+      {
+        "n": "3",
+        "descr": "potential danger",
+        "descr_trans": "潜在危险"
+      }
+    ],
+    "roleset_name_trans": "安全，有保障"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "obtain.01",
-        "roleset_name": "get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            },
-            {
-                "n": "2",
-                "descr": "received from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "obtain.01",
+    "roleset_name": "get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      },
+      {
+        "n": "2",
+        "descr": "received from",
+        "descr_trans": "从......收到"
+      }
+    ],
+    "roleset_name_trans": "得到"
+  }
 ]

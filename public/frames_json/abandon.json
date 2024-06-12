@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abandon.01",
-        "roleset_name": "leave behind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner"
-            },
-            {
-                "n": "1",
-                "descr": "entity left behind"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "abandon.02",
-        "roleset_name": "exchange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner"
-            },
-            {
-                "n": "1",
-                "descr": "thing abandoned, left behind"
-            },
-            {
-                "n": "2",
-                "descr": "preferred item"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "abandon.03",
-        "roleset_name": "surrender, give_over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity abandoning something"
-            },
-            {
-                "n": "1",
-                "descr": "thing abandoned"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, abandoned-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abandon.01",
+    "roleset_name": "leave behind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner",
+        "descr_trans": "放弃"
+      },
+      {
+        "n": "1",
+        "descr": "entity left behind",
+        "descr_trans": "留下的实体"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "忘在脑后"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "abandon.02",
+    "roleset_name": "exchange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner",
+        "descr_trans": "放弃"
+      },
+      {
+        "n": "1",
+        "descr": "thing abandoned, left behind",
+        "descr_trans": "被遗弃的东西，留下的东西"
+      },
+      {
+        "n": "2",
+        "descr": "preferred item",
+        "descr_trans": "首选项目"
+      }
+    ],
+    "roleset_name_trans": "交换"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "abandon.03",
+    "roleset_name": "surrender, give_over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity abandoning something",
+        "descr_trans": "实体放弃某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing abandoned",
+        "descr_trans": "被遗弃的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, abandoned-to",
+        "descr_trans": "有益的，被遗弃的"
+      }
+    ],
+    "roleset_name_trans": "投降，放弃"
+  }
 ]

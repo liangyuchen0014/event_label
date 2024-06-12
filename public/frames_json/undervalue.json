@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undervalue.01",
-        "roleset_name": "establish a cost, value that's too low",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity establishing value"
-            },
-            {
-                "n": "1",
-                "descr": "commodity being valued"
-            },
-            {
-                "n": "2",
-                "descr": "difference from proper value, EXT"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undervalue.01",
+    "roleset_name": "establish a cost, value that's too low",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity establishing value",
+        "descr_trans": "实体建立价值"
+      },
+      {
+        "n": "1",
+        "descr": "commodity being valued",
+        "descr_trans": "商品被估价"
+      },
+      {
+        "n": "2",
+        "descr": "difference from proper value, EXT",
+        "descr_trans": "与正确值的差异，EXT"
+      }
+    ],
+    "roleset_name_trans": "设定的成本、价值太低"
+  }
 ]

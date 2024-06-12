@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gondola.01",
-        "roleset_name": "gondola",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "thing gondolaed, theme (intransitive object, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "locations, or start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gondola.01",
+    "roleset_name": "gondola",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (transitive subject)",
+        "descr_trans": "代理人（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing gondolaed, theme (intransitive object, transitive object)",
+        "descr_trans": "贡多拉的东西，主题（不及物宾语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "locations, or start point",
+        "descr_trans": "地点或起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "贡多拉"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "traumatize.01",
-        "roleset_name": "affect deeply and negatively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (only when in addition to arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "traumatize.01",
+    "roleset_name": "affect deeply and negatively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (only when in addition to arg0)",
+        "descr_trans": "仪器（仅当除了 arg0 之外）"
+      }
+    ],
+    "roleset_name_trans": "产生深刻和负面的影响"
+  }
 ]

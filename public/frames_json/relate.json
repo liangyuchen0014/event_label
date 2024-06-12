@@ -1,97 +1,117 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relate.01",
-        "roleset_name": "be related to, involved, connected",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity drawing comparison"
-            },
-            {
-                "n": "1",
-                "descr": "thing under consideration"
-            },
-            {
-                "n": "2",
-                "descr": "what it's related to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "relate.02",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            },
-            {
-                "n": "3",
-                "descr": "Attributive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "relation.03",
-        "roleset_name": "to know an entity, know/friendship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first party (or all parties, if together)"
-            },
-            {
-                "n": "1",
-                "descr": "type of relationship/ reason to know"
-            },
-            {
-                "n": "2",
-                "descr": "second party/ relations with/ beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "relation.04",
-        "roleset_name": "having a familial relation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first (or all) kin"
-            },
-            {
-                "n": "2",
-                "descr": "second kin"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "relative.05",
-        "roleset_name": "in comparison to",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity being compared"
-            },
-            {
-                "n": "2",
-                "descr": "quality"
-            },
-            {
-                "n": "3",
-                "descr": "point of comparison, relative to what/whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relate.01",
+    "roleset_name": "be related to, involved, connected",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity drawing comparison",
+        "descr_trans": "代理、实体图对比"
+      },
+      {
+        "n": "1",
+        "descr": "thing under consideration",
+        "descr_trans": "正在考虑的事情"
+      },
+      {
+        "n": "2",
+        "descr": "what it's related to",
+        "descr_trans": "它与什么有关"
+      }
+    ],
+    "roleset_name_trans": "与有关、涉及、有联系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "relate.02",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "Attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "relation.03",
+    "roleset_name": "to know an entity, know/friendship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first party (or all parties, if together)",
+        "descr_trans": "第一方（或所有各方，如果在一起的话）"
+      },
+      {
+        "n": "1",
+        "descr": "type of relationship/ reason to know",
+        "descr_trans": "关系类型/了解原因"
+      },
+      {
+        "n": "2",
+        "descr": "second party/ relations with/ beneficiary",
+        "descr_trans": "第二方/与/受益人的关系"
+      }
+    ],
+    "roleset_name_trans": "认识一个实体，认识/友谊"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "relation.04",
+    "roleset_name": "having a familial relation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first (or all) kin",
+        "descr_trans": "第一个（或所有）亲属"
+      },
+      {
+        "n": "2",
+        "descr": "second kin",
+        "descr_trans": "第二亲人"
+      }
+    ],
+    "roleset_name_trans": "有亲属关系"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "relative.05",
+    "roleset_name": "in comparison to",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity being compared",
+        "descr_trans": "被比较的实体"
+      },
+      {
+        "n": "2",
+        "descr": "quality",
+        "descr_trans": "质量"
+      },
+      {
+        "n": "3",
+        "descr": "point of comparison, relative to what/whom?",
+        "descr_trans": "比较点，相对于什么/谁？"
+      }
+    ],
+    "roleset_name_trans": "相比于"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "radio.01",
-        "roleset_name": "to transmit by radio",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transmitter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity transmitted"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "radio.01",
+    "roleset_name": "to transmit by radio",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transmitter, agent",
+        "descr_trans": "发射器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity transmitted",
+        "descr_trans": "实体传送"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "通过无线电传输"
+  }
 ]

@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "apprehend.01",
-        "roleset_name": "seize, take into custody",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, apprehendor"
-            },
-            {
-                "n": "1",
-                "descr": "criminal,entity seized"
-            },
-            {
-                "n": "2",
-                "descr": "crime, or attribute of arg 1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "apprehend.03",
-        "roleset_name": "understand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "thing understood"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "apprehension.02",
-        "roleset_name": "fear, anxiety",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fearful entity"
-            },
-            {
-                "n": "1",
-                "descr": "fearful of or about; misgiving; cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "apprehend.01",
+    "roleset_name": "seize, take into custody",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, apprehendor",
+        "descr_trans": "代理人，逮捕者"
+      },
+      {
+        "n": "1",
+        "descr": "criminal,entity seized",
+        "descr_trans": "犯罪分子，查获的实体"
+      },
+      {
+        "n": "2",
+        "descr": "crime, or attribute of arg 1",
+        "descr_trans": "犯罪或 arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "扣押，扣押"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "apprehend.03",
+    "roleset_name": "understand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "thing understood",
+        "descr_trans": "事情明白了"
+      }
+    ],
+    "roleset_name_trans": "理解"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "apprehension.02",
+    "roleset_name": "fear, anxiety",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fearful entity",
+        "descr_trans": "可怕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "fearful of or about; misgiving; cause",
+        "descr_trans": "害怕或担心；疑虑;原因"
+      }
+    ],
+    "roleset_name_trans": "恐惧、焦虑"
+  }
 ]

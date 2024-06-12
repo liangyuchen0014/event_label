@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "afford.01",
-        "roleset_name": "be able to spare, have the financial means",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "haver of financial means, agent"
-            },
-            {
-                "n": "1",
-                "descr": "costly thing, theme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "afford.02",
-        "roleset_name": "provide, make available",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider, agent"
-            },
-            {
-                "n": "1",
-                "descr": "provided, theme"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "affordable.03",
-        "roleset_name": "priced attainably",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity able to pay for arg1"
-            },
-            {
-                "n": "1",
-                "descr": "commodity priced attainably"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "afford.01",
+    "roleset_name": "be able to spare, have the financial means",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "haver of financial means, agent",
+        "descr_trans": "有经济能力、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "costly thing, theme",
+        "descr_trans": "昂贵的东西，主题"
+      }
+    ],
+    "roleset_name_trans": "有余力，有经济能力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "afford.02",
+    "roleset_name": "provide, make available",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider, agent",
+        "descr_trans": "提供者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "provided, theme",
+        "descr_trans": "提供，主题"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "提供，使可用"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "affordable.03",
+    "roleset_name": "priced attainably",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity able to pay for arg1",
+        "descr_trans": "有能力支付 arg1 的实体"
+      },
+      {
+        "n": "1",
+        "descr": "commodity priced attainably",
+        "descr_trans": "商品定价可达到"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "价格可达到"
+  }
 ]

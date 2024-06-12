@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repurchase.01",
-        "roleset_name": "purchase again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "purchaser"
-            },
-            {
-                "n": "1",
-                "descr": "thing purchased"
-            },
-            {
-                "n": "2",
-                "descr": "seller, purchased-from"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary, repurchased-for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repurchase.01",
+    "roleset_name": "purchase again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "purchaser",
+        "descr_trans": "购买者"
+      },
+      {
+        "n": "1",
+        "descr": "thing purchased",
+        "descr_trans": "购买的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller, purchased-from",
+        "descr_trans": "卖家，购买自"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary, repurchased-for",
+        "descr_trans": "受益人，回购对象"
+      }
+    ],
+    "roleset_name_trans": "再次购买"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jab.01",
-        "roleset_name": "hit sharply, hit sharply or metaphorically: insult",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of hitting"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jab.02",
-        "roleset_name": "move with jabbing motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jab.01",
+    "roleset_name": "hit sharply, hit sharply or metaphorically: insult",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of hitting",
+        "descr_trans": "打击乐器"
+      }
+    ],
+    "roleset_name_trans": "猛烈地打击，猛烈地打击或隐喻：侮辱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jab.02",
+    "roleset_name": "move with jabbing motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of motion",
+        "descr_trans": "运动原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "以刺击动作移动"
+  }
 ]

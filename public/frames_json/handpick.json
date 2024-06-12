@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handpick.01",
-        "roleset_name": "pick by hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "picker"
-            },
-            {
-                "n": "1",
-                "descr": "thing picked"
-            },
-            {
-                "n": "2",
-                "descr": "group or source, picked from"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handpick.01",
+    "roleset_name": "pick by hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "picker",
+        "descr_trans": "拾取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing picked",
+        "descr_trans": "挑选的东西"
+      },
+      {
+        "n": "2",
+        "descr": "group or source, picked from",
+        "descr_trans": "组或来源，选自"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "手工挑选"
+  }
 ]

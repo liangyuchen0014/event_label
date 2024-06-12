@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pickpocket.01",
-        "roleset_name": "to steal from the pocket or purse of   others in public places",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pickpocket, thief"
-            },
-            {
-                "n": "1",
-                "descr": "thing taken"
-            },
-            {
-                "n": "2",
-                "descr": "person pickpocketed"
-            },
-            {
-                "n": "3",
-                "descr": "taken for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pickpocket.01",
+    "roleset_name": "to steal from the pocket or purse of   others in public places",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pickpocket, thief",
+        "descr_trans": "扒手、小偷"
+      },
+      {
+        "n": "1",
+        "descr": "thing taken",
+        "descr_trans": "拿走的东西"
+      },
+      {
+        "n": "2",
+        "descr": "person pickpocketed",
+        "descr_trans": "人被扒窃"
+      },
+      {
+        "n": "3",
+        "descr": "taken for",
+        "descr_trans": "被认为是"
+      }
+    ],
+    "roleset_name_trans": "在公共场所从他人的口袋或钱包中偷窃"
+  }
 ]

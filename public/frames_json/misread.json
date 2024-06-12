@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misread.01",
-        "roleset_name": "to understand incorrectly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misreader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "misread entity"
-            },
-            {
-                "n": "2",
-                "descr": "(false) attribute of Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misread.01",
+    "roleset_name": "to understand incorrectly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misreader, agent",
+        "descr_trans": "误读者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "misread entity",
+        "descr_trans": "误读实体"
+      },
+      {
+        "n": "2",
+        "descr": "(false) attribute of Arg1",
+        "descr_trans": "(假) Arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "理解错误"
+  }
 ]

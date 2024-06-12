@@ -1,138 +1,166 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bind.01",
-        "roleset_name": "attach tightly, physically or     metaphorically., constricting physically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing bound"
-            },
-            {
-                "n": "2",
-                "descr": "bound to what"
-            },
-            {
-                "n": "3",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bind.02",
-        "roleset_name": "be likely",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is likely"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bind_up.04",
-        "roleset_name": "attach tightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing bound"
-            },
-            {
-                "n": "2",
-                "descr": "bound to what"
-            },
-            {
-                "n": "3",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bound.05",
-        "roleset_name": "be destined for",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing destined"
-            },
-            {
-                "n": "2",
-                "descr": "destiny"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bound.08",
-        "roleset_name": "mode of motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing in motion"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "bound.09",
-        "roleset_name": "act as a boundary",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boundary"
-            },
-            {
-                "n": "1",
-                "descr": "thing bounded"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "bound_up.06",
-        "roleset_name": "attach tightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing bound"
-            },
-            {
-                "n": "2",
-                "descr": "bound to what"
-            },
-            {
-                "n": "3",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "binding.07",
-        "roleset_name": "executed with proper legal authority",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contract, law"
-            },
-            {
-                "n": "1",
-                "descr": "whom contract, law binds, usually \"on\" phrase"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bind.01",
+    "roleset_name": "attach tightly, physically or     metaphorically., constricting physically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing bound",
+        "descr_trans": "事物绑定"
+      },
+      {
+        "n": "2",
+        "descr": "bound to what",
+        "descr_trans": "绑定到什么"
+      },
+      {
+        "n": "3",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "物理上或隐喻上紧紧地依附，身体上的收缩"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bind.02",
+    "roleset_name": "be likely",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is likely",
+        "descr_trans": "可能发生的事情"
+      }
+    ],
+    "roleset_name_trans": "有可能"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bind_up.04",
+    "roleset_name": "attach tightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing bound",
+        "descr_trans": "事物绑定"
+      },
+      {
+        "n": "2",
+        "descr": "bound to what",
+        "descr_trans": "绑定到什么"
+      },
+      {
+        "n": "3",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "紧紧地附着"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bound.05",
+    "roleset_name": "be destined for",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing destined",
+        "descr_trans": "命中注定的事"
+      },
+      {
+        "n": "2",
+        "descr": "destiny",
+        "descr_trans": "命运"
+      }
+    ],
+    "roleset_name_trans": "注定要"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bound.08",
+    "roleset_name": "mode of motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      }
+    ],
+    "roleset_name_trans": "运动方式"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "bound.09",
+    "roleset_name": "act as a boundary",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boundary",
+        "descr_trans": "边界"
+      },
+      {
+        "n": "1",
+        "descr": "thing bounded",
+        "descr_trans": "事物有界"
+      }
+    ],
+    "roleset_name_trans": "充当边界"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "bound_up.06",
+    "roleset_name": "attach tightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing bound",
+        "descr_trans": "事物绑定"
+      },
+      {
+        "n": "2",
+        "descr": "bound to what",
+        "descr_trans": "绑定到什么"
+      },
+      {
+        "n": "3",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "紧紧地附着"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "binding.07",
+    "roleset_name": "executed with proper legal authority",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contract, law",
+        "descr_trans": "合同法"
+      },
+      {
+        "n": "1",
+        "descr": "whom contract, law binds, usually \"on\" phrase",
+        "descr_trans": "合同、法律约束谁，通常是“on”短语"
+      }
+    ],
+    "roleset_name_trans": "经适当的法律授权执行"
+  }
 ]

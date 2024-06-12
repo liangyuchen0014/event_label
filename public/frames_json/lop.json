@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lop.01",
-        "roleset_name": "to cut off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity lopped"
-            },
-            {
-                "n": "2",
-                "descr": "entity lopped off/from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lop.01",
+    "roleset_name": "to cut off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter, agent",
+        "descr_trans": "刀具、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity lopped",
+        "descr_trans": "实体被砍掉"
+      },
+      {
+        "n": "2",
+        "descr": "entity lopped off/from",
+        "descr_trans": "实体被切断/从"
+      }
+    ],
+    "roleset_name_trans": "切断"
+  }
 ]

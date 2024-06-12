@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "govern.01",
-        "roleset_name": "to control or influence, governing, leading",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "governor"
-            },
-            {
-                "n": "1",
-                "descr": "governed"
-            },
-            {
-                "n": "2",
-                "descr": "specific domain, aspect of arg1 being governed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "govern.01",
+    "roleset_name": "to control or influence, governing, leading",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "governor",
+        "descr_trans": "州长"
+      },
+      {
+        "n": "1",
+        "descr": "governed",
+        "descr_trans": "管辖的"
+      },
+      {
+        "n": "2",
+        "descr": "specific domain, aspect of arg1 being governed",
+        "descr_trans": "特定域，arg1 所管辖的方面"
+      }
+    ],
+    "roleset_name_trans": "控制或影响、治理、领导"
+  }
 ]

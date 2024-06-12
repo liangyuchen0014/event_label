@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scout_out.01",
-        "roleset_name": "search for, to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "searched for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scout.02",
-        "roleset_name": "look for, recruit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "The scout"
-            },
-            {
-                "n": "1",
-                "descr": "locale scouted"
-            },
-            {
-                "n": "2",
-                "descr": "thing looked for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scout_out.01",
+    "roleset_name": "search for, to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "searched for",
+        "descr_trans": "搜索"
+      }
+    ],
+    "roleset_name_trans": "寻找，直至完成"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scout.02",
+    "roleset_name": "look for, recruit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "The scout",
+        "descr_trans": "侦察兵"
+      },
+      {
+        "n": "1",
+        "descr": "locale scouted",
+        "descr_trans": "区域设置侦察"
+      },
+      {
+        "n": "2",
+        "descr": "thing looked for",
+        "descr_trans": "寻找的东西"
+      }
+    ],
+    "roleset_name_trans": "寻找、招募"
+  }
 ]

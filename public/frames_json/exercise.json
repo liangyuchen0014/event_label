@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exercise.01",
-        "roleset_name": "use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user"
-            },
-            {
-                "n": "1",
-                "descr": "thing used, thing exercised"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "exercise.02",
-        "roleset_name": "athletics,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "athlete"
-            },
-            {
-                "n": "1",
-                "descr": "thing being exercised (\"muscle\")"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exercise.01",
+    "roleset_name": "use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "thing used, thing exercised",
+        "descr_trans": "使用的东西，行使的东西"
+      }
+    ],
+    "roleset_name_trans": "使用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "exercise.02",
+    "roleset_name": "athletics,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "athlete",
+        "descr_trans": "运动员"
+      },
+      {
+        "n": "1",
+        "descr": "thing being exercised (\"muscle\")",
+        "descr_trans": "正在锻炼的东西（“肌肉”）"
+      }
+    ],
+    "roleset_name_trans": "竞技，"
+  }
 ]

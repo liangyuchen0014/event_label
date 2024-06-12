@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "access.01",
-        "roleset_name": "access, gain entry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing accessed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "accessible.02",
-        "roleset_name": "able to be reached, attained",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accessor"
-            },
-            {
-                "n": "1",
-                "descr": "thing accessed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "access.01",
+    "roleset_name": "access, gain entry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accessor",
+        "descr_trans": "存取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing accessed",
+        "descr_trans": "访问的东西"
+      }
+    ],
+    "roleset_name_trans": "进入，进入"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "accessible.02",
+    "roleset_name": "able to be reached, attained",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accessor",
+        "descr_trans": "存取器"
+      },
+      {
+        "n": "1",
+        "descr": "thing accessed",
+        "descr_trans": "访问的东西"
+      }
+    ],
+    "roleset_name_trans": "能够达到，达到"
+  }
 ]

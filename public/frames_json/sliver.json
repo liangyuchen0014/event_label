@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sliver.01",
-        "roleset_name": "produce slivers",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, slicer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing sliced up"
-            },
-            {
-                "n": "2",
-                "descr": "source material, what arg1 is sliced off of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sliver.01",
+    "roleset_name": "produce slivers",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, slicer",
+        "descr_trans": "代理、切片机"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing sliced up",
+        "descr_trans": "病人，东西被切成薄片"
+      },
+      {
+        "n": "2",
+        "descr": "source material, what arg1 is sliced off of",
+        "descr_trans": "源材料，arg1 被切掉的内容"
+      }
+    ],
+    "roleset_name_trans": "生产条子"
+  }
 ]

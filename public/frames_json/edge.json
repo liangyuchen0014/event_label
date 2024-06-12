@@ -1,97 +1,117 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "edge.01",
-        "roleset_name": "move slightly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount moved"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            },
-            {
-                "n": "5",
-                "descr": "direction--REQUIRED"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "edge.03",
-        "roleset_name": "provide an edge or frame for an object",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, edger"
-            },
-            {
-                "n": "1",
-                "descr": "object edged"
-            },
-            {
-                "n": "2",
-                "descr": "edged with what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "edge_out.02",
-        "roleset_name": "beat, surpass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "for what, prize"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "edgy.04",
-        "roleset_name": "hip, pushing the envelope",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity pushing the envelope"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "edgy.05",
-        "roleset_name": "on edge, high strung",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/stimulus of edginess"
-            },
-            {
-                "n": "1",
-                "descr": "high-strung entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "edge.01",
+    "roleset_name": "move slightly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing moving",
+        "descr_trans": "逻辑主题、耐心、事物移动"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount moved",
+        "descr_trans": "EXT，移动量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      },
+      {
+        "n": "5",
+        "descr": "direction--REQUIRED",
+        "descr_trans": "方向--必填"
+      }
+    ],
+    "roleset_name_trans": "稍微动一下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "edge.03",
+    "roleset_name": "provide an edge or frame for an object",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, edger",
+        "descr_trans": "装饰工、磨边工"
+      },
+      {
+        "n": "1",
+        "descr": "object edged",
+        "descr_trans": "物体边缘"
+      },
+      {
+        "n": "2",
+        "descr": "edged with what?",
+        "descr_trans": "用什么边缘？"
+      }
+    ],
+    "roleset_name_trans": "为对象提供边缘或框架"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "edge_out.02",
+    "roleset_name": "beat, surpass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "for what, prize",
+        "descr_trans": "为了什么，奖品"
+      }
+    ],
+    "roleset_name_trans": "击败，超越"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "edgy.04",
+    "roleset_name": "hip, pushing the envelope",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity pushing the envelope",
+        "descr_trans": "挑战极限的实体"
+      }
+    ],
+    "roleset_name_trans": "臀部，挑战极限"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "edgy.05",
+    "roleset_name": "on edge, high strung",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/stimulus of edginess",
+        "descr_trans": "急躁的原因/刺激"
+      },
+      {
+        "n": "1",
+        "descr": "high-strung entity",
+        "descr_trans": "高度紧张的实体"
+      }
+    ],
+    "roleset_name_trans": "处于边缘，高度紧张"
+  }
 ]

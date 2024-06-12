@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swish.01",
-        "roleset_name": "emit rustling noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emitter of noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swish.02",
-        "roleset_name": "move swishingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swish.01",
+    "roleset_name": "emit rustling noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emitter of noise",
+        "descr_trans": "噪声发射器"
+      }
+    ],
+    "roleset_name_trans": "发出沙沙的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swish.02",
+    "roleset_name": "move swishingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of motion",
+        "descr_trans": "运动原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "嗖嗖地移动"
+  }
 ]

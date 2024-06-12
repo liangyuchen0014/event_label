@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overdraft.01",
-        "roleset_name": "draft an excess of the credit balance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, remover of credit"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overdraft.01",
+    "roleset_name": "draft an excess of the credit balance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, remover of credit",
+        "descr_trans": "代理人，信用消除者"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from, source",
+        "descr_trans": "从来源中删除"
+      }
+    ],
+    "roleset_name_trans": "汇票超出贷方余额"
+  }
 ]

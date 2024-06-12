@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "still.01",
-        "roleset_name": "cause to be still",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, stiller"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing becoming still"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of stillness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "still.01",
+    "roleset_name": "cause to be still",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, stiller",
+        "descr_trans": "代理人、蒸馏器"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing becoming still",
+        "descr_trans": "耐心，事物变得静止"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of stillness",
+        "descr_trans": "静止的工具"
+      }
+    ],
+    "roleset_name_trans": "导致静止"
+  }
 ]

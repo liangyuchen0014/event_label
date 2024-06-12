@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "press.01",
-        "roleset_name": "apply pressure, possibly to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "presser"
-            },
-            {
-                "n": "1",
-                "descr": "pressed (on)"
-            },
-            {
-                "n": "2",
-                "descr": "goal, pressed-for, arg1 is pressed to do what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "press.02",
-        "roleset_name": "move",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "m",
-                "descr": "ahead, usually"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "press.03",
-        "roleset_name": "make and produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "producer"
-            },
-            {
-                "n": "1",
-                "descr": "record, music, disk"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "press.01",
+    "roleset_name": "apply pressure, possibly to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "presser",
+        "descr_trans": "压机"
+      },
+      {
+        "n": "1",
+        "descr": "pressed (on)",
+        "descr_trans": "按下（上）"
+      },
+      {
+        "n": "2",
+        "descr": "goal, pressed-for, arg1 is pressed to do what?",
+        "descr_trans": "goal, Pressed-for, arg1 被按下要做什么？"
+      }
+    ],
+    "roleset_name_trans": "施加压力，可能是为了做某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "press.02",
+    "roleset_name": "move",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "m",
+        "descr": "ahead, usually",
+        "descr_trans": "前面，通常"
+      }
+    ],
+    "roleset_name_trans": "移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "press.03",
+    "roleset_name": "make and produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "producer",
+        "descr_trans": "制片人"
+      },
+      {
+        "n": "1",
+        "descr": "record, music, disk",
+        "descr_trans": "唱片、音乐、磁盘"
+      }
+    ],
+    "roleset_name_trans": "制造和生产"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "homogenous.01",
-        "roleset_name": "uniform in consistency/structure",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "homogenous entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "homogenize.02",
-        "roleset_name": "CAUSE to become uniform in consistency/structure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of homogenization"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming uniform"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "homogenous.01",
+    "roleset_name": "uniform in consistency/structure",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "homogenous entity",
+        "descr_trans": "同质实体"
+      }
+    ],
+    "roleset_name_trans": "一致性/结构一致"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "homogenize.02",
+    "roleset_name": "CAUSE to become uniform in consistency/structure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of homogenization",
+        "descr_trans": "同质化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming uniform",
+        "descr_trans": "实体变得统一"
+      }
+    ],
+    "roleset_name_trans": "导致一致性/结构变得统一"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "emboss.01",
-        "roleset_name": "sign",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, embosser"
-            },
-            {
-                "n": "1",
-                "descr": "destination, document"
-            },
-            {
-                "n": "2",
-                "descr": "theme, signature"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "emboss.01",
+    "roleset_name": "sign",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, embosser",
+        "descr_trans": "代理、浮雕师"
+      },
+      {
+        "n": "1",
+        "descr": "destination, document",
+        "descr_trans": "目的地、文件"
+      },
+      {
+        "n": "2",
+        "descr": "theme, signature",
+        "descr_trans": "主题、签名"
+      }
+    ],
+    "roleset_name_trans": "符号"
+  }
 ]

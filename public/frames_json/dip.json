@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dip.01",
-        "roleset_name": "fall slightly, no agent.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dip.02",
-        "roleset_name": "spoon, ladle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, dipper"
-            },
-            {
-                "n": "1",
-                "descr": "thing dipped"
-            },
-            {
-                "n": "2",
-                "descr": "dipped into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dip.01",
+    "roleset_name": "fall slightly, no agent.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing falling",
+        "descr_trans": "东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "略有下降，无代理。"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dip.02",
+    "roleset_name": "spoon, ladle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, dipper",
+        "descr_trans": "代理, 北斗星"
+      },
+      {
+        "n": "1",
+        "descr": "thing dipped",
+        "descr_trans": "东西下降​​了"
+      },
+      {
+        "n": "2",
+        "descr": "dipped into",
+        "descr_trans": "浸入"
+      }
+    ],
+    "roleset_name_trans": "勺子、长柄勺"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repeat.01",
-        "roleset_name": "do or say again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "utterance or action"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            },
-            {
-                "n": "3",
-                "descr": "number of repetitions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repeat.01",
+    "roleset_name": "do or say again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, agent",
+        "descr_trans": "发言人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "utterance or action",
+        "descr_trans": "言语或行动"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      },
+      {
+        "n": "3",
+        "descr": "number of repetitions",
+        "descr_trans": "重复次数"
+      }
+    ],
+    "roleset_name_trans": "再说一遍或说一遍"
+  }
 ]

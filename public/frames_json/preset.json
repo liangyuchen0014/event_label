@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preset.01",
-        "roleset_name": "establish, make ready in advance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pre-setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing pre-set"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, Arg 1 is set to do/be/etc."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preset.01",
+    "roleset_name": "establish, make ready in advance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pre-setter",
+        "descr_trans": "代理人、预设者"
+      },
+      {
+        "n": "1",
+        "descr": "thing pre-set",
+        "descr_trans": "预先设定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, Arg 1 is set to do/be/etc.",
+        "descr_trans": "属性，Arg 1 设置为 do/be/etc。"
+      }
+    ],
+    "roleset_name_trans": "预先建立、准备"
+  }
 ]

@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whirl.01",
-        "roleset_name": "move in a circle or spiral, quickly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "axis (rare)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whirl.02",
-        "roleset_name": "natural disaster: tornado (usually fire)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "additional mention of fire, element"
-            },
-            {
-                "n": "2",
-                "descr": "rating/classification (F scale or types I-III)"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            },
-            {
-                "n": "5",
-                "descr": "wind speed"
-            },
-            {
-                "n": "6",
-                "descr": "diameter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whirl.01",
+    "roleset_name": "move in a circle or spiral, quickly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "axis (rare)",
+        "descr_trans": "轴（罕见）"
+      }
+    ],
+    "roleset_name_trans": "快速地绕圈或螺旋移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whirl.02",
+    "roleset_name": "natural disaster: tornado (usually fire)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "additional mention of fire, element",
+        "descr_trans": "额外提及火、元素"
+      },
+      {
+        "n": "2",
+        "descr": "rating/classification (F scale or types I-III)",
+        "descr_trans": "评级/分类（F 等级或类型 I-III）"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      },
+      {
+        "n": "5",
+        "descr": "wind speed",
+        "descr_trans": "风速"
+      },
+      {
+        "n": "6",
+        "descr": "diameter",
+        "descr_trans": "直径"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：龙卷风（通常是火灾）"
+  }
 ]

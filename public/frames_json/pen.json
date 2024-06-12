@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pen.01",
-        "roleset_name": "write (with a pen)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "written-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pen.02",
-        "roleset_name": "put into a pen, enclose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "penner"
-            },
-            {
-                "n": "1",
-                "descr": "penned"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pen_up.03",
-        "roleset_name": "keep repressed, in a real/metaphorical pen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person/agent causing something to be penned up"
-            },
-            {
-                "n": "1",
-                "descr": "thing being penned up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pen.01",
+    "roleset_name": "write (with a pen)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "written-to",
+        "descr_trans": "写入的"
+      }
+    ],
+    "roleset_name_trans": "（用笔）写"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pen.02",
+    "roleset_name": "put into a pen, enclose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "penner",
+        "descr_trans": "钢笔"
+      },
+      {
+        "n": "1",
+        "descr": "penned",
+        "descr_trans": "写的"
+      }
+    ],
+    "roleset_name_trans": "放入笔中，附上"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pen_up.03",
+    "roleset_name": "keep repressed, in a real/metaphorical pen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person/agent causing something to be penned up",
+        "descr_trans": "导致某物被封存的人/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being penned up",
+        "descr_trans": "被封存的东西"
+      }
+    ],
+    "roleset_name_trans": "在真实/隐喻的笔下保持压抑"
+  }
 ]

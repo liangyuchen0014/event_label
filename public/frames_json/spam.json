@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spam.01",
-        "roleset_name": "sending spam mail, indiscriminate spreading of information in bulk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, spammer"
-            },
-            {
-                "n": "1",
-                "descr": "destination/recipient of spam"
-            },
-            {
-                "n": "2",
-                "descr": "the spam"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spam.01",
+    "roleset_name": "sending spam mail, indiscriminate spreading of information in bulk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, spammer",
+        "descr_trans": "代理、垃圾邮件发送者"
+      },
+      {
+        "n": "1",
+        "descr": "destination/recipient of spam",
+        "descr_trans": "垃圾邮件的目的地/收件人"
+      },
+      {
+        "n": "2",
+        "descr": "the spam",
+        "descr_trans": "垃圾邮件"
+      }
+    ],
+    "roleset_name_trans": "发送垃圾邮件、不分青红皂白地大量传播信息"
+  }
 ]

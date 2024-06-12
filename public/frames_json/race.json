@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "race.01",
-        "roleset_name": "run very fast, moving very quickly (non-competitive, manner motion)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "race.02",
-        "roleset_name": "compete in a race",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "competitor"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "2",
-                "descr": "prize"
-            },
-            {
-                "n": "3",
-                "descr": "competition, or type of competition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "race.01",
+    "roleset_name": "run very fast, moving very quickly (non-competitive, manner motion)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "跑得很快，移动得很快（非竞争性的，方式运动）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "race.02",
+    "roleset_name": "compete in a race",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "competitor",
+        "descr_trans": "竞争者"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "2",
+        "descr": "prize",
+        "descr_trans": "奖"
+      },
+      {
+        "n": "3",
+        "descr": "competition, or type of competition",
+        "descr_trans": "竞争或竞争类型"
+      }
+    ],
+    "roleset_name_trans": "参加比赛"
+  }
 ]

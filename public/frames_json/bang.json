@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bang.01",
-        "roleset_name": "emit banging noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing emitting noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bang.02",
-        "roleset_name": "strike so as to make banging noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "striker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bang.04",
-        "roleset_name": "have sexual relations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first party"
-            },
-            {
-                "n": "1",
-                "descr": "second party"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bang_on.03",
-        "roleset_name": "talk about ceaselessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "topic, utterance"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bang.01",
+    "roleset_name": "emit banging noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing emitting noise",
+        "descr_trans": "发出噪音的东西"
+      }
+    ],
+    "roleset_name_trans": "发出撞击声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bang.02",
+    "roleset_name": "strike so as to make banging noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "striker, agent",
+        "descr_trans": "前锋、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "敲击以发出撞击声"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bang.04",
+    "roleset_name": "have sexual relations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first party",
+        "descr_trans": "第一方"
+      },
+      {
+        "n": "1",
+        "descr": "second party",
+        "descr_trans": "第二方"
+      }
+    ],
+    "roleset_name_trans": "有性关系"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bang_on.03",
+    "roleset_name": "talk about ceaselessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "topic, utterance",
+        "descr_trans": "话题、话语"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      }
+    ],
+    "roleset_name_trans": "不停地谈论"
+  }
 ]

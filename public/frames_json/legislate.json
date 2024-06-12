@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "legislate.01",
-        "roleset_name": "control via law",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "law-giving body"
-            },
-            {
-                "n": "1",
-                "descr": "thing controlled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "legislate.01",
+    "roleset_name": "control via law",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "law-giving body",
+        "descr_trans": "立法机构"
+      },
+      {
+        "n": "1",
+        "descr": "thing controlled",
+        "descr_trans": "受控事物"
+      }
+    ],
+    "roleset_name_trans": "通过法律控制"
+  }
 ]

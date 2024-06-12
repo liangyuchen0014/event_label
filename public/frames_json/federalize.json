@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "federalize.01",
-        "roleset_name": "put under the control of the federal government",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change to government control"
-            },
-            {
-                "n": "1",
-                "descr": "issue now under governmental control"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "federalize.02",
-        "roleset_name": "unite together for a common purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "uniter"
-            },
-            {
-                "n": "1",
-                "descr": "republics joined"
-            },
-            {
-                "n": "2",
-                "descr": "second republic if listed separately"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "federalize.01",
+    "roleset_name": "put under the control of the federal government",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change to government control",
+        "descr_trans": "政府控制变化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "issue now under governmental control",
+        "descr_trans": "问题现在处于政府控制之下"
+      }
+    ],
+    "roleset_name_trans": "置于联邦政府控制之下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "federalize.02",
+    "roleset_name": "unite together for a common purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "uniter",
+        "descr_trans": "一起"
+      },
+      {
+        "n": "1",
+        "descr": "republics joined",
+        "descr_trans": "共和国加入"
+      },
+      {
+        "n": "2",
+        "descr": "second republic if listed separately",
+        "descr_trans": "第二共和国（如果单独列出）"
+      }
+    ],
+    "roleset_name_trans": "为了共同的目标而团结在一起"
+  }
 ]

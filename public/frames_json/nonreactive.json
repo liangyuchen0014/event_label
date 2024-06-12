@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nonreactive.01",
-        "roleset_name": "not giving a response",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reactor"
-            },
-            {
-                "n": "1",
-                "descr": "(not) reacting to"
-            },
-            {
-                "n": "2",
-                "descr": "the non-reaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nonreactive.01",
+    "roleset_name": "not giving a response",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reactor",
+        "descr_trans": "反应堆"
+      },
+      {
+        "n": "1",
+        "descr": "(not) reacting to",
+        "descr_trans": "（不）做出反应"
+      },
+      {
+        "n": "2",
+        "descr": "the non-reaction",
+        "descr_trans": "无反应"
+      }
+    ],
+    "roleset_name_trans": "不予回应"
+  }
 ]

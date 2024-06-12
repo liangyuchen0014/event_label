@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dance.01",
-        "roleset_name": "move the body in a choreographed or improvised set of rythmic movements",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dancer"
-            },
-            {
-                "n": "1",
-                "descr": "dance"
-            },
-            {
-                "n": "2",
-                "descr": "partner"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dance.02",
-        "roleset_name": "move dancingly along a path",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "breakdance.03",
-        "roleset_name": "dance a breakdance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "b-boy or b-girl"
-            },
-            {
-                "n": "1",
-                "descr": "explicit mention of the dance or move"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dance.01",
+    "roleset_name": "move the body in a choreographed or improvised set of rythmic movements",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dancer",
+        "descr_trans": "舞蹈家"
+      },
+      {
+        "n": "1",
+        "descr": "dance",
+        "descr_trans": "舞蹈"
+      },
+      {
+        "n": "2",
+        "descr": "partner",
+        "descr_trans": "伙伴"
+      }
+    ],
+    "roleset_name_trans": "以一组精心设计或即兴创作的节奏动作移动身体"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dance.02",
+    "roleset_name": "move dancingly along a path",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "沿着小路跳舞"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "breakdance.03",
+    "roleset_name": "dance a breakdance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "b-boy or b-girl",
+        "descr_trans": "B 男孩或 B 女孩"
+      },
+      {
+        "n": "1",
+        "descr": "explicit mention of the dance or move",
+        "descr_trans": "明确提及舞蹈或动作"
+      }
+    ],
+    "roleset_name_trans": "跳霹雳舞"
+  }
 ]

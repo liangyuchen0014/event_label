@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indispose.01",
-        "roleset_name": "make unfit or unwilling",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cause of unwillingness"
-            },
-            {
-                "n": "2",
-                "descr": "unfit one"
-            },
-            {
-                "n": "3",
-                "descr": "unwilling to do this"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "indispose.02",
-        "roleset_name": "cause to feel unwell",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cause of illness"
-            },
-            {
-                "n": "2",
-                "descr": "ill person"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indispose.01",
+    "roleset_name": "make unfit or unwilling",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cause of unwillingness",
+        "descr_trans": "不愿意的原因"
+      },
+      {
+        "n": "2",
+        "descr": "unfit one",
+        "descr_trans": "不适合的人"
+      },
+      {
+        "n": "3",
+        "descr": "unwilling to do this",
+        "descr_trans": "不愿意这样做"
+      }
+    ],
+    "roleset_name_trans": "使不适合或不愿意"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "indispose.02",
+    "roleset_name": "cause to feel unwell",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cause of illness",
+        "descr_trans": "发病原因"
+      },
+      {
+        "n": "2",
+        "descr": "ill person",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "导致感觉不适"
+  }
 ]

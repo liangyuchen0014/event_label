@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uneasy.01",
-        "roleset_name": "uneasy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of unease"
-            },
-            {
-                "n": "1",
-                "descr": "entity actually feeling uneasy"
-            },
-            {
-                "n": "2",
-                "descr": "cause, uneasy about what? (non-agentive)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uneasy.01",
+    "roleset_name": "uneasy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of unease",
+        "descr_trans": "代理人，不安的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity actually feeling uneasy",
+        "descr_trans": "实体实际上感到不安"
+      },
+      {
+        "n": "2",
+        "descr": "cause, uneasy about what? (non-agentive)",
+        "descr_trans": "因何而不安？ （非主动）"
+      }
+    ],
+    "roleset_name_trans": "不安"
+  }
 ]

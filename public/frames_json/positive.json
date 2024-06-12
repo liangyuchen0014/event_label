@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "positive.01",
-        "roleset_name": "certain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who is certain"
-            },
-            {
-                "n": "1",
-                "descr": "about what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "positive.02",
-        "roleset_name": "optimistic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus of optimism, generally good thing"
-            },
-            {
-                "n": "1",
-                "descr": "optimist"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "positive.03",
-        "roleset_name": "be confirmed for the presence of (like with a medical test)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "test or patient, thing evaluated"
-            },
-            {
-                "n": "2",
-                "descr": "positive for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "positive.01",
+    "roleset_name": "certain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who is certain",
+        "descr_trans": "确定的实体"
+      },
+      {
+        "n": "1",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "肯定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "positive.02",
+    "roleset_name": "optimistic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus of optimism, generally good thing",
+        "descr_trans": "乐观的刺激，通常是好事"
+      },
+      {
+        "n": "1",
+        "descr": "optimist",
+        "descr_trans": "乐天派"
+      }
+    ],
+    "roleset_name_trans": "乐观的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "positive.03",
+    "roleset_name": "be confirmed for the presence of (like with a medical test)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "test or patient, thing evaluated",
+        "descr_trans": "测试或患者，评估的事物"
+      },
+      {
+        "n": "2",
+        "descr": "positive for what",
+        "descr_trans": "对什么积极"
+      }
+    ],
+    "roleset_name_trans": "确认是否存在（如医学测试）"
+  }
 ]

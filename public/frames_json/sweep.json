@@ -1,136 +1,165 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sweep.01",
-        "roleset_name": "wipe, clean by sweeping, like with a broom",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "the dirt itself"
-            },
-            {
-                "n": "2",
-                "descr": "source, dirty location being cleaned"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (ie, broom)"
-            },
-            {
-                "n": "4",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sweep.02",
-        "roleset_name": "(cause to) move in a sweeping manner, smooth motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "path"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sweep.05",
-        "roleset_name": "win every game in a series, embarrassingly thorough win",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sweeper, winner"
-            },
-            {
-                "n": "1",
-                "descr": "Swept, loser"
-            },
-            {
-                "n": "2",
-                "descr": "swept in what? the competition in which sweeping occurred"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sweep.06",
-        "roleset_name": "thorough search of an area",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "area searched"
-            },
-            {
-                "n": "2",
-                "descr": "searched for"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sweep_up.03",
-        "roleset_name": "embrace, become overwhelmed by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "embracer, experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "overwhelming, embraced thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "sweep_up.04",
-        "roleset_name": "clean or remove by sweeping, or in a sweeping motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being cleaned (ie dirt)"
-            },
-            {
-                "n": "2",
-                "descr": "source (ie floor) or destination"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (ie, broom)"
-            },
-            {
-                "n": "4",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sweep.01",
+    "roleset_name": "wipe, clean by sweeping, like with a broom",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "the dirt itself",
+        "descr_trans": "污垢本身"
+      },
+      {
+        "n": "2",
+        "descr": "source, dirty location being cleaned",
+        "descr_trans": "源头，正在清理的脏位置"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (ie, broom)",
+        "descr_trans": "乐器（即扫帚）"
+      },
+      {
+        "n": "4",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "擦拭，像用扫帚一样清扫"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sweep.02",
+    "roleset_name": "(cause to) move in a sweeping manner, smooth motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of motion",
+        "descr_trans": "运动原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "（导致）以一种扫荡的方式移动，平稳的运动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sweep.05",
+    "roleset_name": "win every game in a series, embarrassingly thorough win",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sweeper, winner",
+        "descr_trans": "清道夫，胜利者"
+      },
+      {
+        "n": "1",
+        "descr": "Swept, loser",
+        "descr_trans": "横扫，失败者"
+      },
+      {
+        "n": "2",
+        "descr": "swept in what? the competition in which sweeping occurred",
+        "descr_trans": "席卷了什么？发生横扫的比赛"
+      }
+    ],
+    "roleset_name_trans": "赢得系列赛中的每一场比赛，令人尴尬的彻底胜利"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sweep.06",
+    "roleset_name": "thorough search of an area",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "area searched",
+        "descr_trans": "搜索区域"
+      },
+      {
+        "n": "2",
+        "descr": "searched for",
+        "descr_trans": "搜索"
+      }
+    ],
+    "roleset_name_trans": "彻底搜索一个区域"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sweep_up.03",
+    "roleset_name": "embrace, become overwhelmed by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "embracer, experiencer",
+        "descr_trans": "拥抱者、体验者"
+      },
+      {
+        "n": "1",
+        "descr": "overwhelming, embraced thing",
+        "descr_trans": "压倒性的、拥抱的事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute on arg1",
+        "descr_trans": "arg1 上的属性"
+      }
+    ],
+    "roleset_name_trans": "拥抱，被淹没"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "sweep_up.04",
+    "roleset_name": "clean or remove by sweeping, or in a sweeping motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being cleaned (ie dirt)",
+        "descr_trans": "被清洁的东西（即污垢）"
+      },
+      {
+        "n": "2",
+        "descr": "source (ie floor) or destination",
+        "descr_trans": "来源（即楼层）或目的地"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (ie, broom)",
+        "descr_trans": "乐器（即扫帚）"
+      },
+      {
+        "n": "4",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "通过清扫或以清扫动作清洁或去除"
+  }
 ]

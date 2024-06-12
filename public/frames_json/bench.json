@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bench.01",
-        "roleset_name": "to keep out of or remove from a game",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bencher"
-            },
-            {
-                "n": "1",
-                "descr": "person benched"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bench.01",
+    "roleset_name": "to keep out of or remove from a game",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bencher",
+        "descr_trans": "板凳席"
+      },
+      {
+        "n": "1",
+        "descr": "person benched",
+        "descr_trans": "坐在板凳上的人"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "阻止或从游戏中移除"
+  }
 ]

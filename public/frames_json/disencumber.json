@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disencumber.01",
-        "roleset_name": "free from difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity freeing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being freed"
-            },
-            {
-                "n": "2",
-                "descr": "freed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disencumber.01",
+    "roleset_name": "free from difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity freeing",
+        "descr_trans": "实体释放"
+      },
+      {
+        "n": "1",
+        "descr": "thing being freed",
+        "descr_trans": "被释放的东西"
+      },
+      {
+        "n": "2",
+        "descr": "freed from",
+        "descr_trans": "摆脱了"
+      }
+    ],
+    "roleset_name_trans": "没有困难"
+  }
 ]

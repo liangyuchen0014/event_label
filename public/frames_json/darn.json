@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "darn.01",
-        "roleset_name": "repair by sewing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, repairer"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing(s) being darned"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thread"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "darn.01",
+    "roleset_name": "repair by sewing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, repairer",
+        "descr_trans": "代理人、修理工"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing(s) being darned",
+        "descr_trans": "病人，事情正在该死"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thread",
+        "descr_trans": "仪器、线"
+      }
+    ],
+    "roleset_name_trans": "缝合修复"
+  }
 ]

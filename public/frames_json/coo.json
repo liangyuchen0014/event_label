@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coo.01",
-        "roleset_name": "make a noise like a dove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cooer (dove, perhaps)"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener, cooed-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coo.01",
+    "roleset_name": "make a noise like a dove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cooer (dove, perhaps)",
+        "descr_trans": "酷儿（也许是鸽子）"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener, cooed-to",
+        "descr_trans": "倾听者，默许的"
+      }
+    ],
+    "roleset_name_trans": "像鸽子一样发出声音"
+  }
 ]

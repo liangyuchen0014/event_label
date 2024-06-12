@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nasalize.01",
-        "roleset_name": "pronounce normally oral sounds as nasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "sound nasalized"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nasal.02",
-        "roleset_name": "speak nasally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nasalize.01",
+    "roleset_name": "pronounce normally oral sounds as nasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "sound nasalized",
+        "descr_trans": "声音鼻音化"
+      }
+    ],
+    "roleset_name_trans": "通常口语发音为鼻音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nasal.02",
+    "roleset_name": "speak nasally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说话带鼻音"
+  }
 ]

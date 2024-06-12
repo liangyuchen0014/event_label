@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unacceptable.01",
-        "roleset_name": "not able to be accepted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-acceptor"
-            },
-            {
-                "n": "1",
-                "descr": "thing not accepted"
-            },
-            {
-                "n": "2",
-                "descr": "not accepted from; source"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unacceptable.01",
+    "roleset_name": "not able to be accepted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-acceptor",
+        "descr_trans": "不接受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not accepted",
+        "descr_trans": "事情不被接受"
+      },
+      {
+        "n": "2",
+        "descr": "not accepted from; source",
+        "descr_trans": "不被接受；来源"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "无法被接受"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drizzle.01",
-        "roleset_name": "load",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loader, agent"
-            },
-            {
-                "n": "1",
-                "descr": "beast of burden"
-            },
-            {
-                "n": "2",
-                "descr": "things that gets loaded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drizzle.01",
+    "roleset_name": "load",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loader, agent",
+        "descr_trans": "装载机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "beast of burden",
+        "descr_trans": "负重的野兽"
+      },
+      {
+        "n": "2",
+        "descr": "things that gets loaded",
+        "descr_trans": "加载的东西"
+      }
+    ],
+    "roleset_name_trans": "加载"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deposit.01",
-        "roleset_name": "put something somewhere",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "depositor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing deposited"
-            },
-            {
-                "n": "2",
-                "descr": "where"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deposition.02",
-        "roleset_name": "law domain: give testimony under oath",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deposer, legal professional taking deposition"
-            },
-            {
-                "n": "1",
-                "descr": "deposed, person giving testimony"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "depose.03",
-        "roleset_name": "to dethrone, remove from an office or position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of removal"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "Source: Arg1 is removed from where?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deposit.01",
+    "roleset_name": "put something somewhere",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "depositor, agent",
+        "descr_trans": "存款人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing deposited",
+        "descr_trans": "存入的东西"
+      },
+      {
+        "n": "2",
+        "descr": "where",
+        "descr_trans": "在哪里"
+      }
+    ],
+    "roleset_name_trans": "把东西放在某处"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deposition.02",
+    "roleset_name": "law domain: give testimony under oath",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deposer, legal professional taking deposition",
+        "descr_trans": "出庭人，接受证言的法律专业人士"
+      },
+      {
+        "n": "1",
+        "descr": "deposed, person giving testimony",
+        "descr_trans": "被废黜、作证的人"
+      }
+    ],
+    "roleset_name_trans": "法律领域：宣誓作证"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "depose.03",
+    "roleset_name": "to dethrone, remove from an office or position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of removal",
+        "descr_trans": "移除原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being removed",
+        "descr_trans": "正在移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Source: Arg1 is removed from where?",
+        "descr_trans": "来源：Arg1 从哪里删除？"
+      }
+    ],
+    "roleset_name_trans": "废黜、从办公室或职位上除名"
+  }
 ]

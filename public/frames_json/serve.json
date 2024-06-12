@@ -1,116 +1,140 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "serve.01",
-        "roleset_name": "act, work, performance of a service",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker, entity performing a service/acting in some capacity"
-            },
-            {
-                "n": "1",
-                "descr": "job, project, service performed"
-            },
-            {
-                "n": "2",
-                "descr": "employer/recipient/beneficiary of service"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "serve.02",
-        "roleset_name": "cater (to someone or something), delivery of something concrete",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "server"
-            },
-            {
-                "n": "1",
-                "descr": "thing served/delivered"
-            },
-            {
-                "n": "2",
-                "descr": "served/delivered to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "serve.04",
-        "roleset_name": "serve a sentence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing time"
-            },
-            {
-                "n": "1",
-                "descr": "sentence served (maybe given as a period of time)"
-            },
-            {
-                "n": "2",
-                "descr": "crime, reason for sentence"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "serve_up.03",
-        "roleset_name": "provide, offer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "server"
-            },
-            {
-                "n": "1",
-                "descr": "served"
-            },
-            {
-                "n": "2",
-                "descr": "served to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "service.05",
-        "roleset_name": "do things to, like maintenance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer"
-            },
-            {
-                "n": "1",
-                "descr": "thing worked on"
-            },
-            {
-                "n": "2",
-                "descr": "kind of service (thing done to arg1)"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "service.06",
-        "roleset_name": "religious service or ceremony",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "honorer/attendees"
-            },
-            {
-                "n": "1",
-                "descr": "type of service"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of entity honored at the service"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "serve.01",
+    "roleset_name": "act, work, performance of a service",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker, entity performing a service/acting in some capacity",
+        "descr_trans": "工人，以某种身份提供服务/行事的实体"
+      },
+      {
+        "n": "1",
+        "descr": "job, project, service performed",
+        "descr_trans": "工作、项目、执行的服务"
+      },
+      {
+        "n": "2",
+        "descr": "employer/recipient/beneficiary of service",
+        "descr_trans": "服务的雇主/接受者/受益人"
+      }
+    ],
+    "roleset_name_trans": "行为、工作、服务表现"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "serve.02",
+    "roleset_name": "cater (to someone or something), delivery of something concrete",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "server",
+        "descr_trans": "服务器"
+      },
+      {
+        "n": "1",
+        "descr": "thing served/delivered",
+        "descr_trans": "送达/交付的东西"
+      },
+      {
+        "n": "2",
+        "descr": "served/delivered to",
+        "descr_trans": "送达/交付至"
+      }
+    ],
+    "roleset_name_trans": "迎合（某人或某事），提供具体的东西"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "serve.04",
+    "roleset_name": "serve a sentence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing time",
+        "descr_trans": "实体做事时间"
+      },
+      {
+        "n": "1",
+        "descr": "sentence served (maybe given as a period of time)",
+        "descr_trans": "已服刑（可能以一段时间的形式给出）"
+      },
+      {
+        "n": "2",
+        "descr": "crime, reason for sentence",
+        "descr_trans": "罪行、判刑理由"
+      }
+    ],
+    "roleset_name_trans": "服刑"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "serve_up.03",
+    "roleset_name": "provide, offer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "server",
+        "descr_trans": "服务器"
+      },
+      {
+        "n": "1",
+        "descr": "served",
+        "descr_trans": "服务"
+      },
+      {
+        "n": "2",
+        "descr": "served to",
+        "descr_trans": "服务于"
+      }
+    ],
+    "roleset_name_trans": "提供，提供"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "service.05",
+    "roleset_name": "do things to, like maintenance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer",
+        "descr_trans": "实干家"
+      },
+      {
+        "n": "1",
+        "descr": "thing worked on",
+        "descr_trans": "事情进展顺利"
+      },
+      {
+        "n": "2",
+        "descr": "kind of service (thing done to arg1)",
+        "descr_trans": "服务类型（对 arg1 所做的事情）"
+      }
+    ],
+    "roleset_name_trans": "做一些事情，比如维护"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "service.06",
+    "roleset_name": "religious service or ceremony",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "honorer/attendees",
+        "descr_trans": "荣誉者/与会者"
+      },
+      {
+        "n": "1",
+        "descr": "type of service",
+        "descr_trans": "服务类型"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of entity honored at the service",
+        "descr_trans": "明确提及在服务中受到表彰的实体"
+      }
+    ],
+    "roleset_name_trans": "宗教仪式或仪式"
+  }
 ]

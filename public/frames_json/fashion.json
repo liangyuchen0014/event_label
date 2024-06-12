@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fashion.01",
-        "roleset_name": "to make out of components",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity fashioned"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fashionable.02",
-        "roleset_name": "stylish",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in fashion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fashion.01",
+    "roleset_name": "to make out of components",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker, agent",
+        "descr_trans": "制造商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity fashioned",
+        "descr_trans": "实体成型"
+      }
+    ],
+    "roleset_name_trans": "用组件制作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fashionable.02",
+    "roleset_name": "stylish",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in fashion",
+        "descr_trans": "时尚实体"
+      }
+    ],
+    "roleset_name_trans": "时髦的"
+  }
 ]

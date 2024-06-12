@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decommission.01",
-        "roleset_name": "to revoke a commission or   authorization",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revoker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "task"
-            },
-            {
-                "n": "2",
-                "descr": "recepient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decommission.01",
+    "roleset_name": "to revoke a commission or   authorization",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revoker, agent",
+        "descr_trans": "撤销者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "task",
+        "descr_trans": "任务"
+      },
+      {
+        "n": "2",
+        "descr": "recepient",
+        "descr_trans": "他们将收到"
+      }
+    ],
+    "roleset_name_trans": "撤销委托或授权"
+  }
 ]

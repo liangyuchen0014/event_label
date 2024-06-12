@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "doff.01",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "clothing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            },
-            {
-                "n": "3",
-                "descr": "in exchange for, clothing put on instead"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "doff.01",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "clothing removed",
+        "descr_trans": "衣服被脱掉"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      },
+      {
+        "n": "3",
+        "descr": "in exchange for, clothing put on instead",
+        "descr_trans": "作为交换，换上衣服"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

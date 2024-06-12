@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revile.01",
-        "roleset_name": "to criticize, speak harshly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "criticizer"
-            },
-            {
-                "n": "1",
-                "descr": "entity scolded"
-            },
-            {
-                "n": "2",
-                "descr": "reason reviled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revile.01",
+    "roleset_name": "to criticize, speak harshly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "criticizer",
+        "descr_trans": "批评者"
+      },
+      {
+        "n": "1",
+        "descr": "entity scolded",
+        "descr_trans": "实体被骂"
+      },
+      {
+        "n": "2",
+        "descr": "reason reviled",
+        "descr_trans": "被谩骂的原因"
+      }
+    ],
+    "roleset_name_trans": "批评, 严厉地说话"
+  }
 ]

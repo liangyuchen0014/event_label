@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "acetylate.01",
-        "roleset_name": "introduce an acetyl group into a compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of acetylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing acetylated (material/source)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of acetylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "acetylate.01",
+    "roleset_name": "introduce an acetyl group into a compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of acetylation (e.g. scientist)",
+        "descr_trans": "乙酰化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing acetylated (material/source)",
+        "descr_trans": "乙酰化物（材料/来源）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of acetylation",
+        "descr_trans": "乙酰化产物"
+      }
+    ],
+    "roleset_name_trans": "将乙酰基引入化合物中"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "evolve.01",
-        "roleset_name": "change form",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "evolve.02",
-        "roleset_name": "acquire characteristics through evolution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causing the evolutionary change"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquring"
-            },
-            {
-                "n": "2",
-                "descr": "characteristics acquired"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "evolve.01",
+    "roleset_name": "change form",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "改变形式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "evolve.02",
+    "roleset_name": "acquire characteristics through evolution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causing the evolutionary change",
+        "descr_trans": "代理，引起进化变化"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquring",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "characteristics acquired",
+        "descr_trans": "获得的特征"
+      }
+    ],
+    "roleset_name_trans": "通过进化获得特征"
+  }
 ]

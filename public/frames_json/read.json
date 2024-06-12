@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "read.01",
-        "roleset_name": "read, read (as in text, or as in assessment)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reader"
-            },
-            {
-                "n": "1",
-                "descr": "thing read (book)"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive or direction"
-            },
-            {
-                "n": "3",
-                "descr": "text, content"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "read_up.02",
-        "roleset_name": "read_up on something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reader"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter read up on"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "read_off.03",
-        "roleset_name": "recite from a list",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reader"
-            },
-            {
-                "n": "1",
-                "descr": "read"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "read.01",
+    "roleset_name": "read, read (as in text, or as in assessment)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reader",
+        "descr_trans": "读者"
+      },
+      {
+        "n": "1",
+        "descr": "thing read (book)",
+        "descr_trans": "读过的东西（书）"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive or direction",
+        "descr_trans": "有利或方向"
+      },
+      {
+        "n": "3",
+        "descr": "text, content",
+        "descr_trans": "文字、内容"
+      }
+    ],
+    "roleset_name_trans": "阅读，阅读（如文本或评估）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "read_up.02",
+    "roleset_name": "read_up on something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reader",
+        "descr_trans": "读者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter read up on",
+        "descr_trans": "主题内容请继续阅读"
+      }
+    ],
+    "roleset_name_trans": "阅读某事"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "read_off.03",
+    "roleset_name": "recite from a list",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reader",
+        "descr_trans": "读者"
+      },
+      {
+        "n": "1",
+        "descr": "read",
+        "descr_trans": "读"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "从列表中背诵"
+  }
 ]

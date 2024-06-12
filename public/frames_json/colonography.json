@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "colonography.01",
-        "roleset_name": "imaging exam of the colon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "colonography.01",
+    "roleset_name": "imaging exam of the colon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      }
+    ],
+    "roleset_name_trans": "结肠影像学检查"
+  }
 ]

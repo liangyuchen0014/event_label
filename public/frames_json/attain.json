@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "attain.01",
-        "roleset_name": "to reach or achieve, achievment/acquisition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity attained"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "attainable.02",
-        "roleset_name": "to reach or achieve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attainable to whom?  reacher"
-            },
-            {
-                "n": "1",
-                "descr": "attainable thing, reached"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "attain.01",
+    "roleset_name": "to reach or achieve, achievment/acquisition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reacher, agent",
+        "descr_trans": "到达者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity attained",
+        "descr_trans": "实体达到"
+      }
+    ],
+    "roleset_name_trans": "达到或实现、成就/获得"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "attainable.02",
+    "roleset_name": "to reach or achieve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attainable to whom?  reacher",
+        "descr_trans": "对谁来说是可以达到的？到达者"
+      },
+      {
+        "n": "1",
+        "descr": "attainable thing, reached",
+        "descr_trans": "可以达到的东西，达到"
+      }
+    ],
+    "roleset_name_trans": "达到或实现"
+  }
 ]

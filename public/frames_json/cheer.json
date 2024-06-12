@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cheer.01",
-        "roleset_name": "make happy, cheerful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of cheer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, made cheerful"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner, only when separate  from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cheer.02",
-        "roleset_name": "applaud, cheer for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clapper"
-            },
-            {
-                "n": "1",
-                "descr": "thing approved of"
-            },
-            {
-                "n": "2",
-                "descr": "grounds, reason for approval"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cheer_up.03",
-        "roleset_name": "make happy, cheerful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "comforter"
-            },
-            {
-                "n": "1",
-                "descr": "patient, comforted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "cheer_on.04",
-        "roleset_name": "encourage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "encourager"
-            },
-            {
-                "n": "1",
-                "descr": "thing encouraged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cheer.01",
+    "roleset_name": "make happy, cheerful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of cheer, agent",
+        "descr_trans": "欢呼者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, made cheerful",
+        "descr_trans": "有耐心，开朗"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner, only when separate  from agent",
+        "descr_trans": "工具或方式，仅当与代理人分开时"
+      }
+    ],
+    "roleset_name_trans": "使快乐、愉快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cheer.02",
+    "roleset_name": "applaud, cheer for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clapper",
+        "descr_trans": "拍板"
+      },
+      {
+        "n": "1",
+        "descr": "thing approved of",
+        "descr_trans": "批准的事情"
+      },
+      {
+        "n": "2",
+        "descr": "grounds, reason for approval",
+        "descr_trans": "批准的理由、理由"
+      }
+    ],
+    "roleset_name_trans": "鼓掌，喝彩"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cheer_up.03",
+    "roleset_name": "make happy, cheerful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "comforter",
+        "descr_trans": "棉被"
+      },
+      {
+        "n": "1",
+        "descr": "patient, comforted",
+        "descr_trans": "耐心、安慰"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner",
+        "descr_trans": "仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "使快乐、愉快"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "cheer_on.04",
+    "roleset_name": "encourage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "encourager",
+        "descr_trans": "鼓励"
+      },
+      {
+        "n": "1",
+        "descr": "thing encouraged",
+        "descr_trans": "鼓励的事情"
+      }
+    ],
+    "roleset_name_trans": "鼓励"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "percolate.01",
-        "roleset_name": "pass or ooze through",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of percolation"
-            },
-            {
-                "n": "1",
-                "descr": "liquid substance"
-            },
-            {
-                "n": "2",
-                "descr": "passing through what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "percolate.01",
+    "roleset_name": "pass or ooze through",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of percolation",
+        "descr_trans": "渗透剂"
+      },
+      {
+        "n": "1",
+        "descr": "liquid substance",
+        "descr_trans": "液体物质"
+      },
+      {
+        "n": "2",
+        "descr": "passing through what",
+        "descr_trans": "穿过什么"
+      }
+    ],
+    "roleset_name_trans": "通过或渗透"
+  }
 ]

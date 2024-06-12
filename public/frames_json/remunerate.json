@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remunerate.01",
-        "roleset_name": "to make a payment, compensate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity remunerated"
-            },
-            {
-                "n": "2",
-                "descr": "compensation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remunerate.01",
+    "roleset_name": "to make a payment, compensate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer, agent",
+        "descr_trans": "付款人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity remunerated",
+        "descr_trans": "实体获得报酬"
+      },
+      {
+        "n": "2",
+        "descr": "compensation",
+        "descr_trans": "赔偿"
+      }
+    ],
+    "roleset_name_trans": "付款，补偿"
+  }
 ]

@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "criminalize.01",
-        "roleset_name": "make into a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, legislative body"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            },
-            {
-                "n": "2",
-                "descr": "criminal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crime.02",
-        "roleset_name": "a violent or evil act",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "criminal"
-            },
-            {
-                "n": "1",
-                "descr": "act"
-            },
-            {
-                "n": "2",
-                "descr": "crime against, (anti)benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "criminal.03",
-        "roleset_name": "characterized by crime (as a crime, or as capable of committing crime)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, legislative body"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            },
-            {
-                "n": "2",
-                "descr": "criminal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "criminalize.01",
+    "roleset_name": "make into a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, legislative body",
+        "descr_trans": "立法机构代理人"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "2",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      }
+    ],
+    "roleset_name_trans": "构成犯罪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crime.02",
+    "roleset_name": "a violent or evil act",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "1",
+        "descr": "act",
+        "descr_trans": "行为"
+      },
+      {
+        "n": "2",
+        "descr": "crime against, (anti)benefactive",
+        "descr_trans": "针对、（反）有益的犯罪"
+      }
+    ],
+    "roleset_name_trans": "暴力或邪恶的行为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "criminal.03",
+    "roleset_name": "characterized by crime (as a crime, or as capable of committing crime)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, legislative body",
+        "descr_trans": "立法机构代理人"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "2",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      }
+    ],
+    "roleset_name_trans": "以犯罪为特征（作为犯罪或有犯罪能力）"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fumigate.01",
-        "roleset_name": "fumigate, disinfecting or purifying using chemical fumes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, fumigator"
-            },
-            {
-                "n": "1",
-                "descr": "infested/infected thing"
-            },
-            {
-                "n": "2",
-                "descr": "thing infesting Arg1"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, chemical used to fumigate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fumigate.01",
+    "roleset_name": "fumigate, disinfecting or purifying using chemical fumes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, fumigator",
+        "descr_trans": "代理、熏蒸剂"
+      },
+      {
+        "n": "1",
+        "descr": "infested/infected thing",
+        "descr_trans": "被感染的/被感染的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing infesting Arg1",
+        "descr_trans": "感染 Arg1 的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, chemical used to fumigate",
+        "descr_trans": "仪器，用于熏蒸的化学品"
+      }
+    ],
+    "roleset_name_trans": "使用化学烟雾熏蒸、消毒或净化"
+  }
 ]

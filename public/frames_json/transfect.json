@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transfect.01",
-        "roleset_name": "introduce nucleic acids into a recipient cell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of transfection (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of transfection (e.g. cell)"
-            },
-            {
-                "n": "2",
-                "descr": "entity inserted into the cell (e.g. nucleid acid)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transfect.01",
+    "roleset_name": "introduce nucleic acids into a recipient cell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of transfection (e.g. scientist)",
+        "descr_trans": "有意转染的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of transfection (e.g. cell)",
+        "descr_trans": "转染受体（例如细胞）"
+      },
+      {
+        "n": "2",
+        "descr": "entity inserted into the cell (e.g. nucleid acid)",
+        "descr_trans": "插入细胞的实体（例如核酸）"
+      }
+    ],
+    "roleset_name_trans": "将核酸引入受体细胞"
+  }
 ]

@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crash.01",
-        "roleset_name": "to break, undergo damage, possibly producing a characteristic sound, possibly resulting in a sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of damage, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity crashed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crash.02",
-        "roleset_name": "to enter uninvited, invite oneself in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity entering"
-            },
-            {
-                "n": "1",
-                "descr": "party"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "crash.04",
-        "roleset_name": "fall asleep heavily, maybe someplace other than home",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "crash_out.03",
-        "roleset_name": "to create quickly and sloppily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "entity created"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crash.01",
+    "roleset_name": "to break, undergo damage, possibly producing a characteristic sound, possibly resulting in a sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of damage, agent",
+        "descr_trans": "损害原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity crashed",
+        "descr_trans": "实体崩溃"
+      }
+    ],
+    "roleset_name_trans": "破裂，遭受损坏，可能产生特征声音，可能产生声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crash.02",
+    "roleset_name": "to enter uninvited, invite oneself in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity entering",
+        "descr_trans": "实体进入"
+      },
+      {
+        "n": "1",
+        "descr": "party",
+        "descr_trans": "派对"
+      }
+    ],
+    "roleset_name_trans": "不请自来地进入，邀请自己进入"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "crash.04",
+    "roleset_name": "fall asleep heavily, maybe someplace other than home",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "睡得很沉，可能是在家里以外的地方"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "crash_out.03",
+    "roleset_name": "to create quickly and sloppily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "entity created",
+        "descr_trans": "实体已创建"
+      }
+    ],
+    "roleset_name_trans": "快速而草率地创作"
+  }
 ]

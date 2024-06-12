@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hose.01",
-        "roleset_name": "spray, clean with hose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Hoser, cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "Dirt, thing cleaned off of surface"
-            },
-            {
-                "n": "2",
-                "descr": "surface (ie, floor, car, etc)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (defaults to 'hose')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hose.01",
+    "roleset_name": "spray, clean with hose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Hoser, cleaner",
+        "descr_trans": "软管、清洁器"
+      },
+      {
+        "n": "1",
+        "descr": "Dirt, thing cleaned off of surface",
+        "descr_trans": "污垢、从表面清除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "surface (ie, floor, car, etc)",
+        "descr_trans": "表面（即地板、汽车等）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (defaults to 'hose')",
+        "descr_trans": "仪器（默认为“软管”）"
+      }
+    ],
+    "roleset_name_trans": "喷洒，用软管清洁"
+  }
 ]

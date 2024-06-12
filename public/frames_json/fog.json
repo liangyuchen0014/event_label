@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fog.01",
-        "roleset_name": "cause to be covered with fog",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fog"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered with fog"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "foggy.02",
-        "roleset_name": "weather condition",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "explicit location that is foggy (copular subject, not empty 'it')"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "foggy.03",
-        "roleset_name": "poor mental clarity, understanding",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with poor mental clarity/understanding"
-            },
-            {
-                "n": "2",
-                "descr": "thing poorly understood/remembered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fog.01",
+    "roleset_name": "cause to be covered with fog",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fog",
+        "descr_trans": "雾的产生者"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered with fog",
+        "descr_trans": "被雾覆盖的东西"
+      }
+    ],
+    "roleset_name_trans": "导致被雾气笼罩"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "foggy.02",
+    "roleset_name": "weather condition",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "explicit location that is foggy (copular subject, not empty 'it')",
+        "descr_trans": "模糊的明确位置（常见主语，不是空的“it”）"
+      }
+    ],
+    "roleset_name_trans": "气候条件"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "foggy.03",
+    "roleset_name": "poor mental clarity, understanding",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with poor mental clarity/understanding",
+        "descr_trans": "思维清晰度/理解力较差的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing poorly understood/remembered",
+        "descr_trans": "不太理解/记忆的事情"
+      }
+    ],
+    "roleset_name_trans": "思维清晰度差、理解力差"
+  }
 ]

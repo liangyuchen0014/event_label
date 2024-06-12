@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tense.01",
-        "roleset_name": "(cause to) become tight(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tightening"
-            },
-            {
-                "n": "1",
-                "descr": "thing tightening"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tense.03",
-        "roleset_name": "be tight(er)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tightening"
-            },
-            {
-                "n": "1",
-                "descr": "thing tightening"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tense.01",
+    "roleset_name": "(cause to) become tight(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tightening",
+        "descr_trans": "紧缩原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing tightening",
+        "descr_trans": "事情收紧"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得紧张（呃）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tense.03",
+    "roleset_name": "be tight(er)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tightening",
+        "descr_trans": "紧缩原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing tightening",
+        "descr_trans": "事情收紧"
+      }
+    ],
+    "roleset_name_trans": "紧张"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "obligate.01",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "obligated, impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "obligation, impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "oblige.02",
-        "roleset_name": "to please or help",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pleaser, helper"
-            },
-            {
-                "n": "1",
-                "descr": "please or help whom? entity pleased by arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "obligate.01",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "obligated, impelled agent",
+        "descr_trans": "有义务的、被迫的代理人"
+      },
+      {
+        "n": "2",
+        "descr": "obligation, impelled action",
+        "descr_trans": "义务，被迫的行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "oblige.02",
+    "roleset_name": "to please or help",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pleaser, helper",
+        "descr_trans": "取悦者，帮助者"
+      },
+      {
+        "n": "1",
+        "descr": "please or help whom? entity pleased by arg 0",
+        "descr_trans": "请或帮助谁？实体对 arg 0 感到满意"
+      }
+    ],
+    "roleset_name_trans": "取悦或帮助"
+  }
 ]

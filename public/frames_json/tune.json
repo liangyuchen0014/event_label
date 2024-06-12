@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tune.01",
-        "roleset_name": "align with a certain frequency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity tuned"
-            },
-            {
-                "n": "2",
-                "descr": "entity tuned for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tune_in.02",
-        "roleset_name": "to adjust the controls on a radio or television",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adjuster of radio/tv"
-            },
-            {
-                "n": "1",
-                "descr": "entity tuned (radio, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "broadcast, channel, etc"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tune_out.03",
-        "roleset_name": "ignore, pay no heed to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ignorer"
-            },
-            {
-                "n": "1",
-                "descr": "entity tuned out"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tune.01",
+    "roleset_name": "align with a certain frequency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity tuned",
+        "descr_trans": "实体调整"
+      },
+      {
+        "n": "2",
+        "descr": "entity tuned for",
+        "descr_trans": "实体调整"
+      }
+    ],
+    "roleset_name_trans": "与一定的频率对齐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tune_in.02",
+    "roleset_name": "to adjust the controls on a radio or television",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adjuster of radio/tv",
+        "descr_trans": "收音机/电视调节器"
+      },
+      {
+        "n": "1",
+        "descr": "entity tuned (radio, etc)",
+        "descr_trans": "实体调谐（无线电等）"
+      },
+      {
+        "n": "2",
+        "descr": "broadcast, channel, etc",
+        "descr_trans": "广播、频道等"
+      }
+    ],
+    "roleset_name_trans": "调整收音机或电视的控制"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tune_out.03",
+    "roleset_name": "ignore, pay no heed to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ignorer",
+        "descr_trans": "忽略"
+      },
+      {
+        "n": "1",
+        "descr": "entity tuned out",
+        "descr_trans": "实体已调出"
+      }
+    ],
+    "roleset_name_trans": "忽略，不理会"
+  }
 ]

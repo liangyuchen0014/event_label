@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brighten.01",
-        "roleset_name": "to make or become brighter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity brightened"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bright.02",
-        "roleset_name": "luminous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "light source, light itself (default if you can't tell)"
-            },
-            {
-                "n": "1",
-                "descr": "location illuminated"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bright.03",
-        "roleset_name": "intelligent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "smarty-pants"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brighten.01",
+    "roleset_name": "to make or become brighter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity brightened",
+        "descr_trans": "实体变亮"
+      }
+    ],
+    "roleset_name_trans": "使或变得更明亮"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bright.02",
+    "roleset_name": "luminous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "light source, light itself (default if you can't tell)",
+        "descr_trans": "光源，光本身（如果你看不清，则默认）"
+      },
+      {
+        "n": "1",
+        "descr": "location illuminated",
+        "descr_trans": "位置被照亮"
+      }
+    ],
+    "roleset_name_trans": "发光的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bright.03",
+    "roleset_name": "intelligent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "smarty-pants",
+        "descr_trans": "聪明小子"
+      }
+    ],
+    "roleset_name_trans": "聪明的"
+  }
 ]

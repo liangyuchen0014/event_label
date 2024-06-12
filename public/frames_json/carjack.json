@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "carjack.01",
-        "roleset_name": "to commit theft of a vehicle   from its users",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carjacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "car, entity hijacked"
-            },
-            {
-                "n": "2",
-                "descr": "people, carjacked from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "carjack.01",
+    "roleset_name": "to commit theft of a vehicle   from its users",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carjacker, agent",
+        "descr_trans": "劫车者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "car, entity hijacked",
+        "descr_trans": "汽车，实体被劫持"
+      },
+      {
+        "n": "2",
+        "descr": "people, carjacked from",
+        "descr_trans": "被劫车的人"
+      }
+    ],
+    "roleset_name_trans": "盗窃用户的车辆"
+  }
 ]

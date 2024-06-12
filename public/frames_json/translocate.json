@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "translocate.01",
-        "roleset_name": "transport to the appropriate destinations in the cell or outside of it",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of translocation"
-            },
-            {
-                "n": "1",
-                "descr": "thing translocated (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "translocate.01",
+    "roleset_name": "transport to the appropriate destinations in the cell or outside of it",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of translocation",
+        "descr_trans": "易位代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing translocated (e.g. protein)",
+        "descr_trans": "易位的物质（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "运输至细胞内或细胞外的适当目的地"
+  }
 ]

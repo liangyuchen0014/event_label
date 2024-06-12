@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stage.01",
-        "roleset_name": "to perform or carry out, perform, carry out, set up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "performance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stage.02",
-        "roleset_name": "determine the progression of a disease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assessor of stage"
-            },
-            {
-                "n": "1",
-                "descr": "tissue or organ examined"
-            },
-            {
-                "n": "2",
-                "descr": "stage (THYME-AMRs: Use ajcc-entity-91)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stage.01",
+    "roleset_name": "to perform or carry out, perform, carry out, set up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "performance",
+        "descr_trans": "表现"
+      }
+    ],
+    "roleset_name_trans": "执行或执行、执行、执行、设置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stage.02",
+    "roleset_name": "determine the progression of a disease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assessor of stage",
+        "descr_trans": "阶段评估员"
+      },
+      {
+        "n": "1",
+        "descr": "tissue or organ examined",
+        "descr_trans": "检查的组织或器官"
+      },
+      {
+        "n": "2",
+        "descr": "stage (THYME-AMRs: Use ajcc-entity-91)",
+        "descr_trans": "阶段（THYME-AMR：使用 ajcc-entity-91）"
+      }
+    ],
+    "roleset_name_trans": "确定疾病的进展"
+  }
 ]

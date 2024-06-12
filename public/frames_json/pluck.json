@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pluck.01",
-        "roleset_name": "to remove or detach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity plucked"
-            },
-            {
-                "n": "2",
-                "descr": "plucked from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pluck.01",
+    "roleset_name": "to remove or detach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity plucked",
+        "descr_trans": "实体被拔除"
+      },
+      {
+        "n": "2",
+        "descr": "plucked from",
+        "descr_trans": "摘自"
+      }
+    ],
+    "roleset_name_trans": "移除或分离"
+  }
 ]

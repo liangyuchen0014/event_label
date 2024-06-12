@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harass.01",
-        "roleset_name": "bother",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "botherer, causer of annoyance"
-            },
-            {
-                "n": "1",
-                "descr": "harassed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "harass.02",
-        "roleset_name": "cause an action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent, harasser"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harass.01",
+    "roleset_name": "bother",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "botherer, causer of annoyance",
+        "descr_trans": "打扰者, 造成烦恼的人"
+      },
+      {
+        "n": "1",
+        "descr": "harassed",
+        "descr_trans": "骚扰"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "打扰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "harass.02",
+    "roleset_name": "cause an action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent, harasser",
+        "descr_trans": "肇事者, 骚扰者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "引起行动"
+  }
 ]

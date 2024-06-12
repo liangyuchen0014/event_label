@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gird.01",
-        "roleset_name": "encircle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity putting something around something else"
-            },
-            {
-                "n": "1",
-                "descr": "thing encircled"
-            },
-            {
-                "n": "2",
-                "descr": "thing going around"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gird.02",
-        "roleset_name": "prepare, get ready for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made ready"
-            },
-            {
-                "n": "2",
-                "descr": "ready for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gird.01",
+    "roleset_name": "encircle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity putting something around something else",
+        "descr_trans": "将某物置于另一物周围的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing encircled",
+        "descr_trans": "被包围的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing going around",
+        "descr_trans": "周围发生的事情"
+      }
+    ],
+    "roleset_name_trans": "包围"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gird.02",
+    "roleset_name": "prepare, get ready for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made ready",
+        "descr_trans": "东西准备好了"
+      },
+      {
+        "n": "2",
+        "descr": "ready for",
+        "descr_trans": "准备好"
+      }
+    ],
+    "roleset_name_trans": "准备，准备"
+  }
 ]

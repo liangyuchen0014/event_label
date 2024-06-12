@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scratch.02",
-        "roleset_name": "cut shallowly, rake the surface sharply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scratch.04",
-        "roleset_name": "search",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher, scratcher"
-            },
-            {
-                "n": "1",
-                "descr": "searched for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scratch_out.01",
-        "roleset_name": "extract with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "squeezer"
-            },
-            {
-                "n": "1",
-                "descr": "extracted material (ie life)"
-            },
-            {
-                "n": "2",
-                "descr": "source (ie, stony ground)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "scratch_out.03",
-        "roleset_name": "manner of writing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scratch.02",
+    "roleset_name": "cut shallowly, rake the surface sharply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "浅切，锐利地耙表面"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scratch.04",
+    "roleset_name": "search",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher, scratcher",
+        "descr_trans": "搜索者、刮板者"
+      },
+      {
+        "n": "1",
+        "descr": "searched for",
+        "descr_trans": "搜索"
+      }
+    ],
+    "roleset_name_trans": "搜索"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scratch_out.01",
+    "roleset_name": "extract with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "squeezer",
+        "descr_trans": "挤压器"
+      },
+      {
+        "n": "1",
+        "descr": "extracted material (ie life)",
+        "descr_trans": "提取的物质（即生命）"
+      },
+      {
+        "n": "2",
+        "descr": "source (ie, stony ground)",
+        "descr_trans": "来源（即石质地面）"
+      }
+    ],
+    "roleset_name_trans": "困难地提取"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "scratch_out.03",
+    "roleset_name": "manner of writing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "写作方式"
+  }
 ]

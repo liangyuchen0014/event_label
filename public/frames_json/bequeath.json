@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bequeath.01",
-        "roleset_name": "to leave by will, hand down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity bequeathed"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bequeath.01",
+    "roleset_name": "to leave by will, hand down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, agent",
+        "descr_trans": "给予者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity bequeathed",
+        "descr_trans": "实体遗赠"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "凭意志离开，放下手"
+  }
 ]

@@ -1,119 +1,143 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crack.01",
-        "roleset_name": "make a cracking noise, making a joke, cracking sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing shaking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crack.02",
-        "roleset_name": "break, but not into pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing broken"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "crack.05",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of hitting"
-            },
-            {
-                "n": "3",
-                "descr": "location, usually with 'across'"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "crack.07",
-        "roleset_name": "try",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity trying"
-            },
-            {
-                "n": "1",
-                "descr": "thing tried"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "crack_up.03",
-        "roleset_name": "crack up: cause hilarity, causing hilarity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joker"
-            },
-            {
-                "n": "1",
-                "descr": "laugher"
-            },
-            {
-                "n": "2",
-                "descr": "joke"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "crack_up.04",
-        "roleset_name": "crack up: go crazy, go crazy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "lunatic"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "crack_down.06",
-        "roleset_name": "punish something more harshly, suppress, harsher punishment, becoming strict",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "punisher, enforcer"
-            },
-            {
-                "n": "1",
-                "descr": "crime/entity being suppressed, punished"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crack.01",
+    "roleset_name": "make a cracking noise, making a joke, cracking sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shaker",
+        "descr_trans": "摇床"
+      },
+      {
+        "n": "1",
+        "descr": "thing shaking",
+        "descr_trans": "东西摇晃"
+      }
+    ],
+    "roleset_name_trans": "发出破裂声、开玩笑、破裂声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crack.02",
+    "roleset_name": "break, but not into pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breaker",
+        "descr_trans": "断路器"
+      },
+      {
+        "n": "1",
+        "descr": "thing broken",
+        "descr_trans": "东西坏了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "破碎，但不成碎片"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "crack.05",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "hit",
+        "descr_trans": "打"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of hitting",
+        "descr_trans": "打击乐器"
+      },
+      {
+        "n": "3",
+        "descr": "location, usually with 'across'",
+        "descr_trans": "位置，通常带有“cross”"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "crack.07",
+    "roleset_name": "try",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity trying",
+        "descr_trans": "实体尝试"
+      },
+      {
+        "n": "1",
+        "descr": "thing tried",
+        "descr_trans": "尝试过的事情"
+      }
+    ],
+    "roleset_name_trans": "尝试"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "crack_up.03",
+    "roleset_name": "crack up: cause hilarity, causing hilarity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joker",
+        "descr_trans": "小丑"
+      },
+      {
+        "n": "1",
+        "descr": "laugher",
+        "descr_trans": "笑声"
+      },
+      {
+        "n": "2",
+        "descr": "joke",
+        "descr_trans": "玩笑"
+      }
+    ],
+    "roleset_name_trans": "爆笑：引发欢闹，引发欢闹"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "crack_up.04",
+    "roleset_name": "crack up: go crazy, go crazy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "lunatic",
+        "descr_trans": "疯子"
+      }
+    ],
+    "roleset_name_trans": "崩溃：发疯，发疯"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "crack_down.06",
+    "roleset_name": "punish something more harshly, suppress, harsher punishment, becoming strict",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "punisher, enforcer",
+        "descr_trans": "惩罚者，执行者"
+      },
+      {
+        "n": "1",
+        "descr": "crime/entity being suppressed, punished",
+        "descr_trans": "犯罪/实体受到镇压、惩罚"
+      }
+    ],
+    "roleset_name_trans": "更严厉地惩罚某事，镇压，更严厉的惩罚，变得严格"
+  }
 ]

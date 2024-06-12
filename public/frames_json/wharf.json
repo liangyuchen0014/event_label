@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wharf.01",
-        "roleset_name": "shore up a river bank",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity building or deciding to build a wharf"
-            },
-            {
-                "n": "1",
-                "descr": "the shore/bank"
-            },
-            {
-                "n": "2",
-                "descr": "wharf structure or materials"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wharf.02",
-        "roleset_name": "leave at a wharf",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity dropping off the goods"
-            },
-            {
-                "n": "1",
-                "descr": "the goods"
-            },
-            {
-                "n": "2",
-                "descr": "the wharf itself"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wharf.03",
-        "roleset_name": "dock at a wharf",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "The crew"
-            },
-            {
-                "n": "1",
-                "descr": "the ship"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wharf.01",
+    "roleset_name": "shore up a river bank",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity building or deciding to build a wharf",
+        "descr_trans": "代理人、实体建造或决定建造码头"
+      },
+      {
+        "n": "1",
+        "descr": "the shore/bank",
+        "descr_trans": "海岸/银行"
+      },
+      {
+        "n": "2",
+        "descr": "wharf structure or materials",
+        "descr_trans": "码头结构或材料"
+      }
+    ],
+    "roleset_name_trans": "撑起河岸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wharf.02",
+    "roleset_name": "leave at a wharf",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity dropping off the goods",
+        "descr_trans": "代理、卸货实体"
+      },
+      {
+        "n": "1",
+        "descr": "the goods",
+        "descr_trans": "货物"
+      },
+      {
+        "n": "2",
+        "descr": "the wharf itself",
+        "descr_trans": "码头本身"
+      }
+    ],
+    "roleset_name_trans": "在码头离开"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wharf.03",
+    "roleset_name": "dock at a wharf",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "The crew",
+        "descr_trans": "船员"
+      },
+      {
+        "n": "1",
+        "descr": "the ship",
+        "descr_trans": "船"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "停泊在码头"
+  }
 ]

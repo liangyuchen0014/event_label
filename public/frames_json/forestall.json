@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forestall.01",
-        "roleset_name": "delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of delay"
-            },
-            {
-                "n": "1",
-                "descr": "awaited event"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forestall.01",
+    "roleset_name": "delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of delay",
+        "descr_trans": "延误原因"
+      },
+      {
+        "n": "1",
+        "descr": "awaited event",
+        "descr_trans": "等待的事件"
+      }
+    ],
+    "roleset_name_trans": "延迟"
+  }
 ]

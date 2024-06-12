@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "segment.01",
-        "roleset_name": "divide object into pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, divider"
-            },
-            {
-                "n": "1",
-                "descr": "whole object"
-            },
-            {
-                "n": "2",
-                "descr": "pieces"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "segment.01",
+    "roleset_name": "divide object into pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, divider",
+        "descr_trans": "代理人、分配者"
+      },
+      {
+        "n": "1",
+        "descr": "whole object",
+        "descr_trans": "整个物体"
+      },
+      {
+        "n": "2",
+        "descr": "pieces",
+        "descr_trans": "件"
+      }
+    ],
+    "roleset_name_trans": "将物体分成几块"
+  }
 ]

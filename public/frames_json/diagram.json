@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "diagram.01",
-        "roleset_name": "to represent by a diagram",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "diagrammer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity diagrammed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "diagram.01",
+    "roleset_name": "to represent by a diagram",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "diagrammer, agent",
+        "descr_trans": "图表、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity diagrammed",
+        "descr_trans": "实体图解"
+      }
+    ],
+    "roleset_name_trans": "用图表来表示"
+  }
 ]

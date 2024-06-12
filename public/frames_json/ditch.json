@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ditch.01",
-        "roleset_name": "run out on, leave behind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ditcher"
-            },
-            {
-                "n": "1",
-                "descr": "entity left behind, run out on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ditch.01",
+    "roleset_name": "run out on, leave behind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ditcher",
+        "descr_trans": "挖沟者"
+      },
+      {
+        "n": "1",
+        "descr": "entity left behind, run out on",
+        "descr_trans": "实体被抛在后面，耗尽"
+      }
+    ],
+    "roleset_name_trans": "跑完，留下"
+  }
 ]

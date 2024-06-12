@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perceive.01",
-        "roleset_name": "to become aware of, understand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "entity perceived"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication, perceived as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "perceptive.02",
-        "roleset_name": "aware, sensitive to perception",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter of perception"
-            },
-            {
-                "n": "2",
-                "descr": "perceptive action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "perceptibility.03",
-        "roleset_name": "ability to be detected",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "thing perceived"
-            },
-            {
-                "n": "2",
-                "descr": "seondary predication, perceived as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perceive.01",
+    "roleset_name": "to become aware of, understand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "entity perceived",
+        "descr_trans": "实体感知"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication, perceived as",
+        "descr_trans": "次要预测，被视为"
+      }
+    ],
+    "roleset_name_trans": "意识到、理解"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "perceptive.02",
+    "roleset_name": "aware, sensitive to perception",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter of perception",
+        "descr_trans": "感知的主题"
+      },
+      {
+        "n": "2",
+        "descr": "perceptive action",
+        "descr_trans": "感知行动"
+      }
+    ],
+    "roleset_name_trans": "意识到，对感知敏感"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "perceptibility.03",
+    "roleset_name": "ability to be detected",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "thing perceived",
+        "descr_trans": "感知到的事物"
+      },
+      {
+        "n": "2",
+        "descr": "seondary predication, perceived as",
+        "descr_trans": "次要预测，被视为"
+      }
+    ],
+    "roleset_name_trans": "被检测到的能力"
+  }
 ]

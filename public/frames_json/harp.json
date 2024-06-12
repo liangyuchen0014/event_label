@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "harp.01",
-        "roleset_name": "to dwell on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who just can't let it go"
-            },
-            {
-                "n": "1",
-                "descr": "thing harped on"
-            },
-            {
-                "n": "2",
-                "descr": "listener, who is arg0 harping to?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "harp.01",
+    "roleset_name": "to dwell on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who just can't let it go",
+        "descr_trans": "无法放手的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing harped on",
+        "descr_trans": "喋喋不休的事情"
+      },
+      {
+        "n": "2",
+        "descr": "listener, who is arg0 harping to?",
+        "descr_trans": "听众，arg0 在对谁喋喋不休？"
+      }
+    ],
+    "roleset_name_trans": "细想"
+  }
 ]

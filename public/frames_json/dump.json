@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dump.01",
-        "roleset_name": "get rid of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity getting rid of something"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten rid of"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner, if separate from agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dumpy.02",
-        "roleset_name": "have the characteristics of a dump (or a blob)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dumpy entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dump.01",
+    "roleset_name": "get rid of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity getting rid of something",
+        "descr_trans": "代理人，摆脱某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten rid of",
+        "descr_trans": "东西被摆脱了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner, if separate from agent",
+        "descr_trans": "工具或方式，如果与代理人分开"
+      }
+    ],
+    "roleset_name_trans": "摆脱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dumpy.02",
+    "roleset_name": "have the characteristics of a dump (or a blob)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dumpy entity",
+        "descr_trans": "矮胖的实体"
+      }
+    ],
+    "roleset_name_trans": "具有转储（或 blob）的特征"
+  }
 ]

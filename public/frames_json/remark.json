@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remark.01",
-        "roleset_name": "to express briefly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "remarkable.02",
-        "roleset_name": "notable, worthy of remarking on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking note"
-            },
-            {
-                "n": "1",
-                "descr": "remarkable thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "remarkable.03",
-        "roleset_name": "indicating a particular condition or outcome",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "indicator"
-            },
-            {
-                "n": "2",
-                "descr": "condition or outcome indicated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remark.01",
+    "roleset_name": "to express briefly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "简短地表达"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "remarkable.02",
+    "roleset_name": "notable, worthy of remarking on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking note",
+        "descr_trans": "实体注意到"
+      },
+      {
+        "n": "1",
+        "descr": "remarkable thing",
+        "descr_trans": "了不起的事情"
+      }
+    ],
+    "roleset_name_trans": "值得注意的, 值得注意的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "remarkable.03",
+    "roleset_name": "indicating a particular condition or outcome",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "indicator",
+        "descr_trans": "指标"
+      },
+      {
+        "n": "2",
+        "descr": "condition or outcome indicated",
+        "descr_trans": "指示的条件或结果"
+      }
+    ],
+    "roleset_name_trans": "表示特定的条件或结果"
+  }
 ]

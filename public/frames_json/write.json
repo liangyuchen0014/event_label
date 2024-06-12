@@ -1,150 +1,181 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "write.01",
-        "roleset_name": "set pen to paper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "write_off.02",
-        "roleset_name": "acknowledge a (financial) loss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "corporation, etc"
-            },
-            {
-                "n": "1",
-                "descr": "loss"
-            },
-            {
-                "n": "2",
-                "descr": "current financial holdings?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "write_off.08",
-        "roleset_name": "concede as a loss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acknowledging the loss"
-            },
-            {
-                "n": "1",
-                "descr": "thing written off; loss; damaged item"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "write_down.03",
-        "roleset_name": "record on paper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "written, recorded"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "write_down.04",
-        "roleset_name": "lower monetary value",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "changer of monetary value"
-            },
-            {
-                "n": "1",
-                "descr": "thing with value"
-            },
-            {
-                "n": "2",
-                "descr": "amount of change"
-            },
-            {
-                "n": "3",
-                "descr": "old high value"
-            },
-            {
-                "n": "4",
-                "descr": "new lower value"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "write_in.05",
-        "roleset_name": "fill out form",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "entry on form"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "write_out.06",
-        "roleset_name": "issue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing issued"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "write_up.07",
-        "roleset_name": "completely write a document, sumarizing, writing completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "Thing written"
-            },
-            {
-                "n": "2",
-                "descr": "Benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "write.01",
+    "roleset_name": "set pen to paper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "把笔放在纸上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "write_off.02",
+    "roleset_name": "acknowledge a (financial) loss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "corporation, etc",
+        "descr_trans": "公司等"
+      },
+      {
+        "n": "1",
+        "descr": "loss",
+        "descr_trans": "损失"
+      },
+      {
+        "n": "2",
+        "descr": "current financial holdings?",
+        "descr_trans": "目前持有的金融资产？"
+      }
+    ],
+    "roleset_name_trans": "承认（经济）损失"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "write_off.08",
+    "roleset_name": "concede as a loss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acknowledging the loss",
+        "descr_trans": "承认损失的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing written off; loss; damaged item",
+        "descr_trans": "注销的事情；损失;损坏的物品"
+      }
+    ],
+    "roleset_name_trans": "认输"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "write_down.03",
+    "roleset_name": "record on paper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "written, recorded",
+        "descr_trans": "书面的、记录的"
+      }
+    ],
+    "roleset_name_trans": "记录在纸上"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "write_down.04",
+    "roleset_name": "lower monetary value",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "changer of monetary value",
+        "descr_trans": "货币价值的改变者"
+      },
+      {
+        "n": "1",
+        "descr": "thing with value",
+        "descr_trans": "有价值的东西"
+      },
+      {
+        "n": "2",
+        "descr": "amount of change",
+        "descr_trans": "变化量"
+      },
+      {
+        "n": "3",
+        "descr": "old high value",
+        "descr_trans": "老高价值"
+      },
+      {
+        "n": "4",
+        "descr": "new lower value",
+        "descr_trans": "新的较低值"
+      }
+    ],
+    "roleset_name_trans": "较低的货币价值"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "write_in.05",
+    "roleset_name": "fill out form",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "entry on form",
+        "descr_trans": "表格上的条目"
+      }
+    ],
+    "roleset_name_trans": "填写表格"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "write_out.06",
+    "roleset_name": "issue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing issued",
+        "descr_trans": "发出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "问题"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "write_up.07",
+    "roleset_name": "completely write a document, sumarizing, writing completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "Thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "完整地写一个文档，总结，完整地写"
+  }
 ]

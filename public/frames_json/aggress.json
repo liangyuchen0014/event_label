@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "aggress.01",
-        "roleset_name": "hostile behavior, actively hostile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "aggressor"
-            },
-            {
-                "n": "1",
-                "descr": "entity aggression is directed toward"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "aggress.02",
-        "roleset_name": "forceful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forceful thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "aggress.01",
+    "roleset_name": "hostile behavior, actively hostile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "aggressor",
+        "descr_trans": "侵略者"
+      },
+      {
+        "n": "1",
+        "descr": "entity aggression is directed toward",
+        "descr_trans": "实体的攻击是针对"
+      }
+    ],
+    "roleset_name_trans": "敌对行为，积极敌对"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "aggress.02",
+    "roleset_name": "forceful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forceful thing",
+        "descr_trans": "强有力的东西"
+      }
+    ],
+    "roleset_name_trans": "有力"
+  }
 ]

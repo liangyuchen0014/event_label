@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "float.01",
-        "roleset_name": "not sink in water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing floating"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "float.02",
-        "roleset_name": "give, usually money, sometimes as a loan",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            },
-            {
-                "n": "3",
-                "descr": "in exchange for/ purpose of loan"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "float.01",
+    "roleset_name": "not sink in water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "thing floating",
+        "descr_trans": "漂浮的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, destination",
+        "descr_trans": "有益的、目的地"
+      }
+    ],
+    "roleset_name_trans": "不沉入水中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "float.02",
+    "roleset_name": "give, usually money, sometimes as a loan",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "3",
+        "descr": "in exchange for/ purpose of loan",
+        "descr_trans": "贷款的交换/目的"
+      }
+    ],
+    "roleset_name_trans": "给予，通常是金钱，有时作为贷款"
+  }
 ]

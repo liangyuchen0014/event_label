@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conveyancing.01",
-        "roleset_name": "transfering a deed from one party to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "previous owner"
-            },
-            {
-                "n": "3",
-                "descr": "new owner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conveyancing.01",
+    "roleset_name": "transfering a deed from one party to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "previous owner",
+        "descr_trans": "前任所有者"
+      },
+      {
+        "n": "3",
+        "descr": "new owner",
+        "descr_trans": "新主人"
+      }
+    ],
+    "roleset_name_trans": "将契约从一方转让给另一方"
+  }
 ]

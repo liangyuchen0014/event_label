@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rehire.01",
-        "roleset_name": "initiate employment again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "return employee"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rehire.01",
+    "roleset_name": "initiate employment again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "return employee",
+        "descr_trans": "返回员工"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "重新就业"
+  }
 ]

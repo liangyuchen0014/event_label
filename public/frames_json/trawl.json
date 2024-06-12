@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trawl.01",
-        "roleset_name": "trawl",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trawler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "location trawled"
-            },
-            {
-                "n": "2",
-                "descr": "thing trawled for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trawl.01",
+    "roleset_name": "trawl",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trawler, agent",
+        "descr_trans": "拖网渔船、代理"
+      },
+      {
+        "n": "1",
+        "descr": "location trawled",
+        "descr_trans": "位置拖网"
+      },
+      {
+        "n": "2",
+        "descr": "thing trawled for",
+        "descr_trans": "拖网寻找的东西"
+      }
+    ],
+    "roleset_name_trans": "拖网"
+  }
 ]

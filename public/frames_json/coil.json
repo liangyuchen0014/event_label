@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coil.01",
-        "roleset_name": "(cause to) be coiled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coiling"
-            },
-            {
-                "n": "1",
-                "descr": "coiled thing"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, coiled around what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "coil_up.02",
-        "roleset_name": "exist in coiled state",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "coiled entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coil.01",
+    "roleset_name": "(cause to) be coiled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coiling",
+        "descr_trans": "卷绕的原因"
+      },
+      {
+        "n": "1",
+        "descr": "coiled thing",
+        "descr_trans": "盘绕的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, coiled around what",
+        "descr_trans": "次要属性，围绕什么"
+      }
+    ],
+    "roleset_name_trans": "（导致）盘绕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "coil_up.02",
+    "roleset_name": "exist in coiled state",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "coiled entity",
+        "descr_trans": "卷绕实体"
+      }
+    ],
+    "roleset_name_trans": "以卷绕状态存在"
+  }
 ]

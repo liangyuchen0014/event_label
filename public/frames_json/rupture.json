@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rupture.01",
-        "roleset_name": "break a long skinny   fluid container",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of breakage"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rupture.01",
+    "roleset_name": "break a long skinny   fluid container",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of breakage",
+        "descr_trans": "造成破损的原因"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      }
+    ],
+    "roleset_name_trans": "打破一个细长的液体容器"
+  }
 ]

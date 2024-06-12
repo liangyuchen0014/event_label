@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "risk.01",
-        "roleset_name": "risk, attempt, try",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity risking something"
-            },
-            {
-                "n": "1",
-                "descr": "risky action undertaken"
-            },
-            {
-                "n": "2",
-                "descr": "thing in jeopardy, asset that could be lost, or negative outcome risked"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "risky.02",
-        "roleset_name": "risky, dangerous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity risking something"
-            },
-            {
-                "n": "1",
-                "descr": "risky action undertaken"
-            },
-            {
-                "n": "2",
-                "descr": "thing in jeopardy, asset that could be lost, or negative outcome risked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "risk.01",
+    "roleset_name": "risk, attempt, try",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity risking something",
+        "descr_trans": "实体冒某物的风险"
+      },
+      {
+        "n": "1",
+        "descr": "risky action undertaken",
+        "descr_trans": "采取的危险行动"
+      },
+      {
+        "n": "2",
+        "descr": "thing in jeopardy, asset that could be lost, or negative outcome risked",
+        "descr_trans": "事物处于危险之中，资产可能会丢失，或可能产生负面结果"
+      }
+    ],
+    "roleset_name_trans": "冒险、尝试、尝试"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "risky.02",
+    "roleset_name": "risky, dangerous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity risking something",
+        "descr_trans": "实体冒某物的风险"
+      },
+      {
+        "n": "1",
+        "descr": "risky action undertaken",
+        "descr_trans": "采取的危险行动"
+      },
+      {
+        "n": "2",
+        "descr": "thing in jeopardy, asset that could be lost, or negative outcome risked",
+        "descr_trans": "事物处于危险之中，资产可能会丢失，或可能产生负面结果"
+      }
+    ],
+    "roleset_name_trans": "有风险的，危险的"
+  }
 ]

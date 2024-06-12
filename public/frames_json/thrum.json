@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thrum.01",
-        "roleset_name": "sound with a monotonous hum",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "emitter of sound"
-            },
-            {
-                "n": "2",
-                "descr": "location of sound"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thrum.02",
-        "roleset_name": "strum the strings of a stringed instrument",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "chords/melody"
-            },
-            {
-                "n": "2",
-                "descr": "musical instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "thrum.03",
-        "roleset_name": "make a rythmic sound/motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing sounding with thrumming"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thrum.01",
+    "roleset_name": "sound with a monotonous hum",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "emitter of sound",
+        "descr_trans": "声音发射器"
+      },
+      {
+        "n": "2",
+        "descr": "location of sound",
+        "descr_trans": "声音的位置"
+      }
+    ],
+    "roleset_name_trans": "单调的嗡嗡声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thrum.02",
+    "roleset_name": "strum the strings of a stringed instrument",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "chords/melody",
+        "descr_trans": "和弦/旋律"
+      },
+      {
+        "n": "2",
+        "descr": "musical instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "弹奏弦乐器的琴弦"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "thrum.03",
+    "roleset_name": "make a rythmic sound/motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing sounding with thrumming",
+        "descr_trans": "发出嗡嗡声的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "发出有节奏的声音/动作"
+  }
 ]

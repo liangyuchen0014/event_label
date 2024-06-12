@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "execute.01",
-        "roleset_name": "kill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "execute.02",
-        "roleset_name": "enact",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, doer"
-            },
-            {
-                "n": "1",
-                "descr": "thing done"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, done for or about"
-            },
-            {
-                "n": "3",
-                "descr": "instrumental"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "execute.01",
+    "roleset_name": "kill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "杀"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "execute.02",
+    "roleset_name": "enact",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, doer",
+        "descr_trans": "代理人、行动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing done",
+        "descr_trans": "事情完成了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, done for or about",
+        "descr_trans": "有益的，为或关于所做的"
+      },
+      {
+        "n": "3",
+        "descr": "instrumental",
+        "descr_trans": "工具性的"
+      }
+    ],
+    "roleset_name_trans": "制定"
+  }
 ]

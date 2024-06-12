@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unthaw.01",
-        "roleset_name": "defrost",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of defrosting"
-            },
-            {
-                "n": "1",
-                "descr": "item losing its frost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unthaw.01",
+    "roleset_name": "defrost",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of defrosting",
+        "descr_trans": "除霜原因"
+      },
+      {
+        "n": "1",
+        "descr": "item losing its frost",
+        "descr_trans": "失去霜冻的物品"
+      }
+    ],
+    "roleset_name_trans": "除霜"
+  }
 ]

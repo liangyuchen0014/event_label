@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "palpate.01",
-        "roleset_name": "physically feel or handle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Palpator"
-            },
-            {
-                "n": "1",
-                "descr": "Entity palpated"
-            },
-            {
-                "n": "2",
-                "descr": "results"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "palpable.02",
-        "roleset_name": "able to be felt by palpation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "palpator"
-            },
-            {
-                "n": "1",
-                "descr": "entity palpated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "palpate.01",
+    "roleset_name": "physically feel or handle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Palpator",
+        "descr_trans": "触诊器"
+      },
+      {
+        "n": "1",
+        "descr": "Entity palpated",
+        "descr_trans": "触诊实体"
+      },
+      {
+        "n": "2",
+        "descr": "results",
+        "descr_trans": "结果"
+      }
+    ],
+    "roleset_name_trans": "身体感觉或处理"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "palpable.02",
+    "roleset_name": "able to be felt by palpation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "palpator",
+        "descr_trans": "触诊器"
+      },
+      {
+        "n": "1",
+        "descr": "entity palpated",
+        "descr_trans": "实体触诊"
+      }
+    ],
+    "roleset_name_trans": "可以通过触诊感觉到"
+  }
 ]

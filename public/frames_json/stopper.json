@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stopper.01",
-        "roleset_name": "put a stopper on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person placing stopper"
-            },
-            {
-                "n": "1",
-                "descr": "bottle, location/entity stopped-up"
-            },
-            {
-                "n": "2",
-                "descr": "stopper itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stopper.01",
+    "roleset_name": "put a stopper on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person placing stopper",
+        "descr_trans": "代理人、放置塞子的人"
+      },
+      {
+        "n": "1",
+        "descr": "bottle, location/entity stopped-up",
+        "descr_trans": "瓶子、位置/实体堵塞"
+      },
+      {
+        "n": "2",
+        "descr": "stopper itself",
+        "descr_trans": "塞子本身"
+      }
+    ],
+    "roleset_name_trans": "塞上塞子"
+  }
 ]

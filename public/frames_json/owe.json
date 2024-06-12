@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "owe.01",
-        "roleset_name": "payment outstanding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "price paid"
-            },
-            {
-                "n": "2",
-                "descr": "seller or person being paid"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "owe.01",
+    "roleset_name": "payment outstanding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "2",
+        "descr": "seller or person being paid",
+        "descr_trans": "卖方或收款人"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "未付款"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blabber.01",
-        "roleset_name": "chatter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, blabber about"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blabber.01",
+    "roleset_name": "chatter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, blabber about",
+        "descr_trans": "言论，闲言碎语"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "喋喋不休"
+  }
 ]

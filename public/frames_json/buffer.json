@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "buffer.01",
-        "roleset_name": "protect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protector"
-            },
-            {
-                "n": "1",
-                "descr": "protected"
-            },
-            {
-                "n": "2",
-                "descr": "danger"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "buffer.01",
+    "roleset_name": "protect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protector",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "protected",
+        "descr_trans": "受保护的"
+      },
+      {
+        "n": "2",
+        "descr": "danger",
+        "descr_trans": "危险"
+      }
+    ],
+    "roleset_name_trans": "保护"
+  }
 ]

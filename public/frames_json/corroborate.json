@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "corroborate.01",
-        "roleset_name": "confirm truth of a statement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "confirmation of truth, supporting evidence"
-            },
-            {
-                "n": "1",
-                "descr": "statement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "corroborate.01",
+    "roleset_name": "confirm truth of a statement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "confirmation of truth, supporting evidence",
+        "descr_trans": "证实事实，支持证据"
+      },
+      {
+        "n": "1",
+        "descr": "statement",
+        "descr_trans": "陈述"
+      }
+    ],
+    "roleset_name_trans": "确认陈述的真实性"
+  }
 ]

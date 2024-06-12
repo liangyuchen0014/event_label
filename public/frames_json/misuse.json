@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misuse.01",
-        "roleset_name": "use wrongly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "User"
-            },
-            {
-                "n": "1",
-                "descr": "thing used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misuse.01",
+    "roleset_name": "use wrongly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "User",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "thing used",
+        "descr_trans": "使用的东西"
+      }
+    ],
+    "roleset_name_trans": "使用错误"
+  }
 ]

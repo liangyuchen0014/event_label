@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "desaturate.101",
-        "roleset_name": "decreasing oxygen saturation in hemoglobin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity undergoing desaturation"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "desaturate.101",
+    "roleset_name": "decreasing oxygen saturation in hemoglobin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity undergoing desaturation",
+        "descr_trans": "实体经历去饱和"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "血红蛋白氧饱和度降低"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brittleness.01",
-        "roleset_name": "fragility",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "brittle thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is brittle, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brittleness.01",
+    "roleset_name": "fragility",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "brittle thing",
+        "descr_trans": "易碎的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is brittle, if in addition to arg1",
+        "descr_trans": "arg1 的特定方面是脆弱的，如果除了 arg1 之外"
+      }
+    ],
+    "roleset_name_trans": "脆弱性"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hobble.01",
-        "roleset_name": "walk as if feet tied together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "walker"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hobble.02",
-        "roleset_name": "tie the feet of,   metaphorically 'hinder'",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tier, hinderer"
-            },
-            {
-                "n": "1",
-                "descr": "tied, hindered"
-            },
-            {
-                "n": "2",
-                "descr": "rope, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hobble.01",
+    "roleset_name": "walk as if feet tied together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "walker",
+        "descr_trans": "沃克"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "走路就像双脚绑在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hobble.02",
+    "roleset_name": "tie the feet of,   metaphorically 'hinder'",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tier, hinderer",
+        "descr_trans": "层，阻碍者"
+      },
+      {
+        "n": "1",
+        "descr": "tied, hindered",
+        "descr_trans": "束缚，阻碍"
+      },
+      {
+        "n": "2",
+        "descr": "rope, instrument",
+        "descr_trans": "绳索、仪器"
+      }
+    ],
+    "roleset_name_trans": "绑住某人的脚，隐喻“阻碍”"
+  }
 ]

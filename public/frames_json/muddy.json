@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "muddy.01",
-        "roleset_name": "(cause to) become obscure or confused, or covered in mud",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing obscured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "muddy.02",
-        "roleset_name": "covered in mud, obscured",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of muddiness"
-            },
-            {
-                "n": "1",
-                "descr": "muddy entity"
-            },
-            {
-                "n": "2",
-                "descr": "mud"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "muddy.01",
+    "roleset_name": "(cause to) become obscure or confused, or covered in mud",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing obscured",
+        "descr_trans": "事物被遮蔽"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得模糊或混乱，或沾满泥土"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "muddy.02",
+    "roleset_name": "covered in mud, obscured",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of muddiness",
+        "descr_trans": "浑浊的原因"
+      },
+      {
+        "n": "1",
+        "descr": "muddy entity",
+        "descr_trans": "泥泞的实体"
+      },
+      {
+        "n": "2",
+        "descr": "mud",
+        "descr_trans": "泥"
+      }
+    ],
+    "roleset_name_trans": "被泥土覆盖，遮蔽"
+  }
 ]

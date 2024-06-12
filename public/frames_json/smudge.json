@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smudge.01",
-        "roleset_name": "smudge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smudger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "material smudged (e.g., paint)"
-            },
-            {
-                "n": "2",
-                "descr": "thing smudged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smudge.01",
+    "roleset_name": "smudge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smudger, agent",
+        "descr_trans": "涂抹者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "material smudged (e.g., paint)",
+        "descr_trans": "材料弄脏（例如油漆）"
+      },
+      {
+        "n": "2",
+        "descr": "thing smudged",
+        "descr_trans": "东西弄脏了"
+      }
+    ],
+    "roleset_name_trans": "弄脏"
+  }
 ]

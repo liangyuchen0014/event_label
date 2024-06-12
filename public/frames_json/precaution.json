@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "precaution.01",
-        "roleset_name": "issue warning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity giving warning"
-            },
-            {
-                "n": "1",
-                "descr": "the warning"
-            },
-            {
-                "n": "2",
-                "descr": "warned entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "precaution.02",
-        "roleset_name": "act preventatively, cautionarily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity taking precautions"
-            },
-            {
-                "n": "1",
-                "descr": "precautionary actions themselves"
-            },
-            {
-                "n": "2",
-                "descr": "purpose of precautionary actions"
-            },
-            {
-                "n": "3",
-                "descr": "precautionary against; potential bad outcome"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "precaution.01",
+    "roleset_name": "issue warning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity giving warning",
+        "descr_trans": "发出警告的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the warning",
+        "descr_trans": "警告"
+      },
+      {
+        "n": "2",
+        "descr": "warned entity",
+        "descr_trans": "警告实体"
+      }
+    ],
+    "roleset_name_trans": "发出警告"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "precaution.02",
+    "roleset_name": "act preventatively, cautionarily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity taking precautions",
+        "descr_trans": "实体采取预防措施"
+      },
+      {
+        "n": "1",
+        "descr": "precautionary actions themselves",
+        "descr_trans": "预防措施本身"
+      },
+      {
+        "n": "2",
+        "descr": "purpose of precautionary actions",
+        "descr_trans": "预防措施的目的"
+      },
+      {
+        "n": "3",
+        "descr": "precautionary against; potential bad outcome",
+        "descr_trans": "预防；潜在的不良结果"
+      }
+    ],
+    "roleset_name_trans": "采取预防性的、谨慎的行动"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unobscured.01",
-        "roleset_name": "not obscured, allowing a clear view",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "would-be causer of unclear view"
-            },
-            {
-                "n": "1",
-                "descr": "entity not obscured"
-            },
-            {
-                "n": "2",
-                "descr": "not obscured from (entity able to see, usually)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unobscured.01",
+    "roleset_name": "not obscured, allowing a clear view",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "would-be causer of unclear view",
+        "descr_trans": "可能造成视野不清的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not obscured",
+        "descr_trans": "实体未被遮挡"
+      },
+      {
+        "n": "2",
+        "descr": "not obscured from (entity able to see, usually)",
+        "descr_trans": "没有被（通常能够看到的实体）遮挡"
+      }
+    ],
+    "roleset_name_trans": "不被遮挡，视野清晰"
+  }
 ]

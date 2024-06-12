@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stalemate.01",
-        "roleset_name": "(cause to) be at an impasse, as in chess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer, first player"
-            },
-            {
-                "n": "1",
-                "descr": "acts, game that cannot proceed"
-            },
-            {
-                "n": "2",
-                "descr": "opponent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stalemate.01",
+    "roleset_name": "(cause to) be at an impasse, as in chess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer, first player",
+        "descr_trans": "代理人、引发者、第一玩家"
+      },
+      {
+        "n": "1",
+        "descr": "acts, game that cannot proceed",
+        "descr_trans": "无法进行的行为、游戏"
+      },
+      {
+        "n": "2",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "（导致）陷入僵局，如国际象棋"
+  }
 ]

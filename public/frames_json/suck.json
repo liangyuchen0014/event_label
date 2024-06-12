@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suck.01",
-        "roleset_name": "to draw something in by or as if by suction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity sucked"
-            },
-            {
-                "n": "2",
-                "descr": "source, entity that arg1 is sucked from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suck.03",
-        "roleset_name": "be bad (at)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "untalented/unfavorable entity"
-            },
-            {
-                "n": "1",
-                "descr": "non-talent"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "suck_up.02",
-        "roleset_name": "suck_up: deal with an unpleasant or   undesireable situation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one who must endure the situation"
-            },
-            {
-                "n": "1",
-                "descr": "thing sucked up"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "suck_up.04",
-        "roleset_name": "brown-nose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "brown noser"
-            },
-            {
-                "n": "1",
-                "descr": "entity sucked up to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "suction.05",
-        "roleset_name": "suction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suctioner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing suctioned, theme"
-            },
-            {
-                "n": "2",
-                "descr": "suctioned from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suck.01",
+    "roleset_name": "to draw something in by or as if by suction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity sucked",
+        "descr_trans": "实体被吸"
+      },
+      {
+        "n": "2",
+        "descr": "source, entity that arg1 is sucked from",
+        "descr_trans": "源，arg1 从中吸取的实体"
+      }
+    ],
+    "roleset_name_trans": "通过或仿佛通过吸力将某物吸入"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suck.03",
+    "roleset_name": "be bad (at)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "untalented/unfavorable entity",
+        "descr_trans": "无才能/不利的实体"
+      },
+      {
+        "n": "1",
+        "descr": "non-talent",
+        "descr_trans": "非人才"
+      }
+    ],
+    "roleset_name_trans": "不擅长）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "suck_up.02",
+    "roleset_name": "suck_up: deal with an unpleasant or   undesireable situation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one who must endure the situation",
+        "descr_trans": "一个必须忍受这种情况的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sucked up",
+        "descr_trans": "事情搞砸了"
+      }
+    ],
+    "roleset_name_trans": "uck_up：处理不愉快或不受欢迎的情况"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "suck_up.04",
+    "roleset_name": "brown-nose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "brown noser",
+        "descr_trans": "棕鼻者"
+      },
+      {
+        "n": "1",
+        "descr": "entity sucked up to",
+        "descr_trans": "实体吸到"
+      }
+    ],
+    "roleset_name_trans": "棕色的鼻子"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "suction.05",
+    "roleset_name": "suction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suctioner, agent",
+        "descr_trans": "吸盘、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing suctioned, theme",
+        "descr_trans": "吸引的东西，主题"
+      },
+      {
+        "n": "2",
+        "descr": "suctioned from, source",
+        "descr_trans": "从源头吸出"
+      }
+    ],
+    "roleset_name_trans": "吸"
+  }
 ]

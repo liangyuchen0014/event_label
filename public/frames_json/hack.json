@@ -1,123 +1,148 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hack.01",
-        "roleset_name": "chop sloppily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "chopped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (ax, etc)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hack.03",
-        "roleset_name": "remove pieces",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hack.04",
-        "roleset_name": "computer work, breaking into, as on a computer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hacker"
-            },
-            {
-                "n": "1",
-                "descr": "target or project"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hack.05",
-        "roleset_name": "cough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cougher"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hack.06",
-        "roleset_name": "succeed, manage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who manages"
-            },
-            {
-                "n": "1",
-                "descr": "task, accomplishment"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "hack.07",
-        "roleset_name": "trick or shortcut",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity using shortcut/trick"
-            },
-            {
-                "n": "1",
-                "descr": "domain in which the trick is useful"
-            },
-            {
-                "n": "2",
-                "descr": "the trick itself"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "hack_away.02",
-        "roleset_name": "phrasal chop sloppily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "chopped"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (ax, etc)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hack.01",
+    "roleset_name": "chop sloppily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "chopped",
+        "descr_trans": "切碎的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (ax, etc)",
+        "descr_trans": "乐器（斧头等）"
+      }
+    ],
+    "roleset_name_trans": "乱砍"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hack.03",
+    "roleset_name": "remove pieces",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "移除碎片"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hack.04",
+    "roleset_name": "computer work, breaking into, as on a computer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hacker",
+        "descr_trans": "黑客"
+      },
+      {
+        "n": "1",
+        "descr": "target or project",
+        "descr_trans": "目标或项目"
+      }
+    ],
+    "roleset_name_trans": "计算机工作，闯入，如在计算机上"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hack.05",
+    "roleset_name": "cough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cougher",
+        "descr_trans": "咳嗽者"
+      }
+    ],
+    "roleset_name_trans": "咳嗽"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hack.06",
+    "roleset_name": "succeed, manage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who manages",
+        "descr_trans": "管理实体"
+      },
+      {
+        "n": "1",
+        "descr": "task, accomplishment",
+        "descr_trans": "任务、成就"
+      }
+    ],
+    "roleset_name_trans": "成功，管理"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "hack.07",
+    "roleset_name": "trick or shortcut",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity using shortcut/trick",
+        "descr_trans": "使用快捷方式/技巧的实体"
+      },
+      {
+        "n": "1",
+        "descr": "domain in which the trick is useful",
+        "descr_trans": "该技巧在其中有用的领域"
+      },
+      {
+        "n": "2",
+        "descr": "the trick itself",
+        "descr_trans": "技巧本身"
+      }
+    ],
+    "roleset_name_trans": "技巧或捷径"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "hack_away.02",
+    "roleset_name": "phrasal chop sloppily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "chopped",
+        "descr_trans": "切碎的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (ax, etc)",
+        "descr_trans": "乐器（斧头等）"
+      }
+    ],
+    "roleset_name_trans": "短语随意地砍"
+  }
 ]

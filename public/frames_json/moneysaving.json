@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "moneysaving.01",
-        "roleset_name": "saving money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of the savings"
-            },
-            {
-                "n": "1",
-                "descr": "amount"
-            },
-            {
-                "n": "2",
-                "descr": "entity not spending money (money saver, beneficiary)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "moneysaving.01",
+    "roleset_name": "saving money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of the savings",
+        "descr_trans": "节省的原因"
+      },
+      {
+        "n": "1",
+        "descr": "amount",
+        "descr_trans": "数量"
+      },
+      {
+        "n": "2",
+        "descr": "entity not spending money (money saver, beneficiary)",
+        "descr_trans": "不花钱的实体（省钱者、受益人）"
+      }
+    ],
+    "roleset_name_trans": "节省金钱"
+  }
 ]

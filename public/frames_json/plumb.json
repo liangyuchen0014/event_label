@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plumb.01",
-        "roleset_name": "measure the depth of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, explorer"
-            },
-            {
-                "n": "1",
-                "descr": "person/place/thing explored"
-            },
-            {
-                "n": "2",
-                "descr": "in search of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plumb.02",
-        "roleset_name": "weight with lead",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing weighted"
-            },
-            {
-                "n": "2",
-                "descr": "lead weight"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "plumb.03",
-        "roleset_name": "make vertical",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being made vertical"
-            },
-            {
-                "n": "2",
-                "descr": "thing aligned to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "plumb.04",
-        "roleset_name": "install plumbing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plumber"
-            },
-            {
-                "n": "1",
-                "descr": "thing being plumbed"
-            },
-            {
-                "n": "2",
-                "descr": "start point of the plumbing"
-            },
-            {
-                "n": "3",
-                "descr": "end point of the plumbing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plumb.01",
+    "roleset_name": "measure the depth of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, explorer",
+        "descr_trans": "代理人、探险家"
+      },
+      {
+        "n": "1",
+        "descr": "person/place/thing explored",
+        "descr_trans": "探索的人/地点/事物"
+      },
+      {
+        "n": "2",
+        "descr": "in search of",
+        "descr_trans": "寻找"
+      }
+    ],
+    "roleset_name_trans": "测量某物的深度"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plumb.02",
+    "roleset_name": "weight with lead",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing weighted",
+        "descr_trans": "东西加权"
+      },
+      {
+        "n": "2",
+        "descr": "lead weight",
+        "descr_trans": "铅重量"
+      }
+    ],
+    "roleset_name_trans": "含铅重量"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "plumb.03",
+    "roleset_name": "make vertical",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being made vertical",
+        "descr_trans": "东西被做成垂直的"
+      },
+      {
+        "n": "2",
+        "descr": "thing aligned to",
+        "descr_trans": "事物对齐到"
+      }
+    ],
+    "roleset_name_trans": "使垂直"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "plumb.04",
+    "roleset_name": "install plumbing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plumber",
+        "descr_trans": "水管工"
+      },
+      {
+        "n": "1",
+        "descr": "thing being plumbed",
+        "descr_trans": "被管道连接的东西"
+      },
+      {
+        "n": "2",
+        "descr": "start point of the plumbing",
+        "descr_trans": "管道的起点"
+      },
+      {
+        "n": "3",
+        "descr": "end point of the plumbing",
+        "descr_trans": "管道终点"
+      }
+    ],
+    "roleset_name_trans": "安装管道"
+  }
 ]

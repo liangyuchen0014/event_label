@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vandalize.01",
-        "roleset_name": "maliciously detroy (esp. property)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vandal"
-            },
-            {
-                "n": "1",
-                "descr": "thing vandalized"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of vandalism"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vandalize.01",
+    "roleset_name": "maliciously detroy (esp. property)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vandal",
+        "descr_trans": "破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "thing vandalized",
+        "descr_trans": "东西被破坏"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of vandalism",
+        "descr_trans": "破坏公物的工具"
+      }
+    ],
+    "roleset_name_trans": "恶意破坏（尤其是财产）"
+  }
 ]

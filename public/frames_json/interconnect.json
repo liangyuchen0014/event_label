@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interconnect.01",
-        "roleset_name": "connect back and forth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "things connected"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interconnect.01",
+    "roleset_name": "connect back and forth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "things connected",
+        "descr_trans": "连接的事物"
+      }
+    ],
+    "roleset_name_trans": "来回连接"
+  }
 ]

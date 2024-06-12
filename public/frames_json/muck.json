@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "muck_up.01",
-        "roleset_name": "mess up, ruin, make a mistake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of the bad situation, person mucking things up"
-            },
-            {
-                "n": "1",
-                "descr": "thing messed up, damaged"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "muck_up.02",
-        "roleset_name": "clean out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "thing cleaned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "muck_up.01",
+    "roleset_name": "mess up, ruin, make a mistake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of the bad situation, person mucking things up",
+        "descr_trans": "造成糟糕局面的人，把事情搞砸的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing messed up, damaged",
+        "descr_trans": "事情搞砸了，损坏了"
+      }
+    ],
+    "roleset_name_trans": "弄乱、毁掉、犯错误"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "muck_up.02",
+    "roleset_name": "clean out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cleaner",
+        "descr_trans": "清洁工"
+      },
+      {
+        "n": "1",
+        "descr": "thing cleaned",
+        "descr_trans": "清理过的东西"
+      }
+    ],
+    "roleset_name_trans": "整理"
+  }
 ]

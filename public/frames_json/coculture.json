@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coculture.01",
-        "roleset_name": "to grow more than one distinct cell type in a combined culture",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of coculture (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "cocultured entities (e.g. cells)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coculture.01",
+    "roleset_name": "to grow more than one distinct cell type in a combined culture",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of coculture (e.g. scientist)",
+        "descr_trans": "共培养的有意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "cocultured entities (e.g. cells)",
+        "descr_trans": "共培养实体（例如细胞）"
+      }
+    ],
+    "roleset_name_trans": "在组合培养物中培养多种不同的细胞类型"
+  }
 ]

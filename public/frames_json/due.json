@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "due.01",
-        "roleset_name": "owed, required",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ower"
-            },
-            {
-                "n": "1",
-                "descr": "recipient, entity owed/expecting arg2"
-            },
-            {
-                "n": "2",
-                "descr": "thing expected, owed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "due.02",
-        "roleset_name": "caused by, attributable to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, stimulus"
-            },
-            {
-                "n": "1",
-                "descr": "thing caused, experiencer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "due.03",
-        "roleset_name": "be scheduled for, planned for a time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is scheduled"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 is scheduled to do"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "due.01",
+    "roleset_name": "owed, required",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ower",
+        "descr_trans": "华尔"
+      },
+      {
+        "n": "1",
+        "descr": "recipient, entity owed/expecting arg2",
+        "descr_trans": "接收者，欠/期待 arg2 的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing expected, owed",
+        "descr_trans": "所期待的，所欠的"
+      }
+    ],
+    "roleset_name_trans": "欠下的，需要的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "due.02",
+    "roleset_name": "caused by, attributable to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, stimulus",
+        "descr_trans": "原因、刺激"
+      },
+      {
+        "n": "1",
+        "descr": "thing caused, experiencer",
+        "descr_trans": "事情造成的，经历者"
+      }
+    ],
+    "roleset_name_trans": "造成的，归因于"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "due.03",
+    "roleset_name": "be scheduled for, planned for a time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is scheduled",
+        "descr_trans": "预定的事情"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 is scheduled to do",
+        "descr_trans": "arg1 计划做什么"
+      }
+    ],
+    "roleset_name_trans": "被安排，计划在某个时间"
+  }
 ]

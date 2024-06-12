@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "perjure.01",
-        "roleset_name": "legally swear to something false",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liar"
-            },
-            {
-                "n": "1",
-                "descr": "enitity perjured (usually self)"
-            },
-            {
-                "n": "2",
-                "descr": "the lie, oath"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "perjure.01",
+    "roleset_name": "legally swear to something false",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liar",
+        "descr_trans": "说谎者"
+      },
+      {
+        "n": "1",
+        "descr": "enitity perjured (usually self)",
+        "descr_trans": "作伪证的实体（通常是自己）"
+      },
+      {
+        "n": "2",
+        "descr": "the lie, oath",
+        "descr_trans": "谎言、誓言"
+      }
+    ],
+    "roleset_name_trans": "合法地发誓做虚假的事"
+  }
 ]

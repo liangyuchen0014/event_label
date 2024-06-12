@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pain.01",
-        "roleset_name": "cause hurt to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing pain, cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing hurt/damage"
-            },
-            {
-                "n": "2",
-                "descr": "more specific body part experiencing hurt/damage, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pain.01",
+    "roleset_name": "cause hurt to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing pain, cause",
+        "descr_trans": "造成疼痛的实体，原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing hurt/damage",
+        "descr_trans": "遭受伤害/损害的实体"
+      },
+      {
+        "n": "2",
+        "descr": "more specific body part experiencing hurt/damage, if in addition to arg1",
+        "descr_trans": "如果除了 arg1 之外，更具体的身体部位受到伤害/损坏"
+      }
+    ],
+    "roleset_name_trans": "造成伤害"
+  }
 ]

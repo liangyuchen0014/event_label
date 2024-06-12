@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "externalize.01",
-        "roleset_name": "cause to be external to, manifest externally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing externalized"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "external.02",
-        "roleset_name": "be on the outside",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "external thing"
-            },
-            {
-                "n": "2",
-                "descr": "external to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "externalize.01",
+    "roleset_name": "cause to be external to, manifest externally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing externalized",
+        "descr_trans": "事物外在化"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "导致外部的，表现在外部的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "external.02",
+    "roleset_name": "be on the outside",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "external thing",
+        "descr_trans": "外在事物"
+      },
+      {
+        "n": "2",
+        "descr": "external to",
+        "descr_trans": "外部于"
+      }
+    ],
+    "roleset_name_trans": "在外面"
+  }
 ]

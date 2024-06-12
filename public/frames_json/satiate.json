@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "satiate.01",
-        "roleset_name": "make satisfied, making satisfied or full",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of satisfaction"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity pleased"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "satiate.01",
+    "roleset_name": "make satisfied, making satisfied or full",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of satisfaction",
+        "descr_trans": "满意的原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity pleased",
+        "descr_trans": "患者，实体满意"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "使满意，使满意或充实"
+  }
 ]

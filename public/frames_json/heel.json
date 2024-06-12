@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heel.01",
-        "roleset_name": "tilt to one side",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing tilting"
-            },
-            {
-                "n": "2",
-                "descr": "direction, path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "heel.02",
-        "roleset_name": "follow at the heels of one's master",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obeying animal"
-            },
-            {
-                "n": "1",
-                "descr": "master"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "heel.03",
-        "roleset_name": "perform with the heels (of feet or shoes)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dancer"
-            },
-            {
-                "n": "1",
-                "descr": "dance"
-            },
-            {
-                "n": "2",
-                "descr": "audience"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "heel.04",
-        "roleset_name": "strike with the heel of (the hand, or a club, etc.)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit"
-            },
-            {
-                "n": "2",
-                "descr": "destination, location"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "heel.05",
-        "roleset_name": "install a heel on a shoe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cobbler"
-            },
-            {
-                "n": "1",
-                "descr": "shoe"
-            },
-            {
-                "n": "2",
-                "descr": "the heel itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heel.01",
+    "roleset_name": "tilt to one side",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing tilting",
+        "descr_trans": "东西倾斜"
+      },
+      {
+        "n": "2",
+        "descr": "direction, path",
+        "descr_trans": "方向、路径"
+      }
+    ],
+    "roleset_name_trans": "向一侧倾斜"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "heel.02",
+    "roleset_name": "follow at the heels of one's master",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obeying animal",
+        "descr_trans": "服从的动物"
+      },
+      {
+        "n": "1",
+        "descr": "master",
+        "descr_trans": "掌握"
+      }
+    ],
+    "roleset_name_trans": "师从"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "heel.03",
+    "roleset_name": "perform with the heels (of feet or shoes)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dancer",
+        "descr_trans": "舞蹈家"
+      },
+      {
+        "n": "1",
+        "descr": "dance",
+        "descr_trans": "舞蹈"
+      },
+      {
+        "n": "2",
+        "descr": "audience",
+        "descr_trans": "观众"
+      }
+    ],
+    "roleset_name_trans": "用（脚或鞋的）脚后跟进行表演"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "heel.04",
+    "roleset_name": "strike with the heel of (the hand, or a club, etc.)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit",
+        "descr_trans": "实体命中"
+      },
+      {
+        "n": "2",
+        "descr": "destination, location",
+        "descr_trans": "目的地、地点"
+      }
+    ],
+    "roleset_name_trans": "用（手或棍棒等）的根部击打"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "heel.05",
+    "roleset_name": "install a heel on a shoe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cobbler",
+        "descr_trans": "皮匠"
+      },
+      {
+        "n": "1",
+        "descr": "shoe",
+        "descr_trans": "鞋"
+      },
+      {
+        "n": "2",
+        "descr": "the heel itself",
+        "descr_trans": "鞋跟本身"
+      }
+    ],
+    "roleset_name_trans": "在鞋上安装鞋跟"
+  }
 ]

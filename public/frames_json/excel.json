@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excel.01",
-        "roleset_name": "be very good (at), extremely skilled at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "very good entity"
-            },
-            {
-                "n": "1",
-                "descr": "domain"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "excellent.02",
-        "roleset_name": "generally superb",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "superb thing"
-            },
-            {
-                "n": "2",
-                "descr": "target, entity excellent behavior is directed at"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "excellent.03",
-        "roleset_name": "extremely beneficial, healthful",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "beneficial, healthful thing"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excel.01",
+    "roleset_name": "be very good (at), extremely skilled at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "very good entity",
+        "descr_trans": "非常好的实体"
+      },
+      {
+        "n": "1",
+        "descr": "domain",
+        "descr_trans": "领域"
+      }
+    ],
+    "roleset_name_trans": "非常擅长，非常擅长"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "excellent.02",
+    "roleset_name": "generally superb",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "superb thing",
+        "descr_trans": "很棒的东西"
+      },
+      {
+        "n": "2",
+        "descr": "target, entity excellent behavior is directed at",
+        "descr_trans": "目标、实体优秀行为所针对的"
+      }
+    ],
+    "roleset_name_trans": "总体来说很棒"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "excellent.03",
+    "roleset_name": "extremely beneficial, healthful",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "beneficial, healthful thing",
+        "descr_trans": "有益的、健康的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "非常有益，健康"
+  }
 ]

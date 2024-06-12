@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unauthorized.01",
-        "roleset_name": "not having permission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "authority"
-            },
-            {
-                "n": "1",
-                "descr": "unauthorized activity/thing"
-            },
-            {
-                "n": "2",
-                "descr": "secondary agent not having permission"
-            },
-            {
-                "n": "3",
-                "descr": "arg1 unauthorized for what purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unauthorized.01",
+    "roleset_name": "not having permission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "authority",
+        "descr_trans": "权威"
+      },
+      {
+        "n": "1",
+        "descr": "unauthorized activity/thing",
+        "descr_trans": "未经授权的活动/事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary agent not having permission",
+        "descr_trans": "二级代理无权限"
+      },
+      {
+        "n": "3",
+        "descr": "arg1 unauthorized for what purpose",
+        "descr_trans": "arg1 未经授权用于什么目的"
+      }
+    ],
+    "roleset_name_trans": "没有得到许可"
+  }
 ]

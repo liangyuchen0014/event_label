@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "promenade.01",
-        "roleset_name": "promenade",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of promenading, agent, transitive subject"
-            },
-            {
-                "n": "1",
-                "descr": "thing promendaded, theme, intransitive subject, ditransitive object"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "3",
-                "descr": "end point"
-            },
-            {
-                "n": "4",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "promenade.01",
+    "roleset_name": "promenade",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of promenading, agent, transitive subject",
+        "descr_trans": "漫步的原因、代理人、及物主语"
+      },
+      {
+        "n": "1",
+        "descr": "thing promendaded, theme, intransitive subject, ditransitive object",
+        "descr_trans": "推进的事物、主题、不及物主语、双及物宾语"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "3",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "4",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "长廊"
+  }
 ]

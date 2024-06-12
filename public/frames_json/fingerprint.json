@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fingerprint.01",
-        "roleset_name": "take a record of a person's fingerprints (or metaphorical extension)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity taking fingerprints"
-            },
-            {
-                "n": "1",
-                "descr": "entity fingerprinted"
-            },
-            {
-                "n": "2",
-                "descr": "crime leading to arrest and fingerprinting"
-            },
-            {
-                "n": "3",
-                "descr": "domain in which there is a unique signature, akin to fingerprints"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fingerprint.01",
+    "roleset_name": "take a record of a person's fingerprints (or metaphorical extension)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity taking fingerprints",
+        "descr_trans": "实体采集指纹"
+      },
+      {
+        "n": "1",
+        "descr": "entity fingerprinted",
+        "descr_trans": "实体指纹"
+      },
+      {
+        "n": "2",
+        "descr": "crime leading to arrest and fingerprinting",
+        "descr_trans": "导致逮捕和采集指纹的犯罪行为"
+      },
+      {
+        "n": "3",
+        "descr": "domain in which there is a unique signature, akin to fingerprints",
+        "descr_trans": "具有唯一签名的域，类似于指纹"
+      }
+    ],
+    "roleset_name_trans": "记录一个人的指纹（或隐喻延伸）"
+  }
 ]

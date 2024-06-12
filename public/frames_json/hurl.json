@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hurl.01",
-        "roleset_name": "to throw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hurler"
-            },
-            {
-                "n": "1",
-                "descr": "entity hurled"
-            },
-            {
-                "n": "2",
-                "descr": "entity hurled at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hurl.01",
+    "roleset_name": "to throw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hurler",
+        "descr_trans": "投手"
+      },
+      {
+        "n": "1",
+        "descr": "entity hurled",
+        "descr_trans": "实体被投掷"
+      },
+      {
+        "n": "2",
+        "descr": "entity hurled at",
+        "descr_trans": "实体被投掷"
+      }
+    ],
+    "roleset_name_trans": "扔"
+  }
 ]

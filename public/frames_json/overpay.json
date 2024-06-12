@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overpay.01",
-        "roleset_name": "to pay too much, pay in excess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "money or attention"
-            },
-            {
-                "n": "2",
-                "descr": "person being paid, destination of attention"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, paid for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overpay.01",
+    "roleset_name": "to pay too much, pay in excess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "money or attention",
+        "descr_trans": "金钱或关注"
+      },
+      {
+        "n": "2",
+        "descr": "person being paid, destination of attention",
+        "descr_trans": "被支付的人，关注的目的地"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, paid for what",
+        "descr_trans": "商品，支付什么"
+      }
+    ],
+    "roleset_name_trans": "支付太多，支付过多"
+  }
 ]

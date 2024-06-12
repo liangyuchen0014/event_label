@@ -1,64 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "way.01",
-        "roleset_name": "progress; make one's way; route",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making progress"
-            },
-            {
-                "n": "1",
-                "descr": "path, goal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "way.02",
-        "roleset_name": "manner, course of action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having a manner of doing"
-            },
-            {
-                "n": "1",
-                "descr": "doing what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "way.03",
-        "roleset_name": "discourse function: by the way",
-        "roles": []
-    },
-    {
-        "uid": 4,
-        "roleset_id": "way.05",
-        "roleset_name": "involving some number of participants",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing split some number of ways"
-            },
-            {
-                "n": "2",
-                "descr": "the number"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "under_way.04",
-        "roleset_name": "in progress",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in progress"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "way.01",
+    "roleset_name": "progress; make one's way; route",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making progress",
+        "descr_trans": "实体取得进展"
+      },
+      {
+        "n": "1",
+        "descr": "path, goal",
+        "descr_trans": "路径、目标"
+      }
+    ],
+    "roleset_name_trans": "进步;开路；路线"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "way.02",
+    "roleset_name": "manner, course of action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having a manner of doing",
+        "descr_trans": "具有某种行为方式的实体"
+      },
+      {
+        "n": "1",
+        "descr": "doing what",
+        "descr_trans": "做什么"
+      }
+    ],
+    "roleset_name_trans": "方式，行动方针"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "way.03",
+    "roleset_name": "discourse function: by the way",
+    "roles": [],
+    "roleset_name_trans": "话语功能：顺便说一下"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "way.05",
+    "roleset_name": "involving some number of participants",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing split some number of ways",
+        "descr_trans": "事物有多种分裂方式"
+      },
+      {
+        "n": "2",
+        "descr": "the number",
+        "descr_trans": "号码"
+      }
+    ],
+    "roleset_name_trans": "涉及一定数量的参与者"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "under_way.04",
+    "roleset_name": "in progress",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in progress",
+        "descr_trans": "正在进行的事情"
+      }
+    ],
+    "roleset_name_trans": "进行中"
+  }
 ]

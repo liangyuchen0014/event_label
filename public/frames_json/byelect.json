@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "byelect.01",
-        "roleset_name": "elect in a by-election (special election held between general elections), special election held between general elections",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Voters"
-            },
-            {
-                "n": "1",
-                "descr": "Candidate"
-            },
-            {
-                "n": "2",
-                "descr": "Office or Position"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "byelect.01",
+    "roleset_name": "elect in a by-election (special election held between general elections), special election held between general elections",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Voters",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "Candidate",
+        "descr_trans": "候选人"
+      },
+      {
+        "n": "2",
+        "descr": "Office or Position",
+        "descr_trans": "办公室或职位"
+      }
+    ],
+    "roleset_name_trans": "在补选中选举（大选之间举行的特别选举）、大选之间举行的特别选举"
+  }
 ]

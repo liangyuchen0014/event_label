@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trample.01",
-        "roleset_name": "damage by walking on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "damager"
-            },
-            {
-                "n": "1",
-                "descr": "damaged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trample.01",
+    "roleset_name": "damage by walking on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "damager",
+        "descr_trans": "破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "damaged",
+        "descr_trans": "损坏的"
+      }
+    ],
+    "roleset_name_trans": "行走造成的伤害"
+  }
 ]

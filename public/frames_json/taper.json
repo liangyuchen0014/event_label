@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "taper_off.01",
-        "roleset_name": "become slender",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent   (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming slender"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "taper.02",
-        "roleset_name": "gradually diminish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing being diminished"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount diminished by"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "taper_off.01",
+    "roleset_name": "become slender",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent   (rare)",
+        "descr_trans": "代理（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming slender",
+        "descr_trans": "东西变细"
+      }
+    ],
+    "roleset_name_trans": "变得苗条"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "taper.02",
+    "roleset_name": "gradually diminish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing being diminished",
+        "descr_trans": "逻辑主体、耐心、事物被削弱"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount diminished by",
+        "descr_trans": "EXT，金额减少"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "逐渐减少"
+  }
 ]

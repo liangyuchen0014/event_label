@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assume.01",
-        "roleset_name": "acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing being acquired"
-            },
-            {
-                "n": "2",
-                "descr": "acquired-from"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "assume.02",
-        "roleset_name": "believe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thinker"
-            },
-            {
-                "n": "1",
-                "descr": "Thought"
-            },
-            {
-                "n": "2",
-                "descr": "Attributive (entity arg1 is assumed of/about)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assume.01",
+    "roleset_name": "acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acquiring something",
+        "descr_trans": "实体获得某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing being acquired",
+        "descr_trans": "被收购的东西"
+      },
+      {
+        "n": "2",
+        "descr": "acquired-from",
+        "descr_trans": "获得自"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "获得"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "assume.02",
+    "roleset_name": "believe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "Thought",
+        "descr_trans": "想法"
+      },
+      {
+        "n": "2",
+        "descr": "Attributive (entity arg1 is assumed of/about)",
+        "descr_trans": "定语（实体 arg1 假定为/关于）"
+      }
+    ],
+    "roleset_name_trans": "相信"
+  }
 ]

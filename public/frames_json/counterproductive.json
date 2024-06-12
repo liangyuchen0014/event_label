@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counterproductive.01",
-        "roleset_name": "a hinderance to a goal, productivity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hinderance, counterproductive thing"
-            },
-            {
-                "n": "1",
-                "descr": "goal, target that arg0 is counterproductive to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counterproductive.01",
+    "roleset_name": "a hinderance to a goal, productivity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hinderance, counterproductive thing",
+        "descr_trans": "阻碍，适得其反的事情"
+      },
+      {
+        "n": "1",
+        "descr": "goal, target that arg0 is counterproductive to",
+        "descr_trans": "目标，arg0 适得其反的目标"
+      }
+    ],
+    "roleset_name_trans": "阻碍目标、生产力"
+  }
 ]

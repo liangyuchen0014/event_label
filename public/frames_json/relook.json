@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relook.01",
-        "roleset_name": "look at again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker"
-            },
-            {
-                "n": "1",
-                "descr": "thing looked at/for/on"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relook.01",
+    "roleset_name": "look at again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "thing looked at/for/on",
+        "descr_trans": "看/为了/上的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg 1",
+        "descr_trans": "arg 1 的属性"
+      }
+    ],
+    "roleset_name_trans": "再看看"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "napalm.01",
-        "roleset_name": "attacking with napalm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "napalm.01",
+    "roleset_name": "attacking with napalm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "用凝固汽油弹攻击"
+  }
 ]

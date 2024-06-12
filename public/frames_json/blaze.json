@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blaze.01",
-        "roleset_name": "burn brightly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing burning"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "blaze.02",
-        "roleset_name": "take on a trail like fire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trail blazer"
-            },
-            {
-                "n": "1",
-                "descr": "trail"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blaze.01",
+    "roleset_name": "burn brightly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing burning",
+        "descr_trans": "东西燃烧"
+      }
+    ],
+    "roleset_name_trans": "明亮地燃烧"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "blaze.02",
+    "roleset_name": "take on a trail like fire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trail blazer",
+        "descr_trans": "开拓者"
+      },
+      {
+        "n": "1",
+        "descr": "trail",
+        "descr_trans": "踪迹"
+      }
+    ],
+    "roleset_name_trans": "像火一样走下去"
+  }
 ]

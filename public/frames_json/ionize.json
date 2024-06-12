@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ionize.01",
-        "roleset_name": "convert into ions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of ionization"
-            },
-            {
-                "n": "1",
-                "descr": "entity ionized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ionize.01",
+    "roleset_name": "convert into ions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of ionization",
+        "descr_trans": "电离原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity ionized",
+        "descr_trans": "实体电离"
+      }
+    ],
+    "roleset_name_trans": "转化为离子"
+  }
 ]

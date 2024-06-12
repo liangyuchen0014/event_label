@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swathe.01",
-        "roleset_name": "to wrap or bind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity swathed"
-            },
-            {
-                "n": "2",
-                "descr": "entity swathed in/with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swathe.01",
+    "roleset_name": "to wrap or bind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity swathed",
+        "descr_trans": "实体被包裹"
+      },
+      {
+        "n": "2",
+        "descr": "entity swathed in/with",
+        "descr_trans": "实体被包围/被包围"
+      }
+    ],
+    "roleset_name_trans": "包裹或捆绑"
+  }
 ]

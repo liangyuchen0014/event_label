@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "breathe.01",
-        "roleset_name": "inhale and exhale air",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "breather"
-            },
-            {
-                "n": "1",
-                "descr": "air, we hope"
-            },
-            {
-                "n": "2",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "breathe.02",
-        "roleset_name": "say in a breathy manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance breathed"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "breathe.01",
+    "roleset_name": "inhale and exhale air",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "breather",
+        "descr_trans": "喘息"
+      },
+      {
+        "n": "1",
+        "descr": "air, we hope",
+        "descr_trans": "空气，我们希望"
+      },
+      {
+        "n": "2",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "吸气和呼气"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "breathe.02",
+    "roleset_name": "say in a breathy manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance breathed",
+        "descr_trans": "说话有呼吸"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "气喘吁吁地说"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prime.01",
-        "roleset_name": "make ready",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, primer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made ready"
-            },
-            {
-                "n": "2",
-                "descr": "ready for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prime.01",
+    "roleset_name": "make ready",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, primer",
+        "descr_trans": "剂、底漆"
+      },
+      {
+        "n": "1",
+        "descr": "thing made ready",
+        "descr_trans": "东西准备好了"
+      },
+      {
+        "n": "2",
+        "descr": "ready for what?",
+        "descr_trans": "准备好干嘛？"
+      }
+    ],
+    "roleset_name_trans": "做好准备"
+  }
 ]

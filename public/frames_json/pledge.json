@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pledge.01",
-        "roleset_name": "promise a thing to someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "promiser"
-            },
-            {
-                "n": "1",
-                "descr": "person promised to"
-            },
-            {
-                "n": "2",
-                "descr": "promised thing or action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pledge.01",
+    "roleset_name": "promise a thing to someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "promiser",
+        "descr_trans": "许诺者"
+      },
+      {
+        "n": "1",
+        "descr": "person promised to",
+        "descr_trans": "人许诺"
+      },
+      {
+        "n": "2",
+        "descr": "promised thing or action",
+        "descr_trans": "承诺的事情或行动"
+      }
+    ],
+    "roleset_name_trans": "向某人许诺一件事"
+  }
 ]

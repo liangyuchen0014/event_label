@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scrawl.01",
-        "roleset_name": "write untidily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "surface"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scrawl_out.02",
-        "roleset_name": "write completely but untidily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scrawl.01",
+    "roleset_name": "write untidily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "surface",
+        "descr_trans": "表面"
+      }
+    ],
+    "roleset_name_trans": "写得不整齐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scrawl_out.02",
+    "roleset_name": "write completely but untidily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      }
+    ],
+    "roleset_name_trans": "写得完整但不整齐"
+  }
 ]

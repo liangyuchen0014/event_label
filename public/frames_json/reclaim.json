@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reclaim.01",
-        "roleset_name": "to claim back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reclaimer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity reclaimed"
-            },
-            {
-                "n": "2",
-                "descr": "entity reclaimed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reclaim.01",
+    "roleset_name": "to claim back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reclaimer, agent",
+        "descr_trans": "回收商、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity reclaimed",
+        "descr_trans": "实体被回收"
+      },
+      {
+        "n": "2",
+        "descr": "entity reclaimed from",
+        "descr_trans": "实体回收自"
+      }
+    ],
+    "roleset_name_trans": "索回"
+  }
 ]

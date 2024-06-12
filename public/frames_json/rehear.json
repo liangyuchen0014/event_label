@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rehear.01",
-        "roleset_name": "hear (in court, as a trial) again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, court, adjudicator"
-            },
-            {
-                "n": "1",
-                "descr": "case, petition, charges, etc. reheard"
-            },
-            {
-                "n": "2",
-                "descr": "entity on trial, if given individually"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rehear.01",
+    "roleset_name": "hear (in court, as a trial) again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, court, adjudicator",
+        "descr_trans": "法官，法院，审判员"
+      },
+      {
+        "n": "1",
+        "descr": "case, petition, charges, etc. reheard",
+        "descr_trans": "案件、请愿书、指控等重新审理"
+      },
+      {
+        "n": "2",
+        "descr": "entity on trial, if given individually",
+        "descr_trans": "受审实体（如果单独给予）"
+      }
+    ],
+    "roleset_name_trans": "再次听审（在法庭上，作为审判）"
+  }
 ]

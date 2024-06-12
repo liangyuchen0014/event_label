@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enroll.01",
-        "roleset_name": "register membership in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of enrollment, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity enrolled"
-            },
-            {
-                "n": "2",
-                "descr": "enrolled in what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enroll.01",
+    "roleset_name": "register membership in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of enrollment, agent",
+        "descr_trans": "注册原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity enrolled",
+        "descr_trans": "实体注册"
+      },
+      {
+        "n": "2",
+        "descr": "enrolled in what",
+        "descr_trans": "就读于什么"
+      }
+    ],
+    "roleset_name_trans": "注册会员"
+  }
 ]

@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rise.01",
-        "roleset_name": "go up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of inception/rising of arg1, likely to occur with light verb"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "arise.02",
-        "roleset_name": "(cause to) come into existence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing (state) arising"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rise_up.03",
-        "roleset_name": "revolt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revolutionaries"
-            },
-            {
-                "n": "1",
-                "descr": "against what authority"
-            },
-            {
-                "n": "2",
-                "descr": "reason for revolt"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rise.01",
+    "roleset_name": "go up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of inception/rising of arg1, likely to occur with light verb",
+        "descr_trans": "arg1 的起始/上升的原因，可能与轻动词一起发生"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "arise.02",
+    "roleset_name": "(cause to) come into existence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing (state) arising",
+        "descr_trans": "事物（状态）产生"
+      }
+    ],
+    "roleset_name_trans": "（导致）出现"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rise_up.03",
+    "roleset_name": "revolt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revolutionaries",
+        "descr_trans": "革命者"
+      },
+      {
+        "n": "1",
+        "descr": "against what authority",
+        "descr_trans": "针对什么权威"
+      },
+      {
+        "n": "2",
+        "descr": "reason for revolt",
+        "descr_trans": "反抗的原因"
+      }
+    ],
+    "roleset_name_trans": "反叛"
+  }
 ]

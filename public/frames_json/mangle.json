@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mangle.01",
-        "roleset_name": "flatten fabric using a mangle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/mangler"
-            },
-            {
-                "n": "1",
-                "descr": "thing flattened"
-            },
-            {
-                "n": "2",
-                "descr": "the mangle"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mangle.02",
-        "roleset_name": "destroy, making unrecognizable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of mangling"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing destroyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mangle.01",
+    "roleset_name": "flatten fabric using a mangle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/mangler",
+        "descr_trans": "特工/失踪"
+      },
+      {
+        "n": "1",
+        "descr": "thing flattened",
+        "descr_trans": "东西压扁了"
+      },
+      {
+        "n": "2",
+        "descr": "the mangle",
+        "descr_trans": "压榨机"
+      }
+    ],
+    "roleset_name_trans": "使用压扁机压平织物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mangle.02",
+    "roleset_name": "destroy, making unrecognizable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of mangling",
+        "descr_trans": "代理人，破坏的肇事者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing destroyed",
+        "descr_trans": "病人，东西被毁了"
+      }
+    ],
+    "roleset_name_trans": "破坏，使无法辨认"
+  }
 ]

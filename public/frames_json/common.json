@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "common.01",
-        "roleset_name": "usual, average, widespread",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "usual, average thing"
-            },
-            {
-                "n": "2",
-                "descr": "entity observing, perceiving arg1 as common"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "common.02",
-        "roleset_name": "negative connotation: course, lowly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "lowly thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "common.03",
-        "roleset_name": "shared by",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "shared thing"
-            },
-            {
-                "n": "2",
-                "descr": "entities sharing arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "common.01",
+    "roleset_name": "usual, average, widespread",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "usual, average thing",
+        "descr_trans": "平常的，平均的事情"
+      },
+      {
+        "n": "2",
+        "descr": "entity observing, perceiving arg1 as common",
+        "descr_trans": "实体观察，将 arg1 视为常见"
+      }
+    ],
+    "roleset_name_trans": "平常的，平均的，普遍的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "common.02",
+    "roleset_name": "negative connotation: course, lowly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "lowly thing",
+        "descr_trans": "卑微的东西"
+      }
+    ],
+    "roleset_name_trans": "负面含义：当然，卑微"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "common.03",
+    "roleset_name": "shared by",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "shared thing",
+        "descr_trans": "共享的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entities sharing arg1",
+        "descr_trans": "共享 arg1 的实体"
+      }
+    ],
+    "roleset_name_trans": "通过共享"
+  }
 ]

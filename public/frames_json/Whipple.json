@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whipple.01",
-        "roleset_name": "removal of several organs, including: the head of the pancreas, the duodenum or part of the duodenum, the bile duct, the gallbladder, and sometimes other tissue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whipple.01",
+    "roleset_name": "removal of several organs, including: the head of the pancreas, the duodenum or part of the duodenum, the bile duct, the gallbladder, and sometimes other tissue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "removed",
+        "descr_trans": "已删除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "切除多个器官，包括：胰头、十二指肠或十二指肠的一部分、胆管、胆囊，有时还包括其他组织"
+  }
 ]

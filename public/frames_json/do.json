@@ -1,185 +1,222 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "do.01",
-        "roleset_name": "auxiliary",
-        "roles": []
-    },
-    {
-        "uid": 2,
-        "roleset_id": "do.02",
-        "roleset_name": "act",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, doer"
-            },
-            {
-                "n": "1",
-                "descr": "thing done"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, done for or about"
-            },
-            {
-                "n": "3",
-                "descr": "instrumental"
-            },
-            {
-                "n": "4",
-                "descr": "comitative, companion while doing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "do.11",
-        "roleset_name": "serve time (usually a sentence but could be an appointment)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity serving time"
-            },
-            {
-                "n": "1",
-                "descr": "time, appointment, sentence"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "do.12",
-        "roleset_name": "suffice",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that suffices"
-            },
-            {
-                "n": "2",
-                "descr": "for/as what role/purpose"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "do_in.03",
-        "roleset_name": "kill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "do_away.05",
-        "roleset_name": "get rid of, eliminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator"
-            },
-            {
-                "n": "1",
-                "descr": "eliminated"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "doing.07",
-        "roleset_name": "nominal version of light verb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker, subject of the light-verbish noun"
-            },
-            {
-                "n": "1",
-                "descr": "true noun predicate"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "done.08",
-        "roleset_name": "be completed; bring to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person that brought arg1 to completion (mere agents of arg1 should just be within arg1)"
-            },
-            {
-                "n": "1",
-                "descr": "activity completed, event that has stopped"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "done_for.06",
-        "roleset_name": "set phrase: done for, doomed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "doomed entity"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "doable.10",
-        "roleset_name": "able to be done/accomplished",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer"
-            },
-            {
-                "n": "1",
-                "descr": "done"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "make_do.25",
-        "roleset_name": "make do: cause to be sufficient",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making do"
-            },
-            {
-                "n": "1",
-                "descr": "thing that must be sufficient"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "have_to_do_with.04",
-        "roleset_name": "have some association with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doer, usually  *PRO*"
-            },
-            {
-                "n": "1",
-                "descr": "thing with which something has to do, \"with...\" phrase"
-            },
-            {
-                "n": "2",
-                "descr": "thing done, usually \"nothing\" \"something\" quantitative phrase"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "do.01",
+    "roleset_name": "auxiliary",
+    "roles": [],
+    "roleset_name_trans": "辅助的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "do.02",
+    "roleset_name": "act",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, doer",
+        "descr_trans": "代理人、行动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing done",
+        "descr_trans": "事情完成了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, done for or about",
+        "descr_trans": "有益的，为或关于所做的"
+      },
+      {
+        "n": "3",
+        "descr": "instrumental",
+        "descr_trans": "工具性的"
+      },
+      {
+        "n": "4",
+        "descr": "comitative, companion while doing",
+        "descr_trans": "做事时有同伴、有同伴"
+      }
+    ],
+    "roleset_name_trans": "行为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "do.11",
+    "roleset_name": "serve time (usually a sentence but could be an appointment)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity serving time",
+        "descr_trans": "实体服务时间"
+      },
+      {
+        "n": "1",
+        "descr": "time, appointment, sentence",
+        "descr_trans": "时间、约定、判决"
+      }
+    ],
+    "roleset_name_trans": "服务时间（通常是一句话，但也可以是预约）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "do.12",
+    "roleset_name": "suffice",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that suffices",
+        "descr_trans": "足够的东西"
+      },
+      {
+        "n": "2",
+        "descr": "for/as what role/purpose",
+        "descr_trans": "为了/作为什么角色/目的"
+      }
+    ],
+    "roleset_name_trans": "够了"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "do_in.03",
+    "roleset_name": "kill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      }
+    ],
+    "roleset_name_trans": "杀"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "do_away.05",
+    "roleset_name": "get rid of, eliminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator",
+        "descr_trans": "消除器"
+      },
+      {
+        "n": "1",
+        "descr": "eliminated",
+        "descr_trans": "消除了"
+      }
+    ],
+    "roleset_name_trans": "摆脱，消除"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "doing.07",
+    "roleset_name": "nominal version of light verb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker, subject of the light-verbish noun",
+        "descr_trans": "制造商，轻动词名词的主语"
+      },
+      {
+        "n": "1",
+        "descr": "true noun predicate",
+        "descr_trans": "真名词谓语"
+      }
+    ],
+    "roleset_name_trans": "轻动词的名义版本"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "done.08",
+    "roleset_name": "be completed; bring to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person that brought arg1 to completion (mere agents of arg1 should just be within arg1)",
+        "descr_trans": "使 arg1 完成的人（arg1 的单纯代理应该位于 arg1 内）"
+      },
+      {
+        "n": "1",
+        "descr": "activity completed, event that has stopped",
+        "descr_trans": "活动已完成，事件已停止"
+      }
+    ],
+    "roleset_name_trans": "完成；完成"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "done_for.06",
+    "roleset_name": "set phrase: done for, doomed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "doomed entity",
+        "descr_trans": "注定的实体"
+      }
+    ],
+    "roleset_name_trans": "固定短语：注定的、注定的"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "doable.10",
+    "roleset_name": "able to be done/accomplished",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer",
+        "descr_trans": "实干家"
+      },
+      {
+        "n": "1",
+        "descr": "done",
+        "descr_trans": "完毕"
+      }
+    ],
+    "roleset_name_trans": "能够完成/完成"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "make_do.25",
+    "roleset_name": "make do: cause to be sufficient",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making do",
+        "descr_trans": "实体凑合"
+      },
+      {
+        "n": "1",
+        "descr": "thing that must be sufficient",
+        "descr_trans": "必须足够的东西"
+      }
+    ],
+    "roleset_name_trans": "make do：凑合"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "have_to_do_with.04",
+    "roleset_name": "have some association with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doer, usually  *PRO*",
+        "descr_trans": "实干家，通常是*PRO*"
+      },
+      {
+        "n": "1",
+        "descr": "thing with which something has to do, \"with...\" phrase",
+        "descr_trans": "与某事有关的事物，“与...”短语"
+      },
+      {
+        "n": "2",
+        "descr": "thing done, usually \"nothing\" \"something\" quantitative phrase",
+        "descr_trans": "完成的事情，通常是“无事”“某事”定量短语"
+      }
+    ],
+    "roleset_name_trans": "与有某种联系"
+  }
 ]

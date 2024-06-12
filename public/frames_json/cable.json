@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cable.01",
-        "roleset_name": "fax, commucate using cable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "message"
-            },
-            {
-                "n": "2",
-                "descr": "sent to, recipient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cable.02",
-        "roleset_name": "link, using a cable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, linker"
-            },
-            {
-                "n": "1",
-                "descr": "thing cabled"
-            },
-            {
-                "n": "2",
-                "descr": "thing cabled to"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cable.01",
+    "roleset_name": "fax, commucate using cable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "message",
+        "descr_trans": "信息"
+      },
+      {
+        "n": "2",
+        "descr": "sent to, recipient",
+        "descr_trans": "发送至、收件人"
+      }
+    ],
+    "roleset_name_trans": "传真、使用电缆通信"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cable.02",
+    "roleset_name": "link, using a cable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, linker",
+        "descr_trans": "代理、连接器"
+      },
+      {
+        "n": "1",
+        "descr": "thing cabled",
+        "descr_trans": "有线的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing cabled to",
+        "descr_trans": "电缆连接到的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "链接，使用电缆"
+  }
 ]

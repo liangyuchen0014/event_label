@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nasty.01",
-        "roleset_name": "mean",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of nastiness"
-            },
-            {
-                "n": "1",
-                "descr": "action/thing inherently nasty"
-            },
-            {
-                "n": "2",
-                "descr": "target of nasty behavior"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nasty.02",
-        "roleset_name": "disgusting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disgusting thing"
-            },
-            {
-                "n": "1",
-                "descr": "perceiver"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nasty.01",
+    "roleset_name": "mean",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of nastiness",
+        "descr_trans": "肮脏的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "action/thing inherently nasty",
+        "descr_trans": "本质上令人讨厌的行为/事物"
+      },
+      {
+        "n": "2",
+        "descr": "target of nasty behavior",
+        "descr_trans": "恶劣行为的目标"
+      }
+    ],
+    "roleset_name_trans": "意思是"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nasty.02",
+    "roleset_name": "disgusting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disgusting thing",
+        "descr_trans": "恶心的东西"
+      },
+      {
+        "n": "1",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      }
+    ],
+    "roleset_name_trans": "恶心的"
+  }
 ]

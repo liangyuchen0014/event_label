@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "amend.01",
-        "roleset_name": "add to or correct, adding to, correcting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "amender, corrector"
-            },
-            {
-                "n": "1",
-                "descr": "thing amended"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "amendable.02",
-        "roleset_name": "able to be added to, edited",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "amender, corrector"
-            },
-            {
-                "n": "1",
-                "descr": "thing amended"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "amend.01",
+    "roleset_name": "add to or correct, adding to, correcting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "amender, corrector",
+        "descr_trans": "修正者，修正者"
+      },
+      {
+        "n": "1",
+        "descr": "thing amended",
+        "descr_trans": "事情修改了"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "添加或更正，添加，更正"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "amendable.02",
+    "roleset_name": "able to be added to, edited",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "amender, corrector",
+        "descr_trans": "修正者，修正者"
+      },
+      {
+        "n": "1",
+        "descr": "thing amended",
+        "descr_trans": "事情修改了"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "可以添加、编辑"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prohibit.01",
-        "roleset_name": "prevent an action, forbidding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being prevented)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication or action"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prohibitive.02",
-        "roleset_name": "excessively high or likely so as to discourage another action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Discouraging, prohibitive thing"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being discouraged)"
-            },
-            {
-                "n": "2",
-                "descr": "Attribute of Arg0 that discourages, when separate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prohibit.01",
+    "roleset_name": "prevent an action, forbidding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being prevented)",
+        "descr_trans": "主题（被阻止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication or action",
+        "descr_trans": "次要预测或动作"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻止某项行动，禁止"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prohibitive.02",
+    "roleset_name": "excessively high or likely so as to discourage another action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Discouraging, prohibitive thing",
+        "descr_trans": "令人沮丧的、禁止的事情"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being discouraged)",
+        "descr_trans": "主题（不鼓励的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "Attribute of Arg0 that discourages, when separate",
+        "descr_trans": "Arg0 的属性在分开时会阻止"
+      }
+    ],
+    "roleset_name_trans": "过高或可能阻碍其他行动"
+  }
 ]

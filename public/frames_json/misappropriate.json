@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misappropriate.01",
-        "roleset_name": "steal, embezzle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "embezzler"
-            },
-            {
-                "n": "1",
-                "descr": "thing embezzled"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misappropriate.01",
+    "roleset_name": "steal, embezzle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "embezzler",
+        "descr_trans": "贪污者"
+      },
+      {
+        "n": "1",
+        "descr": "thing embezzled",
+        "descr_trans": "东西被盗用"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "偷窃、贪污"
+  }
 ]

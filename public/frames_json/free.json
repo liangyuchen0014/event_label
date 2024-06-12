@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "free.01",
-        "roleset_name": "cause to be available",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity providing freedom, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made free"
-            },
-            {
-                "n": "2",
-                "descr": "freed from"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary/purpose"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "free.03",
-        "roleset_name": "costing nothing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that costs nothing"
-            },
-            {
-                "n": "2",
-                "descr": "\"of charge\" or similar"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "free.04",
-        "roleset_name": "unconstrained, unrestricted",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "free entity"
-            },
-            {
-                "n": "2",
-                "descr": "free from (former chains/burden)"
-            },
-            {
-                "n": "3",
-                "descr": "resulting freedom (to do what)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "free_up.02",
-        "roleset_name": "to make available for other use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, free-er upper"
-            },
-            {
-                "n": "1",
-                "descr": "resource made available"
-            },
-            {
-                "n": "2",
-                "descr": "old use"
-            },
-            {
-                "n": "3",
-                "descr": "new use"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "free.01",
+    "roleset_name": "cause to be available",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity providing freedom, agent",
+        "descr_trans": "提供自由的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity made free",
+        "descr_trans": "实体变得自由"
+      },
+      {
+        "n": "2",
+        "descr": "freed from",
+        "descr_trans": "摆脱了"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary/purpose",
+        "descr_trans": "受益人/目的"
+      }
+    ],
+    "roleset_name_trans": "导致可用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "free.03",
+    "roleset_name": "costing nothing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that costs nothing",
+        "descr_trans": "不花钱的东西"
+      },
+      {
+        "n": "2",
+        "descr": "\"of charge\" or similar",
+        "descr_trans": "“收费”或类似的"
+      }
+    ],
+    "roleset_name_trans": "不花钱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "free.04",
+    "roleset_name": "unconstrained, unrestricted",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "free entity",
+        "descr_trans": "自由实体"
+      },
+      {
+        "n": "2",
+        "descr": "free from (former chains/burden)",
+        "descr_trans": "摆脱（以前的束缚/负担）"
+      },
+      {
+        "n": "3",
+        "descr": "resulting freedom (to do what)",
+        "descr_trans": "由此产生的自由（做什么）"
+      }
+    ],
+    "roleset_name_trans": "无约束的，不受限制的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "free_up.02",
+    "roleset_name": "to make available for other use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, free-er upper",
+        "descr_trans": "代理，免费了"
+      },
+      {
+        "n": "1",
+        "descr": "resource made available",
+        "descr_trans": "资源可用"
+      },
+      {
+        "n": "2",
+        "descr": "old use",
+        "descr_trans": "旧用"
+      },
+      {
+        "n": "3",
+        "descr": "new use",
+        "descr_trans": "新用途"
+      }
+    ],
+    "roleset_name_trans": "可供其他用途"
+  }
 ]

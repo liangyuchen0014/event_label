@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interrupt.01",
-        "roleset_name": "to break up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interrupter"
-            },
-            {
-                "n": "1",
-                "descr": "thing interrupted"
-            },
-            {
-                "n": "2",
-                "descr": "utterance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interrupt.01",
+    "roleset_name": "to break up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interrupter",
+        "descr_trans": "中断器"
+      },
+      {
+        "n": "1",
+        "descr": "thing interrupted",
+        "descr_trans": "事情被打断"
+      },
+      {
+        "n": "2",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "分手"
+  }
 ]

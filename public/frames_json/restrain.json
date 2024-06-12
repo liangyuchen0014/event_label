@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restrain.01",
-        "roleset_name": "stop, prevent, holding back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being restrained"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 is restrained from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restrain.01",
+    "roleset_name": "stop, prevent, holding back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being restrained",
+        "descr_trans": "被限制的事物"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 is restrained from",
+        "descr_trans": "arg1 受到什么限制"
+      }
+    ],
+    "roleset_name_trans": "停止、阻止、阻止"
+  }
 ]

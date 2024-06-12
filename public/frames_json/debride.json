@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debride.01",
-        "roleset_name": "to remove necrotic tissue or foreign matter (f. ex. from a wound)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "Removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debride.01",
+    "roleset_name": "to remove necrotic tissue or foreign matter (f. ex. from a wound)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being removed",
+        "descr_trans": "正在移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "去除坏死组织或异物（例如伤口）"
+  }
 ]

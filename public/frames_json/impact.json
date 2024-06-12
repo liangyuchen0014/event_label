@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impact.01",
-        "roleset_name": "have an effect on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing affecting"
-            },
-            {
-                "n": "1",
-                "descr": "thing affected"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "impact.02",
-        "roleset_name": "hit, strike",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "impact.03",
-        "roleset_name": "be very firmly packed, packing very firmly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "firmly packed thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impact.01",
+    "roleset_name": "have an effect on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing affecting",
+        "descr_trans": "影响的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing affected",
+        "descr_trans": "受影响的事物"
+      }
+    ],
+    "roleset_name_trans": "有一个效果"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "impact.02",
+    "roleset_name": "hit, strike",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "击打，打击"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "impact.03",
+    "roleset_name": "be very firmly packed, packing very firmly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "firmly packed thing",
+        "descr_trans": "包装牢固的东西"
+      }
+    ],
+    "roleset_name_trans": "包装得很牢固，包装得很牢固"
+  }
 ]

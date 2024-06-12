@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blackmail.01",
-        "roleset_name": "to exert pressure on someone through threats",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blackmailer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity blackmailed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blackmail.01",
+    "roleset_name": "to exert pressure on someone through threats",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blackmailer, agent",
+        "descr_trans": "勒索者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity blackmailed",
+        "descr_trans": "实体勒索"
+      }
+    ],
+    "roleset_name_trans": "通过威胁对某人施加压力"
+  }
 ]

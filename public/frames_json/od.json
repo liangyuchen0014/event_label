@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "od.01",
-        "roleset_name": "overdose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who took too much"
-            },
-            {
-                "n": "1",
-                "descr": "on what drug"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "od.01",
+    "roleset_name": "overdose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who took too much",
+        "descr_trans": "拿走了太多的实体"
+      },
+      {
+        "n": "1",
+        "descr": "on what drug",
+        "descr_trans": "吃什么药"
+      }
+    ],
+    "roleset_name_trans": "过量"
+  }
 ]

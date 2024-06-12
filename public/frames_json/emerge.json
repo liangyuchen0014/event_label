@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "emerge.01",
-        "roleset_name": "exit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing exiting"
-            },
-            {
-                "n": "1",
-                "descr": "thing/place exited from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "emerge.02",
-        "roleset_name": "come to be seen as",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing emerging"
-            },
-            {
-                "n": "1",
-                "descr": "as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "emerge.01",
+    "roleset_name": "exit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing exiting",
+        "descr_trans": "事物退出"
+      },
+      {
+        "n": "1",
+        "descr": "thing/place exited from",
+        "descr_trans": "退出的事物/地点"
+      }
+    ],
+    "roleset_name_trans": "出口"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "emerge.02",
+    "roleset_name": "come to be seen as",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing emerging",
+        "descr_trans": "事物出现"
+      },
+      {
+        "n": "1",
+        "descr": "as what",
+        "descr_trans": "作为什么"
+      }
+    ],
+    "roleset_name_trans": "被视为"
+  }
 ]

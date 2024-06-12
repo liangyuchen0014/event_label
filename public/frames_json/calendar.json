@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "calendar.01",
-        "roleset_name": "add to a calendar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one adding to the schedule"
-            },
-            {
-                "n": "1",
-                "descr": "appointment"
-            },
-            {
-                "n": "2",
-                "descr": "specific schedule or calender added to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "calendar.01",
+    "roleset_name": "add to a calendar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one adding to the schedule",
+        "descr_trans": "代理人，一名添加到日程表中的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "appointment",
+        "descr_trans": "预约"
+      },
+      {
+        "n": "2",
+        "descr": "specific schedule or calender added to",
+        "descr_trans": "添加特定时间表或日历"
+      }
+    ],
+    "roleset_name_trans": "添加到日历"
+  }
 ]

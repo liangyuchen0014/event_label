@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reissue.01",
-        "roleset_name": "put forth, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing issued"
-            },
-            {
-                "n": "2",
-                "descr": "issued to, recipient"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reissue.01",
+    "roleset_name": "put forth, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing issued",
+        "descr_trans": "发出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "issued to, recipient",
+        "descr_trans": "发给、收件人"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "再次提出"
+  }
 ]

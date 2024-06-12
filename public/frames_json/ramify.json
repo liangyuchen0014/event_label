@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ramify.01",
-        "roleset_name": "spread out into branches, extend into  subdivisions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making something be grow, spread"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing spreading out"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or TMP, by how much or until when"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ramification.02",
-        "roleset_name": "effect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing affecting"
-            },
-            {
-                "n": "1",
-                "descr": "thing affected"
-            },
-            {
-                "n": "2",
-                "descr": "the effect itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ramify.01",
+    "roleset_name": "spread out into branches, extend into  subdivisions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making something be grow, spread",
+        "descr_trans": "代理人，使某物成长、传播的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing spreading out",
+        "descr_trans": "病人，事物蔓延"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or TMP, by how much or until when",
+        "descr_trans": "EXT 或 TMP，增加多少或直到何时"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "分散成分支，延伸到细分部门"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ramification.02",
+    "roleset_name": "effect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing affecting",
+        "descr_trans": "影响的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing affected",
+        "descr_trans": "受影响的事物"
+      },
+      {
+        "n": "2",
+        "descr": "the effect itself",
+        "descr_trans": "效果本身"
+      }
+    ],
+    "roleset_name_trans": "影响"
+  }
 ]

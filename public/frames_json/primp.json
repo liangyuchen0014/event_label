@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "primp.01",
-        "roleset_name": "primp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "primper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing primped (e.g., hair), patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of primping"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "primp.01",
+    "roleset_name": "primp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "primper, agent",
+        "descr_trans": "底漆、剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing primped (e.g., hair), patient",
+        "descr_trans": "整理过的东西（例如头发），病人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of primping",
+        "descr_trans": "灌注工具"
+      }
+    ],
+    "roleset_name_trans": "打扮"
+  }
 ]

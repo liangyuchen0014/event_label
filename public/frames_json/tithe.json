@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tithe.01",
-        "roleset_name": "pay tithe, usually 1/10th of one's income",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tithe contributor"
-            },
-            {
-                "n": "1",
-                "descr": "income or thing tithed"
-            },
-            {
-                "n": "2",
-                "descr": "amount given"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tithe.01",
+    "roleset_name": "pay tithe, usually 1/10th of one's income",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tithe contributor",
+        "descr_trans": "什一奉献者"
+      },
+      {
+        "n": "1",
+        "descr": "income or thing tithed",
+        "descr_trans": "收入或什一税的东西"
+      },
+      {
+        "n": "2",
+        "descr": "amount given",
+        "descr_trans": "给予的金额"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "缴纳什一税，通常是收入的 1/10"
+  }
 ]

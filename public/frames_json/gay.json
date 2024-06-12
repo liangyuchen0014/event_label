@@ -1,39 +1,46 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gay.01",
-        "roleset_name": "homosexual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "homosexual entity"
-            },
-            {
-                "n": "2",
-                "descr": "object of desire"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gay.02",
-        "roleset_name": "cheery, festive, mirthful",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "mirthful one"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gay.03",
-        "roleset_name": "negative connotation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is perceived negatively (may req. concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gay.01",
+    "roleset_name": "homosexual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "homosexual entity",
+        "descr_trans": "同性恋实体"
+      },
+      {
+        "n": "2",
+        "descr": "object of desire",
+        "descr_trans": "欲望的对象"
+      }
+    ],
+    "roleset_name_trans": "同性恋者"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gay.02",
+    "roleset_name": "cheery, festive, mirthful",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "mirthful one",
+        "descr_trans": "快乐的一个"
+      }
+    ],
+    "roleset_name_trans": "愉快的, 喜庆的, 快乐的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gay.03",
+    "roleset_name": "negative connotation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is perceived negatively (may req. concatenation)",
+        "descr_trans": "被负面感知的事物（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "负面含义"
+  }
 ]

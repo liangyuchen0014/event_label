@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "route.01",
-        "roleset_name": "send via a specific route",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rout.02",
-        "roleset_name": "defeat soundly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "winner"
-            },
-            {
-                "n": "1",
-                "descr": "loser"
-            },
-            {
-                "n": "2",
-                "descr": "domain: game, battle"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rout.03",
-        "roleset_name": "woodwork: use a router",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "woodworker"
-            },
-            {
-                "n": "1",
-                "descr": "design, theme"
-            },
-            {
-                "n": "2",
-                "descr": "wood/substance routed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "route.01",
+    "roleset_name": "send via a specific route",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "通过特定路径发送"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rout.02",
+    "roleset_name": "defeat soundly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "winner",
+        "descr_trans": "优胜者"
+      },
+      {
+        "n": "1",
+        "descr": "loser",
+        "descr_trans": "失败者"
+      },
+      {
+        "n": "2",
+        "descr": "domain: game, battle",
+        "descr_trans": "领域：游戏、战斗"
+      }
+    ],
+    "roleset_name_trans": "彻底击败"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rout.03",
+    "roleset_name": "woodwork: use a router",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "woodworker",
+        "descr_trans": "木工"
+      },
+      {
+        "n": "1",
+        "descr": "design, theme",
+        "descr_trans": "设计、主题"
+      },
+      {
+        "n": "2",
+        "descr": "wood/substance routed",
+        "descr_trans": "木材/物质布线"
+      }
+    ],
+    "roleset_name_trans": "木工：使用刳刨机"
+  }
 ]

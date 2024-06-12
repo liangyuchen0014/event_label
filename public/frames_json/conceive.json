@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conceive.01",
-        "roleset_name": "think of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conceiver, thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thought"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conceive.02",
-        "roleset_name": "make babies",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parent(s)"
-            },
-            {
-                "n": "1",
-                "descr": "baby"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conceive.01",
+    "roleset_name": "think of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conceiver, thinker",
+        "descr_trans": "构思者、思想家"
+      },
+      {
+        "n": "1",
+        "descr": "thought",
+        "descr_trans": "想法"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "考虑到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conceive.02",
+    "roleset_name": "make babies",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parent(s)",
+        "descr_trans": "父母）"
+      },
+      {
+        "n": "1",
+        "descr": "baby",
+        "descr_trans": "婴儿"
+      }
+    ],
+    "roleset_name_trans": "生孩子"
+  }
 ]

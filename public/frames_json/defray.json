@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defray.01",
-        "roleset_name": "to pay or furnish money for costs/expenses",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supplier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity furnished, usually expenses/money"
-            },
-            {
-                "n": "2",
-                "descr": "expenses costs of what? entity purchased when separate mention from arg 1."
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defray.01",
+    "roleset_name": "to pay or furnish money for costs/expenses",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supplier, agent",
+        "descr_trans": "供应商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity furnished, usually expenses/money",
+        "descr_trans": "提供的实体，通常是费用/金钱"
+      },
+      {
+        "n": "2",
+        "descr": "expenses costs of what? entity purchased when separate mention from arg 1.",
+        "descr_trans": "开支费用有哪些？与 arg 1 分开提及时购买的实体。"
+      }
+    ],
+    "roleset_name_trans": "支付或提供费用/费用"
+  }
 ]

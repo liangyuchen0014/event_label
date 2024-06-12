@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clasp.01",
-        "roleset_name": "hold, as by hands",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing held, canonically hands"
-            },
-            {
-                "n": "2",
-                "descr": "second thing held, or attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clasp.01",
+    "roleset_name": "hold, as by hands",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held, canonically hands",
+        "descr_trans": "握着的东西，典型的手"
+      },
+      {
+        "n": "2",
+        "descr": "second thing held, or attribute of arg1",
+        "descr_trans": "持有的第二件事，或 arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "握住，如用手"
+  }
 ]

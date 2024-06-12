@@ -1,86 +1,104 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "burst.01",
-        "roleset_name": "appear suddenly, become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing appearing, topic"
-            },
-            {
-                "n": "2",
-                "descr": "further description of end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "burst.02",
-        "roleset_name": "minor explosion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of explosion"
-            },
-            {
-                "n": "1",
-                "descr": "barricade exploding"
-            },
-            {
-                "n": "2",
-                "descr": "entity/substance no longer contained"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "burst.03",
-        "roleset_name": "rapid movement, sudden increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (only in transitive instances)"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "barricade breached"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "burst_out.04",
-        "roleset_name": "blurt out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "explosive talker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "burst.01",
+    "roleset_name": "appear suddenly, become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing appearing, topic",
+        "descr_trans": "出现的事物、主题"
+      },
+      {
+        "n": "2",
+        "descr": "further description of end state",
+        "descr_trans": "最终状态的进一步描述"
+      }
+    ],
+    "roleset_name_trans": "突然出现，成为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "burst.02",
+    "roleset_name": "minor explosion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of explosion",
+        "descr_trans": "爆炸起因"
+      },
+      {
+        "n": "1",
+        "descr": "barricade exploding",
+        "descr_trans": "路障爆炸"
+      },
+      {
+        "n": "2",
+        "descr": "entity/substance no longer contained",
+        "descr_trans": "不再包含实体/物质"
+      }
+    ],
+    "roleset_name_trans": "轻微爆炸"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "burst.03",
+    "roleset_name": "rapid movement, sudden increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (only in transitive instances)",
+        "descr_trans": "代理（仅在传递实例中）"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "barricade breached",
+        "descr_trans": "路障被突破"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "快速移动、突然增加"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "burst_out.04",
+    "roleset_name": "blurt out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "explosive talker",
+        "descr_trans": "爆炸性的谈话者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "脱口而出"
+  }
 ]

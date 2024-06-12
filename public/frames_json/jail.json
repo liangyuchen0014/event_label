@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jail.01",
-        "roleset_name": "put in jail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "court, judge, jury"
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "term"
-            },
-            {
-                "n": "3",
-                "descr": "cause, misdeed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jail.01",
+    "roleset_name": "put in jail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "court, judge, jury",
+        "descr_trans": "法院、法官、陪审团"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "term",
+        "descr_trans": "学期"
+      },
+      {
+        "n": "3",
+        "descr": "cause, misdeed",
+        "descr_trans": "原因、不当行为"
+      }
+    ],
+    "roleset_name_trans": "关进监狱"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tetramerize.01",
-        "roleset_name": "form a four-unit oligomer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of tetramerization"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing tetramerization"
-            },
-            {
-                "n": "2",
-                "descr": "start state (if arg1 is inappropriate)"
-            },
-            {
-                "n": "3",
-                "descr": "result, tetramer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tetramerize.01",
+    "roleset_name": "form a four-unit oligomer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of tetramerization",
+        "descr_trans": "四聚剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing tetramerization",
+        "descr_trans": "正在进行四聚化的实体"
+      },
+      {
+        "n": "2",
+        "descr": "start state (if arg1 is inappropriate)",
+        "descr_trans": "启动状态（如果 arg1 不合适）"
+      },
+      {
+        "n": "3",
+        "descr": "result, tetramer",
+        "descr_trans": "结果，四聚体"
+      }
+    ],
+    "roleset_name_trans": "形成四单元低聚物"
+  }
 ]

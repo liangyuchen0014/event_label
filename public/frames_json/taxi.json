@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "taxi.01",
-        "roleset_name": "airplane moving on the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "locations, or start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "taxi.01",
+    "roleset_name": "airplane moving on the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver",
+        "descr_trans": "代理人、司机"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "locations, or start point",
+        "descr_trans": "地点或起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "飞机在地面上移动"
+  }
 ]

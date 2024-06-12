@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drill.01",
-        "roleset_name": "put holes into",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "driller, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing drilled, gaining holes"
-            },
-            {
-                "n": "2",
-                "descr": "drill"
-            },
-            {
-                "n": "3",
-                "descr": "seeking (oil)"
-            },
-            {
-                "n": "4",
-                "descr": "holes"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "drill.02",
-        "roleset_name": "train, make practice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drill sargeant"
-            },
-            {
-                "n": "1",
-                "descr": "recruits"
-            },
-            {
-                "n": "2",
-                "descr": "action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drill.01",
+    "roleset_name": "put holes into",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "driller, agent",
+        "descr_trans": "司钻、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "thing drilled, gaining holes",
+        "descr_trans": "钻出的东西，获得孔洞"
+      },
+      {
+        "n": "2",
+        "descr": "drill",
+        "descr_trans": "钻头"
+      },
+      {
+        "n": "3",
+        "descr": "seeking (oil)",
+        "descr_trans": "寻求（石油）"
+      },
+      {
+        "n": "4",
+        "descr": "holes",
+        "descr_trans": "洞"
+      }
+    ],
+    "roleset_name_trans": "打洞"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "drill.02",
+    "roleset_name": "train, make practice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drill sargeant",
+        "descr_trans": "教官"
+      },
+      {
+        "n": "1",
+        "descr": "recruits",
+        "descr_trans": "新兵"
+      },
+      {
+        "n": "2",
+        "descr": "action",
+        "descr_trans": "行动"
+      }
+    ],
+    "roleset_name_trans": "训练，练习"
+  }
 ]

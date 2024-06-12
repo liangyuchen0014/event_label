@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "paraphrase.01",
-        "roleset_name": "summarize, rephrase someone else's words",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, writer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "old statment, thing paraphrased"
-            },
-            {
-                "n": "2",
-                "descr": "new statement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "paraphrase.01",
+    "roleset_name": "summarize, rephrase someone else's words",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, writer, agent",
+        "descr_trans": "演说家、作家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "old statment, thing paraphrased",
+        "descr_trans": "旧的陈述，释义的事情"
+      },
+      {
+        "n": "2",
+        "descr": "new statement",
+        "descr_trans": "新声明"
+      }
+    ],
+    "roleset_name_trans": "总结，改写别人的话"
+  }
 ]

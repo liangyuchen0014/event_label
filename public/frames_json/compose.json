@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compose.01",
-        "roleset_name": "to form,  constitute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of group, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity composed"
-            },
-            {
-                "n": "2",
-                "descr": "composed of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "compose.02",
-        "roleset_name": "to create, produce art",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity composed"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compose.01",
+    "roleset_name": "to form,  constitute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of group, agent",
+        "descr_trans": "团体的起因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity composed",
+        "descr_trans": "实体组成"
+      },
+      {
+        "n": "2",
+        "descr": "composed of",
+        "descr_trans": "由...组成的"
+      }
+    ],
+    "roleset_name_trans": "形成，构成"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "compose.02",
+    "roleset_name": "to create, produce art",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist, agent",
+        "descr_trans": "艺术家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity composed",
+        "descr_trans": "实体组成"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "创造、生产艺术"
+  }
 ]

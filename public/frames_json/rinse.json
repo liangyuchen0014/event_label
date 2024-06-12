@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rinse.01",
-        "roleset_name": "clean, remove dirt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity rinsing"
-            },
-            {
-                "n": "1",
-                "descr": "dirt; thing being removed to make clean"
-            },
-            {
-                "n": "2",
-                "descr": "thing being rinsed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rinse.01",
+    "roleset_name": "clean, remove dirt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity rinsing",
+        "descr_trans": "实体冲洗"
+      },
+      {
+        "n": "1",
+        "descr": "dirt; thing being removed to make clean",
+        "descr_trans": "污垢;被移除以保持清洁的东西"
+      },
+      {
+        "n": "2",
+        "descr": "thing being rinsed",
+        "descr_trans": "正在冲洗的东西"
+      }
+    ],
+    "roleset_name_trans": "清洁，去除污垢"
+  }
 ]

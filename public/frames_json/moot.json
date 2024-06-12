@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "moot.01",
-        "roleset_name": "consider, think carefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "object, thing under consideration"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "moot.02",
-        "roleset_name": "irrelevant",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "irrelevant thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "moot.01",
+    "roleset_name": "consider, think carefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "object, thing under consideration",
+        "descr_trans": "对象，正在考虑的事情"
+      }
+    ],
+    "roleset_name_trans": "考虑，仔细考虑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "moot.02",
+    "roleset_name": "irrelevant",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "irrelevant thing",
+        "descr_trans": "无关紧要的事"
+      }
+    ],
+    "roleset_name_trans": "不相关的"
+  }
 ]

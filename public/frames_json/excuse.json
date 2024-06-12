@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "excuse.01",
-        "roleset_name": "relieve of guilt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "excuser"
-            },
-            {
-                "n": "1",
-                "descr": "excused"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "excuse.02",
-        "roleset_name": "explanation offered to obtain foregiveness, justify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person offering excuse"
-            },
-            {
-                "n": "1",
-                "descr": "excuse for what? wrongdoing"
-            },
-            {
-                "n": "2",
-                "descr": "mention of excuse itself"
-            },
-            {
-                "n": "3",
-                "descr": "listener, excuse made to whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "excuse.01",
+    "roleset_name": "relieve of guilt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "excuser",
+        "descr_trans": "借口"
+      },
+      {
+        "n": "1",
+        "descr": "excused",
+        "descr_trans": "原谅"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "减轻负罪感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "excuse.02",
+    "roleset_name": "explanation offered to obtain foregiveness, justify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person offering excuse",
+        "descr_trans": "提供借口的人"
+      },
+      {
+        "n": "1",
+        "descr": "excuse for what? wrongdoing",
+        "descr_trans": "借口什么？不当行为"
+      },
+      {
+        "n": "2",
+        "descr": "mention of excuse itself",
+        "descr_trans": "提及借口本身"
+      },
+      {
+        "n": "3",
+        "descr": "listener, excuse made to whom?",
+        "descr_trans": "听者，向谁辩解？"
+      }
+    ],
+    "roleset_name_trans": "为获得宽恕、证明理由而提供的解释"
+  }
 ]

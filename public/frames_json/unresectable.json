@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unresectable.01",
-        "roleset_name": "unable to be surgically removed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "entity removed"
-            },
-            {
-                "n": "2",
-                "descr": "from where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unresectable.01",
+    "roleset_name": "unable to be surgically removed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "entity removed",
+        "descr_trans": "实体已删除"
+      },
+      {
+        "n": "2",
+        "descr": "from where",
+        "descr_trans": "从哪里"
+      }
+    ],
+    "roleset_name_trans": "无法通过手术切除"
+  }
 ]

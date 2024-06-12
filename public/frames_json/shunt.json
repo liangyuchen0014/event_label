@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shunt.01",
-        "roleset_name": "move something or someone to, moving or diverting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "moved to or around amongst"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shunt.01",
+    "roleset_name": "move something or someone to, moving or diverting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "moved to or around amongst",
+        "descr_trans": "移动到或周围"
+      }
+    ],
+    "roleset_name_trans": "将某物或某人移至、移动或转移"
+  }
 ]

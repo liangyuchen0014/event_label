@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "industrialize.01",
-        "roleset_name": "acquire industrial capacity, progress in favor of industry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of industrialization"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming industrialized"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1 actually becoming industrialized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "industrialize.01",
+    "roleset_name": "acquire industrial capacity, progress in favor of industry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of industrialization",
+        "descr_trans": "工业化的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming industrialized",
+        "descr_trans": "事物工业化"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1 actually becoming industrialized",
+        "descr_trans": "arg1 的属性实际上已工业化"
+      }
+    ],
+    "roleset_name_trans": "获得工业能力，有利于工业的进步"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sexist.01",
-        "roleset_name": "biases against a certain gender",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sexist entity/action (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "against which gender"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sexist.01",
+    "roleset_name": "biases against a certain gender",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sexist entity/action (may require concatenation)",
+        "descr_trans": "性别歧视实体/动作（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "against which gender",
+        "descr_trans": "针对哪种性别"
+      }
+    ],
+    "roleset_name_trans": "对特定性别的偏见"
+  }
 ]

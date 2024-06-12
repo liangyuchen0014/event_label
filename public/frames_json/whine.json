@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whine.01",
-        "roleset_name": "emit high-pitched continuous sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "whiner"
-            },
-            {
-                "n": "1",
-                "descr": "the whine itself"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of the whining (about _)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whine.01",
+    "roleset_name": "emit high-pitched continuous sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "whiner",
+        "descr_trans": "发牢骚"
+      },
+      {
+        "n": "1",
+        "descr": "the whine itself",
+        "descr_trans": "呜呜声本身"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of the whining (about _)",
+        "descr_trans": "抱怨的主题（关于_）"
+      }
+    ],
+    "roleset_name_trans": "发出连续的高音"
+  }
 ]

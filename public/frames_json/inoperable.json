@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inoperable.01",
-        "roleset_name": "able to be operated on, surgery-wise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "inoperable thing//entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inoperable.01",
+    "roleset_name": "able to be operated on, surgery-wise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "inoperable thing//entity",
+        "descr_trans": "无法操作的事物//实体"
+      }
+    ],
+    "roleset_name_trans": "能够进行手术，手术方面"
+  }
 ]

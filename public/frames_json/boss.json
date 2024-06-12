@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "boss.01",
-        "roleset_name": "to act as the boss of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Boss"
-            },
-            {
-                "n": "1",
-                "descr": "Plebe, person bossed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "boss_around.02",
-        "roleset_name": "push around, order",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boss"
-            },
-            {
-                "n": "1",
-                "descr": "plebe, person bossed around"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "boss.01",
+    "roleset_name": "to act as the boss of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Boss",
+        "descr_trans": "老板"
+      },
+      {
+        "n": "1",
+        "descr": "Plebe, person bossed",
+        "descr_trans": "平民，受领导的人"
+      }
+    ],
+    "roleset_name_trans": "充当老板"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "boss_around.02",
+    "roleset_name": "push around, order",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boss",
+        "descr_trans": "老板"
+      },
+      {
+        "n": "1",
+        "descr": "plebe, person bossed around",
+        "descr_trans": "平民，受人支配的人"
+      }
+    ],
+    "roleset_name_trans": "推动、命令"
+  }
 ]

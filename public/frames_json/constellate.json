@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "constellate.01",
-        "roleset_name": "scatter like dots",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "destination, place speckled with stars"
-            },
-            {
-                "n": "2",
-                "descr": "stars"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "constellate.02",
-        "roleset_name": "group into a constellation or cluster",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "things grouped together"
-            },
-            {
-                "n": "2",
-                "descr": "the group"
-            },
-            {
-                "n": "3",
-                "descr": "constellated as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "constellate.01",
+    "roleset_name": "scatter like dots",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "destination, place speckled with stars",
+        "descr_trans": "目的地，星星点点的地方"
+      },
+      {
+        "n": "2",
+        "descr": "stars",
+        "descr_trans": "星星"
+      }
+    ],
+    "roleset_name_trans": "像点一样分散"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "constellate.02",
+    "roleset_name": "group into a constellation or cluster",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "things grouped together",
+        "descr_trans": "事物组合在一起"
+      },
+      {
+        "n": "2",
+        "descr": "the group",
+        "descr_trans": "群组"
+      },
+      {
+        "n": "3",
+        "descr": "constellated as what",
+        "descr_trans": "星座是什么"
+      }
+    ],
+    "roleset_name_trans": "组成一个星座或星团"
+  }
 ]

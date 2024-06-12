@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "precede.01",
-        "roleset_name": "go before",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing preceding (thing that comes first)"
-            },
-            {
-                "n": "2",
-                "descr": "thing preceded (thing that comes second)"
-            },
-            {
-                "n": "3",
-                "descr": "domain in which priority occurs"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "precede.01",
+    "roleset_name": "go before",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing preceding (thing that comes first)",
+        "descr_trans": "先行的事（先发生的事）"
+      },
+      {
+        "n": "2",
+        "descr": "thing preceded (thing that comes second)",
+        "descr_trans": "前面的事情（第二件事）"
+      },
+      {
+        "n": "3",
+        "descr": "domain in which priority occurs",
+        "descr_trans": "优先级发生的域"
+      }
+    ],
+    "roleset_name_trans": "走在前面"
+  }
 ]

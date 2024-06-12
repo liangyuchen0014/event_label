@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prune.01",
-        "roleset_name": "remove branches",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "branches"
-            },
-            {
-                "n": "2",
-                "descr": "whole plant"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, pruning shears"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prune.01",
+    "roleset_name": "remove branches",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "branches",
+        "descr_trans": "分支机构"
+      },
+      {
+        "n": "2",
+        "descr": "whole plant",
+        "descr_trans": "全株"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, pruning shears",
+        "descr_trans": "工具、修枝剪"
+      }
+    ],
+    "roleset_name_trans": "删除分支"
+  }
 ]

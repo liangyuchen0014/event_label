@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "constrain.01",
-        "roleset_name": "prevent, hinder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preventer, hinderer, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being prevented)"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication or action"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "constrain.01",
+    "roleset_name": "prevent, hinder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preventer, hinderer, Agent",
+        "descr_trans": "预防者, 阻碍者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being prevented)",
+        "descr_trans": "主题（被阻止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication or action",
+        "descr_trans": "次要预测或动作"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "阻止，阻止"
+  }
 ]

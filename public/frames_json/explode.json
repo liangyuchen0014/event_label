@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "explode.01",
-        "roleset_name": "go boom",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bomber, agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "bomb, thing exploding"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "explode.02",
-        "roleset_name": "get bigger very quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of rapid growth, agent (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting bigger"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "explode.03",
-        "roleset_name": "overflow, overflow/ erupt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "the container"
-            },
-            {
-                "n": "2",
-                "descr": "the substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "explode.01",
+    "roleset_name": "go boom",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bomber, agent/cause",
+        "descr_trans": "轰炸机、特工/原因"
+      },
+      {
+        "n": "1",
+        "descr": "bomb, thing exploding",
+        "descr_trans": "炸弹，爆炸的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, end state",
+        "descr_trans": "属性、最终状态"
+      }
+    ],
+    "roleset_name_trans": "去繁荣"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "explode.02",
+    "roleset_name": "get bigger very quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of rapid growth, agent (rare)",
+        "descr_trans": "快速生长的原因、媒介（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting bigger",
+        "descr_trans": "事情变得更大"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "很快就会变大"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "explode.03",
+    "roleset_name": "overflow, overflow/ erupt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "the container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "the substance",
+        "descr_trans": "该物质"
+      }
+    ],
+    "roleset_name_trans": "溢出，溢出/爆发"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flock.01",
-        "roleset_name": "to congregate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity coming together"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flock.02",
-        "roleset_name": "to travel in a crowd",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "birds of a feather, entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flock.01",
+    "roleset_name": "to congregate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity coming together",
+        "descr_trans": "实体聚集在一起"
+      }
+    ],
+    "roleset_name_trans": "聚集"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flock.02",
+    "roleset_name": "to travel in a crowd",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "birds of a feather, entity in motion",
+        "descr_trans": "物以类聚，运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "在人群中旅行"
+  }
 ]

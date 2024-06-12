@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "post.01",
-        "roleset_name": "cf report, put up for public view",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "poster"
-            },
-            {
-                "n": "1",
-                "descr": "posted"
-            },
-            {
-                "n": "2",
-                "descr": "posted-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "post.02",
-        "roleset_name": "tell someone news as it comes in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "teller"
-            },
-            {
-                "n": "1",
-                "descr": "hearer"
-            },
-            {
-                "n": "2",
-                "descr": "news"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "post.03",
-        "roleset_name": "assign to a post, station somewhere",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigning entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity given a station"
-            },
-            {
-                "n": "2",
-                "descr": "the station, post"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "post.04",
-        "roleset_name": "send via the postal service",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent (mail, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "mail service used"
-            },
-            {
-                "n": "3",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "post.01",
+    "roleset_name": "cf report, put up for public view",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "poster",
+        "descr_trans": "海报"
+      },
+      {
+        "n": "1",
+        "descr": "posted",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "2",
+        "descr": "posted-to",
+        "descr_trans": "发布到"
+      }
+    ],
+    "roleset_name_trans": "参见报告，供公众查看"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "post.02",
+    "roleset_name": "tell someone news as it comes in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "teller",
+        "descr_trans": "出纳员"
+      },
+      {
+        "n": "1",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "2",
+        "descr": "news",
+        "descr_trans": "消息"
+      }
+    ],
+    "roleset_name_trans": "告诉某人有消息"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "post.03",
+    "roleset_name": "assign to a post, station somewhere",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigning entity",
+        "descr_trans": "分配实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity given a station",
+        "descr_trans": "给定一个站的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the station, post",
+        "descr_trans": "车站、邮局"
+      }
+    ],
+    "roleset_name_trans": "分配到某处的岗位、驻地"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "post.04",
+    "roleset_name": "send via the postal service",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent (mail, etc)",
+        "descr_trans": "已发送（邮件等）"
+      },
+      {
+        "n": "2",
+        "descr": "mail service used",
+        "descr_trans": "使用邮件服务"
+      },
+      {
+        "n": "3",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "通过邮政服务发送"
+  }
 ]

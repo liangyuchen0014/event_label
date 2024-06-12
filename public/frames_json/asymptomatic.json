@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "asymptomatic.01",
-        "roleset_name": "show no signs of, asymptomatic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity without symptoms"
-            },
-            {
-                "n": "1",
-                "descr": "lacking signs of what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "asymptomatic.01",
+    "roleset_name": "show no signs of, asymptomatic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity without symptoms",
+        "descr_trans": "无症状实体"
+      },
+      {
+        "n": "1",
+        "descr": "lacking signs of what",
+        "descr_trans": "缺乏什么迹象"
+      }
+    ],
+    "roleset_name_trans": "没有任何迹象，无症状"
+  }
 ]

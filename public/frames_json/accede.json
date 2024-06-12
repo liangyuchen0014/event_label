@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "accede.01",
-        "roleset_name": "agree, adhere",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "acceder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity acceded to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "accede.01",
+    "roleset_name": "agree, adhere",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "acceder, agent",
+        "descr_trans": "访问代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity acceded to",
+        "descr_trans": "实体加入"
+      }
+    ],
+    "roleset_name_trans": "同意，坚持"
+  }
 ]

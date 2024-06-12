@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extinguish.01",
-        "roleset_name": "put out, like a fire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "extinguisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "fire"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            },
-            {
-                "n": "3",
-                "descr": "location of the former flame"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extinguish.01",
+    "roleset_name": "put out, like a fire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "extinguisher, agent",
+        "descr_trans": "灭火器、灭火剂"
+      },
+      {
+        "n": "1",
+        "descr": "fire",
+        "descr_trans": "火"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      },
+      {
+        "n": "3",
+        "descr": "location of the former flame",
+        "descr_trans": "前火焰的位置"
+      }
+    ],
+    "roleset_name_trans": "像火一样扑灭"
+  }
 ]

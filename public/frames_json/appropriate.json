@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "appropriate.01",
-        "roleset_name": "to take possession of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker of possession, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity appropriated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "appropriate.02",
-        "roleset_name": "suitable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "suitable thing"
-            },
-            {
-                "n": "2",
-                "descr": "suited to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "appropriate.01",
+    "roleset_name": "to take possession of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker of possession, agent",
+        "descr_trans": "占有者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity appropriated",
+        "descr_trans": "实体挪用"
+      }
+    ],
+    "roleset_name_trans": "占有"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "appropriate.02",
+    "roleset_name": "suitable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "suitable thing",
+        "descr_trans": "合适的东西"
+      },
+      {
+        "n": "2",
+        "descr": "suited to",
+        "descr_trans": "适合"
+      }
+    ],
+    "roleset_name_trans": "合适的"
+  }
 ]

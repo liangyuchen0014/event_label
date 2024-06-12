@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pilot.01",
-        "roleset_name": "fly a plane; test run a program",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pilot; tester"
-            },
-            {
-                "n": "1",
-                "descr": "plane; program"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pilot.01",
+    "roleset_name": "fly a plane; test run a program",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pilot; tester",
+        "descr_trans": "飞行员;测试员"
+      },
+      {
+        "n": "1",
+        "descr": "plane; program",
+        "descr_trans": "飞机;程序"
+      }
+    ],
+    "roleset_name_trans": "开飞机;测试运行程序"
+  }
 ]

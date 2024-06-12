@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strand.01",
-        "roleset_name": "to leave stranded, left high and dry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "leaver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity stranded"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stranding.02",
-        "roleset_name": "having an abnormally light, strand-like appearance on imaging",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "tissue that appears abnormal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strand.01",
+    "roleset_name": "to leave stranded, left high and dry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "leaver, agent",
+        "descr_trans": "离职者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity stranded",
+        "descr_trans": "实体搁浅"
+      }
+    ],
+    "roleset_name_trans": "搁浅、高处、干燥"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stranding.02",
+    "roleset_name": "having an abnormally light, strand-like appearance on imaging",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "tissue that appears abnormal",
+        "descr_trans": "出现异常的组织"
+      }
+    ],
+    "roleset_name_trans": "成像上有异常轻的线状外观"
+  }
 ]

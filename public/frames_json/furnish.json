@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "furnish.01",
-        "roleset_name": "to equip with what is needed, supply, or give",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supplier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity furnished"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "furnish.01",
+    "roleset_name": "to equip with what is needed, supply, or give",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supplier, agent",
+        "descr_trans": "供应商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "entity furnished",
+        "descr_trans": "实体提供"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "配备所需的东西、供应或给予"
+  }
 ]

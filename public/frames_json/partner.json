@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "partner.01",
-        "roleset_name": "partner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first partnerer"
-            },
-            {
-                "n": "1",
-                "descr": "second partnerer, if separate from Arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "partner.01",
+    "roleset_name": "partner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first partnerer",
+        "descr_trans": "第一个合伙人"
+      },
+      {
+        "n": "1",
+        "descr": "second partnerer, if separate from Arg0",
+        "descr_trans": "第二个伙伴，如果与 Arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "伙伴"
+  }
 ]

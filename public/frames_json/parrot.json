@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parrot.01",
-        "roleset_name": "repeat back what someone has said, like a parrot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parrot"
-            },
-            {
-                "n": "1",
-                "descr": "repeated entity/utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parrot.01",
+    "roleset_name": "repeat back what someone has said, like a parrot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parrot",
+        "descr_trans": "鹦鹉"
+      },
+      {
+        "n": "1",
+        "descr": "repeated entity/utterance",
+        "descr_trans": "重复的实体/话语"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "像鹦鹉一样重复别人说过的话"
+  }
 ]

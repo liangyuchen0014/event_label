@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pink.01",
-        "roleset_name": "make a light tapping noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making the pinking noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pink.02",
-        "roleset_name": "cut in a zigzag pattern using pinking shears",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person holding the shears"
-            },
-            {
-                "n": "1",
-                "descr": "patient, fabric being cut"
-            },
-            {
-                "n": "2",
-                "descr": "pinking shears"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pink.03",
-        "roleset_name": "puncture with small holes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one making the holes"
-            },
-            {
-                "n": "1",
-                "descr": "entity being punctured"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, sharp object"
-            },
-            {
-                "n": "4",
-                "descr": "holes"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pink.04",
-        "roleset_name": "pink color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of pinkness"
-            },
-            {
-                "n": "1",
-                "descr": "pink thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is pink"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pink.01",
+    "roleset_name": "make a light tapping noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making the pinking noise",
+        "descr_trans": "发出粉红噪音的实体"
+      }
+    ],
+    "roleset_name_trans": "发出轻敲声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pink.02",
+    "roleset_name": "cut in a zigzag pattern using pinking shears",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person holding the shears",
+        "descr_trans": "代理人，拿着剪刀的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, fabric being cut",
+        "descr_trans": "病人，正在切割布料"
+      },
+      {
+        "n": "2",
+        "descr": "pinking shears",
+        "descr_trans": "粉剪"
+      }
+    ],
+    "roleset_name_trans": "使用粉剪剪成之字形图案"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pink.03",
+    "roleset_name": "puncture with small holes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one making the holes",
+        "descr_trans": "代理人，一个制造漏洞的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being punctured",
+        "descr_trans": "实体被刺穿"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, sharp object",
+        "descr_trans": "仪器、尖锐物体"
+      },
+      {
+        "n": "4",
+        "descr": "holes",
+        "descr_trans": "洞"
+      }
+    ],
+    "roleset_name_trans": "有小孔的刺穿"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pink.04",
+    "roleset_name": "pink color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of pinkness",
+        "descr_trans": "粉红色的原因"
+      },
+      {
+        "n": "1",
+        "descr": "pink thing",
+        "descr_trans": "粉红色的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is pink",
+        "descr_trans": "arg1 的特定方面是粉红色的"
+      }
+    ],
+    "roleset_name_trans": "粉色"
+  }
 ]

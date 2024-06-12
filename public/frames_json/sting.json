@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sting.01",
-        "roleset_name": "sting, as a bee, causing sharp pain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stinger"
-            },
-            {
-                "n": "1",
-                "descr": "thing stung"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sting.02",
-        "roleset_name": "covert police operation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "police or other covert entity"
-            },
-            {
-                "n": "1",
-                "descr": "criminal, entity being caught"
-            },
-            {
-                "n": "2",
-                "descr": "crime, operation being stung"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sting.01",
+    "roleset_name": "sting, as a bee, causing sharp pain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stinger",
+        "descr_trans": "刺"
+      },
+      {
+        "n": "1",
+        "descr": "thing stung",
+        "descr_trans": "东西蜇伤"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "像蜜蜂一样蜇人，引起剧烈疼痛"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sting.02",
+    "roleset_name": "covert police operation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "police or other covert entity",
+        "descr_trans": "警察或其他秘密实体"
+      },
+      {
+        "n": "1",
+        "descr": "criminal, entity being caught",
+        "descr_trans": "罪犯、实体被抓获"
+      },
+      {
+        "n": "2",
+        "descr": "crime, operation being stung",
+        "descr_trans": "犯罪，行动被蜇"
+      }
+    ],
+    "roleset_name_trans": "警方秘密行动"
+  }
 ]

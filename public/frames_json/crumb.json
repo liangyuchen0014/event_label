@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crumb.01",
-        "roleset_name": "coat with breadcrumbs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Chef, coater"
-            },
-            {
-                "n": "1",
-                "descr": "Meat, entity coated in bread crumbs"
-            },
-            {
-                "n": "2",
-                "descr": "Bread crumbs themselves, usually specifies type of crumb"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crumb.02",
-        "roleset_name": "break up into crumbs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Volitional agent breaking up arg1"
-            },
-            {
-                "n": "1",
-                "descr": "bread, entity broken up into crumbs"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "crumb.03",
-        "roleset_name": "remove, clean crumbs from a table",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Waiter, busboy cleaning crumbs"
-            },
-            {
-                "n": "1",
-                "descr": "table"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crumb.01",
+    "roleset_name": "coat with breadcrumbs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Chef, coater",
+        "descr_trans": "老板、涂装工"
+      },
+      {
+        "n": "1",
+        "descr": "Meat, entity coated in bread crumbs",
+        "descr_trans": "肉，涂有面包屑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Bread crumbs themselves, usually specifies type of crumb",
+        "descr_trans": "面包屑本身，通常指定面包屑的类型"
+      }
+    ],
+    "roleset_name_trans": "涂上面包屑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crumb.02",
+    "roleset_name": "break up into crumbs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Volitional agent breaking up arg1",
+        "descr_trans": "自愿代理分解 arg1"
+      },
+      {
+        "n": "1",
+        "descr": "bread, entity broken up into crumbs",
+        "descr_trans": "面包，破碎成面包屑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "碎成碎屑"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "crumb.03",
+    "roleset_name": "remove, clean crumbs from a table",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Waiter, busboy cleaning crumbs",
+        "descr_trans": "服务员、服务员清理面包屑"
+      },
+      {
+        "n": "1",
+        "descr": "table",
+        "descr_trans": "桌子"
+      }
+    ],
+    "roleset_name_trans": "清除、清理桌子上的面包屑"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coexpress.01",
-        "roleset_name": "express two or more genes simultaneously",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "gene(s), expressor(s)"
-            },
-            {
-                "n": "2",
-                "descr": "protein(s), expressed material"
-            },
-            {
-                "n": "3",
-                "descr": "cell, organ, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coexpress.01",
+    "roleset_name": "express two or more genes simultaneously",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "gene(s), expressor(s)",
+        "descr_trans": "基因、表达子"
+      },
+      {
+        "n": "2",
+        "descr": "protein(s), expressed material",
+        "descr_trans": "蛋白质、表达物质"
+      },
+      {
+        "n": "3",
+        "descr": "cell, organ, location",
+        "descr_trans": "细胞、器官、位置"
+      }
+    ],
+    "roleset_name_trans": "同时表达两个或多个基因"
+  }
 ]

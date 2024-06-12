@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frequent.01",
-        "roleset_name": "pay frequent visits to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "place visited"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "frequent.02",
-        "roleset_name": "occurring often",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that occurs often"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frequent.01",
+    "roleset_name": "pay frequent visits to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor, agent",
+        "descr_trans": "访客、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "place visited",
+        "descr_trans": "去过的地方"
+      }
+    ],
+    "roleset_name_trans": "经常拜访"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "frequent.02",
+    "roleset_name": "occurring often",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that occurs often",
+        "descr_trans": "经常发生的事情"
+      }
+    ],
+    "roleset_name_trans": "经常发生"
+  }
 ]

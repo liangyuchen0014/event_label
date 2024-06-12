@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pit.01",
-        "roleset_name": "establish a fight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity setting up a fight"
-            },
-            {
-                "n": "1",
-                "descr": "one combatant"
-            },
-            {
-                "n": "2",
-                "descr": "other combatant"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pit.02",
-        "roleset_name": "remove the seeds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing seeds"
-            },
-            {
-                "n": "1",
-                "descr": "seeds"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pit.03",
-        "roleset_name": "texture, making pits in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pitted by"
-            },
-            {
-                "n": "1",
-                "descr": "material pitted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pit.01",
+    "roleset_name": "establish a fight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity setting up a fight",
+        "descr_trans": "实体发起战斗"
+      },
+      {
+        "n": "1",
+        "descr": "one combatant",
+        "descr_trans": "一名战斗员"
+      },
+      {
+        "n": "2",
+        "descr": "other combatant",
+        "descr_trans": "其他战斗人员"
+      }
+    ],
+    "roleset_name_trans": "建立战斗"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pit.02",
+    "roleset_name": "remove the seeds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing seeds",
+        "descr_trans": "实体移除种子"
+      },
+      {
+        "n": "1",
+        "descr": "seeds",
+        "descr_trans": "种子"
+      }
+    ],
+    "roleset_name_trans": "去除种子"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pit.03",
+    "roleset_name": "texture, making pits in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pitted by",
+        "descr_trans": "被坑过"
+      },
+      {
+        "n": "1",
+        "descr": "material pitted",
+        "descr_trans": "材料有坑"
+      }
+    ],
+    "roleset_name_trans": "纹理，形成凹坑"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unbuckle.01",
-        "roleset_name": "unbuckle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unbuckler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unbuckled, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unbuckled from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unbuckle.01",
+    "roleset_name": "unbuckle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unbuckler, agent",
+        "descr_trans": "解扣者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing unbuckled, patient",
+        "descr_trans": "东西解开，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unbuckled from, source",
+        "descr_trans": "从源头解开"
+      }
+    ],
+    "roleset_name_trans": "解开扣子"
+  }
 ]

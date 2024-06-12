@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "betray.01",
-        "roleset_name": "treason",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "betrayer"
-            },
-            {
-                "n": "1",
-                "descr": "betrayed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "betray.01",
+    "roleset_name": "treason",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "betrayer",
+        "descr_trans": "背叛者"
+      },
+      {
+        "n": "1",
+        "descr": "betrayed",
+        "descr_trans": "被背叛"
+      }
+    ],
+    "roleset_name_trans": "叛国罪"
+  }
 ]

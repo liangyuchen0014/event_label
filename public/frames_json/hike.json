@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hike.01",
-        "roleset_name": "walk for pleasure or exercise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "path of motion; location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hike.02",
-        "roleset_name": "cause something to move, probably up (as a skirt)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing being moved"
-            },
-            {
-                "n": "2",
-                "descr": "location/destination of movement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hike.01",
+    "roleset_name": "walk for pleasure or exercise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "path of motion; location",
+        "descr_trans": "运动路径；地点"
+      }
+    ],
+    "roleset_name_trans": "散步是为了娱乐或锻炼"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hike.02",
+    "roleset_name": "cause something to move, probably up (as a skirt)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of motion",
+        "descr_trans": "代理人，动因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being moved",
+        "descr_trans": "被移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location/destination of movement",
+        "descr_trans": "移动地点/目的地"
+      }
+    ],
+    "roleset_name_trans": "导致某物移动，可能向上移动（如裙子）"
+  }
 ]

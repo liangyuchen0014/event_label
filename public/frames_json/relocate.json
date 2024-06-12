@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relocate.01",
-        "roleset_name": "to change residence, move from one place to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity relocated"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relocate.01",
+    "roleset_name": "to change residence, move from one place to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity relocated",
+        "descr_trans": "实体搬迁"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "改变居住地，从一个地方搬到另一个地方"
+  }
 ]

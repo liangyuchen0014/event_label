@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alert.01",
-        "roleset_name": "alert, warn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving warning"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting warning"
-            },
-            {
-                "n": "2",
-                "descr": "warning"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "alert.02",
-        "roleset_name": "be alive; awake and watchful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "watchful entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alert.01",
+    "roleset_name": "alert, warn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving warning",
+        "descr_trans": "发出警告的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting warning",
+        "descr_trans": "实体收到警告"
+      },
+      {
+        "n": "2",
+        "descr": "warning",
+        "descr_trans": "警告"
+      }
+    ],
+    "roleset_name_trans": "警报，警告"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "alert.02",
+    "roleset_name": "be alive; awake and watchful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "watchful entity",
+        "descr_trans": "警惕的实体"
+      }
+    ],
+    "roleset_name_trans": "在世;清醒且警惕"
+  }
 ]

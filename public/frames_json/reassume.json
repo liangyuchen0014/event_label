@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reassume.01",
-        "roleset_name": "acquire again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "acquired-from"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary, acquired-for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reassume.01",
+    "roleset_name": "acquire again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acquiring something",
+        "descr_trans": "实体获得某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "acquired-from",
+        "descr_trans": "获得自"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary, acquired-for",
+        "descr_trans": "受益人，取得目的"
+      }
+    ],
+    "roleset_name_trans": "再次获得"
+  }
 ]

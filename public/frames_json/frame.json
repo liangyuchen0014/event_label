@@ -1,104 +1,125 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frame.01",
-        "roleset_name": "put a frame (on a picture)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator"
-            },
-            {
-                "n": "1",
-                "descr": "thing decorated"
-            },
-            {
-                "n": "2",
-                "descr": "decorations"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "frame.03",
-        "roleset_name": "encircle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing being around"
-            },
-            {
-                "n": "1",
-                "descr": "thing surrounded"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "frame.02",
-        "roleset_name": "falsely accuse of a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accuser"
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "frame.04",
-        "roleset_name": "make frames files",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "framer"
-            },
-            {
-                "n": "1",
-                "descr": "verb"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "frame.06",
-        "roleset_name": "give a particular spin on a topic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "topic or issue"
-            },
-            {
-                "n": "2",
-                "descr": "desired attribute of arg 1"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "frame.05",
-        "roleset_name": "write legislative bills",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legislator"
-            },
-            {
-                "n": "1",
-                "descr": "potential law"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frame.01",
+    "roleset_name": "put a frame (on a picture)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator",
+        "descr_trans": "装饰者"
+      },
+      {
+        "n": "1",
+        "descr": "thing decorated",
+        "descr_trans": "装饰的东西"
+      },
+      {
+        "n": "2",
+        "descr": "decorations",
+        "descr_trans": "装饰"
+      }
+    ],
+    "roleset_name_trans": "放一个框架（在照片上）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "frame.03",
+    "roleset_name": "encircle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing being around",
+        "descr_trans": "周围的事物"
+      },
+      {
+        "n": "1",
+        "descr": "thing surrounded",
+        "descr_trans": "包围的东西"
+      }
+    ],
+    "roleset_name_trans": "包围"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "frame.02",
+    "roleset_name": "falsely accuse of a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accuser",
+        "descr_trans": "原告"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "诬告犯罪"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "frame.04",
+    "roleset_name": "make frames files",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "framer",
+        "descr_trans": "成帧者"
+      },
+      {
+        "n": "1",
+        "descr": "verb",
+        "descr_trans": "动词"
+      }
+    ],
+    "roleset_name_trans": "制作框架文件"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "frame.06",
+    "roleset_name": "give a particular spin on a topic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "topic or issue",
+        "descr_trans": "主题或问题"
+      },
+      {
+        "n": "2",
+        "descr": "desired attribute of arg 1",
+        "descr_trans": "arg 1 所需的属性"
+      }
+    ],
+    "roleset_name_trans": "对某个主题给出特定的解释"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "frame.05",
+    "roleset_name": "write legislative bills",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legislator",
+        "descr_trans": "立法者"
+      },
+      {
+        "n": "1",
+        "descr": "potential law",
+        "descr_trans": "潜在法则"
+      }
+    ],
+    "roleset_name_trans": "撰写立法法案"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arthroplasty.01",
-        "roleset_name": "surgical repair or replacement of a joint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "joint"
-            },
-            {
-                "n": "2",
-                "descr": "undergoer of procedure (person with joint)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arthroplasty.01",
+    "roleset_name": "surgical repair or replacement of a joint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "joint",
+        "descr_trans": "联合的"
+      },
+      {
+        "n": "2",
+        "descr": "undergoer of procedure (person with joint)",
+        "descr_trans": "手术接受者（有关节的人）"
+      }
+    ],
+    "roleset_name_trans": "手术修复或置换关节"
+  }
 ]

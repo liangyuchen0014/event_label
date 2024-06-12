@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fish.01",
-        "roleset_name": "to catch or try to catch fish, catching fish on a line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fisherman, agent"
-            },
-            {
-                "n": "1",
-                "descr": "fish"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fishy.02",
-        "roleset_name": "suspicious",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "suspicious thing"
-            },
-            {
-                "n": "2",
-                "descr": "entity who suspects"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fish.01",
+    "roleset_name": "to catch or try to catch fish, catching fish on a line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fisherman, agent",
+        "descr_trans": "渔民、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "fish",
+        "descr_trans": "鱼"
+      }
+    ],
+    "roleset_name_trans": "抓鱼或试图抓鱼，用绳子抓鱼"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fishy.02",
+    "roleset_name": "suspicious",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "suspicious thing",
+        "descr_trans": "可疑的事情"
+      },
+      {
+        "n": "2",
+        "descr": "entity who suspects",
+        "descr_trans": "怀疑的实体"
+      }
+    ],
+    "roleset_name_trans": "可疑的"
+  }
 ]

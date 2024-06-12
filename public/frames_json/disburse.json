@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disburse.01",
-        "roleset_name": "distribute money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bursar"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            },
-            {
-                "n": "3",
-                "descr": "source of money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disburse.01",
+    "roleset_name": "distribute money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bursar",
+        "descr_trans": "总务长"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "3",
+        "descr": "source of money",
+        "descr_trans": "资金来源"
+      }
+    ],
+    "roleset_name_trans": "分配钱"
+  }
 ]

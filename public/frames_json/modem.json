@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "modem.01",
-        "roleset_name": "fax",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity sent, faxed"
-            },
-            {
-                "n": "2",
-                "descr": "sent to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "modem.01",
+    "roleset_name": "fax",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity sent, faxed",
+        "descr_trans": "实体发送、传真"
+      },
+      {
+        "n": "2",
+        "descr": "sent to, recipient",
+        "descr_trans": "发送至、收件人"
+      }
+    ],
+    "roleset_name_trans": "传真"
+  }
 ]

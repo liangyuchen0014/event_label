@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resuscitate.01",
-        "roleset_name": "bring back to life",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resuscitator"
-            },
-            {
-                "n": "1",
-                "descr": "dead thing, now alive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mouth_to_mouth_resuscitate.02",
-        "roleset_name": "emergency technique that involves breathing air into another person's lungs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "CPR performer"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving CPR"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cardiopulmonary_resuscitation.03",
-        "roleset_name": "emergency procedure that involves breathing into another person's lungs, while performing chest compressions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "CPR performer"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving CPR"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resuscitate.01",
+    "roleset_name": "bring back to life",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resuscitator",
+        "descr_trans": "复苏器"
+      },
+      {
+        "n": "1",
+        "descr": "dead thing, now alive",
+        "descr_trans": "死了的东西，现在又活了"
+      }
+    ],
+    "roleset_name_trans": "起死回生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mouth_to_mouth_resuscitate.02",
+    "roleset_name": "emergency technique that involves breathing air into another person's lungs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "CPR performer",
+        "descr_trans": "心肺复苏术执行者"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving CPR",
+        "descr_trans": "接受心肺复苏的实体"
+      }
+    ],
+    "roleset_name_trans": "涉及将空气呼吸到另一个人的肺部的紧急技术"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cardiopulmonary_resuscitation.03",
+    "roleset_name": "emergency procedure that involves breathing into another person's lungs, while performing chest compressions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "CPR performer",
+        "descr_trans": "心肺复苏术执行者"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving CPR",
+        "descr_trans": "接受心肺复苏的实体"
+      }
+    ],
+    "roleset_name_trans": "紧急程序，涉及在进行胸部按压时向另一个人的肺部呼吸"
+  }
 ]

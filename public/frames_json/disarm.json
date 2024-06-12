@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disarm.01",
-        "roleset_name": "to divest of a weapon or weapons, render harmless, taking away weapons, disarm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing weapons, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity disarmed of weapons"
-            },
-            {
-                "n": "2",
-                "descr": "weapons removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disarm.01",
+    "roleset_name": "to divest of a weapon or weapons, render harmless, taking away weapons, disarm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing weapons, agent",
+        "descr_trans": "实体移除武器、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity disarmed of weapons",
+        "descr_trans": "实体解除武器武装"
+      },
+      {
+        "n": "2",
+        "descr": "weapons removed",
+        "descr_trans": "武器被移除"
+      }
+    ],
+    "roleset_name_trans": "剥离武器、使之无害、拿走武器、解除武装"
+  }
 ]

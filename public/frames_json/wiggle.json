@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wiggle.01",
-        "roleset_name": "mode of motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wiggle.02",
-        "roleset_name": "cause to wiggle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing wiggling"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wiggle.01",
+    "roleset_name": "mode of motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "运动方式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wiggle.02",
+    "roleset_name": "cause to wiggle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing wiggling",
+        "descr_trans": "东西摆动"
+      }
+    ],
+    "roleset_name_trans": "导致摆动"
+  }
 ]

@@ -1,73 +1,87 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bow.01",
-        "roleset_name": "bend at waist (or neck), possibly in deference",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bower"
-            },
-            {
-                "n": "1",
-                "descr": "bowed to"
-            },
-            {
-                "n": "2",
-                "descr": "body part bowed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bow.02",
-        "roleset_name": "bend, bending as a spatial configuration",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing bending"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bow.03",
-        "roleset_name": "fail",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing failing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bow_down.04",
-        "roleset_name": "bend at waist, more emphatically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bower"
-            },
-            {
-                "n": "1",
-                "descr": "bowed to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bow_out.06",
-        "roleset_name": "exit, leave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "place left"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bow.01",
+    "roleset_name": "bend at waist (or neck), possibly in deference",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bower",
+        "descr_trans": "凉亭"
+      },
+      {
+        "n": "1",
+        "descr": "bowed to",
+        "descr_trans": "鞠躬"
+      },
+      {
+        "n": "2",
+        "descr": "body part bowed",
+        "descr_trans": "身体部分弯曲"
+      }
+    ],
+    "roleset_name_trans": "弯曲腰部（或颈部），可能是出于尊重"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bow.02",
+    "roleset_name": "bend, bending as a spatial configuration",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing bending",
+        "descr_trans": "东西弯曲"
+      }
+    ],
+    "roleset_name_trans": "弯曲，弯曲作为空间配置"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bow.03",
+    "roleset_name": "fail",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing failing",
+        "descr_trans": "事情失败"
+      }
+    ],
+    "roleset_name_trans": "失败"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bow_down.04",
+    "roleset_name": "bend at waist, more emphatically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bower",
+        "descr_trans": "凉亭"
+      },
+      {
+        "n": "1",
+        "descr": "bowed to",
+        "descr_trans": "鞠躬"
+      }
+    ],
+    "roleset_name_trans": "腰部弯曲，更加明显"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bow_out.06",
+    "roleset_name": "exit, leave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "place left",
+        "descr_trans": "左边的地方"
+      }
+    ],
+    "roleset_name_trans": "退出，离开"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hear.01",
-        "roleset_name": "hear, physically hear (not sense of hearing itself)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hearer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, sound"
-            },
-            {
-                "n": "2",
-                "descr": "speaker, source of sound"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hearing.02",
-        "roleset_name": "a session of a committe or jury",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Judge"
-            },
-            {
-                "n": "1",
-                "descr": "Person on trial"
-            },
-            {
-                "n": "2",
-                "descr": "Type or point of meeting/trail"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hear.01",
+    "roleset_name": "hear, physically hear (not sense of hearing itself)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, sound",
+        "descr_trans": "话语、声音"
+      },
+      {
+        "n": "2",
+        "descr": "speaker, source of sound",
+        "descr_trans": "扬声器、声源"
+      }
+    ],
+    "roleset_name_trans": "听到，身体听到（不是听觉本身）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hearing.02",
+    "roleset_name": "a session of a committe or jury",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Judge",
+        "descr_trans": "法官"
+      },
+      {
+        "n": "1",
+        "descr": "Person on trial",
+        "descr_trans": "受审人"
+      },
+      {
+        "n": "2",
+        "descr": "Type or point of meeting/trail",
+        "descr_trans": "集合/路线的类型或地点"
+      }
+    ],
+    "roleset_name_trans": "委员会或陪审团会议"
+  }
 ]

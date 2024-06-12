@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "schedule.01",
-        "roleset_name": "plan a time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "planner"
-            },
-            {
-                "n": "1",
-                "descr": "thing scheduled"
-            },
-            {
-                "n": "2",
-                "descr": "scheduled to, for or because of; 2nd part of event"
-            },
-            {
-                "n": "3",
-                "descr": "time of event"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "schedule.01",
+    "roleset_name": "plan a time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "planner",
+        "descr_trans": "规划师"
+      },
+      {
+        "n": "1",
+        "descr": "thing scheduled",
+        "descr_trans": "预定的事情"
+      },
+      {
+        "n": "2",
+        "descr": "scheduled to, for or because of; 2nd part of event",
+        "descr_trans": "预定、为了或因为；活动第二部分"
+      },
+      {
+        "n": "3",
+        "descr": "time of event",
+        "descr_trans": "事件发生时间"
+      }
+    ],
+    "roleset_name_trans": "计划一个时间"
+  }
 ]

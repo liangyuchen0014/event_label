@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retransfer.01",
-        "roleset_name": "resend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            },
-            {
-                "n": "3",
-                "descr": "sent-from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retransfer.01",
+    "roleset_name": "resend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      },
+      {
+        "n": "3",
+        "descr": "sent-from",
+        "descr_trans": "来自"
+      }
+    ],
+    "roleset_name_trans": "重发"
+  }
 ]

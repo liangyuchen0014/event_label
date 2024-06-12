@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "testify.01",
-        "roleset_name": "give testimony, provide evidence, provide evidence in form of testifying",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "witness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "testimony, evidence for"
-            },
-            {
-                "n": "2",
-                "descr": "person testified for/against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "testify.01",
+    "roleset_name": "give testimony, provide evidence, provide evidence in form of testifying",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "witness, agent",
+        "descr_trans": "证人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "testimony, evidence for",
+        "descr_trans": "证言，证据"
+      },
+      {
+        "n": "2",
+        "descr": "person testified for/against",
+        "descr_trans": "支持/反对的人作证"
+      }
+    ],
+    "roleset_name_trans": "提供证词，提供证据，以作证的形式提供证据"
+  }
 ]

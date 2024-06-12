@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overstimulate.01",
-        "roleset_name": "cause too much of an increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of stimulation"
-            },
-            {
-                "n": "1",
-                "descr": "thing being stimulated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent also present"
-            },
-            {
-                "n": "3",
-                "descr": "end state of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overstimulate.01",
+    "roleset_name": "cause too much of an increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of stimulation",
+        "descr_trans": "刺激原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being stimulated",
+        "descr_trans": "受到刺激的事物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent also present",
+        "descr_trans": "仪器，如果代理人也在场"
+      },
+      {
+        "n": "3",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "导致过多的增加"
+  }
 ]

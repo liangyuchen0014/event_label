@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "twist.01",
-        "roleset_name": "to change form,  shape, etc, compression with a spiral motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity twisted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "twisted.02",
-        "roleset_name": "mentally disturbed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus, twisted about what"
-            },
-            {
-                "n": "1",
-                "descr": "twisted sister"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "twist.01",
+    "roleset_name": "to change form,  shape, etc, compression with a spiral motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of change, agent",
+        "descr_trans": "变更原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity twisted",
+        "descr_trans": "实体扭曲"
+      }
+    ],
+    "roleset_name_trans": "改变形式、形状等，用螺旋运动压缩"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "twisted.02",
+    "roleset_name": "mentally disturbed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus, twisted about what",
+        "descr_trans": "刺激，扭曲什么"
+      },
+      {
+        "n": "1",
+        "descr": "twisted sister",
+        "descr_trans": "扭曲的妹妹"
+      }
+    ],
+    "roleset_name_trans": "精神失常"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unclasp.01",
-        "roleset_name": "unclasp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unclasper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unclasped, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unclasped from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unclasp.01",
+    "roleset_name": "unclasp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unclasper, agent",
+        "descr_trans": "解扣器, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unclasped, patient",
+        "descr_trans": "东西松开，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unclasped from, source",
+        "descr_trans": "从源头解开"
+      }
+    ],
+    "roleset_name_trans": "松"
+  }
 ]

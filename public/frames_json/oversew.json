@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oversew.01",
-        "roleset_name": "sew with close stiches that pass over both edges being attached",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "thing being sewn, first piece if they are seperate"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thread"
-            },
-            {
-                "n": "3",
-                "descr": "second piece if seperate"
-            },
-            {
-                "n": "4",
-                "descr": "end state, attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oversew.01",
+    "roleset_name": "sew with close stiches that pass over both edges being attached",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing two objects to be attached",
+        "descr_trans": "导致两个对象相连的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being sewn, first piece if they are seperate",
+        "descr_trans": "正在缝制的东西，如果它们是分开的，则为第一块"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thread",
+        "descr_trans": "仪器、线"
+      },
+      {
+        "n": "3",
+        "descr": "second piece if seperate",
+        "descr_trans": "第二块（如果是单独的）"
+      },
+      {
+        "n": "4",
+        "descr": "end state, attribute",
+        "descr_trans": "最终状态、属性"
+      }
+    ],
+    "roleset_name_trans": "用紧密的针迹缝合，穿过所连接的两个边缘"
+  }
 ]

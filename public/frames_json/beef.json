@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beef_up.01",
-        "roleset_name": "make greater",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing beefiness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing enhanced"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "enhanced by how much, EXT or MNR"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beef.02",
-        "roleset_name": "problem",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with a problem"
-            },
-            {
-                "n": "1",
-                "descr": "a problem with what/whom"
-            },
-            {
-                "n": "2",
-                "descr": "subject matter of the problem; attributive"
-            },
-            {
-                "n": "3",
-                "descr": "the problem itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beef_up.01",
+    "roleset_name": "make greater",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing beefiness, agent",
+        "descr_trans": "导致强大的实体，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing enhanced",
+        "descr_trans": "东西增强了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "enhanced by how much, EXT or MNR",
+        "descr_trans": "增强多少，EXT 或 MNR"
+      }
+    ],
+    "roleset_name_trans": "使更大"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beef.02",
+    "roleset_name": "problem",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with a problem",
+        "descr_trans": "有问题的实体"
+      },
+      {
+        "n": "1",
+        "descr": "a problem with what/whom",
+        "descr_trans": "什么/谁的问题"
+      },
+      {
+        "n": "2",
+        "descr": "subject matter of the problem; attributive",
+        "descr_trans": "问题的主题；定语"
+      },
+      {
+        "n": "3",
+        "descr": "the problem itself",
+        "descr_trans": "问题本身"
+      }
+    ],
+    "roleset_name_trans": "问题"
+  }
 ]

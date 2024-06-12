@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alcoholize.01",
-        "roleset_name": "to saturate in alcohol, or convert to alcohol",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent of saturation, conversion"
-            },
-            {
-                "n": "1",
-                "descr": "Entity saturated converted"
-            },
-            {
-                "n": "2",
-                "descr": "Resulting state after conversion, attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alcoholize.01",
+    "roleset_name": "to saturate in alcohol, or convert to alcohol",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent of saturation, conversion",
+        "descr_trans": "饱和剂、转化剂"
+      },
+      {
+        "n": "1",
+        "descr": "Entity saturated converted",
+        "descr_trans": "实体饱和转换"
+      },
+      {
+        "n": "2",
+        "descr": "Resulting state after conversion, attribute of arg1",
+        "descr_trans": "转换后的结果状态，arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "饱和于酒精中，或转化为酒精"
+  }
 ]

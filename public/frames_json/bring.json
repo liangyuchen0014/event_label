@@ -1,194 +1,236 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bring.01",
-        "roleset_name": "carry along with, move literally or metaphorically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer"
-            },
-            {
-                "n": "1",
-                "descr": "thing brought"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive or destination brought-for, brought-to,"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, state after bringing, secondary action"
-            },
-            {
-                "n": "4",
-                "descr": "ablative, brought-from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bring_up.02",
-        "roleset_name": "broach the subject (but not child-rear)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of rising, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            },
-            {
-                "n": "m",
-                "descr": "Medium"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bring_up.07",
-        "roleset_name": "process criminal charges against",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity bringing the charges"
-            },
-            {
-                "n": "1",
-                "descr": "entity charged"
-            },
-            {
-                "n": "2",
-                "descr": "the charges"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bring_up.08",
-        "roleset_name": "rear a child (or other growing entity)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parent figure, raiser"
-            },
-            {
-                "n": "1",
-                "descr": "child figure"
-            },
-            {
-                "n": "2",
-                "descr": "curriculum/tradition brought up in"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bring_down.03",
-        "roleset_name": "make fall",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fall, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            },
-            {
-                "n": "m",
-                "descr": "Medium"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "bring_along.04",
-        "roleset_name": "accompany",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer"
-            },
-            {
-                "n": "1",
-                "descr": "thing brought"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, brought-for, brought-to"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            },
-            {
-                "n": "4",
-                "descr": "ablative, brought-from"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "bring_about.05",
-        "roleset_name": "cause to be",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing coming to be"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "bring_on.06",
-        "roleset_name": "cause onset",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bring.01",
+    "roleset_name": "carry along with, move literally or metaphorically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer",
+        "descr_trans": "布林尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing brought",
+        "descr_trans": "带来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive or destination brought-for, brought-to,",
+        "descr_trans": "受益人或目的地带来的、带来的、"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, state after bringing, secondary action",
+        "descr_trans": "属性、带入后的状态、次要动作"
+      },
+      {
+        "n": "4",
+        "descr": "ablative, brought-from",
+        "descr_trans": "烧蚀的，带来的"
+      }
+    ],
+    "roleset_name_trans": "从字面上或隐喻上来说，随身携带、移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bring_up.02",
+    "roleset_name": "broach the subject (but not child-rear)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of rising, Agent",
+        "descr_trans": "崛起的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "Medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "提出话题（但不要带孩子）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bring_up.07",
+    "roleset_name": "process criminal charges against",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity bringing the charges",
+        "descr_trans": "提出指控的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity charged",
+        "descr_trans": "被指控的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the charges",
+        "descr_trans": "收费"
+      }
+    ],
+    "roleset_name_trans": "处理刑事指控"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bring_up.08",
+    "roleset_name": "rear a child (or other growing entity)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parent figure, raiser",
+        "descr_trans": "父母人物、养育者"
+      },
+      {
+        "n": "1",
+        "descr": "child figure",
+        "descr_trans": "儿童图"
+      },
+      {
+        "n": "2",
+        "descr": "curriculum/tradition brought up in",
+        "descr_trans": "课程/传统"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "养育孩子（或其他成长中的实体）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bring_down.03",
+    "roleset_name": "make fall",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fall, Agent",
+        "descr_trans": "跌倒原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "Medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "使跌倒"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "bring_along.04",
+    "roleset_name": "accompany",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer",
+        "descr_trans": "布林尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing brought",
+        "descr_trans": "带来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, brought-for, brought-to",
+        "descr_trans": "有益的，带来的，带来的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      },
+      {
+        "n": "4",
+        "descr": "ablative, brought-from",
+        "descr_trans": "烧蚀的，带来的"
+      }
+    ],
+    "roleset_name_trans": "陪伴"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "bring_about.05",
+    "roleset_name": "cause to be",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing coming to be",
+        "descr_trans": "即将发生的事情"
+      }
+    ],
+    "roleset_name_trans": "导致成为"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "bring_on.06",
+    "roleset_name": "cause onset",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer",
+        "descr_trans": "布林尔"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      }
+    ],
+    "roleset_name_trans": "引起发作"
+  }
 ]

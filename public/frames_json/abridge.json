@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abridge.01",
-        "roleset_name": "to cut short",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing abridged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abridge.01",
+    "roleset_name": "to cut short",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing abridged",
+        "descr_trans": "东西被删节了"
+      }
+    ],
+    "roleset_name_trans": "缩短"
+  }
 ]

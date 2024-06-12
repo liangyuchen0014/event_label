@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beam.01",
-        "roleset_name": "to emit or transmit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transmitter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing transmitted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beam.02",
-        "roleset_name": "to express with a smile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "smiler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing expressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beam.01",
+    "roleset_name": "to emit or transmit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transmitter, agent",
+        "descr_trans": "发射器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing transmitted",
+        "descr_trans": "传送的东西"
+      }
+    ],
+    "roleset_name_trans": "发射或传输"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beam.02",
+    "roleset_name": "to express with a smile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "smiler, agent",
+        "descr_trans": "微笑，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing expressed",
+        "descr_trans": "所表达的事物"
+      }
+    ],
+    "roleset_name_trans": "用微笑来表达"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overshoot.01",
-        "roleset_name": "aim too far, exceed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "projectile"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            },
-            {
-                "n": "3",
-                "descr": "amount overshot by"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overshoot.01",
+    "roleset_name": "aim too far, exceed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "projectile",
+        "descr_trans": "射弹"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "3",
+        "descr": "amount overshot by",
+        "descr_trans": "超过的金额"
+      }
+    ],
+    "roleset_name_trans": "目标太远，超过"
+  }
 ]

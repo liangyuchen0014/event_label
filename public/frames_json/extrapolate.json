@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extrapolate.01",
-        "roleset_name": "estimate by extending known information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "known information"
-            },
-            {
-                "n": "2",
-                "descr": "new information"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extrapolate.01",
+    "roleset_name": "estimate by extending known information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker, agent",
+        "descr_trans": "思想家、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "known information",
+        "descr_trans": "已知信息"
+      },
+      {
+        "n": "2",
+        "descr": "new information",
+        "descr_trans": "新的信息"
+      }
+    ],
+    "roleset_name_trans": "通过扩展已知信息进行估计"
+  }
 ]

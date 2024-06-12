@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shawl.01",
-        "roleset_name": "cover with a shawl",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person placing shawl"
-            },
-            {
-                "n": "1",
-                "descr": "location/entity draped in the shawl"
-            },
-            {
-                "n": "2",
-                "descr": "shawl itself, type of shawl"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shawl.01",
+    "roleset_name": "cover with a shawl",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person placing shawl",
+        "descr_trans": "代理人、放置披肩的人"
+      },
+      {
+        "n": "1",
+        "descr": "location/entity draped in the shawl",
+        "descr_trans": "披着披肩的地点/实体"
+      },
+      {
+        "n": "2",
+        "descr": "shawl itself, type of shawl",
+        "descr_trans": "披肩本身，披肩的类型"
+      }
+    ],
+    "roleset_name_trans": "用披肩盖住"
+  }
 ]

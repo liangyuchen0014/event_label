@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cube.01",
-        "roleset_name": "cube",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent/cause of cubing"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming cubes"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument used"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state of arg1, often prepositional"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cube.01",
+    "roleset_name": "cube",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent/cause of cubing",
+        "descr_trans": "立方体的代理/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming cubes",
+        "descr_trans": "实体变成立方体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument used",
+        "descr_trans": "使用仪器"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state of arg1, often prepositional",
+        "descr_trans": "arg1 的结果状态，通常是介词"
+      }
+    ],
+    "roleset_name_trans": "立方体"
+  }
 ]

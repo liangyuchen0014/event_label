@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "profile.01",
-        "roleset_name": "create a profile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity profiled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "profile.01",
+    "roleset_name": "create a profile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator, agent",
+        "descr_trans": "创作者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity profiled",
+        "descr_trans": "实体概况"
+      }
+    ],
+    "roleset_name_trans": "创建个人资料"
+  }
 ]

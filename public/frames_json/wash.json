@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wash.01",
-        "roleset_name": "remove/cleanse of by flushing with liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of washing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being washed"
-            },
-            {
-                "n": "2",
-                "descr": "washing liquid"
-            },
-            {
-                "n": "3",
-                "descr": "source (if in addition to arg1)"
-            },
-            {
-                "n": "4",
-                "descr": "end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wash.02",
-        "roleset_name": "cut it, be adequate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inadequate thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wash_up.03",
-        "roleset_name": "arrive on unknown shore, reach land from water",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Thing arriving on land from water"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "wash_up.06",
-        "roleset_name": "make become clean, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "washer"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming clean"
-            },
-            {
-                "n": "2",
-                "descr": "washing liquid"
-            },
-            {
-                "n": "3",
-                "descr": "dirt removed"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "wash_down.04",
-        "roleset_name": "using liquid to swallow something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent of swallowing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being swallowed"
-            },
-            {
-                "n": "2",
-                "descr": "Liquid enabling swallowing"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "wash_down.05",
-        "roleset_name": "kinda like 'hose down'",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "washer"
-            },
-            {
-                "n": "1",
-                "descr": "formerly dirty thing"
-            },
-            {
-                "n": "2",
-                "descr": "soap/water"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wash.01",
+    "roleset_name": "remove/cleanse of by flushing with liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of washing",
+        "descr_trans": "洗涤剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing being washed",
+        "descr_trans": "正在洗的东西"
+      },
+      {
+        "n": "2",
+        "descr": "washing liquid",
+        "descr_trans": "洗涤液"
+      },
+      {
+        "n": "3",
+        "descr": "source (if in addition to arg1)",
+        "descr_trans": "源（如果除了 arg1 之外）"
+      },
+      {
+        "n": "4",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "用液体冲洗去除/清洁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wash.02",
+    "roleset_name": "cut it, be adequate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inadequate thing",
+        "descr_trans": "不足的东西"
+      }
+    ],
+    "roleset_name_trans": "剪掉它，足够了"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wash_up.03",
+    "roleset_name": "arrive on unknown shore, reach land from water",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Thing arriving on land from water",
+        "descr_trans": "从水到达陆地的东西"
+      }
+    ],
+    "roleset_name_trans": "到达未知的海岸，从水中到达陆地"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "wash_up.06",
+    "roleset_name": "make become clean, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "washer",
+        "descr_trans": "垫圈"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming clean",
+        "descr_trans": "事物变得干净"
+      },
+      {
+        "n": "2",
+        "descr": "washing liquid",
+        "descr_trans": "洗涤液"
+      },
+      {
+        "n": "3",
+        "descr": "dirt removed",
+        "descr_trans": "污垢去除"
+      }
+    ],
+    "roleset_name_trans": "使变得干净、完整"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "wash_down.04",
+    "roleset_name": "using liquid to swallow something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent of swallowing",
+        "descr_trans": "吞咽剂"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being swallowed",
+        "descr_trans": "东西被吞掉"
+      },
+      {
+        "n": "2",
+        "descr": "Liquid enabling swallowing",
+        "descr_trans": "有助于吞咽的液体"
+      }
+    ],
+    "roleset_name_trans": "用液体吞咽东西"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "wash_down.05",
+    "roleset_name": "kinda like 'hose down'",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "washer",
+        "descr_trans": "垫圈"
+      },
+      {
+        "n": "1",
+        "descr": "formerly dirty thing",
+        "descr_trans": "以前肮脏的东西"
+      },
+      {
+        "n": "2",
+        "descr": "soap/water",
+        "descr_trans": "肥皂/水"
+      }
+    ],
+    "roleset_name_trans": "有点像“浇水”"
+  }
 ]

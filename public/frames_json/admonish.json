@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "admonish.01",
-        "roleset_name": "persuade warningly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "persuader"
-            },
-            {
-                "n": "1",
-                "descr": "persuaded agent"
-            },
-            {
-                "n": "2",
-                "descr": "persuaded action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "admonish.02",
-        "roleset_name": "chastise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chastiser"
-            },
-            {
-                "n": "1",
-                "descr": "chastised"
-            },
-            {
-                "n": "2",
-                "descr": "wrongdoing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "admonish.01",
+    "roleset_name": "persuade warningly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "persuader",
+        "descr_trans": "说服"
+      },
+      {
+        "n": "1",
+        "descr": "persuaded agent",
+        "descr_trans": "说服代理人"
+      },
+      {
+        "n": "2",
+        "descr": "persuaded action",
+        "descr_trans": "说服行动"
+      }
+    ],
+    "roleset_name_trans": "警告地劝说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "admonish.02",
+    "roleset_name": "chastise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chastiser",
+        "descr_trans": "惩戒者"
+      },
+      {
+        "n": "1",
+        "descr": "chastised",
+        "descr_trans": "受责备的"
+      },
+      {
+        "n": "2",
+        "descr": "wrongdoing",
+        "descr_trans": "不当行为"
+      }
+    ],
+    "roleset_name_trans": "惩戒"
+  }
 ]

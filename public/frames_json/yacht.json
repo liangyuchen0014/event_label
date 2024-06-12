@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yacht.01",
-        "roleset_name": "yacht",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver, yachter"
-            },
-            {
-                "n": "1",
-                "descr": "thing yachted, transported"
-            },
-            {
-                "n": "2",
-                "descr": "locations, or start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yacht.01",
+    "roleset_name": "yacht",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver, yachter",
+        "descr_trans": "经纪人、司机、游艇"
+      },
+      {
+        "n": "1",
+        "descr": "thing yachted, transported",
+        "descr_trans": "用游艇运送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "locations, or start point",
+        "descr_trans": "地点或起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "游艇"
+  }
 ]

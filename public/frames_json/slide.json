@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slide.01",
-        "roleset_name": "slide, physical motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of sliding"
-            },
-            {
-                "n": "1",
-                "descr": "thing sliding"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slide.02",
-        "roleset_name": "quantifiable motion, change in position on a scale",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing falling"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount fallen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            },
-            {
-                "n": "5",
-                "descr": "medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slide.01",
+    "roleset_name": "slide, physical motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of sliding",
+        "descr_trans": "代理，滑动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing sliding",
+        "descr_trans": "东西滑动"
+      }
+    ],
+    "roleset_name_trans": "滑动、物理运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slide.02",
+    "roleset_name": "quantifiable motion, change in position on a scale",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing falling",
+        "descr_trans": "逻辑主体、病人、东西掉落"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount fallen",
+        "descr_trans": "EXT，下降量"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      },
+      {
+        "n": "5",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "可量化的运动，刻度上的位置变化"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pension.01",
-        "roleset_name": "grant/pay a retirement benefit to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pension giver"
-            },
-            {
-                "n": "1",
-                "descr": "pension recipient"
-            },
-            {
-                "n": "2",
-                "descr": "the pension itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pension_off.02",
-        "roleset_name": "let go from employment with an attractive pension",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pension giver"
-            },
-            {
-                "n": "1",
-                "descr": "pension recipient"
-            },
-            {
-                "n": "2",
-                "descr": "the pension"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pension.01",
+    "roleset_name": "grant/pay a retirement benefit to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pension giver",
+        "descr_trans": "养老金提供者"
+      },
+      {
+        "n": "1",
+        "descr": "pension recipient",
+        "descr_trans": "养老金领取者"
+      },
+      {
+        "n": "2",
+        "descr": "the pension itself",
+        "descr_trans": "养老金本身"
+      }
+    ],
+    "roleset_name_trans": "授予/支付退休金给"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pension_off.02",
+    "roleset_name": "let go from employment with an attractive pension",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pension giver",
+        "descr_trans": "养老金提供者"
+      },
+      {
+        "n": "1",
+        "descr": "pension recipient",
+        "descr_trans": "养老金领取者"
+      },
+      {
+        "n": "2",
+        "descr": "the pension",
+        "descr_trans": "养老金"
+      }
+    ],
+    "roleset_name_trans": "放弃工作并享受有吸引力的养老金"
+  }
 ]

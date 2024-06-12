@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mull.01",
-        "roleset_name": "think",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thinking about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mull.02",
-        "roleset_name": "simmer with spices",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook"
-            },
-            {
-                "n": "1",
-                "descr": "wine"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mull.01",
+    "roleset_name": "think",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "thinking about",
+        "descr_trans": "思考"
+      }
+    ],
+    "roleset_name_trans": "思考"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mull.02",
+    "roleset_name": "simmer with spices",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook",
+        "descr_trans": "厨师"
+      },
+      {
+        "n": "1",
+        "descr": "wine",
+        "descr_trans": "葡萄酒"
+      }
+    ],
+    "roleset_name_trans": "与香料一起煮"
+  }
 ]

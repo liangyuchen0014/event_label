@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "violate.01",
-        "roleset_name": "break some rule",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "violator"
-            },
-            {
-                "n": "1",
-                "descr": "thing violated, usually a rule"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "violate.01",
+    "roleset_name": "break some rule",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "violator",
+        "descr_trans": "违规者"
+      },
+      {
+        "n": "1",
+        "descr": "thing violated, usually a rule",
+        "descr_trans": "违反的事情，通常是规则"
+      }
+    ],
+    "roleset_name_trans": "打破一些规则"
+  }
 ]

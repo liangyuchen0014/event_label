@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dropship.01",
-        "roleset_name": "retail practice of sending items from a manufacturer to customer, ship directly from wholesaler to customer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shipper"
-            },
-            {
-                "n": "1",
-                "descr": "package"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dropship.01",
+    "roleset_name": "retail practice of sending items from a manufacturer to customer, ship directly from wholesaler to customer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shipper",
+        "descr_trans": "托运人"
+      },
+      {
+        "n": "1",
+        "descr": "package",
+        "descr_trans": "包裹"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "将商品从制造商发送给客户，然后直接从批发商运送给客户的零售做法"
+  }
 ]

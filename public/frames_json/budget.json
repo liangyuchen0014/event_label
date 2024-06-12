@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "budget.01",
-        "roleset_name": "allocate money to some purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allocator"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "purpose, project"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "budget.01",
+    "roleset_name": "allocate money to some purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allocator",
+        "descr_trans": "分配器"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "purpose, project",
+        "descr_trans": "目的、项目"
+      }
+    ],
+    "roleset_name_trans": "将钱分配给某些目的"
+  }
 ]

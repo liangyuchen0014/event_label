@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trigger.01",
-        "roleset_name": "begin, cause to begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trigger_off.02",
-        "roleset_name": "start off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent starting/triggering something"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning, triggered off"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trigger.01",
+    "roleset_name": "begin, cause to begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "开始，导致开始"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trigger_off.02",
+    "roleset_name": "start off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent starting/triggering something",
+        "descr_trans": "代理启动/触发某事"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning, triggered off",
+        "descr_trans": "事情开始，触发"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  }
 ]

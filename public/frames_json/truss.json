@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "truss.01",
-        "roleset_name": "truss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, binder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing trussed"
-            },
-            {
-                "n": "2",
-                "descr": "second (optional) object, thing trussed *to*"
-            },
-            {
-                "n": "m",
-                "descr": "trussed with what, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "truss.01",
+    "roleset_name": "truss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, binder",
+        "descr_trans": "剂、粘合剂"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing trussed",
+        "descr_trans": "病人，捆绑的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second (optional) object, thing trussed *to*",
+        "descr_trans": "第二个（可选）物体，被桁架*到*的东西"
+      },
+      {
+        "n": "m",
+        "descr": "trussed with what, instrument",
+        "descr_trans": "用什么、仪器捆扎"
+      }
+    ],
+    "roleset_name_trans": "桁架"
+  }
 ]

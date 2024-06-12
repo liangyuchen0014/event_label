@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reroute.01",
-        "roleset_name": "route again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "router"
-            },
-            {
-                "n": "1",
-                "descr": "thing routed"
-            },
-            {
-                "n": "2",
-                "descr": "new destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reroute.01",
+    "roleset_name": "route again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "router",
+        "descr_trans": "路由器"
+      },
+      {
+        "n": "1",
+        "descr": "thing routed",
+        "descr_trans": "事物路由"
+      },
+      {
+        "n": "2",
+        "descr": "new destination",
+        "descr_trans": "新目的地"
+      }
+    ],
+    "roleset_name_trans": "再次路由"
+  }
 ]

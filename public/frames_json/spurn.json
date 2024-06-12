@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spurn.01",
-        "roleset_name": "rebuff, reject",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rejecter"
-            },
-            {
-                "n": "1",
-                "descr": "thing rejected"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spurn.01",
+    "roleset_name": "rebuff, reject",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rejecter",
+        "descr_trans": "拒绝者"
+      },
+      {
+        "n": "1",
+        "descr": "thing rejected",
+        "descr_trans": "事情被拒绝"
+      }
+    ],
+    "roleset_name_trans": "断然拒绝，拒绝"
+  }
 ]

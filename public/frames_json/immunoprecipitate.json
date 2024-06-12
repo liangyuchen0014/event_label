@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immunoprecipitate.01",
-        "roleset_name": "separate an antigen from a solution using an antibody that binds to the antigen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of immunoprecipitation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing immunoprecipitated, antigen (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "immunoprecipitated from, solution"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, antibody"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immunoprecipitate.01",
+    "roleset_name": "separate an antigen from a solution using an antibody that binds to the antigen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of immunoprecipitation (e.g. scientist)",
+        "descr_trans": "免疫沉淀的有意代理（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing immunoprecipitated, antigen (e.g. protein)",
+        "descr_trans": "免疫沉淀物，抗原（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "immunoprecipitated from, solution",
+        "descr_trans": "从溶液中免疫沉淀"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, antibody",
+        "descr_trans": "仪器、抗体"
+      }
+    ],
+    "roleset_name_trans": "使用与抗原结合的抗体从溶液中分离抗原"
+  }
 ]

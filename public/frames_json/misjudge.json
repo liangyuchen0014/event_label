@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misjudge.01",
-        "roleset_name": "judge incorrectly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judger"
-            },
-            {
-                "n": "1",
-                "descr": "thing judged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misjudge.01",
+    "roleset_name": "judge incorrectly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judger",
+        "descr_trans": "评判者"
+      },
+      {
+        "n": "1",
+        "descr": "thing judged",
+        "descr_trans": "判断的事情"
+      }
+    ],
+    "roleset_name_trans": "判断错误"
+  }
 ]

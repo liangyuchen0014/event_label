@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wound.01",
-        "roleset_name": "cause injury",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus of injury"
-            },
-            {
-                "n": "1",
-                "descr": "injured party"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            },
-            {
-                "n": "3",
-                "descr": "the wound itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wound.01",
+    "roleset_name": "cause injury",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus of injury",
+        "descr_trans": "伤害刺激"
+      },
+      {
+        "n": "1",
+        "descr": "injured party",
+        "descr_trans": "受害方"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      },
+      {
+        "n": "3",
+        "descr": "the wound itself",
+        "descr_trans": "伤口本身"
+      }
+    ],
+    "roleset_name_trans": "造成伤害"
+  }
 ]

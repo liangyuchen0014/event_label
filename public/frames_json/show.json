@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "show.01",
-        "roleset_name": "cause to see",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shower"
-            },
-            {
-                "n": "1",
-                "descr": "thing seen/shown"
-            },
-            {
-                "n": "2",
-                "descr": "seer, audience"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "show.04",
-        "roleset_name": "show/production",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Show creator"
-            },
-            {
-                "n": "1",
-                "descr": "Type of show, title, or message"
-            },
-            {
-                "n": "2",
-                "descr": "Audience"
-            },
-            {
-                "n": "3",
-                "descr": "Source (TV/channel/venue to watch at)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "show_up.02",
-        "roleset_name": "appear",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing appearing, showing up"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "show_off.03",
-        "roleset_name": "display something (often oneself) proudly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "displayer"
-            },
-            {
-                "n": "1",
-                "descr": "thing displayed"
-            },
-            {
-                "n": "2",
-                "descr": "seer / witness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "show.01",
+    "roleset_name": "cause to see",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shower",
+        "descr_trans": "淋浴"
+      },
+      {
+        "n": "1",
+        "descr": "thing seen/shown",
+        "descr_trans": "看到/展示的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seer, audience",
+        "descr_trans": "看见者、观众"
+      }
+    ],
+    "roleset_name_trans": "导致看到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "show.04",
+    "roleset_name": "show/production",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Show creator",
+        "descr_trans": "节目创作者"
+      },
+      {
+        "n": "1",
+        "descr": "Type of show, title, or message",
+        "descr_trans": "节目类型、标题或消息"
+      },
+      {
+        "n": "2",
+        "descr": "Audience",
+        "descr_trans": "观众"
+      },
+      {
+        "n": "3",
+        "descr": "Source (TV/channel/venue to watch at)",
+        "descr_trans": "来源（电视/频道/观看地点）"
+      }
+    ],
+    "roleset_name_trans": "演出/制作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "show_up.02",
+    "roleset_name": "appear",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing appearing, showing up",
+        "descr_trans": "事物出现，出现"
+      }
+    ],
+    "roleset_name_trans": "出现"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "show_off.03",
+    "roleset_name": "display something (often oneself) proudly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "displayer",
+        "descr_trans": "显示"
+      },
+      {
+        "n": "1",
+        "descr": "thing displayed",
+        "descr_trans": "显示的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seer / witness",
+        "descr_trans": "看见者/见证者"
+      }
+    ],
+    "roleset_name_trans": "自豪地展示某些东西（通常是自己）"
+  }
 ]

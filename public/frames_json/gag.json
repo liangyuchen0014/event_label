@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gag.01",
-        "roleset_name": "reflex caused by oject in mouth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of gagging, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity gagged"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, object in mouth"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gagworthy.02",
-        "roleset_name": "able to elicit the gag reflex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of gagging, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity gagged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gag.01",
+    "roleset_name": "reflex caused by oject in mouth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of gagging, agent",
+        "descr_trans": "作呕的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity gagged",
+        "descr_trans": "实体堵嘴"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, object in mouth",
+        "descr_trans": "仪器、嘴里的物体"
+      }
+    ],
+    "roleset_name_trans": "口腔内异物引起的反射"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gagworthy.02",
+    "roleset_name": "able to elicit the gag reflex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of gagging, agent",
+        "descr_trans": "作呕的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity gagged",
+        "descr_trans": "实体堵嘴"
+      }
+    ],
+    "roleset_name_trans": "能够引起呕吐反射"
+  }
 ]

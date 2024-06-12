@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counter.01",
-        "roleset_name": "make a reaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reactor"
-            },
-            {
-                "n": "1",
-                "descr": "in reaction to"
-            },
-            {
-                "n": "2",
-                "descr": "reaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counter.01",
+    "roleset_name": "make a reaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reactor",
+        "descr_trans": "反应堆"
+      },
+      {
+        "n": "1",
+        "descr": "in reaction to",
+        "descr_trans": "作为反应"
+      },
+      {
+        "n": "2",
+        "descr": "reaction",
+        "descr_trans": "反应"
+      }
+    ],
+    "roleset_name_trans": "做出反应"
+  }
 ]

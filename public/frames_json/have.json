@@ -1,161 +1,193 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "have.01",
-        "roleset_name": "auxiliary",
-        "roles": []
-    },
-    {
-        "uid": 2,
-        "roleset_id": "have.02",
-        "roleset_name": "modal",
-        "roles": []
-    },
-    {
-        "uid": 3,
-        "roleset_id": "have.03",
-        "roleset_name": "own, possess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "owner"
-            },
-            {
-                "n": "1",
-                "descr": "possession"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "have.04",
-        "roleset_name": "caused action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "action"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "have.05",
-        "roleset_name": "birthing sense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving birth to something"
-            },
-            {
-                "n": "1",
-                "descr": "entity birthed"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "have.06",
-        "roleset_name": "light verb-- FOR AMR USE ONLY",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "true subject"
-            },
-            {
-                "n": "1",
-                "descr": "true predicate"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "have.11",
-        "roleset_name": "have yet to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject, entity having not yet done arg2"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: 'yet'"
-            },
-            {
-                "n": "2",
-                "descr": "have yet to what (infinitival S-node complement)"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "have.07",
-        "roleset_name": "semi-modal: had better/best",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity that should"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: better/best"
-            },
-            {
-                "n": "2",
-                "descr": "what arg0 had better/best do (main verb clause)"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "have.08",
-        "roleset_name": "have at you! (tackle)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, tackler"
-            },
-            {
-                "n": "1",
-                "descr": "thing tackled ('at' what)"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "have.09",
-        "roleset_name": "have_one's_way_with: have sex with, possibly rape-ily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, agressor"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: (arg0's) way"
-            },
-            {
-                "n": "2",
-                "descr": "victim/patient"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "have.10",
-        "roleset_name": "have a go at; attempt, try out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "action attempted. \"a go at __\""
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "have.01",
+    "roleset_name": "auxiliary",
+    "roles": [],
+    "roleset_name_trans": "辅助的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "have.02",
+    "roleset_name": "modal",
+    "roles": [],
+    "roleset_name_trans": "莫代尔"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "have.03",
+    "roleset_name": "own, possess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "owner",
+        "descr_trans": "所有者"
+      },
+      {
+        "n": "1",
+        "descr": "possession",
+        "descr_trans": "拥有"
+      }
+    ],
+    "roleset_name_trans": "拥有，拥有"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "have.04",
+    "roleset_name": "caused action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "action",
+        "descr_trans": "行动"
+      }
+    ],
+    "roleset_name_trans": "引起行动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "have.05",
+    "roleset_name": "birthing sense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving birth to something",
+        "descr_trans": "产生某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity birthed",
+        "descr_trans": "实体诞生"
+      }
+    ],
+    "roleset_name_trans": "分娩感"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "have.06",
+    "roleset_name": "light verb-- FOR AMR USE ONLY",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "true subject",
+        "descr_trans": "真实主题"
+      },
+      {
+        "n": "1",
+        "descr": "true predicate",
+        "descr_trans": "真谓词"
+      }
+    ],
+    "roleset_name_trans": "轻动词——仅供 AMR 使用"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "have.11",
+    "roleset_name": "have yet to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject, entity having not yet done arg2",
+        "descr_trans": "主题，尚未完成 arg2 的实体"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: 'yet'",
+        "descr_trans": "修正：“还”"
+      },
+      {
+        "n": "2",
+        "descr": "have yet to what (infinitival S-node complement)",
+        "descr_trans": "还没有什么（不定式 S 节点补码）"
+      }
+    ],
+    "roleset_name_trans": "还没有"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "have.07",
+    "roleset_name": "semi-modal: had better/best",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity that should",
+        "descr_trans": "应该的实体"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: better/best",
+        "descr_trans": "固定：更好/最好"
+      },
+      {
+        "n": "2",
+        "descr": "what arg0 had better/best do (main verb clause)",
+        "descr_trans": "arg0 最好/最好做什么（主要动词从句）"
+      }
+    ],
+    "roleset_name_trans": "半模态：有更好/最好"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "have.08",
+    "roleset_name": "have at you! (tackle)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, tackler",
+        "descr_trans": "代理、铲球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing tackled ('at' what)",
+        "descr_trans": "解决的事情（“在”什么）"
+      }
+    ],
+    "roleset_name_trans": "有你！ （处理）"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "have.09",
+    "roleset_name": "have_one's_way_with: have sex with, possibly rape-ily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, agressor",
+        "descr_trans": "代理人，侵略者"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: (arg0's) way",
+        "descr_trans": "固定：(arg0&#39;s)方式"
+      },
+      {
+        "n": "2",
+        "descr": "victim/patient",
+        "descr_trans": "受害者/病人"
+      }
+    ],
+    "roleset_name_trans": "have_one&#39;s_way_with: 发生性关系，可能是强奸"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "have.10",
+    "roleset_name": "have a go at; attempt, try out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "action attempted. \"a go at __\"",
+        "descr_trans": "尝试采取的行动。 “一只山羊 __”"
+      }
+    ],
+    "roleset_name_trans": "尝试一下；尝试，尝试"
+  }
 ]

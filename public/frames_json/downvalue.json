@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "downvalue.01",
-        "roleset_name": "to lower the value of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of downvalueing"
-            },
-            {
-                "n": "1",
-                "descr": "thing losing value"
-            },
-            {
-                "n": "2",
-                "descr": "final value"
-            },
-            {
-                "n": "3",
-                "descr": "original value, downvalued from what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "downvalue.01",
+    "roleset_name": "to lower the value of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of downvalueing",
+        "descr_trans": "贬值原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing losing value",
+        "descr_trans": "失去价值的东西"
+      },
+      {
+        "n": "2",
+        "descr": "final value",
+        "descr_trans": "最终值"
+      },
+      {
+        "n": "3",
+        "descr": "original value, downvalued from what?",
+        "descr_trans": "原来的价值，是从什么方面贬值的？"
+      }
+    ],
+    "roleset_name_trans": "降低某物的价值"
+  }
 ]

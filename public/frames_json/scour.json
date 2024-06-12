@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scour.01",
-        "roleset_name": "clean with harsh abrasives",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cleaner"
-            },
-            {
-                "n": "1",
-                "descr": "thing being cleaned"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (ie abrasive)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scour.02",
-        "roleset_name": "look very intently for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "locale searched"
-            },
-            {
-                "n": "2",
-                "descr": "thing searched for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scour.01",
+    "roleset_name": "clean with harsh abrasives",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cleaner",
+        "descr_trans": "清洁工"
+      },
+      {
+        "n": "1",
+        "descr": "thing being cleaned",
+        "descr_trans": "正在清洁的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (ie abrasive)",
+        "descr_trans": "仪器（即磨料）"
+      }
+    ],
+    "roleset_name_trans": "用粗糙的研磨剂清洁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scour.02",
+    "roleset_name": "look very intently for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "locale searched",
+        "descr_trans": "搜索区域"
+      },
+      {
+        "n": "2",
+        "descr": "thing searched for",
+        "descr_trans": "搜索的东西"
+      }
+    ],
+    "roleset_name_trans": "非常专心地寻找"
+  }
 ]

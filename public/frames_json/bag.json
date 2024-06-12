@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bag.01",
-        "roleset_name": "to gain something and/or place in a location (bag)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gainer/placer"
-            },
-            {
-                "n": "1",
-                "descr": "thing gained/placed"
-            },
-            {
-                "n": "2",
-                "descr": "bag, location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bag.02",
-        "roleset_name": "discard or abandon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abandoner"
-            },
-            {
-                "n": "1",
-                "descr": "thing abandoned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bag.01",
+    "roleset_name": "to gain something and/or place in a location (bag)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gainer/placer",
+        "descr_trans": "获得者/安置者"
+      },
+      {
+        "n": "1",
+        "descr": "thing gained/placed",
+        "descr_trans": "获得/放置的东西"
+      },
+      {
+        "n": "2",
+        "descr": "bag, location",
+        "descr_trans": "包、位置"
+      }
+    ],
+    "roleset_name_trans": "获得某物和/或在某个地点占有一席之地（包）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bag.02",
+    "roleset_name": "discard or abandon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abandoner",
+        "descr_trans": "放弃"
+      },
+      {
+        "n": "1",
+        "descr": "thing abandoned",
+        "descr_trans": "被遗弃的东西"
+      }
+    ],
+    "roleset_name_trans": "丢弃或放弃"
+  }
 ]

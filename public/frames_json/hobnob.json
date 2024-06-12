@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hobnob.01",
-        "roleset_name": "talk, mingle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "First (or all if in one constituent) talker"
-            },
-            {
-                "n": "1",
-                "descr": "Other hobnobber (when separate constituent)"
-            },
-            {
-                "n": "2",
-                "descr": "Topic, hobnobbed-about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hobnob_around.02",
-        "roleset_name": "talk, mingle aimlessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first talker"
-            },
-            {
-                "n": "1",
-                "descr": "talked with, when separate mention"
-            },
-            {
-                "n": "2",
-                "descr": "topic of discussion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hobnob.01",
+    "roleset_name": "talk, mingle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "First (or all if in one constituent) talker",
+        "descr_trans": "第一个（或所有，如果在一个选民中）讲话者"
+      },
+      {
+        "n": "1",
+        "descr": "Other hobnobber (when separate constituent)",
+        "descr_trans": "其他同伙（单独组成时）"
+      },
+      {
+        "n": "2",
+        "descr": "Topic, hobnobbed-about",
+        "descr_trans": "话题，热议话题"
+      }
+    ],
+    "roleset_name_trans": "交谈、交往"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hobnob_around.02",
+    "roleset_name": "talk, mingle aimlessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first talker",
+        "descr_trans": "第一个说话者"
+      },
+      {
+        "n": "1",
+        "descr": "talked with, when separate mention",
+        "descr_trans": "单独提及时与之交谈"
+      },
+      {
+        "n": "2",
+        "descr": "topic of discussion",
+        "descr_trans": "讨论话题"
+      }
+    ],
+    "roleset_name_trans": "漫无目的地交谈、交往"
+  }
 ]

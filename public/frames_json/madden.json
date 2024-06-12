@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "madden.01",
-        "roleset_name": "(cause to) become angry/crazed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of anger"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mad.02",
-        "roleset_name": "crazy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "crazy entity/action (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "mad.03",
-        "roleset_name": "mad about: really really like",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker"
-            },
-            {
-                "n": "1",
-                "descr": "liked"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "mad.04",
-        "roleset_name": "angry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of anger"
-            },
-            {
-                "n": "1",
-                "descr": "angry entity"
-            },
-            {
-                "n": "2",
-                "descr": "angry at arg0 for what (if separate from arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "madden.01",
+    "roleset_name": "(cause to) become angry/crazed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of anger",
+        "descr_trans": "愤怒的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（导致）生气/发疯"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mad.02",
+    "roleset_name": "crazy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "crazy entity/action (may require concatenation)",
+        "descr_trans": "疯狂的实体/动作（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "疯狂的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "mad.03",
+    "roleset_name": "mad about: really really like",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker",
+        "descr_trans": "喜欢"
+      },
+      {
+        "n": "1",
+        "descr": "liked",
+        "descr_trans": "喜欢"
+      }
+    ],
+    "roleset_name_trans": "疯狂：真的真的很喜欢"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "mad.04",
+    "roleset_name": "angry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of anger",
+        "descr_trans": "引起愤怒的人"
+      },
+      {
+        "n": "1",
+        "descr": "angry entity",
+        "descr_trans": "愤怒的实体"
+      },
+      {
+        "n": "2",
+        "descr": "angry at arg0 for what (if separate from arg0)",
+        "descr_trans": "对 arg0 生气是什么（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "生气的"
+  }
 ]

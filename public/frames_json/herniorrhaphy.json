@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "herniorrhaphy.01",
-        "roleset_name": "surgical repair of hernia",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "hernia repaired"
-            },
-            {
-                "n": "2",
-                "descr": "location of hernia"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "herniorrhaphy.01",
+    "roleset_name": "surgical repair of hernia",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "hernia repaired",
+        "descr_trans": "疝气修复"
+      },
+      {
+        "n": "2",
+        "descr": "location of hernia",
+        "descr_trans": "疝气的位置"
+      }
+    ],
+    "roleset_name_trans": "疝气手术修复"
+  }
 ]

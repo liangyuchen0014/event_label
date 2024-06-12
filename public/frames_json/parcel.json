@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "parcel_out.01",
-        "roleset_name": "to divide into parts and distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "divider, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity parceled out"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "parcel_out.01",
+    "roleset_name": "to divide into parts and distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "divider, agent",
+        "descr_trans": "分配者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity parceled out",
+        "descr_trans": "实体分配"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "分成几部分并分配"
+  }
 ]

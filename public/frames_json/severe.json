@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "severe.01",
-        "roleset_name": "extreme, ext",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing graded as extreme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "severe.02",
-        "roleset_name": "strict, harsh (behavior)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "strict one"
-            },
-            {
-                "n": "1",
-                "descr": "strict action/thing, strict about what"
-            },
-            {
-                "n": "2",
-                "descr": "target of strict behavior"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "severe.03",
-        "roleset_name": "aesthetically harsh, austere",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "harsh/austere thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "severe.01",
+    "roleset_name": "extreme, ext",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing graded as extreme",
+        "descr_trans": "被评为极端的事情"
+      }
+    ],
+    "roleset_name_trans": "极端的，外部的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "severe.02",
+    "roleset_name": "strict, harsh (behavior)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "strict one",
+        "descr_trans": "严格的一"
+      },
+      {
+        "n": "1",
+        "descr": "strict action/thing, strict about what",
+        "descr_trans": "严格行动/事物，严格对待什么"
+      },
+      {
+        "n": "2",
+        "descr": "target of strict behavior",
+        "descr_trans": "严格行为目标"
+      }
+    ],
+    "roleset_name_trans": "严格的，严厉的（行为）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "severe.03",
+    "roleset_name": "aesthetically harsh, austere",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "harsh/austere thing",
+        "descr_trans": "严酷/严峻的事情"
+      }
+    ],
+    "roleset_name_trans": "审美上严酷的，严肃的"
+  }
 ]

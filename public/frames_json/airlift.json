@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "airlift.01",
-        "roleset_name": "to transport in an airlift",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity transported"
-            },
-            {
-                "n": "2",
-                "descr": "transported to"
-            },
-            {
-                "n": "3",
-                "descr": "transported from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "airlift.01",
+    "roleset_name": "to transport in an airlift",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity transported",
+        "descr_trans": "实体传送"
+      },
+      {
+        "n": "2",
+        "descr": "transported to",
+        "descr_trans": "运送到"
+      },
+      {
+        "n": "3",
+        "descr": "transported from",
+        "descr_trans": "运自"
+      }
+    ],
+    "roleset_name_trans": "空运"
+  }
 ]

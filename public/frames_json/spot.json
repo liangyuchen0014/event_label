@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spot.01",
-        "roleset_name": "discovery, seeing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finder"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, found for"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spot.02",
-        "roleset_name": "dab, create a spot on something, creating a spot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "painter"
-            },
-            {
-                "n": "1",
-                "descr": "canvas"
-            },
-            {
-                "n": "2",
-                "descr": "paint"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spot.01",
+    "roleset_name": "discovery, seeing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finder",
+        "descr_trans": "发现者"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, found for",
+        "descr_trans": "有益的，发现的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "发现、看见"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spot.02",
+    "roleset_name": "dab, create a spot on something, creating a spot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "painter",
+        "descr_trans": "画家"
+      },
+      {
+        "n": "1",
+        "descr": "canvas",
+        "descr_trans": "帆布"
+      },
+      {
+        "n": "2",
+        "descr": "paint",
+        "descr_trans": "画"
+      }
+    ],
+    "roleset_name_trans": "dab，在某物上创建一个点，创建一个点"
+  }
 ]

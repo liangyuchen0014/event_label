@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "calve.01",
-        "roleset_name": "give birth to a calf",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Mother cow"
-            },
-            {
-                "n": "1",
-                "descr": "Baby calf"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "calve.02",
-        "roleset_name": "break away from a larger body",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of sepatation"
-            },
-            {
-                "n": "1",
-                "descr": "entity separating"
-            },
-            {
-                "n": "2",
-                "descr": "source, broken off of"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "calve.01",
+    "roleset_name": "give birth to a calf",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Mother cow",
+        "descr_trans": "母牛"
+      },
+      {
+        "n": "1",
+        "descr": "Baby calf",
+        "descr_trans": "小牛犊"
+      }
+    ],
+    "roleset_name_trans": "生下小牛"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "calve.02",
+    "roleset_name": "break away from a larger body",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of sepatation",
+        "descr_trans": "分居原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity separating",
+        "descr_trans": "实体分离"
+      },
+      {
+        "n": "2",
+        "descr": "source, broken off of",
+        "descr_trans": "来源，断绝"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state",
+        "descr_trans": "结果状态"
+      }
+    ],
+    "roleset_name_trans": "脱离更大的身体"
+  }
 ]

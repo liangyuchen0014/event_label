@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "promise.01",
-        "roleset_name": "promise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "promiser"
-            },
-            {
-                "n": "1",
-                "descr": "person promised to"
-            },
-            {
-                "n": "2",
-                "descr": "promised action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "promise.01",
+    "roleset_name": "promise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "promiser",
+        "descr_trans": "许诺者"
+      },
+      {
+        "n": "1",
+        "descr": "person promised to",
+        "descr_trans": "人许诺"
+      },
+      {
+        "n": "2",
+        "descr": "promised action",
+        "descr_trans": "承诺的行动"
+      }
+    ],
+    "roleset_name_trans": "承诺"
+  }
 ]

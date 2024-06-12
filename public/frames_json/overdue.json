@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overdue.01",
-        "roleset_name": "still needed, but never actually scheduled",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "recipient"
-            },
-            {
-                "n": "2",
-                "descr": "what is needed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "overdue.02",
-        "roleset_name": "past the scheduled time for",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that was scheduled"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 was scheduled to do/undergo/occur"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overdue.01",
+    "roleset_name": "still needed, but never actually scheduled",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "2",
+        "descr": "what is needed",
+        "descr_trans": "需要什么"
+      }
+    ],
+    "roleset_name_trans": "仍然需要，但从未实际安排"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "overdue.02",
+    "roleset_name": "past the scheduled time for",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that was scheduled",
+        "descr_trans": "预定的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 was scheduled to do/undergo/occur",
+        "descr_trans": "arg1 计划做什么/经历/发生"
+      }
+    ],
+    "roleset_name_trans": "超过预定时间"
+  }
 ]

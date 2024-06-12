@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "samba.01",
-        "roleset_name": "samba",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of samba-ing (transitive uses only)"
-            },
-            {
-                "n": "1",
-                "descr": "person(s) doing the samba (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location or path of samba-ing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "samba.01",
+    "roleset_name": "samba",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of samba-ing (transitive uses only)",
+        "descr_trans": "samba-ing 的原因（仅限传递性使用）"
+      },
+      {
+        "n": "1",
+        "descr": "person(s) doing the samba (intransitive subject, transitive object)",
+        "descr_trans": "跳桑巴舞的人（不及物主语，及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location or path of samba-ing",
+        "descr_trans": "samba 的位置或路径"
+      }
+    ],
+    "roleset_name_trans": "桑巴舞"
+  }
 ]

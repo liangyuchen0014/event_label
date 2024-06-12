@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trail.01",
-        "roleset_name": "be subsequent, temporally or spatially, or less than",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing following"
-            },
-            {
-                "n": "1",
-                "descr": "thing followed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trail.03",
-        "roleset_name": "drag, draw, trail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dragger, drawer"
-            },
-            {
-                "n": "1",
-                "descr": "trailer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trail_off.02",
-        "roleset_name": "trail off: come to an end",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing ending"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trail.01",
+    "roleset_name": "be subsequent, temporally or spatially, or less than",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing following",
+        "descr_trans": "接下来的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing followed",
+        "descr_trans": "事情随之而来"
+      }
+    ],
+    "roleset_name_trans": "在时间上或空间上是连续的，或者小于"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trail.03",
+    "roleset_name": "drag, draw, trail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dragger, drawer",
+        "descr_trans": "拖拉机、抽屉"
+      },
+      {
+        "n": "1",
+        "descr": "trailer",
+        "descr_trans": "预告片"
+      }
+    ],
+    "roleset_name_trans": "拖动、绘制、追踪"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trail_off.02",
+    "roleset_name": "trail off: come to an end",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing ending",
+        "descr_trans": "事情结束"
+      }
+    ],
+    "roleset_name_trans": "Trail off：结束"
+  }
 ]

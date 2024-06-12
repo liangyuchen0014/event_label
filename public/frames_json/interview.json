@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "interview.01",
-        "roleset_name": "speak with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interviewer"
-            },
-            {
-                "n": "1",
-                "descr": "interviewee"
-            },
-            {
-                "n": "2",
-                "descr": "purpose or subject matter of interview"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "interview.01",
+    "roleset_name": "speak with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interviewer",
+        "descr_trans": "面试官"
+      },
+      {
+        "n": "1",
+        "descr": "interviewee",
+        "descr_trans": "受访者"
+      },
+      {
+        "n": "2",
+        "descr": "purpose or subject matter of interview",
+        "descr_trans": "访谈的目的或主题"
+      }
+    ],
+    "roleset_name_trans": "和...说话"
+  }
 ]

@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pitch.01",
-        "roleset_name": "throw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thrower"
-            },
-            {
-                "n": "1",
-                "descr": "thing thrown"
-            },
-            {
-                "n": "2",
-                "descr": "thrown at, to, over, etc"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pitch.02",
-        "roleset_name": "set a musical tone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "setter of tone, agent"
-            },
-            {
-                "n": "1",
-                "descr": "tone"
-            },
-            {
-                "n": "2",
-                "descr": "value"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pitch.04",
-        "roleset_name": "advertise in strongly positive terms",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "advertiser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing touted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pitch_in.03",
-        "roleset_name": "pitch in: cooperate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cooperators"
-            },
-            {
-                "n": "1",
-                "descr": "thing added to the cooperation"
-            },
-            {
-                "n": "2",
-                "descr": "cooperative work"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pitch.01",
+    "roleset_name": "throw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thrower",
+        "descr_trans": "投掷者"
+      },
+      {
+        "n": "1",
+        "descr": "thing thrown",
+        "descr_trans": "扔东西"
+      },
+      {
+        "n": "2",
+        "descr": "thrown at, to, over, etc",
+        "descr_trans": "扔向、扔向、越过等"
+      }
+    ],
+    "roleset_name_trans": "扔"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pitch.02",
+    "roleset_name": "set a musical tone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "setter of tone, agent",
+        "descr_trans": "定调者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "tone",
+        "descr_trans": "语气"
+      },
+      {
+        "n": "2",
+        "descr": "value",
+        "descr_trans": "价值"
+      }
+    ],
+    "roleset_name_trans": "设定音乐基调"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pitch.04",
+    "roleset_name": "advertise in strongly positive terms",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "advertiser, agent",
+        "descr_trans": "广告商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "thing touted",
+        "descr_trans": "吹捧的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "以强烈积极的措辞做广告"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pitch_in.03",
+    "roleset_name": "pitch in: cooperate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cooperators",
+        "descr_trans": "合作者"
+      },
+      {
+        "n": "1",
+        "descr": "thing added to the cooperation",
+        "descr_trans": "合作中添加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cooperative work",
+        "descr_trans": "合作工作"
+      }
+    ],
+    "roleset_name_trans": "投入：合作"
+  }
 ]

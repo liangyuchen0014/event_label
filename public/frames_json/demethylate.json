@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demethylate.01",
-        "roleset_name": "remove a methyl group from a chemical compound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of demethylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing demethylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of demethylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demethylate.01",
+    "roleset_name": "remove a methyl group from a chemical compound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of demethylation (e.g. scientist)",
+        "descr_trans": "去甲基化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing demethylated",
+        "descr_trans": "去甲基化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of demethylation",
+        "descr_trans": "去甲基化产物"
+      }
+    ],
+    "roleset_name_trans": "从化合物中除去甲基"
+  }
 ]

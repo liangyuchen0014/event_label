@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "attach.01",
-        "roleset_name": "stick, cause to stick, stuck to something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "patient, first thing being tied"
-            },
-            {
-                "n": "2",
-                "descr": "tied to; second item tied"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "attach.01",
+    "roleset_name": "stick, cause to stick, stuck to something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, first thing being tied",
+        "descr_trans": "耐心，首先被绑住"
+      },
+      {
+        "n": "2",
+        "descr": "tied to; second item tied",
+        "descr_trans": "拴;第二项并列"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "粘住，导致粘住，粘在某物上"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "speed.01",
-        "roleset_name": "(cause to) go fast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fast motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "speed_up.02",
-        "roleset_name": "speed up: accelerate, cause to move fast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fast motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "speedy.03",
-        "roleset_name": "going fast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fast motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "speed.01",
+    "roleset_name": "(cause to) go fast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fast motion",
+        "descr_trans": "快速运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）走得快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "speed_up.02",
+    "roleset_name": "speed up: accelerate, cause to move fast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fast motion",
+        "descr_trans": "快速运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "加速：加速，导致快速移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "speedy.03",
+    "roleset_name": "going fast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fast motion",
+        "descr_trans": "快速运动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "走得快"
+  }
 ]

@@ -1,92 +1,110 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "straighten.01",
-        "roleset_name": "(cause to) become straight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of straightness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming straight"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "straighten_out.02",
-        "roleset_name": "make right",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of rightness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "wrong to right"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "straighten_up.03",
-        "roleset_name": "make straight/neat, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "straightener"
-            },
-            {
-                "n": "1",
-                "descr": "thing made straight/neat"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "straight.04",
-        "roleset_name": "without curves, deviations, adulturations",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing/entity that doesn't deviate"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "straight.05",
-        "roleset_name": "heterosexual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sexual being"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "straight.06",
-        "roleset_name": "candid, frank",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Frank"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "straighten.01",
+    "roleset_name": "(cause to) become straight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of straightness, agent",
+        "descr_trans": "直线的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming straight",
+        "descr_trans": "事情变得直"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from arg0",
+        "descr_trans": "仪器，当与 arg0 分开时"
+      }
+    ],
+    "roleset_name_trans": "（导致）变直"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "straighten_out.02",
+    "roleset_name": "make right",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of rightness, agent",
+        "descr_trans": "正当理由，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "wrong to right",
+        "descr_trans": "从错到对"
+      }
+    ],
+    "roleset_name_trans": "做对"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "straighten_up.03",
+    "roleset_name": "make straight/neat, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "straightener",
+        "descr_trans": "直发器"
+      },
+      {
+        "n": "1",
+        "descr": "thing made straight/neat",
+        "descr_trans": "东西变得笔直/整齐"
+      }
+    ],
+    "roleset_name_trans": "使笔直/整齐，完整"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "straight.04",
+    "roleset_name": "without curves, deviations, adulturations",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing/entity that doesn't deviate",
+        "descr_trans": "不偏离的事物/实体"
+      }
+    ],
+    "roleset_name_trans": "无曲线、偏差、掺假"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "straight.05",
+    "roleset_name": "heterosexual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sexual being",
+        "descr_trans": "性存在"
+      }
+    ],
+    "roleset_name_trans": "异性"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "straight.06",
+    "roleset_name": "candid, frank",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Frank",
+        "descr_trans": "坦率"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "坦率的，坦白的"
+  }
 ]

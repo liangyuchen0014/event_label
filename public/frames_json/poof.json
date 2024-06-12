@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "poof_out.01",
-        "roleset_name": "stick out, protrude",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing extended"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "poof_up.02",
-        "roleset_name": "get bigger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing in size"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "poof_out.01",
+    "roleset_name": "stick out, protrude",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing extended",
+        "descr_trans": "事情延长了"
+      }
+    ],
+    "roleset_name_trans": "伸出来，突出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "poof_up.02",
+    "roleset_name": "get bigger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing in size",
+        "descr_trans": "物体尺寸不断增大"
+      }
+    ],
+    "roleset_name_trans": "变得更大"
+  }
 ]

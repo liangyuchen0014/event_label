@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prompt.01",
-        "roleset_name": "cause an event",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, prompter"
-            },
-            {
-                "n": "1",
-                "descr": "event"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prompt.02",
-        "roleset_name": "bring about, cause",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, prompter"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "prompt.03",
-        "roleset_name": "give the next line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "(tele)prompter"
-            },
-            {
-                "n": "1",
-                "descr": "speaker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prompt.01",
+    "roleset_name": "cause an event",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, prompter",
+        "descr_trans": "原因、提示"
+      },
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      }
+    ],
+    "roleset_name_trans": "引发事件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prompt.02",
+    "roleset_name": "bring about, cause",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, prompter",
+        "descr_trans": "原因、提示"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "引起、导致"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "prompt.03",
+    "roleset_name": "give the next line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "(tele)prompter",
+        "descr_trans": "（电话）提示器"
+      },
+      {
+        "n": "1",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      }
+    ],
+    "roleset_name_trans": "给出下一行"
+  }
 ]

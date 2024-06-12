@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mess.01",
-        "roleset_name": "mess with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "messer"
-            },
-            {
-                "n": "1",
-                "descr": "messed with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mess_up.02",
-        "roleset_name": "make a mess of, messed_up: screwed up, not right",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer/agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing messed up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mess.01",
+    "roleset_name": "mess with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "messer",
+        "descr_trans": "梅塞尔"
+      },
+      {
+        "n": "1",
+        "descr": "messed with",
+        "descr_trans": "搞乱了"
+      }
+    ],
+    "roleset_name_trans": "搞乱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mess_up.02",
+    "roleset_name": "make a mess of, messed_up: screwed up, not right",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing messed up",
+        "descr_trans": "事情搞砸了"
+      }
+    ],
+    "roleset_name_trans": "弄得一团糟，messed_up：搞砸了，不对"
+  }
 ]

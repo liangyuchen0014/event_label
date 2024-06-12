@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decree.01",
-        "roleset_name": "to issue or demand  by decree",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ruler, issuer of decree"
-            },
-            {
-                "n": "1",
-                "descr": "entity decreed"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decree.01",
+    "roleset_name": "to issue or demand  by decree",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ruler, issuer of decree",
+        "descr_trans": "统治者，法令的颁布者"
+      },
+      {
+        "n": "1",
+        "descr": "entity decreed",
+        "descr_trans": "实体法令"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "通过法令发布或要求"
+  }
 ]

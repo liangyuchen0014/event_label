@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "digitize.01",
-        "roleset_name": "put into digital format",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "digitizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing digitized"
-            },
-            {
-                "n": "2",
-                "descr": "former format"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "digitize.01",
+    "roleset_name": "put into digital format",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "digitizer",
+        "descr_trans": "数字转换器"
+      },
+      {
+        "n": "1",
+        "descr": "thing digitized",
+        "descr_trans": "数字化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "former format",
+        "descr_trans": "以前的格式"
+      }
+    ],
+    "roleset_name_trans": "转化为数字格式"
+  }
 ]

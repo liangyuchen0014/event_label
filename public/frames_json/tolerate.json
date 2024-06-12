@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tolerate.01",
-        "roleset_name": "tolerate, put up with, the act of tolerating",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tolerater"
-            },
-            {
-                "n": "1",
-                "descr": "thing tolerated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tolerable.02",
-        "roleset_name": "able to be tolerated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tolerator"
-            },
-            {
-                "n": "1",
-                "descr": "tolerated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tolerate.01",
+    "roleset_name": "tolerate, put up with, the act of tolerating",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tolerater",
+        "descr_trans": "耐受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing tolerated",
+        "descr_trans": "容忍的事情"
+      }
+    ],
+    "roleset_name_trans": "容忍，忍受，容忍的行为"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tolerable.02",
+    "roleset_name": "able to be tolerated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tolerator",
+        "descr_trans": "容忍者"
+      },
+      {
+        "n": "1",
+        "descr": "tolerated",
+        "descr_trans": "容忍的"
+      }
+    ],
+    "roleset_name_trans": "能够忍受"
+  }
 ]

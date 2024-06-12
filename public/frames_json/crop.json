@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crop.01",
-        "roleset_name": "to cut",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity cropped"
-            },
-            {
-                "n": "2",
-                "descr": "extend"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crop_up.02",
-        "roleset_name": "to appear unexpectedly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity cropped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crop.01",
+    "roleset_name": "to cut",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter, agent",
+        "descr_trans": "刀具、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity cropped",
+        "descr_trans": "实体被裁剪"
+      },
+      {
+        "n": "2",
+        "descr": "extend",
+        "descr_trans": "延长"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "切割"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crop_up.02",
+    "roleset_name": "to appear unexpectedly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity cropped",
+        "descr_trans": "实体被裁剪"
+      }
+    ],
+    "roleset_name_trans": "意外地出现"
+  }
 ]

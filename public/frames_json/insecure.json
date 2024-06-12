@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insecure.01",
-        "roleset_name": "feel emotional insecurities",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "experiencer of insecurity"
-            },
-            {
-                "n": "2",
-                "descr": "area of insecurity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "insecure.02",
-        "roleset_name": "not safe, strapped down well, etc.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of non-secure state"
-            },
-            {
-                "n": "1",
-                "descr": "thing that isn't safe, secure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insecure.01",
+    "roleset_name": "feel emotional insecurities",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "experiencer of insecurity",
+        "descr_trans": "不安全感的经历者"
+      },
+      {
+        "n": "2",
+        "descr": "area of insecurity",
+        "descr_trans": "不安全领域"
+      }
+    ],
+    "roleset_name_trans": "感到情绪上的不安全感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "insecure.02",
+    "roleset_name": "not safe, strapped down well, etc.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of non-secure state",
+        "descr_trans": "非安全状态的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing that isn't safe, secure",
+        "descr_trans": "不安全、不安全的事物"
+      }
+    ],
+    "roleset_name_trans": "不安全、绑好等等。"
+  }
 ]

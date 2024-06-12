@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plunder.01",
-        "roleset_name": "to rob of goods or valuables",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Plunderer, robber"
-            },
-            {
-                "n": "1",
-                "descr": "Plundered, entity from which goods are taken"
-            },
-            {
-                "n": "2",
-                "descr": "Goods taken by plundering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plunder.01",
+    "roleset_name": "to rob of goods or valuables",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Plunderer, robber",
+        "descr_trans": "抢劫、抢劫"
+      },
+      {
+        "n": "1",
+        "descr": "Plundered, entity from which goods are taken",
+        "descr_trans": "掠夺，货物被夺走的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Goods taken by plundering",
+        "descr_trans": "掠夺所得的物品"
+      }
+    ],
+    "roleset_name_trans": "抢劫货物或贵重物品"
+  }
 ]

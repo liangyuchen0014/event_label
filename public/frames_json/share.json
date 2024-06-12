@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "share.01",
-        "roleset_name": "share, giving into co-ownership",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sharer"
-            },
-            {
-                "n": "1",
-                "descr": "thing shared"
-            },
-            {
-                "n": "2",
-                "descr": "shared with, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "share_out.02",
-        "roleset_name": "distribute to shareholders",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing given out"
-            },
-            {
-                "n": "2",
-                "descr": "shareholders"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "share.01",
+    "roleset_name": "share, giving into co-ownership",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sharer",
+        "descr_trans": "分享者"
+      },
+      {
+        "n": "1",
+        "descr": "thing shared",
+        "descr_trans": "共享的东西"
+      },
+      {
+        "n": "2",
+        "descr": "shared with, if separate from arg0",
+        "descr_trans": "与 arg0 共享（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "分享，给予共同所有权"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "share_out.02",
+    "roleset_name": "distribute to shareholders",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing given out",
+        "descr_trans": "发出的东西"
+      },
+      {
+        "n": "2",
+        "descr": "shareholders",
+        "descr_trans": "股东"
+      }
+    ],
+    "roleset_name_trans": "分配给股东"
+  }
 ]

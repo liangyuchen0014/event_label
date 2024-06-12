@@ -1,71 +1,86 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gang.01",
-        "roleset_name": "group components together to work in coordiation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "external agent"
-            },
-            {
-                "n": "1",
-                "descr": "first item joined"
-            },
-            {
-                "n": "2",
-                "descr": "second item joined"
-            },
-            {
-                "n": "3",
-                "descr": "instrument of joinery"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gang.03",
-        "roleset_name": "gang up (often against), non-phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first team member"
-            },
-            {
-                "n": "1",
-                "descr": "co-conspirator"
-            },
-            {
-                "n": "2",
-                "descr": "against whom"
-            },
-            {
-                "n": "3",
-                "descr": "shared endeavor"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "gang_up.02",
-        "roleset_name": "team up (often against)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first team member"
-            },
-            {
-                "n": "1",
-                "descr": "co-conspirator"
-            },
-            {
-                "n": "2",
-                "descr": "against whom"
-            },
-            {
-                "n": "3",
-                "descr": "shared endeavor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gang.01",
+    "roleset_name": "group components together to work in coordiation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "external agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "first item joined",
+        "descr_trans": "第一项加入"
+      },
+      {
+        "n": "2",
+        "descr": "second item joined",
+        "descr_trans": "加入第二个项目"
+      },
+      {
+        "n": "3",
+        "descr": "instrument of joinery",
+        "descr_trans": "细木工工具"
+      }
+    ],
+    "roleset_name_trans": "将组件组合在一起以协调工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gang.03",
+    "roleset_name": "gang up (often against), non-phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first team member",
+        "descr_trans": "第一个团队成员"
+      },
+      {
+        "n": "1",
+        "descr": "co-conspirator",
+        "descr_trans": "同谋"
+      },
+      {
+        "n": "2",
+        "descr": "against whom",
+        "descr_trans": "针对谁"
+      },
+      {
+        "n": "3",
+        "descr": "shared endeavor",
+        "descr_trans": "共同努力"
+      }
+    ],
+    "roleset_name_trans": "联合起来（通常反对），非短语"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "gang_up.02",
+    "roleset_name": "team up (often against)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first team member",
+        "descr_trans": "第一个团队成员"
+      },
+      {
+        "n": "1",
+        "descr": "co-conspirator",
+        "descr_trans": "同谋"
+      },
+      {
+        "n": "2",
+        "descr": "against whom",
+        "descr_trans": "针对谁"
+      },
+      {
+        "n": "3",
+        "descr": "shared endeavor",
+        "descr_trans": "共同努力"
+      }
+    ],
+    "roleset_name_trans": "组队（经常对抗）"
+  }
 ]

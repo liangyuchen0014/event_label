@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heparinize.01",
-        "roleset_name": "treat with heparin anticoagulant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, administrator of heparin"
-            },
-            {
-                "n": "1",
-                "descr": "Entity heparin is administered to (patient, destination substance, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heparinize.01",
+    "roleset_name": "treat with heparin anticoagulant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, administrator of heparin",
+        "descr_trans": "肝素代理人、管理员"
+      },
+      {
+        "n": "1",
+        "descr": "Entity heparin is administered to (patient, destination substance, etc.)",
+        "descr_trans": "实体肝素被施用给（患者、目标物质等）"
+      }
+    ],
+    "roleset_name_trans": "用肝素抗凝剂治疗"
+  }
 ]

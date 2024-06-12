@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "believe.01",
-        "roleset_name": "believe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "believer"
-            },
-            {
-                "n": "1",
-                "descr": "believed"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, arg1 is believed to be what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "believable.02",
-        "roleset_name": "able to be believed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "believer"
-            },
-            {
-                "n": "1",
-                "descr": "belief"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "make_believe.03",
-        "roleset_name": "pretend",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pretender"
-            },
-            {
-                "n": "1",
-                "descr": "thing pretended"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "believe.01",
+    "roleset_name": "believe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "believer",
+        "descr_trans": "信徒"
+      },
+      {
+        "n": "1",
+        "descr": "believed",
+        "descr_trans": "相信"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, arg1 is believed to be what?",
+        "descr_trans": "属性，arg1 被认为是什么？"
+      }
+    ],
+    "roleset_name_trans": "相信"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "believable.02",
+    "roleset_name": "able to be believed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "believer",
+        "descr_trans": "信徒"
+      },
+      {
+        "n": "1",
+        "descr": "belief",
+        "descr_trans": "信仰"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "能够被相信"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "make_believe.03",
+    "roleset_name": "pretend",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pretender",
+        "descr_trans": "伪装者"
+      },
+      {
+        "n": "1",
+        "descr": "thing pretended",
+        "descr_trans": "假装的东西"
+      }
+    ],
+    "roleset_name_trans": "假装"
+  }
 ]

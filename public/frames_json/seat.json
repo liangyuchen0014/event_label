@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seat.01",
-        "roleset_name": "to place in a seat, provide seats",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer, provider of seat"
-            },
-            {
-                "n": "1",
-                "descr": "entity seated"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "seat.02",
-        "roleset_name": "to place in a position of authority",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity seated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seat.01",
+    "roleset_name": "to place in a seat, provide seats",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer, provider of seat",
+        "descr_trans": "安置者，座位提供者"
+      },
+      {
+        "n": "1",
+        "descr": "entity seated",
+        "descr_trans": "实体就座"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "安排座位，提供座位"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "seat.02",
+    "roleset_name": "to place in a position of authority",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity seated",
+        "descr_trans": "实体就座"
+      }
+    ],
+    "roleset_name_trans": "处于权威地位"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "joke.01",
-        "roleset_name": "to tell jokes, to tell funnies (jokes!)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joker"
-            },
-            {
-                "n": "1",
-                "descr": "other party joking, joke with"
-            },
-            {
-                "n": "2",
-                "descr": "joke"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "joke_around.02",
-        "roleset_name": "having a laugh together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joker"
-            },
-            {
-                "n": "1",
-                "descr": "other party joking, joke with"
-            },
-            {
-                "n": "2",
-                "descr": "joke"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "joke.01",
+    "roleset_name": "to tell jokes, to tell funnies (jokes!)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joker",
+        "descr_trans": "小丑"
+      },
+      {
+        "n": "1",
+        "descr": "other party joking, joke with",
+        "descr_trans": "对方开玩笑，跟对方开玩笑"
+      },
+      {
+        "n": "2",
+        "descr": "joke",
+        "descr_trans": "玩笑"
+      }
+    ],
+    "roleset_name_trans": "讲笑话，讲笑话（笑话！）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "joke_around.02",
+    "roleset_name": "having a laugh together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joker",
+        "descr_trans": "小丑"
+      },
+      {
+        "n": "1",
+        "descr": "other party joking, joke with",
+        "descr_trans": "对方开玩笑，跟对方开玩笑"
+      },
+      {
+        "n": "2",
+        "descr": "joke",
+        "descr_trans": "玩笑"
+      }
+    ],
+    "roleset_name_trans": "一起欢笑"
+  }
 ]

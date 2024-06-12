@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stake.01",
-        "roleset_name": "make a wager",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "better"
-            },
-            {
-                "n": "1",
-                "descr": "amount of bet"
-            },
-            {
-                "n": "2",
-                "descr": "basis, proposition, bet-on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stake_out.02",
-        "roleset_name": "claim (as territory)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "claimer, asserter"
-            },
-            {
-                "n": "1",
-                "descr": "thing claimed, asserted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, claimed/asserted for"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stake.01",
+    "roleset_name": "make a wager",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "better",
+        "descr_trans": "更好的"
+      },
+      {
+        "n": "1",
+        "descr": "amount of bet",
+        "descr_trans": "投注金额"
+      },
+      {
+        "n": "2",
+        "descr": "basis, proposition, bet-on",
+        "descr_trans": "基础、主张、赌注"
+      }
+    ],
+    "roleset_name_trans": "打赌"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stake_out.02",
+    "roleset_name": "claim (as territory)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "claimer, asserter",
+        "descr_trans": "主张者, 断言者"
+      },
+      {
+        "n": "1",
+        "descr": "thing claimed, asserted",
+        "descr_trans": "声称的事物，断言的事物"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, claimed/asserted for",
+        "descr_trans": "有益的，声称/主张的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "声称（作为领土）"
+  }
 ]

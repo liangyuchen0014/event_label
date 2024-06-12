@@ -1,92 +1,110 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fit.01",
-        "roleset_name": "CAUSE TO fit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of fitting; must be present for this sense to apply"
-            },
-            {
-                "n": "1",
-                "descr": "thing that fits"
-            },
-            {
-                "n": "2",
-                "descr": "fits whom, what, where"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fit.03",
-        "roleset_name": "ready, primed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is primed, ready"
-            },
-            {
-                "n": "2",
-                "descr": "to what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fit.04",
-        "roleset_name": "have a paroxysm",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "type or nature of attack"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fit.05",
-        "roleset_name": "in good physical condition; healthy and athletic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "healthy one"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "fit.06",
-        "roleset_name": "be the right size; stative sense",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that fits"
-            },
-            {
-                "n": "2",
-                "descr": "fits what, where"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "fit_in.02",
-        "roleset_name": "fit in a specific place due to suitable features",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first or all things fitting in"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, fitting in with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fit.01",
+    "roleset_name": "CAUSE TO fit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of fitting; must be present for this sense to apply",
+        "descr_trans": "代理人、装配原因；必须存在才能应用这种意义"
+      },
+      {
+        "n": "1",
+        "descr": "thing that fits",
+        "descr_trans": "适合的东西"
+      },
+      {
+        "n": "2",
+        "descr": "fits whom, what, where",
+        "descr_trans": "适合谁、什么、哪里"
+      }
+    ],
+    "roleset_name_trans": "原因适合"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fit.03",
+    "roleset_name": "ready, primed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is primed, ready",
+        "descr_trans": "已准备就绪的实体"
+      },
+      {
+        "n": "2",
+        "descr": "to what",
+        "descr_trans": "到什么"
+      }
+    ],
+    "roleset_name_trans": "准备好，准备好"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fit.04",
+    "roleset_name": "have a paroxysm",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "2",
+        "descr": "type or nature of attack",
+        "descr_trans": "攻击的类型或性质"
+      }
+    ],
+    "roleset_name_trans": "发作"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fit.05",
+    "roleset_name": "in good physical condition; healthy and athletic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "healthy one",
+        "descr_trans": "健康的一个"
+      }
+    ],
+    "roleset_name_trans": "身体状况良好；健康和运动"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "fit.06",
+    "roleset_name": "be the right size; stative sense",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that fits",
+        "descr_trans": "适合的东西"
+      },
+      {
+        "n": "2",
+        "descr": "fits what, where",
+        "descr_trans": "适合什么、在哪里"
+      }
+    ],
+    "roleset_name_trans": "尺寸合适；静态意义"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "fit_in.02",
+    "roleset_name": "fit in a specific place due to suitable features",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first or all things fitting in",
+        "descr_trans": "首先或所有适合的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, fitting in with what",
+        "descr_trans": "第二件事，适应什么"
+      }
+    ],
+    "roleset_name_trans": "由于合适的功能而适合特定的地方"
+  }
 ]

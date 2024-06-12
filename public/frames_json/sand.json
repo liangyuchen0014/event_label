@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sand.01",
-        "roleset_name": "make smooth by sanding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "handyman, agent"
-            },
-            {
-                "n": "1",
-                "descr": "location/entity made smooth"
-            },
-            {
-                "n": "2",
-                "descr": "sandpaper, entity used to sand arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sand.01",
+    "roleset_name": "make smooth by sanding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "handyman, agent",
+        "descr_trans": "杂工、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "location/entity made smooth",
+        "descr_trans": "位置/实体变得平滑"
+      },
+      {
+        "n": "2",
+        "descr": "sandpaper, entity used to sand arg1",
+        "descr_trans": "砂纸，用于打磨 arg1 的实体"
+      }
+    ],
+    "roleset_name_trans": "通过打磨使其光滑"
+  }
 ]

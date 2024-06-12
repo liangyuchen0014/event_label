@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "organize.01",
-        "roleset_name": "make organized, orderly arrangment, having a systematic, efficient (maybe unified) structure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "organizer, entity with good organizational skills"
-            },
-            {
-                "n": "1",
-                "descr": "thing organized, domain in which arg0 has good skills"
-            },
-            {
-                "n": "2",
-                "descr": "previous state"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "organize.01",
+    "roleset_name": "make organized, orderly arrangment, having a systematic, efficient (maybe unified) structure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "organizer, entity with good organizational skills",
+        "descr_trans": "组织者，具有良好组织能力的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing organized, domain in which arg0 has good skills",
+        "descr_trans": "事物组织有序，arg0 具有良好技能的领域"
+      },
+      {
+        "n": "2",
+        "descr": "previous state",
+        "descr_trans": "之前的状态"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "进行有组织的、有序的安排，具有系统的、高效的（也许是统一的）结构"
+  }
 ]

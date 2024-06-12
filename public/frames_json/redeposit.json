@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redeposit.01",
-        "roleset_name": "put something somewhere, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing deposited"
-            },
-            {
-                "n": "2",
-                "descr": "where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redeposit.01",
+    "roleset_name": "put something somewhere, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing deposited",
+        "descr_trans": "存入的东西"
+      },
+      {
+        "n": "2",
+        "descr": "where",
+        "descr_trans": "在哪里"
+      }
+    ],
+    "roleset_name_trans": "再次把东西放在某个地方"
+  }
 ]

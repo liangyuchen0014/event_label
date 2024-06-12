@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arraign.01",
-        "roleset_name": "call before court to answer indictment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "legal authority"
-            },
-            {
-                "n": "1",
-                "descr": "person arraigned"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arraign.01",
+    "roleset_name": "call before court to answer indictment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "legal authority",
+        "descr_trans": "法律权威"
+      },
+      {
+        "n": "1",
+        "descr": "person arraigned",
+        "descr_trans": "被提审的人"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "出庭答辩起诉书"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debrief.01",
-        "roleset_name": "obtain information following a mission or act",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interrogator, one conducting debriefing"
-            },
-            {
-                "n": "1",
-                "descr": "interviewee, giver of information"
-            },
-            {
-                "n": "2",
-                "descr": "topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debrief.01",
+    "roleset_name": "obtain information following a mission or act",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interrogator, one conducting debriefing",
+        "descr_trans": "审讯员，一名进行汇报"
+      },
+      {
+        "n": "1",
+        "descr": "interviewee, giver of information",
+        "descr_trans": "受访者、信息提供者"
+      },
+      {
+        "n": "2",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "执行任务或行动后获取信息"
+  }
 ]

@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adjust.01",
-        "roleset_name": "change (slightly)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "adjusted to; goal state; outside situation that arg1 is wanted to match"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            },
-            {
-                "n": "4",
-                "descr": "purpose, reason for adjustment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adjust.01",
+    "roleset_name": "change (slightly)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "adjusted to; goal state; outside situation that arg1 is wanted to match",
+        "descr_trans": "调整为；目标状态； arg1 想要匹配的外部情况"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "4",
+        "descr": "purpose, reason for adjustment",
+        "descr_trans": "调整目的、理由"
+      }
+    ],
+    "roleset_name_trans": "改变（轻微）"
+  }
 ]

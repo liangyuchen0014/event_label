@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "echo.01",
-        "roleset_name": "repeat a sound, repetition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "repeater, imitator"
-            },
-            {
-                "n": "1",
-                "descr": "original"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "echo.02",
-        "roleset_name": "sonogram of the heart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor, clinician, agent"
-            },
-            {
-                "n": "1",
-                "descr": "subject - patient as a whole or the specific body part"
-            },
-            {
-                "n": "2",
-                "descr": "result, conclusion; DO NOT USE THIS ARGUMENT IN THYME AMR ANNOTATION"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "echo.01",
+    "roleset_name": "repeat a sound, repetition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "repeater, imitator",
+        "descr_trans": "复读机、模仿者"
+      },
+      {
+        "n": "1",
+        "descr": "original",
+        "descr_trans": "原来的"
+      }
+    ],
+    "roleset_name_trans": "重复一个声音，重复"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "echo.02",
+    "roleset_name": "sonogram of the heart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor, clinician, agent",
+        "descr_trans": "医生、临床医生、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "subject - patient as a whole or the specific body part",
+        "descr_trans": "主题 - 患者整体或特定身体部位"
+      },
+      {
+        "n": "2",
+        "descr": "result, conclusion; DO NOT USE THIS ARGUMENT IN THYME AMR ANNOTATION",
+        "descr_trans": "结果，结论；不要在 THYME AMR 注释中使用此参数"
+      }
+    ],
+    "roleset_name_trans": "心脏超声图"
+  }
 ]

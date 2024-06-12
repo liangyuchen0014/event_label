@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "address.01",
-        "roleset_name": "put an address on, or speak to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "addresser"
-            },
-            {
-                "n": "1",
-                "descr": "item being addressed (letter, speech, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "hearer/recipient"
-            },
-            {
-                "n": "3",
-                "descr": "address as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "address.02",
-        "roleset_name": "deal with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "dealing with what"
-            },
-            {
-                "n": "2",
-                "descr": "answer, dealing how"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "address.03",
-        "roleset_name": "answer, pay attention to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "address.01",
+    "roleset_name": "put an address on, or speak to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "addresser",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "item being addressed (letter, speech, etc)",
+        "descr_trans": "正在处理的项目（信件、演讲等）"
+      },
+      {
+        "n": "2",
+        "descr": "hearer/recipient",
+        "descr_trans": "听者/接受者"
+      },
+      {
+        "n": "3",
+        "descr": "address as",
+        "descr_trans": "地址为"
+      }
+    ],
+    "roleset_name_trans": "留下地址，或与"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "address.02",
+    "roleset_name": "deal with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "dealing with what",
+        "descr_trans": "处理什么"
+      },
+      {
+        "n": "2",
+        "descr": "answer, dealing how",
+        "descr_trans": "回答，处理方式"
+      }
+    ],
+    "roleset_name_trans": "处理"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "address.03",
+    "roleset_name": "answer, pay attention to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "回答，关注"
+  }
 ]

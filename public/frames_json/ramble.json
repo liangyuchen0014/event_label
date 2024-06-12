@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ramble.01",
-        "roleset_name": "move aimlessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ramble.02",
-        "roleset_name": "talk aimlessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ramble.01",
+    "roleset_name": "move aimlessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "漫无目的地移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ramble.02",
+    "roleset_name": "talk aimlessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, topic",
+        "descr_trans": "话语、话题"
+      }
+    ],
+    "roleset_name_trans": "漫无目的地说话"
+  }
 ]

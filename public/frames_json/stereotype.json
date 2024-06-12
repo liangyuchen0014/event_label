@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stereotype.01",
-        "roleset_name": "make a broad generalization about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stereotyper"
-            },
-            {
-                "n": "1",
-                "descr": "entity being stereotyped"
-            },
-            {
-                "n": "2",
-                "descr": "the stereotype itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stereotypic.02",
-        "roleset_name": "conventional, oversimplified conception",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "typical trait, thing"
-            },
-            {
-                "n": "2",
-                "descr": "entity arg1 is stereotypical for/of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stereotype.01",
+    "roleset_name": "make a broad generalization about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stereotyper",
+        "descr_trans": "刻板印象"
+      },
+      {
+        "n": "1",
+        "descr": "entity being stereotyped",
+        "descr_trans": "实体被定型"
+      },
+      {
+        "n": "2",
+        "descr": "the stereotype itself",
+        "descr_trans": "刻板印象本身"
+      }
+    ],
+    "roleset_name_trans": "做一个广泛的概括"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stereotypic.02",
+    "roleset_name": "conventional, oversimplified conception",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "typical trait, thing",
+        "descr_trans": "典型特征、事物"
+      },
+      {
+        "n": "2",
+        "descr": "entity arg1 is stereotypical for/of",
+        "descr_trans": "实体 arg1 是典型的 for/of"
+      }
+    ],
+    "roleset_name_trans": "传统的、过于简单化的概念"
+  }
 ]

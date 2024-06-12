@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grind.01",
-        "roleset_name": "make smaller, crush",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grinder"
-            },
-            {
-                "n": "1",
-                "descr": "thing crushed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "grind.03",
-        "roleset_name": "emit grinding sound",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing making sound"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "grind.04",
-        "roleset_name": "idiomatic: grind to a [stop|halt]",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stopping"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopping"
-            },
-            {
-                "n": "2",
-                "descr": "stop, halt, etc"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "grind.05",
-        "roleset_name": "move with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "grind_up.02",
-        "roleset_name": "make smaller, crush",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing crushed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grind.01",
+    "roleset_name": "make smaller, crush",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grinder",
+        "descr_trans": "磨床"
+      },
+      {
+        "n": "1",
+        "descr": "thing crushed",
+        "descr_trans": "东西压碎了"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变小，压碎"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "grind.03",
+    "roleset_name": "emit grinding sound",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing making sound",
+        "descr_trans": "发出声音的东西"
+      }
+    ],
+    "roleset_name_trans": "发出磨擦声"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "grind.04",
+    "roleset_name": "idiomatic: grind to a [stop|halt]",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stopping",
+        "descr_trans": "停止的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopping",
+        "descr_trans": "事情停止"
+      },
+      {
+        "n": "2",
+        "descr": "stop, halt, etc",
+        "descr_trans": "停止，停止，等等"
+      }
+    ],
+    "roleset_name_trans": "惯用语：磨到[停止|停止]"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "grind.05",
+    "roleset_name": "move with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "移动困难"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "grind_up.02",
+    "roleset_name": "make smaller, crush",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing crushed",
+        "descr_trans": "东西压碎了"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变小，压碎"
+  }
 ]

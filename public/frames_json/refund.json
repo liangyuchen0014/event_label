@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refund.01",
-        "roleset_name": "pay back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "refunder"
-            },
-            {
-                "n": "1",
-                "descr": "amount refunded"
-            },
-            {
-                "n": "2",
-                "descr": "refunded to"
-            },
-            {
-                "n": "3",
-                "descr": "in exchange for (might not be present)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refund.01",
+    "roleset_name": "pay back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "refunder",
+        "descr_trans": "退款者"
+      },
+      {
+        "n": "1",
+        "descr": "amount refunded",
+        "descr_trans": "退款金额"
+      },
+      {
+        "n": "2",
+        "descr": "refunded to",
+        "descr_trans": "退还给"
+      },
+      {
+        "n": "3",
+        "descr": "in exchange for (might not be present)",
+        "descr_trans": "作为交换（可能不存在）"
+      }
+    ],
+    "roleset_name_trans": "偿还"
+  }
 ]

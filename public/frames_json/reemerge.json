@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reemerge.01",
-        "roleset_name": "exit again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing exiting"
-            },
-            {
-                "n": "1",
-                "descr": "thing/place exited from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reemerge.02",
-        "roleset_name": "come to be seen as (again)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing emerging"
-            },
-            {
-                "n": "1",
-                "descr": "as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reemerge.01",
+    "roleset_name": "exit again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing exiting",
+        "descr_trans": "事物退出"
+      },
+      {
+        "n": "1",
+        "descr": "thing/place exited from",
+        "descr_trans": "退出的事物/地点"
+      }
+    ],
+    "roleset_name_trans": "再次退出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reemerge.02",
+    "roleset_name": "come to be seen as (again)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing emerging",
+        "descr_trans": "事物出现"
+      },
+      {
+        "n": "1",
+        "descr": "as what",
+        "descr_trans": "作为什么"
+      }
+    ],
+    "roleset_name_trans": "再次被视为"
+  }
 ]

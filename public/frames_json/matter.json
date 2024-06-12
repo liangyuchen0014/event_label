@@ -1,23 +1,27 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "matter.01",
-        "roleset_name": "be of importance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that matters"
-            },
-            {
-                "n": "2",
-                "descr": "matters to whom"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "matter.02",
-        "roleset_name": "subject matter: not eventive, do not use. Select .YY",
-        "roles": []
-    }
+  {
+    "uid": 1,
+    "roleset_id": "matter.01",
+    "roleset_name": "be of importance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that matters",
+        "descr_trans": "重要的事情"
+      },
+      {
+        "n": "2",
+        "descr": "matters to whom",
+        "descr_trans": "对谁来说很重要"
+      }
+    ],
+    "roleset_name_trans": "具有重要意义"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "matter.02",
+    "roleset_name": "subject matter: not eventive, do not use. Select .YY",
+    "roles": [],
+    "roleset_name_trans": "题材：不活跃，请勿使用。选择.YY"
+  }
 ]

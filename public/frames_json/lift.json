@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lift.01",
-        "roleset_name": "cause increase in elevation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "elevator, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            },
-            {
-                "n": "m",
-                "descr": "Medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lift.02",
-        "roleset_name": "acquire stealthily, remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring/removing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired/removed"
-            },
-            {
-                "n": "2",
-                "descr": "acquired/removed-from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lift.01",
+    "roleset_name": "cause increase in elevation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "elevator, Agent",
+        "descr_trans": "电梯、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "Medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "导致海拔升高"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lift.02",
+    "roleset_name": "acquire stealthily, remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring/removing something",
+        "descr_trans": "代理，实体获取/删除某物"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired/removed",
+        "descr_trans": "获得/移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "acquired/removed-from",
+        "descr_trans": "获取/移除自"
+      }
+    ],
+    "roleset_name_trans": "偷偷地获取，删除"
+  }
 ]

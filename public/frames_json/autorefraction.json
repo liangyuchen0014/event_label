@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "autorefraction.01",
-        "roleset_name": "automatically measure refraction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of test, doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient, eye, deflector of light"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of machine used, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "autorefraction.01",
+    "roleset_name": "automatically measure refraction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of test, doctor",
+        "descr_trans": "测试者、医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, eye, deflector of light",
+        "descr_trans": "病人、眼睛、光偏转器"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of machine used, instrument",
+        "descr_trans": "明确提及所使用的机器、仪器"
+      }
+    ],
+    "roleset_name_trans": "自动测量屈光度"
+  }
 ]

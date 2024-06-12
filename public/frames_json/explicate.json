@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "explicate.01",
-        "roleset_name": "make clear or explicit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of clarification"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming clearer"
-            },
-            {
-                "n": "2",
-                "descr": "explained to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "explicit.02",
-        "roleset_name": "graphic to the point of being potentially offensive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "overly graphic thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "explicit.03",
-        "roleset_name": "clear, detailed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "detail-giver"
-            },
-            {
-                "n": "1",
-                "descr": "clear thing"
-            },
-            {
-                "n": "2",
-                "descr": "explained to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "explicate.01",
+    "roleset_name": "make clear or explicit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of clarification",
+        "descr_trans": "澄清的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming clearer",
+        "descr_trans": "事情变得更加清晰"
+      },
+      {
+        "n": "2",
+        "descr": "explained to",
+        "descr_trans": "解释给"
+      }
+    ],
+    "roleset_name_trans": "明确或明确"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "explicit.02",
+    "roleset_name": "graphic to the point of being potentially offensive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "overly graphic thing",
+        "descr_trans": "过于图形化的东西"
+      }
+    ],
+    "roleset_name_trans": "图形达到潜在冒犯的程度"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "explicit.03",
+    "roleset_name": "clear, detailed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "detail-giver",
+        "descr_trans": "零售供应商"
+      },
+      {
+        "n": "1",
+        "descr": "clear thing",
+        "descr_trans": "明确的事情"
+      },
+      {
+        "n": "2",
+        "descr": "explained to",
+        "descr_trans": "解释给"
+      }
+    ],
+    "roleset_name_trans": "清晰、详细"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prescribe.01",
-        "roleset_name": "to establish rules",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "establisher of rules, agent"
-            },
-            {
-                "n": "1",
-                "descr": "rule"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prescribe.02",
-        "roleset_name": "to order a medicine or other treatment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "medicine"
-            },
-            {
-                "n": "2",
-                "descr": "prescribed for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prescribe.01",
+    "roleset_name": "to establish rules",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "establisher of rules, agent",
+        "descr_trans": "规则制定者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "rule",
+        "descr_trans": "规则"
+      }
+    ],
+    "roleset_name_trans": "制定规则"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prescribe.02",
+    "roleset_name": "to order a medicine or other treatment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "medicine",
+        "descr_trans": "药品"
+      },
+      {
+        "n": "2",
+        "descr": "prescribed for",
+        "descr_trans": "规定用于"
+      }
+    ],
+    "roleset_name_trans": "订购药物或其他治疗"
+  }
 ]

@@ -1,382 +1,460 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "make.01",
-        "roleset_name": "create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "make.02",
-        "roleset_name": "cause (to be)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "impeller to action"
-            },
-            {
-                "n": "1",
-                "descr": "impelled action/ predication"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "make.05",
-        "roleset_name": "earn cash or wages, earning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "earner"
-            },
-            {
-                "n": "1",
-                "descr": "wages"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "make.06",
-        "roleset_name": "achieve being, seem",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "make.18",
-        "roleset_name": "arrive at, achieve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "achiever, agent"
-            },
-            {
-                "n": "1",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "make.19",
-        "roleset_name": "\"way\" construction: make one's way, travel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveler"
-            },
-            {
-                "n": "1",
-                "descr": "his/her/their/etc way"
-            },
-            {
-                "n": "2",
-                "descr": "to where? destination"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "make.27",
-        "roleset_name": "interpret, have an understanding of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "understander"
-            },
-            {
-                "n": "1",
-                "descr": "the understanding arg has; interpretation"
-            },
-            {
-                "n": "2",
-                "descr": "interpretation of what"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "make.LV",
-        "roleset_name": "light verb",
-        "roles": []
-    },
-    {
-        "uid": 9,
-        "roleset_id": "make_up.07",
-        "roleset_name": "comprise, build, structure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "components"
-            },
-            {
-                "n": "1",
-                "descr": "whole"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "make_up.08",
-        "roleset_name": "compose, set into place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "composer"
-            },
-            {
-                "n": "1",
-                "descr": "thing composed"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "make_up.09",
-        "roleset_name": "reconcile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one person"
-            },
-            {
-                "n": "1",
-                "descr": "the other"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "make_up.10",
-        "roleset_name": "create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "make_up.11",
-        "roleset_name": "catch up, do at a later date after having missed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity which is behind in something (eg payments)"
-            },
-            {
-                "n": "2",
-                "descr": "the something"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "make_up.16",
-        "roleset_name": "compensate (for)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "compensator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "shortcoming"
-            },
-            {
-                "n": "2",
-                "descr": "means of repairing shortcoming"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "make_out.12",
-        "roleset_name": "discern",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discerner, viewer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing discerned"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "make_out.13",
-        "roleset_name": "write",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            },
-            {
-                "n": "2",
-                "descr": "written to"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "make_out.15",
-        "roleset_name": "proceed, meet with (success)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "make_out.23",
-        "roleset_name": "describe, make it seem like",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute; what arg1 is made to seem like"
-            }
-        ]
-    },
-    {
-        "uid": 19,
-        "roleset_id": "make_out.26",
-        "roleset_name": "french kiss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "kisser"
-            },
-            {
-                "n": "1",
-                "descr": "kissed"
-            }
-        ]
-    },
-    {
-        "uid": 20,
-        "roleset_id": "make_it.14",
-        "roleset_name": "achieve or arrive at",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 21,
-        "roleset_id": "make_off.17",
-        "roleset_name": "escape (with)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "escaper"
-            },
-            {
-                "n": "1",
-                "descr": "luggage"
-            }
-        ]
-    },
-    {
-        "uid": 22,
-        "roleset_id": "make_over.22",
-        "roleset_name": "rework or revamp, renovate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one doing the makeover"
-            },
-            {
-                "n": "1",
-                "descr": "patient, one being made over"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of making over"
-            },
-            {
-                "n": "3",
-                "descr": "end state, made over into what?"
-            }
-        ]
-    },
-    {
-        "uid": 23,
-        "roleset_id": "making.03",
-        "roleset_name": "nominal version of light verb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker, subject of light verbish noun"
-            },
-            {
-                "n": "1",
-                "descr": "true noun predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "make.01",
+    "roleset_name": "create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "创造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "make.02",
+    "roleset_name": "cause (to be)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "impeller to action",
+        "descr_trans": "叶轮动作"
+      },
+      {
+        "n": "1",
+        "descr": "impelled action/ predication",
+        "descr_trans": "推动行动/预测"
+      }
+    ],
+    "roleset_name_trans": "导致（成为）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "make.05",
+    "roleset_name": "earn cash or wages, earning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "earner",
+        "descr_trans": "赚钱者"
+      },
+      {
+        "n": "1",
+        "descr": "wages",
+        "descr_trans": "工资"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "赚取现金或工资，赚取"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "make.06",
+    "roleset_name": "achieve being, seem",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming",
+        "descr_trans": "看起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "实现存在，似乎"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "make.18",
+    "roleset_name": "arrive at, achieve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "achiever, agent",
+        "descr_trans": "成就者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "到达，达到"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "make.19",
+    "roleset_name": "\"way\" construction: make one's way, travel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveler",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "his/her/their/etc way",
+        "descr_trans": "他/她/他们/等等的方式"
+      },
+      {
+        "n": "2",
+        "descr": "to where? destination",
+        "descr_trans": "去哪里？目的地"
+      }
+    ],
+    "roleset_name_trans": "“路”构：开路、旅行"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "make.27",
+    "roleset_name": "interpret, have an understanding of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "understander",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "the understanding arg has; interpretation",
+        "descr_trans": "理解arg有；解释"
+      },
+      {
+        "n": "2",
+        "descr": "interpretation of what",
+        "descr_trans": "解释什么"
+      }
+    ],
+    "roleset_name_trans": "解释，理解"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "make.LV",
+    "roleset_name": "light verb",
+    "roles": [],
+    "roleset_name_trans": "轻动词"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "make_up.07",
+    "roleset_name": "comprise, build, structure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "components",
+        "descr_trans": "成分"
+      },
+      {
+        "n": "1",
+        "descr": "whole",
+        "descr_trans": "所有的"
+      }
+    ],
+    "roleset_name_trans": "包括、构建、结构"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "make_up.08",
+    "roleset_name": "compose, set into place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "composer",
+        "descr_trans": "作曲家"
+      },
+      {
+        "n": "1",
+        "descr": "thing composed",
+        "descr_trans": "组成的东西"
+      }
+    ],
+    "roleset_name_trans": "组成，就位"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "make_up.09",
+    "roleset_name": "reconcile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one person",
+        "descr_trans": "一个人"
+      },
+      {
+        "n": "1",
+        "descr": "the other",
+        "descr_trans": "另一个"
+      }
+    ],
+    "roleset_name_trans": "调和"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "make_up.10",
+    "roleset_name": "create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "创造"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "make_up.11",
+    "roleset_name": "catch up, do at a later date after having missed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity which is behind in something (eg payments)",
+        "descr_trans": "落后的实体（例如付款）"
+      },
+      {
+        "n": "2",
+        "descr": "the something",
+        "descr_trans": "某事"
+      }
+    ],
+    "roleset_name_trans": "赶上，错过后稍后再做"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "make_up.16",
+    "roleset_name": "compensate (for)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "compensator, agent",
+        "descr_trans": "补偿器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "shortcoming",
+        "descr_trans": "缺点"
+      },
+      {
+        "n": "2",
+        "descr": "means of repairing shortcoming",
+        "descr_trans": "弥补缺点的方法"
+      }
+    ],
+    "roleset_name_trans": "补偿）"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "make_out.12",
+    "roleset_name": "discern",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discerner, viewer, agent",
+        "descr_trans": "辨别、观察者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing discerned",
+        "descr_trans": "耐心，事物被辨别"
+      }
+    ],
+    "roleset_name_trans": "辨别"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "make_out.13",
+    "roleset_name": "write",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      },
+      {
+        "n": "2",
+        "descr": "written to",
+        "descr_trans": "写给"
+      }
+    ],
+    "roleset_name_trans": "写"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "make_out.15",
+    "roleset_name": "proceed, meet with (success)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "继续，与（成功）会面"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "make_out.23",
+    "roleset_name": "describe, make it seem like",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute; what arg1 is made to seem like",
+        "descr_trans": "次要属性； arg1 看起来像什么"
+      }
+    ],
+    "roleset_name_trans": "描述，使其看起来像"
+  },
+  {
+    "uid": 19,
+    "roleset_id": "make_out.26",
+    "roleset_name": "french kiss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "kisser",
+        "descr_trans": "亲吻者"
+      },
+      {
+        "n": "1",
+        "descr": "kissed",
+        "descr_trans": "亲吻"
+      }
+    ],
+    "roleset_name_trans": "法式热吻"
+  },
+  {
+    "uid": 20,
+    "roleset_id": "make_it.14",
+    "roleset_name": "achieve or arrive at",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "达到或达到"
+  },
+  {
+    "uid": 21,
+    "roleset_id": "make_off.17",
+    "roleset_name": "escape (with)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "escaper",
+        "descr_trans": "逃亡者"
+      },
+      {
+        "n": "1",
+        "descr": "luggage",
+        "descr_trans": "行李"
+      }
+    ],
+    "roleset_name_trans": "逃脱（与）"
+  },
+  {
+    "uid": 22,
+    "roleset_id": "make_over.22",
+    "roleset_name": "rework or revamp, renovate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one doing the makeover",
+        "descr_trans": "代理人，负责改造的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, one being made over",
+        "descr_trans": "病人，一个正在改造的病人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of making over",
+        "descr_trans": "改造工具"
+      },
+      {
+        "n": "3",
+        "descr": "end state, made over into what?",
+        "descr_trans": "最终状态，变成了什么？"
+      }
+    ],
+    "roleset_name_trans": "返工或改造、翻新"
+  },
+  {
+    "uid": 23,
+    "roleset_id": "making.03",
+    "roleset_name": "nominal version of light verb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker, subject of light verbish noun",
+        "descr_trans": "制造商，轻动词名词的主语"
+      },
+      {
+        "n": "1",
+        "descr": "true noun predicate",
+        "descr_trans": "真名词谓语"
+      }
+    ],
+    "roleset_name_trans": "轻动词的名义版本"
+  }
 ]

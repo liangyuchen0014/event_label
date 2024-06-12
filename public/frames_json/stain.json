@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stain.01",
-        "roleset_name": "to discolor, soil, or spot, spotting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity stained"
-            },
-            {
-                "n": "2",
-                "descr": "stained with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stain.01",
+    "roleset_name": "to discolor, soil, or spot, spotting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity stained",
+        "descr_trans": "实体染色"
+      },
+      {
+        "n": "2",
+        "descr": "stained with what",
+        "descr_trans": "沾上了什么"
+      }
+    ],
+    "roleset_name_trans": "使变色、弄脏或出现斑点、斑点"
+  }
 ]

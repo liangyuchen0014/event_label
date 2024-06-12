@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hibernate.01",
-        "roleset_name": "be in an dormant state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            },
-            {
-                "n": "1",
-                "descr": "season missed, reason for hibernation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hibernate.01",
+    "roleset_name": "be in an dormant state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "1",
+        "descr": "season missed, reason for hibernation",
+        "descr_trans": "季节错过，冬眠的原因"
+      }
+    ],
+    "roleset_name_trans": "处于休眠状态"
+  }
 ]

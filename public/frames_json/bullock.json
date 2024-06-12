@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bullock.01",
-        "roleset_name": "fool",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trickster, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity deceived"
-            },
-            {
-                "n": "2",
-                "descr": "proposition, deceived into believing/doing what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bullock.02",
-        "roleset_name": "to push through, acting like a bull",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Bull-like entity, pusher"
-            },
-            {
-                "n": "1",
-                "descr": "\"way\" or other thing pushed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bullock.01",
+    "roleset_name": "fool",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trickster, agent",
+        "descr_trans": "骗子、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity deceived",
+        "descr_trans": "实体受骗"
+      },
+      {
+        "n": "2",
+        "descr": "proposition, deceived into believing/doing what?",
+        "descr_trans": "提议，被欺骗去相信/做什么？"
+      }
+    ],
+    "roleset_name_trans": "傻子"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bullock.02",
+    "roleset_name": "to push through, acting like a bull",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Bull-like entity, pusher",
+        "descr_trans": "公牛状实体，推手"
+      },
+      {
+        "n": "1",
+        "descr": "\"way\" or other thing pushed",
+        "descr_trans": "“方式”或其他推动的东西"
+      }
+    ],
+    "roleset_name_trans": "冲过去，表现得像一头公牛"
+  }
 ]

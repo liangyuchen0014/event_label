@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prepossess.01",
-        "roleset_name": "bias",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause of bias"
-            },
-            {
-                "n": "1",
-                "descr": "entity with the bias"
-            },
-            {
-                "n": "2",
-                "descr": "the bias"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prepossess.01",
+    "roleset_name": "bias",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause of bias",
+        "descr_trans": "偏见的代理人或原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity with the bias",
+        "descr_trans": "有偏见的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the bias",
+        "descr_trans": "偏见"
+      }
+    ],
+    "roleset_name_trans": "偏见"
+  }
 ]

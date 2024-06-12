@@ -1,35 +1,41 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squall.01",
-        "roleset_name": "utter a long loud cry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "One crying"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "squall.02",
-        "roleset_name": "utter a sudden cry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Yeller"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "squall.03",
-        "roleset_name": "blow strongly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Thing blowing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squall.01",
+    "roleset_name": "utter a long loud cry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "One crying",
+        "descr_trans": "一个人哭了"
+      }
+    ],
+    "roleset_name_trans": "长长地大声哭喊"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "squall.02",
+    "roleset_name": "utter a sudden cry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Yeller",
+        "descr_trans": "耶勒"
+      }
+    ],
+    "roleset_name_trans": "突然大哭"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "squall.03",
+    "roleset_name": "blow strongly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Thing blowing",
+        "descr_trans": "吹东西"
+      }
+    ],
+    "roleset_name_trans": "用力吹"
+  }
 ]

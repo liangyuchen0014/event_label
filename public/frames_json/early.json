@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "early.01",
-        "roleset_name": "toward the beginning portion of a time period",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "what is at the beginning of the time period"
-            },
-            {
-                "n": "2",
-                "descr": "the time period"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "early.02",
-        "roleset_name": "arriving before the appointed/expected time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "early entity"
-            },
-            {
-                "n": "2",
-                "descr": "destination, thing that was scheduled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "early.01",
+    "roleset_name": "toward the beginning portion of a time period",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "what is at the beginning of the time period",
+        "descr_trans": "该时间段的开始时间是什么"
+      },
+      {
+        "n": "2",
+        "descr": "the time period",
+        "descr_trans": "时间段"
+      }
+    ],
+    "roleset_name_trans": "朝向一段时间的开始部分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "early.02",
+    "roleset_name": "arriving before the appointed/expected time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "early entity",
+        "descr_trans": "早期实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination, thing that was scheduled",
+        "descr_trans": "目的地，预定的事情"
+      }
+    ],
+    "roleset_name_trans": "在指定/预计时间之前到达"
+  }
 ]

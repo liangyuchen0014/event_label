@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "malfunction.01",
-        "roleset_name": "faulty functioning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Worker, thing malfunctioning"
-            },
-            {
-                "n": "1",
-                "descr": "Project, malfunctioning as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "malfunction.01",
+    "roleset_name": "faulty functioning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Worker, thing malfunctioning",
+        "descr_trans": "工人，东西出现故障"
+      },
+      {
+        "n": "1",
+        "descr": "Project, malfunctioning as what",
+        "descr_trans": "项目，出现故障是什么"
+      }
+    ],
+    "roleset_name_trans": "功能故障"
+  }
 ]

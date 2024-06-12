@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consequential.01",
-        "roleset_name": "having import",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that's consequential"
-            },
-            {
-                "n": "2",
-                "descr": "To whom, what does it have import?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "consequence.02",
-        "roleset_name": "punish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "punisher"
-            },
-            {
-                "n": "1",
-                "descr": "punished"
-            },
-            {
-                "n": "2",
-                "descr": "punishment"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "consequence.03",
-        "roleset_name": "result",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cause"
-            },
-            {
-                "n": "2",
-                "descr": "effect"
-            },
-            {
-                "n": "3",
-                "descr": "affected entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consequential.01",
+    "roleset_name": "having import",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that's consequential",
+        "descr_trans": "后果性的事情"
+      },
+      {
+        "n": "2",
+        "descr": "To whom, what does it have import?",
+        "descr_trans": "对谁来说，它有什么重要性？"
+      }
+    ],
+    "roleset_name_trans": "有进口"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "consequence.02",
+    "roleset_name": "punish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "punisher",
+        "descr_trans": "惩罚者"
+      },
+      {
+        "n": "1",
+        "descr": "punished",
+        "descr_trans": "受到惩罚"
+      },
+      {
+        "n": "2",
+        "descr": "punishment",
+        "descr_trans": "惩罚"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "惩治"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "consequence.03",
+    "roleset_name": "result",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "2",
+        "descr": "effect",
+        "descr_trans": "影响"
+      },
+      {
+        "n": "3",
+        "descr": "affected entity",
+        "descr_trans": "受影响的实体"
+      }
+    ],
+    "roleset_name_trans": "结果"
+  }
 ]

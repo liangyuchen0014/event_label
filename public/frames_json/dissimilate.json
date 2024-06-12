@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dissimilate.01",
-        "roleset_name": "make two things less similar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made less similar"
-            },
-            {
-                "n": "2",
-                "descr": "entity arg 1 is made less similar from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dissimilate.01",
+    "roleset_name": "make two things less similar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity made less similar",
+        "descr_trans": "实体变得不太相似"
+      },
+      {
+        "n": "2",
+        "descr": "entity arg 1 is made less similar from",
+        "descr_trans": "实体 arg 1 变得不太相似"
+      }
+    ],
+    "roleset_name_trans": "使两件事变得不太相似"
+  }
 ]

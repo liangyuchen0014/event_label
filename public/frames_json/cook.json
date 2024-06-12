@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cook.01",
-        "roleset_name": "to prepare a meal or treat by heating, completely heated, as a prepared meal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook, agent"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cook.02",
-        "roleset_name": "to happen, take place",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "event"
-            },
-            {
-                "n": "2",
-                "descr": "cooking with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cook_up.03",
-        "roleset_name": "to fabricate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fabricator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing cooked up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cook.01",
+    "roleset_name": "to prepare a meal or treat by heating, completely heated, as a prepared meal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook, agent",
+        "descr_trans": "厨师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "准备一顿饭或通过加热来对待，完全加热，作为准备好的饭菜"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cook.02",
+    "roleset_name": "to happen, take place",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      },
+      {
+        "n": "2",
+        "descr": "cooking with",
+        "descr_trans": "与烹饪"
+      }
+    ],
+    "roleset_name_trans": "发生，发生"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cook_up.03",
+    "roleset_name": "to fabricate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fabricator, agent",
+        "descr_trans": "制造商、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "thing cooked up",
+        "descr_trans": "煮熟的东西"
+      }
+    ],
+    "roleset_name_trans": "捏造"
+  }
 ]

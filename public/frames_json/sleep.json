@@ -1,107 +1,128 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sleep.01",
-        "roleset_name": "sleep, slumbering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            },
-            {
-                "n": "1",
-                "descr": "cognate object"
-            },
-            {
-                "n": "2",
-                "descr": "expected terminus of sleep"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sleep.02",
-        "roleset_name": "engage in sexual relations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive partner"
-            },
-            {
-                "n": "1",
-                "descr": "prepositional partner"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sleep_away.03",
-        "roleset_name": "sleep away: consume a time period while asleep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            },
-            {
-                "n": "1",
-                "descr": "time period"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sleep_off.04",
-        "roleset_name": "sleep off: get rid of via sleep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one getting rid of something, corrupted entity"
-            },
-            {
-                "n": "1",
-                "descr": "impurity, corruption"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sleep_over.05",
-        "roleset_name": "sleep away from home, at someone else's house",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "sleepy.06",
-        "roleset_name": "close to falling asleep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sleepiness"
-            },
-            {
-                "n": "1",
-                "descr": "sleepy entity"
-            },
-            {
-                "n": "2",
-                "descr": "cognate object (sleepiness)"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "go_to_sleep.07",
-        "roleset_name": "transition into sleep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sleeper"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sleep.01",
+    "roleset_name": "sleep, slumbering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "1",
+        "descr": "cognate object",
+        "descr_trans": "同源对象"
+      },
+      {
+        "n": "2",
+        "descr": "expected terminus of sleep",
+        "descr_trans": "预期睡眠终点"
+      }
+    ],
+    "roleset_name_trans": "睡觉，睡觉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sleep.02",
+    "roleset_name": "engage in sexual relations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive partner",
+        "descr_trans": "代理伙伴"
+      },
+      {
+        "n": "1",
+        "descr": "prepositional partner",
+        "descr_trans": "介词伙伴"
+      }
+    ],
+    "roleset_name_trans": "发生性关系"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sleep_away.03",
+    "roleset_name": "sleep away: consume a time period while asleep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      },
+      {
+        "n": "1",
+        "descr": "time period",
+        "descr_trans": "时间段"
+      }
+    ],
+    "roleset_name_trans": "sleepaway：睡着时消耗一段时间"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sleep_off.04",
+    "roleset_name": "sleep off: get rid of via sleep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one getting rid of something, corrupted entity",
+        "descr_trans": "摆脱某物，腐败的实体"
+      },
+      {
+        "n": "1",
+        "descr": "impurity, corruption",
+        "descr_trans": "杂质、腐败"
+      }
+    ],
+    "roleset_name_trans": "sleep off：通过睡眠摆脱"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sleep_over.05",
+    "roleset_name": "sleep away from home, at someone else's house",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      }
+    ],
+    "roleset_name_trans": "离家出走，睡在别人家"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "sleepy.06",
+    "roleset_name": "close to falling asleep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sleepiness",
+        "descr_trans": "嗜睡的原因"
+      },
+      {
+        "n": "1",
+        "descr": "sleepy entity",
+        "descr_trans": "昏昏欲睡的实体"
+      },
+      {
+        "n": "2",
+        "descr": "cognate object (sleepiness)",
+        "descr_trans": "同源对象（瞌睡）"
+      }
+    ],
+    "roleset_name_trans": "接近入睡"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "go_to_sleep.07",
+    "roleset_name": "transition into sleep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sleeper",
+        "descr_trans": "轨枕"
+      }
+    ],
+    "roleset_name_trans": "过渡到睡眠"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gelatinize.01",
-        "roleset_name": "(cause to) become gelatinous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "entity made into gelatin"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gelatinize.01",
+    "roleset_name": "(cause to) become gelatinous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity made into gelatin",
+        "descr_trans": "制成明胶的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from arg 0",
+        "descr_trans": "仪器，当与 arg 0 分开时"
+      }
+    ],
+    "roleset_name_trans": "（导致）变成凝胶状"
+  }
 ]

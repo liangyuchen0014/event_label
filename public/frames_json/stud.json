@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stud.01",
-        "roleset_name": "attach studs to some object",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher of studs"
-            },
-            {
-                "n": "1",
-                "descr": "attached to"
-            },
-            {
-                "n": "2",
-                "descr": "studs"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stud.01",
+    "roleset_name": "attach studs to some object",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher of studs",
+        "descr_trans": "螺柱连接器"
+      },
+      {
+        "n": "1",
+        "descr": "attached to",
+        "descr_trans": "附于"
+      },
+      {
+        "n": "2",
+        "descr": "studs",
+        "descr_trans": "螺柱"
+      }
+    ],
+    "roleset_name_trans": "将螺柱固定到某个物体上"
+  }
 ]

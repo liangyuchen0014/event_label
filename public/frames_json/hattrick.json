@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hattrick.01",
-        "roleset_name": "scoring 3 goals in one game",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player scoring goals"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hattrick.01",
+    "roleset_name": "scoring 3 goals in one game",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player scoring goals",
+        "descr_trans": "球员进球"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      }
+    ],
+    "roleset_name_trans": "一场比赛进3球"
+  }
 ]

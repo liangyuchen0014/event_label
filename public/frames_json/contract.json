@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contract.01",
-        "roleset_name": "get smaller, drawing together, shortening",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing getting smaller"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "contract.02",
-        "roleset_name": "enter into a contract",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of contract"
-            },
-            {
-                "n": "1",
-                "descr": "reason, purpose"
-            },
-            {
-                "n": "2",
-                "descr": "contracted with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "contract.04",
-        "roleset_name": "get, acquire (as of disease), come down with (as a disease)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sick person, patient"
-            },
-            {
-                "n": "2",
-                "descr": "disease"
-            },
-            {
-                "n": "3",
-                "descr": "source of disease"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "contract_out.03",
-        "roleset_name": "variation on sense two above, enter into a contract with an outside party",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of contract"
-            },
-            {
-                "n": "1",
-                "descr": "reason, purpose"
-            },
-            {
-                "n": "2",
-                "descr": "contract out with/to whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contract.01",
+    "roleset_name": "get smaller, drawing together, shortening",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing getting smaller",
+        "descr_trans": "东西变小"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "变小、拉在一起、缩短"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "contract.02",
+    "roleset_name": "enter into a contract",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of contract",
+        "descr_trans": "合同的起因"
+      },
+      {
+        "n": "1",
+        "descr": "reason, purpose",
+        "descr_trans": "原因、目的"
+      },
+      {
+        "n": "2",
+        "descr": "contracted with",
+        "descr_trans": "与 签订合同"
+      }
+    ],
+    "roleset_name_trans": "签订合同"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "contract.04",
+    "roleset_name": "get, acquire (as of disease), come down with (as a disease)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sick person, patient",
+        "descr_trans": "病人，病人"
+      },
+      {
+        "n": "2",
+        "descr": "disease",
+        "descr_trans": "疾病"
+      },
+      {
+        "n": "3",
+        "descr": "source of disease",
+        "descr_trans": "病源"
+      }
+    ],
+    "roleset_name_trans": "得到，获得（作为疾病），患上（作为疾病）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "contract_out.03",
+    "roleset_name": "variation on sense two above, enter into a contract with an outside party",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of contract",
+        "descr_trans": "合同的起因"
+      },
+      {
+        "n": "1",
+        "descr": "reason, purpose",
+        "descr_trans": "原因、目的"
+      },
+      {
+        "n": "2",
+        "descr": "contract out with/to whom?",
+        "descr_trans": "与/谁签订合同？"
+      }
+    ],
+    "roleset_name_trans": "上述第二点的变体，与外部方签订合同"
+  }
 ]

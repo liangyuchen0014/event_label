@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mistype.01",
-        "roleset_name": "type incorrectly (on a keyboard/typewriter)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "typist"
-            },
-            {
-                "n": "1",
-                "descr": "what was meant to be typed"
-            },
-            {
-                "n": "2",
-                "descr": "what was actually typed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mistype.01",
+    "roleset_name": "type incorrectly (on a keyboard/typewriter)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "typist",
+        "descr_trans": "打字员"
+      },
+      {
+        "n": "1",
+        "descr": "what was meant to be typed",
+        "descr_trans": "本来要输入的内容"
+      },
+      {
+        "n": "2",
+        "descr": "what was actually typed",
+        "descr_trans": "实际输入的内容"
+      }
+    ],
+    "roleset_name_trans": "打字不正确（在键盘/打字机上）"
+  }
 ]

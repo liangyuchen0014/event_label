@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pressure.01",
-        "roleset_name": "apply pressure, pressure someone to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "presser"
-            },
-            {
-                "n": "1",
-                "descr": "pressed (on)"
-            },
-            {
-                "n": "2",
-                "descr": "goal, pressed-for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pressure.02",
-        "roleset_name": "move, cause motion by pressure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            },
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "m",
-                "descr": "ahead, usually"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pressure.01",
+    "roleset_name": "apply pressure, pressure someone to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "presser",
+        "descr_trans": "压机"
+      },
+      {
+        "n": "1",
+        "descr": "pressed (on)",
+        "descr_trans": "按下（上）"
+      },
+      {
+        "n": "2",
+        "descr": "goal, pressed-for",
+        "descr_trans": "目标，迫在眉睫"
+      }
+    ],
+    "roleset_name_trans": "施加压力，迫使某人做某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pressure.02",
+    "roleset_name": "move, cause motion by pressure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      },
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "m",
+        "descr": "ahead, usually",
+        "descr_trans": "前面，通常"
+      }
+    ],
+    "roleset_name_trans": "移动，通过压力引起运动"
+  }
 ]

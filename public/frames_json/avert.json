@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "avert.01",
-        "roleset_name": "stop, prevent, move away from, avoid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being prevented)"
-            },
-            {
-                "n": "2",
-                "descr": "thing being avoided"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "avert.01",
+    "roleset_name": "stop, prevent, move away from, avoid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper, Agent",
+        "descr_trans": "塞子、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being prevented)",
+        "descr_trans": "主题（被阻止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "thing being avoided",
+        "descr_trans": "被回避的事情"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "停止、防止、远离、避免"
+  }
 ]

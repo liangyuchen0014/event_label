@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refuel.01",
-        "roleset_name": "to provide with additional fuel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of fuel, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity refueled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refuel.01",
+    "roleset_name": "to provide with additional fuel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of fuel, agent",
+        "descr_trans": "燃料供应商、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity refueled",
+        "descr_trans": "实体加油"
+      }
+    ],
+    "roleset_name_trans": "提供额外的燃料"
+  }
 ]

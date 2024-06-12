@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undercharge.01",
-        "roleset_name": "undercharge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "undercharger, receiver of money"
-            },
-            {
-                "n": "1",
-                "descr": "undercharge, money"
-            },
-            {
-                "n": "2",
-                "descr": "undercharged, giver of money"
-            },
-            {
-                "n": "3",
-                "descr": "cause, product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undercharge.01",
+    "roleset_name": "undercharge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "undercharger, receiver of money",
+        "descr_trans": "收费不足的人，收款人"
+      },
+      {
+        "n": "1",
+        "descr": "undercharge, money",
+        "descr_trans": "少收费，钱"
+      },
+      {
+        "n": "2",
+        "descr": "undercharged, giver of money",
+        "descr_trans": "少收钱的, 给钱的"
+      },
+      {
+        "n": "3",
+        "descr": "cause, product",
+        "descr_trans": "原因、产品"
+      }
+    ],
+    "roleset_name_trans": "收费不足"
+  }
 ]

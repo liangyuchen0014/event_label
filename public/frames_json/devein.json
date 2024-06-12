@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "devein.01",
-        "roleset_name": "remove vein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "deveined entity"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "devein.01",
+    "roleset_name": "remove vein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "deveined entity",
+        "descr_trans": "血管实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "去除静脉"
+  }
 ]

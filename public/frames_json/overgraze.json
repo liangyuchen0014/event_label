@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overgraze.01",
-        "roleset_name": "graze to the point of damaging the life cycle of vegetation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rancher"
-            },
-            {
-                "n": "1",
-                "descr": "eater"
-            },
-            {
-                "n": "2",
-                "descr": "vegetation eaten"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overgraze.01",
+    "roleset_name": "graze to the point of damaging the life cycle of vegetation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rancher",
+        "descr_trans": "牧场主"
+      },
+      {
+        "n": "1",
+        "descr": "eater",
+        "descr_trans": "食者"
+      },
+      {
+        "n": "2",
+        "descr": "vegetation eaten",
+        "descr_trans": "植物被吃掉"
+      }
+    ],
+    "roleset_name_trans": "放牧到破坏植被生命周期的程度"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cheese.01",
-        "roleset_name": "to be cheated, get the short end of the stick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cheater"
-            },
-            {
-                "n": "1",
-                "descr": "cheated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cheese_off.02",
-        "roleset_name": "to anger, irritate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of irritation"
-            },
-            {
-                "n": "1",
-                "descr": "irritated entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cheese.01",
+    "roleset_name": "to be cheated, get the short end of the stick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cheater",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "cheated",
+        "descr_trans": "被骗了"
+      }
+    ],
+    "roleset_name_trans": "被骗了，就得吃亏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cheese_off.02",
+    "roleset_name": "to anger, irritate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of irritation",
+        "descr_trans": "刺激的原因"
+      },
+      {
+        "n": "1",
+        "descr": "irritated entity",
+        "descr_trans": "被激怒的实体"
+      }
+    ],
+    "roleset_name_trans": "使生气，激怒"
+  }
 ]

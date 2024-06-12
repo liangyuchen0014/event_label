@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bolus.01",
-        "roleset_name": "give a large one-time dose of drugs via iv",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "medication"
-            },
-            {
-                "n": "3",
-                "descr": "condition treated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bolus.01",
+    "roleset_name": "give a large one-time dose of drugs via iv",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "medication",
+        "descr_trans": "药物"
+      },
+      {
+        "n": "3",
+        "descr": "condition treated",
+        "descr_trans": "病情治疗"
+      }
+    ],
+    "roleset_name_trans": "通过静脉注射一次性给予大剂量药物"
+  }
 ]

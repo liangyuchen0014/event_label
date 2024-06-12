@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grandstand.01",
-        "roleset_name": "perform",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "performance, thing performed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grandstand.01",
+    "roleset_name": "perform",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "performance, thing performed",
+        "descr_trans": "表现，执行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "履行"
+  }
 ]

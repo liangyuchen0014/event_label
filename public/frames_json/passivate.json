@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "passivate.01",
-        "roleset_name": "coat to protect from corrosion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing coating"
-            },
-            {
-                "n": "1",
-                "descr": "entity recieving protection"
-            },
-            {
-                "n": "2",
-                "descr": "chemical used as coat or protectant"
-            },
-            {
-                "n": "3",
-                "descr": "protected from (ie corrosion)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "passivate.01",
+    "roleset_name": "coat to protect from corrosion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing coating",
+        "descr_trans": "代理，实体造成涂层"
+      },
+      {
+        "n": "1",
+        "descr": "entity recieving protection",
+        "descr_trans": "接受保护的实体"
+      },
+      {
+        "n": "2",
+        "descr": "chemical used as coat or protectant",
+        "descr_trans": "用作涂层或保护剂的化学品"
+      },
+      {
+        "n": "3",
+        "descr": "protected from (ie corrosion)",
+        "descr_trans": "免受（即腐蚀）"
+      }
+    ],
+    "roleset_name_trans": "涂层以防止腐蚀"
+  }
 ]

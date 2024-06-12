@@ -1,132 +1,160 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cross.01",
-        "roleset_name": "(cause) two things to intersect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "crosser"
-            },
-            {
-                "n": "1",
-                "descr": "first entity crossing (or all entities)"
-            },
-            {
-                "n": "2",
-                "descr": "second entity, crossed by arg1"
-            },
-            {
-                "n": "3",
-                "descr": "arg1's crossing axis"
-            },
-            {
-                "n": "4",
-                "descr": "arg2's crossing axis"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cross.02",
-        "roleset_name": "move perpendicularly to some barrier",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "barrier"
-            },
-            {
-                "n": "2",
-                "descr": "axis, trajectory of motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cross.04",
-        "roleset_name": "eliminate from a list",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "crosser"
-            },
-            {
-                "n": "1",
-                "descr": "item"
-            },
-            {
-                "n": "2",
-                "descr": "list"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "cross.05",
-        "roleset_name": "make angry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker"
-            },
-            {
-                "n": "1",
-                "descr": "angry entity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "cross_out.03",
-        "roleset_name": "eliminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator"
-            },
-            {
-                "n": "1",
-                "descr": "eliminated"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "cross_over.06",
-        "roleset_name": "cause one entity to span a gap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "spanning entity"
-            },
-            {
-                "n": "2",
-                "descr": "spanned entity"
-            },
-            {
-                "n": "3",
-                "descr": "start location"
-            },
-            {
-                "n": "4",
-                "descr": "destination"
-            },
-            {
-                "n": "5",
-                "descr": "spanning axis of arg1"
-            },
-            {
-                "n": "6",
-                "descr": "spanned axis of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cross.01",
+    "roleset_name": "(cause) two things to intersect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "crosser",
+        "descr_trans": "交叉"
+      },
+      {
+        "n": "1",
+        "descr": "first entity crossing (or all entities)",
+        "descr_trans": "第一个实体交叉（或所有实体）"
+      },
+      {
+        "n": "2",
+        "descr": "second entity, crossed by arg1",
+        "descr_trans": "第二个实体，由 arg1 交叉"
+      },
+      {
+        "n": "3",
+        "descr": "arg1's crossing axis",
+        "descr_trans": "arg1 的交叉轴"
+      },
+      {
+        "n": "4",
+        "descr": "arg2's crossing axis",
+        "descr_trans": "arg2 的交叉轴"
+      }
+    ],
+    "roleset_name_trans": "（导致）两件事相交"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cross.02",
+    "roleset_name": "move perpendicularly to some barrier",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "barrier",
+        "descr_trans": "障碍"
+      },
+      {
+        "n": "2",
+        "descr": "axis, trajectory of motion",
+        "descr_trans": "轴、运动轨迹"
+      }
+    ],
+    "roleset_name_trans": "垂直于某个障碍物移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cross.04",
+    "roleset_name": "eliminate from a list",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "crosser",
+        "descr_trans": "交叉"
+      },
+      {
+        "n": "1",
+        "descr": "item",
+        "descr_trans": "物品"
+      },
+      {
+        "n": "2",
+        "descr": "list",
+        "descr_trans": "列表"
+      }
+    ],
+    "roleset_name_trans": "从列表中删除"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "cross.05",
+    "roleset_name": "make angry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker",
+        "descr_trans": "制作者"
+      },
+      {
+        "n": "1",
+        "descr": "angry entity",
+        "descr_trans": "愤怒的实体"
+      }
+    ],
+    "roleset_name_trans": "使人生气"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "cross_out.03",
+    "roleset_name": "eliminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator",
+        "descr_trans": "消除器"
+      },
+      {
+        "n": "1",
+        "descr": "eliminated",
+        "descr_trans": "消除了"
+      }
+    ],
+    "roleset_name_trans": "排除"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "cross_over.06",
+    "roleset_name": "cause one entity to span a gap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "spanning entity",
+        "descr_trans": "跨越实体"
+      },
+      {
+        "n": "2",
+        "descr": "spanned entity",
+        "descr_trans": "跨越实体"
+      },
+      {
+        "n": "3",
+        "descr": "start location",
+        "descr_trans": "起始位置"
+      },
+      {
+        "n": "4",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "5",
+        "descr": "spanning axis of arg1",
+        "descr_trans": "arg1 的跨越轴"
+      },
+      {
+        "n": "6",
+        "descr": "spanned axis of arg1",
+        "descr_trans": "arg1 的跨度轴"
+      }
+    ],
+    "roleset_name_trans": "导致一个实体跨越间隙"
+  }
 ]

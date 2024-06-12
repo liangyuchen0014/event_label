@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dislocate.01",
-        "roleset_name": "move out of position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing dislocated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dislocate.01",
+    "roleset_name": "move out of position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing dislocated",
+        "descr_trans": "东西脱臼"
+      }
+    ],
+    "roleset_name_trans": "移出位置"
+  }
 ]

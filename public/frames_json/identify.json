@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "identify.01",
-        "roleset_name": "label, call",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "item being labelled"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "identify.02",
-        "roleset_name": "feel empathy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "feeler"
-            },
-            {
-                "n": "1",
-                "descr": "thing being identified with"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "identify.01",
+    "roleset_name": "label, call",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "item being labelled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "标签、调用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "identify.02",
+    "roleset_name": "feel empathy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "feeler",
+        "descr_trans": "触角"
+      },
+      {
+        "n": "1",
+        "descr": "thing being identified with",
+        "descr_trans": "被认同的事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "感到同理心"
+  }
 ]

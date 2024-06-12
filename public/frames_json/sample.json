@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sample.01",
-        "roleset_name": "select a portion of a larger whole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sampler"
-            },
-            {
-                "n": "1",
-                "descr": "thing sampled"
-            },
-            {
-                "n": "2",
-                "descr": "source of the samples (if in addition to arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sample.01",
+    "roleset_name": "select a portion of a larger whole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sampler",
+        "descr_trans": "采样器"
+      },
+      {
+        "n": "1",
+        "descr": "thing sampled",
+        "descr_trans": "采样的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source of the samples (if in addition to arg1)",
+        "descr_trans": "样本来源（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "选择较大整体的一部分"
+  }
 ]

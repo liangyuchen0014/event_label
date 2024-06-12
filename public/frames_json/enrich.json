@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enrich.01",
-        "roleset_name": "add value",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity adding value, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming enriched"
-            },
-            {
-                "n": "2",
-                "descr": "vitamins (eg)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enrich.01",
+    "roleset_name": "add value",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity adding value, agent",
+        "descr_trans": "实体增值、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming enriched",
+        "descr_trans": "事物变得丰富"
+      },
+      {
+        "n": "2",
+        "descr": "vitamins (eg)",
+        "descr_trans": "维生素（例如）"
+      }
+    ],
+    "roleset_name_trans": "增加价值"
+  }
 ]

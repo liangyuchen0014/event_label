@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "kosher.01",
-        "roleset_name": "conforming to specific dietary laws of judaism",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eater who follows Jewish dietary laws"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "kosher.02",
-        "roleset_name": "alright, allowable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity deeming it 'ok'"
-            },
-            {
-                "n": "1",
-                "descr": "thing that is 'ok'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "kosher.01",
+    "roleset_name": "conforming to specific dietary laws of judaism",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eater who follows Jewish dietary laws",
+        "descr_trans": "遵守犹太饮食法的食者"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "符合犹太教的特定饮食法则"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "kosher.02",
+    "roleset_name": "alright, allowable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity deeming it 'ok'",
+        "descr_trans": "实体认为“可以”"
+      },
+      {
+        "n": "1",
+        "descr": "thing that is 'ok'",
+        "descr_trans": "&#39;好的&#39;的事情"
+      }
+    ],
+    "roleset_name_trans": "好的，允许的"
+  }
 ]

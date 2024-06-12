@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spin.01",
-        "roleset_name": "move in circular fashion, circular movement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causative agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing spinning"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "spin.03",
-        "roleset_name": "tell tales, biased presentation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storyteller"
-            },
-            {
-                "n": "1",
-                "descr": "story"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "spin.04",
-        "roleset_name": "create through spinning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "raw material"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "spin_off.02",
-        "roleset_name": "spin off: create a new entity based on an existing entity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "attribute, secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spin.01",
+    "roleset_name": "move in circular fashion, circular movement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causative agent",
+        "descr_trans": "病原体"
+      },
+      {
+        "n": "1",
+        "descr": "thing spinning",
+        "descr_trans": "旋转的东西"
+      }
+    ],
+    "roleset_name_trans": "以圆周方式移动，圆周运动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "spin.03",
+    "roleset_name": "tell tales, biased presentation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storyteller",
+        "descr_trans": "说故事的人"
+      },
+      {
+        "n": "1",
+        "descr": "story",
+        "descr_trans": "故事"
+      }
+    ],
+    "roleset_name_trans": "讲故事，有偏见的陈述"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "spin.04",
+    "roleset_name": "create through spinning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "raw material",
+        "descr_trans": "原料"
+      }
+    ],
+    "roleset_name_trans": "通过旋转创造"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "spin_off.02",
+    "roleset_name": "spin off: create a new entity based on an existing entity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "attribute, secondary predication",
+        "descr_trans": "属性，辅助预测"
+      }
+    ],
+    "roleset_name_trans": "分拆：基于现有实体创建新实体"
+  }
 ]

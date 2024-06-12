@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "avail.01",
-        "roleset_name": "provide, often 'take advantage of'",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one providing, taking advantage, includes causes"
-            },
-            {
-                "n": "1",
-                "descr": "recipient"
-            },
-            {
-                "n": "2",
-                "descr": "thing provided, taken advantage of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "available.02",
-        "roleset_name": "ready for use",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "available to whom/what? entity having access to arg2"
-            },
-            {
-                "n": "2",
-                "descr": "thing that is available"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "avail.01",
+    "roleset_name": "provide, often 'take advantage of'",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one providing, taking advantage, includes causes",
+        "descr_trans": "提供、利用、包括原因"
+      },
+      {
+        "n": "1",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      },
+      {
+        "n": "2",
+        "descr": "thing provided, taken advantage of",
+        "descr_trans": "提供的东西，利用的东西"
+      }
+    ],
+    "roleset_name_trans": "提供，经常“利用”"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "available.02",
+    "roleset_name": "ready for use",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "available to whom/what? entity having access to arg2",
+        "descr_trans": "可供谁/什么使用？有权访问 arg2 的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing that is available",
+        "descr_trans": "可用的东西"
+      }
+    ],
+    "roleset_name_trans": "准备启用"
+  }
 ]

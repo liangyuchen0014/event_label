@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impound.01",
-        "roleset_name": "to hold or confine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity impounded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impound.01",
+    "roleset_name": "to hold or confine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder, agent",
+        "descr_trans": "持有人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity impounded",
+        "descr_trans": "实体被扣押"
+      }
+    ],
+    "roleset_name_trans": "持有或限制"
+  }
 ]

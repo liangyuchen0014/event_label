@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reoccupy.01",
-        "roleset_name": "maintain a position in a certain place, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of occupation"
-            },
-            {
-                "n": "1",
-                "descr": "location occupied"
-            },
-            {
-                "n": "2",
-                "descr": "occupied with what (if separate from arg0)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reoccupy.01",
+    "roleset_name": "maintain a position in a certain place, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of occupation",
+        "descr_trans": "职业代理人"
+      },
+      {
+        "n": "1",
+        "descr": "location occupied",
+        "descr_trans": "占据的位置"
+      },
+      {
+        "n": "2",
+        "descr": "occupied with what (if separate from arg0)",
+        "descr_trans": "忙于什么（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "再次保持在某个地方的位置"
+  }
 ]

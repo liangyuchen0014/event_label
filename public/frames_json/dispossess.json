@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dispossess.01",
-        "roleset_name": "deprive of possession",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity depriving"
-            },
-            {
-                "n": "1",
-                "descr": "thing being deprived"
-            },
-            {
-                "n": "2",
-                "descr": "possession; deprived from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dispossess.01",
+    "roleset_name": "deprive of possession",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity depriving",
+        "descr_trans": "实体剥夺"
+      },
+      {
+        "n": "1",
+        "descr": "thing being deprived",
+        "descr_trans": "被剥夺的东西"
+      },
+      {
+        "n": "2",
+        "descr": "possession; deprived from",
+        "descr_trans": "拥有;被剥夺了"
+      }
+    ],
+    "roleset_name_trans": "剥夺占有"
+  }
 ]

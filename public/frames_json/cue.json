@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cue.01",
-        "roleset_name": "give a signal for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Signaler"
-            },
-            {
-                "n": "1",
-                "descr": "cue itself"
-            },
-            {
-                "n": "2",
-                "descr": "see-er, benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cue.01",
+    "roleset_name": "give a signal for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Signaler",
+        "descr_trans": "报告"
+      },
+      {
+        "n": "1",
+        "descr": "cue itself",
+        "descr_trans": "提示本身"
+      },
+      {
+        "n": "2",
+        "descr": "see-er, benefactive",
+        "descr_trans": "看见者，有益者"
+      }
+    ],
+    "roleset_name_trans": "发出信号"
+  }
 ]

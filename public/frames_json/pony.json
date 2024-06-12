@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pony.01",
-        "roleset_name": "to lead with the help of a pony or another vehicle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leading"
-            },
-            {
-                "n": "1",
-                "descr": "entity lead"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pony_up.02",
-        "roleset_name": "to pay money (usually owed)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer"
-            },
-            {
-                "n": "1",
-                "descr": "money paid, asset"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, person/org being paid"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, arg2 was paid arg1 for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pony.01",
+    "roleset_name": "to lead with the help of a pony or another vehicle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leading",
+        "descr_trans": "实体主导"
+      },
+      {
+        "n": "1",
+        "descr": "entity lead",
+        "descr_trans": "实体领导"
+      }
+    ],
+    "roleset_name_trans": "在小马或其他车辆的帮助下引导"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pony_up.02",
+    "roleset_name": "to pay money (usually owed)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "money paid, asset",
+        "descr_trans": "支付的钱、资产"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, person/org being paid",
+        "descr_trans": "接受者、接受付款的个人/组织"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, arg2 was paid arg1 for what?",
+        "descr_trans": "商品，arg2 因什么而支付给 arg1？"
+      }
+    ],
+    "roleset_name_trans": "支付金钱（通常是欠款）"
+  }
 ]

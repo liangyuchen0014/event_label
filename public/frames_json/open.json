@@ -1,173 +1,209 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "open.01",
-        "roleset_name": "(cause to) become open; change of state, free for passage/entry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "opener"
-            },
-            {
-                "n": "1",
-                "descr": "thing opening"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "open.02",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of opening"
-            },
-            {
-                "n": "1",
-                "descr": "thing opening"
-            },
-            {
-                "n": "m",
-                "descr": "start point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "open.04",
-        "roleset_name": "freely giving of info, feelings, free to be seen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, open one"
-            },
-            {
-                "n": "1",
-                "descr": "info, feelings, etc"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "open.05",
-        "roleset_name": "open-minded, freely accepting of input",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "open-minded, accepting one"
-            },
-            {
-                "n": "2",
-                "descr": "input accepted"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "open.06",
-        "roleset_name": "spacious, unenclosed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "spacious place"
-            },
-            {
-                "n": "2",
-                "descr": "space accessed  (open to what space)"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "open.07",
-        "roleset_name": "available",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is available"
-            },
-            {
-                "n": "2",
-                "descr": "available for what action"
-            },
-            {
-                "n": "3",
-                "descr": "available to whom"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "open.08",
-        "roleset_name": "vulnerable/subject to, exposed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "vulnerable thing"
-            },
-            {
-                "n": "2",
-                "descr": "vulnerable to what"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "open.09",
-        "roleset_name": "free for passage, entry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer of opening"
-            },
-            {
-                "n": "1",
-                "descr": "thing/place open for passage/entry (door, business, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive; entity free to enter/pass"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "open_up.03",
-        "roleset_name": "cause to be not closed, complete opening",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "opener"
-            },
-            {
-                "n": "1",
-                "descr": "thing opening"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "open.01",
+    "roleset_name": "(cause to) become open; change of state, free for passage/entry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "opener",
+        "descr_trans": "开场白"
+      },
+      {
+        "n": "1",
+        "descr": "thing opening",
+        "descr_trans": "东西打开"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得开放；状态改变，免费通行/入境"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "open.02",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of opening",
+        "descr_trans": "代理人，开盘的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing opening",
+        "descr_trans": "东西打开"
+      },
+      {
+        "n": "m",
+        "descr": "start point",
+        "descr_trans": "起点"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "open.04",
+    "roleset_name": "freely giving of info, feelings, free to be seen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, open one",
+        "descr_trans": "给予者，打开一个"
+      },
+      {
+        "n": "1",
+        "descr": "info, feelings, etc",
+        "descr_trans": "信息、感受等"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "自由地提供信息、感受、自由地被看到"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "open.05",
+    "roleset_name": "open-minded, freely accepting of input",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "open-minded, accepting one",
+        "descr_trans": "心胸开阔，接受一个"
+      },
+      {
+        "n": "2",
+        "descr": "input accepted",
+        "descr_trans": "接受输入"
+      }
+    ],
+    "roleset_name_trans": "思想开放，自由接受意见"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "open.06",
+    "roleset_name": "spacious, unenclosed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "spacious place",
+        "descr_trans": "宽敞的地方"
+      },
+      {
+        "n": "2",
+        "descr": "space accessed  (open to what space)",
+        "descr_trans": "访问的空间（打开到什么空间）"
+      }
+    ],
+    "roleset_name_trans": "宽敞、无封闭"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "open.07",
+    "roleset_name": "available",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is available",
+        "descr_trans": "可用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "available for what action",
+        "descr_trans": "可用于什么操作"
+      },
+      {
+        "n": "3",
+        "descr": "available to whom",
+        "descr_trans": "可供谁使用"
+      }
+    ],
+    "roleset_name_trans": "可用的"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "open.08",
+    "roleset_name": "vulnerable/subject to, exposed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "vulnerable thing",
+        "descr_trans": "脆弱的东西"
+      },
+      {
+        "n": "2",
+        "descr": "vulnerable to what",
+        "descr_trans": "容易受到什么影响"
+      }
+    ],
+    "roleset_name_trans": "易受伤害/易受影响，暴露"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "open.09",
+    "roleset_name": "free for passage, entry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer of opening",
+        "descr_trans": "开局的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing/place open for passage/entry (door, business, etc)",
+        "descr_trans": "可供通行/进入的事物/地点（门、商业等）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive; entity free to enter/pass",
+        "descr_trans": "有益的；实体可自由进入/通过"
+      }
+    ],
+    "roleset_name_trans": "免费通行、入境"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "open_up.03",
+    "roleset_name": "cause to be not closed, complete opening",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "opener",
+        "descr_trans": "开场白"
+      },
+      {
+        "n": "1",
+        "descr": "thing opening",
+        "descr_trans": "东西打开"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "导致未关闭，完全打开"
+  }
 ]

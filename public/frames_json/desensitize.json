@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "desensitize.01",
-        "roleset_name": "cause to lose sensitivity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of loss of sensitivity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing becoming less sensitive"
-            },
-            {
-                "n": "2",
-                "descr": "becoming less sensitive to what? stimulus of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "desensitize.01",
+    "roleset_name": "cause to lose sensitivity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of loss of sensitivity, agent",
+        "descr_trans": "失去敏感性的原因，代理"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing becoming less sensitive",
+        "descr_trans": "耐心，事情变得不那么敏感"
+      },
+      {
+        "n": "2",
+        "descr": "becoming less sensitive to what? stimulus of arg 1",
+        "descr_trans": "对什么变得不那么敏感？ arg 1 的刺激"
+      }
+    ],
+    "roleset_name_trans": "导致失去敏感性"
+  }
 ]

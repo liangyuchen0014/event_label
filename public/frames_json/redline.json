@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redline.01",
-        "roleset_name": "mark as being a bad credit risk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liner"
-            },
-            {
-                "n": "1",
-                "descr": "thing being redlined"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redline.01",
+    "roleset_name": "mark as being a bad credit risk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liner",
+        "descr_trans": "衬垫"
+      },
+      {
+        "n": "1",
+        "descr": "thing being redlined",
+        "descr_trans": "被红线标记的事物"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "标记为不良信用风险"
+  }
 ]

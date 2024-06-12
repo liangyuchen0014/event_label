@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enjoy.01",
-        "roleset_name": "take pleasure from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "enjoyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing enjoyed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "enjoyable.02",
-        "roleset_name": "able to be enjoyed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "enjoyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing enjoyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enjoy.01",
+    "roleset_name": "take pleasure from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "enjoyer",
+        "descr_trans": "享受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing enjoyed",
+        "descr_trans": "喜欢的事情"
+      }
+    ],
+    "roleset_name_trans": "从中获得乐趣"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "enjoyable.02",
+    "roleset_name": "able to be enjoyed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "enjoyer",
+        "descr_trans": "享受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing enjoyed",
+        "descr_trans": "喜欢的事情"
+      }
+    ],
+    "roleset_name_trans": "能够被享受"
+  }
 ]

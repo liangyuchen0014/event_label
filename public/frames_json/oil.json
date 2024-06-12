@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oil.01",
-        "roleset_name": "make oily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "oiler"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting oily"
-            },
-            {
-                "n": "2",
-                "descr": "oil"
-            },
-            {
-                "n": "3",
-                "descr": "end state, attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "oil_up.02",
-        "roleset_name": "make oily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "oiler"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting oily"
-            },
-            {
-                "n": "2",
-                "descr": "oil"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "oily.03",
-        "roleset_name": "make oily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "oiler"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting oily"
-            },
-            {
-                "n": "2",
-                "descr": "oil"
-            },
-            {
-                "n": "3",
-                "descr": "end state, attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oil.01",
+    "roleset_name": "make oily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "oiler",
+        "descr_trans": "加油工"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting oily",
+        "descr_trans": "东西变得油腻"
+      },
+      {
+        "n": "2",
+        "descr": "oil",
+        "descr_trans": "油"
+      },
+      {
+        "n": "3",
+        "descr": "end state, attribute",
+        "descr_trans": "最终状态、属性"
+      }
+    ],
+    "roleset_name_trans": "使油腻"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "oil_up.02",
+    "roleset_name": "make oily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "oiler",
+        "descr_trans": "加油工"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting oily",
+        "descr_trans": "东西变得油腻"
+      },
+      {
+        "n": "2",
+        "descr": "oil",
+        "descr_trans": "油"
+      }
+    ],
+    "roleset_name_trans": "使油腻"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "oily.03",
+    "roleset_name": "make oily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "oiler",
+        "descr_trans": "加油工"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting oily",
+        "descr_trans": "东西变得油腻"
+      },
+      {
+        "n": "2",
+        "descr": "oil",
+        "descr_trans": "油"
+      },
+      {
+        "n": "3",
+        "descr": "end state, attribute",
+        "descr_trans": "最终状态、属性"
+      }
+    ],
+    "roleset_name_trans": "使油腻"
+  }
 ]

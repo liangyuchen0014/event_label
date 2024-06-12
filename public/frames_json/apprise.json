@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "apprise.01",
-        "roleset_name": "inform, cause to know",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informer"
-            },
-            {
-                "n": "1",
-                "descr": "informed"
-            },
-            {
-                "n": "2",
-                "descr": "information"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "apprise.01",
+    "roleset_name": "inform, cause to know",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informer",
+        "descr_trans": "告密者"
+      },
+      {
+        "n": "1",
+        "descr": "informed",
+        "descr_trans": "知情的"
+      },
+      {
+        "n": "2",
+        "descr": "information",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "告知，导致知道"
+  }
 ]

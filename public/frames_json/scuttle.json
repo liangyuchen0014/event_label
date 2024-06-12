@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scuttle.01",
-        "roleset_name": "sink, as a ship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sinker"
-            },
-            {
-                "n": "1",
-                "descr": "thing sinking"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scuttle.02",
-        "roleset_name": "run like a spider or crab",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scuttler"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scuttle.01",
+    "roleset_name": "sink, as a ship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sinker",
+        "descr_trans": "沉降片"
+      },
+      {
+        "n": "1",
+        "descr": "thing sinking",
+        "descr_trans": "东西下沉"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "沉没，像船一样"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scuttle.02",
+    "roleset_name": "run like a spider or crab",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scuttler",
+        "descr_trans": "凿船者"
+      }
+    ],
+    "roleset_name_trans": "像蜘蛛或螃蟹一样奔跑"
+  }
 ]

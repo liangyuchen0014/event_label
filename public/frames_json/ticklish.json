@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ticklish.01",
-        "roleset_name": "susceptible to tickling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tickling"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of tickling"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ticklish.01",
+    "roleset_name": "susceptible to tickling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tickling",
+        "descr_trans": "引起瘙痒的原因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of tickling",
+        "descr_trans": "痒痒体验者"
+      }
+    ],
+    "roleset_name_trans": "容易发痒"
+  }
 ]

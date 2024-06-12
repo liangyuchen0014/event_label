@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tax.01",
-        "roleset_name": "government charging money, tax, duty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taxer"
-            },
-            {
-                "n": "1",
-                "descr": "amount of tax"
-            },
-            {
-                "n": "2",
-                "descr": "taxpayer"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tax.03",
-        "roleset_name": "resultative construction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taxer"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing state"
-            },
-            {
-                "n": "2",
-                "descr": "new state caused by taxing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tax_away.02",
-        "roleset_name": "government charging money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taxer"
-            },
-            {
-                "n": "1",
-                "descr": "amount of tax"
-            },
-            {
-                "n": "2",
-                "descr": "taxpayer"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tax.01",
+    "roleset_name": "government charging money, tax, duty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taxer",
+        "descr_trans": "税"
+      },
+      {
+        "n": "1",
+        "descr": "amount of tax",
+        "descr_trans": "税额"
+      },
+      {
+        "n": "2",
+        "descr": "taxpayer",
+        "descr_trans": "纳税人"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "政府收取金钱、税收、关税"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tax.03",
+    "roleset_name": "resultative construction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taxer",
+        "descr_trans": "税"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing state",
+        "descr_trans": "事物改变状态"
+      },
+      {
+        "n": "2",
+        "descr": "new state caused by taxing",
+        "descr_trans": "征税引起的新状态"
+      }
+    ],
+    "roleset_name_trans": "成果建构"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tax_away.02",
+    "roleset_name": "government charging money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taxer",
+        "descr_trans": "税"
+      },
+      {
+        "n": "1",
+        "descr": "amount of tax",
+        "descr_trans": "税额"
+      },
+      {
+        "n": "2",
+        "descr": "taxpayer",
+        "descr_trans": "纳税人"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "政府收钱"
+  }
 ]

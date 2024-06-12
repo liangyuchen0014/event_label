@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sigmoidoscopy.01",
-        "roleset_name": "procedure for examining the sigmoid colon by inserting a tiny camera through the rectum",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer of procedure"
-            },
-            {
-                "n": "1",
-                "descr": "patient, undergoer of procedure"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sigmoidoscopy.01",
+    "roleset_name": "procedure for examining the sigmoid colon by inserting a tiny camera through the rectum",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer of procedure",
+        "descr_trans": "程序执行者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, undergoer of procedure",
+        "descr_trans": "病人，手术接受者"
+      }
+    ],
+    "roleset_name_trans": "通过直肠插入微型相机来检查乙状结肠的程序"
+  }
 ]

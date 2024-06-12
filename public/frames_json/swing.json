@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swing.01",
-        "roleset_name": "type of spatial configuation, non-agentive swinging",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing swinging"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "swing.02",
-        "roleset_name": "cause swinging motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing swinging"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "swing.03",
-        "roleset_name": "quantifiable motion",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "specific aspect of arg1 swinging"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "swing.04",
-        "roleset_name": "said of music",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "music"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "swing.05",
-        "roleset_name": "manage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity managing some task"
-            },
-            {
-                "n": "1",
-                "descr": "task managed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swing.01",
+    "roleset_name": "type of spatial configuation, non-agentive swinging",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing swinging",
+        "descr_trans": "东西摇摆"
+      }
+    ],
+    "roleset_name_trans": "空间配置类型，非主动摆动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "swing.02",
+    "roleset_name": "cause swinging motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing swinging",
+        "descr_trans": "东西摇摆"
+      }
+    ],
+    "roleset_name_trans": "引起摆动运动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "swing.03",
+    "roleset_name": "quantifiable motion",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "specific aspect of arg1 swinging",
+        "descr_trans": "arg1 摆动的具体方面"
+      }
+    ],
+    "roleset_name_trans": "可量化的运动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "swing.04",
+    "roleset_name": "said of music",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "music",
+        "descr_trans": "音乐"
+      }
+    ],
+    "roleset_name_trans": "说到音乐"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "swing.05",
+    "roleset_name": "manage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity managing some task",
+        "descr_trans": "管理某些任务的实体"
+      },
+      {
+        "n": "1",
+        "descr": "task managed",
+        "descr_trans": "任务管理"
+      }
+    ],
+    "roleset_name_trans": "管理"
+  }
 ]

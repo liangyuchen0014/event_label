@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unfavorable.01",
-        "roleset_name": "choosen as less desirable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity bestowing favor"
-            },
-            {
-                "n": "1",
-                "descr": "entity not receiving favor"
-            },
-            {
-                "n": "3",
-                "descr": "compared to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unfavorable.01",
+    "roleset_name": "choosen as less desirable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity bestowing favor",
+        "descr_trans": "给予恩惠的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity not receiving favor",
+        "descr_trans": "实体未受惠"
+      },
+      {
+        "n": "3",
+        "descr": "compared to what",
+        "descr_trans": "与什么相比"
+      }
+    ],
+    "roleset_name_trans": "被选为不太理想的"
+  }
 ]

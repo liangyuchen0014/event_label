@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bridge.01",
-        "roleset_name": "to connect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "connector, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity connected"
-            },
-            {
-                "n": "2",
-                "descr": "entity connected with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bridge.02",
-        "roleset_name": "to temporarily substitute one medicine with another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor; entity ending something"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "long-term medicine"
-            },
-            {
-                "n": "3",
-                "descr": "short-term medicine to bridge a gap in treatment with long-term medicine (e.g. due to surgery)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bridge.01",
+    "roleset_name": "to connect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "connector, agent",
+        "descr_trans": "连接器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity connected",
+        "descr_trans": "连接的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity connected with",
+        "descr_trans": "实体连接到"
+      }
+    ],
+    "roleset_name_trans": "连接"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bridge.02",
+    "roleset_name": "to temporarily substitute one medicine with another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor; entity ending something",
+        "descr_trans": "医生;实体结束某事"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "long-term medicine",
+        "descr_trans": "长期用药"
+      },
+      {
+        "n": "3",
+        "descr": "short-term medicine to bridge a gap in treatment with long-term medicine (e.g. due to surgery)",
+        "descr_trans": "短期药物可弥补长期药物治疗的差距（例如由于手术）"
+      }
+    ],
+    "roleset_name_trans": "暂时用一种药物替代另一种药物"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cancel.01",
-        "roleset_name": "cause to be not valid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "canceller"
-            },
-            {
-                "n": "1",
-                "descr": "cancelled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cancel.01",
+    "roleset_name": "cause to be not valid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "canceller",
+        "descr_trans": "校长"
+      },
+      {
+        "n": "1",
+        "descr": "cancelled",
+        "descr_trans": "取消"
+      }
+    ],
+    "roleset_name_trans": "导致无效"
+  }
 ]

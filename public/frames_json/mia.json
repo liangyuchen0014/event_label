@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mia.01",
-        "roleset_name": "missing in action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity/place/source that lacks arg1"
-            },
-            {
-                "n": "1",
-                "descr": "missing entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mia.01",
+    "roleset_name": "missing in action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity/place/source that lacks arg1",
+        "descr_trans": "缺少 arg1 的实体/地点/来源"
+      },
+      {
+        "n": "1",
+        "descr": "missing entity",
+        "descr_trans": "缺失实体"
+      }
+    ],
+    "roleset_name_trans": "在行动中失踪"
+  }
 ]

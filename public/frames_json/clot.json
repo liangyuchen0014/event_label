@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clot.01",
-        "roleset_name": "form into a solidified mass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of clotting"
-            },
-            {
-                "n": "1",
-                "descr": "Entity clotted"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clot.01",
+    "roleset_name": "form into a solidified mass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of clotting",
+        "descr_trans": "凝血的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity clotted",
+        "descr_trans": "实体凝结"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or manner",
+        "descr_trans": "仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "形成凝固块"
+  }
 ]

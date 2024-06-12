@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elicit.01",
-        "roleset_name": "call forth or draw out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause / elicitor"
-            },
-            {
-                "n": "1",
-                "descr": "thing elicited"
-            },
-            {
-                "n": "2",
-                "descr": "source, what elicited from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elicit.01",
+    "roleset_name": "call forth or draw out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause / elicitor",
+        "descr_trans": "原因/引发子"
+      },
+      {
+        "n": "1",
+        "descr": "thing elicited",
+        "descr_trans": "引发的事情"
+      },
+      {
+        "n": "2",
+        "descr": "source, what elicited from",
+        "descr_trans": "来源，源自什么"
+      }
+    ],
+    "roleset_name_trans": "召唤或抽出"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "radiograph.01",
-        "roleset_name": "take a picture of the insides, using xrays or other imaging techniques",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor, person running imaging system"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "radiograph.01",
+    "roleset_name": "take a picture of the insides, using xrays or other imaging techniques",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor, person running imaging system",
+        "descr_trans": "医生，运行成像系统的人"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "使用 X 射线或其他成像技术拍摄内部照片"
+  }
 ]

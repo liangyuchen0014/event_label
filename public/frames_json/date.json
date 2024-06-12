@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "date.01",
-        "roleset_name": "assign a calendar date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of date"
-            },
-            {
-                "n": "1",
-                "descr": "item being labelled"
-            },
-            {
-                "n": "2",
-                "descr": "date"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "date.02",
-        "roleset_name": "date romantically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "dater"
-            },
-            {
-                "n": "1",
-                "descr": "dated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "date.01",
+    "roleset_name": "assign a calendar date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of date",
+        "descr_trans": "日期分配者"
+      },
+      {
+        "n": "1",
+        "descr": "item being labelled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "2",
+        "descr": "date",
+        "descr_trans": "日期"
+      }
+    ],
+    "roleset_name_trans": "指定日历日期"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "date.02",
+    "roleset_name": "date romantically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "dater",
+        "descr_trans": "日期"
+      },
+      {
+        "n": "1",
+        "descr": "dated",
+        "descr_trans": "过时的"
+      }
+    ],
+    "roleset_name_trans": "浪漫地约会"
+  }
 ]

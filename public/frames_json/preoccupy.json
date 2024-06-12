@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preoccupy.01",
-        "roleset_name": "demand full attention",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of preoccupation"
-            },
-            {
-                "n": "1",
-                "descr": "preoccupied entity"
-            },
-            {
-                "n": "2",
-                "descr": "focus of attention"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preoccupy.01",
+    "roleset_name": "demand full attention",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of preoccupation",
+        "descr_trans": "引起全神贯注的原因"
+      },
+      {
+        "n": "1",
+        "descr": "preoccupied entity",
+        "descr_trans": "专注的实体"
+      },
+      {
+        "n": "2",
+        "descr": "focus of attention",
+        "descr_trans": "关注焦点"
+      }
+    ],
+    "roleset_name_trans": "要求全神贯注"
+  }
 ]

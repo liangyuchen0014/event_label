@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "detest.01",
-        "roleset_name": "hate strongly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "target or hatred"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "detestable.02",
-        "roleset_name": "worthy of being hated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hater"
-            },
-            {
-                "n": "1",
-                "descr": "hated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "detest.01",
+    "roleset_name": "hate strongly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "target or hatred",
+        "descr_trans": "目标或仇恨"
+      }
+    ],
+    "roleset_name_trans": "强烈地讨厌"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "detestable.02",
+    "roleset_name": "worthy of being hated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hater",
+        "descr_trans": "仇恨者"
+      },
+      {
+        "n": "1",
+        "descr": "hated",
+        "descr_trans": "讨厌的"
+      }
+    ],
+    "roleset_name_trans": "值得被恨"
+  }
 ]

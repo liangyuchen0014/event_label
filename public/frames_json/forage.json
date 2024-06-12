@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "forage.01",
-        "roleset_name": "search for food and provisions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "area foraged"
-            },
-            {
-                "n": "2",
-                "descr": "thing(s) searched for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "forage.01",
+    "roleset_name": "search for food and provisions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "area foraged",
+        "descr_trans": "觅食区域"
+      },
+      {
+        "n": "2",
+        "descr": "thing(s) searched for",
+        "descr_trans": "搜索的事物"
+      }
+    ],
+    "roleset_name_trans": "寻找食物和补给"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inaccessible.01",
-        "roleset_name": "not able to be reached",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity trying to gain access"
-            },
-            {
-                "n": "1",
-                "descr": "goal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inaccessible.01",
+    "roleset_name": "not able to be reached",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity trying to gain access",
+        "descr_trans": "试图获得访问权限的实体"
+      },
+      {
+        "n": "1",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "无法联系到"
+  }
 ]

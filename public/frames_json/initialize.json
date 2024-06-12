@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "initialize.01",
-        "roleset_name": "set to a starting value, format",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "text/data formatted"
-            },
-            {
-                "n": "2",
-                "descr": "set at, formatted as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "initialize.01",
+    "roleset_name": "set to a starting value, format",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "text/data formatted",
+        "descr_trans": "文本/数据格式化"
+      },
+      {
+        "n": "2",
+        "descr": "set at, formatted as",
+        "descr_trans": "设置为，格式为"
+      }
+    ],
+    "roleset_name_trans": "设置为起始值、格式"
+  }
 ]

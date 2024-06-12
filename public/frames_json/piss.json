@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "piss.01",
-        "roleset_name": "urinate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pisser"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "piss.03",
-        "roleset_name": "anger: non-phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of anger"
-            },
-            {
-                "n": "1",
-                "descr": "angry entity"
-            },
-            {
-                "n": "2",
-                "descr": "additional reason for anger, if in addition to arg0"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "piss_off.02",
-        "roleset_name": "angry, phrasal variant: angry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Angering entity/event"
-            },
-            {
-                "n": "1",
-                "descr": "Angry party"
-            },
-            {
-                "n": "2",
-                "descr": "Provocation/Cause of anger"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "pissed.04",
-        "roleset_name": "drunk",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "drunk one"
-            },
-            {
-                "n": "2",
-                "descr": "on what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "pissy.05",
-        "roleset_name": "angry, irritable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "irritable one"
-            },
-            {
-                "n": "2",
-                "descr": "additional reason for anger, if in addition to arg0"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "piss.01",
+    "roleset_name": "urinate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pisser",
+        "descr_trans": "小便"
+      }
+    ],
+    "roleset_name_trans": "排尿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "piss.03",
+    "roleset_name": "anger: non-phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of anger",
+        "descr_trans": "愤怒的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "angry entity",
+        "descr_trans": "愤怒的实体"
+      },
+      {
+        "n": "2",
+        "descr": "additional reason for anger, if in addition to arg0",
+        "descr_trans": "额外的愤怒原因，如果除了 arg0 之外"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier",
+        "descr_trans": "增强器"
+      }
+    ],
+    "roleset_name_trans": "愤怒：非言语"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "piss_off.02",
+    "roleset_name": "angry, phrasal variant: angry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Angering entity/event",
+        "descr_trans": "激怒实体/事件"
+      },
+      {
+        "n": "1",
+        "descr": "Angry party",
+        "descr_trans": "愤怒的一方"
+      },
+      {
+        "n": "2",
+        "descr": "Provocation/Cause of anger",
+        "descr_trans": "挑衅/愤怒的原因"
+      }
+    ],
+    "roleset_name_trans": "愤怒，短语变体：愤怒"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "pissed.04",
+    "roleset_name": "drunk",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "drunk one",
+        "descr_trans": "喝醉了一个"
+      },
+      {
+        "n": "2",
+        "descr": "on what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "醉"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "pissy.05",
+    "roleset_name": "angry, irritable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "irritable one",
+        "descr_trans": "烦躁的一个"
+      },
+      {
+        "n": "2",
+        "descr": "additional reason for anger, if in addition to arg0",
+        "descr_trans": "额外的愤怒原因，如果除了 arg0 之外"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier",
+        "descr_trans": "增强器"
+      }
+    ],
+    "roleset_name_trans": "生气，烦躁"
+  }
 ]

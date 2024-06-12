@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bond.01",
-        "roleset_name": "attach, as with glue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "focus of attachment"
-            },
-            {
-                "n": "2",
-                "descr": "thing bonded to"
-            },
-            {
-                "n": "3",
-                "descr": "instrument of bonding, glue"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bond.02",
-        "roleset_name": "secure with financial bond",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "secured item"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bond.01",
+    "roleset_name": "attach, as with glue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "focus of attachment",
+        "descr_trans": "依恋焦点"
+      },
+      {
+        "n": "2",
+        "descr": "thing bonded to",
+        "descr_trans": "绑定到的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument of bonding, glue",
+        "descr_trans": "粘接工具、胶水"
+      }
+    ],
+    "roleset_name_trans": "像用胶水一样粘贴"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bond.02",
+    "roleset_name": "secure with financial bond",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "secured item",
+        "descr_trans": "受保护的物品"
+      }
+    ],
+    "roleset_name_trans": "以金融债券担保"
+  }
 ]

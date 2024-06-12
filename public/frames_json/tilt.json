@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tilt.01",
-        "roleset_name": "(cause to) be not fully upright",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing not level"
-            },
-            {
-                "n": "2",
-                "descr": "path of tilt, tilt towards"
-            },
-            {
-                "n": "3",
-                "descr": "destination (goal actually reached by tilting), end state"
-            },
-            {
-                "n": "4",
-                "descr": "primary axis of ARG1 changing orientation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tilt.01",
+    "roleset_name": "(cause to) be not fully upright",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing not level",
+        "descr_trans": "东西不水平"
+      },
+      {
+        "n": "2",
+        "descr": "path of tilt, tilt towards",
+        "descr_trans": "倾斜路径，倾斜方向"
+      },
+      {
+        "n": "3",
+        "descr": "destination (goal actually reached by tilting), end state",
+        "descr_trans": "目的地（倾斜实际达到的目标），最终状态"
+      },
+      {
+        "n": "4",
+        "descr": "primary axis of ARG1 changing orientation",
+        "descr_trans": "ARG1 主轴改变方向"
+      }
+    ],
+    "roleset_name_trans": "（导致）不完全直立"
+  }
 ]

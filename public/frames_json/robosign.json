@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "robosign.01",
-        "roleset_name": "sign automatically, without reading, like a robot.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            },
-            {
-                "n": "2",
-                "descr": "signature"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "robosign.01",
+    "roleset_name": "sign automatically, without reading, like a robot.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      },
+      {
+        "n": "2",
+        "descr": "signature",
+        "descr_trans": "签名"
+      }
+    ],
+    "roleset_name_trans": "像机器人一样自动签名，无需阅读。"
+  }
 ]

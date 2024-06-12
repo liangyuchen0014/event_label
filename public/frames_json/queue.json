@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "queue.01",
-        "roleset_name": "[put|be] in a line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter of something in a line"
-            },
-            {
-                "n": "1",
-                "descr": "things in a line"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "queue_up.02",
-        "roleset_name": "line up, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entities in line"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "queue.01",
+    "roleset_name": "[put|be] in a line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter of something in a line",
+        "descr_trans": "将某物推到一条线上"
+      },
+      {
+        "n": "1",
+        "descr": "things in a line",
+        "descr_trans": "排成一行的东西"
+      }
+    ],
+    "roleset_name_trans": "[放置|成为] 排成一行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "queue_up.02",
+    "roleset_name": "line up, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entities in line",
+        "descr_trans": "排队的实体"
+      }
+    ],
+    "roleset_name_trans": "排队，完整"
+  }
 ]

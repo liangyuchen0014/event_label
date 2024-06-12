@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "imbibe.01",
-        "roleset_name": "drink",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "drinker"
-            },
-            {
-                "n": "1",
-                "descr": "thing drunk"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "imbibe.01",
+    "roleset_name": "drink",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "drinker",
+        "descr_trans": "饮酒者"
+      },
+      {
+        "n": "1",
+        "descr": "thing drunk",
+        "descr_trans": "喝醉了的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "喝"
+  }
 ]

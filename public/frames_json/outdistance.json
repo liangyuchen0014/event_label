@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outdistance.01",
-        "roleset_name": "to surpass by a wide margin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity ahead"
-            },
-            {
-                "n": "1",
-                "descr": "entity outdistanced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outdistance.01",
+    "roleset_name": "to surpass by a wide margin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity ahead",
+        "descr_trans": "前方实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity outdistanced",
+        "descr_trans": "实体超出距离"
+      }
+    ],
+    "roleset_name_trans": "大幅超越"
+  }
 ]

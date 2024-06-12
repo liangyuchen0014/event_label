@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prenegotiate.01",
-        "roleset_name": "negotiate before something else",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "negotiator"
-            },
-            {
-                "n": "1",
-                "descr": "other party arg 0 is negotiating with when separate mention"
-            },
-            {
-                "n": "2",
-                "descr": "deal negotiated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prenegotiate.01",
+    "roleset_name": "negotiate before something else",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "negotiator",
+        "descr_trans": "谈判者"
+      },
+      {
+        "n": "1",
+        "descr": "other party arg 0 is negotiating with when separate mention",
+        "descr_trans": "另一方 arg 0 正在与单独提及时进行谈判"
+      },
+      {
+        "n": "2",
+        "descr": "deal negotiated",
+        "descr_trans": "达成协议"
+      }
+    ],
+    "roleset_name_trans": "先谈判再做其他事情"
+  }
 ]

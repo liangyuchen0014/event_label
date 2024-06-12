@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pipe.01",
-        "roleset_name": "transport in a pipe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pipe_up.02",
-        "roleset_name": "begin speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pipe_down.03",
-        "roleset_name": "stop speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "(non-) speaker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pipe.01",
+    "roleset_name": "transport in a pipe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "在管道中运输"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pipe_up.02",
+    "roleset_name": "begin speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "开始说话"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pipe_down.03",
+    "roleset_name": "stop speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "(non-) speaker",
+        "descr_trans": "（非）扬声器"
+      }
+    ],
+    "roleset_name_trans": "停止说话"
+  }
 ]

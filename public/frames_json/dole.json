@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dole_out.01",
-        "roleset_name": "distribute grudgingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dole_out.01",
+    "roleset_name": "distribute grudgingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed to",
+        "descr_trans": "分发给"
+      }
+    ],
+    "roleset_name_trans": "勉强分配"
+  }
 ]

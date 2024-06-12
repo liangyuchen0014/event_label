@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disembowel.01",
-        "roleset_name": "eviscerate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "bowel, thing removed"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disembowel.01",
+    "roleset_name": "eviscerate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "bowel, thing removed",
+        "descr_trans": "肠道，被移除的东西"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "剔除内脏"
+  }
 ]

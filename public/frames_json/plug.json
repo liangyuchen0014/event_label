@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plug.02",
-        "roleset_name": "advertise, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "advertiser"
-            },
-            {
-                "n": "1",
-                "descr": "advertised"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plug.04",
-        "roleset_name": "put plug in socket, non-phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plugger"
-            },
-            {
-                "n": "1",
-                "descr": "(thing with) plug"
-            },
-            {
-                "n": "2",
-                "descr": "socket"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "plug_up.01",
-        "roleset_name": "plug up: cause blockage, causing blockage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of blockage"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming blocked"
-            },
-            {
-                "n": "2",
-                "descr": "plug"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "plug_in.03",
-        "roleset_name": "plug in: put in socket",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plugger"
-            },
-            {
-                "n": "1",
-                "descr": "(thing with) plug"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plug.02",
+    "roleset_name": "advertise, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "advertiser",
+        "descr_trans": "广告商"
+      },
+      {
+        "n": "1",
+        "descr": "advertised",
+        "descr_trans": "做广告的"
+      }
+    ],
+    "roleset_name_trans": "广告，"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plug.04",
+    "roleset_name": "put plug in socket, non-phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plugger",
+        "descr_trans": "插头"
+      },
+      {
+        "n": "1",
+        "descr": "(thing with) plug",
+        "descr_trans": "（带有）插头的东西"
+      },
+      {
+        "n": "2",
+        "descr": "socket",
+        "descr_trans": "插座"
+      }
+    ],
+    "roleset_name_trans": "将插头插入插座，非短语"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "plug_up.01",
+    "roleset_name": "plug up: cause blockage, causing blockage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of blockage",
+        "descr_trans": "造成堵塞的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming blocked",
+        "descr_trans": "事物被阻塞"
+      },
+      {
+        "n": "2",
+        "descr": "plug",
+        "descr_trans": "插头"
+      }
+    ],
+    "roleset_name_trans": "堵塞：造成堵塞，导致堵塞"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "plug_in.03",
+    "roleset_name": "plug in: put in socket",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plugger",
+        "descr_trans": "插头"
+      },
+      {
+        "n": "1",
+        "descr": "(thing with) plug",
+        "descr_trans": "（带有）插头的东西"
+      }
+    ],
+    "roleset_name_trans": "插入：插入插座"
+  }
 ]

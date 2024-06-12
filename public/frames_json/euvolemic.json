@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "euvolemic.01",
-        "roleset_name": "having a normal volume of bodily fluids",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a normal volume of fluids"
-            },
-            {
-                "n": "2",
-                "descr": "volume measurement"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "euvolemic.01",
+    "roleset_name": "having a normal volume of bodily fluids",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a normal volume of fluids",
+        "descr_trans": "具有正常体积液体的实体"
+      },
+      {
+        "n": "2",
+        "descr": "volume measurement",
+        "descr_trans": "体积测量"
+      }
+    ],
+    "roleset_name_trans": "体液量正常"
+  }
 ]

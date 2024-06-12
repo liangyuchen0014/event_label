@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assert.01",
-        "roleset_name": "stand one's ground, speak up for oneself",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asserter"
-            },
-            {
-                "n": "1",
-                "descr": "self"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "assert.02",
-        "roleset_name": "manner of utterance, say, claim",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, asserter"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, claim"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            },
-            {
-                "n": "3",
-                "descr": "predication, arg1 is claimed to be what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "assert.03",
-        "roleset_name": "claim",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, asserter"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, claim"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            },
-            {
-                "n": "3",
-                "descr": "predication, arg1 is claimed to be what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assert.01",
+    "roleset_name": "stand one's ground, speak up for oneself",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asserter",
+        "descr_trans": "断言者"
+      },
+      {
+        "n": "1",
+        "descr": "self",
+        "descr_trans": "自己"
+      }
+    ],
+    "roleset_name_trans": "坚持自己的立场，为自己说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "assert.02",
+    "roleset_name": "manner of utterance, say, claim",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, asserter",
+        "descr_trans": "发言者，断言者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, claim",
+        "descr_trans": "言论、断言"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      },
+      {
+        "n": "3",
+        "descr": "predication, arg1 is claimed to be what?",
+        "descr_trans": "谓词，arg1 声称是什么？"
+      }
+    ],
+    "roleset_name_trans": "说话的方式，比如说，主张"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "assert.03",
+    "roleset_name": "claim",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, asserter",
+        "descr_trans": "发言者，断言者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, claim",
+        "descr_trans": "言论、断言"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      },
+      {
+        "n": "3",
+        "descr": "predication, arg1 is claimed to be what?",
+        "descr_trans": "谓词，arg1 声称是什么？"
+      }
+    ],
+    "roleset_name_trans": "宣称"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reward.01",
-        "roleset_name": "give a reward",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving reward"
-            },
-            {
-                "n": "1",
-                "descr": "entity being given to"
-            },
-            {
-                "n": "2",
-                "descr": "because of what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reward.01",
+    "roleset_name": "give a reward",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving reward",
+        "descr_trans": "给予奖励的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity being given to",
+        "descr_trans": "实体被给予"
+      },
+      {
+        "n": "2",
+        "descr": "because of what",
+        "descr_trans": "因为什么"
+      }
+    ],
+    "roleset_name_trans": "给予奖励"
+  }
 ]

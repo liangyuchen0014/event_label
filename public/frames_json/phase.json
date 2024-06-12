@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "phase_out.01",
-        "roleset_name": "eliminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eliminator"
-            },
-            {
-                "n": "1",
-                "descr": "thing eliminated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "phase_in.02",
-        "roleset_name": "introduce in increments",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being phased in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "phase_out.01",
+    "roleset_name": "eliminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eliminator",
+        "descr_trans": "消除器"
+      },
+      {
+        "n": "1",
+        "descr": "thing eliminated",
+        "descr_trans": "消除的东西"
+      }
+    ],
+    "roleset_name_trans": "排除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "phase_in.02",
+    "roleset_name": "introduce in increments",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being phased in",
+        "descr_trans": "正在分阶段进行的事情"
+      }
+    ],
+    "roleset_name_trans": "增量引入"
+  }
 ]

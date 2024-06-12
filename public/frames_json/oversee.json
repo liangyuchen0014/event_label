@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oversee.01",
-        "roleset_name": "supervise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supervisor"
-            },
-            {
-                "n": "1",
-                "descr": "thing supervised"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "oversight.02",
-        "roleset_name": "to make an error or a mistake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mistaken entity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing overlooked/missed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oversee.01",
+    "roleset_name": "supervise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supervisor",
+        "descr_trans": "导师"
+      },
+      {
+        "n": "1",
+        "descr": "thing supervised",
+        "descr_trans": "受监督的事物"
+      }
+    ],
+    "roleset_name_trans": "监督"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "oversight.02",
+    "roleset_name": "to make an error or a mistake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mistaken entity, agent",
+        "descr_trans": "错误的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing overlooked/missed",
+        "descr_trans": "被忽视/错过的事情"
+      }
+    ],
+    "roleset_name_trans": "犯错误或错误"
+  }
 ]

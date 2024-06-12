@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expedition.01",
-        "roleset_name": "adventurous trip",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveler"
-            },
-            {
-                "n": "1",
-                "descr": "type/purpose of trip"
-            },
-            {
-                "n": "2",
-                "descr": "destination/location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expedition.01",
+    "roleset_name": "adventurous trip",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveler",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "type/purpose of trip",
+        "descr_trans": "旅行类型/目的"
+      },
+      {
+        "n": "2",
+        "descr": "destination/location",
+        "descr_trans": "目的地/地点"
+      }
+    ],
+    "roleset_name_trans": "冒险之旅"
+  }
 ]

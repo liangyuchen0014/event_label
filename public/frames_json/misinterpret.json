@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misinterpret.01",
-        "roleset_name": "to explain badly, make no sense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "explainer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity misinterpreted"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misinterpret.01",
+    "roleset_name": "to explain badly, make no sense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "explainer, agent",
+        "descr_trans": "解释者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity misinterpreted",
+        "descr_trans": "实体被误解"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "解释得不好，没有意义"
+  }
 ]

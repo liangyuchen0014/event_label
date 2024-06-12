@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lodge.01",
-        "roleset_name": "reside (temporarily?), residing (not the place resided)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity residing"
-            },
-            {
-                "n": "1",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lodge.02",
-        "roleset_name": "put firmly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing lodged"
-            },
-            {
-                "n": "2",
-                "descr": "where"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lodge.03",
-        "roleset_name": "file a complaint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "complainer"
-            },
-            {
-                "n": "1",
-                "descr": "formal complaint, lawsuit etc"
-            },
-            {
-                "n": "2",
-                "descr": "against whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lodge.01",
+    "roleset_name": "reside (temporarily?), residing (not the place resided)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity residing",
+        "descr_trans": "实体居住"
+      },
+      {
+        "n": "1",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "居住（暂时？），居住（不是居住的地方）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lodge.02",
+    "roleset_name": "put firmly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, putter",
+        "descr_trans": "代理、推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing lodged",
+        "descr_trans": "提交的东西"
+      },
+      {
+        "n": "2",
+        "descr": "where",
+        "descr_trans": "在哪里"
+      }
+    ],
+    "roleset_name_trans": "放稳"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lodge.03",
+    "roleset_name": "file a complaint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "complainer",
+        "descr_trans": "抱怨者"
+      },
+      {
+        "n": "1",
+        "descr": "formal complaint, lawsuit etc",
+        "descr_trans": "正式投诉、诉讼等"
+      },
+      {
+        "n": "2",
+        "descr": "against whom",
+        "descr_trans": "针对谁"
+      }
+    ],
+    "roleset_name_trans": "呈交诉状"
+  }
 ]

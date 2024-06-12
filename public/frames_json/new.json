@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "new.01",
-        "roleset_name": "be newly created; recently come into being",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "new object"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "new.02",
-        "roleset_name": "new to; novel; have an existing idea, state or circumstance apply to new targets",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that seems new"
-            },
-            {
-                "n": "2",
-                "descr": "person/place for whom arg1 is new; experiencer of newness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "new.01",
+    "roleset_name": "be newly created; recently come into being",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "new object",
+        "descr_trans": "新对象"
+      }
+    ],
+    "roleset_name_trans": "是新创建的；最近出现的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "new.02",
+    "roleset_name": "new to; novel; have an existing idea, state or circumstance apply to new targets",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that seems new",
+        "descr_trans": "看似新的实体"
+      },
+      {
+        "n": "2",
+        "descr": "person/place for whom arg1 is new; experiencer of newness",
+        "descr_trans": "arg1 是新的人/地点；新事物的体验者"
+      }
+    ],
+    "roleset_name_trans": "新的;小说;将现有的想法、状态或情况应用于新的目标"
+  }
 ]

@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "switch.01",
-        "roleset_name": "change, exchange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state, attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "switch_over.02",
-        "roleset_name": "(ex)change",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state, attribute of arg1"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "switch.01",
+    "roleset_name": "change, exchange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state, attribute of arg1",
+        "descr_trans": "结束状态，arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "改变、交换"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "switch_over.02",
+    "roleset_name": "(ex)change",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state, attribute of arg1",
+        "descr_trans": "结束状态，arg1 的属性"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "（交换"
+  }
 ]

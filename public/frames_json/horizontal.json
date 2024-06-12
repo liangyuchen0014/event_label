@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "horizontal.01",
-        "roleset_name": "orientation: parallel to the horizon",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "horizontal entity"
-            },
-            {
-                "n": "2",
-                "descr": "entity parallel to, if explicit"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "horizontal.01",
+    "roleset_name": "orientation: parallel to the horizon",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "horizontal entity",
+        "descr_trans": "水平实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity parallel to, if explicit",
+        "descr_trans": "实体平行于，如果明确的话"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "方向：平行于地平线"
+  }
 ]

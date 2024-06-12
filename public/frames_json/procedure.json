@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "procedure.01",
-        "roleset_name": "process or operation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "process or operation"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "procedure.01",
+    "roleset_name": "process or operation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "process or operation",
+        "descr_trans": "过程或操作"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "过程或操作"
+  }
 ]

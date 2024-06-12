@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deforest.01",
-        "roleset_name": "remove trees",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "victim, source trees removed from"
-            },
-            {
-                "n": "2",
-                "descr": "trees, forest, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deforest.01",
+    "roleset_name": "remove trees",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "victim, source trees removed from",
+        "descr_trans": "受害者，源树被移除"
+      },
+      {
+        "n": "2",
+        "descr": "trees, forest, thing removed",
+        "descr_trans": "树木、森林、被移除的东西"
+      }
+    ],
+    "roleset_name_trans": "移除树木"
+  }
 ]

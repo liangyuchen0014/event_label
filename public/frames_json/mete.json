@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mete_out.01",
-        "roleset_name": "to distribute by measure, allot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed-to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mete_out.01",
+    "roleset_name": "to distribute by measure, allot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed-to, recipient",
+        "descr_trans": "分发给，收件人"
+      }
+    ],
+    "roleset_name_trans": "按计量分配，分配"
+  }
 ]

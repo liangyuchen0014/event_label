@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "punt.01",
-        "roleset_name": "kick a ball",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "kicker"
-            },
-            {
-                "n": "1",
-                "descr": "the ball"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "punt.02",
-        "roleset_name": "propel (a boat) using a pole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Gondolier (person propelling the boat)"
-            },
-            {
-                "n": "1",
-                "descr": "the boat"
-            },
-            {
-                "n": "2",
-                "descr": "destination/location of the boat."
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "punt.03",
-        "roleset_name": "place a bet on (or against",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gambler"
-            },
-            {
-                "n": "1",
-                "descr": "monetary (or other) bet"
-            },
-            {
-                "n": "2",
-                "descr": "the thing being bet on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "punt.01",
+    "roleset_name": "kick a ball",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "kicker",
+        "descr_trans": "踢球者"
+      },
+      {
+        "n": "1",
+        "descr": "the ball",
+        "descr_trans": "球"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "踢一个球"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "punt.02",
+    "roleset_name": "propel (a boat) using a pole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Gondolier (person propelling the boat)",
+        "descr_trans": "贡多拉夫（推动船的人）"
+      },
+      {
+        "n": "1",
+        "descr": "the boat",
+        "descr_trans": "小舟"
+      },
+      {
+        "n": "2",
+        "descr": "destination/location of the boat.",
+        "descr_trans": "船的目的地/位置。"
+      }
+    ],
+    "roleset_name_trans": "用杆推动（船）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "punt.03",
+    "roleset_name": "place a bet on (or against",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gambler",
+        "descr_trans": "赌徒"
+      },
+      {
+        "n": "1",
+        "descr": "monetary (or other) bet",
+        "descr_trans": "金钱（或其他）赌注"
+      },
+      {
+        "n": "2",
+        "descr": "the thing being bet on",
+        "descr_trans": "所押注的事物"
+      }
+    ],
+    "roleset_name_trans": "下注（或反对）"
+  }
 ]

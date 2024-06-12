@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprove.01",
-        "roleset_name": "chastise, blame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blamer"
-            },
-            {
-                "n": "1",
-                "descr": "blamed"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprove.01",
+    "roleset_name": "chastise, blame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blamer",
+        "descr_trans": "责怪"
+      },
+      {
+        "n": "1",
+        "descr": "blamed",
+        "descr_trans": "指责"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "责备，责备"
+  }
 ]

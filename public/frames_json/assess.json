@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assess.01",
-        "roleset_name": "to evaluate, appraise, estimate the value of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assessor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity assessed"
-            },
-            {
-                "n": "2",
-                "descr": "value or attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "assess.02",
-        "roleset_name": "to charge with a tax, fine, or special payment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity fining/charging"
-            },
-            {
-                "n": "1",
-                "descr": "fine or money charged"
-            },
-            {
-                "n": "2",
-                "descr": "entity fined/taxed"
-            },
-            {
-                "n": "3",
-                "descr": "cause or misdeed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assess.01",
+    "roleset_name": "to evaluate, appraise, estimate the value of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assessor, agent",
+        "descr_trans": "评估员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity assessed",
+        "descr_trans": "评估实体"
+      },
+      {
+        "n": "2",
+        "descr": "value or attribute",
+        "descr_trans": "值或属性"
+      }
+    ],
+    "roleset_name_trans": "评估、估价、估价"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "assess.02",
+    "roleset_name": "to charge with a tax, fine, or special payment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity fining/charging",
+        "descr_trans": "实体罚款/指控"
+      },
+      {
+        "n": "1",
+        "descr": "fine or money charged",
+        "descr_trans": "罚款或罚款"
+      },
+      {
+        "n": "2",
+        "descr": "entity fined/taxed",
+        "descr_trans": "实体被罚款/征税"
+      },
+      {
+        "n": "3",
+        "descr": "cause or misdeed",
+        "descr_trans": "原因或不当行为"
+      }
+    ],
+    "roleset_name_trans": "收取税款、罚款或特别付款"
+  }
 ]

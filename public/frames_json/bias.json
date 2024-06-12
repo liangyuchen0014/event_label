@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bias.01",
-        "roleset_name": "display a bias",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "biased entity"
-            },
-            {
-                "n": "2",
-                "descr": "in favor of"
-            },
-            {
-                "n": "3",
-                "descr": "against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bias.01",
+    "roleset_name": "display a bias",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "biased entity",
+        "descr_trans": "有偏见的实体"
+      },
+      {
+        "n": "2",
+        "descr": "in favor of",
+        "descr_trans": "有利于"
+      },
+      {
+        "n": "3",
+        "descr": "against",
+        "descr_trans": "反对"
+      }
+    ],
+    "roleset_name_trans": "显示偏见"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unlatch.01",
-        "roleset_name": "unlatch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unlatcher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unlatched, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unlatched from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unlatch.01",
+    "roleset_name": "unlatch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unlatcher, agent",
+        "descr_trans": "解锁器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unlatched, patient",
+        "descr_trans": "东西没锁，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unlatched from, source",
+        "descr_trans": "未锁定来源"
+      }
+    ],
+    "roleset_name_trans": "解锁"
+  }
 ]

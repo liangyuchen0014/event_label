@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repay.01",
-        "roleset_name": "pay back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought or paid for"
-            },
-            {
-                "n": "2",
-                "descr": "seller or person being paid"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repay.01",
+    "roleset_name": "pay back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought or paid for",
+        "descr_trans": "购买或支付的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller or person being paid",
+        "descr_trans": "卖方或收款人"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      }
+    ],
+    "roleset_name_trans": "偿还"
+  }
 ]

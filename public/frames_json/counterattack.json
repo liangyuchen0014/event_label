@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counterattack.01",
-        "roleset_name": "to make a return attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity attacked"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counterattack.01",
+    "roleset_name": "to make a return attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker, agent",
+        "descr_trans": "攻击者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity attacked",
+        "descr_trans": "实体受到攻击"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "进行还击"
+  }
 ]

@@ -1,97 +1,117 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bid.01",
-        "roleset_name": "auction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bidder"
-            },
-            {
-                "n": "1",
-                "descr": "the target, goods"
-            },
-            {
-                "n": "2",
-                "descr": "how much you're bidding, buying price"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bid.02",
-        "roleset_name": "some weird causative usage, not unlike \"call\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bidder"
-            },
-            {
-                "n": "1",
-                "descr": "the target"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication on Arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bid.03",
-        "roleset_name": "say, wish, convey, say, wish, convey, tell someone to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bid.06",
-        "roleset_name": "declaration of playing a suit in bridge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player"
-            },
-            {
-                "n": "1",
-                "descr": "suit"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "bidding.04",
-        "roleset_name": "obey, follow the rules",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, bidder"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, bidding"
-            },
-            {
-                "n": "2",
-                "descr": "listener, recipient of bid"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bid.01",
+    "roleset_name": "auction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bidder",
+        "descr_trans": "投标人"
+      },
+      {
+        "n": "1",
+        "descr": "the target, goods",
+        "descr_trans": "目标、货物"
+      },
+      {
+        "n": "2",
+        "descr": "how much you're bidding, buying price",
+        "descr_trans": "你出价多少，购买价格"
+      }
+    ],
+    "roleset_name_trans": "拍卖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bid.02",
+    "roleset_name": "some weird causative usage, not unlike \"call\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bidder",
+        "descr_trans": "投标人"
+      },
+      {
+        "n": "1",
+        "descr": "the target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication on Arg1",
+        "descr_trans": "Arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "一些奇怪的使役用法，与“call”不同"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bid.03",
+    "roleset_name": "say, wish, convey, say, wish, convey, tell someone to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说、希望、传达、说、希望、传达、告诉某人做某事"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bid.06",
+    "roleset_name": "declaration of playing a suit in bridge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "suit",
+        "descr_trans": "套装"
+      }
+    ],
+    "roleset_name_trans": "桥牌打花色宣言"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "bidding.04",
+    "roleset_name": "obey, follow the rules",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, bidder",
+        "descr_trans": "演讲者、投标人"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, bidding",
+        "descr_trans": "言语、出价"
+      },
+      {
+        "n": "2",
+        "descr": "listener, recipient of bid",
+        "descr_trans": "听者，投标接受者"
+      }
+    ],
+    "roleset_name_trans": "服从，遵守规则"
+  }
 ]

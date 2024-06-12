@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regrow.01",
-        "roleset_name": "to (cause to) increase again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of re-growth"
-            },
-            {
-                "n": "1",
-                "descr": "Thing re-grown"
-            },
-            {
-                "n": "2",
-                "descr": "Amount increased by"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point, end state of Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regrow.01",
+    "roleset_name": "to (cause to) increase again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of re-growth",
+        "descr_trans": "再生长的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing re-grown",
+        "descr_trans": "东西又长出来了"
+      },
+      {
+        "n": "2",
+        "descr": "Amount increased by",
+        "descr_trans": "金额增加了"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point, end state of Arg1",
+        "descr_trans": "终点，Arg1的结束状态"
+      }
+    ],
+    "roleset_name_trans": "再次（导致）增加"
+  }
 ]

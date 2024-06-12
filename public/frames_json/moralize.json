@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "moralize.01",
-        "roleset_name": "interpret morality",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity moralized"
-            },
-            {
-                "n": "2",
-                "descr": "moralized about?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "moral.02",
-        "roleset_name": "righteous, good",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "moral entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "moralize.01",
+    "roleset_name": "interpret morality",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity moralized",
+        "descr_trans": "道德化的实体"
+      },
+      {
+        "n": "2",
+        "descr": "moralized about?",
+        "descr_trans": "道德化关于？"
+      }
+    ],
+    "roleset_name_trans": "诠释道德"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "moral.02",
+    "roleset_name": "righteous, good",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "moral entity",
+        "descr_trans": "道德实体"
+      }
+    ],
+    "roleset_name_trans": "正义的、善良的"
+  }
 ]

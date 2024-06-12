@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wrap.01",
-        "roleset_name": "enclose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of wrapping"
-            },
-            {
-                "n": "1",
-                "descr": "thing wrapped (e.g., gift)"
-            },
-            {
-                "n": "2",
-                "descr": "wrapper (e.g., paper)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wrap.04",
-        "roleset_name": "finish, non-phrasal, conclude or recap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent finishing"
-            },
-            {
-                "n": "1",
-                "descr": "thing finished"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wrap_up.02",
-        "roleset_name": "finish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing finishing"
-            },
-            {
-                "n": "2",
-                "descr": "Explicit instrument, thing finished with"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "wrap_up.03",
-        "roleset_name": "wrap_up: wrap completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of wrapping"
-            },
-            {
-                "n": "1",
-                "descr": "thing wrapped up (e.g. gift)"
-            },
-            {
-                "n": "2",
-                "descr": "the wrapper (e.g. wrapping paper)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wrap.01",
+    "roleset_name": "enclose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of wrapping",
+        "descr_trans": "包装的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing wrapped (e.g., gift)",
+        "descr_trans": "包装好的东西（例如礼物）"
+      },
+      {
+        "n": "2",
+        "descr": "wrapper (e.g., paper)",
+        "descr_trans": "包装纸（例如纸）"
+      }
+    ],
+    "roleset_name_trans": "括"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wrap.04",
+    "roleset_name": "finish, non-phrasal, conclude or recap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent finishing",
+        "descr_trans": "代理整理"
+      },
+      {
+        "n": "1",
+        "descr": "thing finished",
+        "descr_trans": "事情完成了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "完成、非短语、总结或回顾"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wrap_up.02",
+    "roleset_name": "finish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing finishing",
+        "descr_trans": "事情整理"
+      },
+      {
+        "n": "2",
+        "descr": "Explicit instrument, thing finished with",
+        "descr_trans": "显式工具，完成的事情"
+      }
+    ],
+    "roleset_name_trans": "结束"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "wrap_up.03",
+    "roleset_name": "wrap_up: wrap completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of wrapping",
+        "descr_trans": "包装的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing wrapped up (e.g. gift)",
+        "descr_trans": "包裹好的东西（例如礼物）"
+      },
+      {
+        "n": "2",
+        "descr": "the wrapper (e.g. wrapping paper)",
+        "descr_trans": "包装纸（例如包装纸）"
+      }
+    ],
+    "roleset_name_trans": "wrap_up: 完全包裹"
+  }
 ]

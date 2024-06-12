@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zip.01",
-        "roleset_name": "to move very fast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "zip.03",
-        "roleset_name": "shut a zippered closure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one who zipps"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity being zipped up"
-            },
-            {
-                "n": "2",
-                "descr": "co-patient, zipped to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "zip_up.02",
-        "roleset_name": "zip_up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one who zips up, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity being zipped up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zip.01",
+    "roleset_name": "to move very fast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "移动得非常快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "zip.03",
+    "roleset_name": "shut a zippered closure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one who zipps",
+        "descr_trans": "代理人，一个拉拉链的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity being zipped up",
+        "descr_trans": "病人，实体被拉上拉链"
+      },
+      {
+        "n": "2",
+        "descr": "co-patient, zipped to",
+        "descr_trans": "共同病人，压缩到"
+      }
+    ],
+    "roleset_name_trans": "拉上拉链"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "zip_up.02",
+    "roleset_name": "zip_up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one who zips up, agent",
+        "descr_trans": "拉上拉链的人，特工"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity being zipped up",
+        "descr_trans": "病人，实体被拉上拉链"
+      }
+    ],
+    "roleset_name_trans": "拉链拉上"
+  }
 ]

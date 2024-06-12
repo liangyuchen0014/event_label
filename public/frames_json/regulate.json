@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regulate.01",
-        "roleset_name": "supervise, watch over, controlling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "regulator"
-            },
-            {
-                "n": "1",
-                "descr": "thing regulated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regulate.01",
+    "roleset_name": "supervise, watch over, controlling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "regulator",
+        "descr_trans": "调节器"
+      },
+      {
+        "n": "1",
+        "descr": "thing regulated",
+        "descr_trans": "受管制的事物"
+      }
+    ],
+    "roleset_name_trans": "监督、监视、控制"
+  }
 ]

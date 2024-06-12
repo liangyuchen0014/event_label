@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "project.01",
-        "roleset_name": "(cause to) stick out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of projection"
-            },
-            {
-                "n": "1",
-                "descr": "thing projected/projecting"
-            },
-            {
-                "n": "2",
-                "descr": "into/onto"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "project.02",
-        "roleset_name": "tell the future",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fortune teller"
-            },
-            {
-                "n": "1",
-                "descr": "prediction, subject matter of prediction"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, arg1 predicted to have what characteristic?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "project.01",
+    "roleset_name": "(cause to) stick out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of projection",
+        "descr_trans": "投射的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing projected/projecting",
+        "descr_trans": "投射的东西/投射的东西"
+      },
+      {
+        "n": "2",
+        "descr": "into/onto",
+        "descr_trans": "进入/到"
+      }
+    ],
+    "roleset_name_trans": "（导致）脱颖而出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "project.02",
+    "roleset_name": "tell the future",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fortune teller",
+        "descr_trans": "算命先生"
+      },
+      {
+        "n": "1",
+        "descr": "prediction, subject matter of prediction",
+        "descr_trans": "预测，预测的主题"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, arg1 predicted to have what characteristic?",
+        "descr_trans": "属性，arg1 预测有什么特征？"
+      }
+    ],
+    "roleset_name_trans": "告诉未来"
+  }
 ]

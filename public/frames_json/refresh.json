@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refresh.01",
-        "roleset_name": "refresh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of refreshment, agent"
-            },
-            {
-                "n": "1",
-                "descr": "refreshed entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refresh.01",
+    "roleset_name": "refresh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of refreshment, agent",
+        "descr_trans": "提神原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "refreshed entity",
+        "descr_trans": "刷新实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from agent",
+        "descr_trans": "仪器，当与代理人分开时"
+      }
+    ],
+    "roleset_name_trans": "刷新"
+  }
 ]

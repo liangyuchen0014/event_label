@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impress.01",
-        "roleset_name": "wow someone by exceeding expectations, be impressive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, thing making an impression"
-            },
-            {
-                "n": "1",
-                "descr": "thing impressed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner, if in addition to arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "impress.02",
-        "roleset_name": "convince of importance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of convincing"
-            },
-            {
-                "n": "1",
-                "descr": "entity convinced"
-            },
-            {
-                "n": "2",
-                "descr": "proposition"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "impression.03",
-        "roleset_name": "mental image, understanding, notion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having an understanding, notion"
-            },
-            {
-                "n": "1",
-                "descr": "the notion, understanding"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impress.01",
+    "roleset_name": "wow someone by exceeding expectations, be impressive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, thing making an impression",
+        "descr_trans": "代理，给人留下印象的东西"
+      },
+      {
+        "n": "1",
+        "descr": "thing impressed",
+        "descr_trans": "印象深刻的事情"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner, if in addition to arg0",
+        "descr_trans": "仪器或方式，如果除了 arg0 之外"
+      }
+    ],
+    "roleset_name_trans": "超出预期，令人惊叹，令人印象深刻"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "impress.02",
+    "roleset_name": "convince of importance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of convincing",
+        "descr_trans": "说服力代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity convinced",
+        "descr_trans": "实体确信"
+      },
+      {
+        "n": "2",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      }
+    ],
+    "roleset_name_trans": "确信重要性"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "impression.03",
+    "roleset_name": "mental image, understanding, notion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having an understanding, notion",
+        "descr_trans": "具有理解、概念的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the notion, understanding",
+        "descr_trans": "观念、理解"
+      }
+    ],
+    "roleset_name_trans": "心理意象、理解、观念"
+  }
 ]

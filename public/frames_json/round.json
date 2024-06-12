@@ -1,100 +1,120 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "round_out.01",
-        "roleset_name": "bring to completion, fulfill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bringer to completion"
-            },
-            {
-                "n": "1",
-                "descr": "thing complete"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "round_up.02",
-        "roleset_name": "procure, arrange, get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter"
-            },
-            {
-                "n": "1",
-                "descr": "thing got(ten)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "round.03",
-        "roleset_name": "move in or have an arc-shaped path, circuit through a course (e.g. \"do rounds\")",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "path, direction, location"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "round.04",
-        "roleset_name": "(cause to) become round",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person causing roundness"
-            },
-            {
-                "n": "1",
-                "descr": "thing rounded"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used in rounding"
-            },
-            {
-                "n": "3",
-                "descr": "Resulting state, description of roundness"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "round.05",
-        "roleset_name": "session, bout, one time through",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "event"
-            },
-            {
-                "n": "2",
-                "descr": "participant"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "round.06",
-        "roleset_name": "spherical, circular",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "round entity"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is round"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "round_out.01",
+    "roleset_name": "bring to completion, fulfill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bringer to completion",
+        "descr_trans": "使人完成"
+      },
+      {
+        "n": "1",
+        "descr": "thing complete",
+        "descr_trans": "事情完成"
+      }
+    ],
+    "roleset_name_trans": "使完成，履行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "round_up.02",
+    "roleset_name": "procure, arrange, get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing got(ten)",
+        "descr_trans": "得到的东西(十)"
+      }
+    ],
+    "roleset_name_trans": "采购、安排、获得"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "round.03",
+    "roleset_name": "move in or have an arc-shaped path, circuit through a course (e.g. \"do rounds\")",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "path, direction, location",
+        "descr_trans": "路径、方向、位置"
+      }
+    ],
+    "roleset_name_trans": "进入或有弧形路径，通过路线循环（例如“绕圈”）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "round.04",
+    "roleset_name": "(cause to) become round",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person causing roundness",
+        "descr_trans": "引起圆度的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing rounded",
+        "descr_trans": "圆形的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used in rounding",
+        "descr_trans": "用于舍入的仪器"
+      },
+      {
+        "n": "3",
+        "descr": "Resulting state, description of roundness",
+        "descr_trans": "结果状态、圆度描述"
+      }
+    ],
+    "roleset_name_trans": "（使）变圆"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "round.05",
+    "roleset_name": "session, bout, one time through",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      },
+      {
+        "n": "2",
+        "descr": "participant",
+        "descr_trans": "参与者"
+      }
+    ],
+    "roleset_name_trans": "会话，回合，一次通过"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "round.06",
+    "roleset_name": "spherical, circular",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "round entity",
+        "descr_trans": "圆形实体"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is round",
+        "descr_trans": "arg1 的特定方面是圆形的"
+      }
+    ],
+    "roleset_name_trans": "球形、圆形"
+  }
 ]

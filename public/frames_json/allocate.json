@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "allocate.01",
-        "roleset_name": "give to, donate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter"
-            },
-            {
-                "n": "1",
-                "descr": "thing granted"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, granted-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "allocate.01",
+    "roleset_name": "give to, donate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter",
+        "descr_trans": "授予者"
+      },
+      {
+        "n": "1",
+        "descr": "thing granted",
+        "descr_trans": "授予的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, granted-to",
+        "descr_trans": "有益的，被授予的"
+      }
+    ],
+    "roleset_name_trans": "给予，捐赠"
+  }
 ]

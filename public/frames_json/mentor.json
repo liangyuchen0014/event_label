@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mentor.01",
-        "roleset_name": "act as a mentor to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acting as mentor"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting advice, mentee"
-            },
-            {
-                "n": "2",
-                "descr": "area, subject of mentoring"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mentor.01",
+    "roleset_name": "act as a mentor to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acting as mentor",
+        "descr_trans": "充当导师的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting advice, mentee",
+        "descr_trans": "获得建议的实体、受训者"
+      },
+      {
+        "n": "2",
+        "descr": "area, subject of mentoring",
+        "descr_trans": "辅导领域、辅导对象"
+      }
+    ],
+    "roleset_name_trans": "充当他人的导师"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scam.01",
-        "roleset_name": "cheat, swindle out of or into something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scammer"
-            },
-            {
-                "n": "1",
-                "descr": "person, entity scammed"
-            },
-            {
-                "n": "2",
-                "descr": "thing stolen, scammed-out of arg1 source"
-            },
-            {
-                "n": "3",
-                "descr": "action arg1 is scammed, fooled into doing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scam.01",
+    "roleset_name": "cheat, swindle out of or into something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scammer",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "person, entity scammed",
+        "descr_trans": "被骗的个人、实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing stolen, scammed-out of arg1 source",
+        "descr_trans": "东西被盗，被骗出 arg1 源"
+      },
+      {
+        "n": "3",
+        "descr": "action arg1 is scammed, fooled into doing",
+        "descr_trans": "动作 arg1 被骗了，被愚弄去做"
+      }
+    ],
+    "roleset_name_trans": "欺骗、骗取某物或骗取某物"
+  }
 ]

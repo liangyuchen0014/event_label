@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leeway.01",
-        "roleset_name": "grant tolerance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower, tolerant entity"
-            },
-            {
-                "n": "1",
-                "descr": "thing allowed to take place, topic/location of margin granted"
-            },
-            {
-                "n": "2",
-                "descr": "leeway granted to, beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leeway.01",
+    "roleset_name": "grant tolerance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower, tolerant entity",
+        "descr_trans": "允许者，容忍实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing allowed to take place, topic/location of margin granted",
+        "descr_trans": "允许发生的事情、授予保证金的主题/地点"
+      },
+      {
+        "n": "2",
+        "descr": "leeway granted to, beneficiary",
+        "descr_trans": "给予受益人的回旋余地"
+      }
+    ],
+    "roleset_name_trans": "给予宽容"
+  }
 ]

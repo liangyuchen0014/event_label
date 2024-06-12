@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coagulate.01",
-        "roleset_name": "(cause to) convert liquid to solid, convert liquid to solid via an electric current",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of coagulation"
-            },
-            {
-                "n": "1",
-                "descr": "entity coagulated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner, if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "apc.02",
-        "roleset_name": "argon plasma coagulation \u2013 endoscopic\u00a0procedure to control bleeding from GI lesions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (endoscopist)"
-            },
-            {
-                "n": "1",
-                "descr": "coagulated (abnormality being treated)"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive (person undergoing procedure) "
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coagulate.01",
+    "roleset_name": "(cause to) convert liquid to solid, convert liquid to solid via an electric current",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of coagulation",
+        "descr_trans": "凝血原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity coagulated",
+        "descr_trans": "实体凝结"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner, if separate from arg 0",
+        "descr_trans": "仪器或方式，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "（导致）将液体转化为固体，通过电流将液体转化为固体"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "apc.02",
+    "roleset_name": "argon plasma coagulation – endoscopic procedure to control bleeding from GI lesions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (endoscopist)",
+        "descr_trans": "代理人（内窥镜医师）"
+      },
+      {
+        "n": "1",
+        "descr": "coagulated (abnormality being treated)",
+        "descr_trans": "凝固（正在治疗异常）"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive (person undergoing procedure) ",
+        "descr_trans": "受益人（正在接受手术的人）"
+      }
+    ],
+    "roleset_name_trans": "氩离子凝固术——控制胃肠道病变出血的内窥镜手术"
+  }
 ]

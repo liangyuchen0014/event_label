@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "individualistic.01",
-        "roleset_name": "focused on, set apart as an individual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "individual"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "individualize.02",
-        "roleset_name": "tailor to an individual",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing tailored"
-            },
-            {
-                "n": "2",
-                "descr": "to whom; the individual"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "individualistic.01",
+    "roleset_name": "focused on, set apart as an individual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "individual",
+        "descr_trans": "个人"
+      }
+    ],
+    "roleset_name_trans": "专注于，作为一个个体分开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "individualize.02",
+    "roleset_name": "tailor to an individual",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing tailored",
+        "descr_trans": "定制的东西"
+      },
+      {
+        "n": "2",
+        "descr": "to whom; the individual",
+        "descr_trans": "给谁;个人"
+      }
+    ],
+    "roleset_name_trans": "为个人量身定制"
+  }
 ]

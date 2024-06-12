@@ -1,39 +1,46 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "socialize.01",
-        "roleset_name": "be social, be exposed to people; be social",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "socialite"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "socialize.02",
-        "roleset_name": "put into socialist system",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "government"
-            },
-            {
-                "n": "1",
-                "descr": "industry, etc"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "social.03",
-        "roleset_name": "living/being in the company of others",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "social entity/action (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "socialize.01",
+    "roleset_name": "be social, be exposed to people; be social",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "socialite",
+        "descr_trans": "社会名流"
+      }
+    ],
+    "roleset_name_trans": "善于社交，与人接触；社交"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "socialize.02",
+    "roleset_name": "put into socialist system",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "government",
+        "descr_trans": "政府"
+      },
+      {
+        "n": "1",
+        "descr": "industry, etc",
+        "descr_trans": "工业等"
+      }
+    ],
+    "roleset_name_trans": "纳入社会主义制度"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "social.03",
+    "roleset_name": "living/being in the company of others",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "social entity/action (may require concatenation)",
+        "descr_trans": "社会实体/行动（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "与他人一起生活/存在"
+  }
 ]

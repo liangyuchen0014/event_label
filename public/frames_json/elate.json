@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elate.01",
-        "roleset_name": "fill with joy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if diff from cause in Arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elate.01",
+    "roleset_name": "fill with joy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or causer",
+        "descr_trans": "代理人或起因"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if diff from cause in Arg0",
+        "descr_trans": "仪器，如果与 Arg0 中的原因不同"
+      }
+    ],
+    "roleset_name_trans": "充满喜悦"
+  }
 ]

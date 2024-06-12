@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frighten.01",
-        "roleset_name": "(cause to) become afraid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of fear"
-            },
-            {
-                "n": "1",
-                "descr": "frightened entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            },
-            {
-                "n": "3",
-                "descr": "intensifier"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "frighten_off.02",
-        "roleset_name": "frighten and make go away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of fear"
-            },
-            {
-                "n": "1",
-                "descr": "frightened entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "frighten_away.03",
-        "roleset_name": "frighten and make go away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fear"
-            },
-            {
-                "n": "1",
-                "descr": "frightened entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fright.04",
-        "roleset_name": "be afraid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of fear"
-            },
-            {
-                "n": "1",
-                "descr": "frightened entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frighten.01",
+    "roleset_name": "(cause to) become afraid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of fear",
+        "descr_trans": "恐惧的原因"
+      },
+      {
+        "n": "1",
+        "descr": "frightened entity",
+        "descr_trans": "受惊的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      },
+      {
+        "n": "3",
+        "descr": "intensifier",
+        "descr_trans": "增强器"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得害怕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "frighten_off.02",
+    "roleset_name": "frighten and make go away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of fear",
+        "descr_trans": "恐惧的原因"
+      },
+      {
+        "n": "1",
+        "descr": "frightened entity",
+        "descr_trans": "受惊的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "吓走"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "frighten_away.03",
+    "roleset_name": "frighten and make go away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fear",
+        "descr_trans": "恐惧的根源"
+      },
+      {
+        "n": "1",
+        "descr": "frightened entity",
+        "descr_trans": "受惊的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "吓走"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fright.04",
+    "roleset_name": "be afraid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of fear",
+        "descr_trans": "恐惧的原因"
+      },
+      {
+        "n": "1",
+        "descr": "frightened entity",
+        "descr_trans": "受惊的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "害怕"
+  }
 ]

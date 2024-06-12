@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mutate.01",
-        "roleset_name": "to undergo or cause to undergo mutation, changing state, morphing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing mutation"
-            },
-            {
-                "n": "2",
-                "descr": "end state, arg 1 mutated into what?"
-            },
-            {
-                "n": "3",
-                "descr": "start state, arg 1 mutated from what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mutate.01",
+    "roleset_name": "to undergo or cause to undergo mutation, changing state, morphing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change, agent",
+        "descr_trans": "变化的起因、推动者"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing mutation",
+        "descr_trans": "正在发生突变的实体"
+      },
+      {
+        "n": "2",
+        "descr": "end state, arg 1 mutated into what?",
+        "descr_trans": "最终状态，arg 1 突变成什么？"
+      },
+      {
+        "n": "3",
+        "descr": "start state, arg 1 mutated from what?",
+        "descr_trans": "开始状态，arg 1 从什么变异而来？"
+      }
+    ],
+    "roleset_name_trans": "经历或导致经历突变、改变状态、变形"
+  }
 ]

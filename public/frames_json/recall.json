@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recall.01",
-        "roleset_name": "manufactured defect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity recalling, manufacturer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being recalled, defective thing"
-            },
-            {
-                "n": "2",
-                "descr": "recalled from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recall.02",
-        "roleset_name": "remember",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rememberer"
-            },
-            {
-                "n": "1",
-                "descr": "memory"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            },
-            {
-                "n": "3",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "recall.03",
-        "roleset_name": "ask or order to go/come back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recaller"
-            },
-            {
-                "n": "1",
-                "descr": "entity recalled"
-            },
-            {
-                "n": "2",
-                "descr": "recalled to where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recall.01",
+    "roleset_name": "manufactured defect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity recalling, manufacturer",
+        "descr_trans": "实体召回、制造商"
+      },
+      {
+        "n": "1",
+        "descr": "thing being recalled, defective thing",
+        "descr_trans": "被召回的东西，有缺陷的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recalled from",
+        "descr_trans": "召回自"
+      }
+    ],
+    "roleset_name_trans": "制造缺陷"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recall.02",
+    "roleset_name": "remember",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rememberer",
+        "descr_trans": "记忆者"
+      },
+      {
+        "n": "1",
+        "descr": "memory",
+        "descr_trans": "记忆"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      },
+      {
+        "n": "3",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "记住"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "recall.03",
+    "roleset_name": "ask or order to go/come back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recaller",
+        "descr_trans": "回忆者"
+      },
+      {
+        "n": "1",
+        "descr": "entity recalled",
+        "descr_trans": "实体被召回"
+      },
+      {
+        "n": "2",
+        "descr": "recalled to where",
+        "descr_trans": "召回到哪里"
+      }
+    ],
+    "roleset_name_trans": "询问或命令去/回来"
+  }
 ]

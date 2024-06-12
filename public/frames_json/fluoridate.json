@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fluoridate.01",
-        "roleset_name": "add fluoride to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity adding fluoride"
-            },
-            {
-                "n": "1",
-                "descr": "added to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fluoridate.01",
+    "roleset_name": "add fluoride to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity adding fluoride",
+        "descr_trans": "加氟剂、实体"
+      },
+      {
+        "n": "1",
+        "descr": "added to",
+        "descr_trans": "添加到"
+      }
+    ],
+    "roleset_name_trans": "添加氟化物"
+  }
 ]

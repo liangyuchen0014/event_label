@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strap.01",
-        "roleset_name": "fasten, bind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fastener, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing strapped"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "strap.02",
-        "roleset_name": "be in need of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, needer"
-            },
-            {
-                "n": "1",
-                "descr": "needed thing"
-            },
-            {
-                "n": "2",
-                "descr": "cause of need"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "strap.03",
-        "roleset_name": "to beat with a strap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "beater, hitter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing strapped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strap.01",
+    "roleset_name": "fasten, bind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fastener, agent",
+        "descr_trans": "紧固件、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing strapped",
+        "descr_trans": "东西绑起来"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "系紧，捆绑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "strap.02",
+    "roleset_name": "be in need of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, needer",
+        "descr_trans": "代理人、需求者"
+      },
+      {
+        "n": "1",
+        "descr": "needed thing",
+        "descr_trans": "需要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cause of need",
+        "descr_trans": "需要的原因"
+      }
+    ],
+    "roleset_name_trans": "在必要时"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "strap.03",
+    "roleset_name": "to beat with a strap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "beater, hitter, agent",
+        "descr_trans": "击球手, 击球手, 经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing strapped",
+        "descr_trans": "东西绑起来"
+      }
+    ],
+    "roleset_name_trans": "用带子敲打"
+  }
 ]

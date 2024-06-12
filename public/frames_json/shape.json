@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shape.01",
-        "roleset_name": "shape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shaper"
-            },
-            {
-                "n": "1",
-                "descr": "thing worked on"
-            },
-            {
-                "n": "2",
-                "descr": "resulting shape (also the original thing being copied)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shape_up.02",
-        "roleset_name": "seem to be",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shape_up.03",
-        "roleset_name": "reform behavior",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reformer"
-            },
-            {
-                "n": "1",
-                "descr": "entity acting out, thing reformed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shape.01",
+    "roleset_name": "shape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shaper",
+        "descr_trans": "塑造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing worked on",
+        "descr_trans": "事情进展顺利"
+      },
+      {
+        "n": "2",
+        "descr": "resulting shape (also the original thing being copied)",
+        "descr_trans": "生成的形状（也是被复制的原始形状）"
+      }
+    ],
+    "roleset_name_trans": "形状"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shape_up.02",
+    "roleset_name": "seem to be",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming",
+        "descr_trans": "看起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "似乎是"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shape_up.03",
+    "roleset_name": "reform behavior",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reformer",
+        "descr_trans": "改革者"
+      },
+      {
+        "n": "1",
+        "descr": "entity acting out, thing reformed",
+        "descr_trans": "实体行动，事物改革"
+      }
+    ],
+    "roleset_name_trans": "改革行为"
+  }
 ]

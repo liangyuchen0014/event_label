@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tip.01",
-        "roleset_name": "cause to not be level",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing not level"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tip.02",
-        "roleset_name": "leave a gratuity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tipper"
-            },
-            {
-                "n": "1",
-                "descr": "gratuity"
-            },
-            {
-                "n": "2",
-                "descr": "waiter, etc"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tip.05",
-        "roleset_name": "inform, give advice, the giving of advice or information",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informant"
-            },
-            {
-                "n": "1",
-                "descr": "informed"
-            },
-            {
-                "n": "2",
-                "descr": "informed of what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tip.06",
-        "roleset_name": "top with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing topped"
-            },
-            {
-                "n": "2",
-                "descr": "topped with"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "tip_over.03",
-        "roleset_name": "cause to be upside down",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing upside down"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "tip_off.04",
-        "roleset_name": "give a hint to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver of hint"
-            },
-            {
-                "n": "1",
-                "descr": "getter of hint"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tip.01",
+    "roleset_name": "cause to not be level",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing not level",
+        "descr_trans": "东西不水平"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "导致不水平"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tip.02",
+    "roleset_name": "leave a gratuity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tipper",
+        "descr_trans": "自卸车"
+      },
+      {
+        "n": "1",
+        "descr": "gratuity",
+        "descr_trans": "小费"
+      },
+      {
+        "n": "2",
+        "descr": "waiter, etc",
+        "descr_trans": "服务员等"
+      }
+    ],
+    "roleset_name_trans": "留下小费"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tip.05",
+    "roleset_name": "inform, give advice, the giving of advice or information",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informant",
+        "descr_trans": "线人"
+      },
+      {
+        "n": "1",
+        "descr": "informed",
+        "descr_trans": "知情的"
+      },
+      {
+        "n": "2",
+        "descr": "informed of what",
+        "descr_trans": "获悉什么"
+      }
+    ],
+    "roleset_name_trans": "通知、提供建议、提供建议或信息"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tip.06",
+    "roleset_name": "top with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing topped",
+        "descr_trans": "事情顶上"
+      },
+      {
+        "n": "2",
+        "descr": "topped with",
+        "descr_trans": "上面有"
+      }
+    ],
+    "roleset_name_trans": "上面有"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "tip_over.03",
+    "roleset_name": "cause to be upside down",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing upside down",
+        "descr_trans": "东西颠倒"
+      }
+    ],
+    "roleset_name_trans": "导致颠倒"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "tip_off.04",
+    "roleset_name": "give a hint to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver of hint",
+        "descr_trans": "暗示者"
+      },
+      {
+        "n": "1",
+        "descr": "getter of hint",
+        "descr_trans": "提示获取者"
+      }
+    ],
+    "roleset_name_trans": "给个提示"
+  }
 ]

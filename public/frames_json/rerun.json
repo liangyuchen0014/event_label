@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rerun.01",
-        "roleset_name": "reshow a play or broadcast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "network replaying"
-            },
-            {
-                "n": "1",
-                "descr": "show"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rerun.02",
-        "roleset_name": "cause to perform again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of repeat performance"
-            },
-            {
-                "n": "1",
-                "descr": "thing rerun"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rerun.03",
-        "roleset_name": "run for office again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "politician"
-            },
-            {
-                "n": "1",
-                "descr": "office"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rerun.01",
+    "roleset_name": "reshow a play or broadcast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "network replaying",
+        "descr_trans": "网络重播"
+      },
+      {
+        "n": "1",
+        "descr": "show",
+        "descr_trans": "展示"
+      }
+    ],
+    "roleset_name_trans": "重播戏剧或广播"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rerun.02",
+    "roleset_name": "cause to perform again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of repeat performance",
+        "descr_trans": "重复表现的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing rerun",
+        "descr_trans": "事情重新运行"
+      }
+    ],
+    "roleset_name_trans": "导致再次执行"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rerun.03",
+    "roleset_name": "run for office again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "politician",
+        "descr_trans": "政治家"
+      },
+      {
+        "n": "1",
+        "descr": "office",
+        "descr_trans": "办公室"
+      }
+    ],
+    "roleset_name_trans": "再次竞选公职"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unsettle.01",
-        "roleset_name": "cause anxiety, anxious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of anxiety"
-            },
-            {
-                "n": "1",
-                "descr": "anxious entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unsettled.02",
-        "roleset_name": "unresolved",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of resolution"
-            },
-            {
-                "n": "1",
-                "descr": "thing resolved"
-            },
-            {
-                "n": "2",
-                "descr": "comitative"
-            },
-            {
-                "n": "3",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unsettle.01",
+    "roleset_name": "cause anxiety, anxious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of anxiety",
+        "descr_trans": "焦虑的原因"
+      },
+      {
+        "n": "1",
+        "descr": "anxious entity",
+        "descr_trans": "焦虑实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "引起焦虑、焦虑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unsettled.02",
+    "roleset_name": "unresolved",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of resolution",
+        "descr_trans": "决议代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing resolved",
+        "descr_trans": "事情解决了"
+      },
+      {
+        "n": "2",
+        "descr": "comitative",
+        "descr_trans": "伴随的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "未解决的"
+  }
 ]

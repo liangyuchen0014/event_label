@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "invent.01",
-        "roleset_name": "create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "invent.01",
+    "roleset_name": "create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      }
+    ],
+    "roleset_name_trans": "创造"
+  }
 ]

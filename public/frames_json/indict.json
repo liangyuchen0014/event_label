@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indict.01",
-        "roleset_name": "accuse of a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accuser"
-            },
-            {
-                "n": "1",
-                "descr": "accused"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indict.01",
+    "roleset_name": "accuse of a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accuser",
+        "descr_trans": "原告"
+      },
+      {
+        "n": "1",
+        "descr": "accused",
+        "descr_trans": "被告"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "指控犯罪"
+  }
 ]

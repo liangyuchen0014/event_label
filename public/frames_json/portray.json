@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "portray.01",
-        "roleset_name": "label",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "labeller"
-            },
-            {
-                "n": "1",
-                "descr": "item being labelled"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "portray.01",
+    "roleset_name": "label",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "labeller",
+        "descr_trans": "贴标机"
+      },
+      {
+        "n": "1",
+        "descr": "item being labelled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "标签"
+  }
 ]

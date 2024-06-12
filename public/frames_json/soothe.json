@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "soothe.01",
-        "roleset_name": "to calm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity soothed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "soothe.01",
+    "roleset_name": "to calm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity soothed",
+        "descr_trans": "实体安抚"
+      }
+    ],
+    "roleset_name_trans": "平静"
+  }
 ]

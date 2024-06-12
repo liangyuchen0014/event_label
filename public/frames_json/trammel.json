@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trammel.01",
-        "roleset_name": "trammel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trammeler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity trammeled, patient"
-            },
-            {
-                "n": "2",
-                "descr": "trammeled to what, second patient"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, trammeled with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trammel.01",
+    "roleset_name": "trammel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trammeler, agent",
+        "descr_trans": "特马勒, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity trammeled, patient",
+        "descr_trans": "实体被束缚，病人"
+      },
+      {
+        "n": "2",
+        "descr": "trammeled to what, second patient",
+        "descr_trans": "被束缚到了什么，第二个病人"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, trammeled with what",
+        "descr_trans": "乐器，用什么束缚"
+      }
+    ],
+    "roleset_name_trans": "特拉梅尔"
+  }
 ]

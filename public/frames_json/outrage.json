@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outrage.01",
-        "roleset_name": "make very angry, extreme, causing outrage (or other extreme feeling)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus of outrage, outrageous entity"
-            },
-            {
-                "n": "1",
-                "descr": "enraged entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "outrageous.02",
-        "roleset_name": "wild, over the top, possibly hilarious and wonderful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wild entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity deeming arg0 outrageous"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outrage.01",
+    "roleset_name": "make very angry, extreme, causing outrage (or other extreme feeling)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus of outrage, outrageous entity",
+        "descr_trans": "愤怒的刺激，令人发指的实体"
+      },
+      {
+        "n": "1",
+        "descr": "enraged entity",
+        "descr_trans": "愤怒的实体"
+      }
+    ],
+    "roleset_name_trans": "使非常生气、极端、引起愤怒（或其他极端的感觉）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "outrageous.02",
+    "roleset_name": "wild, over the top, possibly hilarious and wonderful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wild entity",
+        "descr_trans": "野生实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity deeming arg0 outrageous",
+        "descr_trans": "实体认为 arg0 令人无法容忍"
+      }
+    ],
+    "roleset_name_trans": "狂野、夸张、可能搞笑又精彩"
+  }
 ]

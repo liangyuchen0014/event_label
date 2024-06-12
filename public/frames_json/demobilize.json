@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demobilize.01",
-        "roleset_name": "to discharge from military service",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supreme commander, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person demobilized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demobilize.01",
+    "roleset_name": "to discharge from military service",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supreme commander, agent",
+        "descr_trans": "最高指挥官、特工"
+      },
+      {
+        "n": "1",
+        "descr": "person demobilized",
+        "descr_trans": "复员人员"
+      }
+    ],
+    "roleset_name_trans": "退伍"
+  }
 ]

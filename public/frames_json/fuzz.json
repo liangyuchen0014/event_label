@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fuzz.01",
-        "roleset_name": "make fuzzy, wooly, not having hard edges",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of fuzziness"
-            },
-            {
-                "n": "1",
-                "descr": "fuzzy thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is fuzzy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fuzz.01",
+    "roleset_name": "make fuzzy, wooly, not having hard edges",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of fuzziness",
+        "descr_trans": "造成模糊性的原因"
+      },
+      {
+        "n": "1",
+        "descr": "fuzzy thing",
+        "descr_trans": "模糊的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is fuzzy",
+        "descr_trans": "arg1 的具体方面是模糊的"
+      }
+    ],
+    "roleset_name_trans": "使毛茸茸的，毛茸茸的，没有硬边"
+  }
 ]

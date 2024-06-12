@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "okay.01",
-        "roleset_name": "allow, permit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "okay-er, entity giving permission"
-            },
-            {
-                "n": "1",
-                "descr": "ok thing,"
-            },
-            {
-                "n": "2",
-                "descr": "entity FOR whom arg1 is ok, having permission to undergo arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "okay.02",
-        "roleset_name": "having an average amount of skill at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "marginally skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "okay.03",
-        "roleset_name": "moderately beneficial, healthy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is moderately beneficial"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "okay.04",
-        "roleset_name": "generally alright",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally alright thing"
-            },
-            {
-                "n": "2",
-                "descr": "target of ok behavior"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "okay.01",
+    "roleset_name": "allow, permit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "okay-er, entity giving permission",
+        "descr_trans": "好的，实体给予许可"
+      },
+      {
+        "n": "1",
+        "descr": "ok thing,",
+        "descr_trans": "好吧，"
+      },
+      {
+        "n": "2",
+        "descr": "entity FOR whom arg1 is ok, having permission to undergo arg1",
+        "descr_trans": "实体 FOR arg1 可以，有权接受 arg1"
+      }
+    ],
+    "roleset_name_trans": "允许，允许"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "okay.02",
+    "roleset_name": "having an average amount of skill at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "marginally skilled entity",
+        "descr_trans": "边缘技能实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "平均技能水平为"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "okay.03",
+    "roleset_name": "moderately beneficial, healthy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is moderately beneficial",
+        "descr_trans": "适度有益的事物"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "适度有益，健康"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "okay.04",
+    "roleset_name": "generally alright",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally alright thing",
+        "descr_trans": "一般来说还不错的事情"
+      },
+      {
+        "n": "2",
+        "descr": "target of ok behavior",
+        "descr_trans": "良好行为的目标"
+      }
+    ],
+    "roleset_name_trans": "总体来说还好"
+  }
 ]

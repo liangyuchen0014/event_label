@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cannulate.01",
-        "roleset_name": "to use a cannula, insert a tube",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, cannulator"
-            },
-            {
-                "n": "1",
-                "descr": "Entity tube or cannula is inserted into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cannulate.01",
+    "roleset_name": "to use a cannula, insert a tube",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, cannulator",
+        "descr_trans": "代理、插管器"
+      },
+      {
+        "n": "1",
+        "descr": "Entity tube or cannula is inserted into",
+        "descr_trans": "实体管或插管插入"
+      }
+    ],
+    "roleset_name_trans": "要使用插管，请插入管子"
+  }
 ]

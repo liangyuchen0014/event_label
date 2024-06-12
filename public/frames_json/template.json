@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "template.01",
-        "roleset_name": "provide a pattern for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "template provider"
-            },
-            {
-                "n": "1",
-                "descr": "thing a template is provided for"
-            },
-            {
-                "n": "2",
-                "descr": "the template"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "template.01",
+    "roleset_name": "provide a pattern for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "template provider",
+        "descr_trans": "模板提供者"
+      },
+      {
+        "n": "1",
+        "descr": "thing a template is provided for",
+        "descr_trans": "提供模板的目的"
+      },
+      {
+        "n": "2",
+        "descr": "the template",
+        "descr_trans": "模板"
+      }
+    ],
+    "roleset_name_trans": "提供一个模式"
+  }
 ]

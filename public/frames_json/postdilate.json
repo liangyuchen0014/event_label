@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "postdilate.01",
-        "roleset_name": "dilate an artery after stent deployment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Artery dilated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "postdilate.01",
+    "roleset_name": "dilate an artery after stent deployment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Artery dilated",
+        "descr_trans": "动脉扩张"
+      }
+    ],
+    "roleset_name_trans": "支架置入后扩张动脉"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embargo.01",
-        "roleset_name": "block trade to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "blocker"
-            },
-            {
-                "n": "1",
-                "descr": "foiled (destination of) trade"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embargo.01",
+    "roleset_name": "block trade to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "blocker",
+        "descr_trans": "阻挡者"
+      },
+      {
+        "n": "1",
+        "descr": "foiled (destination of) trade",
+        "descr_trans": "贸易（目的地）受阻"
+      }
+    ],
+    "roleset_name_trans": "大宗交易至"
+  }
 ]

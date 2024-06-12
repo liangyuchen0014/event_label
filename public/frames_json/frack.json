@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frack.01",
-        "roleset_name": "inject liquid to force an opening for extraction of oil or gas.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity hunting for oil"
-            },
-            {
-                "n": "1",
-                "descr": "oil or gas"
-            },
-            {
-                "n": "2",
-                "descr": "rock or area searched"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frack.01",
+    "roleset_name": "inject liquid to force an opening for extraction of oil or gas.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity hunting for oil",
+        "descr_trans": "代理、实体寻找石油"
+      },
+      {
+        "n": "1",
+        "descr": "oil or gas",
+        "descr_trans": "石油或天然气"
+      },
+      {
+        "n": "2",
+        "descr": "rock or area searched",
+        "descr_trans": "搜索过的岩石或区域"
+      }
+    ],
+    "roleset_name_trans": "注入液体以迫使开口提取石油或天然气。"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deserve.01",
-        "roleset_name": "deserve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deserving entity (entity who is owed)"
-            },
-            {
-                "n": "1",
-                "descr": "thing deserved"
-            },
-            {
-                "n": "2",
-                "descr": "in-exhange-for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deserve.01",
+    "roleset_name": "deserve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deserving entity (entity who is owed)",
+        "descr_trans": "应得实体（被欠的实体）"
+      },
+      {
+        "n": "1",
+        "descr": "thing deserved",
+        "descr_trans": "应得的事情"
+      },
+      {
+        "n": "2",
+        "descr": "in-exhange-for",
+        "descr_trans": "交换"
+      }
+    ],
+    "roleset_name_trans": "应得"
+  }
 ]

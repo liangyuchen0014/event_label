@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ultrasound.01",
-        "roleset_name": "use sonography",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent; doctor; technician"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ultrasound.01",
+    "roleset_name": "use sonography",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent; doctor; technician",
+        "descr_trans": "代理人;医生;技术员"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "使用超声检查"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retard.01",
-        "roleset_name": "make slow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of slowing"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting slower"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 retarded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retard.01",
+    "roleset_name": "make slow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of slowing",
+        "descr_trans": "减速的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting slower",
+        "descr_trans": "事情变得越来越慢"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 retarded",
+        "descr_trans": "arg1 的特定方面被延迟"
+      }
+    ],
+    "roleset_name_trans": "放慢速度"
+  }
 ]

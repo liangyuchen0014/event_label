@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "necessitate.01",
-        "roleset_name": "require",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "requirer"
-            },
-            {
-                "n": "1",
-                "descr": "thing required"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "necessary.02",
-        "roleset_name": "essential",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "essential thing (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "necessary for/to what; dependent on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "necessitate.01",
+    "roleset_name": "require",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "requirer",
+        "descr_trans": "要求者"
+      },
+      {
+        "n": "1",
+        "descr": "thing required",
+        "descr_trans": "需要的东西"
+      }
+    ],
+    "roleset_name_trans": "要求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "necessary.02",
+    "roleset_name": "essential",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "essential thing (may require concatenation)",
+        "descr_trans": "重要的事情（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "necessary for/to what; dependent on arg1",
+        "descr_trans": "为/为什么所必需的；依赖于 arg1"
+      }
+    ],
+    "roleset_name_trans": "基本的"
+  }
 ]

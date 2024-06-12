@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cage.01",
-        "roleset_name": "to put in or confine in a cage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cager"
-            },
-            {
-                "n": "1",
-                "descr": "thing caged"
-            },
-            {
-                "n": "2",
-                "descr": "cage, location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cage.02",
-        "roleset_name": "alcoholism screening test",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "screener"
-            },
-            {
-                "n": "1",
-                "descr": "screened"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cage.01",
+    "roleset_name": "to put in or confine in a cage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cager",
+        "descr_trans": "凯格"
+      },
+      {
+        "n": "1",
+        "descr": "thing caged",
+        "descr_trans": "关在笼子里的东西"
+      },
+      {
+        "n": "2",
+        "descr": "cage, location",
+        "descr_trans": "笼子, 位置"
+      }
+    ],
+    "roleset_name_trans": "放入或限制在笼子里"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cage.02",
+    "roleset_name": "alcoholism screening test",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "screener",
+        "descr_trans": "筛选器"
+      },
+      {
+        "n": "1",
+        "descr": "screened",
+        "descr_trans": "筛选的"
+      }
+    ],
+    "roleset_name_trans": "酒精中毒筛查测试"
+  }
 ]

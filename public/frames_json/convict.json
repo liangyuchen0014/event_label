@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "convict.01",
-        "roleset_name": "to find or prove guilty of an offense or crime, finding guilty of a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge, jury, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person convicted"
-            },
-            {
-                "n": "2",
-                "descr": "convicted of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conviction.02",
-        "roleset_name": "belief",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Believer, person who holds a conviction/belief"
-            },
-            {
-                "n": "1",
-                "descr": "Thing believed, conviction itself"
-            },
-            {
-                "n": "2",
-                "descr": "Attributive, what is the domain/subject matter of the conviction?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "convict.01",
+    "roleset_name": "to find or prove guilty of an offense or crime, finding guilty of a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge, jury, agent",
+        "descr_trans": "法官、陪审团、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person convicted",
+        "descr_trans": "被定罪的人"
+      },
+      {
+        "n": "2",
+        "descr": "convicted of",
+        "descr_trans": "定罪"
+      }
+    ],
+    "roleset_name_trans": "发现或证明有罪或有罪, 发现有罪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conviction.02",
+    "roleset_name": "belief",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Believer, person who holds a conviction/belief",
+        "descr_trans": "信徒，持有信念/信仰的人"
+      },
+      {
+        "n": "1",
+        "descr": "Thing believed, conviction itself",
+        "descr_trans": "所相信的事物，信念本身"
+      },
+      {
+        "n": "2",
+        "descr": "Attributive, what is the domain/subject matter of the conviction?",
+        "descr_trans": "定语，定罪的领域/主题是什么？"
+      }
+    ],
+    "roleset_name_trans": "信仰"
+  }
 ]

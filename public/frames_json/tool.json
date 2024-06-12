@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tool.01",
-        "roleset_name": "travel leisurely in (or as) an automobile",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "direction/path/location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tool.02",
-        "roleset_name": "furnish a location with tools",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity stocking the tools"
-            },
-            {
-                "n": "1",
-                "descr": "tools"
-            },
-            {
-                "n": "2",
-                "descr": "place stocked with tools"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tool.03",
-        "roleset_name": "work material with a tool",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, artisan"
-            },
-            {
-                "n": "1",
-                "descr": "material, surface tooled"
-            },
-            {
-                "n": "2",
-                "descr": "design/end product"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tool_up.04",
-        "roleset_name": "make better by equipping with \"tools\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing made better/given \"tools\""
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tool.01",
+    "roleset_name": "travel leisurely in (or as) an automobile",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver",
+        "descr_trans": "代理人、司机"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "direction/path/location",
+        "descr_trans": "方向/路径/位置"
+      }
+    ],
+    "roleset_name_trans": "乘坐（或作为）汽车悠闲地旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tool.02",
+    "roleset_name": "furnish a location with tools",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity stocking the tools",
+        "descr_trans": "代理、库存工具的实体"
+      },
+      {
+        "n": "1",
+        "descr": "tools",
+        "descr_trans": "工具"
+      },
+      {
+        "n": "2",
+        "descr": "place stocked with tools",
+        "descr_trans": "备有工具的地方"
+      }
+    ],
+    "roleset_name_trans": "为地点提供工具"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tool.03",
+    "roleset_name": "work material with a tool",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, artisan",
+        "descr_trans": "代理人、工匠"
+      },
+      {
+        "n": "1",
+        "descr": "material, surface tooled",
+        "descr_trans": "材料、表面加工"
+      },
+      {
+        "n": "2",
+        "descr": "design/end product",
+        "descr_trans": "设计/最终产品"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "用工具加工材料"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tool_up.04",
+    "roleset_name": "make better by equipping with \"tools\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing made better/given \"tools\"",
+        "descr_trans": "事情变得更好/有了“工具”"
+      }
+    ],
+    "roleset_name_trans": "配备“工具”，让自己变得更好"
+  }
 ]

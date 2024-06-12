@@ -1,279 +1,337 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "work.01",
-        "roleset_name": "work, being employed, acts, deeds (no physical parts or gov't departments!)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "job, project"
-            },
-            {
-                "n": "2",
-                "descr": "employer, benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "coworker"
-            },
-            {
-                "n": "4",
-                "descr": "instrumental"
-            },
-            {
-                "n": "5",
-                "descr": "secondary-theme"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "work.06",
-        "roleset_name": "move with purpose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "description of path"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "work.07",
-        "roleset_name": "put, manipulate, inserting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manipulator"
-            },
-            {
-                "n": "1",
-                "descr": "thing manipulated"
-            },
-            {
-                "n": "2",
-                "descr": "destination, end state"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "work.08",
-        "roleset_name": "wreak, bring about (past tense wrought)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "worker"
-            },
-            {
-                "n": "1",
-                "descr": "damage, havoc"
-            },
-            {
-                "n": "2",
-                "descr": "wrought upon what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "work.09",
-        "roleset_name": "function, operate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing functioning"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "work.10",
-        "roleset_name": "resultative construction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person/Entity working something1"
-            },
-            {
-                "n": "1",
-                "descr": "Thing undergoing change of state, unselected object of work"
-            },
-            {
-                "n": "2",
-                "descr": "End result of thing worked, arg1"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "work.11",
-        "roleset_name": "'in the works'",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing getting underway"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "work.12",
-        "roleset_name": "work-of-art",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "art work or subject area"
-            },
-            {
-                "n": "2",
-                "descr": "secondary-theme"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "work.13",
-        "roleset_name": "'at-work'  cause change, at/in play",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing existing"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "work_out.02",
-        "roleset_name": "work out: arrange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arranger"
-            },
-            {
-                "n": "1",
-                "descr": "scheme"
-            },
-            {
-                "n": "2",
-                "descr": "collaborator"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "work_out.03",
-        "roleset_name": "work out: exercise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "athlete"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "work_out.05",
-        "roleset_name": "work out: amount, count up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being counted"
-            },
-            {
-                "n": "2",
-                "descr": "count, number"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "work_up.04",
-        "roleset_name": "work up: create, cause to come about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing arising"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "work_up.101",
-        "roleset_name": "determine and perform necessary medical course of action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor (Agent)"
-            },
-            {
-                "n": "1",
-                "descr": "Patient"
-            },
-            {
-                "n": "2",
-                "descr": "Condition/Illness/Disorder"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "worked_up.14",
-        "roleset_name": "Angry, agitated, excited about something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Stimulus, worked up over what?"
-            },
-            {
-                "n": "1",
-                "descr": "Excited entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "work.01",
+    "roleset_name": "work, being employed, acts, deeds (no physical parts or gov't departments!)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "job, project",
+        "descr_trans": "工作、项目"
+      },
+      {
+        "n": "2",
+        "descr": "employer, benefactive",
+        "descr_trans": "雇主、受益人"
+      },
+      {
+        "n": "3",
+        "descr": "coworker",
+        "descr_trans": "同事"
+      },
+      {
+        "n": "4",
+        "descr": "instrumental",
+        "descr_trans": "工具性的"
+      },
+      {
+        "n": "5",
+        "descr": "secondary-theme",
+        "descr_trans": "次要主题"
+      }
+    ],
+    "roleset_name_trans": "工作、受雇、行为、事迹（没有实体部分或政府部门！）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "work.06",
+    "roleset_name": "move with purpose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "description of path",
+        "descr_trans": "路径描述"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "有目的地移动"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "work.07",
+    "roleset_name": "put, manipulate, inserting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manipulator",
+        "descr_trans": "机械手"
+      },
+      {
+        "n": "1",
+        "descr": "thing manipulated",
+        "descr_trans": "被操纵的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination, end state",
+        "descr_trans": "目的地、最终状态"
+      }
+    ],
+    "roleset_name_trans": "放置、操纵、插入"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "work.08",
+    "roleset_name": "wreak, bring about (past tense wrought)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "worker",
+        "descr_trans": "工人"
+      },
+      {
+        "n": "1",
+        "descr": "damage, havoc",
+        "descr_trans": "损害，破坏"
+      },
+      {
+        "n": "2",
+        "descr": "wrought upon what",
+        "descr_trans": "做了什么"
+      }
+    ],
+    "roleset_name_trans": "造成，造成（过去时态）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "work.09",
+    "roleset_name": "function, operate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing functioning",
+        "descr_trans": "事物运作"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "功能，操作"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "work.10",
+    "roleset_name": "resultative construction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person/Entity working something1",
+        "descr_trans": "从事某事的个人/实体1"
+      },
+      {
+        "n": "1",
+        "descr": "Thing undergoing change of state, unselected object of work",
+        "descr_trans": "正在发生状态变化的事物、未选择的工作对象"
+      },
+      {
+        "n": "2",
+        "descr": "End result of thing worked, arg1",
+        "descr_trans": "事情的最终结果，arg1"
+      }
+    ],
+    "roleset_name_trans": "成果建构"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "work.11",
+    "roleset_name": "'in the works'",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing getting underway",
+        "descr_trans": "事情正在进行中"
+      }
+    ],
+    "roleset_name_trans": "“正在进行中”"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "work.12",
+    "roleset_name": "work-of-art",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "art work or subject area",
+        "descr_trans": "艺术作品或主题领域"
+      },
+      {
+        "n": "2",
+        "descr": "secondary-theme",
+        "descr_trans": "次要主题"
+      }
+    ],
+    "roleset_name_trans": "艺术品"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "work.13",
+    "roleset_name": "'at-work'  cause change, at/in play",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing existing",
+        "descr_trans": "存在的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute",
+        "descr_trans": "次要属性"
+      }
+    ],
+    "roleset_name_trans": "“工作中”导致变化，在/在游戏中"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "work_out.02",
+    "roleset_name": "work out: arrange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arranger",
+        "descr_trans": "编曲者"
+      },
+      {
+        "n": "1",
+        "descr": "scheme",
+        "descr_trans": "方案"
+      },
+      {
+        "n": "2",
+        "descr": "collaborator",
+        "descr_trans": "合作者"
+      }
+    ],
+    "roleset_name_trans": "锻炼：安排"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "work_out.03",
+    "roleset_name": "work out: exercise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "athlete",
+        "descr_trans": "运动员"
+      }
+    ],
+    "roleset_name_trans": "锻炼：锻炼"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "work_out.05",
+    "roleset_name": "work out: amount, count up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter",
+        "descr_trans": "柜台"
+      },
+      {
+        "n": "1",
+        "descr": "thing being counted",
+        "descr_trans": "被计算的东西"
+      },
+      {
+        "n": "2",
+        "descr": "count, number",
+        "descr_trans": "计数，数目"
+      }
+    ],
+    "roleset_name_trans": "锻炼：数量、计数"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "work_up.04",
+    "roleset_name": "work up: create, cause to come about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing arising",
+        "descr_trans": "事物产生"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "work up：创造，导致发生"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "work_up.101",
+    "roleset_name": "determine and perform necessary medical course of action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor (Agent)",
+        "descr_trans": "医生（代理人）"
+      },
+      {
+        "n": "1",
+        "descr": "Patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "Condition/Illness/Disorder",
+        "descr_trans": "状况/疾病/障碍"
+      }
+    ],
+    "roleset_name_trans": "确定并执行必要的医疗行动"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "worked_up.14",
+    "roleset_name": "Angry, agitated, excited about something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Stimulus, worked up over what?",
+        "descr_trans": "刺激，兴奋什么？"
+      },
+      {
+        "n": "1",
+        "descr": "Excited entity",
+        "descr_trans": "兴奋的实体"
+      }
+    ],
+    "roleset_name_trans": "对某事感到愤怒、激动、兴奋"
+  }
 ]

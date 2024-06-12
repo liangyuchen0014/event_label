@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "glaze.01",
-        "roleset_name": "(cause to) have a sheen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "glazer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing now shiny"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "glaze_over.02",
-        "roleset_name": "come to have a glaze",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing now glazed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "glaze.01",
+    "roleset_name": "(cause to) have a sheen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "glazer, agent",
+        "descr_trans": "釉匠, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing now shiny",
+        "descr_trans": "现在的东西闪闪发亮"
+      }
+    ],
+    "roleset_name_trans": "（使）有光泽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "glaze_over.02",
+    "roleset_name": "come to have a glaze",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing now glazed",
+        "descr_trans": "现在的东西已经上釉了"
+      }
+    ],
+    "roleset_name_trans": "来个釉"
+  }
 ]

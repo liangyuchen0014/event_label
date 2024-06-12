@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hash_out.01",
-        "roleset_name": "to review, discuss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discussants"
-            },
-            {
-                "n": "1",
-                "descr": "entity hashed out"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hash_out.01",
+    "roleset_name": "to review, discuss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discussants",
+        "descr_trans": "讨论者"
+      },
+      {
+        "n": "1",
+        "descr": "entity hashed out",
+        "descr_trans": "实体经过哈希处理"
+      }
+    ],
+    "roleset_name_trans": "审查、讨论"
+  }
 ]

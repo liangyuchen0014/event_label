@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intolerant.01",
-        "roleset_name": "having no tolerance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-tolerator"
-            },
-            {
-                "n": "1",
-                "descr": "thing not tolerated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intolerable.02",
-        "roleset_name": "not able to be tolerated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "non-tolerator"
-            },
-            {
-                "n": "1",
-                "descr": "thing not tolerated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intolerant.01",
+    "roleset_name": "having no tolerance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-tolerator",
+        "descr_trans": "不容忍者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not tolerated",
+        "descr_trans": "不能容忍的事情"
+      }
+    ],
+    "roleset_name_trans": "没有宽容"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intolerable.02",
+    "roleset_name": "not able to be tolerated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "non-tolerator",
+        "descr_trans": "不容忍者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not tolerated",
+        "descr_trans": "不能容忍的事情"
+      }
+    ],
+    "roleset_name_trans": "无法忍受"
+  }
 ]

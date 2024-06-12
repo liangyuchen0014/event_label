@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deplete.01",
-        "roleset_name": "to use up or empty out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user, emptier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "source depleted"
-            },
-            {
-                "n": "2",
-                "descr": "depleted of, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deplete.01",
+    "roleset_name": "to use up or empty out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user, emptier, agent",
+        "descr_trans": "用户、清空者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "source depleted",
+        "descr_trans": "资源枯竭"
+      },
+      {
+        "n": "2",
+        "descr": "depleted of, thing removed",
+        "descr_trans": "耗尽，东西被移除"
+      }
+    ],
+    "roleset_name_trans": "用完或清空"
+  }
 ]

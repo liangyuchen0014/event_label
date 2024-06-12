@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "babysit.01",
-        "roleset_name": "watch/take care of something for someone else, child-caring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "babysitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being babysat"
-            },
-            {
-                "n": "2",
-                "descr": "person/entity seeking babyistter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "babysit.01",
+    "roleset_name": "watch/take care of something for someone else, child-caring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "babysitter",
+        "descr_trans": "保姆"
+      },
+      {
+        "n": "1",
+        "descr": "thing being babysat",
+        "descr_trans": "被保姆的事情"
+      },
+      {
+        "n": "2",
+        "descr": "person/entity seeking babyistter",
+        "descr_trans": "寻找保姆的个人/实体"
+      }
+    ],
+    "roleset_name_trans": "为别人看管/照顾某事、照顾孩子"
+  }
 ]

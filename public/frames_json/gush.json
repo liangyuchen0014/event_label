@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gush.01",
-        "roleset_name": "to express enthusiastically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "topic, utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gush.02",
-        "roleset_name": "(cause to) flow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of flowing"
-            },
-            {
-                "n": "1",
-                "descr": "entity flowing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gush.01",
+    "roleset_name": "to express enthusiastically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "topic, utterance",
+        "descr_trans": "话题、话语"
+      }
+    ],
+    "roleset_name_trans": "热情地表达"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gush.02",
+    "roleset_name": "(cause to) flow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of flowing",
+        "descr_trans": "流动的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity flowing",
+        "descr_trans": "实体流动"
+      }
+    ],
+    "roleset_name_trans": "（导致）流动"
+  }
 ]

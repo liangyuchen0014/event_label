@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "presume.01",
-        "roleset_name": "to assume, take for granted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity/act that presumes"
-            },
-            {
-                "n": "1",
-                "descr": "thing presumed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "presumptuous.02",
-        "roleset_name": "Excessively forward",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forward entity or action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "presume.01",
+    "roleset_name": "to assume, take for granted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity/act that presumes",
+        "descr_trans": "代理人、实体/行为假定"
+      },
+      {
+        "n": "1",
+        "descr": "thing presumed",
+        "descr_trans": "假定的事情"
+      }
+    ],
+    "roleset_name_trans": "假设，认为理所当然"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "presumptuous.02",
+    "roleset_name": "Excessively forward",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forward entity or action",
+        "descr_trans": "转发实体或动作"
+      }
+    ],
+    "roleset_name_trans": "过度前倾"
+  }
 ]

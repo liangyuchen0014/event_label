@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unchain.01",
-        "roleset_name": "unchain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unchainer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unchained, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unchained from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unchain.01",
+    "roleset_name": "unchain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unchainer, agent",
+        "descr_trans": "解链器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unchained, patient",
+        "descr_trans": "不受束缚的东西，有耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unchained from, source",
+        "descr_trans": "不受束缚，来源"
+      }
+    ],
+    "roleset_name_trans": "解开束缚"
+  }
 ]

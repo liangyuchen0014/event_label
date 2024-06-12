@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "halter.01",
-        "roleset_name": "place a halter on, restrain by halter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of haltering"
-            },
-            {
-                "n": "1",
-                "descr": "halter, headstall itself"
-            },
-            {
-                "n": "2",
-                "descr": "horse, entity restrained by halter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "halter.01",
+    "roleset_name": "place a halter on, restrain by halter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of haltering",
+        "descr_trans": "造成踉踉跄跄的原因"
+      },
+      {
+        "n": "1",
+        "descr": "halter, headstall itself",
+        "descr_trans": "缰绳，头箍本身"
+      },
+      {
+        "n": "2",
+        "descr": "horse, entity restrained by halter",
+        "descr_trans": "马，被缰绳束缚的实体"
+      }
+    ],
+    "roleset_name_trans": "戴上缰绳，用缰绳约束"
+  }
 ]

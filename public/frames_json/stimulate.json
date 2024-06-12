@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stimulate.01",
-        "roleset_name": "cause an increase (in interest, etc), etc.)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent also present"
-            },
-            {
-                "n": "3",
-                "descr": "end state of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stimulate.01",
+    "roleset_name": "cause an increase (in interest, etc), etc.)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent also present",
+        "descr_trans": "仪器，如果代理人也在场"
+      },
+      {
+        "n": "3",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "导致（利息等）增加等）"
+  }
 ]

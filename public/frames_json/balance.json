@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "balance.01",
-        "roleset_name": "establish a balance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "balancer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing balanced"
-            },
-            {
-                "n": "2",
-                "descr": "in comparison to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "balance_out.02",
-        "roleset_name": "balance completely over time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "balancer, agent doing balancing"
-            },
-            {
-                "n": "1",
-                "descr": "focus, first thing balanced"
-            },
-            {
-                "n": "2",
-                "descr": "arg1 balances out with what?  Point of comparison when separate mention"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "balance.01",
+    "roleset_name": "establish a balance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "balancer, agent",
+        "descr_trans": "平衡者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing balanced",
+        "descr_trans": "事物平衡"
+      },
+      {
+        "n": "2",
+        "descr": "in comparison to",
+        "descr_trans": "相比于"
+      }
+    ],
+    "roleset_name_trans": "建立平衡"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "balance_out.02",
+    "roleset_name": "balance completely over time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "balancer, agent doing balancing",
+        "descr_trans": "平衡器，做平衡的代理"
+      },
+      {
+        "n": "1",
+        "descr": "focus, first thing balanced",
+        "descr_trans": "专注，首先是平衡"
+      },
+      {
+        "n": "2",
+        "descr": "arg1 balances out with what?  Point of comparison when separate mention",
+        "descr_trans": "arg1 用什么来平衡？单独提及时的比较点"
+      }
+    ],
+    "roleset_name_trans": "随着时间的推移完全平衡"
+  }
 ]

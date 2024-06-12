@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reverse.01",
-        "roleset_name": "turn around, change direction, switch to the opposite direction/state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of reversal"
-            },
-            {
-                "n": "1",
-                "descr": "thing being reversed"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary of the reversal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reverse.01",
+    "roleset_name": "turn around, change direction, switch to the opposite direction/state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of reversal",
+        "descr_trans": "逆转剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing being reversed",
+        "descr_trans": "事情被逆转"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary of the reversal",
+        "descr_trans": "逆转的受益人"
+      }
+    ],
+    "roleset_name_trans": "转身，改变方向，切换到相反的方向/状态"
+  }
 ]

@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slow.01",
-        "roleset_name": "(cause to) move more slowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of deceleration"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slow.02",
-        "roleset_name": "fall, decline",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing declining"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "slow.04",
-        "roleset_name": "unskilled/not very smart",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "not very smart one"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which arg1 is slow/unskilled"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "slow.05",
-        "roleset_name": "not fast, slow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of slowness"
-            },
-            {
-                "n": "1",
-                "descr": "entity in slow motion (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "slow_down.03",
-        "roleset_name": "(cause to) move more slowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of deceleration"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "3",
-                "descr": "starting pace of arg 1"
-            },
-            {
-                "n": "4",
-                "descr": "ending pace, final state of arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slow.01",
+    "roleset_name": "(cause to) move more slowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of deceleration",
+        "descr_trans": "减速原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）移动得更慢"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slow.02",
+    "roleset_name": "fall, decline",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing declining",
+        "descr_trans": "逻辑主体、耐心、事物衰退"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "下降，衰退"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "slow.04",
+    "roleset_name": "unskilled/not very smart",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "not very smart one",
+        "descr_trans": "不是很聪明"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which arg1 is slow/unskilled",
+        "descr_trans": "arg1 速度慢/不熟练的域"
+      }
+    ],
+    "roleset_name_trans": "不熟练/不太聪明"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "slow.05",
+    "roleset_name": "not fast, slow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of slowness",
+        "descr_trans": "缓慢的因素/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in slow motion (may require concatenation)",
+        "descr_trans": "慢动作实体（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "不快，慢"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "slow_down.03",
+    "roleset_name": "(cause to) move more slowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of deceleration",
+        "descr_trans": "减速原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "3",
+        "descr": "starting pace of arg 1",
+        "descr_trans": "arg 1 的起始速度"
+      },
+      {
+        "n": "4",
+        "descr": "ending pace, final state of arg 1",
+        "descr_trans": "结束速度，arg 1 的最终状态"
+      }
+    ],
+    "roleset_name_trans": "（导致）移动得更慢"
+  }
 ]

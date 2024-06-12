@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "firm.01",
-        "roleset_name": "(make) become firm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making something else become firm"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming firm"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "firm.03",
-        "roleset_name": "secure, steadfast, resilient",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of firmness"
-            },
-            {
-                "n": "1",
-                "descr": "firm entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "firm_up.02",
-        "roleset_name": "make/become firm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity making something else become firm"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming firm"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "firm.01",
+    "roleset_name": "(make) become firm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making something else become firm",
+        "descr_trans": "代理人，使其他事物变得牢固的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming firm",
+        "descr_trans": "事物变得坚固"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "（使）变得坚定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "firm.03",
+    "roleset_name": "secure, steadfast, resilient",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of firmness",
+        "descr_trans": "坚固的原因"
+      },
+      {
+        "n": "1",
+        "descr": "firm entity",
+        "descr_trans": "公司实体"
+      }
+    ],
+    "roleset_name_trans": "安全、坚定、有弹性"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "firm_up.02",
+    "roleset_name": "make/become firm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity making something else become firm",
+        "descr_trans": "代理人，使其他事物变得牢固的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming firm",
+        "descr_trans": "事物变得坚固"
+      }
+    ],
+    "roleset_name_trans": "使/变得坚定"
+  }
 ]

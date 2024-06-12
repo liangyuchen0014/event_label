@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "observe.01",
-        "roleset_name": "look at, mark",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "observer"
-            },
-            {
-                "n": "1",
-                "descr": "thing looked at"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "observe.02",
-        "roleset_name": "say, state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sayer"
-            },
-            {
-                "n": "1",
-                "descr": "Utterance"
-            },
-            {
-                "n": "2",
-                "descr": "Hearer"
-            },
-            {
-                "n": "3",
-                "descr": "Attributive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "observe.01",
+    "roleset_name": "look at, mark",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "observer",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "thing looked at",
+        "descr_trans": "看到的东西"
+      }
+    ],
+    "roleset_name_trans": "看，标记"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "observe.02",
+    "roleset_name": "say, state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sayer",
+        "descr_trans": "赛耶尔"
+      },
+      {
+        "n": "1",
+        "descr": "Utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "Hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "3",
+        "descr": "Attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "说，陈述"
+  }
 ]

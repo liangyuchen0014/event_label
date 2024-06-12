@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "erase.01",
-        "roleset_name": "remove marks",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "eraser"
-            },
-            {
-                "n": "1",
-                "descr": "thing erased, mark"
-            },
-            {
-                "n": "2",
-                "descr": "medium, surface"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "erase.01",
+    "roleset_name": "remove marks",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "eraser",
+        "descr_trans": "橡皮"
+      },
+      {
+        "n": "1",
+        "descr": "thing erased, mark",
+        "descr_trans": "被删除的东西，标记"
+      },
+      {
+        "n": "2",
+        "descr": "medium, surface",
+        "descr_trans": "介质、表面"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "去除标记"
+  }
 ]

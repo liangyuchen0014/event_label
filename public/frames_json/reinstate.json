@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinstate.01",
-        "roleset_name": "put (back) into some role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "namer, assigner of a role"
-            },
-            {
-                "n": "1",
-                "descr": "entity playing the role"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, role"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinstate.01",
+    "roleset_name": "put (back) into some role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "namer, assigner of a role",
+        "descr_trans": "命名者，角色分配者"
+      },
+      {
+        "n": "1",
+        "descr": "entity playing the role",
+        "descr_trans": "扮演角色的实体"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, role",
+        "descr_trans": "属性、角色"
+      }
+    ],
+    "roleset_name_trans": "重新扮演某种角色"
+  }
 ]

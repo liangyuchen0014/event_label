@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "caption.01",
-        "roleset_name": "add text to pictures, subtitle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "captioner"
-            },
-            {
-                "n": "1",
-                "descr": "pictures"
-            },
-            {
-                "n": "2",
-                "descr": "text"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "caption.01",
+    "roleset_name": "add text to pictures, subtitle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "captioner",
+        "descr_trans": "字幕员"
+      },
+      {
+        "n": "1",
+        "descr": "pictures",
+        "descr_trans": "图片"
+      },
+      {
+        "n": "2",
+        "descr": "text",
+        "descr_trans": "文本"
+      }
+    ],
+    "roleset_name_trans": "为图片添加文字、字幕"
+  }
 ]

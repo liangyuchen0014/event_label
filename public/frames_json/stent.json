@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stent.01",
-        "roleset_name": "insert a stent to prevent closure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Inserter"
-            },
-            {
-                "n": "1",
-                "descr": "location (blood vessel, ureter, esophagus)"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (undergoer of procedure)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stent.01",
+    "roleset_name": "insert a stent to prevent closure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Inserter",
+        "descr_trans": "插入器"
+      },
+      {
+        "n": "1",
+        "descr": "location (blood vessel, ureter, esophagus)",
+        "descr_trans": "位置（血管、输尿管、食道）"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (undergoer of procedure)",
+        "descr_trans": "受益人（程序的执行者）"
+      }
+    ],
+    "roleset_name_trans": "插入支架以防止闭合"
+  }
 ]

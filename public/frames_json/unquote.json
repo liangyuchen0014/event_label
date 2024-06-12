@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unquote.01",
-        "roleset_name": "parenthetical discourse expression \"quote unquote\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject, \"unquoter\", usually null"
-            },
-            {
-                "n": "1",
-                "descr": "quoted utterance (will not be there if sentence is treed properly)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unquote.01",
+    "roleset_name": "parenthetical discourse expression \"quote unquote\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject, \"unquoter\", usually null",
+        "descr_trans": "主题，“unquoter”，通常为空"
+      },
+      {
+        "n": "1",
+        "descr": "quoted utterance (will not be there if sentence is treed properly)",
+        "descr_trans": "引用的话语（如果句子树状结构正确，则不会出现）"
+      }
+    ],
+    "roleset_name_trans": "括号话语表达“quote unquote”"
+  }
 ]

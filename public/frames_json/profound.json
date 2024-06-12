@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "profound.01",
-        "roleset_name": "extensive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "extensive entity"
-            },
-            {
-                "n": "2",
-                "descr": "aspect of arg1 that is extensive (if in addition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "profound.02",
-        "roleset_name": "rich in meaning, philosophically deep",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "philosophically deep entity"
-            },
-            {
-                "n": "2",
-                "descr": "elaboration on the profundity conveyed by arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "profound.01",
+    "roleset_name": "extensive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "extensive entity",
+        "descr_trans": "广泛的实体"
+      },
+      {
+        "n": "2",
+        "descr": "aspect of arg1 that is extensive (if in addition",
+        "descr_trans": "arg1 的广泛方面（如果另外"
+      }
+    ],
+    "roleset_name_trans": "广泛的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "profound.02",
+    "roleset_name": "rich in meaning, philosophically deep",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "philosophically deep entity",
+        "descr_trans": "哲学深刻的实体"
+      },
+      {
+        "n": "2",
+        "descr": "elaboration on the profundity conveyed by arg1",
+        "descr_trans": "详细阐述 arg1 所传达的深度"
+      }
+    ],
+    "roleset_name_trans": "寓意丰富，哲理深刻"
+  }
 ]

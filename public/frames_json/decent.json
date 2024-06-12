@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decent.01",
-        "roleset_name": "generally acceptable, sufficient",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally sufficient entity"
-            },
-            {
-                "n": "2",
-                "descr": "target of decent behavior"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "decent.02",
-        "roleset_name": "adequately skilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "adequately skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decent.01",
+    "roleset_name": "generally acceptable, sufficient",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally sufficient entity",
+        "descr_trans": "一般充分的实体"
+      },
+      {
+        "n": "2",
+        "descr": "target of decent behavior",
+        "descr_trans": "体面行为的目标"
+      }
+    ],
+    "roleset_name_trans": "一般可以接受，足够"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "decent.02",
+    "roleset_name": "adequately skilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "adequately skilled entity",
+        "descr_trans": "具有足够技能的实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill",
+        "descr_trans": "技能"
+      }
+    ],
+    "roleset_name_trans": "充分熟练于"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "besmirch.01",
-        "roleset_name": "slander, defame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity besmirched"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "besmirch.01",
+    "roleset_name": "slander, defame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity besmirched",
+        "descr_trans": "实体被玷污"
+      }
+    ],
+    "roleset_name_trans": "诽谤、诽谤"
+  }
 ]

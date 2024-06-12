@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "murmur.01",
-        "roleset_name": "speak in soft low tones",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "murmur.02",
-        "roleset_name": "sound of blood flowing in or near the heart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "'speaker' (heart)"
-            },
-            {
-                "n": "1",
-                "descr": "timing (systolic, diastolic, continuous)"
-            },
-            {
-                "n": "2",
-                "descr": "intensity (often numerical grade; use score-on-scale-91)"
-            },
-            {
-                "n": "3",
-                "descr": "shape (e.g., crescendo)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "murmur.01",
+    "roleset_name": "speak in soft low tones",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "用柔和的低音说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "murmur.02",
+    "roleset_name": "sound of blood flowing in or near the heart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "'speaker' (heart)",
+        "descr_trans": "‘说话者’（心）"
+      },
+      {
+        "n": "1",
+        "descr": "timing (systolic, diastolic, continuous)",
+        "descr_trans": "计时（收缩压、舒张压、连续）"
+      },
+      {
+        "n": "2",
+        "descr": "intensity (often numerical grade; use score-on-scale-91)",
+        "descr_trans": "强度（通常是数字等级；使用量表分数 91）"
+      },
+      {
+        "n": "3",
+        "descr": "shape (e.g., crescendo)",
+        "descr_trans": "形状（例如渐强）"
+      }
+    ],
+    "roleset_name_trans": "血液在心脏内或心脏附近流动的声音"
+  }
 ]

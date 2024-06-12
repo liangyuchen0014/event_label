@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unpeg.01",
-        "roleset_name": "unpeg",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unpegging, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unpegged"
-            },
-            {
-                "n": "2",
-                "descr": "unpegged from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unpeg.01",
+    "roleset_name": "unpeg",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unpegging, agent",
+        "descr_trans": "实体脱钩，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unpegged",
+        "descr_trans": "未固定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unpegged from, source",
+        "descr_trans": "脱离来源"
+      }
+    ],
+    "roleset_name_trans": "取消挂钩"
+  }
 ]

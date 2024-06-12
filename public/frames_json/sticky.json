@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sticky.01",
-        "roleset_name": "gooey, adhesive",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "destination of stickiness"
-            },
-            {
-                "n": "2",
-                "descr": "stickum"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sticky.02",
-        "roleset_name": "hazardous, sketchy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "hazardous thing/situation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sticky.01",
+    "roleset_name": "gooey, adhesive",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "destination of stickiness",
+        "descr_trans": "粘性目的地"
+      },
+      {
+        "n": "2",
+        "descr": "stickum",
+        "descr_trans": "粘胶"
+      }
+    ],
+    "roleset_name_trans": "粘稠的，有粘性的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sticky.02",
+    "roleset_name": "hazardous, sketchy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "hazardous thing/situation",
+        "descr_trans": "危险的事物/情况"
+      }
+    ],
+    "roleset_name_trans": "危险的，粗略的"
+  }
 ]

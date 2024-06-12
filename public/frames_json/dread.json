@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dread.01",
-        "roleset_name": "fear a lot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "afraid entity"
-            },
-            {
-                "n": "1",
-                "descr": "what you're afraid of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dreadful.02",
-        "roleset_name": "generally awful",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "generally awful thing"
-            },
-            {
-                "n": "2",
-                "descr": "target of awfulness"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dreadful.03",
-        "roleset_name": "absolutely unskilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "dreadful.04",
-        "roleset_name": "extremely anti-beneficial, unhealthy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unbeneficial thing"
-            },
-            {
-                "n": "2",
-                "descr": "non-beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dread.01",
+    "roleset_name": "fear a lot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "afraid entity",
+        "descr_trans": "害怕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "what you're afraid of",
+        "descr_trans": "你害怕什么"
+      }
+    ],
+    "roleset_name_trans": "很害怕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dreadful.02",
+    "roleset_name": "generally awful",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "generally awful thing",
+        "descr_trans": "通常是可怕的事情"
+      },
+      {
+        "n": "2",
+        "descr": "target of awfulness",
+        "descr_trans": "可怕的目标"
+      }
+    ],
+    "roleset_name_trans": "一般都很糟糕"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dreadful.03",
+    "roleset_name": "absolutely unskilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill",
+        "descr_trans": "非技能"
+      }
+    ],
+    "roleset_name_trans": "绝对不熟练"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "dreadful.04",
+    "roleset_name": "extremely anti-beneficial, unhealthy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unbeneficial thing",
+        "descr_trans": "无益的事"
+      },
+      {
+        "n": "2",
+        "descr": "non-beneficiary",
+        "descr_trans": "非受益人"
+      }
+    ],
+    "roleset_name_trans": "极其反益、不健康"
+  }
 ]

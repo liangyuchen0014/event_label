@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quiz.01",
-        "roleset_name": "ask questions repeatedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "asker"
-            },
-            {
-                "n": "1",
-                "descr": "quizzed"
-            },
-            {
-                "n": "2",
-                "descr": "topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quiz.01",
+    "roleset_name": "ask questions repeatedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "asker",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "quizzed",
+        "descr_trans": "提问的"
+      },
+      {
+        "n": "2",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "反复提问"
+  }
 ]

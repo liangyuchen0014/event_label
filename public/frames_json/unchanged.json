@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unchanged.01",
-        "roleset_name": "untransformed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing not transformed"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "would-be end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unchanged.01",
+    "roleset_name": "untransformed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of transformation",
+        "descr_trans": "转化的推动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing not transformed",
+        "descr_trans": "未转变的事物"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "would-be end state",
+        "descr_trans": "可能的最终状态"
+      }
+    ],
+    "roleset_name_trans": "未转化的"
+  }
 ]

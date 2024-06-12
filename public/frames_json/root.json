@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "root.02",
-        "roleset_name": "base, justify",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent (rarely seen)"
-            },
-            {
-                "n": "1",
-                "descr": "thing having roots"
-            },
-            {
-                "n": "2",
-                "descr": "rooted in what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "root.03",
-        "roleset_name": "be an active fan",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fan"
-            },
-            {
-                "n": "1",
-                "descr": "rooted for"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "root_out.01",
-        "roleset_name": "search for and remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "root.02",
+    "roleset_name": "base, justify",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent (rarely seen)",
+        "descr_trans": "代理（很少见）"
+      },
+      {
+        "n": "1",
+        "descr": "thing having roots",
+        "descr_trans": "有根的东西"
+      },
+      {
+        "n": "2",
+        "descr": "rooted in what",
+        "descr_trans": "植根于什么"
+      }
+    ],
+    "roleset_name_trans": "基础, 证明"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "root.03",
+    "roleset_name": "be an active fan",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fan",
+        "descr_trans": "扇子"
+      },
+      {
+        "n": "1",
+        "descr": "rooted for",
+        "descr_trans": "植根于"
+      }
+    ],
+    "roleset_name_trans": "成为一名活跃的粉丝"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "root_out.01",
+    "roleset_name": "search for and remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "搜索并删除"
+  }
 ]

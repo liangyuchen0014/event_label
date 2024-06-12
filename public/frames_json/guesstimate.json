@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "guesstimate.01",
-        "roleset_name": "estimate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "estimater"
-            },
-            {
-                "n": "1",
-                "descr": "thing estimated"
-            },
-            {
-                "n": "2",
-                "descr": "value/amount of guesstimation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "guesstimate.01",
+    "roleset_name": "estimate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "estimater",
+        "descr_trans": "估计"
+      },
+      {
+        "n": "1",
+        "descr": "thing estimated",
+        "descr_trans": "估计的事情"
+      },
+      {
+        "n": "2",
+        "descr": "value/amount of guesstimation",
+        "descr_trans": "估计值/数量"
+      }
+    ],
+    "roleset_name_trans": "估计"
+  }
 ]

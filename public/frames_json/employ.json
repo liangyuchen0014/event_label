@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "employ.01",
-        "roleset_name": "pay for working, have a job",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "employee"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "employ.02",
-        "roleset_name": "use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user"
-            },
-            {
-                "n": "1",
-                "descr": "used"
-            },
-            {
-                "n": "2",
-                "descr": "job, purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "employ.01",
+    "roleset_name": "pay for working, have a job",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "employee",
+        "descr_trans": "员工"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "有工作报酬，有工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "employ.02",
+    "roleset_name": "use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "used",
+        "descr_trans": "用过的"
+      },
+      {
+        "n": "2",
+        "descr": "job, purpose",
+        "descr_trans": "工作、目的"
+      }
+    ],
+    "roleset_name_trans": "使用"
+  }
 ]

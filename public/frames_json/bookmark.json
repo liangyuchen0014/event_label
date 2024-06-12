@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bookmark.01",
-        "roleset_name": "name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bookmarker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "larger body of text, within which a smaller selection is marked"
-            },
-            {
-                "n": "2",
-                "descr": "smaller selection marked for easy revisiting"
-            },
-            {
-                "n": "3",
-                "descr": "explicit coordinates, page number, etc."
-            },
-            {
-                "n": "4",
-                "descr": "bookmark used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bookmark.01",
+    "roleset_name": "name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bookmarker, agent",
+        "descr_trans": "书签、代理"
+      },
+      {
+        "n": "1",
+        "descr": "larger body of text, within which a smaller selection is marked",
+        "descr_trans": "较大的文本正文，其中标记了较小的选择"
+      },
+      {
+        "n": "2",
+        "descr": "smaller selection marked for easy revisiting",
+        "descr_trans": "标记较小的选择以便于重新访问"
+      },
+      {
+        "n": "3",
+        "descr": "explicit coordinates, page number, etc.",
+        "descr_trans": "明确的坐标、页码等。"
+      },
+      {
+        "n": "4",
+        "descr": "bookmark used",
+        "descr_trans": "使用的书签"
+      }
+    ],
+    "roleset_name_trans": "姓名"
+  }
 ]

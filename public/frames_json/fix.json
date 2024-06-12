@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fix.01",
-        "roleset_name": "prepare, make",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker, preparer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fix.02",
-        "roleset_name": "repair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "repairer"
-            },
-            {
-                "n": "1",
-                "descr": "thing repaired"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fix.03",
-        "roleset_name": "establish, set, set location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            },
-            {
-                "n": "2",
-                "descr": "location, position, attribute"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fix_up.04",
-        "roleset_name": "set somebody up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "person fixed up"
-            },
-            {
-                "n": "2",
-                "descr": "fixed up with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fix.01",
+    "roleset_name": "prepare, make",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker, preparer",
+        "descr_trans": "制造者、准备者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made",
+        "descr_trans": "做的东西"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "准备，制作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fix.02",
+    "roleset_name": "repair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "repairer",
+        "descr_trans": "修理工"
+      },
+      {
+        "n": "1",
+        "descr": "thing repaired",
+        "descr_trans": "东西修好了"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "维修"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fix.03",
+    "roleset_name": "establish, set, set location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      },
+      {
+        "n": "2",
+        "descr": "location, position, attribute",
+        "descr_trans": "地点、地位、属性"
+      }
+    ],
+    "roleset_name_trans": "建立、设置、设置位置"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fix_up.04",
+    "roleset_name": "set somebody up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person fixed up",
+        "descr_trans": "固定的人"
+      },
+      {
+        "n": "2",
+        "descr": "fixed up with",
+        "descr_trans": "修复了"
+      }
+    ],
+    "roleset_name_trans": "安排某人"
+  }
 ]

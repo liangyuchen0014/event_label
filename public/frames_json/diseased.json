@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "diseased.01",
-        "roleset_name": "unhealthy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "infector, cause, germ, disease"
-            },
-            {
-                "n": "1",
-                "descr": "entity diseased"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "diseased.01",
+    "roleset_name": "unhealthy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "infector, cause, germ, disease",
+        "descr_trans": "感染者、原因、病菌、疾病"
+      },
+      {
+        "n": "1",
+        "descr": "entity diseased",
+        "descr_trans": "实体患病"
+      }
+    ],
+    "roleset_name_trans": "不良"
+  }
 ]

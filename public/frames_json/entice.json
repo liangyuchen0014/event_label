@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "entice.01",
-        "roleset_name": "attract",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attractor"
-            },
-            {
-                "n": "1",
-                "descr": "thing attracted"
-            },
-            {
-                "n": "2",
-                "descr": "thing attracted to, if separate from attractor"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, if separate from attractor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "entice.01",
+    "roleset_name": "attract",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attractor",
+        "descr_trans": "吸引子"
+      },
+      {
+        "n": "1",
+        "descr": "thing attracted",
+        "descr_trans": "事物吸引"
+      },
+      {
+        "n": "2",
+        "descr": "thing attracted to, if separate from attractor",
+        "descr_trans": "被吸引的事物（如果与吸引子分开）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, if separate from attractor",
+        "descr_trans": "仪器，如果与吸引子分开"
+      }
+    ],
+    "roleset_name_trans": "吸引"
+  }
 ]

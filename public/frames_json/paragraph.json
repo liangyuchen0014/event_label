@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "paragraph.01",
-        "roleset_name": "divide into paragraphs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent defining paragraph boundaries"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "paragraph.02",
-        "roleset_name": "write paragraphs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "paragraph.01",
+    "roleset_name": "divide into paragraphs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent defining paragraph boundaries",
+        "descr_trans": "代理定义段落边界"
+      }
+    ],
+    "roleset_name_trans": "分成段落"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "paragraph.02",
+    "roleset_name": "write paragraphs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "写段落"
+  }
 ]

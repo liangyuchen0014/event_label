@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preschedule.01",
-        "roleset_name": "to schedule ahead of time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Planner"
-            },
-            {
-                "n": "1",
-                "descr": "Thing scheduled"
-            },
-            {
-                "n": "2",
-                "descr": "Scheduled to, for, because of; second part of event"
-            },
-            {
-                "n": "3",
-                "descr": "Time of event"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preschedule.01",
+    "roleset_name": "to schedule ahead of time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Planner",
+        "descr_trans": "规划师"
+      },
+      {
+        "n": "1",
+        "descr": "Thing scheduled",
+        "descr_trans": "预定的事情"
+      },
+      {
+        "n": "2",
+        "descr": "Scheduled to, for, because of; second part of event",
+        "descr_trans": "预定、为了、因为；活动第二部分"
+      },
+      {
+        "n": "3",
+        "descr": "Time of event",
+        "descr_trans": "活动时间"
+      }
+    ],
+    "roleset_name_trans": "提前安排时间"
+  }
 ]

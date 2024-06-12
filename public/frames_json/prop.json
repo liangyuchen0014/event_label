@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prop_up.01",
-        "roleset_name": "support, hold upright",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "helper, prop"
-            },
-            {
-                "n": "1",
-                "descr": "thing being held up"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prop_up.01",
+    "roleset_name": "support, hold upright",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "helper, prop",
+        "descr_trans": "助手、道具"
+      },
+      {
+        "n": "1",
+        "descr": "thing being held up",
+        "descr_trans": "被举起的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "支撑，保持直立"
+  }
 ]

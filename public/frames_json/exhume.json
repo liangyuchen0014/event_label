@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exhume.01",
-        "roleset_name": "remove something (body) previously burried",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "digger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity exhumed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exhume.01",
+    "roleset_name": "remove something (body) previously burried",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "digger, agent",
+        "descr_trans": "挖掘者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity exhumed",
+        "descr_trans": "实体被挖掘"
+      }
+    ],
+    "roleset_name_trans": "移除先前埋藏的东西（身体）"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cruise.01",
-        "roleset_name": "travel at leisure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cruise.02",
-        "roleset_name": "look for a sexual partner in a   public place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seeker"
-            },
-            {
-                "n": "1",
-                "descr": "public place"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cruise.01",
+    "roleset_name": "travel at leisure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      }
+    ],
+    "roleset_name_trans": "休闲旅行"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cruise.02",
+    "roleset_name": "look for a sexual partner in a   public place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seeker",
+        "descr_trans": "探索者"
+      },
+      {
+        "n": "1",
+        "descr": "public place",
+        "descr_trans": "公共场所"
+      }
+    ],
+    "roleset_name_trans": "在公共场所寻找性伴侣"
+  }
 ]

@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "print.01",
-        "roleset_name": "put pen to paper, publish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "printer"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "print.03",
-        "roleset_name": "make an art print, making an art print (stamp method)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "artist"
-            },
-            {
-                "n": "1",
-                "descr": "printed"
-            },
-            {
-                "n": "2",
-                "descr": "printing instrument/method (screen, intaglio, lithograph, etc)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "print_out.02",
-        "roleset_name": "print, generally on a computer printer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "print.01",
+    "roleset_name": "put pen to paper, publish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "printer",
+        "descr_trans": "打印机"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "落笔，发表"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "print.03",
+    "roleset_name": "make an art print, making an art print (stamp method)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "artist",
+        "descr_trans": "艺术家"
+      },
+      {
+        "n": "1",
+        "descr": "printed",
+        "descr_trans": "打印"
+      },
+      {
+        "n": "2",
+        "descr": "printing instrument/method (screen, intaglio, lithograph, etc)",
+        "descr_trans": "印刷仪器/方法（丝网印刷、凹版印刷、平版印刷等）"
+      }
+    ],
+    "roleset_name_trans": "制作艺术版画，制作艺术版画（图章法）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "print_out.02",
+    "roleset_name": "print, generally on a computer printer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      }
+    ],
+    "roleset_name_trans": "打印，通常在计算机打印机上"
+  }
 ]

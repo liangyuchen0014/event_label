@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "turtle.01",
-        "roleset_name": "render helpless by flipping over onto back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of flipping"
-            },
-            {
-                "n": "1",
-                "descr": "thing flipped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "turtle.01",
+    "roleset_name": "render helpless by flipping over onto back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of flipping",
+        "descr_trans": "翻转的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing flipped",
+        "descr_trans": "事情发生了翻转"
+      }
+    ],
+    "roleset_name_trans": "通过翻转到背面来表现出无助"
+  }
 ]

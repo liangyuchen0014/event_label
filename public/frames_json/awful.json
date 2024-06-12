@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "awful.01",
-        "roleset_name": "generally terrible, displeasing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "terrible thing"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, experiencer of awfulness"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "awful.02",
-        "roleset_name": "horribly unskilled at",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "non-skill, at what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "awful.03",
-        "roleset_name": "extremely unbeneficial, unhealthful",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unbeneficial thing"
-            },
-            {
-                "n": "2",
-                "descr": "unbeneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "awful.01",
+    "roleset_name": "generally terrible, displeasing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "terrible thing",
+        "descr_trans": "可怕的事情"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, experiencer of awfulness",
+        "descr_trans": "接受者，可怕的经历者"
+      }
+    ],
+    "roleset_name_trans": "通常很糟糕，令人不快"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "awful.02",
+    "roleset_name": "horribly unskilled at",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled entity",
+        "descr_trans": "非技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "non-skill, at what",
+        "descr_trans": "非技能，在什么方面"
+      }
+    ],
+    "roleset_name_trans": "非常不熟练"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "awful.03",
+    "roleset_name": "extremely unbeneficial, unhealthful",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unbeneficial thing",
+        "descr_trans": "无益的事"
+      },
+      {
+        "n": "2",
+        "descr": "unbeneficiary",
+        "descr_trans": "不受益者"
+      }
+    ],
+    "roleset_name_trans": "极其无益的，不健康的"
+  }
 ]

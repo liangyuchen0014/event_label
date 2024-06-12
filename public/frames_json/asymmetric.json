@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "asymmetric.01",
-        "roleset_name": "not matching in size, shape, or some other measurement",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first item not having symmetry"
-            },
-            {
-                "n": "2",
-                "descr": "second item, no symmetry with/to what"
-            },
-            {
-                "n": "3",
-                "descr": "domain of asymmetry"
-            },
-            {
-                "n": "4",
-                "descr": "axis/point of asymmetry"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "asymmetric.01",
+    "roleset_name": "not matching in size, shape, or some other measurement",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first item not having symmetry",
+        "descr_trans": "第一项不对称"
+      },
+      {
+        "n": "2",
+        "descr": "second item, no symmetry with/to what",
+        "descr_trans": "第二项，与什么不对称"
+      },
+      {
+        "n": "3",
+        "descr": "domain of asymmetry",
+        "descr_trans": "不对称域"
+      },
+      {
+        "n": "4",
+        "descr": "axis/point of asymmetry",
+        "descr_trans": "不对称轴/点"
+      }
+    ],
+    "roleset_name_trans": "尺寸、形状或其他测量值不匹配"
+  }
 ]

@@ -1,125 +1,152 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sell.01",
-        "roleset_name": "commerce: seller, giving in exchange for money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller"
-            },
-            {
-                "n": "1",
-                "descr": "Thing Sold"
-            },
-            {
-                "n": "2",
-                "descr": "Buyer"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sell_out.02",
-        "roleset_name": "give in to the man",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity selling out"
-            },
-            {
-                "n": "1",
-                "descr": "entity sold out"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sell_out.03",
-        "roleset_name": "sell until none is/are left",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller"
-            },
-            {
-                "n": "1",
-                "descr": "Thing Sold"
-            },
-            {
-                "n": "2",
-                "descr": "Buyer"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sell_off.04",
-        "roleset_name": "sell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Seller"
-            },
-            {
-                "n": "1",
-                "descr": "Thing Sold"
-            },
-            {
-                "n": "2",
-                "descr": "Buyer"
-            },
-            {
-                "n": "3",
-                "descr": "Price Paid"
-            },
-            {
-                "n": "4",
-                "descr": "Benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sale.05",
-        "roleset_name": "alternate expression of sell; put on sale, put up for sale",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "thing sold"
-            },
-            {
-                "n": "2",
-                "descr": "buyer, sold to whom"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sell.01",
+    "roleset_name": "commerce: seller, giving in exchange for money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "Thing Sold",
+        "descr_trans": "出售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "商业：卖方，以金钱换取利益"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sell_out.02",
+    "roleset_name": "give in to the man",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity selling out",
+        "descr_trans": "实体出售"
+      },
+      {
+        "n": "1",
+        "descr": "entity sold out",
+        "descr_trans": "实体已售完"
+      }
+    ],
+    "roleset_name_trans": "向男人屈服"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sell_out.03",
+    "roleset_name": "sell until none is/are left",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "Thing Sold",
+        "descr_trans": "出售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "卖到没有为止"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sell_off.04",
+    "roleset_name": "sell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "Thing Sold",
+        "descr_trans": "出售的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Buyer",
+        "descr_trans": "买方"
+      },
+      {
+        "n": "3",
+        "descr": "Price Paid",
+        "descr_trans": "支付价格"
+      },
+      {
+        "n": "4",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "卖"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sale.05",
+    "roleset_name": "alternate expression of sell; put on sale, put up for sale",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "thing sold",
+        "descr_trans": "东西卖了"
+      },
+      {
+        "n": "2",
+        "descr": "buyer, sold to whom",
+        "descr_trans": "买家，卖给谁"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "卖出的另一种表达方式；出售, 出售"
+  }
 ]

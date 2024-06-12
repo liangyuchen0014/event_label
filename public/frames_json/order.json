@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "order.01",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forcer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "order.02",
-        "roleset_name": "request to be delivered",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "orderer"
-            },
-            {
-                "n": "1",
-                "descr": "thing ordered"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, ordered-for"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "order.03",
-        "roleset_name": "placement, sequence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) ordered"
-            },
-            {
-                "n": "2",
-                "descr": "the order"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "orderly.04",
-        "roleset_name": "neat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent creating order"
-            },
-            {
-                "n": "1",
-                "descr": "neat, ordered thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "order.01",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forcer",
+        "descr_trans": "力量"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "order.02",
+    "roleset_name": "request to be delivered",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "orderer",
+        "descr_trans": "订购者"
+      },
+      {
+        "n": "1",
+        "descr": "thing ordered",
+        "descr_trans": "订购的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, ordered-for",
+        "descr_trans": "有益的，订购的"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "要求交付"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "order.03",
+    "roleset_name": "placement, sequence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) ordered",
+        "descr_trans": "订购的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the order",
+        "descr_trans": "命令"
+      }
+    ],
+    "roleset_name_trans": "放置、顺序"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "orderly.04",
+    "roleset_name": "neat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent creating order",
+        "descr_trans": "代理创建订单"
+      },
+      {
+        "n": "1",
+        "descr": "neat, ordered thing",
+        "descr_trans": "整齐有序的东西"
+      }
+    ],
+    "roleset_name_trans": "整洁的"
+  }
 ]

@@ -1,138 +1,166 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fire.01",
-        "roleset_name": "fire a gun",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "gun/projectile"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fire.02",
-        "roleset_name": "cause to cease employment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "ex-employee"
-            },
-            {
-                "n": "2",
-                "descr": "job"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fire.03",
-        "roleset_name": "cause to burn or bake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "baker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing burning or baking"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "fire.04",
-        "roleset_name": "fuel or ignite",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ignitor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing ignited"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "fire.05",
-        "roleset_name": "natural disaster: fire in a forest or other habitat",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "habitat burned"
-            },
-            {
-                "n": "2",
-                "descr": "size/acre count"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "fiery.06",
-        "roleset_name": "impassioned, fervent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stimulus, impassioned about what?"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer, impassioned person."
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "open_fire.07",
-        "roleset_name": "start to shoot (at a target)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            },
-            {
-                "n": "2",
-                "descr": "gun/weapon"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "on_fire.08",
-        "roleset_name": "aflame",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "burning thing"
-            },
-            {
-                "n": "2",
-                "descr": "mention of the (possibly metaphorical) flame"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fire.01",
+    "roleset_name": "fire a gun",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "gun/projectile",
+        "descr_trans": "枪/射弹"
+      }
+    ],
+    "roleset_name_trans": "开枪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fire.02",
+    "roleset_name": "cause to cease employment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "ex-employee",
+        "descr_trans": "前雇员"
+      },
+      {
+        "n": "2",
+        "descr": "job",
+        "descr_trans": "工作"
+      }
+    ],
+    "roleset_name_trans": "导致停止就业"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fire.03",
+    "roleset_name": "cause to burn or bake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "baker, agent",
+        "descr_trans": "面包师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing burning or baking",
+        "descr_trans": "燃烧或烘烤的东西"
+      }
+    ],
+    "roleset_name_trans": "导致燃烧或烘烤"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "fire.04",
+    "roleset_name": "fuel or ignite",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ignitor, agent",
+        "descr_trans": "燃烧剂、药剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing ignited",
+        "descr_trans": "东西被点燃"
+      }
+    ],
+    "roleset_name_trans": "燃料或点燃"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "fire.05",
+    "roleset_name": "natural disaster: fire in a forest or other habitat",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "habitat burned",
+        "descr_trans": "栖息地被烧毁"
+      },
+      {
+        "n": "2",
+        "descr": "size/acre count",
+        "descr_trans": "规模/英亩数"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：森林或其他栖息地发生火灾"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "fiery.06",
+    "roleset_name": "impassioned, fervent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stimulus, impassioned about what?",
+        "descr_trans": "刺激、慷慨激昂什么？"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer, impassioned person.",
+        "descr_trans": "经历者，热情的人。"
+      }
+    ],
+    "roleset_name_trans": "热情的，热情的"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "open_fire.07",
+    "roleset_name": "start to shoot (at a target)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "gun/weapon",
+        "descr_trans": "枪/武器"
+      }
+    ],
+    "roleset_name_trans": "开始（向目标）射击"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "on_fire.08",
+    "roleset_name": "aflame",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "burning thing",
+        "descr_trans": "燃烧的东西"
+      },
+      {
+        "n": "2",
+        "descr": "mention of the (possibly metaphorical) flame",
+        "descr_trans": "提到（可能是隐喻的）火焰"
+      }
+    ],
+    "roleset_name_trans": "燃烧"
+  }
 ]

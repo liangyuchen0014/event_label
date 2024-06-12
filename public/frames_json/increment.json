@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "increment.01",
-        "roleset_name": "to increase by steps",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of incrementing"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being incremented"
-            },
-            {
-                "n": "2",
-                "descr": "Amount incremented by (size of step)"
-            },
-            {
-                "n": "3",
-                "descr": "Start point"
-            },
-            {
-                "n": "4",
-                "descr": "End point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "increment.01",
+    "roleset_name": "to increase by steps",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of incrementing",
+        "descr_trans": "增量原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being incremented",
+        "descr_trans": "事物正在增加"
+      },
+      {
+        "n": "2",
+        "descr": "Amount incremented by (size of step)",
+        "descr_trans": "增加量（步长）"
+      },
+      {
+        "n": "3",
+        "descr": "Start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "End point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "逐步增加"
+  }
 ]

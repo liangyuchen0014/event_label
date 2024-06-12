@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overrelease.01",
-        "roleset_name": "release too many",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser"
-            },
-            {
-                "n": "1",
-                "descr": "entity released"
-            },
-            {
-                "n": "2",
-                "descr": "released from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overrelease.01",
+    "roleset_name": "release too many",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "1",
+        "descr": "entity released",
+        "descr_trans": "实体释放"
+      },
+      {
+        "n": "2",
+        "descr": "released from",
+        "descr_trans": "从...发布"
+      }
+    ],
+    "roleset_name_trans": "释放太多"
+  }
 ]

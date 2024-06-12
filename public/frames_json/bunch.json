@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bunch.01",
-        "roleset_name": "fold into a bunch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, buncher"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing bunched"
-            },
-            {
-                "n": "2",
-                "descr": "end state (a bunch)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bunch_up.02",
-        "roleset_name": "bunch up (completive)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "buncher"
-            },
-            {
-                "n": "1",
-                "descr": "thing bunched up"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bunch.01",
+    "roleset_name": "fold into a bunch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, buncher",
+        "descr_trans": "代理、集束器"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing bunched",
+        "descr_trans": "病人，东西成堆"
+      },
+      {
+        "n": "2",
+        "descr": "end state (a bunch)",
+        "descr_trans": "最终状态（一堆）"
+      }
+    ],
+    "roleset_name_trans": "折叠成一束"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bunch_up.02",
+    "roleset_name": "bunch up (completive)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "buncher",
+        "descr_trans": "聚束器"
+      },
+      {
+        "n": "1",
+        "descr": "thing bunched up",
+        "descr_trans": "东西聚成一团"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "聚成一团（完成）"
+  }
 ]

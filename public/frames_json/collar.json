@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "collar.01",
-        "roleset_name": "apprehend, perhaps grabbing by the collar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the apprehending"
-            },
-            {
-                "n": "1",
-                "descr": "person nabbed"
-            },
-            {
-                "n": "2",
-                "descr": "accusations, crimes, for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "collar.01",
+    "roleset_name": "apprehend, perhaps grabbing by the collar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the apprehending",
+        "descr_trans": "执行逮捕的实体"
+      },
+      {
+        "n": "1",
+        "descr": "person nabbed",
+        "descr_trans": "人被抓获"
+      },
+      {
+        "n": "2",
+        "descr": "accusations, crimes, for what",
+        "descr_trans": "指控、犯罪、为了什么"
+      }
+    ],
+    "roleset_name_trans": "逮捕，也许抓住衣领"
+  }
 ]

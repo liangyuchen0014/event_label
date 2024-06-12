@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cloister.01",
-        "roleset_name": "to confine in a monastery or convent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stabler"
-            },
-            {
-                "n": "1",
-                "descr": "thing stabled"
-            },
-            {
-                "n": "2",
-                "descr": "stable, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cloister.01",
+    "roleset_name": "to confine in a monastery or convent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stabler",
+        "descr_trans": "更稳定"
+      },
+      {
+        "n": "1",
+        "descr": "thing stabled",
+        "descr_trans": "东西稳定了"
+      },
+      {
+        "n": "2",
+        "descr": "stable, location",
+        "descr_trans": "稳定，位置"
+      }
+    ],
+    "roleset_name_trans": "被限制在修道院或修道院里"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sheathe.01",
-        "roleset_name": "to put into a sheath",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sheather"
-            },
-            {
-                "n": "1",
-                "descr": "thing sheathed"
-            },
-            {
-                "n": "2",
-                "descr": "sheath, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sheathe.01",
+    "roleset_name": "to put into a sheath",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sheather",
+        "descr_trans": "护套"
+      },
+      {
+        "n": "1",
+        "descr": "thing sheathed",
+        "descr_trans": "被包裹的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sheath, location",
+        "descr_trans": "护套、位置"
+      }
+    ],
+    "roleset_name_trans": "放入鞘中"
+  }
 ]

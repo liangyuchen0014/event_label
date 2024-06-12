@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "borrow.01",
-        "roleset_name": "get temporarily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "borrower"
-            },
-            {
-                "n": "1",
-                "descr": "thing borrowed"
-            },
-            {
-                "n": "2",
-                "descr": "loaner"
-            },
-            {
-                "n": "3",
-                "descr": "collateral"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "borrow.01",
+    "roleset_name": "get temporarily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "borrower",
+        "descr_trans": "借款人"
+      },
+      {
+        "n": "1",
+        "descr": "thing borrowed",
+        "descr_trans": "借来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "loaner",
+        "descr_trans": "贷款人"
+      },
+      {
+        "n": "3",
+        "descr": "collateral",
+        "descr_trans": "抵押品"
+      }
+    ],
+    "roleset_name_trans": "暂时得到"
+  }
 ]

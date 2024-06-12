@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "telegraph.01",
-        "roleset_name": "send a message via telegraph",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "receiver"
-            },
-            {
-                "n": "2",
-                "descr": "message"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "telegraph.01",
+    "roleset_name": "send a message via telegraph",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "2",
+        "descr": "message",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "通过电报发送消息"
+  }
 ]

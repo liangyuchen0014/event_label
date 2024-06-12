@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gouge.01",
-        "roleset_name": "put deep grooves or scratches into a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of gouges"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "gouge.02",
-        "roleset_name": "extort money, swindle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "petty crook"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gouge.01",
+    "roleset_name": "put deep grooves or scratches into a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of gouges",
+        "descr_trans": "造成凿痕的原因"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      }
+    ],
+    "roleset_name_trans": "在表面上留下深槽或划痕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "gouge.02",
+    "roleset_name": "extort money, swindle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "petty crook",
+        "descr_trans": "小骗子"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "勒索钱财、诈骗"
+  }
 ]

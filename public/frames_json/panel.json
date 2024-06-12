@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "panel.01",
-        "roleset_name": "cover with panels",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, placer of panels"
-            },
-            {
-                "n": "1",
-                "descr": "Wall, entity being covered with panels"
-            },
-            {
-                "n": "2",
-                "descr": "Panels themselves, type of panel"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "panel.01",
+    "roleset_name": "cover with panels",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, placer of panels",
+        "descr_trans": "代理、面板放置者"
+      },
+      {
+        "n": "1",
+        "descr": "Wall, entity being covered with panels",
+        "descr_trans": "墙壁，被面板覆盖的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Panels themselves, type of panel",
+        "descr_trans": "面板本身、面板类型"
+      }
+    ],
+    "roleset_name_trans": "用面板覆盖"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "relay.01",
-        "roleset_name": "send along, transmit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "relay.02",
-        "roleset_name": "relay race",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "baton carrier, current racer"
-            },
-            {
-                "n": "1",
-                "descr": "opponent"
-            },
-            {
-                "n": "2",
-                "descr": "baton; item passed off"
-            },
-            {
-                "n": "3",
-                "descr": "domain, type of race"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "relay.01",
+    "roleset_name": "send along, transmit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sent to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "发送，传送"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "relay.02",
+    "roleset_name": "relay race",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "baton carrier, current racer",
+        "descr_trans": "接力棒携带者，现任赛车手"
+      },
+      {
+        "n": "1",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "2",
+        "descr": "baton; item passed off",
+        "descr_trans": "指挥棒;物品被假冒"
+      },
+      {
+        "n": "3",
+        "descr": "domain, type of race",
+        "descr_trans": "领域、种族类型"
+      }
+    ],
+    "roleset_name_trans": "接力比赛"
+  }
 ]

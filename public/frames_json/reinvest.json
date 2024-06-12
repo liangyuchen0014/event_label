@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinvest.01",
-        "roleset_name": "put money into a project/investment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "investor"
-            },
-            {
-                "n": "1",
-                "descr": "invested"
-            },
-            {
-                "n": "2",
-                "descr": "invested-in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinvest.01",
+    "roleset_name": "put money into a project/investment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "investor",
+        "descr_trans": "投资者"
+      },
+      {
+        "n": "1",
+        "descr": "invested",
+        "descr_trans": "投资"
+      },
+      {
+        "n": "2",
+        "descr": "invested-in",
+        "descr_trans": "投资的"
+      }
+    ],
+    "roleset_name_trans": "将资金投入项目/投资"
+  }
 ]

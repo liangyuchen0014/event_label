@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "radiosensitize.01",
-        "roleset_name": "make cells more senstive to radiation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of sensitivity"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming senstive"
-            },
-            {
-                "n": "2",
-                "descr": "senstive to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "radiosensitize.01",
+    "roleset_name": "make cells more senstive to radiation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of sensitivity",
+        "descr_trans": "敏感原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming senstive",
+        "descr_trans": "实体变得敏感"
+      },
+      {
+        "n": "2",
+        "descr": "senstive to what",
+        "descr_trans": "对什么敏感"
+      }
+    ],
+    "roleset_name_trans": "使细胞对辐射更加敏感"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "comb.01",
-        "roleset_name": "to search, look through",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "area searched, combed through"
-            },
-            {
-                "n": "2",
-                "descr": "combed for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "comb.02",
-        "roleset_name": "to straighten with a comb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "comber, agent"
-            },
-            {
-                "n": "1",
-                "descr": "hair"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "comb.01",
+    "roleset_name": "to search, look through",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher, agent",
+        "descr_trans": "搜寻者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "area searched, combed through",
+        "descr_trans": "搜索、梳理的区域"
+      },
+      {
+        "n": "2",
+        "descr": "combed for",
+        "descr_trans": "梳理为"
+      }
+    ],
+    "roleset_name_trans": "搜寻、浏览"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "comb.02",
+    "roleset_name": "to straighten with a comb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "comber, agent",
+        "descr_trans": "精梳机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "hair",
+        "descr_trans": "头发"
+      }
+    ],
+    "roleset_name_trans": "用梳子拉直"
+  }
 ]

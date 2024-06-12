@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "publish.01",
-        "roleset_name": "publish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "publisher"
-            },
-            {
-                "n": "1",
-                "descr": "book, report"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "publish.01",
+    "roleset_name": "publish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "publisher",
+        "descr_trans": "出版商"
+      },
+      {
+        "n": "1",
+        "descr": "book, report",
+        "descr_trans": "读后感"
+      }
+    ],
+    "roleset_name_trans": "发布"
+  }
 ]

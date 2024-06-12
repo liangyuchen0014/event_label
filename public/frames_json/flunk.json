@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flunk.01",
-        "roleset_name": "fail miserably",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assessor of not failing (professor)"
-            },
-            {
-                "n": "1",
-                "descr": "thing failing"
-            },
-            {
-                "n": "2",
-                "descr": "task"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flunk.01",
+    "roleset_name": "fail miserably",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assessor of not failing (professor)",
+        "descr_trans": "不及格评估员（教授）"
+      },
+      {
+        "n": "1",
+        "descr": "thing failing",
+        "descr_trans": "事情失败"
+      },
+      {
+        "n": "2",
+        "descr": "task",
+        "descr_trans": "任务"
+      }
+    ],
+    "roleset_name_trans": "惨败"
+  }
 ]

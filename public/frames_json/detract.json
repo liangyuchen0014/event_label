@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "detract.01",
-        "roleset_name": "to divert",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of diversion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity detracted"
-            },
-            {
-                "n": "2",
-                "descr": "entity detracted from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "detract.01",
+    "roleset_name": "to divert",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of diversion, agent",
+        "descr_trans": "转移的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity detracted",
+        "descr_trans": "实体被分散"
+      },
+      {
+        "n": "2",
+        "descr": "entity detracted from",
+        "descr_trans": "实体被减损"
+      }
+    ],
+    "roleset_name_trans": "疏导"
+  }
 ]

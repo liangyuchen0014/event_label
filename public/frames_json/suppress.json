@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suppress.01",
-        "roleset_name": "(attempt to) conceal, push down, concealing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suppressor"
-            },
-            {
-                "n": "1",
-                "descr": "suppressed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suppressible.02",
-        "roleset_name": "able to be pushed down, attenuated",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suppressor"
-            },
-            {
-                "n": "1",
-                "descr": "suppressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suppress.01",
+    "roleset_name": "(attempt to) conceal, push down, concealing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suppressor",
+        "descr_trans": "抑制器"
+      },
+      {
+        "n": "1",
+        "descr": "suppressed",
+        "descr_trans": "压制"
+      }
+    ],
+    "roleset_name_trans": "（试图）隐藏、压制、隐藏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suppressible.02",
+    "roleset_name": "able to be pushed down, attenuated",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suppressor",
+        "descr_trans": "抑制器"
+      },
+      {
+        "n": "1",
+        "descr": "suppressed",
+        "descr_trans": "压制"
+      }
+    ],
+    "roleset_name_trans": "能够被推下，减弱"
+  }
 ]

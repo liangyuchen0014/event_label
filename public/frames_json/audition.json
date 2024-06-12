@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "audition.01",
-        "roleset_name": "try to get a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "auditionee"
-            },
-            {
-                "n": "1",
-                "descr": "role"
-            },
-            {
-                "n": "2",
-                "descr": "casting agency"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "audible.02",
-        "roleset_name": "able to be heard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hearer"
-            },
-            {
-                "n": "1",
-                "descr": "thing that can be heard"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "audition.01",
+    "roleset_name": "try to get a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "auditionee",
+        "descr_trans": "试镜者"
+      },
+      {
+        "n": "1",
+        "descr": "role",
+        "descr_trans": "角色"
+      },
+      {
+        "n": "2",
+        "descr": "casting agency",
+        "descr_trans": "选角机构"
+      }
+    ],
+    "roleset_name_trans": "尝试获得一个角色"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "audible.02",
+    "roleset_name": "able to be heard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      },
+      {
+        "n": "1",
+        "descr": "thing that can be heard",
+        "descr_trans": "可以听到的东西"
+      }
+    ],
+    "roleset_name_trans": "能够被听到"
+  }
 ]

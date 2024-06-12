@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "square.01",
-        "roleset_name": "set to rights, arrange properly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of rightness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being set to rights"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "square.02",
-        "roleset_name": "mathematics",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mathematician"
-            },
-            {
-                "n": "1",
-                "descr": "number"
-            },
-            {
-                "n": "2",
-                "descr": "result"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "square.04",
-        "roleset_name": "make into a square shape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming square-shaped"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "square_off.03",
-        "roleset_name": "compete",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "competitor"
-            },
-            {
-                "n": "2",
-                "descr": "opponent"
-            },
-            {
-                "n": "3",
-                "descr": "prize"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "square.01",
+    "roleset_name": "set to rights, arrange properly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of rightness, agent",
+        "descr_trans": "正当理由，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being set to rights",
+        "descr_trans": "事物被设置为权利"
+      }
+    ],
+    "roleset_name_trans": "摆正，安排妥当"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "square.02",
+    "roleset_name": "mathematics",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mathematician",
+        "descr_trans": "数学家"
+      },
+      {
+        "n": "1",
+        "descr": "number",
+        "descr_trans": "数字"
+      },
+      {
+        "n": "2",
+        "descr": "result",
+        "descr_trans": "结果"
+      }
+    ],
+    "roleset_name_trans": "数学"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "square.04",
+    "roleset_name": "make into a square shape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming square-shaped",
+        "descr_trans": "东西变成正方形"
+      }
+    ],
+    "roleset_name_trans": "做成正方形"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "square_off.03",
+    "roleset_name": "compete",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "competitor",
+        "descr_trans": "竞争者"
+      },
+      {
+        "n": "2",
+        "descr": "opponent",
+        "descr_trans": "对手"
+      },
+      {
+        "n": "3",
+        "descr": "prize",
+        "descr_trans": "奖"
+      }
+    ],
+    "roleset_name_trans": "竞争"
+  }
 ]

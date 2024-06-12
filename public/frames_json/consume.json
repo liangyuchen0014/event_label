@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consume.01",
-        "roleset_name": "eat, use up, devouring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "consumer"
-            },
-            {
-                "n": "1",
-                "descr": "consumed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consume.01",
+    "roleset_name": "eat, use up, devouring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "consumer",
+        "descr_trans": "消费者"
+      },
+      {
+        "n": "1",
+        "descr": "consumed",
+        "descr_trans": "消耗的"
+      }
+    ],
+    "roleset_name_trans": "吃，用尽，吞噬"
+  }
 ]

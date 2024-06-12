@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spark.01",
-        "roleset_name": "begin, start, initiate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of starting, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent is also present"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spark.01",
+    "roleset_name": "begin, start, initiate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of starting, agent",
+        "descr_trans": "启动原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent is also present",
+        "descr_trans": "仪器（如果代理人也在场）"
+      }
+    ],
+    "roleset_name_trans": "开始，开始，发起"
+  }
 ]

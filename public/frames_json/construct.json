@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "construct.01",
-        "roleset_name": "build, building of some structure (not the structure itself)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "constructive.02",
-        "roleset_name": "affirming, building up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "affirming entity/act"
-            },
-            {
-                "n": "1",
-                "descr": "entity built up, affirmed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "construct.01",
+    "roleset_name": "build, building of some structure (not the structure itself)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state of arg1",
+        "descr_trans": "arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "建造，某种结构的建造（不是结构本身）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "constructive.02",
+    "roleset_name": "affirming, building up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "affirming entity/act",
+        "descr_trans": "确认实体/行为"
+      },
+      {
+        "n": "1",
+        "descr": "entity built up, affirmed",
+        "descr_trans": "实体建立、确认"
+      }
+    ],
+    "roleset_name_trans": "肯定、建立"
+  }
 ]

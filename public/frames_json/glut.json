@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "glut.01",
-        "roleset_name": "fill beyond capacity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of glut, agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "glut.01",
+    "roleset_name": "fill beyond capacity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of glut, agent",
+        "descr_trans": "供过于求的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "超出容量"
+  }
 ]

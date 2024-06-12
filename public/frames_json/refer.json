@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refer.01",
-        "roleset_name": "call, label, refer to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "labeller"
-            },
-            {
-                "n": "1",
-                "descr": "labelled"
-            },
-            {
-                "n": "2",
-                "descr": "label"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "refer.02",
-        "roleset_name": "recommend, send",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recommender, sender"
-            },
-            {
-                "n": "1",
-                "descr": "recommended thing"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of the referal"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "refer.03",
-        "roleset_name": "consult, direct one's attention to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "referrer"
-            },
-            {
-                "n": "1",
-                "descr": "referred to"
-            },
-            {
-                "n": "2",
-                "descr": "in regards to, purpose"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "reference.04",
-        "roleset_name": "refer to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person making reference"
-            },
-            {
-                "n": "1",
-                "descr": "thing referenced"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, referenced-as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refer.01",
+    "roleset_name": "call, label, refer to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "labeller",
+        "descr_trans": "贴标机"
+      },
+      {
+        "n": "1",
+        "descr": "labelled",
+        "descr_trans": "贴上标签"
+      },
+      {
+        "n": "2",
+        "descr": "label",
+        "descr_trans": "标签"
+      }
+    ],
+    "roleset_name_trans": "调用、标记、参考"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "refer.02",
+    "roleset_name": "recommend, send",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recommender, sender",
+        "descr_trans": "推荐者、发送者"
+      },
+      {
+        "n": "1",
+        "descr": "recommended thing",
+        "descr_trans": "推荐的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of the referal",
+        "descr_trans": "转介的接受者"
+      }
+    ],
+    "roleset_name_trans": "推荐、发送"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "refer.03",
+    "roleset_name": "consult, direct one's attention to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "referrer",
+        "descr_trans": "推荐人"
+      },
+      {
+        "n": "1",
+        "descr": "referred to",
+        "descr_trans": "提到"
+      },
+      {
+        "n": "2",
+        "descr": "in regards to, purpose",
+        "descr_trans": "关于，目的"
+      }
+    ],
+    "roleset_name_trans": "咨询，引起某人的注意"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "reference.04",
+    "roleset_name": "refer to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person making reference",
+        "descr_trans": "提供参考的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing referenced",
+        "descr_trans": "引用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, referenced-as",
+        "descr_trans": "次要属性，引用为"
+      }
+    ],
+    "roleset_name_trans": "参考"
+  }
 ]

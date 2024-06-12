@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bundle.01",
-        "roleset_name": "put items together   into a bundle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bundler (not bungler)"
-            },
-            {
-                "n": "1",
-                "descr": "items"
-            },
-            {
-                "n": "2",
-                "descr": "bundle"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bundle.02",
-        "roleset_name": "dress warmly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent of dressing"
-            },
-            {
-                "n": "1",
-                "descr": "entity dressed"
-            },
-            {
-                "n": "2",
-                "descr": "clothing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bundle_up.03",
-        "roleset_name": "dress warmly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent of dressing"
-            },
-            {
-                "n": "1",
-                "descr": "entity dressed"
-            },
-            {
-                "n": "2",
-                "descr": "clothing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bundle.01",
+    "roleset_name": "put items together   into a bundle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bundler (not bungler)",
+        "descr_trans": "捆绑者（不是笨手笨脚）"
+      },
+      {
+        "n": "1",
+        "descr": "items",
+        "descr_trans": "项目"
+      },
+      {
+        "n": "2",
+        "descr": "bundle",
+        "descr_trans": "捆"
+      }
+    ],
+    "roleset_name_trans": "将物品放在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bundle.02",
+    "roleset_name": "dress warmly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent of dressing",
+        "descr_trans": "敷料的致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity dressed",
+        "descr_trans": "实体穿着"
+      },
+      {
+        "n": "2",
+        "descr": "clothing",
+        "descr_trans": "衣服"
+      }
+    ],
+    "roleset_name_trans": "穿得暖和"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bundle_up.03",
+    "roleset_name": "dress warmly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent of dressing",
+        "descr_trans": "敷料的致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity dressed",
+        "descr_trans": "实体穿着"
+      },
+      {
+        "n": "2",
+        "descr": "clothing",
+        "descr_trans": "衣服"
+      }
+    ],
+    "roleset_name_trans": "穿得暖和"
+  }
 ]

@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "toughen.01",
-        "roleset_name": "make/be tough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of toughness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting tough"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tough.02",
-        "roleset_name": "difficult, harsh, causing hardship",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "difficult entity (may require concatenation)"
-            },
-            {
-                "n": "2",
-                "descr": "entity experiencing difficulty brought by arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tough.03",
-        "roleset_name": "exhibit strong, resolute behavior/performance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "strong entity"
-            },
-            {
-                "n": "1",
-                "descr": "target of tough behavior"
-            },
-            {
-                "n": "2",
-                "descr": "grounds"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tough.04",
-        "roleset_name": "structurally strong, rugged, hardy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "hardy thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "toughen.01",
+    "roleset_name": "make/be tough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of toughness, agent",
+        "descr_trans": "韧性的原因、剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting tough",
+        "descr_trans": "事情变得艰难"
+      }
+    ],
+    "roleset_name_trans": "使/变得强硬"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tough.02",
+    "roleset_name": "difficult, harsh, causing hardship",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "difficult entity (may require concatenation)",
+        "descr_trans": "困难的实体（可能需要串联）"
+      },
+      {
+        "n": "2",
+        "descr": "entity experiencing difficulty brought by arg1",
+        "descr_trans": "实体遇到 arg1 带来的困难"
+      }
+    ],
+    "roleset_name_trans": "困难的，严酷的，造成困难的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tough.03",
+    "roleset_name": "exhibit strong, resolute behavior/performance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "strong entity",
+        "descr_trans": "强大的实体"
+      },
+      {
+        "n": "1",
+        "descr": "target of tough behavior",
+        "descr_trans": "强硬行为的目标"
+      },
+      {
+        "n": "2",
+        "descr": "grounds",
+        "descr_trans": "理由"
+      }
+    ],
+    "roleset_name_trans": "表现出坚强、坚决的行为/表现"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tough.04",
+    "roleset_name": "structurally strong, rugged, hardy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "hardy thing",
+        "descr_trans": "顽强的东西"
+      }
+    ],
+    "roleset_name_trans": "结构坚固、坚固、坚固"
+  }
 ]

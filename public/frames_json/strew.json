@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "strew.01",
-        "roleset_name": "scatter, distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed to, area"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "strew.01",
+    "roleset_name": "scatter, distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed to, area",
+        "descr_trans": "分发到、区域"
+      }
+    ],
+    "roleset_name_trans": "分散，分布"
+  }
 ]

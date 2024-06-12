@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cold.01",
-        "roleset_name": "relatively low temperature",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with few degrees (temperature-wise)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cold.02",
-        "roleset_name": "unfriendly, unenthusiastic, emotionless, frigid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of cold behavior"
-            },
-            {
-                "n": "1",
-                "descr": "cold behavior/actions"
-            },
-            {
-                "n": "2",
-                "descr": "target of cold behavior"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cold.03",
-        "roleset_name": "trail having lost freshness over time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver, bloodhound, search party"
-            },
-            {
-                "n": "1",
-                "descr": "trail"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cold.01",
+    "roleset_name": "relatively low temperature",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with few degrees (temperature-wise)",
+        "descr_trans": "几度的东西（温度方面）"
+      }
+    ],
+    "roleset_name_trans": "温度相对较低"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cold.02",
+    "roleset_name": "unfriendly, unenthusiastic, emotionless, frigid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of cold behavior",
+        "descr_trans": "冷行为的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "cold behavior/actions",
+        "descr_trans": "冷漠的行为/动作"
+      },
+      {
+        "n": "2",
+        "descr": "target of cold behavior",
+        "descr_trans": "冷漠行为的目标"
+      }
+    ],
+    "roleset_name_trans": "不友好、不热情、没有感情、冷漠"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cold.03",
+    "roleset_name": "trail having lost freshness over time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver, bloodhound, search party",
+        "descr_trans": "感知者、猎犬、搜索队"
+      },
+      {
+        "n": "1",
+        "descr": "trail",
+        "descr_trans": "踪迹"
+      }
+    ],
+    "roleset_name_trans": "随着时间的推移，踪迹失去了新鲜感"
+  }
 ]

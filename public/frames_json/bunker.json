@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bunker.01",
-        "roleset_name": "hunker down in protected area",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent bunkering down"
-            },
-            {
-                "n": "1",
-                "descr": "entity bunkered"
-            },
-            {
-                "n": "2",
-                "descr": "shelter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bunker.01",
+    "roleset_name": "hunker down in protected area",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent bunkering down",
+        "descr_trans": "特工加油"
+      },
+      {
+        "n": "1",
+        "descr": "entity bunkered",
+        "descr_trans": "实体掩体"
+      },
+      {
+        "n": "2",
+        "descr": "shelter",
+        "descr_trans": "庇护所"
+      }
+    ],
+    "roleset_name_trans": "蹲伏在保护区"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "affuse.01",
-        "roleset_name": "pour",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing affused, poured"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "affuse.01",
+    "roleset_name": "pour",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing affused, poured",
+        "descr_trans": "充满的东西，倾倒的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "倒"
+  }
 ]

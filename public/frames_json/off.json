@@ -1,69 +1,82 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "off.01",
-        "roleset_name": "murder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "murderer"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "weapon"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "off.02",
-        "roleset_name": "of kilter, not up to par, wrong in some way",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sub-par thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "off.03",
-        "roleset_name": "cancelled",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cancelled thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "off.04",
-        "roleset_name": "not scheduled for duties",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity on a break from duty"
-            },
-            {
-                "n": "2",
-                "descr": "the duties"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "off.05",
-        "roleset_name": "not in operation/activated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "inactive/inoperational thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "off.01",
+    "roleset_name": "murder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "murderer",
+        "descr_trans": "凶手"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "weapon",
+        "descr_trans": "武器"
+      }
+    ],
+    "roleset_name_trans": "谋杀"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "off.02",
+    "roleset_name": "of kilter, not up to par, wrong in some way",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sub-par thing",
+        "descr_trans": "低于标准的东西"
+      }
+    ],
+    "roleset_name_trans": "不平衡，没有达到标准，在某些方面是错误的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "off.03",
+    "roleset_name": "cancelled",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cancelled thing",
+        "descr_trans": "取消的事情"
+      }
+    ],
+    "roleset_name_trans": "取消"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "off.04",
+    "roleset_name": "not scheduled for duties",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity on a break from duty",
+        "descr_trans": "实体正在休假"
+      },
+      {
+        "n": "2",
+        "descr": "the duties",
+        "descr_trans": "职责"
+      }
+    ],
+    "roleset_name_trans": "未安排履行职责"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "off.05",
+    "roleset_name": "not in operation/activated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "inactive/inoperational thing",
+        "descr_trans": "不活动/不运行的事物"
+      }
+    ],
+    "roleset_name_trans": "未运行/已激活"
+  }
 ]

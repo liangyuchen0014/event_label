@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "over.01",
-        "roleset_name": "finished, completed, no longer occuring",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is no longer occurring"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "over.02",
-        "roleset_name": "be done dealing with a trauma, have come to terms with",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity done dealing with a trauma"
-            },
-            {
-                "n": "2",
-                "descr": "the trauma"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "over.01",
+    "roleset_name": "finished, completed, no longer occuring",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is no longer occurring",
+        "descr_trans": "不再发生的事情"
+      }
+    ],
+    "roleset_name_trans": "完成，完成，不再发生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "over.02",
+    "roleset_name": "be done dealing with a trauma, have come to terms with",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity done dealing with a trauma",
+        "descr_trans": "实体已处理完创伤"
+      },
+      {
+        "n": "2",
+        "descr": "the trauma",
+        "descr_trans": "创伤"
+      }
+    ],
+    "roleset_name_trans": "已经处理完创伤，已经接受了"
+  }
 ]

@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "meet.01",
-        "roleset_name": "arrive at, achieve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "achiever, agent"
-            },
-            {
-                "n": "1",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "meet.02",
-        "roleset_name": "kennenlernen-- come upon, become acquainted with initially",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "meeter"
-            },
-            {
-                "n": "1",
-                "descr": "person / entity / object being met"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "meet.03",
-        "roleset_name": "get together (with), come together spatially, get together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one party"
-            },
-            {
-                "n": "1",
-                "descr": "other party"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "meet.05",
-        "roleset_name": "answer, respond to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive answerer"
-            },
-            {
-                "n": "1",
-                "descr": "thing met/answered"
-            },
-            {
-                "n": "2",
-                "descr": "with what"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "meet_up.04",
-        "roleset_name": "get together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first (or only mentioned plural) party"
-            },
-            {
-                "n": "1",
-                "descr": "other party (when separate mention)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "meet.01",
+    "roleset_name": "arrive at, achieve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "achiever, agent",
+        "descr_trans": "成就者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "到达，达到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "meet.02",
+    "roleset_name": "kennenlernen-- come upon, become acquainted with initially",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "meeter",
+        "descr_trans": "仪表"
+      },
+      {
+        "n": "1",
+        "descr": "person / entity / object being met",
+        "descr_trans": "遇到的人/实体/物体"
+      }
+    ],
+    "roleset_name_trans": "kennenlernen-- 最初相遇，熟悉"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "meet.03",
+    "roleset_name": "get together (with), come together spatially, get together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one party",
+        "descr_trans": "一方"
+      },
+      {
+        "n": "1",
+        "descr": "other party",
+        "descr_trans": "对方"
+      }
+    ],
+    "roleset_name_trans": "聚在一起，在空间上聚在一起，聚在一起"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "meet.05",
+    "roleset_name": "answer, respond to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive answerer",
+        "descr_trans": "代理应答者"
+      },
+      {
+        "n": "1",
+        "descr": "thing met/answered",
+        "descr_trans": "遇到/回答的事情"
+      },
+      {
+        "n": "2",
+        "descr": "with what",
+        "descr_trans": "什么"
+      }
+    ],
+    "roleset_name_trans": "回答，回应"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "meet_up.04",
+    "roleset_name": "get together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first (or only mentioned plural) party",
+        "descr_trans": "第一方（或唯一提到的复数）一方"
+      },
+      {
+        "n": "1",
+        "descr": "other party (when separate mention)",
+        "descr_trans": "另一方（单独提及时）"
+      }
+    ],
+    "roleset_name_trans": "聚会"
+  }
 ]

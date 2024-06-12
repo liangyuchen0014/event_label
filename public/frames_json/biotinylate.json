@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "biotinylate.01",
-        "roleset_name": "attach a biotin residue to a protein or other molecule",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of biotinylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing biotinylated (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "result of biotinylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "biotinylate.01",
+    "roleset_name": "attach a biotin residue to a protein or other molecule",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of biotinylation (e.g. scientist)",
+        "descr_trans": "生物素化的有意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing biotinylated (e.g. protein)",
+        "descr_trans": "生物素化物质（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "result of biotinylation",
+        "descr_trans": "生物素化结果"
+      }
+    ],
+    "roleset_name_trans": "将生物素残基附着到蛋白质或其他分子上"
+  }
 ]

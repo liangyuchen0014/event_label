@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "headquarter.01",
-        "roleset_name": "provide with base or be based in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of basing"
-            },
-            {
-                "n": "1",
-                "descr": "organization"
-            },
-            {
-                "n": "M",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "headquarter.01",
+    "roleset_name": "provide with base or be based in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of basing",
+        "descr_trans": "基础的原因"
+      },
+      {
+        "n": "1",
+        "descr": "organization",
+        "descr_trans": "组织"
+      },
+      {
+        "n": "M",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "提供基地或位于"
+  }
 ]

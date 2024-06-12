@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sort.01",
-        "roleset_name": "put into order",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sorter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being sorted"
-            },
-            {
-                "n": "2",
-                "descr": "order, criterion"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sort_out.02",
-        "roleset_name": "make sense of, distinguish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity trying to understand"
-            },
-            {
-                "n": "1",
-                "descr": "subject of confusion"
-            },
-            {
-                "n": "2",
-                "descr": "in distinction to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sort.01",
+    "roleset_name": "put into order",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sorter",
+        "descr_trans": "分拣机"
+      },
+      {
+        "n": "1",
+        "descr": "thing being sorted",
+        "descr_trans": "正在排序的东西"
+      },
+      {
+        "n": "2",
+        "descr": "order, criterion",
+        "descr_trans": "顺序、标准"
+      }
+    ],
+    "roleset_name_trans": "整理"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sort_out.02",
+    "roleset_name": "make sense of, distinguish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity trying to understand",
+        "descr_trans": "试图理解的实体"
+      },
+      {
+        "n": "1",
+        "descr": "subject of confusion",
+        "descr_trans": "混乱的主题"
+      },
+      {
+        "n": "2",
+        "descr": "in distinction to",
+        "descr_trans": "区别于"
+      }
+    ],
+    "roleset_name_trans": "理解、区分"
+  }
 ]

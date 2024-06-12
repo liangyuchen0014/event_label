@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disqualify.01",
-        "roleset_name": "to declare unqualified",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "declarer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity disqualified"
-            },
-            {
-                "n": "2",
-                "descr": "entity disqualified from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disqualify.01",
+    "roleset_name": "to declare unqualified",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "declarer, agent",
+        "descr_trans": "声明、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity disqualified",
+        "descr_trans": "实体被取消资格"
+      },
+      {
+        "n": "2",
+        "descr": "entity disqualified from",
+        "descr_trans": "实体被取消资格"
+      }
+    ],
+    "roleset_name_trans": "宣告不合格"
+  }
 ]

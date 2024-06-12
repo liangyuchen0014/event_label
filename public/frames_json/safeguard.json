@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "safeguard.01",
-        "roleset_name": "to protect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "protector"
-            },
-            {
-                "n": "1",
-                "descr": "entity protected"
-            },
-            {
-                "n": "2",
-                "descr": "entity protected from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "safeguard.01",
+    "roleset_name": "to protect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "protector",
+        "descr_trans": "保护者"
+      },
+      {
+        "n": "1",
+        "descr": "entity protected",
+        "descr_trans": "实体受保护"
+      },
+      {
+        "n": "2",
+        "descr": "entity protected from",
+        "descr_trans": "实体受到保护"
+      }
+    ],
+    "roleset_name_trans": "保护"
+  }
 ]

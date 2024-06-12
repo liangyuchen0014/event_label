@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stemmer.01",
-        "roleset_name": "stemmer",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stemmerer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "stemmered about what, topic"
-            },
-            {
-                "n": "2",
-                "descr": "stemmered to whom, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stemmer.01",
+    "roleset_name": "stemmer",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stemmerer, agent",
+        "descr_trans": "选民、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "stemmered about what, topic",
+        "descr_trans": "主题是什么"
+      },
+      {
+        "n": "2",
+        "descr": "stemmered to whom, recipient",
+        "descr_trans": "发给谁，收件人"
+      }
+    ],
+    "roleset_name_trans": "投票"
+  }
 ]

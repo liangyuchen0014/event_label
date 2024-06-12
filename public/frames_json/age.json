@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "age.01",
-        "roleset_name": "(cause to) become older",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of aging, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting old"
-            },
-            {
-                "n": "2",
-                "descr": "amount aged"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "age.03",
-        "roleset_name": "(determine to) be a certain age",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity assessing age"
-            },
-            {
-                "n": "1",
-                "descr": "entity being assessed for age"
-            },
-            {
-                "n": "2",
-                "descr": "age"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "age_out.02",
-        "roleset_name": "become too old for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity determining what the age cap is"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting older"
-            },
-            {
-                "n": "2",
-                "descr": "thing arg1 is too old for"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "of_age.04",
-        "roleset_name": "be at level of full maturity, or maturity sufficient for an activity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity aging"
-            },
-            {
-                "n": "2",
-                "descr": "level of maturity reached, age"
-            },
-            {
-                "n": "3",
-                "descr": "action enabled by age level"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "age.01",
+    "roleset_name": "(cause to) become older",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of aging, agent",
+        "descr_trans": "衰老的原因、因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting old",
+        "descr_trans": "实体变老"
+      },
+      {
+        "n": "2",
+        "descr": "amount aged",
+        "descr_trans": "老化量"
+      }
+    ],
+    "roleset_name_trans": "（导致）变老"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "age.03",
+    "roleset_name": "(determine to) be a certain age",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity assessing age",
+        "descr_trans": "实体评估年龄"
+      },
+      {
+        "n": "1",
+        "descr": "entity being assessed for age",
+        "descr_trans": "正在评估年龄的实体"
+      },
+      {
+        "n": "2",
+        "descr": "age",
+        "descr_trans": "年龄"
+      }
+    ],
+    "roleset_name_trans": "（决定）达到某个年龄"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "age_out.02",
+    "roleset_name": "become too old for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity determining what the age cap is",
+        "descr_trans": "确定年龄上限的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting older",
+        "descr_trans": "实体变老"
+      },
+      {
+        "n": "2",
+        "descr": "thing arg1 is too old for",
+        "descr_trans": "东西 arg1 太旧了"
+      }
+    ],
+    "roleset_name_trans": "变得太老了"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "of_age.04",
+    "roleset_name": "be at level of full maturity, or maturity sufficient for an activity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity aging",
+        "descr_trans": "实体老化"
+      },
+      {
+        "n": "2",
+        "descr": "level of maturity reached, age",
+        "descr_trans": "达到的成熟程度、年龄"
+      },
+      {
+        "n": "3",
+        "descr": "action enabled by age level",
+        "descr_trans": "按年龄级别启用的行动"
+      }
+    ],
+    "roleset_name_trans": "处于完全成熟的水平，或足以进行某项活动的成熟度"
+  }
 ]

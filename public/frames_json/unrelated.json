@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unrelated.01",
-        "roleset_name": "not involved, connected",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity drawing comparison, outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "first entity"
-            },
-            {
-                "n": "2",
-                "descr": "second entity, unrelated to whom/what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "unrelated.02",
-        "roleset_name": "not blood relations",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first entity"
-            },
-            {
-                "n": "2",
-                "descr": "second entity, non-kin"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unrelated.01",
+    "roleset_name": "not involved, connected",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity drawing comparison, outside agent",
+        "descr_trans": "实体图比对，外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "first entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "second entity, unrelated to whom/what",
+        "descr_trans": "第二个实体，与谁/什么无关"
+      }
+    ],
+    "roleset_name_trans": "不参与，有联系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "unrelated.02",
+    "roleset_name": "not blood relations",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "second entity, non-kin",
+        "descr_trans": "第二实体，非亲属"
+      }
+    ],
+    "roleset_name_trans": "没有血缘关系"
+  }
 ]

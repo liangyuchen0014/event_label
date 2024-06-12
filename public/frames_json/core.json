@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "core.01",
-        "roleset_name": "remove core",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "entity from which something is removed, what is being cored"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "core.02",
-        "roleset_name": "center on",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "larger issue"
-            },
-            {
-                "n": "2",
-                "descr": "core"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "core_out.03",
-        "roleset_name": "hollow out or remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "entity from which something is removed, what is being cored"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "core.01",
+    "roleset_name": "remove core",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity from which something is removed, what is being cored",
+        "descr_trans": "从中删除某些内容的实体，正在核心化的内容"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "移除核心"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "core.02",
+    "roleset_name": "center on",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "larger issue",
+        "descr_trans": "更大的问题"
+      },
+      {
+        "n": "2",
+        "descr": "core",
+        "descr_trans": "核"
+      }
+    ],
+    "roleset_name_trans": "中心于"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "core_out.03",
+    "roleset_name": "hollow out or remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity from which something is removed, what is being cored",
+        "descr_trans": "从中删除某些内容的实体，正在核心化的内容"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "挖空或移除"
+  }
 ]

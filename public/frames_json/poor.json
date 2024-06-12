@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "poor.01",
-        "roleset_name": "living in poverty, lacking wealth; sense is largely financial (and metaphorical extension limited to animate/org arg1s)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity living in poverty (animate entity)"
-            },
-            {
-                "n": "2",
-                "descr": "thing lacked (form of wealth)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "poor.02",
-        "roleset_name": "unsatisfactory, rated on the low end, evaluated as having little of some feature or capability",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unsatisfactory, low-rated, or lacking thing"
-            },
-            {
-                "n": "2",
-                "descr": "skill, feature, attribute rated low in or lacked"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "poor.03",
-        "roleset_name": "unfortunate, pitiable",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unfortunate entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "poor.01",
+    "roleset_name": "living in poverty, lacking wealth; sense is largely financial (and metaphorical extension limited to animate/org arg1s)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity living in poverty (animate entity)",
+        "descr_trans": "生活在贫困中的实体（有生命的实体）"
+      },
+      {
+        "n": "2",
+        "descr": "thing lacked (form of wealth)",
+        "descr_trans": "缺少的东西（财富的形式）"
+      }
+    ],
+    "roleset_name_trans": "生活贫困，缺乏财富；意义主要是财务的（隐喻扩展仅限于 animate/org arg1s）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "poor.02",
+    "roleset_name": "unsatisfactory, rated on the low end, evaluated as having little of some feature or capability",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unsatisfactory, low-rated, or lacking thing",
+        "descr_trans": "不满意、评价低或缺少的东西"
+      },
+      {
+        "n": "2",
+        "descr": "skill, feature, attribute rated low in or lacked",
+        "descr_trans": "技能、特征、属性评价较低或缺乏"
+      }
+    ],
+    "roleset_name_trans": "不满意，评级为低端，被评估为几乎没有某些特性或功能"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "poor.03",
+    "roleset_name": "unfortunate, pitiable",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unfortunate entity",
+        "descr_trans": "不幸的实体"
+      }
+    ],
+    "roleset_name_trans": "不幸的，可怜的"
+  }
 ]

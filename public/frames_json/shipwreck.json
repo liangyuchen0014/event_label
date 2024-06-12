@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shipwreck.01",
-        "roleset_name": "destroy a ship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of wreck (rare)"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer/ person shipwrecked"
-            },
-            {
-                "n": "2",
-                "descr": "wreck site (location)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shipwreck.02",
-        "roleset_name": "fail or be ruined",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of destruction"
-            },
-            {
-                "n": "1",
-                "descr": "failed or ruined thing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shipwreck.01",
+    "roleset_name": "destroy a ship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of wreck (rare)",
+        "descr_trans": "沉船的原因（罕见）"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer/ person shipwrecked",
+        "descr_trans": "经历者/遭遇海难的人"
+      },
+      {
+        "n": "2",
+        "descr": "wreck site (location)",
+        "descr_trans": "沉船地点（位置）"
+      }
+    ],
+    "roleset_name_trans": "摧毁一艘船"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shipwreck.02",
+    "roleset_name": "fail or be ruined",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of destruction",
+        "descr_trans": "破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "failed or ruined thing",
+        "descr_trans": "失败或毁掉的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "失败或被毁"
+  }
 ]

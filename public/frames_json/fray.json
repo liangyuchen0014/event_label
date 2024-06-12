@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fray.01",
-        "roleset_name": "to loosen, wear away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of wear, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity frayed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fray.01",
+    "roleset_name": "to loosen, wear away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of wear, agent",
+        "descr_trans": "磨损原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity frayed",
+        "descr_trans": "实体磨损"
+      }
+    ],
+    "roleset_name_trans": "松开，磨损"
+  }
 ]

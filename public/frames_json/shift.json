@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shift.01",
-        "roleset_name": "change location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of movement"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            },
-            {
-                "n": "4",
-                "descr": "attribute of arg1 actually shifting (if in addition to arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shift.01",
+    "roleset_name": "change location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of movement",
+        "descr_trans": "运动的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "4",
+        "descr": "attribute of arg1 actually shifting (if in addition to arg1)",
+        "descr_trans": "arg1 的属性实际转移（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "换地点"
+  }
 ]

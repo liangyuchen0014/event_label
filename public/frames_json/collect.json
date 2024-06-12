@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "collect.01",
-        "roleset_name": "acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "more specific attribute of arg1 being collected"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "collect.01",
+    "roleset_name": "acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "more specific attribute of arg1 being collected",
+        "descr_trans": "正在收集 arg1 的更具体属性"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "获得"
+  }
 ]

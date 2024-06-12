@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gurgle.01",
-        "roleset_name": "make bubbling noise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "noise maker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance,sound"
-            },
-            {
-                "n": "2",
-                "descr": "listener,recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gurgle.01",
+    "roleset_name": "make bubbling noise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "noise maker",
+        "descr_trans": "噪音制造者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance,sound",
+        "descr_trans": "言语、声音"
+      },
+      {
+        "n": "2",
+        "descr": "listener,recipient",
+        "descr_trans": "听者、接受者"
+      }
+    ],
+    "roleset_name_trans": "发出冒泡的声音"
+  }
 ]

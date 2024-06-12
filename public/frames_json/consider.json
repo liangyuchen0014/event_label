@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consider.01",
-        "roleset_name": "believe, view, hold as true",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "belief"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "consider.02",
-        "roleset_name": "contemplate an action, possibility, appointment, proposition, etc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity under consideration"
-            },
-            {
-                "n": "2",
-                "descr": "for what/secondary predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consider.01",
+    "roleset_name": "believe, view, hold as true",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "belief",
+        "descr_trans": "信仰"
+      }
+    ],
+    "roleset_name_trans": "相信、看待、坚持为真"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "consider.02",
+    "roleset_name": "contemplate an action, possibility, appointment, proposition, etc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity under consideration",
+        "descr_trans": "正在考虑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what/secondary predicate",
+        "descr_trans": "用于什么/次要谓词"
+      }
+    ],
+    "roleset_name_trans": "考虑一项行动、可能性、任命、提议等"
+  }
 ]

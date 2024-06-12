@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dish.01",
-        "roleset_name": "put onto a dish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disher"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dish_out.02",
-        "roleset_name": "distribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor"
-            },
-            {
-                "n": "1",
-                "descr": "thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "distributed to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dish_up.03",
-        "roleset_name": "serve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "server"
-            },
-            {
-                "n": "1",
-                "descr": "thing served"
-            },
-            {
-                "n": "2",
-                "descr": "served to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dish.01",
+    "roleset_name": "put onto a dish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disher",
+        "descr_trans": "碟子"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "放在盘子上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dish_out.02",
+    "roleset_name": "distribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor",
+        "descr_trans": "分销商"
+      },
+      {
+        "n": "1",
+        "descr": "thing distributed",
+        "descr_trans": "分布式的东西"
+      },
+      {
+        "n": "2",
+        "descr": "distributed to",
+        "descr_trans": "分发给"
+      }
+    ],
+    "roleset_name_trans": "分发"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dish_up.03",
+    "roleset_name": "serve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "server",
+        "descr_trans": "服务器"
+      },
+      {
+        "n": "1",
+        "descr": "thing served",
+        "descr_trans": "服务的东西"
+      },
+      {
+        "n": "2",
+        "descr": "served to",
+        "descr_trans": "服务于"
+      }
+    ],
+    "roleset_name_trans": "服务"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cbc.01",
-        "roleset_name": "test of several properties of the blood \u2013 \"complete blood count\"",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner (agent)"
-            },
-            {
-                "n": "1",
-                "descr": "examined (patient)"
-            },
-            {
-                "n": "2",
-                "descr": "in search of, for what (theme)"
-            },
-            {
-                "n": "3",
-                "descr": "findings/results"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cbc.01",
+    "roleset_name": "test of several properties of the blood – \"complete blood count\"",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner (agent)",
+        "descr_trans": "审查员（代理人）"
+      },
+      {
+        "n": "1",
+        "descr": "examined (patient)",
+        "descr_trans": "检查（患者）"
+      },
+      {
+        "n": "2",
+        "descr": "in search of, for what (theme)",
+        "descr_trans": "寻找，寻找什么（主题）"
+      },
+      {
+        "n": "3",
+        "descr": "findings/results",
+        "descr_trans": "发现/结果"
+      }
+    ],
+    "roleset_name_trans": "血液的多种特性测试——“全血细胞计数”"
+  }
 ]

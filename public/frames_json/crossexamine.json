@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crossexamine.01",
-        "roleset_name": "question a witness (as if) after the opposition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "interrogator"
-            },
-            {
-                "n": "1",
-                "descr": "witness"
-            },
-            {
-                "n": "2",
-                "descr": "subject-matter of interrogation"
-            },
-            {
-                "n": "3",
-                "descr": "witness's role in the proceedings"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crossexamine.01",
+    "roleset_name": "question a witness (as if) after the opposition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "interrogator",
+        "descr_trans": "询问者"
+      },
+      {
+        "n": "1",
+        "descr": "witness",
+        "descr_trans": "证人"
+      },
+      {
+        "n": "2",
+        "descr": "subject-matter of interrogation",
+        "descr_trans": "讯问的对象"
+      },
+      {
+        "n": "3",
+        "descr": "witness's role in the proceedings",
+        "descr_trans": "证人在诉讼程序中的作用"
+      }
+    ],
+    "roleset_name_trans": "在反对之后询问证人（仿佛）"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outdate.01",
-        "roleset_name": "to make obsolete or out of date",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of outdating"
-            },
-            {
-                "n": "1",
-                "descr": "Entity becoming outdated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outdate.01",
+    "roleset_name": "to make obsolete or out of date",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of outdating",
+        "descr_trans": "过时的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity becoming outdated",
+        "descr_trans": "实体变得过时"
+      }
+    ],
+    "roleset_name_trans": "使过时或过时"
+  }
 ]

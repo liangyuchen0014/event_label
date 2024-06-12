@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pasture.01",
-        "roleset_name": "to put out to graze",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pasture-er"
-            },
-            {
-                "n": "1",
-                "descr": "thing pastured"
-            },
-            {
-                "n": "2",
-                "descr": "pasture, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pasture.01",
+    "roleset_name": "to put out to graze",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pasture-er",
+        "descr_trans": "牧场"
+      },
+      {
+        "n": "1",
+        "descr": "thing pastured",
+        "descr_trans": "放牧的东西"
+      },
+      {
+        "n": "2",
+        "descr": "pasture, location",
+        "descr_trans": "牧场、地点"
+      }
+    ],
+    "roleset_name_trans": "放牧"
+  }
 ]

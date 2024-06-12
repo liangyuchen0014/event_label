@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coprecipitate.01",
-        "roleset_name": "cause to precipitate together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coprecipitation"
-            },
-            {
-                "n": "1",
-                "descr": "first chemical"
-            },
-            {
-                "n": "2",
-                "descr": "second chemical, coprecipitated with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coprecipitate.01",
+    "roleset_name": "cause to precipitate together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coprecipitation",
+        "descr_trans": "共沉淀的原因"
+      },
+      {
+        "n": "1",
+        "descr": "first chemical",
+        "descr_trans": "第一化学品"
+      },
+      {
+        "n": "2",
+        "descr": "second chemical, coprecipitated with",
+        "descr_trans": "第二种化学物质，与"
+      }
+    ],
+    "roleset_name_trans": "导致一起沉淀"
+  }
 ]

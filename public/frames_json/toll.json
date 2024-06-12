@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "toll.01",
-        "roleset_name": "to (cause) to make a sound of a bell",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of ringing"
-            },
-            {
-                "n": "1",
-                "descr": "bell"
-            },
-            {
-                "n": "2",
-                "descr": "ring for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "toll.02",
-        "roleset_name": "charge a toll",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "toll-booth employee, person charging toll"
-            },
-            {
-                "n": "1",
-                "descr": "toll itself, amount charged"
-            },
-            {
-                "n": "2",
-                "descr": "person charged, paying toll"
-            },
-            {
-                "n": "3",
-                "descr": "toll for what? commodity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "toll.01",
+    "roleset_name": "to (cause) to make a sound of a bell",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of ringing",
+        "descr_trans": "响铃的原因"
+      },
+      {
+        "n": "1",
+        "descr": "bell",
+        "descr_trans": "钟"
+      },
+      {
+        "n": "2",
+        "descr": "ring for",
+        "descr_trans": "响铃"
+      }
+    ],
+    "roleset_name_trans": "to（导致）发出铃声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "toll.02",
+    "roleset_name": "charge a toll",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "toll-booth employee, person charging toll",
+        "descr_trans": "收费站工作人员、收费人员"
+      },
+      {
+        "n": "1",
+        "descr": "toll itself, amount charged",
+        "descr_trans": "通行费本身，收取的金额"
+      },
+      {
+        "n": "2",
+        "descr": "person charged, paying toll",
+        "descr_trans": "被指控者，支付通行费"
+      },
+      {
+        "n": "3",
+        "descr": "toll for what? commodity",
+        "descr_trans": "通行费是为了什么？商品"
+      }
+    ],
+    "roleset_name_trans": "收取通行费"
+  }
 ]

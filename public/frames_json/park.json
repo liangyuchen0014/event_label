@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "park.01",
-        "roleset_name": "to leave temporarily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "parker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity parked"
-            },
-            {
-                "n": "2",
-                "descr": "parking place"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "park.01",
+    "roleset_name": "to leave temporarily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "parker, agent",
+        "descr_trans": "帕克，经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity parked",
+        "descr_trans": "实体停放"
+      },
+      {
+        "n": "2",
+        "descr": "parking place",
+        "descr_trans": "停车位"
+      }
+    ],
+    "roleset_name_trans": "暂时离开"
+  }
 ]

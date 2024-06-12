@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dephosphorylate.01",
-        "roleset_name": "remove a phosphate group from an organic compound by hydrolysis",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of dephosphorylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing dephosphorylated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "product of dephosphorylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dephosphorylate.01",
+    "roleset_name": "remove a phosphate group from an organic compound by hydrolysis",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of dephosphorylation (e.g. scientist)",
+        "descr_trans": "有意去磷酸化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing dephosphorylated",
+        "descr_trans": "去磷酸化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "product of dephosphorylation",
+        "descr_trans": "去磷酸化产物"
+      }
+    ],
+    "roleset_name_trans": "通过水解从有机化合物中除去磷酸基团"
+  }
 ]

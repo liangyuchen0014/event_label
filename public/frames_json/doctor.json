@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "doctor.01",
-        "roleset_name": "to falsify or alter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity doctored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "doctor.01",
+    "roleset_name": "to falsify or alter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change, agent",
+        "descr_trans": "变化的起因、推动者"
+      },
+      {
+        "n": "1",
+        "descr": "entity doctored",
+        "descr_trans": "实体被篡改"
+      }
+    ],
+    "roleset_name_trans": "伪造或改变"
+  }
 ]

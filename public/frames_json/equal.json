@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "equal.01",
-        "roleset_name": "equal, be the same as",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "focus of equation"
-            },
-            {
-                "n": "2",
-                "descr": "other side of equation"
-            },
-            {
-                "n": "3",
-                "descr": "attribute, quality, domain in which two things are equal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "equal.02",
-        "roleset_name": "be up to the task",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity up to the task"
-            },
-            {
-                "n": "2",
-                "descr": "the task"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "equalize.03",
-        "roleset_name": "make equal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, equalizer"
-            },
-            {
-                "n": "1",
-                "descr": "equalized"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, method"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "equal.01",
+    "roleset_name": "equal, be the same as",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "focus of equation",
+        "descr_trans": "方程的焦点"
+      },
+      {
+        "n": "2",
+        "descr": "other side of equation",
+        "descr_trans": "等式的另一边"
+      },
+      {
+        "n": "3",
+        "descr": "attribute, quality, domain in which two things are equal",
+        "descr_trans": "属性、质量、两个事物相等的领域"
+      }
+    ],
+    "roleset_name_trans": "相等，与...相同"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "equal.02",
+    "roleset_name": "be up to the task",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity up to the task",
+        "descr_trans": "完成任务的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the task",
+        "descr_trans": "任务"
+      }
+    ],
+    "roleset_name_trans": "胜任工作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "equalize.03",
+    "roleset_name": "make equal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, equalizer",
+        "descr_trans": "代理、均衡器"
+      },
+      {
+        "n": "1",
+        "descr": "equalized",
+        "descr_trans": "均等化"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, method",
+        "descr_trans": "仪器、方法"
+      }
+    ],
+    "roleset_name_trans": "使平等"
+  }
 ]

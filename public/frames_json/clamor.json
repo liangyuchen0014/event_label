@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clamor.01",
-        "roleset_name": "call for noisily, demand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "demander"
-            },
-            {
-                "n": "1",
-                "descr": "demanded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clamor.01",
+    "roleset_name": "call for noisily, demand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "demander",
+        "descr_trans": "问"
+      },
+      {
+        "n": "1",
+        "descr": "demanded",
+        "descr_trans": "要求的"
+      }
+    ],
+    "roleset_name_trans": "大声呼唤、要求"
+  }
 ]

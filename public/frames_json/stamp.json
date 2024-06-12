@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stamp.01",
-        "roleset_name": "to imprint with a mark, design, or seal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "imprinter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stamped"
-            },
-            {
-                "n": "2",
-                "descr": "design, seal"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stamp.02",
-        "roleset_name": "to identify, characterize, reveal, etc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of attribute"
-            },
-            {
-                "n": "1",
-                "descr": "entity stamped"
-            },
-            {
-                "n": "2",
-                "descr": "attribute on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stamp.04",
-        "roleset_name": "rough foot motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, footstomper"
-            },
-            {
-                "n": "1",
-                "descr": "feet"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "rubber_stamp.03",
-        "roleset_name": "to approve without giving it  much thought",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "approver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing rubber-stamped"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "stamp_out.05",
-        "roleset_name": "to eliminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stamped_out"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stamp.01",
+    "roleset_name": "to imprint with a mark, design, or seal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "imprinter, agent",
+        "descr_trans": "印记人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stamped",
+        "descr_trans": "盖印的东西"
+      },
+      {
+        "n": "2",
+        "descr": "design, seal",
+        "descr_trans": "设计、密封"
+      }
+    ],
+    "roleset_name_trans": "印上标记、设计或印章"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stamp.02",
+    "roleset_name": "to identify, characterize, reveal, etc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of attribute",
+        "descr_trans": "属性的分配者"
+      },
+      {
+        "n": "1",
+        "descr": "entity stamped",
+        "descr_trans": "实体盖章"
+      },
+      {
+        "n": "2",
+        "descr": "attribute on arg1",
+        "descr_trans": "arg1 上的属性"
+      }
+    ],
+    "roleset_name_trans": "识别、表征、揭示等"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stamp.04",
+    "roleset_name": "rough foot motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, footstomper",
+        "descr_trans": "代理人、踩脚者"
+      },
+      {
+        "n": "1",
+        "descr": "feet",
+        "descr_trans": "脚"
+      }
+    ],
+    "roleset_name_trans": "粗暴的脚部动作"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "rubber_stamp.03",
+    "roleset_name": "to approve without giving it  much thought",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "approver, agent",
+        "descr_trans": "审批人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing rubber-stamped",
+        "descr_trans": "橡皮图章的东西"
+      }
+    ],
+    "roleset_name_trans": "不假思索地批准"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "stamp_out.05",
+    "roleset_name": "to eliminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stamped_out",
+        "descr_trans": "东西被盖印了"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

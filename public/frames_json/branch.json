@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "branch.01",
-        "roleset_name": "branch, fork, split",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing branching"
-            },
-            {
-                "n": "1",
-                "descr": "destination (into)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "branch_out.02",
-        "roleset_name": "branch, fork, split",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing branching"
-            },
-            {
-                "n": "1",
-                "descr": "destination (into)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "branch.01",
+    "roleset_name": "branch, fork, split",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing branching",
+        "descr_trans": "事物分支"
+      },
+      {
+        "n": "1",
+        "descr": "destination (into)",
+        "descr_trans": "目的地（进入）"
+      }
+    ],
+    "roleset_name_trans": "分支、叉子、分叉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "branch_out.02",
+    "roleset_name": "branch, fork, split",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing branching",
+        "descr_trans": "事物分支"
+      },
+      {
+        "n": "1",
+        "descr": "destination (into)",
+        "descr_trans": "目的地（进入）"
+      }
+    ],
+    "roleset_name_trans": "分支、叉子、分叉"
+  }
 ]

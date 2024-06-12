@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cycle.01",
-        "roleset_name": "ride a bicycle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cyclist, agent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cycle.02",
-        "roleset_name": "go through a cycle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Thing going through cycle"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "low point"
-            },
-            {
-                "n": "4",
-                "descr": "high point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cycle.01",
+    "roleset_name": "ride a bicycle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cyclist, agent",
+        "descr_trans": "自行车手、经纪人"
+      }
+    ],
+    "roleset_name_trans": "骑自行车"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cycle.02",
+    "roleset_name": "go through a cycle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Thing going through cycle",
+        "descr_trans": "事物经历循环"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or MNR",
+        "descr_trans": "外部或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "low point",
+        "descr_trans": "低点"
+      },
+      {
+        "n": "4",
+        "descr": "high point",
+        "descr_trans": "高点"
+      }
+    ],
+    "roleset_name_trans": "经历一个循环"
+  }
 ]

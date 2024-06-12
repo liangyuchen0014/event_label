@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ramp_up.01",
-        "roleset_name": "to increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "activity increased"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ramp_up.01",
+    "roleset_name": "to increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "activity increased",
+        "descr_trans": "活动增加"
+      }
+    ],
+    "roleset_name_trans": "增加"
+  }
 ]

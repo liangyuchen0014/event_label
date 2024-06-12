@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "superfetate.01",
-        "roleset_name": "conceive while already pregnant",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "pregnant entity"
-            },
-            {
-                "n": "2",
-                "descr": "embryo(s)"
-            },
-            {
-                "n": "3",
-                "descr": "interval between conceptions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "superfetate.01",
+    "roleset_name": "conceive while already pregnant",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "pregnant entity",
+        "descr_trans": "怀孕实体"
+      },
+      {
+        "n": "2",
+        "descr": "embryo(s)",
+        "descr_trans": "胚胎"
+      },
+      {
+        "n": "3",
+        "descr": "interval between conceptions",
+        "descr_trans": "受孕间隔"
+      }
+    ],
+    "roleset_name_trans": "已怀孕时怀孕"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disinvite.01",
-        "roleset_name": "uninvite, rescind an invitation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disinviter"
-            },
-            {
-                "n": "1",
-                "descr": "entity disinvited"
-            },
-            {
-                "n": "2",
-                "descr": "disinvited-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disinvite.01",
+    "roleset_name": "uninvite, rescind an invitation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disinviter",
+        "descr_trans": "取消邀请者"
+      },
+      {
+        "n": "1",
+        "descr": "entity disinvited",
+        "descr_trans": "实体被取消邀请"
+      },
+      {
+        "n": "2",
+        "descr": "disinvited-to",
+        "descr_trans": "取消邀请"
+      }
+    ],
+    "roleset_name_trans": "取消邀请，撤销邀请"
+  }
 ]

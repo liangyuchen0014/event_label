@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arbitrage.01",
-        "roleset_name": "quickly buy/sell currencies/stock/securities for profit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arbitrager, agent"
-            },
-            {
-                "n": "1",
-                "descr": "currency/stock/security exchanged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arbitrage.01",
+    "roleset_name": "quickly buy/sell currencies/stock/securities for profit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arbitrager, agent",
+        "descr_trans": "套利者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "currency/stock/security exchanged",
+        "descr_trans": "货币/股票/证券交换"
+      }
+    ],
+    "roleset_name_trans": "快速买入/卖出货币/股票/证券以获取利润"
+  }
 ]

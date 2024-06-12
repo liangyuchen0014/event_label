@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reelect.01",
-        "roleset_name": "elect again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voters"
-            },
-            {
-                "n": "1",
-                "descr": "candidate"
-            },
-            {
-                "n": "2",
-                "descr": "office or position"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reelect.01",
+    "roleset_name": "elect again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voters",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "candidate",
+        "descr_trans": "候选人"
+      },
+      {
+        "n": "2",
+        "descr": "office or position",
+        "descr_trans": "办公室或职位"
+      }
+    ],
+    "roleset_name_trans": "再次选举"
+  }
 ]

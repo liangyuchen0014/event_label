@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "base.01",
-        "roleset_name": "be located in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent basing something somewhere"
-            },
-            {
-                "n": "1",
-                "descr": "institution"
-            },
-            {
-                "n": "m",
-                "descr": "M-LOC location, where arg1 is based"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "base.02",
-        "roleset_name": "justified by, made up of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "justifier, agent (rarely seen)"
-            },
-            {
-                "n": "1",
-                "descr": "decision, whole"
-            },
-            {
-                "n": "2",
-                "descr": "justification, parts/ arg1 is made up of what?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "baseline.04",
-        "roleset_name": "the starting-point or control state of an entity, which is used for comparison",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a baseline"
-            },
-            {
-                "n": "2",
-                "descr": "instrument; thing that establishes baseline value"
-            },
-            {
-                "n": "3",
-                "descr": "baseline value/condition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "base.01",
+    "roleset_name": "be located in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent basing something somewhere",
+        "descr_trans": "代理将某物设在某处"
+      },
+      {
+        "n": "1",
+        "descr": "institution",
+        "descr_trans": "机构"
+      },
+      {
+        "n": "m",
+        "descr": "M-LOC location, where arg1 is based",
+        "descr_trans": "M-LOC 位置，arg1 所在的位置"
+      }
+    ],
+    "roleset_name_trans": "位于"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "base.02",
+    "roleset_name": "justified by, made up of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "justifier, agent (rarely seen)",
+        "descr_trans": "辩护者、代理人（很少见）"
+      },
+      {
+        "n": "1",
+        "descr": "decision, whole",
+        "descr_trans": "决定，整体"
+      },
+      {
+        "n": "2",
+        "descr": "justification, parts/ arg1 is made up of what?",
+        "descr_trans": "理由，parts/arg1 是由什么组成的？"
+      }
+    ],
+    "roleset_name_trans": "被证明是合理的，由...组成"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "baseline.04",
+    "roleset_name": "the starting-point or control state of an entity, which is used for comparison",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a baseline",
+        "descr_trans": "有基线的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument; thing that establishes baseline value",
+        "descr_trans": "乐器;建立基线值的东西"
+      },
+      {
+        "n": "3",
+        "descr": "baseline value/condition",
+        "descr_trans": "基线值/条件"
+      }
+    ],
+    "roleset_name_trans": "实体的起点或控制状态，用于比较"
+  }
 ]

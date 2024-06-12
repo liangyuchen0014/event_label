@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unbolt.01",
-        "roleset_name": "unbolt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unbolter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unbolted"
-            },
-            {
-                "n": "2",
-                "descr": "unbolted from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unbolt.01",
+    "roleset_name": "unbolt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unbolter, agent",
+        "descr_trans": "解锁者, 代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing unbolted",
+        "descr_trans": "未栓紧的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unbolted from, source",
+        "descr_trans": "从源头解开"
+      }
+    ],
+    "roleset_name_trans": "无聊的"
+  }
 ]

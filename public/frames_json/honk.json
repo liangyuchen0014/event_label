@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "honk.01",
-        "roleset_name": "(cause to) emit a honking sound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing honking"
-            },
-            {
-                "n": "2",
-                "descr": "entity honked at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "honk.01",
+    "roleset_name": "(cause to) emit a honking sound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing honking",
+        "descr_trans": "东西鸣叫"
+      },
+      {
+        "n": "2",
+        "descr": "entity honked at",
+        "descr_trans": "实体按喇叭"
+      }
+    ],
+    "roleset_name_trans": "（导致）发出喇叭声"
+  }
 ]

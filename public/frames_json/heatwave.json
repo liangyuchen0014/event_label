@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heatwave.01",
-        "roleset_name": "natural disaster: stretch of very high temperatures",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "temperature"
-            },
-            {
-                "n": "2",
-                "descr": "humidity"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "duration"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heatwave.01",
+    "roleset_name": "natural disaster: stretch of very high temperatures",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "temperature",
+        "descr_trans": "温度"
+      },
+      {
+        "n": "2",
+        "descr": "humidity",
+        "descr_trans": "湿度"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "duration",
+        "descr_trans": "期间"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：高温"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wrought.01",
-        "roleset_name": "to cause a change of state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme, thing wrought"
-            },
-            {
-                "n": "2",
-                "descr": "Patient, thing wrought upon"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wrought.01",
+    "roleset_name": "to cause a change of state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Theme, thing wrought",
+        "descr_trans": "主题、作品"
+      },
+      {
+        "n": "2",
+        "descr": "Patient, thing wrought upon",
+        "descr_trans": "耐心，事情发生"
+      }
+    ],
+    "roleset_name_trans": "导致状态改变"
+  }
 ]

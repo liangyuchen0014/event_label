@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depart.01",
-        "roleset_name": "to go away, leave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving, agent"
-            },
-            {
-                "n": "1",
-                "descr": "departed from"
-            },
-            {
-                "n": "2",
-                "descr": "departed for, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depart.01",
+    "roleset_name": "to go away, leave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving, agent",
+        "descr_trans": "实体离开，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "departed from",
+        "descr_trans": "离开于"
+      },
+      {
+        "n": "2",
+        "descr": "departed for, destination",
+        "descr_trans": "出发去，目的地"
+      }
+    ],
+    "roleset_name_trans": "走开，离开"
+  }
 ]

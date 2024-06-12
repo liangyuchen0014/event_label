@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stiffen.01",
-        "roleset_name": "(make) become stiff, becoming or causing to become stiff",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of stiffness"
-            },
-            {
-                "n": "1",
-                "descr": "newly-stiff thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stiff.02",
-        "roleset_name": "inflexible",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stiff thing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stiff.03",
-        "roleset_name": "fail to pay or give appropriately",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "poor giver"
-            },
-            {
-                "n": "1",
-                "descr": "amount not given"
-            },
-            {
-                "n": "2",
-                "descr": "entity not receiving enough"
-            },
-            {
-                "n": "3",
-                "descr": "commodity, debt not paid for"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "stiff.04",
-        "roleset_name": "strong, tough",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "what one is stiff in the face of; opponent"
-            },
-            {
-                "n": "1",
-                "descr": "entity or activity showing toughness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stiffen.01",
+    "roleset_name": "(make) become stiff, becoming or causing to become stiff",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of stiffness",
+        "descr_trans": "僵硬的原因"
+      },
+      {
+        "n": "1",
+        "descr": "newly-stiff thing",
+        "descr_trans": "新硬的东西"
+      }
+    ],
+    "roleset_name_trans": "（使）变得僵硬，变得或导致变得僵硬"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stiff.02",
+    "roleset_name": "inflexible",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stiff thing",
+        "descr_trans": "僵硬的东西"
+      }
+    ],
+    "roleset_name_trans": "不灵活的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stiff.03",
+    "roleset_name": "fail to pay or give appropriately",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "poor giver",
+        "descr_trans": "可怜的给予者"
+      },
+      {
+        "n": "1",
+        "descr": "amount not given",
+        "descr_trans": "未给出金额"
+      },
+      {
+        "n": "2",
+        "descr": "entity not receiving enough",
+        "descr_trans": "实体没有收到足够的"
+      },
+      {
+        "n": "3",
+        "descr": "commodity, debt not paid for",
+        "descr_trans": "商品，未偿还的债务"
+      }
+    ],
+    "roleset_name_trans": "未能适当支付或给予"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "stiff.04",
+    "roleset_name": "strong, tough",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "what one is stiff in the face of; opponent",
+        "descr_trans": "面对什么，一个人会僵硬；对手"
+      },
+      {
+        "n": "1",
+        "descr": "entity or activity showing toughness",
+        "descr_trans": "表现出韧性的实体或活动"
+      }
+    ],
+    "roleset_name_trans": "坚强、坚韧"
+  }
 ]

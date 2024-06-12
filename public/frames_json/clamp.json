@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clamp.01",
-        "roleset_name": "attach firmly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent causing attachment"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being clamped"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, clamped to what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clamp_down.02",
-        "roleset_name": "enforce more strictly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "enforcer"
-            },
-            {
-                "n": "1",
-                "descr": "crime or violation enforced"
-            },
-            {
-                "n": "2",
-                "descr": "perpetrator"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clamp.01",
+    "roleset_name": "attach firmly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent causing attachment",
+        "descr_trans": "Attacher，引起附着的代理"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being clamped",
+        "descr_trans": "首先被夹住的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, clamped to what",
+        "descr_trans": "第二件事，夹在什么上"
+      }
+    ],
+    "roleset_name_trans": "牢固地附着"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clamp_down.02",
+    "roleset_name": "enforce more strictly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "enforcer",
+        "descr_trans": "执行者"
+      },
+      {
+        "n": "1",
+        "descr": "crime or violation enforced",
+        "descr_trans": "犯罪或违法行为被强制执行"
+      },
+      {
+        "n": "2",
+        "descr": "perpetrator",
+        "descr_trans": "肇事者"
+      }
+    ],
+    "roleset_name_trans": "执行更严格"
+  }
 ]

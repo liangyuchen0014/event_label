@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "roar.01",
-        "roleset_name": "like a lion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "roarer"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, roar itself"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "roar.02",
-        "roleset_name": "move fast and noisily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "roar.01",
+    "roleset_name": "like a lion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "roarer",
+        "descr_trans": "咆哮者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, roar itself",
+        "descr_trans": "言语，咆哮本身"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "像狮子一样"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "roar.02",
+    "roleset_name": "move fast and noisily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "移动又快又吵"
+  }
 ]

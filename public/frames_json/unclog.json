@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unclog.01",
-        "roleset_name": "remove an obstruction to a passage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Passage"
-            },
-            {
-                "n": "2",
-                "descr": "Substance previously blocking passage"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unclog.01",
+    "roleset_name": "remove an obstruction to a passage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Passage",
+        "descr_trans": "通道"
+      },
+      {
+        "n": "2",
+        "descr": "Substance previously blocking passage",
+        "descr_trans": "先前阻塞通道的物质"
+      }
+    ],
+    "roleset_name_trans": "清除通道上的障碍物"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "calcify.01",
-        "roleset_name": "make stone like through calcification",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing calcifying"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or method"
-            },
-            {
-                "n": "3",
-                "descr": "result: the calcification itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "calcify.01",
+    "roleset_name": "make stone like through calcification",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing calcifying",
+        "descr_trans": "钙化物"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or method",
+        "descr_trans": "仪器或方法"
+      },
+      {
+        "n": "3",
+        "descr": "result: the calcification itself",
+        "descr_trans": "结果：钙化本身"
+      }
+    ],
+    "roleset_name_trans": "通过钙化使之像石头一样"
+  }
 ]

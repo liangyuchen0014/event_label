@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "eke.01",
-        "roleset_name": "to get/move/remove with great effort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person/org trying to supplement"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "eke_out.02",
-        "roleset_name": "to attain with great effort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing attained"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "eke.01",
+    "roleset_name": "to get/move/remove with great effort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person/org trying to supplement",
+        "descr_trans": "代理人、试图补充的个人/组织"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      }
+    ],
+    "roleset_name_trans": "费力地获取/移动/移走"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "eke_out.02",
+    "roleset_name": "to attain with great effort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attainer",
+        "descr_trans": "获得者"
+      },
+      {
+        "n": "1",
+        "descr": "thing attained",
+        "descr_trans": "达到的东西"
+      }
+    ],
+    "roleset_name_trans": "努力达到"
+  }
 ]

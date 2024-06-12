@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bandage.01",
-        "roleset_name": "apply bandage to wound",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "wound"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bandage_up.03",
-        "roleset_name": "bandage completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bandager"
-            },
-            {
-                "n": "1",
-                "descr": "bandaged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bandage.01",
+    "roleset_name": "apply bandage to wound",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "wound",
+        "descr_trans": "伤口"
+      }
+    ],
+    "roleset_name_trans": "用绷带包扎伤口"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bandage_up.03",
+    "roleset_name": "bandage completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bandager",
+        "descr_trans": "绷带"
+      },
+      {
+        "n": "1",
+        "descr": "bandaged",
+        "descr_trans": "缠着绷带的"
+      }
+    ],
+    "roleset_name_trans": "完全包扎"
+  }
 ]

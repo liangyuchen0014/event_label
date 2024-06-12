@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "meddle.01",
-        "roleset_name": "provide unwanted help, interfering",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "meddler"
-            },
-            {
-                "n": "1",
-                "descr": "thing medddled in"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg being interfered with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "meddle.01",
+    "roleset_name": "provide unwanted help, interfering",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "meddler",
+        "descr_trans": "多管闲事的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing medddled in",
+        "descr_trans": "插手的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg being interfered with",
+        "descr_trans": "arg 的特定方面受到干扰"
+      }
+    ],
+    "roleset_name_trans": "提供不必要的帮助、干扰"
+  }
 ]

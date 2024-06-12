@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rely.01",
-        "roleset_name": "need",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "relier, needer"
-            },
-            {
-                "n": "1",
-                "descr": "thing needed, relied on"
-            },
-            {
-                "n": "2",
-                "descr": "for, in order to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reliable.02",
-        "roleset_name": "able to be counted on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "relier"
-            },
-            {
-                "n": "1",
-                "descr": "reliable entity"
-            },
-            {
-                "n": "2",
-                "descr": "for what purpose"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rely.01",
+    "roleset_name": "need",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "relier, needer",
+        "descr_trans": "依赖者，需要者"
+      },
+      {
+        "n": "1",
+        "descr": "thing needed, relied on",
+        "descr_trans": "需要的东西，依赖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "for, in order to",
+        "descr_trans": "为了，为了"
+      }
+    ],
+    "roleset_name_trans": "需要"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reliable.02",
+    "roleset_name": "able to be counted on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "relier",
+        "descr_trans": "涉及"
+      },
+      {
+        "n": "1",
+        "descr": "reliable entity",
+        "descr_trans": "可靠的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what purpose",
+        "descr_trans": "出于什么目的"
+      }
+    ],
+    "roleset_name_trans": "值得信赖"
+  }
 ]

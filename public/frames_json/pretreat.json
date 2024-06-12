@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pretreat.01",
-        "roleset_name": "treat once, usually with a chemical, before the main cure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness or injury"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pretreat.01",
+    "roleset_name": "treat once, usually with a chemical, before the main cure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness or injury",
+        "descr_trans": "生病或受伤"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "在主要治疗之前治疗一次，通常使用化学品"
+  }
 ]

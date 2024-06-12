@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redetect.01",
-        "roleset_name": "find again, notice again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Detector"
-            },
-            {
-                "n": "1",
-                "descr": "Detected"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, of separate from Arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redetect.01",
+    "roleset_name": "find again, notice again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Detector",
+        "descr_trans": "探测器"
+      },
+      {
+        "n": "1",
+        "descr": "Detected",
+        "descr_trans": "检测到"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, of separate from Arg0",
+        "descr_trans": "仪器，与 Arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "再次发现，再次注意"
+  }
 ]

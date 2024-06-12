@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reticulate.01",
-        "roleset_name": "form a network",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "network former"
-            },
-            {
-                "n": "1",
-                "descr": "network"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reticulate.02",
-        "roleset_name": "distribute via a network",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reticulater"
-            },
-            {
-                "n": "1",
-                "descr": "thing reticulated"
-            },
-            {
-                "n": "2",
-                "descr": "recipient or beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reticulate.01",
+    "roleset_name": "form a network",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "network former",
+        "descr_trans": "网络形成者"
+      },
+      {
+        "n": "1",
+        "descr": "network",
+        "descr_trans": "网络"
+      }
+    ],
+    "roleset_name_trans": "形成网络"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reticulate.02",
+    "roleset_name": "distribute via a network",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reticulater",
+        "descr_trans": "网状的"
+      },
+      {
+        "n": "1",
+        "descr": "thing reticulated",
+        "descr_trans": "网状的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient or beneficiary",
+        "descr_trans": "接收人或受益人"
+      }
+    ],
+    "roleset_name_trans": "通过网络分发"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uninformed.01",
-        "roleset_name": "not in the know",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "informant"
-            },
-            {
-                "n": "1",
-                "descr": "entity who doesn't know"
-            },
-            {
-                "n": "2",
-                "descr": "information, subject matter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uninformed.01",
+    "roleset_name": "not in the know",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "informant",
+        "descr_trans": "线人"
+      },
+      {
+        "n": "1",
+        "descr": "entity who doesn't know",
+        "descr_trans": "不知道的实体"
+      },
+      {
+        "n": "2",
+        "descr": "information, subject matter",
+        "descr_trans": "信息、主题"
+      }
+    ],
+    "roleset_name_trans": "不知道"
+  }
 ]

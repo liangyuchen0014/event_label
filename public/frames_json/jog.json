@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jog.01",
-        "roleset_name": "run slowly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jog.02",
-        "roleset_name": "jog one's memory- remind",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause of remembering"
-            },
-            {
-                "n": "1",
-                "descr": "usually \"__'s memory\""
-            },
-            {
-                "n": "2",
-                "descr": "explicit thing being remembered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jog.01",
+    "roleset_name": "run slowly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "慢跑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jog.02",
+    "roleset_name": "jog one's memory- remind",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause of remembering",
+        "descr_trans": "记忆的动因/原因"
+      },
+      {
+        "n": "1",
+        "descr": "usually \"__'s memory\"",
+        "descr_trans": "通常是“__的记忆”"
+      },
+      {
+        "n": "2",
+        "descr": "explicit thing being remembered",
+        "descr_trans": "明确的事情被记住"
+      }
+    ],
+    "roleset_name_trans": "唤起记忆-提醒"
+  }
 ]

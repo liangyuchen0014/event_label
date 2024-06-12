@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recompense.01",
-        "roleset_name": "to repay, reward for service",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer, rewarder"
-            },
-            {
-                "n": "1",
-                "descr": "person being repaid"
-            },
-            {
-                "n": "2",
-                "descr": "repaid for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recompense.01",
+    "roleset_name": "to repay, reward for service",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer, rewarder",
+        "descr_trans": "付款人、报酬人"
+      },
+      {
+        "n": "1",
+        "descr": "person being repaid",
+        "descr_trans": "被偿还的人"
+      },
+      {
+        "n": "2",
+        "descr": "repaid for",
+        "descr_trans": "偿还了"
+      }
+    ],
+    "roleset_name_trans": "回报，奖励服务"
+  }
 ]

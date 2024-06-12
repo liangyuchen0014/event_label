@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scruple.01",
-        "roleset_name": "hesitate or doubt on moral grounds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hesitator"
-            },
-            {
-                "n": "1",
-                "descr": "hesitating over"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scrupulous.02",
-        "roleset_name": "meticulous and principled",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "scrupulous one"
-            },
-            {
-                "n": "2",
-                "descr": "about what, in doing what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scruple.01",
+    "roleset_name": "hesitate or doubt on moral grounds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hesitator",
+        "descr_trans": "犹豫者"
+      },
+      {
+        "n": "1",
+        "descr": "hesitating over",
+        "descr_trans": "犹豫不决"
+      }
+    ],
+    "roleset_name_trans": "出于道德原因犹豫或怀疑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scrupulous.02",
+    "roleset_name": "meticulous and principled",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "scrupulous one",
+        "descr_trans": "一丝不苟的"
+      },
+      {
+        "n": "2",
+        "descr": "about what, in doing what",
+        "descr_trans": "关于什么，在做什么"
+      }
+    ],
+    "roleset_name_trans": "一丝不苟、有原则"
+  }
 ]

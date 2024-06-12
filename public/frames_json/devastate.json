@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "devastate.01",
-        "roleset_name": "destroy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing destroyed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of destruction"
-            },
-            {
-                "n": "3",
-                "descr": "specific aspect of arg1 devastated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "devastate.01",
+    "roleset_name": "destroy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer",
+        "descr_trans": "驱逐舰"
+      },
+      {
+        "n": "1",
+        "descr": "thing destroyed",
+        "descr_trans": "东西被毁了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of destruction",
+        "descr_trans": "毁灭工具"
+      },
+      {
+        "n": "3",
+        "descr": "specific aspect of arg1 devastated",
+        "descr_trans": "arg1 的特定方面遭到破坏"
+      }
+    ],
+    "roleset_name_trans": "破坏"
+  }
 ]

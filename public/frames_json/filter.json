@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "filter.02",
-        "roleset_name": "separate solids from liquid, sorting, sifting, isolating, diffusing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "filterer, agent or instrument"
-            },
-            {
-                "n": "1",
-                "descr": "solids, thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "liquid, source, removed-from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "filter.03",
-        "roleset_name": "move slowly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "moved"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "filter.02",
+    "roleset_name": "separate solids from liquid, sorting, sifting, isolating, diffusing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "filterer, agent or instrument",
+        "descr_trans": "过滤器、试剂或仪器"
+      },
+      {
+        "n": "1",
+        "descr": "solids, thing removed",
+        "descr_trans": "固体，去除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid, source, removed-from",
+        "descr_trans": "液体、来源、移除"
+      }
+    ],
+    "roleset_name_trans": "从液体中分离固体、分类、筛选、隔离、扩散"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "filter.03",
+    "roleset_name": "move slowly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "moved",
+        "descr_trans": "搬家了"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "移动缓慢"
+  }
 ]

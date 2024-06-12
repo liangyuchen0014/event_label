@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cover.01",
-        "roleset_name": "has responsibility for, handles, insures, accounts for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing, entity covered"
-            },
-            {
-                "n": "2",
-                "descr": "covered with, value"
-            },
-            {
-                "n": "3",
-                "descr": "danger, insured against"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cover.02",
-        "roleset_name": "smear, put over, spreading across",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of covering"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered"
-            },
-            {
-                "n": "2",
-                "descr": "covered with"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cover.03",
-        "roleset_name": "broadcast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "news organization, media"
-            },
-            {
-                "n": "1",
-                "descr": "event, thing covered"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "cover_up.04",
-        "roleset_name": "obscure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coverer"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "cover_over.05",
-        "roleset_name": "cover completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being covered"
-            },
-            {
-                "n": "2",
-                "descr": "the cover itself"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "coverage.06",
-        "roleset_name": "physical coverage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing covered"
-            },
-            {
-                "n": "2",
-                "descr": "covered with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cover.01",
+    "roleset_name": "has responsibility for, handles, insures, accounts for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing, entity covered",
+        "descr_trans": "所涵盖的事物、实体"
+      },
+      {
+        "n": "2",
+        "descr": "covered with, value",
+        "descr_trans": "覆盖着，价值"
+      },
+      {
+        "n": "3",
+        "descr": "danger, insured against",
+        "descr_trans": "危险，已投保"
+      }
+    ],
+    "roleset_name_trans": "负责、处理、确保、核算"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cover.02",
+    "roleset_name": "smear, put over, spreading across",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of covering",
+        "descr_trans": "覆盖的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered",
+        "descr_trans": "覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "covered with",
+        "descr_trans": "被覆盖"
+      }
+    ],
+    "roleset_name_trans": "涂抹、涂抹、散布"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cover.03",
+    "roleset_name": "broadcast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "news organization, media",
+        "descr_trans": "新闻机构、媒体"
+      },
+      {
+        "n": "1",
+        "descr": "event, thing covered",
+        "descr_trans": "事件、涵盖的事物"
+      }
+    ],
+    "roleset_name_trans": "播送"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "cover_up.04",
+    "roleset_name": "obscure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coverer",
+        "descr_trans": "覆盖者"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered",
+        "descr_trans": "覆盖的东西"
+      }
+    ],
+    "roleset_name_trans": "朦胧"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "cover_over.05",
+    "roleset_name": "cover completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being covered",
+        "descr_trans": "被覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the cover itself",
+        "descr_trans": "封面本身"
+      }
+    ],
+    "roleset_name_trans": "完全覆盖"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "coverage.06",
+    "roleset_name": "physical coverage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent",
+        "descr_trans": "有意代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing covered",
+        "descr_trans": "覆盖的东西"
+      },
+      {
+        "n": "2",
+        "descr": "covered with",
+        "descr_trans": "被覆盖"
+      }
+    ],
+    "roleset_name_trans": "物理覆盖"
+  }
 ]

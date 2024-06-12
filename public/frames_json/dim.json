@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dim.01",
-        "roleset_name": "(cause to) decrease in intensity or brightness,   lessen the effect of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dim.01",
+    "roleset_name": "(cause to) decrease in intensity or brightness,   lessen the effect of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "（导致）强度或亮度降低，减轻某物的影响"
+  }
 ]

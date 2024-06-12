@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supplicate.01",
-        "roleset_name": "supplicate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, supplicator"
-            },
-            {
-                "n": "1",
-                "descr": "appealed to, begged from"
-            },
-            {
-                "n": "2",
-                "descr": "begged/appealed for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supplicate.01",
+    "roleset_name": "supplicate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, supplicator",
+        "descr_trans": "代理人，恳求者"
+      },
+      {
+        "n": "1",
+        "descr": "appealed to, begged from",
+        "descr_trans": "呼吁，恳求"
+      },
+      {
+        "n": "2",
+        "descr": "begged/appealed for",
+        "descr_trans": "恳求/呼吁"
+      }
+    ],
+    "roleset_name_trans": "哀告"
+  }
 ]

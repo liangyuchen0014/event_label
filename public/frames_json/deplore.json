@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deplore.01",
-        "roleset_name": "anti-admire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "despiser"
-            },
-            {
-                "n": "1",
-                "descr": "thing despised"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deplorable.02",
-        "roleset_name": "worthy of loathing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "loather"
-            },
-            {
-                "n": "1",
-                "descr": "thing that is loathe"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deplore.01",
+    "roleset_name": "anti-admire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "despiser",
+        "descr_trans": "蔑视者"
+      },
+      {
+        "n": "1",
+        "descr": "thing despised",
+        "descr_trans": "被鄙视的东西"
+      }
+    ],
+    "roleset_name_trans": "反欣赏"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deplorable.02",
+    "roleset_name": "worthy of loathing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "loather",
+        "descr_trans": "厌恶者"
+      },
+      {
+        "n": "1",
+        "descr": "thing that is loathe",
+        "descr_trans": "令人厌恶的东西"
+      }
+    ],
+    "roleset_name_trans": "值得厌恶"
+  }
 ]

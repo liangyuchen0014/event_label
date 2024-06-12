@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crucial.01",
-        "roleset_name": "of utmost importance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is critical"
-            },
-            {
-                "n": "2",
-                "descr": "situation arg 1 is critical to"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary, when seperate from arg 2"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crucial.01",
+    "roleset_name": "of utmost importance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is critical",
+        "descr_trans": "关键的事情"
+      },
+      {
+        "n": "2",
+        "descr": "situation arg 1 is critical to",
+        "descr_trans": "情况 arg 1 至关重要"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary, when seperate from arg 2",
+        "descr_trans": "受益人，当与 arg 2 分开时"
+      }
+    ],
+    "roleset_name_trans": "最重要的"
+  }
 ]

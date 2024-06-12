@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unfasten.01",
-        "roleset_name": "unfasted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unfastener, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unfastened, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unfastened from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unfasten.01",
+    "roleset_name": "unfasted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unfastener, agent",
+        "descr_trans": "解扣剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unfastened, patient",
+        "descr_trans": "松开的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unfastened from, source",
+        "descr_trans": "脱离源头"
+      }
+    ],
+    "roleset_name_trans": "未禁食的"
+  }
 ]

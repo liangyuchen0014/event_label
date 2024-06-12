@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "photosynthesize.01",
-        "roleset_name": "Convert light energy into chemical energy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of change (ie plant, cloroplast)"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing change (ie light energy)"
-            },
-            {
-                "n": "2",
-                "descr": "resulting state, arg1 converted into (ie chemical energy)"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive, when seperate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "photosynthesize.01",
+    "roleset_name": "Convert light energy into chemical energy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of change (ie plant, cloroplast)",
+        "descr_trans": "变化的原因（即植物、叶绿体）"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing change (ie light energy)",
+        "descr_trans": "正在发生变化的实体（即光能）"
+      },
+      {
+        "n": "2",
+        "descr": "resulting state, arg1 converted into (ie chemical energy)",
+        "descr_trans": "结果状态，arg1转换成（即化学能）"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive, when seperate from arg0",
+        "descr_trans": "与 arg0 分开时是有益的"
+      }
+    ],
+    "roleset_name_trans": "将光能转化为化学能"
+  }
 ]

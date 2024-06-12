@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shimmer.01",
-        "roleset_name": "emit light, sparkle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "source of light"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shimmer.02",
-        "roleset_name": "verb of motion?",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shimmer.01",
+    "roleset_name": "emit light, sparkle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "source of light",
+        "descr_trans": "光源"
+      }
+    ],
+    "roleset_name_trans": "发出光，闪闪发光"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shimmer.02",
+    "roleset_name": "verb of motion?",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "运动动词?"
+  }
 ]

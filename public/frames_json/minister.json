@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "minister.01",
-        "roleset_name": "act as a minister to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "minister"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting advice, ministered"
-            },
-            {
-                "n": "2",
-                "descr": "area, subject of ministering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "minister.01",
+    "roleset_name": "act as a minister to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "minister",
+        "descr_trans": "部长"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting advice, ministered",
+        "descr_trans": "实体获得建议、服务"
+      },
+      {
+        "n": "2",
+        "descr": "area, subject of ministering",
+        "descr_trans": "施助的领域、主题"
+      }
+    ],
+    "roleset_name_trans": "充当另一个人的牧师"
+  }
 ]

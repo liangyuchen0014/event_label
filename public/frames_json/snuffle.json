@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "snuffle.01",
-        "roleset_name": "snort mucus back up nose",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person with a runny nose"
-            },
-            {
-                "n": "1",
-                "descr": "mucus"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "snuffle.02",
-        "roleset_name": "sniff at inquiringly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Sniffer"
-            },
-            {
-                "n": "1",
-                "descr": "Thing smelled"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "snuffle.03",
-        "roleset_name": "snivel, cry, or whine with sniffling",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Crier"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "snuffle.01",
+    "roleset_name": "snort mucus back up nose",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person with a runny nose",
+        "descr_trans": "流鼻涕的人"
+      },
+      {
+        "n": "1",
+        "descr": "mucus",
+        "descr_trans": "粘液"
+      }
+    ],
+    "roleset_name_trans": "鼻腔里的粘液回流到鼻子上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "snuffle.02",
+    "roleset_name": "sniff at inquiringly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Sniffer",
+        "descr_trans": "嗅探器"
+      },
+      {
+        "n": "1",
+        "descr": "Thing smelled",
+        "descr_trans": "东西闻起来"
+      }
+    ],
+    "roleset_name_trans": "询问地嗅着"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "snuffle.03",
+    "roleset_name": "snivel, cry, or whine with sniffling",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Crier",
+        "descr_trans": "克里尔"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "流鼻涕、哭泣或抽泣"
+  }
 ]

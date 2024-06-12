@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "respect.01",
-        "roleset_name": "to regard highly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "regarder, respecter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity respected"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predicate"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "respect.02",
-        "roleset_name": "in regards to/ an issue",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "respect.01",
+    "roleset_name": "to regard highly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "regarder, respecter, agent",
+        "descr_trans": "看、尊重、代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity respected",
+        "descr_trans": "受尊重的实体"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predicate",
+        "descr_trans": "次谓词"
+      }
+    ],
+    "roleset_name_trans": "高度重视"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "respect.02",
+    "roleset_name": "in regards to/ an issue",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      }
+    ],
+    "roleset_name_trans": "关于/一个问题"
+  }
 ]

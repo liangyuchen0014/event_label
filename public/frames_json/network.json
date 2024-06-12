@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "network.01",
-        "roleset_name": "connect into a network, metaphorical or otherwise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator of network"
-            },
-            {
-                "n": "1",
-                "descr": "first item networked"
-            },
-            {
-                "n": "2",
-                "descr": "thing arg1 is connected/networked to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "network.01",
+    "roleset_name": "connect into a network, metaphorical or otherwise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator of network",
+        "descr_trans": "网络的创造者"
+      },
+      {
+        "n": "1",
+        "descr": "first item networked",
+        "descr_trans": "第一个项目联网"
+      },
+      {
+        "n": "2",
+        "descr": "thing arg1 is connected/networked to",
+        "descr_trans": "事物 arg1 已连接/联网"
+      }
+    ],
+    "roleset_name_trans": "连接到网络，隐喻或其他方式"
+  }
 ]

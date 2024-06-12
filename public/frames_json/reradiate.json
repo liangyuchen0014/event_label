@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reradiate.01",
-        "roleset_name": "hit with radiation again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit with radiation"
-            },
-            {
-                "n": "2",
-                "descr": "the radiation"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reradiate.02",
-        "roleset_name": "emit or project, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity emitting"
-            },
-            {
-                "n": "1",
-                "descr": "emitted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reradiate.01",
+    "roleset_name": "hit with radiation again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/causer",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit with radiation",
+        "descr_trans": "实体受到辐射"
+      },
+      {
+        "n": "2",
+        "descr": "the radiation",
+        "descr_trans": "辐射"
+      }
+    ],
+    "roleset_name_trans": "再次受到辐射"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reradiate.02",
+    "roleset_name": "emit or project, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity emitting",
+        "descr_trans": "实体发射"
+      },
+      {
+        "n": "1",
+        "descr": "emitted",
+        "descr_trans": "发射的"
+      }
+    ],
+    "roleset_name_trans": "再次发出或投射"
+  }
 ]

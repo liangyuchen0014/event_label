@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "calm.01",
-        "roleset_name": "make calm",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of calming"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming calm"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of calming"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "calm.03",
-        "roleset_name": "still, relaxed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "calm entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "calm_down.02",
-        "roleset_name": "make calm, with particle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of calming"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming calm"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of calming"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "calm.01",
+    "roleset_name": "make calm",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of calming",
+        "descr_trans": "镇静剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming calm",
+        "descr_trans": "实体变得平静"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of calming",
+        "descr_trans": "镇静工具"
+      }
+    ],
+    "roleset_name_trans": "使平静"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "calm.03",
+    "roleset_name": "still, relaxed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "calm entity",
+        "descr_trans": "冷静的实体"
+      }
+    ],
+    "roleset_name_trans": "仍然，放松"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "calm_down.02",
+    "roleset_name": "make calm, with particle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of calming",
+        "descr_trans": "镇静剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming calm",
+        "descr_trans": "实体变得平静"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of calming",
+        "descr_trans": "镇静工具"
+      }
+    ],
+    "roleset_name_trans": "用粒子使平静"
+  }
 ]

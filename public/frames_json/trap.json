@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trap.01",
-        "roleset_name": "to catch in or as if in  a trap, caught",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trapper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity trapped"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trap.01",
+    "roleset_name": "to catch in or as if in  a trap, caught",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trapper, agent",
+        "descr_trans": "捕手、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity trapped",
+        "descr_trans": "实体被困"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "陷入或好像陷入陷阱，被抓住"
+  }
 ]

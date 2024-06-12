@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recalibrate.01",
-        "roleset_name": "fine-tune, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "calibrator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing calibrated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recalibrate.01",
+    "roleset_name": "fine-tune, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "calibrator, agent",
+        "descr_trans": "校准剂、试剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing calibrated",
+        "descr_trans": "校准的东西"
+      }
+    ],
+    "roleset_name_trans": "再次微调"
+  }
 ]

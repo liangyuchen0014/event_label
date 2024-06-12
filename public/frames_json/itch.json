@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "itch.01",
-        "roleset_name": "feeling agitated and in need of scratching",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "itchy thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "itch.02",
-        "roleset_name": "want badly to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wanter"
-            },
-            {
-                "n": "1",
-                "descr": "desired action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "itch.01",
+    "roleset_name": "feeling agitated and in need of scratching",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "itchy thing",
+        "descr_trans": "发痒的东西"
+      }
+    ],
+    "roleset_name_trans": "感到烦躁并且需要抓挠"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "itch.02",
+    "roleset_name": "want badly to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wanter",
+        "descr_trans": "冬天"
+      },
+      {
+        "n": "1",
+        "descr": "desired action",
+        "descr_trans": "期望的行动"
+      }
+    ],
+    "roleset_name_trans": "非常想做某事"
+  }
 ]

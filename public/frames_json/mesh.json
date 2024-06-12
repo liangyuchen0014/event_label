@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mesh.01",
-        "roleset_name": "coordinate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coordination, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity coordinated"
-            },
-            {
-                "n": "2",
-                "descr": "entity coordinated with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mesh.01",
+    "roleset_name": "coordinate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coordination, agent",
+        "descr_trans": "协调的起因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity coordinated",
+        "descr_trans": "实体协调"
+      },
+      {
+        "n": "2",
+        "descr": "entity coordinated with",
+        "descr_trans": "协调实体"
+      }
+    ],
+    "roleset_name_trans": "协调"
+  }
 ]

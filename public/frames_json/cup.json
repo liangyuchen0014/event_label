@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cup.01",
-        "roleset_name": "to shape into a cup or cup-like formation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Shaper, creator of cup"
-            },
-            {
-                "n": "1",
-                "descr": "Entity, material shaped into cup"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cup.02",
-        "roleset_name": "to place in a cup",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent placing something in cup"
-            },
-            {
-                "n": "1",
-                "descr": "liquid, entity placed in cup"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cup.03",
-        "roleset_name": "applying suction cups to the body",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cupper"
-            },
-            {
-                "n": "1",
-                "descr": "customer, entity receiving treatment"
-            },
-            {
-                "n": "2",
-                "descr": "body part cupped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cup.01",
+    "roleset_name": "to shape into a cup or cup-like formation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Shaper, creator of cup",
+        "descr_trans": "塑形师，杯子的创造者"
+      },
+      {
+        "n": "1",
+        "descr": "Entity, material shaped into cup",
+        "descr_trans": "实体，材料制成杯状"
+      }
+    ],
+    "roleset_name_trans": "塑造成杯子或杯状结构"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cup.02",
+    "roleset_name": "to place in a cup",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent placing something in cup",
+        "descr_trans": "特工将东西放入杯子中"
+      },
+      {
+        "n": "1",
+        "descr": "liquid, entity placed in cup",
+        "descr_trans": "液体，放置在杯子中的实体"
+      }
+    ],
+    "roleset_name_trans": "放在杯子里"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cup.03",
+    "roleset_name": "applying suction cups to the body",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cupper",
+        "descr_trans": "代理，铜"
+      },
+      {
+        "n": "1",
+        "descr": "customer, entity receiving treatment",
+        "descr_trans": "客户、接受治疗的实体"
+      },
+      {
+        "n": "2",
+        "descr": "body part cupped",
+        "descr_trans": "身体部位呈杯状"
+      }
+    ],
+    "roleset_name_trans": "将吸盘贴在身体上"
+  }
 ]

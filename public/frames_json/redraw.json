@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redraw.01",
-        "roleset_name": "redraw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "redrawer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing redrawn, theme"
-            },
-            {
-                "n": "2",
-                "descr": "redrawn as what, predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redraw.01",
+    "roleset_name": "redraw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "redrawer, agent",
+        "descr_trans": "重画者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing redrawn, theme",
+        "descr_trans": "重画的东西，主题"
+      },
+      {
+        "n": "2",
+        "descr": "redrawn as what, predicate",
+        "descr_trans": "重新绘制为什么，谓词"
+      }
+    ],
+    "roleset_name_trans": "重画"
+  }
 ]

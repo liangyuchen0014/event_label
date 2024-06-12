@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trot.01",
-        "roleset_name": "mode of motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trotter"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "trot_out.02",
-        "roleset_name": "introduce, bring out/up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "introducer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being brought up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trot.01",
+    "roleset_name": "mode of motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trotter",
+        "descr_trans": "猪蹄"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "运动方式"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "trot_out.02",
+    "roleset_name": "introduce, bring out/up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "introducer",
+        "descr_trans": "介绍人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being brought up",
+        "descr_trans": "被提出的事情"
+      }
+    ],
+    "roleset_name_trans": "介绍，带出/提出"
+  }
 ]

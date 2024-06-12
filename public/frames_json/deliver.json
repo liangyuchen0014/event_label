@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deliver.01",
-        "roleset_name": "give, send",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "deliver.101",
-        "roleset_name": "give birth, assist in giving birth, giving birth or assisting in giving birth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person delivering baby"
-            },
-            {
-                "n": "1",
-                "descr": "Baby"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deliver.01",
+    "roleset_name": "give, send",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "sent",
+        "descr_trans": "发送"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "给予，发送"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "deliver.101",
+    "roleset_name": "give birth, assist in giving birth, giving birth or assisting in giving birth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person delivering baby",
+        "descr_trans": "接生的人"
+      },
+      {
+        "n": "1",
+        "descr": "Baby",
+        "descr_trans": "婴儿"
+      }
+    ],
+    "roleset_name_trans": "分娩、协助分娩、分娩或协助分娩"
+  }
 ]

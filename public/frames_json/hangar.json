@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hangar.01",
-        "roleset_name": "to keep an aircraft in a hangar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storer"
-            },
-            {
-                "n": "1",
-                "descr": "stored (aircraft)"
-            },
-            {
-                "n": "2",
-                "descr": "hangar, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hangar.01",
+    "roleset_name": "to keep an aircraft in a hangar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storer",
+        "descr_trans": "更大"
+      },
+      {
+        "n": "1",
+        "descr": "stored (aircraft)",
+        "descr_trans": "储存（飞机）"
+      },
+      {
+        "n": "2",
+        "descr": "hangar, location",
+        "descr_trans": "机库, 位置"
+      }
+    ],
+    "roleset_name_trans": "将飞机停在机库中"
+  }
 ]

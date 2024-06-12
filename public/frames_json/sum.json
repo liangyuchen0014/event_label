@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sum_up.01",
-        "roleset_name": "summarize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "summarizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing summarized"
-            },
-            {
-                "n": "2",
-                "descr": "as, if syntactically neat"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sum.02",
-        "roleset_name": "combine, add, cummulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first thing added or all things"
-            },
-            {
-                "n": "2",
-                "descr": "combined with"
-            },
-            {
-                "n": "3",
-                "descr": "cummulative result"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sum_up.01",
+    "roleset_name": "summarize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "summarizer",
+        "descr_trans": "总结者"
+      },
+      {
+        "n": "1",
+        "descr": "thing summarized",
+        "descr_trans": "总结的事情"
+      },
+      {
+        "n": "2",
+        "descr": "as, if syntactically neat",
+        "descr_trans": "as，如果语法简洁"
+      }
+    ],
+    "roleset_name_trans": "总结"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sum.02",
+    "roleset_name": "combine, add, cummulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first thing added or all things",
+        "descr_trans": "首先添加的东西或所有东西"
+      },
+      {
+        "n": "2",
+        "descr": "combined with",
+        "descr_trans": "结合"
+      },
+      {
+        "n": "3",
+        "descr": "cummulative result",
+        "descr_trans": "累积结果"
+      }
+    ],
+    "roleset_name_trans": "合并、相加、累积"
+  }
 ]

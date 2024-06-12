@@ -1,89 +1,107 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elect.01",
-        "roleset_name": "elect someone to an office or position, elect",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voters"
-            },
-            {
-                "n": "1",
-                "descr": "candidate"
-            },
-            {
-                "n": "2",
-                "descr": "office or position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "elect.02",
-        "roleset_name": "choose an action or thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Chooser"
-            },
-            {
-                "n": "1",
-                "descr": "Thing chosen"
-            },
-            {
-                "n": "2",
-                "descr": "Group or source chosen from"
-            },
-            {
-                "n": "3",
-                "descr": "Benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "Secondary attribute of Arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "electoral.03",
-        "roleset_name": "of or relating to elctions",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is related"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "electoral.04",
-        "roleset_name": "relating to or composed of electors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "elector, voter"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "electable.05",
-        "roleset_name": "capable of being elected by voters",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "voters"
-            },
-            {
-                "n": "1",
-                "descr": "entity elected"
-            },
-            {
-                "n": "2",
-                "descr": "position elected to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elect.01",
+    "roleset_name": "elect someone to an office or position, elect",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voters",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "candidate",
+        "descr_trans": "候选人"
+      },
+      {
+        "n": "2",
+        "descr": "office or position",
+        "descr_trans": "办公室或职位"
+      }
+    ],
+    "roleset_name_trans": "选举某人担任某职位或职位，选举"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "elect.02",
+    "roleset_name": "choose an action or thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Chooser",
+        "descr_trans": "选择器"
+      },
+      {
+        "n": "1",
+        "descr": "Thing chosen",
+        "descr_trans": "选择的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Group or source chosen from",
+        "descr_trans": "组或来源选自"
+      },
+      {
+        "n": "3",
+        "descr": "Benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "Secondary attribute of Arg1",
+        "descr_trans": "Arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "选择一个动作或事物"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "electoral.03",
+    "roleset_name": "of or relating to elctions",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is related",
+        "descr_trans": "相关的事物"
+      }
+    ],
+    "roleset_name_trans": "属于选举或与选举有关的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "electoral.04",
+    "roleset_name": "relating to or composed of electors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "elector, voter",
+        "descr_trans": "选举人，选民"
+      }
+    ],
+    "roleset_name_trans": "与选民有关或由选民组成"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "electable.05",
+    "roleset_name": "capable of being elected by voters",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "voters",
+        "descr_trans": "选民"
+      },
+      {
+        "n": "1",
+        "descr": "entity elected",
+        "descr_trans": "当选实体"
+      },
+      {
+        "n": "2",
+        "descr": "position elected to",
+        "descr_trans": "职位当选为"
+      }
+    ],
+    "roleset_name_trans": "有能力被选民选举"
+  }
 ]

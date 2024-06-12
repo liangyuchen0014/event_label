@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "articulate.01",
-        "roleset_name": "speak clearly, move articularors to pronuonce and enunciate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer (in theory possible)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "articulate.02",
-        "roleset_name": "using/capable of clear, effective language",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity possessing clear language"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter expressed clearly"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "articulate.01",
+    "roleset_name": "speak clearly, move articularors to pronuonce and enunciate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer (in theory possible)",
+        "descr_trans": "听者（理论上可能）"
+      }
+    ],
+    "roleset_name_trans": "说话清晰，移动关节发音和发音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "articulate.02",
+    "roleset_name": "using/capable of clear, effective language",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity possessing clear language",
+        "descr_trans": "拥有清晰语言的实体"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter expressed clearly",
+        "descr_trans": "明确表达主题"
+      }
+    ],
+    "roleset_name_trans": "使用/能够使用清晰、有效的语言"
+  }
 ]

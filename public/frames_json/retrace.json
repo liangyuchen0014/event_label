@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retrace.01",
-        "roleset_name": "to trace again or back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tracer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity retraced"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retrace.01",
+    "roleset_name": "to trace again or back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tracer, agent",
+        "descr_trans": "示踪剂, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity retraced",
+        "descr_trans": "实体回溯"
+      }
+    ],
+    "roleset_name_trans": "再次追踪或返回"
+  }
 ]

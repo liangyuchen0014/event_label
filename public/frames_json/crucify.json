@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crucify.01",
-        "roleset_name": "kill by means of mounting on cross",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, crucifier"
-            },
-            {
-                "n": "1",
-                "descr": "person being crucified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "crucify.02",
-        "roleset_name": "treat cruelly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, mistreater"
-            },
-            {
-                "n": "1",
-                "descr": "person being mistreated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crucify.01",
+    "roleset_name": "kill by means of mounting on cross",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, crucifier",
+        "descr_trans": "代理人, 钉十字架"
+      },
+      {
+        "n": "1",
+        "descr": "person being crucified",
+        "descr_trans": "被钉十字架的人"
+      }
+    ],
+    "roleset_name_trans": "挂在十字架上杀人"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "crucify.02",
+    "roleset_name": "treat cruelly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, mistreater",
+        "descr_trans": "代理人、虐待者"
+      },
+      {
+        "n": "1",
+        "descr": "person being mistreated",
+        "descr_trans": "被虐待的人"
+      }
+    ],
+    "roleset_name_trans": "残酷对待"
+  }
 ]

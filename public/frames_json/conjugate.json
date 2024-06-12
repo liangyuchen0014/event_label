@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conjugate.01",
-        "roleset_name": "to add inflections, recite conjugations",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Language student, conjugator"
-            },
-            {
-                "n": "1",
-                "descr": "verb, word inflected"
-            },
-            {
-                "n": "2",
-                "descr": "inflection, arg1 is conjugated into the...?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conjugate.02",
-        "roleset_name": "biology: join together two compounds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of conjugation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "first compound"
-            },
-            {
-                "n": "2",
-                "descr": "second compound"
-            },
-            {
-                "n": "3",
-                "descr": "resulting conjugate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conjugate.01",
+    "roleset_name": "to add inflections, recite conjugations",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Language student, conjugator",
+        "descr_trans": "语言学生、动词变位者"
+      },
+      {
+        "n": "1",
+        "descr": "verb, word inflected",
+        "descr_trans": "动词、变形词"
+      },
+      {
+        "n": "2",
+        "descr": "inflection, arg1 is conjugated into the...?",
+        "descr_trans": "变形，arg1 共轭成...？"
+      }
+    ],
+    "roleset_name_trans": "添加词形变化，背诵词形变化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conjugate.02",
+    "roleset_name": "biology: join together two compounds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of conjugation (e.g. scientist)",
+        "descr_trans": "有意结合的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "first compound",
+        "descr_trans": "第一个化合物"
+      },
+      {
+        "n": "2",
+        "descr": "second compound",
+        "descr_trans": "第二化合物"
+      },
+      {
+        "n": "3",
+        "descr": "resulting conjugate",
+        "descr_trans": "所得缀合物"
+      }
+    ],
+    "roleset_name_trans": "生物学：将两种化合物结合在一起"
+  }
 ]

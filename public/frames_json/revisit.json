@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revisit.01",
-        "roleset_name": "visit again, examine an issue again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor"
-            },
-            {
-                "n": "1",
-                "descr": "visited, issue"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revisit.01",
+    "roleset_name": "visit again, examine an issue again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "visited, issue",
+        "descr_trans": "访问、发布"
+      }
+    ],
+    "roleset_name_trans": "再次访问，再次检查问题"
+  }
 ]

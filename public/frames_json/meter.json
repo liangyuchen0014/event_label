@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "meter.01",
-        "roleset_name": "to measure with a metering device",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, measurer"
-            },
-            {
-                "n": "1",
-                "descr": "Thing measured"
-            },
-            {
-                "n": "2",
-                "descr": "Means of measuring, instrument"
-            },
-            {
-                "n": "3",
-                "descr": "Measurement, amount, extent (if separate from Arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "meter.01",
+    "roleset_name": "to measure with a metering device",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, measurer",
+        "descr_trans": "代理、测量员"
+      },
+      {
+        "n": "1",
+        "descr": "Thing measured",
+        "descr_trans": "测量的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Means of measuring, instrument",
+        "descr_trans": "测量手段、仪器"
+      },
+      {
+        "n": "3",
+        "descr": "Measurement, amount, extent (if separate from Arg1)",
+        "descr_trans": "测量、数量、范围（如果与 Arg1 分开）"
+      }
+    ],
+    "roleset_name_trans": "用计量装置测量"
+  }
 ]

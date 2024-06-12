@@ -1,139 +1,168 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sign.01",
-        "roleset_name": "affix a signature",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "document"
-            },
-            {
-                "n": "2",
-                "descr": "signature"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sign.02",
-        "roleset_name": "enter into an agreement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer, agreer"
-            },
-            {
-                "n": "1",
-                "descr": "agreement"
-            },
-            {
-                "n": "2",
-                "descr": "co-signer"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sign_up.03",
-        "roleset_name": "sign up: enroll, enter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer, enroller"
-            },
-            {
-                "n": "1",
-                "descr": "patient enrolled"
-            },
-            {
-                "n": "2",
-                "descr": "co-signer"
-            },
-            {
-                "n": "3",
-                "descr": "signed up for"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "sign_on.04",
-        "roleset_name": "sign on: become associated with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "entity associated with"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "sign_off.05",
-        "roleset_name": "sign_off: give stamp of approval",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "signer"
-            },
-            {
-                "n": "1",
-                "descr": "entity being given stamp of approval"
-            },
-            {
-                "n": "2",
-                "descr": "for what, second part of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "sign_in.06",
-        "roleset_name": "check in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, causer of check in"
-            },
-            {
-                "n": "1",
-                "descr": "entity being checked in"
-            },
-            {
-                "n": "2",
-                "descr": "checked in to"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "signal.07",
-        "roleset_name": "show, cause to see, communicate by signaling, message",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shower"
-            },
-            {
-                "n": "1",
-                "descr": "thing seen/shown"
-            },
-            {
-                "n": "2",
-                "descr": "seer"
-            },
-            {
-                "n": "3",
-                "descr": "subject-matter of the signals (what they relate to)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sign.01",
+    "roleset_name": "affix a signature",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "document",
+        "descr_trans": "文档"
+      },
+      {
+        "n": "2",
+        "descr": "signature",
+        "descr_trans": "签名"
+      }
+    ],
+    "roleset_name_trans": "签名"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sign.02",
+    "roleset_name": "enter into an agreement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer, agreer",
+        "descr_trans": "签字，同意"
+      },
+      {
+        "n": "1",
+        "descr": "agreement",
+        "descr_trans": "协议"
+      },
+      {
+        "n": "2",
+        "descr": "co-signer",
+        "descr_trans": "共同签署人"
+      }
+    ],
+    "roleset_name_trans": "达成协议"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sign_up.03",
+    "roleset_name": "sign up: enroll, enter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer, enroller",
+        "descr_trans": "签字人、登记人"
+      },
+      {
+        "n": "1",
+        "descr": "patient enrolled",
+        "descr_trans": "患者入组"
+      },
+      {
+        "n": "2",
+        "descr": "co-signer",
+        "descr_trans": "共同签署人"
+      },
+      {
+        "n": "3",
+        "descr": "signed up for",
+        "descr_trans": "已注册"
+      }
+    ],
+    "roleset_name_trans": "报名：报名，进入"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "sign_on.04",
+    "roleset_name": "sign on: become associated with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "entity associated with",
+        "descr_trans": "与关联的实体"
+      }
+    ],
+    "roleset_name_trans": "登录：成为关联者"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "sign_off.05",
+    "roleset_name": "sign_off: give stamp of approval",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "signer",
+        "descr_trans": "签名者"
+      },
+      {
+        "n": "1",
+        "descr": "entity being given stamp of approval",
+        "descr_trans": "获得批准印章的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what, second part of arg1",
+        "descr_trans": "arg1 的第二部分是为了什么"
+      }
+    ],
+    "roleset_name_trans": "Sign_off：给予批准印章"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "sign_in.06",
+    "roleset_name": "check in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, causer of check in",
+        "descr_trans": "代理人、签入的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity being checked in",
+        "descr_trans": "正在签入的实体"
+      },
+      {
+        "n": "2",
+        "descr": "checked in to",
+        "descr_trans": "签到到"
+      }
+    ],
+    "roleset_name_trans": "报到"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "signal.07",
+    "roleset_name": "show, cause to see, communicate by signaling, message",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shower",
+        "descr_trans": "淋浴"
+      },
+      {
+        "n": "1",
+        "descr": "thing seen/shown",
+        "descr_trans": "看到/展示的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seer",
+        "descr_trans": "先知"
+      },
+      {
+        "n": "3",
+        "descr": "subject-matter of the signals (what they relate to)",
+        "descr_trans": "信号的主题（与什么相关）"
+      }
+    ],
+    "roleset_name_trans": "显示、导致看到、通过信号、消息进行交流"
+  }
 ]

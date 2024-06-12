@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "kill.01",
-        "roleset_name": "cause to die, murder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "kill.03",
-        "roleset_name": "do well, win, accomplish some task",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity succeeding"
-            },
-            {
-                "n": "1",
-                "descr": "task"
-            },
-            {
-                "n": "2",
-                "descr": "fixed: \"it\""
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "kill.04",
-        "roleset_name": "pass the time by engaging in some activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "time-spender"
-            },
-            {
-                "n": "1",
-                "descr": "time"
-            },
-            {
-                "n": "2",
-                "descr": "activity"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "kill_off.02",
-        "roleset_name": "cause to die",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "killer"
-            },
-            {
-                "n": "1",
-                "descr": "corpse"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "kill.01",
+    "roleset_name": "cause to die, murder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "导致死亡、谋杀"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "kill.03",
+    "roleset_name": "do well, win, accomplish some task",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity succeeding",
+        "descr_trans": "实体成功"
+      },
+      {
+        "n": "1",
+        "descr": "task",
+        "descr_trans": "任务"
+      },
+      {
+        "n": "2",
+        "descr": "fixed: \"it\"",
+        "descr_trans": "修复”"
+      }
+    ],
+    "roleset_name_trans": "做得好，获胜，完成某项任务"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "kill.04",
+    "roleset_name": "pass the time by engaging in some activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "time-spender",
+        "descr_trans": "花时间的人"
+      },
+      {
+        "n": "1",
+        "descr": "time",
+        "descr_trans": "时间"
+      },
+      {
+        "n": "2",
+        "descr": "activity",
+        "descr_trans": "活动"
+      }
+    ],
+    "roleset_name_trans": "通过参加一些活动来打发时间"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "kill_off.02",
+    "roleset_name": "cause to die",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "killer",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "corpse",
+        "descr_trans": "尸体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "导致死亡"
+  }
 ]

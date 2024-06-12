@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "toggle.01",
-        "roleset_name": "release by a toggle switch",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "toggler"
-            },
-            {
-                "n": "1",
-                "descr": "thing released"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "toggle.01",
+    "roleset_name": "release by a toggle switch",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "toggler",
+        "descr_trans": "切换器"
+      },
+      {
+        "n": "1",
+        "descr": "thing released",
+        "descr_trans": "发布的东西"
+      }
+    ],
+    "roleset_name_trans": "通过拨动开关释放"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "compulsory.01",
-        "roleset_name": "mandatory, required",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Thing that is required"
-            },
-            {
-                "n": "2",
-                "descr": "Required-of, compulsory for whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "compulsory.01",
+    "roleset_name": "mandatory, required",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Thing that is required",
+        "descr_trans": "需要的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Required-of, compulsory for whom?",
+        "descr_trans": "必需的，对谁来说是强制性的？"
+      }
+    ],
+    "roleset_name_trans": "强制性的，必需的"
+  }
 ]

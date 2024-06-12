@@ -1,212 +1,254 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "close.01",
-        "roleset_name": "shut, closure of an entity, not open",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the closing"
-            },
-            {
-                "n": "1",
-                "descr": "thing closing"
-            },
-            {
-                "n": "2",
-                "descr": "anti-beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "close.02",
-        "roleset_name": "terminate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing closing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "close.03",
-        "roleset_name": "come about, come to completion (as of deals)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making the deal"
-            },
-            {
-                "n": "1",
-                "descr": "the deal"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "close.06",
-        "roleset_name": "become nearer",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "close.10",
-        "roleset_name": "spatially close, of concrete or abstract things",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity located near something, close thing"
-            },
-            {
-                "n": "2",
-                "descr": "location, close to what?"
-            },
-            {
-                "n": "3",
-                "descr": "scale"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "close.11",
-        "roleset_name": "similar, a near approximation,",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "copy, thing that is similar"
-            },
-            {
-                "n": "2",
-                "descr": "original, what arg1 is similar-to"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "close.12",
-        "roleset_name": "evenly matched, difficult to decide",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "case, vote, decision"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "close.13",
-        "roleset_name": "affectionate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "affectionate entity/ies"
-            },
-            {
-                "n": "2",
-                "descr": "affectionate with whom?"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "close.14",
-        "roleset_name": "scrutiny, careful attention",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "observation/attention event (may require concatenation to include observer)"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "close_down.04",
-        "roleset_name": "close down: terminate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the closing"
-            },
-            {
-                "n": "1",
-                "descr": "thing closing"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "close_off.05",
-        "roleset_name": "close off: shut",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person doing the closing"
-            },
-            {
-                "n": "1",
-                "descr": "thing closing"
-            },
-            {
-                "n": "2",
-                "descr": "anti-beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "close_in.07",
-        "roleset_name": "close in: become nearer",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "close_over.08",
-        "roleset_name": "seal from the top",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming sealed"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "close_up.09",
-        "roleset_name": "close_up: shut completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "closer"
-            },
-            {
-                "n": "1",
-                "descr": "place/thing being closed up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "close.01",
+    "roleset_name": "shut, closure of an entity, not open",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the closing",
+        "descr_trans": "负责结账的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      },
+      {
+        "n": "2",
+        "descr": "anti-beneficiary",
+        "descr_trans": "反受益人"
+      }
+    ],
+    "roleset_name_trans": "关闭，实体关闭，不开放"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "close.02",
+    "roleset_name": "terminate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      }
+    ],
+    "roleset_name_trans": "终止"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "close.03",
+    "roleset_name": "come about, come to completion (as of deals)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making the deal",
+        "descr_trans": "进行交易的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the deal",
+        "descr_trans": "交易"
+      }
+    ],
+    "roleset_name_trans": "发生，完成（从交易开始）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "close.06",
+    "roleset_name": "become nearer",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "变得更近"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "close.10",
+    "roleset_name": "spatially close, of concrete or abstract things",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity located near something, close thing",
+        "descr_trans": "位于某物附近的实体，靠近的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location, close to what?",
+        "descr_trans": "位置，靠近什么？"
+      },
+      {
+        "n": "3",
+        "descr": "scale",
+        "descr_trans": "规模"
+      }
+    ],
+    "roleset_name_trans": "空间上接近的具体或抽象事物"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "close.11",
+    "roleset_name": "similar, a near approximation,",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "copy, thing that is similar",
+        "descr_trans": "复制，类似的东西"
+      },
+      {
+        "n": "2",
+        "descr": "original, what arg1 is similar-to",
+        "descr_trans": "原来的，arg1 类似于"
+      }
+    ],
+    "roleset_name_trans": "相似，近似，"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "close.12",
+    "roleset_name": "evenly matched, difficult to decide",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "case, vote, decision",
+        "descr_trans": "案件、投票、决定"
+      }
+    ],
+    "roleset_name_trans": "势均力敌，难以抉择"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "close.13",
+    "roleset_name": "affectionate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "affectionate entity/ies",
+        "descr_trans": "深情的实体"
+      },
+      {
+        "n": "2",
+        "descr": "affectionate with whom?",
+        "descr_trans": "与谁深情？"
+      }
+    ],
+    "roleset_name_trans": "亲热"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "close.14",
+    "roleset_name": "scrutiny, careful attention",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "observation/attention event (may require concatenation to include observer)",
+        "descr_trans": "观察/注意事件（可能需要串联以包括观察者）"
+      }
+    ],
+    "roleset_name_trans": "仔细检查，仔细注意"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "close_down.04",
+    "roleset_name": "close down: terminate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the closing",
+        "descr_trans": "负责结账的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      }
+    ],
+    "roleset_name_trans": "关闭：终止"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "close_off.05",
+    "roleset_name": "close off: shut",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person doing the closing",
+        "descr_trans": "负责结账的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      },
+      {
+        "n": "2",
+        "descr": "anti-beneficiary",
+        "descr_trans": "反受益人"
+      }
+    ],
+    "roleset_name_trans": "关闭：关闭"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "close_in.07",
+    "roleset_name": "close in: become nearer",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "接近：变得更近"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "close_over.08",
+    "roleset_name": "seal from the top",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming sealed",
+        "descr_trans": "事物被密封"
+      }
+    ],
+    "roleset_name_trans": "从顶部密封"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "close_up.09",
+    "roleset_name": "close_up: shut completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "closer",
+        "descr_trans": "更近"
+      },
+      {
+        "n": "1",
+        "descr": "place/thing being closed up",
+        "descr_trans": "被关闭的地方/事物"
+      }
+    ],
+    "roleset_name_trans": "close_up：完全关闭"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "faint.01",
-        "roleset_name": "faint, pass out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fainter"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "faint.02",
-        "roleset_name": "feeling weak, perhaps as precedes a loss of consciousness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of faintness"
-            },
-            {
-                "n": "1",
-                "descr": "entity feeling faint"
-            },
-            {
-                "n": "2",
-                "descr": "body part or domain of weakness"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "faint.03",
-        "roleset_name": "faded, difficult to discern",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of faintness"
-            },
-            {
-                "n": "1",
-                "descr": "faded thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "faint.01",
+    "roleset_name": "faint, pass out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fainter",
+        "descr_trans": "较微弱"
+      }
+    ],
+    "roleset_name_trans": "昏倒, 昏倒"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "faint.02",
+    "roleset_name": "feeling weak, perhaps as precedes a loss of consciousness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of faintness",
+        "descr_trans": "造成昏厥的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity feeling faint",
+        "descr_trans": "实体感觉微弱"
+      },
+      {
+        "n": "2",
+        "descr": "body part or domain of weakness",
+        "descr_trans": "身体部位或薄弱领域"
+      }
+    ],
+    "roleset_name_trans": "感觉虚弱，可能是在失去知觉之前"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "faint.03",
+    "roleset_name": "faded, difficult to discern",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of faintness",
+        "descr_trans": "造成昏厥的原因"
+      },
+      {
+        "n": "1",
+        "descr": "faded thing",
+        "descr_trans": "褪色的东西"
+      }
+    ],
+    "roleset_name_trans": "已褪色，难以辨认"
+  }
 ]

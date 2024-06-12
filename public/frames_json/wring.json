@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wring.01",
-        "roleset_name": "twist (a body part) emotionally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "twister"
-            },
-            {
-                "n": "1",
-                "descr": "twisted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wring.02",
-        "roleset_name": "remove liquid from, by   twisting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "liquid"
-            },
-            {
-                "n": "2",
-                "descr": "source; rag etc"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wring_out.03",
-        "roleset_name": "drain completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wringer"
-            },
-            {
-                "n": "1",
-                "descr": "wrung"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wring.01",
+    "roleset_name": "twist (a body part) emotionally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "twister",
+        "descr_trans": "龙卷风"
+      },
+      {
+        "n": "1",
+        "descr": "twisted",
+        "descr_trans": "扭曲的"
+      }
+    ],
+    "roleset_name_trans": "情绪上扭曲（身体的一部分）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wring.02",
+    "roleset_name": "remove liquid from, by   twisting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      },
+      {
+        "n": "2",
+        "descr": "source; rag etc",
+        "descr_trans": "来源;抹布等"
+      }
+    ],
+    "roleset_name_trans": "通过扭转去除液体"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wring_out.03",
+    "roleset_name": "drain completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wringer",
+        "descr_trans": "绞肉机"
+      },
+      {
+        "n": "1",
+        "descr": "wrung",
+        "descr_trans": "拧干"
+      }
+    ],
+    "roleset_name_trans": "完全排干"
+  }
 ]

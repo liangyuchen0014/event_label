@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "label.01",
-        "roleset_name": "call",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "item being labelled"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, label itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "label.01",
+    "roleset_name": "call",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "item being labelled",
+        "descr_trans": "被贴标签的物品"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, label itself",
+        "descr_trans": "属性，标签本身"
+      }
+    ],
+    "roleset_name_trans": "称呼"
+  }
 ]

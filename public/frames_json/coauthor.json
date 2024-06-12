@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coauthor.01",
-        "roleset_name": "to write or construct jointly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one or all authors"
-            },
-            {
-                "n": "1",
-                "descr": "text authored"
-            },
-            {
-                "n": "2",
-                "descr": "additional authors"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coauthor.01",
+    "roleset_name": "to write or construct jointly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one or all authors",
+        "descr_trans": "一位或所有作者"
+      },
+      {
+        "n": "1",
+        "descr": "text authored",
+        "descr_trans": "文字创作"
+      },
+      {
+        "n": "2",
+        "descr": "additional authors",
+        "descr_trans": "其他作者"
+      }
+    ],
+    "roleset_name_trans": "共同编写或构建"
+  }
 ]

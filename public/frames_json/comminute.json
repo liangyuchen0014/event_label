@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "comminute.01",
-        "roleset_name": "pulverize, smash, cause fragmentation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity comminuted"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "comminute.01",
+    "roleset_name": "pulverize, smash, cause fragmentation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity comminuted",
+        "descr_trans": "实体粉碎"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "粉碎、粉碎、造成碎片"
+  }
 ]

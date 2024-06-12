@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intimate.01",
-        "roleset_name": "suggest subtly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "suggester"
-            },
-            {
-                "n": "1",
-                "descr": "suggestion"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intimate.02",
-        "roleset_name": "intimate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "feeler/knower, first intimate entity"
-            },
-            {
-                "n": "2",
-                "descr": "target of intimacy, intimate with whom/what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intimate.01",
+    "roleset_name": "suggest subtly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "suggester",
+        "descr_trans": "建议者"
+      },
+      {
+        "n": "1",
+        "descr": "suggestion",
+        "descr_trans": "建议"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "巧妙地建议"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intimate.02",
+    "roleset_name": "intimate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "feeler/knower, first intimate entity",
+        "descr_trans": "感觉者/知者，第一个亲密实体"
+      },
+      {
+        "n": "2",
+        "descr": "target of intimacy, intimate with whom/what?",
+        "descr_trans": "亲密目标，与谁/什么亲密？"
+      }
+    ],
+    "roleset_name_trans": "亲密的"
+  }
 ]

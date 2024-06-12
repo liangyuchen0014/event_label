@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rubberize.01",
-        "roleset_name": "make composition that of rubber",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rubbery.02",
-        "roleset_name": "make composition that of rubber",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rubberize.01",
+    "roleset_name": "make composition that of rubber",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "使组合物为橡胶"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rubbery.02",
+    "roleset_name": "make composition that of rubber",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "使组合物为橡胶"
+  }
 ]

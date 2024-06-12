@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decompensate.01",
-        "roleset_name": "deteriorate, become unable to compensate for a deficiency",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of deterioration"
-            },
-            {
-                "n": "1",
-                "descr": "Entity deteriorating"
-            },
-            {
-                "n": "2",
-                "descr": "End state (deteriorating into)"
-            },
-            {
-                "n": "3",
-                "descr": "start state (deteriorating from)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decompensate.01",
+    "roleset_name": "deteriorate, become unable to compensate for a deficiency",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of deterioration",
+        "descr_trans": "恶化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity deteriorating",
+        "descr_trans": "实体恶化"
+      },
+      {
+        "n": "2",
+        "descr": "End state (deteriorating into)",
+        "descr_trans": "最终状态（恶化为）"
+      },
+      {
+        "n": "3",
+        "descr": "start state (deteriorating from)",
+        "descr_trans": "开始状态（恶化）"
+      }
+    ],
+    "roleset_name_trans": "恶化，无法弥补缺陷"
+  }
 ]

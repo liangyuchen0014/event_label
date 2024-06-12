@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seek.01",
-        "roleset_name": "look for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent / entity seeking"
-            },
-            {
-                "n": "1",
-                "descr": "thing sought, attempted action"
-            },
-            {
-                "n": "2",
-                "descr": "sought-from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "seek_out.02",
-        "roleset_name": "search diligently for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent / entity seeking"
-            },
-            {
-                "n": "1",
-                "descr": "thing sought"
-            },
-            {
-                "n": "2",
-                "descr": "sought-from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seek.01",
+    "roleset_name": "look for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent / entity seeking",
+        "descr_trans": "寻求代理/实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing sought, attempted action",
+        "descr_trans": "寻求的事物，尝试的行动"
+      },
+      {
+        "n": "2",
+        "descr": "sought-from",
+        "descr_trans": "寻求的"
+      }
+    ],
+    "roleset_name_trans": "寻找"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "seek_out.02",
+    "roleset_name": "search diligently for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent / entity seeking",
+        "descr_trans": "寻求代理/实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing sought",
+        "descr_trans": "寻求的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sought-from",
+        "descr_trans": "寻求的"
+      }
+    ],
+    "roleset_name_trans": "努力寻找"
+  }
 ]

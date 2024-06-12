@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "superinjunction.01",
-        "roleset_name": "court ordered prohibition, secret from the media/press",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prohibitor"
-            },
-            {
-                "n": "1",
-                "descr": "action being prohibited"
-            },
-            {
-                "n": "2",
-                "descr": "entity not allowed to act"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "superinjunction.01",
+    "roleset_name": "court ordered prohibition, secret from the media/press",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prohibitor",
+        "descr_trans": "禁止者"
+      },
+      {
+        "n": "1",
+        "descr": "action being prohibited",
+        "descr_trans": "行为被禁止"
+      },
+      {
+        "n": "2",
+        "descr": "entity not allowed to act",
+        "descr_trans": "实体不得采取行动"
+      }
+    ],
+    "roleset_name_trans": "法院下令禁止，不对媒体/新闻界保密"
+  }
 ]

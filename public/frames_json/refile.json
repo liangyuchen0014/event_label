@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refile.01",
-        "roleset_name": "paperwork",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "refiler"
-            },
-            {
-                "n": "1",
-                "descr": "file"
-            },
-            {
-                "n": "2",
-                "descr": "refiled-with"
-            },
-            {
-                "n": "3",
-                "descr": "refiled against"
-            },
-            {
-                "n": "4",
-                "descr": "purpose of filing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "refile.02",
-        "roleset_name": "seek, claim, call for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "refiler"
-            },
-            {
-                "n": "1",
-                "descr": "claim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refile.01",
+    "roleset_name": "paperwork",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "refiler",
+        "descr_trans": "重新归档"
+      },
+      {
+        "n": "1",
+        "descr": "file",
+        "descr_trans": "文件"
+      },
+      {
+        "n": "2",
+        "descr": "refiled-with",
+        "descr_trans": "重新归档"
+      },
+      {
+        "n": "3",
+        "descr": "refiled against",
+        "descr_trans": "重新提出反对"
+      },
+      {
+        "n": "4",
+        "descr": "purpose of filing",
+        "descr_trans": "归档的目的"
+      }
+    ],
+    "roleset_name_trans": "文书工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "refile.02",
+    "roleset_name": "seek, claim, call for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "refiler",
+        "descr_trans": "重新归档"
+      },
+      {
+        "n": "1",
+        "descr": "claim",
+        "descr_trans": "宣称"
+      }
+    ],
+    "roleset_name_trans": "寻求、要求、要求"
+  }
 ]

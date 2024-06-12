@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "comanage.01",
-        "roleset_name": "supervise, control, with a partner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "co-manager(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing managed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "comanage.01",
+    "roleset_name": "supervise, control, with a partner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "co-manager(s)",
+        "descr_trans": "联席经理"
+      },
+      {
+        "n": "1",
+        "descr": "thing managed",
+        "descr_trans": "管理的事情"
+      }
+    ],
+    "roleset_name_trans": "与合作伙伴一起监督、控制"
+  }
 ]

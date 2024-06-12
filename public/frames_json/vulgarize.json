@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vulgarize.01",
-        "roleset_name": "make base or common",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming base, common"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "vulgarize.02",
-        "roleset_name": "act in a vulgar way",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acting vulgar"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vulgarize.01",
+    "roleset_name": "make base or common",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming base, common",
+        "descr_trans": "事物变得基础、普遍"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使基础或共同"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "vulgarize.02",
+    "roleset_name": "act in a vulgar way",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acting vulgar",
+        "descr_trans": "行为粗俗的实体"
+      }
+    ],
+    "roleset_name_trans": "庸俗"
+  }
 ]

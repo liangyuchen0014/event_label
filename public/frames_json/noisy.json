@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "noisy.01",
-        "roleset_name": "loud",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "noisy entity, place"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of the noise, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "noisy.01",
+    "roleset_name": "loud",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "noisy entity, place",
+        "descr_trans": "嘈杂的实体、地点"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of the noise, if in addition to arg1",
+        "descr_trans": "明确提及噪声（如果除了 arg1）"
+      }
+    ],
+    "roleset_name_trans": "大声"
+  }
 ]

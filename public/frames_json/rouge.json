@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rouge.01",
-        "roleset_name": "put rouge on, cause to redden",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, makeup artist"
-            },
-            {
-                "n": "1",
-                "descr": "Location/entity being covered in rouge"
-            },
-            {
-                "n": "2",
-                "descr": "Rouge itself, makeup type"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rouge.01",
+    "roleset_name": "put rouge on, cause to redden",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, makeup artist",
+        "descr_trans": "经纪人、化妆师"
+      },
+      {
+        "n": "1",
+        "descr": "Location/entity being covered in rouge",
+        "descr_trans": "地点/实体被胭脂覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "Rouge itself, makeup type",
+        "descr_trans": "胭脂本身，化妆类型"
+      }
+    ],
+    "roleset_name_trans": "涂上胭脂，使脸变红"
+  }
 ]

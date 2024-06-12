@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "screw_up.01",
-        "roleset_name": "to make a mess of, a mistake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer/agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing screwed up"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "screw.02",
-        "roleset_name": "to have (unpleasant) sex with, maybe metaphorically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Screwer"
-            },
-            {
-                "n": "1",
-                "descr": "Screwed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "screw.04",
-        "roleset_name": "secure or fasten; attach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "screw, entity attached"
-            },
-            {
-                "n": "2",
-                "descr": "attached to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "screw_over.05",
-        "roleset_name": "give someone the shaft; cheat thoroughly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cheater"
-            },
-            {
-                "n": "1",
-                "descr": "cheated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "screw_up.01",
+    "roleset_name": "to make a mess of, a mistake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing screwed up",
+        "descr_trans": "事情搞砸了"
+      }
+    ],
+    "roleset_name_trans": "弄乱，犯错误"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "screw.02",
+    "roleset_name": "to have (unpleasant) sex with, maybe metaphorically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Screwer",
+        "descr_trans": "螺丝刀"
+      },
+      {
+        "n": "1",
+        "descr": "Screwed",
+        "descr_trans": "拧紧"
+      }
+    ],
+    "roleset_name_trans": "发生（不愉快的）性行为，也许是隐喻性的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "screw.04",
+    "roleset_name": "secure or fasten; attach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "screw, entity attached",
+        "descr_trans": "螺丝，实体附着"
+      },
+      {
+        "n": "2",
+        "descr": "attached to",
+        "descr_trans": "附于"
+      }
+    ],
+    "roleset_name_trans": "固定或紧固；附"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "screw_over.05",
+    "roleset_name": "give someone the shaft; cheat thoroughly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cheater",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "cheated",
+        "descr_trans": "被骗了"
+      }
+    ],
+    "roleset_name_trans": "把轴给某人；彻底作弊"
+  }
 ]

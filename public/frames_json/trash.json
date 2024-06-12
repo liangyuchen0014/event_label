@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trash.01",
-        "roleset_name": "to dispose, tear apart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "disposer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity trashed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trash.01",
+    "roleset_name": "to dispose, tear apart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "disposer, agent",
+        "descr_trans": "处置，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity trashed",
+        "descr_trans": "实体被丢弃"
+      }
+    ],
+    "roleset_name_trans": "处置，撕开"
+  }
 ]

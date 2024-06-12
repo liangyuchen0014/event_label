@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cobble.01",
-        "roleset_name": "build/create roughly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "built, creation, end state"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cobble.01",
+    "roleset_name": "build/create roughly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "built, creation, end state",
+        "descr_trans": "建成、创建、最终状态"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      }
+    ],
+    "roleset_name_trans": "大致构建/创建"
+  }
 ]

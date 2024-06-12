@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "remain.01",
-        "roleset_name": "be left behind",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Thing remaining"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, entity who gets the remainder"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "remain.01",
+    "roleset_name": "be left behind",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Thing remaining",
+        "descr_trans": "剩下的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, entity who gets the remainder",
+        "descr_trans": "受益人，获得剩余部分的实体"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "被抛在后面"
+  }
 ]

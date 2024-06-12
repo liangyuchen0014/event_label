@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "synthesize.01",
-        "roleset_name": "create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "attribute, secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "synthesize.01",
+    "roleset_name": "create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "attribute, secondary predication",
+        "descr_trans": "属性，辅助预测"
+      }
+    ],
+    "roleset_name_trans": "创造"
+  }
 ]

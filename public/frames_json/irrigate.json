@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "irrigate.01",
-        "roleset_name": "provide water for farming, clean out with liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of water"
-            },
-            {
-                "n": "1",
-                "descr": "recipient of water"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "irrigate.01",
+    "roleset_name": "provide water for farming, clean out with liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of water",
+        "descr_trans": "水的提供者"
+      },
+      {
+        "n": "1",
+        "descr": "recipient of water",
+        "descr_trans": "水的接受者"
+      }
+    ],
+    "roleset_name_trans": "提供耕作用水，用液体清理"
+  }
 ]

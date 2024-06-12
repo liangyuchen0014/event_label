@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "truncate.01",
-        "roleset_name": "shorten/remove part of a word, mathematical figure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of truncation"
-            },
-            {
-                "n": "1",
-                "descr": "word, number being shortened"
-            },
-            {
-                "n": "2",
-                "descr": "extent of truncation, how much was removed?"
-            },
-            {
-                "n": "3",
-                "descr": "original length, size"
-            },
-            {
-                "n": "4",
-                "descr": "end state, final length, size after truncation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "truncate.01",
+    "roleset_name": "shorten/remove part of a word, mathematical figure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of truncation",
+        "descr_trans": "代理，截断原因"
+      },
+      {
+        "n": "1",
+        "descr": "word, number being shortened",
+        "descr_trans": "单词、数字被缩短"
+      },
+      {
+        "n": "2",
+        "descr": "extent of truncation, how much was removed?",
+        "descr_trans": "截断的程度，删除了多少？"
+      },
+      {
+        "n": "3",
+        "descr": "original length, size",
+        "descr_trans": "原始长度、尺寸"
+      },
+      {
+        "n": "4",
+        "descr": "end state, final length, size after truncation",
+        "descr_trans": "最终状态、最终长度、截断后的大小"
+      }
+    ],
+    "roleset_name_trans": "缩短/删除单词、数学数字的一部分"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "enumerate.01",
-        "roleset_name": "to count/specify as on a list",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, lister"
-            },
-            {
-                "n": "1",
-                "descr": "item enumerated"
-            },
-            {
-                "n": "2",
-                "descr": "enumerated in what group/list"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "enumerate.01",
+    "roleset_name": "to count/specify as on a list",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, lister",
+        "descr_trans": "代理人、列表员"
+      },
+      {
+        "n": "1",
+        "descr": "item enumerated",
+        "descr_trans": "列举的项目"
+      },
+      {
+        "n": "2",
+        "descr": "enumerated in what group/list",
+        "descr_trans": "枚举在哪个组/列表中"
+      }
+    ],
+    "roleset_name_trans": "在列表中计数/指定"
+  }
 ]

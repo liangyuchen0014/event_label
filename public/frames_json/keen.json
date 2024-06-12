@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "keen.01",
-        "roleset_name": "a sharp, biting, or piercing wail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "entity wailed about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "keen.02",
-        "roleset_name": "keen",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "enthusiast, keen entity"
-            },
-            {
-                "n": "2",
-                "descr": "target of enthusiasm, keen on what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "keen.01",
+    "roleset_name": "a sharp, biting, or piercing wail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "entity wailed about",
+        "descr_trans": "实体哀号"
+      }
+    ],
+    "roleset_name_trans": "尖锐的、刺耳的或刺耳的哭声"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "keen.02",
+    "roleset_name": "keen",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "enthusiast, keen entity",
+        "descr_trans": "狂热者，热心实体"
+      },
+      {
+        "n": "2",
+        "descr": "target of enthusiasm, keen on what?",
+        "descr_trans": "热情的目标、热衷于什么？"
+      }
+    ],
+    "roleset_name_trans": "敏锐的"
+  }
 ]

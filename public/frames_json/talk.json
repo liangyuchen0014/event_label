@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "talk.01",
-        "roleset_name": "speak",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "talk.02",
-        "roleset_name": "persuade / dissuade; talk into or out of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "talked to"
-            },
-            {
-                "n": "2",
-                "descr": "secondary action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "talk_out.03",
-        "roleset_name": "talk it out: talk to the point of resolution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "talker"
-            },
-            {
-                "n": "1",
-                "descr": "topic of discussion"
-            },
-            {
-                "n": "2",
-                "descr": "other party involved in discussion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "talk.01",
+    "roleset_name": "speak",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "talk.02",
+    "roleset_name": "persuade / dissuade; talk into or out of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "talked to",
+        "descr_trans": "跟...谈"
+      },
+      {
+        "n": "2",
+        "descr": "secondary action",
+        "descr_trans": "次要行动"
+      }
+    ],
+    "roleset_name_trans": "说服/劝阻；谈论或谈论"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "talk_out.03",
+    "roleset_name": "talk it out: talk to the point of resolution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "talker",
+        "descr_trans": "说话者"
+      },
+      {
+        "n": "1",
+        "descr": "topic of discussion",
+        "descr_trans": "讨论话题"
+      },
+      {
+        "n": "2",
+        "descr": "other party involved in discussion",
+        "descr_trans": "参与讨论的另一方"
+      }
+    ],
+    "roleset_name_trans": "说出来：谈论解决问题的要点"
+  }
 ]

@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hypothesize.01",
-        "roleset_name": "make an educated guess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "guesser"
-            },
-            {
-                "n": "1",
-                "descr": "hypothesis"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hypothetical.02",
-        "roleset_name": "theoretical, suppositional",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "theory, hypothesis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hypothesize.01",
+    "roleset_name": "make an educated guess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "guesser",
+        "descr_trans": "猜测者"
+      },
+      {
+        "n": "1",
+        "descr": "hypothesis",
+        "descr_trans": "假设"
+      }
+    ],
+    "roleset_name_trans": "做出有根据的猜测"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hypothetical.02",
+    "roleset_name": "theoretical, suppositional",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "theory, hypothesis",
+        "descr_trans": "理论、假设"
+      }
+    ],
+    "roleset_name_trans": "理论的，假设的"
+  }
 ]

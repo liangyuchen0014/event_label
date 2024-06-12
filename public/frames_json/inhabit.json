@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inhabit.01",
-        "roleset_name": "to reside or be present in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resident"
-            },
-            {
-                "n": "1",
-                "descr": "place of residence"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "habitable.02",
-        "roleset_name": "suitable to be lived in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "potential resident"
-            },
-            {
-                "n": "1",
-                "descr": "place that is suitable to be lived in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inhabit.01",
+    "roleset_name": "to reside or be present in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resident",
+        "descr_trans": "居民"
+      },
+      {
+        "n": "1",
+        "descr": "place of residence",
+        "descr_trans": "居住地"
+      }
+    ],
+    "roleset_name_trans": "居住或存在于"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "habitable.02",
+    "roleset_name": "suitable to be lived in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "potential resident",
+        "descr_trans": "潜在居民"
+      },
+      {
+        "n": "1",
+        "descr": "place that is suitable to be lived in",
+        "descr_trans": "适合居住的地方"
+      }
+    ],
+    "roleset_name_trans": "适合居住"
+  }
 ]

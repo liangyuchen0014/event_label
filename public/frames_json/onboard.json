@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "onboard.01",
-        "roleset_name": "on a vessel/vehicle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is onboard"
-            },
-            {
-                "n": "2",
-                "descr": "the 'vessel'"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "onboard.02",
-        "roleset_name": "in support of, going along with",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity who is supporting"
-            },
-            {
-                "n": "2",
-                "descr": "onboard with what, in support of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "onboard.01",
+    "roleset_name": "on a vessel/vehicle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is onboard",
+        "descr_trans": "船上的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the 'vessel'",
+        "descr_trans": "血管&#39;"
+      }
+    ],
+    "roleset_name_trans": "在船只/车辆上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "onboard.02",
+    "roleset_name": "in support of, going along with",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity who is supporting",
+        "descr_trans": "支持的实体"
+      },
+      {
+        "n": "2",
+        "descr": "onboard with what, in support of",
+        "descr_trans": "船上有什么，支持"
+      }
+    ],
+    "roleset_name_trans": "支持，配合"
+  }
 ]

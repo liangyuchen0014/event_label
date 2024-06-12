@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scissor.01",
-        "roleset_name": "cutting with scissors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing cut"
-            },
-            {
-                "n": "2",
-                "descr": "medium, source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, unintentional cutter"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scissor.02",
-        "roleset_name": "move back and forth, like scissors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity being moved back and forth"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scissor.01",
+    "roleset_name": "cutting with scissors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional cutter",
+        "descr_trans": "故意切割"
+      },
+      {
+        "n": "1",
+        "descr": "thing cut",
+        "descr_trans": "东西切"
+      },
+      {
+        "n": "2",
+        "descr": "medium, source",
+        "descr_trans": "媒介、来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, unintentional cutter",
+        "descr_trans": "仪器、无意切割器"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "用剪刀剪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scissor.02",
+    "roleset_name": "move back and forth, like scissors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of motion",
+        "descr_trans": "运动代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity being moved back and forth",
+        "descr_trans": "实体来回移动"
+      }
+    ],
+    "roleset_name_trans": "像剪刀一样来回移动"
+  }
 ]

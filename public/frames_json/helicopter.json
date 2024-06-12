@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "helicopter.01",
-        "roleset_name": "travel via helicopter",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing actually doing the flying"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "helicopter.01",
+    "roleset_name": "travel via helicopter",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing actually doing the flying",
+        "descr_trans": "实际上在飞行的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "乘坐直升机旅行"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coddle.01",
-        "roleset_name": "pamper",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "coddler"
-            },
-            {
-                "n": "1",
-                "descr": "coddled"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "coddle.02",
-        "roleset_name": "cook in simmering water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coddle.01",
+    "roleset_name": "pamper",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "coddler",
+        "descr_trans": "娇惯者"
+      },
+      {
+        "n": "1",
+        "descr": "coddled",
+        "descr_trans": "溺爱的"
+      }
+    ],
+    "roleset_name_trans": "宠爱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "coddle.02",
+    "roleset_name": "cook in simmering water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook",
+        "descr_trans": "厨师"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "用沸水煮"
+  }
 ]

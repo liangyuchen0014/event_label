@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "design.01",
-        "roleset_name": "design",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "designer"
-            },
-            {
-                "n": "1",
-                "descr": "thing designed"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "purpose"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "design.02",
-        "roleset_name": "intentions, big plans that one is angling for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intent one"
-            },
-            {
-                "n": "1",
-                "descr": "intentions"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "design.01",
+    "roleset_name": "design",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "designer",
+        "descr_trans": "设计师"
+      },
+      {
+        "n": "1",
+        "descr": "thing designed",
+        "descr_trans": "设计的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "purpose",
+        "descr_trans": "目的"
+      }
+    ],
+    "roleset_name_trans": "设计"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "design.02",
+    "roleset_name": "intentions, big plans that one is angling for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intent one",
+        "descr_trans": "意图一"
+      },
+      {
+        "n": "1",
+        "descr": "intentions",
+        "descr_trans": "意图"
+      }
+    ],
+    "roleset_name_trans": "意图，人们正在追求的宏伟计划"
+  }
 ]

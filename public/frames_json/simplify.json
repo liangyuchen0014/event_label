@@ -1,39 +1,46 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "simplify.01",
-        "roleset_name": "make simple or simpler",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity simplified"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "simple.02",
-        "roleset_name": "easy, uncomplicated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "easy/uncomplicated thing (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "simple.03",
-        "roleset_name": "childlike, naive, or not very smart",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "childlike one"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "simplify.01",
+    "roleset_name": "make simple or simpler",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity simplified",
+        "descr_trans": "实体简化"
+      }
+    ],
+    "roleset_name_trans": "使简单或更简单"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "simple.02",
+    "roleset_name": "easy, uncomplicated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "easy/uncomplicated thing (may require concatenation)",
+        "descr_trans": "简单/不复杂的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "简单、不复杂"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "simple.03",
+    "roleset_name": "childlike, naive, or not very smart",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "childlike one",
+        "descr_trans": "童心未泯的"
+      }
+    ],
+    "roleset_name_trans": "孩子气、天真或不太聪明"
+  }
 ]

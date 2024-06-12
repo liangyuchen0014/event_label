@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cancerize.01",
-        "roleset_name": "becoming cancerous",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity becoming cancerous"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cancerous.02",
-        "roleset_name": "having cancer",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "cancerous entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cancer.03",
-        "roleset_name": "group of diseases involving abnormal cell growth",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "primary organ"
-            },
-            {
-                "n": "3",
-                "descr": "specific part of organ, if in addition to ARG2"
-            },
-            {
-                "n": "4",
-                "descr": "cell location/field (e.g., squamous cell; urothelium)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cancerize.01",
+    "roleset_name": "becoming cancerous",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity becoming cancerous",
+        "descr_trans": "实体癌变"
+      }
+    ],
+    "roleset_name_trans": "癌变"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cancerous.02",
+    "roleset_name": "having cancer",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "cancerous entity",
+        "descr_trans": "癌性实体"
+      }
+    ],
+    "roleset_name_trans": "患有癌症"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cancer.03",
+    "roleset_name": "group of diseases involving abnormal cell growth",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "primary organ",
+        "descr_trans": "主要器官"
+      },
+      {
+        "n": "3",
+        "descr": "specific part of organ, if in addition to ARG2",
+        "descr_trans": "器官的特定部分，如果除了 ARG2 之外"
+      },
+      {
+        "n": "4",
+        "descr": "cell location/field (e.g., squamous cell; urothelium)",
+        "descr_trans": "细胞位置/区域（例如鳞状细胞；尿路上皮）"
+      }
+    ],
+    "roleset_name_trans": "涉及异常细胞生长的一组疾病"
+  }
 ]

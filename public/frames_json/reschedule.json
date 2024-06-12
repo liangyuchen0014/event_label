@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reschedule.01",
-        "roleset_name": "plan a time, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "planner"
-            },
-            {
-                "n": "1",
-                "descr": "event"
-            },
-            {
-                "n": "2",
-                "descr": "scheduled for or because of"
-            },
-            {
-                "n": "3",
-                "descr": "time of event"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reschedule.01",
+    "roleset_name": "plan a time, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "planner",
+        "descr_trans": "规划师"
+      },
+      {
+        "n": "1",
+        "descr": "event",
+        "descr_trans": "事件"
+      },
+      {
+        "n": "2",
+        "descr": "scheduled for or because of",
+        "descr_trans": "预定的或因为"
+      },
+      {
+        "n": "3",
+        "descr": "time of event",
+        "descr_trans": "事件发生时间"
+      }
+    ],
+    "roleset_name_trans": "再次计划时间"
+  }
 ]

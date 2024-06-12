@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "condense.01",
-        "roleset_name": "make denser or more compact",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, condenser"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity being compacted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "condense.01",
+    "roleset_name": "make denser or more compact",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, condenser",
+        "descr_trans": "剂、冷凝器"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity being compacted",
+        "descr_trans": "病人，被压实的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使更密集或更紧凑"
+  }
 ]

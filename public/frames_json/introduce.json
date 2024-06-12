@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "introduce.01",
-        "roleset_name": "cause to meet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making introduction"
-            },
-            {
-                "n": "1",
-                "descr": "entity being introduced"
-            },
-            {
-                "n": "2",
-                "descr": "entity being introduced TO"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "introduce.02",
-        "roleset_name": "implement, begin, bring up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "implementer, starter"
-            },
-            {
-                "n": "1",
-                "descr": "thing being brought up"
-            },
-            {
-                "n": "2",
-                "descr": "medium, where arg1 is brought up into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "introduce.01",
+    "roleset_name": "cause to meet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making introduction",
+        "descr_trans": "实体制作介绍"
+      },
+      {
+        "n": "1",
+        "descr": "entity being introduced",
+        "descr_trans": "正在引入的实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity being introduced TO",
+        "descr_trans": "实体被介绍给"
+      }
+    ],
+    "roleset_name_trans": "导致相遇"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "introduce.02",
+    "roleset_name": "implement, begin, bring up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "implementer, starter",
+        "descr_trans": "实施者、启动者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being brought up",
+        "descr_trans": "被提出的事情"
+      },
+      {
+        "n": "2",
+        "descr": "medium, where arg1 is brought up into",
+        "descr_trans": "中等，其中 arg1 被带入"
+      }
+    ],
+    "roleset_name_trans": "实施、开始、提出"
+  }
 ]

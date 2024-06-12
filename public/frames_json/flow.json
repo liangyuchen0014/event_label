@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flow.01",
-        "roleset_name": "move like water",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "substance (ie, water)"
-            },
-            {
-                "n": "m",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flow.02",
-        "roleset_name": "natural disaster: debris flow, pyroclastic flow",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "substance, 'pyroclastic' or 'debris'. If 'mud', use 'mudflow' roleset"
-            },
-            {
-                "n": "2",
-                "descr": "volume, weight"
-            },
-            {
-                "n": "3",
-                "descr": "casualties/injuries"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flow.01",
+    "roleset_name": "move like water",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "substance (ie, water)",
+        "descr_trans": "物质（即水）"
+      },
+      {
+        "n": "m",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "像水一样移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flow.02",
+    "roleset_name": "natural disaster: debris flow, pyroclastic flow",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "substance, 'pyroclastic' or 'debris'. If 'mud', use 'mudflow' roleset",
+        "descr_trans": "物质，“火山碎屑”或“碎片”。如果是“mud”，则使用“mudflow”角色集"
+      },
+      {
+        "n": "2",
+        "descr": "volume, weight",
+        "descr_trans": "体积、重量"
+      },
+      {
+        "n": "3",
+        "descr": "casualties/injuries",
+        "descr_trans": "伤亡/受伤"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：泥石流、火山碎屑流"
+  }
 ]

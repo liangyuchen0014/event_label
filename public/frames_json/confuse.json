@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confuse.01",
-        "roleset_name": "(cause to) be confused, baffled, garbled, mistaken for another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive cause of confusion"
-            },
-            {
-                "n": "1",
-                "descr": "entity experiencing confusion"
-            },
-            {
-                "n": "2",
-                "descr": "confused about or over what? (first or all things)"
-            },
-            {
-                "n": "3",
-                "descr": "second thing, confused arg2 with what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confuse.01",
+    "roleset_name": "(cause to) be confused, baffled, garbled, mistaken for another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive cause of confusion",
+        "descr_trans": "混乱的主动原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity experiencing confusion",
+        "descr_trans": "经历混乱的实体"
+      },
+      {
+        "n": "2",
+        "descr": "confused about or over what? (first or all things)",
+        "descr_trans": "对什么感到困惑？ （首先或所有的事情）"
+      },
+      {
+        "n": "3",
+        "descr": "second thing, confused arg2 with what",
+        "descr_trans": "第二件事，将 arg2 与什么混淆"
+      }
+    ],
+    "roleset_name_trans": "（导致）感到困惑、困惑、混乱、被误认为是另一个人"
+  }
 ]

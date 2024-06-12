@@ -1,93 +1,112 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "force.01",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forcer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "force.02",
-        "roleset_name": "force a thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forcer"
-            },
-            {
-                "n": "1",
-                "descr": "thing forced"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, forced-on"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "force.03",
-        "roleset_name": "put",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "put-er, not putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "where put"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "force.04",
-        "roleset_name": "an impinging power",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forceful thing"
-            },
-            {
-                "n": "1",
-                "descr": "entity impinged upon"
-            },
-            {
-                "n": "2",
-                "descr": "type of force"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "in_force.05",
-        "roleset_name": "be in effect, enforceable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent, maintainer of situation"
-            },
-            {
-                "n": "1",
-                "descr": "thing in effect"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "force.01",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forcer",
+        "descr_trans": "力量"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "force.02",
+    "roleset_name": "force a thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forcer",
+        "descr_trans": "力量"
+      },
+      {
+        "n": "1",
+        "descr": "thing forced",
+        "descr_trans": "强迫的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, forced-on",
+        "descr_trans": "有益的，强迫的"
+      }
+    ],
+    "roleset_name_trans": "强迫某事"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "force.03",
+    "roleset_name": "put",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "put-er, not putter",
+        "descr_trans": "推杆，不是推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "where put",
+        "descr_trans": "放在哪里"
+      }
+    ],
+    "roleset_name_trans": "放"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "force.04",
+    "roleset_name": "an impinging power",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forceful thing",
+        "descr_trans": "强有力的东西"
+      },
+      {
+        "n": "1",
+        "descr": "entity impinged upon",
+        "descr_trans": "实体受到撞击"
+      },
+      {
+        "n": "2",
+        "descr": "type of force",
+        "descr_trans": "力的类型"
+      }
+    ],
+    "roleset_name_trans": "冲击力"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "in_force.05",
+    "roleset_name": "be in effect, enforceable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent, maintainer of situation",
+        "descr_trans": "因果动因，情境的维持者"
+      },
+      {
+        "n": "1",
+        "descr": "thing in effect",
+        "descr_trans": "有效的事情"
+      }
+    ],
+    "roleset_name_trans": "有效的，可执行的"
+  }
 ]

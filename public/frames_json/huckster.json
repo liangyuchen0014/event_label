@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "huckster.01",
-        "roleset_name": "to sell, peddle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller"
-            },
-            {
-                "n": "1",
-                "descr": "entity huckstering for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "huckster.01",
+    "roleset_name": "to sell, peddle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "1",
+        "descr": "entity huckstering for",
+        "descr_trans": "实体推销"
+      }
+    ],
+    "roleset_name_trans": "出售，兜售"
+  }
 ]

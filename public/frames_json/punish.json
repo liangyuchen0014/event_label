@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "punish.01",
-        "roleset_name": "to subject to a penalty for an offense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "punisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "punished"
-            },
-            {
-                "n": "2",
-                "descr": "punished-for"
-            },
-            {
-                "n": "3",
-                "descr": "mention of punishment itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "punishable.02",
-        "roleset_name": "subject to penalty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "punisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "punished"
-            },
-            {
-                "n": "2",
-                "descr": "punished-for"
-            },
-            {
-                "n": "3",
-                "descr": "mention of punishment itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "punish.01",
+    "roleset_name": "to subject to a penalty for an offense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "punisher, agent",
+        "descr_trans": "惩罚者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "punished",
+        "descr_trans": "受到惩罚"
+      },
+      {
+        "n": "2",
+        "descr": "punished-for",
+        "descr_trans": "受惩罚的"
+      },
+      {
+        "n": "3",
+        "descr": "mention of punishment itself",
+        "descr_trans": "提及惩罚本身"
+      }
+    ],
+    "roleset_name_trans": "因犯罪而受到处罚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "punishable.02",
+    "roleset_name": "subject to penalty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "punisher, agent",
+        "descr_trans": "惩罚者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "punished",
+        "descr_trans": "受到惩罚"
+      },
+      {
+        "n": "2",
+        "descr": "punished-for",
+        "descr_trans": "受惩罚的"
+      },
+      {
+        "n": "3",
+        "descr": "mention of punishment itself",
+        "descr_trans": "提及惩罚本身"
+      }
+    ],
+    "roleset_name_trans": "受到处罚"
+  }
 ]

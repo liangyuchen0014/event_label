@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tar.01",
-        "roleset_name": "apply tar to a surface",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier, agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of tar"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tar.01",
+    "roleset_name": "apply tar to a surface",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier, agent",
+        "descr_trans": "申请者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of tar",
+        "descr_trans": "明确提及 tar"
+      }
+    ],
+    "roleset_name_trans": "将焦油涂在表面上"
+  }
 ]

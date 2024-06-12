@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "injure.01",
-        "roleset_name": "cause hurt, cause/experience hurt, damaged, hurt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing/possessing arg1's injury "
-            },
-            {
-                "n": "1",
-                "descr": "injured entity (body part if arg0 is possessor)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, injured doing what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "injure.01",
+    "roleset_name": "cause hurt, cause/experience hurt, damaged, hurt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing/possessing arg1's injury ",
+        "descr_trans": "造成/拥有 arg1 伤害的代理人、实体"
+      },
+      {
+        "n": "1",
+        "descr": "injured entity (body part if arg0 is possessor)",
+        "descr_trans": "受伤的实体（身体部位，如果 arg0 是拥有者）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, injured doing what",
+        "descr_trans": "乐器，受伤做什么"
+      }
+    ],
+    "roleset_name_trans": "造成伤害、造成/经历伤害、受损、伤害"
+  }
 ]

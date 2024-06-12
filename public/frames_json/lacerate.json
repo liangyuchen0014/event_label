@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lacerate.01",
-        "roleset_name": "to tear roughly, mangle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of injury"
-            },
-            {
-                "n": "1",
-                "descr": "injured party"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lacerate.01",
+    "roleset_name": "to tear roughly, mangle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of injury",
+        "descr_trans": "造成伤害的原因"
+      },
+      {
+        "n": "1",
+        "descr": "injured party",
+        "descr_trans": "受害方"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "粗暴地撕扯，弄碎"
+  }
 ]

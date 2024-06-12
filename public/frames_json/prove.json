@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prove.01",
-        "roleset_name": "establish the truth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prover"
-            },
-            {
-                "n": "1",
-                "descr": "proposition"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, proved-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "proof.02",
-        "roleset_name": "make secure; make impervious to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "maker"
-            },
-            {
-                "n": "1",
-                "descr": "thing made impervious"
-            },
-            {
-                "n": "2",
-                "descr": "impervious to what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prove.01",
+    "roleset_name": "establish the truth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prover",
+        "descr_trans": "样品"
+      },
+      {
+        "n": "1",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, proved-to",
+        "descr_trans": "有益的，已被证实的"
+      }
+    ],
+    "roleset_name_trans": "确立真相"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "proof.02",
+    "roleset_name": "make secure; make impervious to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "maker",
+        "descr_trans": "制作者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made impervious",
+        "descr_trans": "不透水的东西"
+      },
+      {
+        "n": "2",
+        "descr": "impervious to what",
+        "descr_trans": "不受什么影响"
+      }
+    ],
+    "roleset_name_trans": "使安全；使不受"
+  }
 ]

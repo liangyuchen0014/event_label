@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revictimize.01",
-        "roleset_name": "make into a victim again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "victimizer"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "grounds"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revictimize.01",
+    "roleset_name": "make into a victim again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "victimizer",
+        "descr_trans": "施害者"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "grounds",
+        "descr_trans": "理由"
+      }
+    ],
+    "roleset_name_trans": "再次成为受害者"
+  }
 ]

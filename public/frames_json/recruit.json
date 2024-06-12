@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recruit.01",
-        "roleset_name": "convince to join",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recruiter"
-            },
-            {
-                "n": "1",
-                "descr": "recruit"
-            },
-            {
-                "n": "2",
-                "descr": "group, job (sometimes predicate on arg1)"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recruit.01",
+    "roleset_name": "convince to join",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recruiter",
+        "descr_trans": "招聘人员"
+      },
+      {
+        "n": "1",
+        "descr": "recruit",
+        "descr_trans": "招募"
+      },
+      {
+        "n": "2",
+        "descr": "group, job (sometimes predicate on arg1)",
+        "descr_trans": "组、作业（有时基于 arg1 进行谓词）"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "说服加入"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sport.01",
-        "roleset_name": "wear, display",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wearer"
-            },
-            {
-                "n": "1",
-                "descr": "clothing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sport.02",
-        "roleset_name": "play with, toy with, tease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sporter"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sport.01",
+    "roleset_name": "wear, display",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wearer",
+        "descr_trans": "佩戴者"
+      },
+      {
+        "n": "1",
+        "descr": "clothing",
+        "descr_trans": "衣服"
+      }
+    ],
+    "roleset_name_trans": "佩戴、展示"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sport.02",
+    "roleset_name": "play with, toy with, tease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sporter",
+        "descr_trans": "运动的"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "玩弄, 玩弄, 戏弄"
+  }
 ]

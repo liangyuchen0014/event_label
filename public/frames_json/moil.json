@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "moil.01",
-        "roleset_name": "work hard",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "laborer"
-            },
-            {
-                "n": "1",
-                "descr": "task"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "moil.02",
-        "roleset_name": "churn",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "churning thing"
-            },
-            {
-                "n": "2",
-                "descr": "location, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "moil.01",
+    "roleset_name": "work hard",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "laborer",
+        "descr_trans": "劳动者"
+      },
+      {
+        "n": "1",
+        "descr": "task",
+        "descr_trans": "任务"
+      }
+    ],
+    "roleset_name_trans": "努力工作"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "moil.02",
+    "roleset_name": "churn",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "churning thing",
+        "descr_trans": "搅动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location, destination",
+        "descr_trans": "地点、目的地"
+      }
+    ],
+    "roleset_name_trans": "搅动"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "furlough.01",
-        "roleset_name": "to lay off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "employer"
-            },
-            {
-                "n": "1",
-                "descr": "worker"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "furlough.01",
+    "roleset_name": "to lay off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "1",
+        "descr": "worker",
+        "descr_trans": "工人"
+      }
+    ],
+    "roleset_name_trans": "裁员"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "delocalize.01",
-        "roleset_name": "remove from a locality",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of delocalization (e.g. molecular process)"
-            },
-            {
-                "n": "1",
-                "descr": "thing delocalized"
-            },
-            {
-                "n": "2",
-                "descr": "delocalized from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "delocalize.01",
+    "roleset_name": "remove from a locality",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of delocalization (e.g. molecular process)",
+        "descr_trans": "离域代理（例如分子过程）"
+      },
+      {
+        "n": "1",
+        "descr": "thing delocalized",
+        "descr_trans": "离域的东西"
+      },
+      {
+        "n": "2",
+        "descr": "delocalized from, source",
+        "descr_trans": "离域、来源"
+      }
+    ],
+    "roleset_name_trans": "从某个地方删除"
+  }
 ]

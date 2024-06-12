@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cofound.01",
-        "roleset_name": "establish with another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent(s), co-founder(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing founded"
-            },
-            {
-                "n": "2",
-                "descr": "second co-founder if separate from ARG 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cofound.01",
+    "roleset_name": "establish with another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent(s), co-founder(s)",
+        "descr_trans": "代理人、联合创始人"
+      },
+      {
+        "n": "1",
+        "descr": "thing founded",
+        "descr_trans": "事物成立"
+      },
+      {
+        "n": "2",
+        "descr": "second co-founder if separate from ARG 0",
+        "descr_trans": "第二联合创始人（如果与 ARG 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "与他人建立"
+  }
 ]

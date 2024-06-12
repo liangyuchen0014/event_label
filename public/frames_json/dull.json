@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dull.01",
-        "roleset_name": "(cause to) lose shininess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of dullness"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting dull"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dull.02",
-        "roleset_name": "boring, not interesting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boring thing"
-            },
-            {
-                "n": "1",
-                "descr": "boring to whom?"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dull.03",
-        "roleset_name": "not sharp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of not-sharpness"
-            },
-            {
-                "n": "1",
-                "descr": "not sharp thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "dull.04",
-        "roleset_name": "not shiny",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of dullness"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting dull"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dull.01",
+    "roleset_name": "(cause to) lose shininess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of dullness",
+        "descr_trans": "迟钝的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting dull",
+        "descr_trans": "事情变得沉闷"
+      }
+    ],
+    "roleset_name_trans": "（导致）失去光泽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dull.02",
+    "roleset_name": "boring, not interesting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boring thing",
+        "descr_trans": "无聊的事情"
+      },
+      {
+        "n": "1",
+        "descr": "boring to whom?",
+        "descr_trans": "对谁来说无聊？"
+      }
+    ],
+    "roleset_name_trans": "无聊，无趣"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dull.03",
+    "roleset_name": "not sharp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of not-sharpness",
+        "descr_trans": "不锐利的原因"
+      },
+      {
+        "n": "1",
+        "descr": "not sharp thing",
+        "descr_trans": "不是锋利的东西"
+      }
+    ],
+    "roleset_name_trans": "不锋利"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "dull.04",
+    "roleset_name": "not shiny",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of dullness",
+        "descr_trans": "迟钝的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting dull",
+        "descr_trans": "事情变得沉闷"
+      }
+    ],
+    "roleset_name_trans": "不闪亮"
+  }
 ]

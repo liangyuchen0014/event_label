@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demagnetize.01",
-        "roleset_name": "cause to lose magnetic properties",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of loss of magnetism, agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing getting demagnetized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demagnetize.01",
+    "roleset_name": "cause to lose magnetic properties",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of loss of magnetism, agent",
+        "descr_trans": "失去磁性的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing getting demagnetized",
+        "descr_trans": "病人，东西被消磁了"
+      }
+    ],
+    "roleset_name_trans": "导致失去磁性"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "arrest.01",
-        "roleset_name": "like a criminal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "police"
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "crime"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "arrest.02",
-        "roleset_name": "stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stopping"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopping"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "arrest.01",
+    "roleset_name": "like a criminal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "police",
+        "descr_trans": "警察"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "像一个罪犯"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "arrest.02",
+    "roleset_name": "stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stopping",
+        "descr_trans": "停止的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopping",
+        "descr_trans": "事情停止"
+      }
+    ],
+    "roleset_name_trans": "停止"
+  }
 ]

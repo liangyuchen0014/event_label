@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rerelease.01",
-        "roleset_name": "release again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "re-releaser"
-            },
-            {
-                "n": "1",
-                "descr": "entity released again"
-            },
-            {
-                "n": "2",
-                "descr": "re-release from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rerelease.01",
+    "roleset_name": "release again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "re-releaser",
+        "descr_trans": "重新发布"
+      },
+      {
+        "n": "1",
+        "descr": "entity released again",
+        "descr_trans": "实体再次释放"
+      },
+      {
+        "n": "2",
+        "descr": "re-release from",
+        "descr_trans": "重新发布自"
+      }
+    ],
+    "roleset_name_trans": "再次释放"
+  }
 ]

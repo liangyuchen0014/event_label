@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reformat.01",
-        "roleset_name": "format again, re-editing the layout of text/data",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Reformattor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity reformatted"
-            },
-            {
-                "n": "2",
-                "descr": "The new format"
-            },
-            {
-                "n": "3",
-                "descr": "The old format"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reformat.01",
+    "roleset_name": "format again, re-editing the layout of text/data",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Reformattor, agent",
+        "descr_trans": "重组者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Entity reformatted",
+        "descr_trans": "实体重新格式化"
+      },
+      {
+        "n": "2",
+        "descr": "The new format",
+        "descr_trans": "新格式"
+      },
+      {
+        "n": "3",
+        "descr": "The old format",
+        "descr_trans": "旧格式"
+      }
+    ],
+    "roleset_name_trans": "再次格式化，重新编辑文本/数据的布局"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unforgivable.01",
-        "roleset_name": "not able to be absolved from blame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent unable to forgive"
-            },
-            {
-                "n": "1",
-                "descr": "entity not forgiven"
-            },
-            {
-                "n": "2",
-                "descr": "crime of arg1, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unforgivable.01",
+    "roleset_name": "not able to be absolved from blame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent unable to forgive",
+        "descr_trans": "代理人无法原谅"
+      },
+      {
+        "n": "1",
+        "descr": "entity not forgiven",
+        "descr_trans": "实体不被宽恕"
+      },
+      {
+        "n": "2",
+        "descr": "crime of arg1, if in addition to arg1",
+        "descr_trans": "arg1 的犯罪，如果除了 arg1 之外"
+      }
+    ],
+    "roleset_name_trans": "难辞其咎"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resubstantiate.01",
-        "roleset_name": "reinforce or support again with proof",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity re-offering support/proof"
-            },
-            {
-                "n": "1",
-                "descr": "proposition re-supported"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resubstantiate.01",
+    "roleset_name": "reinforce or support again with proof",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity re-offering support/proof",
+        "descr_trans": "代理人、实体再提供支持/证明"
+      },
+      {
+        "n": "1",
+        "descr": "proposition re-supported",
+        "descr_trans": "提案得到重新支持"
+      }
+    ],
+    "roleset_name_trans": "用证据再次强化或支持"
+  }
 ]

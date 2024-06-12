@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deinstall.01",
-        "roleset_name": "un-install",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of de-installation"
-            },
-            {
-                "n": "1",
-                "descr": "thing uninstalled"
-            },
-            {
-                "n": "2",
-                "descr": "source location uninstalled from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deinstall.01",
+    "roleset_name": "un-install",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of de-installation",
+        "descr_trans": "卸载代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing uninstalled",
+        "descr_trans": "东西已卸载"
+      },
+      {
+        "n": "2",
+        "descr": "source location uninstalled from",
+        "descr_trans": "卸载的源位置"
+      }
+    ],
+    "roleset_name_trans": "卸载"
+  }
 ]

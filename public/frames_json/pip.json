@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pip.01",
-        "roleset_name": "remove (crusty scale from a bird's tongue)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "entity having something removed (usually a bird)"
-            },
-            {
-                "n": "2",
-                "descr": "scale, object removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pip.01",
+    "roleset_name": "remove (crusty scale from a bird's tongue)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "entity having something removed (usually a bird)",
+        "descr_trans": "移除某些东西的实体（通常是鸟）"
+      },
+      {
+        "n": "2",
+        "descr": "scale, object removed",
+        "descr_trans": "缩放，物体被移除"
+      }
+    ],
+    "roleset_name_trans": "去除（鸟舌头上的硬壳鳞片）"
+  }
 ]

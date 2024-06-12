@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stucco.01",
-        "roleset_name": "cover, fill with stucco",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, person placing stucco"
-            },
-            {
-                "n": "1",
-                "descr": "Location/entity covered with stucco"
-            },
-            {
-                "n": "2",
-                "descr": "Stucco itself, what kind of stucco"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stucco.01",
+    "roleset_name": "cover, fill with stucco",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, person placing stucco",
+        "descr_trans": "代理人、铺设灰泥的人"
+      },
+      {
+        "n": "1",
+        "descr": "Location/entity covered with stucco",
+        "descr_trans": "被灰泥覆盖的地点/实体"
+      },
+      {
+        "n": "2",
+        "descr": "Stucco itself, what kind of stucco",
+        "descr_trans": "灰泥本身，什么样的灰泥"
+      }
+    ],
+    "roleset_name_trans": "覆盖，用灰泥填充"
+  }
 ]

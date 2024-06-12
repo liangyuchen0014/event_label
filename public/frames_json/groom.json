@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "groom.01",
-        "roleset_name": "brush a horse, attending to one's appearance or hygiene",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, groom"
-            },
-            {
-                "n": "1",
-                "descr": "thing groomed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "groom.02",
-        "roleset_name": "make ready, prepare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity being groomed"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "groom.01",
+    "roleset_name": "brush a horse, attending to one's appearance or hygiene",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, groom",
+        "descr_trans": "经纪人、新郎"
+      },
+      {
+        "n": "1",
+        "descr": "thing groomed",
+        "descr_trans": "修饰过的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "给马刷毛，注意外表或卫生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "groom.02",
+    "roleset_name": "make ready, prepare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being groomed",
+        "descr_trans": "正在修饰的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "做好准备，准备"
+  }
 ]

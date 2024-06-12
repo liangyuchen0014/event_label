@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pose.01",
-        "roleset_name": "adopt an attitude, role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "player"
-            },
-            {
-                "n": "1",
-                "descr": "role"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pose.02",
-        "roleset_name": "pose a question, problem, etc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "poser"
-            },
-            {
-                "n": "1",
-                "descr": "question, etc"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pose.01",
+    "roleset_name": "adopt an attitude, role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "player",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "1",
+        "descr": "role",
+        "descr_trans": "角色"
+      }
+    ],
+    "roleset_name_trans": "采取态度、角色"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pose.02",
+    "roleset_name": "pose a question, problem, etc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "poser",
+        "descr_trans": "装腔作势"
+      },
+      {
+        "n": "1",
+        "descr": "question, etc",
+        "descr_trans": "问题等"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "提出问题、问题等"
+  }
 ]

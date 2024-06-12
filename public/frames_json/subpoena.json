@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subpoena.01",
-        "roleset_name": "to serve or summon with a subpoena",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "summoner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity subpoenaed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subpoena.01",
+    "roleset_name": "to serve or summon with a subpoena",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "summoner, agent",
+        "descr_trans": "召唤师、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity subpoenaed",
+        "descr_trans": "实体被传唤"
+      }
+    ],
+    "roleset_name_trans": "送达或传唤传票"
+  }
 ]

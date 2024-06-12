@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rack.02",
-        "roleset_name": "search",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "searched for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rack.04",
-        "roleset_name": "rapid gait of horse, wherein each foot strikes separately",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rider"
-            },
-            {
-                "n": "1",
-                "descr": "horse"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rack_up.01",
-        "roleset_name": "get, acquire",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity acquiring something"
-            },
-            {
-                "n": "1",
-                "descr": "thing acquired"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rack.02",
+    "roleset_name": "search",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "searched for",
+        "descr_trans": "搜索"
+      }
+    ],
+    "roleset_name_trans": "搜索"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rack.04",
+    "roleset_name": "rapid gait of horse, wherein each foot strikes separately",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rider",
+        "descr_trans": "骑士"
+      },
+      {
+        "n": "1",
+        "descr": "horse",
+        "descr_trans": "马"
+      }
+    ],
+    "roleset_name_trans": "马的快速步态，其中每只脚分别击打"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rack_up.01",
+    "roleset_name": "get, acquire",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity acquiring something",
+        "descr_trans": "代理人，获取某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing acquired",
+        "descr_trans": "获得的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "得到，获得"
+  }
 ]

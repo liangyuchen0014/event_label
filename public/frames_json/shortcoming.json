@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shortcoming.01",
-        "roleset_name": "coming up short",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity coming up short"
-            },
-            {
-                "n": "1",
-                "descr": "domain in which arg1 is coming up short"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shortcoming.01",
+    "roleset_name": "coming up short",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity coming up short",
+        "descr_trans": "实体出现短缺"
+      },
+      {
+        "n": "1",
+        "descr": "domain in which arg1 is coming up short",
+        "descr_trans": "arg1 不足的域"
+      }
+    ],
+    "roleset_name_trans": "即将到来"
+  }
 ]

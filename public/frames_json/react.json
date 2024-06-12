@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "react.01",
-        "roleset_name": "give a response, reaction, response",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reactor"
-            },
-            {
-                "n": "1",
-                "descr": "reacted-to"
-            },
-            {
-                "n": "2",
-                "descr": "reaction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reactionary.02",
-        "roleset_name": "opposing political or social liberalization or reform",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conservative entity"
-            },
-            {
-                "n": "1",
-                "descr": "opposed-to"
-            },
-            {
-                "n": "2",
-                "descr": "reaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "react.01",
+    "roleset_name": "give a response, reaction, response",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reactor",
+        "descr_trans": "反应堆"
+      },
+      {
+        "n": "1",
+        "descr": "reacted-to",
+        "descr_trans": "作出反应"
+      },
+      {
+        "n": "2",
+        "descr": "reaction",
+        "descr_trans": "反应"
+      }
+    ],
+    "roleset_name_trans": "给出回应，反应，回应"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reactionary.02",
+    "roleset_name": "opposing political or social liberalization or reform",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conservative entity",
+        "descr_trans": "保守实体"
+      },
+      {
+        "n": "1",
+        "descr": "opposed-to",
+        "descr_trans": "反对"
+      },
+      {
+        "n": "2",
+        "descr": "reaction",
+        "descr_trans": "反应"
+      }
+    ],
+    "roleset_name_trans": "反对政治或社会自由化或改革"
+  }
 ]

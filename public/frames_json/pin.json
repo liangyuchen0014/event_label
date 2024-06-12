@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pin.01",
-        "roleset_name": "attach with a pin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being pinned"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, pinned to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, pin"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pin_down.02",
-        "roleset_name": "lock or establish clearly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being pinned"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, pinned to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pin.01",
+    "roleset_name": "attach with a pin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being pinned",
+        "descr_trans": "第一个被固定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, pinned to what",
+        "descr_trans": "第二件事，固定在什么上"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, pin",
+        "descr_trans": "仪器、针"
+      }
+    ],
+    "roleset_name_trans": "用别针固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pin_down.02",
+    "roleset_name": "lock or establish clearly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being pinned",
+        "descr_trans": "第一个被固定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, pinned to what",
+        "descr_trans": "第二件事，固定在什么上"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "明确锁定或建立"
+  }
 ]

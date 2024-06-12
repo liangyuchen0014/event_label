@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unclamp.01",
-        "roleset_name": "unclamp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "unclamper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unclamped, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unclamped from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unclamp.01",
+    "roleset_name": "unclamp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "unclamper, agent",
+        "descr_trans": "松开器，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unclamped, patient",
+        "descr_trans": "松开东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unclamped from, source",
+        "descr_trans": "从源头松开"
+      }
+    ],
+    "roleset_name_trans": "松开"
+  }
 ]

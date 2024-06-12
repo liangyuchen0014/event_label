@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recommend.01",
-        "roleset_name": "recommend, endorsing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Recommender"
-            },
-            {
-                "n": "1",
-                "descr": "recommendation"
-            },
-            {
-                "n": "2",
-                "descr": "Recommended to"
-            },
-            {
-                "n": "3",
-                "descr": "Secondary attribute (recommended as...)"
-            },
-            {
-                "n": "4",
-                "descr": "subject matter of recommendation (if unclear what the recommendation is)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recommend.01",
+    "roleset_name": "recommend, endorsing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Recommender",
+        "descr_trans": "推荐人"
+      },
+      {
+        "n": "1",
+        "descr": "recommendation",
+        "descr_trans": "推荐"
+      },
+      {
+        "n": "2",
+        "descr": "Recommended to",
+        "descr_trans": "推荐给"
+      },
+      {
+        "n": "3",
+        "descr": "Secondary attribute (recommended as...)",
+        "descr_trans": "次要属性（推荐为...）"
+      },
+      {
+        "n": "4",
+        "descr": "subject matter of recommendation (if unclear what the recommendation is)",
+        "descr_trans": "推荐的主题（如果不清楚推荐是什么）"
+      }
+    ],
+    "roleset_name_trans": "推荐、赞同"
+  }
 ]

@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cinch.01",
-        "roleset_name": "manipulate a belt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "manipulator of belt, agent"
-            },
-            {
-                "n": "1",
-                "descr": "belt"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cinch.02",
-        "roleset_name": "attach with a belt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) attached"
-            },
-            {
-                "n": "2",
-                "descr": "'together' or other attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cinch.03",
-        "roleset_name": "make into a sure thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of sureness"
-            },
-            {
-                "n": "1",
-                "descr": "sure thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cinch.01",
+    "roleset_name": "manipulate a belt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "manipulator of belt, agent",
+        "descr_trans": "皮带机械手、代理"
+      },
+      {
+        "n": "1",
+        "descr": "belt",
+        "descr_trans": "腰带"
+      }
+    ],
+    "roleset_name_trans": "操纵皮带"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cinch.02",
+    "roleset_name": "attach with a belt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher",
+        "descr_trans": "附"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) attached",
+        "descr_trans": "附加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "'together' or other attribute of arg1",
+        "descr_trans": "&#39;together&#39; 或 arg1 的其他属性"
+      }
+    ],
+    "roleset_name_trans": "用皮带系上"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cinch.03",
+    "roleset_name": "make into a sure thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of sureness",
+        "descr_trans": "确定性的原因"
+      },
+      {
+        "n": "1",
+        "descr": "sure thing",
+        "descr_trans": "肯定的事"
+      }
+    ],
+    "roleset_name_trans": "使之成为确定的事情"
+  }
 ]

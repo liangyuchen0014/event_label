@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mystify.01",
-        "roleset_name": "puzzle, perplex",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of mystification"
-            },
-            {
-                "n": "1",
-                "descr": "entity mystified"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mystify.01",
+    "roleset_name": "puzzle, perplex",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of mystification",
+        "descr_trans": "神秘化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity mystified",
+        "descr_trans": "实体神秘"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "谜题，困惑"
+  }
 ]

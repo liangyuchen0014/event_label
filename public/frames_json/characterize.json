@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "characterize.01",
-        "roleset_name": "assign a label or attribute, describing something as having a label or attribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "characteristic.02",
-        "roleset_name": "characteristic",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "possessor of quality, characteristic of whom (should come SECOND)"
-            },
-            {
-                "n": "2",
-                "descr": "quality, characteristic itself (should come FIRST)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "characterize.01",
+    "roleset_name": "assign a label or attribute, describing something as having a label or attribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as",
+        "descr_trans": "次要属性，描述为"
+      }
+    ],
+    "roleset_name_trans": "分配标签或属性，将某物描述为具有标签或属性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "characteristic.02",
+    "roleset_name": "characteristic",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "possessor of quality, characteristic of whom (should come SECOND)",
+        "descr_trans": "品质的拥有者，其特征（应该排在第二位）"
+      },
+      {
+        "n": "2",
+        "descr": "quality, characteristic itself (should come FIRST)",
+        "descr_trans": "质量、特性本身（应该是第一位的）"
+      }
+    ],
+    "roleset_name_trans": "特征"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uniform.01",
-        "roleset_name": "to provide with uniforms",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of non-nudity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "person(s) dressed"
-            },
-            {
-                "n": "2",
-                "descr": "clothes, uniform"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "uniform.02",
-        "roleset_name": "consistent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "consistent thing(s)"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is uniform"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uniform.01",
+    "roleset_name": "to provide with uniforms",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of non-nudity, agent",
+        "descr_trans": "非裸露的肇事者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "person(s) dressed",
+        "descr_trans": "穿着整齐的人"
+      },
+      {
+        "n": "2",
+        "descr": "clothes, uniform",
+        "descr_trans": "衣服、制服"
+      }
+    ],
+    "roleset_name_trans": "提供制服"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "uniform.02",
+    "roleset_name": "consistent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "consistent thing(s)",
+        "descr_trans": "一致的事物"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is uniform",
+        "descr_trans": "arg1 的特定方面是统一的"
+      }
+    ],
+    "roleset_name_trans": "持续的"
+  }
 ]

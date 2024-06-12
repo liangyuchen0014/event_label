@@ -1,112 +1,135 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lock.01",
-        "roleset_name": "attach, fastening, secured with a lock",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the locking"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being locked"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, locked to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string, lock"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lock_in.02",
-        "roleset_name": "establish surely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, fixer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lock_up.03",
-        "roleset_name": "throw in jail",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "officer of the court"
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lock_up.04",
-        "roleset_name": "(cause to) become immovable, secure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming immovable, secure"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "lock_out.05",
-        "roleset_name": "exclude, locked _out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity being excluding"
-            },
-            {
-                "n": "1",
-                "descr": "thing excluded"
-            },
-            {
-                "n": "2",
-                "descr": "excluded from"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "lock_down.06",
-        "roleset_name": "secure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, one who locks"
-            },
-            {
-                "n": "1",
-                "descr": "thing secured"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lock.01",
+    "roleset_name": "attach, fastening, secured with a lock",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the locking",
+        "descr_trans": "代理，执行锁定的实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being locked",
+        "descr_trans": "首先被锁定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, locked to what",
+        "descr_trans": "第二件事，锁定什么"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string, lock",
+        "descr_trans": "乐器、弦、锁"
+      }
+    ],
+    "roleset_name_trans": "连接，紧固，用锁固定"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lock_in.02",
+    "roleset_name": "establish surely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, fixer",
+        "descr_trans": "代理人，固定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made",
+        "descr_trans": "做的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "确定地建立"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lock_up.03",
+    "roleset_name": "throw in jail",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "officer of the court",
+        "descr_trans": "法院官员"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "投入监狱"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lock_up.04",
+    "roleset_name": "(cause to) become immovable, secure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming immovable, secure",
+        "descr_trans": "事物变得不可移动、安全"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得不动、安全"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "lock_out.05",
+    "roleset_name": "exclude, locked _out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity being excluding",
+        "descr_trans": "代理人、实体除外"
+      },
+      {
+        "n": "1",
+        "descr": "thing excluded",
+        "descr_trans": "排除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "excluded from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "排除，锁定_out"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "lock_down.06",
+    "roleset_name": "secure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, one who locks",
+        "descr_trans": "代理人，锁定的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing secured",
+        "descr_trans": "安全的东西"
+      }
+    ],
+    "roleset_name_trans": "安全的"
+  }
 ]

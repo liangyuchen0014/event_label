@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "refrigerate.01",
-        "roleset_name": "make cold by storing in a fridge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing made cold"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, explicit mention of the fridge"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "refrigerate.01",
+    "roleset_name": "make cold by storing in a fridge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing made cold",
+        "descr_trans": "东西变冷了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, explicit mention of the fridge",
+        "descr_trans": "仪器，明确提及冰箱"
+      }
+    ],
+    "roleset_name_trans": "放入冰箱冷藏"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "electrocardiogram.01",
-        "roleset_name": "measures the electrical activity of the heart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tester"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "electrocardiogram.01",
+    "roleset_name": "measures the electrical activity of the heart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tester",
+        "descr_trans": "测试员"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "测量心脏的电活动"
+  }
 ]

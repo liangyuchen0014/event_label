@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fetter.01",
-        "roleset_name": "restrain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of restraint"
-            },
-            {
-                "n": "1",
-                "descr": "entity restrained"
-            },
-            {
-                "n": "2",
-                "descr": "restrained to"
-            },
-            {
-                "n": "3",
-                "descr": "explicit mention of fetters"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fetter.01",
+    "roleset_name": "restrain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of restraint",
+        "descr_trans": "克制的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity restrained",
+        "descr_trans": "实体受到限制"
+      },
+      {
+        "n": "2",
+        "descr": "restrained to",
+        "descr_trans": "限制于"
+      },
+      {
+        "n": "3",
+        "descr": "explicit mention of fetters",
+        "descr_trans": "明确提及束缚"
+      }
+    ],
+    "roleset_name_trans": "抑制"
+  }
 ]

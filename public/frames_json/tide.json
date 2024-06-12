@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tide.01",
-        "roleset_name": "periodic rise and fall",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing rising and falling"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tide_over.02",
-        "roleset_name": "sustain for a limited period of time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent giving support"
-            },
-            {
-                "n": "1",
-                "descr": "entity receiving support"
-            },
-            {
-                "n": "2",
-                "descr": "with what, if in addition to arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tide.01",
+    "roleset_name": "periodic rise and fall",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing rising and falling",
+        "descr_trans": "事物的上升和下降"
+      }
+    ],
+    "roleset_name_trans": "周期性的上升和下降"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tide_over.02",
+    "roleset_name": "sustain for a limited period of time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent giving support",
+        "descr_trans": "代理给予支持"
+      },
+      {
+        "n": "1",
+        "descr": "entity receiving support",
+        "descr_trans": "接受支持的实体"
+      },
+      {
+        "n": "2",
+        "descr": "with what, if in addition to arg0",
+        "descr_trans": "除了 arg0 之外，还有什么"
+      }
+    ],
+    "roleset_name_trans": "维持一段有限的时间"
+  }
 ]

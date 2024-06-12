@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "menace.01",
-        "roleset_name": "threaten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "threatening agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity threatened"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from Arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "menace.01",
+    "roleset_name": "threaten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "threatening agent",
+        "descr_trans": "威胁代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity threatened",
+        "descr_trans": "受到威胁的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from Arg 0",
+        "descr_trans": "仪器或方式（如果与 Arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "威胁"
+  }
 ]

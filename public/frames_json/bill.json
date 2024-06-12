@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bill.01",
-        "roleset_name": "charge a fee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seller, biller"
-            },
-            {
-                "n": "1",
-                "descr": "asking price, amount of bill"
-            },
-            {
-                "n": "2",
-                "descr": "buyer, billed"
-            },
-            {
-                "n": "3",
-                "descr": "commodity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bill.02",
-        "roleset_name": "describe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "describer"
-            },
-            {
-                "n": "1",
-                "descr": "thing described"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, described-as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bill.01",
+    "roleset_name": "charge a fee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seller, biller",
+        "descr_trans": "卖家、图片"
+      },
+      {
+        "n": "1",
+        "descr": "asking price, amount of bill",
+        "descr_trans": "要价、账单金额"
+      },
+      {
+        "n": "2",
+        "descr": "buyer, billed",
+        "descr_trans": "买家，已开票"
+      },
+      {
+        "n": "3",
+        "descr": "commodity",
+        "descr_trans": "商品"
+      }
+    ],
+    "roleset_name_trans": "收取费用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bill.02",
+    "roleset_name": "describe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "describer",
+        "descr_trans": "描述"
+      },
+      {
+        "n": "1",
+        "descr": "thing described",
+        "descr_trans": "所描述的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, described-as",
+        "descr_trans": "次要属性，描述为"
+      }
+    ],
+    "roleset_name_trans": "描述"
+  }
 ]

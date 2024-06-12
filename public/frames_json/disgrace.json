@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disgrace.01",
-        "roleset_name": "bring shame upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of disgrace"
-            },
-            {
-                "n": "1",
-                "descr": "entity disgraced"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from Arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disgrace.01",
+    "roleset_name": "bring shame upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of disgrace",
+        "descr_trans": "造成耻辱的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity disgraced",
+        "descr_trans": "实体蒙羞"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from Arg 0",
+        "descr_trans": "仪器或方式（如果与 Arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "蒙羞"
+  }
 ]

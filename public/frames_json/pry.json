@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pry.01",
-        "roleset_name": "pull loose with some difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pry-er"
-            },
-            {
-                "n": "1",
-                "descr": "thing pried"
-            },
-            {
-                "n": "2",
-                "descr": "end state/attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pry.02",
-        "roleset_name": "look at, illicitly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "looker"
-            },
-            {
-                "n": "1",
-                "descr": "looked at"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pry.01",
+    "roleset_name": "pull loose with some difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pry-er",
+        "descr_trans": "代理人，窥探者"
+      },
+      {
+        "n": "1",
+        "descr": "thing pried",
+        "descr_trans": "撬开的东西"
+      },
+      {
+        "n": "2",
+        "descr": "end state/attribute of arg1",
+        "descr_trans": "arg1 的结束状态/属性"
+      }
+    ],
+    "roleset_name_trans": "有点困难地松开"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pry.02",
+    "roleset_name": "look at, illicitly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "looker",
+        "descr_trans": "观察者"
+      },
+      {
+        "n": "1",
+        "descr": "looked at",
+        "descr_trans": "看着"
+      }
+    ],
+    "roleset_name_trans": "非法地看"
+  }
 ]

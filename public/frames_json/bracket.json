@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bracket.01",
-        "roleset_name": "lump",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity causing bracketing"
-            },
-            {
-                "n": "1",
-                "descr": "Entity bracketed"
-            },
-            {
-                "n": "2",
-                "descr": "Bracketed to, together with what? NOT instrument, other stuff in bracket"
-            },
-            {
-                "n": "3",
-                "descr": "Bracket itself, type of bracket"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bracket.01",
+    "roleset_name": "lump",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity causing bracketing",
+        "descr_trans": "主体、实体导致包围"
+      },
+      {
+        "n": "1",
+        "descr": "Entity bracketed",
+        "descr_trans": "括号内的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Bracketed to, together with what? NOT instrument, other stuff in bracket",
+        "descr_trans": "用括号括起来，与什么一起？不是乐器，括号里是其他东西"
+      },
+      {
+        "n": "3",
+        "descr": "Bracket itself, type of bracket",
+        "descr_trans": "支架本身、支架类型"
+      }
+    ],
+    "roleset_name_trans": "块"
+  }
 ]

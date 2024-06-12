@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cater.01",
-        "roleset_name": "provide (food, in the default) for (a party)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caterer"
-            },
-            {
-                "n": "1",
-                "descr": "thing (event?) catered"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cater.01",
+    "roleset_name": "provide (food, in the default) for (a party)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caterer",
+        "descr_trans": "餐饮承办商"
+      },
+      {
+        "n": "1",
+        "descr": "thing (event?) catered",
+        "descr_trans": "事物（事件？）迎合"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "为（一方）提供（默认情况下为食物）"
+  }
 ]

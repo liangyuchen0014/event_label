@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "copy.01",
-        "roleset_name": "duplicate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copyist, agent"
-            },
-            {
-                "n": "1",
-                "descr": "original"
-            },
-            {
-                "n": "2",
-                "descr": "destination of artifact (copied into)"
-            },
-            {
-                "n": "3",
-                "descr": "the copy itself (artifact)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "copy.03",
-        "roleset_name": "send a copy to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "copy_out.02",
-        "roleset_name": "make a copy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "copyist, agent"
-            },
-            {
-                "n": "1",
-                "descr": "original"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "copy.01",
+    "roleset_name": "duplicate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copyist, agent",
+        "descr_trans": "抄写员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "original",
+        "descr_trans": "原来的"
+      },
+      {
+        "n": "2",
+        "descr": "destination of artifact (copied into)",
+        "descr_trans": "工件的目的地（复制到）"
+      },
+      {
+        "n": "3",
+        "descr": "the copy itself (artifact)",
+        "descr_trans": "副本本身（工件）"
+      }
+    ],
+    "roleset_name_trans": "复制"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "copy.03",
+    "roleset_name": "send a copy to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "发送一份副本至"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "copy_out.02",
+    "roleset_name": "make a copy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "copyist, agent",
+        "descr_trans": "抄写员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "original",
+        "descr_trans": "原来的"
+      }
+    ],
+    "roleset_name_trans": "复印一份"
+  }
 ]

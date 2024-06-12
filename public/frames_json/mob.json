@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mob.02",
-        "roleset_name": "swarm, drive away (perhaps a preditor) as a group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "the mob"
-            },
-            {
-                "n": "1",
-                "descr": "entity mobbed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mob.02",
+    "roleset_name": "swarm, drive away (perhaps a preditor) as a group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "the mob",
+        "descr_trans": "暴民"
+      },
+      {
+        "n": "1",
+        "descr": "entity mobbed",
+        "descr_trans": "实体被包围"
+      }
+    ],
+    "roleset_name_trans": "成群结队，赶走（可能是捕食者）"
+  }
 ]

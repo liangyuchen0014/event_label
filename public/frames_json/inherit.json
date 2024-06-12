@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inherit.01",
-        "roleset_name": "get from predecessor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inheritor"
-            },
-            {
-                "n": "1",
-                "descr": "inheritance"
-            },
-            {
-                "n": "2",
-                "descr": "predecessor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inherit.01",
+    "roleset_name": "get from predecessor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inheritor",
+        "descr_trans": "继承人"
+      },
+      {
+        "n": "1",
+        "descr": "inheritance",
+        "descr_trans": "遗产"
+      },
+      {
+        "n": "2",
+        "descr": "predecessor",
+        "descr_trans": "前任"
+      }
+    ],
+    "roleset_name_trans": "从前任得到"
+  }
 ]

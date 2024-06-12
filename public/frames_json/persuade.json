@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "persuade.01",
-        "roleset_name": "impelled action-- convince",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "convincer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action, proposition"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "persuasive.02",
-        "roleset_name": "capable of persuasion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "persuasive entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity persuaded"
-            },
-            {
-                "n": "2",
-                "descr": "idea/action arg1 is persuaded into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "persuade.01",
+    "roleset_name": "impelled action-- convince",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "convincer",
+        "descr_trans": "说服者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action, proposition",
+        "descr_trans": "推动的行动，主张"
+      }
+    ],
+    "roleset_name_trans": "促使行动——说服"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "persuasive.02",
+    "roleset_name": "capable of persuasion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "persuasive entity",
+        "descr_trans": "有说服力的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity persuaded",
+        "descr_trans": "实体被说服"
+      },
+      {
+        "n": "2",
+        "descr": "idea/action arg1 is persuaded into",
+        "descr_trans": "想法/行动 arg1 被说服"
+      }
+    ],
+    "roleset_name_trans": "有说服力"
+  }
 ]

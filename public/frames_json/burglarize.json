@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "burglarize.01",
-        "roleset_name": "steal from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, burglar"
-            },
-            {
-                "n": "1",
-                "descr": "thing/place stolen from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "burgle.02",
-        "roleset_name": "to engage in or commit robbery",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "robber, thief"
-            },
-            {
-                "n": "1",
-                "descr": "person, entity burgled"
-            },
-            {
-                "n": "2",
-                "descr": "money or valuables, thing taken"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "burglarize.01",
+    "roleset_name": "steal from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, burglar",
+        "descr_trans": "小偷，窃贼"
+      },
+      {
+        "n": "1",
+        "descr": "thing/place stolen from",
+        "descr_trans": "被盗的东西/地方"
+      }
+    ],
+    "roleset_name_trans": "偷自"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "burgle.02",
+    "roleset_name": "to engage in or commit robbery",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "robber, thief",
+        "descr_trans": "强盗，小偷"
+      },
+      {
+        "n": "1",
+        "descr": "person, entity burgled",
+        "descr_trans": "个人、实体被盗"
+      },
+      {
+        "n": "2",
+        "descr": "money or valuables, thing taken",
+        "descr_trans": "金钱或贵重物品，被拿走的东西"
+      }
+    ],
+    "roleset_name_trans": "参与或实施抢劫"
+  }
 ]

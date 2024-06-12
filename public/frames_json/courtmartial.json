@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "courtmartial.01",
-        "roleset_name": "put on trial by the military",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "military, agent, one bringing case"
-            },
-            {
-                "n": "1",
-                "descr": "entity tried (defendant/case)"
-            },
-            {
-                "n": "2",
-                "descr": "crime/accusation; tried for"
-            },
-            {
-                "n": "3",
-                "descr": "adjudicator (if specified from military branch bringing charges)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "courtmartial.01",
+    "roleset_name": "put on trial by the military",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "military, agent, one bringing case",
+        "descr_trans": "军事、特工、一宗案件"
+      },
+      {
+        "n": "1",
+        "descr": "entity tried (defendant/case)",
+        "descr_trans": "受审实体（被告/案件）"
+      },
+      {
+        "n": "2",
+        "descr": "crime/accusation; tried for",
+        "descr_trans": "犯罪/指控；尝试过"
+      },
+      {
+        "n": "3",
+        "descr": "adjudicator (if specified from military branch bringing charges)",
+        "descr_trans": "裁决员（如果由军事部门指定提出指控）"
+      }
+    ],
+    "roleset_name_trans": "受军方审判"
+  }
 ]

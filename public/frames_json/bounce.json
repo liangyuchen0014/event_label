@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bounce.01",
-        "roleset_name": "boing boing boing,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of bouncing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing bouncing, rubber ball"
-            },
-            {
-                "n": "2",
-                "descr": "extent"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bounce_back.02",
-        "roleset_name": "recover",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing recovering"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bounce.01",
+    "roleset_name": "boing boing boing,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of bouncing, agent",
+        "descr_trans": "跳票的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing bouncing, rubber ball",
+        "descr_trans": "弹跳的东西，橡皮球"
+      },
+      {
+        "n": "2",
+        "descr": "extent",
+        "descr_trans": "程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "噗噗噗噗,"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bounce_back.02",
+    "roleset_name": "recover",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing recovering",
+        "descr_trans": "东西正在恢复"
+      }
+    ],
+    "roleset_name_trans": "恢复"
+  }
 ]

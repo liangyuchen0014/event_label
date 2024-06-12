@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "translucent.01",
-        "roleset_name": "allowing light to pass through diffusely",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "translucent entity"
-            },
-            {
-                "n": "2",
-                "descr": "the light"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "translucent.01",
+    "roleset_name": "allowing light to pass through diffusely",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "translucent entity",
+        "descr_trans": "半透明实体"
+      },
+      {
+        "n": "2",
+        "descr": "the light",
+        "descr_trans": "光"
+      }
+    ],
+    "roleset_name_trans": "允许光线漫射通过"
+  }
 ]

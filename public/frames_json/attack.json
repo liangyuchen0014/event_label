@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "attack.01",
-        "roleset_name": "to make an attack, criticize strongly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "entity attacked"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "attack.01",
+    "roleset_name": "to make an attack, criticize strongly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "entity attacked",
+        "descr_trans": "实体受到攻击"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "进行攻击，强烈批评"
+  }
 ]

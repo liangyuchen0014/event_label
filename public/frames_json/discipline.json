@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "discipline.01",
-        "roleset_name": "give punishment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discipliner"
-            },
-            {
-                "n": "1",
-                "descr": "disciplined"
-            },
-            {
-                "n": "2",
-                "descr": "cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "discipline.01",
+    "roleset_name": "give punishment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discipliner",
+        "descr_trans": "学科"
+      },
+      {
+        "n": "1",
+        "descr": "disciplined",
+        "descr_trans": "有纪律的"
+      },
+      {
+        "n": "2",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "给予惩罚"
+  }
 ]

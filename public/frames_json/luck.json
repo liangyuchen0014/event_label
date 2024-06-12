@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "luck_out.01",
-        "roleset_name": "to get lucky",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "person who lucked out"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lucky.02",
-        "roleset_name": "fortunate, beating the odds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing providing luck"
-            },
-            {
-                "n": "1",
-                "descr": "lucky one"
-            },
-            {
-                "n": "2",
-                "descr": "lucky experience (result of luck"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "luck_out.01",
+    "roleset_name": "to get lucky",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "person who lucked out",
+        "descr_trans": "幸运的人"
+      }
+    ],
+    "roleset_name_trans": "获得幸运"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lucky.02",
+    "roleset_name": "fortunate, beating the odds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing providing luck",
+        "descr_trans": "提供运气的东西"
+      },
+      {
+        "n": "1",
+        "descr": "lucky one",
+        "descr_trans": "幸运儿"
+      },
+      {
+        "n": "2",
+        "descr": "lucky experience (result of luck",
+        "descr_trans": "幸运的经历（运气的结果"
+      }
+    ],
+    "roleset_name_trans": "幸运的是，战胜了困难"
+  }
 ]

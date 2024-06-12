@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "halt.01",
-        "roleset_name": "stop",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stopping"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being stopped)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "halt.02",
-        "roleset_name": "halt from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "primary agent, preventer"
-            },
-            {
-                "n": "1",
-                "descr": "secondary agent, entity coming to to a halt"
-            },
-            {
-                "n": "2",
-                "descr": "action secondary agent is kept from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "halt.01",
+    "roleset_name": "stop",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stopping",
+        "descr_trans": "停止的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being stopped)",
+        "descr_trans": "主题（停止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, if separate from arg0",
+        "descr_trans": "仪器（如果与 arg0 分开）"
+      }
+    ],
+    "roleset_name_trans": "停止"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "halt.02",
+    "roleset_name": "halt from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "primary agent, preventer",
+        "descr_trans": "主剂、预防剂"
+      },
+      {
+        "n": "1",
+        "descr": "secondary agent, entity coming to to a halt",
+        "descr_trans": "二级代理，实体停止运转"
+      },
+      {
+        "n": "2",
+        "descr": "action secondary agent is kept from",
+        "descr_trans": "行动二级代理被阻止"
+      }
+    ],
+    "roleset_name_trans": "停止"
+  }
 ]

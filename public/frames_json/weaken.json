@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weaken.01",
-        "roleset_name": "make or become weaker, making or becoming weaker",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing weakening"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weak.02",
-        "roleset_name": "lacking skill, intensity",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unskilled/weak entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill, intensity lacked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weaken.01",
+    "roleset_name": "make or become weaker, making or becoming weaker",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing weakening",
+        "descr_trans": "事物减弱"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "使或变得更弱，使或变得更弱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weak.02",
+    "roleset_name": "lacking skill, intensity",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unskilled/weak entity",
+        "descr_trans": "无技能/弱实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill, intensity lacked",
+        "descr_trans": "缺乏技巧、强度"
+      }
+    ],
+    "roleset_name_trans": "缺乏技巧、强度"
+  }
 ]

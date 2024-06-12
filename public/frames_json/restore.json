@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "restore.01",
-        "roleset_name": "give back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, restorer"
-            },
-            {
-                "n": "1",
-                "descr": "gift, thing restored"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, restored-to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "restore.02",
-        "roleset_name": "make like new, restore to previous state",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "restorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing restored, renewed"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "restore.01",
+    "roleset_name": "give back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, restorer",
+        "descr_trans": "给予、恢复"
+      },
+      {
+        "n": "1",
+        "descr": "gift, thing restored",
+        "descr_trans": "礼物，恢复的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, restored-to",
+        "descr_trans": "有益的，恢复的"
+      }
+    ],
+    "roleset_name_trans": "回报"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "restore.02",
+    "roleset_name": "make like new, restore to previous state",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "restorer",
+        "descr_trans": "恢复者"
+      },
+      {
+        "n": "1",
+        "descr": "thing restored, renewed",
+        "descr_trans": "东西恢复了，更新了"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "像新的一样，恢复到以前的状态"
+  }
 ]

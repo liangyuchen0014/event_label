@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redeploy.01",
-        "roleset_name": "set into place, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "deployer"
-            },
-            {
-                "n": "1",
-                "descr": "deployed"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redeploy.01",
+    "roleset_name": "set into place, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "deployer",
+        "descr_trans": "部署者"
+      },
+      {
+        "n": "1",
+        "descr": "deployed",
+        "descr_trans": "已部署"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication",
+        "descr_trans": "二次预测"
+      }
+    ],
+    "roleset_name_trans": "再次安装到位"
+  }
 ]

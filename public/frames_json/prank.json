@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prank.01",
-        "roleset_name": "play a practical joke on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "prankster"
-            },
-            {
-                "n": "1",
-                "descr": "target of prank (entity fooled)"
-            },
-            {
-                "n": "2",
-                "descr": "the prank itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prank.01",
+    "roleset_name": "play a practical joke on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "prankster",
+        "descr_trans": "恶作剧者"
+      },
+      {
+        "n": "1",
+        "descr": "target of prank (entity fooled)",
+        "descr_trans": "恶作剧的目标（实体被愚弄）"
+      },
+      {
+        "n": "2",
+        "descr": "the prank itself",
+        "descr_trans": "恶作剧本身"
+      }
+    ],
+    "roleset_name_trans": "恶作剧"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cryopreserve.01",
-        "roleset_name": "preserve by freezing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of freezing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being preserved"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used to freeze, preserved in/with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cryopreserve.01",
+    "roleset_name": "preserve by freezing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of freezing",
+        "descr_trans": "代理，冻结的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being preserved",
+        "descr_trans": "被保存的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used to freeze, preserved in/with",
+        "descr_trans": "用于冷冻、保存于/与"
+      }
+    ],
+    "roleset_name_trans": "冷冻保存"
+  }
 ]

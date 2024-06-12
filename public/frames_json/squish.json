@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squish.01",
-        "roleset_name": "squish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, squisher"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing being squished"
-            },
-            {
-                "n": "2",
-                "descr": "instrument used"
-            },
-            {
-                "n": "3",
-                "descr": "resulting state of arg1, often prepositional"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "squish.02",
-        "roleset_name": "create by squishing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "squisher"
-            },
-            {
-                "n": "1",
-                "descr": "thing squished"
-            },
-            {
-                "n": "2",
-                "descr": "squished into (entity created)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squish.01",
+    "roleset_name": "squish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, squisher",
+        "descr_trans": "代理人、压榨者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing being squished",
+        "descr_trans": "病人，东西被压扁"
+      },
+      {
+        "n": "2",
+        "descr": "instrument used",
+        "descr_trans": "使用的仪器"
+      },
+      {
+        "n": "3",
+        "descr": "resulting state of arg1, often prepositional",
+        "descr_trans": "arg1 的结果状态，通常是介词"
+      }
+    ],
+    "roleset_name_trans": "压扁"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "squish.02",
+    "roleset_name": "create by squishing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "squisher",
+        "descr_trans": "压碎机"
+      },
+      {
+        "n": "1",
+        "descr": "thing squished",
+        "descr_trans": "东西压扁了"
+      },
+      {
+        "n": "2",
+        "descr": "squished into (entity created)",
+        "descr_trans": "压入（创建的实体）"
+      }
+    ],
+    "roleset_name_trans": "通过挤压创建"
+  }
 ]

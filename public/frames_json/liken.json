@@ -1,92 +1,110 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "like.01",
-        "roleset_name": "have affection towards, be fond of, enjoy (habitually)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker"
-            },
-            {
-                "n": "1",
-                "descr": "object of affection"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "like.02",
-        "roleset_name": "would like, wish, want (polite)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject"
-            },
-            {
-                "n": "1",
-                "descr": "phrasal complement"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "like.04",
-        "roleset_name": "similar",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first item in comparison"
-            },
-            {
-                "n": "2",
-                "descr": "second item in comparison"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "liken.03",
-        "roleset_name": "draw a similarity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making comparison, agent"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "thing it's similar to"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "alike.05",
-        "roleset_name": "similar",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "things that are alike"
-            },
-            {
-                "n": "2",
-                "descr": "domain of likeness"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "liking.06",
-        "roleset_name": "likely, appearing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "likely, appearing thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "like.01",
+    "roleset_name": "have affection towards, be fond of, enjoy (habitually)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker",
+        "descr_trans": "喜欢"
+      },
+      {
+        "n": "1",
+        "descr": "object of affection",
+        "descr_trans": "感情对象"
+      }
+    ],
+    "roleset_name_trans": "（习惯性地）有感情，喜欢，享受"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "like.02",
+    "roleset_name": "would like, wish, want (polite)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "1",
+        "descr": "phrasal complement",
+        "descr_trans": "短语补语"
+      }
+    ],
+    "roleset_name_trans": "愿意、希望、想要（礼貌）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "like.04",
+    "roleset_name": "similar",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first item in comparison",
+        "descr_trans": "第一项比较"
+      },
+      {
+        "n": "2",
+        "descr": "second item in comparison",
+        "descr_trans": "比较的第二项"
+      }
+    ],
+    "roleset_name_trans": "相似的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "liken.03",
+    "roleset_name": "draw a similarity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making comparison, agent",
+        "descr_trans": "实体进行比较，代理"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "thing it's similar to",
+        "descr_trans": "它类似于"
+      }
+    ],
+    "roleset_name_trans": "画出相似点"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "alike.05",
+    "roleset_name": "similar",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "things that are alike",
+        "descr_trans": "相似的事物"
+      },
+      {
+        "n": "2",
+        "descr": "domain of likeness",
+        "descr_trans": "相似域"
+      }
+    ],
+    "roleset_name_trans": "相似的"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "liking.06",
+    "roleset_name": "likely, appearing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "likely, appearing thing",
+        "descr_trans": "可能的，出现的东西"
+      }
+    ],
+    "roleset_name_trans": "可能，出现"
+  }
 ]

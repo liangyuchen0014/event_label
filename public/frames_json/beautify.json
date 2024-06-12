@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beautify.01",
-        "roleset_name": "make beautiful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decorator, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity adorned"
-            },
-            {
-                "n": "2",
-                "descr": "decoration;instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "beautiful.02",
-        "roleset_name": "aesthetically/sensorially pleasing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "beautiful thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beautify.01",
+    "roleset_name": "make beautiful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decorator, agent",
+        "descr_trans": "装修师、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "entity adorned",
+        "descr_trans": "实体装饰"
+      },
+      {
+        "n": "2",
+        "descr": "decoration;instrument",
+        "descr_trans": "装饰；仪器"
+      }
+    ],
+    "roleset_name_trans": "使美丽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "beautiful.02",
+    "roleset_name": "aesthetically/sensorially pleasing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "beautiful thing",
+        "descr_trans": "美丽的东西"
+      }
+    ],
+    "roleset_name_trans": "美观/感官愉悦"
+  }
 ]

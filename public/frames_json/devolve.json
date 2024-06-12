@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "devolve.01",
-        "roleset_name": "pass on to a successor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "devolve.02",
-        "roleset_name": "grow worse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of devolution"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing growing worse"
-            },
-            {
-                "n": "2",
-                "descr": "start state"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "devolve.01",
+    "roleset_name": "pass on to a successor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, agent",
+        "descr_trans": "给予者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "传给继任者"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "devolve.02",
+    "roleset_name": "grow worse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of devolution",
+        "descr_trans": "代理人，权力下放的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing growing worse",
+        "descr_trans": "病人，事情变得更糟"
+      },
+      {
+        "n": "2",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "变得更糟"
+  }
 ]

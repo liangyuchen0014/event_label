@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinsert.01",
-        "roleset_name": "to put into/between/among again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Inserter"
-            },
-            {
-                "n": "1",
-                "descr": "Entity inserted"
-            },
-            {
-                "n": "2",
-                "descr": "Location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinsert.01",
+    "roleset_name": "to put into/between/among again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Inserter",
+        "descr_trans": "插入器"
+      },
+      {
+        "n": "1",
+        "descr": "Entity inserted",
+        "descr_trans": "已插入实体"
+      },
+      {
+        "n": "2",
+        "descr": "Location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "再次放入/之间/之中"
+  }
 ]

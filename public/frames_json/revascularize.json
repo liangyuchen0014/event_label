@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revascularize.01",
-        "roleset_name": "re-supply with vessels to conduct fluid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "Patient, person or body part undergoing revascularization"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revascularize.01",
+    "roleset_name": "re-supply with vessels to conduct fluid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "Patient, person or body part undergoing revascularization",
+        "descr_trans": "接受血运重建的患者、个人或身体部位"
+      }
+    ],
+    "roleset_name_trans": "重新供应容器以传导液体"
+  }
 ]

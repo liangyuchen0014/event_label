@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "prepare.01",
-        "roleset_name": "prepare, make, create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "creation"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "prepare.02",
-        "roleset_name": "make ready",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preparer"
-            },
-            {
-                "n": "1",
-                "descr": "thing made ready"
-            },
-            {
-                "n": "2",
-                "descr": "ready for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "prepare.01",
+    "roleset_name": "prepare, make, create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "creation",
+        "descr_trans": "创建"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "准备、制作、创造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "prepare.02",
+    "roleset_name": "make ready",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preparer",
+        "descr_trans": "准备者"
+      },
+      {
+        "n": "1",
+        "descr": "thing made ready",
+        "descr_trans": "东西准备好了"
+      },
+      {
+        "n": "2",
+        "descr": "ready for",
+        "descr_trans": "准备好"
+      }
+    ],
+    "roleset_name_trans": "做好准备"
+  }
 ]

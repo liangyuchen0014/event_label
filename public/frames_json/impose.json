@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "impose.01",
-        "roleset_name": "be a bother",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "imposer (not imposter)"
-            },
-            {
-                "n": "1",
-                "descr": "thing imposed"
-            },
-            {
-                "n": "2",
-                "descr": "imposed on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "impose.01",
+    "roleset_name": "be a bother",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "imposer (not imposter)",
+        "descr_trans": "强加（不是强加）"
+      },
+      {
+        "n": "1",
+        "descr": "thing imposed",
+        "descr_trans": "强加的东西"
+      },
+      {
+        "n": "2",
+        "descr": "imposed on",
+        "descr_trans": "强加于"
+      }
+    ],
+    "roleset_name_trans": "打扰"
+  }
 ]

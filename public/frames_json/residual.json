@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "residual.01",
-        "roleset_name": "remaining, left over or left behind after some event or process",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing remaining"
-            },
-            {
-                "n": "2",
-                "descr": "event that ARG1 remains after"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "residual.01",
+    "roleset_name": "remaining, left over or left behind after some event or process",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing remaining",
+        "descr_trans": "剩下的东西"
+      },
+      {
+        "n": "2",
+        "descr": "event that ARG1 remains after",
+        "descr_trans": "ARG1 保留后的事件"
+      }
+    ],
+    "roleset_name_trans": "在某些事件或过程之后剩余的、留下的或留下的"
+  }
 ]

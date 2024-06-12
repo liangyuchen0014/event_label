@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "celiotomy.01",
-        "roleset_name": "surgical incision into the abdomen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "celiotomy.01",
+    "roleset_name": "surgical incision into the abdomen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "手术切口进入腹部"
+  }
 ]

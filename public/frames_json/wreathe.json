@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wreathe.01",
-        "roleset_name": "to encircle or decorate with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "placer of wreath"
-            },
-            {
-                "n": "1",
-                "descr": "location where wreath is placed"
-            },
-            {
-                "n": "2",
-                "descr": "wreath or wreath-like object"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wreathe.02",
-        "roleset_name": "to move with slow, curvy movements",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mover"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wreathe.01",
+    "roleset_name": "to encircle or decorate with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "placer of wreath",
+        "descr_trans": "花圈摆放者"
+      },
+      {
+        "n": "1",
+        "descr": "location where wreath is placed",
+        "descr_trans": "放置花圈的位置"
+      },
+      {
+        "n": "2",
+        "descr": "wreath or wreath-like object",
+        "descr_trans": "花环或类似花环的物体"
+      }
+    ],
+    "roleset_name_trans": "包围或装饰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wreathe.02",
+    "roleset_name": "to move with slow, curvy movements",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mover",
+        "descr_trans": "搬运工"
+      }
+    ],
+    "roleset_name_trans": "以缓慢、弯曲的动作移动"
+  }
 ]

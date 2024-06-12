@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overjoy.01",
-        "roleset_name": "to provide with much joy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, pleaser providing joy"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity overjoyed"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument used to cause joy when separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overjoy.01",
+    "roleset_name": "to provide with much joy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, pleaser providing joy",
+        "descr_trans": "代理人，取悦者提供欢乐"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity overjoyed",
+        "descr_trans": "病人，实体欣喜若狂"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument used to cause joy when separate from arg 0",
+        "descr_trans": "与 arg 0 分离时用于引起欢乐的乐器"
+      }
+    ],
+    "roleset_name_trans": "提供许多欢乐"
+  }
 ]

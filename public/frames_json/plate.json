@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plate.01",
-        "roleset_name": "the process of orthopedic plate use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, plate installer"
-            },
-            {
-                "n": "1",
-                "descr": "recipient; entity recieving plate"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of the plate or material"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plate.01",
+    "roleset_name": "the process of orthopedic plate use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, plate installer",
+        "descr_trans": "代理商、板材安装工"
+      },
+      {
+        "n": "1",
+        "descr": "recipient; entity recieving plate",
+        "descr_trans": "接受者;实体接收板"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of the plate or material",
+        "descr_trans": "明确提及板材或材料"
+      }
+    ],
+    "roleset_name_trans": "矫形钢板使用流程"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chart.01",
-        "roleset_name": "document, as with a chart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chart-maker"
-            },
-            {
-                "n": "1",
-                "descr": "thing being charted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "chart_out.02",
-        "roleset_name": "document, as with a chart",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chart-maker"
-            },
-            {
-                "n": "1",
-                "descr": "thing being charted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chart.01",
+    "roleset_name": "document, as with a chart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chart-maker",
+        "descr_trans": "图表制作者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being charted",
+        "descr_trans": "正在绘制的东西"
+      }
+    ],
+    "roleset_name_trans": "文档，就像图表一样"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "chart_out.02",
+    "roleset_name": "document, as with a chart",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chart-maker",
+        "descr_trans": "图表制作者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being charted",
+        "descr_trans": "正在绘制的东西"
+      }
+    ],
+    "roleset_name_trans": "文档，就像图表一样"
+  }
 ]

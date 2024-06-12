@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "census.01",
-        "roleset_name": "taking a count of a population",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "counter"
-            },
-            {
-                "n": "1",
-                "descr": "counted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "census.01",
+    "roleset_name": "taking a count of a population",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "counter",
+        "descr_trans": "柜台"
+      },
+      {
+        "n": "1",
+        "descr": "counted",
+        "descr_trans": "数过的"
+      }
+    ],
+    "roleset_name_trans": "统计人口"
+  }
 ]

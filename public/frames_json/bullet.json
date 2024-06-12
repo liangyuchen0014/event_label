@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bullet.01",
-        "roleset_name": "shoot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "projectile"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bullet.01",
+    "roleset_name": "shoot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "projectile",
+        "descr_trans": "射弹"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "射击"
+  }
 ]

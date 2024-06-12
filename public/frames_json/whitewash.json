@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whitewash.01",
-        "roleset_name": "paint with whitewash",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "painter"
-            },
-            {
-                "n": "1",
-                "descr": "thing painted"
-            },
-            {
-                "n": "2",
-                "descr": "the whitewash"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whitewash.02",
-        "roleset_name": "exonerate, perhaps in a shady way, ",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent or organization doing the whitewashing"
-            },
-            {
-                "n": "1",
-                "descr": "entity being exonerated"
-            },
-            {
-                "n": "2",
-                "descr": "crimes"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "whitewash.03",
-        "roleset_name": "cover up a misdemeanor, fault, or error",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Entity doing the covering up"
-            },
-            {
-                "n": "1",
-                "descr": "Thing being covered up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whitewash.01",
+    "roleset_name": "paint with whitewash",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "painter",
+        "descr_trans": "画家"
+      },
+      {
+        "n": "1",
+        "descr": "thing painted",
+        "descr_trans": "画的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the whitewash",
+        "descr_trans": "粉饰"
+      }
+    ],
+    "roleset_name_trans": "用粉刷油漆"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whitewash.02",
+    "roleset_name": "exonerate, perhaps in a shady way, ",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent or organization doing the whitewashing",
+        "descr_trans": "进行粉饰的代理人或组织"
+      },
+      {
+        "n": "1",
+        "descr": "entity being exonerated",
+        "descr_trans": "被无罪释放的实体"
+      },
+      {
+        "n": "2",
+        "descr": "crimes",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "开脱，也许以一种阴暗的方式，"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "whitewash.03",
+    "roleset_name": "cover up a misdemeanor, fault, or error",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Entity doing the covering up",
+        "descr_trans": "进行掩盖的实体"
+      },
+      {
+        "n": "1",
+        "descr": "Thing being covered up",
+        "descr_trans": "被掩盖的事情"
+      }
+    ],
+    "roleset_name_trans": "掩盖轻罪、过失或错误"
+  }
 ]

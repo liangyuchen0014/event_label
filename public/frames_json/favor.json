@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "favor.01",
-        "roleset_name": "like or prefer one option, usually over another; be preferrable to another option",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker"
-            },
-            {
-                "n": "1",
-                "descr": "thing preferred, favored"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (the favor itself)"
-            },
-            {
-                "n": "3",
-                "descr": "favored over; less favorable alternative"
-            },
-            {
-                "n": "4",
-                "descr": "superset of things arg1 is favored amongst"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "favor.02",
-        "roleset_name": "using an injured body part less",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with an injured body part"
-            },
-            {
-                "n": "1",
-                "descr": "injured body part"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "favor.03",
-        "roleset_name": "take after, resemble",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "resembler"
-            },
-            {
-                "n": "2",
-                "descr": "resembled"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "favorable.04",
-        "roleset_name": "good for, advantageous, pleasing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is good or advantageous"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "favor.01",
+    "roleset_name": "like or prefer one option, usually over another; be preferrable to another option",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker",
+        "descr_trans": "喜欢"
+      },
+      {
+        "n": "1",
+        "descr": "thing preferred, favored",
+        "descr_trans": "偏爱的东西，偏爱的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (the favor itself)",
+        "descr_trans": "工具（恩惠本身）"
+      },
+      {
+        "n": "3",
+        "descr": "favored over; less favorable alternative",
+        "descr_trans": "受青睐；不太有利的替代方案"
+      },
+      {
+        "n": "4",
+        "descr": "superset of things arg1 is favored amongst",
+        "descr_trans": "arg1 的超集受到青睐"
+      }
+    ],
+    "roleset_name_trans": "喜欢或偏爱一种选择，通常胜过另一种；优于其他选择"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "favor.02",
+    "roleset_name": "using an injured body part less",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with an injured body part",
+        "descr_trans": "身体部位受伤的实体"
+      },
+      {
+        "n": "1",
+        "descr": "injured body part",
+        "descr_trans": "受伤的身体部位"
+      }
+    ],
+    "roleset_name_trans": "减少使用受伤的身体部位"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "favor.03",
+    "roleset_name": "take after, resemble",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "resembler",
+        "descr_trans": "相似者"
+      },
+      {
+        "n": "2",
+        "descr": "resembled",
+        "descr_trans": "类似"
+      }
+    ],
+    "roleset_name_trans": "效仿，效仿"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "favorable.04",
+    "roleset_name": "good for, advantageous, pleasing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is good or advantageous",
+        "descr_trans": "好的或有利的事物"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "有利于，有利，令人愉快"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confide.01",
-        "roleset_name": "to entrust, tell in confidence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "person confided to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confide.01",
+    "roleset_name": "to entrust, tell in confidence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker, agent",
+        "descr_trans": "发言人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "person confided to",
+        "descr_trans": "向某人倾诉的人"
+      }
+    ],
+    "roleset_name_trans": "信任地委托，告诉"
+  }
 ]

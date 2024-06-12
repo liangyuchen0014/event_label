@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rewire.01",
-        "roleset_name": "reconfigure something's wiring",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of rewiring"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting rewired"
-            },
-            {
-                "n": "2",
-                "descr": "end state, secondary predication on arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rewire.01",
+    "roleset_name": "reconfigure something's wiring",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of rewiring",
+        "descr_trans": "重新布线代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting rewired",
+        "descr_trans": "事情正在重新布线"
+      },
+      {
+        "n": "2",
+        "descr": "end state, secondary predication on arg1",
+        "descr_trans": "结束状态，对 arg1 进行二次预测"
+      }
+    ],
+    "roleset_name_trans": "重新配置某物的接线"
+  }
 ]

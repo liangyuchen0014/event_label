@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seal.01",
-        "roleset_name": "to close with or as if with a seal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity sealed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "seal_off.02",
-        "roleset_name": "separate one entity from another by seal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of separation, sealing"
-            },
-            {
-                "n": "1",
-                "descr": "focused entity sealed off"
-            },
-            {
-                "n": "2",
-                "descr": "entity arg1 is sealed off from"
-            },
-            {
-                "n": "3",
-                "descr": "seal itself, instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seal.01",
+    "roleset_name": "to close with or as if with a seal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity sealed",
+        "descr_trans": "实体被密封"
+      }
+    ],
+    "roleset_name_trans": "用密封件封闭或好像用密封件封闭"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "seal_off.02",
+    "roleset_name": "separate one entity from another by seal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of separation, sealing",
+        "descr_trans": "分离、密封的原因"
+      },
+      {
+        "n": "1",
+        "descr": "focused entity sealed off",
+        "descr_trans": "重点实体被封锁"
+      },
+      {
+        "n": "2",
+        "descr": "entity arg1 is sealed off from",
+        "descr_trans": "实体 arg1 被封锁"
+      },
+      {
+        "n": "3",
+        "descr": "seal itself, instrument",
+        "descr_trans": "密封本身、仪器"
+      }
+    ],
+    "roleset_name_trans": "通过印章将一个实体与另一个实体分开"
+  }
 ]

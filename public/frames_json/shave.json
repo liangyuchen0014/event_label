@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shave.01",
-        "roleset_name": "to cut, cutting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing or amount cut"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shave.01",
+    "roleset_name": "to cut, cutting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cutter",
+        "descr_trans": "代理、切割机"
+      },
+      {
+        "n": "1",
+        "descr": "thing or amount cut",
+        "descr_trans": "事物或金额削减"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "切割，切割"
+  }
 ]

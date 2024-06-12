@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "entertain.01",
-        "roleset_name": "amuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entertainer"
-            },
-            {
-                "n": "1",
-                "descr": "entertained"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "entertain.02",
-        "roleset_name": "consider",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "considerer"
-            },
-            {
-                "n": "1",
-                "descr": "considered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "entertain.01",
+    "roleset_name": "amuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entertainer",
+        "descr_trans": "艺人"
+      },
+      {
+        "n": "1",
+        "descr": "entertained",
+        "descr_trans": "娱乐的"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "逗乐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "entertain.02",
+    "roleset_name": "consider",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "considerer",
+        "descr_trans": "考虑"
+      },
+      {
+        "n": "1",
+        "descr": "considered",
+        "descr_trans": "经过考虑的"
+      }
+    ],
+    "roleset_name_trans": "考虑"
+  }
 ]

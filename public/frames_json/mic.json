@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mic.01",
-        "roleset_name": "set up microphones",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, setter up"
-            },
-            {
-                "n": "1",
-                "descr": "entity wired"
-            },
-            {
-                "n": "2",
-                "descr": "other entity or end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mic_up.02",
-        "roleset_name": "attach a mic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of attachment"
-            },
-            {
-                "n": "1",
-                "descr": "entity wired"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mic.01",
+    "roleset_name": "set up microphones",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, setter up",
+        "descr_trans": "代理人、设置者"
+      },
+      {
+        "n": "1",
+        "descr": "entity wired",
+        "descr_trans": "实体有线"
+      },
+      {
+        "n": "2",
+        "descr": "other entity or end state",
+        "descr_trans": "其他实体或最终状态"
+      }
+    ],
+    "roleset_name_trans": "设置麦克风"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mic_up.02",
+    "roleset_name": "attach a mic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of attachment",
+        "descr_trans": "执着的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity wired",
+        "descr_trans": "实体有线"
+      }
+    ],
+    "roleset_name_trans": "连接麦克风"
+  }
 ]

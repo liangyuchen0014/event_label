@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backflip.01",
-        "roleset_name": "jump backwards heels over head",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent of motion (animate entity in motion)"
-            },
-            {
-                "n": "1",
-                "descr": "thing in motion, if in addition to arg0"
-            },
-            {
-                "n": "2",
-                "descr": "location, over what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backflip.01",
+    "roleset_name": "jump backwards heels over head",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent of motion (animate entity in motion)",
+        "descr_trans": "运动代理（运动中的有生命实体）"
+      },
+      {
+        "n": "1",
+        "descr": "thing in motion, if in addition to arg0",
+        "descr_trans": "运动中的物体，如果除了 arg0 之外"
+      },
+      {
+        "n": "2",
+        "descr": "location, over what",
+        "descr_trans": "位置，在什么方面"
+      }
+    ],
+    "roleset_name_trans": "向后跳过头顶"
+  }
 ]

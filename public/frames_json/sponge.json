@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sponge.01",
-        "roleset_name": "to gather sponges (the sea creature)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity gathered"
-            },
-            {
-                "n": "2",
-                "descr": "gathered into"
-            },
-            {
-                "n": "3",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sponge.02",
-        "roleset_name": "act like a sponge, leach off some entity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity acting like a sponge/leach"
-            },
-            {
-                "n": "1",
-                "descr": "thing gained, (\"absorbed\")"
-            },
-            {
-                "n": "2",
-                "descr": "source, entity taken advantage of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sponge.01",
+    "roleset_name": "to gather sponges (the sea creature)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or causer",
+        "descr_trans": "代理人或起因"
+      },
+      {
+        "n": "1",
+        "descr": "entity gathered",
+        "descr_trans": "实体聚集"
+      },
+      {
+        "n": "2",
+        "descr": "gathered into",
+        "descr_trans": "聚集成"
+      },
+      {
+        "n": "3",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "收集海绵（海洋生物）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sponge.02",
+    "roleset_name": "act like a sponge, leach off some entity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity acting like a sponge/leach",
+        "descr_trans": "像海绵/浸出一样的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing gained, (\"absorbed\")",
+        "descr_trans": "获得的东西，（“吸收”）"
+      },
+      {
+        "n": "2",
+        "descr": "source, entity taken advantage of",
+        "descr_trans": "来源、利用的实体"
+      }
+    ],
+    "roleset_name_trans": "像海绵一样，滤出一些实体"
+  }
 ]

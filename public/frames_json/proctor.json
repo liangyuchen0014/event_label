@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proctor.01",
-        "roleset_name": "administer/supevise, as a test or dormitory",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "administrator, supervisor"
-            },
-            {
-                "n": "1",
-                "descr": "administrated"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proctor.01",
+    "roleset_name": "administer/supevise, as a test or dormitory",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "administrator, supervisor",
+        "descr_trans": "管理员、主管"
+      },
+      {
+        "n": "1",
+        "descr": "administrated",
+        "descr_trans": "管理的"
+      }
+    ],
+    "roleset_name_trans": "管理/监督，作为考试或宿舍"
+  }
 ]

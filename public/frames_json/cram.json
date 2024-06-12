@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cram.01",
-        "roleset_name": "put stuff into a container",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "crammer"
-            },
-            {
-                "n": "1",
-                "descr": "stuff being put in"
-            },
-            {
-                "n": "2",
-                "descr": "container"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cram.02",
-        "roleset_name": "study very hard, very fast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "student"
-            },
-            {
-                "n": "1",
-                "descr": "subject"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cram.01",
+    "roleset_name": "put stuff into a container",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "crammer",
+        "descr_trans": "谎言"
+      },
+      {
+        "n": "1",
+        "descr": "stuff being put in",
+        "descr_trans": "正在放入的东西"
+      },
+      {
+        "n": "2",
+        "descr": "container",
+        "descr_trans": "容器"
+      }
+    ],
+    "roleset_name_trans": "将东西放入容器中"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cram.02",
+    "roleset_name": "study very hard, very fast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "1",
+        "descr": "subject",
+        "descr_trans": "主题"
+      }
+    ],
+    "roleset_name_trans": "学习非常努力，非常快"
+  }
 ]

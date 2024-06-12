@@ -1,100 +1,120 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "kick.01",
-        "roleset_name": "drive or impel with the foot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "kicker"
-            },
-            {
-                "n": "1",
-                "descr": "thing kicked"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (defaults to foot)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "kick_in.02",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of beginning"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "kick_in.03",
-        "roleset_name": "contribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributor"
-            },
-            {
-                "n": "1",
-                "descr": "contribution"
-            },
-            {
-                "n": "2",
-                "descr": "given to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "kick_off.04",
-        "roleset_name": "begin, inaugurate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, beginner"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing begun"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "kick_bucket.05",
-        "roleset_name": "die",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dead entity"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "get_kick.06",
-        "roleset_name": "enjoy, be amused by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "enjoyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing enjoyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "kick.01",
+    "roleset_name": "drive or impel with the foot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "kicker",
+        "descr_trans": "踢球者"
+      },
+      {
+        "n": "1",
+        "descr": "thing kicked",
+        "descr_trans": "东西踢了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (defaults to foot)",
+        "descr_trans": "乐器（默认为英尺）"
+      }
+    ],
+    "roleset_name_trans": "用脚驱动或推动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "kick_in.02",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of beginning",
+        "descr_trans": "开始的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "kick_in.03",
+    "roleset_name": "contribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributor",
+        "descr_trans": "贡献者"
+      },
+      {
+        "n": "1",
+        "descr": "contribution",
+        "descr_trans": "贡献"
+      },
+      {
+        "n": "2",
+        "descr": "given to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "贡献"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "kick_off.04",
+    "roleset_name": "begin, inaugurate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, beginner",
+        "descr_trans": "代理，初学者"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing begun",
+        "descr_trans": "主题，事情开始"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "开始，开始"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "kick_bucket.05",
+    "roleset_name": "die",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dead entity",
+        "descr_trans": "死亡实体"
+      }
+    ],
+    "roleset_name_trans": "死"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "get_kick.06",
+    "roleset_name": "enjoy, be amused by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "enjoyer",
+        "descr_trans": "享受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing enjoyed",
+        "descr_trans": "喜欢的事情"
+      }
+    ],
+    "roleset_name_trans": "享受，被逗乐"
+  }
 ]

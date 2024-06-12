@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insulate.01",
-        "roleset_name": "protect from heat, cold, etc",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive protector"
-            },
-            {
-                "n": "1",
-                "descr": "protected"
-            },
-            {
-                "n": "2",
-                "descr": "protected from"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, insulation itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "insulate.02",
-        "roleset_name": "isolate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of isolation"
-            },
-            {
-                "n": "1",
-                "descr": "isolated"
-            },
-            {
-                "n": "2",
-                "descr": "isolated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insulate.01",
+    "roleset_name": "protect from heat, cold, etc",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive protector",
+        "descr_trans": "代理保护者"
+      },
+      {
+        "n": "1",
+        "descr": "protected",
+        "descr_trans": "受保护的"
+      },
+      {
+        "n": "2",
+        "descr": "protected from",
+        "descr_trans": "免受"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, insulation itself",
+        "descr_trans": "仪器、绝缘本身"
+      }
+    ],
+    "roleset_name_trans": "防止热、冷等"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "insulate.02",
+    "roleset_name": "isolate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of isolation",
+        "descr_trans": "孤立的原因"
+      },
+      {
+        "n": "1",
+        "descr": "isolated",
+        "descr_trans": "孤立"
+      },
+      {
+        "n": "2",
+        "descr": "isolated from",
+        "descr_trans": "隔离于"
+      }
+    ],
+    "roleset_name_trans": "隔离"
+  }
 ]

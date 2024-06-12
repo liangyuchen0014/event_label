@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "physical.01",
-        "roleset_name": "examination of the body by a medical professional",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "physical.01",
+    "roleset_name": "examination of the body by a medical professional",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      }
+    ],
+    "roleset_name_trans": "由医疗专业人员对身体进行检查"
+  }
 ]

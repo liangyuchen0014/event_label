@@ -1,99 +1,118 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "blacken.01",
-        "roleset_name": "(cause to) become black in color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of blackness"
-            },
-            {
-                "n": "1",
-                "descr": "thing that is black in color"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "black_out.02",
-        "roleset_name": "fall asleep, faint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fainter"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "black_out.03",
-        "roleset_name": "cause to not emit light",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of non-emission, agent"
-            },
-            {
-                "n": "1",
-                "descr": "non-emitter of light"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "black.04",
-        "roleset_name": "black in color",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of blackness"
-            },
-            {
-                "n": "1",
-                "descr": "thing that is black in color"
-            },
-            {
-                "n": "2",
-                "descr": "specific part of arg1, if also mentioned"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "black.05",
-        "roleset_name": "of an ethnic background featuring dark skin",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity identifying as black, racially"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "black.06",
-        "roleset_name": "morbid, depressive, evil, macabre, dark",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "macabre thing"
-            },
-            {
-                "n": "2",
-                "descr": "specific aspect of arg1 that is dark"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "black.07",
-        "roleset_name": "illegal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing that is illegal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "blacken.01",
+    "roleset_name": "(cause to) become black in color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of blackness",
+        "descr_trans": "发黑的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing that is black in color",
+        "descr_trans": "黑色的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）颜色变黑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "black_out.02",
+    "roleset_name": "fall asleep, faint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fainter",
+        "descr_trans": "较微弱"
+      }
+    ],
+    "roleset_name_trans": "睡着了，昏倒"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "black_out.03",
+    "roleset_name": "cause to not emit light",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of non-emission, agent",
+        "descr_trans": "不排放原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "non-emitter of light",
+        "descr_trans": "非发光体"
+      }
+    ],
+    "roleset_name_trans": "导致不发光"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "black.04",
+    "roleset_name": "black in color",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of blackness",
+        "descr_trans": "发黑的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing that is black in color",
+        "descr_trans": "黑色的东西"
+      },
+      {
+        "n": "2",
+        "descr": "specific part of arg1, if also mentioned",
+        "descr_trans": "arg1 的特定部分（如果还提到的话）"
+      }
+    ],
+    "roleset_name_trans": "颜色为黑色"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "black.05",
+    "roleset_name": "of an ethnic background featuring dark skin",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity identifying as black, racially",
+        "descr_trans": "种族上认定为黑人的实体"
+      }
+    ],
+    "roleset_name_trans": "具有深色皮肤的种族背景"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "black.06",
+    "roleset_name": "morbid, depressive, evil, macabre, dark",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "macabre thing",
+        "descr_trans": "可怕的事情"
+      },
+      {
+        "n": "2",
+        "descr": "specific aspect of arg1 that is dark",
+        "descr_trans": "arg1 的特定部分是暗的"
+      }
+    ],
+    "roleset_name_trans": "病态、抑郁、邪恶、恐怖、黑暗"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "black.07",
+    "roleset_name": "illegal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing that is illegal",
+        "descr_trans": "非法的事情"
+      }
+    ],
+    "roleset_name_trans": "非法的"
+  }
 ]

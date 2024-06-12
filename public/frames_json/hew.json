@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hew.01",
-        "roleset_name": "chop wood",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "chopper"
-            },
-            {
-                "n": "1",
-                "descr": "wood"
-            },
-            {
-                "n": "2",
-                "descr": "instrument (eg axe)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hew.02",
-        "roleset_name": "adhere to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adherer"
-            },
-            {
-                "n": "1",
-                "descr": "thing adhered to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hew.01",
+    "roleset_name": "chop wood",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "chopper",
+        "descr_trans": "斩波器"
+      },
+      {
+        "n": "1",
+        "descr": "wood",
+        "descr_trans": "木头"
+      },
+      {
+        "n": "2",
+        "descr": "instrument (eg axe)",
+        "descr_trans": "工具（例如斧头）"
+      }
+    ],
+    "roleset_name_trans": "伐木"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hew.02",
+    "roleset_name": "adhere to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adherer",
+        "descr_trans": "追随者"
+      },
+      {
+        "n": "1",
+        "descr": "thing adhered to",
+        "descr_trans": "所坚持的事物"
+      }
+    ],
+    "roleset_name_trans": "坚持"
+  }
 ]

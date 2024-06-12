@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "convect.01",
-        "roleset_name": "counter-gravity tranfer of mass almost always due to heat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transfer (heat-related)"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion, thing transfered"
-            },
-            {
-                "n": "2",
-                "descr": "starting point"
-            },
-            {
-                "n": "3",
-                "descr": "end point, transfered to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "convect.01",
+    "roleset_name": "counter-gravity tranfer of mass almost always due to heat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transfer (heat-related)",
+        "descr_trans": "转移原因（与热有关）"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion, thing transfered",
+        "descr_trans": "运动中的实体，转移的事物"
+      },
+      {
+        "n": "2",
+        "descr": "starting point",
+        "descr_trans": "初始点"
+      },
+      {
+        "n": "3",
+        "descr": "end point, transfered to",
+        "descr_trans": "终点，转移到"
+      }
+    ],
+    "roleset_name_trans": "质量的反重力转移几乎总是由于热量"
+  }
 ]

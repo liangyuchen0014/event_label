@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sig.01",
-        "roleset_name": "to write (latin), label a prescription",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "thing written"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sig.01",
+    "roleset_name": "to write (latin), label a prescription",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "thing written",
+        "descr_trans": "写的东西"
+      }
+    ],
+    "roleset_name_trans": "写（拉丁语），给处方贴上标签"
+  }
 ]

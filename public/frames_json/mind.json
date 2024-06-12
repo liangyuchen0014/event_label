@@ -1,244 +1,294 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mind.01",
-        "roleset_name": "be bothered by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity being bothered"
-            },
-            {
-                "n": "1",
-                "descr": "bothered by"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mind.02",
-        "roleset_name": "take care of, tend to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caregiver"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "mind.03",
-        "roleset_name": "make a note of, watch yourself!",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "noter"
-            },
-            {
-                "n": "1",
-                "descr": "yourself"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "mind.05",
-        "roleset_name": "opinion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thought"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "mind.06",
-        "roleset_name": "have a particular mental property",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thinker, person with mental property"
-            },
-            {
-                "n": "2",
-                "descr": "mental property"
-            },
-            {
-                "n": "3",
-                "descr": "towards who is the "
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "mind.15",
-        "roleset_name": "attend to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attender"
-            },
-            {
-                "n": "1",
-                "descr": "entity attended to"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "on_ones_mind.07",
-        "roleset_name": "be in one's general thoughts, contents of one's mental space",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thinker"
-            },
-            {
-                "n": "2",
-                "descr": "thought, focus of attention"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "keep_in_mind.08",
-        "roleset_name": "remember and consider",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "rememberer"
-            },
-            {
-                "n": "2",
-                "descr": "thought"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "come_to_mind.09",
-        "roleset_name": "spontaneously think of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thinker"
-            },
-            {
-                "n": "2",
-                "descr": "thought"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "of_one_mind.10",
-        "roleset_name": "agreeing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first or all agreers"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "second agreer"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "of_two_minds.11",
-        "roleset_name": "disagreeing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first or all disagreers"
-            },
-            {
-                "n": "1",
-                "descr": "subject matter"
-            },
-            {
-                "n": "2",
-                "descr": "second disagreer"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "make_up_mind.12",
-        "roleset_name": "decide",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "decider"
-            },
-            {
-                "n": "1",
-                "descr": "the decision itself, answer to the question"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of the decision, question answered"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "have_in_mind.13",
-        "roleset_name": "intend, desire to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intender"
-            },
-            {
-                "n": "1",
-                "descr": "intention"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "singleminded.14",
-        "roleset_name": "without distraction",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity with a one track mind"
-            },
-            {
-                "n": "2",
-                "descr": "about what; goal or activity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mind.01",
+    "roleset_name": "be bothered by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity being bothered",
+        "descr_trans": "实体受到困扰"
+      },
+      {
+        "n": "1",
+        "descr": "bothered by",
+        "descr_trans": "困扰于"
+      }
+    ],
+    "roleset_name_trans": "被打扰"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mind.02",
+    "roleset_name": "take care of, tend to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caregiver",
+        "descr_trans": "照顾者"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      }
+    ],
+    "roleset_name_trans": "照顾，倾向于"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "mind.03",
+    "roleset_name": "make a note of, watch yourself!",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "noter",
+        "descr_trans": "要注意"
+      },
+      {
+        "n": "1",
+        "descr": "yourself",
+        "descr_trans": "你自己"
+      }
+    ],
+    "roleset_name_trans": "记下来，注意自己！"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "mind.05",
+    "roleset_name": "opinion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "thought",
+        "descr_trans": "想法"
+      }
+    ],
+    "roleset_name_trans": "观点"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "mind.06",
+    "roleset_name": "have a particular mental property",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thinker, person with mental property",
+        "descr_trans": "思想家，有精神财产的人"
+      },
+      {
+        "n": "2",
+        "descr": "mental property",
+        "descr_trans": "精神财产"
+      },
+      {
+        "n": "3",
+        "descr": "towards who is the ",
+        "descr_trans": "朝向谁"
+      }
+    ],
+    "roleset_name_trans": "具有特定的精神属性"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "mind.15",
+    "roleset_name": "attend to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attender",
+        "descr_trans": "出席"
+      },
+      {
+        "n": "1",
+        "descr": "entity attended to",
+        "descr_trans": "实体参加"
+      }
+    ],
+    "roleset_name_trans": "参加"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "on_ones_mind.07",
+    "roleset_name": "be in one's general thoughts, contents of one's mental space",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "2",
+        "descr": "thought, focus of attention",
+        "descr_trans": "思想、注意力的焦点"
+      }
+    ],
+    "roleset_name_trans": "心智空间的内容"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "keep_in_mind.08",
+    "roleset_name": "remember and consider",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "rememberer",
+        "descr_trans": "记忆者"
+      },
+      {
+        "n": "2",
+        "descr": "thought",
+        "descr_trans": "想法"
+      }
+    ],
+    "roleset_name_trans": "记住并考虑"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "come_to_mind.09",
+    "roleset_name": "spontaneously think of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "2",
+        "descr": "thought",
+        "descr_trans": "想法"
+      }
+    ],
+    "roleset_name_trans": "不由自主地想到"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "of_one_mind.10",
+    "roleset_name": "agreeing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first or all agreers",
+        "descr_trans": "第一个或所有同意者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "second agreer",
+        "descr_trans": "第二同意者"
+      }
+    ],
+    "roleset_name_trans": "同意"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "of_two_minds.11",
+    "roleset_name": "disagreeing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first or all disagreers",
+        "descr_trans": "第一个或所有反对者"
+      },
+      {
+        "n": "1",
+        "descr": "subject matter",
+        "descr_trans": "主题"
+      },
+      {
+        "n": "2",
+        "descr": "second disagreer",
+        "descr_trans": "第二个反对者"
+      }
+    ],
+    "roleset_name_trans": "不同意"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "make_up_mind.12",
+    "roleset_name": "decide",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "decider",
+        "descr_trans": "决定者"
+      },
+      {
+        "n": "1",
+        "descr": "the decision itself, answer to the question",
+        "descr_trans": "决定本身，回答问题"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of the decision, question answered",
+        "descr_trans": "决定的主题、已回答的问题"
+      }
+    ],
+    "roleset_name_trans": "决定"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "have_in_mind.13",
+    "roleset_name": "intend, desire to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intender",
+        "descr_trans": "理解"
+      },
+      {
+        "n": "1",
+        "descr": "intention",
+        "descr_trans": "意图"
+      }
+    ],
+    "roleset_name_trans": "打算，渴望"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "singleminded.14",
+    "roleset_name": "without distraction",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity with a one track mind",
+        "descr_trans": "具有单一思维的实体"
+      },
+      {
+        "n": "2",
+        "descr": "about what; goal or activity",
+        "descr_trans": "关于什么;目标或活动"
+      }
+    ],
+    "roleset_name_trans": "心无旁骛"
+  }
 ]

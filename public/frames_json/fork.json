@@ -1,63 +1,75 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fork_over.01",
-        "roleset_name": "to pay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing paid for"
-            },
-            {
-                "n": "2",
-                "descr": "person paid"
-            },
-            {
-                "n": "3",
-                "descr": "price"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fork_out.02",
-        "roleset_name": "to pay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing paid for"
-            },
-            {
-                "n": "2",
-                "descr": "person paid"
-            },
-            {
-                "n": "3",
-                "descr": "price"
-            },
-            {
-                "n": null,
-                "descr": null
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fork.03",
-        "roleset_name": "branching, forking, dividing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing branching"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fork_over.01",
+    "roleset_name": "to pay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer, agent",
+        "descr_trans": "付款人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing paid for",
+        "descr_trans": "付出代价的东西"
+      },
+      {
+        "n": "2",
+        "descr": "person paid",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "3",
+        "descr": "price",
+        "descr_trans": "价格"
+      }
+    ],
+    "roleset_name_trans": "支付"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fork_out.02",
+    "roleset_name": "to pay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer, agent",
+        "descr_trans": "付款人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing paid for",
+        "descr_trans": "付出代价的东西"
+      },
+      {
+        "n": "2",
+        "descr": "person paid",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "3",
+        "descr": "price",
+        "descr_trans": "价格"
+      },
+      {
+        "n": null,
+        "descr": null
+      }
+    ],
+    "roleset_name_trans": "支付"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fork.03",
+    "roleset_name": "branching, forking, dividing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing branching",
+        "descr_trans": "事物分支"
+      }
+    ],
+    "roleset_name_trans": "分支, 分叉, 分裂"
+  }
 ]

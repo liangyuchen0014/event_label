@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exenterate.01",
-        "roleset_name": "surgically removing contents of a body cavity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "Entity removed from"
-            },
-            {
-                "n": "2",
-                "descr": "Thing(s) removed"
-            },
-            {
-                "n": "3",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exenterate.01",
+    "roleset_name": "surgically removing contents of a body cavity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, surgeon",
+        "descr_trans": "代理人、外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "Entity removed from",
+        "descr_trans": "实体已从以下位置删除"
+      },
+      {
+        "n": "2",
+        "descr": "Thing(s) removed",
+        "descr_trans": "已移除的事物"
+      },
+      {
+        "n": "3",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "通过手术切除体腔内容物"
+  }
 ]

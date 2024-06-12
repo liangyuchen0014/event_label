@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clinical.01",
-        "roleset_name": "scientifically detached from emotion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emotionally detached entity"
-            },
-            {
-                "n": "1",
-                "descr": "situation treated as clinical by arg0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clinical.02",
-        "roleset_name": "relating to (patient observation in) clinics",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing having to do with clinics"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clinical.01",
+    "roleset_name": "scientifically detached from emotion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emotionally detached entity",
+        "descr_trans": "情感上分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "situation treated as clinical by arg0",
+        "descr_trans": "arg0 将情况视为临床情况"
+      }
+    ],
+    "roleset_name_trans": "科学地脱离情感"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clinical.02",
+    "roleset_name": "relating to (patient observation in) clinics",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing having to do with clinics",
+        "descr_trans": "与诊所有关的事情"
+      }
+    ],
+    "roleset_name_trans": "与诊所（患者观察）有关"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "readapt.01",
-        "roleset_name": "readapt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "readapter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being readapted, patient"
-            },
-            {
-                "n": "2",
-                "descr": "readapted into what, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "readapt.01",
+    "roleset_name": "readapt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "readapter, agent",
+        "descr_trans": "重新适配器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing being readapted, patient",
+        "descr_trans": "事物正在重新适应，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "readapted into what, destination",
+        "descr_trans": "重新适应什么、目的地"
+      }
+    ],
+    "roleset_name_trans": "重新适应"
+  }
 ]

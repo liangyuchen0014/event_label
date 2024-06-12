@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "frisk.01",
-        "roleset_name": "search",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "searcher"
-            },
-            {
-                "n": "1",
-                "descr": "thing searched"
-            },
-            {
-                "n": "2",
-                "descr": "looking for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "frisk.01",
+    "roleset_name": "search",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "searcher",
+        "descr_trans": "搜索者"
+      },
+      {
+        "n": "1",
+        "descr": "thing searched",
+        "descr_trans": "搜索的东西"
+      },
+      {
+        "n": "2",
+        "descr": "looking for what?",
+        "descr_trans": "寻找什么？"
+      }
+    ],
+    "roleset_name_trans": "搜索"
+  }
 ]

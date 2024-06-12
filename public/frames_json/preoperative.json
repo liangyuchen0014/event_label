@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "preoperative.01",
-        "roleset_name": "in the stage preceding operation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in the stage preceding operation"
-            },
-            {
-                "n": "2",
-                "descr": "the operation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "preoperative.01",
+    "roleset_name": "in the stage preceding operation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in the stage preceding operation",
+        "descr_trans": "操作前一阶段的实体"
+      },
+      {
+        "n": "2",
+        "descr": "the operation",
+        "descr_trans": "操作"
+      }
+    ],
+    "roleset_name_trans": "在操作前阶段"
+  }
 ]

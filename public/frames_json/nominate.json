@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nominate.01",
-        "roleset_name": "suggest someone take a role",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "nominator"
-            },
-            {
-                "n": "1",
-                "descr": "candidate"
-            },
-            {
-                "n": "2",
-                "descr": "role of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nominate.01",
+    "roleset_name": "suggest someone take a role",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "nominator",
+        "descr_trans": "被提名者"
+      },
+      {
+        "n": "1",
+        "descr": "candidate",
+        "descr_trans": "候选人"
+      },
+      {
+        "n": "2",
+        "descr": "role of arg1",
+        "descr_trans": "arg1的作用"
+      }
+    ],
+    "roleset_name_trans": "建议某人扮演一个角色"
+  }
 ]

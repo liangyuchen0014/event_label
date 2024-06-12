@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "regraft.01",
-        "roleset_name": "attach living tissue onto other living tissue, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "tissue brought in to be attached"
-            },
-            {
-                "n": "2",
-                "descr": "destination base tissue"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "regraft.01",
+    "roleset_name": "attach living tissue onto other living tissue, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "tissue brought in to be attached",
+        "descr_trans": "带来附着的组织"
+      },
+      {
+        "n": "2",
+        "descr": "destination base tissue",
+        "descr_trans": "目的地基底组织"
+      }
+    ],
+    "roleset_name_trans": "再次将活组织附着到其他活组织上"
+  }
 ]

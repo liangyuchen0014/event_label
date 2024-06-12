@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "miss.01",
-        "roleset_name": "long for, be lacking, absence noted with sadness",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misser, entity/plac/source that lacks arg1"
-            },
-            {
-                "n": "1",
-                "descr": "thing longed for, thing lacking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "miss.02",
-        "roleset_name": "not hit, skip, passed over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "misser"
-            },
-            {
-                "n": "1",
-                "descr": "missed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "miss_out.03",
-        "roleset_name": "miss out: completely miss",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity missing something"
-            },
-            {
-                "n": "1",
-                "descr": "thing missed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "miss.01",
+    "roleset_name": "long for, be lacking, absence noted with sadness",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misser, entity/plac/source that lacks arg1",
+        "descr_trans": "misser，缺少 arg1 的实体/plac/源"
+      },
+      {
+        "n": "1",
+        "descr": "thing longed for, thing lacking",
+        "descr_trans": "渴望的东西，缺乏的东西"
+      }
+    ],
+    "roleset_name_trans": "渴望、缺乏、悲伤地缺席"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "miss.02",
+    "roleset_name": "not hit, skip, passed over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "misser",
+        "descr_trans": "错过"
+      },
+      {
+        "n": "1",
+        "descr": "missed",
+        "descr_trans": "错过了"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "没有击中、跳过、跳过"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "miss_out.03",
+    "roleset_name": "miss out: completely miss",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity missing something",
+        "descr_trans": "实体缺少某些东西"
+      },
+      {
+        "n": "1",
+        "descr": "thing missed",
+        "descr_trans": "事情错过了"
+      }
+    ],
+    "roleset_name_trans": "错过：完全错过"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lobotomize.01",
-        "roleset_name": "perform a lobotomy on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surgeon"
-            },
-            {
-                "n": "1",
-                "descr": "entity undergoing lobotomy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lobotomize.01",
+    "roleset_name": "perform a lobotomy on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surgeon",
+        "descr_trans": "外科医生"
+      },
+      {
+        "n": "1",
+        "descr": "entity undergoing lobotomy",
+        "descr_trans": "正在接受脑白质切除术的实体"
+      }
+    ],
+    "roleset_name_trans": "进行脑白质切除术"
+  }
 ]

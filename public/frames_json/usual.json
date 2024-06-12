@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "usual.01",
-        "roleset_name": "commonly occurring",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "usual entity"
-            },
-            {
-                "n": "2",
-                "descr": "attributive-- entity arg1 is unusual for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "usual.01",
+    "roleset_name": "commonly occurring",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "usual entity",
+        "descr_trans": "通常的实体"
+      },
+      {
+        "n": "2",
+        "descr": "attributive-- entity arg1 is unusual for",
+        "descr_trans": "定语——实体 arg1 不常见于"
+      }
+    ],
+    "roleset_name_trans": "常见的"
+  }
 ]

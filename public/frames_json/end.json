@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "end.01",
-        "roleset_name": "cause to stop, coming to a close",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent/cause of ending"
-            },
-            {
-                "n": "1",
-                "descr": "Thing ending"
-            },
-            {
-                "n": "2",
-                "descr": "Explicit instrument, thing ended with, end portion"
-            },
-            {
-                "n": "m",
-                "descr": "point at which something ends"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "end.02",
-        "roleset_name": "terminate, esp stocks",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing closing"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount-changed-by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "end_up.03",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity changing"
-            },
-            {
-                "n": "2",
-                "descr": "new state"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "rear_end.04",
-        "roleset_name": "hit the back of a car",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, hit by, car"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "end.01",
+    "roleset_name": "cause to stop, coming to a close",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent/cause of ending",
+        "descr_trans": "结束的代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing ending",
+        "descr_trans": "事情的结局"
+      },
+      {
+        "n": "2",
+        "descr": "Explicit instrument, thing ended with, end portion",
+        "descr_trans": "显式工具、事物结尾、结束部分"
+      },
+      {
+        "n": "m",
+        "descr": "point at which something ends",
+        "descr_trans": "某事结束的点"
+      }
+    ],
+    "roleset_name_trans": "导致停止，即将结束"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "end.02",
+    "roleset_name": "terminate, esp stocks",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount-changed-by",
+        "descr_trans": "EXT，金额更改者"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "终止，特别是股票"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "end_up.03",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity changing",
+        "descr_trans": "实体改变"
+      },
+      {
+        "n": "2",
+        "descr": "new state",
+        "descr_trans": "新状态"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "rear_end.04",
+    "roleset_name": "hit the back of a car",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter",
+        "descr_trans": "经纪人、击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, hit by, car",
+        "descr_trans": "仪器, 被车撞"
+      }
+    ],
+    "roleset_name_trans": "撞到车尾"
+  }
 ]

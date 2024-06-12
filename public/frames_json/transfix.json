@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transfix.01",
-        "roleset_name": "to make motionless, as if fixed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transfixation"
-            },
-            {
-                "n": "1",
-                "descr": "transfixed entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transfix.01",
+    "roleset_name": "to make motionless, as if fixed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transfixation",
+        "descr_trans": "固定的原因"
+      },
+      {
+        "n": "1",
+        "descr": "transfixed entity",
+        "descr_trans": "呆呆的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg 0",
+        "descr_trans": "仪器，如果与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "使一动不动，如同固定一样"
+  }
 ]

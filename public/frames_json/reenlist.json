@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reenlist.01",
-        "roleset_name": "sign up to do something, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the re-enlisting"
-            },
-            {
-                "n": "1",
-                "descr": "entity re-enlisted, if separate from arg0"
-            },
-            {
-                "n": "2",
-                "descr": "re-enlisted in/to do what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reenlist.01",
+    "roleset_name": "sign up to do something, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the re-enlisting",
+        "descr_trans": "代理人、重新入伍的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity re-enlisted, if separate from arg0",
+        "descr_trans": "实体重新登记（如果与 arg0 分开）"
+      },
+      {
+        "n": "2",
+        "descr": "re-enlisted in/to do what",
+        "descr_trans": "重新入伍/做什么"
+      }
+    ],
+    "roleset_name_trans": "再次注册做某事"
+  }
 ]

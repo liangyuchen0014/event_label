@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bechdel.01",
-        "roleset_name": "subject to the bechdel test",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "test-giver"
-            },
-            {
-                "n": "1",
-                "descr": "entity tested"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bechdel.01",
+    "roleset_name": "subject to the bechdel test",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "test-giver",
+        "descr_trans": "测试者"
+      },
+      {
+        "n": "1",
+        "descr": "entity tested",
+        "descr_trans": "实体测试"
+      }
+    ],
+    "roleset_name_trans": "进行贝克德尔测试"
+  }
 ]

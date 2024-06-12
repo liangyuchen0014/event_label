@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handy.01",
-        "roleset_name": "handy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "skilled entity"
-            },
-            {
-                "n": "2",
-                "descr": "skill (tool, action)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "handy.02",
-        "roleset_name": "close at hand, useful",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "useful, close at hand thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handy.01",
+    "roleset_name": "handy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "skilled entity",
+        "descr_trans": "技术实体"
+      },
+      {
+        "n": "2",
+        "descr": "skill (tool, action)",
+        "descr_trans": "技能（工具、动作）"
+      }
+    ],
+    "roleset_name_trans": "便利"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "handy.02",
+    "roleset_name": "close at hand, useful",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "useful, close at hand thing",
+        "descr_trans": "有用的、触手可及的东西"
+      }
+    ],
+    "roleset_name_trans": "近在咫尺，有用"
+  }
 ]

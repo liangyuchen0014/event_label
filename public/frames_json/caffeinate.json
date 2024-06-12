@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "caffeinate.01",
-        "roleset_name": "cause to contain caffeine, adding caffeine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer, caffeine adder"
-            },
-            {
-                "n": "1",
-                "descr": "recipient, entity caffeine is added to"
-            },
-            {
-                "n": "2",
-                "descr": "instument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "caffeinate.01",
+    "roleset_name": "cause to contain caffeine, adding caffeine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer, caffeine adder",
+        "descr_trans": "代理、原因、咖啡因添加物"
+      },
+      {
+        "n": "1",
+        "descr": "recipient, entity caffeine is added to",
+        "descr_trans": "接收者，实体咖啡因被添加到"
+      },
+      {
+        "n": "2",
+        "descr": "instument",
+        "descr_trans": "仪器"
+      }
+    ],
+    "roleset_name_trans": "导致含有咖啡因，添加咖啡因"
+  }
 ]

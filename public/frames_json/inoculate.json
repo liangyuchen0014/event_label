@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inoculate.01",
-        "roleset_name": "introduce vaccine to boost immunity to a disease, immunization against a disease",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inoculator"
-            },
-            {
-                "n": "1",
-                "descr": "patient inoculated"
-            },
-            {
-                "n": "2",
-                "descr": "inoculated against"
-            },
-            {
-                "n": "3",
-                "descr": "innoculated with, vaccine itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inoculate.01",
+    "roleset_name": "introduce vaccine to boost immunity to a disease, immunization against a disease",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inoculator",
+        "descr_trans": "接种器"
+      },
+      {
+        "n": "1",
+        "descr": "patient inoculated",
+        "descr_trans": "患者已接种"
+      },
+      {
+        "n": "2",
+        "descr": "inoculated against",
+        "descr_trans": "接种针对"
+      },
+      {
+        "n": "3",
+        "descr": "innoculated with, vaccine itself",
+        "descr_trans": "接种疫苗本身"
+      }
+    ],
+    "roleset_name_trans": "引入疫苗以增强对疾病的免疫力，对疾病进行免疫"
+  }
 ]

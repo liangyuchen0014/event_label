@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reckon.01",
-        "roleset_name": "figure, think, count",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "object, thing under consideration, thought"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reckon.02",
-        "roleset_name": "respect, take into consideration",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "reckoner"
-            },
-            {
-                "n": "1",
-                "descr": "thing to be reckoned with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reckon.01",
+    "roleset_name": "figure, think, count",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "object, thing under consideration, thought",
+        "descr_trans": "对象，正在考虑的事情，想法"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "计算、思考、计算"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reckon.02",
+    "roleset_name": "respect, take into consideration",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "reckoner",
+        "descr_trans": "账户"
+      },
+      {
+        "n": "1",
+        "descr": "thing to be reckoned with",
+        "descr_trans": "不可忽视的事情"
+      }
+    ],
+    "roleset_name_trans": "尊重、考虑"
+  }
 ]

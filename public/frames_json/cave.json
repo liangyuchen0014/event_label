@@ -1,24 +1,28 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cave.01",
-        "roleset_name": "collapse",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing caving"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cave_in.02",
-        "roleset_name": "collapse, phrasal",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing caving in"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cave.01",
+    "roleset_name": "collapse",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing caving",
+        "descr_trans": "东西洞穴"
+      }
+    ],
+    "roleset_name_trans": "坍塌"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cave_in.02",
+    "roleset_name": "collapse, phrasal",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing caving in",
+        "descr_trans": "东西塌陷"
+      }
+    ],
+    "roleset_name_trans": "崩溃，短语"
+  }
 ]

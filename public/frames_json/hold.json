@@ -1,304 +1,366 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hold.01",
-        "roleset_name": "grasp, bear, keep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hold.02",
-        "roleset_name": "grant, view, declare, believing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder / thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hold.03",
-        "roleset_name": "keep, last, maintain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing lasting"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1 (usually a PP)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "hold.04",
-        "roleset_name": "conduct, hosting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conductor"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            },
-            {
-                "n": "2",
-                "descr": "with whom"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "hold.13",
-        "roleset_name": "to have or contain (usually abstract), having or containing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "container, possessor, influencer"
-            },
-            {
-                "n": "1",
-                "descr": "contents, attribute"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "hold.14",
-        "roleset_name": "adhere to, follow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Follower"
-            },
-            {
-                "n": "1",
-                "descr": "Policy/rule/given path"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "hold_on.05",
-        "roleset_name": "wait",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity waiting"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "hold_on.06",
-        "roleset_name": "grasp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "hold_back.07",
-        "roleset_name": "restrain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "restrainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being restrained"
-            },
-            {
-                "n": "2",
-                "descr": "thing being held back from"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "hold_off.08",
-        "roleset_name": "wait, delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "waiter, delayer"
-            },
-            {
-                "n": "1",
-                "descr": "thing delayed"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "hold_out.09",
-        "roleset_name": "wait",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "wait-er (not waiter, that's the other sense)"
-            },
-            {
-                "n": "2",
-                "descr": "thing waited for"
-            },
-            {
-                "n": "m",
-                "descr": "period of time waited through"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "hold_out.15",
-        "roleset_name": "continue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, causer of continuation"
-            },
-            {
-                "n": "1",
-                "descr": "Thing continued"
-            },
-            {
-                "n": "2",
-                "descr": "Termination point, continued/waited for what?"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "hold_up.10",
-        "roleset_name": "restrain, delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "restrainer"
-            },
-            {
-                "n": "1",
-                "descr": "thing being restrained"
-            },
-            {
-                "n": "2",
-                "descr": "thing being held back from"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "hold_up.11",
-        "roleset_name": "persevere, last",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing lasting"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "hold_over.16",
-        "roleset_name": "keep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of stay"
-            },
-            {
-                "n": "1",
-                "descr": "entity remaining"
-            },
-            {
-                "n": "2",
-                "descr": "kept where"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "get_hold.17",
-        "roleset_name": "achieve communication contact",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making contact"
-            },
-            {
-                "n": "1",
-                "descr": "entity contacted"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "get_hold.18",
-        "roleset_name": "achieve grasping, acquisition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grasper"
-            },
-            {
-                "n": "1",
-                "descr": "grasped, thing gotten"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "take_hold.19",
-        "roleset_name": "to dominate or become widely accepted, as of minds or governments",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "idea, situation or group taking hold"
-            },
-            {
-                "n": "1",
-                "descr": "what is taken over"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hold.01",
+    "roleset_name": "grasp, bear, keep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "抓住、承受、保持"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hold.02",
+    "roleset_name": "grant, view, declare, believing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder / thinker",
+        "descr_trans": "持有者/思考者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      }
+    ],
+    "roleset_name_trans": "授予、查看、宣告、相信"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hold.03",
+    "roleset_name": "keep, last, maintain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing lasting",
+        "descr_trans": "持久的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1 (usually a PP)",
+        "descr_trans": "arg1 的属性（通常是 PP）"
+      }
+    ],
+    "roleset_name_trans": "保留，最后，维持"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "hold.04",
+    "roleset_name": "conduct, hosting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conductor",
+        "descr_trans": "导体"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "with whom",
+        "descr_trans": "和谁一起"
+      }
+    ],
+    "roleset_name_trans": "行为、主持"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "hold.13",
+    "roleset_name": "to have or contain (usually abstract), having or containing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "container, possessor, influencer",
+        "descr_trans": "容器、拥有者、影响者"
+      },
+      {
+        "n": "1",
+        "descr": "contents, attribute",
+        "descr_trans": "内容、属性"
+      }
+    ],
+    "roleset_name_trans": "具有或包含（通常是抽象的），具有或包含"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "hold.14",
+    "roleset_name": "adhere to, follow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Follower",
+        "descr_trans": "追随者"
+      },
+      {
+        "n": "1",
+        "descr": "Policy/rule/given path",
+        "descr_trans": "策略/规则/给定路径"
+      }
+    ],
+    "roleset_name_trans": "坚持、遵循"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "hold_on.05",
+    "roleset_name": "wait",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity waiting",
+        "descr_trans": "实体等待"
+      }
+    ],
+    "roleset_name_trans": "等待"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "hold_on.06",
+    "roleset_name": "grasp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "抓牢"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "hold_back.07",
+    "roleset_name": "restrain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "restrainer",
+        "descr_trans": "抑制器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being restrained",
+        "descr_trans": "被限制的事物"
+      },
+      {
+        "n": "2",
+        "descr": "thing being held back from",
+        "descr_trans": "被阻止的事情"
+      }
+    ],
+    "roleset_name_trans": "抑制"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "hold_off.08",
+    "roleset_name": "wait, delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "waiter, delayer",
+        "descr_trans": "服务员、拖延者"
+      },
+      {
+        "n": "1",
+        "descr": "thing delayed",
+        "descr_trans": "事情延迟了"
+      }
+    ],
+    "roleset_name_trans": "等待，拖延"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "hold_out.09",
+    "roleset_name": "wait",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "wait-er (not waiter, that's the other sense)",
+        "descr_trans": "wait-er（不是服务员，那是另一种意思）"
+      },
+      {
+        "n": "2",
+        "descr": "thing waited for",
+        "descr_trans": "等待的事情"
+      },
+      {
+        "n": "m",
+        "descr": "period of time waited through",
+        "descr_trans": "等待经过一段时间"
+      }
+    ],
+    "roleset_name_trans": "等待"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "hold_out.15",
+    "roleset_name": "continue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, causer of continuation",
+        "descr_trans": "代理人、延续的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Thing continued",
+        "descr_trans": "事情继续"
+      },
+      {
+        "n": "2",
+        "descr": "Termination point, continued/waited for what?",
+        "descr_trans": "终止点，继续/等待什么？"
+      }
+    ],
+    "roleset_name_trans": "继续"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "hold_up.10",
+    "roleset_name": "restrain, delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "restrainer",
+        "descr_trans": "抑制器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being restrained",
+        "descr_trans": "被限制的事物"
+      },
+      {
+        "n": "2",
+        "descr": "thing being held back from",
+        "descr_trans": "被阻止的事情"
+      }
+    ],
+    "roleset_name_trans": "抑制、拖延"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "hold_up.11",
+    "roleset_name": "persevere, last",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing lasting",
+        "descr_trans": "持久的东西"
+      }
+    ],
+    "roleset_name_trans": "坚持，最后"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "hold_over.16",
+    "roleset_name": "keep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of stay",
+        "descr_trans": "滞留原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity remaining",
+        "descr_trans": "剩余实体"
+      },
+      {
+        "n": "2",
+        "descr": "kept where",
+        "descr_trans": "保存在哪里"
+      }
+    ],
+    "roleset_name_trans": "保持"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "get_hold.17",
+    "roleset_name": "achieve communication contact",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making contact",
+        "descr_trans": "实体进行联系"
+      },
+      {
+        "n": "1",
+        "descr": "entity contacted",
+        "descr_trans": "联系实体"
+      }
+    ],
+    "roleset_name_trans": "达成沟通联系"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "get_hold.18",
+    "roleset_name": "achieve grasping, acquisition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grasper",
+        "descr_trans": "抓手"
+      },
+      {
+        "n": "1",
+        "descr": "grasped, thing gotten",
+        "descr_trans": "抓住了，事情得到了"
+      }
+    ],
+    "roleset_name_trans": "实现抓握、获取"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "take_hold.19",
+    "roleset_name": "to dominate or become widely accepted, as of minds or governments",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "idea, situation or group taking hold",
+        "descr_trans": "想法、情况或团体占据主导地位"
+      },
+      {
+        "n": "1",
+        "descr": "what is taken over",
+        "descr_trans": "什么被接管"
+      }
+    ],
+    "roleset_name_trans": "支配或被广泛接受，如思想或政府"
+  }
 ]

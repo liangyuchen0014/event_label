@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "litigate.01",
-        "roleset_name": "engage in legal proceedings",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "litigator"
-            },
-            {
-                "n": "1",
-                "descr": "case"
-            },
-            {
-                "n": "2",
-                "descr": "defendant"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "litigate.01",
+    "roleset_name": "engage in legal proceedings",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "litigator",
+        "descr_trans": "诉讼律师"
+      },
+      {
+        "n": "1",
+        "descr": "case",
+        "descr_trans": "案件"
+      },
+      {
+        "n": "2",
+        "descr": "defendant",
+        "descr_trans": "被告"
+      }
+    ],
+    "roleset_name_trans": "提起法律诉讼"
+  }
 ]

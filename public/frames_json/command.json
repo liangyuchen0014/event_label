@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "command.01",
-        "roleset_name": "get, as commodity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "getter"
-            },
-            {
-                "n": "1",
-                "descr": "gotten"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "command.02",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "commander"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "command.01",
+    "roleset_name": "get, as commodity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "getter",
+        "descr_trans": "吸气剂"
+      },
+      {
+        "n": "1",
+        "descr": "gotten",
+        "descr_trans": "得到"
+      }
+    ],
+    "roleset_name_trans": "作为商品获得"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "command.02",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "commander",
+        "descr_trans": "指挥官"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  }
 ]

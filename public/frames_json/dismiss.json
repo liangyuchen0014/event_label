@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dismiss.01",
-        "roleset_name": "remove, release",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from, former position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dismiss.02",
-        "roleset_name": "label contemptuously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "labeller"
-            },
-            {
-                "n": "1",
-                "descr": "labelled"
-            },
-            {
-                "n": "2",
-                "descr": "labelled as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dismiss.01",
+    "roleset_name": "remove, release",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "thing being removed",
+        "descr_trans": "被移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "removed from, former position",
+        "descr_trans": "从原来的职位上删除"
+      }
+    ],
+    "roleset_name_trans": "移除、释放"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dismiss.02",
+    "roleset_name": "label contemptuously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "labeller",
+        "descr_trans": "贴标机"
+      },
+      {
+        "n": "1",
+        "descr": "labelled",
+        "descr_trans": "贴上标签"
+      },
+      {
+        "n": "2",
+        "descr": "labelled as",
+        "descr_trans": "标记为"
+      }
+    ],
+    "roleset_name_trans": "轻蔑地贴上标签"
+  }
 ]

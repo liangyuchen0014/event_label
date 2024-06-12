@@ -1,81 +1,97 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "thicken.01",
-        "roleset_name": "(cause to) become thicker",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming thick"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "thick.02",
-        "roleset_name": "crowded, as with many individuals crammed together; density/sparsity measurement",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "crowded location (the forest)"
-            },
-            {
-                "n": "2",
-                "descr": "crowded with what; close together components (the trees)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "thick.03",
-        "roleset_name": "wide; width/heftiness measurement",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with a wide diameter"
-            },
-            {
-                "n": "2",
-                "descr": "more specific aspect of arg1 that is thick (if in addition)"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "thick.04",
-        "roleset_name": "not very smart",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "not very smart one (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "thick.05",
-        "roleset_name": "socially close",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first entity (or all)"
-            },
-            {
-                "n": "2",
-                "descr": "second entity (or 'each other')"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "thicken.01",
+    "roleset_name": "(cause to) become thicker",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming thick",
+        "descr_trans": "东西变厚"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得更厚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "thick.02",
+    "roleset_name": "crowded, as with many individuals crammed together; density/sparsity measurement",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "crowded location (the forest)",
+        "descr_trans": "拥挤的地方（森林）"
+      },
+      {
+        "n": "2",
+        "descr": "crowded with what; close together components (the trees)",
+        "descr_trans": "挤满了什么；紧密相连的组件（树）"
+      }
+    ],
+    "roleset_name_trans": "拥挤，就像很多人挤在一起一样；密度/稀疏度测量"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "thick.03",
+    "roleset_name": "wide; width/heftiness measurement",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with a wide diameter",
+        "descr_trans": "直径较宽的东西"
+      },
+      {
+        "n": "2",
+        "descr": "more specific aspect of arg1 that is thick (if in addition)",
+        "descr_trans": "arg1 的更具体的方面是厚的（如果另外的话）"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      }
+    ],
+    "roleset_name_trans": "宽的;宽度/高度测量"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "thick.04",
+    "roleset_name": "not very smart",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "not very smart one (may require concatenation)",
+        "descr_trans": "不是很聪明（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "不太聪明"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "thick.05",
+    "roleset_name": "socially close",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first entity (or all)",
+        "descr_trans": "第一个实体（或全部）"
+      },
+      {
+        "n": "2",
+        "descr": "second entity (or 'each other')",
+        "descr_trans": "第二个实体（或“彼此”）"
+      }
+    ],
+    "roleset_name_trans": "社交密切"
+  }
 ]

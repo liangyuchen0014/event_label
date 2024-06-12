@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pulverize.01",
-        "roleset_name": "to crush into a powder or demolish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destructor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity pulverized"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pulverize.01",
+    "roleset_name": "to crush into a powder or demolish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destructor, agent",
+        "descr_trans": "析构函数，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity pulverized",
+        "descr_trans": "实体被粉碎"
+      }
+    ],
+    "roleset_name_trans": "粉碎成粉末或拆除"
+  }
 ]

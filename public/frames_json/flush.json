@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flush.01",
-        "roleset_name": "remove, removing using water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "flusher"
-            },
-            {
-                "n": "1",
-                "descr": "removed material"
-            },
-            {
-                "n": "2",
-                "descr": "container, source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "flush.03",
-        "roleset_name": "turn red",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of color change"
-            },
-            {
-                "n": "1",
-                "descr": "entity turning red"
-            },
-            {
-                "n": "2",
-                "descr": "eventual color"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "flush_out.02",
-        "roleset_name": "cause to become visible, find",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "flusher"
-            },
-            {
-                "n": "1",
-                "descr": "thing found"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flush.01",
+    "roleset_name": "remove, removing using water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "flusher",
+        "descr_trans": "冲水器"
+      },
+      {
+        "n": "1",
+        "descr": "removed material",
+        "descr_trans": "去除材料"
+      },
+      {
+        "n": "2",
+        "descr": "container, source",
+        "descr_trans": "容器、源"
+      }
+    ],
+    "roleset_name_trans": "去除，用水去除"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "flush.03",
+    "roleset_name": "turn red",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of color change",
+        "descr_trans": "颜色变化的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity turning red",
+        "descr_trans": "实体变红"
+      },
+      {
+        "n": "2",
+        "descr": "eventual color",
+        "descr_trans": "最终颜色"
+      }
+    ],
+    "roleset_name_trans": "变红"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "flush_out.02",
+    "roleset_name": "cause to become visible, find",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "flusher",
+        "descr_trans": "冲水器"
+      },
+      {
+        "n": "1",
+        "descr": "thing found",
+        "descr_trans": "发现的东西"
+      }
+    ],
+    "roleset_name_trans": "导致变得可见，找到"
+  }
 ]

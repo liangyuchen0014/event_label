@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "misroute.01",
-        "roleset_name": "to route incorrectly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person assigning route"
-            },
-            {
-                "n": "1",
-                "descr": "entity being misrouted"
-            },
-            {
-                "n": "2",
-                "descr": "incorrect destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "misroute.01",
+    "roleset_name": "to route incorrectly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person assigning route",
+        "descr_trans": "分配路线的人"
+      },
+      {
+        "n": "1",
+        "descr": "entity being misrouted",
+        "descr_trans": "实体被错误路由"
+      },
+      {
+        "n": "2",
+        "descr": "incorrect destination",
+        "descr_trans": "目的地不正确"
+      }
+    ],
+    "roleset_name_trans": "路线不正确"
+  }
 ]

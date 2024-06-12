@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "actuate.01",
-        "roleset_name": "put into action or motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent causing of actuation"
-            },
-            {
-                "n": "1",
-                "descr": "entity set into action or motion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "actuate.01",
+    "roleset_name": "put into action or motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent causing of actuation",
+        "descr_trans": "驱动因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity set into action or motion",
+        "descr_trans": "实体开始行动或运动"
+      }
+    ],
+    "roleset_name_trans": "付诸行动或行动"
+  }
 ]

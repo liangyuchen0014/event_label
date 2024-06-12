@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "improve.01",
-        "roleset_name": "make better",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "improver"
-            },
-            {
-                "n": "1",
-                "descr": "thing improving"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "improve.02",
-        "roleset_name": "add, rise",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "Logical subject, patient, thing rising"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount risen"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "m",
-                "descr": "medium"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "improve.01",
+    "roleset_name": "make better",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "improver",
+        "descr_trans": "改良剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing improving",
+        "descr_trans": "事情改善"
+      }
+    ],
+    "roleset_name_trans": "做得更好"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "improve.02",
+    "roleset_name": "add, rise",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "Logical subject, patient, thing rising",
+        "descr_trans": "逻辑主题、耐心、事物上升"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount risen",
+        "descr_trans": "EXT，上涨金额"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "m",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "添加，上升"
+  }
 ]

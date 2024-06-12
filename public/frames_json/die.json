@@ -1,65 +1,77 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "die.01",
-        "roleset_name": "sterben",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the deceased"
-            },
-            {
-                "n": "2",
-                "descr": "cognate object"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "die.05",
-        "roleset_name": "semi modal: wanting to, really bad",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who really wants to"
-            },
-            {
-                "n": "1",
-                "descr": "action wanted (dying to what)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "die_down.02",
-        "roleset_name": "subside",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing subsiding"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "die_out.03",
-        "roleset_name": "go extinct, terminate completely",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dying thing"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "die_off.04",
-        "roleset_name": "become dead (as a group), bit by bit",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dying thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "die.01",
+    "roleset_name": "sterben",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the deceased",
+        "descr_trans": "死者"
+      },
+      {
+        "n": "2",
+        "descr": "cognate object",
+        "descr_trans": "同源对象"
+      }
+    ],
+    "roleset_name_trans": "死"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "die.05",
+    "roleset_name": "semi modal: wanting to, really bad",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who really wants to",
+        "descr_trans": "真正想要的实体"
+      },
+      {
+        "n": "1",
+        "descr": "action wanted (dying to what)",
+        "descr_trans": "想要采取的行动（渴望什么）"
+      }
+    ],
+    "roleset_name_trans": "半情态：想要，真的很糟糕"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "die_down.02",
+    "roleset_name": "subside",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing subsiding",
+        "descr_trans": "事情平息"
+      }
+    ],
+    "roleset_name_trans": "塌陷"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "die_out.03",
+    "roleset_name": "go extinct, terminate completely",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dying thing",
+        "descr_trans": "垂死的东西"
+      }
+    ],
+    "roleset_name_trans": "灭绝，完全终止"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "die_off.04",
+    "roleset_name": "become dead (as a group), bit by bit",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dying thing",
+        "descr_trans": "垂死的东西"
+      }
+    ],
+    "roleset_name_trans": "（作为一个群体）一点一点地死去"
+  }
 ]

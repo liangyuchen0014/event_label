@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zipcode.01",
-        "roleset_name": "zipcode",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "zip-coder, code-writer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "code itself, theme"
-            },
-            {
-                "n": "2",
-                "descr": "thing zipcoded, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zipcode.01",
+    "roleset_name": "zipcode",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "zip-coder, code-writer, agent",
+        "descr_trans": "邮政编码员、代码编写者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "code itself, theme",
+        "descr_trans": "代码本身、主题"
+      },
+      {
+        "n": "2",
+        "descr": "thing zipcoded, destination",
+        "descr_trans": "邮政编码的东西，目的地"
+      }
+    ],
+    "roleset_name_trans": "邮政编码"
+  }
 ]

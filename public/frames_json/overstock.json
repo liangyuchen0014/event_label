@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overstock.01",
-        "roleset_name": "stock again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, overstocker"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being stocked"
-            },
-            {
-                "n": "2",
-                "descr": "destination (e.g. a shelf)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overstock.01",
+    "roleset_name": "stock again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, overstocker",
+        "descr_trans": "代理、库存积压"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being stocked",
+        "descr_trans": "主题、库存物品"
+      },
+      {
+        "n": "2",
+        "descr": "destination (e.g. a shelf)",
+        "descr_trans": "目的地（例如货架）"
+      }
+    ],
+    "roleset_name_trans": "再次库存"
+  }
 ]

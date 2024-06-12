@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weary.01",
-        "roleset_name": "(make) become tired",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of tiredness"
-            },
-            {
-                "n": "1",
-                "descr": "tired entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrment or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weary.02",
-        "roleset_name": "prepositional usage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tired entity"
-            },
-            {
-                "n": "1",
-                "descr": "cause of weariness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weary.01",
+    "roleset_name": "(make) become tired",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of tiredness",
+        "descr_trans": "疲劳的原因"
+      },
+      {
+        "n": "1",
+        "descr": "tired entity",
+        "descr_trans": "疲惫的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrment or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（使）变得疲倦"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weary.02",
+    "roleset_name": "prepositional usage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tired entity",
+        "descr_trans": "疲惫的实体"
+      },
+      {
+        "n": "1",
+        "descr": "cause of weariness",
+        "descr_trans": "疲倦的原因"
+      }
+    ],
+    "roleset_name_trans": "介词用法"
+  }
 ]

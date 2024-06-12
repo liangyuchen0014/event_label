@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overvalue.01",
-        "roleset_name": "to assign too high a value to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of value, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity overvalued"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overvalue.01",
+    "roleset_name": "to assign too high a value to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of value, agent",
+        "descr_trans": "价值分配者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity overvalued",
+        "descr_trans": "实体被高估"
+      }
+    ],
+    "roleset_name_trans": "赋予过高的价值"
+  }
 ]

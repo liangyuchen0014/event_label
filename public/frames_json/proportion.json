@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "proportion.01",
-        "roleset_name": "divvy up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "divider"
-            },
-            {
-                "n": "1",
-                "descr": "thing divided"
-            },
-            {
-                "n": "2",
-                "descr": "thing divided into"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "proportional.02",
-        "roleset_name": "corresponding, having a constant ratio",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first entity"
-            },
-            {
-                "n": "2",
-                "descr": "second entity"
-            },
-            {
-                "n": "3",
-                "descr": "domain of comparison"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "proportion.01",
+    "roleset_name": "divvy up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "divider",
+        "descr_trans": "分隔线"
+      },
+      {
+        "n": "1",
+        "descr": "thing divided",
+        "descr_trans": "东西分开"
+      },
+      {
+        "n": "2",
+        "descr": "thing divided into",
+        "descr_trans": "事物分为"
+      }
+    ],
+    "roleset_name_trans": "分配"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "proportional.02",
+    "roleset_name": "corresponding, having a constant ratio",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "second entity",
+        "descr_trans": "第二实体"
+      },
+      {
+        "n": "3",
+        "descr": "domain of comparison",
+        "descr_trans": "比较域"
+      }
+    ],
+    "roleset_name_trans": "相应地，具有恒定的比率"
+  }
 ]

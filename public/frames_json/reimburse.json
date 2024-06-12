@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reimburse.01",
-        "roleset_name": "pay back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer"
-            },
-            {
-                "n": "1",
-                "descr": "amount of cash"
-            },
-            {
-                "n": "2",
-                "descr": "paid to"
-            },
-            {
-                "n": "3",
-                "descr": "in-exchange-for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reimburse.01",
+    "roleset_name": "pay back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "amount of cash",
+        "descr_trans": "现金数额"
+      },
+      {
+        "n": "2",
+        "descr": "paid to",
+        "descr_trans": "支付给"
+      },
+      {
+        "n": "3",
+        "descr": "in-exchange-for",
+        "descr_trans": "换来的"
+      }
+    ],
+    "roleset_name_trans": "偿还"
+  }
 ]

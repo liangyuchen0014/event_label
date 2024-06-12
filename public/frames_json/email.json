@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "email.01",
-        "roleset_name": "send a message electronically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emailer"
-            },
-            {
-                "n": "1",
-                "descr": "message, email"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, mailed-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "email.01",
+    "roleset_name": "send a message electronically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emailer",
+        "descr_trans": "电子邮件"
+      },
+      {
+        "n": "1",
+        "descr": "message, email",
+        "descr_trans": "消息、电子邮件"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, mailed-to",
+        "descr_trans": "收件人, 邮寄至"
+      }
+    ],
+    "roleset_name_trans": "以电子方式发送消息"
+  }
 ]

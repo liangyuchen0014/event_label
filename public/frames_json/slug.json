@@ -1,78 +1,94 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slug.01",
-        "roleset_name": "hit heavily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "hit"
-            },
-            {
-                "n": "2",
-                "descr": "hit with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "slug.02",
-        "roleset_name": "shoot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shooter"
-            },
-            {
-                "n": "1",
-                "descr": "weapon"
-            },
-            {
-                "n": "2",
-                "descr": "target"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "slug.04",
-        "roleset_name": "swallow in a single shot",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "swallower"
-            },
-            {
-                "n": "1",
-                "descr": "thing swallowed"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "slug_out.03",
-        "roleset_name": "(cause to) bear through blows",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first arguer"
-            },
-            {
-                "n": "1",
-                "descr": "second arguer"
-            },
-            {
-                "n": "2",
-                "descr": "topic at issue"
-            },
-            {
-                "n": "3",
-                "descr": "usually 'it'"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slug.01",
+    "roleset_name": "hit heavily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "hit",
+        "descr_trans": "打"
+      },
+      {
+        "n": "2",
+        "descr": "hit with",
+        "descr_trans": "击中"
+      }
+    ],
+    "roleset_name_trans": "重击"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "slug.02",
+    "roleset_name": "shoot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shooter",
+        "descr_trans": "射手"
+      },
+      {
+        "n": "1",
+        "descr": "weapon",
+        "descr_trans": "武器"
+      },
+      {
+        "n": "2",
+        "descr": "target",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "射击"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "slug.04",
+    "roleset_name": "swallow in a single shot",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "swallower",
+        "descr_trans": "吞者"
+      },
+      {
+        "n": "1",
+        "descr": "thing swallowed",
+        "descr_trans": "东西被吞掉了"
+      }
+    ],
+    "roleset_name_trans": "一枪吞下"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "slug_out.03",
+    "roleset_name": "(cause to) bear through blows",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first arguer",
+        "descr_trans": "首先争论"
+      },
+      {
+        "n": "1",
+        "descr": "second arguer",
+        "descr_trans": "第二次争论"
+      },
+      {
+        "n": "2",
+        "descr": "topic at issue",
+        "descr_trans": "有争议的话题"
+      },
+      {
+        "n": "3",
+        "descr": "usually 'it'",
+        "descr_trans": "通常是“它”"
+      }
+    ],
+    "roleset_name_trans": "（导致）承受打击"
+  }
 ]

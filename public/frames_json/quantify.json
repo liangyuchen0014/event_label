@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quantify.01",
-        "roleset_name": "assign a number to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the quantifying"
-            },
-            {
-                "n": "1",
-                "descr": "thing quantified"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg, quantified as what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quantify.01",
+    "roleset_name": "assign a number to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the quantifying",
+        "descr_trans": "进行量化的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing quantified",
+        "descr_trans": "量化的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg, quantified as what",
+        "descr_trans": "对 arg 进行二次预测，量化为什么"
+      }
+    ],
+    "roleset_name_trans": "分配一个号码给"
+  }
 ]

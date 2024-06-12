@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reexport.01",
-        "roleset_name": "ship out commodities, again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exporter"
-            },
-            {
-                "n": "1",
-                "descr": "product"
-            },
-            {
-                "n": "2",
-                "descr": "importer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reexport.01",
+    "roleset_name": "ship out commodities, again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exporter",
+        "descr_trans": "出口商"
+      },
+      {
+        "n": "1",
+        "descr": "product",
+        "descr_trans": "产品"
+      },
+      {
+        "n": "2",
+        "descr": "importer",
+        "descr_trans": "进口商"
+      }
+    ],
+    "roleset_name_trans": "再次运出商品"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contort.01",
-        "roleset_name": "bend into shapes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of contortion"
-            },
-            {
-                "n": "1",
-                "descr": "material contorted"
-            },
-            {
-                "n": "2",
-                "descr": "resulting shape that arg1 is contorted into"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contort.01",
+    "roleset_name": "bend into shapes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of contortion",
+        "descr_trans": "扭曲的原因"
+      },
+      {
+        "n": "1",
+        "descr": "material contorted",
+        "descr_trans": "材料扭曲"
+      },
+      {
+        "n": "2",
+        "descr": "resulting shape that arg1 is contorted into",
+        "descr_trans": "arg1 扭曲后的结果形状"
+      }
+    ],
+    "roleset_name_trans": "弯曲成形状"
+  }
 ]

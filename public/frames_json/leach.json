@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leach.01",
-        "roleset_name": "dissolve out soluble constitents from by percolation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of percolation process"
-            },
-            {
-                "n": "1",
-                "descr": "soluble constituents, product of leaching process"
-            },
-            {
-                "n": "2",
-                "descr": "source from which arg1 is drawn, pure substance undergoing percolation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leach.01",
+    "roleset_name": "dissolve out soluble constitents from by percolation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of percolation process",
+        "descr_trans": "渗滤过程剂"
+      },
+      {
+        "n": "1",
+        "descr": "soluble constituents, product of leaching process",
+        "descr_trans": "可溶性成分，浸出过程的产物"
+      },
+      {
+        "n": "2",
+        "descr": "source from which arg1 is drawn, pure substance undergoing percolation",
+        "descr_trans": "arg1 的提取源，正在渗透的纯物质"
+      }
+    ],
+    "roleset_name_trans": "通过渗滤溶解出可溶性成分"
+  }
 ]

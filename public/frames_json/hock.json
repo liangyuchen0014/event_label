@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hock.01",
-        "roleset_name": "pawn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person pawning items"
-            },
-            {
-                "n": "1",
-                "descr": "items being pawned"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hock.01",
+    "roleset_name": "pawn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person pawning items",
+        "descr_trans": "人典当物品"
+      },
+      {
+        "n": "1",
+        "descr": "items being pawned",
+        "descr_trans": "被典当的物品"
+      }
+    ],
+    "roleset_name_trans": "典当"
+  }
 ]

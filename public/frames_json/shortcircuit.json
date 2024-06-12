@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shortcircuit.01",
-        "roleset_name": "cut-off or aviod standard procedure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent or cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing shortcircuited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shortcircuit.01",
+    "roleset_name": "cut-off or aviod standard procedure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent or cause",
+        "descr_trans": "代理人或原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing shortcircuited",
+        "descr_trans": "东西短路了"
+      }
+    ],
+    "roleset_name_trans": "切断或避免标准程序"
+  }
 ]

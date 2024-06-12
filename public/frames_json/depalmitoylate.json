@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "depalmitoylate.01",
-        "roleset_name": "remove palmitate esters bound to a protein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of depalmitoylation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing depalmitoylated (e.g. protein)"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "result of depalmitoylation"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "depalmitoylate.01",
+    "roleset_name": "remove palmitate esters bound to a protein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of depalmitoylation (e.g. scientist)",
+        "descr_trans": "去棕榈酰化的有意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing depalmitoylated (e.g. protein)",
+        "descr_trans": "去棕榈酰化物（例如蛋白质）"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "result of depalmitoylation",
+        "descr_trans": "去棕榈酰化结果"
+      }
+    ],
+    "roleset_name_trans": "去除与蛋白质结合的棕榈酸酯"
+  }
 ]

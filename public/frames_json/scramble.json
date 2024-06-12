@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scramble.01",
-        "roleset_name": "try, attempt desperately",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attempter"
-            },
-            {
-                "n": "1",
-                "descr": "thing attempted"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scramble.02",
-        "roleset_name": "mix together into random order",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scrambler"
-            },
-            {
-                "n": "1",
-                "descr": "thing being randomized, mixed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scramble.03",
-        "roleset_name": "run in scrambling manner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "runner"
-            },
-            {
-                "n": "m",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scramble.01",
+    "roleset_name": "try, attempt desperately",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attempter",
+        "descr_trans": "尝试者"
+      },
+      {
+        "n": "1",
+        "descr": "thing attempted",
+        "descr_trans": "尝试过的事情"
+      }
+    ],
+    "roleset_name_trans": "尝试，拼命地尝试"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scramble.02",
+    "roleset_name": "mix together into random order",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scrambler",
+        "descr_trans": "加扰器"
+      },
+      {
+        "n": "1",
+        "descr": "thing being randomized, mixed",
+        "descr_trans": "事物是随机的、混合的"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "以随机顺序混合在一起"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scramble.03",
+    "roleset_name": "run in scrambling manner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "runner",
+        "descr_trans": "跑步者"
+      },
+      {
+        "n": "m",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "乱跑"
+  }
 ]

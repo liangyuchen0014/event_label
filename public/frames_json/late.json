@@ -1,43 +1,51 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "late.01",
-        "roleset_name": "existing in the latter portion of a time period",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "late thing"
-            },
-            {
-                "n": "2",
-                "descr": "the larger time period"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "late.02",
-        "roleset_name": "tardy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "late entity"
-            },
-            {
-                "n": "2",
-                "descr": "destination, thing that was scheduled"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "late.03",
-        "roleset_name": "deceased",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "deceased entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "late.01",
+    "roleset_name": "existing in the latter portion of a time period",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "late thing",
+        "descr_trans": "迟到的事情"
+      },
+      {
+        "n": "2",
+        "descr": "the larger time period",
+        "descr_trans": "较大的时间段"
+      }
+    ],
+    "roleset_name_trans": "存在于一段时间的后半部分"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "late.02",
+    "roleset_name": "tardy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "late entity",
+        "descr_trans": "迟到的实体"
+      },
+      {
+        "n": "2",
+        "descr": "destination, thing that was scheduled",
+        "descr_trans": "目的地，预定的事情"
+      }
+    ],
+    "roleset_name_trans": "迟迟"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "late.03",
+    "roleset_name": "deceased",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "deceased entity",
+        "descr_trans": "已故实体"
+      }
+    ],
+    "roleset_name_trans": "死者"
+  }
 ]

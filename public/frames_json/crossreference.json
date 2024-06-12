@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "crossreference.01",
-        "roleset_name": "check information from one source against another source",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Person doing the checking"
-            },
-            {
-                "n": "1",
-                "descr": "First source of information"
-            },
-            {
-                "n": "2",
-                "descr": "Source of information being referenced against"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "crossreference.01",
+    "roleset_name": "check information from one source against another source",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Person doing the checking",
+        "descr_trans": "进行检查的人"
+      },
+      {
+        "n": "1",
+        "descr": "First source of information",
+        "descr_trans": "第一个信息来源"
+      },
+      {
+        "n": "2",
+        "descr": "Source of information being referenced against",
+        "descr_trans": "参考信息来源"
+      }
+    ],
+    "roleset_name_trans": "将一个来源的信息与另一来源的信息进行核对"
+  }
 ]

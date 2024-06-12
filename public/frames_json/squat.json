@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "squat.01",
-        "roleset_name": "sit ungracefully",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing sitting, squatting"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "squat.02",
-        "roleset_name": "occupy a building illegally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "occupier"
-            },
-            {
-                "n": "1",
-                "descr": "occupied"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "squat.01",
+    "roleset_name": "sit ungracefully",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing sitting, squatting",
+        "descr_trans": "坐着、蹲着的东西"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "坐得不雅"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "squat.02",
+    "roleset_name": "occupy a building illegally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "occupier",
+        "descr_trans": "占领者"
+      },
+      {
+        "n": "1",
+        "descr": "occupied",
+        "descr_trans": "占据"
+      }
+    ],
+    "roleset_name_trans": "非法占用建筑物"
+  }
 ]

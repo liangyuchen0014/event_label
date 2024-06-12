@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curse.01",
-        "roleset_name": "use bad language",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance, four letter words"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "curse.02",
-        "roleset_name": "condemn",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, condemner"
-            },
-            {
-                "n": "1",
-                "descr": "curse"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, poor cursed soul"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curse.01",
+    "roleset_name": "use bad language",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance, four letter words",
+        "descr_trans": "话语，四个字母的单词"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "使用脏话"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "curse.02",
+    "roleset_name": "condemn",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, condemner",
+        "descr_trans": "代理人、谴责者"
+      },
+      {
+        "n": "1",
+        "descr": "curse",
+        "descr_trans": "诅咒"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, poor cursed soul",
+        "descr_trans": "接收者，可怜的被诅咒的灵魂"
+      }
+    ],
+    "roleset_name_trans": "谴责"
+  }
 ]

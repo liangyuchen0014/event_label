@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expense.01",
-        "roleset_name": "charge/write off as an expense",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of writing off"
-            },
-            {
-                "n": "1",
-                "descr": "the charge being written off"
-            },
-            {
-                "n": "2",
-                "descr": "entity or account being charged"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication on arg1-- expense as what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "expensive.02",
-        "roleset_name": "high in price",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "costly thing, commodity"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            },
-            {
-                "n": "3",
-                "descr": "buyer, whom it is expensive to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expense.01",
+    "roleset_name": "charge/write off as an expense",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of writing off",
+        "descr_trans": "核销代理人"
+      },
+      {
+        "n": "1",
+        "descr": "the charge being written off",
+        "descr_trans": "被注销的费用"
+      },
+      {
+        "n": "2",
+        "descr": "entity or account being charged",
+        "descr_trans": "被收费的实体或帐户"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication on arg1-- expense as what",
+        "descr_trans": "arg1 的二次预测——费用是什么"
+      }
+    ],
+    "roleset_name_trans": "作为费用记入/冲销"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "expensive.02",
+    "roleset_name": "high in price",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "costly thing, commodity",
+        "descr_trans": "昂贵的东西，商品"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      },
+      {
+        "n": "3",
+        "descr": "buyer, whom it is expensive to",
+        "descr_trans": "买家，对谁来说是昂贵的"
+      }
+    ],
+    "roleset_name_trans": "价格高"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "immunosuppress.01",
-        "roleset_name": "supressing of immune function, having immune function suppressed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of immunosuppression"
-            },
-            {
-                "n": "1",
-                "descr": "Entity suppressed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "immunosuppress.01",
+    "roleset_name": "supressing of immune function, having immune function suppressed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of immunosuppression",
+        "descr_trans": "免疫抑制的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity suppressed",
+        "descr_trans": "实体被压制"
+      }
+    ],
+    "roleset_name_trans": "抑制免疫功能，抑制免疫功能"
+  }
 ]

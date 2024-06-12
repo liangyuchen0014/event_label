@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "test.01",
-        "roleset_name": "check (for), examine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "examiner"
-            },
-            {
-                "n": "1",
-                "descr": "examined"
-            },
-            {
-                "n": "2",
-                "descr": "in search of, for what"
-            },
-            {
-                "n": "3",
-                "descr": "test result; DO NOT USE THIS ARGUMENT FOR THYME AMR ANNOTATION"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "test.01",
+    "roleset_name": "check (for), examine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "examiner",
+        "descr_trans": "考官"
+      },
+      {
+        "n": "1",
+        "descr": "examined",
+        "descr_trans": "检查过"
+      },
+      {
+        "n": "2",
+        "descr": "in search of, for what",
+        "descr_trans": "寻找，为了什么"
+      },
+      {
+        "n": "3",
+        "descr": "test result; DO NOT USE THIS ARGUMENT FOR THYME AMR ANNOTATION",
+        "descr_trans": "测试结果;请勿将此参数用于 THYME AMR 注释"
+      }
+    ],
+    "roleset_name_trans": "检查（为），检查"
+  }
 ]

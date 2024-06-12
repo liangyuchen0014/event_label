@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brood.01",
-        "roleset_name": "ponder at length and unhappily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "brooder"
-            },
-            {
-                "n": "1",
-                "descr": "topics of thought"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "brood.02",
-        "roleset_name": "protect and hatch eggs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "egg guardian"
-            },
-            {
-                "n": "1",
-                "descr": "egg"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brood.01",
+    "roleset_name": "ponder at length and unhappily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "brooder",
+        "descr_trans": "育雏器"
+      },
+      {
+        "n": "1",
+        "descr": "topics of thought",
+        "descr_trans": "思想主题"
+      }
+    ],
+    "roleset_name_trans": "苦思冥想"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "brood.02",
+    "roleset_name": "protect and hatch eggs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "egg guardian",
+        "descr_trans": "鸡蛋守护者"
+      },
+      {
+        "n": "1",
+        "descr": "egg",
+        "descr_trans": "蛋"
+      }
+    ],
+    "roleset_name_trans": "保护和孵化鸡蛋"
+  }
 ]

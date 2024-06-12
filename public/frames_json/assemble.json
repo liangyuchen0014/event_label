@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assemble.01",
-        "roleset_name": "build, creation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "assemble.02",
-        "roleset_name": "group, grouping together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some grouping"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assemble.01",
+    "roleset_name": "build, creation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "建造、创造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "assemble.02",
+    "roleset_name": "group, grouping together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some grouping",
+        "descr_trans": "代理，导致某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being included in some group",
+        "descr_trans": "主题，包含在某个组中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "group",
+        "descr_trans": "团体"
+      }
+    ],
+    "roleset_name_trans": "组，分组在一起"
+  }
 ]

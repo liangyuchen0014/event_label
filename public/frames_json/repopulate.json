@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "repopulate.01",
-        "roleset_name": "repopulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, repopulator"
-            },
-            {
-                "n": "1",
-                "descr": "thing repopulated, destination"
-            },
-            {
-                "n": "2",
-                "descr": "repopulated with what, theme"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "repopulate.01",
+    "roleset_name": "repopulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, repopulator",
+        "descr_trans": "代理，再生剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing repopulated, destination",
+        "descr_trans": "事物重新填充，目的地"
+      },
+      {
+        "n": "2",
+        "descr": "repopulated with what, theme",
+        "descr_trans": "重新填充了什么，主题"
+      }
+    ],
+    "roleset_name_trans": "重新填充"
+  }
 ]

@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recognize.01",
-        "roleset_name": "applaud/give accolades to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applauder"
-            },
-            {
-                "n": "1",
-                "descr": "entity applauded"
-            },
-            {
-                "n": "2",
-                "descr": "recognized for/ because of"
-            },
-            {
-                "n": "3",
-                "descr": "recognized as"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recognize.02",
-        "roleset_name": "acknowledge as true/familiar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recognizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing recognized"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predication on arg1."
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "recognizable.03",
-        "roleset_name": "able to be identified",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recognizer"
-            },
-            {
-                "n": "1",
-                "descr": "thing recognized"
-            },
-            {
-                "n": "2",
-                "descr": "recognized as"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recognize.01",
+    "roleset_name": "applaud/give accolades to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applauder",
+        "descr_trans": "鼓掌者"
+      },
+      {
+        "n": "1",
+        "descr": "entity applauded",
+        "descr_trans": "实体鼓掌"
+      },
+      {
+        "n": "2",
+        "descr": "recognized for/ because of",
+        "descr_trans": "被认可/因为"
+      },
+      {
+        "n": "3",
+        "descr": "recognized as",
+        "descr_trans": "被认定为"
+      }
+    ],
+    "roleset_name_trans": "鼓掌/赞扬"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recognize.02",
+    "roleset_name": "acknowledge as true/familiar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recognizer",
+        "descr_trans": "识别器"
+      },
+      {
+        "n": "1",
+        "descr": "thing recognized",
+        "descr_trans": "被认可的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predication on arg1.",
+        "descr_trans": "对 arg1 进行二次预测。"
+      }
+    ],
+    "roleset_name_trans": "承认是真实的/熟悉的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "recognizable.03",
+    "roleset_name": "able to be identified",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recognizer",
+        "descr_trans": "识别器"
+      },
+      {
+        "n": "1",
+        "descr": "thing recognized",
+        "descr_trans": "被认可的东西"
+      },
+      {
+        "n": "2",
+        "descr": "recognized as",
+        "descr_trans": "被认定为"
+      }
+    ],
+    "roleset_name_trans": "能够被识别"
+  }
 ]

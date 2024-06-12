@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "guarantee.01",
-        "roleset_name": "promise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making guarantee"
-            },
-            {
-                "n": "1",
-                "descr": "guarantee"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive, guaranteed-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "guarantee.01",
+    "roleset_name": "promise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making guarantee",
+        "descr_trans": "担保主体"
+      },
+      {
+        "n": "1",
+        "descr": "guarantee",
+        "descr_trans": "保证"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive, guaranteed-to",
+        "descr_trans": "有益的，保证的"
+      }
+    ],
+    "roleset_name_trans": "承诺"
+  }
 ]

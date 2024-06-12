@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unify.01",
-        "roleset_name": "join together, joining into a unified whole",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joiner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first (or all) thing(s) unified"
-            },
-            {
-                "n": "2",
-                "descr": "second thing unified, if separate from arg1"
-            },
-            {
-                "n": "3",
-                "descr": "unification in what domain"
-            },
-            {
-                "n": "4",
-                "descr": "unified whole"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unify.01",
+    "roleset_name": "join together, joining into a unified whole",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joiner, agent",
+        "descr_trans": "木工、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first (or all) thing(s) unified",
+        "descr_trans": "第一个（或所有）事物统一"
+      },
+      {
+        "n": "2",
+        "descr": "second thing unified, if separate from arg1",
+        "descr_trans": "第二件事统一，如果与 arg1 分开"
+      },
+      {
+        "n": "3",
+        "descr": "unification in what domain",
+        "descr_trans": "统一在什么领域"
+      },
+      {
+        "n": "4",
+        "descr": "unified whole",
+        "descr_trans": "统一整体"
+      }
+    ],
+    "roleset_name_trans": "联合起来，成为一个统一的整体"
+  }
 ]

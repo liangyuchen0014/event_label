@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "authenticate.01",
-        "roleset_name": "provide proof that a document is authentic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "verifier"
-            },
-            {
-                "n": "1",
-                "descr": "entity authenticated"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "authentic.02",
-        "roleset_name": "the real deal, genuine",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "real entity (concatenation may be required)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "authenticate.01",
+    "roleset_name": "provide proof that a document is authentic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "verifier",
+        "descr_trans": "验证者"
+      },
+      {
+        "n": "1",
+        "descr": "entity authenticated",
+        "descr_trans": "实体已验证"
+      }
+    ],
+    "roleset_name_trans": "提供文件真实性的证明"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "authentic.02",
+    "roleset_name": "the real deal, genuine",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "real entity (concatenation may be required)",
+        "descr_trans": "真实实体（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "货真价实，货真价实"
+  }
 ]

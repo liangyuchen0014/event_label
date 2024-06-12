@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adore.01",
-        "roleset_name": "have fond feelings for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "adorer"
-            },
-            {
-                "n": "1",
-                "descr": "thing adored"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "adorable.02",
-        "roleset_name": "exceptionally cute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "perceiver"
-            },
-            {
-                "n": "1",
-                "descr": "cutie pie"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adore.01",
+    "roleset_name": "have fond feelings for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "adorer",
+        "descr_trans": "爱"
+      },
+      {
+        "n": "1",
+        "descr": "thing adored",
+        "descr_trans": "喜欢的东西"
+      }
+    ],
+    "roleset_name_trans": "对"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "adorable.02",
+    "roleset_name": "exceptionally cute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "perceiver",
+        "descr_trans": "感知者"
+      },
+      {
+        "n": "1",
+        "descr": "cutie pie",
+        "descr_trans": "可爱派"
+      }
+    ],
+    "roleset_name_trans": "特别可爱"
+  }
 ]

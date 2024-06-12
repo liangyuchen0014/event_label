@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "slander.01",
-        "roleset_name": "to defame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "defamer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity defamed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "slander.01",
+    "roleset_name": "to defame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "defamer, agent",
+        "descr_trans": "诽谤者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity defamed",
+        "descr_trans": "实体诽谤"
+      }
+    ],
+    "roleset_name_trans": "诽谤"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recertify.01",
-        "roleset_name": "certifying again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Confirmer, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity certified"
-            },
-            {
-                "n": "2",
-                "descr": "Seconday predicate (certified as)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recertify.01",
+    "roleset_name": "certifying again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Confirmer, Agent",
+        "descr_trans": "确认，代理"
+      },
+      {
+        "n": "1",
+        "descr": "Entity certified",
+        "descr_trans": "实体认证"
+      },
+      {
+        "n": "2",
+        "descr": "Seconday predicate (certified as)",
+        "descr_trans": "次要谓词（认证为）"
+      }
+    ],
+    "roleset_name_trans": "再次认证"
+  }
 ]

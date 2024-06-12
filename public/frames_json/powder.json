@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "powder.01",
-        "roleset_name": "make into a powder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing made into powdered"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "powder.02",
-        "roleset_name": "put powder on something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing sprinkled with powder"
-            },
-            {
-                "n": "2",
-                "descr": "powder"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "powder.01",
+    "roleset_name": "make into a powder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing made into powdered",
+        "descr_trans": "制成粉末状的东西"
+      }
+    ],
+    "roleset_name_trans": "打成粉末"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "powder.02",
+    "roleset_name": "put powder on something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sprinkled with powder",
+        "descr_trans": "撒有粉末的东西"
+      },
+      {
+        "n": "2",
+        "descr": "powder",
+        "descr_trans": "粉末"
+      }
+    ],
+    "roleset_name_trans": "把粉末涂在某物上"
+  }
 ]

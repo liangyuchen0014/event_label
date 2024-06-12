@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "greet.01",
-        "roleset_name": "welcome, receive with a   specific reaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "greeter"
-            },
-            {
-                "n": "1",
-                "descr": "thing greeted"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute, greeted as"
-            },
-            {
-                "n": "3",
-                "descr": "specific reaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "greet.01",
+    "roleset_name": "welcome, receive with a   specific reaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "greeter",
+        "descr_trans": "招待员"
+      },
+      {
+        "n": "1",
+        "descr": "thing greeted",
+        "descr_trans": "迎接的事物"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute, greeted as",
+        "descr_trans": "次要属性，被称为"
+      },
+      {
+        "n": "3",
+        "descr": "specific reaction",
+        "descr_trans": "特异性反应"
+      }
+    ],
+    "roleset_name_trans": "欢迎，收到具体反应"
+  }
 ]

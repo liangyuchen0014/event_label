@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counterreaction.01",
-        "roleset_name": "act in responce to a stimulus",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, re-reactor"
-            },
-            {
-                "n": "1",
-                "descr": "reacted-to"
-            },
-            {
-                "n": "2",
-                "descr": "reaction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counterreaction.01",
+    "roleset_name": "act in responce to a stimulus",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, re-reactor",
+        "descr_trans": "代理，再反应器"
+      },
+      {
+        "n": "1",
+        "descr": "reacted-to",
+        "descr_trans": "作出反应"
+      },
+      {
+        "n": "2",
+        "descr": "reaction",
+        "descr_trans": "反应"
+      }
+    ],
+    "roleset_name_trans": "对刺激做出反应"
+  }
 ]

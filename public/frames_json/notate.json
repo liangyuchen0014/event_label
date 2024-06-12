@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "notate.01",
-        "roleset_name": "put into a system of notation (as music or choreography), translating into a special system of marks/characters",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, notator"
-            },
-            {
-                "n": "1",
-                "descr": "thing put into notation"
-            },
-            {
-                "n": "2",
-                "descr": "start state, source"
-            },
-            {
-                "n": "3",
-                "descr": "end state, system of notation, secondary pred on arg1 or 2"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "notate.01",
+    "roleset_name": "put into a system of notation (as music or choreography), translating into a special system of marks/characters",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, notator",
+        "descr_trans": "代理人、公证人"
+      },
+      {
+        "n": "1",
+        "descr": "thing put into notation",
+        "descr_trans": "用符号表示的东西"
+      },
+      {
+        "n": "2",
+        "descr": "start state, source",
+        "descr_trans": "起始状态、来源"
+      },
+      {
+        "n": "3",
+        "descr": "end state, system of notation, secondary pred on arg1 or 2",
+        "descr_trans": "最终状态、符号系统、arg1 或 2 上的二次预测"
+      }
+    ],
+    "roleset_name_trans": "放入符号系统（如音乐或编舞），转化为特殊的标记/字符系统"
+  }
 ]

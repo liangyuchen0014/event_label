@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alternate.01",
-        "roleset_name": "switch between   two possibilities",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of switch"
-            },
-            {
-                "n": "1",
-                "descr": "first or all things switching"
-            },
-            {
-                "n": "2",
-                "descr": "secondary possibilities"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alternate.01",
+    "roleset_name": "switch between   two possibilities",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of switch",
+        "descr_trans": "开关的原因"
+      },
+      {
+        "n": "1",
+        "descr": "first or all things switching",
+        "descr_trans": "首先或所有事情都在切换"
+      },
+      {
+        "n": "2",
+        "descr": "secondary possibilities",
+        "descr_trans": "次要的可能性"
+      }
+    ],
+    "roleset_name_trans": "在两种可能性之间切换"
+  }
 ]

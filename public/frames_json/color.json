@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "color.01",
-        "roleset_name": "(cause to) have some color, adding color to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of coloration"
-            },
-            {
-                "n": "1",
-                "descr": "thing with color"
-            },
-            {
-                "n": "2",
-                "descr": "the color itself"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "color_in.02",
-        "roleset_name": "color completely inside the lines",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "colorer"
-            },
-            {
-                "n": "1",
-                "descr": "image/surface colored in"
-            },
-            {
-                "n": "2",
-                "descr": "the color"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "color.01",
+    "roleset_name": "(cause to) have some color, adding color to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of coloration",
+        "descr_trans": "着色的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing with color",
+        "descr_trans": "有颜色的东西"
+      },
+      {
+        "n": "2",
+        "descr": "the color itself",
+        "descr_trans": "颜色本身"
+      }
+    ],
+    "roleset_name_trans": "（导致）有一些颜色，添加颜色"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "color_in.02",
+    "roleset_name": "color completely inside the lines",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "colorer",
+        "descr_trans": "颜色"
+      },
+      {
+        "n": "1",
+        "descr": "image/surface colored in",
+        "descr_trans": "图像/表面着色"
+      },
+      {
+        "n": "2",
+        "descr": "the color",
+        "descr_trans": "颜色"
+      }
+    ],
+    "roleset_name_trans": "颜色完全在线条内"
+  }
 ]

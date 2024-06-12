@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tap.01",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tap.02",
-        "roleset_name": "call upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "thing being summoned"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1 or task"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tap.03",
-        "roleset_name": "access, as a phone or water tap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "accessor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing tapped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tap.01",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tap.02",
+    "roleset_name": "call upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "thing being summoned",
+        "descr_trans": "被召唤的东西"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1 or task",
+        "descr_trans": "arg1 或任务的属性"
+      }
+    ],
+    "roleset_name_trans": "呼吁"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tap.03",
+    "roleset_name": "access, as a phone or water tap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "accessor, agent",
+        "descr_trans": "访问者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing tapped",
+        "descr_trans": "被窃听的东西"
+      }
+    ],
+    "roleset_name_trans": "通过电话或水龙头访问"
+  }
 ]

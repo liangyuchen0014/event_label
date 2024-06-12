@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uninfect.01",
-        "roleset_name": "keep free from infection",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of lack of infection, not germ"
-            },
-            {
-                "n": "1",
-                "descr": "entity free of infection"
-            },
-            {
-                "n": "2",
-                "descr": "germ"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uninfect.01",
+    "roleset_name": "keep free from infection",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of lack of infection, not germ",
+        "descr_trans": "缺乏感染的原因，而不是细菌"
+      },
+      {
+        "n": "1",
+        "descr": "entity free of infection",
+        "descr_trans": "没有感染的实体"
+      },
+      {
+        "n": "2",
+        "descr": "germ",
+        "descr_trans": "胚芽"
+      }
+    ],
+    "roleset_name_trans": "保持免受感染"
+  }
 ]

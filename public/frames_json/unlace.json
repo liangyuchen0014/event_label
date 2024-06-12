@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unlace.01",
-        "roleset_name": "unlace",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unlacing, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unlaced"
-            },
-            {
-                "n": "2",
-                "descr": "unlaced from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unlace.01",
+    "roleset_name": "unlace",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unlacing, agent",
+        "descr_trans": "实体解开，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unlaced",
+        "descr_trans": "没系带的东西"
+      },
+      {
+        "n": "2",
+        "descr": "unlaced from, source",
+        "descr_trans": "从源头解开"
+      }
+    ],
+    "roleset_name_trans": "解开"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assail.01",
-        "roleset_name": "to attack viciously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assailant, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity assailed"
-            },
-            {
-                "n": "2",
-                "descr": "assailed for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assail.01",
+    "roleset_name": "to attack viciously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assailant, agent",
+        "descr_trans": "袭击者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity assailed",
+        "descr_trans": "实体被攻击"
+      },
+      {
+        "n": "2",
+        "descr": "assailed for",
+        "descr_trans": "被攻击"
+      }
+    ],
+    "roleset_name_trans": "恶毒地攻击"
+  }
 ]

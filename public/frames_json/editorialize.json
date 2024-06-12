@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "editorialize.01",
-        "roleset_name": "express an opinion in print",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "author"
-            },
-            {
-                "n": "1",
-                "descr": "opinion"
-            },
-            {
-                "n": "2",
-                "descr": "subject/source of opinion"
-            },
-            {
-                "n": "m",
-                "descr": "medium: location/publication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "editorialize.01",
+    "roleset_name": "express an opinion in print",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "author",
+        "descr_trans": "作者"
+      },
+      {
+        "n": "1",
+        "descr": "opinion",
+        "descr_trans": "观点"
+      },
+      {
+        "n": "2",
+        "descr": "subject/source of opinion",
+        "descr_trans": "主题/意见来源"
+      },
+      {
+        "n": "m",
+        "descr": "medium: location/publication",
+        "descr_trans": "媒介：地点/出版物"
+      }
+    ],
+    "roleset_name_trans": "以印刷形式表达意见"
+  }
 ]

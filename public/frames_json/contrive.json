@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contrive.01",
-        "roleset_name": "to plan, to bring about a process or activity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Planner, contriver"
-            },
-            {
-                "n": "1",
-                "descr": "Action or event planned, caused"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "contrive.02",
-        "roleset_name": "to invent, create",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inventor"
-            },
-            {
-                "n": "1",
-                "descr": "thing invented"
-            },
-            {
-                "n": "2",
-                "descr": "source material, contrived from what?"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive, contrived for whom?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contrive.01",
+    "roleset_name": "to plan, to bring about a process or activity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Planner, contriver",
+        "descr_trans": "策划者、设计者"
+      },
+      {
+        "n": "1",
+        "descr": "Action or event planned, caused",
+        "descr_trans": "计划、引起的行动或事件"
+      }
+    ],
+    "roleset_name_trans": "计划、实现一个过程或活动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "contrive.02",
+    "roleset_name": "to invent, create",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inventor",
+        "descr_trans": "发明者"
+      },
+      {
+        "n": "1",
+        "descr": "thing invented",
+        "descr_trans": "发明的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source material, contrived from what?",
+        "descr_trans": "来源材料，是从什么中提取出来的？"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive, contrived for whom?",
+        "descr_trans": "有益的，为谁而做的？"
+      }
+    ],
+    "roleset_name_trans": "发明、创造"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dehydrate.01",
-        "roleset_name": "remove moisture from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of loss of moisture"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing losing moisture"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dehydrate.01",
+    "roleset_name": "remove moisture from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of loss of moisture",
+        "descr_trans": "剂，水分流失的原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing losing moisture",
+        "descr_trans": "病人，失去水分的东西"
+      }
+    ],
+    "roleset_name_trans": "除去水分"
+  }
 ]

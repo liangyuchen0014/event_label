@@ -1,108 +1,130 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tie.01",
-        "roleset_name": "attach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being tied"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, tied to what"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            },
-            {
-                "n": "4",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tie.03",
-        "roleset_name": "score the same",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of equal score"
-            },
-            {
-                "n": "1",
-                "descr": "in comparison to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "tie_in.02",
-        "roleset_name": "attach",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "first thing tied in"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, tied in with/to what"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "tie_up.04",
-        "roleset_name": "bind with rope (eg)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tie-er"
-            },
-            {
-                "n": "1",
-                "descr": "tied"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "tie_up.05",
-        "roleset_name": "be involved in",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing involved"
-            },
-            {
-                "n": "2",
-                "descr": "thing involved in/with"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "tie_down.06",
-        "roleset_name": "be stuck",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "stuck entity"
-            },
-            {
-                "n": "2",
-                "descr": "cause of stuckness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tie.01",
+    "roleset_name": "attach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being tied",
+        "descr_trans": "首先被束缚的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, tied to what",
+        "descr_trans": "第二件事，与什么相关"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      },
+      {
+        "n": "4",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "附"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tie.03",
+    "roleset_name": "score the same",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of equal score",
+        "descr_trans": "造成平分的原因"
+      },
+      {
+        "n": "1",
+        "descr": "in comparison to",
+        "descr_trans": "相比于"
+      }
+    ],
+    "roleset_name_trans": "得分相同"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "tie_in.02",
+    "roleset_name": "attach",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing tied in",
+        "descr_trans": "首先绑定的东西"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, tied in with/to what",
+        "descr_trans": "第二件事，与/与什么相关"
+      }
+    ],
+    "roleset_name_trans": "附"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "tie_up.04",
+    "roleset_name": "bind with rope (eg)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tie-er",
+        "descr_trans": "tie-er"
+      },
+      {
+        "n": "1",
+        "descr": "tied",
+        "descr_trans": "捆绑"
+      }
+    ],
+    "roleset_name_trans": "用绳子捆绑（例如）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "tie_up.05",
+    "roleset_name": "be involved in",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing involved",
+        "descr_trans": "涉及的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing involved in/with",
+        "descr_trans": "涉及/涉及的事物"
+      }
+    ],
+    "roleset_name_trans": "参与"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "tie_down.06",
+    "roleset_name": "be stuck",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "stuck entity",
+        "descr_trans": "卡住的实体"
+      },
+      {
+        "n": "2",
+        "descr": "cause of stuckness",
+        "descr_trans": "卡住的原因"
+      }
+    ],
+    "roleset_name_trans": "被卡住"
+  }
 ]

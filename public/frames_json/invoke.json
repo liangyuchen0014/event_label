@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "invoke.01",
-        "roleset_name": "call upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "invoker"
-            },
-            {
-                "n": "1",
-                "descr": "invoked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "invoke.01",
+    "roleset_name": "call upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "invoker",
+        "descr_trans": "祈求者"
+      },
+      {
+        "n": "1",
+        "descr": "invoked",
+        "descr_trans": "调用"
+      }
+    ],
+    "roleset_name_trans": "呼吁"
+  }
 ]

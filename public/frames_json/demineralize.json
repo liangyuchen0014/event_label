@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demineralize.01",
-        "roleset_name": "(cause to) lose minerals",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of demineralization"
-            },
-            {
-                "n": "1",
-                "descr": "entity losing minerals"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demineralize.01",
+    "roleset_name": "(cause to) lose minerals",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of demineralization",
+        "descr_trans": "脱矿质的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity losing minerals",
+        "descr_trans": "失去矿物质的实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）失去矿物质"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dent.01",
-        "roleset_name": "make a dent in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "debter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing dented, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dent.01",
+    "roleset_name": "make a dent in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "debter, agent",
+        "descr_trans": "债务人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing dented, patient",
+        "descr_trans": "东西凹了，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "有所作为"
+  }
 ]

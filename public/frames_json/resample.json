@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "resample.01",
-        "roleset_name": "sample again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, resampler"
-            },
-            {
-                "n": "1",
-                "descr": "thing sampled again"
-            },
-            {
-                "n": "2",
-                "descr": "source of the samples (if in addition to arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "resample.01",
+    "roleset_name": "sample again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, resampler",
+        "descr_trans": "代理、重采样器"
+      },
+      {
+        "n": "1",
+        "descr": "thing sampled again",
+        "descr_trans": "再次采样的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source of the samples (if in addition to arg1)",
+        "descr_trans": "样本来源（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "再次取样"
+  }
 ]

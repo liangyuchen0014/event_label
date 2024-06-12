@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bulk.01",
-        "roleset_name": "loom",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "theme, loomig thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bulky.02",
-        "roleset_name": "large, unwieldy",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that is bulky"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 is full of, creating bulkiness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bulk.01",
+    "roleset_name": "loom",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "theme, loomig thing",
+        "descr_trans": "主题，迫在眉睫的事情"
+      }
+    ],
+    "roleset_name_trans": "织布机"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bulky.02",
+    "roleset_name": "large, unwieldy",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that is bulky",
+        "descr_trans": "体积庞大的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 is full of, creating bulkiness",
+        "descr_trans": "arg1 充满了什么，造成体积庞大"
+      }
+    ],
+    "roleset_name_trans": "大的、笨重的"
+  }
 ]

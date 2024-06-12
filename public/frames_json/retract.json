@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retract.01",
-        "roleset_name": "to take back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker back, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing retracted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retract.01",
+    "roleset_name": "to take back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker back, agent",
+        "descr_trans": "收回者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing retracted",
+        "descr_trans": "东西被收回"
+      }
+    ],
+    "roleset_name_trans": "收回"
+  }
 ]

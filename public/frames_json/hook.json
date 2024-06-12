@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hook.01",
-        "roleset_name": "attach (as with a hook)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of attachment"
-            },
-            {
-                "n": "1",
-                "descr": "thing now attached, first or all things hooked"
-            },
-            {
-                "n": "2",
-                "descr": "hook, thing arg1 is attached to"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hook.03",
-        "roleset_name": "(cause to) exist in a hook shape",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of hook shape"
-            },
-            {
-                "n": "1",
-                "descr": "thing in hook shape"
-            },
-            {
-                "n": "2",
-                "descr": "hooked around what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "hook_up.02",
-        "roleset_name": "attach, phrasal variant",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of attachment"
-            },
-            {
-                "n": "1",
-                "descr": "thing now attached"
-            },
-            {
-                "n": "2",
-                "descr": "hook"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hook.01",
+    "roleset_name": "attach (as with a hook)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of attachment",
+        "descr_trans": "依恋的起因"
+      },
+      {
+        "n": "1",
+        "descr": "thing now attached, first or all things hooked",
+        "descr_trans": "现在附着的东西，首先或所有东西都被钩住了"
+      },
+      {
+        "n": "2",
+        "descr": "hook, thing arg1 is attached to",
+        "descr_trans": "钩子，东西 arg1 附加到"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "附加（如用钩子）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hook.03",
+    "roleset_name": "(cause to) exist in a hook shape",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of hook shape",
+        "descr_trans": "代理，钩形的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing in hook shape",
+        "descr_trans": "钩状的东西"
+      },
+      {
+        "n": "2",
+        "descr": "hooked around what",
+        "descr_trans": "着迷于什么"
+      }
+    ],
+    "roleset_name_trans": "（导致）以钩状存在"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "hook_up.02",
+    "roleset_name": "attach, phrasal variant",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of attachment",
+        "descr_trans": "依恋的起因"
+      },
+      {
+        "n": "1",
+        "descr": "thing now attached",
+        "descr_trans": "现在附上的东西"
+      },
+      {
+        "n": "2",
+        "descr": "hook",
+        "descr_trans": "钩"
+      }
+    ],
+    "roleset_name_trans": "附加，短语变体"
+  }
 ]

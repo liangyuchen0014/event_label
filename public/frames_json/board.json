@@ -1,77 +1,92 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "board.01",
-        "roleset_name": "board, get on a vehicle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "passenger"
-            },
-            {
-                "n": "1",
-                "descr": "vehicle"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "board.02",
-        "roleset_name": "live temporarily at some location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "boarder"
-            },
-            {
-                "n": "1",
-                "descr": "location, house"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "board.03",
-        "roleset_name": "place a board over something (usually a         window)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person placing board"
-            },
-            {
-                "n": "1",
-                "descr": "object getting attached to board"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "board.05",
-        "roleset_name": "move by board (skate, snow, etc)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "skater"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "board_up.04",
-        "roleset_name": "board_up: place boards over something       extensively",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person placing board"
-            },
-            {
-                "n": "1",
-                "descr": "object getting attached to board"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "board.01",
+    "roleset_name": "board, get on a vehicle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "passenger",
+        "descr_trans": "乘客"
+      },
+      {
+        "n": "1",
+        "descr": "vehicle",
+        "descr_trans": "车辆"
+      }
+    ],
+    "roleset_name_trans": "上车，上车"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "board.02",
+    "roleset_name": "live temporarily at some location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "boarder",
+        "descr_trans": "寄宿生"
+      },
+      {
+        "n": "1",
+        "descr": "location, house",
+        "descr_trans": "位置、房子"
+      }
+    ],
+    "roleset_name_trans": "暂时住在某个地方"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "board.03",
+    "roleset_name": "place a board over something (usually a         window)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person placing board",
+        "descr_trans": "放置板的人"
+      },
+      {
+        "n": "1",
+        "descr": "object getting attached to board",
+        "descr_trans": "物体附着在板上"
+      }
+    ],
+    "roleset_name_trans": "将木板放在某物（通常是窗户）上"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "board.05",
+    "roleset_name": "move by board (skate, snow, etc)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "skater",
+        "descr_trans": "溜冰者"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "乘板移动（滑冰、雪等）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "board_up.04",
+    "roleset_name": "board_up: place boards over something       extensively",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person placing board",
+        "descr_trans": "放置板的人"
+      },
+      {
+        "n": "1",
+        "descr": "object getting attached to board",
+        "descr_trans": "物体附着在板上"
+      }
+    ],
+    "roleset_name_trans": "board_up：将木板广泛地放置在某物上"
+  }
 ]

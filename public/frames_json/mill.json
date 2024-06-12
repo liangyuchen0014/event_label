@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mill.01",
-        "roleset_name": "grind, like coffee",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grinder"
-            },
-            {
-                "n": "1",
-                "descr": "whole"
-            },
-            {
-                "n": "2",
-                "descr": "powder, pieces"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mill.02",
-        "roleset_name": "move randomly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path or range"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mill.01",
+    "roleset_name": "grind, like coffee",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grinder",
+        "descr_trans": "磨床"
+      },
+      {
+        "n": "1",
+        "descr": "whole",
+        "descr_trans": "所有的"
+      },
+      {
+        "n": "2",
+        "descr": "powder, pieces",
+        "descr_trans": "粉末、块状"
+      }
+    ],
+    "roleset_name_trans": "研磨，像咖啡一样"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mill.02",
+    "roleset_name": "move randomly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path or range",
+        "descr_trans": "路径或范围"
+      }
+    ],
+    "roleset_name_trans": "随机移动"
+  }
 ]

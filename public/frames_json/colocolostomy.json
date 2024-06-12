@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "colocolostomy.01",
-        "roleset_name": "surgery that creates an artificial connection between two non-contiguous parts of the colon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "product/result"
-            },
-            {
-                "n": "3",
-                "descr": "which part(s) of the colon is used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "colocolostomy.01",
+    "roleset_name": "surgery that creates an artificial connection between two non-contiguous parts of the colon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "product/result",
+        "descr_trans": "产品/结果"
+      },
+      {
+        "n": "3",
+        "descr": "which part(s) of the colon is used",
+        "descr_trans": "使用结肠的哪一部分"
+      }
+    ],
+    "roleset_name_trans": "在结肠的两个不连续部分之间建立人工连接的手术"
+  }
 ]

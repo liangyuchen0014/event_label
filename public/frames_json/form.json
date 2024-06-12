@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "form.01",
-        "roleset_name": "create, make",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator"
-            },
-            {
-                "n": "1",
-                "descr": "thing created"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            },
-            {
-                "n": "4",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "form.02",
-        "roleset_name": "comprise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "components"
-            },
-            {
-                "n": "1",
-                "descr": "whole"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "form.01",
+    "roleset_name": "create, make",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator",
+        "descr_trans": "创造者"
+      },
+      {
+        "n": "1",
+        "descr": "thing created",
+        "descr_trans": "创造的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "4",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "创造，制造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "form.02",
+    "roleset_name": "comprise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "components",
+        "descr_trans": "成分"
+      },
+      {
+        "n": "1",
+        "descr": "whole",
+        "descr_trans": "所有的"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  }
 ]

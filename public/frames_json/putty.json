@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "putty.01",
-        "roleset_name": "secure or cover with putty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, putty-er"
-            },
-            {
-                "n": "1",
-                "descr": "location/entity covered in putty"
-            },
-            {
-                "n": "2",
-                "descr": "putty itself, type of putty"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "putty.01",
+    "roleset_name": "secure or cover with putty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, putty-er",
+        "descr_trans": "代理，腻子"
+      },
+      {
+        "n": "1",
+        "descr": "location/entity covered in putty",
+        "descr_trans": "被腻子覆盖的位置/实体"
+      },
+      {
+        "n": "2",
+        "descr": "putty itself, type of putty",
+        "descr_trans": "腻子本身，腻子的类型"
+      }
+    ],
+    "roleset_name_trans": "固定或用腻子覆盖"
+  }
 ]

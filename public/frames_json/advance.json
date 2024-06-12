@@ -1,90 +1,109 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "advance.01",
-        "roleset_name": "move forward or upward",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causing advance"
-            },
-            {
-                "n": "1",
-                "descr": "thing advancing"
-            },
-            {
-                "n": "2",
-                "descr": "extent of advancement"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "attribute of arg1, where this is advancing rather than whole"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "advance.03",
-        "roleset_name": "pay out a portion of wages/credit before they are due",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer"
-            },
-            {
-                "n": "1",
-                "descr": "wages paid ahead of time"
-            },
-            {
-                "n": "2",
-                "descr": "payee"
-            },
-            {
-                "n": "3",
-                "descr": "total wages, out of which arg1 is paid"
-            },
-            {
-                "n": "4",
-                "descr": "transaction, reason for advance"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "advanced.02",
-        "roleset_name": "progressive, cutting edge",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "progressive entity"
-            },
-            {
-                "n": "2",
-                "descr": "domain"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "in_advance.04",
-        "roleset_name": "ahead of time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing done/occurring ahead of time"
-            },
-            {
-                "n": "2",
-                "descr": "ahead of what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "advance.01",
+    "roleset_name": "move forward or upward",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causing advance",
+        "descr_trans": "代理人，导致提前"
+      },
+      {
+        "n": "1",
+        "descr": "thing advancing",
+        "descr_trans": "事情进展"
+      },
+      {
+        "n": "2",
+        "descr": "extent of advancement",
+        "descr_trans": "进步程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "attribute of arg1, where this is advancing rather than whole",
+        "descr_trans": "arg1 的属性，这里是前进而不是整体"
+      }
+    ],
+    "roleset_name_trans": "向前或向上移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "advance.03",
+    "roleset_name": "pay out a portion of wages/credit before they are due",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer",
+        "descr_trans": "付款人"
+      },
+      {
+        "n": "1",
+        "descr": "wages paid ahead of time",
+        "descr_trans": "提前支付工资"
+      },
+      {
+        "n": "2",
+        "descr": "payee",
+        "descr_trans": "收款人"
+      },
+      {
+        "n": "3",
+        "descr": "total wages, out of which arg1 is paid",
+        "descr_trans": "工资总额，其中 arg1 被支付"
+      },
+      {
+        "n": "4",
+        "descr": "transaction, reason for advance",
+        "descr_trans": "交易、预付款原因"
+      }
+    ],
+    "roleset_name_trans": "在到期前支付部分工资/信贷"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "advanced.02",
+    "roleset_name": "progressive, cutting edge",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "progressive entity",
+        "descr_trans": "进步实体"
+      },
+      {
+        "n": "2",
+        "descr": "domain",
+        "descr_trans": "领域"
+      }
+    ],
+    "roleset_name_trans": "先进的、尖端的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "in_advance.04",
+    "roleset_name": "ahead of time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing done/occurring ahead of time",
+        "descr_trans": "提前完成/发生的事情"
+      },
+      {
+        "n": "2",
+        "descr": "ahead of what",
+        "descr_trans": "领先于什么"
+      }
+    ],
+    "roleset_name_trans": "提前时间"
+  }
 ]

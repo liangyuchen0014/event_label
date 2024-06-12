@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "objectify.01",
-        "roleset_name": "treat as object",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing objectified"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "objectify.01",
+    "roleset_name": "treat as object",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing objectified",
+        "descr_trans": "事物客观化"
+      }
+    ],
+    "roleset_name_trans": "视为对象"
+  }
 ]

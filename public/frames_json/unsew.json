@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unsew.01",
-        "roleset_name": "unattach by removing sewn threads",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Patient, thing(s) being unsewn"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument of unsewing"
-            },
-            {
-                "n": "3",
-                "descr": "Attribute of Arg1, end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unsew.01",
+    "roleset_name": "unattach by removing sewn threads",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Patient, thing(s) being unsewn",
+        "descr_trans": "病人，东西未缝合"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument of unsewing",
+        "descr_trans": "拆缝工具"
+      },
+      {
+        "n": "3",
+        "descr": "Attribute of Arg1, end state",
+        "descr_trans": "Arg1 的属性，结束状态"
+      }
+    ],
+    "roleset_name_trans": "通过移除缝线来松开"
+  }
 ]

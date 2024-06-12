@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overture.01",
-        "roleset_name": "initiation, offer of negotiations/transaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity offering, doing overture"
-            },
-            {
-                "n": "1",
-                "descr": "thing proposed, offered"
-            },
-            {
-                "n": "2",
-                "descr": "listener, entity arg1 is proposed, offered to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overture.01",
+    "roleset_name": "initiation, offer of negotiations/transaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity offering, doing overture",
+        "descr_trans": "实体提供，做序曲"
+      },
+      {
+        "n": "1",
+        "descr": "thing proposed, offered",
+        "descr_trans": "提议的、提供的事物"
+      },
+      {
+        "n": "2",
+        "descr": "listener, entity arg1 is proposed, offered to",
+        "descr_trans": "监听器，实体 arg1 被提议，提供给"
+      }
+    ],
+    "roleset_name_trans": "发起、提出谈判/交易"
+  }
 ]

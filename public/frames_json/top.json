@@ -1,105 +1,127 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "top.01",
-        "roleset_name": "causal: provide a top for something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of top, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing topped"
-            },
-            {
-                "n": "2",
-                "descr": "top"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "top.02",
-        "roleset_name": "surpass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "surpasser"
-            },
-            {
-                "n": "1",
-                "descr": "thing surpassed"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "top_off.03",
-        "roleset_name": "top off: provide with a top",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider of top, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing topped"
-            },
-            {
-                "n": "2",
-                "descr": "the topper"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "top_up.04",
-        "roleset_name": "fill up completely when only partially empty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of filling"
-            },
-            {
-                "n": "1",
-                "descr": "container filled"
-            },
-            {
-                "n": "2",
-                "descr": "substance put in"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "top_out.05",
-        "roleset_name": "reach an upper limit, high point",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing reaching a high point"
-            },
-            {
-                "n": "2",
-                "descr": "the upper limit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "top.01",
+    "roleset_name": "causal: provide a top for something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of top, agent",
+        "descr_trans": "顶级提供商、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing topped",
+        "descr_trans": "事情顶上"
+      },
+      {
+        "n": "2",
+        "descr": "top",
+        "descr_trans": "顶部"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "因果：为某事提供一个顶部"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "top.02",
+    "roleset_name": "surpass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "surpasser",
+        "descr_trans": "超过"
+      },
+      {
+        "n": "1",
+        "descr": "thing surpassed",
+        "descr_trans": "东西超越了"
+      }
+    ],
+    "roleset_name_trans": "超过"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "top_off.03",
+    "roleset_name": "top off: provide with a top",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider of top, agent",
+        "descr_trans": "顶级提供商、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing topped",
+        "descr_trans": "事情顶上"
+      },
+      {
+        "n": "2",
+        "descr": "the topper",
+        "descr_trans": "礼帽"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      }
+    ],
+    "roleset_name_trans": "顶部关闭：提供顶部"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "top_up.04",
+    "roleset_name": "fill up completely when only partially empty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of filling",
+        "descr_trans": "填充剂"
+      },
+      {
+        "n": "1",
+        "descr": "container filled",
+        "descr_trans": "容器已满"
+      },
+      {
+        "n": "2",
+        "descr": "substance put in",
+        "descr_trans": "物质放入"
+      }
+    ],
+    "roleset_name_trans": "仅部分空时完全填满"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "top_out.05",
+    "roleset_name": "reach an upper limit, high point",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing reaching a high point",
+        "descr_trans": "事情达到一个高点"
+      },
+      {
+        "n": "2",
+        "descr": "the upper limit",
+        "descr_trans": "上限"
+      }
+    ],
+    "roleset_name_trans": "达到上限，最高点"
+  }
 ]

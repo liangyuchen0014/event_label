@@ -1,98 +1,119 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "build.01",
-        "roleset_name": "construct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction"
-            },
-            {
-                "n": "2",
-                "descr": "material, start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "build.02",
-        "roleset_name": "grow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing growing, building"
-            },
-            {
-                "n": "1",
-                "descr": "place grown, substrate, material"
-            },
-            {
-                "n": "2",
-                "descr": "amount increased by, EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "build.03",
-        "roleset_name": "include",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing some grouping"
-            },
-            {
-                "n": "1",
-                "descr": "theme, thing being included in some group"
-            },
-            {
-                "n": "2",
-                "descr": "group"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "build_up.05",
-        "roleset_name": "build up: cause to be bigger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction, bigger thing"
-            },
-            {
-                "n": "2",
-                "descr": "amount of change, EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point, end state of arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "build.01",
+    "roleset_name": "construct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction",
+        "descr_trans": "建造"
+      },
+      {
+        "n": "2",
+        "descr": "material, start state",
+        "descr_trans": "材料、起始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "构造"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "build.02",
+    "roleset_name": "grow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing growing, building",
+        "descr_trans": "事物生长、建造"
+      },
+      {
+        "n": "1",
+        "descr": "place grown, substrate, material",
+        "descr_trans": "生长地点、基质、材料"
+      },
+      {
+        "n": "2",
+        "descr": "amount increased by, EXT or MNR",
+        "descr_trans": "增加的金额，EXT 或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "生长"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "build.03",
+    "roleset_name": "include",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing some grouping",
+        "descr_trans": "代理，导致某种分组的实体"
+      },
+      {
+        "n": "1",
+        "descr": "theme, thing being included in some group",
+        "descr_trans": "主题，包含在某个组中的事物"
+      },
+      {
+        "n": "2",
+        "descr": "group",
+        "descr_trans": "团体"
+      }
+    ],
+    "roleset_name_trans": "包括"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "build_up.05",
+    "roleset_name": "build up: cause to be bigger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "construction, bigger thing",
+        "descr_trans": "建筑，更大的事情"
+      },
+      {
+        "n": "2",
+        "descr": "amount of change, EXT",
+        "descr_trans": "变化量，EXT"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point, end state of arg1",
+        "descr_trans": "终点，arg1 的结束状态"
+      }
+    ],
+    "roleset_name_trans": "建立：使变得更大"
+  }
 ]

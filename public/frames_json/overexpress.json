@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overexpress.01",
-        "roleset_name": "excessively express a gene by producing too much of its effect or product",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "gene being overexpressed"
-            },
-            {
-                "n": "2",
-                "descr": "MNR of expression, symptoms"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overexpress.01",
+    "roleset_name": "excessively express a gene by producing too much of its effect or product",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "gene being overexpressed",
+        "descr_trans": "基因过度表达"
+      },
+      {
+        "n": "2",
+        "descr": "MNR of expression, symptoms",
+        "descr_trans": "表达、症状的 MNR"
+      }
+    ],
+    "roleset_name_trans": "通过产生过多的效应或产物来过度表达基因"
+  }
 ]

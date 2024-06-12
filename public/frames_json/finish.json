@@ -1,143 +1,173 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "finish.01",
-        "roleset_name": "cause to stop, stopped, completed",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "Thing finishing"
-            },
-            {
-                "n": "2",
-                "descr": "Explicit instrument, thing finished with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "finish.02",
-        "roleset_name": "terminate, conclude or terminate",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing closing"
-            },
-            {
-                "n": "m",
-                "descr": "EXT end point"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "finish.03",
-        "roleset_name": "apply a finish, as to wood",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "painter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            },
-            {
-                "n": "2",
-                "descr": "finish itself, stain or varnish"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "finish.07",
-        "roleset_name": "completing a contest of some sort (often a race)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finisher"
-            },
-            {
-                "n": "1",
-                "descr": "contest completed"
-            },
-            {
-                "n": "2",
-                "descr": "rank upon finish"
-            },
-            {
-                "n": "3",
-                "descr": "other competitors"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "finish_up.04",
-        "roleset_name": "to bring (a project) to completion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing finishing"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            },
-            {
-                "n": "3",
-                "descr": "point at which thing finishes"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "finish_off.05",
-        "roleset_name": "finish completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause of finishing"
-            },
-            {
-                "n": "1",
-                "descr": "theme, entity coming to completion"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "finish_out.06",
-        "roleset_name": "finish completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finisher, agent of finishing"
-            },
-            {
-                "n": "1",
-                "descr": "thing finished"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument, thing finished out with"
-            },
-            {
-                "n": "3",
-                "descr": "point at which arg1 ends"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "finish.01",
+    "roleset_name": "cause to stop, stopped, completed",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Intentional agent",
+        "descr_trans": "意向代理"
+      },
+      {
+        "n": "1",
+        "descr": "Thing finishing",
+        "descr_trans": "事情整理"
+      },
+      {
+        "n": "2",
+        "descr": "Explicit instrument, thing finished with",
+        "descr_trans": "显式工具，完成的事情"
+      }
+    ],
+    "roleset_name_trans": "导致停止、停止、完成"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "finish.02",
+    "roleset_name": "terminate, conclude or terminate",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing closing",
+        "descr_trans": "事情结束"
+      },
+      {
+        "n": "m",
+        "descr": "EXT end point",
+        "descr_trans": "EXT 终点"
+      }
+    ],
+    "roleset_name_trans": "终止、结束或终止"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "finish.03",
+    "roleset_name": "apply a finish, as to wood",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "painter, agent",
+        "descr_trans": "画家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "2",
+        "descr": "finish itself, stain or varnish",
+        "descr_trans": "自行完成、染色或清漆"
+      }
+    ],
+    "roleset_name_trans": "涂上饰面，如木材"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "finish.07",
+    "roleset_name": "completing a contest of some sort (often a race)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finisher",
+        "descr_trans": "终结者"
+      },
+      {
+        "n": "1",
+        "descr": "contest completed",
+        "descr_trans": "比赛完成"
+      },
+      {
+        "n": "2",
+        "descr": "rank upon finish",
+        "descr_trans": "完成后排名"
+      },
+      {
+        "n": "3",
+        "descr": "other competitors",
+        "descr_trans": "其他竞争对手"
+      }
+    ],
+    "roleset_name_trans": "完成某种比赛（通常是一场比赛）"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "finish_up.04",
+    "roleset_name": "to bring (a project) to completion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent",
+        "descr_trans": "有意代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing finishing",
+        "descr_trans": "事情完成"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      },
+      {
+        "n": "3",
+        "descr": "point at which thing finishes",
+        "descr_trans": "事情结束的点"
+      }
+    ],
+    "roleset_name_trans": "使（项目）完成"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "finish_off.05",
+    "roleset_name": "finish completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause of finishing",
+        "descr_trans": "代理人，整理原因"
+      },
+      {
+        "n": "1",
+        "descr": "theme, entity coming to completion",
+        "descr_trans": "主题、实体即将完成"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "完全完成"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "finish_out.06",
+    "roleset_name": "finish completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finisher, agent of finishing",
+        "descr_trans": "整理者，整理者"
+      },
+      {
+        "n": "1",
+        "descr": "thing finished",
+        "descr_trans": "事情完成了"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument, thing finished out with",
+        "descr_trans": "仪器，事情完成了"
+      },
+      {
+        "n": "3",
+        "descr": "point at which arg1 ends",
+        "descr_trans": "arg1 结束的点"
+      }
+    ],
+    "roleset_name_trans": "完全完成"
+  }
 ]

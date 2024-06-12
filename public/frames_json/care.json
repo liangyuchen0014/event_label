@@ -1,62 +1,74 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "care.01",
-        "roleset_name": "having an opinion, feeling tenderly/strongly for/about",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity who has an opinion, cares"
-            },
-            {
-                "n": "1",
-                "descr": "entity cared for/about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "care.02",
-        "roleset_name": "liking/desiring/wanting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "liker, wanter"
-            },
-            {
-                "n": "1",
-                "descr": "what arg0 does or doesn't want/like (to do)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "care.03",
-        "roleset_name": "tending, taking care of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "care-giver"
-            },
-            {
-                "n": "1",
-                "descr": "entity tended, taken care of"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "care.04",
-        "roleset_name": "being cautious, taking care to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cautious entity"
-            },
-            {
-                "n": "1",
-                "descr": "thing treated/done carefully"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "care.01",
+    "roleset_name": "having an opinion, feeling tenderly/strongly for/about",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity who has an opinion, cares",
+        "descr_trans": "有意见、关心的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity cared for/about",
+        "descr_trans": "关心/关于的实体"
+      }
+    ],
+    "roleset_name_trans": "有意见，对/关于有温柔/强烈的感觉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "care.02",
+    "roleset_name": "liking/desiring/wanting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "liker, wanter",
+        "descr_trans": "比如，冬天"
+      },
+      {
+        "n": "1",
+        "descr": "what arg0 does or doesn't want/like (to do)",
+        "descr_trans": "arg0 想要/不喜欢做什么（做）"
+      }
+    ],
+    "roleset_name_trans": "喜欢/渴望/想要"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "care.03",
+    "roleset_name": "tending, taking care of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "care-giver",
+        "descr_trans": "照顾者"
+      },
+      {
+        "n": "1",
+        "descr": "entity tended, taken care of",
+        "descr_trans": "实体被照顾、照顾"
+      }
+    ],
+    "roleset_name_trans": "照顾，照顾"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "care.04",
+    "roleset_name": "being cautious, taking care to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cautious entity",
+        "descr_trans": "谨慎实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing treated/done carefully",
+        "descr_trans": "仔细对待/做的事情"
+      }
+    ],
+    "roleset_name_trans": "保持谨慎，小心"
+  }
 ]

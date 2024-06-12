@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bury.01",
-        "roleset_name": "put in the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "burier"
-            },
-            {
-                "n": "1",
-                "descr": "buried"
-            },
-            {
-                "n": "2",
-                "descr": "ground (usually understood)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bury.01",
+    "roleset_name": "put in the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "burier",
+        "descr_trans": "埋葬者"
+      },
+      {
+        "n": "1",
+        "descr": "buried",
+        "descr_trans": "埋葬"
+      },
+      {
+        "n": "2",
+        "descr": "ground (usually understood)",
+        "descr_trans": "接地（通常理解）"
+      }
+    ],
+    "roleset_name_trans": "放在地里"
+  }
 ]

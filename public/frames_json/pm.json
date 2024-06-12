@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pm.01",
-        "roleset_name": "send a private message on social media",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "message sender"
-            },
-            {
-                "n": "1",
-                "descr": "the message"
-            },
-            {
-                "n": "2",
-                "descr": "message recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pm.01",
+    "roleset_name": "send a private message on social media",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "message sender",
+        "descr_trans": "消息发送者"
+      },
+      {
+        "n": "1",
+        "descr": "the message",
+        "descr_trans": "消息"
+      },
+      {
+        "n": "2",
+        "descr": "message recipient",
+        "descr_trans": "消息接收者"
+      }
+    ],
+    "roleset_name_trans": "在社交媒体上发送私人消息"
+  }
 ]

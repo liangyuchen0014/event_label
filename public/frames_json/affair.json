@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "affair.01",
-        "roleset_name": "an illicit romantic relationship",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity having an affair"
-            },
-            {
-                "n": "1",
-                "descr": "with whom; other party"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "affair.02",
-        "roleset_name": "matter, occurance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "participants"
-            },
-            {
-                "n": "2",
-                "descr": "What kind of matter"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "affair.01",
+    "roleset_name": "an illicit romantic relationship",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity having an affair",
+        "descr_trans": "有外遇的实体"
+      },
+      {
+        "n": "1",
+        "descr": "with whom; other party",
+        "descr_trans": "和谁一起;对方"
+      }
+    ],
+    "roleset_name_trans": "不正当的恋爱关系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "affair.02",
+    "roleset_name": "matter, occurance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "participants",
+        "descr_trans": "参与者"
+      },
+      {
+        "n": "2",
+        "descr": "What kind of matter",
+        "descr_trans": "什么样的事情"
+      }
+    ],
+    "roleset_name_trans": "事件、事件"
+  }
 ]

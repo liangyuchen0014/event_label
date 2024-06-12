@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cheapen.01",
-        "roleset_name": "cause to lose value",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing losing value"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cheap.02",
-        "roleset_name": "inexpensive, lacking in quality",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "inexpensive thing"
-            },
-            {
-                "n": "3",
-                "descr": "cost of cheap thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cheapen.01",
+    "roleset_name": "cause to lose value",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing losing value",
+        "descr_trans": "失去价值的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "导致失去价值"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cheap.02",
+    "roleset_name": "inexpensive, lacking in quality",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "inexpensive thing",
+        "descr_trans": "便宜的东西"
+      },
+      {
+        "n": "3",
+        "descr": "cost of cheap thing",
+        "descr_trans": "便宜东西的成本"
+      }
+    ],
+    "roleset_name_trans": "价格便宜，质量欠缺"
+  }
 ]

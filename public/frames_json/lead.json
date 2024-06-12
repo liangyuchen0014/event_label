@@ -1,105 +1,127 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lead.01",
-        "roleset_name": "directed motion, be ahead of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "leader"
-            },
-            {
-                "n": "1",
-                "descr": "in the lead of"
-            },
-            {
-                "n": "2",
-                "descr": "extent"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lead.02",
-        "roleset_name": "act as project leader, be the leader",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "leader"
-            },
-            {
-                "n": "1",
-                "descr": "entity lead"
-            },
-            {
-                "n": "2",
-                "descr": "proposition"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "lead.03",
-        "roleset_name": "cause a result",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "factors"
-            },
-            {
-                "n": "1",
-                "descr": "led entity"
-            },
-            {
-                "n": "2",
-                "descr": "result, action or attribute on arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "lead_off.04",
-        "roleset_name": "begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator, beginner, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Theme(-Creation)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            },
-            {
-                "n": "3",
-                "descr": "secondary predication of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "lead_up.05",
-        "roleset_name": "precede, spatially or temporally, terminating at a determined point",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing leading up"
-            },
-            {
-                "n": "2",
-                "descr": "terminus"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lead.01",
+    "roleset_name": "directed motion, be ahead of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "leader",
+        "descr_trans": "领导者"
+      },
+      {
+        "n": "1",
+        "descr": "in the lead of",
+        "descr_trans": "领先于"
+      },
+      {
+        "n": "2",
+        "descr": "extent",
+        "descr_trans": "程度"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "定向运动，领先"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lead.02",
+    "roleset_name": "act as project leader, be the leader",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "leader",
+        "descr_trans": "领导者"
+      },
+      {
+        "n": "1",
+        "descr": "entity lead",
+        "descr_trans": "实体领导"
+      },
+      {
+        "n": "2",
+        "descr": "proposition",
+        "descr_trans": "主张"
+      }
+    ],
+    "roleset_name_trans": "担任项目负责人，成为领导者"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "lead.03",
+    "roleset_name": "cause a result",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "factors",
+        "descr_trans": "因素"
+      },
+      {
+        "n": "1",
+        "descr": "led entity",
+        "descr_trans": "领导实体"
+      },
+      {
+        "n": "2",
+        "descr": "result, action or attribute on arg1",
+        "descr_trans": "arg1 上的结果、操作或属性"
+      }
+    ],
+    "roleset_name_trans": "造成结果"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "lead_off.04",
+    "roleset_name": "begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator, beginner, Agent",
+        "descr_trans": "创作者、初学者、代理"
+      },
+      {
+        "n": "1",
+        "descr": "Theme(-Creation)",
+        "descr_trans": "主题（-创作）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "secondary predication of arg1",
+        "descr_trans": "arg1 的二次预测"
+      }
+    ],
+    "roleset_name_trans": "开始"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "lead_up.05",
+    "roleset_name": "precede, spatially or temporally, terminating at a determined point",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing leading up",
+        "descr_trans": "导致的事情"
+      },
+      {
+        "n": "2",
+        "descr": "terminus",
+        "descr_trans": "终点站"
+      }
+    ],
+    "roleset_name_trans": "在空间或时间上先行，在确定点终止"
+  }
 ]

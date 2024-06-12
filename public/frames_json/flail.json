@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "flail.01",
-        "roleset_name": "hit rather haphazardly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of hitting"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "flail.01",
+    "roleset_name": "hit rather haphazardly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of hitting",
+        "descr_trans": "打击乐器"
+      }
+    ],
+    "roleset_name_trans": "相当随意地击中"
+  }
 ]

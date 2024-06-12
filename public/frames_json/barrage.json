@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "barrage.01",
-        "roleset_name": "onslaught",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacker"
-            },
-            {
-                "n": "1",
-                "descr": "thing actually moving aggressively towards arg2 (ie bullets, words. Non-agentive)"
-            },
-            {
-                "n": "2",
-                "descr": "entity attacked"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "barrage.01",
+    "roleset_name": "onslaught",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacker",
+        "descr_trans": "攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "thing actually moving aggressively towards arg2 (ie bullets, words. Non-agentive)",
+        "descr_trans": "事物实际上正在积极地向 arg2 移动（即项目符号、文字。非主动）"
+      },
+      {
+        "n": "2",
+        "descr": "entity attacked",
+        "descr_trans": "实体受到攻击"
+      }
+    ],
+    "roleset_name_trans": "猛攻"
+  }
 ]

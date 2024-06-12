@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mistake.01",
-        "roleset_name": "take incorrectly, assume incorrectly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making an assumption, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing mistaken"
-            },
-            {
-                "n": "2",
-                "descr": "frequently: assumption"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mistake.02",
-        "roleset_name": "mess up, fail, make a mistake",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity making mistake"
-            },
-            {
-                "n": "1",
-                "descr": "thing messed up"
-            },
-            {
-                "n": "2",
-                "descr": "the mistake itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mistake.01",
+    "roleset_name": "take incorrectly, assume incorrectly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making an assumption, agent",
+        "descr_trans": "做出假设的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing mistaken",
+        "descr_trans": "搞错了事情"
+      },
+      {
+        "n": "2",
+        "descr": "frequently: assumption",
+        "descr_trans": "经常：假设"
+      }
+    ],
+    "roleset_name_trans": "错误地采取，错误地假设"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mistake.02",
+    "roleset_name": "mess up, fail, make a mistake",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity making mistake",
+        "descr_trans": "实体犯错误"
+      },
+      {
+        "n": "1",
+        "descr": "thing messed up",
+        "descr_trans": "事情搞砸了"
+      },
+      {
+        "n": "2",
+        "descr": "the mistake itself",
+        "descr_trans": "错误本身"
+      }
+    ],
+    "roleset_name_trans": "搞砸、失败、犯错误"
+  }
 ]

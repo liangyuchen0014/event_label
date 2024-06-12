@@ -1,293 +1,353 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "put.01",
-        "roleset_name": "location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "where put"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "put.02",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "thing said"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "put.03",
-        "roleset_name": "result, attributive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "put_in.05",
-        "roleset_name": "contribute, submit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributor"
-            },
-            {
-                "n": "1",
-                "descr": "contribution"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "put_off.06",
-        "roleset_name": "delay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "delayer"
-            },
-            {
-                "n": "1",
-                "descr": "delayed"
-            },
-            {
-                "n": "2",
-                "descr": "delay itself, EXT, time period"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "put_off.07",
-        "roleset_name": "offended",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "offender"
-            },
-            {
-                "n": "1",
-                "descr": "offended"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "put_on.08",
-        "roleset_name": "assume, acquire, wear, stage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "wearer"
-            },
-            {
-                "n": "1",
-                "descr": "clothing/role/act"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "put_out.09",
-        "roleset_name": "extinguish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "extinguisher"
-            },
-            {
-                "n": "1",
-                "descr": "fire"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "put_out.10",
-        "roleset_name": "disseminate, put out, produce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "distributor, producer"
-            },
-            {
-                "n": "1",
-                "descr": "product, thing distributed"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            },
-            {
-                "n": "3",
-                "descr": "new state of the product"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "put_out.14",
-        "roleset_name": "cause inconvenience or discomfort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity inconvenienced"
-            },
-            {
-                "n": "2",
-                "descr": "about what"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "put_up.11",
-        "roleset_name": "furnish, supply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "supplier"
-            },
-            {
-                "n": "1",
-                "descr": "supply, equipment"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "put_up.12",
-        "roleset_name": "tolerate, put up with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tolerater"
-            },
-            {
-                "n": "1",
-                "descr": "thing tolerated"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "put_up.13",
-        "roleset_name": "build, institute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "builder"
-            },
-            {
-                "n": "1",
-                "descr": "thing built, instituted, or established"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "hard_put.04",
-        "roleset_name": "idiomatic: hard put",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer, usually infinitival"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "put_down.15",
-        "roleset_name": "put_down: insult, demean, devalue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "insulter"
-            },
-            {
-                "n": "1",
-                "descr": "insulted"
-            },
-            {
-                "n": "2",
-                "descr": "for what"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "put_down.16",
-        "roleset_name": "euthanize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, entity responsible for decision to euthanize"
-            },
-            {
-                "n": "1",
-                "descr": "entity euthanized"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "put_down.17",
-        "roleset_name": "place in a location",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity placed"
-            },
-            {
-                "n": "2",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "put.01",
+    "roleset_name": "location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter",
+        "descr_trans": "推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "where put",
+        "descr_trans": "放在哪里"
+      }
+    ],
+    "roleset_name_trans": "地点"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "put.02",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "thing said",
+        "descr_trans": "说的话"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "put.03",
+    "roleset_name": "result, attributive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter",
+        "descr_trans": "推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "结果，定语"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "put_in.05",
+    "roleset_name": "contribute, submit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributor",
+        "descr_trans": "贡献者"
+      },
+      {
+        "n": "1",
+        "descr": "contribution",
+        "descr_trans": "贡献"
+      }
+    ],
+    "roleset_name_trans": "贡献、提交"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "put_off.06",
+    "roleset_name": "delay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "delayer",
+        "descr_trans": "延迟器"
+      },
+      {
+        "n": "1",
+        "descr": "delayed",
+        "descr_trans": "延迟"
+      },
+      {
+        "n": "2",
+        "descr": "delay itself, EXT, time period",
+        "descr_trans": "延迟本身、EXT、时间段"
+      }
+    ],
+    "roleset_name_trans": "延迟"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "put_off.07",
+    "roleset_name": "offended",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "offender",
+        "descr_trans": "罪犯"
+      },
+      {
+        "n": "1",
+        "descr": "offended",
+        "descr_trans": "冒犯了"
+      }
+    ],
+    "roleset_name_trans": "冒犯了"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "put_on.08",
+    "roleset_name": "assume, acquire, wear, stage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "wearer",
+        "descr_trans": "佩戴者"
+      },
+      {
+        "n": "1",
+        "descr": "clothing/role/act",
+        "descr_trans": "服装/角色/行为"
+      }
+    ],
+    "roleset_name_trans": "承担、获得、佩戴、舞台"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "put_out.09",
+    "roleset_name": "extinguish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "extinguisher",
+        "descr_trans": "灭火器"
+      },
+      {
+        "n": "1",
+        "descr": "fire",
+        "descr_trans": "火"
+      }
+    ],
+    "roleset_name_trans": "扑灭"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "put_out.10",
+    "roleset_name": "disseminate, put out, produce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "distributor, producer",
+        "descr_trans": "发行商、生产商"
+      },
+      {
+        "n": "1",
+        "descr": "product, thing distributed",
+        "descr_trans": "产品，分发的东西"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "3",
+        "descr": "new state of the product",
+        "descr_trans": "产品的新状态"
+      }
+    ],
+    "roleset_name_trans": "传播、推出、生产"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "put_out.14",
+    "roleset_name": "cause inconvenience or discomfort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity inconvenienced",
+        "descr_trans": "给实体带来不便"
+      },
+      {
+        "n": "2",
+        "descr": "about what",
+        "descr_trans": "关于什么"
+      }
+    ],
+    "roleset_name_trans": "造成不便或不适"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "put_up.11",
+    "roleset_name": "furnish, supply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "supplier",
+        "descr_trans": "供应商"
+      },
+      {
+        "n": "1",
+        "descr": "supply, equipment",
+        "descr_trans": "供应、设备"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, benefactive",
+        "descr_trans": "接受者，受益者"
+      }
+    ],
+    "roleset_name_trans": "提供，供应"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "put_up.12",
+    "roleset_name": "tolerate, put up with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tolerater",
+        "descr_trans": "耐受者"
+      },
+      {
+        "n": "1",
+        "descr": "thing tolerated",
+        "descr_trans": "容忍的事情"
+      }
+    ],
+    "roleset_name_trans": "容忍，忍受"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "put_up.13",
+    "roleset_name": "build, institute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "builder",
+        "descr_trans": "建设者"
+      },
+      {
+        "n": "1",
+        "descr": "thing built, instituted, or established",
+        "descr_trans": "建造、设立或设立的事物"
+      }
+    ],
+    "roleset_name_trans": "建造、研究所"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "hard_put.04",
+    "roleset_name": "idiomatic: hard put",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer, usually infinitival",
+        "descr_trans": "引起者，通常是不定式"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      }
+    ],
+    "roleset_name_trans": "惯用语：硬放"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "put_down.15",
+    "roleset_name": "put_down: insult, demean, devalue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "insulter",
+        "descr_trans": "侮辱"
+      },
+      {
+        "n": "1",
+        "descr": "insulted",
+        "descr_trans": "侮辱"
+      },
+      {
+        "n": "2",
+        "descr": "for what",
+        "descr_trans": "为了什么"
+      }
+    ],
+    "roleset_name_trans": "put_down：侮辱、贬低、贬低"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "put_down.16",
+    "roleset_name": "euthanize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, entity responsible for decision to euthanize",
+        "descr_trans": "代理人，负责决定安乐死的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity euthanized",
+        "descr_trans": "实体被安乐死"
+      }
+    ],
+    "roleset_name_trans": "安乐死"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "put_down.17",
+    "roleset_name": "place in a location",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity placed",
+        "descr_trans": "实体放置"
+      },
+      {
+        "n": "2",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "放置在某个位置"
+  }
 ]

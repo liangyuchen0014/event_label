@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brew.01",
-        "roleset_name": "create (beer)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "creator, brewer"
-            },
-            {
-                "n": "1",
-                "descr": "creation, beer"
-            },
-            {
-                "n": "2",
-                "descr": "created-from, thing changed"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brew.01",
+    "roleset_name": "create (beer)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "creator, brewer",
+        "descr_trans": "创造者、酿酒师"
+      },
+      {
+        "n": "1",
+        "descr": "creation, beer",
+        "descr_trans": "创作、啤酒"
+      },
+      {
+        "n": "2",
+        "descr": "created-from, thing changed",
+        "descr_trans": "创建自，事情发生了变化"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "创造（啤酒）"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "demarcate.01",
-        "roleset_name": "declare boundaries",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "declarer"
-            },
-            {
-                "n": "1",
-                "descr": "demarcated entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "demarcate.01",
+    "roleset_name": "declare boundaries",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "declarer",
+        "descr_trans": "公布"
+      },
+      {
+        "n": "1",
+        "descr": "demarcated entity",
+        "descr_trans": "划界实体"
+      }
+    ],
+    "roleset_name_trans": "声明边界"
+  }
 ]

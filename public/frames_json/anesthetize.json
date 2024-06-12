@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "anesthetize.01",
-        "roleset_name": "render insensible with anesthetic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient, patient"
-            },
-            {
-                "n": "2",
-                "descr": "anesthetic, instrument separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "anesthetize.01",
+    "roleset_name": "render insensible with anesthetic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, doctor",
+        "descr_trans": "代理人、医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient, patient",
+        "descr_trans": "病人，病人"
+      },
+      {
+        "n": "2",
+        "descr": "anesthetic, instrument separate from arg 0",
+        "descr_trans": "麻醉剂，仪器与 arg 0 分开"
+      }
+    ],
+    "roleset_name_trans": "用麻醉剂使人失去知觉"
+  }
 ]

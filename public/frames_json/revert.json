@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revert.01",
-        "roleset_name": "to return, turn back",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity going back"
-            },
-            {
-                "n": "2",
-                "descr": "reverted to (previous state)"
-            },
-            {
-                "n": "3",
-                "descr": "previous owner given back to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revert.01",
+    "roleset_name": "to return, turn back",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity going back",
+        "descr_trans": "返回的实体"
+      },
+      {
+        "n": "2",
+        "descr": "reverted to (previous state)",
+        "descr_trans": "恢复到（之前的状态）"
+      },
+      {
+        "n": "3",
+        "descr": "previous owner given back to",
+        "descr_trans": "之前的主人归还给"
+      }
+    ],
+    "roleset_name_trans": "返回，返回"
+  }
 ]

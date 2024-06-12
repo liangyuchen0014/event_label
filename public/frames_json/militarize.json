@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "militarize.01",
-        "roleset_name": "quip for war",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "military presence arg2 is equiped with (troops, weapons, etc.)"
-            },
-            {
-                "n": "2",
-                "descr": "entity/location equiped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "militarize.01",
+    "roleset_name": "quip for war",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "military presence arg2 is equiped with (troops, weapons, etc.)",
+        "descr_trans": "军事存在 arg2 配备（部队、武器等）"
+      },
+      {
+        "n": "2",
+        "descr": "entity/location equiped",
+        "descr_trans": "实体/地点配备"
+      }
+    ],
+    "roleset_name_trans": "讽刺战争"
+  }
 ]

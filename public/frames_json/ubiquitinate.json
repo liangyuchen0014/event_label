@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ubiquitinate.01",
-        "roleset_name": "ubiquitinate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of ubiquitination (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing ubiquitinated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "result of ubiquitination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ubiquitinate.01",
+    "roleset_name": "ubiquitinate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of ubiquitination (e.g. scientist)",
+        "descr_trans": "泛素化剂（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing ubiquitinated",
+        "descr_trans": "泛素化的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "result of ubiquitination",
+        "descr_trans": "泛素化的结果"
+      }
+    ],
+    "roleset_name_trans": "泛素化"
+  }
 ]

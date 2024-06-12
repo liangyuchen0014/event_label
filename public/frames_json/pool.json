@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pool.01",
-        "roleset_name": "collect together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "collector(s), agent(s)"
-            },
-            {
-                "n": "1",
-                "descr": "thing collected"
-            },
-            {
-                "n": "2",
-                "descr": "secondary attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pool.02",
-        "roleset_name": "form a puddle",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing forming a puddle"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pool.01",
+    "roleset_name": "collect together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "collector(s), agent(s)",
+        "descr_trans": "收藏家、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing collected",
+        "descr_trans": "收集的东西"
+      },
+      {
+        "n": "2",
+        "descr": "secondary attribute of arg1",
+        "descr_trans": "arg1 的次要属性"
+      }
+    ],
+    "roleset_name_trans": "收集在一起"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pool.02",
+    "roleset_name": "form a puddle",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing forming a puddle",
+        "descr_trans": "形成水坑的东西"
+      }
+    ],
+    "roleset_name_trans": "形成一个水坑"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unstaple.01",
-        "roleset_name": "unstaple",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unstapling, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unstapled, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unstapled from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unstaple.01",
+    "roleset_name": "unstaple",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unstapling, agent",
+        "descr_trans": "实体拆订、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unstapled, patient",
+        "descr_trans": "未装订的东西，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unstapled from, source",
+        "descr_trans": "未装订，来源"
+      }
+    ],
+    "roleset_name_trans": "拆订"
+  }
 ]

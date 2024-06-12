@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "lick.01",
-        "roleset_name": "touch with the tongue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "licker"
-            },
-            {
-                "n": "1",
-                "descr": "licked"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "lick_up.02",
-        "roleset_name": "remove by licking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "licker, remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "lick.01",
+    "roleset_name": "touch with the tongue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "licker",
+        "descr_trans": "舔者"
+      },
+      {
+        "n": "1",
+        "descr": "licked",
+        "descr_trans": "舔了"
+      }
+    ],
+    "roleset_name_trans": "用舌头触摸"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "lick_up.02",
+    "roleset_name": "remove by licking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "licker, remover",
+        "descr_trans": "舔舐者、去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "通过舔去除"
+  }
 ]

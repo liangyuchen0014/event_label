@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "boxplot.01",
-        "roleset_name": "summarize numerical data via median, upper quartile, lower quartile, and extreme upper and lower values",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "data set plotted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "boxplot.01",
+    "roleset_name": "summarize numerical data via median, upper quartile, lower quartile, and extreme upper and lower values",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "data set plotted",
+        "descr_trans": "绘制数据集"
+      }
+    ],
+    "roleset_name_trans": "通过中位数、上四分位数、下四分位数以及极端上限和下限总结数值数据"
+  }
 ]

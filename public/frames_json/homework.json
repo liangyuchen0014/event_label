@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "homework.01",
-        "roleset_name": "do homework assignments",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "student"
-            },
-            {
-                "n": "1",
-                "descr": "course or subject, homework for what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "homework.01",
+    "roleset_name": "do homework assignments",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "student",
+        "descr_trans": "学生"
+      },
+      {
+        "n": "1",
+        "descr": "course or subject, homework for what?",
+        "descr_trans": "课程或科目，作业是为了什么？"
+      }
+    ],
+    "roleset_name_trans": "做家庭作业"
+  }
 ]

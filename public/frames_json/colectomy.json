@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "colectomy.01",
-        "roleset_name": "surgical removal of all or part of the colon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "colectomy.01",
+    "roleset_name": "surgical removal of all or part of the colon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "手术切除全部或部分结肠"
+  }
 ]

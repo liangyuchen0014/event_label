@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "counsel.01",
-        "roleset_name": "to advise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "advisor"
-            },
-            {
-                "n": "1",
-                "descr": "entity advised"
-            },
-            {
-                "n": "2",
-                "descr": "advice"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "counsel.01",
+    "roleset_name": "to advise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "advisor",
+        "descr_trans": "顾问"
+      },
+      {
+        "n": "1",
+        "descr": "entity advised",
+        "descr_trans": "实体建议"
+      },
+      {
+        "n": "2",
+        "descr": "advice",
+        "descr_trans": "建议"
+      }
+    ],
+    "roleset_name_trans": "建议"
+  }
 ]

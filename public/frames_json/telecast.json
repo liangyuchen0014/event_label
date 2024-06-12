@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "telecast.01",
-        "roleset_name": "telecast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "telecaster, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing telecasted"
-            },
-            {
-                "n": "2",
-                "descr": "telecasted to, recipient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "telecast.01",
+    "roleset_name": "telecast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "telecaster, agent",
+        "descr_trans": "广播员、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "thing telecasted",
+        "descr_trans": "电视转播的事情"
+      },
+      {
+        "n": "2",
+        "descr": "telecasted to, recipient",
+        "descr_trans": "电视广播给，接收者"
+      }
+    ],
+    "roleset_name_trans": "电视广播"
+  }
 ]

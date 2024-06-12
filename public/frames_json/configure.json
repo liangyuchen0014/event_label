@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "configure.01",
-        "roleset_name": "build, arrange in a particular fashion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, builder"
-            },
-            {
-                "n": "1",
-                "descr": "construction, item/material being configured"
-            },
-            {
-                "n": "2",
-                "descr": "start state, material from which arg1 is configured"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive, configured for whom?"
-            },
-            {
-                "n": "4",
-                "descr": "end state, product of configuration when separate mention from arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "configure.01",
+    "roleset_name": "build, arrange in a particular fashion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, builder",
+        "descr_trans": "代理人、建筑商"
+      },
+      {
+        "n": "1",
+        "descr": "construction, item/material being configured",
+        "descr_trans": "施工，正在配置的项目/材料"
+      },
+      {
+        "n": "2",
+        "descr": "start state, material from which arg1 is configured",
+        "descr_trans": "开始状态，配置 arg1 的材料"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive, configured for whom?",
+        "descr_trans": "有益的，为谁配置的？"
+      },
+      {
+        "n": "4",
+        "descr": "end state, product of configuration when separate mention from arg 1",
+        "descr_trans": "最终状态，与 arg 1 单独提及时的配置产品"
+      }
+    ],
+    "roleset_name_trans": "以特定方式建造、安排"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "grass.01",
-        "roleset_name": "cover with grass",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "grass-layer"
-            },
-            {
-                "n": "1",
-                "descr": "area covered with grass"
-            },
-            {
-                "n": "2",
-                "descr": "grass itself, type of grass"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "grass.01",
+    "roleset_name": "cover with grass",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "grass-layer",
+        "descr_trans": "草层"
+      },
+      {
+        "n": "1",
+        "descr": "area covered with grass",
+        "descr_trans": "被草覆盖的区域"
+      },
+      {
+        "n": "2",
+        "descr": "grass itself, type of grass",
+        "descr_trans": "草本身，草的类型"
+      }
+    ],
+    "roleset_name_trans": "用草覆盖"
+  }
 ]

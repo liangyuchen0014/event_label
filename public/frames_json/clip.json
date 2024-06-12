@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clip.01",
-        "roleset_name": "to cut, cut off, or cut out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clipper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing clipped"
-            },
-            {
-                "n": "2",
-                "descr": "clipped from, source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clip.03",
-        "roleset_name": "hit very slightly on the edge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter (agent)"
-            },
-            {
-                "n": "1",
-                "descr": "entity hit"
-            },
-            {
-                "n": "2",
-                "descr": "thing in motion"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "clip_off.02",
-        "roleset_name": "to cut, cut off, or cut out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "clipper, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing clipped"
-            },
-            {
-                "n": "2",
-                "descr": "clipped from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clip.01",
+    "roleset_name": "to cut, cut off, or cut out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clipper, agent",
+        "descr_trans": "快船, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing clipped",
+        "descr_trans": "东西被剪掉了"
+      },
+      {
+        "n": "2",
+        "descr": "clipped from, source",
+        "descr_trans": "摘自来源"
+      }
+    ],
+    "roleset_name_trans": "剪掉、剪掉或剪掉"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clip.03",
+    "roleset_name": "hit very slightly on the edge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter (agent)",
+        "descr_trans": "击球手（经纪人）"
+      },
+      {
+        "n": "1",
+        "descr": "entity hit",
+        "descr_trans": "实体命中"
+      },
+      {
+        "n": "2",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      }
+    ],
+    "roleset_name_trans": "轻轻地撞到边缘"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "clip_off.02",
+    "roleset_name": "to cut, cut off, or cut out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "clipper, agent",
+        "descr_trans": "快船, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing clipped",
+        "descr_trans": "东西被剪掉了"
+      },
+      {
+        "n": "2",
+        "descr": "clipped from",
+        "descr_trans": "剪自"
+      }
+    ],
+    "roleset_name_trans": "剪掉、剪掉或剪掉"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heave.01",
-        "roleset_name": "move with difficulty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "heaver, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "description of motion, path, source, destination"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "heave.02",
-        "roleset_name": "fixed phrase: heave a sigh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "heaver, sigher"
-            },
-            {
-                "n": "1",
-                "descr": "sigh"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "heave.03",
-        "roleset_name": "rise up, move unpleasantly",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing moving"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heave.01",
+    "roleset_name": "move with difficulty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "heaver, agent",
+        "descr_trans": "举重者，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "description of motion, path, source, destination",
+        "descr_trans": "运动、路径、源、目的地的描述"
+      }
+    ],
+    "roleset_name_trans": "移动困难"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "heave.02",
+    "roleset_name": "fixed phrase: heave a sigh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "heaver, sigher",
+        "descr_trans": "叹息者，叹息者"
+      },
+      {
+        "n": "1",
+        "descr": "sigh",
+        "descr_trans": "叹"
+      }
+    ],
+    "roleset_name_trans": "固定短语：叹息"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "heave.03",
+    "roleset_name": "rise up, move unpleasantly",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      }
+    ],
+    "roleset_name_trans": "站起来，不愉快地移动"
+  }
 ]

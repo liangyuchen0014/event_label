@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plot.01",
-        "roleset_name": "to take part in a plot, make a plan, draw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plotter(s), agent"
-            },
-            {
-                "n": "1",
-                "descr": "plotted action, plan"
-            },
-            {
-                "n": "2",
-                "descr": "malefactive, plotted against"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "plot_out.02",
-        "roleset_name": "to plan, draw",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "planner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity plotted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plot.01",
+    "roleset_name": "to take part in a plot, make a plan, draw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plotter(s), agent",
+        "descr_trans": "策划者、特工"
+      },
+      {
+        "n": "1",
+        "descr": "plotted action, plan",
+        "descr_trans": "策划的行动、计划"
+      },
+      {
+        "n": "2",
+        "descr": "malefactive, plotted against",
+        "descr_trans": "恶意的，密谋反对的"
+      }
+    ],
+    "roleset_name_trans": "参与策划、制定计划、绘制"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "plot_out.02",
+    "roleset_name": "to plan, draw",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "planner, agent",
+        "descr_trans": "策划人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity plotted",
+        "descr_trans": "实体绘制"
+      }
+    ],
+    "roleset_name_trans": "计划、绘制"
+  }
 ]

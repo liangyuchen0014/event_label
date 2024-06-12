@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sentence.01",
-        "roleset_name": "assign criminal punishment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "judge/jury"
-            },
-            {
-                "n": "1",
-                "descr": "criminal"
-            },
-            {
-                "n": "2",
-                "descr": "punishment"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            },
-            {
-                "n": "4",
-                "descr": "duration of punishment"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sentence.02",
-        "roleset_name": "what your english teacher made you write correctly and completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "writer"
-            },
-            {
-                "n": "1",
-                "descr": "theme (topic/thing written)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sentence.01",
+    "roleset_name": "assign criminal punishment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "judge/jury",
+        "descr_trans": "法官/陪审团"
+      },
+      {
+        "n": "1",
+        "descr": "criminal",
+        "descr_trans": "刑事"
+      },
+      {
+        "n": "2",
+        "descr": "punishment",
+        "descr_trans": "惩罚"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "4",
+        "descr": "duration of punishment",
+        "descr_trans": "处罚期限"
+      }
+    ],
+    "roleset_name_trans": "给予刑事处罚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sentence.02",
+    "roleset_name": "what your english teacher made you write correctly and completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "writer",
+        "descr_trans": "作家"
+      },
+      {
+        "n": "1",
+        "descr": "theme (topic/thing written)",
+        "descr_trans": "主题（主题/所写内容）"
+      }
+    ],
+    "roleset_name_trans": "你的英语老师让你写得正确完整的是什么"
+  }
 ]

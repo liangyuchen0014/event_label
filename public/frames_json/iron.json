@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "iron_out.01",
-        "roleset_name": "to work out, resolve",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entities working something out"
-            },
-            {
-                "n": "1",
-                "descr": "thing ironed out"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "iron.02",
-        "roleset_name": "use a hot piece of metal to make flat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ironer"
-            },
-            {
-                "n": "1",
-                "descr": "flat thing"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "iron_out.01",
+    "roleset_name": "to work out, resolve",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entities working something out",
+        "descr_trans": "实体正在解决问题"
+      },
+      {
+        "n": "1",
+        "descr": "thing ironed out",
+        "descr_trans": "事情解决了"
+      }
+    ],
+    "roleset_name_trans": "解决，解决"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "iron.02",
+    "roleset_name": "use a hot piece of metal to make flat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ironer",
+        "descr_trans": "熨烫机"
+      },
+      {
+        "n": "1",
+        "descr": "flat thing",
+        "descr_trans": "扁平的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使用热金属片将其弄平"
+  }
 ]

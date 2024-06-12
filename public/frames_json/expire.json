@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "expire.01",
-        "roleset_name": "get to end of valid time period",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "commodity, thing expiring"
-            },
-            {
-                "n": "m",
-                "descr": "expiration date"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "expire.02",
-        "roleset_name": "exhalation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Exhaler"
-            },
-            {
-                "n": "1",
-                "descr": "Air exhaled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "expire.01",
+    "roleset_name": "get to end of valid time period",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "commodity, thing expiring",
+        "descr_trans": "商品，即将过期的东西"
+      },
+      {
+        "n": "m",
+        "descr": "expiration date",
+        "descr_trans": "截止日期"
+      }
+    ],
+    "roleset_name_trans": "到达有效时间段结束"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "expire.02",
+    "roleset_name": "exhalation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Exhaler",
+        "descr_trans": "呼气"
+      },
+      {
+        "n": "1",
+        "descr": "Air exhaled",
+        "descr_trans": "呼出的空气"
+      }
+    ],
+    "roleset_name_trans": "呼气"
+  }
 ]

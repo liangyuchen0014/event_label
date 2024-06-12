@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "moisturize.01",
-        "roleset_name": "(cause to) become moist, especially the skin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of moisturizing, entity putting lotion on"
-            },
-            {
-                "n": "1",
-                "descr": "thing moisturized, skin"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, lotion or other liquid put on arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "moisturize.01",
+    "roleset_name": "(cause to) become moist, especially the skin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of moisturizing, entity putting lotion on",
+        "descr_trans": "保湿剂、涂抹乳液的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing moisturized, skin",
+        "descr_trans": "滋润的东西，皮肤"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, lotion or other liquid put on arg 1",
+        "descr_trans": "涂抹在 arg 1 上的仪器、乳液或其他液体"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得湿润，尤其是皮肤"
+  }
 ]

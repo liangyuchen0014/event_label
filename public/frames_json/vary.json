@@ -1,52 +1,63 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vary.01",
-        "roleset_name": "experience changes in scale, variety, changing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing moving"
-            },
-            {
-                "n": "2",
-                "descr": "EXT or MNR"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "medium"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "variance.02",
-        "roleset_name": "allow to act contrary to a rule or regulation,",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "entity allowed to break the rule"
-            },
-            {
-                "n": "2",
-                "descr": "rule allowed to be broken"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vary.01",
+    "roleset_name": "experience changes in scale, variety, changing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing moving",
+        "descr_trans": "移动的东西"
+      },
+      {
+        "n": "2",
+        "descr": "EXT or MNR",
+        "descr_trans": "外部或 MNR"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "medium",
+        "descr_trans": "中等的"
+      }
+    ],
+    "roleset_name_trans": "体验规模、种类、变化的变化"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "variance.02",
+    "roleset_name": "allow to act contrary to a rule or regulation,",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "entity allowed to break the rule",
+        "descr_trans": "允许实体违反规则"
+      },
+      {
+        "n": "2",
+        "descr": "rule allowed to be broken",
+        "descr_trans": "规则允许被打破"
+      }
+    ],
+    "roleset_name_trans": "允许违反规则或条例的行为，"
+  }
 ]

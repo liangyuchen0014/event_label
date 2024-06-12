@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "buttonhole.01",
-        "roleset_name": "detain a person against will",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity detained"
-            },
-            {
-                "n": "2",
-                "descr": "purpose of detainment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "buttonhole.01",
+    "roleset_name": "detain a person against will",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity detained",
+        "descr_trans": "被拘留的实体"
+      },
+      {
+        "n": "2",
+        "descr": "purpose of detainment",
+        "descr_trans": "拘留的目的"
+      }
+    ],
+    "roleset_name_trans": "违背意愿拘留某人"
+  }
 ]

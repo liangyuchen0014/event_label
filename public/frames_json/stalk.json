@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stalk.01",
-        "roleset_name": "walk stiffly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "walker"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stalk.02",
-        "roleset_name": "follow stealthily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing following"
-            },
-            {
-                "n": "1",
-                "descr": "thing followed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stalk.01",
+    "roleset_name": "walk stiffly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "walker",
+        "descr_trans": "沃克"
+      }
+    ],
+    "roleset_name_trans": "走路僵硬"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stalk.02",
+    "roleset_name": "follow stealthily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing following",
+        "descr_trans": "接下来的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing followed",
+        "descr_trans": "事情随之而来"
+      }
+    ],
+    "roleset_name_trans": "偷偷跟随"
+  }
 ]

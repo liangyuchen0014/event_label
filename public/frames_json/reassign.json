@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reassign.01",
-        "roleset_name": "give, associate with again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, assigner"
-            },
-            {
-                "n": "1",
-                "descr": "thing assigned"
-            },
-            {
-                "n": "2",
-                "descr": "assigned to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reassign.01",
+    "roleset_name": "give, associate with again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, assigner",
+        "descr_trans": "代理人，指派"
+      },
+      {
+        "n": "1",
+        "descr": "thing assigned",
+        "descr_trans": "分配的事情"
+      },
+      {
+        "n": "2",
+        "descr": "assigned to",
+        "descr_trans": "分配给"
+      }
+    ],
+    "roleset_name_trans": "给予，再次交往"
+  }
 ]

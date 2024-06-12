@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cash.01",
-        "roleset_name": "turn a check into real money",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "casher"
-            },
-            {
-                "n": "1",
-                "descr": "check"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "cash_in.02",
-        "roleset_name": "quit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quitter"
-            },
-            {
-                "n": "1",
-                "descr": "chips"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "cash_in.03",
-        "roleset_name": "take advantage of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "taker of advantage"
-            },
-            {
-                "n": "1",
-                "descr": "thing exploited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cash.01",
+    "roleset_name": "turn a check into real money",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "casher",
+        "descr_trans": "收银员"
+      },
+      {
+        "n": "1",
+        "descr": "check",
+        "descr_trans": "查看"
+      }
+    ],
+    "roleset_name_trans": "把支票变成真钱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "cash_in.02",
+    "roleset_name": "quit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quitter",
+        "descr_trans": "放弃者"
+      },
+      {
+        "n": "1",
+        "descr": "chips",
+        "descr_trans": "筹码"
+      }
+    ],
+    "roleset_name_trans": "辞职"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "cash_in.03",
+    "roleset_name": "take advantage of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "taker of advantage",
+        "descr_trans": "占优势的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing exploited",
+        "descr_trans": "被剥削的东西"
+      }
+    ],
+    "roleset_name_trans": "利用"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "room.01",
-        "roleset_name": "board, reside in a room",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity residing in a room"
-            },
-            {
-                "n": "1",
-                "descr": "location of the room"
-            },
-            {
-                "n": "2",
-                "descr": "roommate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "room.01",
+    "roleset_name": "board, reside in a room",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity residing in a room",
+        "descr_trans": "居住在房间中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "location of the room",
+        "descr_trans": "房间的位置"
+      },
+      {
+        "n": "2",
+        "descr": "roommate",
+        "descr_trans": "室友"
+      }
+    ],
+    "roleset_name_trans": "登机，住在房间里"
+  }
 ]

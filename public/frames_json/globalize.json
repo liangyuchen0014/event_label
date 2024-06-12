@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "globalize.01",
-        "roleset_name": "make global, bring to the whole globe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made global"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "global.02",
-        "roleset_name": "reaching areas all over the world",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "thing reaching the whole world"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "globalize.01",
+    "roleset_name": "make global, bring to the whole globe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity made global",
+        "descr_trans": "实体全球化"
+      }
+    ],
+    "roleset_name_trans": "走向全球，走向全世界"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "global.02",
+    "roleset_name": "reaching areas all over the world",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing reaching the whole world",
+        "descr_trans": "传遍全世界的东西"
+      }
+    ],
+    "roleset_name_trans": "到达世界各地"
+  }
 ]

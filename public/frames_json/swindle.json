@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "swindle.01",
-        "roleset_name": "cheat, steal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "swindle.01",
+    "roleset_name": "cheat, steal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "thing being removed",
+        "descr_trans": "被移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "欺骗、偷窃"
+  }
 ]

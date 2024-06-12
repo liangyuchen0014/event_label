@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scant.01",
-        "roleset_name": "cut short, skimp",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause or skimper"
-            },
-            {
-                "n": "1",
-                "descr": "thing skimped on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scant.02",
-        "roleset_name": "spare in quality or quantity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing skimped on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scant.01",
+    "roleset_name": "cut short, skimp",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause or skimper",
+        "descr_trans": "原因或撇去"
+      },
+      {
+        "n": "1",
+        "descr": "thing skimped on",
+        "descr_trans": "事情被吝啬了"
+      }
+    ],
+    "roleset_name_trans": "剪短，省钱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scant.02",
+    "roleset_name": "spare in quality or quantity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing skimped on",
+        "descr_trans": "事情被吝啬了"
+      }
+    ],
+    "roleset_name_trans": "质量或数量上有余量"
+  }
 ]

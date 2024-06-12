@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "backward.01",
-        "roleset_name": "slow in progress, feeble-minded in some aspect",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity that is slow on the uptake"
-            },
-            {
-                "n": "2",
-                "descr": "subject that arg1 is slow in, backward on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "backward.02",
-        "roleset_name": "directed or facing backward",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "backward facing thing"
-            },
-            {
-                "n": "2",
-                "descr": "backward from what -- correctly oriented point of comparison"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "backward.01",
+    "roleset_name": "slow in progress, feeble-minded in some aspect",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity that is slow on the uptake",
+        "descr_trans": "吸收缓慢的实体"
+      },
+      {
+        "n": "2",
+        "descr": "subject that arg1 is slow in, backward on",
+        "descr_trans": "arg1 进展缓慢、落后的主题"
+      }
+    ],
+    "roleset_name_trans": "进展缓慢，在某些方面薄弱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "backward.02",
+    "roleset_name": "directed or facing backward",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "backward facing thing",
+        "descr_trans": "面向后的东西"
+      },
+      {
+        "n": "2",
+        "descr": "backward from what -- correctly oriented point of comparison",
+        "descr_trans": "从什么向后——正确定向的比较点"
+      }
+    ],
+    "roleset_name_trans": "定向或面向后"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unhook.01",
-        "roleset_name": "unhook",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity unhooking, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unhooked, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unhooked from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unhook.01",
+    "roleset_name": "unhook",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity unhooking, agent",
+        "descr_trans": "实体脱钩，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unhooked, patient",
+        "descr_trans": "东西脱钩，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unhooked from, source",
+        "descr_trans": "脱离来源"
+      }
+    ],
+    "roleset_name_trans": "脱钩"
+  }
 ]

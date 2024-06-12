@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "incriminate.01",
-        "roleset_name": "cause to look like a criminal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of incrimination"
-            },
-            {
-                "n": "1",
-                "descr": "alleged criminal"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "incriminate.01",
+    "roleset_name": "cause to look like a criminal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of incrimination",
+        "descr_trans": "代理人, 罪魁祸首"
+      },
+      {
+        "n": "1",
+        "descr": "alleged criminal",
+        "descr_trans": "涉嫌犯罪"
+      }
+    ],
+    "roleset_name_trans": "导致看起来像罪犯"
+  }
 ]

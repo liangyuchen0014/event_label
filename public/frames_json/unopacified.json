@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unopacified.01",
-        "roleset_name": "not having become opaque (us. by absorption of dye)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of lack of opacity (what causes dye not to reach arg1)"
-            },
-            {
-                "n": "1",
-                "descr": "thing that has not become opaque"
-            },
-            {
-                "n": "2",
-                "descr": "dye, opacifying substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unopacified.01",
+    "roleset_name": "not having become opaque (us. by absorption of dye)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of lack of opacity (what causes dye not to reach arg1)",
+        "descr_trans": "缺乏不透明度的原因（导致染料未到达 arg1 的原因）"
+      },
+      {
+        "n": "1",
+        "descr": "thing that has not become opaque",
+        "descr_trans": "还没有变得不透明的东西"
+      },
+      {
+        "n": "2",
+        "descr": "dye, opacifying substance",
+        "descr_trans": "染料、遮光物质"
+      }
+    ],
+    "roleset_name_trans": "没有变得不透明（我们。通过吸收染料）"
+  }
 ]

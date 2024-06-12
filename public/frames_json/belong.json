@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "belong.01",
-        "roleset_name": "be owned by",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "possession"
-            },
-            {
-                "n": "1",
-                "descr": "owner or group"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "belong.01",
+    "roleset_name": "be owned by",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "possession",
+        "descr_trans": "拥有"
+      },
+      {
+        "n": "1",
+        "descr": "owner or group",
+        "descr_trans": "所有者或组"
+      }
+    ],
+    "roleset_name_trans": "被拥有"
+  }
 ]

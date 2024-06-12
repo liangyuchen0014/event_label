@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unharmed.01",
-        "roleset_name": "uninjured, not damaged",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "potential causer of harm"
-            },
-            {
-                "n": "1",
-                "descr": "entity not harmed"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if in addition to arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unharmed.01",
+    "roleset_name": "uninjured, not damaged",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "potential causer of harm",
+        "descr_trans": "潜在的伤害原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not harmed",
+        "descr_trans": "实体未受到伤害"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if in addition to arg0",
+        "descr_trans": "仪器，如果除了 arg0"
+      }
+    ],
+    "roleset_name_trans": "未受伤，未损坏"
+  }
 ]

@@ -1,70 +1,84 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dope.01",
-        "roleset_name": "add a substance to alter performance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person doing the doping"
-            },
-            {
-                "n": "1",
-                "descr": "patient/destination, what/who the dope is being put into"
-            },
-            {
-                "n": "2",
-                "descr": "the dope, substance that is being added"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dope.02",
-        "roleset_name": "smear with a liquid substance (as a lubricant or glue)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, smearer"
-            },
-            {
-                "n": "1",
-                "descr": "destination, thing being slathered with liquid substance"
-            },
-            {
-                "n": "2",
-                "descr": "liquid substance"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dope.04",
-        "roleset_name": "fly, hip, rad",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "dope thing (may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "dope_up.03",
-        "roleset_name": "dope_up: dose with narcotics",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, administerer of dope"
-            },
-            {
-                "n": "1",
-                "descr": "patient/destination, thing/person the dope is being put into"
-            },
-            {
-                "n": "2",
-                "descr": "the dope"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dope.01",
+    "roleset_name": "add a substance to alter performance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person doing the doping",
+        "descr_trans": "代理人，服用兴奋剂的人"
+      },
+      {
+        "n": "1",
+        "descr": "patient/destination, what/who the dope is being put into",
+        "descr_trans": "病人/目的地，毒品被放入什么/谁体内"
+      },
+      {
+        "n": "2",
+        "descr": "the dope, substance that is being added",
+        "descr_trans": "涂料，正在添加的物质"
+      }
+    ],
+    "roleset_name_trans": "添加物质来改变性能"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dope.02",
+    "roleset_name": "smear with a liquid substance (as a lubricant or glue)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, smearer",
+        "descr_trans": "涂抹剂、涂抹剂"
+      },
+      {
+        "n": "1",
+        "descr": "destination, thing being slathered with liquid substance",
+        "descr_trans": "目的地，被液体物质涂满的东西"
+      },
+      {
+        "n": "2",
+        "descr": "liquid substance",
+        "descr_trans": "液体物质"
+      }
+    ],
+    "roleset_name_trans": "涂抹液体物质（如润滑剂或胶水）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dope.04",
+    "roleset_name": "fly, hip, rad",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "dope thing (may require concatenation)",
+        "descr_trans": "令人兴奋的事情（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "飞, 髋, 拉德"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "dope_up.03",
+    "roleset_name": "dope_up: dose with narcotics",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, administerer of dope",
+        "descr_trans": "代理人，毒品管理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient/destination, thing/person the dope is being put into",
+        "descr_trans": "病人/目的地，毒品被放入的事物/人"
+      },
+      {
+        "n": "2",
+        "descr": "the dope",
+        "descr_trans": "毒品"
+      }
+    ],
+    "roleset_name_trans": "dope_up：麻醉剂剂量"
+  }
 ]

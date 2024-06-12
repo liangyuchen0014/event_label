@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "infest.01",
-        "roleset_name": "fill with contaminants",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of infesting"
-            },
-            {
-                "n": "1",
-                "descr": "container, space"
-            },
-            {
-                "n": "2",
-                "descr": "contaminants"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "infest.01",
+    "roleset_name": "fill with contaminants",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of infesting",
+        "descr_trans": "侵染媒介"
+      },
+      {
+        "n": "1",
+        "descr": "container, space",
+        "descr_trans": "容器、空间"
+      },
+      {
+        "n": "2",
+        "descr": "contaminants",
+        "descr_trans": "污染物"
+      }
+    ],
+    "roleset_name_trans": "充满污染物"
+  }
 ]

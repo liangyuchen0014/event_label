@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "useless.01",
-        "roleset_name": "offering no benefit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "beneficiary"
-            },
-            {
-                "n": "1",
-                "descr": "action/entity offering benefit"
-            },
-            {
-                "n": "2",
-                "descr": "purpose for which arg1 is useless"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "useless.01",
+    "roleset_name": "offering no benefit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      },
+      {
+        "n": "1",
+        "descr": "action/entity offering benefit",
+        "descr_trans": "提供利益的行动/实体"
+      },
+      {
+        "n": "2",
+        "descr": "purpose for which arg1 is useless",
+        "descr_trans": "arg1 无用的目的"
+      }
+    ],
+    "roleset_name_trans": "不提供任何好处"
+  }
 ]

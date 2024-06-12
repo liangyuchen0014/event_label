@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "audit.01",
-        "roleset_name": "assess",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "auditor"
-            },
-            {
-                "n": "1",
-                "descr": "audited"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "audit.01",
+    "roleset_name": "assess",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "auditor",
+        "descr_trans": "审计员"
+      },
+      {
+        "n": "1",
+        "descr": "audited",
+        "descr_trans": "经审计的"
+      }
+    ],
+    "roleset_name_trans": "评估"
+  }
 ]

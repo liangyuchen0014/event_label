@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "riddle.01",
-        "roleset_name": "be filled with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of riddling"
-            },
-            {
-                "n": "1",
-                "descr": "entity riddled"
-            },
-            {
-                "n": "2",
-                "descr": "entity riddling Arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "riddle.01",
+    "roleset_name": "be filled with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of riddling",
+        "descr_trans": "造成谜语的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity riddled",
+        "descr_trans": "实体千疮百孔"
+      },
+      {
+        "n": "2",
+        "descr": "entity riddling Arg1",
+        "descr_trans": "实体谜题 Arg1"
+      }
+    ],
+    "roleset_name_trans": "充满"
+  }
 ]

@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fatal.01",
-        "roleset_name": "causing death",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of death"
-            },
-            {
-                "n": "1",
-                "descr": "dying entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fatality.02",
-        "roleset_name": "death from accident or disaster",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of death"
-            },
-            {
-                "n": "1",
-                "descr": "dead entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fatal.01",
+    "roleset_name": "causing death",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of death",
+        "descr_trans": "死亡原因"
+      },
+      {
+        "n": "1",
+        "descr": "dying entity",
+        "descr_trans": "垂死的实体"
+      }
+    ],
+    "roleset_name_trans": "造成死亡"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fatality.02",
+    "roleset_name": "death from accident or disaster",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of death",
+        "descr_trans": "死亡原因"
+      },
+      {
+        "n": "1",
+        "descr": "dead entity",
+        "descr_trans": "死亡实体"
+      }
+    ],
+    "roleset_name_trans": "因事故或灾难而死亡"
+  }
 ]

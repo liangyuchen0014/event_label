@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mug.01",
-        "roleset_name": "rob",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "mugger"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "what was stolen"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mug.01",
+    "roleset_name": "rob",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "mugger",
+        "descr_trans": "抢劫犯"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "what was stolen",
+        "descr_trans": "什么被偷了"
+      }
+    ],
+    "roleset_name_trans": "抢"
+  }
 ]

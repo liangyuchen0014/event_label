@@ -1,300 +1,361 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "set.01",
-        "roleset_name": "put, place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            },
-            {
-                "n": "2",
-                "descr": "destination or position"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "set.02",
-        "roleset_name": "establish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "set.08",
-        "roleset_name": "make ready, assign a task to, ready for action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "prepared entity"
-            },
-            {
-                "n": "2",
-                "descr": "ready for what, proposition"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "set.11",
-        "roleset_name": "go down",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "sun"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "set.14",
-        "roleset_name": "make ready, prepare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, preparer"
-            },
-            {
-                "n": "1",
-                "descr": "Thing set, prepared"
-            },
-            {
-                "n": "2",
-                "descr": "Beneficiary, set for who/what?"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "set.16",
-        "roleset_name": "fixed, fixated, decided on",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity fixed on something"
-            },
-            {
-                "n": "2",
-                "descr": "what arg1 is decided/fixed on"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "set_off.04",
-        "roleset_name": "set off: begin travel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            },
-            {
-                "n": "1",
-                "descr": "destination"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "set_off.05",
-        "roleset_name": "set off a bomb, start a chain reaction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bomber, cause"
-            },
-            {
-                "n": "1",
-                "descr": "bomb, reaction"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "set_off.13",
-        "roleset_name": "set off: complement, balance (like 'offset')",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing complementing"
-            },
-            {
-                "n": "1",
-                "descr": "thing complemented"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "set_about.12",
-        "roleset_name": "start to do",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, starter"
-            },
-            {
-                "n": "1",
-                "descr": "thing started"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "set_out.06",
-        "roleset_name": "set out: establish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            }
-        ]
-    },
-    {
-        "uid": 12,
-        "roleset_id": "set_out.07",
-        "roleset_name": "set out: begin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            },
-            {
-                "n": "1",
-                "descr": "destination, goal"
-            }
-        ]
-    },
-    {
-        "uid": 13,
-        "roleset_id": "set_up.03",
-        "roleset_name": "set up: establish, establish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing set"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 14,
-        "roleset_id": "set_up.15",
-        "roleset_name": "trap, ensnare, trick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trickster"
-            },
-            {
-                "n": "1",
-                "descr": "entity tricked"
-            },
-            {
-                "n": "2",
-                "descr": "the trick that follows"
-            }
-        ]
-    },
-    {
-        "uid": 15,
-        "roleset_id": "set_down.09",
-        "roleset_name": "put into position",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing set down"
-            },
-            {
-                "n": "2",
-                "descr": "destination or position"
-            }
-        ]
-    },
-    {
-        "uid": 16,
-        "roleset_id": "set_upon.10",
-        "roleset_name": "(cause to) be attacked",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, attacker"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing attacked"
-            }
-        ]
-    },
-    {
-        "uid": 17,
-        "roleset_id": "set_forth.17",
-        "roleset_name": "establish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "setter"
-            },
-            {
-                "n": "1",
-                "descr": "thing established"
-            }
-        ]
-    },
-    {
-        "uid": 18,
-        "roleset_id": "onset.18",
-        "roleset_name": "begin, start",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "experiencer"
-            },
-            {
-                "n": "1",
-                "descr": "thing beginning"
-            },
-            {
-                "n": "2",
-                "descr": "when it begins"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "set.01",
+    "roleset_name": "put, place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      },
+      {
+        "n": "2",
+        "descr": "destination or position",
+        "descr_trans": "目的地或位置"
+      }
+    ],
+    "roleset_name_trans": "放置，放置"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "set.02",
+    "roleset_name": "establish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1",
+        "descr_trans": "arg1 的属性"
+      }
+    ],
+    "roleset_name_trans": "建立"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "set.08",
+    "roleset_name": "make ready, assign a task to, ready for action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "prepared entity",
+        "descr_trans": "准备好的实体"
+      },
+      {
+        "n": "2",
+        "descr": "ready for what, proposition",
+        "descr_trans": "准备做什么，提议"
+      }
+    ],
+    "roleset_name_trans": "做好准备，分配任务，准备行动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "set.11",
+    "roleset_name": "go down",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "sun",
+        "descr_trans": "太阳"
+      }
+    ],
+    "roleset_name_trans": "下去"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "set.14",
+    "roleset_name": "make ready, prepare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, preparer",
+        "descr_trans": "代理人、准备人"
+      },
+      {
+        "n": "1",
+        "descr": "Thing set, prepared",
+        "descr_trans": "东西摆好，准备好"
+      },
+      {
+        "n": "2",
+        "descr": "Beneficiary, set for who/what?",
+        "descr_trans": "受益人，为谁/什么设置？"
+      }
+    ],
+    "roleset_name_trans": "做好准备，准备"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "set.16",
+    "roleset_name": "fixed, fixated, decided on",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity fixed on something",
+        "descr_trans": "固定在某物上的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what arg1 is decided/fixed on",
+        "descr_trans": "arg1 决定/固定在什么上"
+      }
+    ],
+    "roleset_name_trans": "固定的，固定的，决定的"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "set_off.04",
+    "roleset_name": "set off: begin travel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "出发：开始旅行"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "set_off.05",
+    "roleset_name": "set off a bomb, start a chain reaction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bomber, cause",
+        "descr_trans": "轰炸机, 原因"
+      },
+      {
+        "n": "1",
+        "descr": "bomb, reaction",
+        "descr_trans": "炸弹, 反应"
+      }
+    ],
+    "roleset_name_trans": "引爆炸弹，引发连锁反应"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "set_off.13",
+    "roleset_name": "set off: complement, balance (like 'offset')",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing complementing",
+        "descr_trans": "事物互补"
+      },
+      {
+        "n": "1",
+        "descr": "thing complemented",
+        "descr_trans": "事物补充"
+      }
+    ],
+    "roleset_name_trans": "set off：补充、平衡（如“抵消”）"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "set_about.12",
+    "roleset_name": "start to do",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, starter",
+        "descr_trans": "代理、首发"
+      },
+      {
+        "n": "1",
+        "descr": "thing started",
+        "descr_trans": "事情开始了"
+      }
+    ],
+    "roleset_name_trans": "开始做"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "set_out.06",
+    "roleset_name": "set out: establish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      }
+    ],
+    "roleset_name_trans": "规定：建立"
+  },
+  {
+    "uid": 12,
+    "roleset_id": "set_out.07",
+    "roleset_name": "set out: begin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "destination, goal",
+        "descr_trans": "目的地，目标"
+      }
+    ],
+    "roleset_name_trans": "着手：开始"
+  },
+  {
+    "uid": 13,
+    "roleset_id": "set_up.03",
+    "roleset_name": "set up: establish, establish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, setter",
+        "descr_trans": "代理人、设定者"
+      },
+      {
+        "n": "1",
+        "descr": "thing set",
+        "descr_trans": "东西集"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "设立：建立，设立"
+  },
+  {
+    "uid": 14,
+    "roleset_id": "set_up.15",
+    "roleset_name": "trap, ensnare, trick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trickster",
+        "descr_trans": "骗子"
+      },
+      {
+        "n": "1",
+        "descr": "entity tricked",
+        "descr_trans": "实体被欺骗"
+      },
+      {
+        "n": "2",
+        "descr": "the trick that follows",
+        "descr_trans": "接下来的技巧"
+      }
+    ],
+    "roleset_name_trans": "陷阱, 圈套, 诡计"
+  },
+  {
+    "uid": 15,
+    "roleset_id": "set_down.09",
+    "roleset_name": "put into position",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing set down",
+        "descr_trans": "事情定下"
+      },
+      {
+        "n": "2",
+        "descr": "destination or position",
+        "descr_trans": "目的地或位置"
+      }
+    ],
+    "roleset_name_trans": "就位"
+  },
+  {
+    "uid": 16,
+    "roleset_id": "set_upon.10",
+    "roleset_name": "(cause to) be attacked",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, attacker",
+        "descr_trans": "代理人、攻击者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing attacked",
+        "descr_trans": "病人，被攻击的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）受到攻击"
+  },
+  {
+    "uid": 17,
+    "roleset_id": "set_forth.17",
+    "roleset_name": "establish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "setter",
+        "descr_trans": "二传手"
+      },
+      {
+        "n": "1",
+        "descr": "thing established",
+        "descr_trans": "事物既定"
+      }
+    ],
+    "roleset_name_trans": "建立"
+  },
+  {
+    "uid": 18,
+    "roleset_id": "onset.18",
+    "roleset_name": "begin, start",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      },
+      {
+        "n": "1",
+        "descr": "thing beginning",
+        "descr_trans": "事情开始"
+      },
+      {
+        "n": "2",
+        "descr": "when it begins",
+        "descr_trans": "当它开始时"
+      }
+    ],
+    "roleset_name_trans": "开始，开始"
+  }
 ]

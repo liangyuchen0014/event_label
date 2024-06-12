@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "encourage.01",
-        "roleset_name": "impelled action, giving courage to do something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "convincer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "encourage.02",
-        "roleset_name": "provide favorable conditions for growth; promote",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing favored"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "encourage.01",
+    "roleset_name": "impelled action, giving courage to do something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "convincer",
+        "descr_trans": "说服者"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动，给予勇气去做某事"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "encourage.02",
+    "roleset_name": "provide favorable conditions for growth; promote",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing favored",
+        "descr_trans": "受青睐的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "提供良好的成长条件；推动"
+  }
 ]

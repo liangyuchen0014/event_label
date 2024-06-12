@@ -1,67 +1,81 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "translate.01",
-        "roleset_name": "change (language)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "end state"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "translate.02",
-        "roleset_name": "biology: mRNA to protein",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of translation (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "thing translated (messenger RNA)"
-            },
-            {
-                "n": "2",
-                "descr": "product of translation (protein)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "translate.03",
-        "roleset_name": "move, translocate, transform spatially",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved"
-            },
-            {
-                "n": "2",
-                "descr": "end location/position"
-            },
-            {
-                "n": "3",
-                "descr": "start location/position"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "translate.01",
+    "roleset_name": "change (language)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      }
+    ],
+    "roleset_name_trans": "改变语言）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "translate.02",
+    "roleset_name": "biology: mRNA to protein",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of translation (e.g. scientist)",
+        "descr_trans": "有意翻译的代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "thing translated (messenger RNA)",
+        "descr_trans": "翻译的东西（信使RNA）"
+      },
+      {
+        "n": "2",
+        "descr": "product of translation (protein)",
+        "descr_trans": "翻译产物（蛋白质）"
+      }
+    ],
+    "roleset_name_trans": "生物学：mRNA 到蛋白质"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "translate.03",
+    "roleset_name": "move, translocate, transform spatially",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved",
+        "descr_trans": "东西移动了"
+      },
+      {
+        "n": "2",
+        "descr": "end location/position",
+        "descr_trans": "结束位置/位置"
+      },
+      {
+        "n": "3",
+        "descr": "start location/position",
+        "descr_trans": "起始地点/位置"
+      }
+    ],
+    "roleset_name_trans": "空间移动、移位、变换"
+  }
 ]

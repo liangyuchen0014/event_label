@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nod.01",
-        "roleset_name": "to lower and raise the head or to express by nodding",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity with a bobbing head, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing expressed by nodding"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nod_off.02",
-        "roleset_name": "fall asleep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity falling asleep"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nod.01",
+    "roleset_name": "to lower and raise the head or to express by nodding",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity with a bobbing head, agent",
+        "descr_trans": "带有摇头的实体，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing expressed by nodding",
+        "descr_trans": "用点头表示的事物"
+      }
+    ],
+    "roleset_name_trans": "低头或抬起头或点头表示"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nod_off.02",
+    "roleset_name": "fall asleep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity falling asleep",
+        "descr_trans": "实体睡着了"
+      }
+    ],
+    "roleset_name_trans": "睡着"
+  }
 ]

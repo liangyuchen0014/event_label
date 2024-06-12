@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "butter.01",
-        "roleset_name": "spread butter on something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Chef, butterer"
-            },
-            {
-                "n": "1",
-                "descr": "Bread, location/entity being covered in butter"
-            },
-            {
-                "n": "2",
-                "descr": "Butter itself, margarine"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "butter_up.02",
-        "roleset_name": "soften up by flattery, with an aim of getting something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "butterer/flatterer"
-            },
-            {
-                "n": "1",
-                "descr": "entity buttered up"
-            },
-            {
-                "n": "2",
-                "descr": "buttery behavior employed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "butter.01",
+    "roleset_name": "spread butter on something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Chef, butterer",
+        "descr_trans": "厨师、黄油师"
+      },
+      {
+        "n": "1",
+        "descr": "Bread, location/entity being covered in butter",
+        "descr_trans": "面包、地点/实体被黄油覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "Butter itself, margarine",
+        "descr_trans": "黄油本身，人造黄油"
+      }
+    ],
+    "roleset_name_trans": "在某物上涂黄油"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "butter_up.02",
+    "roleset_name": "soften up by flattery, with an aim of getting something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "butterer/flatterer",
+        "descr_trans": "奉承者/奉承者"
+      },
+      {
+        "n": "1",
+        "descr": "entity buttered up",
+        "descr_trans": "实体奉承"
+      },
+      {
+        "n": "2",
+        "descr": "buttery behavior employed",
+        "descr_trans": "采用黄油行为"
+      }
+    ],
+    "roleset_name_trans": "通过奉承来软化自己，以达到某种目的"
+  }
 ]

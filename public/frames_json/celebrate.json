@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "celebrate.01",
-        "roleset_name": "honor, show respect to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "honorer"
-            },
-            {
-                "n": "1",
-                "descr": "honored"
-            },
-            {
-                "n": "2",
-                "descr": "for what reason"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "celebrate.02",
-        "roleset_name": "have a party, occasion to mark an event (party)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "celebrator(s)"
-            },
-            {
-                "n": "1",
-                "descr": "party, occasion"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "celebrate.01",
+    "roleset_name": "honor, show respect to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "honorer",
+        "descr_trans": "名誉"
+      },
+      {
+        "n": "1",
+        "descr": "honored",
+        "descr_trans": "荣幸"
+      },
+      {
+        "n": "2",
+        "descr": "for what reason",
+        "descr_trans": "是什么原因"
+      }
+    ],
+    "roleset_name_trans": "荣誉，表示尊重"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "celebrate.02",
+    "roleset_name": "have a party, occasion to mark an event (party)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "celebrator(s)",
+        "descr_trans": "庆祝者"
+      },
+      {
+        "n": "1",
+        "descr": "party, occasion",
+        "descr_trans": "聚会、场合"
+      }
+    ],
+    "roleset_name_trans": "举办聚会，纪念某个事件的机会（聚会）"
+  }
 ]

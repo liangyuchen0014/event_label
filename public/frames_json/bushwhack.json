@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bushwhack.01",
-        "roleset_name": "ambush",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bushwhacker"
-            },
-            {
-                "n": "1",
-                "descr": "entity being bushwhacked"
-            },
-            {
-                "n": "2",
-                "descr": "weapon"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bushwhack.02",
-        "roleset_name": "cut one's way through thick woods or bushes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bush-whacker"
-            },
-            {
-                "n": "1",
-                "descr": "\"his/her/their way\""
-            },
-            {
-                "n": "2",
-                "descr": "direction, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bushwhack.01",
+    "roleset_name": "ambush",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bushwhacker",
+        "descr_trans": "丛林黑客"
+      },
+      {
+        "n": "1",
+        "descr": "entity being bushwhacked",
+        "descr_trans": "实体被丛林袭击"
+      },
+      {
+        "n": "2",
+        "descr": "weapon",
+        "descr_trans": "武器"
+      }
+    ],
+    "roleset_name_trans": "伏击"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bushwhack.02",
+    "roleset_name": "cut one's way through thick woods or bushes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bush-whacker",
+        "descr_trans": "丛林破坏者"
+      },
+      {
+        "n": "1",
+        "descr": "\"his/her/their way\"",
+        "descr_trans": "“他/她/他们的方式”"
+      },
+      {
+        "n": "2",
+        "descr": "direction, location",
+        "descr_trans": "方向、位置"
+      }
+    ],
+    "roleset_name_trans": "在茂密的树林或灌木丛中开路"
+  }
 ]

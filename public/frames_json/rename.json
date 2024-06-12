@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rename.01",
-        "roleset_name": "to give a new name to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assigner of name, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity named"
-            },
-            {
-                "n": "2",
-                "descr": "new name"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rename.01",
+    "roleset_name": "to give a new name to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assigner of name, agent",
+        "descr_trans": "姓名转让人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity named",
+        "descr_trans": "实体命名"
+      },
+      {
+        "n": "2",
+        "descr": "new name",
+        "descr_trans": "新名字"
+      }
+    ],
+    "roleset_name_trans": "给一个新名字"
+  }
 ]

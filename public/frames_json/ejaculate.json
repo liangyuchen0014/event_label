@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ejaculate.01",
-        "roleset_name": "utter suddenly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ejaculate.02",
-        "roleset_name": "orgasming",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Experiencer of orgasm"
-            },
-            {
-                "n": "1",
-                "descr": "Cognate object (mention of ejaculate itself)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ejaculate.01",
+    "roleset_name": "utter suddenly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "突然说出"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ejaculate.02",
+    "roleset_name": "orgasming",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Experiencer of orgasm",
+        "descr_trans": "性高潮体验者"
+      },
+      {
+        "n": "1",
+        "descr": "Cognate object (mention of ejaculate itself)",
+        "descr_trans": "同源宾语（提及射精本身）"
+      }
+    ],
+    "roleset_name_trans": "高潮"
+  }
 ]

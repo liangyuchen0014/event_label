@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "power.01",
-        "roleset_name": "to supply with power",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "source of power"
-            },
-            {
-                "n": "1",
-                "descr": "entity supplied with power"
-            },
-            {
-                "n": "2",
-                "descr": "entity powered with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "powerful.02",
-        "roleset_name": "having great power, influence",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "powerful entity/action (may require concatenation"
-            },
-            {
-                "n": "2",
-                "descr": "what the power is used for-- secondary action"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "power.01",
+    "roleset_name": "to supply with power",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "source of power",
+        "descr_trans": "力量的源泉"
+      },
+      {
+        "n": "1",
+        "descr": "entity supplied with power",
+        "descr_trans": "供电实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity powered with",
+        "descr_trans": "实体供电"
+      }
+    ],
+    "roleset_name_trans": "供电"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "powerful.02",
+    "roleset_name": "having great power, influence",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "powerful entity/action (may require concatenation",
+        "descr_trans": "强大的实体/动作（可能需要串联"
+      },
+      {
+        "n": "2",
+        "descr": "what the power is used for-- secondary action",
+        "descr_trans": "力量的用途——次要行动"
+      }
+    ],
+    "roleset_name_trans": "有很大的权力、影响力"
+  }
 ]

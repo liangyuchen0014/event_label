@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intrude.01",
-        "roleset_name": "put into without invitation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "putter"
-            },
-            {
-                "n": "1",
-                "descr": "thing put"
-            },
-            {
-                "n": "2",
-                "descr": "where put"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intrude.01",
+    "roleset_name": "put into without invitation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "putter",
+        "descr_trans": "推杆"
+      },
+      {
+        "n": "1",
+        "descr": "thing put",
+        "descr_trans": "东西放"
+      },
+      {
+        "n": "2",
+        "descr": "where put",
+        "descr_trans": "放在哪里"
+      }
+    ],
+    "roleset_name_trans": "未经邀请就投入"
+  }
 ]

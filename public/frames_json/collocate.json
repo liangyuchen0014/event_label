@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "collocate.01",
-        "roleset_name": "cause to be located side by side, side by side placement",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing collocation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "first placed entity"
-            },
-            {
-                "n": "2",
-                "descr": "placed next to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "collocate.01",
+    "roleset_name": "cause to be located side by side, side by side placement",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing collocation, agent",
+        "descr_trans": "引起搭配的实体、代理"
+      },
+      {
+        "n": "1",
+        "descr": "first placed entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "placed next to",
+        "descr_trans": "放置在旁边"
+      }
+    ],
+    "roleset_name_trans": "导致并排放置，并排放置"
+  }
 ]

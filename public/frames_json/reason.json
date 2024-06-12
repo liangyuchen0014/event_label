@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reason.01",
-        "roleset_name": "think logically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thinker"
-            },
-            {
-                "n": "1",
-                "descr": "thought"
-            },
-            {
-                "n": "2",
-                "descr": "with whom?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reasonable.02",
-        "roleset_name": "being of moderate, prudent, or well-thought-out nature",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "reasonable entity/act (may require concatenation)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reason.01",
+    "roleset_name": "think logically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "thought",
+        "descr_trans": "想法"
+      },
+      {
+        "n": "2",
+        "descr": "with whom?",
+        "descr_trans": "和谁一起？"
+      }
+    ],
+    "roleset_name_trans": "逻辑思考"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reasonable.02",
+    "roleset_name": "being of moderate, prudent, or well-thought-out nature",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "reasonable entity/act (may require concatenation)",
+        "descr_trans": "合理的实体/行为（可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "具有温和、谨慎或经过深思熟虑的性质"
+  }
 ]

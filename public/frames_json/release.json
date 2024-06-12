@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "release.01",
-        "roleset_name": "let go",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser"
-            },
-            {
-                "n": "1",
-                "descr": "thing released"
-            },
-            {
-                "n": "2",
-                "descr": "released from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "releasable.02",
-        "roleset_name": "able to be released",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "releaser"
-            },
-            {
-                "n": "1",
-                "descr": "thing released"
-            },
-            {
-                "n": "2",
-                "descr": "released from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "release.01",
+    "roleset_name": "let go",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "1",
+        "descr": "thing released",
+        "descr_trans": "发布的东西"
+      },
+      {
+        "n": "2",
+        "descr": "released from",
+        "descr_trans": "从...发布"
+      }
+    ],
+    "roleset_name_trans": "松手"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "releasable.02",
+    "roleset_name": "able to be released",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "releaser",
+        "descr_trans": "发布"
+      },
+      {
+        "n": "1",
+        "descr": "thing released",
+        "descr_trans": "发布的东西"
+      },
+      {
+        "n": "2",
+        "descr": "released from",
+        "descr_trans": "从...发布"
+      }
+    ],
+    "roleset_name_trans": "能够被释放"
+  }
 ]

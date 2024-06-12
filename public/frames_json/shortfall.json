@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shortfall.01",
-        "roleset_name": "fall short",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity falling short"
-            },
-            {
-                "n": "2",
-                "descr": "falling short by how much?"
-            },
-            {
-                "n": "3",
-                "descr": "start state"
-            },
-            {
-                "n": "4",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shortfall.01",
+    "roleset_name": "fall short",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity falling short",
+        "descr_trans": "实体达不到要求"
+      },
+      {
+        "n": "2",
+        "descr": "falling short by how much?",
+        "descr_trans": "落后了多少？"
+      },
+      {
+        "n": "3",
+        "descr": "start state",
+        "descr_trans": "开始状态"
+      },
+      {
+        "n": "4",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "达不到要求"
+  }
 ]

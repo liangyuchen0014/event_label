@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reconnect.01",
-        "roleset_name": "connect again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, connector"
-            },
-            {
-                "n": "1",
-                "descr": "first thing being connected, focused argument"
-            },
-            {
-                "n": "2",
-                "descr": "second thing arg1 is connected to"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reconnect.01",
+    "roleset_name": "connect again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, connector",
+        "descr_trans": "代理、连接器"
+      },
+      {
+        "n": "1",
+        "descr": "first thing being connected, focused argument",
+        "descr_trans": "首先要联系起来，集中论证"
+      },
+      {
+        "n": "2",
+        "descr": "second thing arg1 is connected to",
+        "descr_trans": "arg1 连接的第二件事"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      }
+    ],
+    "roleset_name_trans": "再次连接"
+  }
 ]

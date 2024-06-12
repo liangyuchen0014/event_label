@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "plow.01",
-        "roleset_name": "make a furrow in the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "plower"
-            },
-            {
-                "n": "1",
-                "descr": "plowed"
-            },
-            {
-                "n": "2",
-                "descr": "plowed where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "plow.01",
+    "roleset_name": "make a furrow in the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "plower",
+        "descr_trans": "耕地者"
+      },
+      {
+        "n": "1",
+        "descr": "plowed",
+        "descr_trans": "犁过的"
+      },
+      {
+        "n": "2",
+        "descr": "plowed where",
+        "descr_trans": "犁过的地方"
+      }
+    ],
+    "roleset_name_trans": "在地上挖一条沟"
+  }
 ]

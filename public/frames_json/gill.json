@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gill.01",
-        "roleset_name": "remove gills",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gutter"
-            },
-            {
-                "n": "1",
-                "descr": "entity being gutted"
-            },
-            {
-                "n": "2",
-                "descr": "what is removed (usually guts or entrails)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (usually a knife)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gill.01",
+    "roleset_name": "remove gills",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gutter",
+        "descr_trans": "排水沟"
+      },
+      {
+        "n": "1",
+        "descr": "entity being gutted",
+        "descr_trans": "实体被掏空"
+      },
+      {
+        "n": "2",
+        "descr": "what is removed (usually guts or entrails)",
+        "descr_trans": "被去除的东西（通常是内脏或内脏）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (usually a knife)",
+        "descr_trans": "工具（通常是刀）"
+      }
+    ],
+    "roleset_name_trans": "去除鳃"
+  }
 ]

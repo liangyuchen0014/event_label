@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dam.01",
-        "roleset_name": "obstruct with dam",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "location of the dam"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dam.01",
+    "roleset_name": "obstruct with dam",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "location of the dam",
+        "descr_trans": "大坝的位置"
+      }
+    ],
+    "roleset_name_trans": "用水坝阻挡"
+  }
 ]

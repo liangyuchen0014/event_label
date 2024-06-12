@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "behead.01",
-        "roleset_name": "remove the head",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "axeman, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity now without a head"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "behead.01",
+    "roleset_name": "remove the head",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "axeman, agent",
+        "descr_trans": "斧头手，特工"
+      },
+      {
+        "n": "1",
+        "descr": "entity now without a head",
+        "descr_trans": "现在没有头的实体"
+      }
+    ],
+    "roleset_name_trans": "去掉头"
+  }
 ]

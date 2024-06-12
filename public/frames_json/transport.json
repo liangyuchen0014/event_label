@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transport.01",
-        "roleset_name": "move from one place to another, moving from one place to another (not means of transportation/vehicle itself)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "transporter"
-            },
-            {
-                "n": "1",
-                "descr": "thing transported"
-            },
-            {
-                "n": "2",
-                "descr": "source"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            },
-            {
-                "n": "4",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transport.01",
+    "roleset_name": "move from one place to another, moving from one place to another (not means of transportation/vehicle itself)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "transporter",
+        "descr_trans": "转运者"
+      },
+      {
+        "n": "1",
+        "descr": "thing transported",
+        "descr_trans": "运输的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source",
+        "descr_trans": "来源"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      },
+      {
+        "n": "4",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "从一个地方移动到另一个地方，从一个地方移动到另一个地方（不是交通工具/车辆本身）"
+  }
 ]

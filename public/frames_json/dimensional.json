@@ -1,39 +1,46 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dimensional.01",
-        "roleset_name": "some number of dimensions other than 2 or 3",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing occuring in some number of dimensions"
-            },
-            {
-                "n": "2",
-                "descr": "number of dimensions"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dimensional.02",
-        "roleset_name": "occuring in or dealing with 2 dimensions",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "2D entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "dimensional.03",
-        "roleset_name": "three-dimensional",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "3D entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dimensional.01",
+    "roleset_name": "some number of dimensions other than 2 or 3",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing occuring in some number of dimensions",
+        "descr_trans": "事物发生在某些维度"
+      },
+      {
+        "n": "2",
+        "descr": "number of dimensions",
+        "descr_trans": "维数"
+      }
+    ],
+    "roleset_name_trans": "除 2 或 3 之外的一些维度"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dimensional.02",
+    "roleset_name": "occuring in or dealing with 2 dimensions",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "2D entity",
+        "descr_trans": "2D实体"
+      }
+    ],
+    "roleset_name_trans": "发生在或涉及二维"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "dimensional.03",
+    "roleset_name": "three-dimensional",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "3D entity",
+        "descr_trans": "3D实体"
+      }
+    ],
+    "roleset_name_trans": "三维"
+  }
 ]

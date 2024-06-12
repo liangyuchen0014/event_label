@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "muddle.01",
-        "roleset_name": "to make muddy, confuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of confusion, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity muddled"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "muddle_up.02",
-        "roleset_name": "stir up, confuse, completive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming muddled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "muddle.01",
+    "roleset_name": "to make muddy, confuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of confusion, agent",
+        "descr_trans": "造成混乱的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity muddled",
+        "descr_trans": "实体混乱"
+      }
+    ],
+    "roleset_name_trans": "使变得混乱、混乱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "muddle_up.02",
+    "roleset_name": "stir up, confuse, completive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming muddled",
+        "descr_trans": "事情变得混乱"
+      }
+    ],
+    "roleset_name_trans": "搅动, 混乱, 完成"
+  }
 ]

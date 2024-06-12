@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "commission.01",
-        "roleset_name": "to grant a commission, authorize, hiring by commission",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "granter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "task"
-            },
-            {
-                "n": "2",
-                "descr": "recepient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "commission.01",
+    "roleset_name": "to grant a commission, authorize, hiring by commission",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "granter, agent",
+        "descr_trans": "授予者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "task",
+        "descr_trans": "任务"
+      },
+      {
+        "n": "2",
+        "descr": "recepient",
+        "descr_trans": "他们将收到"
+      }
+    ],
+    "roleset_name_trans": "授予佣金、授权、按佣金雇用"
+  }
 ]

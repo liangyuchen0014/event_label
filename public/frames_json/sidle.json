@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sidle.01",
-        "roleset_name": "to walk sideways,ingratiate oneself to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, rider (use only if arg1 is present)"
-            },
-            {
-                "n": "1",
-                "descr": "thing sidled, walker"
-            },
-            {
-                "n": "2",
-                "descr": "path, thing  sidled up to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sidle.01",
+    "roleset_name": "to walk sideways,ingratiate oneself to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, rider (use only if arg1 is present)",
+        "descr_trans": "代理、骑手（仅当 arg1 存在时使用）"
+      },
+      {
+        "n": "1",
+        "descr": "thing sidled, walker",
+        "descr_trans": "东西侧向，步行者"
+      },
+      {
+        "n": "2",
+        "descr": "path, thing  sidled up to",
+        "descr_trans": "路径，事物侧向"
+      }
+    ],
+    "roleset_name_trans": "侧身走，讨好"
+  }
 ]

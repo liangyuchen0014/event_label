@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "transect.01",
-        "roleset_name": "cut transversly, dividing by cutting transversely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of transection"
-            },
-            {
-                "n": "1",
-                "descr": "tissues or entity transected"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "transect.01",
+    "roleset_name": "cut transversly, dividing by cutting transversely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of transection",
+        "descr_trans": "横断的原因"
+      },
+      {
+        "n": "1",
+        "descr": "tissues or entity transected",
+        "descr_trans": "横切的组织或实体"
+      }
+    ],
+    "roleset_name_trans": "横向切割，横向切割分割"
+  }
 ]

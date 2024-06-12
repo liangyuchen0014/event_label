@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "inscribe.01",
-        "roleset_name": "engrave",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, engraver"
-            },
-            {
-                "n": "1",
-                "descr": "surface"
-            },
-            {
-                "n": "2",
-                "descr": "message"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "inscribe.02",
-        "roleset_name": "enrollment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity enrolled"
-            },
-            {
-                "n": "2",
-                "descr": "enrolled in what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "inscribe.01",
+    "roleset_name": "engrave",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, engraver",
+        "descr_trans": "代理、雕刻师"
+      },
+      {
+        "n": "1",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "2",
+        "descr": "message",
+        "descr_trans": "信息"
+      }
+    ],
+    "roleset_name_trans": "雕刻"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "inscribe.02",
+    "roleset_name": "enrollment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity enrolled",
+        "descr_trans": "实体注册"
+      },
+      {
+        "n": "2",
+        "descr": "enrolled in what",
+        "descr_trans": "就读于什么"
+      }
+    ],
+    "roleset_name_trans": "注册"
+  }
 ]

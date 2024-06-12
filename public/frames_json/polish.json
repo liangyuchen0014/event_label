@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "polish.01",
-        "roleset_name": "make shiny",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "polisher"
-            },
-            {
-                "n": "1",
-                "descr": "thing getting shiny"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "end state, attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "polish.04",
-        "roleset_name": "refinement",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "polished entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "polish_off.02",
-        "roleset_name": "finish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "finisher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing finished"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "polish_up.03",
-        "roleset_name": "polish completely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "polisher"
-            },
-            {
-                "n": "1",
-                "descr": "thing being polished"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            },
-            {
-                "n": "3",
-                "descr": "end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "polish.01",
+    "roleset_name": "make shiny",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "polisher",
+        "descr_trans": "抛光机"
+      },
+      {
+        "n": "1",
+        "descr": "thing getting shiny",
+        "descr_trans": "东西变得闪亮"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "end state, attribute",
+        "descr_trans": "最终状态、属性"
+      }
+    ],
+    "roleset_name_trans": "使有光泽"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "polish.04",
+    "roleset_name": "refinement",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "polished entity",
+        "descr_trans": "抛光实体"
+      }
+    ],
+    "roleset_name_trans": "细化"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "polish_off.02",
+    "roleset_name": "finish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "finisher, agent",
+        "descr_trans": "终结者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing finished",
+        "descr_trans": "事情完成了"
+      }
+    ],
+    "roleset_name_trans": "结束"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "polish_up.03",
+    "roleset_name": "polish completely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "polisher",
+        "descr_trans": "抛光机"
+      },
+      {
+        "n": "1",
+        "descr": "thing being polished",
+        "descr_trans": "正在抛光的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      },
+      {
+        "n": "3",
+        "descr": "end state",
+        "descr_trans": "结束状态"
+      }
+    ],
+    "roleset_name_trans": "彻底抛光"
+  }
 ]

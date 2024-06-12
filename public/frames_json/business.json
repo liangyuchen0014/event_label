@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "do_business.01",
-        "roleset_name": "name",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first or all business-doers"
-            },
-            {
-                "n": "1",
-                "descr": "business domain"
-            },
-            {
-                "n": "2",
-                "descr": "second business-doer"
-            },
-            {
-                "n": "3",
-                "descr": "value of transaction"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mind_ones_business.02",
-        "roleset_name": "avoid meddling in another's affairs",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person trying to not meddle"
-            },
-            {
-                "n": "1",
-                "descr": "ones actual business; thing done in order to ignore other situation"
-            },
-            {
-                "n": "2",
-                "descr": "thing being actively ignored"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "do_business.01",
+    "roleset_name": "name",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first or all business-doers",
+        "descr_trans": "首先或所有的实业家"
+      },
+      {
+        "n": "1",
+        "descr": "business domain",
+        "descr_trans": "业务领域"
+      },
+      {
+        "n": "2",
+        "descr": "second business-doer",
+        "descr_trans": "第二实业家"
+      },
+      {
+        "n": "3",
+        "descr": "value of transaction",
+        "descr_trans": "交易价值"
+      }
+    ],
+    "roleset_name_trans": "姓名"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mind_ones_business.02",
+    "roleset_name": "avoid meddling in another's affairs",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person trying to not meddle",
+        "descr_trans": "试图不干涉的人"
+      },
+      {
+        "n": "1",
+        "descr": "ones actual business; thing done in order to ignore other situation",
+        "descr_trans": "其实际业务；为了忽略其他情况而做的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing being actively ignored",
+        "descr_trans": "被主动忽略的事情"
+      }
+    ],
+    "roleset_name_trans": "避免干涉别人的事情"
+  }
 ]

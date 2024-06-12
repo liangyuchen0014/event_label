@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pyrosequence.01",
-        "roleset_name": "sequence DNA using chemiluminescent enzymatic reactions",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "scientist"
-            },
-            {
-                "n": "1",
-                "descr": "DNA, sample sequenced"
-            },
-            {
-                "n": "2",
-                "descr": "sequenced for which genes, specifically"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pyrosequence.01",
+    "roleset_name": "sequence DNA using chemiluminescent enzymatic reactions",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "scientist",
+        "descr_trans": "科学家"
+      },
+      {
+        "n": "1",
+        "descr": "DNA, sample sequenced",
+        "descr_trans": "DNA，样本已测序"
+      },
+      {
+        "n": "2",
+        "descr": "sequenced for which genes, specifically",
+        "descr_trans": "具体针对哪些基因进行测序"
+      }
+    ],
+    "roleset_name_trans": "使用化学发光酶促反应对 DNA 进行测序"
+  }
 ]

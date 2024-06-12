@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "extradite.01",
-        "roleset_name": "expel",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "expeller, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity expelled"
-            },
-            {
-                "n": "2",
-                "descr": "expelled from"
-            },
-            {
-                "n": "3",
-                "descr": "expelled to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "extradite.01",
+    "roleset_name": "expel",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "expeller, agent",
+        "descr_trans": "驱除器，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity expelled",
+        "descr_trans": "实体被驱逐"
+      },
+      {
+        "n": "2",
+        "descr": "expelled from",
+        "descr_trans": "被驱逐出"
+      },
+      {
+        "n": "3",
+        "descr": "expelled to",
+        "descr_trans": "被驱逐到"
+      }
+    ],
+    "roleset_name_trans": "驱逐"
+  }
 ]

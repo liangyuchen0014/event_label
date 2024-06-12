@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shell.01",
-        "roleset_name": "remove shells from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sheller"
-            },
-            {
-                "n": "1",
-                "descr": "thing that used to have a shell"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shell.02",
-        "roleset_name": "bomb",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sheller"
-            },
-            {
-                "n": "1",
-                "descr": "target"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of bombs, shells"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shell_out.03",
-        "roleset_name": "pay",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "payer or buyer"
-            },
-            {
-                "n": "1",
-                "descr": "money"
-            },
-            {
-                "n": "2",
-                "descr": "seller or person being paid"
-            },
-            {
-                "n": "3",
-                "descr": "thing bought or paid for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shell.01",
+    "roleset_name": "remove shells from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sheller",
+        "descr_trans": "脱壳者"
+      },
+      {
+        "n": "1",
+        "descr": "thing that used to have a shell",
+        "descr_trans": "曾经有壳的东西"
+      }
+    ],
+    "roleset_name_trans": "去除外壳"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shell.02",
+    "roleset_name": "bomb",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sheller",
+        "descr_trans": "脱壳者"
+      },
+      {
+        "n": "1",
+        "descr": "target",
+        "descr_trans": "目标"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of bombs, shells",
+        "descr_trans": "明确提及炸弹、炮弹"
+      }
+    ],
+    "roleset_name_trans": "炸弹"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shell_out.03",
+    "roleset_name": "pay",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "payer or buyer",
+        "descr_trans": "付款人或买方"
+      },
+      {
+        "n": "1",
+        "descr": "money",
+        "descr_trans": "钱"
+      },
+      {
+        "n": "2",
+        "descr": "seller or person being paid",
+        "descr_trans": "卖方或收款人"
+      },
+      {
+        "n": "3",
+        "descr": "thing bought or paid for",
+        "descr_trans": "购买或支付的东西"
+      }
+    ],
+    "roleset_name_trans": "支付"
+  }
 ]

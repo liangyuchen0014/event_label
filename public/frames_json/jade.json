@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jade.01",
-        "roleset_name": "(make) become tired, weary of something",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of jadedness"
-            },
-            {
-                "n": "1",
-                "descr": "jaded entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jade.01",
+    "roleset_name": "(make) become tired, weary of something",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of jadedness",
+        "descr_trans": "倦怠的原因"
+      },
+      {
+        "n": "1",
+        "descr": "jaded entity",
+        "descr_trans": "厌倦的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "（使）变得疲倦，对某事感到厌倦"
+  }
 ]

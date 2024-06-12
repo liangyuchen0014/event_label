@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vaporize.01",
-        "roleset_name": "convert into vapor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "entity turned into vapor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vaporize.01",
+    "roleset_name": "convert into vapor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity turned into vapor",
+        "descr_trans": "实体变成蒸气"
+      }
+    ],
+    "roleset_name_trans": "转化为蒸气"
+  }
 ]

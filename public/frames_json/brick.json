@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "brick.01",
-        "roleset_name": "face, pave with brick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "construction worker, bricklayer"
-            },
-            {
-                "n": "1",
-                "descr": "entity, location faced/covered with brick"
-            },
-            {
-                "n": "2",
-                "descr": "brick itself, type of brick"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "brick_over.02",
-        "roleset_name": "to face, cover with brick",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bricklayer"
-            },
-            {
-                "n": "1",
-                "descr": "location, entity being covered in brick"
-            },
-            {
-                "n": "2",
-                "descr": "brick itself"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "brick.01",
+    "roleset_name": "face, pave with brick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "construction worker, bricklayer",
+        "descr_trans": "建筑工人、瓦工"
+      },
+      {
+        "n": "1",
+        "descr": "entity, location faced/covered with brick",
+        "descr_trans": "实体，位置面朝/覆盖着砖块"
+      },
+      {
+        "n": "2",
+        "descr": "brick itself, type of brick",
+        "descr_trans": "砖本身，砖的类型"
+      }
+    ],
+    "roleset_name_trans": "面，铺砖"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "brick_over.02",
+    "roleset_name": "to face, cover with brick",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bricklayer",
+        "descr_trans": "瓦工"
+      },
+      {
+        "n": "1",
+        "descr": "location, entity being covered in brick",
+        "descr_trans": "位置，实体被砖覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "brick itself",
+        "descr_trans": "砖本身"
+      }
+    ],
+    "roleset_name_trans": "面对，用砖覆盖"
+  }
 ]

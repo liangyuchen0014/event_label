@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tether.01",
-        "roleset_name": "attach, tie to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being tied together"
-            },
-            {
-                "n": "2",
-                "descr": "other things"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tether.01",
+    "roleset_name": "attach, tie to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher, agent",
+        "descr_trans": "附加、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being tied together",
+        "descr_trans": "事物被绑在一起"
+      },
+      {
+        "n": "2",
+        "descr": "other things",
+        "descr_trans": "其他事情"
+      }
+    ],
+    "roleset_name_trans": "附着，系于"
+  }
 ]

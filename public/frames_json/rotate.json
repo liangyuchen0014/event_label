@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rotate.01",
-        "roleset_name": "(make) go around, causing to go or going around",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of rotation"
-            },
-            {
-                "n": "1",
-                "descr": "thing rotating"
-            },
-            {
-                "n": "2",
-                "descr": "axis or centerpoint or rotation"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rotate.02",
-        "roleset_name": "shift from one thing to another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of shift"
-            },
-            {
-                "n": "1",
-                "descr": "thing being changed"
-            },
-            {
-                "n": "2",
-                "descr": "old thing"
-            },
-            {
-                "n": "3",
-                "descr": "new thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rotate.01",
+    "roleset_name": "(make) go around, causing to go or going around",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of rotation",
+        "descr_trans": "旋转的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing rotating",
+        "descr_trans": "旋转的东西"
+      },
+      {
+        "n": "2",
+        "descr": "axis or centerpoint or rotation",
+        "descr_trans": "轴或中心点或旋转"
+      }
+    ],
+    "roleset_name_trans": "（使）四处走动，导致走动或四处走动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rotate.02",
+    "roleset_name": "shift from one thing to another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of shift",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing being changed",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "old thing",
+        "descr_trans": "老东西"
+      },
+      {
+        "n": "3",
+        "descr": "new thing",
+        "descr_trans": "新事物"
+      }
+    ],
+    "roleset_name_trans": "从一件事转移到另一件事"
+  }
 ]

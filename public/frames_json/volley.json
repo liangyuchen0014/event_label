@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "volley.01",
-        "roleset_name": "discharge in rapid bursts",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "discharger"
-            },
-            {
-                "n": "1",
-                "descr": "thing fired"
-            },
-            {
-                "n": "2",
-                "descr": "recipient"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "volley.02",
-        "roleset_name": "hit or return before it touches the ground",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "other player"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "volley.01",
+    "roleset_name": "discharge in rapid bursts",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "discharger",
+        "descr_trans": "卸下"
+      },
+      {
+        "n": "1",
+        "descr": "thing fired",
+        "descr_trans": "东西被解雇了"
+      },
+      {
+        "n": "2",
+        "descr": "recipient",
+        "descr_trans": "接受者"
+      }
+    ],
+    "roleset_name_trans": "快速爆发放电"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "volley.02",
+    "roleset_name": "hit or return before it touches the ground",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hitter",
+        "descr_trans": "击球手"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "other player",
+        "descr_trans": "其他玩家"
+      }
+    ],
+    "roleset_name_trans": "在接触地面之前撞击或返回"
+  }
 ]

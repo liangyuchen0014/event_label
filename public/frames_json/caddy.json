@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "caddy.01",
-        "roleset_name": "act as golf caddy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caddy"
-            },
-            {
-                "n": "1",
-                "descr": "player(s)"
-            },
-            {
-                "n": "2",
-                "descr": "game/course/play"
-            },
-            {
-                "n": "3",
-                "descr": "tours"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "caddy.02",
-        "roleset_name": "carry",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "carrier"
-            },
-            {
-                "n": "1",
-                "descr": "entity carried"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "caddy.01",
+    "roleset_name": "act as golf caddy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caddy",
+        "descr_trans": "球童"
+      },
+      {
+        "n": "1",
+        "descr": "player(s)",
+        "descr_trans": "玩家"
+      },
+      {
+        "n": "2",
+        "descr": "game/course/play",
+        "descr_trans": "游戏/课程/比赛"
+      },
+      {
+        "n": "3",
+        "descr": "tours",
+        "descr_trans": "旅游"
+      }
+    ],
+    "roleset_name_trans": "担任高尔夫球童"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "caddy.02",
+    "roleset_name": "carry",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "carrier",
+        "descr_trans": "载体"
+      },
+      {
+        "n": "1",
+        "descr": "entity carried",
+        "descr_trans": "实体携带"
+      }
+    ],
+    "roleset_name_trans": "携带"
+  }
 ]

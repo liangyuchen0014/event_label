@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shuck.01",
-        "roleset_name": "shuck",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shucker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing shucked"
-            },
-            {
-                "n": "2",
-                "descr": "thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shuck.01",
+    "roleset_name": "shuck",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shucker, agent",
+        "descr_trans": "舒克，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing shucked",
+        "descr_trans": "东西脱壳了"
+      },
+      {
+        "n": "2",
+        "descr": "thing removed",
+        "descr_trans": "东西被移除"
+      }
+    ],
+    "roleset_name_trans": "去壳"
+  }
 ]

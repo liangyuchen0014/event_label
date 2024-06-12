@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "train.01",
-        "roleset_name": "teach a skill",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trainer"
-            },
-            {
-                "n": "1",
-                "descr": "skill"
-            },
-            {
-                "n": "2",
-                "descr": "trainee"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "train.02",
-        "roleset_name": "aim, focus",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, focusser"
-            },
-            {
-                "n": "1",
-                "descr": "thing focussed"
-            },
-            {
-                "n": "2",
-                "descr": "focussed-on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "train.01",
+    "roleset_name": "teach a skill",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trainer",
+        "descr_trans": "教练员"
+      },
+      {
+        "n": "1",
+        "descr": "skill",
+        "descr_trans": "技能"
+      },
+      {
+        "n": "2",
+        "descr": "trainee",
+        "descr_trans": "实习生"
+      }
+    ],
+    "roleset_name_trans": "教授一项技能"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "train.02",
+    "roleset_name": "aim, focus",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, focusser",
+        "descr_trans": "代理人、聚焦者"
+      },
+      {
+        "n": "1",
+        "descr": "thing focussed",
+        "descr_trans": "事情集中"
+      },
+      {
+        "n": "2",
+        "descr": "focussed-on",
+        "descr_trans": "专注于"
+      }
+    ],
+    "roleset_name_trans": "目标、焦点"
+  }
 ]

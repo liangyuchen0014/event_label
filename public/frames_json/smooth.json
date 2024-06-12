@@ -1,92 +1,110 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smooth.01",
-        "roleset_name": "make smooth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing smoothness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming smooth"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "smooth.04",
-        "roleset_name": "suave",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "rico suave (agent/action, may require concatenation)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "smooth.06",
-        "roleset_name": "free of bumps",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "bumpless entity"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "smoothen.05",
-        "roleset_name": "make or become smooth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thing causing the smoothening"
-            },
-            {
-                "n": "1",
-                "descr": "Entity smoothened"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "smooth_out.02",
-        "roleset_name": "smooth out: make smooth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing smoothness"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming smooth"
-            },
-            {
-                "n": "2",
-                "descr": "explicit instrument"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "smooth_over.03",
-        "roleset_name": "smooth over: sooth difficulties",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "soother"
-            },
-            {
-                "n": "1",
-                "descr": "hurts, difficulties"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smooth.01",
+    "roleset_name": "make smooth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing smoothness",
+        "descr_trans": "代理，导致平滑的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming smooth",
+        "descr_trans": "事情变得顺利"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      }
+    ],
+    "roleset_name_trans": "使光滑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "smooth.04",
+    "roleset_name": "suave",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "rico suave (agent/action, may require concatenation)",
+        "descr_trans": "rico suave（代理/操作，可能需要串联）"
+      }
+    ],
+    "roleset_name_trans": "文雅的"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "smooth.06",
+    "roleset_name": "free of bumps",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "bumpless entity",
+        "descr_trans": "无扰动实体"
+      }
+    ],
+    "roleset_name_trans": "无颠簸"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "smoothen.05",
+    "roleset_name": "make or become smooth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thing causing the smoothening",
+        "descr_trans": "导致平滑的事情"
+      },
+      {
+        "n": "1",
+        "descr": "Entity smoothened",
+        "descr_trans": "实体平滑化"
+      }
+    ],
+    "roleset_name_trans": "使或变得光滑"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "smooth_out.02",
+    "roleset_name": "smooth out: make smooth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing smoothness",
+        "descr_trans": "代理，导致平滑的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming smooth",
+        "descr_trans": "事情变得顺利"
+      },
+      {
+        "n": "2",
+        "descr": "explicit instrument",
+        "descr_trans": "明确的工具"
+      }
+    ],
+    "roleset_name_trans": "平滑：使平滑"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "smooth_over.03",
+    "roleset_name": "smooth over: sooth difficulties",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "soother",
+        "descr_trans": "安抚奶嘴"
+      },
+      {
+        "n": "1",
+        "descr": "hurts, difficulties",
+        "descr_trans": "伤害、困难"
+      }
+    ],
+    "roleset_name_trans": "平息：缓和困难"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reap.01",
-        "roleset_name": "take as harvest",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver"
-            },
-            {
-                "n": "1",
-                "descr": "harvest"
-            },
-            {
-                "n": "2",
-                "descr": "received from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reap.01",
+    "roleset_name": "take as harvest",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "1",
+        "descr": "harvest",
+        "descr_trans": "收成"
+      },
+      {
+        "n": "2",
+        "descr": "received from",
+        "descr_trans": "从......收到"
+      }
+    ],
+    "roleset_name_trans": "当作收获"
+  }
 ]

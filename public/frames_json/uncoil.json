@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "uncoil.01",
-        "roleset_name": "uncoil",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "uncoiler, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) uncoiled, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, when separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "uncoil.01",
+    "roleset_name": "uncoil",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "uncoiler, agent",
+        "descr_trans": "开卷机、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) uncoiled, patient",
+        "descr_trans": "事物展开，有耐心"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, when separate from arg0",
+        "descr_trans": "仪器，当与 arg0 分开时"
+      }
+    ],
+    "roleset_name_trans": "展开"
+  }
 ]

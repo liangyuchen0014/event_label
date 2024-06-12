@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "spool.01",
-        "roleset_name": "to cover or coat with tin",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spooler"
-            },
-            {
-                "n": "1",
-                "descr": "thing spooled"
-            },
-            {
-                "n": "2",
-                "descr": "spool, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "spool.01",
+    "roleset_name": "to cover or coat with tin",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spooler",
+        "descr_trans": "假脱机程序"
+      },
+      {
+        "n": "1",
+        "descr": "thing spooled",
+        "descr_trans": "东西假脱机"
+      },
+      {
+        "n": "2",
+        "descr": "spool, location",
+        "descr_trans": "线轴、位置"
+      }
+    ],
+    "roleset_name_trans": "用锡覆盖或涂上锡"
+  }
 ]

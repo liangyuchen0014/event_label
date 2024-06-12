@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "exclude.01",
-        "roleset_name": "exclude, except",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, excluder"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing excluded"
-            },
-            {
-                "n": "2",
-                "descr": "excluded-from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "exclusive.02",
-        "roleset_name": "snobbish, reserved for a select elite group",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "exclusive entity/location/organization"
-            },
-            {
-                "n": "1",
-                "descr": "elite group reserved for"
-            },
-            {
-                "n": "2",
-                "descr": "group excluded"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "exclude.01",
+    "roleset_name": "exclude, except",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, excluder",
+        "descr_trans": "代理、排除者"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing excluded",
+        "descr_trans": "病人，排除的事情"
+      },
+      {
+        "n": "2",
+        "descr": "excluded-from",
+        "descr_trans": "排除在外"
+      }
+    ],
+    "roleset_name_trans": "排除，除了"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "exclusive.02",
+    "roleset_name": "snobbish, reserved for a select elite group",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "exclusive entity/location/organization",
+        "descr_trans": "独家实体/地点/组织"
+      },
+      {
+        "n": "1",
+        "descr": "elite group reserved for",
+        "descr_trans": "精英团体预留"
+      },
+      {
+        "n": "2",
+        "descr": "group excluded",
+        "descr_trans": "排除组"
+      }
+    ],
+    "roleset_name_trans": "势利，为精选的精英群体保留"
+  }
 ]

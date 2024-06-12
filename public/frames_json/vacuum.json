@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vacuum.01",
-        "roleset_name": "to collect dirt with a vacuum cleaner",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vacuumer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "dirt"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vacuum.01",
+    "roleset_name": "to collect dirt with a vacuum cleaner",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vacuumer, agent",
+        "descr_trans": "吸尘器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "dirt",
+        "descr_trans": "污垢"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "用吸尘器收集污垢"
+  }
 ]

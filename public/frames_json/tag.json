@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tag.01",
-        "roleset_name": "to attach a label",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "attacher of label, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity tagged"
-            },
-            {
-                "n": "2",
-                "descr": "label (or what the tag says)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "tag_along.02",
-        "roleset_name": "go along with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "subject accompanier"
-            },
-            {
-                "n": "1",
-                "descr": "object accompanier, tagged along with"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tag.01",
+    "roleset_name": "to attach a label",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "attacher of label, agent",
+        "descr_trans": "标签粘贴者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity tagged",
+        "descr_trans": "实体标记"
+      },
+      {
+        "n": "2",
+        "descr": "label (or what the tag says)",
+        "descr_trans": "标签（或标签上的内容）"
+      }
+    ],
+    "roleset_name_trans": "贴上标签"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "tag_along.02",
+    "roleset_name": "go along with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "subject accompanier",
+        "descr_trans": "主题伴奏"
+      },
+      {
+        "n": "1",
+        "descr": "object accompanier, tagged along with",
+        "descr_trans": "对象伴奏，标记为"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "与...同行"
+  }
 ]

@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "contest.01",
-        "roleset_name": "challenge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "challenger"
-            },
-            {
-                "n": "1",
-                "descr": "challenged"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "contest.02",
-        "roleset_name": "competition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "challenger"
-            },
-            {
-                "n": "1",
-                "descr": "challenged"
-            },
-            {
-                "n": "2",
-                "descr": "domain of challenge, title of contest"
-            },
-            {
-                "n": "3",
-                "descr": "prize, spoils"
-            },
-            {
-                "n": "4",
-                "descr": "host of contest"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "contest.01",
+    "roleset_name": "challenge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "challenger",
+        "descr_trans": "挑战者"
+      },
+      {
+        "n": "1",
+        "descr": "challenged",
+        "descr_trans": "受到挑战"
+      }
+    ],
+    "roleset_name_trans": "挑战"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "contest.02",
+    "roleset_name": "competition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "challenger",
+        "descr_trans": "挑战者"
+      },
+      {
+        "n": "1",
+        "descr": "challenged",
+        "descr_trans": "受到挑战"
+      },
+      {
+        "n": "2",
+        "descr": "domain of challenge, title of contest",
+        "descr_trans": "挑战领域、竞赛标题"
+      },
+      {
+        "n": "3",
+        "descr": "prize, spoils",
+        "descr_trans": "奖品、战利品"
+      },
+      {
+        "n": "4",
+        "descr": "host of contest",
+        "descr_trans": "大赛主持人"
+      }
+    ],
+    "roleset_name_trans": "竞赛"
+  }
 ]

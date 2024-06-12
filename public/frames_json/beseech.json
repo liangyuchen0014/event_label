@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "beseech.01",
-        "roleset_name": "implore urgently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "begger, person beseeching"
-            },
-            {
-                "n": "1",
-                "descr": "person arg 0 is imploring"
-            },
-            {
-                "n": "2",
-                "descr": "arg 1 is besought to do what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "beseech.01",
+    "roleset_name": "implore urgently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "begger, person beseeching",
+        "descr_trans": "乞讨者，乞讨的人"
+      },
+      {
+        "n": "1",
+        "descr": "person arg 0 is imploring",
+        "descr_trans": "人 arg 0 正在恳求"
+      },
+      {
+        "n": "2",
+        "descr": "arg 1 is besought to do what?",
+        "descr_trans": "arg 1 是做什么的？"
+      }
+    ],
+    "roleset_name_trans": "紧急恳求"
+  }
 ]

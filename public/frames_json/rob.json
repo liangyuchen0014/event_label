@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rob.01",
-        "roleset_name": "to engage in or commit robbery",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "robber, thief"
-            },
-            {
-                "n": "1",
-                "descr": "person robbed"
-            },
-            {
-                "n": "2",
-                "descr": "money or valuables, thing taken"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rob.01",
+    "roleset_name": "to engage in or commit robbery",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "robber, thief",
+        "descr_trans": "强盗，小偷"
+      },
+      {
+        "n": "1",
+        "descr": "person robbed",
+        "descr_trans": "被抢劫的人"
+      },
+      {
+        "n": "2",
+        "descr": "money or valuables, thing taken",
+        "descr_trans": "金钱或贵重物品，被拿走的东西"
+      }
+    ],
+    "roleset_name_trans": "参与或实施抢劫"
+  }
 ]

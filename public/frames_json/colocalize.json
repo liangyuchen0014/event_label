@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "colocalize.01",
-        "roleset_name": "occur together in the same cell",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "local entities"
-            },
-            {
-                "n": "2",
-                "descr": "common area (cell)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "colocalize.01",
+    "roleset_name": "occur together in the same cell",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "local entities",
+        "descr_trans": "当地实体"
+      },
+      {
+        "n": "2",
+        "descr": "common area (cell)",
+        "descr_trans": "公共区域（小区）"
+      }
+    ],
+    "roleset_name_trans": "一起发生在同一个细胞中"
+  }
 ]

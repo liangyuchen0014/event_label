@@ -1,54 +1,64 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rarefy.01",
-        "roleset_name": "make rare",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause, agent"
-            },
-            {
-                "n": "1",
-                "descr": "rare thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "rarefy.04",
-        "roleset_name": "decrease the density/pressure of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, cause"
-            },
-            {
-                "n": "1",
-                "descr": "medium rarefied"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "rare.02",
-        "roleset_name": "uncommon, infrequent",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "uncommon thing"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "rare.03",
-        "roleset_name": "cooked a short time, still red",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "meat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rarefy.01",
+    "roleset_name": "make rare",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause, agent",
+        "descr_trans": "原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "rare thing",
+        "descr_trans": "稀有的东西"
+      }
+    ],
+    "roleset_name_trans": "使稀有"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "rarefy.04",
+    "roleset_name": "decrease the density/pressure of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, cause",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "medium rarefied",
+        "descr_trans": "中等稀薄"
+      }
+    ],
+    "roleset_name_trans": "降低密度/压力"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "rare.02",
+    "roleset_name": "uncommon, infrequent",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "uncommon thing",
+        "descr_trans": "不寻常的事情"
+      }
+    ],
+    "roleset_name_trans": "不常见的，不常见的"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "rare.03",
+    "roleset_name": "cooked a short time, still red",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "meat",
+        "descr_trans": "肉"
+      }
+    ],
+    "roleset_name_trans": "煮的时间短，还是红的"
+  }
 ]

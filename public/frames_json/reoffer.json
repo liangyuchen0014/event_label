@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reoffer.01",
-        "roleset_name": "offer again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity offering something"
-            },
-            {
-                "n": "1",
-                "descr": "thing offered"
-            },
-            {
-                "n": "2",
-                "descr": "price"
-            },
-            {
-                "n": "3",
-                "descr": "offered-to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reoffer.01",
+    "roleset_name": "offer again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity offering something",
+        "descr_trans": "提供某物的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing offered",
+        "descr_trans": "提供的东西"
+      },
+      {
+        "n": "2",
+        "descr": "price",
+        "descr_trans": "价格"
+      },
+      {
+        "n": "3",
+        "descr": "offered-to",
+        "descr_trans": "提供给"
+      }
+    ],
+    "roleset_name_trans": "再次报价"
+  }
 ]

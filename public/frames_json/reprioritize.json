@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reprioritize.01",
-        "roleset_name": "reorganize the priority hierarchy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing given new priority status/hierarchy"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reprioritize.01",
+    "roleset_name": "reorganize the priority hierarchy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing given new priority status/hierarchy",
+        "descr_trans": "事物被赋予新的优先地位/层次结构"
+      }
+    ],
+    "roleset_name_trans": "重新组织优先级层次结构"
+  }
 ]

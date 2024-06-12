@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "drench.01",
-        "roleset_name": "to make wet all over",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of drenching"
-            },
-            {
-                "n": "1",
-                "descr": "entity drenched"
-            },
-            {
-                "n": "2",
-                "descr": "liquid, drenched with what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "drench.01",
+    "roleset_name": "to make wet all over",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of drenching",
+        "descr_trans": "代理，湿透的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity drenched",
+        "descr_trans": "实体浸透"
+      },
+      {
+        "n": "2",
+        "descr": "liquid, drenched with what?",
+        "descr_trans": "液体，用什么浸湿？"
+      }
+    ],
+    "roleset_name_trans": "弄湿全身"
+  }
 ]

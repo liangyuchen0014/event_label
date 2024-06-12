@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "railroad.01",
-        "roleset_name": "impelled action",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forcer"
-            },
-            {
-                "n": "1",
-                "descr": "impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "impelled action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "railroad.02",
-        "roleset_name": "force a thing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "forcer"
-            },
-            {
-                "n": "1",
-                "descr": "thing forced"
-            },
-            {
-                "n": "2",
-                "descr": "obstacle arg1 is forced through"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "railroad.01",
+    "roleset_name": "impelled action",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forcer",
+        "descr_trans": "力量"
+      },
+      {
+        "n": "1",
+        "descr": "impelled agent",
+        "descr_trans": "推动者"
+      },
+      {
+        "n": "2",
+        "descr": "impelled action",
+        "descr_trans": "推动行动"
+      }
+    ],
+    "roleset_name_trans": "推动行动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "railroad.02",
+    "roleset_name": "force a thing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "forcer",
+        "descr_trans": "力量"
+      },
+      {
+        "n": "1",
+        "descr": "thing forced",
+        "descr_trans": "强迫的事情"
+      },
+      {
+        "n": "2",
+        "descr": "obstacle arg1 is forced through",
+        "descr_trans": "障碍物 arg1 被强行通过"
+      }
+    ],
+    "roleset_name_trans": "强迫某事"
+  }
 ]

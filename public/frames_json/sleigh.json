@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sleigh.01",
-        "roleset_name": "sleigh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, driver (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "thing moved (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "locations, or start point"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sleigh.01",
+    "roleset_name": "sleigh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, driver (transitive subject)",
+        "descr_trans": "代理人，司机（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing moved (intransitive subject, transitive object)",
+        "descr_trans": "移动的事物（不及物主语、及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "locations, or start point",
+        "descr_trans": "地点或起点"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "雪橇"
+  }
 ]

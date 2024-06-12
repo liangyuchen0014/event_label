@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "handsewn.01",
-        "roleset_name": "sewn by hand",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing two objects to be attached"
-            },
-            {
-                "n": "1",
-                "descr": "patient, thing being sewn"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thread"
-            },
-            {
-                "n": "3",
-                "descr": "attribute of arg 1, end state"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "handsewn.01",
+    "roleset_name": "sewn by hand",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing two objects to be attached",
+        "descr_trans": "代理，导致两个对象连接的实体"
+      },
+      {
+        "n": "1",
+        "descr": "patient, thing being sewn",
+        "descr_trans": "病人，正在缝制的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thread",
+        "descr_trans": "仪器、线"
+      },
+      {
+        "n": "3",
+        "descr": "attribute of arg 1, end state",
+        "descr_trans": "arg 1 的属性，结束状态"
+      }
+    ],
+    "roleset_name_trans": "手工缝制"
+  }
 ]

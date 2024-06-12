@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bartend.01",
-        "roleset_name": "act as a bartender",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "bartender"
-            },
-            {
-                "n": "1",
-                "descr": "bar/employer"
-            },
-            {
-                "n": "2",
-                "descr": "entity served"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bartend.01",
+    "roleset_name": "act as a bartender",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "bartender",
+        "descr_trans": "调酒师"
+      },
+      {
+        "n": "1",
+        "descr": "bar/employer",
+        "descr_trans": "酒吧/雇主"
+      },
+      {
+        "n": "2",
+        "descr": "entity served",
+        "descr_trans": "服务实体"
+      }
+    ],
+    "roleset_name_trans": "担任调酒师"
+  }
 ]

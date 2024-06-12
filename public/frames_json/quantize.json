@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quantize.01",
-        "roleset_name": "quantize",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quantizer(s), agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing quantized, theme"
-            },
-            {
-                "n": "2",
-                "descr": "value/amount of quantization"
-            },
-            {
-                "n": "3",
-                "descr": "quantized into what, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quantize.01",
+    "roleset_name": "quantize",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quantizer(s), agent",
+        "descr_trans": "量化器、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing quantized, theme",
+        "descr_trans": "量化的事物，主题"
+      },
+      {
+        "n": "2",
+        "descr": "value/amount of quantization",
+        "descr_trans": "量化值/量"
+      },
+      {
+        "n": "3",
+        "descr": "quantized into what, destination",
+        "descr_trans": "量化为什么，目的地"
+      }
+    ],
+    "roleset_name_trans": "量化"
+  }
 ]

@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zap.01",
-        "roleset_name": "destroy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer"
-            },
-            {
-                "n": "1",
-                "descr": "destroyed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zap.01",
+    "roleset_name": "destroy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer",
+        "descr_trans": "驱逐舰"
+      },
+      {
+        "n": "1",
+        "descr": "destroyed",
+        "descr_trans": "被摧毁"
+      }
+    ],
+    "roleset_name_trans": "破坏"
+  }
 ]

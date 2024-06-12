@@ -1,85 +1,102 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ring.01",
-        "roleset_name": "to (cause) to make a sound of a bell, ring a bell, emitting a high clear noise (like a bell)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of ringing"
-            },
-            {
-                "n": "1",
-                "descr": "bell"
-            },
-            {
-                "n": "2",
-                "descr": "what the ringing signals/summons"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ring.02",
-        "roleset_name": "to surround",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "surrounding entity"
-            },
-            {
-                "n": "2",
-                "descr": "surrounded entity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "ring.04",
-        "roleset_name": "telephone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caller"
-            },
-            {
-                "n": "1",
-                "descr": "called"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "ring.05",
-        "roleset_name": "ring true (or ring of some other attribute), sounds like",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing with truth"
-            },
-            {
-                "n": "2",
-                "descr": "'true' or other attribute"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "ring_up.03",
-        "roleset_name": "to record",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recorder"
-            },
-            {
-                "n": "1",
-                "descr": "entity rung up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ring.01",
+    "roleset_name": "to (cause) to make a sound of a bell, ring a bell, emitting a high clear noise (like a bell)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of ringing",
+        "descr_trans": "响铃的原因"
+      },
+      {
+        "n": "1",
+        "descr": "bell",
+        "descr_trans": "钟"
+      },
+      {
+        "n": "2",
+        "descr": "what the ringing signals/summons",
+        "descr_trans": "铃声代表什么/召唤什么"
+      }
+    ],
+    "roleset_name_trans": "to（导致）发出铃声，敲响铃声，发出高亢清晰的噪音（像铃声一样）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ring.02",
+    "roleset_name": "to surround",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "surrounding entity",
+        "descr_trans": "周围实体"
+      },
+      {
+        "n": "2",
+        "descr": "surrounded entity",
+        "descr_trans": "被包围的实体"
+      }
+    ],
+    "roleset_name_trans": "包围"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "ring.04",
+    "roleset_name": "telephone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caller",
+        "descr_trans": "呼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "called",
+        "descr_trans": "被称为"
+      }
+    ],
+    "roleset_name_trans": "电话"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "ring.05",
+    "roleset_name": "ring true (or ring of some other attribute), sounds like",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing with truth",
+        "descr_trans": "有真理的事"
+      },
+      {
+        "n": "2",
+        "descr": "'true' or other attribute",
+        "descr_trans": "&#39;true&#39; 或其他属性"
+      }
+    ],
+    "roleset_name_trans": "真实的（或其他一些属性的环），听起来像"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "ring_up.03",
+    "roleset_name": "to record",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recorder",
+        "descr_trans": "录音机"
+      },
+      {
+        "n": "1",
+        "descr": "entity rung up",
+        "descr_trans": "实体启动"
+      }
+    ],
+    "roleset_name_trans": "记录"
+  }
 ]

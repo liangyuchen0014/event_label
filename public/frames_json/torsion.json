@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "torsion.01",
-        "roleset_name": "twisting or wrenching of an entity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Entity twisted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "torsion.01",
+    "roleset_name": "twisting or wrenching of an entity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Entity twisted",
+        "descr_trans": "实体扭曲"
+      }
+    ],
+    "roleset_name_trans": "实体的扭曲或扭转"
+  }
 ]

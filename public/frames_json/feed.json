@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "feed.01",
-        "roleset_name": "cause to eat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            },
-            {
-                "n": "2",
-                "descr": "eater"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "feed.02",
-        "roleset_name": "increase",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of increase"
-            },
-            {
-                "n": "1",
-                "descr": "thing increasing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "fed_up.03",
-        "roleset_name": "fed up: be(come) exasperated",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "fed up entity, experiencer"
-            },
-            {
-                "n": "2",
-                "descr": "causer of fed-up-ed-ness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "feed.01",
+    "roleset_name": "cause to eat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      },
+      {
+        "n": "2",
+        "descr": "eater",
+        "descr_trans": "食者"
+      }
+    ],
+    "roleset_name_trans": "导致吃东西"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "feed.02",
+    "roleset_name": "increase",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of increase",
+        "descr_trans": "增加原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing increasing",
+        "descr_trans": "事情增加"
+      }
+    ],
+    "roleset_name_trans": "增加"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "fed_up.03",
+    "roleset_name": "fed up: be(come) exasperated",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "fed up entity, experiencer",
+        "descr_trans": "受够了的实体，体验者"
+      },
+      {
+        "n": "2",
+        "descr": "causer of fed-up-ed-ness",
+        "descr_trans": "厌烦的原因"
+      }
+    ],
+    "roleset_name_trans": "厌倦了：被（来）激怒了"
+  }
 ]

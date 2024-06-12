@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unnerve.01",
-        "roleset_name": "cause to be nervous",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "patient, entity become nervous"
-            },
-            {
-                "n": "2",
-                "descr": "instrument or manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unnerve.01",
+    "roleset_name": "cause to be nervous",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "patient, entity become nervous",
+        "descr_trans": "病人、实体变得紧张"
+      },
+      {
+        "n": "2",
+        "descr": "instrument or manner",
+        "descr_trans": "仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "导致紧张"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "feedback.01",
-        "roleset_name": "provide a responce",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "replier, conveyer of information"
-            },
-            {
-                "n": "1",
-                "descr": "topic, subject feedback provided for"
-            },
-            {
-                "n": "2",
-                "descr": "recipient, entity receiving information"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "feedback.01",
+    "roleset_name": "provide a responce",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "replier, conveyer of information",
+        "descr_trans": "答复者，信息传递者"
+      },
+      {
+        "n": "1",
+        "descr": "topic, subject feedback provided for",
+        "descr_trans": "主题、提供的主题反馈"
+      },
+      {
+        "n": "2",
+        "descr": "recipient, entity receiving information",
+        "descr_trans": "接收者，接收信息的实体"
+      }
+    ],
+    "roleset_name_trans": "提供答复"
+  }
 ]

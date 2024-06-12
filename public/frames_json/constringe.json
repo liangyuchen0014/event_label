@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "constringe.01",
-        "roleset_name": "constrict, make narrower",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming narrower"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount narrowed by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "constringe.01",
+    "roleset_name": "constrict, make narrower",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming narrower",
+        "descr_trans": "事物变得更窄"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount narrowed by",
+        "descr_trans": "EXT，金额缩小"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "收缩，使更窄"
+  }
 ]

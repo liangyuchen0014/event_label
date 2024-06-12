@@ -1,157 +1,189 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "catch.01",
-        "roleset_name": "get",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "receiver"
-            },
-            {
-                "n": "1",
-                "descr": "thing gotten"
-            },
-            {
-                "n": "2",
-                "descr": "giver"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "catch.02",
-        "roleset_name": "come upon, find",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "events, usually"
-            },
-            {
-                "n": "1",
-                "descr": "entity"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "catch.03",
-        "roleset_name": "trap",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trapper"
-            },
-            {
-                "n": "1",
-                "descr": "trapped"
-            },
-            {
-                "n": "2",
-                "descr": "trap, either place or instrument"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "catch.08",
-        "roleset_name": "condition/drawback",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the catch"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which there is a condition/drawback"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "catch.22",
-        "roleset_name": "a dilemma of mutual impossibility",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity facing a dilemma"
-            },
-            {
-                "n": "2",
-                "descr": "domain in which there is a dilemma"
-            },
-            {
-                "n": "3",
-                "descr": "the details of the dilemma"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "catch_up.04",
-        "roleset_name": "come even with, to catch up",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "goal"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "catch_up.07",
-        "roleset_name": "cause something to become entangled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity becomeing caught"
-            },
-            {
-                "n": "2",
-                "descr": "trap"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "catch_on.05",
-        "roleset_name": "catch on: become popular, becoming popular",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing becoming popular"
-            },
-            {
-                "n": "2",
-                "descr": "popular with whom?"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "catch_on.06",
-        "roleset_name": "catch on: become aware of, becoming aware of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "aware entity"
-            },
-            {
-                "n": "1",
-                "descr": "aware of what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "catch.01",
+    "roleset_name": "get",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "receiver",
+        "descr_trans": "接收者"
+      },
+      {
+        "n": "1",
+        "descr": "thing gotten",
+        "descr_trans": "事情得到了"
+      },
+      {
+        "n": "2",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      }
+    ],
+    "roleset_name_trans": "得到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "catch.02",
+    "roleset_name": "come upon, find",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "events, usually",
+        "descr_trans": "事件，通常"
+      },
+      {
+        "n": "1",
+        "descr": "entity",
+        "descr_trans": "实体"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "来到，发现"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "catch.03",
+    "roleset_name": "trap",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trapper",
+        "descr_trans": "捕手"
+      },
+      {
+        "n": "1",
+        "descr": "trapped",
+        "descr_trans": "被困"
+      },
+      {
+        "n": "2",
+        "descr": "trap, either place or instrument",
+        "descr_trans": "陷阱，无论是地点还是仪器"
+      }
+    ],
+    "roleset_name_trans": "陷阱"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "catch.08",
+    "roleset_name": "condition/drawback",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the catch",
+        "descr_trans": "捕获物"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which there is a condition/drawback",
+        "descr_trans": "存在条件/缺陷的领域"
+      }
+    ],
+    "roleset_name_trans": "条件/缺点"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "catch.22",
+    "roleset_name": "a dilemma of mutual impossibility",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity facing a dilemma",
+        "descr_trans": "实体面临困境"
+      },
+      {
+        "n": "2",
+        "descr": "domain in which there is a dilemma",
+        "descr_trans": "存在困境的领域"
+      },
+      {
+        "n": "3",
+        "descr": "the details of the dilemma",
+        "descr_trans": "困境的细节"
+      }
+    ],
+    "roleset_name_trans": "互不相容的困境"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "catch_up.04",
+    "roleset_name": "come even with, to catch up",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "goal",
+        "descr_trans": "目标"
+      }
+    ],
+    "roleset_name_trans": "赶上，赶上"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "catch_up.07",
+    "roleset_name": "cause something to become entangled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becomeing caught",
+        "descr_trans": "实体被抓住"
+      },
+      {
+        "n": "2",
+        "descr": "trap",
+        "descr_trans": "陷阱"
+      }
+    ],
+    "roleset_name_trans": "使某事纠缠"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "catch_on.05",
+    "roleset_name": "catch on: become popular, becoming popular",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing becoming popular",
+        "descr_trans": "事物变得流行"
+      },
+      {
+        "n": "2",
+        "descr": "popular with whom?",
+        "descr_trans": "受谁欢迎？"
+      }
+    ],
+    "roleset_name_trans": "catch on: 流行起来，流行起来"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "catch_on.06",
+    "roleset_name": "catch on: become aware of, becoming aware of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "aware entity",
+        "descr_trans": "意识实体"
+      },
+      {
+        "n": "1",
+        "descr": "aware of what?",
+        "descr_trans": "知道什么？"
+      }
+    ],
+    "roleset_name_trans": "catch on: 意识到，意识到"
+  }
 ]

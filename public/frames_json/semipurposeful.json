@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "semipurposeful.01",
-        "roleset_name": "moving partially intentionally",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of motion"
-            },
-            {
-                "n": "1",
-                "descr": "the motion"
-            },
-            {
-                "n": "2",
-                "descr": "body part moved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "semipurposeful.01",
+    "roleset_name": "moving partially intentionally",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of motion",
+        "descr_trans": "运动代理"
+      },
+      {
+        "n": "1",
+        "descr": "the motion",
+        "descr_trans": "议案"
+      },
+      {
+        "n": "2",
+        "descr": "body part moved",
+        "descr_trans": "身体部位移动了"
+      }
+    ],
+    "roleset_name_trans": "部分有意移动"
+  }
 ]

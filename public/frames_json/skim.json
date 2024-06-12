@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "skim.01",
-        "roleset_name": "move lightly over the surface of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing in motion"
-            },
-            {
-                "n": "1",
-                "descr": "surface of what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "skim.02",
-        "roleset_name": "remove from the very top",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed, skimmed"
-            },
-            {
-                "n": "2",
-                "descr": "top of what, source"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "skim_off.03",
-        "roleset_name": "remove from the very top, phrasal",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, remover"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed, skimmed"
-            },
-            {
-                "n": "2",
-                "descr": "top of what, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "skim.01",
+    "roleset_name": "move lightly over the surface of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing in motion",
+        "descr_trans": "运动中的事物"
+      },
+      {
+        "n": "1",
+        "descr": "surface of what",
+        "descr_trans": "什么的表面"
+      }
+    ],
+    "roleset_name_trans": "轻轻地在表面移动"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "skim.02",
+    "roleset_name": "remove from the very top",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, remover",
+        "descr_trans": "剂、去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed, skimmed",
+        "descr_trans": "东西被移除，略过"
+      },
+      {
+        "n": "2",
+        "descr": "top of what, source",
+        "descr_trans": "顶部是什么，来源"
+      }
+    ],
+    "roleset_name_trans": "从最上面删除"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "skim_off.03",
+    "roleset_name": "remove from the very top, phrasal",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, remover",
+        "descr_trans": "剂、去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed, skimmed",
+        "descr_trans": "东西被移除，略过"
+      },
+      {
+        "n": "2",
+        "descr": "top of what, source",
+        "descr_trans": "顶部是什么，来源"
+      }
+    ],
+    "roleset_name_trans": "从最顶部删除短语"
+  }
 ]

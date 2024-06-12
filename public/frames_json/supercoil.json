@@ -1,37 +1,45 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "supercoil.01",
-        "roleset_name": "topographical twisting behavior of DNA helixes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of supercoiling"
-            },
-            {
-                "n": "1",
-                "descr": "DNA"
-            },
-            {
-                "n": "2",
-                "descr": "direction of twist (positive/negative, over/underwound)"
-            },
-            {
-                "n": "3",
-                "descr": "twist measurement, Tw (number of twists)"
-            },
-            {
-                "n": "4",
-                "descr": "writhe configuration (toroid/plectonemic, figure 8)"
-            },
-            {
-                "n": "5",
-                "descr": "writhe measurement, Wr"
-            },
-            {
-                "n": "6",
-                "descr": "degree of supercoiling (This is a specific measurment, \u03c3=\u0394Lk/Lk\u02f3 where Lk is the sum of Wr and Tw)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "supercoil.01",
+    "roleset_name": "topographical twisting behavior of DNA helixes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of supercoiling",
+        "descr_trans": "超螺旋产生的原因"
+      },
+      {
+        "n": "1",
+        "descr": "DNA",
+        "descr_trans": "脱氧核糖核酸"
+      },
+      {
+        "n": "2",
+        "descr": "direction of twist (positive/negative, over/underwound)",
+        "descr_trans": "扭转方向（正/负，上绕/下绕）"
+      },
+      {
+        "n": "3",
+        "descr": "twist measurement, Tw (number of twists)",
+        "descr_trans": "捻度测量，Tw（捻度）"
+      },
+      {
+        "n": "4",
+        "descr": "writhe configuration (toroid/plectonemic, figure 8)",
+        "descr_trans": "扭动配置（环形/电子线圈，图 8）"
+      },
+      {
+        "n": "5",
+        "descr": "writhe measurement, Wr",
+        "descr_trans": "扭动测量值，Wr"
+      },
+      {
+        "n": "6",
+        "descr": "degree of supercoiling (This is a specific measurment, σ=ΔLk/Lk˳ where Lk is the sum of Wr and Tw)",
+        "descr_trans": "超螺旋程度（这是一个具体的测量值，σ=ΔLk/Lk˳，其中 Lk 是 Wr 和 Tw 之和）"
+      }
+    ],
+    "roleset_name_trans": "DNA螺旋的拓扑扭曲行为"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "defile.01",
-        "roleset_name": "corrupt or taint",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause/source of defilement"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming defiled"
-            },
-            {
-                "n": "2",
-                "descr": "instrument if separate from ARG 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "defile.01",
+    "roleset_name": "corrupt or taint",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause/source of defilement",
+        "descr_trans": "烦恼的原因/来源"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming defiled",
+        "descr_trans": "事物被玷污"
+      },
+      {
+        "n": "2",
+        "descr": "instrument if separate from ARG 0",
+        "descr_trans": "仪器（如果与 ARG 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "腐败或污点"
+  }
 ]

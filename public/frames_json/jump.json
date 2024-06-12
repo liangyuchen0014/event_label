@@ -1,183 +1,220 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "jump.01",
-        "roleset_name": "stock prices, increase",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing jumping"
-            },
-            {
-                "n": "2",
-                "descr": "EXT, amount jumped by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point or end state of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "jump.02",
-        "roleset_name": "be excited for an opportunity, getting there first",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper"
-            },
-            {
-                "n": "1",
-                "descr": "opportunity"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "jump.03",
-        "roleset_name": "physically or metaphorically leap, physical motion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion, if in addition to arg0"
-            },
-            {
-                "n": "2",
-                "descr": "thing jumped over"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "jump.06",
-        "roleset_name": "to escape, bail out",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity escaping"
-            },
-            {
-                "n": "1",
-                "descr": "entity escaped from (e.g. bail/trail); or idiomatically 'jump ship'"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "jump.08",
-        "roleset_name": "attack, gangsta style",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thug"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "jump_in.04",
-        "roleset_name": "opportunity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper"
-            },
-            {
-                "n": "1",
-                "descr": "opportunity"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "jump_up.05",
-        "roleset_name": "rise",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper"
-            }
-        ]
-    },
-    {
-        "uid": 8,
-        "roleset_id": "jump_on_bandwagon.09",
-        "roleset_name": "join an activity or group because of its popularity",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "person jumping on the bandwagon"
-            },
-            {
-                "n": "1",
-                "descr": "popular thing joined"
-            },
-            {
-                "n": "2",
-                "descr": "action done which gets one on the bandwagon"
-            }
-        ]
-    },
-    {
-        "uid": 9,
-        "roleset_id": "jump_gun.10",
-        "roleset_name": "act before the proper time",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "jumper, one acting before the right time"
-            },
-            {
-                "n": "1",
-                "descr": "action done before the signal"
-            },
-            {
-                "n": "2",
-                "descr": "the should-have-been right time"
-            }
-        ]
-    },
-    {
-        "uid": 10,
-        "roleset_id": "jump_shark.11",
-        "roleset_name": "do an absurd act that signals the decline in quality or sanity of a system or show",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "show or system doing the absurd act"
-            },
-            {
-                "n": "1",
-                "descr": "action revealing that arg0 has jumped the shark"
-            }
-        ]
-    },
-    {
-        "uid": 11,
-        "roleset_id": "long_jump.13",
-        "roleset_name": "sport in which one jumps as far as possible across a sand pit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "long-jumper"
-            },
-            {
-                "n": "1",
-                "descr": "measurement/score achieved"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "jump.01",
+    "roleset_name": "stock prices, increase",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing jumping",
+        "descr_trans": "东西跳跃"
+      },
+      {
+        "n": "2",
+        "descr": "EXT, amount jumped by",
+        "descr_trans": "EXT，金额猛增"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point or end state of arg1",
+        "descr_trans": "arg1 的终点或结束状态"
+      }
+    ],
+    "roleset_name_trans": "股票价格，上涨"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "jump.02",
+    "roleset_name": "be excited for an opportunity, getting there first",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper",
+        "descr_trans": "毛衣"
+      },
+      {
+        "n": "1",
+        "descr": "opportunity",
+        "descr_trans": "机会"
+      }
+    ],
+    "roleset_name_trans": "对机会感到兴奋，首先到达那里"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "jump.03",
+    "roleset_name": "physically or metaphorically leap, physical motion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of motion",
+        "descr_trans": "运动代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion, if in addition to arg0",
+        "descr_trans": "运动中的实体，如果除了 arg0 之外"
+      },
+      {
+        "n": "2",
+        "descr": "thing jumped over",
+        "descr_trans": "东西跳过了"
+      }
+    ],
+    "roleset_name_trans": "物理或隐喻的跳跃、物理运动"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "jump.06",
+    "roleset_name": "to escape, bail out",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity escaping",
+        "descr_trans": "实体逃逸"
+      },
+      {
+        "n": "1",
+        "descr": "entity escaped from (e.g. bail/trail); or idiomatically 'jump ship'",
+        "descr_trans": "实体逃脱（例如保释/跟踪）；或惯用的“跳船”"
+      }
+    ],
+    "roleset_name_trans": "逃脱，保释"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "jump.08",
+    "roleset_name": "attack, gangsta style",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thug",
+        "descr_trans": "暴徒"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      }
+    ],
+    "roleset_name_trans": "攻击，黑帮风格"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "jump_in.04",
+    "roleset_name": "opportunity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper",
+        "descr_trans": "毛衣"
+      },
+      {
+        "n": "1",
+        "descr": "opportunity",
+        "descr_trans": "机会"
+      }
+    ],
+    "roleset_name_trans": "机会"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "jump_up.05",
+    "roleset_name": "rise",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper",
+        "descr_trans": "毛衣"
+      }
+    ],
+    "roleset_name_trans": "上升"
+  },
+  {
+    "uid": 8,
+    "roleset_id": "jump_on_bandwagon.09",
+    "roleset_name": "join an activity or group because of its popularity",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "person jumping on the bandwagon",
+        "descr_trans": "赶潮流的人"
+      },
+      {
+        "n": "1",
+        "descr": "popular thing joined",
+        "descr_trans": "热门事物加入"
+      },
+      {
+        "n": "2",
+        "descr": "action done which gets one on the bandwagon",
+        "descr_trans": "采取行动，让人们跟上潮流"
+      }
+    ],
+    "roleset_name_trans": "由于其受欢迎程度而加入活动或团体"
+  },
+  {
+    "uid": 9,
+    "roleset_id": "jump_gun.10",
+    "roleset_name": "act before the proper time",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "jumper, one acting before the right time",
+        "descr_trans": "跳线者，在正确的时间之前行动的人"
+      },
+      {
+        "n": "1",
+        "descr": "action done before the signal",
+        "descr_trans": "信号发出前完成的动作"
+      },
+      {
+        "n": "2",
+        "descr": "the should-have-been right time",
+        "descr_trans": "本来应该是正确的时间"
+      }
+    ],
+    "roleset_name_trans": "在适当的时间之前采取行动"
+  },
+  {
+    "uid": 10,
+    "roleset_id": "jump_shark.11",
+    "roleset_name": "do an absurd act that signals the decline in quality or sanity of a system or show",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "show or system doing the absurd act",
+        "descr_trans": "表演或系统做出荒谬的行为"
+      },
+      {
+        "n": "1",
+        "descr": "action revealing that arg0 has jumped the shark",
+        "descr_trans": "显示 arg0 已跳过鲨鱼的操作"
+      }
+    ],
+    "roleset_name_trans": "做出荒唐的行为，表明系统或节目的质量或理智下降"
+  },
+  {
+    "uid": 11,
+    "roleset_id": "long_jump.13",
+    "roleset_name": "sport in which one jumps as far as possible across a sand pit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "long-jumper",
+        "descr_trans": "跳远运动员"
+      },
+      {
+        "n": "1",
+        "descr": "measurement/score achieved",
+        "descr_trans": "测量/获得的分数"
+      }
+    ],
+    "roleset_name_trans": "一项在沙坑中跳得尽可能远的运动"
+  }
 ]

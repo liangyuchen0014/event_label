@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "coextrude.01",
-        "roleset_name": "shape by forcing through a die, press or thrust out with another",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Machine, cause of coextrusion"
-            },
-            {
-                "n": "1",
-                "descr": "Entity shaped, thrusted out"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "coextrude.01",
+    "roleset_name": "shape by forcing through a die, press or thrust out with another",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Machine, cause of coextrusion",
+        "descr_trans": "机器、共挤的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Entity shaped, thrusted out",
+        "descr_trans": "实体形状，推出"
+      }
+    ],
+    "roleset_name_trans": "通过强行通过模具来成型，用另一个模具压出或推出"
+  }
 ]

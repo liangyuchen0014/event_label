@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "separate.01",
-        "roleset_name": "(cause to) become separate, separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing separation"
-            },
-            {
-                "n": "1",
-                "descr": "thing being divided"
-            },
-            {
-                "n": "2",
-                "descr": "source, separated from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "separate.02",
-        "roleset_name": "not together",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing separation"
-            },
-            {
-                "n": "1",
-                "descr": "thing being divided"
-            },
-            {
-                "n": "2",
-                "descr": "source, separated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "separate.01",
+    "roleset_name": "(cause to) become separate, separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing separation",
+        "descr_trans": "导致分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being divided",
+        "descr_trans": "事物被分割"
+      },
+      {
+        "n": "2",
+        "descr": "source, separated from",
+        "descr_trans": "来源，分离"
+      }
+    ],
+    "roleset_name_trans": "（导致）分离，分离"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "separate.02",
+    "roleset_name": "not together",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing separation",
+        "descr_trans": "导致分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being divided",
+        "descr_trans": "事物被分割"
+      },
+      {
+        "n": "2",
+        "descr": "source, separated from",
+        "descr_trans": "来源，分离"
+      }
+    ],
+    "roleset_name_trans": "不在一起"
+  }
 ]

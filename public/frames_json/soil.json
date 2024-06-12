@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "soil.01",
-        "roleset_name": "to make dirty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity soiled"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "soil.01",
+    "roleset_name": "to make dirty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity soiled",
+        "descr_trans": "实体被弄脏"
+      }
+    ],
+    "roleset_name_trans": "弄脏"
+  }
 ]

@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "epilate.01",
-        "roleset_name": "removal/loss of hair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "hair"
-            },
-            {
-                "n": "2",
-                "descr": "surface freed of hair"
-            },
-            {
-                "n": "3",
-                "descr": "hair-removal/loss method"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "epilate.01",
+    "roleset_name": "removal/loss of hair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "hair",
+        "descr_trans": "头发"
+      },
+      {
+        "n": "2",
+        "descr": "surface freed of hair",
+        "descr_trans": "表面无毛发"
+      },
+      {
+        "n": "3",
+        "descr": "hair-removal/loss method",
+        "descr_trans": "脱毛/脱毛方法"
+      }
+    ],
+    "roleset_name_trans": "脱毛/脱发"
+  }
 ]

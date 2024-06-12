@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shrug.01",
-        "roleset_name": "move the shoulders",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shrugger"
-            },
-            {
-                "n": "1",
-                "descr": "thing shrugged (defaults to shoulders)"
-            },
-            {
-                "n": "2",
-                "descr": "shrugged because of"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shrug.03",
-        "roleset_name": "manner of speaking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "listener"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shrug_off.02",
-        "roleset_name": "ignore, let go of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ignorer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing shrugged off"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shrug.01",
+    "roleset_name": "move the shoulders",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shrugger",
+        "descr_trans": "耸耸肩"
+      },
+      {
+        "n": "1",
+        "descr": "thing shrugged (defaults to shoulders)",
+        "descr_trans": "耸肩的东西（默认为肩膀）"
+      },
+      {
+        "n": "2",
+        "descr": "shrugged because of",
+        "descr_trans": "耸耸肩，因为"
+      }
+    ],
+    "roleset_name_trans": "移动肩膀"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shrug.03",
+    "roleset_name": "manner of speaking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "listener",
+        "descr_trans": "听众"
+      }
+    ],
+    "roleset_name_trans": "说话方式"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shrug_off.02",
+    "roleset_name": "ignore, let go of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ignorer, agent",
+        "descr_trans": "忽略，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing shrugged off",
+        "descr_trans": "事情耸耸肩"
+      }
+    ],
+    "roleset_name_trans": "忽略，放开"
+  }
 ]

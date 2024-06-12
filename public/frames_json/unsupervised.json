@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unsupervised.01",
-        "roleset_name": "not watched over, chaperoned",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "potential supervisor"
-            },
-            {
-                "n": "1",
-                "descr": "entity not supervised"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unsupervised.01",
+    "roleset_name": "not watched over, chaperoned",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "potential supervisor",
+        "descr_trans": "潜在的主管"
+      },
+      {
+        "n": "1",
+        "descr": "entity not supervised",
+        "descr_trans": "不受监管的实体"
+      }
+    ],
+    "roleset_name_trans": "没有被看管、陪伴"
+  }
 ]

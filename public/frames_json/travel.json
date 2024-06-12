@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "travel.01",
-        "roleset_name": "travel, voyaging",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "traveller"
-            },
-            {
-                "n": "1",
-                "descr": "location or path"
-            },
-            {
-                "n": "2",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "travel.01",
+    "roleset_name": "travel, voyaging",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "traveller",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "location or path",
+        "descr_trans": "位置或路径"
+      },
+      {
+        "n": "2",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "旅行、航海"
+  }
 ]

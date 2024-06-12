@@ -1,120 +1,145 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "treat.01",
-        "roleset_name": "act towards an entity in a certain manner, assume that something has a particular attribute",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assumer of attribute"
-            },
-            {
-                "n": "1",
-                "descr": "entity treated"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "treat.02",
-        "roleset_name": "buy for someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "buyer, treater"
-            },
-            {
-                "n": "1",
-                "descr": "treat"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "treat.03",
-        "roleset_name": "medical treatment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor (etc)"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness or injury"
-            },
-            {
-                "n": "3",
-                "descr": "instrument"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "treat.04",
-        "roleset_name": "affect a change in something by applying a substance",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of change, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing changing"
-            },
-            {
-                "n": "2",
-                "descr": "substance, treatment"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "treat.05",
-        "roleset_name": "handle (esp scholarly)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "author"
-            },
-            {
-                "n": "1",
-                "descr": "topic, subject"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "treatable.06",
-        "roleset_name": "able to be treated, medically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "doctor"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "illness or injury"
-            },
-            {
-                "n": "3",
-                "descr": "instrument (treatment)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "treat.01",
+    "roleset_name": "act towards an entity in a certain manner, assume that something has a particular attribute",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assumer of attribute",
+        "descr_trans": "属性的承担者"
+      },
+      {
+        "n": "1",
+        "descr": "entity treated",
+        "descr_trans": "实体被处理"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "以某种方式对实体采取行动，假设某物具有特定属性"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "treat.02",
+    "roleset_name": "buy for someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "buyer, treater",
+        "descr_trans": "买家、处理者"
+      },
+      {
+        "n": "1",
+        "descr": "treat",
+        "descr_trans": "对待"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "给某人买"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "treat.03",
+    "roleset_name": "medical treatment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor (etc)",
+        "descr_trans": "医生（等）"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness or injury",
+        "descr_trans": "生病或受伤"
+      },
+      {
+        "n": "3",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "药物治疗"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "treat.04",
+    "roleset_name": "affect a change in something by applying a substance",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of change, agent",
+        "descr_trans": "变更原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing changing",
+        "descr_trans": "事情正在改变"
+      },
+      {
+        "n": "2",
+        "descr": "substance, treatment",
+        "descr_trans": "物质、治疗"
+      }
+    ],
+    "roleset_name_trans": "通过应用某种物质来影响某事物的变化"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "treat.05",
+    "roleset_name": "handle (esp scholarly)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "author",
+        "descr_trans": "作者"
+      },
+      {
+        "n": "1",
+        "descr": "topic, subject",
+        "descr_trans": "主题，主题"
+      }
+    ],
+    "roleset_name_trans": "处理（尤其是学术上的）"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "treatable.06",
+    "roleset_name": "able to be treated, medically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "illness or injury",
+        "descr_trans": "生病或受伤"
+      },
+      {
+        "n": "3",
+        "descr": "instrument (treatment)",
+        "descr_trans": "仪器（治疗）"
+      }
+    ],
+    "roleset_name_trans": "能够接受治疗的、医学上的"
+  }
 ]

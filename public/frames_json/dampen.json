@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dampen.01",
-        "roleset_name": "(cause to) become slightly wet",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of wetness, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming damp"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dampen.02",
-        "roleset_name": "(cause to) stop vibrating, restrain, lessen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of non-vibration, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing vibrating"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "damp.03",
-        "roleset_name": "be slightly wet",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "location that is slightly wet"
-            },
-            {
-                "n": "2",
-                "descr": "liquid"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "damp.04",
-        "roleset_name": "to restrain or weaken",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "restrainer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing damped"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dampen.01",
+    "roleset_name": "(cause to) become slightly wet",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of wetness, agent",
+        "descr_trans": "潮湿的原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming damp",
+        "descr_trans": "东西变湿"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "（导致）变得有点湿"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dampen.02",
+    "roleset_name": "(cause to) stop vibrating, restrain, lessen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of non-vibration, agent",
+        "descr_trans": "不振动的原因、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing vibrating",
+        "descr_trans": "振动的东西"
+      }
+    ],
+    "roleset_name_trans": "（导致）停止振动、抑制、减少"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "damp.03",
+    "roleset_name": "be slightly wet",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "location that is slightly wet",
+        "descr_trans": "稍微潮湿的地方"
+      },
+      {
+        "n": "2",
+        "descr": "liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "稍微湿一点"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "damp.04",
+    "roleset_name": "to restrain or weaken",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "restrainer, agent",
+        "descr_trans": "抑制剂, 代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing damped",
+        "descr_trans": "东西受潮"
+      }
+    ],
+    "roleset_name_trans": "抑制或削弱"
+  }
 ]

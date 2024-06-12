@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "smother.01",
-        "roleset_name": "make it hard to breathe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of difficult breathing"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming smothered"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent is also present"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "smother.01",
+    "roleset_name": "make it hard to breathe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of difficult breathing",
+        "descr_trans": "呼吸困难的原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming smothered",
+        "descr_trans": "东西变得窒息"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent is also present",
+        "descr_trans": "仪器（如果代理人也在场）"
+      }
+    ],
+    "roleset_name_trans": "使呼吸困难"
+  }
 ]

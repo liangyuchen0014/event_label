@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tootle.01",
-        "roleset_name": "tootle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tootler, agent (transitive subject)"
-            },
-            {
-                "n": "1",
-                "descr": "thing emitting noise (intransitive subject, transitive object)"
-            },
-            {
-                "n": "2",
-                "descr": "location of tootling"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tootle.01",
+    "roleset_name": "tootle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tootler, agent (transitive subject)",
+        "descr_trans": "tootler，代理人（及物主语）"
+      },
+      {
+        "n": "1",
+        "descr": "thing emitting noise (intransitive subject, transitive object)",
+        "descr_trans": "发出噪音的事物（不及物主语、及物宾语）"
+      },
+      {
+        "n": "2",
+        "descr": "location of tootling",
+        "descr_trans": "工具安装位置"
+      }
+    ],
+    "roleset_name_trans": "废话"
+  }
 ]

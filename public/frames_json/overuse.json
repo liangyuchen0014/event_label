@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overuse.01",
-        "roleset_name": "use too much",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user"
-            },
-            {
-                "n": "1",
-                "descr": "thing used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overuse.01",
+    "roleset_name": "use too much",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "thing used",
+        "descr_trans": "使用的东西"
+      }
+    ],
+    "roleset_name_trans": "使用太多"
+  }
 ]

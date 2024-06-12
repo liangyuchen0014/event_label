@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vamp_up.01",
-        "roleset_name": "spruce up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being spruced up"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "vamping.02",
-        "roleset_name": "seduction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "vamp"
-            },
-            {
-                "n": "1",
-                "descr": "seduced entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vamp_up.01",
+    "roleset_name": "spruce up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being spruced up",
+        "descr_trans": "正在整理的东西"
+      }
+    ],
+    "roleset_name_trans": "打扮一下"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "vamping.02",
+    "roleset_name": "seduction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "vamp",
+        "descr_trans": "鞋面"
+      },
+      {
+        "n": "1",
+        "descr": "seduced entity",
+        "descr_trans": "被诱惑的实体"
+      }
+    ],
+    "roleset_name_trans": "诱惑"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quarantine.01",
-        "roleset_name": "quarantine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "quarantiner, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) quarrantined, patient"
-            },
-            {
-                "n": "2",
-                "descr": "quarrantined from whom"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quarantine.01",
+    "roleset_name": "quarantine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "quarantiner, agent",
+        "descr_trans": "检疫员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) quarrantined, patient",
+        "descr_trans": "被隔离的东西，病人"
+      },
+      {
+        "n": "2",
+        "descr": "quarrantined from whom",
+        "descr_trans": "与谁隔离"
+      }
+    ],
+    "roleset_name_trans": "隔离"
+  }
 ]

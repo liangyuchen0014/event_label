@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ford.01",
-        "roleset_name": "cross a river at a ford",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "barrier"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ford.01",
+    "roleset_name": "cross a river at a ford",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "barrier",
+        "descr_trans": "障碍"
+      }
+    ],
+    "roleset_name_trans": "在浅滩过河"
+  }
 ]

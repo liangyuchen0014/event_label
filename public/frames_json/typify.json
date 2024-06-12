@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "typify.01",
-        "roleset_name": "serve as an example of a class",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "example"
-            },
-            {
-                "n": "1",
-                "descr": "class"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "typical.02",
-        "roleset_name": "usual",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "usual thing"
-            },
-            {
-                "n": "2",
-                "descr": "entity arg1 is typical for/of"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "typify.01",
+    "roleset_name": "serve as an example of a class",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "example",
+        "descr_trans": "例子"
+      },
+      {
+        "n": "1",
+        "descr": "class",
+        "descr_trans": "班级"
+      }
+    ],
+    "roleset_name_trans": "作为一个类的例子"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "typical.02",
+    "roleset_name": "usual",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "usual thing",
+        "descr_trans": "平常的事"
+      },
+      {
+        "n": "2",
+        "descr": "entity arg1 is typical for/of",
+        "descr_trans": "实体 arg1 是典型的 for/of"
+      }
+    ],
+    "roleset_name_trans": "通常"
+  }
 ]

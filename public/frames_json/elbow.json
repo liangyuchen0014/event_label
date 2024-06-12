@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "elbow.01",
-        "roleset_name": "jostle with elbow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "elbower"
-            },
-            {
-                "n": "1",
-                "descr": "entity being elbowed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "elbow.01",
+    "roleset_name": "jostle with elbow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "elbower",
+        "descr_trans": "肘部"
+      },
+      {
+        "n": "1",
+        "descr": "entity being elbowed",
+        "descr_trans": "实体被肘击"
+      }
+    ],
+    "roleset_name_trans": "用肘部推挤"
+  }
 ]

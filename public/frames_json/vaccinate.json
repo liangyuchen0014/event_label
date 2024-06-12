@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "vaccinate.01",
-        "roleset_name": "treat with a vaccine to immunize against a disease, immunizing against a disease with a vaccine",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Vaccinator, Agent"
-            },
-            {
-                "n": "1",
-                "descr": "Vaccinated, patient"
-            },
-            {
-                "n": "2",
-                "descr": "Against what, disease"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "vaccinate.01",
+    "roleset_name": "treat with a vaccine to immunize against a disease, immunizing against a disease with a vaccine",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Vaccinator, Agent",
+        "descr_trans": "疫苗接种员、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "Vaccinated, patient",
+        "descr_trans": "已接种疫苗，有耐心"
+      },
+      {
+        "n": "2",
+        "descr": "Against what, disease",
+        "descr_trans": "针对什么，疾病"
+      }
+    ],
+    "roleset_name_trans": "用疫苗治疗以预防疾病，用疫苗预防疾病"
+  }
 ]

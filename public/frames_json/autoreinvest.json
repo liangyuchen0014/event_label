@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "autoreinvest.01",
-        "roleset_name": "put $ into an investment, again, automatically",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "investor"
-            },
-            {
-                "n": "1",
-                "descr": "invested"
-            },
-            {
-                "n": "2",
-                "descr": "invested in what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "autoreinvest.01",
+    "roleset_name": "put $ into an investment, again, automatically",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "investor",
+        "descr_trans": "投资者"
+      },
+      {
+        "n": "1",
+        "descr": "invested",
+        "descr_trans": "投资"
+      },
+      {
+        "n": "2",
+        "descr": "invested in what",
+        "descr_trans": "投资于什么"
+      }
+    ],
+    "roleset_name_trans": "再次自动将美元投入投资"
+  }
 ]

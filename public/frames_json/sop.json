@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sop.01",
-        "roleset_name": "give a conciliatory gift or bribe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "gift giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "recipient of gift"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sop.02",
-        "roleset_name": "cause to be drenched with liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming wet"
-            },
-            {
-                "n": "2",
-                "descr": "the liquid"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "sop.03",
-        "roleset_name": "absorb liquid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent"
-            },
-            {
-                "n": "1",
-                "descr": "liquid being absorbed"
-            },
-            {
-                "n": "2",
-                "descr": "absorbent material"
-            },
-            {
-                "n": "3",
-                "descr": "from where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sop.01",
+    "roleset_name": "give a conciliatory gift or bribe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "gift giver",
+        "descr_trans": "毒药给出"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "recipient of gift",
+        "descr_trans": "礼物接受者"
+      }
+    ],
+    "roleset_name_trans": "给予和解礼物或贿赂"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sop.02",
+    "roleset_name": "cause to be drenched with liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causal agent",
+        "descr_trans": "致病因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming wet",
+        "descr_trans": "东西变湿"
+      },
+      {
+        "n": "2",
+        "descr": "the liquid",
+        "descr_trans": "液体"
+      }
+    ],
+    "roleset_name_trans": "导致被液体浸湿"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "sop.03",
+    "roleset_name": "absorb liquid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "liquid being absorbed",
+        "descr_trans": "液体被吸收"
+      },
+      {
+        "n": "2",
+        "descr": "absorbent material",
+        "descr_trans": "吸收材料"
+      },
+      {
+        "n": "3",
+        "descr": "from where",
+        "descr_trans": "从哪里"
+      }
+    ],
+    "roleset_name_trans": "吸收液体"
+  }
 ]

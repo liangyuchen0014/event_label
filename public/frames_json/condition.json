@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "condition.01",
-        "roleset_name": "to make dependent on a condition",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of dependence, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity made dependent"
-            },
-            {
-                "n": "2",
-                "descr": "dependent on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "condition.02",
-        "roleset_name": "to accustom, to adapt",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of adaptation, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity adapted"
-            },
-            {
-                "n": "2",
-                "descr": "adapted to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "condition.01",
+    "roleset_name": "to make dependent on a condition",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of dependence, agent",
+        "descr_trans": "依赖性的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity made dependent",
+        "descr_trans": "实体依赖"
+      },
+      {
+        "n": "2",
+        "descr": "dependent on",
+        "descr_trans": "依赖于"
+      }
+    ],
+    "roleset_name_trans": "使依赖于某个条件"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "condition.02",
+    "roleset_name": "to accustom, to adapt",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of adaptation, agent",
+        "descr_trans": "适应的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity adapted",
+        "descr_trans": "实体改编"
+      },
+      {
+        "n": "2",
+        "descr": "adapted to",
+        "descr_trans": "适应"
+      }
+    ],
+    "roleset_name_trans": "习惯，适应"
+  }
 ]

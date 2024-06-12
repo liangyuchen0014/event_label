@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ridicule.01",
-        "roleset_name": "make fun of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ridiculer"
-            },
-            {
-                "n": "1",
-                "descr": "ridiculous thing"
-            },
-            {
-                "n": "2",
-                "descr": "cause of ridiculosity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ridiculous.02",
-        "roleset_name": "silly, preposterous",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "ridiculous entity"
-            },
-            {
-                "n": "2",
-                "descr": "for what reason"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ridicule.01",
+    "roleset_name": "make fun of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ridiculer",
+        "descr_trans": "嘲笑者"
+      },
+      {
+        "n": "1",
+        "descr": "ridiculous thing",
+        "descr_trans": "可笑的事情"
+      },
+      {
+        "n": "2",
+        "descr": "cause of ridiculosity",
+        "descr_trans": "可笑的原因"
+      }
+    ],
+    "roleset_name_trans": "开玩笑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ridiculous.02",
+    "roleset_name": "silly, preposterous",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "ridiculous entity",
+        "descr_trans": "可笑的实体"
+      },
+      {
+        "n": "2",
+        "descr": "for what reason",
+        "descr_trans": "是什么原因"
+      }
+    ],
+    "roleset_name_trans": "愚蠢的，荒谬的"
+  }
 ]

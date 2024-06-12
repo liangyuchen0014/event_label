@@ -1,119 +1,143 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stop.01",
-        "roleset_name": "stop, putting a stop to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent/cause"
-            },
-            {
-                "n": "1",
-                "descr": "Theme (action or object being stopped)"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument (when separate from arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stop.03",
-        "roleset_name": "stop from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preventer, stopper"
-            },
-            {
-                "n": "1",
-                "descr": "stopped agent"
-            },
-            {
-                "n": "2",
-                "descr": "stopped action"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "stop.05",
-        "roleset_name": "plug up (non-phrasal)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper (agent)"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopped up"
-            },
-            {
-                "n": "2",
-                "descr": "stopped up with what? entity crammed in space"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "stop_by.02",
-        "roleset_name": "visit briefly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor"
-            },
-            {
-                "n": "1",
-                "descr": "place visited"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "stop_up.04",
-        "roleset_name": "plug, plugging up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "stopper"
-            },
-            {
-                "n": "1",
-                "descr": "thing stopped up"
-            },
-            {
-                "n": "2",
-                "descr": "stopped up with what? entity crammed in space"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "stop_off.06",
-        "roleset_name": "make a short visit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "visitor"
-            },
-            {
-                "n": "1",
-                "descr": "visited"
-            }
-        ]
-    },
-    {
-        "uid": 7,
-        "roleset_id": "stop_over.07",
-        "roleset_name": "make a short visit on the way to somewhere else",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "visitor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stop.01",
+    "roleset_name": "stop, putting a stop to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent/cause",
+        "descr_trans": "代理人/原因"
+      },
+      {
+        "n": "1",
+        "descr": "Theme (action or object being stopped)",
+        "descr_trans": "主题（停止的动作或物体）"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument (when separate from arg0)",
+        "descr_trans": "仪器（与 arg0 分离时）"
+      }
+    ],
+    "roleset_name_trans": "停止，停止"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stop.03",
+    "roleset_name": "stop from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preventer, stopper",
+        "descr_trans": "预防器，塞子"
+      },
+      {
+        "n": "1",
+        "descr": "stopped agent",
+        "descr_trans": "停止代理"
+      },
+      {
+        "n": "2",
+        "descr": "stopped action",
+        "descr_trans": "停止行动"
+      }
+    ],
+    "roleset_name_trans": "停止于"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "stop.05",
+    "roleset_name": "plug up (non-phrasal)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper (agent)",
+        "descr_trans": "塞子（代理人）"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopped up",
+        "descr_trans": "事情停止了"
+      },
+      {
+        "n": "2",
+        "descr": "stopped up with what? entity crammed in space",
+        "descr_trans": "停住了什么？塞满空间的实体"
+      }
+    ],
+    "roleset_name_trans": "插上（非短语）"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "stop_by.02",
+    "roleset_name": "visit briefly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "place visited",
+        "descr_trans": "去过的地方"
+      }
+    ],
+    "roleset_name_trans": "短暂访问"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "stop_up.04",
+    "roleset_name": "plug, plugging up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "stopper",
+        "descr_trans": "塞子"
+      },
+      {
+        "n": "1",
+        "descr": "thing stopped up",
+        "descr_trans": "事情停止了"
+      },
+      {
+        "n": "2",
+        "descr": "stopped up with what? entity crammed in space",
+        "descr_trans": "停住了什么？塞满空间的实体"
+      }
+    ],
+    "roleset_name_trans": "插头，插塞"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "stop_off.06",
+    "roleset_name": "make a short visit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "visited",
+        "descr_trans": "访问过"
+      }
+    ],
+    "roleset_name_trans": "短暂访问"
+  },
+  {
+    "uid": 7,
+    "roleset_id": "stop_over.07",
+    "roleset_name": "make a short visit on the way to somewhere else",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "visitor",
+        "descr_trans": "游客"
+      }
+    ],
+    "roleset_name_trans": "在去其他地方的途中短暂访问"
+  }
 ]

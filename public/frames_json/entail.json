@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "entail.01",
-        "roleset_name": "to have as a logical consequence",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "antecedent"
-            },
-            {
-                "n": "1",
-                "descr": "consequence"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "entail.01",
+    "roleset_name": "to have as a logical consequence",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "antecedent",
+        "descr_trans": "先行词"
+      },
+      {
+        "n": "1",
+        "descr": "consequence",
+        "descr_trans": "结果"
+      }
+    ],
+    "roleset_name_trans": "产生合乎逻辑的结果"
+  }
 ]

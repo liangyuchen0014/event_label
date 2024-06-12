@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deport.01",
-        "roleset_name": "to expel from a country",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity deported"
-            },
-            {
-                "n": "2",
-                "descr": "country  deported from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deport.01",
+    "roleset_name": "to expel from a country",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity deported",
+        "descr_trans": "实体被驱逐出境"
+      },
+      {
+        "n": "2",
+        "descr": "country  deported from",
+        "descr_trans": "被驱逐出境的国家"
+      }
+    ],
+    "roleset_name_trans": "驱逐出一个国家"
+  }
 ]

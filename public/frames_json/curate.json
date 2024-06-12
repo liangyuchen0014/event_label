@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curate.01",
-        "roleset_name": "select art, food or other items for display",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "curator"
-            },
-            {
-                "n": "1",
-                "descr": "show"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curate.01",
+    "roleset_name": "select art, food or other items for display",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "curator",
+        "descr_trans": "馆长"
+      },
+      {
+        "n": "1",
+        "descr": "show",
+        "descr_trans": "展示"
+      }
+    ],
+    "roleset_name_trans": "选择艺术品、食物或其他物品进行展示"
+  }
 ]

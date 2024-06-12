@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foresee.01",
-        "roleset_name": "see into the future",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "seer"
-            },
-            {
-                "n": "1",
-                "descr": "thing seen"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "foreseeable.02",
-        "roleset_name": "able to be predicted",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "foreseer"
-            },
-            {
-                "n": "1",
-                "descr": "forecast"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foresee.01",
+    "roleset_name": "see into the future",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "seer",
+        "descr_trans": "先知"
+      },
+      {
+        "n": "1",
+        "descr": "thing seen",
+        "descr_trans": "看到的东西"
+      }
+    ],
+    "roleset_name_trans": "展望未来"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "foreseeable.02",
+    "roleset_name": "able to be predicted",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "foreseer",
+        "descr_trans": "预见者"
+      },
+      {
+        "n": "1",
+        "descr": "forecast",
+        "descr_trans": "预报"
+      }
+    ],
+    "roleset_name_trans": "可以预测的"
+  }
 ]

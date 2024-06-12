@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "steal.01",
-        "roleset_name": "to commit theft",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thief, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen"
-            },
-            {
-                "n": "2",
-                "descr": "stolen from"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "steal_away.02",
-        "roleset_name": "steal away",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one(s) hiding, stealing away"
-            },
-            {
-                "n": "1",
-                "descr": "thing stolen away with"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "steal.01",
+    "roleset_name": "to commit theft",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thief, agent",
+        "descr_trans": "小偷、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen",
+        "descr_trans": "东西被偷了"
+      },
+      {
+        "n": "2",
+        "descr": "stolen from",
+        "descr_trans": "被盗自"
+      }
+    ],
+    "roleset_name_trans": "盗窃"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "steal_away.02",
+    "roleset_name": "steal away",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one(s) hiding, stealing away",
+        "descr_trans": "躲藏、偷窃"
+      },
+      {
+        "n": "1",
+        "descr": "thing stolen away with",
+        "descr_trans": "东西被偷走了"
+      }
+    ],
+    "roleset_name_trans": "偷走"
+  }
 ]

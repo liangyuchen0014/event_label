@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "redirect.01",
-        "roleset_name": "to change the direction or course of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "director, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity redirected"
-            },
-            {
-                "n": "2",
-                "descr": "new direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "redirect.01",
+    "roleset_name": "to change the direction or course of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "director, agent",
+        "descr_trans": "董事、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity redirected",
+        "descr_trans": "实体重定向"
+      },
+      {
+        "n": "2",
+        "descr": "new direction",
+        "descr_trans": "新方向"
+      }
+    ],
+    "roleset_name_trans": "改变方向或路线"
+  }
 ]

@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "milk.01",
-        "roleset_name": "extract milk from a cow",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "farmer"
-            },
-            {
-                "n": "1",
-                "descr": "milk"
-            },
-            {
-                "n": "2",
-                "descr": "cow"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "milk.02",
-        "roleset_name": "milk for variant: exploit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "milker, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing milked"
-            },
-            {
-                "n": "2",
-                "descr": "for all it's worth"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "milk.01",
+    "roleset_name": "extract milk from a cow",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "farmer",
+        "descr_trans": "农民"
+      },
+      {
+        "n": "1",
+        "descr": "milk",
+        "descr_trans": "牛奶"
+      },
+      {
+        "n": "2",
+        "descr": "cow",
+        "descr_trans": "奶牛"
+      }
+    ],
+    "roleset_name_trans": "从牛身上提取牛奶"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "milk.02",
+    "roleset_name": "milk for variant: exploit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "milker, agent",
+        "descr_trans": "挤奶工、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing milked",
+        "descr_trans": "挤奶的东西"
+      },
+      {
+        "n": "2",
+        "descr": "for all it's worth",
+        "descr_trans": "不惜一切代价"
+      }
+    ],
+    "roleset_name_trans": "变种牛奶：利用"
+  }
 ]

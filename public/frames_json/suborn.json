@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suborn.01",
-        "roleset_name": "incite to commit a crime",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inciter"
-            },
-            {
-                "n": "1",
-                "descr": "crime"
-            },
-            {
-                "n": "2",
-                "descr": "committer of crime"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suborn.02",
-        "roleset_name": "obtain a false or perjured testimony",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obtainer of testimony"
-            },
-            {
-                "n": "1",
-                "descr": "testimony"
-            },
-            {
-                "n": "2",
-                "descr": "one giving testimony"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suborn.01",
+    "roleset_name": "incite to commit a crime",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inciter",
+        "descr_trans": "鼓励"
+      },
+      {
+        "n": "1",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      },
+      {
+        "n": "2",
+        "descr": "committer of crime",
+        "descr_trans": "犯罪者"
+      }
+    ],
+    "roleset_name_trans": "煽动犯罪"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suborn.02",
+    "roleset_name": "obtain a false or perjured testimony",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obtainer of testimony",
+        "descr_trans": "证词取得者"
+      },
+      {
+        "n": "1",
+        "descr": "testimony",
+        "descr_trans": "见证"
+      },
+      {
+        "n": "2",
+        "descr": "one giving testimony",
+        "descr_trans": "一个人作见证"
+      }
+    ],
+    "roleset_name_trans": "获得虚假或伪证的证词"
+  }
 ]

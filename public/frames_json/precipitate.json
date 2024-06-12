@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "precipitate.01",
-        "roleset_name": "to cause to happen",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause"
-            },
-            {
-                "n": "1",
-                "descr": "precipitated action"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "precipitate.02",
-        "roleset_name": "rain/snow/etc.",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "the watery substance falling from the sky"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "precipitate.01",
+    "roleset_name": "to cause to happen",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "precipitated action",
+        "descr_trans": "突然行动"
+      }
+    ],
+    "roleset_name_trans": "导致发生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "precipitate.02",
+    "roleset_name": "rain/snow/etc.",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "the watery substance falling from the sky",
+        "descr_trans": "从天而降的水状物质"
+      }
+    ],
+    "roleset_name_trans": "雨/雪/等"
+  }
 ]

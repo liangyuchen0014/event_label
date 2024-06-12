@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "happy.01",
-        "roleset_name": "joyful",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/cause/stimulus of happiness"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer of happiness"
-            },
-            {
-                "n": "2",
-                "descr": "what arg0 did to create arg1's happiness (if all present)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "happy.02",
-        "roleset_name": "fortuitous, lucky",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing bringing luck"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "happy.01",
+    "roleset_name": "joyful",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/cause/stimulus of happiness",
+        "descr_trans": "幸福的动因/原因/刺激"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer of happiness",
+        "descr_trans": "幸福的体验者"
+      },
+      {
+        "n": "2",
+        "descr": "what arg0 did to create arg1's happiness (if all present)",
+        "descr_trans": "arg0 做了什么来创造 arg1 的幸福（如果全部存在）"
+      }
+    ],
+    "roleset_name_trans": "快乐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "happy.02",
+    "roleset_name": "fortuitous, lucky",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing bringing luck",
+        "descr_trans": "带来好运的东西"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "偶然的，幸运的"
+  }
 ]

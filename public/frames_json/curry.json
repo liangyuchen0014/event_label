@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "curry.01",
-        "roleset_name": "brush a horse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, brusher, currier"
-            },
-            {
-                "n": "1",
-                "descr": "horse"
-            },
-            {
-                "n": "2",
-                "descr": "brush, instrument"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "curry.02",
-        "roleset_name": "curry favor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity seeking favor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "fixed: favor"
-            },
-            {
-                "n": "2",
-                "descr": "with whom"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "curry.03",
-        "roleset_name": "spicy indian food",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cook"
-            },
-            {
-                "n": "1",
-                "descr": "food"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "curry.01",
+    "roleset_name": "brush a horse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, brusher, currier",
+        "descr_trans": "代理人, 刷子, 快递员"
+      },
+      {
+        "n": "1",
+        "descr": "horse",
+        "descr_trans": "马"
+      },
+      {
+        "n": "2",
+        "descr": "brush, instrument",
+        "descr_trans": "刷子、仪器"
+      }
+    ],
+    "roleset_name_trans": "刷一匹马"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "curry.02",
+    "roleset_name": "curry favor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity seeking favor, agent",
+        "descr_trans": "寻求青睐的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "fixed: favor",
+        "descr_trans": "固定：青睐"
+      },
+      {
+        "n": "2",
+        "descr": "with whom",
+        "descr_trans": "和谁一起"
+      }
+    ],
+    "roleset_name_trans": "讨好"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "curry.03",
+    "roleset_name": "spicy indian food",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cook",
+        "descr_trans": "厨师"
+      },
+      {
+        "n": "1",
+        "descr": "food",
+        "descr_trans": "食物"
+      }
+    ],
+    "roleset_name_trans": "辛辣的印度菜"
+  }
 ]

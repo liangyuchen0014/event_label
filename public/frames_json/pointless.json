@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pointless.01",
-        "roleset_name": "purposeless",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of pointless action"
-            },
-            {
-                "n": "1",
-                "descr": "pointless action, thing"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pointless.02",
-        "roleset_name": "not having a pointy end",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing without a pointy end"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "pointless.03",
-        "roleset_name": "with no points having been scored",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "competition without points scored"
-            },
-            {
-                "n": "2",
-                "descr": "team scoring no points"
-            },
-            {
-                "n": "3",
-                "descr": "opposing team"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pointless.01",
+    "roleset_name": "purposeless",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of pointless action",
+        "descr_trans": "无意义行动的代理人"
+      },
+      {
+        "n": "1",
+        "descr": "pointless action, thing",
+        "descr_trans": "无意义的行动，事物"
+      }
+    ],
+    "roleset_name_trans": "无目的的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pointless.02",
+    "roleset_name": "not having a pointy end",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing without a pointy end",
+        "descr_trans": "没有尖头的东西"
+      }
+    ],
+    "roleset_name_trans": "没有尖头"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "pointless.03",
+    "roleset_name": "with no points having been scored",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "competition without points scored",
+        "descr_trans": "不计分的比赛"
+      },
+      {
+        "n": "2",
+        "descr": "team scoring no points",
+        "descr_trans": "球队没有得分"
+      },
+      {
+        "n": "3",
+        "descr": "opposing team",
+        "descr_trans": "对方球队"
+      }
+    ],
+    "roleset_name_trans": "没有得分"
+  }
 ]

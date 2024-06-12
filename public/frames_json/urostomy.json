@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "urostomy.01",
-        "roleset_name": "surgery that diverts the ureters to an artificial opening in the abdominal wall",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "patient"
-            },
-            {
-                "n": "2",
-                "descr": "product/result"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "urostomy.01",
+    "roleset_name": "surgery that diverts the ureters to an artificial opening in the abdominal wall",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "patient",
+        "descr_trans": "病人"
+      },
+      {
+        "n": "2",
+        "descr": "product/result",
+        "descr_trans": "产品/结果"
+      }
+    ],
+    "roleset_name_trans": "将输尿管转移至腹壁人工开口的手术"
+  }
 ]

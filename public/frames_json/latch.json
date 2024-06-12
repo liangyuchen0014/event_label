@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "latch.01",
-        "roleset_name": "fasten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing(s) being latched"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "latch_on.02",
-        "roleset_name": "to get hold of, obtain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "obtainer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity latched on"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "latch.01",
+    "roleset_name": "fasten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing(s) being latched",
+        "descr_trans": "被锁住的东西"
+      }
+    ],
+    "roleset_name_trans": "系"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "latch_on.02",
+    "roleset_name": "to get hold of, obtain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "obtainer, agent",
+        "descr_trans": "获得者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity latched on",
+        "descr_trans": "实体锁定"
+      }
+    ],
+    "roleset_name_trans": "抓住，获得"
+  }
 ]

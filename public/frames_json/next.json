@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "next.01",
-        "roleset_name": "immediately follow in time",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing coming after"
-            },
-            {
-                "n": "2",
-                "descr": "thing coming before"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "next.03",
-        "roleset_name": "succeed",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity being promoted"
-            },
-            {
-                "n": "2",
-                "descr": "promoted to, next in line for what"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "next_to.02",
-        "roleset_name": "spatially adjacent (generally on a lateral axis)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first entity"
-            },
-            {
-                "n": "2",
-                "descr": "neighbor(s)"
-            },
-            {
-                "n": "3",
-                "descr": "anchor"
-            },
-            {
-                "n": "4",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "next.01",
+    "roleset_name": "immediately follow in time",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing coming after",
+        "descr_trans": "之后的事情"
+      },
+      {
+        "n": "2",
+        "descr": "thing coming before",
+        "descr_trans": "之前发生的事情"
+      }
+    ],
+    "roleset_name_trans": "立即及时跟进"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "next.03",
+    "roleset_name": "succeed",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity being promoted",
+        "descr_trans": "被提升的实体"
+      },
+      {
+        "n": "2",
+        "descr": "promoted to, next in line for what",
+        "descr_trans": "晋升为下一个"
+      }
+    ],
+    "roleset_name_trans": "成功"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "next_to.02",
+    "roleset_name": "spatially adjacent (generally on a lateral axis)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first entity",
+        "descr_trans": "第一实体"
+      },
+      {
+        "n": "2",
+        "descr": "neighbor(s)",
+        "descr_trans": "邻居）"
+      },
+      {
+        "n": "3",
+        "descr": "anchor",
+        "descr_trans": "锚"
+      },
+      {
+        "n": "4",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "空间相邻（通常在横轴上）"
+  }
 ]

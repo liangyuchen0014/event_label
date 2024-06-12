@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "periodize.01",
-        "roleset_name": "split into periods, assign to a period",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent of splitting/assigning"
-            },
-            {
-                "n": "1",
-                "descr": "thing split into periods or assigned to a period"
-            },
-            {
-                "n": "2",
-                "descr": "period(s) split into/assigned to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "periodize.01",
+    "roleset_name": "split into periods, assign to a period",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent of splitting/assigning",
+        "descr_trans": "分割/分配代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing split into periods or assigned to a period",
+        "descr_trans": "事物分为多个时期或分配给一个时期"
+      },
+      {
+        "n": "2",
+        "descr": "period(s) split into/assigned to",
+        "descr_trans": "期间分为/分配给"
+      }
+    ],
+    "roleset_name_trans": "分成时间段，分配给一个时间段"
+  }
 ]

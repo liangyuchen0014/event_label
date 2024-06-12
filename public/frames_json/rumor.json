@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rumor.01",
-        "roleset_name": "tell or spread rumors",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "rumor"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rumor.01",
+    "roleset_name": "tell or spread rumors",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "rumor",
+        "descr_trans": "谣言"
+      }
+    ],
+    "roleset_name_trans": "散布谣言"
+  }
 ]

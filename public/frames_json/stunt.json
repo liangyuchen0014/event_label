@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stunt.01",
-        "roleset_name": "to check the growth or development of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "preventer of growth, agent"
-            },
-            {
-                "n": "1",
-                "descr": "growth"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "stunt.02",
-        "roleset_name": "unusual feat",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "actor, stunt-puller"
-            },
-            {
-                "n": "1",
-                "descr": "purpose, cause, reason for stunt"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary (when clearly seperate from arg 1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stunt.01",
+    "roleset_name": "to check the growth or development of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "preventer of growth, agent",
+        "descr_trans": "生长抑制剂、生长抑制剂"
+      },
+      {
+        "n": "1",
+        "descr": "growth",
+        "descr_trans": "生长"
+      }
+    ],
+    "roleset_name_trans": "检查生长或发育"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "stunt.02",
+    "roleset_name": "unusual feat",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "actor, stunt-puller",
+        "descr_trans": "演员、特技演员"
+      },
+      {
+        "n": "1",
+        "descr": "purpose, cause, reason for stunt",
+        "descr_trans": "特技表演的目的、原因、理由"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary (when clearly seperate from arg 1)",
+        "descr_trans": "受益人（当与 arg 1 明确分开时）"
+      }
+    ],
+    "roleset_name_trans": "不寻常的壮举"
+  }
 ]

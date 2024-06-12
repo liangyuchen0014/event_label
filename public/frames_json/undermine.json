@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "undermine.01",
-        "roleset_name": "weaken, not quantifiable, weaken from below",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing weakening"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "undermine.02",
-        "roleset_name": "surgically seperate from underlying structure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing seperation"
-            },
-            {
-                "n": "1",
-                "descr": "thing being divided"
-            },
-            {
-                "n": "2",
-                "descr": "source, separated from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "undermine.01",
+    "roleset_name": "weaken, not quantifiable, weaken from below",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing weakening",
+        "descr_trans": "事物减弱"
+      }
+    ],
+    "roleset_name_trans": "削弱，不可量化，自下而上削弱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "undermine.02",
+    "roleset_name": "surgically seperate from underlying structure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing seperation",
+        "descr_trans": "造成分离的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing being divided",
+        "descr_trans": "事物被分割"
+      },
+      {
+        "n": "2",
+        "descr": "source, separated from",
+        "descr_trans": "来源，分离"
+      }
+    ],
+    "roleset_name_trans": "通过手术与底层结构分离"
+  }
 ]

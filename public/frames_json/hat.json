@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hat.01",
-        "roleset_name": "put a hat on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity placing the hat"
-            },
-            {
-                "n": "1",
-                "descr": "destination of the hat"
-            },
-            {
-                "n": "2",
-                "descr": "the hat"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hat.01",
+    "roleset_name": "put a hat on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity placing the hat",
+        "descr_trans": "放置帽子的实体"
+      },
+      {
+        "n": "1",
+        "descr": "destination of the hat",
+        "descr_trans": "帽子的目的地"
+      },
+      {
+        "n": "2",
+        "descr": "the hat",
+        "descr_trans": "帽子"
+      }
+    ],
+    "roleset_name_trans": "戴上帽子"
+  }
 ]

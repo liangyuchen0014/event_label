@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "floor.01",
-        "roleset_name": "to bring to the floor, literally or metaphorically, by shocking or striking",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of flooring"
-            },
-            {
-                "n": "1",
-                "descr": "floored entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from Arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "floor.02",
-        "roleset_name": "to cover or furnish with a floor",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Causer of covering, flooring"
-            },
-            {
-                "n": "1",
-                "descr": "Ground covered"
-            },
-            {
-                "n": "2",
-                "descr": "Covered with what, floor material"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "floor.01",
+    "roleset_name": "to bring to the floor, literally or metaphorically, by shocking or striking",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of flooring",
+        "descr_trans": "地板的原因"
+      },
+      {
+        "n": "1",
+        "descr": "floored entity",
+        "descr_trans": "地板实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from Arg 0",
+        "descr_trans": "仪器或方式（如果与 Arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "从字面上或隐喻上来说，通过令人震惊或打击，带到地板上"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "floor.02",
+    "roleset_name": "to cover or furnish with a floor",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Causer of covering, flooring",
+        "descr_trans": "覆盖物、地板的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Ground covered",
+        "descr_trans": "地面覆盖"
+      },
+      {
+        "n": "2",
+        "descr": "Covered with what, floor material",
+        "descr_trans": "铺什么，地板材料"
+      }
+    ],
+    "roleset_name_trans": "覆盖或装饰地板"
+  }
 ]

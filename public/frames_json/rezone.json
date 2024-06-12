@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rezone.01",
-        "roleset_name": "redesignate an area for a new use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "zoning board"
-            },
-            {
-                "n": "1",
-                "descr": "area"
-            },
-            {
-                "n": "2",
-                "descr": "new use"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rezone.01",
+    "roleset_name": "redesignate an area for a new use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "zoning board",
+        "descr_trans": "分区委员会"
+      },
+      {
+        "n": "1",
+        "descr": "area",
+        "descr_trans": "区域"
+      },
+      {
+        "n": "2",
+        "descr": "new use",
+        "descr_trans": "新用途"
+      }
+    ],
+    "roleset_name_trans": "重新指定一个区域以用于新用途"
+  }
 ]

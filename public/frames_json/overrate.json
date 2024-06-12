@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "overrate.01",
-        "roleset_name": "rate higher than worth",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity establishing value"
-            },
-            {
-                "n": "1",
-                "descr": "commodity or entity being evaluated"
-            },
-            {
-                "n": "2",
-                "descr": "value, worth, grade"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "overrate.01",
+    "roleset_name": "rate higher than worth",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity establishing value",
+        "descr_trans": "实体建立价值"
+      },
+      {
+        "n": "1",
+        "descr": "commodity or entity being evaluated",
+        "descr_trans": "被评估的商品或实体"
+      },
+      {
+        "n": "2",
+        "descr": "value, worth, grade",
+        "descr_trans": "价值，价值，等级"
+      }
+    ],
+    "roleset_name_trans": "利率高于价值"
+  }
 ]

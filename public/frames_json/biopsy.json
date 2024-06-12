@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "biopsy.101",
-        "roleset_name": "remove a sample of tissue for analysis/diagnosis",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doctor"
-            },
-            {
-                "n": "1",
-                "descr": "Tissue/Patient"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "biopsy.101",
+    "roleset_name": "remove a sample of tissue for analysis/diagnosis",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doctor",
+        "descr_trans": "医生"
+      },
+      {
+        "n": "1",
+        "descr": "Tissue/Patient",
+        "descr_trans": "组织/患者"
+      }
+    ],
+    "roleset_name_trans": "取出组织样本进行分析/诊断"
+  }
 ]

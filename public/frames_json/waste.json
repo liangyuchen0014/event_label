@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "waste.01",
-        "roleset_name": "destroy, use up needlessly, needless use",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing wasted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of wasting/ destruction, wasted on/doing what (if separate from arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wasteful.02",
-        "roleset_name": "destroy, use up needlessly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "destroyer"
-            },
-            {
-                "n": "1",
-                "descr": "thing wasted"
-            },
-            {
-                "n": "2",
-                "descr": "instrument of wasting/ destruction, wasted on/doing what (if separate from arg0)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wasted.03",
-        "roleset_name": "drunk",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "alcohol"
-            },
-            {
-                "n": "1",
-                "descr": "alcoholic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "waste.01",
+    "roleset_name": "destroy, use up needlessly, needless use",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer",
+        "descr_trans": "驱逐舰"
+      },
+      {
+        "n": "1",
+        "descr": "thing wasted",
+        "descr_trans": "浪费的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of wasting/ destruction, wasted on/doing what (if separate from arg0)",
+        "descr_trans": "浪费/破坏的工具，浪费在/做什么上（如果与arg0分开）"
+      }
+    ],
+    "roleset_name_trans": "毁坏，不必要地用尽，不必要的使用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wasteful.02",
+    "roleset_name": "destroy, use up needlessly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "destroyer",
+        "descr_trans": "驱逐舰"
+      },
+      {
+        "n": "1",
+        "descr": "thing wasted",
+        "descr_trans": "浪费的东西"
+      },
+      {
+        "n": "2",
+        "descr": "instrument of wasting/ destruction, wasted on/doing what (if separate from arg0)",
+        "descr_trans": "浪费/破坏的工具，浪费在/做什么上（如果与arg0分开）"
+      }
+    ],
+    "roleset_name_trans": "毁坏，不必要地消耗"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wasted.03",
+    "roleset_name": "drunk",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "alcohol",
+        "descr_trans": "酒精"
+      },
+      {
+        "n": "1",
+        "descr": "alcoholic",
+        "descr_trans": "酗酒的"
+      }
+    ],
+    "roleset_name_trans": "醉"
+  }
 ]

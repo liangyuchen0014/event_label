@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "invoice.01",
-        "roleset_name": "invoice",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "invoicer, one who bills"
-            },
-            {
-                "n": "1",
-                "descr": "money, amount"
-            },
-            {
-                "n": "2",
-                "descr": "invoiced, one who gets billed"
-            },
-            {
-                "n": "3",
-                "descr": "cause"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "invoice.01",
+    "roleset_name": "invoice",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "invoicer, one who bills",
+        "descr_trans": "发票人，开具发票的人"
+      },
+      {
+        "n": "1",
+        "descr": "money, amount",
+        "descr_trans": "钱，金额"
+      },
+      {
+        "n": "2",
+        "descr": "invoiced, one who gets billed",
+        "descr_trans": "已开具发票的人，被开具账单的人"
+      },
+      {
+        "n": "3",
+        "descr": "cause",
+        "descr_trans": "原因"
+      }
+    ],
+    "roleset_name_trans": "发票"
+  }
 ]

@@ -1,92 +1,110 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "revolt.01",
-        "roleset_name": "to rise up against an authority",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Revolting entity"
-            },
-            {
-                "n": "1",
-                "descr": "Revolted against"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "revolt.02",
-        "roleset_name": "to repulse and/or disgust",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Revolting entity"
-            },
-            {
-                "n": "1",
-                "descr": "Repulsed entity"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument or Manner if separate from arg 0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "revolution.03",
-        "roleset_name": "revolt, act in part of a revolution",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "revolting entity"
-            },
-            {
-                "n": "1",
-                "descr": "revolting against"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "revolutionary.04",
-        "roleset_name": "ground-breaking, radical",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "ground-breaking entity"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "revolutionize.05",
-        "roleset_name": "to bring about a radical change",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "entity changed"
-            }
-        ]
-    },
-    {
-        "uid": 6,
-        "roleset_id": "revolve.06",
-        "roleset_name": "to move in a circle,  be centered",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "entity revolving"
-            },
-            {
-                "n": "2",
-                "descr": "location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "revolt.01",
+    "roleset_name": "to rise up against an authority",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Revolting entity",
+        "descr_trans": "反叛实体"
+      },
+      {
+        "n": "1",
+        "descr": "Revolted against",
+        "descr_trans": "反抗"
+      }
+    ],
+    "roleset_name_trans": "起来反抗权威"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "revolt.02",
+    "roleset_name": "to repulse and/or disgust",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Revolting entity",
+        "descr_trans": "反叛实体"
+      },
+      {
+        "n": "1",
+        "descr": "Repulsed entity",
+        "descr_trans": "被排斥的实体"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument or Manner if separate from arg 0",
+        "descr_trans": "仪器或方式（如果与 arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "排斥和/或厌恶"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "revolution.03",
+    "roleset_name": "revolt, act in part of a revolution",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "revolting entity",
+        "descr_trans": "反叛实体"
+      },
+      {
+        "n": "1",
+        "descr": "revolting against",
+        "descr_trans": "反抗"
+      }
+    ],
+    "roleset_name_trans": "反抗，参与革命"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "revolutionary.04",
+    "roleset_name": "ground-breaking, radical",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "ground-breaking entity",
+        "descr_trans": "突破性实体"
+      }
+    ],
+    "roleset_name_trans": "突破性的、激进的"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "revolutionize.05",
+    "roleset_name": "to bring about a radical change",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity changed",
+        "descr_trans": "实体改变"
+      }
+    ],
+    "roleset_name_trans": "带来彻底的改变"
+  },
+  {
+    "uid": 6,
+    "roleset_id": "revolve.06",
+    "roleset_name": "to move in a circle,  be centered",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "entity revolving",
+        "descr_trans": "实体旋转"
+      },
+      {
+        "n": "2",
+        "descr": "location",
+        "descr_trans": "地点"
+      }
+    ],
+    "roleset_name_trans": "绕圈移动，居中"
+  }
 ]

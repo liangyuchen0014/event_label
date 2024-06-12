@@ -1,74 +1,89 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weigh.01",
-        "roleset_name": "determine the weight",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "measurer"
-            },
-            {
-                "n": "1",
-                "descr": "thing measured"
-            },
-            {
-                "n": "2",
-                "descr": "yardstick, standard of measurement"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "weigh.02",
-        "roleset_name": "press heavily upon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "presser"
-            },
-            {
-                "n": "1",
-                "descr": "pressed (on)"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "weigh.04",
-        "roleset_name": "compare x and y, consider carefully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, comparer, considerer"
-            },
-            {
-                "n": "1",
-                "descr": "X, thing considered"
-            },
-            {
-                "n": "2",
-                "descr": "Y, in comparison to"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "weigh_in.03",
-        "roleset_name": "enter, contribute to discussion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "contributor, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entry, thing contributed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weigh.01",
+    "roleset_name": "determine the weight",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "measurer",
+        "descr_trans": "测量器"
+      },
+      {
+        "n": "1",
+        "descr": "thing measured",
+        "descr_trans": "测量的东西"
+      },
+      {
+        "n": "2",
+        "descr": "yardstick, standard of measurement",
+        "descr_trans": "尺子，测量标准"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      }
+    ],
+    "roleset_name_trans": "确定重量"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "weigh.02",
+    "roleset_name": "press heavily upon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "presser",
+        "descr_trans": "压机"
+      },
+      {
+        "n": "1",
+        "descr": "pressed (on)",
+        "descr_trans": "按下（上）"
+      }
+    ],
+    "roleset_name_trans": "重重地压在"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "weigh.04",
+    "roleset_name": "compare x and y, consider carefully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, comparer, considerer",
+        "descr_trans": "代理、比较、考虑"
+      },
+      {
+        "n": "1",
+        "descr": "X, thing considered",
+        "descr_trans": "X，考虑的事情"
+      },
+      {
+        "n": "2",
+        "descr": "Y, in comparison to",
+        "descr_trans": "是，相比之下"
+      }
+    ],
+    "roleset_name_trans": "比较x和y，仔细考虑"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "weigh_in.03",
+    "roleset_name": "enter, contribute to discussion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "contributor, agent",
+        "descr_trans": "贡献者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entry, thing contributed",
+        "descr_trans": "条目，贡献的东西"
+      }
+    ],
+    "roleset_name_trans": "进入、参与讨论"
+  }
 ]

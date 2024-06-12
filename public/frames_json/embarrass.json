@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embarrass.01",
-        "roleset_name": "cause shame, feeling self consciousness or shame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of shame"
-            },
-            {
-                "n": "1",
-                "descr": "embarrassed entity"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if separate from arg0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embarrass.01",
+    "roleset_name": "cause shame, feeling self consciousness or shame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of shame",
+        "descr_trans": "造成耻辱的人"
+      },
+      {
+        "n": "1",
+        "descr": "embarrassed entity",
+        "descr_trans": "尴尬的实体"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if separate from arg0",
+        "descr_trans": "仪器，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "引起羞耻、感到自我意识或羞耻"
+  }
 ]

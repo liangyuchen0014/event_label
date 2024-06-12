@@ -1,75 +1,91 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "splash.01",
-        "roleset_name": "apply water",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "splasher"
-            },
-            {
-                "n": "1",
-                "descr": "water"
-            },
-            {
-                "n": "2",
-                "descr": "splashed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "splash.03",
-        "roleset_name": "spend money (extravagantly)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought, money spent on"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "money, price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "splash_out.02",
-        "roleset_name": "spend money on, splurge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender"
-            },
-            {
-                "n": "1",
-                "descr": "thing bought"
-            },
-            {
-                "n": "2",
-                "descr": "seller"
-            },
-            {
-                "n": "3",
-                "descr": "price paid"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "splash.01",
+    "roleset_name": "apply water",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "splasher",
+        "descr_trans": "泼溅器"
+      },
+      {
+        "n": "1",
+        "descr": "water",
+        "descr_trans": "水"
+      },
+      {
+        "n": "2",
+        "descr": "splashed",
+        "descr_trans": "溅起"
+      }
+    ],
+    "roleset_name_trans": "涂水"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "splash.03",
+    "roleset_name": "spend money (extravagantly)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender",
+        "descr_trans": "花钱的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought, money spent on",
+        "descr_trans": "买的东西，花的钱"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "money, price paid",
+        "descr_trans": "金钱，付出的代价"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "花钱（奢侈地）"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "splash_out.02",
+    "roleset_name": "spend money on, splurge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender",
+        "descr_trans": "花钱的人"
+      },
+      {
+        "n": "1",
+        "descr": "thing bought",
+        "descr_trans": "买的东西"
+      },
+      {
+        "n": "2",
+        "descr": "seller",
+        "descr_trans": "卖方"
+      },
+      {
+        "n": "3",
+        "descr": "price paid",
+        "descr_trans": "支付的价格"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "花钱，挥霍"
+  }
 ]

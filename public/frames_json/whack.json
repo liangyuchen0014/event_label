@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "whack.01",
-        "roleset_name": "hit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "whack_off.02",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being removed"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "whack.01",
+    "roleset_name": "hit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "whack_off.02",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "thing being removed",
+        "descr_trans": "被移除的东西"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

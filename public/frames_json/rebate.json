@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "rebate.01",
-        "roleset_name": "paying some of the price back to the purchaser",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rebate giver"
-            },
-            {
-                "n": "1",
-                "descr": "amount rebated"
-            },
-            {
-                "n": "2",
-                "descr": "rebate paid to"
-            },
-            {
-                "n": "3",
-                "descr": "commodity purchased, which the rebate applies to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "rebate.01",
+    "roleset_name": "paying some of the price back to the purchaser",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rebate giver",
+        "descr_trans": "回扣给予"
+      },
+      {
+        "n": "1",
+        "descr": "amount rebated",
+        "descr_trans": "回扣金额"
+      },
+      {
+        "n": "2",
+        "descr": "rebate paid to",
+        "descr_trans": "回扣支付给"
+      },
+      {
+        "n": "3",
+        "descr": "commodity purchased, which the rebate applies to",
+        "descr_trans": "所购买的商品，适用返利"
+      }
+    ],
+    "roleset_name_trans": "将部分价款返还给购买者"
+  }
 ]

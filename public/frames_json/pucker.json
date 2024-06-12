@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pucker.01",
-        "roleset_name": "gather into folds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing puckering"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "pucker_up.02",
-        "roleset_name": "gather lips into folds",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "thing puckering up"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pucker.01",
+    "roleset_name": "gather into folds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing puckering",
+        "descr_trans": "东西起皱"
+      }
+    ],
+    "roleset_name_trans": "聚集成褶皱"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "pucker_up.02",
+    "roleset_name": "gather lips into folds",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "thing puckering up",
+        "descr_trans": "东西皱起"
+      }
+    ],
+    "roleset_name_trans": "将嘴唇收拢"
+  }
 ]

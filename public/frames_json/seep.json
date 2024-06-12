@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "seep.01",
-        "roleset_name": "leak fluid",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of leaking"
-            },
-            {
-                "n": "1",
-                "descr": "substance leaked"
-            },
-            {
-                "n": "2",
-                "descr": "source, leaked from where?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "seep.01",
+    "roleset_name": "leak fluid",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of leaking",
+        "descr_trans": "造成泄漏的原因"
+      },
+      {
+        "n": "1",
+        "descr": "substance leaked",
+        "descr_trans": "物质泄漏"
+      },
+      {
+        "n": "2",
+        "descr": "source, leaked from where?",
+        "descr_trans": "来源，从哪里泄露的？"
+      }
+    ],
+    "roleset_name_trans": "漏液"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "solicit.01",
-        "roleset_name": "request",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "solicitor"
-            },
-            {
-                "n": "1",
-                "descr": "thing solicited (us. 'bids')"
-            },
-            {
-                "n": "2",
-                "descr": "solicited from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "solicit.01",
+    "roleset_name": "request",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "solicitor",
+        "descr_trans": "律师"
+      },
+      {
+        "n": "1",
+        "descr": "thing solicited (us. 'bids')",
+        "descr_trans": "征求的东西（我们。“出价”）"
+      },
+      {
+        "n": "2",
+        "descr": "solicited from",
+        "descr_trans": "征求自"
+      }
+    ],
+    "roleset_name_trans": "要求"
+  }
 ]

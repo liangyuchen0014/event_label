@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retain.01",
-        "roleset_name": "keep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Keeper"
-            },
-            {
-                "n": "1",
-                "descr": "thing kept"
-            },
-            {
-                "n": "3",
-                "descr": "attributive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "retentive.02",
-        "roleset_name": "keep",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Keeper"
-            },
-            {
-                "n": "1",
-                "descr": "thing kept"
-            },
-            {
-                "n": "3",
-                "descr": "attributive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retain.01",
+    "roleset_name": "keep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Keeper",
+        "descr_trans": "守护者"
+      },
+      {
+        "n": "1",
+        "descr": "thing kept",
+        "descr_trans": "保留的东西"
+      },
+      {
+        "n": "3",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "保持"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "retentive.02",
+    "roleset_name": "keep",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Keeper",
+        "descr_trans": "守护者"
+      },
+      {
+        "n": "1",
+        "descr": "thing kept",
+        "descr_trans": "保留的东西"
+      },
+      {
+        "n": "3",
+        "descr": "attributive",
+        "descr_trans": "定语"
+      }
+    ],
+    "roleset_name_trans": "保持"
+  }
 ]

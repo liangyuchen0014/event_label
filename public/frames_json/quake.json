@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "quake.01",
-        "roleset_name": "quake (trembling sense)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing trembling/quaking"
-            },
-            {
-                "n": "1",
-                "descr": "cause of trembling/quaking"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "earthquake.02",
-        "roleset_name": "natural disaster: earthquake",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "ground shaken (plates, region, epicenter)"
-            },
-            {
-                "n": "2",
-                "descr": "magnitude, generally Richter scale"
-            },
-            {
-                "n": "3",
-                "descr": "death/injury toll"
-            },
-            {
-                "n": "4",
-                "descr": "damages/cost"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "quake.01",
+    "roleset_name": "quake (trembling sense)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing trembling/quaking",
+        "descr_trans": "东西颤抖/颤抖"
+      },
+      {
+        "n": "1",
+        "descr": "cause of trembling/quaking",
+        "descr_trans": "颤抖/颤抖的原因"
+      }
+    ],
+    "roleset_name_trans": "震动（颤抖感）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "earthquake.02",
+    "roleset_name": "natural disaster: earthquake",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "ground shaken (plates, region, epicenter)",
+        "descr_trans": "地面震动（板块、区域、震中）"
+      },
+      {
+        "n": "2",
+        "descr": "magnitude, generally Richter scale",
+        "descr_trans": "震级，一般为里氏震级"
+      },
+      {
+        "n": "3",
+        "descr": "death/injury toll",
+        "descr_trans": "死亡/受伤人数"
+      },
+      {
+        "n": "4",
+        "descr": "damages/cost",
+        "descr_trans": "损害赔偿/费用"
+      }
+    ],
+    "roleset_name_trans": "自然灾害：地震"
+  }
 ]

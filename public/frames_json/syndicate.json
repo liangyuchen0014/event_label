@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "syndicate.01",
-        "roleset_name": "distribute by proxy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver, distributor, syndicator"
-            },
-            {
-                "n": "1",
-                "descr": "thing given"
-            },
-            {
-                "n": "2",
-                "descr": "given to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "syndicate.01",
+    "roleset_name": "distribute by proxy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver, distributor, syndicator",
+        "descr_trans": "给予者、分发者、辛迪加者"
+      },
+      {
+        "n": "1",
+        "descr": "thing given",
+        "descr_trans": "给予的东西"
+      },
+      {
+        "n": "2",
+        "descr": "given to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "通过代理分发"
+  }
 ]

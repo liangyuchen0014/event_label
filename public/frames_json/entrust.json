@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "entrust.01",
-        "roleset_name": "to put into the care of someone",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving up control, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity entrusted"
-            },
-            {
-                "n": "2",
-                "descr": "entity entrusted to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "entrust.01",
+    "roleset_name": "to put into the care of someone",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving up control, agent",
+        "descr_trans": "放弃控制权的实体、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity entrusted",
+        "descr_trans": "受托实体"
+      },
+      {
+        "n": "2",
+        "descr": "entity entrusted to",
+        "descr_trans": "受托实体"
+      }
+    ],
+    "roleset_name_trans": "交给某人照顾"
+  }
 ]

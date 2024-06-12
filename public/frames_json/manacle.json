@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "manacle.01",
-        "roleset_name": "restrain",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of restraint"
-            },
-            {
-                "n": "1",
-                "descr": "entity restrained"
-            },
-            {
-                "n": "2",
-                "descr": "restrained to"
-            },
-            {
-                "n": "3",
-                "descr": "restrained with what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "manacle.01",
+    "roleset_name": "restrain",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of restraint",
+        "descr_trans": "克制的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity restrained",
+        "descr_trans": "实体受到限制"
+      },
+      {
+        "n": "2",
+        "descr": "restrained to",
+        "descr_trans": "限制于"
+      },
+      {
+        "n": "3",
+        "descr": "restrained with what?",
+        "descr_trans": "用什么来克制？"
+      }
+    ],
+    "roleset_name_trans": "抑制"
+  }
 ]

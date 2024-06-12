@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wield.01",
-        "roleset_name": "hold, brandish",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "holder"
-            },
-            {
-                "n": "1",
-                "descr": "thing held"
-            },
-            {
-                "n": "2",
-                "descr": "benefactive"
-            },
-            {
-                "n": "3",
-                "descr": "secondary attribute of thing held"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wield.01",
+    "roleset_name": "hold, brandish",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "holder",
+        "descr_trans": "持有者"
+      },
+      {
+        "n": "1",
+        "descr": "thing held",
+        "descr_trans": "举行的事情"
+      },
+      {
+        "n": "2",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      },
+      {
+        "n": "3",
+        "descr": "secondary attribute of thing held",
+        "descr_trans": "所持有事物的次要属性"
+      }
+    ],
+    "roleset_name_trans": "持有，挥舞"
+  }
 ]

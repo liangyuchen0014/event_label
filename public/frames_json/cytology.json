@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cytology.01",
-        "roleset_name": "examination of cells",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "performer"
-            },
-            {
-                "n": "1",
-                "descr": "source of cells (urine, specimen, etc.)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cytology.01",
+    "roleset_name": "examination of cells",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "performer",
+        "descr_trans": "演员"
+      },
+      {
+        "n": "1",
+        "descr": "source of cells (urine, specimen, etc.)",
+        "descr_trans": "细胞来源（尿液、标本等）"
+      }
+    ],
+    "roleset_name_trans": "细胞检查"
+  }
 ]

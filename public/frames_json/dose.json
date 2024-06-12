@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dose.01",
-        "roleset_name": "add or administer substance to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Doser"
-            },
-            {
-                "n": "1",
-                "descr": "Recipient of dose"
-            },
-            {
-                "n": "2",
-                "descr": "Substance"
-            },
-            {
-                "n": "3",
-                "descr": "Dose itself (amount of ARG2 administered; often filled by dose-entity-91)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dose.01",
+    "roleset_name": "add or administer substance to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Doser",
+        "descr_trans": "剂量"
+      },
+      {
+        "n": "1",
+        "descr": "Recipient of dose",
+        "descr_trans": "剂量接受者"
+      },
+      {
+        "n": "2",
+        "descr": "Substance",
+        "descr_trans": "物质"
+      },
+      {
+        "n": "3",
+        "descr": "Dose itself (amount of ARG2 administered; often filled by dose-entity-91)",
+        "descr_trans": "剂量本身（所施用的 A​​RG2 的量；通常由剂量实体 91 填充）"
+      }
+    ],
+    "roleset_name_trans": "添加或施用物质"
+  }
 ]

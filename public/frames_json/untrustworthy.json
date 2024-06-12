@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "untrustworthy.01",
-        "roleset_name": "not worthy of trust",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "(non) truster"
-            },
-            {
-                "n": "1",
-                "descr": "entity not worthy of trust"
-            },
-            {
-                "n": "2",
-                "descr": "what is not upheld/preserved by arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "untrustworthy.01",
+    "roleset_name": "not worthy of trust",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "(non) truster",
+        "descr_trans": "（非）信任者"
+      },
+      {
+        "n": "1",
+        "descr": "entity not worthy of trust",
+        "descr_trans": "不值得信任的实体"
+      },
+      {
+        "n": "2",
+        "descr": "what is not upheld/preserved by arg1",
+        "descr_trans": "arg1 不支持/保留什么"
+      }
+    ],
+    "roleset_name_trans": "不值得信任"
+  }
 ]

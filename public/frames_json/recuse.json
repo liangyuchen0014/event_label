@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recuse.01",
-        "roleset_name": "remove oneself as a judge",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity removing"
-            },
-            {
-                "n": "1",
-                "descr": "thing being withdrawn (often understood as 'self')"
-            },
-            {
-                "n": "2",
-                "descr": "removed from"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recuse.01",
+    "roleset_name": "remove oneself as a judge",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity removing",
+        "descr_trans": "实体移除"
+      },
+      {
+        "n": "1",
+        "descr": "thing being withdrawn (often understood as 'self')",
+        "descr_trans": "被撤回的事物（通常被理解为“自我”）"
+      },
+      {
+        "n": "2",
+        "descr": "removed from",
+        "descr_trans": "已经从...删除"
+      }
+    ],
+    "roleset_name_trans": "解除自己的法官身份"
+  }
 ]

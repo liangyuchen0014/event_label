@@ -1,98 +1,119 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "trade.01",
-        "roleset_name": "exchange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity trading"
-            },
-            {
-                "n": "1",
-                "descr": "thing being traded (away)"
-            },
-            {
-                "n": "2",
-                "descr": "other exchanger"
-            },
-            {
-                "n": "3",
-                "descr": "other item in exchange, price, or premium, traded for or at"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "out_trade.02",
-        "roleset_name": "to surpass another in trading",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "first trader"
-            },
-            {
-                "n": "1",
-                "descr": "entity out-traded"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "trade_off.03",
-        "roleset_name": "trade off, exchange",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being traded off"
-            },
-            {
-                "n": "2",
-                "descr": "other exchanger"
-            },
-            {
-                "n": "3",
-                "descr": "other item in exchange, price"
-            },
-            {
-                "n": "4",
-                "descr": "beneficiary"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "trade_in.04",
-        "roleset_name": "trade in (probably to an entity like a dealer)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "trader"
-            },
-            {
-                "n": "1",
-                "descr": "traded"
-            },
-            {
-                "n": "2",
-                "descr": "other exchanger, traded to"
-            },
-            {
-                "n": "3",
-                "descr": "other item in exchange, money"
-            },
-            {
-                "n": "4",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "trade.01",
+    "roleset_name": "exchange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity trading",
+        "descr_trans": "代理、实体贸易"
+      },
+      {
+        "n": "1",
+        "descr": "thing being traded (away)",
+        "descr_trans": "被交易的东西（离开）"
+      },
+      {
+        "n": "2",
+        "descr": "other exchanger",
+        "descr_trans": "其他交换器"
+      },
+      {
+        "n": "3",
+        "descr": "other item in exchange, price, or premium, traded for or at",
+        "descr_trans": "其他以交换、价格或溢价进行交易的物品"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "交换"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "out_trade.02",
+    "roleset_name": "to surpass another in trading",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "first trader",
+        "descr_trans": "第一个交易者"
+      },
+      {
+        "n": "1",
+        "descr": "entity out-traded",
+        "descr_trans": "实体超越交易"
+      }
+    ],
+    "roleset_name_trans": "在交易中超越他人"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "trade_off.03",
+    "roleset_name": "trade off, exchange",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing being traded off",
+        "descr_trans": "被交易的东西"
+      },
+      {
+        "n": "2",
+        "descr": "other exchanger",
+        "descr_trans": "其他交换器"
+      },
+      {
+        "n": "3",
+        "descr": "other item in exchange, price",
+        "descr_trans": "其他交换物品，价格"
+      },
+      {
+        "n": "4",
+        "descr": "beneficiary",
+        "descr_trans": "受益人"
+      }
+    ],
+    "roleset_name_trans": "权衡，交换"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "trade_in.04",
+    "roleset_name": "trade in (probably to an entity like a dealer)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "trader",
+        "descr_trans": "商人"
+      },
+      {
+        "n": "1",
+        "descr": "traded",
+        "descr_trans": "交易的"
+      },
+      {
+        "n": "2",
+        "descr": "other exchanger, traded to",
+        "descr_trans": "其他交易所，交易至"
+      },
+      {
+        "n": "3",
+        "descr": "other item in exchange, money",
+        "descr_trans": "其他交换物品，金钱"
+      },
+      {
+        "n": "4",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "贸易（可能是经销商等实体）"
+  }
 ]

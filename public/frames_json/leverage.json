@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "leverage.01",
-        "roleset_name": "use position as an advantage, positional advantage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing leveraged"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "leverage.01",
+    "roleset_name": "use position as an advantage, positional advantage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing leveraged",
+        "descr_trans": "杠杆化的东西"
+      }
+    ],
+    "roleset_name_trans": "利用位置作为优势, 位置优势"
+  }
 ]

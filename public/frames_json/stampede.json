@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stampede.01",
-        "roleset_name": "to cause to act hurriedly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity stampeding, in motion"
-            },
-            {
-                "n": "2",
-                "descr": "stampeded into, path or direction"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stampede.01",
+    "roleset_name": "to cause to act hurriedly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "entity stampeding, in motion",
+        "descr_trans": "实体踩踏，运动中"
+      },
+      {
+        "n": "2",
+        "descr": "stampeded into, path or direction",
+        "descr_trans": "踩进、路径或方向"
+      }
+    ],
+    "roleset_name_trans": "使迅速采取行动"
+  }
 ]

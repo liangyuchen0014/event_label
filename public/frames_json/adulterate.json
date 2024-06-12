@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "adulterate.01",
-        "roleset_name": "dilute, weaken",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "weakened entity"
-            },
-            {
-                "n": "m",
-                "descr": "instrument, weakened with or by"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "adulterate.01",
+    "roleset_name": "dilute, weaken",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "weakened entity",
+        "descr_trans": "被削弱的实体"
+      },
+      {
+        "n": "m",
+        "descr": "instrument, weakened with or by",
+        "descr_trans": "乐器，被削弱或被削弱"
+      }
+    ],
+    "roleset_name_trans": "稀释，削弱"
+  }
 ]

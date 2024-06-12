@@ -1,66 +1,79 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "choke.01",
-        "roleset_name": "to have or cause to have  difficulty in breathing",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of choking, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity choked"
-            },
-            {
-                "n": "2",
-                "descr": "thing choked on"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "choke.02",
-        "roleset_name": "to fill up completely, jam",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of filling, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity choked"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "choke_off.03",
-        "roleset_name": "to bring to an end",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of end, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity choked off"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "choke_up.04",
-        "roleset_name": "overcome with emotion",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "emotion"
-            },
-            {
-                "n": "1",
-                "descr": "experiencer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "choke.01",
+    "roleset_name": "to have or cause to have  difficulty in breathing",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of choking, agent",
+        "descr_trans": "窒息的原因，代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity choked",
+        "descr_trans": "实体窒息"
+      },
+      {
+        "n": "2",
+        "descr": "thing choked on",
+        "descr_trans": "东西噎住了"
+      }
+    ],
+    "roleset_name_trans": "出现或导致呼吸困难"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "choke.02",
+    "roleset_name": "to fill up completely, jam",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of filling, agent",
+        "descr_trans": "充盈的原因，代理"
+      },
+      {
+        "n": "1",
+        "descr": "entity choked",
+        "descr_trans": "实体窒息"
+      }
+    ],
+    "roleset_name_trans": "完全填满，果酱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "choke_off.03",
+    "roleset_name": "to bring to an end",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of end, agent",
+        "descr_trans": "终结的原因、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity choked off",
+        "descr_trans": "实体被封锁"
+      }
+    ],
+    "roleset_name_trans": "结束"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "choke_up.04",
+    "roleset_name": "overcome with emotion",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "emotion",
+        "descr_trans": "情感"
+      },
+      {
+        "n": "1",
+        "descr": "experiencer",
+        "descr_trans": "体验者"
+      }
+    ],
+    "roleset_name_trans": "克服情感"
+  }
 ]

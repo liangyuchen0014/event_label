@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "desert.01",
-        "roleset_name": "to abandon",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity leaving"
-            },
-            {
-                "n": "1",
-                "descr": "entity deserted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "desert.01",
+    "roleset_name": "to abandon",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity leaving",
+        "descr_trans": "实体离开"
+      },
+      {
+        "n": "1",
+        "descr": "entity deserted",
+        "descr_trans": "实体被遗弃"
+      }
+    ],
+    "roleset_name_trans": "放弃"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "microhemagglutination.01",
-        "roleset_name": "small scale agglutination of red blood cells",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Cause of hemagglutination"
-            },
-            {
-                "n": "1",
-                "descr": "Agglutinated entity, explicit mention of red blood cells"
-            },
-            {
-                "n": "2",
-                "descr": "Instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "microhemagglutination.01",
+    "roleset_name": "small scale agglutination of red blood cells",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Cause of hemagglutination",
+        "descr_trans": "血凝的原因"
+      },
+      {
+        "n": "1",
+        "descr": "Agglutinated entity, explicit mention of red blood cells",
+        "descr_trans": "凝集实体，明确提及红细胞"
+      },
+      {
+        "n": "2",
+        "descr": "Instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "红细胞小规模凝集"
+  }
 ]

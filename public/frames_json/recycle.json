@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recycle.01",
-        "roleset_name": "use again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recycler"
-            },
-            {
-                "n": "1",
-                "descr": "garbage"
-            },
-            {
-                "n": "2",
-                "descr": "shiny new product"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "recyclable.02",
-        "roleset_name": "able to be recycled",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recycler"
-            },
-            {
-                "n": "1",
-                "descr": "garbage"
-            },
-            {
-                "n": "2",
-                "descr": "shiny new product"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recycle.01",
+    "roleset_name": "use again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recycler",
+        "descr_trans": "回收商"
+      },
+      {
+        "n": "1",
+        "descr": "garbage",
+        "descr_trans": "垃圾"
+      },
+      {
+        "n": "2",
+        "descr": "shiny new product",
+        "descr_trans": "闪亮的新产品"
+      }
+    ],
+    "roleset_name_trans": "再次使用"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "recyclable.02",
+    "roleset_name": "able to be recycled",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recycler",
+        "descr_trans": "回收商"
+      },
+      {
+        "n": "1",
+        "descr": "garbage",
+        "descr_trans": "垃圾"
+      },
+      {
+        "n": "2",
+        "descr": "shiny new product",
+        "descr_trans": "闪亮的新产品"
+      }
+    ],
+    "roleset_name_trans": "可以回收利用"
+  }
 ]

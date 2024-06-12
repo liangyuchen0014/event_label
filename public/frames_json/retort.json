@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "retort.01",
-        "roleset_name": "reply",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "replier"
-            },
-            {
-                "n": "1",
-                "descr": "in response to"
-            },
-            {
-                "n": "2",
-                "descr": "answer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "retort.01",
+    "roleset_name": "reply",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "replier",
+        "descr_trans": "折叠"
+      },
+      {
+        "n": "1",
+        "descr": "in response to",
+        "descr_trans": "回应"
+      },
+      {
+        "n": "2",
+        "descr": "answer",
+        "descr_trans": "回答"
+      }
+    ],
+    "roleset_name_trans": "回复"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sulphur.01",
-        "roleset_name": "sulphur",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of sulphuring, agent"
-            },
-            {
-                "n": "1",
-                "descr": "sulphur proper, theme"
-            },
-            {
-                "n": "2",
-                "descr": "thing sulphured, destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sulphur.01",
+    "roleset_name": "sulphur",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of sulphuring, agent",
+        "descr_trans": "硫化原因、媒介"
+      },
+      {
+        "n": "1",
+        "descr": "sulphur proper, theme",
+        "descr_trans": "硫磺本身，主题"
+      },
+      {
+        "n": "2",
+        "descr": "thing sulphured, destination",
+        "descr_trans": "硫化物，目的地"
+      }
+    ],
+    "roleset_name_trans": "硫"
+  }
 ]

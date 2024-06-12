@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fortify.01",
-        "roleset_name": "make stronger",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing being fortified"
-            },
-            {
-                "n": "3",
-                "descr": "fortified with what"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "fortify.02",
-        "roleset_name": "turn into a fort",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "fort builders"
-            },
-            {
-                "n": "1",
-                "descr": "thing becoming a fort"
-            },
-            {
-                "n": "2",
-                "descr": "materials used"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fortify.01",
+    "roleset_name": "make stronger",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing being fortified",
+        "descr_trans": "被强化的东西"
+      },
+      {
+        "n": "3",
+        "descr": "fortified with what",
+        "descr_trans": "用什么强化"
+      }
+    ],
+    "roleset_name_trans": "使更强"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "fortify.02",
+    "roleset_name": "turn into a fort",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "fort builders",
+        "descr_trans": "堡垒建设者"
+      },
+      {
+        "n": "1",
+        "descr": "thing becoming a fort",
+        "descr_trans": "东西变成堡垒"
+      },
+      {
+        "n": "2",
+        "descr": "materials used",
+        "descr_trans": "使用的材料"
+      }
+    ],
+    "roleset_name_trans": "变成堡垒"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "infer.01",
-        "roleset_name": "deduce, come to believe",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity now believing something"
-            },
-            {
-                "n": "1",
-                "descr": "belief"
-            },
-            {
-                "n": "2",
-                "descr": "source of belief"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "infer.01",
+    "roleset_name": "deduce, come to believe",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity now believing something",
+        "descr_trans": "代理，实体现在相信某事"
+      },
+      {
+        "n": "1",
+        "descr": "belief",
+        "descr_trans": "信仰"
+      },
+      {
+        "n": "2",
+        "descr": "source of belief",
+        "descr_trans": "信念的来源"
+      }
+    ],
+    "roleset_name_trans": "推断，开始相信"
+  }
 ]

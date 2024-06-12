@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "subclone.01",
-        "roleset_name": "reclone part of a previously-cloned DNA segment into a new vector",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intentional agent of subcloning (e.g. scientist)"
-            },
-            {
-                "n": "1",
-                "descr": "cloned entity"
-            },
-            {
-                "n": "2",
-                "descr": "source, parent vector"
-            },
-            {
-                "n": "3",
-                "descr": "destination vector"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "subclone.01",
+    "roleset_name": "reclone part of a previously-cloned DNA segment into a new vector",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intentional agent of subcloning (e.g. scientist)",
+        "descr_trans": "亚克隆的故意代理人（例如科学家）"
+      },
+      {
+        "n": "1",
+        "descr": "cloned entity",
+        "descr_trans": "克隆实体"
+      },
+      {
+        "n": "2",
+        "descr": "source, parent vector",
+        "descr_trans": "源、父向量"
+      },
+      {
+        "n": "3",
+        "descr": "destination vector",
+        "descr_trans": "目的地向量"
+      }
+    ],
+    "roleset_name_trans": "将先前克隆的 DNA 片段的一部分重新克隆到新载体中"
+  }
 ]

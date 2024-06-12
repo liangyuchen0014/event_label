@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disengage.01",
-        "roleset_name": "remove, take out of or off",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing removed, disengaged"
-            },
-            {
-                "n": "2",
-                "descr": "from what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disengage.01",
+    "roleset_name": "remove, take out of or off",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover, agent",
+        "descr_trans": "去除剂、剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing removed, disengaged",
+        "descr_trans": "东西被移除，脱离"
+      },
+      {
+        "n": "2",
+        "descr": "from what",
+        "descr_trans": "从何而来"
+      }
+    ],
+    "roleset_name_trans": "移除、取出或取下"
+  }
 ]

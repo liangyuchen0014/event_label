@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "hunt.01",
-        "roleset_name": "to pursue, search for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hunter"
-            },
-            {
-                "n": "1",
-                "descr": "entity hunted for"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "hunt_down.02",
-        "roleset_name": "look for until found",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hunter"
-            },
-            {
-                "n": "1",
-                "descr": "entity hunted for"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "hunt.01",
+    "roleset_name": "to pursue, search for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hunter",
+        "descr_trans": "猎人"
+      },
+      {
+        "n": "1",
+        "descr": "entity hunted for",
+        "descr_trans": "被追捕的实体"
+      }
+    ],
+    "roleset_name_trans": "去追求、寻找"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "hunt_down.02",
+    "roleset_name": "look for until found",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hunter",
+        "descr_trans": "猎人"
+      },
+      {
+        "n": "1",
+        "descr": "entity hunted for",
+        "descr_trans": "被追捕的实体"
+      }
+    ],
+    "roleset_name_trans": "寻找直到找到"
+  }
 ]

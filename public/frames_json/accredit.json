@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "accredit.01",
-        "roleset_name": "give credentials",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity furnishing credentials"
-            },
-            {
-                "n": "1",
-                "descr": "entity credited"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "accredit.01",
+    "roleset_name": "give credentials",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity furnishing credentials",
+        "descr_trans": "提供凭证的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity credited",
+        "descr_trans": "记入实体"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "提供凭据"
+  }
 ]

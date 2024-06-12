@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bankroll.01",
-        "roleset_name": "provide funding for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "financ(i)er"
-            },
-            {
-                "n": "1",
-                "descr": "thing financed"
-            },
-            {
-                "n": "2",
-                "descr": "money"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bankroll.01",
+    "roleset_name": "provide funding for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "financ(i)er",
+        "descr_trans": "金融家。"
+      },
+      {
+        "n": "1",
+        "descr": "thing financed",
+        "descr_trans": "资助的事物"
+      },
+      {
+        "n": "2",
+        "descr": "money",
+        "descr_trans": "钱"
+      }
+    ],
+    "roleset_name_trans": "提供资金"
+  }
 ]

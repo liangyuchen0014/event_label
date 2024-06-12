@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "capacitate.01",
-        "roleset_name": "make capable",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causal agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing capacitated"
-            },
-            {
-                "n": "2",
-                "descr": "instrument"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "capacitate.01",
+    "roleset_name": "make capable",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causal agent",
+        "descr_trans": "因果因素"
+      },
+      {
+        "n": "1",
+        "descr": "thing capacitated",
+        "descr_trans": "事物有能力"
+      },
+      {
+        "n": "2",
+        "descr": "instrument",
+        "descr_trans": "乐器"
+      }
+    ],
+    "roleset_name_trans": "使有能力"
+  }
 ]

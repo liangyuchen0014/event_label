@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "begrudge.01",
-        "roleset_name": "resent",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "resenter"
-            },
-            {
-                "n": "1",
-                "descr": "thing or person begrudged"
-            },
-            {
-                "n": "2",
-                "descr": "because-of, why does arg 0 begrudge arg 1?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "begrudge.01",
+    "roleset_name": "resent",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "resenter",
+        "descr_trans": "重新注册"
+      },
+      {
+        "n": "1",
+        "descr": "thing or person begrudged",
+        "descr_trans": "被嫉妒的事物或人"
+      },
+      {
+        "n": "2",
+        "descr": "because-of, why does arg 0 begrudge arg 1?",
+        "descr_trans": "因为，为什么 arg 0 嫉妒 arg 1？"
+      }
+    ],
+    "roleset_name_trans": "怨恨"
+  }
 ]

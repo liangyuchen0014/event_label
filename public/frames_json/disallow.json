@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disallow.01",
-        "roleset_name": "forbid, prohibit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity to set boundaries, agent"
-            },
-            {
-                "n": "1",
-                "descr": "forbidden action or thing"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disallow.01",
+    "roleset_name": "forbid, prohibit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity to set boundaries, agent",
+        "descr_trans": "实体设定边界，代理"
+      },
+      {
+        "n": "1",
+        "descr": "forbidden action or thing",
+        "descr_trans": "禁止的行为或事物"
+      }
+    ],
+    "roleset_name_trans": "禁止，禁止"
+  }
 ]

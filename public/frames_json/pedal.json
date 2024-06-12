@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pedal.01",
-        "roleset_name": "make a bicycle go",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "pedaller"
-            },
-            {
-                "n": "1",
-                "descr": "bicycle"
-            },
-            {
-                "n": "2",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pedal.01",
+    "roleset_name": "make a bicycle go",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "pedaller",
+        "descr_trans": "脚踏车"
+      },
+      {
+        "n": "1",
+        "descr": "bicycle",
+        "descr_trans": "自行车"
+      },
+      {
+        "n": "2",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "让自行车走起来"
+  }
 ]

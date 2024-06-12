@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "silicify.01",
-        "roleset_name": "convert into or enrich with silica",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of transformation"
-            },
-            {
-                "n": "1",
-                "descr": "entity made into silica"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "silicify.01",
+    "roleset_name": "convert into or enrich with silica",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of transformation",
+        "descr_trans": "转变的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity made into silica",
+        "descr_trans": "制成二氧化硅的实体"
+      }
+    ],
+    "roleset_name_trans": "转化为二氧化硅或富含二氧化硅"
+  }
 ]

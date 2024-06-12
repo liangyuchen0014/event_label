@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "clank.01",
-        "roleset_name": "emit clanking noises",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "emitter of noise"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "clank.02",
-        "roleset_name": "move while making clanking noises",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "1",
-                "descr": "path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "clank.01",
+    "roleset_name": "emit clanking noises",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "emitter of noise",
+        "descr_trans": "噪声发射器"
+      }
+    ],
+    "roleset_name_trans": "发出叮叮当当的声音"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "clank.02",
+    "roleset_name": "move while making clanking noises",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "1",
+        "descr": "path",
+        "descr_trans": "小路"
+      }
+    ],
+    "roleset_name_trans": "移动时发出叮叮当当的声音"
+  }
 ]

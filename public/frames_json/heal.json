@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "heal.01",
-        "roleset_name": "to cure or repair",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity causing cure"
-            },
-            {
-                "n": "1",
-                "descr": "entity healed"
-            },
-            {
-                "n": "2",
-                "descr": "healed of what? illness"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "heal.01",
+    "roleset_name": "to cure or repair",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity causing cure",
+        "descr_trans": "导致治愈的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity healed",
+        "descr_trans": "实体被治愈"
+      },
+      {
+        "n": "2",
+        "descr": "healed of what? illness",
+        "descr_trans": "治愈了什么？疾病"
+      }
+    ],
+    "roleset_name_trans": "治愈或修复"
+  }
 ]

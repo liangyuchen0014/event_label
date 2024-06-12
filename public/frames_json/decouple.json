@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "decouple.01",
-        "roleset_name": "take apart, separate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Agent, cause of separation"
-            },
-            {
-                "n": "1",
-                "descr": "First or all (where one constituent) things being separated"
-            },
-            {
-                "n": "2",
-                "descr": "Thing being separated from (when separate constituent)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "decouple.01",
+    "roleset_name": "take apart, separate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Agent, cause of separation",
+        "descr_trans": "代理人、分手原因"
+      },
+      {
+        "n": "1",
+        "descr": "First or all (where one constituent) things being separated",
+        "descr_trans": "首先或所有（其中一个组成部分）事物被分离"
+      },
+      {
+        "n": "2",
+        "descr": "Thing being separated from (when separate constituent)",
+        "descr_trans": "被分离的事物（当分离的组成部分时）"
+      }
+    ],
+    "roleset_name_trans": "拆开，分开"
+  }
 ]

@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ride.01",
-        "roleset_name": "as a horse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rider"
-            },
-            {
-                "n": "1",
-                "descr": "steed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "ride_out.02",
-        "roleset_name": "endure, persevere through",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "rider"
-            },
-            {
-                "n": "1",
-                "descr": "the storm"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "ride_up.03",
-        "roleset_name": "to inch up, like clothing",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing inching up, clothes"
-            },
-            {
-                "n": "2",
-                "descr": "thing that arg1 is inching up, body in ill-fitting clothes"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ride.01",
+    "roleset_name": "as a horse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rider",
+        "descr_trans": "骑士"
+      },
+      {
+        "n": "1",
+        "descr": "steed",
+        "descr_trans": "骏马"
+      }
+    ],
+    "roleset_name_trans": "作为一匹马"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "ride_out.02",
+    "roleset_name": "endure, persevere through",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "rider",
+        "descr_trans": "骑士"
+      },
+      {
+        "n": "1",
+        "descr": "the storm",
+        "descr_trans": "风暴"
+      }
+    ],
+    "roleset_name_trans": "忍受，坚持到底"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "ride_up.03",
+    "roleset_name": "to inch up, like clothing",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing inching up, clothes",
+        "descr_trans": "东西慢慢上升，衣服"
+      },
+      {
+        "n": "2",
+        "descr": "thing that arg1 is inching up, body in ill-fitting clothes",
+        "descr_trans": "arg1 正在缓慢上升，身体穿着不合身的衣服"
+      }
+    ],
+    "roleset_name_trans": "英寸向上，就像衣服一样"
+  }
 ]

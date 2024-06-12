@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "insert.01",
-        "roleset_name": "to put or set into, between, or among, putting into/between",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "inserter"
-            },
-            {
-                "n": "1",
-                "descr": "entity inserted"
-            },
-            {
-                "n": "2",
-                "descr": "inserted where"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "insert.01",
+    "roleset_name": "to put or set into, between, or among, putting into/between",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "inserter",
+        "descr_trans": "插入器"
+      },
+      {
+        "n": "1",
+        "descr": "entity inserted",
+        "descr_trans": "插入实体"
+      },
+      {
+        "n": "2",
+        "descr": "inserted where",
+        "descr_trans": "插入何处"
+      }
+    ],
+    "roleset_name_trans": "放入或设置到、之间或之中、放入/之间"
+  }
 ]

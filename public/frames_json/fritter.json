@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "fritter_away.01",
-        "roleset_name": "to spend frivolously",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "spender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "money, resources, entity frittered"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "fritter_away.01",
+    "roleset_name": "to spend frivolously",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "spender, agent",
+        "descr_trans": "花钱者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "money, resources, entity frittered",
+        "descr_trans": "金钱、资源、实体被浪费"
+      }
+    ],
+    "roleset_name_trans": "挥霍无度"
+  }
 ]

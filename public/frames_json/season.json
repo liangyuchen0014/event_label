@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "season.01",
-        "roleset_name": "make flavorful or fit",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of seasoning"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming seasoned"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, if agent is also present"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "season.02",
-        "roleset_name": "develop through aging and/or experience",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer/agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity becoming seasoned, patinaed (the pan)"
-            },
-            {
-                "n": "2",
-                "descr": "wisdom-giving experience, patina-adding substance (the oil)"
-            },
-            {
-                "n": "3",
-                "descr": "seasoned as what; role"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "season.01",
+    "roleset_name": "make flavorful or fit",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of seasoning",
+        "descr_trans": "调味的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming seasoned",
+        "descr_trans": "实体变得成熟"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, if agent is also present",
+        "descr_trans": "仪器（如果代理人也在场）"
+      }
+    ],
+    "roleset_name_trans": "使味道鲜美或合身"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "season.02",
+    "roleset_name": "develop through aging and/or experience",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer/agent",
+        "descr_trans": "原因/代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity becoming seasoned, patinaed (the pan)",
+        "descr_trans": "实体变得风干、古铜色（锅）"
+      },
+      {
+        "n": "2",
+        "descr": "wisdom-giving experience, patina-adding substance (the oil)",
+        "descr_trans": "给予智慧的经验，增加铜绿的物质（油）"
+      },
+      {
+        "n": "3",
+        "descr": "seasoned as what; role",
+        "descr_trans": "调味成什么；角色"
+      }
+    ],
+    "roleset_name_trans": "通过老化和/或经验来发展"
+  }
 ]

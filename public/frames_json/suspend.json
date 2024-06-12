@@ -1,63 +1,76 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suspend.01",
-        "roleset_name": "put a stop to, temporarily, temporarily halt a process",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "action or object being stopped"
-            },
-            {
-                "n": "2",
-                "descr": "attribute/function of arg1"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suspend.02",
-        "roleset_name": "hang",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity causing something to be suspended"
-            },
-            {
-                "n": "1",
-                "descr": "thing suspended"
-            },
-            {
-                "n": "2",
-                "descr": "suspended from"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "suspension.03",
-        "roleset_name": "receive a punitive suspension",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent/authority capable of administering suspension"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting suspended (might be a person, or their license, etc)"
-            },
-            {
-                "n": "2",
-                "descr": "position/place/activity suspended from"
-            },
-            {
-                "n": "3",
-                "descr": "crime"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suspend.01",
+    "roleset_name": "put a stop to, temporarily, temporarily halt a process",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "action or object being stopped",
+        "descr_trans": "动作或物体被停止"
+      },
+      {
+        "n": "2",
+        "descr": "attribute/function of arg1",
+        "descr_trans": "arg1 的属性/功能"
+      }
+    ],
+    "roleset_name_trans": "暂时停止一个进程"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suspend.02",
+    "roleset_name": "hang",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity causing something to be suspended",
+        "descr_trans": "代理，导致某些事情被暂停的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing suspended",
+        "descr_trans": "事情被暂停"
+      },
+      {
+        "n": "2",
+        "descr": "suspended from",
+        "descr_trans": "暂停于"
+      }
+    ],
+    "roleset_name_trans": "悬挂"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "suspension.03",
+    "roleset_name": "receive a punitive suspension",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent/authority capable of administering suspension",
+        "descr_trans": "能够实施暂停的代理人/当局"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting suspended (might be a person, or their license, etc)",
+        "descr_trans": "实体被暂停（可能是一个人，或其许可证等）"
+      },
+      {
+        "n": "2",
+        "descr": "position/place/activity suspended from",
+        "descr_trans": "暂停的位置/地点/活动"
+      },
+      {
+        "n": "3",
+        "descr": "crime",
+        "descr_trans": "犯罪"
+      }
+    ],
+    "roleset_name_trans": "受到惩罚性停职"
+  }
 ]

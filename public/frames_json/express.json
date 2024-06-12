@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "express.01",
-        "roleset_name": "say",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "speaker"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "express.02",
-        "roleset_name": "send very quickly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender"
-            },
-            {
-                "n": "1",
-                "descr": "thing sent"
-            },
-            {
-                "n": "2",
-                "descr": "sent-to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "express.03",
-        "roleset_name": "biological expression (usually of a gene)",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "gene, expressor"
-            },
-            {
-                "n": "2",
-                "descr": "protein, expressed material"
-            },
-            {
-                "n": "3",
-                "descr": "cell, organ, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "express.01",
+    "roleset_name": "say",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "speaker",
+        "descr_trans": "扬声器"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "说"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "express.02",
+    "roleset_name": "send very quickly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender",
+        "descr_trans": "发件人"
+      },
+      {
+        "n": "1",
+        "descr": "thing sent",
+        "descr_trans": "发送的东西"
+      },
+      {
+        "n": "2",
+        "descr": "sent-to",
+        "descr_trans": "发给"
+      }
+    ],
+    "roleset_name_trans": "发送得很快"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "express.03",
+    "roleset_name": "biological expression (usually of a gene)",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "gene, expressor",
+        "descr_trans": "基因、表达子"
+      },
+      {
+        "n": "2",
+        "descr": "protein, expressed material",
+        "descr_trans": "蛋白质、表达物质"
+      },
+      {
+        "n": "3",
+        "descr": "cell, organ, location",
+        "descr_trans": "细胞、器官、位置"
+      }
+    ],
+    "roleset_name_trans": "生物表达（通常是基因的）"
+  }
 ]

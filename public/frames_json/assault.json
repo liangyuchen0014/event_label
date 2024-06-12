@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "assault.01",
-        "roleset_name": "to make an assault, attack",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "assaulter"
-            },
-            {
-                "n": "1",
-                "descr": "entity assaulted"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "assault.01",
+    "roleset_name": "to make an assault, attack",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "assaulter",
+        "descr_trans": "突击者"
+      },
+      {
+        "n": "1",
+        "descr": "entity assaulted",
+        "descr_trans": "实体受到攻击"
+      }
+    ],
+    "roleset_name_trans": "进行攻击，攻击"
+  }
 ]

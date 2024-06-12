@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "yowl.01",
-        "roleset_name": "a long wail, like that of a dog",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "yowler"
-            },
-            {
-                "n": "1",
-                "descr": "utterance"
-            },
-            {
-                "n": "2",
-                "descr": "hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "yowl.01",
+    "roleset_name": "a long wail, like that of a dog",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "yowler",
+        "descr_trans": "吼叫者"
+      },
+      {
+        "n": "1",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      },
+      {
+        "n": "2",
+        "descr": "hearer",
+        "descr_trans": "听者"
+      }
+    ],
+    "roleset_name_trans": "长长的哀号，像狗一样"
+  }
 ]

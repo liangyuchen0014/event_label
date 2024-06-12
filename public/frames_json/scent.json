@@ -1,59 +1,71 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "scent.01",
-        "roleset_name": "fill with the odor of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer"
-            },
-            {
-                "n": "1",
-                "descr": "thing scented"
-            },
-            {
-                "n": "2",
-                "descr": "substance, scent"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "scent.02",
-        "roleset_name": "catch the scent of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the smelling"
-            },
-            {
-                "n": "1",
-                "descr": "the scent"
-            },
-            {
-                "n": "2",
-                "descr": "air or environment carrying the scent"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "scent_out.03",
-        "roleset_name": "find by following the scent of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity doing the smelling"
-            },
-            {
-                "n": "1",
-                "descr": "thing found by its scent"
-            },
-            {
-                "n": "2",
-                "descr": "source leading to the discovery of Arg 1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "scent.01",
+    "roleset_name": "fill with the odor of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer",
+        "descr_trans": "代理人、原因"
+      },
+      {
+        "n": "1",
+        "descr": "thing scented",
+        "descr_trans": "有香味的东西"
+      },
+      {
+        "n": "2",
+        "descr": "substance, scent",
+        "descr_trans": "物质、气味"
+      }
+    ],
+    "roleset_name_trans": "充满了气味"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "scent.02",
+    "roleset_name": "catch the scent of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the smelling",
+        "descr_trans": "进行嗅觉的实体"
+      },
+      {
+        "n": "1",
+        "descr": "the scent",
+        "descr_trans": "味道"
+      },
+      {
+        "n": "2",
+        "descr": "air or environment carrying the scent",
+        "descr_trans": "带有气味的空气或环境"
+      }
+    ],
+    "roleset_name_trans": "闻到气味"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "scent_out.03",
+    "roleset_name": "find by following the scent of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity doing the smelling",
+        "descr_trans": "进行嗅觉的实体"
+      },
+      {
+        "n": "1",
+        "descr": "thing found by its scent",
+        "descr_trans": "通过气味发现的东西"
+      },
+      {
+        "n": "2",
+        "descr": "source leading to the discovery of Arg 1",
+        "descr_trans": "导致 Arg 1 发现的来源"
+      }
+    ],
+    "roleset_name_trans": "循着气味寻找"
+  }
 ]

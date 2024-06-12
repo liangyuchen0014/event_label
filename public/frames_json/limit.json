@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "limit.01",
-        "roleset_name": "ensure something stays below a certain level, cap, keep below a ceratin level",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, limiter"
-            },
-            {
-                "n": "1",
-                "descr": "thing limited"
-            },
-            {
-                "n": "2",
-                "descr": "limit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "limit.01",
+    "roleset_name": "ensure something stays below a certain level, cap, keep below a ceratin level",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, limiter",
+        "descr_trans": "代理、限制器"
+      },
+      {
+        "n": "1",
+        "descr": "thing limited",
+        "descr_trans": "东西有限"
+      },
+      {
+        "n": "2",
+        "descr": "limit",
+        "descr_trans": "限制"
+      }
+    ],
+    "roleset_name_trans": "确保某些东西保持在一定水平以下，上限，保持在某个水平以下"
+  }
 ]

@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "foliate.01",
-        "roleset_name": "to paginate, number pages",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, numberer"
-            },
-            {
-                "n": "1",
-                "descr": "book, pages numbered"
-            },
-            {
-                "n": "2",
-                "descr": "attribute, numbers themselves"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "foliate.02",
-        "roleset_name": "to grow leaves",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "plant growing"
-            },
-            {
-                "n": "2",
-                "descr": "leaves themselves"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "foliate.01",
+    "roleset_name": "to paginate, number pages",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, numberer",
+        "descr_trans": "代理人、编号员"
+      },
+      {
+        "n": "1",
+        "descr": "book, pages numbered",
+        "descr_trans": "书，页码"
+      },
+      {
+        "n": "2",
+        "descr": "attribute, numbers themselves",
+        "descr_trans": "属性，数字本身"
+      }
+    ],
+    "roleset_name_trans": "分页、页码"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "foliate.02",
+    "roleset_name": "to grow leaves",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "plant growing",
+        "descr_trans": "植物生长"
+      },
+      {
+        "n": "2",
+        "descr": "leaves themselves",
+        "descr_trans": "离开自己"
+      }
+    ],
+    "roleset_name_trans": "长出叶子"
+  }
 ]

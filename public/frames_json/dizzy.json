@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "dizzy.01",
-        "roleset_name": "(cause to) become dizzy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of dizziness"
-            },
-            {
-                "n": "1",
-                "descr": "dizzy entity"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "dizzy.02",
-        "roleset_name": "feel a disorienting spinning sensation",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of dizziness"
-            },
-            {
-                "n": "1",
-                "descr": "dizzy entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "dizzy.01",
+    "roleset_name": "(cause to) become dizzy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of dizziness",
+        "descr_trans": "头晕的原因"
+      },
+      {
+        "n": "1",
+        "descr": "dizzy entity",
+        "descr_trans": "令人晕眩的实体"
+      }
+    ],
+    "roleset_name_trans": "（导致）头晕"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "dizzy.02",
+    "roleset_name": "feel a disorienting spinning sensation",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of dizziness",
+        "descr_trans": "头晕的原因"
+      },
+      {
+        "n": "1",
+        "descr": "dizzy entity",
+        "descr_trans": "令人晕眩的实体"
+      }
+    ],
+    "roleset_name_trans": "感到一种迷失方向的旋转感"
+  }
 ]

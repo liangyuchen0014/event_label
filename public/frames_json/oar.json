@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "oar.01",
-        "roleset_name": "oar",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Oarer, rower, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing oared/rowed, passenger/boat, theme"
-            },
-            {
-                "n": "2",
-                "descr": "path"
-            },
-            {
-                "n": "3",
-                "descr": "destination"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "oar.01",
+    "roleset_name": "oar",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Oarer, rower, agent",
+        "descr_trans": "桨手、桨手、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "thing oared/rowed, passenger/boat, theme",
+        "descr_trans": "划桨/划桨的东西、乘客/船、主题"
+      },
+      {
+        "n": "2",
+        "descr": "path",
+        "descr_trans": "小路"
+      },
+      {
+        "n": "3",
+        "descr": "destination",
+        "descr_trans": "目的地"
+      }
+    ],
+    "roleset_name_trans": "桨"
+  }
 ]

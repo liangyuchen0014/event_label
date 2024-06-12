@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "serious.01",
-        "roleset_name": "focused, not joking around",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "serious entity"
-            },
-            {
-                "n": "2",
-                "descr": "serious about what?"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "serious.02",
-        "roleset_name": "grave, of great importance",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "grave thing/condition"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "serious.01",
+    "roleset_name": "focused, not joking around",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "serious entity",
+        "descr_trans": "严肃的实体"
+      },
+      {
+        "n": "2",
+        "descr": "serious about what?",
+        "descr_trans": "认真对待什么？"
+      }
+    ],
+    "roleset_name_trans": "专注，不开玩笑"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "serious.02",
+    "roleset_name": "grave, of great importance",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "grave thing/condition",
+        "descr_trans": "严重的事情/情况"
+      }
+    ],
+    "roleset_name_trans": "严重的，非常重要的"
+  }
 ]

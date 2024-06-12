@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nontender.01",
-        "roleset_name": "not inclined toward feeling pain easily",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of pain"
-            },
-            {
-                "n": "1",
-                "descr": "entity not feeling pain"
-            },
-            {
-                "n": "2",
-                "descr": "more specific body part, if in addition to arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nontender.01",
+    "roleset_name": "not inclined toward feeling pain easily",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of pain",
+        "descr_trans": "疼痛的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity not feeling pain",
+        "descr_trans": "实体感觉不到疼痛"
+      },
+      {
+        "n": "2",
+        "descr": "more specific body part, if in addition to arg1",
+        "descr_trans": "更具体的身体部位，如果除了 arg1 之外"
+      }
+    ],
+    "roleset_name_trans": "不倾向于轻易感到疼痛"
+  }
 ]

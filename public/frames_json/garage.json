@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "garage.01",
-        "roleset_name": "to put or keep in a garage",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "storer"
-            },
-            {
-                "n": "1",
-                "descr": "stored"
-            },
-            {
-                "n": "2",
-                "descr": "garage, location"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "garage.01",
+    "roleset_name": "to put or keep in a garage",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "storer",
+        "descr_trans": "更大"
+      },
+      {
+        "n": "1",
+        "descr": "stored",
+        "descr_trans": "已存储"
+      },
+      {
+        "n": "2",
+        "descr": "garage, location",
+        "descr_trans": "车库, 位置"
+      }
+    ],
+    "roleset_name_trans": "放在或存放在车库里"
+  }
 ]

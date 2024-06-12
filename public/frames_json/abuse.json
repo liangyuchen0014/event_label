@@ -1,51 +1,61 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "abuse.01",
-        "roleset_name": "mistreat a person or animal, often repeatedly, with violence or with cruelty",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abuser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity abused"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "abuse.02",
-        "roleset_name": "use (something) to bad effect or for a bad purpose; misuse",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "user"
-            },
-            {
-                "n": "1",
-                "descr": "thing misused"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "abuse.03",
-        "roleset_name": "use offending language",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "abuser, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity insulted"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of utterance or insult"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "abuse.01",
+    "roleset_name": "mistreat a person or animal, often repeatedly, with violence or with cruelty",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abuser, agent",
+        "descr_trans": "施虐者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity abused",
+        "descr_trans": "实体被滥用"
+      }
+    ],
+    "roleset_name_trans": "经常以暴力或残忍手段虐待人或动物"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "abuse.02",
+    "roleset_name": "use (something) to bad effect or for a bad purpose; misuse",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "user",
+        "descr_trans": "用户"
+      },
+      {
+        "n": "1",
+        "descr": "thing misused",
+        "descr_trans": "东西被滥用"
+      }
+    ],
+    "roleset_name_trans": "使用（某物）产生不良影响或达到不良目的；滥用"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "abuse.03",
+    "roleset_name": "use offending language",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "abuser, agent",
+        "descr_trans": "施虐者、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity insulted",
+        "descr_trans": "实体受到侮辱"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of utterance or insult",
+        "descr_trans": "明确提及言语或侮辱"
+      }
+    ],
+    "roleset_name_trans": "使用令人反感的语言"
+  }
 ]

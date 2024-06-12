@@ -1,56 +1,68 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "align.01",
-        "roleset_name": "(cause to) be parallel, harmonious",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first or all things made parallel"
-            },
-            {
-                "n": "2",
-                "descr": "entity parallelled"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter, domain of alignment; issue aligned on"
-            },
-            {
-                "n": "4",
-                "descr": "Arg1's parallel axis"
-            },
-            {
-                "n": "5",
-                "descr": "Arg2's parallel axis"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "align.02",
-        "roleset_name": "(cause to) exist on a single line",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "first or all things put in a line"
-            },
-            {
-                "n": "2",
-                "descr": "other entities already forming a line"
-            },
-            {
-                "n": "3",
-                "descr": "axis"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "align.01",
+    "roleset_name": "(cause to) be parallel, harmonious",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first or all things made parallel",
+        "descr_trans": "首先或所有事物都是平行的"
+      },
+      {
+        "n": "2",
+        "descr": "entity parallelled",
+        "descr_trans": "实体平行"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter, domain of alignment; issue aligned on",
+        "descr_trans": "主题、对齐领域；问题对齐于"
+      },
+      {
+        "n": "4",
+        "descr": "Arg1's parallel axis",
+        "descr_trans": "Arg1 的平行轴"
+      },
+      {
+        "n": "5",
+        "descr": "Arg2's parallel axis",
+        "descr_trans": "Arg2 的平行轴"
+      }
+    ],
+    "roleset_name_trans": "（导致）平行、和谐"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "align.02",
+    "roleset_name": "(cause to) exist on a single line",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "first or all things put in a line",
+        "descr_trans": "首先或所有的东西排成一行"
+      },
+      {
+        "n": "2",
+        "descr": "other entities already forming a line",
+        "descr_trans": "其他实体已经排成一队"
+      },
+      {
+        "n": "3",
+        "descr": "axis",
+        "descr_trans": "轴"
+      }
+    ],
+    "roleset_name_trans": "（导致）存在于一行中"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reinitiate.01",
-        "roleset_name": "begin again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer"
-            },
-            {
-                "n": "1",
-                "descr": "theme, patient"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, medication"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reinitiate.01",
+    "roleset_name": "begin again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer",
+        "descr_trans": "原因"
+      },
+      {
+        "n": "1",
+        "descr": "theme, patient",
+        "descr_trans": "主题, 病人"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, medication",
+        "descr_trans": "仪器、药物"
+      }
+    ],
+    "roleset_name_trans": "重新开始"
+  }
 ]

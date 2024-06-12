@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "weed.01",
-        "roleset_name": "remove",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "weeder"
-            },
-            {
-                "n": "1",
-                "descr": "location the weeds are removed from"
-            },
-            {
-                "n": "2",
-                "descr": "weed, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "weed.01",
+    "roleset_name": "remove",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "weeder",
+        "descr_trans": "再次"
+      },
+      {
+        "n": "1",
+        "descr": "location the weeds are removed from",
+        "descr_trans": "杂草被清除的位置"
+      },
+      {
+        "n": "2",
+        "descr": "weed, thing removed",
+        "descr_trans": "杂草，除去的东西"
+      }
+    ],
+    "roleset_name_trans": "消除"
+  }
 ]

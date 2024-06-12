@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "confer.01",
-        "roleset_name": "meet with, have a conference with",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "one party"
-            },
-            {
-                "n": "1",
-                "descr": "other party"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "confer.02",
-        "roleset_name": "grant, give, convey",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "giver"
-            },
-            {
-                "n": "1",
-                "descr": "gift"
-            },
-            {
-                "n": "2",
-                "descr": "given to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "conference_in.03",
-        "roleset_name": "join a conference remotely",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "conference chair, one organizing call"
-            },
-            {
-                "n": "1",
-                "descr": "entity joining"
-            },
-            {
-                "n": "2",
-                "descr": "meeting, event joined"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "confer.01",
+    "roleset_name": "meet with, have a conference with",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "one party",
+        "descr_trans": "一方"
+      },
+      {
+        "n": "1",
+        "descr": "other party",
+        "descr_trans": "对方"
+      }
+    ],
+    "roleset_name_trans": "与 会面，与 开会"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "confer.02",
+    "roleset_name": "grant, give, convey",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "giver",
+        "descr_trans": "给予者"
+      },
+      {
+        "n": "1",
+        "descr": "gift",
+        "descr_trans": "礼物"
+      },
+      {
+        "n": "2",
+        "descr": "given to",
+        "descr_trans": "给予"
+      }
+    ],
+    "roleset_name_trans": "授予、给予、传达"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "conference_in.03",
+    "roleset_name": "join a conference remotely",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "conference chair, one organizing call",
+        "descr_trans": "会议主席，一次组织电话"
+      },
+      {
+        "n": "1",
+        "descr": "entity joining",
+        "descr_trans": "实体加入"
+      },
+      {
+        "n": "2",
+        "descr": "meeting, event joined",
+        "descr_trans": "会议、活动加入"
+      }
+    ],
+    "roleset_name_trans": "远程加入会议"
+  }
 ]

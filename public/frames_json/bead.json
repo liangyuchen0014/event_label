@@ -1,71 +1,86 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bead.01",
-        "roleset_name": "form into beads (as a substance)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive producer of liquid (may not occur)"
-            },
-            {
-                "n": "1",
-                "descr": "theme, liquid substance forming into drops"
-            },
-            {
-                "n": "2",
-                "descr": "source, non-agentive producer of liquid"
-            },
-            {
-                "n": "3",
-                "descr": "location of the beads"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bead.02",
-        "roleset_name": "apply beads to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, person doing the beading"
-            },
-            {
-                "n": "1",
-                "descr": "theme, beads"
-            },
-            {
-                "n": "2",
-                "descr": "thing being covered in beads, destination"
-            },
-            {
-                "n": "3",
-                "descr": "pattern/ design"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bead_up.03",
-        "roleset_name": "bead_up",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agentive producer of liquid (may not occur)"
-            },
-            {
-                "n": "1",
-                "descr": "theme, liquid substance forming into drops"
-            },
-            {
-                "n": "2",
-                "descr": "source, non-agentive producer of liquid"
-            },
-            {
-                "n": "3",
-                "descr": "location of the beads"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bead.01",
+    "roleset_name": "form into beads (as a substance)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive producer of liquid (may not occur)",
+        "descr_trans": "液体的代理生产者（可能不会发生）"
+      },
+      {
+        "n": "1",
+        "descr": "theme, liquid substance forming into drops",
+        "descr_trans": "主题，液态物质形成水滴"
+      },
+      {
+        "n": "2",
+        "descr": "source, non-agentive producer of liquid",
+        "descr_trans": "来源，液体的非代理生产者"
+      },
+      {
+        "n": "3",
+        "descr": "location of the beads",
+        "descr_trans": "珠子的位置"
+      }
+    ],
+    "roleset_name_trans": "形成珠子（作为物质）"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bead.02",
+    "roleset_name": "apply beads to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, person doing the beading",
+        "descr_trans": "代理人，做串珠的人"
+      },
+      {
+        "n": "1",
+        "descr": "theme, beads",
+        "descr_trans": "主题, 珠子"
+      },
+      {
+        "n": "2",
+        "descr": "thing being covered in beads, destination",
+        "descr_trans": "被珠子覆盖的东西，目的地"
+      },
+      {
+        "n": "3",
+        "descr": "pattern/ design",
+        "descr_trans": "模式设计"
+      }
+    ],
+    "roleset_name_trans": "将珠子应用到"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bead_up.03",
+    "roleset_name": "bead_up",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agentive producer of liquid (may not occur)",
+        "descr_trans": "液体的代理生产者（可能不会发生）"
+      },
+      {
+        "n": "1",
+        "descr": "theme, liquid substance forming into drops",
+        "descr_trans": "主题，液态物质形成水滴"
+      },
+      {
+        "n": "2",
+        "descr": "source, non-agentive producer of liquid",
+        "descr_trans": "来源，液体的非代理生产者"
+      },
+      {
+        "n": "3",
+        "descr": "location of the beads",
+        "descr_trans": "珠子的位置"
+      }
+    ],
+    "roleset_name_trans": "串珠"
+  }
 ]

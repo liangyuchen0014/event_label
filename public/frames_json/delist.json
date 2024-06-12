@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "delist.01",
-        "roleset_name": "take off of a list",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "lister"
-            },
-            {
-                "n": "1",
-                "descr": "item"
-            },
-            {
-                "n": "2",
-                "descr": "list"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "delist.01",
+    "roleset_name": "take off of a list",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "lister",
+        "descr_trans": "利斯特"
+      },
+      {
+        "n": "1",
+        "descr": "item",
+        "descr_trans": "物品"
+      },
+      {
+        "n": "2",
+        "descr": "list",
+        "descr_trans": "列表"
+      }
+    ],
+    "roleset_name_trans": "从清单中删除"
+  }
 ]

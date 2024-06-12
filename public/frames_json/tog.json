@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tog.01",
-        "roleset_name": "tog",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity putting on clothes"
-            },
-            {
-                "n": "1",
-                "descr": "entity dressed up, decorated, wearing clothes (often reflexive)"
-            },
-            {
-                "n": "2",
-                "descr": "clothing itself or attribute; dressed up as what?"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tog.01",
+    "roleset_name": "tog",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity putting on clothes",
+        "descr_trans": "实体穿上衣服"
+      },
+      {
+        "n": "1",
+        "descr": "entity dressed up, decorated, wearing clothes (often reflexive)",
+        "descr_trans": "实体打扮、装饰、穿着衣服（通常是条件反射）"
+      },
+      {
+        "n": "2",
+        "descr": "clothing itself or attribute; dressed up as what?",
+        "descr_trans": "服装本身或属性；打扮成什么？"
+      }
+    ],
+    "roleset_name_trans": "拿"
+  }
 ]

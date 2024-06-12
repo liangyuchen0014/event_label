@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "friction.01",
-        "roleset_name": "the force of one surface rubbing against another",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first surface"
-            },
-            {
-                "n": "2",
-                "descr": "second surface"
-            },
-            {
-                "n": "3",
-                "descr": "measurement"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "friction.02",
-        "roleset_name": "conflict",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "first involvee in conflict"
-            },
-            {
-                "n": "2",
-                "descr": "second involvee in conflict"
-            },
-            {
-                "n": "3",
-                "descr": "subject matter of conflict"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "friction.01",
+    "roleset_name": "the force of one surface rubbing against another",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first surface",
+        "descr_trans": "第一表面"
+      },
+      {
+        "n": "2",
+        "descr": "second surface",
+        "descr_trans": "第二表面"
+      },
+      {
+        "n": "3",
+        "descr": "measurement",
+        "descr_trans": "测量"
+      }
+    ],
+    "roleset_name_trans": "一个表面与另一个表面摩擦的力"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "friction.02",
+    "roleset_name": "conflict",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "first involvee in conflict",
+        "descr_trans": "第一个卷入冲突的人"
+      },
+      {
+        "n": "2",
+        "descr": "second involvee in conflict",
+        "descr_trans": "冲突的第二参与者"
+      },
+      {
+        "n": "3",
+        "descr": "subject matter of conflict",
+        "descr_trans": "冲突的主题"
+      }
+    ],
+    "roleset_name_trans": "冲突"
+  }
 ]

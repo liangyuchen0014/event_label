@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "suppose.01",
-        "roleset_name": "think, assume",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Thinker"
-            },
-            {
-                "n": "1",
-                "descr": "Thing thought about"
-            },
-            {
-                "n": "2",
-                "descr": "Attributive, how arg1 is thought about"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "suppose.02",
-        "roleset_name": "s'pos'ta",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing seeming"
-            },
-            {
-                "n": "2",
-                "descr": "attribute"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "suppose.01",
+    "roleset_name": "think, assume",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Thinker",
+        "descr_trans": "思想家"
+      },
+      {
+        "n": "1",
+        "descr": "Thing thought about",
+        "descr_trans": "想到的事情"
+      },
+      {
+        "n": "2",
+        "descr": "Attributive, how arg1 is thought about",
+        "descr_trans": "定语，如何考虑 arg1"
+      }
+    ],
+    "roleset_name_trans": "思考、假设"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "suppose.02",
+    "roleset_name": "s'pos'ta",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing seeming",
+        "descr_trans": "看起来的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute",
+        "descr_trans": "属性"
+      }
+    ],
+    "roleset_name_trans": "邮报"
+  }
 ]

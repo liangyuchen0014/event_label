@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "channel.01",
-        "roleset_name": "direct",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "director"
-            },
-            {
-                "n": "1",
-                "descr": "thing directed"
-            },
-            {
-                "n": "2",
-                "descr": "direction, towards what"
-            },
-            {
-                "n": "3",
-                "descr": "source"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "channel.02",
-        "roleset_name": "cause a channel or hollow to form",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cause of forming hollow"
-            },
-            {
-                "n": "1",
-                "descr": "channel, hollow formed"
-            },
-            {
-                "n": "2",
-                "descr": "formed where or carved into/out of what"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "channel.01",
+    "roleset_name": "direct",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "director",
+        "descr_trans": "导演"
+      },
+      {
+        "n": "1",
+        "descr": "thing directed",
+        "descr_trans": "事物定向"
+      },
+      {
+        "n": "2",
+        "descr": "direction, towards what",
+        "descr_trans": "方向，朝向什么"
+      },
+      {
+        "n": "3",
+        "descr": "source",
+        "descr_trans": "来源"
+      }
+    ],
+    "roleset_name_trans": "直接的"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "channel.02",
+    "roleset_name": "cause a channel or hollow to form",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cause of forming hollow",
+        "descr_trans": "形成空洞的原因"
+      },
+      {
+        "n": "1",
+        "descr": "channel, hollow formed",
+        "descr_trans": "通道，空心成型"
+      },
+      {
+        "n": "2",
+        "descr": "formed where or carved into/out of what",
+        "descr_trans": "在哪里形成或刻入/刻出什么"
+      }
+    ],
+    "roleset_name_trans": "形成通道或空洞"
+  }
 ]

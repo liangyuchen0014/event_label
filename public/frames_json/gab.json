@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "gab.01",
-        "roleset_name": "talk casually",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "First (or all if in one constituent) gabber"
-            },
-            {
-                "n": "1",
-                "descr": "gossip about"
-            },
-            {
-                "n": "2",
-                "descr": "Second gossiper, hearer (when separate constituent)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "gab.01",
+    "roleset_name": "talk casually",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "First (or all if in one constituent) gabber",
+        "descr_trans": "第一个（或所有，如果在一个组成部分）胡言乱语"
+      },
+      {
+        "n": "1",
+        "descr": "gossip about",
+        "descr_trans": "八卦关于"
+      },
+      {
+        "n": "2",
+        "descr": "Second gossiper, hearer (when separate constituent)",
+        "descr_trans": "第二个闲话者，听者（当单独的组成部分时）"
+      }
+    ],
+    "roleset_name_trans": "随意交谈"
+  }
 ]

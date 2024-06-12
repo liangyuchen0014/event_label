@@ -1,82 +1,99 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bump.01",
-        "roleset_name": "hit gently",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, hitter - animate only!"
-            },
-            {
-                "n": "1",
-                "descr": "thing hit"
-            },
-            {
-                "n": "2",
-                "descr": "instrument, thing hit by or with"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bump.02",
-        "roleset_name": "move slightly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of motion"
-            },
-            {
-                "n": "1",
-                "descr": "entity in motion"
-            },
-            {
-                "n": "2",
-                "descr": "EXT"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            },
-            {
-                "n": "5",
-                "descr": "direction"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "bump_up.03",
-        "roleset_name": "collide",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "one thing in collision"
-            },
-            {
-                "n": "2",
-                "descr": "the other (usually prepositional)"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "bump_off.04",
-        "roleset_name": "assassinate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "hit man"
-            },
-            {
-                "n": "1",
-                "descr": "unlucky person"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bump.01",
+    "roleset_name": "hit gently",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, hitter - animate only!",
+        "descr_trans": "特工、击球手 - 仅动画！"
+      },
+      {
+        "n": "1",
+        "descr": "thing hit",
+        "descr_trans": "东西击中"
+      },
+      {
+        "n": "2",
+        "descr": "instrument, thing hit by or with",
+        "descr_trans": "乐器，被撞击或被撞击的东西"
+      }
+    ],
+    "roleset_name_trans": "轻轻地击打"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bump.02",
+    "roleset_name": "move slightly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of motion",
+        "descr_trans": "运动的引发者"
+      },
+      {
+        "n": "1",
+        "descr": "entity in motion",
+        "descr_trans": "运动中的实体"
+      },
+      {
+        "n": "2",
+        "descr": "EXT",
+        "descr_trans": "外部"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      },
+      {
+        "n": "5",
+        "descr": "direction",
+        "descr_trans": "方向"
+      }
+    ],
+    "roleset_name_trans": "稍微动一下"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "bump_up.03",
+    "roleset_name": "collide",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "one thing in collision",
+        "descr_trans": "碰撞中的一件事"
+      },
+      {
+        "n": "2",
+        "descr": "the other (usually prepositional)",
+        "descr_trans": "另一个（通常是介词）"
+      }
+    ],
+    "roleset_name_trans": "碰撞"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "bump_off.04",
+    "roleset_name": "assassinate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "hit man",
+        "descr_trans": "杀手"
+      },
+      {
+        "n": "1",
+        "descr": "unlucky person",
+        "descr_trans": "不幸的人"
+      }
+    ],
+    "roleset_name_trans": "暗杀"
+  }
 ]

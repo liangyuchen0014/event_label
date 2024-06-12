@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "miscommunicate.01",
-        "roleset_name": "communicate poorly, or failingly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "poor communicator"
-            },
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "other communicator"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "miscommunicate.01",
+    "roleset_name": "communicate poorly, or failingly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "poor communicator",
+        "descr_trans": "沟通能力差"
+      },
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "other communicator",
+        "descr_trans": "其他通讯器"
+      }
+    ],
+    "roleset_name_trans": "沟通不良或失败"
+  }
 ]

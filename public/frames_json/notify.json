@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "notify.01",
-        "roleset_name": "tell, alert",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "notifier, teller"
-            },
-            {
-                "n": "1",
-                "descr": "entity notified, told"
-            },
-            {
-                "n": "2",
-                "descr": "utterance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "notify.01",
+    "roleset_name": "tell, alert",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "notifier, teller",
+        "descr_trans": "通知，告诉"
+      },
+      {
+        "n": "1",
+        "descr": "entity notified, told",
+        "descr_trans": "实体通知、告知"
+      },
+      {
+        "n": "2",
+        "descr": "utterance",
+        "descr_trans": "发声"
+      }
+    ],
+    "roleset_name_trans": "告诉、警告"
+  }
 ]

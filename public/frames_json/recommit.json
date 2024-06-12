@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "recommit.01",
-        "roleset_name": "commit again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "recommitter"
-            },
-            {
-                "n": "1",
-                "descr": "committed"
-            },
-            {
-                "n": "2",
-                "descr": "committed to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "recommit.01",
+    "roleset_name": "commit again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "recommitter",
+        "descr_trans": "重新提交者"
+      },
+      {
+        "n": "1",
+        "descr": "committed",
+        "descr_trans": "坚定的"
+      },
+      {
+        "n": "2",
+        "descr": "committed to",
+        "descr_trans": "承诺"
+      }
+    ],
+    "roleset_name_trans": "再次提交"
+  }
 ]

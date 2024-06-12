@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deglaciate.01",
-        "roleset_name": "lose glacier-cover",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of glacier-loss"
-            },
-            {
-                "n": "1",
-                "descr": "location losing its glacier cover"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deglaciate.01",
+    "roleset_name": "lose glacier-cover",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of glacier-loss",
+        "descr_trans": "冰川消失的原因"
+      },
+      {
+        "n": "1",
+        "descr": "location losing its glacier cover",
+        "descr_trans": "失去冰川覆盖的位置"
+      }
+    ],
+    "roleset_name_trans": "失去冰川覆盖"
+  }
 ]

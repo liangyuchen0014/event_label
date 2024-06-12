@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "consign.01",
-        "roleset_name": "send to lesser status",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "sender, agent"
-            },
-            {
-                "n": "1",
-                "descr": "trash"
-            },
-            {
-                "n": "2",
-                "descr": "lesser status"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "consign.01",
+    "roleset_name": "send to lesser status",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "sender, agent",
+        "descr_trans": "发件人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "trash",
+        "descr_trans": "垃圾"
+      },
+      {
+        "n": "2",
+        "descr": "lesser status",
+        "descr_trans": "地位较低"
+      }
+    ],
+    "roleset_name_trans": "发送至较低状态"
+  }
 ]

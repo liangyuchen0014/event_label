@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "acidify.01",
-        "roleset_name": "make acidic",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of acidity, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing now acidic"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "acidify.01",
+    "roleset_name": "make acidic",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of acidity, agent",
+        "descr_trans": "酸度的原因，代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing now acidic",
+        "descr_trans": "现在的东西呈酸性"
+      }
+    ],
+    "roleset_name_trans": "使酸性"
+  }
 ]

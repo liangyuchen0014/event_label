@@ -1,97 +1,117 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "apply.01",
-        "roleset_name": "ask for",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "thing applied for"
-            },
-            {
-                "n": "2",
-                "descr": "entity applied to"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "apply.02",
-        "roleset_name": "associate with, work at or on",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "applier"
-            },
-            {
-                "n": "1",
-                "descr": "thing applied, associated, worked"
-            },
-            {
-                "n": "2",
-                "descr": "applied to"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "apply.03",
-        "roleset_name": "painting",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "painter, agent"
-            },
-            {
-                "n": "1",
-                "descr": "paint"
-            },
-            {
-                "n": "2",
-                "descr": "surface"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, brush"
-            }
-        ]
-    },
-    {
-        "uid": 4,
-        "roleset_id": "apply.04",
-        "roleset_name": "specialized: apply brakes",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "driver"
-            },
-            {
-                "n": "1",
-                "descr": "brakes"
-            }
-        ]
-    },
-    {
-        "uid": 5,
-        "roleset_id": "applicable.05",
-        "roleset_name": "pertaining to, able to be applied (abstract)",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "applicable thing"
-            },
-            {
-                "n": "2",
-                "descr": "applicable to"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "apply.01",
+    "roleset_name": "ask for",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "thing applied for",
+        "descr_trans": "申请的东西"
+      },
+      {
+        "n": "2",
+        "descr": "entity applied to",
+        "descr_trans": "实体应用于"
+      }
+    ],
+    "roleset_name_trans": "要求"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "apply.02",
+    "roleset_name": "associate with, work at or on",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "applier",
+        "descr_trans": "应用者"
+      },
+      {
+        "n": "1",
+        "descr": "thing applied, associated, worked",
+        "descr_trans": "事物应用、关联、起作用"
+      },
+      {
+        "n": "2",
+        "descr": "applied to",
+        "descr_trans": "应用于"
+      }
+    ],
+    "roleset_name_trans": "与…交往、在…工作或在…工作"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "apply.03",
+    "roleset_name": "painting",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "painter, agent",
+        "descr_trans": "画家、经纪人"
+      },
+      {
+        "n": "1",
+        "descr": "paint",
+        "descr_trans": "画"
+      },
+      {
+        "n": "2",
+        "descr": "surface",
+        "descr_trans": "表面"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, brush",
+        "descr_trans": "仪器、刷子"
+      }
+    ],
+    "roleset_name_trans": "绘画"
+  },
+  {
+    "uid": 4,
+    "roleset_id": "apply.04",
+    "roleset_name": "specialized: apply brakes",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "driver",
+        "descr_trans": "司机"
+      },
+      {
+        "n": "1",
+        "descr": "brakes",
+        "descr_trans": "刹车"
+      }
+    ],
+    "roleset_name_trans": "专业：踩刹车"
+  },
+  {
+    "uid": 5,
+    "roleset_id": "applicable.05",
+    "roleset_name": "pertaining to, able to be applied (abstract)",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "applicable thing",
+        "descr_trans": "适用的东西"
+      },
+      {
+        "n": "2",
+        "descr": "applicable to",
+        "descr_trans": "适用于"
+      }
+    ],
+    "roleset_name_trans": "属于，能够应用（摘要）"
+  }
 ]

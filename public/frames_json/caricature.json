@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "caricature.01",
-        "roleset_name": "to produce a caricature of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "caricaturist"
-            },
-            {
-                "n": "1",
-                "descr": "entity caricatured"
-            },
-            {
-                "n": "2",
-                "descr": "secondary predicate"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "caricature.01",
+    "roleset_name": "to produce a caricature of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "caricaturist",
+        "descr_trans": "漫画家"
+      },
+      {
+        "n": "1",
+        "descr": "entity caricatured",
+        "descr_trans": "实体漫画"
+      },
+      {
+        "n": "2",
+        "descr": "secondary predicate",
+        "descr_trans": "次谓词"
+      }
+    ],
+    "roleset_name_trans": "制作一幅漫画"
+  }
 ]

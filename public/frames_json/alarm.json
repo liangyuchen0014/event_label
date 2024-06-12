@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "alarm.01",
-        "roleset_name": "to give warning to, frighten",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "warning"
-            },
-            {
-                "n": "1",
-                "descr": "entity alarmed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "alarm.01",
+    "roleset_name": "to give warning to, frighten",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "warning",
+        "descr_trans": "警告"
+      },
+      {
+        "n": "1",
+        "descr": "entity alarmed",
+        "descr_trans": "实体感到惊慌"
+      }
+    ],
+    "roleset_name_trans": "警告、恐吓"
+  }
 ]

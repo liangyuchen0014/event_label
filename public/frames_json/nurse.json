@@ -1,36 +1,43 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "nurse.01",
-        "roleset_name": "try to cure",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "nurse, agent"
-            },
-            {
-                "n": "1",
-                "descr": "entity nursed"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "nurse.02",
-        "roleset_name": "breastfeed, feeding by/with breast",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "Feeder, mother"
-            },
-            {
-                "n": "1",
-                "descr": "Milk"
-            },
-            {
-                "n": "2",
-                "descr": "Recipient, baby"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "nurse.01",
+    "roleset_name": "try to cure",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "nurse, agent",
+        "descr_trans": "护士、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "entity nursed",
+        "descr_trans": "实体护理"
+      }
+    ],
+    "roleset_name_trans": "尝试治愈"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "nurse.02",
+    "roleset_name": "breastfeed, feeding by/with breast",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "Feeder, mother",
+        "descr_trans": "喂食器，妈妈"
+      },
+      {
+        "n": "1",
+        "descr": "Milk",
+        "descr_trans": "牛奶"
+      },
+      {
+        "n": "2",
+        "descr": "Recipient, baby",
+        "descr_trans": "收件人，宝贝"
+      }
+    ],
+    "roleset_name_trans": "母乳喂养，用母乳喂养/用母乳喂养"
+  }
 ]

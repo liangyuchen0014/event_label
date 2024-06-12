@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "reenter.01",
-        "roleset_name": "enter, go in",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity entering"
-            },
-            {
-                "n": "1",
-                "descr": "place or thing entered"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "reenter.02",
-        "roleset_name": "submit again, cause to enter again",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "submitter"
-            },
-            {
-                "n": "1",
-                "descr": "thing submitted"
-            },
-            {
-                "n": "2",
-                "descr": "submitted to"
-            },
-            {
-                "n": "3",
-                "descr": "benefactive"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "reenter.01",
+    "roleset_name": "enter, go in",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity entering",
+        "descr_trans": "实体进入"
+      },
+      {
+        "n": "1",
+        "descr": "place or thing entered",
+        "descr_trans": "输入的地点或事物"
+      }
+    ],
+    "roleset_name_trans": "进入，进入"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "reenter.02",
+    "roleset_name": "submit again, cause to enter again",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "submitter",
+        "descr_trans": "提交者"
+      },
+      {
+        "n": "1",
+        "descr": "thing submitted",
+        "descr_trans": "提交的东西"
+      },
+      {
+        "n": "2",
+        "descr": "submitted to",
+        "descr_trans": "提交给"
+      },
+      {
+        "n": "3",
+        "descr": "benefactive",
+        "descr_trans": "有益的"
+      }
+    ],
+    "roleset_name_trans": "再次提交，导致再次输入"
+  }
 ]

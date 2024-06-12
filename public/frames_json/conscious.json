@@ -1,28 +1,33 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "conscious.01",
-        "roleset_name": "knowing, aware of",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "aware, knowing one"
-            },
-            {
-                "n": "1",
-                "descr": "aware of, knowledge"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "conscious.02",
-        "roleset_name": "awake from a cognitive/medical standpoint",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "awake entity"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "conscious.01",
+    "roleset_name": "knowing, aware of",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "aware, knowing one",
+        "descr_trans": "知道，认识一个人"
+      },
+      {
+        "n": "1",
+        "descr": "aware of, knowledge",
+        "descr_trans": "意识到，知识"
+      }
+    ],
+    "roleset_name_trans": "知道，意识到"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "conscious.02",
+    "roleset_name": "awake from a cognitive/medical standpoint",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "awake entity",
+        "descr_trans": "清醒的实体"
+      }
+    ],
+    "roleset_name_trans": "从认知/医学的角度来看是清醒的"
+  }
 ]

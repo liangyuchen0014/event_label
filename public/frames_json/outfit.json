@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "outfit.01",
-        "roleset_name": "provide with equipment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "provider"
-            },
-            {
-                "n": "1",
-                "descr": "entity getting equipment"
-            },
-            {
-                "n": "2",
-                "descr": "equipment, outfit"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "outfit.01",
+    "roleset_name": "provide with equipment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "provider",
+        "descr_trans": "提供者"
+      },
+      {
+        "n": "1",
+        "descr": "entity getting equipment",
+        "descr_trans": "实体获得装备"
+      },
+      {
+        "n": "2",
+        "descr": "equipment, outfit",
+        "descr_trans": "装备、装备"
+      }
+    ],
+    "roleset_name_trans": "提供设备"
+  }
 ]

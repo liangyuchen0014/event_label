@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "chitchat.01",
-        "roleset_name": "chat idly",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "First or all speakers (where one constituent)"
-            },
-            {
-                "n": "1",
-                "descr": "topic of chitchat"
-            },
-            {
-                "n": "2",
-                "descr": "Second chatter (where separate constituents), or hearer"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "chitchat.01",
+    "roleset_name": "chat idly",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "First or all speakers (where one constituent)",
+        "descr_trans": "第一个或所有发言者（如果是一个选民）"
+      },
+      {
+        "n": "1",
+        "descr": "topic of chitchat",
+        "descr_trans": "闲聊的话题"
+      },
+      {
+        "n": "2",
+        "descr": "Second chatter (where separate constituents), or hearer",
+        "descr_trans": "第二个喋喋不休（单独的成分），或听者"
+      }
+    ],
+    "roleset_name_trans": "闲聊"
+  }
 ]

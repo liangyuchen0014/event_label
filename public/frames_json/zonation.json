@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "zonation.01",
-        "roleset_name": "appearing to have zones of color/texture/etc.",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of zonation"
-            },
-            {
-                "n": "1",
-                "descr": "entity having zones"
-            },
-            {
-                "n": "2",
-                "descr": "characteristic according to which the zones are divided"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "zonation.01",
+    "roleset_name": "appearing to have zones of color/texture/etc.",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of zonation",
+        "descr_trans": "分区的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity having zones",
+        "descr_trans": "具有区域的实体"
+      },
+      {
+        "n": "2",
+        "descr": "characteristic according to which the zones are divided",
+        "descr_trans": "划分区域的特征"
+      }
+    ],
+    "roleset_name_trans": "似乎有颜色/纹理/等区域。"
+  }
 ]

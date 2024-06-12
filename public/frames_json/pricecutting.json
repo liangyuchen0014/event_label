@@ -1,29 +1,35 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "pricecutting.01",
-        "roleset_name": "reduction",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "cutter"
-            },
-            {
-                "n": "1",
-                "descr": "thing reduced"
-            },
-            {
-                "n": "2",
-                "descr": "amount reduced by"
-            },
-            {
-                "n": "3",
-                "descr": "start point"
-            },
-            {
-                "n": "4",
-                "descr": "end point"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "pricecutting.01",
+    "roleset_name": "reduction",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "cutter",
+        "descr_trans": "刀具"
+      },
+      {
+        "n": "1",
+        "descr": "thing reduced",
+        "descr_trans": "东西减少了"
+      },
+      {
+        "n": "2",
+        "descr": "amount reduced by",
+        "descr_trans": "金额减少了"
+      },
+      {
+        "n": "3",
+        "descr": "start point",
+        "descr_trans": "起点"
+      },
+      {
+        "n": "4",
+        "descr": "end point",
+        "descr_trans": "终点"
+      }
+    ],
+    "roleset_name_trans": "减少"
+  }
 ]

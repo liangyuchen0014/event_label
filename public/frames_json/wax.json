@@ -1,47 +1,56 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "wax.01",
-        "roleset_name": "apply wax to",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, waxer"
-            },
-            {
-                "n": "1",
-                "descr": "thing waxed"
-            },
-            {
-                "n": "2",
-                "descr": "explicit mention of wax"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "wax.02",
-        "roleset_name": "grow",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "thing growing"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "wax.03",
-        "roleset_name": "become",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "topic"
-            },
-            {
-                "n": "2",
-                "descr": "description"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "wax.01",
+    "roleset_name": "apply wax to",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, waxer",
+        "descr_trans": "代理、打蜡剂"
+      },
+      {
+        "n": "1",
+        "descr": "thing waxed",
+        "descr_trans": "打蜡的东西"
+      },
+      {
+        "n": "2",
+        "descr": "explicit mention of wax",
+        "descr_trans": "明确提及蜡"
+      }
+    ],
+    "roleset_name_trans": "涂蜡"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "wax.02",
+    "roleset_name": "grow",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "thing growing",
+        "descr_trans": "东西生长"
+      }
+    ],
+    "roleset_name_trans": "生长"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "wax.03",
+    "roleset_name": "become",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "topic",
+        "descr_trans": "话题"
+      },
+      {
+        "n": "2",
+        "descr": "description",
+        "descr_trans": "描述"
+      }
+    ],
+    "roleset_name_trans": "变得"
+  }
 ]

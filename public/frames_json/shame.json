@@ -1,55 +1,66 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "shame.01",
-        "roleset_name": "impel through shame, assign shame as punishment",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity assigning shame/impelling through shame"
-            },
-            {
-                "n": "1",
-                "descr": "shamed/impelled agent"
-            },
-            {
-                "n": "2",
-                "descr": "action impelled through shame"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "shame.02",
-        "roleset_name": "bring shame to another by acting shamefully oneself, causing shame",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "shameful actor/actions bringing shame to arg1"
-            },
-            {
-                "n": "1",
-                "descr": "entity feeling shame for arg0"
-            },
-            {
-                "n": "2",
-                "descr": "shameful behavior/thing, if separate from arg0"
-            }
-        ]
-    },
-    {
-        "uid": 3,
-        "roleset_id": "shame.03",
-        "roleset_name": "unfortunate situation",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "unfortunate thing"
-            },
-            {
-                "n": "2",
-                "descr": "beneficiary of bad fortune"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "shame.01",
+    "roleset_name": "impel through shame, assign shame as punishment",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity assigning shame/impelling through shame",
+        "descr_trans": "实体分配羞耻/通过羞耻推动"
+      },
+      {
+        "n": "1",
+        "descr": "shamed/impelled agent",
+        "descr_trans": "羞耻/被迫代理人"
+      },
+      {
+        "n": "2",
+        "descr": "action impelled through shame",
+        "descr_trans": "因羞耻而采取的行动"
+      }
+    ],
+    "roleset_name_trans": "通过羞耻来推动，将羞耻作为惩罚"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "shame.02",
+    "roleset_name": "bring shame to another by acting shamefully oneself, causing shame",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "shameful actor/actions bringing shame to arg1",
+        "descr_trans": "可耻的演员/行为给 arg1 带来耻辱"
+      },
+      {
+        "n": "1",
+        "descr": "entity feeling shame for arg0",
+        "descr_trans": "实体对 arg0 感到羞耻"
+      },
+      {
+        "n": "2",
+        "descr": "shameful behavior/thing, if separate from arg0",
+        "descr_trans": "可耻的行为/事情，如果与 arg0 分开"
+      }
+    ],
+    "roleset_name_trans": "自己做出可耻的事，使他人蒙羞，造成耻辱"
+  },
+  {
+    "uid": 3,
+    "roleset_id": "shame.03",
+    "roleset_name": "unfortunate situation",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "unfortunate thing",
+        "descr_trans": "不幸的事"
+      },
+      {
+        "n": "2",
+        "descr": "beneficiary of bad fortune",
+        "descr_trans": "厄运的受益者"
+      }
+    ],
+    "roleset_name_trans": "不幸的情况"
+  }
 ]

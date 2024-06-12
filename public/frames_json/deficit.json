@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deficit.01",
-        "roleset_name": "lacking",
-        "roles": [
-            {
-                "n": "1",
-                "descr": "deficient entity"
-            },
-            {
-                "n": "2",
-                "descr": "thing lacked"
-            },
-            {
-                "n": "3",
-                "descr": "amount of arg1 lacked, if stated separately"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deficit.01",
+    "roleset_name": "lacking",
+    "roles": [
+      {
+        "n": "1",
+        "descr": "deficient entity",
+        "descr_trans": "有缺陷的实体"
+      },
+      {
+        "n": "2",
+        "descr": "thing lacked",
+        "descr_trans": "缺少的东西"
+      },
+      {
+        "n": "3",
+        "descr": "amount of arg1 lacked, if stated separately",
+        "descr_trans": "缺少的 arg1 数量（如果单独说明）"
+      }
+    ],
+    "roleset_name_trans": "不足"
+  }
 ]

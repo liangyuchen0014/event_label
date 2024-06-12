@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "deflesh.01",
-        "roleset_name": "remove flesh",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "remover"
-            },
-            {
-                "n": "1",
-                "descr": "victim"
-            },
-            {
-                "n": "2",
-                "descr": "flesh, thing removed"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "deflesh.01",
+    "roleset_name": "remove flesh",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "remover",
+        "descr_trans": "去除剂"
+      },
+      {
+        "n": "1",
+        "descr": "victim",
+        "descr_trans": "受害者"
+      },
+      {
+        "n": "2",
+        "descr": "flesh, thing removed",
+        "descr_trans": "肉体，被移除的东西"
+      }
+    ],
+    "roleset_name_trans": "去除肉"
+  }
 ]

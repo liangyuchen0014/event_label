@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "warn.01",
-        "roleset_name": "give a warning",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity giving warning"
-            },
-            {
-                "n": "1",
-                "descr": "warning, impelled action"
-            },
-            {
-                "n": "2",
-                "descr": "entity getting warning, impelled agent"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "warn.01",
+    "roleset_name": "give a warning",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity giving warning",
+        "descr_trans": "发出警告的实体"
+      },
+      {
+        "n": "1",
+        "descr": "warning, impelled action",
+        "descr_trans": "警告、强制行动"
+      },
+      {
+        "n": "2",
+        "descr": "entity getting warning, impelled agent",
+        "descr_trans": "实体收到警告，强制代理人"
+      }
+    ],
+    "roleset_name_trans": "示警"
+  }
 ]

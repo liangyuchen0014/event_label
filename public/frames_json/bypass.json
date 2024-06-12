@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "bypass.01",
-        "roleset_name": "avoid, go around",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "thing going around"
-            },
-            {
-                "n": "1",
-                "descr": "thing gone around"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "bypassable.02",
-        "roleset_name": "able to be gone around",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity going around"
-            },
-            {
-                "n": "1",
-                "descr": "thing that can be gone around"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "bypass.01",
+    "roleset_name": "avoid, go around",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "thing going around",
+        "descr_trans": "周围发生的事情"
+      },
+      {
+        "n": "1",
+        "descr": "thing gone around",
+        "descr_trans": "周围的事情"
+      }
+    ],
+    "roleset_name_trans": "避开，绕过"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "bypassable.02",
+    "roleset_name": "able to be gone around",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity going around",
+        "descr_trans": "实体四处走动"
+      },
+      {
+        "n": "1",
+        "descr": "thing that can be gone around",
+        "descr_trans": "可以走动的东西"
+      }
+    ],
+    "roleset_name_trans": "能够走动"
+  }
 ]

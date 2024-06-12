@@ -1,40 +1,48 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "mate.01",
-        "roleset_name": "pair, join, match",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "joiner"
-            },
-            {
-                "n": "1",
-                "descr": "first thing, or both things"
-            },
-            {
-                "n": "2",
-                "descr": "second thing, if separate"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "mate.02",
-        "roleset_name": "copulate",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "outside agent"
-            },
-            {
-                "n": "1",
-                "descr": "first party (or all parties)"
-            },
-            {
-                "n": "2",
-                "descr": "second party"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "mate.01",
+    "roleset_name": "pair, join, match",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "joiner",
+        "descr_trans": "细木工"
+      },
+      {
+        "n": "1",
+        "descr": "first thing, or both things",
+        "descr_trans": "第一件事，或两件事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing, if separate",
+        "descr_trans": "第二件事，如果分开的话"
+      }
+    ],
+    "roleset_name_trans": "配对、加入、匹配"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "mate.02",
+    "roleset_name": "copulate",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "outside agent",
+        "descr_trans": "外部代理"
+      },
+      {
+        "n": "1",
+        "descr": "first party (or all parties)",
+        "descr_trans": "第一方（或所有各方）"
+      },
+      {
+        "n": "2",
+        "descr": "second party",
+        "descr_trans": "第二方"
+      }
+    ],
+    "roleset_name_trans": "媾"
+  }
 ]

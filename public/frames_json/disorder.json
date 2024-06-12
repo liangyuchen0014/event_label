@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "disorder.01",
-        "roleset_name": "have a disorder",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of disorder"
-            },
-            {
-                "n": "1",
-                "descr": "entity with a disorder"
-            },
-            {
-                "n": "2",
-                "descr": "topic (disorder is relevant to what-- typical a body part)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "disorder.01",
+    "roleset_name": "have a disorder",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of disorder",
+        "descr_trans": "造成混乱的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity with a disorder",
+        "descr_trans": "有障碍的实体"
+      },
+      {
+        "n": "2",
+        "descr": "topic (disorder is relevant to what-- typical a body part)",
+        "descr_trans": "主题（障碍与典型的身体部位相关）"
+      }
+    ],
+    "roleset_name_trans": "有疾病"
+  }
 ]

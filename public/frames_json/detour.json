@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "detour.01",
-        "roleset_name": "travel out of one's way, by detour",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, causer of detouring"
-            },
-            {
-                "n": "1",
-                "descr": "entity put off original path"
-            },
-            {
-                "n": "2",
-                "descr": "detour itself, new path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "detour.01",
+    "roleset_name": "travel out of one's way, by detour",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, causer of detouring",
+        "descr_trans": "代理人，绕道的原因"
+      },
+      {
+        "n": "1",
+        "descr": "entity put off original path",
+        "descr_trans": "实体推迟原来的路径"
+      },
+      {
+        "n": "2",
+        "descr": "detour itself, new path",
+        "descr_trans": "绕行自己，开辟新路"
+      }
+    ],
+    "roleset_name_trans": "绕道而行"
+  }
 ]

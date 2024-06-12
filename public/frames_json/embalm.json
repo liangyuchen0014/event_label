@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "embalm.01",
-        "roleset_name": "preserve in chemicals or memory",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "causer of preservation, embalmer"
-            },
-            {
-                "n": "1",
-                "descr": "thing preserved, embalmed"
-            },
-            {
-                "n": "2",
-                "descr": "Preserved in or with what? Instrument or Manner"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "embalm.01",
+    "roleset_name": "preserve in chemicals or memory",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "causer of preservation, embalmer",
+        "descr_trans": "保存者，防腐者"
+      },
+      {
+        "n": "1",
+        "descr": "thing preserved, embalmed",
+        "descr_trans": "保存、防腐的东西"
+      },
+      {
+        "n": "2",
+        "descr": "Preserved in or with what? Instrument or Manner",
+        "descr_trans": "保存在什么中或用什么保存？仪器或方式"
+      }
+    ],
+    "roleset_name_trans": "保存在化学品或记忆中"
+  }
 ]

@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "indulge.01",
-        "roleset_name": "allow a luxury",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "allower"
-            },
-            {
-                "n": "1",
-                "descr": "luxury"
-            },
-            {
-                "n": "2",
-                "descr": "recipient (us. reflexive)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "indulge.01",
+    "roleset_name": "allow a luxury",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "allower",
+        "descr_trans": "允许者"
+      },
+      {
+        "n": "1",
+        "descr": "luxury",
+        "descr_trans": "奢华"
+      },
+      {
+        "n": "2",
+        "descr": "recipient (us. reflexive)",
+        "descr_trans": "接收者（我们。反身）"
+      }
+    ],
+    "roleset_name_trans": "允许奢侈"
+  }
 ]

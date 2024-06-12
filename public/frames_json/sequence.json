@@ -1,48 +1,58 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "sequence.01",
-        "roleset_name": "cause to be in a specific order",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "arranger, agent"
-            },
-            {
-                "n": "1",
-                "descr": "things put in order or first element"
-            },
-            {
-                "n": "2",
-                "descr": "second or subsequent element"
-            },
-            {
-                "n": "3",
-                "descr": "domain of ordering"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "sequence.02",
-        "roleset_name": "discover the order of constituents",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent"
-            },
-            {
-                "n": "1",
-                "descr": "genome, or the entire group of constituents in a sequence"
-            },
-            {
-                "n": "2",
-                "descr": "organism the genome belongs to"
-            },
-            {
-                "n": "3",
-                "descr": "specific genes (or constituents) looked at within arg1"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "sequence.01",
+    "roleset_name": "cause to be in a specific order",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "arranger, agent",
+        "descr_trans": "安排人、代理人"
+      },
+      {
+        "n": "1",
+        "descr": "things put in order or first element",
+        "descr_trans": "事物按顺序排列或第一个元素"
+      },
+      {
+        "n": "2",
+        "descr": "second or subsequent element",
+        "descr_trans": "第二个或后续元素"
+      },
+      {
+        "n": "3",
+        "descr": "domain of ordering",
+        "descr_trans": "排序域"
+      }
+    ],
+    "roleset_name_trans": "导致按特定顺序"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "sequence.02",
+    "roleset_name": "discover the order of constituents",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent",
+        "descr_trans": "代理人"
+      },
+      {
+        "n": "1",
+        "descr": "genome, or the entire group of constituents in a sequence",
+        "descr_trans": "基因组，或序列中的整个成分组"
+      },
+      {
+        "n": "2",
+        "descr": "organism the genome belongs to",
+        "descr_trans": "基因组所属的生物体"
+      },
+      {
+        "n": "3",
+        "descr": "specific genes (or constituents) looked at within arg1",
+        "descr_trans": "在 arg1 中查看特定基因（或成分）"
+      }
+    ],
+    "roleset_name_trans": "发现成分的顺序"
+  }
 ]

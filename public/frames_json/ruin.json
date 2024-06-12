@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "ruin.01",
-        "roleset_name": "destroy",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ruiner"
-            },
-            {
-                "n": "1",
-                "descr": "ruined thing"
-            },
-            {
-                "n": "2",
-                "descr": "attribute of arg1 that is being ruined (if in addition to arg1)"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "ruin.01",
+    "roleset_name": "destroy",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ruiner",
+        "descr_trans": "废墟"
+      },
+      {
+        "n": "1",
+        "descr": "ruined thing",
+        "descr_trans": "毁掉的东西"
+      },
+      {
+        "n": "2",
+        "descr": "attribute of arg1 that is being ruined (if in addition to arg1)",
+        "descr_trans": "被破坏的 arg1 属性（如果除了 arg1 之外）"
+      }
+    ],
+    "roleset_name_trans": "破坏"
+  }
 ]

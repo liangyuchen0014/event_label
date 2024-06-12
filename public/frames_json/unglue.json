@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "unglue.01",
-        "roleset_name": "unglue",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "ungluer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "thing unglued, patient"
-            },
-            {
-                "n": "2",
-                "descr": "unglued from, source"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "unglue.01",
+    "roleset_name": "unglue",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "ungluer, agent",
+        "descr_trans": "脱胶剂、代理"
+      },
+      {
+        "n": "1",
+        "descr": "thing unglued, patient",
+        "descr_trans": "东西脱胶了，耐心"
+      },
+      {
+        "n": "2",
+        "descr": "unglued from, source",
+        "descr_trans": "脱离来源"
+      }
+    ],
+    "roleset_name_trans": "脱胶"
+  }
 ]

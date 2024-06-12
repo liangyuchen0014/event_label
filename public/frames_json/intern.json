@@ -1,44 +1,53 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "intern.01",
-        "roleset_name": "work as an intern",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intern"
-            },
-            {
-                "n": "1",
-                "descr": "employer"
-            },
-            {
-                "n": "2",
-                "descr": "specific job description"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "intern.02",
-        "roleset_name": "imprison, usually unlawfully",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "authority"
-            },
-            {
-                "n": "1",
-                "descr": "prisoner"
-            },
-            {
-                "n": "2",
-                "descr": "term"
-            },
-            {
-                "n": "3",
-                "descr": "cause of internment"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "intern.01",
+    "roleset_name": "work as an intern",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intern",
+        "descr_trans": "实习生"
+      },
+      {
+        "n": "1",
+        "descr": "employer",
+        "descr_trans": "雇主"
+      },
+      {
+        "n": "2",
+        "descr": "specific job description",
+        "descr_trans": "具体工作描述"
+      }
+    ],
+    "roleset_name_trans": "实习生"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "intern.02",
+    "roleset_name": "imprison, usually unlawfully",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "authority",
+        "descr_trans": "权威"
+      },
+      {
+        "n": "1",
+        "descr": "prisoner",
+        "descr_trans": "囚犯"
+      },
+      {
+        "n": "2",
+        "descr": "term",
+        "descr_trans": "学期"
+      },
+      {
+        "n": "3",
+        "descr": "cause of internment",
+        "descr_trans": "拘留原因"
+      }
+    ],
+    "roleset_name_trans": "监禁，通常是非法的"
+  }
 ]

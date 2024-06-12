@@ -1,32 +1,38 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "circuit.01",
-        "roleset_name": "field",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "tourist"
-            },
-            {
-                "n": "1",
-                "descr": "topic, thing toured"
-            }
-        ]
-    },
-    {
-        "uid": 2,
-        "roleset_id": "circuit.02",
-        "roleset_name": "to move in a circle",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "entity moving"
-            },
-            {
-                "n": "1",
-                "descr": "location/path"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "circuit.01",
+    "roleset_name": "field",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "tourist",
+        "descr_trans": "游客"
+      },
+      {
+        "n": "1",
+        "descr": "topic, thing toured",
+        "descr_trans": "主题、游览的事物"
+      }
+    ],
+    "roleset_name_trans": "场地"
+  },
+  {
+    "uid": 2,
+    "roleset_id": "circuit.02",
+    "roleset_name": "to move in a circle",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "entity moving",
+        "descr_trans": "实体移动"
+      },
+      {
+        "n": "1",
+        "descr": "location/path",
+        "descr_trans": "位置/路径"
+      }
+    ],
+    "roleset_name_trans": "绕圈移动"
+  }
 ]

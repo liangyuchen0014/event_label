@@ -1,17 +1,20 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "debug.01",
-        "roleset_name": "remove faults from",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "debugger"
-            },
-            {
-                "n": "1",
-                "descr": "software, machine"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "debug.01",
+    "roleset_name": "remove faults from",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "debugger",
+        "descr_trans": "调试器"
+      },
+      {
+        "n": "1",
+        "descr": "software, machine",
+        "descr_trans": "软件、机器"
+      }
+    ],
+    "roleset_name_trans": "排除故障"
+  }
 ]

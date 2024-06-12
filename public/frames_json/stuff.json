@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "stuff.01",
-        "roleset_name": "to pack or place",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "packer, agent"
-            },
-            {
-                "n": "1",
-                "descr": "container"
-            },
-            {
-                "n": "2",
-                "descr": "substance"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "stuff.01",
+    "roleset_name": "to pack or place",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "packer, agent",
+        "descr_trans": "包装工、代理商"
+      },
+      {
+        "n": "1",
+        "descr": "container",
+        "descr_trans": "容器"
+      },
+      {
+        "n": "2",
+        "descr": "substance",
+        "descr_trans": "物质"
+      }
+    ],
+    "roleset_name_trans": "包装或放置"
+  }
 ]

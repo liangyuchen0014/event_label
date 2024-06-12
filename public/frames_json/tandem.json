@@ -1,25 +1,30 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "tandem.01",
-        "roleset_name": "adjoin two objects",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "agent, entity doing the tying"
-            },
-            {
-                "n": "1",
-                "descr": "first thing joined"
-            },
-            {
-                "n": "2",
-                "descr": "second thing (if seperate from arg 1)"
-            },
-            {
-                "n": "3",
-                "descr": "instrument, string"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "tandem.01",
+    "roleset_name": "adjoin two objects",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "agent, entity doing the tying",
+        "descr_trans": "代理、搭售实体"
+      },
+      {
+        "n": "1",
+        "descr": "first thing joined",
+        "descr_trans": "加入的第一件事"
+      },
+      {
+        "n": "2",
+        "descr": "second thing (if seperate from arg 1)",
+        "descr_trans": "第二件事（如果与arg 1分开）"
+      },
+      {
+        "n": "3",
+        "descr": "instrument, string",
+        "descr_trans": "乐器、弦乐"
+      }
+    ],
+    "roleset_name_trans": "相邻两个对象"
+  }
 ]

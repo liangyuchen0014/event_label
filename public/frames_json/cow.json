@@ -1,21 +1,25 @@
 [
-    {
-        "uid": 1,
-        "roleset_id": "cow.01",
-        "roleset_name": "to make timid and submissive",
-        "roles": [
-            {
-                "n": "0",
-                "descr": "intimidating entity"
-            },
-            {
-                "n": "1",
-                "descr": "entity intimidated"
-            },
-            {
-                "n": "2",
-                "descr": "Manner or Instrument if separate from Arg 0"
-            }
-        ]
-    }
+  {
+    "uid": 1,
+    "roleset_id": "cow.01",
+    "roleset_name": "to make timid and submissive",
+    "roles": [
+      {
+        "n": "0",
+        "descr": "intimidating entity",
+        "descr_trans": "令人生畏的实体"
+      },
+      {
+        "n": "1",
+        "descr": "entity intimidated",
+        "descr_trans": "实体受到恐吓"
+      },
+      {
+        "n": "2",
+        "descr": "Manner or Instrument if separate from Arg 0",
+        "descr_trans": "方式或工具（如果与 Arg 0 分开）"
+      }
+    ],
+    "roleset_name_trans": "使胆怯和顺从"
+  }
 ]
