@@ -11,7 +11,7 @@
           <span style="font-size: 20px;">事件片段列表</span>
         </div>
         <div style="display: flex">
-          <el-table :data="originalVideoLabel['clip']" @row-click="eventRevise" ref="EventsRef" :key="boolUpdate"
+          <el-table :data="originalVideoLabel['clip']" @row-click="eventRevise" ref="EventsRef" :key="boolUpdate" stripe
             :header-cell-style="{ 'text-align': 'center' }" style="cursor:pointer;margin:0 5px 0 5px;">
             <el-table-column prop="clipID" label="片段ID" align="center">
             </el-table-column>
@@ -29,14 +29,14 @@
 
 
     <el-container>
-      <el-main>
+      <el-main style="padding:0px">
         <el-row>
           <el-card shadow="always" style="margin: 10px;">
             <div slot="header">
               <span style="font-size: 20px;">选择释义</span>
             </div>
             <div style="display: flex">
-              <el-table :data="paraphraseList" :header-cell-style="{ 'text-align': 'center' }"
+              <el-table :data="paraphraseList" :header-cell-style="{ 'text-align': 'center' }" stripe
                 @row-click="updateParaphrase" style="cursor:pointer;margin:0 5px 0 5px;">
                 <el-table-column prop="roleset_id" label="释义ID" align="center">
                 </el-table-column>
@@ -49,13 +49,13 @@
           </el-card>
         </el-row>
         <el-row>
-          <el-col :span="9">
+          <el-col :span="10">
             <el-card shadow="always" style="margin: 10px;">
               <div slot="header">
                 <span style="font-size: 20px;">原标注</span>
               </div>
               <div style="display: flex">
-                <el-table :data="revisingEvent" :header-cell-style="{ 'text-align': 'center' }">
+                <el-table :data="revisingEvent" :header-cell-style="{ 'text-align': 'center' }" stripe>
                   <el-table-column prop="argID" label="论元属性" width="100" align="center">
                   </el-table-column>
                   <el-table-column prop="value" label="值" align="center">
@@ -66,13 +66,13 @@
               </div>
             </el-card>
           </el-col>
-          <el-col :span="15">
+          <el-col :span="14">
             <el-card shadow="always" style="margin: 10px;">
               <div slot="header">
                 <span style="font-size: 20px;">新标注</span>
               </div>
               <div style="display: flex">
-                <el-table :data="newEvent" :header-cell-style="{ 'text-align': 'center' }">
+                <el-table :data="newEvent" :header-cell-style="{ 'text-align': 'center' }" stripe>
                   <el-table-column prop="argID" label="论元属性" width="100" align="center">
                   </el-table-column>
                   <el-table-column prop="descr" label="英文描述(以此为准)" align="center">
@@ -129,6 +129,8 @@ export default {
           i['isRevised'] = '否';
         });
         this.revisedEvents = [];
+        this.revisingEvent = [];
+        this.revisingEventArgumentValue = [];
       }
     },
 
@@ -201,6 +203,9 @@ export default {
      * @param {any} motion - 动词。The value to update the event option with.
      */
     updateEventOption(motion) {
+      this.paraphraseList = []
+      //去掉motion结尾的空白字符串或换行符
+      motion = motion.trim();
       fetch(`${process.env.BASE_URL}frames_json/${motion}.json`)
         .then(response => {
           if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
@@ -211,7 +216,26 @@ export default {
         })
         .catch(error => {
           console.error('Error fetching and parsing JSON file:', error);
+          //弹出提示框“没有检索到{$motion}对应的动词，请选择更合适的动词”，并弹出输入框，让用户输入正确的动词
+          this.$prompt(`没有检索到${motion}对应的动词，请选择更合适的动词`, '提示', {
+            confirmButtonText: '确定',
+            cancelButtonText: '取消',
+            inputPattern: /\S/,
+            inputErrorMessage: '动词不能为空'
+          }).then(({ value }) => {
+            Vue.set(this.originalVideoLabel['clip'][this.revisingEventID - 1], 'event', value);
+            this.boolUpdate = !this.boolUpdate;
+            this.updateEventOption(value);
+          }).catch(() => {
+            this.$message({
+              type: 'info',
+              message: '取消输入'
+            });
+          });
         });
+
+
+
     },
     updateParaphrase(row) {
       const uid_value = row['uid'];
@@ -315,7 +339,7 @@ export default {
         }
       });
       this.newEvent.forEach(arg => {
-        arg['value'] = arg['value'].split('：')[1];
+        arg['value'] = arg['value'].split('：')[1].trim();
       });
       this.revisedEvents[this.revisingEventID] = this.newEvent;
       Vue.set(this.originalVideoLabel['clip'][this.revisingEventID - 1], 'isRevised', '是');
