@@ -339,7 +339,7 @@ export default {
         }
       });
       this.newEvent.forEach(arg => {
-        arg['value'] = arg['value'].split('：')[1].trim();
+        arg['value'] = arg['value'].split('：')[1];
       });
       this.revisedEvents[this.revisingEventID] = this.newEvent;
       Vue.set(this.originalVideoLabel['clip'][this.revisingEventID - 1], 'isRevised', '是');
